@@ -1,0 +1,27 @@
+= true and RunService:IsStudio())
+end)
+local leaveEvent = events:FindFirstChild("LeaveArena")
+if not leaveEvent then
+	leaveEvent = Instance.new("BindableEvent")
+	leaveEvent.Name = "LeaveArena"
+	leaveEvent.Parent = events
+end
+leaveEvent.Event:Connect(leaveArena)
+UserInputService.InputBegan:Connect(function(input, processed)
+	if not processed and RunService:IsStudio() and input.KeyCode == Enum.KeyCode.F6 then
+		enterArena(ArenaConfig.arenaName, true)
+	end
+end)
+setPhase("Lobby")
+
+if RunService:IsStudio() and workspace:GetAttribute("StudioQuickRoundOnPlay") then
+	task.spawn(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		character:WaitForChild("HumanoidRootPart")
+		task.wait(1.5)
+		enterArena(ArenaConfig.arenaName, true)
+	end)
+end
+
+
+

@@ -1,0 +1,104 @@
+local RS=game:GetService("ReplicatedStorage")
+local clone=RS.PlayerData:Clone()
+clone.Name="ArenaDataCheck"
+clone.Parent=RS
+local data=require(clone)
+local initialCash=data.coins()
+data.recordResult("Tenkaichi",true)
+assert(data.coins()==initialCash)
+data.recordResult("Tenkaichi",true)
+assert(data.coins()==initialCash+1000)
+data.recordResult("Tenkaichi",false)
+assert(data.arenaProgress("Tenkaichi").progressWins==1)
+assert(data.arenaProgress("Tenkaichi").claimed[20])
+for _=1,3 do data.recordResult("Tenkaichi",true) end
+assert(data.coins()==initialCash+1000)
+assert(data.unitUnlockState("Bluma")=="unlockable")
+for _=1,6 do data.recordResult("Tenkaichi",true) end
+assert(data.arenaProgress("Tenkaichi").completed)
+assert(data.gems()==110)
+assert(data.unitUnlockState("Pikkolo")=="unlockable")
+data.recordResult("Tenkaichi",false)
+assert(data.arenaProgress("Tenkaichi").completed and data.arenaProgress("Tenkaichi").claimed[100])
+for i=1,4 do assert(data.grantDailyWinPack()==(i==4 and "silver" or "bronze")) end
+assert(data.grantDailyWinPack()==nil)
+assert(#data.get("dailyWin").pending==4)
+assert(data.consumeDailyPack()=="bronze")
+assert(data.dailyWinRewards()[1].claimed)
+local dw=data.get("dailyWin")
+dw.day-=1
+assert(data.dailyWinPacksRemaining()==4)
+assert(data.pendingDailyPack()~=nil)
+assert(data.grantDailyWinPack()=="bronze")
+for _=1,4 do assert(data.consumeDailyPack()~=nil) end
+assert(data.pendingDailyPack()==nil)
+assert(data.consumeDailyPack()==nil)
+clone:Destroy()
+print("ARENA_DATA_PASS: milestone thresholds, no duplicate/revoked rewards, permanent completion, daily cap, midnight reset and pending claims")
+
+local pg=game.Players.LocalPlayer:WaitForChild("PlayerGui")
+local mode=require(RS.ModePickerUI)
+mode.build(pg)
+local ui=require(RS.ArenaSelectionUI)
+local live=require(RS.PlayerData)
+task.wait(3)
+ui.open(pg)
+local board=pg.ArenaSelectGui.Board
+local original={}
+for _,o in ipairs(board:GetDescendants()) do
+ if o:IsA("GuiObject") and o.Name~="FillClip" and o.Name~="LossClip" then original[o]={o.Position,o.Size} end
+end
+ui.nextArena()
+assert(board.Locked.Visible and not board.Action.Interactable)
+ui.nextArena()
+ui.back()
+task.wait(.3)
+assert(pg.ModePickerGui.Enabled and not pg.ArenaSelectGui.Enabled)
+ui.open(pg)
+for _=1,4 do live.recordResult("Tenkaichi",true) end
+live.grantDailyWinPack()
+task.wait(1)
+assert(board.ProgressText.Text=="4/10")
+assert(board.Milestones.Reward1.Check.Visible and board.Milestones.Reward2.Check.Visible)
+assert(not board.Milestones.Reward3.Check.Visible)
+assert(board.DailyRewards.Reward1.Check.Visible)
+assert(pg.ArenaSelectGui:GetAttribute("Action")=="Claim")
+local hook=Instance.new("BindableEvent")
+hook.Name="ArenaSelectionCheck";hook.Parent=pg
+hook.Event:Connect(function(action)
+ if action=="claim" then
+  assert(ui.activate())
+  assert(not ui.activate())
+  task.wait(.5)
+  require(RS.PackReveal).skip()
+  require(RS.PackReveal).close()
+  task.wait(.3)
+  assert(pg.ArenaSelectGui.Enabled)
+  assert(pg.ArenaSelectGui:GetAttribute("Action")=="Battle")
+  assert(not board.DailyRewards.Reward1.Check.Visible)
+  assert(live.pendingDailyPack()==nil)
+  print("ARENA_CLAIM_PASS: one claim consumed, repeat blocked, Battle restored")
+ elseif action=="loss" then
+  live.recordResult("Tenkaichi",false)
+  task.wait(.8)
+  assert(board.ProgressText.Text=="3/10")
+  assert(board.Milestones.Reward2.Check.Visible)
+  print("ARENA_LOSS_PASS: bar regresses while earned milestone stays checked")
+ elseif action=="next" then ui.nextArena()
+ elseif action=="back" then ui.back()
+ elseif action=="open" then ui.open(pg)
+ end
+end)
+for o,before in pairs(original) do assert(o.Position==before[1] and o.Size==before[2],o.Name.." geometry changed") end
+local loaded=0
+for _,o in ipairs(board:GetDescendants()) do if (o:IsA("ImageLabel") or o:IsA("ImageButton")) and o.IsLoaded then loaded+=1 end end
+print("ARENA_UI_PASS: back/next, four-win display, daily earned badge, Claim state, geometry preserved; loaded images "..loaded)
+
+assert(live.pendingDailyPack(), "Expected pending daily pack before entry guard")
+local activeBefore=game.Players.LocalPlayer:GetAttribute("ActiveArena")
+RS.ArenaEvents.EnterArena:Fire("Arena_Tenkaichi",true)
+task.wait(.5)
+assert(live.pendingDailyPack(), "Entry unexpectedly consumed daily pack")
+assert(game.Players.LocalPlayer:GetAttribute("ActiveArena")==activeBefore, "Entry guard failed")
+assert(pg.ArenaSelectGui.Enabled and pg.ArenaSelectGui:GetAttribute("Action")=="Claim")
+print("ARENA_GUARD_PASS: pending daily pack blocks lobby battle entry")

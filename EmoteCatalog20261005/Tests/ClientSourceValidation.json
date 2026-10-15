@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "forwardingChecks": 11,
+  "priorBatToyDodgeBotFunctionsUnchanged": true,
+  "ContentProviderRequired": false,
+  "sourceSHA256": {
+    "PlaygroundEmotes.client.luau": "d16276e61d2ebd9f64339dab6838ff91886c65e66de7351254ec008e21c2d75d",
+    "PlaygroundPodiumController.client.luau": "79f713720d226e2f8a6e0645c324d73746a8f112eb62d069296220ce53b793e7"
+  }
+}

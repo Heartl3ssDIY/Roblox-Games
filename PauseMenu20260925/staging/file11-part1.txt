@@ -1,0 +1,84 @@
+ttackAnimator.setWalking(unit.model, false)
+			end
+		end
+	end
+	for unit, amount in pairs(damage) do
+		unit.hp = math.max(0, unit.hp - amount)
+		unit.model:SetAttribute("Health", unit.hp)
+		local humanoid = unit.model:FindFirstChildOfClass("Humanoid")
+		if humanoid then humanoid.Health = math.max(0.01, unit.hp) end
+		if unit.hp == 0 then defeat(unit) end
+	end
+	session.arena:SetAttribute("CombatAttacks", session.attacks)
+end
+
+local function result(session)
+	local count = { player = 0, opponent = 0 }
+	local health = { player = 0, opponent = 0 }
+	local starting = { player = 0, opponent = 0 }
+	for _, unit in ipairs(session.units) do
+		starting[unit.side] += unit.maxHp
+		if alive(unit) then
+			count[unit.side] += 1
+			health[unit.side] += unit.hp
+		end
+	end
+	if count.player == 0 or count.opponent == 0 then
+		return true, count.player > 0 and "player" or (count.opponent > 0 and "opponent" or nil)
+	end
+	if session.elapsed < session.limit then return false end
+	local playerHealth = health.player / math.max(1, starting.player)
+	local opponentHealth = health.opponent / math.max(1, starting.opponent)
+	if math.abs(playerHealth - opponentHealth) < 0.001 then return true, nil end
+	return true, playerHealth > opponentHealth and "player" or "opponent"
+end
+
+function CombatController.cancel()
+	if active then
+		if active.connection then active.connection:Disconnect() end
+		if active.effects then active.effects:Destroy() end
+		active = nil
+	end
+	AttackAnimator.stopAll()
+end
+
+function CombatController.run(onEnd, options)
+	CombatController.cancel()
+	options = options or {}
+	local arena = ArenaConfig.getArena()
+	local folder = arena and arena:FindFirstChild("DeployedUnits")
+	if not folder then task.defer(onEnd, nil) return end
+	local session = { arena = arena, units = {}, elapsed = 0, accumulator = 0, attacks = 0, limit = options.timeLimit or 30 }
+	session.effects = Instance.new("Folder")
+	session.effects.Name = "CombatEffects"
+	session.effects.Parent = arena
+	for _, model in ipairs(folder:GetChildren()) do
+		local unit = makeUnit(model)
+		if unit then table.insert(session.units, unit) end
+	end
+	table.sort(session.units, function(a, b) return a.model:GetAttribute("SpawnIndex") < b.model:GetAttribute("SpawnIndex") end)
+	active = session
+	arena:SetAttribute("CombatAttacks", 0)
+	session.connection = RunService.Heartbeat:Connect(function(dt)
+		if active ~= session then return end
+		if not folder.Parent or (options.isCurrent and not options.isCurrent()) then
+			CombatController.cancel()
+			return
+		end
+		session.elapsed += dt
+		session.accumulator += dt
+		if session.accumulator < 0.1 then return end
+		local step = math.min(session.accumulator, 0.2)
+		session.accumulator = 0
+		stepCombat(session, step)
+		local finished, winner = result(session)
+		if finished then
+			CombatController.cancel()
+			arena:SetAttribute("LastRoundWinner", winner or "draw")
+			task.defer(onEnd, winner)
+		end
+	end)
+end
+
+return CombatController
+

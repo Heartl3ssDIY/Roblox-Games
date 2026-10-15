@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-14",
+  "reportedEnvironment": "Published Roblox game",
+  "confirmedRootCause": "Current Studio starts successfully; published-only failure cause not observable. Code audit confirmed cached false readiness can permanently gate all admin starts.",
+  "changes": [
+    "Refresh and publish weapon access once per second and on both round/practice starts.",
+    "Report specific missing, disabled or access-denied gun reason.",
+    "Allow authorized admins to retry starts while server validation still rejects unavailable guns.",
+    "Display exact server readiness error in existing copyable error details panel."
+  ],
+  "tests": {
+    "disabled": {
+      "error": "Laser Tag blasters: Disabled blaster: HeatGun. Enable its Tool template.",
+      "ready": false
+    },
+    "retry": {
+      "ok": false,
+      "status": "Blasters unavailable · tap Start for details",
+      "message": "Laser Tag blasters: Disabled blaster: HeatGun. Enable its Tool template.",
+      "buttons": {
+        "MudMedic": true,
+        "MudShooter": true,
+        "MudStart": true
+      }
+    },
+    "recovered": {
+      "error": "",
+      "ready": true
+    },
+    "start": {
+      "ok": true,
+      "message": "Starting your game.",
+      "phase": "Countdown",
+      "mode": "PracticeBlue",
+      "equipped": true,
+      "gunReady": true
+    },
+    "console": "Laser Tag: Laser Tag blasters: Disabled blaster: HeatGun. Enable its Tool template."
+  },
+  "installedInStudio": true,
+  "published": false,
+  "playStopped": true,
+  "noPermissionsChanged": true
+}

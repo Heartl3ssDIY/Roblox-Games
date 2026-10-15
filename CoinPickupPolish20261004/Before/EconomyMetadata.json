@@ -1,0 +1,6 @@
+{
+  "Capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+  "Sandboxed": true,
+  "Path": "ServerScriptService.PlaygroundEconomyService",
+  "sourceCharacters": 30635
+}

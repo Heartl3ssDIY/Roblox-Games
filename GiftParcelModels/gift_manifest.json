@@ -1,0 +1,774 @@
+{
+  "models": [
+    {
+      "name": "Rose",
+      "model": "Gift_Rose",
+      "file": "Gift_Rose.fbx",
+      "bodySizeRoblox": [
+        1.5,
+        1.35,
+        1.35
+      ],
+      "boundsRoblox": [
+        1.5359997749328613,
+        1.684999942779541,
+        1.3859999775886536
+      ],
+      "triangles": 912,
+      "parts": [
+        {
+          "name": "GiftRose_Body",
+          "part": "Body",
+          "rgb": [
+            218,
+            65,
+            87
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftRose_Lid",
+          "part": "Lid",
+          "rgb": [
+            223,
+            82,
+            103
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftRose_Ribbon",
+          "part": "Ribbon",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48
+        },
+        {
+          "name": "GiftRose_LidRibbon",
+          "part": "LidRibbon",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 72
+        },
+        {
+          "name": "GiftRose_Print",
+          "part": "Print",
+          "rgb": [
+            230,
+            131,
+            145
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 288
+        },
+        {
+          "name": "GiftRose_Tails",
+          "part": "Tails",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 32
+        },
+        {
+          "name": "GiftRose_Bow",
+          "part": "Bow",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 384
+        },
+        {
+          "name": "GiftRose_Knot",
+          "part": "Knot",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftRose_Tag",
+          "part": "Tag",
+          "rgb": [
+            246,
+            235,
+            210
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 16
+        },
+        {
+          "name": "GiftRose_TagInk",
+          "part": "TagInk",
+          "rgb": [
+            218,
+            65,
+            87
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36
+        }
+      ]
+    },
+    {
+      "name": "Sky",
+      "model": "Gift_Sky",
+      "file": "Gift_Sky.fbx",
+      "bodySizeRoblox": [
+        1.85,
+        0.8,
+        1.3
+      ],
+      "boundsRoblox": [
+        1.8860000371932983,
+        1.1349999904632568,
+        1.335999846458435
+      ],
+      "triangles": 912,
+      "parts": [
+        {
+          "name": "GiftSky_Body",
+          "part": "Body",
+          "rgb": [
+            64,
+            169,
+            222
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftSky_Lid",
+          "part": "Lid",
+          "rgb": [
+            81,
+            178,
+            227
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftSky_Ribbon",
+          "part": "Ribbon",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48
+        },
+        {
+          "name": "GiftSky_LidRibbon",
+          "part": "LidRibbon",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 72
+        },
+        {
+          "name": "GiftSky_Print",
+          "part": "Print",
+          "rgb": [
+            130,
+            198,
+            233
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 288
+        },
+        {
+          "name": "GiftSky_Tails",
+          "part": "Tails",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 32
+        },
+        {
+          "name": "GiftSky_Bow",
+          "part": "Bow",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 384
+        },
+        {
+          "name": "GiftSky_Knot",
+          "part": "Knot",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftSky_Tag",
+          "part": "Tag",
+          "rgb": [
+            246,
+            235,
+            210
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 16
+        },
+        {
+          "name": "GiftSky_TagInk",
+          "part": "TagInk",
+          "rgb": [
+            64,
+            169,
+            222
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36
+        }
+      ]
+    },
+    {
+      "name": "Violet",
+      "model": "Gift_Violet",
+      "file": "Gift_Violet.fbx",
+      "bodySizeRoblox": [
+        1.12,
+        1.8,
+        1.12
+      ],
+      "boundsRoblox": [
+        1.1560001373291016,
+        2.0577332973480225,
+        1.1559998989105225
+      ],
+      "triangles": 912,
+      "parts": [
+        {
+          "name": "GiftViolet_Body",
+          "part": "Body",
+          "rgb": [
+            124,
+            81,
+            185
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftViolet_Lid",
+          "part": "Lid",
+          "rgb": [
+            137,
+            97,
+            193
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftViolet_Ribbon",
+          "part": "Ribbon",
+          "rgb": [
+            226,
+            176,
+            72
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48
+        },
+        {
+          "name": "GiftViolet_LidRibbon",
+          "part": "LidRibbon",
+          "rgb": [
+            226,
+            176,
+            72
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 72
+        },
+        {
+          "name": "GiftViolet_Print",
+          "part": "Print",
+          "rgb": [
+            169,
+            141,
+            209
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 288
+        },
+        {
+          "name": "GiftViolet_Tails",
+          "part": "Tails",
+          "rgb": [
+            226,
+            176,
+            72
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 32
+        },
+        {
+          "name": "GiftViolet_Bow",
+          "part": "Bow",
+          "rgb": [
+            226,
+            176,
+            72
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 384
+        },
+        {
+          "name": "GiftViolet_Knot",
+          "part": "Knot",
+          "rgb": [
+            226,
+            176,
+            72
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftViolet_Tag",
+          "part": "Tag",
+          "rgb": [
+            246,
+            235,
+            210
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 16
+        },
+        {
+          "name": "GiftViolet_TagInk",
+          "part": "TagInk",
+          "rgb": [
+            124,
+            81,
+            185
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36
+        }
+      ]
+    },
+    {
+      "name": "Mint",
+      "model": "Gift_Mint",
+      "file": "Gift_Mint.fbx",
+      "bodySizeRoblox": [
+        1.5,
+        1.02,
+        1.5
+      ],
+      "boundsRoblox": [
+        1.5240001678466797,
+        1.3550000190734863,
+        1.5239999890327454
+      ],
+      "triangles": 1936,
+      "parts": [
+        {
+          "name": "GiftMint_Body",
+          "part": "Body",
+          "rgb": [
+            70,
+            171,
+            133
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 124
+        },
+        {
+          "name": "GiftMint_Lid",
+          "part": "Lid",
+          "rgb": [
+            87,
+            180,
+            145
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 124
+        },
+        {
+          "name": "GiftMint_Ribbon",
+          "part": "Ribbon",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 512
+        },
+        {
+          "name": "GiftMint_Print",
+          "part": "Print",
+          "rgb": [
+            134,
+            200,
+            175
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 672
+        },
+        {
+          "name": "GiftMint_LidRibbon",
+          "part": "LidRibbon",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24
+        },
+        {
+          "name": "GiftMint_Tails",
+          "part": "Tails",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 32
+        },
+        {
+          "name": "GiftMint_Bow",
+          "part": "Bow",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 384
+        },
+        {
+          "name": "GiftMint_Knot",
+          "part": "Knot",
+          "rgb": [
+            245,
+            243,
+            229
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftMint_Tag",
+          "part": "Tag",
+          "rgb": [
+            246,
+            235,
+            210
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 16
+        },
+        {
+          "name": "GiftMint_TagInk",
+          "part": "TagInk",
+          "rgb": [
+            70,
+            171,
+            133
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36
+        }
+      ]
+    },
+    {
+      "name": "Amber",
+      "model": "Gift_Amber",
+      "file": "Gift_Amber.fbx",
+      "bodySizeRoblox": [
+        1.95,
+        1.03,
+        0.96
+      ],
+      "boundsRoblox": [
+        1.9859999418258667,
+        1.3650000095367432,
+        0.9960000514984131
+      ],
+      "triangles": 720,
+      "parts": [
+        {
+          "name": "GiftAmber_Body",
+          "part": "Body",
+          "rgb": [
+            231,
+            156,
+            50
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftAmber_Lid",
+          "part": "Lid",
+          "rgb": [
+            235,
+            166,
+            69
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftAmber_Ribbon",
+          "part": "Ribbon",
+          "rgb": [
+            42,
+            61,
+            86
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48
+        },
+        {
+          "name": "GiftAmber_LidRibbon",
+          "part": "LidRibbon",
+          "rgb": [
+            42,
+            61,
+            86
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 72
+        },
+        {
+          "name": "GiftAmber_Print",
+          "part": "Print",
+          "rgb": [
+            239,
+            190,
+            121
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 96
+        },
+        {
+          "name": "GiftAmber_Tails",
+          "part": "Tails",
+          "rgb": [
+            42,
+            61,
+            86
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 32
+        },
+        {
+          "name": "GiftAmber_Bow",
+          "part": "Bow",
+          "rgb": [
+            42,
+            61,
+            86
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 384
+        },
+        {
+          "name": "GiftAmber_Knot",
+          "part": "Knot",
+          "rgb": [
+            42,
+            61,
+            86
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftAmber_Tag",
+          "part": "Tag",
+          "rgb": [
+            246,
+            235,
+            210
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 16
+        },
+        {
+          "name": "GiftAmber_TagInk",
+          "part": "TagInk",
+          "rgb": [
+            231,
+            156,
+            50
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36
+        }
+      ]
+    },
+    {
+      "name": "Coral",
+      "model": "Gift_Coral",
+      "file": "Gift_Coral.fbx",
+      "bodySizeRoblox": [
+        1.3,
+        1.2,
+        1.3
+      ],
+      "boundsRoblox": [
+        1.3359999656677246,
+        1.494333267211914,
+        1.335999846458435
+      ],
+      "triangles": 720,
+      "parts": [
+        {
+          "name": "GiftCoral_Body",
+          "part": "Body",
+          "rgb": [
+            230,
+            104,
+            141
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftCoral_Lid",
+          "part": "Lid",
+          "rgb": [
+            234,
+            118,
+            152
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftCoral_Ribbon",
+          "part": "Ribbon",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48
+        },
+        {
+          "name": "GiftCoral_LidRibbon",
+          "part": "LidRibbon",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 72
+        },
+        {
+          "name": "GiftCoral_Print",
+          "part": "Print",
+          "rgb": [
+            238,
+            156,
+            180
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 96
+        },
+        {
+          "name": "GiftCoral_Tails",
+          "part": "Tails",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 32
+        },
+        {
+          "name": "GiftCoral_Bow",
+          "part": "Bow",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 384
+        },
+        {
+          "name": "GiftCoral_Knot",
+          "part": "Knot",
+          "rgb": [
+            248,
+            230,
+            183
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12
+        },
+        {
+          "name": "GiftCoral_Tag",
+          "part": "Tag",
+          "rgb": [
+            246,
+            235,
+            210
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 16
+        },
+        {
+          "name": "GiftCoral_TagInk",
+          "part": "TagInk",
+          "rgb": [
+            230,
+            104,
+            141
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36
+        }
+      ]
+    }
+  ],
+  "units": "Roblox studs at import scale 1",
+  "eventIntegration": "Import first; reward and carry integration remains in Studio."
+}

@@ -1,0 +1,34 @@
+{
+  "target_file": "game.StarterPlayer.StarterPlayerScripts.RunnerClient",
+  "patches": [
+    {
+      "old": "local landingRay = RaycastParams.new()\nlandingRay.FilterType = Enum.RaycastFilterType.Exclude\nlandingRay.RespectCanCollide = true\n\n",
+      "new": ""
+    },
+    {
+      "old": "local function updateLandingSound(character,root,sign)\n local now=os.clock()\n if now<soundMuteUntil then return end\n local supported=GroundCheck.Support(character,root.Position,sign)~=nil",
+      "new": "local function updateLandingSound(root,sign,support)\n local now=os.clock()\n if now<soundMuteUntil then return end\n local supported=support~=nil"
+    },
+    {
+      "old": "local function rememberGround(root)\n if os.clock()-lastLocalFlip<.12 then return nil end\n local sign=currentSign()\n local support=GroundCheck.Support(player.Character,root.Position,sign)",
+      "new": "local function rememberGround(root,support,sampled)\n if os.clock()-lastLocalFlip<.12 then return nil end\n local sign=currentSign()\n if not sampled then support=GroundCheck.Support(player.Character,root.Position,sign) end"
+    },
+    {
+      "old": "local function stopLandingBounce(root)\n\tlocal character = player.Character\n\tif not character then return end\n\tlandingRay.FilterDescendantsInstances = { character }",
+      "new": "local function stopLandingBounce(root,hit,sampled)\n\tlocal character = player.Character\n\tif not character then return end"
+    },
+    {
+      "old": " local _,hit=GroundCheck.Support(character,root.Position,sign)\n\tif hit and hit.Distance <= 3.08",
+      "new": " if not sampled then\n  local _,checkedHit=GroundCheck.Support(character,root.Position,sign)\n  hit=checkedHit\n end\n\tif hit and hit.Distance <= 3.08"
+    },
+    {
+      "old": "\tlocal sign = currentSign()\n local support=rememberGround(root)\n if support and os.clock()-lastLocalFlip>.12 then airborneLaunch=false end",
+      "new": "\tlocal sign = currentSign()\n local support,groundHit=GroundCheck.Support(character,root.Position,sign)\n local rememberedSupport=rememberGround(root,support,true)\n if rememberedSupport and os.clock()-lastLocalFlip>.12 then airborneLaunch=false end"
+    },
+    {
+      "old": "\tupdateLandingSound(character,root,sign)\n\tstopLandingBounce(root)",
+      "new": "\tupdateLandingSound(root,sign,support)\n\tstopLandingBounce(root,groundHit,true)"
+    }
+  ]
+}
+

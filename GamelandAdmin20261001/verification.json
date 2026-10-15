@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-01",
+  "project": "Gameland admin panel",
+  "ownerUserId": 1201803949,
+  "editableUi": "StarterGui.GamelandAdminPanel",
+  "serverRegistry": "ServerScriptService.GamelandAdmin.Entries",
+  "registeredMinigames": ["FootballMayhem"],
+  "openControls": ["ADMIN button", "F4"],
+  "liveChecksPassed": 24,
+  "checks": [
+    "Owner can access the panel and read the minigame catalog",
+    "Rendered labels and action buttons fit their bounds",
+    "Arena inspection without starting a round",
+    "Self-test starts from lobby and inspection mode",
+    "Stop during preparation cancels the pending teleport",
+    "Active round stop returns participants to lobby",
+    "Explicit lobby-wide test starts and stops",
+    "Return clears inspection state",
+    "Unknown game ids, scopes, and actions are rejected",
+    "Forged table identities and non-player instances are rejected",
+    "Local arena lighting restores on return"
+  ],
+  "scope": "One real connected player was used for live tests. Multi-client exclusion was not simulated.",
+  "uiLayout": "Authored in StarterGui. Runtime changes content, selection, enabled state, and visibility without repositioning or resizing UI.",
+  "visualFollowup": {
+    "neonChoiceTiles": 60,
+    "removedNumberLabels": 80,
+    "tileBorderColor": [26, 91, 36],
+    "startPads": "User-lowered positions preserved; invisible and non-colliding"
+  },
+  "automaticStudioTest": false,
+  "finalMode": "Edit"
+}

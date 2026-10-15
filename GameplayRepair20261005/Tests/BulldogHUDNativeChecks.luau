@@ -1,0 +1,211 @@
+assert(not game:GetService("RunService"):IsRunning())
+local box=game.StarterGui.BritishBulldogHUD.Controller:Clone()
+box.Name="_HUDVisibilityCheck"
+box.Enabled=false
+box.Parent=game.ServerStorage
+local fixture=game.StarterGui.BritishBulldogHUD:Clone()
+fixture.Name="Fixture"fixture.Parent=box
+local m=Instance.new("ModuleScript")m.Source=[======[local gui=script.Parent:WaitForChild("Fixture")
+local pValues,sValues={},{}
+local player={}
+function player:GetAttribute(k)return pValues[k]end
+local state={}
+function state:GetAttribute(k)return sValues[k]end
+local workspace={GetServerTimeNow=function()return 100 end,CurrentCamera={ViewportSize=Vector2.new(1366,768)}}
+local SoundService={FindFirstChild=function()return nil end}
+local topCard = gui:WaitForChild("TopCard")
+local topPanel = topCard:WaitForChild("Panel")
+local timer = topPanel:WaitForChild("Timer")
+local phaseLabel = topPanel:WaitForChild("PhaseLabel")
+local bulldogChip = topPanel:WaitForChild("BulldogChip")
+local runnerChip = topPanel:WaitForChild("RunnerChip")
+local countdown = gui:WaitForChild("Countdown")
+local rolePanel = gui:WaitForChild("RolePill"):WaitForChild("Panel")
+local roleLabel = rolePanel:WaitForChild("RoleLabel")
+local departure = gui:WaitForChild("Departure")
+local departurePanel = departure:WaitForChild("Panel")
+local departureSeconds = departurePanel:WaitForChild("SecondsBadge"):WaitForChild("Seconds")
+local tagged = gui:WaitForChild("Tagged")
+local taggedStatus = tagged:WaitForChild("Panel"):WaitForChild("Status")
+local results = gui:WaitForChild("Results")
+local resultPanel = results:WaitForChild("Panel")
+local resultTitle = resultPanel:WaitForChild("Title")
+local resultWinners = resultPanel:WaitForChild("WinnersScroll"):WaitForChild("Winners")
+
+local colors = {
+	Runner = Color3.fromRGB(42, 160, 255),
+	Bulldog = Color3.fromRGB(255, 81, 92),
+	Tagged = Color3.fromRGB(255, 204, 54),
+	Spectator = Color3.fromRGB(122, 144, 177),
+	Ink = Color3.fromRGB(24, 35, 62),
+	White = Color3.fromRGB(255, 255, 255),
+}
+
+local previousPhase = nil
+local previousRound = nil
+local callEndsAt = 0
+local musicStarted = false
+local playingSound = nil
+local playingSoundId = nil
+local elapsed = 0
+local connections = {}
+
+local function numberAttribute(object, name, fallback)
+	local value = object:GetAttribute(name)
+	if typeof(value) == "number" and value == value and math.abs(value) < math.huge then
+		return value
+	end
+	return fallback
+end
+
+local function textAttribute(object, name, fallback)
+	local value = object:GetAttribute(name)
+	if typeof(value) == "string" then
+		return value
+	end
+	return fallback
+end
+
+local function stopMusic()
+	if playingSound then
+		playingSound:Stop()
+	end
+	playingSound = nil
+	playingSoundId = nil
+end
+
+local function syncMusic(participating, phase)
+	local sound = SoundService:FindFirstChild("BritishBulldogMusic")
+	local canPlay = participating and musicStarted and (phase == "Countdown" or phase == "Crossing")
+	canPlay = canPlay and sound and sound:IsA("Sound") and sound:GetAttribute("Enabled") == true
+	canPlay = canPlay and sound.SoundId ~= "" and sound.SoundId ~= "rbxassetid://0"
+	if not canPlay then
+		stopMusic()
+		return
+	end
+	if playingSound ~= sound or playingSoundId ~= sound.SoundId then
+		stopMusic()
+		playingSound = sound
+		playingSoundId = sound.SoundId
+		sound:Play()
+	end
+end
+
+local function update()
+	local now = workspace:GetServerTimeNow()
+	local phase = textAttribute(state, "Phase", "Waiting")
+	local round = numberAttribute(state, "RoundNumber", 0)
+	local participating = player:GetAttribute("BBParticipating") == true
+	local role = textAttribute(player, "BBRole", "Spectator")
+	local active = phase == "Countdown" or phase == "Crossing" or phase == "Results"
+
+	if round ~= previousRound then
+		musicStarted = false
+		callEndsAt = 0
+		previousRound = round
+	end
+	if phase ~= previousPhase then
+		if phase == "Crossing" then
+			musicStarted = true
+			if previousPhase == "Countdown" then
+				callEndsAt = now + 0.9
+			end
+		elseif phase == "Waiting" or phase == "Intermission" or phase == "Results" then
+			musicStarted = false
+			callEndsAt = 0
+		end
+		previousPhase = phase
+	end
+
+	gui.Enabled = participating and active
+	topCard.Visible = phase ~= "Results"
+	gui.RolePill.Visible = phase ~= "Results" and not gui:FindFirstChild("MovementControls")
+	results.Visible = phase == "Results"
+	tagged.Visible = role == "Tagged" and phase ~= "Results"
+
+	local endsAt = numberAttribute(state, "EndsAt", 0)
+	local timeLeft = math.max(0, math.ceil(endsAt - now))
+	if phase == "Countdown" and endsAt <= 0 then
+		timeLeft = math.max(0, math.ceil(numberAttribute(state, "RoundDuration", 180)))
+	end
+	local minutes = math.floor(timeLeft / 60)
+	timer.Text = string.format("%d:%02d", minutes, timeLeft % 60)
+	timer.TextColor3 = timeLeft <= 30 and Color3.fromRGB(255, 211, 78) or Color3.fromRGB(255, 249, 224)
+	bulldogChip.Count.Text = tostring(math.max(0, math.floor(numberAttribute(state, "BulldogCount", 0))))
+	runnerChip.Count.Text = tostring(math.max(0, math.floor(numberAttribute(state, "RunnerCount", 0))))
+	bulldogChip.Caption.Text = numberAttribute(state, "BulldogCount", 0) == 1 and "BULLDOG" or "BULLDOGS"
+	runnerChip.Caption.Text = numberAttribute(state, "RunnerCount", 0) == 1 and "RUNNER" or "RUNNERS"
+	phaseLabel.Text = "CROSSING " .. tostring(math.max(1, math.floor(numberAttribute(state, "CrossingNumber", 1))))
+
+	local roleColor = colors[role] or colors.Spectator
+	rolePanel.BackgroundColor3 = roleColor
+	roleLabel.TextColor3 = Color3.fromRGB(255, 249, 224)
+	roleLabel.Text = string.upper(role)
+	local status = textAttribute(player, "BBStatus", "")
+	taggedStatus.Text = status ~= "" and status or "FROZEN"
+
+	local deadline = numberAttribute(player, "BBDepartureEndsAt", 0)
+	local departureTime = math.max(0, math.ceil(deadline - now))
+	local showDeparture = participating and role == "Runner" and phase == "Crossing" and player:GetAttribute("BBMustLeave") == true and departureTime > 0
+	local compactDeparture = gui:FindFirstChild("CompactDeparture")
+	local camera = workspace.CurrentCamera
+	local useCompactDeparture = compactDeparture and camera and (camera.ViewportSize.X < 980 or camera.ViewportSize.Y < 450)
+	departure.Visible = showDeparture and not useCompactDeparture
+	if compactDeparture then
+		compactDeparture.Visible = showDeparture and useCompactDeparture == true
+		compactDeparture.Panel.SecondsBadge.Seconds.Text = tostring(departureTime)
+	end
+	departureSeconds.Text = tostring(departureTime)
+
+	local count = math.floor(numberAttribute(state, "CountdownValue", 0))
+	local counting = phase == "Countdown" and count >= 1 and count <= 3
+	local called = phase == "Crossing" and now < callEndsAt
+	countdown.Visible = counting or called
+	countdown.Text = called and "BULLDOG!" or tostring(count)
+	countdown.TextColor3 = called and colors.Tagged or colors.White
+
+	local winnerTeam = textAttribute(state, "WinnerTeam", "None")
+	if winnerTeam == "Bulldogs" then
+		resultTitle.Text = "BULLDOGS WIN!"
+		resultTitle.TextColor3 = Color3.fromRGB(255, 249, 224)
+	elseif winnerTeam == "Runners" then
+		resultTitle.Text = "SURVIVORS WIN!"
+		resultTitle.TextColor3 = Color3.fromRGB(255, 249, 224)
+	else
+		resultTitle.Text = "ROUND FINISHED!"
+		resultTitle.TextColor3 = Color3.fromRGB(255, 249, 224)
+	end
+	resultWinners.Text = textAttribute(state, "WinnersText", "")
+	syncMusic(participating, phase)
+end
+
+
+return function(p,s,viewport)
+ pValues=p sValues=s workspace.CurrentCamera.ViewportSize=viewport or Vector2.new(1366,768) update()
+ return {enabled=gui.Enabled,top=gui.TopCard.Visible,results=gui.Results.Visible,departure=gui.Departure.Visible,compact=gui.CompactDeparture.Visible,timer=gui.TopCard.Panel.Timer.TextColor3,role=gui.RolePill.Panel.RoleLabel.TextColor3,result=gui.Results.Panel.Title.TextColor3}
+end]======]m.Parent=box
+local checks={}
+local function check(name,value)assert(value,name)table.insert(checks,name)end
+local ok,err=xpcall(function()
+ local step=require(m)
+ local p={BBParticipating=false,BBRole="Runner"}
+ local s={Phase="Waiting",EndsAt=220,RoundNumber=1}
+ check("Lobby clone is hidden",not step(p,s).enabled)
+ p.BBParticipating=true s.Phase="Countdown"
+ check("Countdown shows Bulldog HUD",step(p,s).enabled)
+ s.Phase="Crossing"p.BBMustLeave=true p.BBDepartureEndsAt=105
+ local r=step(p,s)
+ check("Desktop departure is mutually exclusive",r.departure and not r.compact)
+ check("Normal timer has cream fill",r.timer==Color3.fromRGB(255,249,224))
+ r=step(p,s,Vector2.new(640,360))
+ check("Compact departure is mutually exclusive",not r.departure and r.compact)
+ p.BBRole="Tagged"r=step(p,s)
+ check("Tagged role stays light against ink outline",r.role==Color3.fromRGB(255,249,224))
+ s.Phase="Results"s.WinnerTeam="None"r=step(p,s)
+ check("Results hides top gameplay panel",r.enabled and r.results and not r.top)
+ check("Neutral result stays cream",r.result==Color3.fromRGB(255,249,224))
+ p.BBParticipating=false
+ check("Leaving round hides Bulldog HUD",not step(p,s).enabled)
+end,debug.traceback)
+box:Destroy()
+return game.HttpService:JSONEncode({passed=ok,error=not ok and err or nil,checks=checks,fixtureDestroyed=box.Parent==nil,playStarted=false})

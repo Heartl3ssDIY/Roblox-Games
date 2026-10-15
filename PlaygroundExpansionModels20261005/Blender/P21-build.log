@@ -1,0 +1,20 @@
+00:00.063  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:57: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:111: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:03.266  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_18196_284d00ba5b86982edf07ce56fc7fc2a8.png.png"
+00:21.219  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Previews\p21-crystal-drake.png'
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p21-crystal-drake.fbx'
+(bpy.data.armatures['P21_PoseBones'], 'POSE')
+(bpy.data.armatures['P21_PoseBones'], 'POSE')
+export finished in 0.1271 sec.
+Info: Saved as "p21-crystal-drake.blend"
+ASSET_COMPLETE {"id": "P21", "name": "Crystal Drake", "category": "Pets", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p21-crystal-drake.png", "brief": "A chubby sapphire-blue baby dragon with an oversized friendly head, two short ivory horns, lavender wing membranes, a pale blue belly, four sturdy little feet and a curled tail. Three large opaque turquoise crystals grow directly from its back. Wings partially open and visibly attached, no floating crystals or glow.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p21-crystal-drake.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p21-crystal-drake.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p21-crystal-drake-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p21-crystal-drake.png", "parts": 80, "triangles": 35634, "meshes": 2, "maxMeshTriangles": 18956, "dimensions": [3.957188606262207, 3.69205379486084, 3.342909812927246], "boundsMin": [-1.9785943031311035, -1.5549999475479126, 0.12000000476837158], "boundsMax": [1.9785943031311035, 2.137053966522217, 3.4629099369049072], "paletteColors": 11, "anchors": {}, "editable": true, "rigged": true, "rigBones": ["Root", "Body", "Head", "FrontLegL", "FrontLegR", "BackLegL", "BackLegR", "Tail", "WingL", "WingR"], "collision": "Visual meshes non-colliding; use simple game-owned collision proxy", "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette", "gameplayImplemented": false, "exportDimensions": [3.957188844680786, 3.69205379486084, 3.342909812927246]}
+PACK_COMPLETE {"count": 1, "ids": ["P21"]}
+Unable to delete file
+Unable to delete file
+
+Blender quit

@@ -1,0 +1,29 @@
+{
+  "expectedSizeStuds": [
+    10,
+    10,
+    10
+  ],
+  "settings": {
+    "filepath": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\ACULobbyCitadel\\exports\\ImportReady_ScaleFixed_20260926\\00_SCALE_CHECK_10_STUDS.fbx",
+    "use_selection": true,
+    "object_types": [
+      "MESH"
+    ],
+    "global_scale": 0.01,
+    "apply_unit_scale": false,
+    "apply_scale_options": "FBX_SCALE_NONE",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "use_space_transform": true,
+    "bake_space_transform": true,
+    "use_mesh_modifiers": false,
+    "mesh_smooth_type": "FACE",
+    "use_tspace": false,
+    "bake_anim": false,
+    "use_custom_props": true,
+    "path_mode": "RELATIVE",
+    "embed_textures": false,
+    "add_leaf_bones": false
+  }
+}

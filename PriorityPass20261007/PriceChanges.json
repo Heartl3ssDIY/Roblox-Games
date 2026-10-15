@@ -1,0 +1,257 @@
+{
+  "existingCoinPricesTripled": 50,
+  "equipment": 30,
+  "emotes": 20,
+  "changes": [
+    [
+      "item(\"B02\", \"Schoolyard Alloy\", \"Bats\", \"Bat\", \"Coins\", ",
+      750,
+      2250
+    ],
+    [
+      "item(\"B04\", \"Street Cone\", \"Bats\", \"Bat\", \"Coins\", ",
+      1250,
+      3750
+    ],
+    [
+      "item(\"B08\", \"Frostbite\", \"Bats\", \"Bat\", \"Coins\", ",
+      4000,
+      12000
+    ],
+    [
+      "item(\"B11\", \"Cosmic Orbit\", \"Bats\", \"Bat\", \"Coins\", ",
+      10000,
+      30000
+    ],
+    [
+      "item(\"B13\", \"Skatepark Stripe\", \"Bats\", \"Bat\", \"Coins\", ",
+      2500,
+      7500
+    ],
+    [
+      "item(\"B14\", \"Deep Sea\", \"Bats\", \"Bat\", \"Coins\", ",
+      6000,
+      18000
+    ],
+    [
+      "item(\"P01\", \"Pocket Bulldog\", \"Pets\", \"Pet\", \"Coins\", ",
+      500,
+      1500
+    ],
+    [
+      "item(\"P03\", \"Pancake Penguin\", \"Pets\", \"Pet\", \"Coins\", ",
+      1000,
+      3000
+    ],
+    [
+      "item(\"P06\", \"Traffic Crab\", \"Pets\", \"Pet\", \"Coins\", ",
+      1750,
+      5250
+    ],
+    [
+      "item(\"P07\", \"Teapot Frog\", \"Pets\", \"Pet\", \"Coins\", ",
+      2000,
+      6000
+    ],
+    [
+      "item(\"P09\", \"Disco Duck\", \"Pets\", \"Pet\", \"Coins\", ",
+      3000,
+      9000
+    ],
+    [
+      "item(\"P11\", \"Cactus Cat\", \"Pets\", \"Pet\", \"Coins\", ",
+      4000,
+      12000
+    ],
+    [
+      "item(\"P13\", \"Pumpkin Bunny\", \"Pets\", \"Pet\", \"Coins\", ",
+      5000,
+      15000
+    ],
+    [
+      "item(\"P15\", \"Marshmallow Dragon\", \"Pets\", \"Pet\", \"Coins\", ",
+      7500,
+      22500
+    ],
+    [
+      "item(\"P19\", \"Moon Moth\", \"Pets\", \"Pet\", \"Coins\", ",
+      10000,
+      30000
+    ],
+    [
+      "item(\"M01\", \"Playground Football\", \"Toys\", \"Gear\", \"Coins\", ",
+      250,
+      750
+    ],
+    [
+      "item(\"M02\", \"Playground Basketball\", \"Toys\", \"Gear\", \"Coins\", ",
+      350,
+      1050
+    ],
+    [
+      "item(\"M03\", \"Foam Bonker\", \"Toys\", \"Gear\", \"Coins\", ",
+      500,
+      1500
+    ],
+    [
+      "item(\"M04\", \"Tumble Barrel\", \"Toys\", \"Gear\", \"Coins\", ",
+      1000,
+      3000
+    ],
+    [
+      "item(\"M05\", \"Zoom Juice\", \"Toys\", \"Gear\", \"Coins\", ",
+      750,
+      2250
+    ],
+    [
+      "item(\"M06\", \"Spring Sip\", \"Toys\", \"Gear\", \"Coins\", ",
+      750,
+      2250
+    ],
+    [
+      "item(\"M07\", \"Ember Elixir\", \"Toys\", \"Gear\", \"Coins\", ",
+      1250,
+      3750
+    ],
+    [
+      "item(\"M08\", \"Surprise Present\", \"Toys\", \"Gear\", \"Coins\", ",
+      500,
+      1500
+    ],
+    [
+      "item(\"M09\", \"Plunger Popper\", \"Toys\", \"Gear\", \"Coins\", ",
+      4000,
+      12000
+    ],
+    [
+      "item(\"M10\", \"Frost Ray\", \"Toys\", \"Gear\", \"Coins\", ",
+      5000,
+      15000
+    ],
+    [
+      "item(\"M11\", \"Paint Splash\", \"Toys\", \"Gear\", \"Coins\", ",
+      1500,
+      4500
+    ],
+    [
+      "item(\"M12\", \"Eggsploit\", \"Toys\", \"Gear\", \"Coins\", ",
+      300,
+      900
+    ],
+    [
+      "item(\"M13\", \"Cake Toss\", \"Toys\", \"Gear\", \"Coins\", ",
+      600,
+      1800
+    ],
+    [
+      "item(\"M14\", \"Camp Torch\", \"Toys\", \"Gear\", \"Coins\", ",
+      2500,
+      7500
+    ],
+    [
+      "item(\"M15\", \"Bounce Pad\", \"Toys\", \"Gear\", \"Coins\", ",
+      3000,
+      9000
+    ],
+    [
+      "{ id = \"E01\", name = \"Dougie\", kind = \"Coins\", amount = ",
+      500,
+      1500
+    ],
+    [
+      "{ id = \"E02\", name = \"Street Glide\", kind = \"Coins\", amount = ",
+      750,
+      2250
+    ],
+    [
+      "{ id = \"E03\", name = \"Money Hop Switch\", kind = \"Coins\", amount = ",
+      1000,
+      3000
+    ],
+    [
+      "{ id = \"E05\", name = \"The Tylil Dance\", kind = \"Coins\", amount = ",
+      1500,
+      4500
+    ],
+    [
+      "{ id = \"E08\", name = \"Rollie\", kind = \"Coins\", amount = ",
+      2000,
+      6000
+    ],
+    [
+      "{ id = \"E09\", name = \"Out West\", kind = \"Coins\", amount = ",
+      2500,
+      7500
+    ],
+    [
+      "{ id = \"E11\", name = \"Griddy\", kind = \"Coins\", amount = ",
+      5000,
+      15000
+    ],
+    [
+      "{ id = \"E12\", name = \"Gangstar Dance\", kind = \"Coins\", amount = ",
+      3000,
+      9000
+    ],
+    [
+      "{ id = \"E14\", name = \"Jabba Switchway\", kind = \"Coins\", amount = ",
+      3500,
+      10500
+    ],
+    [
+      "{ id = \"E16\", name = \"Jamal Brazil Groove\", kind = \"Coins\", amount = ",
+      4000,
+      12000
+    ],
+    [
+      "{ id = \"E18\", name = \"Orange Justice\", kind = \"Coins\", amount = ",
+      6500,
+      19500
+    ],
+    [
+      "{ id = \"E19\", name = \"Dab Steps\", kind = \"Coins\", amount = ",
+      4500,
+      13500
+    ],
+    [
+      "{ id = \"E20\", name = \"Creepin Dance\", kind = \"Coins\", amount = ",
+      5000,
+      15000
+    ],
+    [
+      "{ id = \"E22\", name = \"Pretty Young Thing\", kind = \"Coins\", amount = ",
+      7500,
+      22500
+    ],
+    [
+      "{ id = \"E23\", name = \"Party Rock Anthem\", kind = \"Coins\", amount = ",
+      10000,
+      30000
+    ],
+    [
+      "{ id = \"E25\", name = \"Camden Bop\", kind = \"Coins\", amount = ",
+      6000,
+      18000
+    ],
+    [
+      "{ id = \"E27\", name = \"One Hand Push Ups\", kind = \"Coins\", amount = ",
+      8000,
+      24000
+    ],
+    [
+      "{ id = \"E28\", name = \"Gangnam Style\", kind = \"Coins\", amount = ",
+      12500,
+      37500
+    ],
+    [
+      "{ id = \"E29\", name = \"Murda Bend\", kind = \"Coins\", amount = ",
+      9000,
+      27000
+    ],
+    [
+      "{ id = \"E31\", name = \"NLE Choppa Demon\", kind = \"Coins\", amount = ",
+      15000,
+      45000
+    ]
+  ]
+}

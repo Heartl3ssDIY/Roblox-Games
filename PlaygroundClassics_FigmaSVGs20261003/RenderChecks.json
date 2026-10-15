@@ -1,0 +1,1193 @@
+{
+  "rendered": 198,
+  "files": [
+    {
+      "file": "Panels/BritishBulldogHUD/TopCard.svg",
+      "width": 616,
+      "height": 112,
+      "bytes": 15008
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Countdown.svg",
+      "width": 767,
+      "height": 200,
+      "bytes": 4185
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/RolePill.svg",
+      "width": 316,
+      "height": 64,
+      "bytes": 3690
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Departure.svg",
+      "width": 480,
+      "height": 87,
+      "bytes": 6883
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Tagged.svg",
+      "width": 412,
+      "height": 90,
+      "bytes": 6179
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Results.svg",
+      "width": 736,
+      "height": 246,
+      "bytes": 18556
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/MovementControls.svg",
+      "width": 391,
+      "height": 126,
+      "bytes": 11470
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/CompactDeparture.svg",
+      "width": 131,
+      "height": 68,
+      "bytes": 3102
+    },
+    {
+      "file": "Controls/BritishBulldogHUD/MovementControls_Sprint.svg",
+      "width": 211,
+      "height": 64,
+      "bytes": 4357
+    },
+    {
+      "file": "Controls/BritishBulldogHUD/MovementControls_Dodge.svg",
+      "width": 110,
+      "height": 64,
+      "bytes": 2948
+    },
+    {
+      "file": "Panels/TagHUD/Top.svg",
+      "width": 617,
+      "height": 123,
+      "bytes": 12717
+    },
+    {
+      "file": "Panels/TagHUD/Countdown.svg",
+      "width": 699,
+      "height": 200,
+      "bytes": 4169
+    },
+    {
+      "file": "Panels/TagHUD/Role.svg",
+      "width": 301,
+      "height": 81,
+      "bytes": 5310
+    },
+    {
+      "file": "Panels/TagHUD/Protection.svg",
+      "width": 256,
+      "height": 32,
+      "bytes": 4728
+    },
+    {
+      "file": "Panels/TagHUD/Controls.svg",
+      "width": 296,
+      "height": 64,
+      "bytes": 5346
+    },
+    {
+      "file": "Panels/TagHUD/MoveMessage.svg",
+      "width": 296,
+      "height": 32,
+      "bytes": 137
+    },
+    {
+      "file": "Panels/TagHUD/Results.svg",
+      "width": 736,
+      "height": 315,
+      "bytes": 16828
+    },
+    {
+      "file": "Panels/TagHUD/SprintPanel.svg",
+      "width": 296,
+      "height": 116,
+      "bytes": 7779
+    },
+    {
+      "file": "Controls/TagHUD/Controls_Vault.svg",
+      "width": 75,
+      "height": 64,
+      "bytes": 2531
+    },
+    {
+      "file": "Controls/TagHUD/Controls_Dodge.svg",
+      "width": 75,
+      "height": 64,
+      "bytes": 2603
+    },
+    {
+      "file": "Controls/TagHUD/SprintPanel_Sprint.svg",
+      "width": 162,
+      "height": 64,
+      "bytes": 3854
+    },
+    {
+      "file": "Panels/PlaygroundShell/Wallet.svg",
+      "width": 264,
+      "height": 80,
+      "bytes": 4467
+    },
+    {
+      "file": "Panels/PlaygroundShell/Dock.svg",
+      "width": 284,
+      "height": 64,
+      "bytes": 4049
+    },
+    {
+      "file": "Panels/PlaygroundShell/RewardToast.svg",
+      "width": 436,
+      "height": 66,
+      "bytes": 6796
+    },
+    {
+      "file": "Panels/PlaygroundShell/Backdrop.svg",
+      "width": 1382,
+      "height": 783,
+      "bytes": 23219
+    },
+    {
+      "file": "Panels/PlaygroundShell/ShopPanel.svg",
+      "width": 1136,
+      "height": 676,
+      "bytes": 101177
+    },
+    {
+      "file": "Panels/PlaygroundShell/VotePanel.svg",
+      "width": 676,
+      "height": 238,
+      "bytes": 27382
+    },
+    {
+      "file": "Panels/PlaygroundShell/LevelPanel.svg",
+      "width": 280,
+      "height": 96,
+      "bytes": 6548
+    },
+    {
+      "file": "Panels/PlaygroundShell/CompactLevelPanel.svg",
+      "width": 131,
+      "height": 68,
+      "bytes": 3355
+    },
+    {
+      "file": "Panels/PlaygroundShell/CompactVotePanel.svg",
+      "width": 676,
+      "height": 192,
+      "bytes": 26089
+    },
+    {
+      "file": "Templates/Shop_ItemCard.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 7846
+    },
+    {
+      "file": "ShopItems/Slot01.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 12147
+    },
+    {
+      "file": "ShopItems/Slot02.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 10584
+    },
+    {
+      "file": "ShopItems/Slot03.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 12598
+    },
+    {
+      "file": "ShopItems/Slot04.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 12459
+    },
+    {
+      "file": "ShopItems/Slot05.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 13410
+    },
+    {
+      "file": "ShopItems/Slot06.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 11154
+    },
+    {
+      "file": "ShopItems/Slot07.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 11888
+    },
+    {
+      "file": "ShopItems/Slot08.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 12089
+    },
+    {
+      "file": "ShopItems/Slot09.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 14469
+    },
+    {
+      "file": "ShopItems/Slot10.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 15499
+    },
+    {
+      "file": "ShopItems/Slot11.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 13547
+    },
+    {
+      "file": "ShopItems/Slot12.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 12808
+    },
+    {
+      "file": "Panels/PlaygroundShell/Shop_All12Items.svg",
+      "width": 1108,
+      "height": 759,
+      "bytes": 122224
+    },
+    {
+      "file": "Panels/PlaygroundShell/Shop_CompleteExpanded.svg",
+      "width": 1136,
+      "height": 946,
+      "bytes": 148421
+    },
+    {
+      "file": "Controls/PlaygroundShell/Dock_Shop.svg",
+      "width": 134,
+      "height": 62,
+      "bytes": 2222
+    },
+    {
+      "file": "Controls/PlaygroundShell/Dock_Emote.svg",
+      "width": 72,
+      "height": 62,
+      "bytes": 1405
+    },
+    {
+      "file": "Controls/PlaygroundShell/Dock_Emoji.svg",
+      "width": 72,
+      "height": 62,
+      "bytes": 1189
+    },
+    {
+      "file": "Controls/PlaygroundShell/Backdrop.svg",
+      "width": 1382,
+      "height": 783,
+      "bytes": 23219
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Close.svg",
+      "width": 52,
+      "height": 52,
+      "bytes": 1189
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_All.svg",
+      "width": 80,
+      "height": 49,
+      "bytes": 1332
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Pets.svg",
+      "width": 111,
+      "height": 49,
+      "bytes": 1603
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Emotes.svg",
+      "width": 111,
+      "height": 49,
+      "bytes": 1969
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Emojis.svg",
+      "width": 111,
+      "height": 49,
+      "bytes": 1980
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Trails.svg",
+      "width": 111,
+      "height": 49,
+      "bytes": 1889
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Highlights.svg",
+      "width": 139,
+      "height": 49,
+      "bytes": 2585
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Gear.svg",
+      "width": 111,
+      "height": 49,
+      "bytes": 1765
+    },
+    {
+      "file": "Controls/PlaygroundShell/Templates_ItemCard_Action.svg",
+      "width": 174,
+      "height": 43,
+      "bytes": 1561
+    },
+    {
+      "file": "Controls/PlaygroundShell/Templates_ItemCard_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "Controls/PlaygroundShell/VotePanel_BritishBulldog.svg",
+      "width": 214,
+      "height": 116,
+      "bytes": 4757
+    },
+    {
+      "file": "Controls/PlaygroundShell/VotePanel_TagYoureIt.svg",
+      "width": 214,
+      "height": 116,
+      "bytes": 4051
+    },
+    {
+      "file": "Controls/PlaygroundShell/VotePanel_StuckInTheMud.svg",
+      "width": 214,
+      "height": 116,
+      "bytes": 4714
+    },
+    {
+      "file": "Controls/PlaygroundShell/CompactVotePanel_BritishBulldog.svg",
+      "width": 201,
+      "height": 90,
+      "bytes": 4492
+    },
+    {
+      "file": "Controls/PlaygroundShell/CompactVotePanel_TagYoureIt.svg",
+      "width": 201,
+      "height": 90,
+      "bytes": 3758
+    },
+    {
+      "file": "Controls/PlaygroundShell/CompactVotePanel_StuckInTheMud.svg",
+      "width": 201,
+      "height": 90,
+      "bytes": 4417
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Toggle.svg",
+      "width": 128,
+      "height": 60,
+      "bytes": 2403
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel.svg",
+      "width": 406,
+      "height": 666,
+      "bytes": 51630
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel.svg",
+      "width": 406,
+      "height": 666,
+      "bytes": 44501
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactToggle.svg",
+      "width": 128,
+      "height": 60,
+      "bytes": 2403
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_AllGamesExpanded.svg",
+      "width": 406,
+      "height": 912,
+      "bytes": 70517
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_BritishBulldog.svg",
+      "width": 357,
+      "height": 220,
+      "bytes": 16815
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_TagYoureIt.svg",
+      "width": 357,
+      "height": 220,
+      "bytes": 15936
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_StuckInTheMud.svg",
+      "width": 357,
+      "height": 220,
+      "bytes": 16855
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_AllGamesExpanded.svg",
+      "width": 406,
+      "height": 1020,
+      "bytes": 68296
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_BritishBulldog.svg",
+      "width": 374,
+      "height": 254,
+      "bytes": 16737
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_TagYoureIt.svg",
+      "width": 374,
+      "height": 254,
+      "bytes": 15909
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_StuckInTheMud.svg",
+      "width": 374,
+      "height": 254,
+      "bytes": 16809
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Toggle.svg",
+      "width": 128,
+      "height": 60,
+      "bytes": 2403
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Close.svg",
+      "width": 51,
+      "height": 62,
+      "bytes": 1437
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBStart.svg",
+      "width": 330,
+      "height": 54,
+      "bytes": 3713
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBRunner.svg",
+      "width": 330,
+      "height": 54,
+      "bytes": 3732
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "width": 330,
+      "height": 54,
+      "bytes": 3657
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagStart.svg",
+      "width": 330,
+      "height": 54,
+      "bytes": 3713
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagRunner.svg",
+      "width": 330,
+      "height": 54,
+      "bytes": 3732
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagTagger.svg",
+      "width": 330,
+      "height": 54,
+      "bytes": 3546
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudStart.svg",
+      "width": 330,
+      "height": 54,
+      "bytes": 3713
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudShooter.svg",
+      "width": 330,
+      "height": 54,
+      "bytes": 3860
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudMedic.svg",
+      "width": 330,
+      "height": 54,
+      "bytes": 3466
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_StopRound.svg",
+      "width": 363,
+      "height": 65,
+      "bytes": 4721
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_ToggleAutomatic.svg",
+      "width": 363,
+      "height": 55,
+      "bytes": 3997
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Close.svg",
+      "width": 60,
+      "height": 60,
+      "bytes": 1390
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBStart.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 3827
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBRunner.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 3924
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 3821
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagStart.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 3827
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagRunner.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 3924
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagTagger.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 3720
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudStart.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 3827
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudShooter.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 4078
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudMedic.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 3712
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StopRound.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 4700
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_ToggleAutomatic.svg",
+      "width": 354,
+      "height": 64,
+      "bytes": 4110
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactToggle.svg",
+      "width": 128,
+      "height": 60,
+      "bytes": 2403
+    },
+    {
+      "file": "Panels/MudHUD/Top.svg",
+      "width": 616,
+      "height": 90,
+      "bytes": 10326
+    },
+    {
+      "file": "Panels/MudHUD/Controls.svg",
+      "width": 296,
+      "height": 162,
+      "bytes": 12421
+    },
+    {
+      "file": "Panels/MudHUD/Frozen.svg",
+      "width": 296,
+      "height": 112,
+      "bytes": 7738
+    },
+    {
+      "file": "Panels/MudHUD/Countdown.svg",
+      "width": 236,
+      "height": 136,
+      "bytes": 3391
+    },
+    {
+      "file": "Panels/MudHUD/Crosshair.svg",
+      "width": 30,
+      "height": 30,
+      "bytes": 135
+    },
+    {
+      "file": "Panels/MudHUD/Results.svg",
+      "width": 646,
+      "height": 206,
+      "bytes": 16747
+    },
+    {
+      "file": "Panels/MudHUD/ColourToggle.svg",
+      "width": 60,
+      "height": 60,
+      "bytes": 1481
+    },
+    {
+      "file": "Panels/MudHUD/ColourPicker.svg",
+      "width": 296,
+      "height": 154,
+      "bytes": 12500
+    },
+    {
+      "file": "Controls/MudHUD/Main_Top_Team.svg",
+      "width": 196,
+      "height": 52,
+      "bytes": 2505
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Mud.svg",
+      "width": 109,
+      "height": 64,
+      "bytes": 1983
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Heat.svg",
+      "width": 109,
+      "height": 64,
+      "bytes": 2204
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Fire.svg",
+      "width": 96,
+      "height": 64,
+      "bytes": 1951
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Sprint.svg",
+      "width": 296,
+      "height": 64,
+      "bytes": 4028
+    },
+    {
+      "file": "Controls/MudHUD/ColourToggle.svg",
+      "width": 60,
+      "height": 60,
+      "bytes": 1481
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Close.svg",
+      "width": 56,
+      "height": 56,
+      "bytes": 1199
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Red.svg",
+      "width": 76,
+      "height": 64,
+      "bytes": 1369
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Blue.svg",
+      "width": 76,
+      "height": 64,
+      "bytes": 1416
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Green.svg",
+      "width": 76,
+      "height": 64,
+      "bytes": 1709
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Black.svg",
+      "width": 76,
+      "height": 64,
+      "bytes": 1659
+    },
+    {
+      "file": "Screens/BritishBulldog_Runner.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 35078
+    },
+    {
+      "file": "Screens/BritishBulldog_Bulldog.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 31738
+    },
+    {
+      "file": "Screens/BritishBulldog_Sprinting.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 35697
+    },
+    {
+      "file": "Screens/BritishBulldog_Recharging.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 36031
+    },
+    {
+      "file": "Screens/BritishBulldog_DodgeCooldown.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 35267
+    },
+    {
+      "file": "Screens/BritishBulldog_EscapeBoost.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 36922
+    },
+    {
+      "file": "Screens/BritishBulldog_LeaveSafeZone.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 42763
+    },
+    {
+      "file": "Screens/BritishBulldog_Countdown.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 38411
+    },
+    {
+      "file": "Screens/BritishBulldog_BulldogCall.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 53130
+    },
+    {
+      "file": "Screens/BritishBulldog_Tagged.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 28476
+    },
+    {
+      "file": "Screens/BritishBulldog_SurvivorsWin.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 24720
+    },
+    {
+      "file": "Screens/BritishBulldog_BulldogsWin.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 23516
+    },
+    {
+      "file": "Screens/Tag_Runner.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 33456
+    },
+    {
+      "file": "Screens/Tag_YoureIt.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 33386
+    },
+    {
+      "file": "Screens/Tag_TagbackShield.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 38810
+    },
+    {
+      "file": "Screens/Tag_Countdown.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 31497
+    },
+    {
+      "file": "Screens/Tag_Sprinting.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 34043
+    },
+    {
+      "file": "Screens/Tag_Recharging.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 34444
+    },
+    {
+      "file": "Screens/Tag_MoveCooldowns.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 33479
+    },
+    {
+      "file": "Screens/Tag_Win.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 37274
+    },
+    {
+      "file": "Screens/Tag_Loss.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 37072
+    },
+    {
+      "file": "Screens/Mud_MudGun.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 30650
+    },
+    {
+      "file": "Screens/Mud_HeatGun.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 31196
+    },
+    {
+      "file": "Screens/Mud_RescuingTeammate.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 31437
+    },
+    {
+      "file": "Screens/Mud_Stuck.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 25133
+    },
+    {
+      "file": "Screens/Mud_BeingRescued.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 25168
+    },
+    {
+      "file": "Screens/Mud_Countdown.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 34377
+    },
+    {
+      "file": "Screens/Mud_TeamWin.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 21880
+    },
+    {
+      "file": "Screens/Mud_TeamLoss.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 21533
+    },
+    {
+      "file": "Screens/Mud_TeamColourPicker.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 19124
+    },
+    {
+      "file": "Screens/Lobby_HUD.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 22285
+    },
+    {
+      "file": "Screens/Lobby_Shop.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 112348
+    },
+    {
+      "file": "Screens/Lobby_VotingSelected.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 44049
+    },
+    {
+      "file": "Screens/Lobby_VotingUnavailable.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 44863
+    },
+    {
+      "file": "Screens/Lobby_RewardToast.svg",
+      "width": 1366,
+      "height": 767,
+      "bytes": 30394
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_Runner.svg",
+      "width": 391,
+      "height": 126,
+      "bytes": 11470
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_Bulldog.svg",
+      "width": 391,
+      "height": 126,
+      "bytes": 8789
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_Recharging.svg",
+      "width": 391,
+      "height": 126,
+      "bytes": 12231
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_EscapeBoost.svg",
+      "width": 391,
+      "height": 126,
+      "bytes": 12780
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_DodgeCooldown.svg",
+      "width": 391,
+      "height": 126,
+      "bytes": 11626
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Departure_Compact.svg",
+      "width": 131,
+      "height": 68,
+      "bytes": 3102
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Tagged_Panel.svg",
+      "width": 412,
+      "height": 90,
+      "bytes": 5863
+    },
+    {
+      "file": "Panels/States/Tag_Controls_Runner.svg",
+      "width": 296,
+      "height": 116,
+      "bytes": 12758
+    },
+    {
+      "file": "Panels/States/Tag_Controls_Tagger.svg",
+      "width": 296,
+      "height": 116,
+      "bytes": 12720
+    },
+    {
+      "file": "Panels/States/Tag_Controls_Cooldowns.svg",
+      "width": 296,
+      "height": 116,
+      "bytes": 12618
+    },
+    {
+      "file": "Panels/States/Tag_TagbackShield_Notice.svg",
+      "width": 256,
+      "height": 32,
+      "bytes": 4728
+    },
+    {
+      "file": "Panels/States/Mud_Controls_HeatGun.svg",
+      "width": 296,
+      "height": 162,
+      "bytes": 13221
+    },
+    {
+      "file": "Panels/States/Mud_Controls_Rescuing.svg",
+      "width": 296,
+      "height": 162,
+      "bytes": 13442
+    },
+    {
+      "file": "Panels/States/Mud_Frozen_RescueProgress.svg",
+      "width": 296,
+      "height": 112,
+      "bytes": 7803
+    },
+    {
+      "file": "Panels/States/Mud_Frozen_TeamEliminated.svg",
+      "width": 296,
+      "height": 112,
+      "bytes": 7474
+    },
+    {
+      "file": "Panels/States/Mud_Controls_Recharging.svg",
+      "width": 296,
+      "height": 162,
+      "bytes": 13556
+    },
+    {
+      "file": "Panels/States/ShopItem_Buy.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 12147
+    },
+    {
+      "file": "Panels/States/ShopItem_Owned.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 12371
+    },
+    {
+      "file": "Panels/States/ShopItem_Equipped.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 12864
+    },
+    {
+      "file": "Panels/States/ShopItem_Loading.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 12793
+    },
+    {
+      "file": "Panels/States/ShopItem_EmoteUse.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 14095
+    },
+    {
+      "file": "Panels/States/ShopItem_ComingSoon.svg",
+      "width": 258,
+      "height": 254,
+      "bytes": 13972
+    },
+    {
+      "file": "Panels/States/Level_Compact_Progress.svg",
+      "width": 131,
+      "height": 68,
+      "bytes": 3586
+    },
+    {
+      "file": "Panels/States/Voting_Compact_Selected.svg",
+      "width": 676,
+      "height": 192,
+      "bytes": 26020
+    },
+    {
+      "file": "HiddenElements/BritishBulldogHUD_MovementControls_Dodge_IconFallback.svg",
+      "width": 44,
+      "height": 46,
+      "bytes": 400
+    },
+    {
+      "file": "HiddenElements/BritishBulldogHUD_MovementControls_Sprint_IconFallback.svg",
+      "width": 44,
+      "height": 46,
+      "bytes": 346
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_LevelPanel_IconFallback.svg",
+      "width": 37,
+      "height": 39,
+      "bytes": 419
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot01_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot02_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot04_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot05_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot06_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot07_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot08_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot09_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot10_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot11_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot12_Try.svg",
+      "width": 67,
+      "height": 43,
+      "bytes": 1298
+    },
+    {
+      "file": "Icons/sprint-lightning.svg",
+      "width": 64,
+      "height": 64,
+      "bytes": 1368
+    },
+    {
+      "file": "Icons/dodge-swoosh.svg",
+      "width": 64,
+      "height": 64,
+      "bytes": 1737
+    },
+    {
+      "file": "Icons/level-star.svg",
+      "width": 64,
+      "height": 64,
+      "bytes": 1700
+    }
+  ]
+}

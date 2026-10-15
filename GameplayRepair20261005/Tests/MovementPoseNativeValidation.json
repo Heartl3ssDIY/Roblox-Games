@@ -1,0 +1,6 @@
+{
+  "cleaned": true,
+  "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+  "passed": true,
+  "checks": 85
+}

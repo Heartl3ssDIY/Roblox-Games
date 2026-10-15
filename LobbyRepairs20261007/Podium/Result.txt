@@ -1,0 +1,8 @@
+Installed in Edit mode on 2026-10-07:
+Workspace.Playground Lobby.WinnerPodium.Rank1.Top.FirstPlaceGlow
+Four subtle gold Beam objects, one soft PointLight. All are attached to the existing Rank1 Top; no scripts, highlights, collision parts, podium placement or facing changes.
+Verified four enabled beams with both attachments parented under Top.FirstPlaceGlow; endpoints about 18 studs apart; warm light enabled. StandingPoint remains at (11.4000044, 9.75, 106.845718), rotation identity. Play remained stopped.
+Two screen captures returned a black viewport with only UI, so visual rendering could not be confirmed through the tool. Native object/property checks passed.
+
+Practice dummies:
+Before the user stopped Play, Server data contained exactly one TagPracticeBots folder, tagged TagManaged, and three TGPracticeBot Models: Practice Runner 1, 2 and 3. They are created intentionally by TagService:StartPractice; TagService:_clearBots destroys the folder when practice ends. After stopping, Edit Workspace contained no Humanoids or bot fixtures. No stale bot deletion or practice code changes were made. The screenshot's duplicated-looking names/figures could not be confirmed on the Client before Play ended.

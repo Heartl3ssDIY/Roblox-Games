@@ -1,0 +1,59 @@
+{
+  "placeId": 95034648955135,
+  "studioName": "Playground Classics",
+  "applied": {
+    "backup": "ServerStorage.PlaygroundRetroStudsBackup20261003",
+    "studSize": 1,
+    "maps": {
+      "Stuck in the Mud": 1016,
+      "British Bulldog game": 397,
+      "Tag You're It": 650,
+      "Playground Lobby": 2238
+    },
+    "changed": 4301,
+    "material": "MaterialService.PlaygroundRetroStuds"
+  },
+  "verification": {
+    "changedParts": 4301,
+    "highlightsChecked": 81,
+    "geometryAndSurfacesPreserved": true,
+    "materialVariantVerified": true,
+    "physicalPropertiesChecked": 7026,
+    "effectivePhysicalPropertiesChecked": 7026,
+    "excludedParts": 2725,
+    "partsChecked": 7026,
+    "verified": true,
+    "checks": 211679,
+    "outlinePropertiesPreserved": true
+  },
+  "protectedBefore": {
+    "scriptCount": 42,
+    "guiCount": 327,
+    "authoredGuiDigest": "beff7736",
+    "scriptDigest": "911f8d00"
+  },
+  "protectedAfter": {
+    "scriptCount": 42,
+    "guiCount": 327,
+    "authoredGuiDigest": "beff7736",
+    "scriptDigest": "911f8d00"
+  },
+  "textureStatus": {
+    "colorMap": "Success",
+    "normalMap": "Success"
+  },
+  "material": {
+    "name": "PlaygroundRetroStuds",
+    "baseMaterial": "SmoothPlastic",
+    "colorMap": "rbxassetid://10509831729",
+    "normalMap": "rbxassetid://10509831753",
+    "materialPattern": "Regular",
+    "studsPerTile": 1,
+    "source": "https://github.com/cxmeel/resurface-plugin/blob/main/src/Assets/MaterialVariants.luau"
+  },
+  "visualReview": {
+    "lobby": "Native Studio capture inspected; studs visible on flat and rounded parts and outline layers remain clear",
+    "preview": "Lobby-RetroStuds.png"
+  },
+  "originalMaterialEntries": 7026
+}

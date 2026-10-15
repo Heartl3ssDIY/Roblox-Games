@@ -1,0 +1,69 @@
+VIP DRAGON — EXPORT AND RIG HANDOFF
+Checked 7 October 2026. Read-only inspection of existing project files and Studio.
+
+APPROVED APPEARANCE
+Follow ../Modeller-Notes.txt and ../Originals/vip-dragon-clean.png.
+Gold body, crown, horns, ribs, feet, tail and dorsal ridges; ruby irises and crown gem; dark pupils with highlights; crimson membranes; cream belly and small fangs.
+The old concept's all-gold eye, gemstone and membrane colours are superseded. The red aura is a separate effect, not solid geometry.
+
+SIZE
+Recommended rest-pose visual bounds: 3.0 Blender units maximum wingspan, approximately 1.9 units high; preserve the reference proportions. Treat one native Blender unit as one Roblox stud for this export.
+Measure actual evaluated mesh vertices, including outline shells, instead of only object origins. Check the entire flap loop as well as the resting pose.
+Apply initial mesh/object scale before skinning; keep armature and mesh object scales at (1,1,1). Do not shrink the armature after skinning without applying the same transform to its bind matrices.
+
+LOCAL SCALE EVIDENCE
+Installed Blender 5.2 exporter: C:/Program Files/Blender Foundation/Blender 5.2/5.2/scripts/addons_core/io_scene_fbx/export_fbx_bin.py, lines 3542–3545.
+With apply_unit_scale=False it still sets unit_scale=100. FBX_SCALE_NONE multiplies global_matrix by unit_scale*global_scale and stores UnitScaleFactor=1. Thus global_scale=.01 cancels the implicit 100x conversion and keeps mesh/bone numbers in the intended stud-sized range.
+The old PlaygroundExpansionModels20261005/Blender/Source/build_pack.py exported global_scale=1.0 and apply_unit_scale=False. Existing Studio templates P01 and P21 currently have Model scales .01 and .007 respectively, confirming that previous imports required manual reduction. P21 currently measures about 2.78 x 2.46 x 2.60 studs.
+The earlier ACULobbyCitadel/exports/ImportReady_ScaleFixed_20260926 package already uses and independently validates this .01 exporter correction against binary FBX world bounds. It is not an instruction to reduce the source model or imported model again.
+
+RIGGED FBX SETTINGS
+use_selection=True
+object_types={'MESH','ARMATURE'} (include EMPTY only for intentional import anchors)
+global_scale=0.01
+apply_unit_scale=False
+apply_scale_options='FBX_SCALE_NONE'
+axis_forward='-Z'
+axis_up='Y'
+use_space_transform=True
+bake_space_transform=False
+add_leaf_bones=False
+use_armature_deform_only=True
+use_mesh_modifiers=True
+mesh_smooth_type='FACE'
+use_triangles=True
+use_custom_props=True
+path_mode='COPY'
+embed_textures=True, with an additional external texture file beside the export
+bake_anim=True for the flight export; bake_anim_use_all_actions=False; bake_anim_use_nla_strips=False; bake_anim_simplify_factor=0.0; sample every frame.
+
+Do not copy bake_space_transform=True from the old static lobby exporter. Blender's installed FBX UI explicitly warns that Apply Transform is known to be broken with armatures/animations. Export a rest-pose mesh/rig FBX separately from the active looping flight action if that makes Roblox animation import clearer.
+
+BLENDER EDITABILITY AND DEFORMATION
+Keep the .blend master, named semantic mesh pieces, materials and an editable armature. Keep an export collection separate from source/reference/render objects.
+At minimum use Root > Body > Head, paired WingL/WingR shoulder bones, paired wing tips/forearms, and a segmented Tail chain. Crown, eyes, horns and fangs follow Head; wing ribs and membranes share the same weights so edges remain sealed while flapping.
+Use a real shoulder hinge axis for the main flap, with smaller delayed tip flex. Weight near shoulder and bend transitions smoothly; rigidly weight faceted crown/ruby parts. Every visible vertex must have normalized weights and no more than four deform bone influences.
+Prefer a stationary Root with body lift/bob inside the looping flight animation; locomotion follows the player in the game. First and last poses must match. A 24 fps, approximately one-second loop suits a small cartoon companion. Inspect high, midpoint and low wing poses and the transition across the seam.
+
+OUTLINE AND COLOUR
+Use only thin, controlled dark edge geometry or outline shells and verify the face direction/culling in export. Avoid an enlarged opaque black duplicate covering the coloured model (the previous tree regression).
+If export/runtime outline culling is uncertain, use the existing model-level Roblox cartoon outline metadata after import, allowing the game's limited Highlight allocator to manage it. Do not bake the red aura into the surface or create multiple independent Highlights for the dragon's parts.
+Retain editable Blender materials; use a UV colour atlas or texture for dependable Roblox appearance. Procedural shader nodes, lighting-only glints and compositor effects do not transfer through FBX.
+
+ROBLOX IMPORT
+Use 3D Importer Scale Unit=Studs and scale=1. Keep rig/bones; use custom rig, not an avatar auto-setup. Preserve separate mesh pieces where needed for materials and bones. Do not apply another .01 or .1 scale in Studio.
+Verify the imported visible bounds are approximately three studs wide before placing it in the equipment templates. A separate one-unit calibration cube can establish importer settings without editing the dragon.
+Set pet visuals non-colliding, non-touching, non-querying and massless according to the existing follower preparation. The game anchors the visual root and moves the follower with PivotTo; it should not be a physical flying obstacle.
+
+RUNTIME LIMITATION FOUND DURING INSPECTION
+The current PlaygroundPets controller accepts only catalog IDs matching P plus two digits, looks up models in ReplicatedStorage.PlaygroundCosmeticAssets, and caps the visible dimension at 3 studs. Hovering is a fixed list of IDs; animation loading currently recognizes only Animation objects named Idle and Walk. An imported dragon with an arbitrary VIP name or Fly action will not automatically become a flying VIP pet. It needs the planned catalog/VIP entitlement integration and a flight/animation hook after import. This check did not modify Studio.
+
+DELIVERY CHECKS
+1. Save the editable .blend under this local pack root and pack or use local relative reference/texture paths.
+2. Export selected pet meshes and rig only; omit camera, light, preview pedestal, reference card and test objects.
+3. Confirm 3.0-unit nominal wingspan, clean transforms, correct upright/forward axes and finite bind matrices.
+4. Confirm no unweighted vertices, capped/normalized influences, independent left/right wing controls and deforming membranes without tears.
+5. Render or inspect front, side and three-quarter views plus three flap poses; check crown, fangs, eyes and outline do not clip.
+6. Confirm loop closure and flight root behaviour; record exact frames/FPS and action name.
+7. Validate exported bones, skin clusters, texture paths and animated curves; independently inspect binary numeric bounds or reimport into an isolated check scene.
+8. Report Blender/FBX verification separately from a real Roblox import/runtime flight check. Do not claim the latter before it happens.

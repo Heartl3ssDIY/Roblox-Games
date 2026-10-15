@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.codex/
+.aws/
+.ssh/
+credentials.json
+*.pem
+*.key
+__pycache__/
+*.pyc
+*.pyo
+Thumbs.db
+Desktop.ini
+optix7cache.db

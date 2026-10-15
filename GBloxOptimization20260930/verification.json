@@ -1,0 +1,913 @@
+{
+  "date": "2026-09-30",
+  "published": false,
+  "playtestStarted": false,
+  "sourceBackups": {
+    "lobby": 75,
+    "round": 60
+  },
+  "review": {
+    "lobby": [
+      "Workspace.Pets.Alien_ROOT.Script",
+      "ReplicatedStorage.Modules.Zone",
+      "ReplicatedStorage.Modules.Zone.Enum",
+      "ReplicatedStorage.Modules.Zone.Enum.Accuracy",
+      "ReplicatedStorage.Modules.Zone.Enum.Detection",
+      "ReplicatedStorage.Modules.Zone.Janitor",
+      "ReplicatedStorage.Modules.Zone.OldSignal",
+      "ReplicatedStorage.Modules.Zone.Signal",
+      "ReplicatedStorage.Modules.Zone.VERSION",
+      "ReplicatedStorage.Modules.Zone.ZoneController",
+      "ReplicatedStorage.Modules.Zone.ZoneController.CollectiveWorldModel",
+      "ReplicatedStorage.Modules.Zone.ZoneController.Tracker",
+      "ReplicatedStorage.Modules.Zone.ZonePlusReference",
+      "ReplicatedStorage.GBloxPetTemplates.Alien.Script",
+      "ReplicatedStorage.GBloxPetCatalog",
+      "ReplicatedStorage.GBloxDailyRewardRules",
+      "ReplicatedStorage.GBloxCommunityRewardRules",
+      "ReplicatedStorage.GBloxAbilityRules",
+      "ReplicatedStorage.GBloxPlaytimeRules",
+      "ReplicatedStorage.GBloxPurchaseCatalog",
+      "ReplicatedStorage.GBloxReceiptRules",
+      "ReplicatedStorage.GBloxPetEquipRules",
+      "ReplicatedStorage.GBloxTitleRules",
+      "ReplicatedStorage.GBloxEmoteCatalog",
+      "ReplicatedStorage.GBloxEmoteRules",
+      "ReplicatedStorage.GBloxTitleEffects",
+      "ReplicatedStorage.GBloxUIArtwork",
+      "ServerScriptService.GlobalLeaderboardServer",
+      "ServerScriptService.AbilityShopServer",
+      "ServerScriptService.LobbyTreadmills",
+      "ServerScriptService.LobbyCoins",
+      "ServerScriptService.GBloxAudioSettingsServer",
+      "ServerScriptService.GBloxLobbyNavigation",
+      "ServerScriptService.GBloxPetService",
+      "ServerScriptService.GBloxPetBootstrap",
+      "ServerScriptService.GBloxEggService",
+      "ServerScriptService.GBloxPetInventoryServer",
+      "ServerScriptService.GBloxAdminService",
+      "ServerScriptService.GBloxDailyRewardsServer",
+      "ServerScriptService.GBloxCommunityRewardsServer",
+      "ServerScriptService.GBloxPlaytimeRewardsServer",
+      "ServerScriptService.GBloxPurchasePolicy",
+      "ServerScriptService.GBloxTitlesServer",
+      "ServerScriptService.GBloxEmoteShopServer",
+      "ServerScriptService.GBloxCodeRules",
+      "ServerScriptService.GBloxCodesServer",
+      "ServerScriptService.GBloxChampionStatue",
+      "StarterPlayer.StarterPlayerScripts.GBloxUIPolish",
+      "StarterPlayer.StarterPlayerScripts.LobbyInteractions",
+      "StarterPlayer.StarterPlayerScripts.LobbyCoinEffects",
+      "StarterPlayer.StarterPlayerScripts.LobbyJump",
+      "StarterPlayer.StarterPlayerScripts.GBloxMusic",
+      "StarterPlayer.StarterPlayerScripts.GBloxLobbyNavigation",
+      "StarterPlayer.StarterPlayerScripts.GBloxPetFollower",
+      "StarterPlayer.StarterPlayerScripts.GBloxTitleEffectsClient",
+      "StarterGui.GBloxShopMockups.Canvas.Inventory.Details.Equip.ArtworkController",
+      "StarterGui.GBloxShopMockups.PreviewNavigation",
+      "StarterGui.GBloxShopMockups.InventoryNavigation",
+      "StarterGui.GBloxShopMockups.InventoryLayout",
+      "StarterGui.GBloxShopMockups.GBloxEmoteShopClient",
+      "StarterGui.CurrencyHUD.BalanceDisplay",
+      "StarterGui.GBloxSettings.SettingsClient",
+      "StarterGui.GBloxEggOpening.Controller",
+      "StarterGui.GBloxAdminPanel.Controller",
+      "StarterGui.GBloxDailyRewards.Controller",
+      "StarterGui.GBloxCommunityRewards.Controller",
+      "StarterGui.GBloxPlaytimeRewards.Controller",
+      "ServerScriptService.QueueServer",
+      "ServerScriptService.GBloxLobbyGate",
+      "ServerScriptService.TutorialProgressServer",
+      "ServerScriptService.PlayerData",
+      "ServerScriptService.PlayerDataServer",
+      "StarterGui.PartyUi.PartyController",
+      "ReplicatedFirst.GBloxLoading",
+      "ReplicatedFirst.GBloxLoading.MenuConfig"
+    ],
+    "round": [
+      "ServerScriptService.CourseRegistry",
+      "ServerScriptService.CourseCollisionSetup",
+      "StarterGui.GBloxAbilityHUD.AntispikeVisuals",
+      "StarterPlayer.StarterPlayerScripts.GBloxRaceVFXClient",
+      "ReplicatedStorage.GBloxRaceVFXRenderer",
+      "ReplicatedStorage.GBloxMatchRewardRules",
+      "ReplicatedStorage.GBloxPetCatalog",
+      "ReplicatedStorage.GBloxPodiumPresentation",
+      "ReplicatedStorage.GBloxPodiumVisuals",
+      "ReplicatedStorage.RankingAvatarPreview",
+      "ReplicatedStorage.RankingEmoteEffects",
+      "ReplicatedStorage.RankingLeaveRules",
+      "ServerScriptService.GBloxAbilityEffects",
+      "ServerScriptService.GBloxGravitySwitch",
+      "ServerScriptService.GBloxPlatBeGone",
+      "ServerScriptService.GBloxPodium",
+      "ServerScriptService.GBloxRaceVFXServer",
+      "ServerScriptService.R6CharacterLoader",
+      "ServerScriptService.RankingEmotes",
+      "StarterGui.GBloxAbilityHUD.Controller",
+      "StarterGui.GBloxMatchRewards.Controller",
+      "StarterGui.GBloxRoundRankings.RankingsClient",
+      "StarterGui.GBloxSettings.SettingsClient",
+      "StarterPlayer.StarterPlayerScripts.GBloxMusic",
+      "ReplicatedStorage.GBloxEmoteCatalog",
+      "ReplicatedStorage.GBloxAbilityRules",
+      "ReplicatedStorage.GBloxEmoteRules",
+      "ReplicatedStorage.GBloxPetEquipRules",
+      "ReplicatedStorage.GBloxPlaytimeRules",
+      "ReplicatedStorage.GBloxPurchaseCatalog",
+      "ReplicatedStorage.GBloxReceiptRules",
+      "ReplicatedStorage.GBloxTitleEffects",
+      "ReplicatedStorage.GBloxTitleRules",
+      "ReplicatedStorage.GBloxUIArtwork",
+      "ServerScriptService.GBloxAudioSettingsServer",
+      "ServerScriptService.GBloxEmoteShopServer",
+      "ServerScriptService.GBloxPurchasePolicy",
+      "ServerScriptService.GBloxTitlesServer",
+      "ServerScriptService.PlayerDataServer",
+      "StarterPlayer.StarterPlayerScripts.GBloxTitleEffectsClient",
+      "StarterPlayer.StarterPlayerScripts.GBloxUIPolish",
+      "ReplicatedStorage.RunnerConfig",
+      "ReplicatedStorage.RunnerGroundCheck",
+      "ReplicatedStorage.RunnerMotion",
+      "ReplicatedStorage.RunnerSomersault",
+      "ReplicatedStorage.RunnerResetPolicy",
+      "ReplicatedStorage.RunnerCameraFollow",
+      "ServerScriptService.RunnerServer",
+      "ServerScriptService.GravityFlipAssist",
+      "ServerScriptService.RunnerPlayerCollision",
+      "ServerScriptService.RoundReadyGate",
+      "ServerScriptService.RunnerRecovery",
+      "ServerScriptService.RunnerSpikeContact",
+      "ServerScriptService.RunnerIdleRules",
+      "StarterPlayer.StarterPlayerScripts.RunnerClient",
+      "StarterPlayer.StarterPlayerScripts.RunnerResetControl",
+      "ServerScriptService.GBloxCourseLoadingGate",
+      "ServerScriptService.PlayerData",
+      "ReplicatedFirst.GBloxCourseLoading",
+      "ReplicatedFirst.GBloxCourseLoading.LoadingConfig"
+    ],
+    "roundReusedIdenticalSource": [
+      "ReplicatedStorage.GBloxAbilityRules",
+      "ReplicatedStorage.GBloxEmoteCatalog",
+      "ReplicatedStorage.GBloxEmoteRules",
+      "ReplicatedStorage.GBloxPetEquipRules",
+      "ReplicatedStorage.GBloxPlaytimeRules",
+      "ReplicatedStorage.GBloxPurchaseCatalog",
+      "ReplicatedStorage.GBloxReceiptRules",
+      "ReplicatedStorage.GBloxTitleEffects",
+      "ReplicatedStorage.GBloxTitleRules",
+      "ReplicatedStorage.GBloxUIArtwork",
+      "ServerScriptService.GBloxAudioSettingsServer",
+      "ServerScriptService.GBloxEmoteShopServer",
+      "ServerScriptService.GBloxPurchasePolicy",
+      "ServerScriptService.GBloxTitlesServer",
+      "ServerScriptService.PlayerDataServer",
+      "StarterPlayer.StarterPlayerScripts.GBloxTitleEffectsClient",
+      "StarterPlayer.StarterPlayerScripts.GBloxUIPolish"
+    ]
+  },
+  "verification": {
+    "compiledLobby": 77,
+    "compiledRound": 64,
+    "compileErrors": [],
+    "isolatedChecks": {
+      "spectatingAndInput": 103,
+      "groundGeometry": 380,
+      "movementScenarios": 873,
+      "lobbyPetCoins": 97,
+      "emoteReadiness": 37,
+      "teleportAndLoading": 55,
+      "orderedWrites": 24,
+      "runnerIntegration": 2946
+    }
+  },
+  "finalInventories": {
+    "lobby": {
+      "running": false,
+      "errors": [],
+      "scripts": [
+        {
+          "hash": 2842510454,
+          "path": "Workspace.Pets.Alien_ROOT.Script",
+          "bytes": 1749
+        },
+        {
+          "hash": 372133795,
+          "path": "ReplicatedFirst.GBloxLoading",
+          "bytes": 15610
+        },
+        {
+          "hash": 2444872672,
+          "path": "ReplicatedFirst.GBloxLoading.MenuConfig",
+          "bytes": 924
+        },
+        {
+          "hash": 3703634414,
+          "path": "StarterPlayer.StarterPlayerScripts.GBloxUIPolish",
+          "bytes": 2870
+        },
+        {
+          "hash": 230598588,
+          "path": "StarterPlayer.StarterPlayerScripts.LobbyInteractions",
+          "bytes": 8284
+        },
+        {
+          "hash": 1962774694,
+          "path": "StarterPlayer.StarterPlayerScripts.LobbyCoinEffects",
+          "bytes": 1724
+        },
+        {
+          "hash": 3589189193,
+          "path": "StarterPlayer.StarterPlayerScripts.LobbyJump",
+          "bytes": 1404
+        },
+        {
+          "hash": 1477188744,
+          "path": "StarterPlayer.StarterPlayerScripts.GBloxMusic",
+          "bytes": 1947
+        },
+        {
+          "hash": 2766245767,
+          "path": "StarterPlayer.StarterPlayerScripts.GBloxLobbyNavigation",
+          "bytes": 4081
+        },
+        {
+          "hash": 3291871222,
+          "path": "StarterPlayer.StarterPlayerScripts.GBloxPetFollower",
+          "bytes": 3691
+        },
+        {
+          "hash": 1405136968,
+          "path": "StarterPlayer.StarterPlayerScripts.GBloxTitleEffectsClient",
+          "bytes": 1886
+        },
+        {
+          "hash": 813740605,
+          "path": "StarterGui.PartyUi.PartyController",
+          "bytes": 7886
+        },
+        {
+          "hash": 19516534,
+          "path": "StarterGui.GBloxShopMockups.Canvas.Inventory.Details.Equip.ArtworkController",
+          "bytes": 444
+        },
+        {
+          "hash": 4108601637,
+          "path": "StarterGui.GBloxShopMockups.PreviewNavigation",
+          "bytes": 9484
+        },
+        {
+          "hash": 1689891151,
+          "path": "StarterGui.GBloxShopMockups.InventoryNavigation",
+          "bytes": 17848
+        },
+        {
+          "hash": 2778012960,
+          "path": "StarterGui.GBloxShopMockups.InventoryLayout",
+          "bytes": 2941
+        },
+        {
+          "hash": 1036171162,
+          "path": "StarterGui.GBloxShopMockups.GBloxEmoteShopClient",
+          "bytes": 2843
+        },
+        {
+          "hash": 1499341732,
+          "path": "StarterGui.CurrencyHUD.BalanceDisplay",
+          "bytes": 1254
+        },
+        {
+          "hash": 2621516532,
+          "path": "StarterGui.GBloxSettings.SettingsClient",
+          "bytes": 9229
+        },
+        {
+          "hash": 59692424,
+          "path": "StarterGui.GBloxEggOpening.Controller",
+          "bytes": 8624
+        },
+        {
+          "hash": 3131917405,
+          "path": "StarterGui.GBloxAdminPanel.Controller",
+          "bytes": 5209
+        },
+        {
+          "hash": 36177301,
+          "path": "StarterGui.GBloxDailyRewards.Controller",
+          "bytes": 5718
+        },
+        {
+          "hash": 1422026300,
+          "path": "StarterGui.GBloxCommunityRewards.Controller",
+          "bytes": 6394
+        },
+        {
+          "hash": 1027630193,
+          "path": "StarterGui.GBloxPlaytimeRewards.Controller",
+          "bytes": 5911
+        },
+        {
+          "hash": 1916175599,
+          "path": "ReplicatedStorage.Modules.Zone",
+          "bytes": 28030
+        },
+        {
+          "hash": 3946084448,
+          "path": "ReplicatedStorage.Modules.Zone.Enum",
+          "bytes": 3583
+        },
+        {
+          "hash": 2685185570,
+          "path": "ReplicatedStorage.Modules.Zone.Enum.Accuracy",
+          "bytes": 202
+        },
+        {
+          "hash": 332227284,
+          "path": "ReplicatedStorage.Modules.Zone.Enum.Detection",
+          "bytes": 626
+        },
+        {
+          "hash": 381410628,
+          "path": "ReplicatedStorage.Modules.Zone.Janitor",
+          "bytes": 10275
+        },
+        {
+          "hash": 1834147582,
+          "path": "ReplicatedStorage.Modules.Zone.OldSignal",
+          "bytes": 2661
+        },
+        {
+          "hash": 50477242,
+          "path": "ReplicatedStorage.Modules.Zone.Signal",
+          "bytes": 6350
+        },
+        {
+          "hash": 2848725926,
+          "path": "ReplicatedStorage.Modules.Zone.VERSION",
+          "bytes": 9
+        },
+        {
+          "hash": 1052341078,
+          "path": "ReplicatedStorage.Modules.Zone.ZoneController",
+          "bytes": 18324
+        },
+        {
+          "hash": 1136307726,
+          "path": "ReplicatedStorage.Modules.Zone.ZoneController.CollectiveWorldModel",
+          "bytes": 1303
+        },
+        {
+          "hash": 2827544390,
+          "path": "ReplicatedStorage.Modules.Zone.ZoneController.Tracker",
+          "bytes": 6492
+        },
+        {
+          "hash": 1321780692,
+          "path": "ReplicatedStorage.Modules.Zone.ZonePlusReference",
+          "bytes": 1194
+        },
+        {
+          "hash": 2842510454,
+          "path": "ReplicatedStorage.GBloxPetTemplates.Alien.Script",
+          "bytes": 1749
+        },
+        {
+          "hash": 812058870,
+          "path": "ReplicatedStorage.GBloxPetCatalog",
+          "bytes": 3418
+        },
+        {
+          "hash": 1403533852,
+          "path": "ReplicatedStorage.GBloxDailyRewardRules",
+          "bytes": 2883
+        },
+        {
+          "hash": 1450222369,
+          "path": "ReplicatedStorage.GBloxCommunityRewardRules",
+          "bytes": 1548
+        },
+        {
+          "hash": 1256145369,
+          "path": "ReplicatedStorage.GBloxAbilityRules",
+          "bytes": 1458
+        },
+        {
+          "hash": 2226782985,
+          "path": "ReplicatedStorage.GBloxPlaytimeRules",
+          "bytes": 3979
+        },
+        {
+          "hash": 642894667,
+          "path": "ReplicatedStorage.GBloxPurchaseCatalog",
+          "bytes": 1530
+        },
+        {
+          "hash": 493522926,
+          "path": "ReplicatedStorage.GBloxReceiptRules",
+          "bytes": 1496
+        },
+        {
+          "hash": 931867986,
+          "path": "ReplicatedStorage.GBloxPetEquipRules",
+          "bytes": 1778
+        },
+        {
+          "hash": 677218565,
+          "path": "ReplicatedStorage.GBloxTitleRules",
+          "bytes": 3509
+        },
+        {
+          "hash": 1466171127,
+          "path": "ReplicatedStorage.GBloxEmoteCatalog",
+          "bytes": 3615
+        },
+        {
+          "hash": 1184879435,
+          "path": "ReplicatedStorage.GBloxEmoteRules",
+          "bytes": 2295
+        },
+        {
+          "hash": 574910120,
+          "path": "ReplicatedStorage.GBloxTitleEffects",
+          "bytes": 4916
+        },
+        {
+          "hash": 2435132852,
+          "path": "ReplicatedStorage.GBloxUIArtwork",
+          "bytes": 2746
+        },
+        {
+          "hash": 1166724763,
+          "path": "ServerScriptService.QueueServer",
+          "bytes": 11907
+        },
+        {
+          "hash": 1390198552,
+          "path": "ServerScriptService.GBloxLobbyGate",
+          "bytes": 1278
+        },
+        {
+          "hash": 489447091,
+          "path": "ServerScriptService.TutorialProgressServer",
+          "bytes": 2061
+        },
+        {
+          "hash": 2158636614,
+          "path": "ServerScriptService.PlayerData",
+          "bytes": 28246
+        },
+        {
+          "hash": 4211895357,
+          "path": "ServerScriptService.PlayerDataServer",
+          "bytes": 3456
+        },
+        {
+          "hash": 4013095088,
+          "path": "ServerScriptService.GlobalLeaderboardServer",
+          "bytes": 4477
+        },
+        {
+          "hash": 653951805,
+          "path": "ServerScriptService.AbilityShopServer",
+          "bytes": 806
+        },
+        {
+          "hash": 812881821,
+          "path": "ServerScriptService.LobbyTreadmills",
+          "bytes": 7113
+        },
+        {
+          "hash": 98464392,
+          "path": "ServerScriptService.LobbyCoins",
+          "bytes": 3770
+        },
+        {
+          "hash": 2384395763,
+          "path": "ServerScriptService.GBloxAudioSettingsServer",
+          "bytes": 1379
+        },
+        {
+          "hash": 1482772373,
+          "path": "ServerScriptService.GBloxLobbyNavigation",
+          "bytes": 1289
+        },
+        {
+          "hash": 3511405609,
+          "path": "ServerScriptService.GBloxPetService",
+          "bytes": 6684
+        },
+        {
+          "hash": 2549544962,
+          "path": "ServerScriptService.GBloxPetBootstrap",
+          "bytes": 324
+        },
+        {
+          "hash": 3923876636,
+          "path": "ServerScriptService.GBloxEggService",
+          "bytes": 7353
+        },
+        {
+          "hash": 2978837250,
+          "path": "ServerScriptService.GBloxPetInventoryServer",
+          "bytes": 726
+        },
+        {
+          "hash": 3978656438,
+          "path": "ServerScriptService.GBloxAdminService",
+          "bytes": 5211
+        },
+        {
+          "hash": 571926262,
+          "path": "ServerScriptService.GBloxDailyRewardsServer",
+          "bytes": 3029
+        },
+        {
+          "hash": 841555191,
+          "path": "ServerScriptService.GBloxCommunityRewardsServer",
+          "bytes": 3563
+        },
+        {
+          "hash": 1673757561,
+          "path": "ServerScriptService.GBloxPlaytimeRewardsServer",
+          "bytes": 1282
+        },
+        {
+          "hash": 730672220,
+          "path": "ServerScriptService.GBloxPurchasePolicy",
+          "bytes": 836
+        },
+        {
+          "hash": 3197441764,
+          "path": "ServerScriptService.GBloxTitlesServer",
+          "bytes": 3128
+        },
+        {
+          "hash": 262304260,
+          "path": "ServerScriptService.GBloxEmoteShopServer",
+          "bytes": 2301
+        },
+        {
+          "hash": 644394248,
+          "path": "ServerScriptService.GBloxCodeRules",
+          "bytes": 1111
+        },
+        {
+          "hash": 3316222800,
+          "path": "ServerScriptService.GBloxCodesServer",
+          "bytes": 932
+        },
+        {
+          "hash": 3197202589,
+          "path": "ServerScriptService.GBloxChampionStatue",
+          "bytes": 4520
+        },
+        {
+          "hash": 2187764432,
+          "path": "ServerScriptService.GBloxTeleportRetry",
+          "bytes": 4445
+        },
+        {
+          "hash": 1746154337,
+          "path": "ServerScriptService.GBloxOrderedWrites",
+          "bytes": 1261
+        }
+      ]
+    },
+    "round": {
+      "running": false,
+      "errors": [],
+      "scripts": [
+        {
+          "hash": 866521311,
+          "path": "ReplicatedFirst.GBloxCourseLoading",
+          "bytes": 10588
+        },
+        {
+          "hash": 4045607700,
+          "path": "ReplicatedFirst.GBloxCourseLoading.LoadingConfig",
+          "bytes": 1825
+        },
+        {
+          "hash": 2629689237,
+          "path": "StarterPlayer.StarterPlayerScripts.RunnerClient",
+          "bytes": 29920
+        },
+        {
+          "hash": 3703634414,
+          "path": "StarterPlayer.StarterPlayerScripts.GBloxUIPolish",
+          "bytes": 2870
+        },
+        {
+          "hash": 1945228223,
+          "path": "StarterPlayer.StarterPlayerScripts.GBloxMusic",
+          "bytes": 1495
+        },
+        {
+          "hash": 610887820,
+          "path": "StarterPlayer.StarterPlayerScripts.RunnerResetControl",
+          "bytes": 1078
+        },
+        {
+          "hash": 1405136968,
+          "path": "StarterPlayer.StarterPlayerScripts.GBloxTitleEffectsClient",
+          "bytes": 1886
+        },
+        {
+          "hash": 1521036345,
+          "path": "StarterPlayer.StarterPlayerScripts.GBloxRaceVFXClient",
+          "bytes": 3850
+        },
+        {
+          "hash": 933172083,
+          "path": "StarterGui.GBloxSettings.SettingsClient",
+          "bytes": 8407
+        },
+        {
+          "hash": 1091544454,
+          "path": "StarterGui.GBloxRoundRankings.RankingsClient",
+          "bytes": 16639
+        },
+        {
+          "hash": 2978956673,
+          "path": "StarterGui.GBloxAbilityHUD.Controller",
+          "bytes": 3934
+        },
+        {
+          "hash": 3380748644,
+          "path": "StarterGui.GBloxAbilityHUD.AntispikeVisuals",
+          "bytes": 1276
+        },
+        {
+          "hash": 3353153122,
+          "path": "StarterGui.GBloxMatchRewards.Controller",
+          "bytes": 11529
+        },
+        {
+          "hash": 859455492,
+          "path": "ReplicatedStorage.RunnerConfig",
+          "bytes": 924
+        },
+        {
+          "hash": 4111409512,
+          "path": "ReplicatedStorage.RunnerGroundCheck",
+          "bytes": 2597
+        },
+        {
+          "hash": 1568962158,
+          "path": "ReplicatedStorage.RunnerMotion",
+          "bytes": 439
+        },
+        {
+          "hash": 620726894,
+          "path": "ReplicatedStorage.RunnerSomersault",
+          "bytes": 2938
+        },
+        {
+          "hash": 2199560706,
+          "path": "ReplicatedStorage.GBloxPetCatalog",
+          "bytes": 2121
+        },
+        {
+          "hash": 2046451766,
+          "path": "ReplicatedStorage.RankingAvatarPreview",
+          "bytes": 6608
+        },
+        {
+          "hash": 3058991007,
+          "path": "ReplicatedStorage.RankingEmoteEffects",
+          "bytes": 4088
+        },
+        {
+          "hash": 2990250400,
+          "path": "ReplicatedStorage.RankingLeaveRules",
+          "bytes": 186
+        },
+        {
+          "hash": 1256145369,
+          "path": "ReplicatedStorage.GBloxAbilityRules",
+          "bytes": 1458
+        },
+        {
+          "hash": 2407137258,
+          "path": "ReplicatedStorage.GBloxMatchRewardRules",
+          "bytes": 2356
+        },
+        {
+          "hash": 3732540190,
+          "path": "ReplicatedStorage.GBloxPodiumPresentation",
+          "bytes": 1156
+        },
+        {
+          "hash": 3486778312,
+          "path": "ReplicatedStorage.GBloxPodiumVisuals",
+          "bytes": 4477
+        },
+        {
+          "hash": 761088300,
+          "path": "ReplicatedStorage.RunnerResetPolicy",
+          "bytes": 224
+        },
+        {
+          "hash": 2226782985,
+          "path": "ReplicatedStorage.GBloxPlaytimeRules",
+          "bytes": 3979
+        },
+        {
+          "hash": 1967182121,
+          "path": "ReplicatedStorage.RunnerCameraFollow",
+          "bytes": 904
+        },
+        {
+          "hash": 642894667,
+          "path": "ReplicatedStorage.GBloxPurchaseCatalog",
+          "bytes": 1530
+        },
+        {
+          "hash": 493522926,
+          "path": "ReplicatedStorage.GBloxReceiptRules",
+          "bytes": 1496
+        },
+        {
+          "hash": 931867986,
+          "path": "ReplicatedStorage.GBloxPetEquipRules",
+          "bytes": 1778
+        },
+        {
+          "hash": 677218565,
+          "path": "ReplicatedStorage.GBloxTitleRules",
+          "bytes": 3509
+        },
+        {
+          "hash": 1466171127,
+          "path": "ReplicatedStorage.GBloxEmoteCatalog",
+          "bytes": 3615
+        },
+        {
+          "hash": 1184879435,
+          "path": "ReplicatedStorage.GBloxEmoteRules",
+          "bytes": 2295
+        },
+        {
+          "hash": 574910120,
+          "path": "ReplicatedStorage.GBloxTitleEffects",
+          "bytes": 4916
+        },
+        {
+          "hash": 2435132852,
+          "path": "ReplicatedStorage.GBloxUIArtwork",
+          "bytes": 2746
+        },
+        {
+          "hash": 3575210406,
+          "path": "ReplicatedStorage.GBloxRaceVFXRenderer",
+          "bytes": 4182
+        },
+        {
+          "hash": 1671724556,
+          "path": "ServerScriptService.GBloxCourseLoadingGate",
+          "bytes": 1274
+        },
+        {
+          "hash": 2579172160,
+          "path": "ServerScriptService.RunnerServer",
+          "bytes": 55839
+        },
+        {
+          "hash": 2138592315,
+          "path": "ServerScriptService.PlayerData",
+          "bytes": 20538
+        },
+        {
+          "hash": 4211895357,
+          "path": "ServerScriptService.PlayerDataServer",
+          "bytes": 3456
+        },
+        {
+          "hash": 4151921656,
+          "path": "ServerScriptService.GravityFlipAssist",
+          "bytes": 307
+        },
+        {
+          "hash": 1932648074,
+          "path": "ServerScriptService.RunnerPlayerCollision",
+          "bytes": 1540
+        },
+        {
+          "hash": 2922797412,
+          "path": "ServerScriptService.R6CharacterLoader",
+          "bytes": 2547
+        },
+        {
+          "hash": 1797912497,
+          "path": "ServerScriptService.CourseCollisionSetup",
+          "bytes": 3003
+        },
+        {
+          "hash": 968312172,
+          "path": "ServerScriptService.CourseRegistry",
+          "bytes": 2738
+        },
+        {
+          "hash": 2384395763,
+          "path": "ServerScriptService.GBloxAudioSettingsServer",
+          "bytes": 1379
+        },
+        {
+          "hash": 681742157,
+          "path": "ServerScriptService.RoundReadyGate",
+          "bytes": 942
+        },
+        {
+          "hash": 1086468980,
+          "path": "ServerScriptService.RankingEmotes",
+          "bytes": 7173
+        },
+        {
+          "hash": 1171028242,
+          "path": "ServerScriptService.RunnerRecovery",
+          "bytes": 2515
+        },
+        {
+          "hash": 3229280229,
+          "path": "ServerScriptService.GBloxGravitySwitch",
+          "bytes": 2654
+        },
+        {
+          "hash": 1777908286,
+          "path": "ServerScriptService.GBloxPlatBeGone",
+          "bytes": 3107
+        },
+        {
+          "hash": 2235913448,
+          "path": "ServerScriptService.GBloxAbilityEffects",
+          "bytes": 3168
+        },
+        {
+          "hash": 1875097012,
+          "path": "ServerScriptService.GBloxPodium",
+          "bytes": 9218
+        },
+        {
+          "hash": 1089201787,
+          "path": "ServerScriptService.RunnerSpikeContact",
+          "bytes": 2532
+        },
+        {
+          "hash": 1327923690,
+          "path": "ServerScriptService.RunnerIdleRules",
+          "bytes": 1012
+        },
+        {
+          "hash": 730672220,
+          "path": "ServerScriptService.GBloxPurchasePolicy",
+          "bytes": 836
+        },
+        {
+          "hash": 3197441764,
+          "path": "ServerScriptService.GBloxTitlesServer",
+          "bytes": 3128
+        },
+        {
+          "hash": 262304260,
+          "path": "ServerScriptService.GBloxEmoteShopServer",
+          "bytes": 2301
+        },
+        {
+          "hash": 1318078088,
+          "path": "ServerScriptService.GBloxRaceVFXServer",
+          "bytes": 876
+        },
+        {
+          "hash": 2691312012,
+          "path": "ServerScriptService.RunnerSpectating",
+          "bytes": 3237
+        },
+        {
+          "hash": 2187764432,
+          "path": "ServerScriptService.GBloxTeleportRetry",
+          "bytes": 4445
+        },
+        {
+          "hash": 2359860885,
+          "path": "ServerScriptService.RunnerArrivalRules",
+          "bytes": 589
+        },
+        {
+          "hash": 1746154337,
+          "path": "ServerScriptService.GBloxOrderedWrites",
+          "bytes": 1261
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "No live multiplayer/teleport/FPS test performed",
+    "No network, firewall, DNS, or router settings changed",
+    "Error279 log confirms destination transport no-response after about20seconds; exact network cause not proven",
+    "Map positions, podium, camera presentation, and game balance not changed"
+  ],
+  "followUpProfiling": [
+    "Course4 rotatingwheel load and large world coordinates",
+    "Audio settings datastore traffic and avatar preview creation cost"
+  ]
+}

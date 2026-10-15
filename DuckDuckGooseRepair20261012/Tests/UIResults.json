@@ -1,0 +1,109 @@
+{
+  "ok": true,
+  "result": {
+    "total": 25,
+    "passed": 25,
+    "checks": {
+      "1": {
+        "name": "Countdown presents only the current compact rules card",
+        "passed": true
+      },
+      "2": {
+        "name": "Portrait and desktop rules switch without changing authored layout",
+        "passed": true
+      },
+      "3": {
+        "name": "Rules close at chase start and runner sees one goal marker",
+        "passed": true
+      },
+      "4": {
+        "name": "All arrows glow and animation advances clockwise",
+        "passed": true
+      },
+      "5": {
+        "name": "Every chevron geometrically points along clockwise travel",
+        "passed": true
+      },
+      "6": {
+        "name": "Recovery takes precedence over an already completed lap",
+        "passed": true
+      },
+      "7": {
+        "name": "Moving recovery point reuses its marker and stays nonphysical",
+        "passed": true
+      },
+      "8": {
+        "name": "Recovery completion removes return marker and restores goal",
+        "passed": true
+      },
+      "9": {
+        "name": "Chaser never gets the runner's chair marker",
+        "passed": true
+      },
+      "10": {
+        "name": "Tagged players get elimination notice and markers are cleared",
+        "passed": true
+      },
+      "11": {
+        "name": "Hidden session UI hides guidance and restores arrow artwork",
+        "passed": true
+      },
+      "12": {
+        "name": "Late streamed chevrons join glow or directions stream atomically",
+        "passed": true
+      },
+      "13": {
+        "name": "Destroy removes local markers and restores the original arrows",
+        "passed": true
+      },
+      "14": {
+        "name": "Desktop rules text fits the authored cards",
+        "passed": true
+      },
+      "15": {
+        "name": "Compact rules text fits the authored cards",
+        "passed": true
+      },
+      "16": {
+        "name": "Portrait rules text fits the authored cards",
+        "passed": true
+      },
+      "17": {
+        "name": "Guidance fits 568x320 viewport safe area",
+        "passed": true
+      },
+      "18": {
+        "name": "Guidance fits 667x375 viewport safe area",
+        "passed": true
+      },
+      "19": {
+        "name": "Guidance fits 812x375 viewport safe area",
+        "passed": true
+      },
+      "20": {
+        "name": "Guidance fits 844x390 viewport safe area",
+        "passed": true
+      },
+      "21": {
+        "name": "Guidance fits 1024x768 viewport safe area",
+        "passed": true
+      },
+      "22": {
+        "name": "Guidance fits 1180x820 viewport safe area",
+        "passed": true
+      },
+      "23": {
+        "name": "Guidance fits 320x568 viewport safe area",
+        "passed": true
+      },
+      "24": {
+        "name": "Guidance fits 390x844 viewport safe area",
+        "passed": true
+      },
+      "25": {
+        "name": "Guidance fits 1920x1080 viewport safe area",
+        "passed": true
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "sources": 13,
+  "builders": 7,
+  "embedded_files_verified": 20,
+  "support_files_verified": 46,
+  "upgrade_contract_verified": true,
+  "expansion_stage_files_verified": 27,
+  "combined_stage_order_verified": true,
+  "compact_sha256": "8d665613dace2790f71de61743607acd700fb6271339316596ad367b52838bb4",
+  "all_games_sha256": "85931adb57981adeab27a873a6522611a089e533269b3585c36b4ce44d5c4b86",
+  "external_profile_writes": 0,
+  "studio_mutations": 0
+}

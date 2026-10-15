@@ -1,0 +1,21 @@
+VIP dragon integration completed 2026-10-07.
+
+Small pet: ReplicatedStorage.PlaygroundCosmeticAssets.P36 (VIP Royal Dragon).
+Catalog unlock: VIP entitlement, auto-awarded by verified VIP ownership or owner grant. Equipping uses the existing pet inventory.
+Both imported dragons preserve their colour textures and skinned rigs, with eight stud finish layers and black cartoon outlines.
+Large dragon remains Workspace.VIP-Dragon-Rigged-display at exactly its original pivot and scale 25. Its display stays still in the corner while its authored hover animation loops during play.
+Small dragon follows 1.15 studs above the normal ground baseline, with authored hover/flight clips blended by movement. Reduced motion holds a steady pose.
+Imported Hover (41 frames) and Fly (27 frames) were copied to ReplicatedStorage.PlaygroundPetAnimations.VIPDragon; original Animation Editor saves remain unchanged. Bone rest rotations are normalized, and translation offsets scale with the model.
+Animation uses the already Animation-capable PlaygroundEmotes. No existing script capabilities changed.
+
+Verification:
+- 66 animation/style checks passed, including all 14 bones, seamless loops, 64-degree wing motion, movement blend, reduced motion, scaled translations, skinned coats and preserved display placement.
+- 121 follower regression checks passed for all 36 pets, including owner/other player visibility, movement, map teleports, respawn, unequip, death and distance culling. The temporary test wrapper needed RunServerScript to be required in Edit; the installed follower permissions stayed unchanged.
+- 12 VIP catalog/grant/equip/save integration checks passed using a mock data store. Non-VIP Buy/Equip attempts were rejected; a VIP grant awarded P36; a game-pass refresh preserved the grant; equip and ownership saved together.
+- Wing down/up poses and large dragon placement visually inspected in Studio captures. Stud layers followed deformation correctly. Temporary fixtures removed.
+- Catalog, Pets and Emotes compiled successfully and matched Studio source readback.
+- Studio remains in Edit. No Play test or real player entitlement grant was performed.
+
+Backups: ServerStorage.VIPDragonBackup20261007 and local Before directory.
+Other integration: VIPIntegration20261007/Server and VIPIntegration20261007/UI.
+Code definitions remain empty until the owner provides a Beta Tester code. Beta Tester currently supplies its status/tag; no Beta pet or bat asset was invented.

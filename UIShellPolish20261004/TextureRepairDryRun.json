@@ -1,0 +1,35 @@
+{
+  "commit": false,
+  "total": 5,
+  "attributes": 0,
+  "images": 0,
+  "scripts": 0,
+  "targets": [
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot01.Preview.World.ItemModel.b01-starter-slugger.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.B01.b01-starter-slugger.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.P07.p07-teapot-frog.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Bats.b01-starter-slugger.b01-starter-slugger.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Pets.p07-teapot-frog.p07-teapot-frog.001",
+      "attribute": false,
+      "property": "TextureID"
+    }
+  ],
+  "textures": 5
+}

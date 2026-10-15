@@ -1,0 +1,8 @@
+{
+  "installed": true,
+  "serverBytes": 61014,
+  "controllerCapabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+  "clientBytes": 18556,
+  "backup": "ServerStorage.MudAimFireRepairBackup20261012",
+  "serviceCapabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+}

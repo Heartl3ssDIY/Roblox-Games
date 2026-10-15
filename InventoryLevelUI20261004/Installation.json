@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"playStarted\":false,\"scripts\":{\"1\":{\"bytes\":32146,\"path\":\"ServerScriptService.PlaygroundEconomyService\",\"capabilitiesPreserved\":true},\"3\":{\"bytes\":10729,\"path\":\"StarterGui.PlaygroundShell.PlayerLevelController\",\"capabilitiesPreserved\":true},\"2\":{\"bytes\":22501,\"path\":\"StarterGui.PlaygroundShell.Controller\",\"capabilitiesPreserved\":true}}}"
+    }
+  ],
+  "isError": false
+}

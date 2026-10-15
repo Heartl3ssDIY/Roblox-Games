@@ -1,0 +1,23 @@
+Installed in Studio Edit mode on 2026-10-07.
+
+Admin > Rewards has Grant VIP and Grant Beta Tester for the selected online player; SELF targets the owner.
+Owner remains SandboxxYY, UserId 1201803949. No Studio bypass was added.
+The admin panel, toggle and hub remain hidden by default.
+
+Settings now includes a reward code input and Redeem button, inside an editable scrolling body.
+Enter, tap or controller activation sends RedeemCode to PlaygroundShopRequest.
+No live code was invented; the owner will supply the beta tester code later.
+Server response messages handle success, invalid codes, loading, failures and already-claimed cases.
+Controls stay 44 pixels high across seven portrait, landscape, tablet and desktop layout checks.
+
+Several existing image URLs failed fetch during preview. Authored cream/navy fallback backgrounds appear only until the reusable images load; no runtime position or size changes were added.
+
+Verification:
+- 27 native Edit admin authorization, selected target, malformed target, throttle and error-recovery checks passed.
+- 12 native Edit code UI checks with a mocked remote passed, including pending state and duplicate requests.
+- 48 authored layout/owner-default checks passed across seven viewport sizes.
+- Four changed controller/service sources compiled successfully and matched Studio readback.
+- Settings and admin reward panel visually inspected using temporary Studio previews, then removed.
+- No Play test started; no persistent grants made by these fixtures.
+
+Studio backup: ServerStorage.VIPAdminSettingsBackup20261007

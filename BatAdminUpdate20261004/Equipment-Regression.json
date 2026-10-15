@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"checks\":{\"1\":{\"name\":\"No equipment before player data is ready\",\"passed\":true},\"3\":{\"name\":\"Every imported miscellaneous asset equips and replaces its previous tool\",\"passed\":true},\"2\":{\"name\":\"Lobby creates a harmless collectible tool\",\"passed\":true},\"5\":{\"name\":\"Only the Bulldog receives its selected bat\",\"passed\":true},\"4\":{\"name\":\"Mud rounds remove cosmetic toys\",\"passed\":true},\"7\":{\"name\":\"Runner role removes bat without granting a lobby toy\",\"passed\":true},\"6\":{\"name\":\"Every imported bat equips without retaining the previous bat\",\"passed\":true},\"9\":{\"name\":\"Returning to lobby restores the selected toy\",\"passed\":true},\"8\":{\"name\":\"Tag participation keeps miscellaneous toys out of rounds\",\"passed\":true},\"15\":{\"name\":\"Equipment service remains stopped throughout fixtures\",\"passed\":true},\"14\":{\"name\":\"Data readiness loss clears gear and its listeners\",\"passed\":true},\"13\":{\"name\":\"Character replacement clears the previous character equipment\",\"passed\":true},\"12\":{\"name\":\"Dead characters have no equipped cosmetics\",\"passed\":true},\"11\":{\"name\":\"Missing hand removes bat safely\",\"passed\":true},\"10\":{\"name\":\"Wrong-slot and missing IDs do not create equipment\",\"passed\":true}},\"passed\":true,\"playStarted\":false,\"fixtureDestroyed\":true,\"miscAssetsChecked\":15,\"mode\":\"Edit\",\"generatedAt\":\"2026-10-04T18:34:57Z\",\"batAssetsChecked\":15}"
+    }
+  ],
+  "isError": false
+}

@@ -1,0 +1,133 @@
+{
+  "sourceTemplateUnchanged": true,
+  "scope": "Static sampled poses on an unparented real-template clone; analytic Motor6D hierarchy evaluation. No Play mode, physics stepping, listeners, animation playback or live scene writes.",
+  "samples": {
+    "1": {
+      "emissionMidpointRootLocal": {
+        "1": 0.740966796875,
+        "2": 2.523162841796875,
+        "3": -0.5919113159179688
+      },
+      "canonicalTipGap": 0.4182489216327667,
+      "leftPalmRootLocal": {
+        "1": 0.4466552734375,
+        "2": 2.60107421875,
+        "3": -0.6888008117675781
+      },
+      "phase": "Charge",
+      "torsoLift": 2.8000030517578125,
+      "logicalRootUnchanged": true,
+      "time": 0.68,
+      "controllerPalmGap": 0.6391034722328186,
+      "rightPalmRootLocal": {
+        "1": 1.035400390625,
+        "2": 2.44525146484375,
+        "3": -0.49501800537109375
+      }
+    },
+    "2": {
+      "emissionMidpointRootLocal": {
+        "1": 0.76708984375,
+        "2": 2.50048828125,
+        "3": -0.5493545532226562
+      },
+      "canonicalTipGap": 0.41828277707099915,
+      "leftPalmRootLocal": {
+        "1": 0.4747314453125,
+        "2": 2.5704727172851562,
+        "3": -0.65802001953125
+      },
+      "phase": "Charge",
+      "torsoLift": 2.779998779296875,
+      "logicalRootUnchanged": true,
+      "time": 1.25,
+      "controllerPalmGap": 0.6391974091529846,
+      "rightPalmRootLocal": {
+        "1": 1.059326171875,
+        "2": 2.4305038452148438,
+        "3": -0.4406929016113281
+      }
+    },
+    "3": {
+      "emissionMidpointRootLocal": {
+        "1": -0.04443359375,
+        "2": 3.2629241943359375,
+        "3": -1.1516761779785156
+      },
+      "canonicalTipGap": 0.3788928985595703,
+      "leftPalmRootLocal": {
+        "1": -0.3880615234375,
+        "2": 3.2624969482421875,
+        "3": -1.1396827697753906
+      },
+      "phase": "Release",
+      "torsoLift": 2.720001220703125,
+      "logicalRootUnchanged": true,
+      "time": 1.35,
+      "controllerPalmGap": 0.6877968311309814,
+      "rightPalmRootLocal": {
+        "1": 0.29931640625,
+        "2": 3.2633438110351562,
+        "3": -1.1636695861816406
+      }
+    },
+    "4": {
+      "emissionMidpointRootLocal": {
+        "1": 0,
+        "2": -0.636444091796875,
+        "3": -0.4159202575683594
+      },
+      "canonicalTipGap": 4.051025390625,
+      "leftPalmRootLocal": {
+        "1": -1.9505615234375,
+        "2": -0.636444091796875,
+        "3": -0.4159202575683594
+      },
+      "phase": "Landing",
+      "torsoLift": -0.23999786376953125,
+      "logicalRootUnchanged": true,
+      "time": 2.09,
+      "controllerPalmGap": 3.901123046875,
+      "rightPalmRootLocal": {
+        "1": 1.9505615234375,
+        "2": -0.636444091796875,
+        "3": -0.4159202575683594
+      }
+    },
+    "5": {
+      "emissionMidpointRootLocal": {
+        "1": 0,
+        "2": -0.8000030517578125,
+        "3": -0.0800018310546875
+      },
+      "canonicalTipGap": 3,
+      "leftPalmRootLocal": {
+        "1": -1.5,
+        "2": -0.8000030517578125,
+        "3": -0.0800018310546875
+      },
+      "phase": "Idle",
+      "torsoLift": 0,
+      "logicalRootUnchanged": true,
+      "time": 2.25,
+      "controllerPalmGap": 3,
+      "rightPalmRootLocal": {
+        "1": 1.5,
+        "2": -0.8000030517578125,
+        "3": -0.0800018310546875
+      }
+    }
+  },
+  "passed": true,
+  "rig": "R6",
+  "jointCount": 6,
+  "cloneUnparented": true,
+  "primaryPartIsHumanoidRootPart": true,
+  "timing": {
+    "releaseAt": 1.35,
+    "beamDuration": 0.38,
+    "kind": "Roshi",
+    "cooldown": 5.3,
+    "duration": 2.25
+  }
+}

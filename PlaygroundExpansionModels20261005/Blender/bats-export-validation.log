@@ -1,0 +1,35 @@
+00:00.062  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:01.734  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b16-fossil-slugger.blend"
+FBX version: 7400
+VALIDATED B16 True
+00:02.125  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b17-dragon-scale.blend"
+FBX version: 7400
+VALIDATED B17 True
+00:02.172  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b18-breakfast-bonker.blend"
+FBX version: 7400
+VALIDATED B18 True
+00:02.203  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b19-cloud-nine.blend"
+FBX version: 7400
+VALIDATED B19 True
+00:02.250  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b20-bamboo-bruiser.blend"
+FBX version: 7400
+VALIDATED B20 True
+00:02.297  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b21-arcade-combo.blend"
+FBX version: 7400
+VALIDATED B21 True
+00:02.328  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b22-honeycomb-hitter.blend"
+FBX version: 7400
+VALIDATED B22 True
+00:02.375  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b23-clockwork-clobber.blend"
+FBX version: 7400
+VALIDATED B23 True
+00:02.406  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b24-patchwork-popper.blend"
+FBX version: 7400
+VALIDATED B24 True
+00:02.469  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Blend\b25-prism-champion.blend"
+FBX version: 7400
+VALIDATED B25 True
+VALIDATION_COMPLETE C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Validation-Bats.json
+
+Blender quit

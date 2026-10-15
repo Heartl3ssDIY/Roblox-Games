@@ -1,0 +1,128 @@
+{
+  "renderer": "sharp/libvips",
+  "allRendered": true,
+  "svgCount": 20,
+  "records": [
+    {
+      "file": "Arena-British-Bulldog-Title.svg",
+      "width": 1736,
+      "height": 204,
+      "preview": "Preview\\Arena-British-Bulldog-Title.png"
+    },
+    {
+      "file": "Emoji-Bubble-Heart.svg",
+      "width": 84,
+      "height": 84,
+      "preview": "Preview\\Emoji-Bubble-Heart.png"
+    },
+    {
+      "file": "Emoji-Bubble-Star.svg",
+      "width": 84,
+      "height": 84,
+      "preview": "Preview\\Emoji-Bubble-Star.png"
+    },
+    {
+      "file": "Overhead-Stuck.svg",
+      "width": 178,
+      "height": 50,
+      "preview": "Preview\\Overhead-Stuck.png"
+    },
+    {
+      "file": "Overhead-Tagged.svg",
+      "width": 168,
+      "height": 62,
+      "preview": "Preview\\Overhead-Tagged.png"
+    },
+    {
+      "file": "Overhead-Youre-It.svg",
+      "width": 128,
+      "height": 56,
+      "preview": "Preview\\Overhead-Youre-It.png"
+    },
+    {
+      "file": "School-Class-4B.svg",
+      "width": 166,
+      "height": 192,
+      "preview": "Preview\\School-Class-4B.png"
+    },
+    {
+      "file": "School-Hopscotch-1.svg",
+      "width": 147,
+      "height": 147,
+      "preview": "Preview\\School-Hopscotch-1.png"
+    },
+    {
+      "file": "School-Hopscotch-2.svg",
+      "width": 147,
+      "height": 147,
+      "preview": "Preview\\School-Hopscotch-2.png"
+    },
+    {
+      "file": "School-Hopscotch-3.svg",
+      "width": 147,
+      "height": 147,
+      "preview": "Preview\\School-Hopscotch-3.png"
+    },
+    {
+      "file": "School-Hopscotch-4.svg",
+      "width": 147,
+      "height": 147,
+      "preview": "Preview\\School-Hopscotch-4.png"
+    },
+    {
+      "file": "School-Hopscotch-5.svg",
+      "width": 147,
+      "height": 147,
+      "preview": "Preview\\School-Hopscotch-5.png"
+    },
+    {
+      "file": "School-Hopscotch-6.svg",
+      "width": 147,
+      "height": 147,
+      "preview": "Preview\\School-Hopscotch-6.png"
+    },
+    {
+      "file": "School-Hopscotch-7.svg",
+      "width": 147,
+      "height": 147,
+      "preview": "Preview\\School-Hopscotch-7.png"
+    },
+    {
+      "file": "School-Hopscotch-8.svg",
+      "width": 147,
+      "height": 147,
+      "preview": "Preview\\School-Hopscotch-8.png"
+    },
+    {
+      "file": "School-Room-4.svg",
+      "width": 352,
+      "height": 83,
+      "preview": "Preview\\School-Room-4.png"
+    },
+    {
+      "file": "School-Sports-Day.svg",
+      "width": 166,
+      "height": 192,
+      "preview": "Preview\\School-Sports-Day.png"
+    },
+    {
+      "file": "Vote-Stand-British-Bulldog.svg",
+      "width": 695,
+      "height": 165,
+      "preview": "Preview\\Vote-Stand-British-Bulldog.png"
+    },
+    {
+      "file": "Vote-Stand-Stuck-In-The-Mud.svg",
+      "width": 695,
+      "height": 165,
+      "preview": "Preview\\Vote-Stand-Stuck-In-The-Mud.png"
+    },
+    {
+      "file": "Vote-Stand-Tag-Youre-It.svg",
+      "width": 695,
+      "height": 165,
+      "preview": "Preview\\Vote-Stand-Tag-Youre-It.png"
+    }
+  ],
+  "contactSheet": "WorldUI-ContactSheet.png"
+}

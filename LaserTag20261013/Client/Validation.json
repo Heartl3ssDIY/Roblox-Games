@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-13",
+  "studio": "1ec6e71a-510f-473f-8626-e71d6b9ca092",
+  "mode": "Edit",
+  "passed": 170,
+  "viewports": 9,
+  "realCameraRoundtrips": 3,
+  "scope": "Fresh live Controller source executed in an isolated fixture with native GUI objects and mocked player/input/remote services. No Play test was started by this agent.",
+  "checks": [
+    "Mouse physical-screen position converts once into device-safe viewport coordinates; crosshair and ray use the same point.",
+    "Touch, gamepad and locked mouse aim through camera centre.",
+    "Phone, portrait phone, tablet and desktop headers fit nine safe viewport sizes without runtime size or position rewrites.",
+    "Fire and Sprint stay on the right, have at least 44px targets, do not overlap and clear the lower jump-control area.",
+    "Red HeatGun and blue MudGun send Fire camera-ray requests; Heat and palette controls are removed.",
+    "Mouse first shot, held repeat, release, R2 input, local and server cooldowns.",
+    "Native Humanoid locally re-equips its enabled assigned Backpack gun before shooting; stale-round, wrong-owner, wrong-team, unmanaged and disabled tools are rejected.",
+    "Touch camera pan, sprint touch and processed GUI clicks do not shoot.",
+    "Settings, admin, Roblox menu, text focus and lost window focus block shooting.",
+    "Three lives, lost-heart colouring, OUT state, countdown and tied results.",
+    "UIHidden suppresses the header but retains essential touch actions.",
+    "Round exit and script destruction unbind actions and render callbacks."
+  ]
+}

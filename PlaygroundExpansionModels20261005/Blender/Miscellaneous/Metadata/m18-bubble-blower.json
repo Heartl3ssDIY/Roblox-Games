@@ -1,0 +1,59 @@
+{
+  "id": "M18",
+  "name": "Bubble Blower",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m18-bubble-blower.png",
+  "brief": "One chunky hand-held bubble blower toy with a bright pink rounded rectangular housing, cream side panel with three simple cyan bubble shapes, a wide hollow turquoise ring nozzle attached at the front, a short navy rubber grip and a squat yellow soap reservoir fitted below the housing. One complete object, no bubbles floating outside it, no words.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m18-bubble-blower.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m18-bubble-blower.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m18-bubble-blower-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m18-bubble-blower.png",
+  "parts": 55,
+  "triangles": 8720,
+  "meshes": 1,
+  "maxMeshTriangles": 8720,
+  "dimensions": [
+    1.1200000047683716,
+    1.901003360748291,
+    1.82513427734375
+  ],
+  "boundsMin": [
+    -0.5600000023841858,
+    -1.1950000524520874,
+    0.19486576318740845
+  ],
+  "boundsMax": [
+    0.5600000023841858,
+    0.7060033082962036,
+    2.0199999809265137
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.3700000047683716,
+      0.5600000023841858
+    ],
+    "Muzzle": [
+      0.0,
+      -1.2200000286102295,
+      1.4600000381469727
+    ],
+    "Reservoir": [
+      0.0,
+      -0.3700000047683716,
+      0.5699999928474426
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.1200000047683716,
+    1.901003360748291,
+    1.82513427734375
+  ]
+}

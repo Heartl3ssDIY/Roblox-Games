@@ -1,0 +1,22 @@
+Coin pickup polish — 4 October 2026
+
+Installed in the open Playground Classics Studio place.
+Every lobby pickup now awards exactly 5 coins. The collector sees a small outlined +5 rise from the coin location, fade, and disappear after 0.9 seconds. Pickups no longer trigger the large RewardToast bar. Round, admin and unlock notifications retain their existing behaviour.
+
+The entire collected coin model moves out of Workspace during its 45-second cooldown, including all stud/mesh layers, then returns to its spawn. Availability is shared across players, with server-side collection validation and duplicate-award protection. All 10 authored marker Value attributes now show 5; their existing RespawnSeconds=45 is preserved.
+
+Editable popup template: StarterGui.PlaygroundShell.Templates.CoinPickupPopup.
+Only clones are animated; authored layout dimensions remain unchanged.
+
+Loose source models moved out of Workspace:
+ReplicatedStorage.PlaygroundSourceModels.Coins.c01-collectible-coin
+ReplicatedStorage.PlaygroundSourceModels.Guns.MudGun
+ReplicatedStorage.PlaygroundSourceModels.Guns.HeatGun
+
+Active gameplay templates remain in ReplicatedStorage.PlaygroundCosmeticAssets.C01 and ReplicatedStorage.MudAssets.MudGun / HeatGun. Original imported artwork, mesh IDs, colours and pivots are preserved.
+
+41 isolated pickup checks passed with exact existing permissions, plus 6 popup checks covering real tween movement, fading, cleanup, invalid locations and unchanged editable templates. Popup appearance was also inspected in the Studio viewport. No datastore writes or real-player data changes were made by these checks. No capability changes were needed.
+
+Studio externally entered Play during the work; it was stopped before installing the final changes. The agent did not start Play. Live multiplayer behaviour has not been play-tested by the agent.
+
+Before/ contains original source snapshots and loose-model records. After/ contains installed sources. Installation.json, SourceModelMoves.json and validation reports record changes/checks. ServerStorage.CoinPickupPolishBackup20261004 contains original scripts, marker values and reversible source-model parent references.

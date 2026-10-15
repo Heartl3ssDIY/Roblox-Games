@@ -1,0 +1,1090 @@
+{
+  "spawns": [
+    {
+      "enabled": true,
+      "path": "Workspace.Lobby_MainModeZone.SpawnLocation",
+      "size": [
+        21,
+        0.6000000238418579,
+        21
+      ],
+      "position": [
+        13.993073463439941,
+        -35.8071174621582,
+        114.87416076660156
+      ]
+    }
+  ],
+  "sources": {
+    "StarterPlayer.StarterPlayerScripts.LobbyMenuClient": "local Players = game:GetService(\"Players\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal playerGui = Players.LocalPlayer:WaitForChild(\"PlayerGui\")\nlocal PlayerData = require(ReplicatedStorage:WaitForChild(\"PlayerData\"))\nlocal ShopUI = require(ReplicatedStorage:WaitForChild(\"ShopUI\"))\nlocal LevelPassUI = require(ReplicatedStorage:WaitForChild(\"LevelPassUI\"))\nlocal UnitsUI = require(ReplicatedStorage:WaitForChild(\"UnitsUI\"))\nlocal ArenaTravelClient = require(ReplicatedStorage:WaitForChild(\"ArenaTravelClient\"))\n\nlocal screen = playerGui:WaitForChild(\"LobbyMenuGui\")\nlocal shopGui = playerGui:WaitForChild(\"ShopGui\")\nlocal overlay = shopGui:WaitForChild(\"MenuOverlay\")\nlocal panel = overlay:WaitForChild(\"MenuPanel\")\nlocal sidebar = screen:WaitForChild(\"Sidebar\")\nlocal currencies = sidebar:WaitForChild(\"CurrencyBar\")\nlocal dock = sidebar:WaitForChild(\"SideDock\")\nlocal passButton = sidebar:WaitForChild(\"BattlePass\")\nlocal badge = passButton:WaitForChild(\"Badge\")\n\nlocal function formatBalance(value)\n    if value >= 1000000 then return string.format(\"%.1fM\", value / 1000000) end\n    if value >= 10000 then return string.format(\"%.1fK\", value / 1000) end\n    return tostring(value)\nend\n\nlocal function refresh()\n    currencies.Coins.Value.Text = formatBalance(PlayerData.coins())\n    currencies.Gems.Value.Text = formatBalance(PlayerData.gems())\n    currencies.Chips.Value.Text = formatBalance(PlayerData.masteryChips())\n    local count = PlayerData.unclaimedLevelCount()\n    badge.Visible = count > 0\n    badge.Text = tostring(count)\nend\n\nShopUI.build(panel.Content.ShopPage)\nUnitsUI.build(playerGui)\nLevelPassUI.build(playerGui)\nshopGui.Enabled = false\nrefresh()\nPlayerData.Changed:Connect(refresh)\n\nscreen.PvPBtn.Activated:Connect(function()\n    local success, message = ArenaTravelClient.toDestination(\"PvP\")\n    if not success then warn(message) end\nend)\n\ndock.UnitsOpen.Activated:Connect(function()\n    shopGui.Enabled = false\n    LevelPassUI.close()\n    UnitsUI.open(playerGui)\nend)\n\ndock.ShopOpen.Activated:Connect(function()\n    UnitsUI.close()\n    LevelPassUI.close()\n    shopGui.Enabled = true\nend)\n\npassButton.Activated:Connect(function()\n    UnitsUI.close()\n    shopGui.Enabled = false\n    LevelPassUI.open(playerGui)\nend)\n\npanel.Header.Close.Activated:Connect(function()\n    shopGui.Enabled = false\nend)\n",
+    "StarterPlayer.StarterPlayerScripts.LobbyDestinations": "local Players = game:GetService(\"Players\")\nlocal StarterGui = game:GetService(\"StarterGui\")\nlocal ProximityPromptService = game:GetService(\"ProximityPromptService\")\nlocal player = Players.LocalPlayer\nlocal destinations = workspace:WaitForChild(\"Lobby_MainModeZone\"):WaitForChild(\"Destinations\")\nlocal messages = {\n\tRanked = \"The Season Hall is ready. Ranked battles are coming soon.\",\n\tPvP = \"The Duel Court is ready. Player challenges are coming soon.\",\n\tClans = \"The Guild House is ready. Clan features are coming soon.\",\n}\nlocal lastNotice = 0\n\nProximityPromptService.PromptTriggered:Connect(function(prompt)\n\tif player:GetAttribute(\"ActiveArena\") or not prompt:IsDescendantOf(destinations) then return end\n\tlocal name = prompt.Parent.Name\n\tlocal message = messages[name]\n\tif not message or os.clock() - lastNotice < 2 then return end\n\tlastNotice = os.clock()\n\tpcall(function()\n\t\tStarterGui:SetCore(\"SendNotification\", { Title = name, Text = message, Duration = 5 })\n\tend)\nend)\n\n",
+    "ReplicatedStorage.ArenaCatalog": "local ArenaCatalog = {}\n\nArenaCatalog.ordered = {\n    {number = 1, key = \"Tenkaichi\", displayName = \"Tenkaichi\", modelName = \"Arena_Tenkaichi\", description = \"Fight beneath tropical skies at the Tenkaichi martial arts tournament. Draft your team and take the ring.\", matchReady = true, teleportReady = true},\n    {number = 2, key = \"ChuninExamHall\", displayName = \"Chūnin Exam Hall\", modelName = \"Arena_ChuninExamHall\", description = \"Fight in the enclosed examination hall beneath its towering balconies.\", matchReady = false, teleportReady = true},\n    {number = 3, key = \"Loguetown\", displayName = \"Loguetown\", modelName = \"Arena_Loguetown\", description = \"Battle in Loguetown's open town square beneath the execution platform.\", matchReady = false, teleportReady = true},\n    {number = 4, key = \"JujutsuHigh\", displayName = \"Jujutsu High\", modelName = \"Arena_JujutsuHigh\", description = \"Train in the open courtyard surrounded by tiled halls, a pagoda and trees.\", matchReady = false, teleportReady = true},\n    {number = 5, key = \"Fujikasane\", displayName = \"Mount Fujikasane\", modelName = \"Arena_Fujikasane\", description = \"Face your opponent between the red pillars beneath purple wisteria.\", matchReady = false, teleportReady = true},\n    {number = 6, key = \"HeavensArena\", displayName = \"Heavens Arena\", modelName = \"Arena_HeavensArena\", description = \"Step onto the fighting floor surrounded by the stadium stands.\", matchReady = false, teleportReady = true},\n    {number = 7, key = \"HyperbolicTimeChamber\", displayName = \"Hyperbolic Time Chamber\", modelName = \"Arena_HyperbolicTimeChamber\", description = \"Battle across the white expanse in front of the chamber's golden hall.\", matchReady = false, teleportReady = true},\n    {number = 8, key = \"Wano\", displayName = \"Wano\", modelName = \"Arena_Wano\", description = \"Fight along the Flower Capital street beneath the castle and cherry blossoms.\", matchReady = false, teleportReady = true},\n    {number = 9, key = \"Marineford\", displayName = \"Marineford\", modelName = \"Arena_Marineford\", description = \"Take the frozen bay, framed by Marineford's fortress and harbour walls.\", matchReady = false, teleportReady = true},\n}\n\nfunction ArenaCatalog.get(index)\n    return ArenaCatalog.ordered[index]\nend\n\nfunction ArenaCatalog.count()\n    return #ArenaCatalog.ordered\nend\n\nfunction ArenaCatalog.find(value)\n    if type(value) == \"number\" then return ArenaCatalog.get(value) end\n    for _, arena in ipairs(ArenaCatalog.ordered) do\n        if value == arena.key or value == arena.modelName then return arena end\n    end\n    return nil\nend\n\nreturn ArenaCatalog\n",
+    "ReplicatedStorage.ArenaConfig": "local ArenaCatalog = require(game:GetService(\"ReplicatedStorage\"):WaitForChild(\"ArenaCatalog\"))\nlocal ArenaConfig = {}\n\nArenaConfig.arenaName = \"Arena_Tenkaichi\"\nArenaConfig.displayName = \"Tenkaichi Tournament\"\nArenaConfig.progressionKey = \"Tenkaichi\"\nArenaConfig.lineZ = { front = 6, mid = 13, back = 21, tank = 25 }\n\nfunction ArenaConfig.getArena(arenaName)\n    local entry = ArenaCatalog.find(arenaName or ArenaConfig.arenaName)\n    return entry and workspace:FindFirstChild(entry.modelName)\nend\n\nfunction ArenaConfig.getOrigin()\n\tlocal arena = ArenaConfig.getArena()\n\treturn arena and arena:FindFirstChild(\"BattleOrigin\")\nend\n\nfunction ArenaConfig.lineForUnit(unit)\n\treturn unit.type == \"Tank\" and \"tank\" or unit.lines[1]\nend\n\nfunction ArenaConfig.slotPosition(side, line, index, count)\n\tlocal origin = assert(ArenaConfig.getOrigin(), \"BattleOrigin is missing\")\n\tlocal width = origin:GetAttribute(\"HalfWidth\") or 29\n\tlocal columns = math.min(count, 10)\n\tlocal row = math.floor(index / 10)\n\tlocal rowCount = math.min(10, count - row * 10)\n\tlocal spacing = math.min(6, width * 2 / math.max(columns - 1, 1))\n\tlocal x = (index % 10 - (rowCount - 1) / 2) * spacing\n\tlocal z = math.max(3, (ArenaConfig.lineZ[line] or 6) - row * 3)\n\treturn origin.CFrame:PointToWorldSpace(Vector3.new(x, 0, side == \"player\" and -z or z))\nend\n\nfunction ArenaConfig.facing(side)\n\tlocal origin = assert(ArenaConfig.getOrigin(), \"BattleOrigin is missing\")\n\treturn origin.CFrame:VectorToWorldSpace(Vector3.new(0, 0, side == \"player\" and 1 or -1))\nend\n\nfunction ArenaConfig.clampPosition(position)\n\tlocal origin = assert(ArenaConfig.getOrigin(), \"BattleOrigin is missing\")\n\tlocal point = origin.CFrame:PointToObjectSpace(position)\n\tlocal width = origin:GetAttribute(\"HalfWidth\") or 29\n\tlocal depth = origin:GetAttribute(\"HalfDepth\") or 29\n\treturn origin.CFrame:PointToWorldSpace(Vector3.new(\n\t\tmath.clamp(point.X, -width, width), point.Y, math.clamp(point.Z, -depth, depth)\n\t))\nend\n\nreturn ArenaConfig\n\n",
+    "ReplicatedStorage.ArenaSelectionUI": "local Players = game:GetService(\"Players\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal TweenService = game:GetService(\"TweenService\")\nlocal PlayerData = require(ReplicatedStorage:WaitForChild(\"PlayerData\"))\nlocal Assets = require(ReplicatedStorage:WaitForChild(\"ArenaUIAssets\"))\nlocal PackOpening = require(ReplicatedStorage:WaitForChild(\"PackOpening\"))\nlocal PackReveal = require(ReplicatedStorage:WaitForChild(\"PackReveal\"))\nlocal ModePickerUI = require(ReplicatedStorage:WaitForChild(\"ModePickerUI\"))\nlocal Feedback = require(ReplicatedStorage:WaitForChild(\"PackShopEffects\"))\nlocal Loadout = require(ReplicatedStorage:WaitForChild(\"Loadout\"))\n\nlocal ArenaCatalog = require(ReplicatedStorage:WaitForChild(\"ArenaCatalog\"))\nlocal ArenaTravelClient = require(ReplicatedStorage:WaitForChild(\"ArenaTravelClient\"))\n\nlocal ArenaSelectionUI = {}\nlocal visiting = false\nlocal teleporting = false\nlocal hiddenVisitGuis = {}\n\nlocal function restoreVisitGuis()\n    for screen, enabled in pairs(hiddenVisitGuis) do\n        if screen.Parent then screen.Enabled = enabled end\n    end\n    table.clear(hiddenVisitGuis)\nend\nlocal gui, board, playerGui\nlocal selected = 1\nlocal claiming = false\nlocal fillTween, lossTween\nlocal noticeToken = 0\nlocal milestones = {\n    {points = 20, description = \"2 wins: 1,000 cash\"},\n    {points = 40, description = \"4 wins: Bluma becomes unlockable in packs\"},\n    {points = 80, description = \"8 wins: 10 diamonds\"},\n    {points = 100, description = \"10 wins: Pikkolo becomes unlockable in packs\"},\n}\n\nlocal function notify(message)\n    noticeToken += 1\n    local token = noticeToken\n    board.Notice.Text = message\n    board.Notice.Visible = true\n    task.delay(3, function()\n        if noticeToken == token then board.Notice.Visible = false end\n    end)\nend\n\nlocal function fit()\n    if gui:GetAttribute(\"AutoFit\") == false then return end\n    local margin = gui:GetAttribute(\"FitMargin\") or 24\n    board.FitToScreen.Scale = math.max(.1, math.min(1,\n        (gui.AbsoluteSize.X - margin * 2) / board.Size.X.Offset,\n        (gui.AbsoluteSize.Y - margin * 2) / board.Size.Y.Offset))\nend\n\nlocal function refresh(instant)\n    if not gui then return end\n    local arena = ArenaCatalog.get(selected)\n    local progress = PlayerData.arenaProgress(arena.key)\n    local first = arena.matchReady\n    local value = first and progress.progressWins or 0\n    board.ArenaNumber.Label.Text = \"Arena \" .. arena.number\n    board.Title.Text = arena.displayName\n    board.Description.Text = arena.description\n    board.Illustration.Visible = selected == 1\n    board.Locked.Visible = selected ~= 1\n    board.Locked.Text = \"ARENA \" .. arena.number .. \"\\nREADY TO VISIT\"\n    board.ProgressBorder.Visible = first\n    board.ProgressTrack.Visible = first\n    board.Progress.Visible = first\n    board.ProgressText.Visible = first\n    board.ProgressText.Text = string.format(\"%g/10\", value)\n    local fraction = math.clamp(value / 10, 0, 1)\n    local fill = board.Progress.FillClip\n    local loss = board.Progress.LossClip\n    local previous = fill.Size.X.Scale\n    if fillTween then fillTween:Cancel() end\n    if lossTween then lossTween:Cancel() end\n    if instant or not gui.Enabled then\n        fill.Size = UDim2.fromScale(fraction, 1)\n        loss.Size = fill.Size\n    else\n        loss.Size = UDim2.fromScale(math.max(previous, fraction), 1)\n        fillTween = TweenService:Create(fill, TweenInfo.new(.3, Enum.EasingStyle.Quad), {Size = UDim2.fromScale(fraction, 1)})\n        lossTween = TweenService:Create(loss, TweenInfo.new(.65, Enum.EasingStyle.Quad), {Size = UDim2.fromScale(fraction, 1)})\n        fillTween:Play()\n        lossTween:Play()\n    end\n    for index, milestone in ipairs(milestones) do\n        local icon = board.Milestones[\"Reward\" .. index]\n        icon.Visible = first\n        icon.Check.Visible = progress.claimed[milestone.points] == true\n    end\n    for index, reward in ipairs(PlayerData.dailyWinRewards()) do\n        local icon = board.DailyRewards[\"Reward\" .. index]\n        icon.Check.Visible = reward.earned and not reward.claimed\n        icon.Pack.ImageTransparency = reward.claimed and .6 or 0\n        icon.ImageTransparency = reward.claimed and .35 or 0\n    end\n    local pending = PlayerData.pendingDailyPack() ~= nil\n    board.Action.Image = pending and Assets.Claim or Assets.Battle\n    board.Action.Visible = pending or first\n    board.Teleport.Visible = not pending and not first\n    board.Teleport.Interactable = not teleporting and arena.teleportReady\n    board.Action.Interactable = not claiming and (pending or first)\n    board.Action.ImageTransparency = (pending or first) and 0 or .5\n    board.Back.Interactable = not claiming\n    board.Next.Interactable = not claiming\n    gui:SetAttribute(\"SelectedArena\", selected)\n    gui:SetAttribute(\"Action\", pending and \"Claim\" or (first and \"Battle\" or \"Teleport\"))\nend\n\nfunction ArenaSelectionUI.close()\n    if gui then gui.Enabled = false end\nend\n\nfunction ArenaSelectionUI.back()\n    if claiming or teleporting or visiting then return end\n    ArenaSelectionUI.close()\n    ModePickerUI.open()\nend\n\nfunction ArenaSelectionUI.nextArena()\n    if claiming then return end\n    selected = selected % ArenaCatalog.count() + 1\n    board.Notice.Visible = false\n    refresh(true)\nend\n\nfunction ArenaSelectionUI.activate()\n    if claiming or not gui or not gui.Enabled then return false end\n    local pending = PlayerData.pendingDailyPack()\n    if pending then\n        claiming = true\n        local result = PackOpening.roll(pending.packId)\n        if not result then\n            claiming = false\n            Feedback.play(\"Unavailable\")\n            notify(\"This pack cannot be opened yet.\")\n            return false\n        end\n        if not PlayerData.consumeDailyPack() then claiming = false; refresh(true); return false end\n        PackOpening.apply(result)\n        Feedback.play(\"Confirm\")\n        gui.Enabled = false\n        PackReveal.play(playerGui, result, function()\n            claiming = false\n            ArenaSelectionUI.open(playerGui)\n        end)\n        return true\n    end\n    local arena = ArenaCatalog.get(selected)\n    if not arena or not arena.matchReady then return false end\n    if Loadout.count() < 4 then\n        Feedback.play(\"Unavailable\")\n        notify(\"Equip 4 units before battling.\")\n        return false\n    end\n    gui.Enabled = false\n    ReplicatedStorage:WaitForChild(\"ArenaEvents\"):WaitForChild(\"EnterArena\"):Fire(arena.modelName)\n    return true\nend\n\nfunction ArenaSelectionUI.teleport()\n    if claiming or teleporting or visiting or not gui or not gui.Enabled then return false end\n    local arena = ArenaCatalog.get(selected)\n    if not arena or not arena.teleportReady then return false end\n    teleporting = true\n    board.Teleport.Interactable = false\n    local success, message = ArenaTravelClient.visit(arena.modelName)\n    teleporting = false\n    if not success then refresh(true); notify(message or \"Teleport is unavailable.\"); return false end\n    visiting = true\n    for _, screen in ipairs(playerGui:GetChildren()) do\n        if screen:IsA(\"ScreenGui\") and screen ~= gui and screen.Name ~= \"TouchGui\" then\n            hiddenVisitGuis[screen] = screen.Enabled\n            screen.Enabled = false\n        end\n    end\n    board.Visible = false\n    gui.ReturnToLobby.Visible = true\n    return true\nend\n\nfunction ArenaSelectionUI.returnFromVisit()\n    if not visiting or teleporting then return end\n    teleporting = true\n    local success, message = ArenaTravelClient.leave()\n    teleporting = false\n    if not success then warn(message); return end\n    visiting = false\n    restoreVisitGuis()\n    gui.ReturnToLobby.Visible = false\n    board.Visible = true\n    ArenaSelectionUI.open(playerGui)\nend\n\nfunction ArenaSelectionUI.build(pg)\n    if gui then return gui end\n    playerGui = pg\n    gui = pg:WaitForChild(\"ArenaSelectGui\")\n    board = gui.Board\n    local outline = board:FindFirstChild(\"TitleWhiteOutline\")\n    if outline then\n        local function syncTitle()\n            outline.Text = board.Title.Text\n            outline.Visible = board.Title.Visible\n        end\n        board.Title:GetPropertyChangedSignal(\"Text\"):Connect(syncTitle)\n        board.Title:GetPropertyChangedSignal(\"Visible\"):Connect(syncTitle)\n        syncTitle()\n    end\n    Feedback.bind(gui)\n    board.Back.Activated:Connect(ArenaSelectionUI.back)\n    board.Next.Activated:Connect(ArenaSelectionUI.nextArena)\n    board.Action.Activated:Connect(ArenaSelectionUI.activate)\n    board.Teleport.Activated:Connect(ArenaSelectionUI.teleport)\n    gui.ReturnToLobby.Activated:Connect(ArenaSelectionUI.returnFromVisit)\n    Players.LocalPlayer.CharacterRemoving:Connect(function()\n        if not visiting then return end\n        visiting = false\n        teleporting = false\n        restoreVisitGuis()\n        ArenaTravelClient.restore()\n        gui.ReturnToLobby.Visible = false\n        board.Visible = true\n        gui.Enabled = false\n    end)\n    for index, milestone in ipairs(milestones) do\n        local icon = board.Milestones[\"Reward\" .. index]\n        icon.Activated:Connect(function() notify(milestone.description) end)\n    end\n    for index = 1, 4 do\n        local icon = board.DailyRewards[\"Reward\" .. index]\n        icon.Activated:Connect(function()\n            local reward = PlayerData.dailyWinRewards()[index]\n            notify(reward.claimed and \"Pack claimed.\"\n                or (reward.earned and \"Pack earned. Press Claim to open it.\"\n                or (\"Daily win \" .. index .. \": \" .. (index == 4 and \"Silver\" or \"Common\") .. \" Unit Pack\")))\n        end)\n    end\n    PlayerData.Changed:Connect(function() refresh(false) end)\n    gui:GetPropertyChangedSignal(\"AbsoluteSize\"):Connect(fit)\n    gui:GetPropertyChangedSignal(\"AbsolutePosition\"):Connect(fit)\n    task.spawn(function()\n        local previousRemaining = PlayerData.dailyWinPacksRemaining()\n        while gui.Parent do\n            task.wait(1)\n            local remaining = PlayerData.dailyWinPacksRemaining()\n            if remaining ~= previousRemaining then refresh(true); previousRemaining = remaining end\n        end\n    end)\n    refresh(true)\n    fit()\n    return gui\nend\n\nfunction ArenaSelectionUI.open(pg)\n    ArenaSelectionUI.build(pg or Players.LocalPlayer.PlayerGui)\n    if claiming or visiting then return end\n    ModePickerUI.close()\n    board.Notice.Visible = false\n    refresh(true)\n    fit()\n    gui.Enabled = true\nend\n\nreturn ArenaSelectionUI\n",
+    "ReplicatedStorage.ArenaTravelClient": "local Players = game:GetService(\"Players\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal Lighting = game:GetService(\"Lighting\")\nlocal player = Players.LocalPlayer\nlocal travel = ReplicatedStorage:WaitForChild(\"ArenaEvents\"):WaitForChild(\"TravelRequest\")\nlocal ArenaTravelClient = {}\nlocal savedLighting\nlocal controls\n\nlocal function request(action, destination)\n\tlocal ok, success, message = pcall(function()\n\t\treturn travel:InvokeServer(action, destination)\n\tend)\n\tif not ok then return false, \"Travel is unavailable\" end\n\treturn success, message\nend\n\nlocal function setControls(enabled)\n\tif not controls then\n\t\tlocal module = player.PlayerScripts:FindFirstChild(\"PlayerModule\")\n\t\tif module then controls = require(module):GetControls() end\n\tend\n\tif controls then\n\t\tif enabled then controls:Enable() else controls:Disable() end\n\tend\nend\n\nlocal function enterArena(action, arenaName)\n\tlocal success, message = request(action, arenaName)\n\tif not success then return false, message end\n\tif not savedLighting then\n\t\tsavedLighting = {}\n\t\tfor _, key in ipairs({ \"ClockTime\", \"Brightness\", \"Ambient\", \"OutdoorAmbient\", \"ExposureCompensation\" }) do\n\t\t\tsavedLighting[key] = Lighting[key]\n\t\tend\n\tend\n\tLighting.ClockTime = 13.5\n\tLighting.Brightness = 1.9\n\tLighting.ExposureCompensation = -0.25\n\tLighting.Ambient = Color3.fromRGB(108, 119, 132)\n\tLighting.OutdoorAmbient = Color3.fromRGB(140, 153, 167)\n\tsetControls(false)\n\treturn true\nend\n\nfunction ArenaTravelClient.enter(arenaName)\n    return enterArena(\"Enter\", arenaName)\nend\n\nfunction ArenaTravelClient.visit(arenaName)\n    return enterArena(\"Visit\", arenaName)\nend\n\nfunction ArenaTravelClient.restore()\n\tif savedLighting then\n\t\tfor key, value in pairs(savedLighting) do Lighting[key] = value end\n\t\tsavedLighting = nil\n\tend\n\tsetControls(true)\nend\n\nfunction ArenaTravelClient.leave()\n\tlocal success, message = request(\"Leave\")\n\tif success then ArenaTravelClient.restore() end\n\treturn success, message\nend\n\nfunction ArenaTravelClient.toLobbyPortal()\n\treturn request(\"LobbyPortal\")\nend\n\nfunction ArenaTravelClient.toPackShop()\n\treturn request(\"PackPortal\")\nend\n\nfunction ArenaTravelClient.toDestination(destination)\n\treturn request(\"Destination\", destination)\nend\n\nreturn ArenaTravelClient\n\n",
+    "ReplicatedStorage.ModePickerUI": "local TweenService = game:GetService(\"TweenService\")\nlocal ModePickerUI = {}\nlocal gui, panel, content, motion\nlocal transition, fade, serial = nil, nil, 0\nlocal sweeps = {}\nlocal function fit()\n    if gui:GetAttribute(\"AutoFit\") == false then return end\n    local size = gui.AbsoluteSize\n    local margin = 40 + math.max(0, -gui.AbsolutePosition.Y)\n    panel.FitToScreen.Scale = math.max(.1, math.min(.82, (size.X - 80) / panel.Size.X.Offset, (size.Y - margin * 2) / panel.Size.Y.Offset))\nend\nlocal function stopTransition()\n    serial += 1\n    if transition then transition:Cancel() end\n    if fade then fade:Cancel() end\nend\nlocal function shine(button)\n    local gradient = button.Finish.Shine.Sweep\n    if sweeps[button] then sweeps[button]:Cancel() end\n    gradient.Offset = Vector2.new(-1.3, 0)\n    local tween = TweenService:Create(gradient, TweenInfo.new(.85, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut), {Offset = Vector2.new(1.3, 0)})\n    sweeps[button] = tween\n    tween:Play()\nend\nfunction ModePickerUI.close()\n    if not gui or not gui.Enabled then return end\n    stopTransition()\n    local token = serial\n    transition = TweenService:Create(motion, TweenInfo.new(.16, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {Scale = .96})\n    fade = TweenService:Create(content, TweenInfo.new(.16), {GroupTransparency = 1})\n    transition:Play()\n    fade:Play()\n    task.delay(.17, function()\n        if token == serial then gui.Enabled = false end\n    end)\nend\nfunction ModePickerUI.open()\n    if not gui then return end\n    stopTransition()\n    fit()\n    motion.Scale = .96\n    content.GroupTransparency = 1\n    gui.Enabled = true\n    transition = TweenService:Create(motion, TweenInfo.new(.26, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Scale = 1})\n    fade = TweenService:Create(content, TweenInfo.new(.2), {GroupTransparency = 0})\n    transition:Play()\n    fade:Play()\n    shine(content.Main)\n    shine(content.UnderConstruction)\nend\nfunction ModePickerUI.build(playerGui)\n    if gui then return gui end\n    gui = playerGui:WaitForChild(\"ModePickerGui\")\n    panel = gui.Panel\n    content = panel.Content\n    motion = content.Motion\n    content.Close.Activated:Connect(ModePickerUI.close)\n    for _, button in {content.Main, content.UnderConstruction} do\n        local scale = button.HoverScale\n        local hovered = false\n        local tween\n        local function setScale(value)\n            if tween then tween:Cancel() end\n            tween = TweenService:Create(scale, TweenInfo.new(.14, Enum.EasingStyle.Quad), {Scale = value})\n            tween:Play()\n        end\n        local function enter()\n            hovered = true\n            setScale(button:GetAttribute(\"Locked\") and 1.012 or 1.025)\n            shine(button)\n        end\n        local function leave()\n            hovered = false\n            setScale(1)\n        end\n        button.MouseEnter:Connect(enter)\n        button.MouseLeave:Connect(leave)\n        button.SelectionGained:Connect(enter)\n        button.SelectionLost:Connect(leave)\n        button.MouseButton1Down:Connect(function() setScale(.985) end)\n        button.MouseButton1Up:Connect(function() setScale(hovered and 1.025 or 1) end)\n        gui:GetPropertyChangedSignal(\"Enabled\"):Connect(function()\n            if not gui.Enabled then\n                hovered = false\n                if tween then tween:Cancel() end\n                scale.Scale = 1\n            end\n        end)\n    end\n    gui:GetPropertyChangedSignal(\"AbsoluteSize\"):Connect(fit)\n    gui:GetPropertyChangedSignal(\"AbsolutePosition\"):Connect(fit)\n    fit()\n    task.spawn(function()\n        while gui.Parent do\n            task.wait(5)\n            if gui.Enabled then\n                shine(content.Main)\n                shine(content.UnderConstruction)\n            end\n        end\n    end)\n    return gui\nend\nreturn ModePickerUI",
+    "ServerScriptService.ArenaTravelService": "local Players = game:GetService(\"Players\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal ArenaConfig = require(ReplicatedStorage:WaitForChild(\"ArenaConfig\"))\nlocal events = ReplicatedStorage:WaitForChild(\"ArenaEvents\")\nlocal travel = events:FindFirstChild(\"TravelRequest\") or Instance.new(\"RemoteFunction\")\ntravel.Name = \"TravelRequest\"\ntravel.Parent = events\n\nlocal visits = {}\nlocal lastRequest = {}\n\nlocal function getRoot(player)\n\tlocal character = player.Character\n\tlocal humanoid = character and character:FindFirstChildOfClass(\"Humanoid\")\n\tif not humanoid or humanoid.Health <= 0 then return nil end\n\treturn character:FindFirstChild(\"HumanoidRootPart\")\nend\n\nlocal function moveRoot(root, target)\n\troot.AssemblyLinearVelocity = Vector3.zero\n\troot.AssemblyAngularVelocity = Vector3.zero\n\troot.CFrame = target\nend\n\nlocal function lobbySpawn()\n\tlocal lobby = workspace:FindFirstChild(\"Lobby_MainModeZone\")\n\treturn lobby and lobby:FindFirstChild(\"MainModeSpawn\", true)\nend\n\nlocal function leaveArena(player, root)\n\tlocal visit = visits[player]\n\tif visit and root == visit.root then\n\t\tmoveRoot(root, visit.returnCFrame)\n\t\troot.Anchored = visit.wasAnchored\n\tend\n\tvisits[player] = nil\n\tplayer:SetAttribute(\"ActiveArena\", nil)\n    player:SetAttribute(\"ArenaVisitOnly\", nil)\n\treturn true\nend\n\ntravel.OnServerInvoke = function(player, action, destination)\n\tlocal root = getRoot(player)\n\tif action == \"Leave\" then return leaveArena(player, root) end\n\tif not root then return false, \"Your character is not ready\" end\n\tif action ~= \"Enter\" and action ~= \"LobbyPortal\" and action ~= \"PackPortal\" and action ~= \"Destination\" and action ~= \"Visit\" then return false, \"Unknown destination\" end\n\tlocal now = os.clock()\n\tif now - (lastRequest[player] or 0) < 0.4 then return false, \"Please wait\" end\n\tlastRequest[player] = now\n\tif action == \"Destination\" then\n\t\tif visits[player] then return false, \"Leave the match first\" end\n\t\tif destination ~= \"Ranked\" and destination ~= \"PvP\" and destination ~= \"Clans\" then\n\t\t\treturn false, \"Unknown destination\"\n\t\tend\n\t\tlocal lobby = workspace:FindFirstChild(\"Lobby_MainModeZone\")\n\t\tlocal destinations = lobby and lobby:FindFirstChild(\"Destinations\")\n\t\tlocal marker = destinations and destinations:FindFirstChild(destination)\n\t\tif not marker then return false, \"Destination is unavailable\" end\n\t\tmoveRoot(root, CFrame.lookAt(marker.Position, Vector3.new(0, marker.Position.Y, 4)))\n\t\treturn true\n\tend\n\tif action == \"PackPortal\" then\n\t\tif visits[player] then return false, \"Leave the match first\" end\n\t\tlocal lobby = workspace:FindFirstChild(\"Lobby_MainModeZone\")\n\t\tlocal zone = lobby and lobby:FindFirstChild(\"Lobby_PackShopZone\")\n\t\tlocal trigger = zone and zone:FindFirstChild(\"PackShopTrigger\")\n\t\tif not trigger then return false, \"Pack shop is unavailable\" end\n\t\tmoveRoot(root, trigger.CFrame)\n\t\treturn true\n\tend\n\n\tif action == \"LobbyPortal\" then\n\t\tif visits[player] then return false, \"Leave the match first\" end\n\t\tlocal spawn = lobbySpawn()\n\t\tif not spawn then return false, \"Lobby spawn is missing\" end\n\t\tmoveRoot(root, CFrame.lookAt(spawn.Position + Vector3.new(0, 3, 0), spawn.Position + Vector3.new(0, 3, -15)))\n\t\treturn true\n\tend\n\n\tif visits[player] then return true end\n\tlocal arena = ArenaConfig.getArena(destination)\n    if not arena or arena:GetAttribute(\"TeleportReady\") ~= true then return false, \"Arena is unavailable\" end\n\tif action == \"Enter\" and arena:GetAttribute(\"MatchReady\") ~= true then return false, \"This arena is available for visits only\" end\n\tlocal sidelines = arena and arena:FindFirstChild(\"Sidelines\")\n\tlocal spawn = sidelines and sidelines:FindFirstChild(\"Spawn_Player\")\n\tif not spawn then return false, \"Arena spawn is missing\" end\n\tvisits[player] = { root = root, returnCFrame = root.CFrame, wasAnchored = root.Anchored }\n\troot.Anchored = true\n\tmoveRoot(root, spawn.CFrame * CFrame.new(0, 3, 0))\n\tplayer:SetAttribute(\"ActiveArena\", arena.Name)\n    player:SetAttribute(\"ArenaVisitOnly\", action == \"Visit\")\n\treturn true\nend\n\nlocal function setupPlayer(player)\n\tplayer.CharacterRemoving:Connect(function()\n\t\tleaveArena(player, getRoot(player))\n\tend)\nend\n\nPlayers.PlayerAdded:Connect(setupPlayer)\nPlayers.PlayerRemoving:Connect(function(player)\n\tvisits[player] = nil\n\tlastRequest[player] = nil\nend)\nfor _, player in ipairs(Players:GetPlayers()) do setupPlayer(player) end\n\n",
+    "StarterPlayer.StarterPlayerScripts.PackShopClient": "local Players = game:GetService(\"Players\")\nlocal RunService = game:GetService(\"RunService\")\nlocal TweenService = game:GetService(\"TweenService\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\n\nlocal player = Players.LocalPlayer\nlocal playerGui = player:WaitForChild(\"PlayerGui\")\nlocal PackShopUI = require(ReplicatedStorage:WaitForChild(\"PackShopUI\"))\nlocal PlayerData = require(ReplicatedStorage:WaitForChild(\"PlayerData\"))\nlocal ArenaTravelClient = require(ReplicatedStorage:WaitForChild(\"ArenaTravelClient\"))\n\nlocal btnGui = playerGui:WaitForChild(\"PacksButtonGui\")\nlocal packsBtn = btnGui:WaitForChild(\"PacksBtn\")\nlocal packBadge = packsBtn:WaitForChild(\"PackBadge\")\nlocal function totalPacks()\n\tlocal n = 0\n\tfor _, c in pairs(PlayerData.allPackCounts()) do n += c end\n\treturn n\nend\nlocal function refreshPackBadge()\n\tlocal n = totalPacks()\n\tpackBadge.Visible = n > 0\n\tpackBadge.Value.Text = tostring(n)\nend\nrefreshPackBadge()\nPlayerData.Changed:Connect(refreshPackBadge)\npacksBtn.Activated:Connect(function()\n\tlocal success, message = ArenaTravelClient.toPackShop()\n\tif not success then warn(message) end\nend)\n\nPackShopUI.build(playerGui)\n\nlocal lobby = workspace:WaitForChild(\"Lobby_MainModeZone\")\nlocal zone = lobby:WaitForChild(\"Lobby_PackShopZone\")\nlocal trigger = zone:WaitForChild(\"PackShopTrigger\")\nlocal RADIUS = 11\nlocal inside = false\n\nRunService.Heartbeat:Connect(function()\n\tlocal inMatch = player:GetAttribute(\"ActiveArena\") ~= nil\n\n\tpacksBtn.Visible = not inMatch\n\n\tlocal char = player.Character\n\tlocal hrp = char and char:FindFirstChild(\"HumanoidRootPart\")\n\tif inMatch or not hrp then\n\t\tif inside then inside = false; PackShopUI.close() end\n\t\treturn\n\tend\n\n\tlocal d = (hrp.Position - trigger.Position).Magnitude\n\tif d <= RADIUS and not inside then\n\t\tinside = true\n\t\tPackShopUI.open(playerGui)\n\telseif d > RADIUS and inside then\n\t\tinside = false\n\t\tPackShopUI.close()\n\tend\nend)\n",
+    "ReplicatedStorage.UITheme": "--!strict\n-- UITheme: shared visual language for all screens. Dark base + chunky beveled\n-- buttons, thick outlines, drop shadows, and bold outlined text (cartoon-punchy).\n\nlocal TweenService = game:GetService(\"TweenService\")\n\nlocal T = {}\n\n-- ── Palette ──────────────────────────────────────────────────────────────────\nT.C = {\n\tbg      = Color3.fromRGB(26, 18, 50),    -- panel base (dark)\n\tbg2     = Color3.fromRGB(36, 24, 70),\n\tpanel   = Color3.fromRGB(48, 32, 92),\n\tpanel2  = Color3.fromRGB(62, 42, 118),\n\toutline = Color3.fromRGB(14, 9, 30),     -- the thick dark outline on everything\n\tborder  = Color3.fromRGB(150, 100, 235),\n\taccent  = Color3.fromRGB(190, 130, 255),\n\tbtnTxt  = Color3.fromRGB(245, 238, 255),\n\tsub     = Color3.fromRGB(176, 152, 215),\n\ttxtOut  = Color3.fromRGB(20, 12, 40),     -- text outline color\n\n\t-- action colors with a darker \"bevel\" shade for the 3D edge\n\tgreen   = Color3.fromRGB(95, 220, 110),  greenDk  = Color3.fromRGB(50, 165, 70),\n\tgold    = Color3.fromRGB(255, 205, 60),  goldDk   = Color3.fromRGB(210, 150, 25),\n\tred     = Color3.fromRGB(245, 85, 95),   redDk    = Color3.fromRGB(185, 45, 60),\n\tblue    = Color3.fromRGB(85, 175, 255),  blueDk   = Color3.fromRGB(45, 120, 210),\n\tpurple  = Color3.fromRGB(170, 110, 245), purpleDk = Color3.fromRGB(115, 65, 185),\n\tcellBg  = Color3.fromRGB(56, 38, 104),\n\tcellHov = Color3.fromRGB(78, 54, 142),\n}\n\n-- Rarity colors (main + dark bevel) used to tint units/cards everywhere.\nT.RARITY = {\n\tCommon    = { main = Color3.fromRGB(150, 165, 188), dark = Color3.fromRGB(92, 104, 124) },\n\tRare      = { main = Color3.fromRGB(70, 165, 255),  dark = Color3.fromRGB(35, 100, 195) },\n\tEpic      = { main = Color3.fromRGB(200, 110, 255), dark = Color3.fromRGB(135, 55, 205) },\n\tLegendary = { main = Color3.fromRGB(255, 190, 60),  dark = Color3.fromRGB(215, 130, 20) },\n}\nfunction T.rarityColor(r) return (T.RARITY[r] or T.RARITY.Common).main end\nfunction T.rarityDark(r) return (T.RARITY[r] or T.RARITY.Common).dark end\n\n-- ── Builders ─────────────────────────────────────────────────────────────────\nfunction T.mk(class, props, parent)\n\tlocal o = Instance.new(class)\n\tfor k,v in pairs(props) do o[k] = v end\n\to.Parent = parent\n\treturn o\nend\nfunction T.corner(p, r)\n\tlocal c = Instance.new(\"UICorner\")\n\tc.CornerRadius = UDim.new(0, r or 14)\n\tc.Parent = p\n\treturn c\nend\n-- Outline stroke (the thick dark border that defines the cartoon look).\nfunction T.outline(p, thickness, color)\n\tlocal s = Instance.new(\"UIStroke\")\n\ts.Color = color or T.C.outline\n\ts.Thickness = thickness or 3\n\ts.ApplyStrokeMode = Enum.ApplyStrokeMode.Border\n\ts.Parent = p\n\treturn s\nend\n-- Vertical gradient (lighter top -> darker bottom) for a glossy panel feel.\nfunction T.gradient(p, topCol, botCol, rot)\n\tlocal g = Instance.new(\"UIGradient\")\n\tg.Color = ColorSequence.new(topCol, botCol)\n\tg.Rotation = rot or 90\n\tg.Parent = p\n\treturn g\nend\n-- Soft drop shadow behind a frame.\nfunction T.shadow(p, spread, transparency)\n\tspread = spread or 26\n\tlocal sh = Instance.new(\"ImageLabel\")\n\tsh.Name = \"Shadow\"\n\tsh.BackgroundTransparency = 1\n\tsh.Image = \"rbxassetid://5028857084\"   -- soft circular/rounded shadow\n\tsh.ImageColor3 = Color3.fromRGB(0, 0, 0)\n\tsh.ImageTransparency = transparency or 0.45\n\tsh.ScaleType = Enum.ScaleType.Slice\n\tsh.SliceCenter = Rect.new(24, 24, 276, 276)\n\tsh.Size = UDim2.new(1, spread*2, 1, spread*2)\n\tsh.Position = UDim2.new(0, -spread, 0, -spread + 8)\n\tsh.ZIndex = (p.ZIndex or 1) - 1\n\tsh.Parent = p\n\treturn sh\nend\n-- Bold outlined text label (white text, thick dark stroke). Returns the label.\nfunction T.label(props, parent)\n\tprops.Font = props.Font or Enum.Font.FredokaOne\n\tprops.TextColor3 = props.TextColor3 or Color3.fromRGB(255,255,255)\n\tprops.BackgroundTransparency = props.BackgroundTransparency or 1\n\tlocal lbl = T.mk(\"TextLabel\", props, parent)\n\tlocal s = Instance.new(\"UIStroke\")\n\ts.Color = T.C.txtOut\n\ts.Thickness = props.TextSize and math.max(1.5, props.TextSize/12) or 2\n\ts.Parent = lbl\n\treturn lbl\nend\n\n-- ── Chunky beveled button ────────────────────────────────────────────────────\n-- A 3D-looking button: a darker \"base\" behind a lighter \"top\" that presses down\n-- on click. color = main fill, darkColor = bevel. Returns the clickable button\n-- (the top), with .Base accessible via :FindFirstChild if needed.\n-- opts: { text, textSize, icon, font }\nfunction T.button(parent, size, position, color, darkColor, opts)\n\topts = opts or {}\n\t-- container holds the bevel base + the top button\n\tlocal holder = T.mk(\"Frame\", {\n\t\tName = opts.name or \"Button\", Size = size, Position = position,\n\t\tAnchorPoint = opts.anchor or Vector2.new(0,0),\n\t\tBackgroundTransparency = 1, ZIndex = opts.zindex or 2,\n\t}, parent)\n\t-- bevel base (darker, sits slightly lower)\n\tlocal base = T.mk(\"Frame\", {\n\t\tName = \"Bevel\", Size = UDim2.new(1,0,1,0), Position = UDim2.new(0,0,0,4),\n\t\tBackgroundColor3 = darkColor, BorderSizePixel = 0, ZIndex = (opts.zindex or 2),\n\t}, holder)\n\tT.corner(base, opts.radius or 14); T.outline(base, opts.outline or 3)\n\t-- top button\n\tlocal top = T.mk(\"TextButton\", {\n\t\tName = \"Top\", Size = UDim2.new(1,0,1,-4), Position = UDim2.new(0,0,0,0),\n\t\tBackgroundColor3 = color, BorderSizePixel = 0, AutoButtonColor = false,\n\t\tText = \"\", ZIndex = (opts.zindex or 2) + 1,\n\t}, holder)\n\tT.corner(top, opts.radius or 14); T.outline(top, opts.outline or 3)\n\tT.gradient(top, Color3.new(\n\t\tmath.min(1, color.R*1.12), math.min(1, color.G*1.12), math.min(1, color.B*1.12)), color, 90)\n\t-- label\n\tlocal txt = T.label({\n\t\tName = \"Label\", Size = UDim2.new(1,0,1,0), BackgroundTransparency = 1,\n\t\tText = (opts.icon and (opts.icon..\"  \") or \"\")..(opts.text or \"\"),\n\t\tTextColor3 = opts.textColor or Color3.fromRGB(255,255,255),\n\t\tFont = opts.font or Enum.Font.FredokaOne, TextSize = opts.textSize or 18,\n\t\tZIndex = (opts.zindex or 2) + 2,\n\t}, top)\n\t-- press animation: top sinks onto the base\n\tlocal pressed = false\n\ttop.MouseButton1Down:Connect(function()\n\t\tpressed = true\n\t\tTweenService:Create(top, TweenInfo.new(0.05), { Position = UDim2.new(0,0,0,4) }):Play()\n\tend)\n\tlocal function release()\n\t\tif pressed then\n\t\t\tpressed = false\n\t\t\tTweenService:Create(top, TweenInfo.new(0.08, Enum.EasingStyle.Back, Enum.EasingDirection.Out),\n\t\t\t\t{ Position = UDim2.new(0,0,0,0) }):Play()\n\t\tend\n\tend\n\ttop.MouseButton1Up:Connect(release)\n\ttop.MouseLeave:Connect(release)\n\t-- light hover brighten\n\ttop.MouseEnter:Connect(function()\n\t\tTweenService:Create(top, TweenInfo.new(0.1), { BackgroundColor3 = Color3.new(\n\t\t\tmath.min(1, color.R*1.1), math.min(1, color.G*1.1), math.min(1, color.B*1.1)) }):Play()\n\tend)\n\ttop.MouseLeave:Connect(function()\n\t\tTweenService:Create(top, TweenInfo.new(0.1), { BackgroundColor3 = color }):Play()\n\tend)\n\treturn top, holder, txt\nend\n\n-- A panel: dark rounded frame with thick outline + drop shadow + glossy gradient.\nfunction T.panel(parent, props)\n\tprops = props or {}\n\tlocal p = T.mk(\"Frame\", {\n\t\tName = props.Name or \"Panel\", Size = props.Size or UDim2.new(0,400,0,300),\n\t\tPosition = props.Position or UDim2.new(0.5,0,0.5,0),\n\t\tAnchorPoint = props.AnchorPoint or Vector2.new(0.5,0.5),\n\t\tBackgroundColor3 = props.color or T.C.bg, BorderSizePixel = 0,\n\t\tZIndex = props.ZIndex or 2, Visible = props.Visible ~= false,\n\t}, parent)\n\tT.corner(p, props.radius or 22)\n\tT.outline(p, props.outline or 4)\n\tT.gradient(p, props.gradTop or T.C.bg2, props.gradBot or T.C.bg, 90)\n\tif props.shadow ~= false then T.shadow(p, props.shadowSpread or 34, 0.35) end\n\treturn p\nend\n\nreturn T\n",
+    "StarterPlayer.StarterPlayerScripts.LobbyClient": "local Players        = game:GetService(\"Players\")\nlocal RunService     = game:GetService(\"RunService\")\nlocal TweenService   = game:GetService(\"TweenService\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal ArenaTravelClient = require(ReplicatedStorage:WaitForChild(\"ArenaTravelClient\"))\n\nlocal player     = Players.LocalPlayer\nlocal playerGui  = player:WaitForChild(\"PlayerGui\")\nlocal character  = player.Character or player.CharacterAdded:Wait()\n\nplayer.CharacterAdded:Connect(function(c)\n    character = c\nend)\n\nlocal mmz       = workspace:WaitForChild(\"Lobby_MainModeZone\")\nlocal spawnPart = mmz:WaitForChild(\"MainModeSpawn\")\nlocal ringOuter = mmz:WaitForChild(\"RingOuter\")\n\nlocal RING_RADIUS = 11\n\nlocal C = {\n    bg      = Color3.fromRGB(18, 12, 36),\n    panel   = Color3.fromRGB(32, 20, 62),\n    border  = Color3.fromRGB(148, 88, 255),\n    accent  = Color3.fromRGB(180, 120, 255),\n    btnBg   = Color3.fromRGB(50, 28, 98),\n    btnHov  = Color3.fromRGB(78, 48, 145),\n    btnTxt  = Color3.fromRGB(230, 210, 255),\n    title   = Color3.fromRGB(220, 190, 255),\n    sub     = Color3.fromRGB(155, 130, 195),\n    close   = Color3.fromRGB(200, 70, 95),\n    play    = Color3.fromRGB(90, 215, 130),\n    playTxt = Color3.fromRGB(15, 55, 28),\n    gold    = Color3.fromRGB(255, 210, 80),\n    lock    = Color3.fromRGB(90, 80, 120),\n    lockTxt = Color3.fromRGB(140, 120, 170),\n    arena   = Color3.fromRGB(22, 14, 48),\n    arenaBorder = Color3.fromRGB(255, 180, 50),\n}\n\nlocal function corner(p, r)\n    Instance.new(\"UICorner\", p).CornerRadius = UDim.new(0, r or 14)\nend\nlocal function stroke(p, col, thick)\n    local s = Instance.new(\"UIStroke\", p)\n    s.Color = col or C.border; s.Thickness = thick or 2\nend\n\nlocal playGui = playerGui:WaitForChild(\"PlayButtonGui\")\nlocal playBtn = playGui:WaitForChild(\"PlayBtn\")\nplayBtn.Activated:Connect(function()\n    local success, message = ArenaTravelClient.toLobbyPortal()\n    if not success then warn(message) end\nend)\n\nlocal ModePickerUI = require(ReplicatedStorage:WaitForChild(\"ModePickerUI\"))\nlocal modeGui = ModePickerUI.build(playerGui)\nlocal mainBtn = modeGui.Panel.Content.Main\n\nlocal ArenaSelectionUI = require(ReplicatedStorage:WaitForChild(\"ArenaSelectionUI\"))\nlocal arenaGui = ArenaSelectionUI.build(playerGui)\nmainBtn.Activated:Connect(function()\n    ArenaSelectionUI.open(playerGui)\nend)\n\nlocal onRing = false\n\nRunService.Heartbeat:Connect(function()\n    if player:GetAttribute(\"ActiveArena\") then\n        onRing = false\n        modeGui.Enabled = false\n        return\n    end\n    local c = player.Character; if not c then return end\n    local hrp = c:FindFirstChild(\"HumanoidRootPart\"); if not hrp then return end\n    local pos = hrp.Position\n    local dist = Vector2.new(pos.X - ringOuter.Position.X, pos.Z - ringOuter.Position.Z).Magnitude\n    local inside = dist <= RING_RADIUS + 1\n\n    if inside and not onRing then\n        onRing = true\n        ModePickerUI.open()\n    elseif not inside and onRing then\n        onRing = false\n        if modeGui.Enabled then\n            ModePickerUI.close()\n        end\n    end\nend)\n"
+  },
+  "lobby": {
+    "attributes": {
+      "DesignVersion": 1,
+      "WalkwayFixVersion": 1
+    },
+    "children": [
+      {
+        "size": [
+          25.199996948242188,
+          504,
+          504
+        ],
+        "class": "Model",
+        "name": "Landscape",
+        "position": [
+          13.993075370788574,
+          -50.80712127685547,
+          -5.1258392333984375
+        ]
+      },
+      {
+        "size": [
+          3.870004177093506,
+          258,
+          258
+        ],
+        "class": "Model",
+        "name": "Courtyard",
+        "position": [
+          13.993073463439941,
+          -37.47211837768555,
+          6.8741607666015625
+        ]
+      },
+      {
+        "size": [
+          427.4178466796875,
+          64.07490539550781,
+          397.7601013183594
+        ],
+        "class": "Model",
+        "name": "Pavilions",
+        "position": [
+          6.082972049713135,
+          -4.369668960571289,
+          -5.154036045074463
+        ]
+      },
+      {
+        "size": [
+          244.9631805419922,
+          1.4100068807601929,
+          247.66061401367188
+        ],
+        "class": "Model",
+        "name": "GardenPaths",
+        "position": [
+          13.993073463439941,
+          -36.37712097167969,
+          -31.295528411865234
+        ]
+      },
+      {
+        "size": [
+          11.024999618530273,
+          26.531999588012695,
+          26.531999588012695
+        ],
+        "class": "Model",
+        "name": "Lobby_PackShopZone",
+        "position": [
+          -99.60336303710938,
+          -30.519622802734375,
+          -48.08319854736328
+        ]
+      },
+      {
+        "size": [
+          11.025003433227539,
+          249.214599609375,
+          151.79783630371094
+        ],
+        "class": "Model",
+        "name": "Destinations",
+        "position": [
+          16.248214721679688,
+          -30.519620895385742,
+          14.549718856811523
+        ]
+      },
+      {
+        "size": [
+          73.37753295898438,
+          88.35934448242188,
+          95.46173095703125
+        ],
+        "class": "Model",
+        "name": "BlossomTree",
+        "position": [
+          13.952406883239746,
+          -0.16835784912109375,
+          7.956209659576416
+        ]
+      },
+      {
+        "size": [
+          398.2633056640625,
+          43.3802604675293,
+          409.2544250488281
+        ],
+        "class": "Model",
+        "name": "GardenDetails",
+        "position": [
+          -5.16918420791626,
+          -20.59744644165039,
+          45.64129638671875
+        ]
+      },
+      {
+        "size": [
+          3.7800025939941406,
+          72,
+          72
+        ],
+        "class": "Model",
+        "name": "ReflectionGarden",
+        "position": [
+          13.993073463439941,
+          -37.21712112426758,
+          177.87417602539062
+        ]
+      },
+      {
+        "size": [
+          486,
+          45.30000686645508,
+          486
+        ],
+        "class": "Model",
+        "name": "Boundary",
+        "position": [
+          13.993069648742676,
+          -15.557119369506836,
+          -5.125833988189697
+        ]
+      },
+      {
+        "size": [
+          840.1964721679688,
+          172.22137451171875,
+          846.1851196289062
+        ],
+        "class": "Model",
+        "name": "DistantCliffs",
+        "position": [
+          -22.646154403686523,
+          19.703567504882812,
+          -6.124809265136719
+        ]
+      },
+      {
+        "name": "PortalBase",
+        "position": [
+          13.993073463439941,
+          -35.957122802734375,
+          -146.12582397460938
+        ],
+        "collide": true,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.0499999523162842,
+          26.531999588012695,
+          26.531999588012695
+        ]
+      },
+      {
+        "name": "PortalInlay",
+        "position": [
+          13.993073463439941,
+          -35.35711669921875,
+          -146.12582397460938
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          0.23999999463558197,
+          23.36400032043457,
+          23.36400032043457
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          14.783013343811035,
+          -35.147117614746094,
+          -134.07369995117188
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          16.34937286376953,
+          -35.147117614746094,
+          -134.2799072265625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          17.87541961669922,
+          -35.147117614746094,
+          -134.68881225585938
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          19.335037231445312,
+          -35.147117614746094,
+          -135.29339599609375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          20.703250885009766,
+          -35.147117614746094,
+          -136.08334350585938
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          21.956649780273438,
+          -35.147117614746094,
+          -137.04510498046875
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          23.073795318603516,
+          -35.147117614746094,
+          -138.16226196289062
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          24.035564422607422,
+          -35.147117614746094,
+          -139.4156494140625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          24.82550048828125,
+          -35.147117614746094,
+          -140.78387451171875
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          25.430099487304688,
+          -35.147117614746094,
+          -142.24349975585938
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          25.839000701904297,
+          -35.147117614746094,
+          -143.76953125
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          26.045215606689453,
+          -35.147117614746094,
+          -145.33590698242188
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          26.045215606689453,
+          -35.147117614746094,
+          -146.915771484375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          25.839000701904297,
+          -35.147117614746094,
+          -148.48214721679688
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          25.430099487304688,
+          -35.147117614746094,
+          -150.0081787109375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          24.82550048828125,
+          -35.147117614746094,
+          -151.46780395507812
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          24.035564422607422,
+          -35.147117614746094,
+          -152.83599853515625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          23.073795318603516,
+          -35.147117614746094,
+          -154.08941650390625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          21.956649780273438,
+          -35.147117614746094,
+          -155.20657348632812
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          20.703250885009766,
+          -35.147117614746094,
+          -156.1683349609375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          19.335037231445312,
+          -35.147117614746094,
+          -156.958251953125
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          17.87541961669922,
+          -35.147117614746094,
+          -157.5628662109375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          16.34937286376953,
+          -35.147117614746094,
+          -157.97177124023438
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          14.783013343811035,
+          -35.147117614746094,
+          -158.177978515625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          13.20313549041748,
+          -35.147117614746094,
+          -158.177978515625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          11.636773109436035,
+          -35.147117614746094,
+          -157.97177124023438
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          10.11072826385498,
+          -35.147117614746094,
+          -157.5628662109375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          8.65111255645752,
+          -35.147117614746094,
+          -156.958251953125
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          7.282896995544434,
+          -35.147117614746094,
+          -156.1683349609375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          6.0294952392578125,
+          -35.147117614746094,
+          -155.20657348632812
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          4.912353515625,
+          -35.147117614746094,
+          -154.08941650390625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          3.9505844116210938,
+          -35.147117614746094,
+          -152.83599853515625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          3.16064453125,
+          -35.147117614746094,
+          -151.46780395507812
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          2.5560522079467773,
+          -35.147117614746094,
+          -150.0081787109375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          2.1471500396728516,
+          -35.147117614746094,
+          -148.48214721679688
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          1.9409351348876953,
+          -35.147117614746094,
+          -146.915771484375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          1.9409351348876953,
+          -35.147117614746094,
+          -145.33590698242188
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          2.1471500396728516,
+          -35.147117614746094,
+          -143.76953125
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          2.5560522079467773,
+          -35.147117614746094,
+          -142.24349975585938
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          3.16064453125,
+          -35.147117614746094,
+          -140.78387451171875
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          3.9505844116210938,
+          -35.147117614746094,
+          -139.4156494140625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          4.912353515625,
+          -35.147117614746094,
+          -138.16226196289062
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          6.0294952392578125,
+          -35.147117614746094,
+          -137.04510498046875
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          7.282896995544434,
+          -35.147117614746094,
+          -136.08334350585938
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          8.65111255645752,
+          -35.147117614746094,
+          -135.29339599609375
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          10.11072826385498,
+          -35.147117614746094,
+          -134.68881225585938
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          11.636773109436035,
+          -35.147117614746094,
+          -134.2799072265625
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "PortalLight",
+        "position": [
+          13.20313549041748,
+          -35.147117614746094,
+          -134.07369995117188
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          1.8186066150665283,
+          0.35999998450279236,
+          0.5400000214576721
+        ]
+      },
+      {
+        "name": "RingOuter",
+        "position": [
+          13.993073463439941,
+          -35.8071174621582,
+          -146.12582397460938
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "MainModeSpawn",
+        "position": [
+          13.993073463439941,
+          -35.50712203979492,
+          -137.12582397460938
+        ],
+        "collide": false,
+        "class": "Part",
+        "anchored": true,
+        "size": [
+          3,
+          0.6000000238418579,
+          3
+        ]
+      },
+      {
+        "name": "SpawnLocation",
+        "position": [
+          13.993073463439941,
+          -35.8071174621582,
+          114.87416076660156
+        ],
+        "collide": false,
+        "class": "SpawnLocation",
+        "anchored": true,
+        "size": [
+          21,
+          0.6000000238418579,
+          21
+        ]
+      }
+    ]
+  },
+  "gui": [
+    {
+      "enabled": true,
+      "class": "ScreenGui",
+      "name": "LobbyMenuGui"
+    },
+    {
+      "class": "ScreenGui",
+      "name": "UnitsGui"
+    },
+    {
+      "class": "ScreenGui",
+      "name": "BattlePassGui"
+    },
+    {
+      "enabled": true,
+      "class": "ScreenGui",
+      "name": "PlayButtonGui"
+    },
+    {
+      "enabled": true,
+      "class": "ScreenGui",
+      "name": "PacksButtonGui"
+    },
+    {
+      "class": "ScreenGui",
+      "name": "ShopGui"
+    },
+    {
+      "class": "ScreenGui",
+      "name": "ArenaHUD"
+    },
+    {
+      "class": "ScreenGui",
+      "name": "PackShopGui"
+    },
+    {
+      "class": "ScreenGui",
+      "name": "ModePickerGui"
+    },
+    {
+      "class": "ScreenGui",
+      "name": "ArenaSelectGui"
+    },
+    {
+      "class": "ScreenGui",
+      "name": "PackRevealGui"
+    }
+  ]
+}

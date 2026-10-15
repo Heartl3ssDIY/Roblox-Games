@@ -1,0 +1,151 @@
+{
+  "designs": 8,
+  "exports": 24,
+  "issues": [],
+  "assets": [
+    {
+      "id": "cash-5000",
+      "size": 512,
+      "transparentPixels": 95600,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-5000",
+      "size": 256,
+      "transparentPixels": 23621,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-5000",
+      "size": 128,
+      "transparentPixels": 5702,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-10000",
+      "size": 512,
+      "transparentPixels": 94491,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-10000",
+      "size": 256,
+      "transparentPixels": 23353,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-10000",
+      "size": 128,
+      "transparentPixels": 5634,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-20000",
+      "size": 512,
+      "transparentPixels": 96108,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-20000",
+      "size": 256,
+      "transparentPixels": 23727,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-20000",
+      "size": 128,
+      "transparentPixels": 5745,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-50000",
+      "size": 512,
+      "transparentPixels": 95557,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-50000",
+      "size": 256,
+      "transparentPixels": 23587,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-50000",
+      "size": 128,
+      "transparentPixels": 5702,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-100000",
+      "size": 512,
+      "transparentPixels": 96035,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-100000",
+      "size": 256,
+      "transparentPixels": 23722,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "cash-100000",
+      "size": 128,
+      "transparentPixels": 5740,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "vip",
+      "size": 512,
+      "transparentPixels": 95249,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "vip",
+      "size": 256,
+      "transparentPixels": 23524,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "vip",
+      "size": 128,
+      "transparentPixels": 5676,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "2x-coins-permanent",
+      "size": 512,
+      "transparentPixels": 94642,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "2x-coins-permanent",
+      "size": 256,
+      "transparentPixels": 23366,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "2x-coins-permanent",
+      "size": 128,
+      "transparentPixels": 5639,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "2x-xp-permanent",
+      "size": 512,
+      "transparentPixels": 94473,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "2x-xp-permanent",
+      "size": 256,
+      "transparentPixels": 23349,
+      "pixelsOutsideCircularCrop": 0
+    },
+    {
+      "id": "2x-xp-permanent",
+      "size": 128,
+      "transparentPixels": 5632,
+      "pixelsOutsideCircularCrop": 0
+    }
+  ]
+}

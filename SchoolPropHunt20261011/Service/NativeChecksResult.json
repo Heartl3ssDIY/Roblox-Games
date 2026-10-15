@@ -1,0 +1,479 @@
+{
+  "checkCount": 118,
+  "errors": [],
+  "passed": true,
+  "checks": [
+    {
+      "name": "Only suitable tagged props are eligible",
+      "passed": true
+    },
+    {
+      "name": "Storage displays correct kind",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Only hiders receive random prop morphs",
+      "passed": true
+    },
+    {
+      "name": "Prop identity is replicated on player and character",
+      "passed": true
+    },
+    {
+      "name": "Bat reach remains ten studs",
+      "passed": true
+    },
+    {
+      "name": "Prop bottom rests at avatar feet",
+      "passed": true
+    },
+    {
+      "name": "Morph retains template scale",
+      "passed": true
+    },
+    {
+      "name": "Morph has black occluded outline",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: HumanoidRootPart",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Left Arm",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Right Leg",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Right Arm",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Left Leg",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Head",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Torso",
+      "passed": true
+    },
+    {
+      "name": "Visible prop is massless welded decoration",
+      "passed": true
+    },
+    {
+      "name": "Late avatar accessories and sparkles stay concealed",
+      "passed": true
+    },
+    {
+      "name": "Morphed hider can enter wardrobe",
+      "passed": true
+    },
+    {
+      "name": "Wardrobe conceals prop and outline",
+      "passed": true
+    },
+    {
+      "name": "Hider can leave wardrobe",
+      "passed": true
+    },
+    {
+      "name": "Leaving wardrobe reveals prop only",
+      "passed": true
+    },
+    {
+      "name": "Wardrobe can be occupied again",
+      "passed": true
+    },
+    {
+      "name": "Seeker can find and convert wardrobe occupant",
+      "passed": true
+    },
+    {
+      "name": "Conversion removes prop before ragdoll",
+      "passed": true
+    },
+    {
+      "name": "Conversion restores avatar face and late accessory",
+      "passed": true
+    },
+    {
+      "name": "Converted seeker recovers normally",
+      "passed": true
+    },
+    {
+      "name": "Seeker can swing at a prop",
+      "passed": true
+    },
+    {
+      "name": "Prop cannot be tagged through walls",
+      "passed": true
+    },
+    {
+      "name": "Seeker can swing again after cooldown",
+      "passed": true
+    },
+    {
+      "name": "Prop tags at 9.9 studs convert and reveal avatar",
+      "passed": true
+    },
+    {
+      "name": "Admin stop restores all originals",
+      "passed": true
+    },
+    {
+      "name": "Admin stop clears hiding flags",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Missing morph is repaired instead of invisible hider",
+      "passed": true
+    },
+    {
+      "name": "Respawn returns visible seeker with no stale morph",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Death cleans prop and converts hider",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Five minute timeout awards surviving hiders",
+      "passed": true
+    },
+    {
+      "name": "Results reveal avatars and remove all props",
+      "passed": true
+    },
+    {
+      "name": "Unavailable props cancel startup rather than invisible play",
+      "passed": true
+    },
+    {
+      "name": "Failed start restores all participant flags",
+      "passed": true
+    },
+    {
+      "name": "Clone failure cancels the prepared round safely",
+      "passed": true
+    },
+    {
+      "name": "Clone failure leaves no hidden avatars",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Unrecoverable morph loss cancels rewards",
+      "passed": true
+    },
+    {
+      "name": "Shutdown clears service and no props remain",
+      "passed": true
+    }
+  ]
+}

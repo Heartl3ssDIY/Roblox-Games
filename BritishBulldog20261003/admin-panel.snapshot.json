@@ -1,0 +1,1164 @@
+{
+  "arenaAutoStart": false,
+  "config": {
+    "AdminUserId": 1201803949,
+    "ExtraAdminUserIds": ""
+  },
+  "bootstrapReadySource": true,
+  "placeId": 95034648955135,
+  "adminGui": {
+    "name": "PlaygroundAdminPanel",
+    "attributes": {
+      "LayoutVersion": 2
+    },
+    "properties": {
+      "ResetOnSpawn": false,
+      "IgnoreGuiInset": false,
+      "Enabled": false,
+      "DisplayOrder": 40
+    },
+    "children": {
+      "1": {
+        "name": "Toggle",
+        "attributes": {
+          "ReadyColor": "1, 0.800000011920929, 0.21176470816135406"
+        },
+        "properties": {
+          "Visible": true,
+          "TextWrapped": true,
+          "AnchorPoint": {
+            "y": 0,
+            "x": 0
+          },
+          "ZIndex": 4,
+          "BorderSizePixel": 0,
+          "Size": {
+            "xOffset": 112,
+            "xScale": 0,
+            "yScale": 0,
+            "yOffset": 42
+          },
+          "ClipsDescendants": false,
+          "Text": "ADMIN",
+          "TextSize": 8,
+          "Position": {
+            "xOffset": 16,
+            "xScale": 0,
+            "yScale": 0,
+            "yOffset": 16
+          },
+          "Font": "Enum.Font.LuckiestGuy",
+          "BackgroundTransparency": 0,
+          "TextXAlignment": "Enum.TextXAlignment.Center",
+          "TextColor3": {
+            "r": 0.0941176488995552,
+            "g": 0.13725490868091583,
+            "b": 0.24313725531101227
+          },
+          "TextYAlignment": "Enum.TextYAlignment.Center",
+          "TextScaled": true,
+          "BackgroundColor3": {
+            "r": 1,
+            "g": 0.800000011920929,
+            "b": 0.21176470816135406
+          }
+        },
+        "children": {
+          "1": {
+            "name": "TextSizeLimit",
+            "attributes": [],
+            "properties": [],
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          "2": {
+            "name": "TextPadding",
+            "attributes": [],
+            "properties": {
+              "PaddingBottom": {
+                "scale": 0,
+                "offset": 3
+              },
+              "PaddingTop": {
+                "scale": 0,
+                "offset": 3
+              },
+              "PaddingLeft": {
+                "scale": 0,
+                "offset": 8
+              },
+              "PaddingRight": {
+                "scale": 0,
+                "offset": 8
+              }
+            },
+            "children": [],
+            "class": "UIPadding"
+          },
+          "3": {
+            "name": "Corner",
+            "attributes": [],
+            "properties": {
+              "CornerRadius": {
+                "scale": 0,
+                "offset": 11
+              }
+            },
+            "children": [],
+            "class": "UICorner"
+          },
+          "4": {
+            "name": "Outline",
+            "attributes": [],
+            "properties": {
+              "Thickness": 3,
+              "ZIndex": 1,
+              "Enabled": true,
+              "Color": {
+                "r": 0.0941176488995552,
+                "g": 0.13725490868091583,
+                "b": 0.24313725531101227
+              }
+            },
+            "children": [],
+            "class": "UIStroke"
+          }
+        },
+        "class": "TextButton"
+      },
+      "2": {
+        "name": "Panel",
+        "attributes": [],
+        "properties": {
+          "Visible": false,
+          "ClipsDescendants": false,
+          "AnchorPoint": {
+            "y": 0,
+            "x": 0
+          },
+          "BackgroundTransparency": 0,
+          "Position": {
+            "xOffset": 16,
+            "xScale": 0,
+            "yScale": 0,
+            "yOffset": 70
+          },
+          "BackgroundColor3": {
+            "r": 1,
+            "g": 0.9803921580314636,
+            "b": 0.886274516582489
+          },
+          "ZIndex": 2,
+          "BorderSizePixel": 0,
+          "Size": {
+            "xOffset": 0,
+            "xScale": 0.3400000035762787,
+            "yScale": 0.7200000286102295,
+            "yOffset": 0
+          }
+        },
+        "children": {
+          "1": {
+            "name": "SizeLimit",
+            "attributes": [],
+            "properties": [],
+            "children": [],
+            "class": "UISizeConstraint"
+          },
+          "2": {
+            "name": "Corner",
+            "attributes": [],
+            "properties": {
+              "CornerRadius": {
+                "scale": 0,
+                "offset": 16
+              }
+            },
+            "children": [],
+            "class": "UICorner"
+          },
+          "3": {
+            "name": "Outline",
+            "attributes": [],
+            "properties": {
+              "Thickness": 4,
+              "ZIndex": 1,
+              "Enabled": true,
+              "Color": {
+                "r": 0.0941176488995552,
+                "g": 0.13725490868091583,
+                "b": 0.24313725531101227
+              }
+            },
+            "children": [],
+            "class": "UIStroke"
+          },
+          "4": {
+            "name": "Title",
+            "attributes": [],
+            "properties": {
+              "Visible": true,
+              "TextWrapped": true,
+              "AnchorPoint": {
+                "y": 0,
+                "x": 0
+              },
+              "ZIndex": 4,
+              "BorderSizePixel": 0,
+              "Size": {
+                "xOffset": 0,
+                "xScale": 0.7900000214576721,
+                "yScale": 0.07500000298023224,
+                "yOffset": 0
+              },
+              "ClipsDescendants": false,
+              "Text": "PLAYGROUND ADMIN",
+              "TextSize": 8,
+              "Position": {
+                "xOffset": 0,
+                "xScale": 0.054999999701976776,
+                "yScale": 0.03500000014901161,
+                "yOffset": 0
+              },
+              "Font": "Enum.Font.LuckiestGuy",
+              "BackgroundTransparency": 1,
+              "TextXAlignment": "Enum.TextXAlignment.Center",
+              "TextColor3": {
+                "r": 0.0941176488995552,
+                "g": 0.13725490868091583,
+                "b": 0.24313725531101227
+              },
+              "TextYAlignment": "Enum.TextYAlignment.Center",
+              "TextScaled": true,
+              "BackgroundColor3": {
+                "r": 0.6392157077789307,
+                "g": 0.6352941393852234,
+                "b": 0.6470588445663452
+              }
+            },
+            "children": {
+              "1": {
+                "name": "TextSizeLimit",
+                "attributes": [],
+                "properties": [],
+                "children": [],
+                "class": "UITextSizeConstraint"
+              }
+            },
+            "class": "TextLabel"
+          },
+          "5": {
+            "name": "Close",
+            "attributes": {
+              "ReadyColor": "1, 1, 1"
+            },
+            "properties": {
+              "Visible": true,
+              "TextWrapped": true,
+              "AnchorPoint": {
+                "y": 0,
+                "x": 0
+              },
+              "ZIndex": 4,
+              "BorderSizePixel": 0,
+              "Size": {
+                "xOffset": 0,
+                "xScale": 0.08500000089406967,
+                "yScale": 0.08500000089406967,
+                "yOffset": 0
+              },
+              "ClipsDescendants": false,
+              "Text": "X",
+              "TextSize": 8,
+              "Position": {
+                "xOffset": 0,
+                "xScale": 0.8700000047683716,
+                "yScale": 0.02500000037252903,
+                "yOffset": 0
+              },
+              "Font": "Enum.Font.LuckiestGuy",
+              "BackgroundTransparency": 0,
+              "TextXAlignment": "Enum.TextXAlignment.Center",
+              "TextColor3": {
+                "r": 0.0941176488995552,
+                "g": 0.13725490868091583,
+                "b": 0.24313725531101227
+              },
+              "TextYAlignment": "Enum.TextYAlignment.Center",
+              "TextScaled": true,
+              "BackgroundColor3": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              }
+            },
+            "children": {
+              "1": {
+                "name": "TextSizeLimit",
+                "attributes": [],
+                "properties": [],
+                "children": [],
+                "class": "UITextSizeConstraint"
+              },
+              "2": {
+                "name": "TextPadding",
+                "attributes": [],
+                "properties": {
+                  "PaddingBottom": {
+                    "scale": 0,
+                    "offset": 3
+                  },
+                  "PaddingTop": {
+                    "scale": 0,
+                    "offset": 3
+                  },
+                  "PaddingLeft": {
+                    "scale": 0,
+                    "offset": 8
+                  },
+                  "PaddingRight": {
+                    "scale": 0,
+                    "offset": 8
+                  }
+                },
+                "children": [],
+                "class": "UIPadding"
+              },
+              "3": {
+                "name": "Corner",
+                "attributes": [],
+                "properties": {
+                  "CornerRadius": {
+                    "scale": 0,
+                    "offset": 11
+                  }
+                },
+                "children": [],
+                "class": "UICorner"
+              },
+              "4": {
+                "name": "Outline",
+                "attributes": [],
+                "properties": {
+                  "Thickness": 3,
+                  "ZIndex": 1,
+                  "Enabled": true,
+                  "Color": {
+                    "r": 0.0941176488995552,
+                    "g": 0.13725490868091583,
+                    "b": 0.24313725531101227
+                  }
+                },
+                "children": [],
+                "class": "UIStroke"
+              }
+            },
+            "class": "TextButton"
+          },
+          "6": {
+            "name": "Body",
+            "attributes": [],
+            "properties": {
+              "Visible": true,
+              "ClipsDescendants": true,
+              "AutomaticCanvasSize": "Enum.AutomaticSize.Y",
+              "ScrollBarThickness": 4,
+              "CanvasSize": {
+                "xOffset": 0,
+                "xScale": 0,
+                "yScale": 0,
+                "yOffset": 0
+              },
+              "AnchorPoint": {
+                "y": 0,
+                "x": 0
+              },
+              "ScrollingDirection": "Enum.ScrollingDirection.Y",
+              "BackgroundTransparency": 1,
+              "Position": {
+                "xOffset": 0,
+                "xScale": 0.04500000178813934,
+                "yScale": 0.13500000536441803,
+                "yOffset": 0
+              },
+              "BackgroundColor3": {
+                "r": 0.6392157077789307,
+                "g": 0.6352941393852234,
+                "b": 0.6470588445663452
+              },
+              "ZIndex": 3,
+              "BorderSizePixel": 0,
+              "Size": {
+                "xOffset": 0,
+                "xScale": 0.9100000262260437,
+                "yScale": 0.824999988079071,
+                "yOffset": 0
+              }
+            },
+            "children": {
+              "1": {
+                "name": "Content",
+                "attributes": [],
+                "properties": {
+                  "Visible": true,
+                  "ClipsDescendants": false,
+                  "AnchorPoint": {
+                    "y": 0,
+                    "x": 0
+                  },
+                  "BackgroundTransparency": 1,
+                  "Position": {
+                    "xOffset": 4,
+                    "xScale": 0,
+                    "yScale": 0,
+                    "yOffset": 4
+                  },
+                  "BackgroundColor3": {
+                    "r": 0.6392157077789307,
+                    "g": 0.6352941393852234,
+                    "b": 0.6470588445663452
+                  },
+                  "ZIndex": 3,
+                  "BorderSizePixel": 0,
+                  "Size": {
+                    "xOffset": -14,
+                    "xScale": 1,
+                    "yScale": 0,
+                    "yOffset": 380
+                  }
+                },
+                "children": {
+                  "1": {
+                    "name": "GameCard",
+                    "attributes": [],
+                    "properties": {
+                      "Visible": true,
+                      "ClipsDescendants": false,
+                      "AnchorPoint": {
+                        "y": 0,
+                        "x": 0
+                      },
+                      "BackgroundTransparency": 0,
+                      "Position": {
+                        "xOffset": 0,
+                        "xScale": 0,
+                        "yScale": 0,
+                        "yOffset": 0
+                      },
+                      "BackgroundColor3": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1
+                      },
+                      "ZIndex": 3,
+                      "BorderSizePixel": 0,
+                      "Size": {
+                        "xOffset": 0,
+                        "xScale": 1,
+                        "yScale": 0.699999988079071,
+                        "yOffset": 0
+                      }
+                    },
+                    "children": {
+                      "1": {
+                        "name": "Corner",
+                        "attributes": [],
+                        "properties": {
+                          "CornerRadius": {
+                            "scale": 0,
+                            "offset": 13
+                          }
+                        },
+                        "children": [],
+                        "class": "UICorner"
+                      },
+                      "2": {
+                        "name": "Outline",
+                        "attributes": [],
+                        "properties": {
+                          "Thickness": 3,
+                          "ZIndex": 1,
+                          "Enabled": true,
+                          "Color": {
+                            "r": 0.0941176488995552,
+                            "g": 0.13725490868091583,
+                            "b": 0.24313725531101227
+                          }
+                        },
+                        "children": [],
+                        "class": "UIStroke"
+                      },
+                      "3": {
+                        "name": "GameTitle",
+                        "attributes": [],
+                        "properties": {
+                          "Visible": true,
+                          "TextWrapped": true,
+                          "AnchorPoint": {
+                            "y": 0,
+                            "x": 0
+                          },
+                          "ZIndex": 4,
+                          "BorderSizePixel": 0,
+                          "Size": {
+                            "xOffset": 0,
+                            "xScale": 0.8999999761581421,
+                            "yScale": 0.12999999523162842,
+                            "yOffset": 0
+                          },
+                          "ClipsDescendants": false,
+                          "Text": "BRITISH BULLDOG",
+                          "TextSize": 8,
+                          "Position": {
+                            "xOffset": 0,
+                            "xScale": 0.05000000074505806,
+                            "yScale": 0.03999999910593033,
+                            "yOffset": 0
+                          },
+                          "Font": "Enum.Font.LuckiestGuy",
+                          "BackgroundTransparency": 1,
+                          "TextXAlignment": "Enum.TextXAlignment.Center",
+                          "TextColor3": {
+                            "r": 0.0941176488995552,
+                            "g": 0.13725490868091583,
+                            "b": 0.24313725531101227
+                          },
+                          "TextYAlignment": "Enum.TextYAlignment.Center",
+                          "TextScaled": true,
+                          "BackgroundColor3": {
+                            "r": 0.6392157077789307,
+                            "g": 0.6352941393852234,
+                            "b": 0.6470588445663452
+                          }
+                        },
+                        "children": {
+                          "1": {
+                            "name": "TextSizeLimit",
+                            "attributes": [],
+                            "properties": [],
+                            "children": [],
+                            "class": "UITextSizeConstraint"
+                          }
+                        },
+                        "class": "TextLabel"
+                      },
+                      "4": {
+                        "name": "Status",
+                        "attributes": [],
+                        "properties": {
+                          "Visible": true,
+                          "TextWrapped": true,
+                          "AnchorPoint": {
+                            "y": 0,
+                            "x": 0
+                          },
+                          "ZIndex": 4,
+                          "BorderSizePixel": 0,
+                          "Size": {
+                            "xOffset": 0,
+                            "xScale": 0.8999999761581421,
+                            "yScale": 0.10000000149011612,
+                            "yOffset": 0
+                          },
+                          "ClipsDescendants": false,
+                          "Text": "Waiting for server",
+                          "TextSize": 8,
+                          "Position": {
+                            "xOffset": 0,
+                            "xScale": 0.05000000074505806,
+                            "yScale": 0.18000000715255737,
+                            "yOffset": 0
+                          },
+                          "Font": "Enum.Font.FredokaOne",
+                          "BackgroundTransparency": 1,
+                          "TextXAlignment": "Enum.TextXAlignment.Center",
+                          "TextColor3": {
+                            "r": 0.0941176488995552,
+                            "g": 0.13725490868091583,
+                            "b": 0.24313725531101227
+                          },
+                          "TextYAlignment": "Enum.TextYAlignment.Center",
+                          "TextScaled": true,
+                          "BackgroundColor3": {
+                            "r": 0.6392157077789307,
+                            "g": 0.6352941393852234,
+                            "b": 0.6470588445663452
+                          }
+                        },
+                        "children": {
+                          "1": {
+                            "name": "TextSizeLimit",
+                            "attributes": [],
+                            "properties": [],
+                            "children": [],
+                            "class": "UITextSizeConstraint"
+                          }
+                        },
+                        "class": "TextLabel"
+                      },
+                      "5": {
+                        "name": "StartRound",
+                        "attributes": {
+                          "ReadyColor": "1, 0.800000011920929, 0.21176470816135406"
+                        },
+                        "properties": {
+                          "Visible": true,
+                          "TextWrapped": true,
+                          "AnchorPoint": {
+                            "y": 0,
+                            "x": 0
+                          },
+                          "ZIndex": 4,
+                          "BorderSizePixel": 0,
+                          "Size": {
+                            "xOffset": 0,
+                            "xScale": 0.8999999761581421,
+                            "yScale": 0.18000000715255737,
+                            "yOffset": 0
+                          },
+                          "ClipsDescendants": false,
+                          "Text": "START ROUND",
+                          "TextSize": 8,
+                          "Position": {
+                            "xOffset": 0,
+                            "xScale": 0.05000000074505806,
+                            "yScale": 0.32499998807907104,
+                            "yOffset": 0
+                          },
+                          "Font": "Enum.Font.LuckiestGuy",
+                          "BackgroundTransparency": 0,
+                          "TextXAlignment": "Enum.TextXAlignment.Center",
+                          "TextColor3": {
+                            "r": 0.0941176488995552,
+                            "g": 0.13725490868091583,
+                            "b": 0.24313725531101227
+                          },
+                          "TextYAlignment": "Enum.TextYAlignment.Center",
+                          "TextScaled": true,
+                          "BackgroundColor3": {
+                            "r": 1,
+                            "g": 0.800000011920929,
+                            "b": 0.21176470816135406
+                          }
+                        },
+                        "children": {
+                          "1": {
+                            "name": "TextSizeLimit",
+                            "attributes": [],
+                            "properties": [],
+                            "children": [],
+                            "class": "UITextSizeConstraint"
+                          },
+                          "2": {
+                            "name": "TextPadding",
+                            "attributes": [],
+                            "properties": {
+                              "PaddingBottom": {
+                                "scale": 0,
+                                "offset": 3
+                              },
+                              "PaddingTop": {
+                                "scale": 0,
+                                "offset": 3
+                              },
+                              "PaddingLeft": {
+                                "scale": 0,
+                                "offset": 8
+                              },
+                              "PaddingRight": {
+                                "scale": 0,
+                                "offset": 8
+                              }
+                            },
+                            "children": [],
+                            "class": "UIPadding"
+                          },
+                          "3": {
+                            "name": "Corner",
+                            "attributes": [],
+                            "properties": {
+                              "CornerRadius": {
+                                "scale": 0,
+                                "offset": 11
+                              }
+                            },
+                            "children": [],
+                            "class": "UICorner"
+                          },
+                          "4": {
+                            "name": "Outline",
+                            "attributes": [],
+                            "properties": {
+                              "Thickness": 3,
+                              "ZIndex": 1,
+                              "Enabled": true,
+                              "Color": {
+                                "r": 0.0941176488995552,
+                                "g": 0.13725490868091583,
+                                "b": 0.24313725531101227
+                              }
+                            },
+                            "children": [],
+                            "class": "UIStroke"
+                          }
+                        },
+                        "class": "TextButton"
+                      },
+                      "6": {
+                        "name": "StartCaption",
+                        "attributes": [],
+                        "properties": {
+                          "Visible": true,
+                          "TextWrapped": true,
+                          "AnchorPoint": {
+                            "y": 0,
+                            "x": 0
+                          },
+                          "ZIndex": 4,
+                          "BorderSizePixel": 0,
+                          "Size": {
+                            "xOffset": 0,
+                            "xScale": 0.8999999761581421,
+                            "yScale": 0.06499999761581421,
+                            "yOffset": 0
+                          },
+                          "ClipsDescendants": false,
+                          "Text": "All ready players",
+                          "TextSize": 8,
+                          "Position": {
+                            "xOffset": 0,
+                            "xScale": 0.05000000074505806,
+                            "yScale": 0.5099999904632568,
+                            "yOffset": 0
+                          },
+                          "Font": "Enum.Font.FredokaOne",
+                          "BackgroundTransparency": 1,
+                          "TextXAlignment": "Enum.TextXAlignment.Center",
+                          "TextColor3": {
+                            "r": 0.0941176488995552,
+                            "g": 0.13725490868091583,
+                            "b": 0.24313725531101227
+                          },
+                          "TextYAlignment": "Enum.TextYAlignment.Center",
+                          "TextScaled": true,
+                          "BackgroundColor3": {
+                            "r": 0.6392157077789307,
+                            "g": 0.6352941393852234,
+                            "b": 0.6470588445663452
+                          }
+                        },
+                        "children": {
+                          "1": {
+                            "name": "TextSizeLimit",
+                            "attributes": [],
+                            "properties": [],
+                            "children": [],
+                            "class": "UITextSizeConstraint"
+                          }
+                        },
+                        "class": "TextLabel"
+                      },
+                      "7": {
+                        "name": "PracticeRunner",
+                        "attributes": {
+                          "ReadyColor": "0.16470588743686676, 0.6274510025978088, 1"
+                        },
+                        "properties": {
+                          "Visible": true,
+                          "TextWrapped": true,
+                          "AnchorPoint": {
+                            "y": 0,
+                            "x": 0
+                          },
+                          "ZIndex": 4,
+                          "BorderSizePixel": 0,
+                          "Size": {
+                            "xOffset": 0,
+                            "xScale": 0.8999999761581421,
+                            "yScale": 0.1599999964237213,
+                            "yOffset": 0
+                          },
+                          "ClipsDescendants": false,
+                          "Text": "PLAY AS RUNNER",
+                          "TextSize": 8,
+                          "Position": {
+                            "xOffset": 0,
+                            "xScale": 0.05000000074505806,
+                            "yScale": 0.6100000143051147,
+                            "yOffset": 0
+                          },
+                          "Font": "Enum.Font.LuckiestGuy",
+                          "BackgroundTransparency": 0,
+                          "TextXAlignment": "Enum.TextXAlignment.Center",
+                          "TextColor3": {
+                            "r": 0.0941176488995552,
+                            "g": 0.13725490868091583,
+                            "b": 0.24313725531101227
+                          },
+                          "TextYAlignment": "Enum.TextYAlignment.Center",
+                          "TextScaled": true,
+                          "BackgroundColor3": {
+                            "r": 0.16470588743686676,
+                            "g": 0.6274510025978088,
+                            "b": 1
+                          }
+                        },
+                        "children": {
+                          "1": {
+                            "name": "TextSizeLimit",
+                            "attributes": [],
+                            "properties": [],
+                            "children": [],
+                            "class": "UITextSizeConstraint"
+                          },
+                          "2": {
+                            "name": "TextPadding",
+                            "attributes": [],
+                            "properties": {
+                              "PaddingBottom": {
+                                "scale": 0,
+                                "offset": 3
+                              },
+                              "PaddingTop": {
+                                "scale": 0,
+                                "offset": 3
+                              },
+                              "PaddingLeft": {
+                                "scale": 0,
+                                "offset": 8
+                              },
+                              "PaddingRight": {
+                                "scale": 0,
+                                "offset": 8
+                              }
+                            },
+                            "children": [],
+                            "class": "UIPadding"
+                          },
+                          "3": {
+                            "name": "Corner",
+                            "attributes": [],
+                            "properties": {
+                              "CornerRadius": {
+                                "scale": 0,
+                                "offset": 11
+                              }
+                            },
+                            "children": [],
+                            "class": "UICorner"
+                          },
+                          "4": {
+                            "name": "Outline",
+                            "attributes": [],
+                            "properties": {
+                              "Thickness": 3,
+                              "ZIndex": 1,
+                              "Enabled": true,
+                              "Color": {
+                                "r": 0.0941176488995552,
+                                "g": 0.13725490868091583,
+                                "b": 0.24313725531101227
+                              }
+                            },
+                            "children": [],
+                            "class": "UIStroke"
+                          }
+                        },
+                        "class": "TextButton"
+                      },
+                      "8": {
+                        "name": "PracticeBulldog",
+                        "attributes": {
+                          "ReadyColor": "1, 0.3176470696926117, 0.3607843220233917"
+                        },
+                        "properties": {
+                          "Visible": true,
+                          "TextWrapped": true,
+                          "AnchorPoint": {
+                            "y": 0,
+                            "x": 0
+                          },
+                          "ZIndex": 4,
+                          "BorderSizePixel": 0,
+                          "Size": {
+                            "xOffset": 0,
+                            "xScale": 0.8999999761581421,
+                            "yScale": 0.1599999964237213,
+                            "yOffset": 0
+                          },
+                          "ClipsDescendants": false,
+                          "Text": "PLAY AS BULLDOG",
+                          "TextSize": 8,
+                          "Position": {
+                            "xOffset": 0,
+                            "xScale": 0.05000000074505806,
+                            "yScale": 0.8100000023841858,
+                            "yOffset": 0
+                          },
+                          "Font": "Enum.Font.LuckiestGuy",
+                          "BackgroundTransparency": 0,
+                          "TextXAlignment": "Enum.TextXAlignment.Center",
+                          "TextColor3": {
+                            "r": 0.0941176488995552,
+                            "g": 0.13725490868091583,
+                            "b": 0.24313725531101227
+                          },
+                          "TextYAlignment": "Enum.TextYAlignment.Center",
+                          "TextScaled": true,
+                          "BackgroundColor3": {
+                            "r": 1,
+                            "g": 0.3176470696926117,
+                            "b": 0.3607843220233917
+                          }
+                        },
+                        "children": {
+                          "1": {
+                            "name": "TextSizeLimit",
+                            "attributes": [],
+                            "properties": [],
+                            "children": [],
+                            "class": "UITextSizeConstraint"
+                          },
+                          "2": {
+                            "name": "TextPadding",
+                            "attributes": [],
+                            "properties": {
+                              "PaddingBottom": {
+                                "scale": 0,
+                                "offset": 3
+                              },
+                              "PaddingTop": {
+                                "scale": 0,
+                                "offset": 3
+                              },
+                              "PaddingLeft": {
+                                "scale": 0,
+                                "offset": 8
+                              },
+                              "PaddingRight": {
+                                "scale": 0,
+                                "offset": 8
+                              }
+                            },
+                            "children": [],
+                            "class": "UIPadding"
+                          },
+                          "3": {
+                            "name": "Corner",
+                            "attributes": [],
+                            "properties": {
+                              "CornerRadius": {
+                                "scale": 0,
+                                "offset": 11
+                              }
+                            },
+                            "children": [],
+                            "class": "UICorner"
+                          },
+                          "4": {
+                            "name": "Outline",
+                            "attributes": [],
+                            "properties": {
+                              "Thickness": 3,
+                              "ZIndex": 1,
+                              "Enabled": true,
+                              "Color": {
+                                "r": 0.0941176488995552,
+                                "g": 0.13725490868091583,
+                                "b": 0.24313725531101227
+                              }
+                            },
+                            "children": [],
+                            "class": "UIStroke"
+                          }
+                        },
+                        "class": "TextButton"
+                      }
+                    },
+                    "class": "Frame"
+                  },
+                  "2": {
+                    "name": "StopRound",
+                    "attributes": {
+                      "ReadyColor": "1, 0.3176470696926117, 0.3607843220233917"
+                    },
+                    "properties": {
+                      "Visible": true,
+                      "TextWrapped": true,
+                      "AnchorPoint": {
+                        "y": 0,
+                        "x": 0
+                      },
+                      "ZIndex": 4,
+                      "BorderSizePixel": 0,
+                      "Size": {
+                        "xOffset": 0,
+                        "xScale": 1,
+                        "yScale": 0.11999999731779099,
+                        "yOffset": 0
+                      },
+                      "ClipsDescendants": false,
+                      "Text": "STOP / BACK TO LOBBY",
+                      "TextSize": 8,
+                      "Position": {
+                        "xOffset": 0,
+                        "xScale": 0,
+                        "yScale": 0.7450000047683716,
+                        "yOffset": 0
+                      },
+                      "Font": "Enum.Font.LuckiestGuy",
+                      "BackgroundTransparency": 0,
+                      "TextXAlignment": "Enum.TextXAlignment.Center",
+                      "TextColor3": {
+                        "r": 0.0941176488995552,
+                        "g": 0.13725490868091583,
+                        "b": 0.24313725531101227
+                      },
+                      "TextYAlignment": "Enum.TextYAlignment.Center",
+                      "TextScaled": true,
+                      "BackgroundColor3": {
+                        "r": 1,
+                        "g": 0.3176470696926117,
+                        "b": 0.3607843220233917
+                      }
+                    },
+                    "children": {
+                      "1": {
+                        "name": "TextSizeLimit",
+                        "attributes": [],
+                        "properties": [],
+                        "children": [],
+                        "class": "UITextSizeConstraint"
+                      },
+                      "2": {
+                        "name": "TextPadding",
+                        "attributes": [],
+                        "properties": {
+                          "PaddingBottom": {
+                            "scale": 0,
+                            "offset": 3
+                          },
+                          "PaddingTop": {
+                            "scale": 0,
+                            "offset": 3
+                          },
+                          "PaddingLeft": {
+                            "scale": 0,
+                            "offset": 8
+                          },
+                          "PaddingRight": {
+                            "scale": 0,
+                            "offset": 8
+                          }
+                        },
+                        "children": [],
+                        "class": "UIPadding"
+                      },
+                      "3": {
+                        "name": "Corner",
+                        "attributes": [],
+                        "properties": {
+                          "CornerRadius": {
+                            "scale": 0,
+                            "offset": 11
+                          }
+                        },
+                        "children": [],
+                        "class": "UICorner"
+                      },
+                      "4": {
+                        "name": "Outline",
+                        "attributes": [],
+                        "properties": {
+                          "Thickness": 3,
+                          "ZIndex": 1,
+                          "Enabled": true,
+                          "Color": {
+                            "r": 0.0941176488995552,
+                            "g": 0.13725490868091583,
+                            "b": 0.24313725531101227
+                          }
+                        },
+                        "children": [],
+                        "class": "UIStroke"
+                      }
+                    },
+                    "class": "TextButton"
+                  },
+                  "3": {
+                    "name": "Message",
+                    "attributes": [],
+                    "properties": {
+                      "Visible": true,
+                      "TextWrapped": true,
+                      "AnchorPoint": {
+                        "y": 0,
+                        "x": 0
+                      },
+                      "ZIndex": 4,
+                      "BorderSizePixel": 0,
+                      "Size": {
+                        "xOffset": 0,
+                        "xScale": 0.9800000190734863,
+                        "yScale": 0.09000000357627869,
+                        "yOffset": 0
+                      },
+                      "ClipsDescendants": false,
+                      "Text": "Choose a mode to play.",
+                      "TextSize": 8,
+                      "Position": {
+                        "xOffset": 0,
+                        "xScale": 0.009999999776482582,
+                        "yScale": 0.8999999761581421,
+                        "yOffset": 0
+                      },
+                      "Font": "Enum.Font.FredokaOne",
+                      "BackgroundTransparency": 1,
+                      "TextXAlignment": "Enum.TextXAlignment.Center",
+                      "TextColor3": {
+                        "r": 0.0941176488995552,
+                        "g": 0.13725490868091583,
+                        "b": 0.24313725531101227
+                      },
+                      "TextYAlignment": "Enum.TextYAlignment.Top",
+                      "TextScaled": true,
+                      "BackgroundColor3": {
+                        "r": 0.6392157077789307,
+                        "g": 0.6352941393852234,
+                        "b": 0.6470588445663452
+                      }
+                    },
+                    "children": {
+                      "1": {
+                        "name": "TextSizeLimit",
+                        "attributes": [],
+                        "properties": [],
+                        "children": [],
+                        "class": "UITextSizeConstraint"
+                      }
+                    },
+                    "class": "TextLabel"
+                  }
+                },
+                "class": "Frame"
+              }
+            },
+            "class": "ScrollingFrame"
+          }
+        },
+        "class": "Frame"
+      },
+      "3": {
+        "name": "Controller",
+        "attributes": [],
+        "properties": {
+          "Enabled": true
+        },
+        "children": [],
+        "class": "LocalScript"
+      }
+    },
+    "class": "ScreenGui"
+  },
+  "universeId": 10769034155
+}

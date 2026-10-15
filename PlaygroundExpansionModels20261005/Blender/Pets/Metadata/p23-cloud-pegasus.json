@@ -1,0 +1,54 @@
+{
+  "id": "P23",
+  "name": "Cloud Pegasus",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p23-cloud-pegasus.png",
+  "brief": "An adorable pearl-white miniature winged horse, rounded lavender mane and curled tail, sky-blue hooves, two thick feathered white wings attached at the shoulders and a small gold collar. Four short sturdy horse legs visible in a three-quarter standing pose. Horse muzzle, no unicorn horn, no clouds or separate base.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p23-cloud-pegasus.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p23-cloud-pegasus.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p23-cloud-pegasus-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p23-cloud-pegasus.png",
+  "parts": 79,
+  "triangles": 30680,
+  "meshes": 2,
+  "maxMeshTriangles": 18364,
+  "dimensions": [
+    2.677483558654785,
+    3.3958733081817627,
+    3.6658928394317627
+  ],
+  "boundsMin": [
+    -1.3387417793273926,
+    -1.5260000228881836,
+    0.034999996423721313
+  ],
+  "boundsMax": [
+    1.3387417793273926,
+    1.869873285293579,
+    3.700892925262451
+  ],
+  "paletteColors": 15,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "FrontLegL",
+    "FrontLegR",
+    "BackLegL",
+    "BackLegR",
+    "WingL",
+    "WingR",
+    "Tail"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.677483558654785,
+    3.3958733081817627,
+    3.6658928394317627
+  ]
+}

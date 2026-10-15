@@ -1,0 +1,144 @@
+resizeDraft()
+
+local hiddenGuis = {}
+local session
+local entering = false
+local leaveArena
+local startMatch
+local startRound
+local exitButton = hud:WaitForChild("LeaveArena")
+
+local function isCurrent(match)
+	return session == match and match.active
+end
+
+local function setPhase(phase)
+	player:SetAttribute("MatchPhase", phase)
+end
+
+local function hideLobbyGui(gui)
+	if not gui:IsA("ScreenGui") or gui == hud or gui.Name == "TouchGui" then return end
+	if gui.ResetOnSpawn == false then
+		if hiddenGuis[gui] == nil then hiddenGuis[gui] = gui.Enabled end
+		gui.Enabled = false
+	end
+end
+
+local function showLobby()
+	for gui, enabled in pairs(hiddenGuis) do
+		if gui.Parent then
+			gui.Enabled = enabled and gui.Name ~= "ModePickerGui" and gui.Name ~= "ArenaSelectGui"
+		end
+	end
+	table.clear(hiddenGuis)
+end
+
+local function cancelMatch()
+	if session then session.active = false end
+	session = nil
+	CombatController.cancel()
+	Deployment.reset()
+	clearRewardConnections()
+	rewardOverlay.Visible = false
+	banner.Visible = false
+	optionRegion.Visible = false
+	DraftController.clear(optionRegion)
+end
+
+local function showBanner(match, text, duration)
+	if not isCurrent(match) then return false end
+	banner.Text = text
+	banner.TextTransparency = 0
+	banner.TextStrokeTransparency = bannerStrokeTransparency
+	banner.Visible = true
+	task.wait(duration)
+	if not isCurrent(match) then return false end
+	banner.Visible = false
+	return true
+end
+
+local function rollOpponentPool()
+	local pool = {}
+	for id, data in pairs(UnitData.all()) do
+		if UnitModels:FindFirstChild(data.model) then table.insert(pool, id) end
+	end
+	for i = #pool, 2, -1 do
+		local j = math.random(1, i)
+		pool[i], pool[j] = pool[j], pool[i]
+	end
+	while #pool > 4 do table.remove(pool) end
+	return pool
+end
+
+local function grantRewards(match, playerWon)
+	local result = PlayerData.recordResult(ArenaConfig.progressionKey, playerWon)
+	local data = {
+		playerWon = playerWon, coins = playerWon and 100 or 35,
+		accountXp = playerWon and 50 or 18, masteryChips = playerWon and 10 or 4,
+		arenaDelta = result.delta, arenaPoints = result.points,
+		milestoneCoins = result.coinsAwarded, milestoneGems = result.gemsAwarded,
+		unlockedUnits = result.unlockedUnits, unitMastery = {},
+	}
+	PlayerData.addCoins(data.coins)
+	if PlayerData.addXp(data.accountXp) > 0 then data.leveledTo = PlayerData.level() end
+	if playerWon then data.dailyPack = PlayerData.grantDailyWinPack() end
+	PlayerData.addMasteryChips(data.masteryChips)
+	for _, id in ipairs(match.playerPool) do
+		local unit = UnitData.get(id)
+		PlayerData.addMasteryPoints(id, PlayerData.MASTERY_PER_MATCH)
+		table.insert(data.unitMastery, {
+			id = id, name = unit.name, rarity = unit.rarity, gained = PlayerData.MASTERY_PER_MATCH,
+		})
+	end
+	return data
+end
+
+local function finishMatch(match, winner)
+	if not isCurrent(match) or match.finished then return end
+	match.finished = true
+	setPhase("Results")
+	player:SetAttribute("RoundWinner", winner or "draw")
+	local function replay()
+		if isCurrent(match) then startMatch(match.quickRound) end
+	end
+	local function back()
+		if isCurrent(match) then leaveArena() end
+	end
+	if match.quickRound or not winner then
+		clearRewardConnections()
+		for _, child in ipairs(rewardBody:GetChildren()) do
+			if child:IsA("Frame") then child:Destroy() end
+		end
+		rewardTitle.Text = winner == "player" and "ROUND WON!" or winner == "opponent" and "ROUND LOST" or "DRAW"
+		rewardTitle.TextColor3 = C.gold
+		local section = rewardSection(match.quickRound and "Quick Round" or "Match Draw", 1)
+		rewardRow(section, 1, "", match.quickRound and "Test round complete. No rewards awarded." or "Both teams were evenly matched.", C.btnTxt)
+		nextMatchBtn.Text = match.quickRound and "Play Again" or "Next Match"
+		rewardPanel.Size = rewardPanelSize
+		rewardOverlay.Visible = true
+		rewardConnections = {
+			backLobbyBtn.Activated:Connect(back),
+			nextMatchBtn.Activated:Connect(replay),
+		}
+	else
+		nextMatchBtn.Text = "Next Match"
+		showRewards(grantRewards(match, winner == "player"), back, replay)
+	end
+end
+
+local function roundEnded(match, winner)
+	if not isCurrent(match) then return end
+	setPhase("RoundEnd")
+	player:SetAttribute("RoundWinner", winner or "draw")
+	if winner == "player" then
+		match.opponentLives -= 1
+		match.pityFor = "opponent"
+	elseif winner == "opponent" then
+		match.playerLives -= 1
+		match.pityFor = "player"
+	else
+		match.pityFor = nil
+		match.draws += 1
+	end
+	setLives(playerCluster, match.playerLives)
+	setLives(opponentCluster, match.opp

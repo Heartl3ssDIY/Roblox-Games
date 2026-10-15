@@ -1,0 +1,63 @@
+{
+  "MudGun": {
+    "meshes": 70,
+    "triangles": 19952,
+    "largestMeshTriangles": 1536,
+    "gripOrigin": [
+      0,
+      0,
+      0
+    ],
+    "muzzleRoblox": [
+      0,
+      1,
+      -2.65
+    ],
+    "forwardAxis": "-Z",
+    "fbxFinished": [
+      "FINISHED"
+    ],
+    "glbFinished": [
+      "FINISHED"
+    ],
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudGun.fbx",
+    "glb": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudGun.glb",
+    "fbxBytes": 476236,
+    "glbBytes": 410836
+  },
+  "HeatGun": {
+    "meshes": 65,
+    "triangles": 20844,
+    "largestMeshTriangles": 2416,
+    "gripOrigin": [
+      0,
+      0,
+      0
+    ],
+    "muzzleRoblox": [
+      0,
+      1,
+      -2.65
+    ],
+    "forwardAxis": "-Z",
+    "fbxFinished": [
+      "FINISHED"
+    ],
+    "glbFinished": [
+      "FINISHED"
+    ],
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\HeatGun.fbx",
+    "glb": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\HeatGun.glb",
+    "fbxBytes": 487948,
+    "glbBytes": 443932
+  },
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\GunRefinement20261004\\MudHeatGuns_Refined.blend",
+  "canonicalBlend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudHeatGuns.blend",
+  "saveFinished": [
+    "FINISHED"
+  ],
+  "version": 2,
+  "scene": "StuckInTheMud_Guns20261003",
+  "selectionPreserved": true,
+  "gameplayRun": false
+}

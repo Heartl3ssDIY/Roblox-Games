@@ -1,0 +1,17 @@
+{
+  "templates": {
+    "eligible": 13,
+    "templates": 37
+  },
+  "checks": 2554,
+  "studMeshes": 250,
+  "placement": {
+    "placed": 293,
+    "outlineGroups": 2,
+    "hidingSpots": 44,
+    "replaced": 223,
+    "rooms": 16
+  },
+  "preservedEmblems": 2,
+  "solidProps": 201
+}

@@ -1,0 +1,123 @@
+progPoints.Font = Enum.Font.GothamBold
+progPoints.TextSize = 12
+progPoints.TextXAlignment = Enum.TextXAlignment.Right
+
+local barTrack = Instance.new("Frame", card)
+barTrack.Name = "BarTrack"
+barTrack.Size = UDim2.new(0, 320, 0, 14)
+barTrack.Position = UDim2.new(0, infoX, 0, 254)
+barTrack.BackgroundColor3 = Color3.fromRGB(20, 12, 42)
+barTrack.BorderSizePixel = 0
+corner(barTrack, 7)
+stroke(barTrack, Color3.fromRGB(100,70,180), 1)
+
+local barFill = Instance.new("Frame", barTrack)
+barFill.Name = "BarFill"
+barFill.Size = UDim2.new(0, 0, 1, 0)
+barFill.BackgroundColor3 = C.gold
+barFill.BorderSizePixel = 0
+corner(barFill, 7)
+
+local MILES = {
+    { p = 25,  icon = "\xF0\x9F\xAA\x99", tip = "1000" },
+    { p = 50,  icon = "\xE2\x9C\xA8", tip = "Unit" },
+    { p = 75,  icon = "\xF0\x9F\x92\x8E", tip = "10" },
+    { p = 100, icon = "\xE2\x9C\xA8", tip = "Unit" },
+}
+local markerDots = {}
+for _, ms in ipairs(MILES) do
+    local frac = ms.p / PROG_MAX
+    local dot = Instance.new("Frame", barTrack)
+    dot.Name = "Mark"..ms.p
+    dot.Size = UDim2.new(0, 4, 1, 6)
+    dot.AnchorPoint = Vector2.new(0.5, 0.5)
+    dot.Position = UDim2.new(frac, 0, 0.5, 0)
+    dot.BackgroundColor3 = Color3.fromRGB(255,255,255)
+    dot.BackgroundTransparency = 0.2
+    dot.BorderSizePixel = 0
+
+    local mi = Instance.new("TextLabel", card)
+    mi.Size = UDim2.new(0, 40, 0, 14)
+    mi.AnchorPoint = Vector2.new(0.5, 0)
+    mi.Position = UDim2.new(0, infoX + frac*320, 0, 270)
+    mi.BackgroundTransparency = 1
+    mi.Text = ms.icon
+    mi.TextSize = 12
+    mi.Font = Enum.Font.GothamBold
+    markerDots[ms.p] = dot
+end
+
+local winLossLbl = Instance.new("TextLabel", card)
+winLossLbl.Name = "WinLoss"
+winLossLbl.Size = UDim2.new(0, 320, 0, 16)
+winLossLbl.Position = UDim2.new(0, infoX, 0, 292)
+winLossLbl.BackgroundTransparency = 1
+winLossLbl.Text = "Wins: 0   Losses: 0"
+winLossLbl.TextColor3 = C.sub
+winLossLbl.Font = Enum.Font.Gotham
+winLossLbl.TextSize = 11
+winLossLbl.TextXAlignment = Enum.TextXAlignment.Left
+
+local function refreshArenaProgress()
+    local prog = PlayerData.arenaProgress("Tenkaichi")
+    local pts = prog.points
+    progPoints.Text = pts .. " pts"
+    winLossLbl.Text = "Wins: " .. prog.wins .. "   Losses: " .. prog.losses
+    local frac = math.clamp(pts / PROG_MAX, 0, 1)
+    TweenService:Create(barFill, TweenInfo.new(0.4, Enum.EasingStyle.Quad), { Size = UDim2.new(frac, 0, 1, 0) }):Play()
+
+    for _, ms in ipairs(MILES) do
+        local d = markerDots[ms.p]
+        if d then d.BackgroundColor3 = (pts >= ms.p) and C.gold or Color3.fromRGB(255,255,255) end
+    end
+end
+refreshArenaProgress()
+PlayerData.Changed:Connect(refreshArenaProgress)
+
+local enterBtn = Instance.new("TextButton", card)
+enterBtn.Size = UDim2.new(0, 232, 0, 48)
+enterBtn.Position = UDim2.new(0, infoX, 0, 330)
+enterBtn.BackgroundColor3 = Color3.fromRGB(90, 215, 130)
+enterBtn.BorderSizePixel = 0
+enterBtn.Text = "▶  Enter Tenkaichi"
+enterBtn.TextColor3 = Color3.fromRGB(15, 50, 25)
+enterBtn.Font = Enum.Font.GothamBold
+enterBtn.TextSize = 16
+corner(enterBtn, 24)
+stroke(enterBtn, Color3.fromRGB(55, 175, 75), 2)
+enterBtn.MouseEnter:Connect(function()
+    TweenService:Create(enterBtn, TweenInfo.new(0.12),
+        { BackgroundColor3 = Color3.fromRGB(120,240,155) }):Play()
+end)
+enterBtn.MouseLeave:Connect(function()
+    TweenService:Create(enterBtn, TweenInfo.new(0.12),
+        { BackgroundColor3 = Color3.fromRGB(90,215,130) }):Play()
+end)
+enterBtn.Activated:Connect(function()
+    print("[ArenaSelect] Entering Arena 1 — Tenkaichi")
+
+    local Loadout = require(game:GetService("ReplicatedStorage"):WaitForChild("Loadout"))
+    if Loadout.count() < 4 then
+
+        local origText = enterBtn.Text
+        enterBtn.Text = "Equip 4 units first!"
+        enterBtn.BackgroundColor3 = Color3.fromRGB(200, 70, 70)
+        task.delay(1.6, function()
+            enterBtn.Text = origText
+            enterBtn.BackgroundColor3 = Color3.fromRGB(90, 215, 130)
+        end)
+        return
+    end
+
+    arenaGui.Enabled = false
+    local ev = game:GetService("ReplicatedStorage"):FindFirstChild("ArenaEvents")
+    ev = ev and ev:FindFirstChild("EnterArena")
+    if ev then ev:Fire("Arena_Tenkaichi") end
+end)
+
+local PackOpening = require(game:GetService("ReplicatedStorage"):WaitForChild("PackOpening"))
+local PackReveal = require(game:GetService("ReplicatedStorage"):WaitForChild("PackReveal"))
+
+local dailyPacksBtn = Instance.new("TextButton", card)
+dailyPacksBtn.Name = "DailyPacksBtn"
+dailyPacksBtn.Size = UDim2.new(0, 80, 0,

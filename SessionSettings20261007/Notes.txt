@@ -1,0 +1,32 @@
+Installed Settings and Spectate UI on 7 October 2026.
+
+Purple SETTINGS cog and blue SPECTATE binocular buttons use the supplied PNG-512 artwork.
+Spectate is now a separate button. It becomes STOP WATCHING while viewing a round.
+Settings contains the AFK toggle and HIDE UI / SHOW UI button. AFK during a round remains queued
+until afterward. Hide UI removes lobby menus, coins, level panels, emotes and toy controls while
+retaining Settings, Spectate and essential game controls. It is a local session setting.
+
+Controller: D-pad Up opens Settings; D-pad Right spectates from the lobby; L1/R1 switch players;
+B/Circle exits spectate. Mouse and touch use the labelled buttons. All touch targets are at least 44px.
+
+Editable GUI: StarterGui.PlaygroundSessionControls
+GUI attributes: UIHidden, SessionMenuOpen, Spectating, SpectatingUserId, SettingsUIVersion=2
+The same server-owned PCAFKRequested/PCAFKQueued/PCAFK values and streaming-focus service remain.
+New root labels/icons use authored positions; the controller never writes their Position or Size.
+Settings has a separate authored round position to avoid mobile level and gameplay controls.
+
+Updated scripts: SessionControls controller; Shell controller and PlayerLevelController;
+EmoteWheel controller; ToyHotbar controller. No Bootstrap, economy, equipment or round-action
+controller scripts were edited. Script capabilities are unchanged.
+
+Studio backup: ServerStorage.SessionSettingsBackup20261007
+Source snapshots: Before/Snapshot.json; current sources: After/
+Asset IDs and original PNG hashes: IconAssets.json
+Installer: InstallSettings.luau (one-time source-guarded installation)
+Authored layout helper: PatchAuthoredLayout.luau
+
+Validation: all 5 scripts compile; 42 AFK/server streaming cases still pass; 27 client camera,
+streaming arrival and Settings restoration cases pass. Native layout across 360x640, 390x844,
+640x360, 844x390, 1024x768 and 1920x1080 (with 36px safe-area allowance): all 19 labels fit and all 9
+buttons meet the 44px minimum. Both uploaded images fetched successfully; no temporary fixtures remain.
+Play was not started or stopped. Live multi-player and physical device testing remains unperformed.

@@ -1,0 +1,20 @@
+{
+  "hideAndSeekServerChecks": 208,
+  "hideAndSeekClientChecks": 53,
+  "viewportSizes": 8,
+  "mudChecks": 40,
+  "schoolPlacementChecks": 11527,
+  "schoolSolidPartChecks": 530,
+  "changes": {
+    "propSwitch": "E / controller Y / touch; different eligible prop; 3-second cooldown",
+    "decoy": "Q / controller B / touch; 10-second cooldown; max 3, oldest replaced; hit reveals owner for 5 seconds",
+    "scan": "Seeker E / controller Y / touch; red beam and reveal highlights for 10 seconds then 60-second cooldown",
+    "hidingFurniture": "F / controller X; prompts and exit bindings match",
+    "furniture": "48 chair gaps; desk/chair variation; 16 plant/locker overlaps resolved; 4 pianos face their benches",
+    "mud": "Missing button startup crash, quick-tap firing, equipped-gun selection, touch fire isolation, aim offset and projectile-volume collision fixed"
+  },
+  "validationScope": "Native isolated Studio checks and authored-layout geometry; no live multiplayer test. Final furniture screenshots were blank, so post-change furniture validation is geometric.",
+  "tutorial": "Not built; user proposed as possible follow-up",
+  "playStopped": true,
+  "published": false
+}

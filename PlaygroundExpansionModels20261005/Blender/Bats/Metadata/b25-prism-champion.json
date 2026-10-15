@@ -1,0 +1,59 @@
+{
+  "id": "B25",
+  "name": "Prism Champion",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b25-prism-champion.png",
+  "brief": "A spectacular long baseball bat with an opaque faceted royal-purple and cyan crystal barrel, six broad flat facets, a blunt chamfered tip and two thick cream-and-gold reinforcing collars. Dark navy grip with lavender chevrons and a gold knob. Rich opaque gem surfaces, no transparency, particles, floating shards or sharp spear point.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b25-prism-champion.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b25-prism-champion.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b25-prism-champion-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b25-prism-champion.png",
+  "parts": 25,
+  "triangles": 5796,
+  "meshes": 1,
+  "maxMeshTriangles": 5796,
+  "dimensions": [
+    0.8320000171661377,
+    0.7328665852546692,
+    3.642000198364258
+  ],
+  "boundsMin": [
+    -0.41600000858306885,
+    -0.3602665662765503,
+    -0.47200000286102295
+  ],
+  "boundsMax": [
+    0.41600000858306885,
+    0.3726000189781189,
+    3.1700000762939453
+  ],
+  "paletteColors": 8,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.134999990463257
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.8320000171661377,
+    0.7328665852546692,
+    3.642000198364258
+  ]
+}

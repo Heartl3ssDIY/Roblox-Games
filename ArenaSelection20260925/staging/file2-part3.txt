@@ -1,0 +1,117 @@
+ 48)
+dailyPacksBtn.Position = UDim2.new(0, infoX + 240, 0, 330)
+dailyPacksBtn.BackgroundColor3 = Color3.fromRGB(60, 38, 110)
+dailyPacksBtn.BorderSizePixel = 0
+dailyPacksBtn.AutoButtonColor = false
+dailyPacksBtn.Text = "\xF0\x9F\x8E\x81"
+dailyPacksBtn.TextColor3 = C.gold
+dailyPacksBtn.Font = Enum.Font.GothamBold
+dailyPacksBtn.TextSize = 24
+corner(dailyPacksBtn, 24)
+stroke(dailyPacksBtn, C.arenaBorder, 2)
+
+local dpBadge = Instance.new("TextLabel", dailyPacksBtn)
+dpBadge.Size = UDim2.new(0, 22, 0, 22)
+dpBadge.Position = UDim2.new(1, -14, 0, -8)
+dpBadge.BackgroundColor3 = Color3.fromRGB(220, 60, 70)
+dpBadge.BorderSizePixel = 0
+dpBadge.Text = "0"
+dpBadge.TextColor3 = Color3.fromRGB(255,255,255)
+dpBadge.Font = Enum.Font.GothamBold
+dpBadge.TextSize = 12
+dpBadge.Visible = false
+corner(dpBadge, 11)
+
+local dpPopup = Instance.new("Frame", aPanel)
+dpPopup.Name = "DailyPacksPopup"
+dpPopup.Size = UDim2.new(0, 300, 0, 260)
+dpPopup.AnchorPoint = Vector2.new(0.5, 0.5)
+dpPopup.Position = UDim2.new(0.5, 0, 0.5, 0)
+dpPopup.BackgroundColor3 = C.panel
+dpPopup.BorderSizePixel = 0
+dpPopup.Visible = false
+dpPopup.ZIndex = 20
+corner(dpPopup, 16)
+stroke(dpPopup, C.arenaBorder, 3)
+local dpTitle = Instance.new("TextLabel", dpPopup)
+dpTitle.Size = UDim2.new(1, -20, 0, 32)
+dpTitle.Position = UDim2.new(0, 14, 0, 12)
+dpTitle.BackgroundTransparency = 1
+dpTitle.Text = "\xF0\x9F\x8E\x81  Daily Win Packs"
+dpTitle.TextColor3 = C.gold
+dpTitle.Font = Enum.Font.GothamBold
+dpTitle.TextSize = 16
+dpTitle.TextXAlignment = Enum.TextXAlignment.Left
+dpTitle.ZIndex = 21
+local dpClose = Instance.new("TextButton", dpPopup)
+dpClose.Size = UDim2.new(0, 28, 0, 28)
+dpClose.Position = UDim2.new(1, -36, 0, 12)
+dpClose.BackgroundColor3 = C.close
+dpClose.Text = "\xE2\x9C\x95"
+dpClose.TextColor3 = Color3.fromRGB(255,255,255)
+dpClose.Font = Enum.Font.GothamBold
+dpClose.TextSize = 13
+dpClose.BorderSizePixel = 0
+dpClose.ZIndex = 21
+corner(dpClose, 14)
+dpClose.Activated:Connect(function() dpPopup.Visible = false end)
+local dpList = Instance.new("ScrollingFrame", dpPopup)
+dpList.Size = UDim2.new(1, -24, 1, -56)
+dpList.Position = UDim2.new(0, 12, 0, 48)
+dpList.BackgroundTransparency = 1
+dpList.BorderSizePixel = 0
+dpList.ScrollBarThickness = 5
+dpList.CanvasSize = UDim2.new(0,0,0,0)
+dpList.AutomaticCanvasSize = Enum.AutomaticSize.Y
+dpList.ZIndex = 21
+local dpLayout = Instance.new("UIListLayout", dpList)
+dpLayout.Padding = UDim.new(0, 8)
+dpLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+local PACK_NAMES = { bronze = "Bronze Pack", silver = "Silver Pack", gold = "Gold Pack" }
+local PACK_COLORS = { bronze = Color3.fromRGB(190,130,70), silver = Color3.fromRGB(190,200,215), gold = Color3.fromRGB(255,205,90) }
+
+local rebuildDpList
+rebuildDpList = function()
+    for _, ch in ipairs(dpList:GetChildren()) do if ch:IsA("Frame") then ch:Destroy() end end
+    local counts = PlayerData.allPackCounts()
+    local order = { "bronze", "silver", "gold" }
+    local any = false
+    local li = 0
+    for _, packId in ipairs(order) do
+        local n = counts[packId] or 0
+        for k = 1, n do
+            any = true
+            li += 1
+            local rowF = Instance.new("Frame", dpList)
+            rowF.Size = UDim2.new(1, 0, 0, 44)
+            rowF.BackgroundColor3 = Color3.fromRGB(40, 24, 78)
+            rowF.BorderSizePixel = 0
+            rowF.LayoutOrder = li
+            rowF.ZIndex = 22
+            corner(rowF, 10)
+            stroke(rowF, PACK_COLORS[packId] or C.border, 1)
+            local nm = Instance.new("TextLabel", rowF)
+            nm.Size = UDim2.new(1, -90, 1, 0)
+            nm.Position = UDim2.new(0, 12, 0, 0)
+            nm.BackgroundTransparency = 1
+            nm.Text = "\xF0\x9F\x8E\x81  " .. (PACK_NAMES[packId] or packId)
+            nm.TextColor3 = PACK_COLORS[packId] or C.btnTxt
+            nm.Font = Enum.Font.GothamBold
+            nm.TextSize = 14
+            nm.TextXAlignment = Enum.TextXAlignment.Left
+            nm.ZIndex = 23
+            local openB = Instance.new("TextButton", rowF)
+            openB.Size = UDim2.new(0, 72, 0, 30)
+            openB.AnchorPoint = Vector2.new(1, 0.5)
+            openB.Position = UDim2.new(1, -8, 0.5, 0)
+            openB.BackgroundColor3 = C.play
+            openB.BorderSizePixel = 0
+            openB.Text = "Open"
+            openB.TextColor3 = C.playTxt
+            openB.Font = Enum.Font.GothamBold
+            openB.TextSize = 13
+            openB.ZIndex = 23
+            corner(openB, 8)
+            openB.Activated:Connect(function()
+   

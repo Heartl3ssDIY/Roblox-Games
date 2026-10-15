@@ -1,0 +1,37 @@
+{
+  "buttons": {
+    "1": {
+      "fallbackVisible": false,
+      "imageLoaded": true,
+      "name": "SHOP",
+      "centered": true
+    },
+    "2": {
+      "fallbackVisible": false,
+      "imageLoaded": true,
+      "name": "PETS",
+      "centered": true
+    },
+    "3": {
+      "fallbackVisible": false,
+      "imageLoaded": true,
+      "name": "TOYS",
+      "centered": true
+    }
+  },
+  "assetFailures": [],
+  "passed": true,
+  "coinPickupAmount": 5,
+  "assetReferences": 103,
+  "playStarted": false,
+  "coinRespawnSeconds": 45,
+  "backups": {
+    "1": "UIShellPolishBackup20261004",
+    "2": "UITextureRepairBackup20261004",
+    "3": "UIArtworkRepairBackup20261004",
+    "4": "ShopViewportRefreshBackup20261004"
+  },
+  "shopClosed": true,
+  "shopBehaviorUnchanged": true,
+  "coinOnlyDisplay": true
+}

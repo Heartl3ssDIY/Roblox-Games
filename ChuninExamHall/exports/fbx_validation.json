@@ -1,0 +1,13 @@
+{
+  "meshes": 15,
+  "triangles": 87698,
+  "zero_area_faces": 0,
+  "all_meshes_have_uv": true,
+  "loaded_textures": [
+    "Chunin_ColorAtlas_2048.002",
+    "Chunin_NormalAtlas.001",
+    "Chunin_RoughnessAtlas.001"
+  ],
+  "round_trip": "passed",
+  "studio_import_tested": false
+}

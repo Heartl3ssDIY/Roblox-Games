@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-05",
+  "task": "Gameplay HUD repair",
+  "installed": [
+    "InstallHUDRepair.luau",
+    "After/BritishBulldogHUD.Controller.luau",
+    "After/MudHUD.Controller.luau"
+  ],
+  "backup": "ServerStorage.GameplayHUDRepairBackup20261005",
+  "findings": [
+    "All three authored gameplay HUDs began visible, placing their cream cards and meters over one another before runtime binding.",
+    "BritishBulldogHUD.Controller overwrote outlined timer, Tagged role, and neutral result fills with dark ink.",
+    "Bulldog count and caption label rectangles overlapped.",
+    "Tag red chip artwork and caption were offset from their host; meter role/time overlapped and time font was capped at 11 px; Dodge's narrow frame shrank its PNG."
+  ],
+  "changes": [
+    "Hide gameplay HUD defaults until their participating round controller enables them.",
+    "Keep cream text fill with contextual outer ink strokes; low-time warning uses gold.",
+    "Separate Bulldog count/caption and timer/phase rectangles; preserve outer card positions.",
+    "Center and inset Tag red chip; separate readable meter rows, align Sprint and Dodge at 48 px with 14 px gap, and author matching two-line captions.",
+    "Remove obsolete Vault control; movement source is owned by pet_motion.",
+    "Remove Mud zoom writes so the consolidated camera script owns zoom."
+  ],
+  "verification": {
+    "nativeBulldogChecks": 9,
+    "nativeMudChecks": 8,
+    "nativeTagChecks": 9,
+    "nativeLayoutChecks": 64,
+    "compilerPassed": true,
+    "properties": {
+      "mudZoomWrites": false,
+      "capabilities": {
+        "BB": true,
+        "Mud": true
+      },
+      "sandbox": {
+        "BB": true,
+        "Mud": true
+      },
+      "tagCaption": "DODGE\n[E]",
+      "vaultRemoved": true,
+      "fixturesClean": true,
+      "lobbyDefaults": {
+        "tagDisabled": true,
+        "bulldogDisabled": true,
+        "mudGameplayHidden": true
+      }
+    },
+    "visualReview": "Root captured isolated Tag and Bulldog HUDs and confirmed a single cream panel and readable non-overlapping labels. Final internal refinements followed that review.",
+    "playStarted": false,
+    "desktopControlled": false
+  }
+}

@@ -1,0 +1,34 @@
+Installed in Round 1 Muliplayer (106769122906103), Edit mode only.
+Nothing published. No playtest started or stopped.
+
+Editable layout: StarterGui.GBloxRaceProgress.HUD
+Editable player template: StarterGui.GBloxRaceProgress.Templates.PlayerMarker
+User artwork IDs: StarterGui.GBloxRaceProgress.Artwork
+The HUD is hidden outside a running race; its Controller binds data to the authored layout.
+To inspect the blank strip in the Studio UI editor, temporarily make HUD.Visible true.
+
+All clients receive one server snapshot every 0.15 seconds. Current-round progress
+uses RunnerServer's existing start-to-finish measure on the active course.
+Gold/silver/bronze follow server rank; your own marker remains cyan and draws above
+the entire subtree of every other marker. Its number still shows your true place.
+Small static head ViewportFrames are cached between snapshots. Missing/streamed-out
+heads fall back to cached headshot images. No map geometry or gameplay was changed.
+Finished and eliminated participants retain their markers while spectating, with
+finish flags / OUT labels. The HUD resets each round and hides for rewards/podium.
+
+All 16 supplied images loaded successfully as Roblox ImageLabels in an isolated check.
+24 local automated checks passed, plus native GUI bounds at five screen sizes and
+native portrait fallback/cleanup checks. Live avatar rendering and live multiplayer
+have not been tested. Synthetic Player creation was blocked by Studio capabilities;
+no attempt was made to bypass that restriction.
+
+Next manual test: run two or more clients, overtake each other and compare medals,
+overlap all markers to verify YOU remains on top, die/recover, finish, spectate and
+advance to round 2. Check both a phone layout and the final podium transition.
+
+Recovery: server.before.luau and client.before.luau preserve the original scripts.
+Do not restore whole backups over later unrelated changes. The exact server edits
+are in server-patches.json. The only existing client UI change repositions
+SecondLifeStatus from top-right (1,-20,0,70), anchor(1,0), to bottom-centre above the
+flip hint (.5,0,1,-48), anchor(.5,1). AbilityHUD.Announcement was moved from
+position(.5,0,.17,0), size(.86,0,.15,0) to position(.5,0,0,94), size(.86,0,0,72).

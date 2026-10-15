@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "playStarted": false,
+    "newConeDegrees": 162.74614688264273,
+    "oldConeDegrees": 151.04497562814015,
+    "checks": 25,
+    "nativeVectors": true,
+    "newReach": 6,
+    "oldReach": 4.5,
+    "servicesShareGeometry": true
+  },
+  "install": {
+    "installed": [
+      {
+        "name": "BritishBulldogService",
+        "checksum": 1014287895
+      },
+      {
+        "name": "TagService",
+        "checksum": 2773960306
+      }
+    ],
+    "running": false,
+    "backup": "ServerStorage.MobileSwingHitboxBackup20261008"
+  },
+  "compiled": 2
+}

@@ -1,0 +1,85 @@
+{
+  "placeId": 106769122906103,
+  "studio": "Round 1 Muliplayer",
+  "status": "Installed in Edit mode; not published; no playtest started",
+  "images": {
+    "loaded": 16,
+    "total": 16,
+    "results": {
+      "rbxassetid://86355349566414": "Success",
+      "rbxassetid://129601475644689": "Success",
+      "rbxassetid://121675672980409": "Success",
+      "rbxassetid://75503937294462": "Success",
+      "rbxassetid://81403660935236": "Success",
+      "rbxassetid://118880995296193": "Success",
+      "rbxassetid://94168005493584": "Success",
+      "rbxassetid://126615691544771": "Success",
+      "rbxassetid://70387575602485": "Success",
+      "rbxassetid://86948793458498": "Success",
+      "rbxassetid://87561710303958": "Success",
+      "rbxassetid://135544039418291": "Success",
+      "rbxassetid://84519143176739": "Success",
+      "rbxassetid://110616119068168": "Success",
+      "rbxassetid://90743517207431": "Success",
+      "rbxassetid://88205366205241": "Success"
+    }
+  },
+  "automatedTests": {
+    "server": 9,
+    "clientRules": 9,
+    "portraitLifecycleMocked": 6
+  },
+  "engineChecks": {
+    "layoutResolutions": [
+      "1920x1080",
+      "1366x768",
+      "844x390",
+      "667x375",
+      "390x844"
+    ],
+    "ownMarkerZIndex": 100,
+    "highestOtherMarkerZIndex": 29,
+    "portraitFallbackAndCleanupPassed": true,
+    "liveAvatarRendering": "Not tested; synthetic Player creation is capability-blocked",
+    "liveMultiplayer": "Not tested"
+  },
+  "sourceCheck": {
+    "sourceMatches": {
+      "StarterPlayer.StarterPlayerScripts.RunnerClient": true,
+      "ServerScriptService.RunnerServer": true,
+      "ServerScriptService.GBloxRaceProgressServer": true,
+      "ReplicatedStorage.GBloxRaceProgressRules": true,
+      "ReplicatedStorage.GBloxRacePortraits": true,
+      "StarterGui.GBloxRaceProgress.Controller": true
+    },
+    "templatesEditable": true,
+    "noTemporaryGui": true
+  },
+  "backup": {
+    "server": "server.before.luau",
+    "client": "client.before.luau",
+    "announcement": {
+      "position": [
+        0.5,
+        0,
+        0.17,
+        0
+      ],
+      "size": [
+        0.86,
+        0,
+        0.15,
+        0
+      ]
+    }
+  },
+  "changes": [
+    "StarterGui.GBloxRaceProgress authored GUI/templates",
+    "ServerScriptService.GBloxRaceProgressServer",
+    "ReplicatedStorage.GBloxRaceProgressRules",
+    "ReplicatedStorage.GBloxRacePortraits",
+    "Five snapshot hooks in RunnerServer",
+    "Second-life status above bottom control hint",
+    "Ability announcement below progress strip"
+  ]
+}

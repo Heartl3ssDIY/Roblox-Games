@@ -1,0 +1,53 @@
+{
+  "id": "SA28",
+  "name": "Takeaway coffee cup",
+  "bodies": [
+    {
+      "id": "SA28_B01",
+      "asset_id": "SA28",
+      "asset": "Takeaway coffee cup",
+      "label": "Takeaway coffee cup",
+      "kind": "pickup",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.0,
+            0.07224999368190765
+          ],
+          "size": [
+            0.09200000017881393,
+            0.09200000017881393,
+            0.1444999873638153
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.04600000008940697,
+          -0.04600000008940697,
+          0.0
+        ],
+        "max": [
+          0.04600000008940697,
+          0.04600000008940697,
+          0.1444999873638153
+        ]
+      }
+    }
+  ],
+  "mesh_count": 4,
+  "triangles": 4056,
+  "file": "SA28_Takeaway_coffee_cup.gltf"
+}

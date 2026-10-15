@@ -1,0 +1,170 @@
+[
+  {
+    "name": "board-background",
+    "svg": "Figma-DragDrop/board-background.svg",
+    "logicalSize": [
+      720,
+      1000
+    ],
+    "scale": 2.048,
+    "png": "PNG/board-background.png",
+    "pixelSize": [
+      1475,
+      2048
+    ]
+  },
+  {
+    "name": "header-background",
+    "svg": "Figma-DragDrop/header-background.svg",
+    "logicalSize": [
+      684,
+      128
+    ],
+    "scale": 2.9941520467836256,
+    "png": "PNG/header-background.png",
+    "pixelSize": [
+      2048,
+      383
+    ]
+  },
+  {
+    "name": "player-row",
+    "svg": "Figma-DragDrop/player-row.svg",
+    "logicalSize": [
+      672,
+      67
+    ],
+    "scale": 3.0476190476190474,
+    "png": "PNG/player-row.png",
+    "pixelSize": [
+      2048,
+      204
+    ]
+  },
+  {
+    "name": "rank-gold",
+    "svg": "Figma-DragDrop/rank-gold.svg",
+    "logicalSize": [
+      47,
+      47
+    ],
+    "scale": 4,
+    "png": "PNG/rank-gold.png",
+    "pixelSize": [
+      188,
+      188
+    ]
+  },
+  {
+    "name": "rank-silver",
+    "svg": "Figma-DragDrop/rank-silver.svg",
+    "logicalSize": [
+      47,
+      47
+    ],
+    "scale": 4,
+    "png": "PNG/rank-silver.png",
+    "pixelSize": [
+      188,
+      188
+    ]
+  },
+  {
+    "name": "rank-bronze",
+    "svg": "Figma-DragDrop/rank-bronze.svg",
+    "logicalSize": [
+      47,
+      47
+    ],
+    "scale": 4,
+    "png": "PNG/rank-bronze.png",
+    "pixelSize": [
+      188,
+      188
+    ]
+  },
+  {
+    "name": "rank-fourth-onwards",
+    "svg": "Figma-DragDrop/rank-fourth-onwards.svg",
+    "logicalSize": [
+      47,
+      47
+    ],
+    "scale": 4,
+    "png": "PNG/rank-fourth-onwards.png",
+    "pixelSize": [
+      188,
+      188
+    ]
+  },
+  {
+    "name": "avatar-border",
+    "svg": "Figma-DragDrop/avatar-border.svg",
+    "logicalSize": [
+      53,
+      53
+    ],
+    "scale": 4,
+    "png": "PNG/avatar-border.png",
+    "pixelSize": [
+      212,
+      212
+    ]
+  },
+  {
+    "name": "row-resizable",
+    "svg": "Resizable/row-resizable.svg",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "scale": 4,
+    "png": "Resizable/row-resizable.png",
+    "pixelSize": [
+      512,
+      320
+    ]
+  },
+  {
+    "name": "board-resizable",
+    "svg": "Resizable/board-resizable.svg",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "scale": 4,
+    "png": "Resizable/board-resizable.png",
+    "pixelSize": [
+      512,
+      320
+    ]
+  },
+  {
+    "name": "header-resizable",
+    "svg": "Resizable/header-resizable.svg",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "scale": 4,
+    "png": "Resizable/header-resizable.png",
+    "pixelSize": [
+      512,
+      320
+    ]
+  },
+  {
+    "name": "highest-level-lettering",
+    "svg": "Source/HeaderText-RenderOnly.svg",
+    "logicalSize": [
+      584,
+      128
+    ],
+    "scale": 2,
+    "png": "Optional-Fixed-Header/highest-level-lettering.png",
+    "pixelSize": [
+      1168,
+      256
+    ]
+  }
+]

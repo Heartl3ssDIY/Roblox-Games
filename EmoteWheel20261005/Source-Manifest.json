@@ -1,0 +1,18 @@
+{
+  "ReplicatedStorage.PlaygroundCatalog": {
+    "beforeSHA256": "a2123c68c351fe955464fb52d5ec8bde137a512b63f7e6c4957a335a7539118e",
+    "afterSHA256": "eeb302cb5dad10ed1faa638ad2cb8733dece7e3b3a7bd6052cfea3a6566f3595"
+  },
+  "ServerScriptService.PlaygroundEconomyService": {
+    "beforeSHA256": "3ac585a3a5e2d0bc3dd6521fd1a77b97accf1fee59e9b071756ac15b7fc900ff",
+    "afterSHA256": "f594c70359dc0e29c93a7c888bcf911714ebb9863f907f76f6d77dd26ed1a9b6"
+  },
+  "StarterGui.PlaygroundShell.Controller": {
+    "beforeSHA256": "e36804cb4b0bd9cc68ce49cf8dbd0b51a2ac2d336079a9b35b9e1c9b4cc61288",
+    "afterSHA256": "0c0f1364f0c0bc400a579ff432b2e8d5957ae3c3bbdd553bd6bafbd6c3f4164f"
+  },
+  "StarterGui.PlaygroundToyHotbar.Controller": {
+    "beforeSHA256": "3bed5bcc707f938b9ac0981cee4915dc1c0f7d483fb062acd43d674bdeee054a",
+    "afterSHA256": "4ff8e152c844540cb52f9f3ccd59b79b92a4ae321ddddb28df0de7c09920f25e"
+  }
+}

@@ -1,0 +1,17 @@
+RETRY FILES FOR ONLY TWO MISSING LOBBY BATCHES
+
+Use these files only if the original two batches still fail. Do not import them on top of those batches if the retry succeeds.
+Four files marked16_...RETRY_A throughD collectively replace16_Outer_Gardens_Forests_01.fbx.
+Two files marked14_...RETRY_A throughB collectively replace14_60_ArenaPortals_Torii_01_01.fbx.
+Do not reimport the other40successful batches.
+
+Settings: Studs / scale1; Merge Meshes OFF; Insert Using Scene Position ON; Set Pivot to Scene Origin ON; Anchored ON.
+No additional scaling. Every coordinate remains unchanged from the corrected package.
+Keep the textures folder beside these files.
+
+The forest batch had16 zero-area triangles with coincident vertices in one wood mesh. Only those invisible collapsed faces were removed.
+All other geometry, vertex positions, texture images and visible face UVs/normals are retained.
+Torii geometry was unchanged and only divided into two uploads.
+The original import failure's cause is not confirmed; splitting reduces the amount processed in each retry.
+
+Original files are untouched. import_manifest.json records all266mesh names, replacements and cleanup.

@@ -1,0 +1,59 @@
+{
+  "status": "Ready for root guarded installation; no live UI or source changes applied by this task",
+  "uploads": {
+    "count": 56,
+    "unmodified": true,
+    "categoryCounts": {
+      "Bats": 15,
+      "Event-Bats": 6,
+      "Pets": 20,
+      "Miscellaneous": 15
+    },
+    "manifest": "ItemIconAssets.json",
+    "verification": "Tests/IconUploadVerification.json",
+    "eventIds": "Category-qualified Event-Bats/E01–E06; never add to emote E IDs",
+    "localhostServer": "Stopped after upload"
+  },
+  "candidateFiles": [
+    "After/Shell.Controller.luau",
+    "After/PlaygroundToyHotbar.Controller.client.luau"
+  ],
+  "installer": "InstallItemThumbnails.luau returns install(starterGui); invoke once after backups with controllers stopped/Edit",
+  "uiChanges": {
+    "created": 4,
+    "targets": 17,
+    "preservedExistingThumbnailCount": 13,
+    "authoredGeometryPreserved": true,
+    "all3DPreviewFramesHidden": true,
+    "extraBordersOrPlates": false
+  },
+  "loading": {
+    "method": "Natural ImageLabel.IsLoaded and change signal",
+    "timeoutSeconds": 8,
+    "lateRecovery": true,
+    "staleCallbackGuard": true,
+    "ContentProviderRequired": false
+  },
+  "integration": {
+    "catalog": "Set item.thumbnail from matching category+id manifest assetId for regular B/P/M items only",
+    "wheelShop": "PlaygroundShell.OpenEmoteShopSerial change opens Emotes category in lobby",
+    "wheelToyGuard": "Enabled PlaygroundEmoteWheel with visible Panel blocks toy selection/use",
+    "rootClosesWheelWhenShopVisible": true
+  },
+  "checks": {
+    "nativeThumbnailBindings": 24,
+    "installer": 11,
+    "modalAndShopCallbacks": 8,
+    "total": 43,
+    "exactExistingCapabilities": true,
+    "compile": true,
+    "sourcePreservation": "Tests/SourcePreservation.json",
+    "liveSourceStillMatchesBefore": {
+      "shell": true,
+      "toy": true
+    },
+    "temporaryFixturesRemoved": true,
+    "noPlay": true
+  },
+  "limitation": "Native Edit-mode loading and behavior checks passed; root still needs final visible installed PNG review. The eight modal/Shop callback checks use native GUI with a captured callback for the attribute event because Edit callbacks did not dispatch in the fixture."
+}

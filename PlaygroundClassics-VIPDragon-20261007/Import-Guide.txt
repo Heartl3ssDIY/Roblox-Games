@@ -1,0 +1,37 @@
+VIP DRAGON — PLAYGROUND CLASSICS
+
+OPEN / EDIT
+Blender/PlaygroundClassics-VIP-Dragon.blend is the editable master.
+The connected Blender session is displaying this file.
+Use the collection “VIP Dragon • Editable Geometry” for individual editable parts.
+Select VIP_Dragon_Rig, enter Pose Mode, and select Wing.L / Wing.R to flap the wings.
+WingTip.L / WingTip.R add the softer wing-tip bend. Body, Head, four paws and three tail joints are independently editable.
+Choose VIP_Hover_Loop or VIP_Flight_Loop in the Action Editor. Both loop seamlessly at 30 FPS.
+Hover is 1.333 seconds per cycle; travelling flight is 0.867 seconds with a forward lean and tucked paws.
+
+SMALL ROBLOX IMPORT
+Import Roblox/VIP-Dragon-Rigged.fbx as a rigged model, using Studs and scale 1.
+The unposed mesh is 3 studs across the open wings. Do not apply another 0.01 scale.
+The FBX exporter already corrects Blender’s implicit 100x unit conversion.
+The original 80 editable mesh objects are combined into 8 skinned export meshes, each below 8,000 triangles.
+Roblox/VIP-Dragon-Palette.png is embedded in the FBX and also supplied separately in case the importer asks for it.
+Import Roblox/VIP-Dragon-Hover.fbx and VIP-Dragon-Fly.fbx through the Animation Editor for the same imported rig.
+Publish animation assets under the experience’s owner/group so the experience can play them.
+
+CARTOON OUTLINE / AURA
+The Blender preview includes a separate Preview Ink collection. It is deliberately excluded from the FBX.
+Use one black Occluded Highlight on the Roblox pet, FillTransparency 1 and OutlineTransparency 0.
+This avoids enlarged black mesh shells hiding the gold surfaces.
+Keep the ruby-red aura as a separate particle/visual effect. It is not solid geometry in this model.
+
+GAME HANDOFF
+This task creates the editable model, rig, two animations and Roblox exports. The existing game has not been altered to grant the VIP dragon.
+After import, connect the pet to VIP ownership, add it to PlaygroundCosmeticAssets/catalog, and assign its uploaded animation IDs.
+The current follower needs a VIP flying entry: keep its lowest visible point roughly 1.15 studs above the ground, instead of a ground-following bounce.
+Use the supplied hover clip when stationary and the flight clip when moving; use smooth 0.2-second blends.
+The existing follower recognizes Animation children named Idle and Walk, so map these to the hover and flight uploads respectively.
+The existing follower has a specific hovering-ID list and a P## pet-ID filter; add the new assigned ID to both the catalog and flying behavior.
+
+REFERENCE
+Built from Originals/vip-dragon-clean.png and Modeller-Notes.txt: gold body/crown/ribs, ruby irises and crown gem, crimson membranes, ivory belly and fangs.
+The original starter scene is retained in the file and separately backed up as Blender/Before-VIP-Dragon.blend.

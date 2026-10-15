@@ -1,0 +1,1324 @@
+{
+  "date": "2026-10-03",
+  "studio": "a6fea703-0c19-4811-ba3e-0e9f90090fe9",
+  "movementRules": {
+    "fixtureType": "Server rule fixtures with real roots and actuators; grounded Humanoid adapters. Live player movement still requires Play QA.",
+    "passed": 46,
+    "checks": {
+      "1": "Runner starts with10s capacity",
+      "2": "Initial Bulldog starts with15s capacity",
+      "3": "Initial Bulldog identity published",
+      "4": "Custom original speed captured before round movement",
+      "5": "Valid sprint hold accepted",
+      "6": "Runner sprint is2.5x base speed",
+      "7": "Bulldog sprint is2.5x base speed",
+      "8": "Nonboolean sprint request refused",
+      "9": "Standing still consumes no stamina",
+      "10": "One moving second consumes one stamina second",
+      "11": "Early release permits partial recharge",
+      "12": "Partial stamina can resume before exhaustion",
+      "13": "Empty stamina locks sprint at base speed",
+      "14": "Release cannot bypass exhaustion lock",
+      "15": "Held sprint stays locked throughout refill",
+      "16": "Full15s refill unlocks held sprint automatically",
+      "17": "Held sprint drains again after full recharge",
+      "18": "Expired hold lease restores base speed",
+      "19": "Freeze cancels sprint and stops movement",
+      "20": "Unfreeze cannot restore a stale sprint speed",
+      "21": "Countdown cannot sprint",
+      "22": "Runner may sprint out of source safe zone",
+      "23": "Safe-zone runner cannot dodge",
+      "24": "Arrived runner has no movement abilities",
+      "25": "Bulldogs cannot dodge",
+      "26": "Invalid dodge direction refused",
+      "27": "Dodge sweep refuses solid wall",
+      "28": "Dodge cannot pass arena side boundary",
+      "29": "Clear field dodge accepted",
+      "30": "Dodge uses physical plane actuator",
+      "31": "Unthreatened dodge grants no free boost",
+      "32": "Dodge cannot repeat during4s cooldown",
+      "33": "Dodge cooldown deadline is4s",
+      "34": "Dodge cleanup removes constraint and attachment",
+      "35": "Threat within8schedules escape verification",
+      "36": "Survived close escape grants2x speed for1.5s",
+      "37": "Successful dodge result published",
+      "38": "Sprint and dodge boost use max multiplier without stacking",
+      "39": "Temporary boost expires to base speed",
+      "40": "Authored multipliers apply and choose max without stacking",
+      "41": "Authored dodge cooldown controls deadline",
+      "42": "Authored boost duration controls expiry",
+      "43": "Real tag in escape window defeats dodge without invulnerability",
+      "44": "Caught runner loses pending escape and physical burst",
+      "45": "Converted Bulldog receives runner10s capacity",
+      "46": "Round cleanup restores custom original walking speed"
+    }
+  },
+  "economy": {
+    "usedMockDataStoreOnly": true,
+    "passed": 182,
+    "externalProfileWrites": 0,
+    "results": {
+      "1": {
+        "ok": true,
+        "name": "Exactly 12 authored catalog items",
+        "details": 12
+      },
+      "2": {
+        "ok": true,
+        "name": "BubbleBee unique server catalog entry"
+      },
+      "3": {
+        "ok": true,
+        "name": "BubbleBee price is a nonnegative integer"
+      },
+      "4": {
+        "ok": true,
+        "name": "CloudPup unique server catalog entry"
+      },
+      "5": {
+        "ok": true,
+        "name": "CloudPup price is a nonnegative integer"
+      },
+      "6": {
+        "ok": true,
+        "name": "Wave unique server catalog entry"
+      },
+      "7": {
+        "ok": true,
+        "name": "Wave price is a nonnegative integer"
+      },
+      "8": {
+        "ok": true,
+        "name": "Cheer unique server catalog entry"
+      },
+      "9": {
+        "ok": true,
+        "name": "Cheer price is a nonnegative integer"
+      },
+      "10": {
+        "ok": true,
+        "name": "Star unique server catalog entry"
+      },
+      "11": {
+        "ok": true,
+        "name": "Star price is a nonnegative integer"
+      },
+      "12": {
+        "ok": true,
+        "name": "Heart unique server catalog entry"
+      },
+      "13": {
+        "ok": true,
+        "name": "Heart price is a nonnegative integer"
+      },
+      "14": {
+        "ok": true,
+        "name": "SunsetTrail unique server catalog entry"
+      },
+      "15": {
+        "ok": true,
+        "name": "SunsetTrail price is a nonnegative integer"
+      },
+      "16": {
+        "ok": true,
+        "name": "RainbowTrail unique server catalog entry"
+      },
+      "17": {
+        "ok": true,
+        "name": "RainbowTrail price is a nonnegative integer"
+      },
+      "18": {
+        "ok": true,
+        "name": "SkyOutline unique server catalog entry"
+      },
+      "19": {
+        "ok": true,
+        "name": "SkyOutline price is a nonnegative integer"
+      },
+      "20": {
+        "ok": true,
+        "name": "RainbowOutline unique server catalog entry"
+      },
+      "21": {
+        "ok": true,
+        "name": "RainbowOutline price is a nonnegative integer"
+      },
+      "22": {
+        "ok": true,
+        "name": "SnowPotion unique server catalog entry"
+      },
+      "23": {
+        "ok": true,
+        "name": "SnowPotion price is a nonnegative integer"
+      },
+      "24": {
+        "ok": true,
+        "name": "StarWand unique server catalog entry"
+      },
+      "25": {
+        "ok": true,
+        "name": "StarWand price is a nonnegative integer"
+      },
+      "26": {
+        "ok": true,
+        "name": "Unimplemented gear unavailable"
+      },
+      "27": {
+        "ok": true,
+        "name": "Invalid balances and XP sanitized"
+      },
+      "28": {
+        "ok": true,
+        "name": "Legacy profile migration defaults XP"
+      },
+      "29": {
+        "ok": true,
+        "name": "XP integer and upper bound"
+      },
+      "30": {
+        "ok": true,
+        "name": "Ownership booleans validated"
+      },
+      "31": {
+        "ok": true,
+        "name": "Equipped slot and ownership validated"
+      },
+      "32": {
+        "ok": true,
+        "name": "Balance cap"
+      },
+      "33": {
+        "ok": true,
+        "name": "Zero XP begins at level one",
+        "details": {
+          "level": 1,
+          "required": 100,
+          "within": 0
+        }
+      },
+      "34": {
+        "ok": true,
+        "name": "First threshold minus one",
+        "details": {
+          "level": 1,
+          "required": 100,
+          "within": 99
+        }
+      },
+      "35": {
+        "ok": true,
+        "name": "First exact threshold levels up",
+        "details": {
+          "level": 2,
+          "required": 150,
+          "within": 0
+        }
+      },
+      "36": {
+        "ok": true,
+        "name": "Second threshold minus one",
+        "details": {
+          "level": 2,
+          "required": 150,
+          "within": 149
+        }
+      },
+      "37": {
+        "ok": true,
+        "name": "Second exact threshold levels up",
+        "details": {
+          "level": 3,
+          "required": 200,
+          "within": 0
+        }
+      },
+      "38": {
+        "ok": true,
+        "name": "Third threshold minus one",
+        "details": {
+          "level": 3,
+          "required": 200,
+          "within": 199
+        }
+      },
+      "39": {
+        "ok": true,
+        "name": "Third exact threshold levels up",
+        "details": {
+          "level": 4,
+          "required": 250,
+          "within": 0
+        }
+      },
+      "40": {
+        "ok": true,
+        "name": "Large XP calculates without a linear loop",
+        "details": {
+          "level": 6324,
+          "required": 316250,
+          "within": 17550
+        }
+      },
+      "41": {
+        "ok": true,
+        "name": "Flat XP curve supported",
+        "details": {
+          "level": 3,
+          "required": 100,
+          "within": 50
+        }
+      },
+      "42": {
+        "ok": true,
+        "name": "Flat one-XP curve remains bounded",
+        "details": {
+          "level": 1000000001,
+          "required": 1,
+          "within": 0
+        }
+      },
+      "43": {
+        "ok": true,
+        "name": "Extreme step boundary supported",
+        "details": {
+          "level": 2,
+          "required": 1000000001,
+          "within": 0
+        }
+      },
+      "44": {
+        "ok": true,
+        "name": "Invalid XP and curve values sanitized",
+        "details": {
+          "level": 1,
+          "required": 100,
+          "within": 0
+        }
+      },
+      "45": {
+        "ok": true,
+        "name": "Summed exact threshold 1",
+        "details": {
+          "level": 2,
+          "required": 150,
+          "within": 0
+        }
+      },
+      "46": {
+        "ok": true,
+        "name": "Summed threshold minus one 1",
+        "details": {
+          "level": 1,
+          "required": 100,
+          "within": 99
+        }
+      },
+      "47": {
+        "ok": true,
+        "name": "Summed exact threshold 2",
+        "details": {
+          "level": 3,
+          "required": 200,
+          "within": 0
+        }
+      },
+      "48": {
+        "ok": true,
+        "name": "Summed threshold minus one 2",
+        "details": {
+          "level": 2,
+          "required": 150,
+          "within": 149
+        }
+      },
+      "49": {
+        "ok": true,
+        "name": "Summed exact threshold 3",
+        "details": {
+          "level": 4,
+          "required": 250,
+          "within": 0
+        }
+      },
+      "50": {
+        "ok": true,
+        "name": "Summed threshold minus one 3",
+        "details": {
+          "level": 3,
+          "required": 200,
+          "within": 199
+        }
+      },
+      "51": {
+        "ok": true,
+        "name": "Summed exact threshold 4",
+        "details": {
+          "level": 5,
+          "required": 300,
+          "within": 0
+        }
+      },
+      "52": {
+        "ok": true,
+        "name": "Summed threshold minus one 4",
+        "details": {
+          "level": 4,
+          "required": 250,
+          "within": 249
+        }
+      },
+      "53": {
+        "ok": true,
+        "name": "Summed exact threshold 5",
+        "details": {
+          "level": 6,
+          "required": 350,
+          "within": 0
+        }
+      },
+      "54": {
+        "ok": true,
+        "name": "Summed threshold minus one 5",
+        "details": {
+          "level": 5,
+          "required": 300,
+          "within": 299
+        }
+      },
+      "55": {
+        "ok": true,
+        "name": "Summed exact threshold 6",
+        "details": {
+          "level": 7,
+          "required": 400,
+          "within": 0
+        }
+      },
+      "56": {
+        "ok": true,
+        "name": "Summed threshold minus one 6",
+        "details": {
+          "level": 6,
+          "required": 350,
+          "within": 349
+        }
+      },
+      "57": {
+        "ok": true,
+        "name": "Summed exact threshold 7",
+        "details": {
+          "level": 8,
+          "required": 450,
+          "within": 0
+        }
+      },
+      "58": {
+        "ok": true,
+        "name": "Summed threshold minus one 7",
+        "details": {
+          "level": 7,
+          "required": 400,
+          "within": 399
+        }
+      },
+      "59": {
+        "ok": true,
+        "name": "Summed exact threshold 8",
+        "details": {
+          "level": 9,
+          "required": 500,
+          "within": 0
+        }
+      },
+      "60": {
+        "ok": true,
+        "name": "Summed threshold minus one 8",
+        "details": {
+          "level": 8,
+          "required": 450,
+          "within": 449
+        }
+      },
+      "61": {
+        "ok": true,
+        "name": "Summed exact threshold 9",
+        "details": {
+          "level": 10,
+          "required": 550,
+          "within": 0
+        }
+      },
+      "62": {
+        "ok": true,
+        "name": "Summed threshold minus one 9",
+        "details": {
+          "level": 9,
+          "required": 500,
+          "within": 499
+        }
+      },
+      "63": {
+        "ok": true,
+        "name": "Summed exact threshold 10",
+        "details": {
+          "level": 11,
+          "required": 600,
+          "within": 0
+        }
+      },
+      "64": {
+        "ok": true,
+        "name": "Summed threshold minus one 10",
+        "details": {
+          "level": 10,
+          "required": 550,
+          "within": 549
+        }
+      },
+      "65": {
+        "ok": true,
+        "name": "Summed exact threshold 11",
+        "details": {
+          "level": 12,
+          "required": 650,
+          "within": 0
+        }
+      },
+      "66": {
+        "ok": true,
+        "name": "Summed threshold minus one 11",
+        "details": {
+          "level": 11,
+          "required": 600,
+          "within": 599
+        }
+      },
+      "67": {
+        "ok": true,
+        "name": "Summed exact threshold 12",
+        "details": {
+          "level": 13,
+          "required": 700,
+          "within": 0
+        }
+      },
+      "68": {
+        "ok": true,
+        "name": "Summed threshold minus one 12",
+        "details": {
+          "level": 12,
+          "required": 650,
+          "within": 649
+        }
+      },
+      "69": {
+        "ok": true,
+        "name": "Summed exact threshold 13",
+        "details": {
+          "level": 14,
+          "required": 750,
+          "within": 0
+        }
+      },
+      "70": {
+        "ok": true,
+        "name": "Summed threshold minus one 13",
+        "details": {
+          "level": 13,
+          "required": 700,
+          "within": 699
+        }
+      },
+      "71": {
+        "ok": true,
+        "name": "Summed exact threshold 14",
+        "details": {
+          "level": 15,
+          "required": 800,
+          "within": 0
+        }
+      },
+      "72": {
+        "ok": true,
+        "name": "Summed threshold minus one 14",
+        "details": {
+          "level": 14,
+          "required": 750,
+          "within": 749
+        }
+      },
+      "73": {
+        "ok": true,
+        "name": "Summed exact threshold 15",
+        "details": {
+          "level": 16,
+          "required": 850,
+          "within": 0
+        }
+      },
+      "74": {
+        "ok": true,
+        "name": "Summed threshold minus one 15",
+        "details": {
+          "level": 15,
+          "required": 800,
+          "within": 799
+        }
+      },
+      "75": {
+        "ok": true,
+        "name": "Summed exact threshold 16",
+        "details": {
+          "level": 17,
+          "required": 900,
+          "within": 0
+        }
+      },
+      "76": {
+        "ok": true,
+        "name": "Summed threshold minus one 16",
+        "details": {
+          "level": 16,
+          "required": 850,
+          "within": 849
+        }
+      },
+      "77": {
+        "ok": true,
+        "name": "Summed exact threshold 17",
+        "details": {
+          "level": 18,
+          "required": 950,
+          "within": 0
+        }
+      },
+      "78": {
+        "ok": true,
+        "name": "Summed threshold minus one 17",
+        "details": {
+          "level": 17,
+          "required": 900,
+          "within": 899
+        }
+      },
+      "79": {
+        "ok": true,
+        "name": "Summed exact threshold 18",
+        "details": {
+          "level": 19,
+          "required": 1000,
+          "within": 0
+        }
+      },
+      "80": {
+        "ok": true,
+        "name": "Summed threshold minus one 18",
+        "details": {
+          "level": 18,
+          "required": 950,
+          "within": 949
+        }
+      },
+      "81": {
+        "ok": true,
+        "name": "Summed exact threshold 19",
+        "details": {
+          "level": 20,
+          "required": 1050,
+          "within": 0
+        }
+      },
+      "82": {
+        "ok": true,
+        "name": "Summed threshold minus one 19",
+        "details": {
+          "level": 19,
+          "required": 1000,
+          "within": 999
+        }
+      },
+      "83": {
+        "ok": true,
+        "name": "Summed exact threshold 20",
+        "details": {
+          "level": 21,
+          "required": 1100,
+          "within": 0
+        }
+      },
+      "84": {
+        "ok": true,
+        "name": "Summed threshold minus one 20",
+        "details": {
+          "level": 20,
+          "required": 1050,
+          "within": 1049
+        }
+      },
+      "85": {
+        "ok": true,
+        "name": "Active foreign lease blocks claim"
+      },
+      "86": {
+        "ok": true,
+        "name": "Blocked claim preserves profile and lease"
+      },
+      "87": {
+        "ok": true,
+        "name": "Blocked claim remains unready"
+      },
+      "88": {
+        "ok": true,
+        "name": "Expired lease can be claimed"
+      },
+      "89": {
+        "ok": true,
+        "name": "Claim preserves saved currency XP and ownership"
+      },
+      "90": {
+        "ok": true,
+        "name": "Claim writes future lease"
+      },
+      "91": {
+        "ok": true,
+        "name": "Own lease saves"
+      },
+      "92": {
+        "ok": true,
+        "name": "Save renews own lease"
+      },
+      "93": {
+        "ok": true,
+        "name": "XP persists in mocked profile save"
+      },
+      "94": {
+        "ok": true,
+        "name": "Unchanged saved version clears dirty"
+      },
+      "95": {
+        "ok": true,
+        "name": "Release saves and removes lease"
+      },
+      "96": {
+        "ok": true,
+        "name": "Save cannot overwrite another lease"
+      },
+      "97": {
+        "ok": true,
+        "name": "Lease loss preserves external data"
+      },
+      "98": {
+        "ok": true,
+        "name": "Lease loss disables mutation"
+      },
+      "99": {
+        "ok": true,
+        "name": "Claim finishing after departure releases lease"
+      },
+      "100": {
+        "ok": true,
+        "name": "Stale claim cannot reinsert a removed profile"
+      },
+      "101": {
+        "ok": true,
+        "name": "Duplicate bind preserves current profile"
+      },
+      "102": {
+        "ok": true,
+        "name": "Only eligible final participants rewarded"
+      },
+      "103": {
+        "ok": true,
+        "name": "Winner receives coins win and XP"
+      },
+      "104": {
+        "ok": true,
+        "name": "Loser receives coins and XP without a win"
+      },
+      "105": {
+        "ok": true,
+        "name": "Bogus nonparticipant winner cannot be rewarded"
+      },
+      "106": {
+        "ok": true,
+        "name": "Disconnected profiles not rewarded"
+      },
+      "107": {
+        "ok": true,
+        "name": "Closed unloaded and released profiles not rewarded"
+      },
+      "108": {
+        "ok": true,
+        "name": "XP sync publishes level attributes"
+      },
+      "109": {
+        "ok": true,
+        "name": "Winner reward metadata accurate"
+      },
+      "110": {
+        "ok": true,
+        "name": "Loser reward metadata accurate"
+      },
+      "111": {
+        "ok": true,
+        "name": "Completed round cannot pay twice"
+      },
+      "112": {
+        "ok": true,
+        "name": "Duplicate payout does not publish new toast"
+      },
+      "113": {
+        "ok": true,
+        "name": "Practice awards no progression"
+      },
+      "114": {
+        "ok": true,
+        "name": "Missing final roster cannot pay winners"
+      },
+      "115": {
+        "ok": true,
+        "name": "Empty final roster cannot pay"
+      },
+      "116": {
+        "ok": true,
+        "name": "Invalid winner list cannot pay"
+      },
+      "117": {
+        "ok": true,
+        "name": "Winner ids must intersect participants"
+      },
+      "118": {
+        "ok": true,
+        "name": "Every completed loser receives XP"
+      },
+      "119": {
+        "ok": true,
+        "name": "Editable reward settings applied"
+      },
+      "120": {
+        "ok": true,
+        "name": "Editable level curve reflected in sync"
+      },
+      "121": {
+        "ok": true,
+        "name": "Reward balances stay bounded"
+      },
+      "122": {
+        "ok": true,
+        "name": "Capped reward toast reports actual delta"
+      },
+      "123": {
+        "ok": true,
+        "name": "Unknown command rejected"
+      },
+      "124": {
+        "ok": true,
+        "name": "Nonstrings rejected"
+      },
+      "125": {
+        "ok": true,
+        "name": "Unknown item rejected"
+      },
+      "126": {
+        "ok": true,
+        "name": "Nonstring item rejected"
+      },
+      "127": {
+        "ok": true,
+        "name": "Unavailable gear cannot be bought"
+      },
+      "128": {
+        "ok": true,
+        "name": "Unowned item cannot be equipped"
+      },
+      "129": {
+        "ok": true,
+        "name": "Buy deducts server price and equips matching slot"
+      },
+      "130": {
+        "ok": true,
+        "name": "Duplicate purchase does not deduct coins"
+      },
+      "131": {
+        "ok": true,
+        "name": "Mutation cooldown prevents immediate repeated buy"
+      },
+      "132": {
+        "ok": true,
+        "name": "Status does not consume mutation cooldown"
+      },
+      "133": {
+        "ok": true,
+        "name": "Status tables are copies"
+      },
+      "134": {
+        "ok": true,
+        "name": "Insufficient funds cannot go negative"
+      },
+      "135": {
+        "ok": true,
+        "name": "Unequip validates category"
+      },
+      "136": {
+        "ok": true,
+        "name": "Unequip only removes selected slot"
+      },
+      "137": {
+        "ok": true,
+        "name": "Emotes blocked during Bulldog"
+      },
+      "138": {
+        "ok": true,
+        "name": "Emotes blocked during Tag"
+      },
+      "139": {
+        "ok": true,
+        "name": "Owned emote usable between rounds"
+      },
+      "140": {
+        "ok": true,
+        "name": "Expression cooldown enforced"
+      },
+      "141": {
+        "ok": true,
+        "name": "Closed profiles reject shopping"
+      },
+      "142": {
+        "ok": true,
+        "name": "Coins created from ten markers"
+      },
+      "143": {
+        "ok": true,
+        "name": "Coin metadata has positive integer value and cooldown"
+      },
+      "144": {
+        "ok": true,
+        "name": "Distant coin cannot be claimed"
+      },
+      "145": {
+        "ok": true,
+        "name": "Active round cannot farm lobby coins"
+      },
+      "146": {
+        "ok": true,
+        "name": "Dead characters cannot collect"
+      },
+      "147": {
+        "ok": true,
+        "name": "Coin awards authored server value",
+        "details": 1
+      },
+      "148": {
+        "ok": true,
+        "name": "Coin pickup does not grant XP"
+      },
+      "149": {
+        "ok": true,
+        "name": "Coin cannot be collected every heartbeat"
+      },
+      "150": {
+        "ok": true,
+        "name": "Coin cooldown not yet elapsed"
+      },
+      "151": {
+        "ok": true,
+        "name": "Coin becomes available after cooldown"
+      },
+      "152": {
+        "ok": true,
+        "name": "Lobby bounds reject distant positions"
+      },
+      "153": {
+        "ok": true,
+        "name": "BubbleBee authored pet model"
+      },
+      "154": {
+        "ok": true,
+        "name": "BubbleBee/Body harmless cosmetic"
+      },
+      "155": {
+        "ok": true,
+        "name": "BubbleBee/BeeStripe harmless cosmetic"
+      },
+      "156": {
+        "ok": true,
+        "name": "BubbleBee/Wing harmless cosmetic"
+      },
+      "157": {
+        "ok": true,
+        "name": "BubbleBee/Eye harmless cosmetic"
+      },
+      "158": {
+        "ok": true,
+        "name": "BubbleBee/Antenna harmless cosmetic"
+      },
+      "159": {
+        "ok": true,
+        "name": "BubbleBee/AntennaTip harmless cosmetic"
+      },
+      "160": {
+        "ok": true,
+        "name": "BubbleBee/BeeStripe harmless cosmetic"
+      },
+      "161": {
+        "ok": true,
+        "name": "BubbleBee/Wing harmless cosmetic"
+      },
+      "162": {
+        "ok": true,
+        "name": "BubbleBee/Eye harmless cosmetic"
+      },
+      "163": {
+        "ok": true,
+        "name": "BubbleBee/Antenna harmless cosmetic"
+      },
+      "164": {
+        "ok": true,
+        "name": "BubbleBee/AntennaTip harmless cosmetic"
+      },
+      "165": {
+        "ok": true,
+        "name": "BubbleBee/Smile harmless cosmetic"
+      },
+      "166": {
+        "ok": true,
+        "name": "CloudPup authored pet model"
+      },
+      "167": {
+        "ok": true,
+        "name": "CloudPup/CloudPuff1 harmless cosmetic"
+      },
+      "168": {
+        "ok": true,
+        "name": "CloudPup/CloudPuff2 harmless cosmetic"
+      },
+      "169": {
+        "ok": true,
+        "name": "CloudPup/CloudPuff3 harmless cosmetic"
+      },
+      "170": {
+        "ok": true,
+        "name": "CloudPup/CloudPuff4 harmless cosmetic"
+      },
+      "171": {
+        "ok": true,
+        "name": "CloudPup/Ear harmless cosmetic"
+      },
+      "172": {
+        "ok": true,
+        "name": "CloudPup/Eye harmless cosmetic"
+      },
+      "173": {
+        "ok": true,
+        "name": "CloudPup/Paw harmless cosmetic"
+      },
+      "174": {
+        "ok": true,
+        "name": "CloudPup/Ear harmless cosmetic"
+      },
+      "175": {
+        "ok": true,
+        "name": "CloudPup/Eye harmless cosmetic"
+      },
+      "176": {
+        "ok": true,
+        "name": "CloudPup/Paw harmless cosmetic"
+      },
+      "177": {
+        "ok": true,
+        "name": "CloudPup/Muzzle harmless cosmetic"
+      },
+      "178": {
+        "ok": true,
+        "name": "CloudPup/Nose harmless cosmetic"
+      },
+      "179": {
+        "ok": true,
+        "name": "Cosmetic outline starts disabled during a game"
+      },
+      "180": {
+        "ok": true,
+        "name": "Cosmetic application preserves gameplay outline"
+      },
+      "181": {
+        "ok": true,
+        "name": "Cosmetic outline visible between rounds"
+      },
+      "182": {
+        "ok": true,
+        "name": "Closed profiles cannot recreate cosmetics"
+      }
+    }
+  },
+  "coordinatorAdmin": {
+    "externalWrites": 0,
+    "createdRealPlayers": false,
+    "passed": 48,
+    "results": {
+      "1": {
+        "ok": true,
+        "name": "Available vote accepted inside zone"
+      },
+      "2": {
+        "ok": true,
+        "name": "Vote is one per player"
+      },
+      "3": {
+        "ok": true,
+        "name": "Unknown game vote rejected"
+      },
+      "4": {
+        "ok": true,
+        "name": "Nonstring vote rejected"
+      },
+      "5": {
+        "ok": true,
+        "name": "Repeated vote cooldown"
+      },
+      "6": {
+        "ok": true,
+        "name": "Changing vote replaces previous vote"
+      },
+      "7": {
+        "ok": true,
+        "name": "Voting requires spatial zone"
+      },
+      "8": {
+        "ok": true,
+        "name": "Dead players cannot vote"
+      },
+      "9": {
+        "ok": true,
+        "name": "Unloaded profile cannot vote"
+      },
+      "10": {
+        "ok": true,
+        "name": "Active participants cannot vote"
+      },
+      "11": {
+        "ok": true,
+        "name": "Votes closed during game"
+      },
+      "12": {
+        "ok": true,
+        "name": "Pausing closes vote and clears counts"
+      },
+      "13": {
+        "ok": true,
+        "name": "Paused automatic rounds reject vote"
+      },
+      "14": {
+        "ok": true,
+        "name": "Votes resume when automatic rounds on"
+      },
+      "15": {
+        "ok": true,
+        "name": "Highest vote chosen"
+      },
+      "16": {
+        "ok": true,
+        "name": "Zero votes alternate last game"
+      },
+      "17": {
+        "ok": true,
+        "name": "Tied votes choose an available game"
+      },
+      "18": {
+        "ok": true,
+        "name": "Departed voters excluded"
+      },
+      "19": {
+        "ok": true,
+        "name": "Unknown game cannot start"
+      },
+      "20": {
+        "ok": true,
+        "name": "Normal start passes ready roster"
+      },
+      "21": {
+        "ok": true,
+        "name": "Manual start pauses automatic rounds"
+      },
+      "22": {
+        "ok": true,
+        "name": "Started game state published"
+      },
+      "23": {
+        "ok": true,
+        "name": "Second game blocked while one active"
+      },
+      "24": {
+        "ok": true,
+        "name": "Stop returns active game to lobby"
+      },
+      "25": {
+        "ok": true,
+        "name": "Stop clears displayed game"
+      },
+      "26": {
+        "ok": true,
+        "name": "Practice start passes owner and role"
+      },
+      "27": {
+        "ok": true,
+        "name": "Configured admin authorized"
+      },
+      "28": {
+        "ok": true,
+        "name": "Additional configured admin authorized"
+      },
+      "29": {
+        "ok": true,
+        "name": "Unconfigured player denied"
+      },
+      "30": {
+        "ok": true,
+        "name": "Unauthorized command cannot start game"
+      },
+      "31": {
+        "ok": true,
+        "name": "Unknown admin action denied"
+      },
+      "32": {
+        "ok": true,
+        "name": "Malformed admin action denied"
+      },
+      "33": {
+        "ok": true,
+        "name": "Status does not throttle next mutation"
+      },
+      "34": {
+        "ok": true,
+        "name": "Tag practice role fixed on server"
+      },
+      "35": {
+        "ok": true,
+        "name": "Admin mutation rate limit"
+      },
+      "36": {
+        "ok": true,
+        "name": "Admin stop works"
+      },
+      "37": {
+        "ok": true,
+        "name": "Legacy Bulldog alias remains supported"
+      },
+      "38": {
+        "ok": true,
+        "name": "Busy admin control serializes mutations"
+      },
+      "39": {
+        "ok": true,
+        "name": "Automatic toggle requires authorized admin"
+      },
+      "40": {
+        "ok": true,
+        "name": "Studio test players can use panel"
+      },
+      "41": {
+        "ok": true,
+        "name": "Bulldog winner ids filter losing team and bots"
+      },
+      "42": {
+        "ok": true,
+        "name": "Bulldog forwards winner and loser final participants"
+      },
+      "43": {
+        "ok": true,
+        "name": "Cancelled Bulldog round does not reward anyone"
+      },
+      "44": {
+        "ok": true,
+        "name": "Disconnected Bulldog participant excluded"
+      },
+      "45": {
+        "ok": true,
+        "name": "Bulldog practice flagged for no reward"
+      },
+      "46": {
+        "ok": true,
+        "name": "Tag result ids forwarded with unique round key"
+      },
+      "47": {
+        "ok": true,
+        "name": "Tag final roster includes its losing participant"
+      },
+      "48": {
+        "ok": true,
+        "name": "Tag missing roster does not fall back to winner list"
+      }
+    }
+  },
+  "liveRunner": {
+    "ok": true,
+    "measurements": {
+      "sprint": {
+        "poolBefore": 10,
+        "distance": 23.4462890625,
+        "poolAfter": 9.6,
+        "speed": 40
+      },
+      "dodge": {
+        "role": "Runner",
+        "confirmedAt": 1790995166.917434,
+        "distance": 7.6748046875,
+        "boostEndsAt": 1790995168.417434,
+        "speed": 32
+      }
+    },
+    "passed": 24,
+    "checks": {
+      "1": "Runner grounded before action",
+      "2": "Live Runner pool is10s",
+      "3": "Live sprint hold accepted",
+      "4": "Sprint physically exceeds normal walking distance",
+      "5": "Live Runner sprint speed is40",
+      "6": "Actual moving sprint consumes stamina",
+      "7": "Live sprint release accepted",
+      "8": "Release restores base Runner speed",
+      "9": "Release recharges live stamina",
+      "10": "Runner grounded before action",
+      "11": "Stationary hold accepted",
+      "12": "Stationary hold does not drain live stamina",
+      "13": "Unrefreshed hold lease expires safely",
+      "14": "Runner grounded before action",
+      "15": "Live lateral dodge accepted",
+      "16": "Lateral dodge physically moves runner",
+      "17": "Close dodge grants no automatic tag",
+      "18": "Survived close threat confirms temporary boost",
+      "19": "Live dodge boost is2x base speed",
+      "20": "Dodge actuator cleanup completed",
+      "21": "Live dodge cooldown rejects immediate repeat",
+      "22": "Sprint accepted during live boost",
+      "23": "Live Sprint plus boost does not stack",
+      "24": "Live escape boost expires"
+    }
+  },
+  "liveBulldog": {
+    "initial": true,
+    "pool": 15,
+    "uiVisible": true,
+    "ended": true,
+    "restored": 16,
+    "compactVisible": true,
+    "levelVisible": false,
+    "speed": 45,
+    "sprint": {
+      "ok": true
+    },
+    "dodgeVisible": false,
+    "role": "BULLDOG"
+  },
+  "finalUI": {
+    "viewport": "1, 1",
+    "layoutPreserved": true,
+    "passed": 23,
+    "nativeCameras": true
+  },
+  "console": null,
+  "limitations": [
+    "Client viewport reported 1x1; native screenshot visual verification was unavailable.",
+    "Coins/XP profiles use the existing session-only fallback; no external profile writes.",
+    "Multiplayer balance and touch hardware require in-device testing."
+  ]
+}

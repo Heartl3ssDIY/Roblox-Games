@@ -1,0 +1,21 @@
+Arena") then
+        onRing = false
+        modeGui.Enabled = false
+        return
+    end
+    local c = player.Character; if not c then return end
+    local hrp = c:FindFirstChild("HumanoidRootPart"); if not hrp then return end
+    local pos = hrp.Position
+    local dist = Vector2.new(pos.X - ringOuter.Position.X, pos.Z - ringOuter.Position.Z).Magnitude
+    local inside = dist <= RING_RADIUS + 1
+
+    if inside and not onRing then
+        onRing = true
+        ModePickerUI.open()
+    elseif not inside and onRing then
+        onRing = false
+        if modeGui.Enabled then
+            ModePickerUI.close()
+        end
+    end
+end)

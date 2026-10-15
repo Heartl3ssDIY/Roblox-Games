@@ -1,0 +1,59 @@
+{
+  "id": "B23",
+  "name": "Clockwork Clobber",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b23-clockwork-clobber.png",
+  "brief": "A copper and cream baseball bat with a long thick tapered barrel, two broad navy collars and one LARGE simple brass gear inset into the barrel side. A small chunky wind-up key attached near its upper back edge. Teal rubber grip and copper knob. Smooth toy clockwork, no loose cogs or tiny mechanisms.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b23-clockwork-clobber.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b23-clockwork-clobber.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b23-clockwork-clobber-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b23-clockwork-clobber.png",
+  "parts": 30,
+  "triangles": 10150,
+  "meshes": 1,
+  "maxMeshTriangles": 10150,
+  "dimensions": [
+    0.9888038635253906,
+    0.8710970878601074,
+    3.611999988555908
+  ],
+  "boundsMin": [
+    -0.6189999580383301,
+    -0.4818517863750458,
+    -0.47200000286102295
+  ],
+  "boundsMax": [
+    0.36980393528938293,
+    0.38924527168273926,
+    3.140000104904175
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.134999990463257
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.9888038635253906,
+    0.8683915138244629,
+    3.611999988555908
+  ]
+}

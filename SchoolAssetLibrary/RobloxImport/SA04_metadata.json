@@ -1,0 +1,53 @@
+{
+  "id": "SA04",
+  "name": "Student 04 - Art cantilever chair",
+  "bodies": [
+    {
+      "id": "SA04_B01",
+      "asset_id": "SA04",
+      "asset": "Student 04 - Art cantilever chair",
+      "label": "Student 04 - Art cantilever chair",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            -0.018111303448677063,
+            0.4490000009536743
+          ],
+          "size": [
+            0.4750003218650818,
+            0.5322226285934448,
+            0.8819999694824219
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.2375001609325409,
+          -0.28422263264656067,
+          0.007999999448657036
+        ],
+        "max": [
+          0.2375001609325409,
+          0.24800002574920654,
+          0.8899999856948853
+        ]
+      }
+    }
+  ],
+  "mesh_count": 4,
+  "triangles": 8308,
+  "file": "SA04_Student_04_Art_cantilever_chair.gltf"
+}

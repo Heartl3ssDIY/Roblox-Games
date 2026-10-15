@@ -1,0 +1,13 @@
+{
+  "cause": "Equipment toy cleanup read CatalogId on all avatar children before checking their class; AudioEmitter requires Audio for GetAttribute",
+  "reproducedBeforeFix": true,
+  "fix": "Filter Tool class and retained Tool before any attribute access",
+  "permissionsChanged": false,
+  "roundStartChecksPassed": ["BBStart", "BBRunner", "BBBulldog", "TagStart", "TagRunner", "TagTagger", "MudStart", "AutomaticRound"],
+  "roundCheckScope": "Isolated native Studio preparation and command paths with original sandbox permissions; async gameplay and bot creation stubbed",
+  "avatarTestClasses": ["Accessory", "BodyColors", "Shirt", "Pants", "AudioEmitter", "AudioListener", "AudioPlayer", "AudioDeviceInput", "Wire", "Sound", "AnimationController"],
+  "cleanupCheck": "Across old/current characters, Backpack, StarterGear: 9 toys removed, 12 unrelated objects preserved; keep parameter preserved before round preparation",
+  "backup": "ServerStorage.ToyOnlyCleanupBackup20261011",
+  "playStopped": true,
+  "published": false
+}

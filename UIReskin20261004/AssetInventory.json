@@ -1,0 +1,5744 @@
+{
+  "sourceRoot": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004",
+  "summary": {
+    "totalPNG": 134,
+    "blankPNG": 121,
+    "uniqueBlankImages": 108,
+    "groupCounts": {
+      "01-Empty-Panels": 21,
+      "02-Item-Frame-Parts": 3,
+      "03-Other-Blank-Buttons": 44,
+      "04-Meter-Parts": 4,
+      "05-Favourite-Buttons-Blank": 13,
+      "Optional-Labelled-Buttons": 13,
+      "06-Smooth-Game-Card-Blanks": 3,
+      "07-Resizable-Skins": 33
+    },
+    "componentMapEntries": 104,
+    "resolvedContainers": 91,
+    "dimensionMismatches": [],
+    "unresolvedComponentConflicts": {},
+    "partiallyTranslucentStateArtwork": [
+      "PNG/07-Resizable-Skins/black-disabled.png",
+      "PNG/07-Resizable-Skins/black-pressed.png",
+      "PNG/07-Resizable-Skins/blue-disabled.png",
+      "PNG/07-Resizable-Skins/blue-pressed.png",
+      "PNG/07-Resizable-Skins/cream-disabled.png",
+      "PNG/07-Resizable-Skins/cream-pressed.png",
+      "PNG/07-Resizable-Skins/gold-disabled.png",
+      "PNG/07-Resizable-Skins/gold-pressed.png",
+      "PNG/07-Resizable-Skins/green-disabled.png",
+      "PNG/07-Resizable-Skins/green-pressed.png",
+      "PNG/07-Resizable-Skins/mud-disabled.png",
+      "PNG/07-Resizable-Skins/mud-pressed.png",
+      "PNG/07-Resizable-Skins/orange-disabled.png",
+      "PNG/07-Resizable-Skins/orange-pressed.png",
+      "PNG/07-Resizable-Skins/panel-disabled.png",
+      "PNG/07-Resizable-Skins/panel-pressed.png",
+      "PNG/07-Resizable-Skins/purple-disabled.png",
+      "PNG/07-Resizable-Skins/purple-pressed.png",
+      "PNG/07-Resizable-Skins/red-disabled.png",
+      "PNG/07-Resizable-Skins/red-pressed.png",
+      "PNG/07-Resizable-Skins/silver-disabled.png",
+      "PNG/07-Resizable-Skins/silver-pressed.png"
+    ]
+  },
+  "assets": [
+    {
+      "svg": "Editable/01-Empty-Panels/level-panel.svg",
+      "png": "PNG/01-Empty-Panels/level-panel.png",
+      "logicalSize": [
+        268,
+        89
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1072,
+        356
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/level-panel.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\level-panel.png",
+      "sha256": "b47d19edd893859fcf6631d52f435440864dfa9806eb246cb064e25ec347fd21",
+      "mode": "RGBA",
+      "actualSize": [
+        1072,
+        356
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/level-panel-compact.svg",
+      "png": "PNG/01-Empty-Panels/level-panel-compact.png",
+      "logicalSize": [
+        119,
+        61
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        476,
+        244
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/level-panel-compact.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\level-panel-compact.png",
+      "sha256": "a9d6b278ab6f24df4052a5920a7de0879fd8cb31b96afc7b9a1465f591eb529d",
+      "mode": "RGBA",
+      "actualSize": [
+        476,
+        244
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/wallet-panel.svg",
+      "png": "PNG/01-Empty-Panels/wallet-panel.png",
+      "logicalSize": [
+        252,
+        73
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1008,
+        292
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/wallet-panel.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\wallet-panel.png",
+      "sha256": "f72701f4bdc69e2549be7b41bbef2a0e022f2b1c507532937b88d31b4c0c902d",
+      "mode": "RGBA",
+      "actualSize": [
+        1008,
+        292
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/shop-background.svg",
+      "png": "PNG/01-Empty-Panels/shop-background.png",
+      "logicalSize": [
+        1124,
+        668.62
+      ],
+      "scale": 1.8220640569395017,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        1218
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/shop-background.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\shop-background.png",
+      "sha256": "4ca41b3da47d4d2fa6ea871f46691b60f7e268c60cc09a3ef268811dcefa971f",
+      "mode": "RGBA",
+      "actualSize": [
+        2048,
+        1218
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/02-Item-Frame-Parts/item-frame.svg",
+      "png": "PNG/02-Item-Frame-Parts/item-frame.png",
+      "logicalSize": [
+        246,
+        247
+      ],
+      "scale": 4,
+      "category": "02-Item-Frame-Parts",
+      "pixelSize": [
+        984,
+        988
+      ],
+      "figma": "Figma-DragDrop/02-Item-Frame-Parts/item-frame.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\02-Item-Frame-Parts\\item-frame.png",
+      "sha256": "dbedb436d6d9e980b85f9e97db3f90facdfaa4d27662370adf695cb2a7a1958d",
+      "mode": "RGBA",
+      "actualSize": [
+        984,
+        988
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "02-Item-Frame-Parts",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/02-Item-Frame-Parts/item-preview-background.svg",
+      "png": "PNG/02-Item-Frame-Parts/item-preview-background.png",
+      "logicalSize": [
+        222,
+        131
+      ],
+      "scale": 4,
+      "category": "02-Item-Frame-Parts",
+      "pixelSize": [
+        888,
+        524
+      ],
+      "figma": "Figma-DragDrop/02-Item-Frame-Parts/item-preview-background.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\02-Item-Frame-Parts\\item-preview-background.png",
+      "sha256": "bd76b416a3c12cbd56bd5457feadc8c5ad238d3a8222102b625addf90f312695",
+      "mode": "RGBA",
+      "actualSize": [
+        888,
+        524
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "02-Item-Frame-Parts",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/02-Item-Frame-Parts/item-action-button.svg",
+      "png": "PNG/02-Item-Frame-Parts/item-action-button.png",
+      "logicalSize": [
+        163.2,
+        37.2
+      ],
+      "scale": 4,
+      "category": "02-Item-Frame-Parts",
+      "pixelSize": [
+        653,
+        149
+      ],
+      "figma": "Figma-DragDrop/02-Item-Frame-Parts/item-action-button.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\02-Item-Frame-Parts\\item-action-button.png",
+      "sha256": "a01b3b4653ac095907a203a1ad21f5004820c2d945346e6ab319b3309a481e97",
+      "mode": "RGBA",
+      "actualSize": [
+        653,
+        149
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "02-Item-Frame-Parts",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/runner-meter-background.svg",
+      "png": "PNG/01-Empty-Panels/runner-meter-background.png",
+      "logicalSize": [
+        379,
+        57
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1516,
+        228
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/runner-meter-background.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\runner-meter-background.png",
+      "sha256": "9c4cfed46f6f85c02c3510ae2aa8331706d9eb4e269034f00211083d38d854f2",
+      "mode": "RGBA",
+      "actualSize": [
+        1516,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.svg",
+      "png": "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.png",
+      "logicalSize": [
+        199,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        796,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\BritishBulldogHUD-MovementControls_Sprint.png",
+      "sha256": "33c3bf4909321d48be9da72fe1f7ff682ccf49399ffd2cb663a3dfd9792ca86f",
+      "mode": "RGBA",
+      "actualSize": [
+        796,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.svg",
+      "png": "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.png",
+      "logicalSize": [
+        97.75,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        391,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\BritishBulldogHUD-MovementControls_Dodge.png",
+      "sha256": "9b7af13e9254f5ea7cf13ff9514e6adff484ae8e58f10951ac762bbb1aa15cd7",
+      "mode": "RGBA",
+      "actualSize": [
+        391,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/TagHUD-Top.svg",
+      "png": "PNG/01-Empty-Panels/TagHUD-Top.png",
+      "logicalSize": [
+        605.04,
+        116.38
+      ],
+      "scale": 3.3849001718894622,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        394
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/TagHUD-Top.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\TagHUD-Top.png",
+      "sha256": "6be3ec072bf6e91348d1d80c875436c2da5d19e1cc4c6dfea75db364059a24d5",
+      "mode": "RGBA",
+      "actualSize": [
+        2048,
+        394
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/TagHUD-Role.svg",
+      "png": "PNG/01-Empty-Panels/TagHUD-Role.png",
+      "logicalSize": [
+        289,
+        74.195
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1156,
+        297
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/TagHUD-Role.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\TagHUD-Role.png",
+      "sha256": "9669da22c197faedcedc40be79d7e905026f40aaf2a5f5f89c56011a0d168c81",
+      "mode": "RGBA",
+      "actualSize": [
+        1156,
+        297
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/TagHUD-Results.svg",
+      "png": "PNG/01-Empty-Panels/TagHUD-Results.png",
+      "logicalSize": [
+        724,
+        308.13
+      ],
+      "scale": 2.8287292817679557,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        872
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/TagHUD-Results.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\TagHUD-Results.png",
+      "sha256": "b205be91b9057cecd969ee0eb67041699177e74269f6eb5ada10cb3c1a82acc2",
+      "mode": "RGBA",
+      "actualSize": [
+        2048,
+        872
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/TagHUD-Controls_Vault.svg",
+      "png": "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Vault.png",
+      "logicalSize": [
+        62.8,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        251,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/TagHUD-Controls_Vault.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\TagHUD-Controls_Vault.png",
+      "sha256": "ac6a3b6ad5e0aed624c0dc6d1b58855f8eb7e58d1ad1c9973ca9c6838fa30c20",
+      "mode": "RGBA",
+      "actualSize": [
+        251,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.svg",
+      "png": "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.png",
+      "logicalSize": [
+        62.8,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        251,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\TagHUD-Controls_Dodge.png",
+      "sha256": "090f2202bc4623781c8370470832766acb532eae49fdfd7f412f17cd87d711b7",
+      "mode": "RGBA",
+      "actualSize": [
+        251,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.svg",
+      "png": "PNG/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.png",
+      "logicalSize": [
+        149.6,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        598,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\TagHUD-SprintPanel_Sprint.png",
+      "sha256": "1ed9535d4206a747201cabb0c6a4dc6516f6506ed11eda3cfe999c809f264363",
+      "mode": "RGBA",
+      "actualSize": [
+        598,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundShell-RewardToast.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-RewardToast.png",
+      "logicalSize": [
+        424,
+        59
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1696,
+        236
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundShell-RewardToast.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundShell-RewardToast.png",
+      "sha256": "840c2b2556a8b26e05d687bdbf2b41ec43dc94dbc7e7e0078244ba5e21e2a097",
+      "mode": "RGBA",
+      "actualSize": [
+        1696,
+        236
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundShell-Backdrop.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-Backdrop.png",
+      "logicalSize": [
+        1370,
+        776
+      ],
+      "scale": 1.494890510948905,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        1160
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundShell-Backdrop.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundShell-Backdrop.png",
+      "sha256": "1eb9022a197191714fb941285b04b4967a2ac2546b5edbb13d6a767e95709245",
+      "mode": "RGBA",
+      "actualSize": [
+        2048,
+        1160
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundShell-VotePanel.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-VotePanel.png",
+      "logicalSize": [
+        664,
+        231
+      ],
+      "scale": 3.0843373493975905,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        712
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundShell-VotePanel.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundShell-VotePanel.png",
+      "sha256": "98fb9cc2cc29ed7f1a43af3ca5b33e3c2bf3aa23d1fd753e24e6396d63a442fd",
+      "mode": "RGBA",
+      "actualSize": [
+        2048,
+        712
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundShell-CompactVotePanel.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-CompactVotePanel.png",
+      "logicalSize": [
+        664,
+        185
+      ],
+      "scale": 3.0843373493975905,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        571
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundShell-CompactVotePanel.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundShell-CompactVotePanel.png",
+      "sha256": "369271f0f46faad42278a61213ef99def4614f3c1f2175d424e3656acd04df96",
+      "mode": "RGBA",
+      "actualSize": [
+        2048,
+        571
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.png",
+      "logicalSize": [
+        122.01,
+        55.01
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        488,
+        220
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Dock_Shop.png",
+      "sha256": "5a5d20ee3919318436639f30e8e5eb89eb71c7dc2b9897d8104cc974592faf92",
+      "mode": "RGBA",
+      "actualSize": [
+        488,
+        220
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.png",
+      "logicalSize": [
+        60.01,
+        55.01
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        240,
+        220
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Dock_Emote.png",
+      "sha256": "40dd058cd49a8394b6c417817f2b51083566936836083b51518647f6f996d773",
+      "mode": "RGBA",
+      "actualSize": [
+        240,
+        220
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.png",
+      "logicalSize": [
+        60.01,
+        55.01
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        240,
+        220
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Dock_Emoji.png",
+      "sha256": "b688df579a1adf1f9b8940b7835b7530f7a025ff90a9448dc869b99ae8558caa",
+      "mode": "RGBA",
+      "actualSize": [
+        240,
+        220
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.png",
+      "logicalSize": [
+        1370,
+        776
+      ],
+      "scale": 1.494890510948905,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        2048,
+        1160
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Backdrop.png",
+      "sha256": "1eb9022a197191714fb941285b04b4967a2ac2546b5edbb13d6a767e95709245",
+      "mode": "RGBA",
+      "actualSize": [
+        2048,
+        1160
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.png",
+      "logicalSize": [
+        40.66,
+        45.66
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        163,
+        183
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-ShopPanel_Close.png",
+      "sha256": "9f02b554840f9e226e15c8764769fb09cb895cccee6822669cec365224a92fe7",
+      "mode": "RGBA",
+      "actualSize": [
+        163,
+        183
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.png",
+      "logicalSize": [
+        68.855,
+        42.855
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        275,
+        171
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-ShopPanel_Categories_All.png",
+      "sha256": "b43243635527a2c7b1964124f506e5da3c1be8aa9e2d9dfd0a94ec142d1c78c3",
+      "mode": "RGBA",
+      "actualSize": [
+        275,
+        171
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png",
+      "logicalSize": [
+        99.855,
+        42.855
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        399,
+        171
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-ShopPanel_Categories_Pets.png",
+      "sha256": "a44c6b626aaf72593863e2a47d3805f00570b11f0f61e12f073b53c624ce2363",
+      "mode": "RGBA",
+      "actualSize": [
+        399,
+        171
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.png",
+      "logicalSize": [
+        127.855,
+        42.855
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        511,
+        171
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-ShopPanel_Categories_Highlights.png",
+      "sha256": "27c350d6a93aa99b533830e35883baa636b4a7c9962de526719c8819b6f98a1c",
+      "mode": "RGBA",
+      "actualSize": [
+        511,
+        171
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.png",
+      "logicalSize": [
+        163.2,
+        37.2
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        653,
+        149
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Templates_ItemCard_Action.png",
+      "sha256": "a01b3b4653ac095907a203a1ad21f5004820c2d945346e6ab319b3309a481e97",
+      "mode": "RGBA",
+      "actualSize": [
+        653,
+        149
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.png",
+      "logicalSize": [
+        56.2,
+        37.2
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        225,
+        149
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Templates_ItemCard_Try.png",
+      "sha256": "0887d322b371e14b90bde79cbb3a8d8290538d104f43b554c97329e502ac5e4f",
+      "mode": "RGBA",
+      "actualSize": [
+        225,
+        149
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.png",
+      "logicalSize": [
+        202,
+        108.9
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        808,
+        436
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-VotePanel_BritishBulldog.png",
+      "sha256": "ed3175d3c4fd28ccc4f9f418ad12343c9af991d6ffccdc1e806a52aea690a5f4",
+      "mode": "RGBA",
+      "actualSize": [
+        808,
+        436
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.png",
+      "logicalSize": [
+        202,
+        108.9
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        808,
+        436
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-VotePanel_TagYoureIt.png",
+      "sha256": "317e09b2d808f9fda55bed3d0cc071630a15d21090d2a692007a67d4af20bad3",
+      "mode": "RGBA",
+      "actualSize": [
+        808,
+        436
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.png",
+      "logicalSize": [
+        202,
+        108.9
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        808,
+        436
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-VotePanel_StuckInTheMud.png",
+      "sha256": "cc3d878ea09b3359d4d2a424c48d07be1c7841ecb8cec0db9a8a76382b1718b0",
+      "mode": "RGBA",
+      "actualSize": [
+        808,
+        436
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.png",
+      "logicalSize": [
+        188.8,
+        82.92
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        755,
+        332
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-CompactVotePanel_BritishBulldog.png",
+      "sha256": "2467b36d0cca1b08f6af35c33bebdb32be143291fccf65afd2fecab9aa7eb7b9",
+      "mode": "RGBA",
+      "actualSize": [
+        755,
+        332
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.png",
+      "logicalSize": [
+        188.8,
+        82.92
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        755,
+        332
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-CompactVotePanel_TagYoureIt.png",
+      "sha256": "c14729623f6d99b84b536f1f45ff6e546bbcf899c2ca6b200fcef703a994afe5",
+      "mode": "RGBA",
+      "actualSize": [
+        755,
+        332
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.png",
+      "logicalSize": [
+        188.8,
+        82.92
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        755,
+        332
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-CompactVotePanel_StuckInTheMud.png",
+      "sha256": "4cffd917787a8e4ccd035c7c14d32d596de6600baca70a736b6f666ee6879548",
+      "mode": "RGBA",
+      "actualSize": [
+        755,
+        332
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundAdminPanel-Toggle.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Toggle.png",
+      "logicalSize": [
+        116.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        465,
+        213
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundAdminPanel-Toggle.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundAdminPanel-Toggle.png",
+      "sha256": "fbe7e774404dd665fefaa8271e2775dacb7822c85fbee578c89692e68c7504b4",
+      "mode": "RGBA",
+      "actualSize": [
+        465,
+        213
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundAdminPanel-Panel.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png",
+      "logicalSize": [
+        394,
+        659
+      ],
+      "scale": 3.1077389984825494,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1224,
+        2048
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundAdminPanel-Panel.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundAdminPanel-Panel.png",
+      "sha256": "65cf1f8550d74a3504ea3d31f6b6322c3ad0c6f9516c55814ecf36fbcade7fb2",
+      "mode": "RGBA",
+      "actualSize": [
+        1224,
+        2048
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "logicalSize": [
+        344.9,
+        213
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1380,
+        852
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "sha256": "24532ebdeb3d4a315a4db4bb295f3df3d7bb21af84a3d90b64b9946a2674f10a",
+      "mode": "RGBA",
+      "actualSize": [
+        1380,
+        852
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "logicalSize": [
+        362,
+        247
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1448,
+        988
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "sha256": "e4d7d2fe4d008d137d5f6a120e1feaf5f049a0dd1eebed2b5ee28eff90cdf3df",
+      "mode": "RGBA",
+      "actualSize": [
+        1448,
+        988
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.png",
+      "logicalSize": [
+        116.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        465,
+        213
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Toggle.png",
+      "sha256": "fbe7e774404dd665fefaa8271e2775dacb7822c85fbee578c89692e68c7504b4",
+      "mode": "RGBA",
+      "actualSize": [
+        465,
+        213
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.png",
+      "logicalSize": [
+        39.142,
+        54.542
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        157,
+        218
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_Close.png",
+      "sha256": "c4e19fc915084d5866b7db2f67a75f73280e8481690c50192e74e36a9afa2f34",
+      "mode": "RGBA",
+      "actualSize": [
+        157,
+        218
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png",
+      "logicalSize": [
+        318.175,
+        47.287
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1273,
+        189
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png",
+      "sha256": "052b9567062e04e26ae0647fa668c3b88ef4d5b6b9ce276d268845deb85a89b6",
+      "mode": "RGBA",
+      "actualSize": [
+        1273,
+        189
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png",
+      "logicalSize": [
+        318.175,
+        47.287
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1273,
+        189
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png",
+      "sha256": "ebe22c2f4736477cbed29f4ad053d01fc18bcd02da0c08f3234bbd5e14b5dc1d",
+      "mode": "RGBA",
+      "actualSize": [
+        1273,
+        189
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png",
+      "logicalSize": [
+        318.175,
+        47.287
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1273,
+        189
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png",
+      "sha256": "880d9b25ca9d9ef93bb46150cedc758cfd6e696412c3da0800457c964da1579c",
+      "mode": "RGBA",
+      "actualSize": [
+        1273,
+        189
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.png",
+      "logicalSize": [
+        351.1,
+        57.75
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1404,
+        231
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_StopRound.png",
+      "sha256": "17da2b1d8ad77a40d67313266c9d37afab19892a28a192a59a9e974c6ad970ae",
+      "mode": "RGBA",
+      "actualSize": [
+        1404,
+        231
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.png",
+      "logicalSize": [
+        351.565,
+        48.465
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1406,
+        194
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_ToggleAutomatic.png",
+      "sha256": "17cd49f04c66b37d384920970fde57531b7b3104136e3b6a5c170d1ca04d7735",
+      "mode": "RGBA",
+      "actualSize": [
+        1406,
+        194
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.png",
+      "logicalSize": [
+        48.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        193,
+        213
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Close.png",
+      "sha256": "89aeb379d06a97770663aa36b8ffd785ab362be2bf04e01158ef358d42feabb1",
+      "mode": "RGBA",
+      "actualSize": [
+        193,
+        213
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png",
+      "logicalSize": [
+        342,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1368,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png",
+      "sha256": "c04f47815487fc71a2cb108a8e9e53961256ae387a7afc2e2a87c59f828944e5",
+      "mode": "RGBA",
+      "actualSize": [
+        1368,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png",
+      "logicalSize": [
+        342,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1368,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png",
+      "sha256": "c86e918a9903ee253b7a8ccf1194c593b09b433289f631a84a9b2213de7db035",
+      "mode": "RGBA",
+      "actualSize": [
+        1368,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png",
+      "logicalSize": [
+        342,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1368,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png",
+      "sha256": "b8dae26d387607da058fc8e2cd862d2b094848990b1bf5c2636b147e06f4c849",
+      "mode": "RGBA",
+      "actualSize": [
+        1368,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.png",
+      "logicalSize": [
+        342,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1368,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.png",
+      "sha256": "f5c607da5efbfeb202e92b3e75c7d368fcb9d02cb8c59832beb8f163e6e60e1a",
+      "mode": "RGBA",
+      "actualSize": [
+        1368,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-Top.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-Top.png",
+      "logicalSize": [
+        604,
+        83
+      ],
+      "scale": 3.390728476821192,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        281
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-Top.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-Top.png",
+      "sha256": "68e4dcc1995f34ef6b888405d348a499ce6e966adecfe4c3f269bfea486dab05",
+      "mode": "RGBA",
+      "actualSize": [
+        2048,
+        281
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-Frozen.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-Frozen.png",
+      "logicalSize": [
+        284,
+        105
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1136,
+        420
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-Frozen.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-Frozen.png",
+      "sha256": "8e15c63c568e21ce804cb9947099ac08e94e17df20511aa77f1e8737cd4f341d",
+      "mode": "RGBA",
+      "actualSize": [
+        1136,
+        420
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-Results.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-Results.png",
+      "logicalSize": [
+        634,
+        199
+      ],
+      "scale": 3.230283911671924,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        643
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-Results.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-Results.png",
+      "sha256": "3cdb76b4e3d925d4dcfe169fc95b82016bf81aec95edc73c05d18b766c0da9ed",
+      "mode": "RGBA",
+      "actualSize": [
+        2048,
+        643
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-ColourToggle.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-ColourToggle.png",
+      "logicalSize": [
+        48.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        193,
+        213
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-ColourToggle.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-ColourToggle.png",
+      "sha256": "f4371123616658b9c9ac3ba021d3a49e5623a85b84b4475593a870deacde7ea5",
+      "mode": "RGBA",
+      "actualSize": [
+        193,
+        213
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-ColourPicker.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-ColourPicker.png",
+      "logicalSize": [
+        284,
+        147
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1136,
+        588
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-ColourPicker.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-ColourPicker.png",
+      "sha256": "0fa2951191bcfca27f135a181c0ea72393abb78ca1b7d023ac52ca287450ad5d",
+      "mode": "RGBA",
+      "actualSize": [
+        1136,
+        588
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "01-Empty-Panels",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.png",
+      "logicalSize": [
+        184.691,
+        45.211
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        739,
+        181
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Top_Team.png",
+      "sha256": "143dd6cc07ba71f46f2c3c1e1dbca7065635f2d66e402570994dde6ecc2135ec",
+      "mode": "RGBA",
+      "actualSize": [
+        739,
+        181
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.png",
+      "logicalSize": [
+        97,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        388,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Controls_Mud.png",
+      "sha256": "6fbe5afe8cbc98d0423729144f3ffb0b8882a2b95a96d9be4ad6434eaa7b8e66",
+      "mode": "RGBA",
+      "actualSize": [
+        388,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.png",
+      "logicalSize": [
+        97,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        388,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Controls_Heat.png",
+      "sha256": "03b19c67e05beb3add9ca5b9b82cbe9a8433f1937c109c072b11bd5ff8ff2821",
+      "mode": "RGBA",
+      "actualSize": [
+        388,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.png",
+      "logicalSize": [
+        84,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        336,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Controls_Fire.png",
+      "sha256": "10bbdffdd2527d8ae04d0653a8cdac7d0711baf7e2d61f8382dc71137a7b15af",
+      "mode": "RGBA",
+      "actualSize": [
+        336,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.png",
+      "logicalSize": [
+        284,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1136,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Controls_Sprint.png",
+      "sha256": "9b3db4382465340685bacaf41d39cb6d80ae2433f4934472f30008cfb604fef5",
+      "mode": "RGBA",
+      "actualSize": [
+        1136,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourToggle.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourToggle.png",
+      "logicalSize": [
+        48.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        193,
+        213
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourToggle.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourToggle.png",
+      "sha256": "f4371123616658b9c9ac3ba021d3a49e5623a85b84b4475593a870deacde7ea5",
+      "mode": "RGBA",
+      "actualSize": [
+        193,
+        213
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.png",
+      "logicalSize": [
+        44.4,
+        49.4
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        178,
+        198
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Close.png",
+      "sha256": "ff9cc672bde02a0833d95f792b3944b24cb105f82a22f389b3e3b5af1e467140",
+      "mode": "RGBA",
+      "actualSize": [
+        178,
+        198
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.png",
+      "logicalSize": [
+        64,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        256,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Red.png",
+      "sha256": "5e5ebca975a10a3f194b03056be94981dfbb5e4edf0f174ba75ad4563305a8ff",
+      "mode": "RGBA",
+      "actualSize": [
+        256,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.png",
+      "logicalSize": [
+        64,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        256,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Blue.png",
+      "sha256": "f23bb8bab5ef8b1ed6fa58c6fc99b9ab9d166f0c742e5d2db1f5981e06a06797",
+      "mode": "RGBA",
+      "actualSize": [
+        256,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.png",
+      "logicalSize": [
+        64,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        256,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Green.png",
+      "sha256": "12c52f5506bbdf71e6d09ab907d90369232c6466eb174acc30e30e7dcc46ffec",
+      "mode": "RGBA",
+      "actualSize": [
+        256,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.png",
+      "logicalSize": [
+        64,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        256,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Black.png",
+      "sha256": "2d0fee35169a36b4af051a3b4657373be03ac810f80882f7c798f73b0f6bbe6c",
+      "mode": "RGBA",
+      "actualSize": [
+        256,
+        228
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "03-Other-Blank-Buttons",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/04-Meter-Parts/xp-track.svg",
+      "png": "PNG/04-Meter-Parts/xp-track.png",
+      "logicalSize": [
+        173,
+        14
+      ],
+      "scale": 4,
+      "category": "04-Meter-Parts",
+      "pixelSize": [
+        692,
+        56
+      ],
+      "figma": "Figma-DragDrop/04-Meter-Parts/xp-track.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\04-Meter-Parts\\xp-track.png",
+      "sha256": "5ad345638292434634a42fa02203cdfae0d2b677f2406f08688b009b7d6b055e",
+      "mode": "RGBA",
+      "actualSize": [
+        692,
+        56
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "04-Meter-Parts",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/04-Meter-Parts/xp-fill.svg",
+      "png": "PNG/04-Meter-Parts/xp-fill.png",
+      "logicalSize": [
+        173,
+        14
+      ],
+      "scale": 4,
+      "category": "04-Meter-Parts",
+      "pixelSize": [
+        692,
+        56
+      ],
+      "figma": "Figma-DragDrop/04-Meter-Parts/xp-fill.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\04-Meter-Parts\\xp-fill.png",
+      "sha256": "b5486ff0d4cb4b166882da699b2f1a51adaefd135135ade625de18c0612bb992",
+      "mode": "RGBA",
+      "actualSize": [
+        692,
+        56
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "04-Meter-Parts",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/04-Meter-Parts/stamina-track.svg",
+      "png": "PNG/04-Meter-Parts/stamina-track.png",
+      "logicalSize": [
+        355,
+        14
+      ],
+      "scale": 4,
+      "category": "04-Meter-Parts",
+      "pixelSize": [
+        1420,
+        56
+      ],
+      "figma": "Figma-DragDrop/04-Meter-Parts/stamina-track.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\04-Meter-Parts\\stamina-track.png",
+      "sha256": "753fa8464777a3c8ebe5fd6f302718294b7abe9f8c992569e13f55a78d450455",
+      "mode": "RGBA",
+      "actualSize": [
+        1420,
+        56
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "04-Meter-Parts",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/04-Meter-Parts/stamina-fill.svg",
+      "png": "PNG/04-Meter-Parts/stamina-fill.png",
+      "logicalSize": [
+        355,
+        14
+      ],
+      "scale": 4,
+      "category": "04-Meter-Parts",
+      "pixelSize": [
+        1420,
+        56
+      ],
+      "figma": "Figma-DragDrop/04-Meter-Parts/stamina-fill.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\04-Meter-Parts\\stamina-fill.png",
+      "sha256": "2bf377e6d8443dd575801fe100cc3ebef9aa924af5050837516b9c30509f4992",
+      "mode": "RGBA",
+      "actualSize": [
+        1420,
+        56
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "04-Meter-Parts",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/close.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "logicalSize": [
+        48,
+        52
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        192,
+        208
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/close.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\close.png",
+      "sha256": "eb5f54455aac545512d059696a04ee65753a7536ca0dec2d5a94e69f3712dc3f",
+      "mode": "RGBA",
+      "actualSize": [
+        192,
+        208
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/dodge.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/dodge.png",
+      "logicalSize": [
+        102,
+        60
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        408,
+        240
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/dodge.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\dodge.png",
+      "sha256": "bda643e2f7e98e653c050e7ee113f3ecc92c00b41549919c67dbdd36ea560e86",
+      "mode": "RGBA",
+      "actualSize": [
+        408,
+        240
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/heat-slot.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/heat-slot.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/heat-slot.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\heat-slot.png",
+      "sha256": "d113921446e5d07f93ed5d4e4216ae31139364b701d3478ec0a0d6218ec7b9d9",
+      "mode": "RGBA",
+      "actualSize": [
+        352,
+        236
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/mud-slot.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/mud-slot.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/mud-slot.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\mud-slot.png",
+      "sha256": "21dc03ca5b37fc57edb3c0ca0bef4e10f9670a9743f7b4470c8851ebdbed2fea",
+      "mode": "RGBA",
+      "actualSize": [
+        352,
+        236
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/splat.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/splat.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/splat.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\splat.png",
+      "sha256": "9709e942740c46492688f691322fc1da6d81ab8e280e4ce8c34cd1d22d943666",
+      "mode": "RGBA",
+      "actualSize": [
+        352,
+        236
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/sprint-wide.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/sprint-wide.png",
+      "logicalSize": [
+        288,
+        61
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        1152,
+        244
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/sprint-wide.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\sprint-wide.png",
+      "sha256": "86e3a5a2578cfa256402a4367e32086f86a531dce14f6c6c15f108cb3ec6fe46",
+      "mode": "RGBA",
+      "actualSize": [
+        1152,
+        244
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/sprint.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/sprint.png",
+      "logicalSize": [
+        203,
+        60
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        812,
+        240
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/sprint.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\sprint.png",
+      "sha256": "d42fd5bbb88dbf31ddef037a92f788137f9c5d218f33fa525b4c4e2793f17afc",
+      "mode": "RGBA",
+      "actualSize": [
+        812,
+        240
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-black.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-black.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-black.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-black.png",
+      "sha256": "fe835e9790598aca8896018c77af6e5e5bfde134ed10ee3778b79afad1b7de0c",
+      "mode": "RGBA",
+      "actualSize": [
+        316,
+        216
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-blue-status.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-blue-status.png",
+      "logicalSize": [
+        254,
+        55
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        1016,
+        220
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-blue-status.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-blue-status.png",
+      "sha256": "e73f795d89f5b17c97e379946406cfe6489c9e4ccaf814c3c1f2b7609f5cc314",
+      "mode": "RGBA",
+      "actualSize": [
+        1016,
+        220
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-blue.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-blue.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-blue.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-blue.png",
+      "sha256": "496644cbcbc33777cdc8b01acfd57e61bc0c72b9e415ce9e3d74df0726403e79",
+      "mode": "RGBA",
+      "actualSize": [
+        316,
+        216
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-green.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-green.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-green.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-green.png",
+      "sha256": "1abf28aeebb78c33f46c0ba584e8a7c212b02817a547db138169a74a6a56834a",
+      "mode": "RGBA",
+      "actualSize": [
+        316,
+        216
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-red.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-red.png",
+      "logicalSize": [
+        68,
+        60
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        272,
+        240
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-red.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-red.png",
+      "sha256": "f31cce84e5a528577c77b9bf990e0153d85524b401c1b3f99c3b999f065c703f",
+      "mode": "RGBA",
+      "actualSize": [
+        272,
+        240
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-toggle.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-toggle.png",
+      "logicalSize": [
+        60,
+        53
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        240,
+        212
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-toggle.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-toggle.png",
+      "sha256": "22c78f23dcee4ad1a0dc38f4e2a0204d405c7767ec26408042d723f308fd67dd",
+      "mode": "RGBA",
+      "actualSize": [
+        240,
+        212
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "05-Favourite-Buttons-Blank",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/close.svg",
+      "png": "PNG/Optional-Labelled-Buttons/close.png",
+      "logicalSize": [
+        48,
+        52
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        192,
+        208
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/close.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\close.png",
+      "sha256": "a1d4092ffe1f30e83409abb5aad0f9b348975ec61a81e29445dfc93c6f70b7a4",
+      "mode": "RGBA",
+      "actualSize": [
+        192,
+        208
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/dodge.svg",
+      "png": "PNG/Optional-Labelled-Buttons/dodge.png",
+      "logicalSize": [
+        102,
+        60
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        408,
+        240
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/dodge.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\dodge.png",
+      "sha256": "66bc83e4bd3575b90f70f110a27ed4b712008a4254e55d86dab06ee3fa33e157",
+      "mode": "RGBA",
+      "actualSize": [
+        408,
+        240
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/heat-slot.svg",
+      "png": "PNG/Optional-Labelled-Buttons/heat-slot.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/heat-slot.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\heat-slot.png",
+      "sha256": "c7d831e9a02185d69eac7d1b7dd3c40a8fe4dd54939d395fb2dbeac2b7357e85",
+      "mode": "RGBA",
+      "actualSize": [
+        352,
+        236
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/mud-slot.svg",
+      "png": "PNG/Optional-Labelled-Buttons/mud-slot.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/mud-slot.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\mud-slot.png",
+      "sha256": "cafdb70df2f397e4080323de839570260875580de0e893aec29af54a15b3833b",
+      "mode": "RGBA",
+      "actualSize": [
+        352,
+        236
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/splat.svg",
+      "png": "PNG/Optional-Labelled-Buttons/splat.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/splat.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\splat.png",
+      "sha256": "151c014e82b4740a0fd4e336c2169a8d2e1cb9d956e89d6c1eb8798b928986c5",
+      "mode": "RGBA",
+      "actualSize": [
+        352,
+        236
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/sprint-wide.svg",
+      "png": "PNG/Optional-Labelled-Buttons/sprint-wide.png",
+      "logicalSize": [
+        288,
+        61
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        1152,
+        244
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/sprint-wide.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\sprint-wide.png",
+      "sha256": "b283c4a936ae6d311ccb277af43904e49aeb876a2146552c2d0fafb552cf8864",
+      "mode": "RGBA",
+      "actualSize": [
+        1152,
+        244
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/sprint.svg",
+      "png": "PNG/Optional-Labelled-Buttons/sprint.png",
+      "logicalSize": [
+        203,
+        60
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        812,
+        240
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/sprint.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\sprint.png",
+      "sha256": "971fba7bbdd61d296b228a6b9b8aab46ddb296941333567d656d9ec678ea3dd6",
+      "mode": "RGBA",
+      "actualSize": [
+        812,
+        240
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-black.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-black.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-black.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\team-black.png",
+      "sha256": "afc6336f02cf680cd719e529f38e49ba9d63cf866271c03dd04efd16811a45d2",
+      "mode": "RGBA",
+      "actualSize": [
+        316,
+        216
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-blue-status.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-blue-status.png",
+      "logicalSize": [
+        254,
+        55
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        1016,
+        220
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-blue-status.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\team-blue-status.png",
+      "sha256": "80329ce90f35cc4a998a2e62b63586f1c885c065fb755dcc0625c0fd4a18837d",
+      "mode": "RGBA",
+      "actualSize": [
+        1016,
+        220
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-blue.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-blue.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-blue.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\team-blue.png",
+      "sha256": "680b6ba875e2fd7b9d2c4da39d8b810958dec3566960ae29ea1d37aa1322f3f1",
+      "mode": "RGBA",
+      "actualSize": [
+        316,
+        216
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-green.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-green.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-green.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\team-green.png",
+      "sha256": "a4c7acf94a5d3aeea34a9779ee7b96d091e07c83f19ed780038b7082ea625bde",
+      "mode": "RGBA",
+      "actualSize": [
+        316,
+        216
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-red.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-red.png",
+      "logicalSize": [
+        68,
+        60
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        272,
+        240
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-red.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\team-red.png",
+      "sha256": "e03e3a542bf5489ed67833be681ef384cf86fccdaa565bca3a2de13dce26333e",
+      "mode": "RGBA",
+      "actualSize": [
+        272,
+        240
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-toggle.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-toggle.png",
+      "logicalSize": [
+        60,
+        53
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        240,
+        212
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-toggle.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\Optional-Labelled-Buttons\\team-toggle.png",
+      "sha256": "0d4cab9bb2faf55b92cf52d9e080a0d63f2fb375b48221cf052f8d21d28f1905",
+      "mode": "RGBA",
+      "actualSize": [
+        240,
+        212
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "Optional-Labelled-Buttons",
+      "excludeFromReskin": true,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/06-Smooth-Game-Card-Blanks/british-bulldog.svg",
+      "png": "PNG/06-Smooth-Game-Card-Blanks/british-bulldog.png",
+      "logicalSize": [
+        320,
+        156
+      ],
+      "scale": 4,
+      "category": "BlankGameCards",
+      "pixelSize": [
+        1280,
+        624
+      ],
+      "figma": "Figma-DragDrop/06-Smooth-Game-Card-Blanks/british-bulldog.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\06-Smooth-Game-Card-Blanks\\british-bulldog.png",
+      "sha256": "265fb946f35f6b07a4006c33d7ccd1368418f026d604c4ea6a65e0c8b1050bbc",
+      "mode": "RGBA",
+      "actualSize": [
+        1280,
+        624
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "06-Smooth-Game-Card-Blanks",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.svg",
+      "png": "PNG/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.png",
+      "logicalSize": [
+        320,
+        156
+      ],
+      "scale": 4,
+      "category": "BlankGameCards",
+      "pixelSize": [
+        1280,
+        624
+      ],
+      "figma": "Figma-DragDrop/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\06-Smooth-Game-Card-Blanks\\stuck-in-the-mud.png",
+      "sha256": "c3a1184da6884cceddbd828dc8fde87e74a9c5da87e29b41241afe3582dfe96f",
+      "mode": "RGBA",
+      "actualSize": [
+        1280,
+        624
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "06-Smooth-Game-Card-Blanks",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/06-Smooth-Game-Card-Blanks/tag-youre-it.svg",
+      "png": "PNG/06-Smooth-Game-Card-Blanks/tag-youre-it.png",
+      "logicalSize": [
+        320,
+        156
+      ],
+      "scale": 4,
+      "category": "BlankGameCards",
+      "pixelSize": [
+        1280,
+        624
+      ],
+      "figma": "Figma-DragDrop/06-Smooth-Game-Card-Blanks/tag-youre-it.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\06-Smooth-Game-Card-Blanks\\tag-youre-it.png",
+      "sha256": "4afb5aff475e76a2602836bf8d28c3d9ae8a0c6b42f2be17e9a8a5affba65e6e",
+      "mode": "RGBA",
+      "actualSize": [
+        1280,
+        624
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "06-Smooth-Game-Card-Blanks",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "ScaleType": "Fit",
+        "note": "Preserve authored aspect ratio. Prefer matching nine-slice skin if changing proportions."
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/black-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/black-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/black-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\black-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "black-disabled",
+        "png": "PNG/07-Resizable-Skins/black-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/black-normal.svg",
+      "png": "PNG/07-Resizable-Skins/black-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/black-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\black-normal.png",
+      "sha256": "a8aa543378637964e37a2f38144e5920fad11a8f17908281c2dedd4e5e18e350",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "black-normal",
+        "png": "PNG/07-Resizable-Skins/black-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/black-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/black-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/black-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\black-pressed.png",
+      "sha256": "6acfce91d1fbb6743dc9336aecf10a1beb0dee92fbaff866f227a18481b4a260",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "black-pressed",
+        "png": "PNG/07-Resizable-Skins/black-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/blue-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/blue-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/blue-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\blue-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "blue-disabled",
+        "png": "PNG/07-Resizable-Skins/blue-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/blue-normal.svg",
+      "png": "PNG/07-Resizable-Skins/blue-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/blue-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\blue-normal.png",
+      "sha256": "09075e3a166f0cfc3dd32ec6f31fa800e39a5b1128067e10ebefd2f689833530",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "blue-normal",
+        "png": "PNG/07-Resizable-Skins/blue-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/blue-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/blue-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/blue-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\blue-pressed.png",
+      "sha256": "9a8222b0c63ea75be025efdd72a9aef649d03d9fff13c8ebe074e509ed78919e",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "blue-pressed",
+        "png": "PNG/07-Resizable-Skins/blue-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/cream-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/cream-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/cream-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\cream-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "cream-disabled",
+        "png": "PNG/07-Resizable-Skins/cream-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/cream-normal.svg",
+      "png": "PNG/07-Resizable-Skins/cream-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/cream-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\cream-normal.png",
+      "sha256": "183ac2222a1cdac95801f825620d6f031ae1f9589569fd986fe87bfc05bc94d7",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "cream-normal",
+        "png": "PNG/07-Resizable-Skins/cream-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/cream-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/cream-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/cream-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\cream-pressed.png",
+      "sha256": "dc48e47437582bfe30b86d4c4a80c5d7811e8dc49c78b619f1f27eb1d7a8f1e8",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "cream-pressed",
+        "png": "PNG/07-Resizable-Skins/cream-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/gold-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/gold-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/gold-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\gold-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "gold-disabled",
+        "png": "PNG/07-Resizable-Skins/gold-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/gold-normal.svg",
+      "png": "PNG/07-Resizable-Skins/gold-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/gold-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\gold-normal.png",
+      "sha256": "1c0bb34caf63325276ee1de3782402e99961592e5760ffc558fc383d86a85710",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "gold-normal",
+        "png": "PNG/07-Resizable-Skins/gold-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/gold-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/gold-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/gold-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\gold-pressed.png",
+      "sha256": "3882276317635fb812b2a993e3ca19fd0d73e5bd2d64a190a3a3ffea592e7f75",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "gold-pressed",
+        "png": "PNG/07-Resizable-Skins/gold-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/green-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/green-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/green-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\green-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "green-disabled",
+        "png": "PNG/07-Resizable-Skins/green-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/green-normal.svg",
+      "png": "PNG/07-Resizable-Skins/green-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/green-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\green-normal.png",
+      "sha256": "9099ee70c07acadade6ee0fc95230da7426e0f710cd722f79fa1e01fdb3464c4",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "green-normal",
+        "png": "PNG/07-Resizable-Skins/green-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/green-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/green-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/green-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\green-pressed.png",
+      "sha256": "e28b9b601d4398155fad05d0ebc7ae9a2c602ff957ab96079a242c6ad9741b92",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "green-pressed",
+        "png": "PNG/07-Resizable-Skins/green-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/mud-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/mud-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/mud-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\mud-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "mud-disabled",
+        "png": "PNG/07-Resizable-Skins/mud-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/mud-normal.svg",
+      "png": "PNG/07-Resizable-Skins/mud-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/mud-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\mud-normal.png",
+      "sha256": "fed38b3ba5af2e0a754a1e0e2ab0e5bd9f4a239f64e7b74ae57f1341bfa84c27",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "mud-normal",
+        "png": "PNG/07-Resizable-Skins/mud-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/mud-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/mud-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/mud-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\mud-pressed.png",
+      "sha256": "aff7b1d27ea873839225630dbcb0ff48278629f6af42f712bc0ba2566ca63c1b",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "mud-pressed",
+        "png": "PNG/07-Resizable-Skins/mud-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/orange-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/orange-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/orange-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\orange-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "orange-disabled",
+        "png": "PNG/07-Resizable-Skins/orange-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/orange-normal.svg",
+      "png": "PNG/07-Resizable-Skins/orange-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/orange-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\orange-normal.png",
+      "sha256": "61a100894962449e8f88b6a92b92ffe80c94b8ab470339acaee757ba3b4fef0a",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "orange-normal",
+        "png": "PNG/07-Resizable-Skins/orange-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/orange-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/orange-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/orange-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\orange-pressed.png",
+      "sha256": "2d9f60463fc5ec1f28c242fc457127f4d19a0e0fd456fb57edabe32aa42cb85a",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "orange-pressed",
+        "png": "PNG/07-Resizable-Skins/orange-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/panel-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/panel-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/panel-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\panel-disabled.png",
+      "sha256": "a54464f437f35bed0c4bff319be3f70fe622b4a122a84d12ba1015621b47e80d",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "panel-disabled",
+        "png": "PNG/07-Resizable-Skins/panel-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/panel-normal.svg",
+      "png": "PNG/07-Resizable-Skins/panel-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/panel-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\panel-normal.png",
+      "sha256": "cb0a089bb0fa648a64318c0b7474797b9568ed7b2858788e00f1f1679a287030",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "panel-normal",
+        "png": "PNG/07-Resizable-Skins/panel-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/panel-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/panel-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/panel-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\panel-pressed.png",
+      "sha256": "ad3b8774fe90341abba7d290fd780dd5f9e6a4fa7332b9de86db73e12c92d2f3",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "panel-pressed",
+        "png": "PNG/07-Resizable-Skins/panel-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/purple-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/purple-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/purple-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\purple-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "purple-disabled",
+        "png": "PNG/07-Resizable-Skins/purple-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/purple-normal.svg",
+      "png": "PNG/07-Resizable-Skins/purple-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/purple-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\purple-normal.png",
+      "sha256": "96b968543a7bd8fe684a695daad306bab9f6de180d5b02a12a42cd8d47887ade",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "purple-normal",
+        "png": "PNG/07-Resizable-Skins/purple-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/purple-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/purple-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/purple-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\purple-pressed.png",
+      "sha256": "c2fbf181833a0130be001f4f5c9fb8a46ecac9576b528ae56e66912e38cecf4e",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "purple-pressed",
+        "png": "PNG/07-Resizable-Skins/purple-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/red-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/red-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/red-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\red-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "red-disabled",
+        "png": "PNG/07-Resizable-Skins/red-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/red-normal.svg",
+      "png": "PNG/07-Resizable-Skins/red-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/red-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\red-normal.png",
+      "sha256": "859cd9945ca38307c85d3bc116bdf8d6e5caae5027cc34b931faea86de461275",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "red-normal",
+        "png": "PNG/07-Resizable-Skins/red-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/red-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/red-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/red-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\red-pressed.png",
+      "sha256": "f29e4ebed81112f3d8ae3227ab3b04e7d1ff6aa9920c92b64f216950accdf584",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "red-pressed",
+        "png": "PNG/07-Resizable-Skins/red-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/silver-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/silver-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/silver-disabled.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\silver-disabled.png",
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        153
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "silver-disabled",
+        "png": "PNG/07-Resizable-Skins/silver-disabled.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/silver-normal.svg",
+      "png": "PNG/07-Resizable-Skins/silver-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/silver-normal.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\silver-normal.png",
+      "sha256": "699b474bcc39a3d91660ba7bfe0c1dc7c803aa936e1f4b4f9fd05d70a7fbd6e4",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        255
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "silver-normal",
+        "png": "PNG/07-Resizable-Skins/silver-normal.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/silver-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/silver-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/silver-pressed.svg",
+      "absolutePNG": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\silver-pressed.png",
+      "sha256": "16b164c59002482b9d6afc59ae879f66bff9c7034e7800080aab19185e9e0d50",
+      "mode": "RGBA",
+      "actualSize": [
+        512,
+        320
+      ],
+      "alphaRange": [
+        0,
+        215
+      ],
+      "group": "07-Resizable-Skins",
+      "excludeFromReskin": false,
+      "robloxImageSettings": {
+        "key": "silver-pressed",
+        "png": "PNG/07-Resizable-Skins/silver-pressed.png",
+        "logicalSize": [
+          128,
+          80
+        ],
+        "pixelSize": [
+          512,
+          320
+        ],
+        "ScaleType": "Slice",
+        "SliceCenter": [
+          88,
+          88,
+          424,
+          232
+        ],
+        "SliceScale": 0.25,
+        "recommendedMinimumSize": [
+          48,
+          48
+        ]
+      }
+    }
+  ],
+  "resolvedComponentMap": [
+    {
+      "container": "StarterGui.PlaygroundShell.LevelPanel",
+      "png": "PNG/01-Empty-Panels/level-panel.png",
+      "sources": [
+        "Panels/PlaygroundShell/LevelPanel.svg",
+        "Panels/PlaygroundShell/LevelPanel.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.CompactLevelPanel",
+      "png": "PNG/01-Empty-Panels/level-panel-compact.png",
+      "sources": [
+        "Panels/PlaygroundShell/CompactLevelPanel.svg",
+        "Panels/PlaygroundShell/CompactLevelPanel.svg",
+        "Panels/States/Level_Compact_Progress.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.Wallet",
+      "png": "PNG/01-Empty-Panels/wallet-panel.png",
+      "sources": [
+        "Panels/PlaygroundShell/Wallet.svg",
+        "Panels/PlaygroundShell/Wallet.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.ShopPanel",
+      "png": "PNG/01-Empty-Panels/shop-background.png",
+      "sources": [
+        "Panels/PlaygroundShell/ShopPanel.svg",
+        "Panels/PlaygroundShell/ShopPanel.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.Templates.ItemCard",
+      "png": "PNG/02-Item-Frame-Parts/item-frame.png",
+      "sources": [
+        "Templates/Shop_ItemCard.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.Templates.ItemCard.Preview",
+      "png": "PNG/02-Item-Frame-Parts/item-preview-background.png",
+      "sources": [
+        "Templates/Shop_ItemCard.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.Templates.ItemCard.Action",
+      "png": "PNG/02-Item-Frame-Parts/item-action-button.png",
+      "sources": [
+        "Templates/Shop_ItemCard.svg",
+        "Controls/PlaygroundShell/Templates_ItemCard_Action.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.BritishBulldogHUD.MovementControls.Meter",
+      "png": "PNG/01-Empty-Panels/runner-meter-background.png",
+      "sources": [
+        "Panels/BritishBulldogHUD/MovementControls.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.BritishBulldogHUD.MovementControls.Sprint",
+      "png": "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.png",
+      "sources": [
+        "Controls/BritishBulldogHUD/MovementControls_Sprint.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.BritishBulldogHUD.MovementControls.Dodge",
+      "png": "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.png",
+      "sources": [
+        "Controls/BritishBulldogHUD/MovementControls_Dodge.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.TagHUD.Top",
+      "png": "PNG/01-Empty-Panels/TagHUD-Top.png",
+      "sources": [
+        "Panels/TagHUD/Top.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.TagHUD.Role",
+      "png": "PNG/01-Empty-Panels/TagHUD-Role.png",
+      "sources": [
+        "Panels/TagHUD/Role.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.TagHUD.Results",
+      "png": "PNG/01-Empty-Panels/TagHUD-Results.png",
+      "sources": [
+        "Panels/TagHUD/Results.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.TagHUD.Controls.Vault",
+      "png": "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Vault.png",
+      "sources": [
+        "Controls/TagHUD/Controls_Vault.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.TagHUD.Controls.Dodge",
+      "png": "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.png",
+      "sources": [
+        "Controls/TagHUD/Controls_Dodge.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.TagHUD.SprintPanel.Sprint",
+      "png": "PNG/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.png",
+      "sources": [
+        "Controls/TagHUD/SprintPanel_Sprint.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.RewardToast",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-RewardToast.png",
+      "sources": [
+        "Panels/PlaygroundShell/RewardToast.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.Backdrop",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-Backdrop.png",
+      "sources": [
+        "Panels/PlaygroundShell/Backdrop.svg",
+        "Controls/PlaygroundShell/Backdrop.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.VotePanel",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-VotePanel.png",
+      "sources": [
+        "Panels/PlaygroundShell/VotePanel.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.CompactVotePanel",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-CompactVotePanel.png",
+      "sources": [
+        "Panels/PlaygroundShell/CompactVotePanel.svg",
+        "Panels/States/Voting_Compact_Selected.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.Dock.Shop",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.png",
+      "sources": [
+        "Controls/PlaygroundShell/Dock_Shop.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.Dock.Emote",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.png",
+      "sources": [
+        "Controls/PlaygroundShell/Dock_Emote.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.Dock.Emoji",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.png",
+      "sources": [
+        "Controls/PlaygroundShell/Dock_Emoji.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.ShopPanel.Close",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.png",
+      "sources": [
+        "Controls/PlaygroundShell/ShopPanel_Close.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.ShopPanel.Categories.All",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.png",
+      "sources": [
+        "Controls/PlaygroundShell/ShopPanel_Categories_All.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.ShopPanel.Categories.Pets",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png",
+      "sources": [
+        "Controls/PlaygroundShell/ShopPanel_Categories_Pets.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.ShopPanel.Categories.Emotes",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png",
+      "sources": [
+        "Controls/PlaygroundShell/ShopPanel_Categories_Emotes.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.ShopPanel.Categories.Emojis",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png",
+      "sources": [
+        "Controls/PlaygroundShell/ShopPanel_Categories_Emojis.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.ShopPanel.Categories.Trails",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png",
+      "sources": [
+        "Controls/PlaygroundShell/ShopPanel_Categories_Trails.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.ShopPanel.Categories.Highlights",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.png",
+      "sources": [
+        "Controls/PlaygroundShell/ShopPanel_Categories_Highlights.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.ShopPanel.Categories.Gear",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png",
+      "sources": [
+        "Controls/PlaygroundShell/ShopPanel_Categories_Gear.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.Templates.ItemCard.Try",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.png",
+      "sources": [
+        "Controls/PlaygroundShell/Templates_ItemCard_Try.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.VotePanel.BritishBulldog",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.png",
+      "sources": [
+        "Controls/PlaygroundShell/VotePanel_BritishBulldog.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.VotePanel.TagYoureIt",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.png",
+      "sources": [
+        "Controls/PlaygroundShell/VotePanel_TagYoureIt.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.VotePanel.StuckInTheMud",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.png",
+      "sources": [
+        "Controls/PlaygroundShell/VotePanel_StuckInTheMud.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.CompactVotePanel.BritishBulldog",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.png",
+      "sources": [
+        "Controls/PlaygroundShell/CompactVotePanel_BritishBulldog.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.CompactVotePanel.TagYoureIt",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.png",
+      "sources": [
+        "Controls/PlaygroundShell/CompactVotePanel_TagYoureIt.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.CompactVotePanel.StuckInTheMud",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.png",
+      "sources": [
+        "Controls/PlaygroundShell/CompactVotePanel_StuckInTheMud.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Toggle",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Toggle.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/Toggle.svg",
+        "Controls/PlaygroundAdminPanel/Toggle.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/Panel.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/CompactPanel.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactToggle",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Toggle.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/CompactToggle.svg",
+        "Controls/PlaygroundAdminPanel/CompactToggle.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/Panel_BritishBulldog.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/Panel_TagYoureIt.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/Panel_StuckInTheMud.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/CompactPanel_BritishBulldog.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/CompactPanel_TagYoureIt.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "sources": [
+        "Panels/PlaygroundAdminPanel/CompactPanel_StuckInTheMud.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Close",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Close.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBStart",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBStart.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBRunner",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBRunner.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBBulldog",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBBulldog.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagStart",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagStart.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagRunner",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagRunner.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagTagger",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagTagger.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudStart",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudStart.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudShooter",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudShooter.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudMedic",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudMedic.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.StopRound",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_StopRound.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.Panel.ToggleAutomatic",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/Panel_ToggleAutomatic.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Close",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Close.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBStart",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBStart.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBRunner",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBRunner.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBBulldog",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagStart",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagStart.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagRunner",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagRunner.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagTagger",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagTagger.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudStart",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudStart.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudShooter",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudShooter.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudMedic",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudMedic.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StopRound",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StopRound.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.ToggleAutomatic",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.png",
+      "sources": [
+        "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_ToggleAutomatic.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.Main.Top",
+      "png": "PNG/01-Empty-Panels/MudHUD-Top.png",
+      "sources": [
+        "Panels/MudHUD/Top.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.Main.Frozen",
+      "png": "PNG/01-Empty-Panels/MudHUD-Frozen.png",
+      "sources": [
+        "Panels/MudHUD/Frozen.svg",
+        "Panels/States/Mud_Frozen_RescueProgress.svg",
+        "Panels/States/Mud_Frozen_TeamEliminated.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.Main.Results",
+      "png": "PNG/01-Empty-Panels/MudHUD-Results.png",
+      "sources": [
+        "Panels/MudHUD/Results.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.ColourToggle",
+      "png": "PNG/01-Empty-Panels/MudHUD-ColourToggle.png",
+      "sources": [
+        "Panels/MudHUD/ColourToggle.svg",
+        "Controls/MudHUD/ColourToggle.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.ColourPicker",
+      "png": "PNG/01-Empty-Panels/MudHUD-ColourPicker.png",
+      "sources": [
+        "Panels/MudHUD/ColourPicker.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.Main.Top.Team",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.png",
+      "sources": [
+        "Controls/MudHUD/Main_Top_Team.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.Main.Controls.Mud",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.png",
+      "sources": [
+        "Controls/MudHUD/Main_Controls_Mud.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.Main.Controls.Heat",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.png",
+      "sources": [
+        "Controls/MudHUD/Main_Controls_Heat.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.Main.Controls.Fire",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.png",
+      "sources": [
+        "Controls/MudHUD/Main_Controls_Fire.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.Main.Controls.Sprint",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.png",
+      "sources": [
+        "Controls/MudHUD/Main_Controls_Sprint.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.ColourPicker.Close",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.png",
+      "sources": [
+        "Controls/MudHUD/ColourPicker_Close.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.ColourPicker.Red",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.png",
+      "sources": [
+        "Controls/MudHUD/ColourPicker_Red.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.ColourPicker.Blue",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.png",
+      "sources": [
+        "Controls/MudHUD/ColourPicker_Blue.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.ColourPicker.Green",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.png",
+      "sources": [
+        "Controls/MudHUD/ColourPicker_Green.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.MudHUD.ColourPicker.Black",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.png",
+      "sources": [
+        "Controls/MudHUD/ColourPicker_Black.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.LevelPanel.XPTrack",
+      "png": "PNG/04-Meter-Parts/xp-track.png",
+      "sources": [
+        "Panels/PlaygroundShell/LevelPanel.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill",
+      "png": "PNG/04-Meter-Parts/xp-fill.png",
+      "sources": [
+        "Panels/PlaygroundShell/LevelPanel.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track",
+      "png": "PNG/04-Meter-Parts/stamina-track.png",
+      "sources": [
+        "Panels/BritishBulldogHUD/MovementControls.svg"
+      ]
+    },
+    {
+      "container": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track.Fill",
+      "png": "PNG/04-Meter-Parts/stamina-fill.png",
+      "sources": [
+        "Panels/BritishBulldogHUD/MovementControls.svg"
+      ]
+    }
+  ],
+  "duplicateImageGroups": [
+    [
+      "PNG/02-Item-Frame-Parts/item-action-button.png",
+      "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.png"
+    ],
+    [
+      "PNG/01-Empty-Panels/PlaygroundShell-Backdrop.png",
+      "PNG/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.png"
+    ],
+    [
+      "PNG/01-Empty-Panels/PlaygroundAdminPanel-Toggle.png",
+      "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.png"
+    ],
+    [
+      "PNG/01-Empty-Panels/MudHUD-ColourToggle.png",
+      "PNG/03-Other-Blank-Buttons/MudHUD-ColourToggle.png"
+    ],
+    [
+      "PNG/07-Resizable-Skins/black-disabled.png",
+      "PNG/07-Resizable-Skins/blue-disabled.png",
+      "PNG/07-Resizable-Skins/cream-disabled.png",
+      "PNG/07-Resizable-Skins/gold-disabled.png",
+      "PNG/07-Resizable-Skins/green-disabled.png",
+      "PNG/07-Resizable-Skins/mud-disabled.png",
+      "PNG/07-Resizable-Skins/orange-disabled.png",
+      "PNG/07-Resizable-Skins/purple-disabled.png",
+      "PNG/07-Resizable-Skins/red-disabled.png",
+      "PNG/07-Resizable-Skins/silver-disabled.png"
+    ]
+  ],
+  "recommendedFavouriteOverrides": {
+    "StarterGui.BritishBulldogHUD.MovementControls.Sprint": "PNG/05-Favourite-Buttons-Blank/sprint.png",
+    "StarterGui.BritishBulldogHUD.MovementControls.Dodge": "PNG/05-Favourite-Buttons-Blank/dodge.png",
+    "StarterGui.MudHUD.ColourPicker.Close": "PNG/05-Favourite-Buttons-Blank/close.png",
+    "StarterGui.MudHUD.ColourToggle": "PNG/05-Favourite-Buttons-Blank/team-toggle.png",
+    "StarterGui.MudHUD.Main.Controls.Sprint": "PNG/05-Favourite-Buttons-Blank/sprint-wide.png",
+    "StarterGui.MudHUD.Main.Controls.Mud": "PNG/05-Favourite-Buttons-Blank/mud-slot.png",
+    "StarterGui.MudHUD.Main.Controls.Heat": "PNG/05-Favourite-Buttons-Blank/heat-slot.png",
+    "StarterGui.MudHUD.Main.Controls.Fire": "PNG/05-Favourite-Buttons-Blank/splat.png",
+    "StarterGui.MudHUD.Main.Top.Team": "PNG/05-Favourite-Buttons-Blank/team-blue-status.png",
+    "StarterGui.MudHUD.ColourPicker.Red": "PNG/05-Favourite-Buttons-Blank/team-red.png",
+    "StarterGui.MudHUD.ColourPicker.Blue": "PNG/05-Favourite-Buttons-Blank/team-blue.png",
+    "StarterGui.MudHUD.ColourPicker.Green": "PNG/05-Favourite-Buttons-Blank/team-green.png",
+    "StarterGui.MudHUD.ColourPicker.Black": "PNG/05-Favourite-Buttons-Blank/team-black.png"
+  },
+  "gameCardReuse": {
+    "BritishBulldog": "PNG/06-Smooth-Game-Card-Blanks/british-bulldog.png",
+    "TagYoureIt": "PNG/06-Smooth-Game-Card-Blanks/tag-youre-it.png",
+    "StuckInTheMud": "PNG/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.png"
+  },
+  "nineSliceSettings": {
+    "sourceSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  "mappingNotes": [
+    "ComponentMap export nodes end _Background-Glossy or _Background; strip suffix to resolve authored live container. Native tree still needs inspection because this is export-time mapping.",
+    "Prefer group 05 art for approved movement and team controls; group 03 alternatives have older per-node dimensions and should not be layered behind group 05.",
+    "Use group 01 fixed art for matching panel proportions. If target aspect differs, preserve authored target size and use group 07 panel skin instead of stretching.",
+    "Use one group 02 ItemCard template and clone its blank slots. Delete generated pet/item content rather than populating placeholder products, names or prices.",
+    "Group 04 tracks and fills are separate full-width assets; meter percentage comes from clipping/scripted fill data, never baked example progress.",
+    "Group 06 has 3 colour variants. Reuse each asset for all matching game cards, changing native TextLabel content and game data.",
+    "Group 07 has 11 themes times 3 states. Ten disabled theme images are byte-identical; panel-disabled is distinct.",
+    "Skip Optional-Labelled-Buttons to keep every caption native and editable.",
+    "Keep native text over art, with outward dark stroke, and preserve authored layout. Do not rasterize labels.",
+    "The nested PlaygroundClassics-CleanImport-20261004 copy is identical for every PNG. Use user-mentioned top-level folder only.",
+    "Pressed/disabled nine-slice art intentionally has maximum alpha below 255. Keep ImageTransparency at zero unless applying an additional deliberate fade."
+  ],
+  "coverageGaps": [
+    "BritishBulldogHUD TopCard, RolePill, Results, Departure and other non-movement panels are absent from ComponentMap; map suitable reusable group 07 theme.",
+    "Leaderboard artwork is explicitly deferred by the user; do not reskin leaderboard SurfaceGuis in this pass.",
+    "Group 05, group 06 and group 07 need semantic overrides; these assets are not assigned by old ComponentMap.",
+    "Supplied icon and backplate attachments are outside this clean pack; inventory/import separately.",
+    "No Roblox upload IDs exist in this clean pack manifest. New assets require upload or native image-ID reconciliation; historical icon IDs are not substitutes."
+  ],
+  "historicalIconIDs": {
+    "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\IconAssetIds.json",
+    "Sprint": "rbxassetid://86080260918857",
+    "Dodge": "rbxassetid://99567482512995",
+    "Level": "rbxassetid://99215209137796",
+    "note": "Old artwork only; do not mistake these for new clean-pack assets."
+  },
+  "verificationScope": "Filesystem-only audit. No Studio edits, no desktop input, no Play tests."
+}

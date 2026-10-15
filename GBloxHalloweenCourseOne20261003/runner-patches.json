@@ -1,0 +1,38 @@
+[
+  {
+    "old_string": "local raceProgress\n",
+    "new_string": "local raceProgress\nlocal halloweenService\nlocal eliminateHalloweenPlayer\n"
+  },
+  {
+    "old_string": "\tdata.status = status\n",
+    "new_string": "\tdata.status = status\n if status~=\"Running\" and halloweenService then halloweenService:Remove(player) end\n"
+  },
+  {
+    "old_string": "local function resetRound()\n",
+    "new_string": "local function resetRound()\n if halloweenService then halloweenService:Clear() end\n"
+  },
+  {
+    "old_string": "local function endRound()\n\tif roundPhase ~= \"Running\" then return end\n",
+    "new_string": "local function endRound()\n\tif roundPhase ~= \"Running\" then return end\n if halloweenService then halloweenService:Clear() end\n"
+  },
+  {
+    "old_string": "local function sendRoundRankings()\n",
+    "new_string": "local halloweenSettings=ReplicatedStorage:WaitForChild(\"GBloxHalloweenSettings\")\nlocal halloweenRemote=ReplicatedStorage:WaitForChild(\"GBloxHalloweenEvent\")\nhalloweenService=require(game.ServerScriptService:WaitForChild(\"GBloxHalloweenService\")).new({\n Runners=players,Phase=function() return roundPhase end,RoundKey=function() return courseVersion end,\n CourseNumber=function() return courseNumber end,Course=function() return course end,\n Now=function() return workspace:GetServerTimeNow() end,Progress=currentRoundProgress,\n Settings=halloweenSettings,Templates=ReplicatedStorage:WaitForChild(\"GBloxHalloweenAssets\"),\n Freeze=function(player,seconds) return abilityService.FreezeSeasonal(player,seconds) end,\n ClearFreeze=function(player) abilityService.ClearSeasonalFreeze(player) end,\n Eliminate=function(player,reason) if eliminateHalloweenPlayer then eliminateHalloweenPlayer(player,reason) end end,\n Send=function(player,action,packet) if player.Parent==Players then halloweenRemote:FireClient(player,action,packet) end end,\n Broadcast=function(action,packet) halloweenRemote:FireAllClients(action,packet) end,\n OnUsed=function(player)\n  if matchResults[player] then matchResults[player].usedAbility=true end\n  player:SetAttribute(\"AbilityUsedThisMatch\",true)\n end,\n})\nhalloweenRemote.OnServerEvent:Connect(function(player,action)\n if action~=\"Web\" and action~=\"Pumpkin\" then return end\n local ok,message,cooldownUntil=halloweenService:Activate(player,action)\n if player.Parent==Players then\n  halloweenRemote:FireClient(player,\"HalloweenResult\",{action=action,ok=ok,message=message,cooldownUntil=cooldownUntil,roundKey=courseVersion})\n end\nend)\n\nlocal function sendRoundRankings()\n"
+  },
+  {
+    "old_string": "\tif characterDeath and data.pendingRespawnVersion == courseVersion then return end\n",
+    "new_string": "\tif characterDeath and data.pendingRespawnVersion == courseVersion then return end\n if halloweenService then halloweenService:Remove(player) end\n"
+  },
+  {
+    "old_string": "local function eliminateIdlePlayer(player, data)\n",
+    "new_string": "eliminateHalloweenPlayer=function(player,reason)\n local data=players[player]\n if roundPhase~=\"Running\" or not data or data.status~=\"Running\"\n  or courseNumber~=1 or data.recovering then return end\n data.roundStoppedProgress=currentRoundProgress(data)\n if matchResults[player] then\n  matchResults[player].died=true\n  matchResults[player].deaths=(matchResults[player].deaths or 0)+1\n end\n showRaceVFX(player,data,\"DefaultDeath\",courseVersion,true)\n data.recovering=false data.pendingRespawnVersion=nil data.recoveryPoint=nil\n data.recoveryVersion=(data.recoveryVersion or 0)+1\n data.boostVersion=(data.boostVersion or 0)+1\n data.idleWatch=nil data.idleRecoveryUntil=nil\n setStatus(player,\"Out\")\n player:SetAttribute(\"RunnerOutReason\",reason)\n abilityService.Remove(player)\n removeRunnerForces(data)\n if data.root and data.root.Parent then\n  data.root.Anchored=true\n  data.root.AssemblyLinearVelocity=Vector3.zero\n  data.root.AssemblyAngularVelocity=Vector3.zero\n end\n event:FireClient(player,\"Out\",{reason=reason,halloween=true})\n checkRoundComplete()\nend\n\nlocal function eliminateIdlePlayer(player, data)\n"
+  },
+  {
+    "old_string": "Players.PlayerRemoving:Connect(function(player)\n\tlocal departing=players[player]\n",
+    "new_string": "Players.PlayerRemoving:Connect(function(player)\n if halloweenService then halloweenService:Remove(player) end\n\tlocal departing=players[player]\n"
+  },
+  {
+    "old_string": "RunService.Heartbeat:Connect(function(deltaTime)\n raceProgress:Step(deltaTime)\n",
+    "new_string": "RunService.Heartbeat:Connect(function(deltaTime)\n halloweenService:Step(deltaTime)\n raceProgress:Step(deltaTime)\n"
+  }
+]

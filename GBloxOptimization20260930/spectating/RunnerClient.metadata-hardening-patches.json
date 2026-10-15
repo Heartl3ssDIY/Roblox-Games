@@ -1,0 +1,10 @@
+[
+  {
+    "old": " local userId=player:GetAttribute(\"RunnerSpectateUserId\")\n local key=isSpectating() and userId and tostring(player:GetAttribute(\"RunnerSpectateRevision\"))..\":\"..tostring(userId) or nil\n if key==spectatorStreamKey then return end\n spectatorStreamKey=key\n local position=key and player:GetAttribute(\"RunnerSpectatePosition\")",
+    "new": " local userId=player:GetAttribute(\"RunnerSpectateUserId\")\n local revision=player:GetAttribute(\"RunnerSpectateRevision\")\n local position=player:GetAttribute(\"RunnerSpectatePosition\")\n local key=isSpectating() and typeof(userId)==\"number\" and typeof(revision)==\"number\"\n  and typeof(position)==\"Vector3\" and tostring(revision)..\":\"..tostring(userId) or nil\n if key==spectatorStreamKey then return end\n spectatorStreamKey=key\n if not key then position=nil end"
+  },
+  {
+    "old": "player:GetAttributeChangedSignal(\"RunnerSpectateRevision\"):Connect(requestSpectatorStream)",
+    "new": "for _,name in {\"RunnerSpectateRevision\",\"RunnerSpectateUserId\",\"RunnerSpectatePosition\"} do\n player:GetAttributeChangedSignal(name):Connect(requestSpectatorStream)\nend"
+  }
+]

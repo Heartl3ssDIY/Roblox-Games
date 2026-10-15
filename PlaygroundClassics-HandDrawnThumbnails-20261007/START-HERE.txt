@@ -1,0 +1,25 @@
+PLAYGROUND CLASSICS - SIX HAND-DRAWN THUMBNAILS
+
+Upload-PNG-1920x1080: six finished PNG thumbnails, 16:9, each below 3 MB.
+Upload-JPG-1920x1080: smaller JPEG alternatives of the same six images.
+Originals: original generated artwork before resizing.
+Preview.png: overview of all six designs.
+Source/Prompts.json: exact prompts, reference file paths and generation mode.
+
+01-tag-youre-it - Tag! You're It!
+02-playground-swings - Playground Swings
+03-stuck-in-the-mud - Stuck in the Mud
+04-schoolyard-bulldog - British Bulldog
+05-vip-pets-lighthouse - VIP Pets & Lighthouse
+06-bats-and-toys - Bats & Toys
+
+Style reference: the supplied icon.png. Artwork generated with the built-in image generation tool.
+These are finished raster illustrations with baked-in lettering, not layered Photoshop files.
+
+Roblox reference checked 2026-10-07:
+https://create.roblox.com/docs/production/publishing/thumbnails
+Roblox recommends 16:9 at 1920x1080, supports PNG/JPG, and asks for images under 3 MB for home-page thumbnail uploads.
+Important text is at the top. Titles describe the depicted modes and features.
+You can feature up to 10 images/videos on the game detail page, and select 2-5 active images for home-page personalization.
+Upload only the scenes whose depicted modes/items are live in the published game.
+These files have not been uploaded or approved by Roblox; uploads go through Roblox moderation.

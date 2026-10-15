@@ -1,0 +1,5991 @@
+{
+  "TagHUD": {
+    "enabled": true,
+    "entries": [
+      {
+        "enabled": true,
+        "path": "Controller",
+        "class": "LocalScript"
+      },
+      {
+        "enabled": true,
+        "path": "SprintController",
+        "class": "LocalScript"
+      },
+      {
+        "enabled": true,
+        "path": "ReusableSkinController",
+        "class": "LocalScript"
+      },
+      {
+        "visible": true,
+        "path": "Top",
+        "position": [
+          0.5,
+          0,
+          0.024000000208616257,
+          0
+        ],
+        "z": 1,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.4399999976158142,
+          0,
+          0.14000000059604645,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Top.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Top.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "Top.SizeLimit"
+      },
+      {
+        "visible": true,
+        "path": "Top.Title",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "TAG, YOU'RE IT!",
+        "position": [
+          0.03500000014901161,
+          0,
+          0.03500000014901161,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.6499999761581421,
+          0,
+          0.27000001072883606,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Top.Title.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Top.Title.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Top.Timer",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "3:00",
+        "position": [
+          0.7300000190734863,
+          0,
+          0.07000000029802322,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.23499999940395355,
+          0,
+          0.4699999988079071,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Top.Timer.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Top.Timer.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Top.TaggerChip",
+        "position": [
+          0.03500000014901161,
+          0,
+          0.3400000035762787,
+          0
+        ],
+        "z": 2,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.6499999761581421,
+          0,
+          0.28999999165534973,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Top.TaggerChip.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Top.TaggerChip.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "Top.TaggerChip.Name",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "IT: PLAYER",
+        "position": [
+          0.03500000014901161,
+          0,
+          0.07000000029802322,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9300000071525574,
+          0,
+          0.8500000238418579,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Top.TaggerChip.Name.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Top.TaggerChip.Name.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Top.TaggerChip.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://96220174131051",
+        "z": 2,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Top.Rule",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "LEAST TIME AS IT = SAFER",
+        "position": [
+          0.03500000014901161,
+          0,
+          0.7200000286102295,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9300000071525574,
+          0,
+          0.20999999344348907,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Top.Rule.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Top.Rule.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Top.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://101957206313654",
+        "z": 1,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Countdown",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "3",
+        "position": [
+          0.25,
+          0,
+          0.3400000035762787,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.5,
+          0,
+          0.23999999463558197,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Countdown.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Countdown.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "enabled": true,
+        "path": "Countdown.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "Role",
+        "position": [
+          0.02500000037252903,
+          0,
+          0.9549999833106995,
+          0
+        ],
+        "z": 1,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.23000000417232513,
+          0,
+          0.08500000089406967,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Role.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Role.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "Role.SizeLimit"
+      },
+      {
+        "visible": true,
+        "path": "Role.Title",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "RUNNER",
+        "position": [
+          0.03999999910593033,
+          0,
+          0.07999999821186066,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9200000166893005,
+          0,
+          0.4300000071525574,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Role.Title.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Role.Title.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Role.Time",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "TIME AS IT: 0.0s",
+        "position": [
+          0.03999999910593033,
+          0,
+          0.5899999737739563,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9200000166893005,
+          0,
+          0.2800000011920929,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Role.Time.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Role.Time.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Role.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=90528629970043&version=1",
+        "z": 1,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Protection",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "TAGBACK SHIELD: 2s",
+        "position": [
+          0.5,
+          0,
+          1,
+          -126
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          240,
+          0,
+          16
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Protection.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Protection.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "enabled": true,
+        "path": "Protection.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Controls",
+        "position": [
+          0.5,
+          0,
+          1,
+          -18
+        ],
+        "z": 5,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0,
+          280,
+          0,
+          48
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Controls.Vault",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 6,
+        "text": "VAULT [Q]",
+        "position": [
+          0.5600000023841858,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.20999999344348907,
+          0,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Controls.Vault.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Controls.Vault.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Controls.Vault.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Controls.Vault.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://84589903135132",
+        "z": 6,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Controls.Vault.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 8,
+        "text": "VAULT [Q]",
+        "position": [
+          0.20000000298023224,
+          0,
+          0.18000000715255737,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.6000000238418579,
+          0,
+          0.5699999928474426,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Controls.Vault.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Controls.Vault.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Controls.Dodge",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 6,
+        "text": "DODGE [X]",
+        "position": [
+          0.7900000214576721,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.20999999344348907,
+          0,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Controls.Dodge.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Controls.Dodge.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Controls.Dodge.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Controls.Dodge.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=74934450566926&version=1",
+        "z": 6,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Controls.Dodge.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 8,
+        "text": "DODGE [X]",
+        "position": [
+          0.1084119975566864,
+          0,
+          0.24849100410938263,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.7831860184669495,
+          0,
+          0.456481009721756,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Controls.Dodge.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Controls.Dodge.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "MoveMessage",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "",
+        "position": [
+          0.5,
+          0,
+          1,
+          -126
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          280,
+          0,
+          16
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "MoveMessage.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "MoveMessage.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "enabled": true,
+        "path": "MoveMessage.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "Results",
+        "position": [
+          0.5,
+          0,
+          0.4699999988079071,
+          0
+        ],
+        "z": 10,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.5600000023841858,
+          0,
+          0.38999998569488525,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Results.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Results.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "Results.SizeLimit"
+      },
+      {
+        "visible": true,
+        "path": "Results.Title",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 11,
+        "text": "YOU WIN!",
+        "position": [
+          0.03999999910593033,
+          0,
+          0.05999999865889549,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9200000166893005,
+          0,
+          0.25,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Results.Title.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Results.Title.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Results.Loser",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 11,
+        "text": "MOST TIME AS IT: PLAYER",
+        "position": [
+          0.07000000029802322,
+          0,
+          0.36000001430511475,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8600000143051147,
+          0,
+          0.1899999976158142,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Results.Loser.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Results.Loser.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Results.WinnersScroll",
+        "position": [
+          0.06499999761581421,
+          0,
+          0.6100000143051147,
+          0
+        ],
+        "z": 11,
+        "class": "ScrollingFrame",
+        "bg": 1,
+        "size": [
+          0.8700000047683716,
+          0,
+          0.3100000023841858,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Results.WinnersScroll.Winners",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": false,
+        "textSize": 20,
+        "trans": 0,
+        "z": 14,
+        "text": "Winners",
+        "position": [
+          0.019999999552965164,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9599999785423279,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Results.WinnersScroll.Winners.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Results.WinnersScroll.Winners.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Results.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 10,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel",
+        "position": [
+          0.5,
+          0,
+          1,
+          -18
+        ],
+        "z": 4,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0,
+          280,
+          0,
+          100
+        ]
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Meter",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 5,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          0,
+          44
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "SprintPanel.Meter.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "SprintPanel.Meter.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Meter.Role",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 6,
+        "text": "RUNNER",
+        "position": [
+          0,
+          10,
+          0,
+          4
+        ],
+        "bg": 1,
+        "size": [
+          0.550000011920929,
+          0,
+          0,
+          17
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "SprintPanel.Meter.Role.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "SprintPanel.Meter.Role.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Meter.Time",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 6,
+        "text": "IT: 0.0s",
+        "position": [
+          0,
+          10,
+          0,
+          20
+        ],
+        "bg": 1,
+        "size": [
+          0.550000011920929,
+          0,
+          0,
+          12
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "SprintPanel.Meter.Time.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "SprintPanel.Meter.Time.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Meter.Charge",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 6,
+        "text": "10.0s",
+        "position": [
+          1,
+          -94,
+          0,
+          6
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          83,
+          0,
+          22
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "SprintPanel.Meter.Charge.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "SprintPanel.Meter.Charge.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Meter.Track",
+        "position": [
+          0,
+          10,
+          0,
+          34
+        ],
+        "z": 6,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          -20,
+          0,
+          6
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "SprintPanel.Meter.Track.Corner"
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Meter.Track.Fill",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 7,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "SprintPanel.Meter.Track.Fill.Corner"
+      },
+      {
+        "class": "UIGradient",
+        "path": "SprintPanel.Meter.Track.Fill.Progress"
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Meter.Track.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://79098948711056",
+        "z": 6,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Meter.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Sprint",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "SPRINT\nHOLD SHIFT",
+        "position": [
+          0,
+          0,
+          0,
+          52
+        ],
+        "bg": 1,
+        "size": [
+          0.5199999809265137,
+          0,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "SprintPanel.Sprint.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "SprintPanel.Sprint.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "SprintPanel.Sprint.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Sprint.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://79619462665867",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "SprintPanel.Sprint.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "SPRINT\nHOLD SHIFT",
+        "position": [
+          0.05447300150990486,
+          0,
+          0.18707400560379028,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8910589814186096,
+          0,
+          0.5679510235786438,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "SprintPanel.Sprint.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "SprintPanel.Sprint.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "enabled": true,
+        "path": "BackgroundFallbackController",
+        "class": "LocalScript"
+      }
+    ]
+  },
+  "BritishBulldogHUD": {
+    "enabled": true,
+    "entries": [
+      {
+        "enabled": true,
+        "path": "Controller",
+        "class": "LocalScript"
+      },
+      {
+        "enabled": true,
+        "path": "MovementController",
+        "class": "LocalScript"
+      },
+      {
+        "enabled": true,
+        "path": "ReusableSkinController",
+        "class": "LocalScript"
+      },
+      {
+        "visible": true,
+        "path": "TopCard",
+        "position": [
+          0.5,
+          0,
+          0.02500000037252903,
+          0
+        ],
+        "z": 2,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.4399999976158142,
+          0,
+          0.125,
+          0
+        ]
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "TopCard.SizeLimit"
+      },
+      {
+        "visible": false,
+        "path": "TopCard.Shadow",
+        "position": [
+          0,
+          0,
+          0,
+          5
+        ],
+        "z": 2,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "TopCard.Shadow.Corner"
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 3,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "TopCard.Panel.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.GameTitle",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "BRITISH BULLDOG",
+        "position": [
+          0.03500000014901161,
+          0,
+          0.05999999865889549,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9300000071525574,
+          0,
+          0.20000000298023224,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "TopCard.Panel.GameTitle.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.GameTitle.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.BulldogChip",
+        "position": [
+          0.02500000037252903,
+          0,
+          0.3499999940395355,
+          0
+        ],
+        "z": 4,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.30000001192092896,
+          0,
+          0.47999998927116394,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "TopCard.Panel.BulldogChip.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.BulldogChip.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.BulldogChip.Count",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "1",
+        "position": [
+          0.03500000014901161,
+          0,
+          0.07000000029802322,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.28999999165534973,
+          0,
+          0.8700000047683716,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "TopCard.Panel.BulldogChip.Count.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.BulldogChip.Count.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.BulldogChip.Caption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 6,
+        "text": "BULLDOG",
+        "position": [
+          0.07102300226688385,
+          0,
+          0.18000000715255737,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8579549789428711,
+          0,
+          0.5699999928474426,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "TopCard.Panel.BulldogChip.Caption.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.BulldogChip.Caption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.BulldogChip.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://96220174131051",
+        "z": 4,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.RunnerChip",
+        "position": [
+          0.675000011920929,
+          0,
+          0.3499999940395355,
+          0
+        ],
+        "z": 4,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.30000001192092896,
+          0,
+          0.47999998927116394,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "TopCard.Panel.RunnerChip.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.RunnerChip.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.RunnerChip.Count",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "23",
+        "position": [
+          0.03500000014901161,
+          0,
+          0.07000000029802322,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.28999999165534973,
+          0,
+          0.8700000047683716,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "TopCard.Panel.RunnerChip.Count.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.RunnerChip.Count.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.RunnerChip.Caption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 6,
+        "text": "RUNNERS",
+        "position": [
+          0.07102300226688385,
+          0,
+          0.18000000715255737,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8579549789428711,
+          0,
+          0.5699999928474426,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "TopCard.Panel.RunnerChip.Caption.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.RunnerChip.Caption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.RunnerChip.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=90528629970043&version=1",
+        "z": 4,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.Timer",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "3:00",
+        "position": [
+          0.3499999940395355,
+          0,
+          0.28999999165534973,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.30000001192092896,
+          0,
+          0.47999998927116394,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "TopCard.Panel.Timer.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.Timer.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.PhaseLabel",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "CROSSING 1",
+        "position": [
+          0.3400000035762787,
+          0,
+          0.7900000214576721,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.3199999928474426,
+          0,
+          0.1599999964237213,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "TopCard.Panel.PhaseLabel.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "TopCard.Panel.PhaseLabel.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "TopCard.Panel.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 3,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Countdown",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 20,
+        "text": "3",
+        "position": [
+          0.22499999403953552,
+          0,
+          0.3199999928474426,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.550000011920929,
+          0,
+          0.23999999463558197,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Countdown.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Countdown.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "enabled": true,
+        "path": "Countdown.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "RolePill",
+        "position": [
+          0.03500000014901161,
+          0,
+          0.9649999737739563,
+          0
+        ],
+        "z": 2,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.23000000417232513,
+          0,
+          0.06199999898672104,
+          0
+        ]
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "RolePill.SizeLimit"
+      },
+      {
+        "visible": false,
+        "path": "RolePill.Shadow",
+        "position": [
+          0,
+          0,
+          0,
+          5
+        ],
+        "z": 2,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "RolePill.Shadow.Corner"
+      },
+      {
+        "visible": true,
+        "path": "RolePill.Panel",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 3,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "RolePill.Panel.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "RolePill.Panel.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "RolePill.Panel.RoleLabel",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 4,
+        "text": "RUNNER",
+        "position": [
+          0.05999999865889549,
+          0,
+          0.11999999731779099,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8799999952316284,
+          0,
+          0.7699999809265137,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "RolePill.Panel.RoleLabel.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "RolePill.Panel.RoleLabel.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "RolePill.Panel.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=90528629970043&version=1",
+        "z": 3,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Departure",
+        "position": [
+          0.5,
+          0,
+          1,
+          -146
+        ],
+        "z": 7,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.3400000035762787,
+          0,
+          0.09200000017881393,
+          0
+        ]
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "Departure.SizeLimit"
+      },
+      {
+        "visible": false,
+        "path": "Departure.Shadow",
+        "position": [
+          0,
+          0,
+          0,
+          5
+        ],
+        "z": 7,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Departure.Shadow.Corner"
+      },
+      {
+        "visible": true,
+        "path": "Departure.Panel",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 8,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Departure.Panel.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Departure.Panel.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "Departure.Panel.Prompt",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 9,
+        "text": "LEAVE SAFE ZONE",
+        "position": [
+          0.03999999910593033,
+          0,
+          0.11999999731779099,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.7200000286102295,
+          0,
+          0.7799999713897705,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Departure.Panel.Prompt.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Departure.Panel.Prompt.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Departure.Panel.SecondsBadge",
+        "position": [
+          0.7950000166893005,
+          0,
+          0.11999999731779099,
+          0
+        ],
+        "z": 9,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.17499999701976776,
+          0,
+          0.7400000095367432,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Departure.Panel.SecondsBadge.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Departure.Panel.SecondsBadge.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "Departure.Panel.SecondsBadge.Seconds",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 10,
+        "text": "5",
+        "position": [
+          0.10000000149011612,
+          0,
+          0.07999999821186066,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.800000011920929,
+          0,
+          0.8399999737739563,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Departure.Panel.SecondsBadge.Seconds.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Departure.Panel.SecondsBadge.Seconds.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Departure.Panel.SecondsBadge.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://80217215544210",
+        "z": 9,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Departure.Panel.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://84589903135132",
+        "z": 8,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Tagged",
+        "position": [
+          0.5,
+          0,
+          1,
+          -18
+        ],
+        "z": 7,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.28999999165534973,
+          0,
+          0,
+          74
+        ]
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "Tagged.SizeLimit"
+      },
+      {
+        "visible": false,
+        "path": "Tagged.Shadow",
+        "position": [
+          0,
+          0,
+          0,
+          5
+        ],
+        "z": 7,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Tagged.Shadow.Corner"
+      },
+      {
+        "visible": true,
+        "path": "Tagged.Panel",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 8,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Tagged.Panel.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Tagged.Panel.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "Tagged.Panel.Title",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 9,
+        "text": "TAGGED",
+        "position": [
+          0.05999999865889549,
+          0,
+          0.07000000029802322,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8799999952316284,
+          0,
+          0.5400000214576721,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Tagged.Panel.Title.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Tagged.Panel.Title.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Tagged.Panel.Status",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 9,
+        "text": "FROZEN",
+        "position": [
+          0.05999999865889549,
+          0,
+          0.6499999761581421,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8799999952316284,
+          0,
+          0.23999999463558197,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Tagged.Panel.Status.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Tagged.Panel.Status.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Tagged.Panel.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://84589903135132",
+        "z": 8,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Results",
+        "position": [
+          0.5,
+          0,
+          0.44999998807907104,
+          0
+        ],
+        "z": 12,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.550000011920929,
+          0,
+          0.30000001192092896,
+          0
+        ]
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "Results.SizeLimit"
+      },
+      {
+        "visible": false,
+        "path": "Results.Shadow",
+        "position": [
+          0,
+          0,
+          0,
+          5
+        ],
+        "z": 12,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Results.Shadow.Corner"
+      },
+      {
+        "visible": true,
+        "path": "Results.Panel",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 13,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Results.Panel.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Results.Panel.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "Results.Panel.RoundLabel",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 14,
+        "text": "ROUND FINISHED",
+        "position": [
+          0.07999999821186066,
+          0,
+          0.10000000149011612,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8399999737739563,
+          0,
+          0.12999999523162842,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Results.Panel.RoundLabel.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Results.Panel.RoundLabel.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Results.Panel.Title",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 14,
+        "text": "SURVIVORS WIN!",
+        "position": [
+          0.03999999910593033,
+          0,
+          0.2800000011920929,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9200000166893005,
+          0,
+          0.30000001192092896,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Results.Panel.Title.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Results.Panel.Title.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Results.Panel.WinnersScroll",
+        "position": [
+          0.07500000298023224,
+          0,
+          0.6299999952316284,
+          0
+        ],
+        "z": 14,
+        "class": "ScrollingFrame",
+        "bg": 1,
+        "size": [
+          0.8500000238418579,
+          0,
+          0.28999999165534973,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Results.Panel.WinnersScroll.Winners",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": false,
+        "textSize": 20,
+        "trans": 0,
+        "z": 15,
+        "text": "Player names",
+        "position": [
+          0.029999999329447746,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9399999976158142,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Results.Panel.WinnersScroll.Winners.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Results.Panel.WinnersScroll.Winners.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Results.Panel.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 13,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "MovementControls",
+        "position": [
+          0.5,
+          0,
+          1,
+          -18
+        ],
+        "z": 4,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.44999998807907104,
+          0,
+          0,
+          110
+        ]
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "MovementControls.SizeLimit"
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Meter",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 5,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "MovementControls.Meter.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.Meter.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Meter.Role",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 6,
+        "text": "RUNNER",
+        "position": [
+          0,
+          12,
+          0,
+          4
+        ],
+        "bg": 1,
+        "size": [
+          0.5199999809265137,
+          0,
+          0,
+          18
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "MovementControls.Meter.Role.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.Meter.Role.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Meter.Charge",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 6,
+        "text": "10.0s / 10s",
+        "position": [
+          1,
+          -120,
+          0,
+          5
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          107,
+          0,
+          17
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "MovementControls.Meter.Charge.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.Meter.Charge.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Meter.Track",
+        "position": [
+          0,
+          12,
+          0,
+          29
+        ],
+        "z": 6,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          -24,
+          0,
+          10
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "MovementControls.Meter.Track.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.Meter.Track.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Meter.Track.Fill",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 7,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "MovementControls.Meter.Track.Fill.Corner"
+      },
+      {
+        "class": "UIGradient",
+        "path": "MovementControls.Meter.Track.Fill.Progress"
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Meter.Track.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://79098948711056",
+        "z": 6,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Meter.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Sprint",
+        "color": "0.105882, 0.164706, 0.207843",
+        "class": "TextButton",
+        "scaled": false,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "",
+        "position": [
+          0,
+          0,
+          0,
+          60
+        ],
+        "bg": 1,
+        "size": [
+          0.5199999809265137,
+          0,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "MovementControls.Sprint.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "MovementControls.Sprint.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Sprint.Caption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "SPRINT\nHOLD SHIFT",
+        "position": [
+          0.2922162413597107,
+          0,
+          0.15096700191497803,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.5788317322731018,
+          0,
+          0.6334829926490784,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "MovementControls.Sprint.Caption.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.Sprint.Caption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Sprint.Icon",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=137538759579588&version=1",
+        "z": 6,
+        "trans": 0,
+        "position": [
+          0.12895600497722626,
+          0,
+          0.4677084982395172,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.12615564465522766,
+          0,
+          0.4434381127357483,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "MovementControls.Sprint.IconFallback",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 6,
+        "text": "ϟ",
+        "position": [
+          0,
+          5,
+          0,
+          5
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          28,
+          0,
+          30
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "MovementControls.Sprint.IconFallback.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.Sprint.IconFallback.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Sprint.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://79619462665867",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Dodge",
+        "color": "0.105882, 0.164706, 0.207843",
+        "class": "TextButton",
+        "scaled": false,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "",
+        "position": [
+          0.5600000023841858,
+          0,
+          0,
+          60
+        ],
+        "bg": 1,
+        "size": [
+          0.25,
+          0,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "MovementControls.Dodge.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "MovementControls.Dodge.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Dodge.Caption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "DODGE\n[E]",
+        "position": [
+          0.3091326951980591,
+          0,
+          0.15096700191497803,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.5317143201828003,
+          0,
+          0.6334829926490784,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "MovementControls.Dodge.Caption.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.Dodge.Caption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Dodge.Icon",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://82562570109435",
+        "z": 6,
+        "trans": 0,
+        "position": [
+          0.1591619998216629,
+          0,
+          0.4677084982395172,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.11588644981384277,
+          0,
+          0.4434381127357483,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "MovementControls.Dodge.IconFallback",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 6,
+        "text": "↔",
+        "position": [
+          0,
+          5,
+          0,
+          5
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          28,
+          0,
+          30
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "MovementControls.Dodge.IconFallback.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.Dodge.IconFallback.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.Dodge.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=74934450566926&version=1",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "MovementControls.EscapeBoost",
+        "position": [
+          0.8399999737739563,
+          0,
+          0,
+          60
+        ],
+        "z": 5,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.1599999964237213,
+          0,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "MovementControls.EscapeBoost.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.EscapeBoost.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.EscapeBoost.Caption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "2×\nBOOST",
+        "position": [
+          0.20000000298023224,
+          0,
+          0.18000000715255737,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.6000000238418579,
+          0,
+          0.5699999928474426,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "MovementControls.EscapeBoost.Caption.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "MovementControls.EscapeBoost.Caption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "MovementControls.EscapeBoost.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://84589903135132",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "CompactDeparture",
+        "position": [
+          0,
+          16,
+          1,
+          -140
+        ],
+        "z": 7,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0,
+          115,
+          0,
+          52
+        ]
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "CompactDeparture.SizeLimit"
+      },
+      {
+        "visible": false,
+        "path": "CompactDeparture.Shadow",
+        "position": [
+          0,
+          0,
+          0,
+          5
+        ],
+        "z": 7,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "CompactDeparture.Shadow.Corner"
+      },
+      {
+        "visible": true,
+        "path": "CompactDeparture.Panel",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 8,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "CompactDeparture.Panel.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "CompactDeparture.Panel.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "CompactDeparture.Panel.Prompt",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 9,
+        "text": "LEAVE!",
+        "position": [
+          0.03999999910593033,
+          0,
+          0.11999999731779099,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.7200000286102295,
+          0,
+          0.7799999713897705,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "CompactDeparture.Panel.Prompt.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "CompactDeparture.Panel.Prompt.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "CompactDeparture.Panel.SecondsBadge",
+        "position": [
+          0.7950000166893005,
+          0,
+          0.11999999731779099,
+          0
+        ],
+        "z": 9,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.17499999701976776,
+          0,
+          0.7400000095367432,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "CompactDeparture.Panel.SecondsBadge.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "CompactDeparture.Panel.SecondsBadge.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "CompactDeparture.Panel.SecondsBadge.Seconds",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 10,
+        "text": "5",
+        "position": [
+          0.10000000149011612,
+          0,
+          0.07999999821186066,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.800000011920929,
+          0,
+          0.8399999737739563,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "CompactDeparture.Panel.SecondsBadge.Seconds.TextSizeLimit"
+      },
+      {
+        "enabled": true,
+        "path": "CompactDeparture.Panel.SecondsBadge.Seconds.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "CompactDeparture.Panel.SecondsBadge.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://80217215544210",
+        "z": 9,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "CompactDeparture.Panel.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://84589903135132",
+        "z": 8,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "enabled": true,
+        "path": "BackgroundFallbackController",
+        "class": "LocalScript"
+      }
+    ]
+  },
+  "MudHUD": {
+    "enabled": true,
+    "entries": [
+      {
+        "enabled": true,
+        "path": "Controller",
+        "class": "LocalScript"
+      },
+      {
+        "enabled": true,
+        "path": "ReusableSkinController",
+        "class": "LocalScript"
+      },
+      {
+        "visible": true,
+        "path": "Main",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 1,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Top",
+        "position": [
+          0.5,
+          0,
+          0,
+          68
+        ],
+        "z": 4,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.4399999976158142,
+          0,
+          0,
+          74
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Top.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Top.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "Main.Top.SizeLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.Top.Title",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "STUCK IN THE MUD",
+        "position": [
+          0.03999999910593033,
+          0,
+          0.029999999329447746,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9200000166893005,
+          0,
+          0.25,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Top.Title.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Top.Title.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Top.Team",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "BLUE\n2 / 2 FREE",
+        "position": [
+          0.02500000037252903,
+          0,
+          0.3700000047683716,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.30000001192092896,
+          0,
+          0.47999998927116394,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Top.Team.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "Main.Top.Team.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Top.Team.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.Top.Team.TeamColour",
+        "position": [
+          0.04500000178813934,
+          0,
+          0.20999999344348907,
+          0
+        ],
+        "z": 8,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          0.03500000014901161,
+          0,
+          0.5799999833106995,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Top.Team.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://99627483715711",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Top.Team.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "BLUE\n2 / 2 FREE",
+        "position": [
+          0.05496799945831299,
+          0,
+          0.15581800043582916,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.890064001083374,
+          0,
+          0.6240730285644531,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Top.Team.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Top.Team.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Top.Timer",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "5:00",
+        "position": [
+          0.3499999940395355,
+          0,
+          0.2800000011920929,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.30000001192092896,
+          0,
+          0.5299999713897705,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Top.Timer.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Top.Timer.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Top.Other",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "TEAMS LEFT: 2",
+        "position": [
+          0.6800000071525574,
+          0,
+          0.38999998569488525,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.28999999165534973,
+          0,
+          0.41999998688697815,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Top.Other.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Top.Other.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Top.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://109325368182066",
+        "z": 4,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls",
+        "position": [
+          0.5,
+          0,
+          1,
+          -18
+        ],
+        "z": 1,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0,
+          280,
+          0,
+          146
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Meter",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 4,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          0,
+          36
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Controls.Meter.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Controls.Meter.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Meter.Charge",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "SPRINT 10.0s / 10s",
+        "position": [
+          0,
+          10,
+          0,
+          3
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          -20,
+          0,
+          19
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Controls.Meter.Charge.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Controls.Meter.Charge.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Meter.Track",
+        "position": [
+          0,
+          10,
+          0,
+          26
+        ],
+        "z": 5,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          -20,
+          0,
+          6
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Controls.Meter.Track.Corner"
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Meter.Track.Fill",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 6,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Controls.Meter.Track.Fill.Corner"
+      },
+      {
+        "class": "UIGradient",
+        "path": "Main.Controls.Meter.Track.Fill.Progress"
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Meter.Track.Fill.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://106278292753740",
+        "z": 6,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UIGradient",
+        "path": "Main.Controls.Meter.Track.Fill.ReusableSkin.Progress"
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Meter.Track.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://79098948711056",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Meter.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 4,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Mud",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "MUD\n[1]",
+        "position": [
+          0,
+          0,
+          0,
+          44
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          93,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Controls.Mud.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "Main.Controls.Mud.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Controls.Mud.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Mud.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://101482668278578",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Mud.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "MUD\n[1]",
+        "position": [
+          0.2109680026769638,
+          0,
+          0.15186400711536407,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.5780649781227112,
+          0,
+          0.631729006767273,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Controls.Mud.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Controls.Mud.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "Main.Controls.Mud.SelectionMark",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 8,
+        "text": "✓",
+        "position": [
+          1,
+          -5,
+          0,
+          4
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          18,
+          0,
+          18
+        ]
+      },
+      {
+        "enabled": true,
+        "path": "Main.Controls.Mud.SelectionMark.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Heat",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "HEAT\n[2]",
+        "position": [
+          0,
+          100,
+          0,
+          44
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          93,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Controls.Heat.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "Main.Controls.Heat.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Controls.Heat.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Heat.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://85672323707215",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Heat.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "HEAT\n[2]",
+        "position": [
+          0.2109680026769638,
+          0,
+          0.15186400711536407,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.5780649781227112,
+          0,
+          0.631729006767273,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Controls.Heat.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Controls.Heat.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "Main.Controls.Heat.SelectionMark",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 8,
+        "text": "✓",
+        "position": [
+          1,
+          -5,
+          0,
+          4
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          18,
+          0,
+          18
+        ]
+      },
+      {
+        "enabled": true,
+        "path": "Main.Controls.Heat.SelectionMark.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Fire",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "SPLAT!",
+        "position": [
+          0,
+          200,
+          0,
+          44
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          80,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Controls.Fire.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "Main.Controls.Fire.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Controls.Fire.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Fire.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://76136999456653",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Fire.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "SPLAT!",
+        "position": [
+          0.164000004529953,
+          0,
+          0.15186400711536407,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.671999990940094,
+          0,
+          0.631729006767273,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Controls.Fire.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Controls.Fire.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Sprint",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "SPRINT · HOLD SHIFT",
+        "position": [
+          0,
+          0,
+          0,
+          98
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          280,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Controls.Sprint.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "Main.Controls.Sprint.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Controls.Sprint.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Sprint.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://105970197468128",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Controls.Sprint.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "SPRINT · HOLD SHIFT",
+        "position": [
+          0.12666499614715576,
+          0,
+          0.15008200705051422,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.7466700077056885,
+          0,
+          0.6351799964904785,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Controls.Sprint.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Controls.Sprint.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "Main.Frozen",
+        "position": [
+          0.5,
+          0,
+          1,
+          -18
+        ],
+        "z": 4,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0,
+          280,
+          0,
+          96
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Frozen.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Frozen.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "Main.Frozen.Title",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "STUCK IN THE MUD!",
+        "position": [
+          0,
+          8,
+          0,
+          6
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          -16,
+          0,
+          28
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Frozen.Title.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Frozen.Title.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Frozen.Status",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "TEAMMATE HEAT: 0.0 / 5s",
+        "position": [
+          0,
+          10,
+          0,
+          39
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          -20,
+          0,
+          22
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Frozen.Status.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Frozen.Status.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Frozen.RescueTrack",
+        "position": [
+          0,
+          12,
+          0,
+          73
+        ],
+        "z": 5,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          -24,
+          0,
+          10
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Frozen.RescueTrack.Corner"
+      },
+      {
+        "visible": true,
+        "path": "Main.Frozen.RescueTrack.Fill",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 6,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Frozen.RescueTrack.Fill.Corner"
+      },
+      {
+        "class": "UIGradient",
+        "path": "Main.Frozen.RescueTrack.Fill.Progress"
+      },
+      {
+        "visible": true,
+        "path": "Main.Frozen.RescueTrack.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://79098948711056",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Frozen.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 4,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Main.Countdown",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "3",
+        "position": [
+          0.5,
+          -110,
+          0.5,
+          -60
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          220,
+          0,
+          120
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Countdown.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Countdown.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "enabled": true,
+        "path": "Main.Countdown.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Crosshair",
+        "position": [
+          0.5,
+          0,
+          0.5,
+          0
+        ],
+        "z": 1,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0,
+          14,
+          0,
+          14
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Crosshair.Horizontal",
+        "position": [
+          0,
+          0,
+          0,
+          6
+        ],
+        "z": 1,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          0,
+          14,
+          0,
+          2
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.Crosshair.Vertical",
+        "position": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "z": 1,
+        "class": "Frame",
+        "bg": 0,
+        "size": [
+          0,
+          2,
+          0,
+          14
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Main.Results",
+        "position": [
+          0.5,
+          0,
+          0.5199999809265137,
+          0
+        ],
+        "z": 10,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0.6499999761581421,
+          0,
+          0,
+          190
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.Results.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Results.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UISizeConstraint",
+        "path": "Main.Results.SizeLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.Results.Title",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 11,
+        "text": "YOUR TEAM WINS!",
+        "position": [
+          0.03999999910593033,
+          0,
+          0.07000000029802322,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.9200000166893005,
+          0,
+          0.27000001072883606,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Results.Title.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Results.Title.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Results.Reason",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 11,
+        "text": "EVERY OPPONENT IS STUCK",
+        "position": [
+          0.05000000074505806,
+          0,
+          0.3799999952316284,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8999999761581421,
+          0,
+          0.1599999964237213,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Results.Reason.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Results.Reason.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Results.Rewards",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 11,
+        "text": "+150 COINS · +50 XP",
+        "position": [
+          0.05000000074505806,
+          0,
+          0.6299999952316284,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.8999999761581421,
+          0,
+          0.23999999463558197,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.Results.Rewards.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.Results.Rewards.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.Results.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://119245491839469",
+        "z": 10,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Main.DesktopControls",
+        "position": [
+          1,
+          -24,
+          1,
+          -24
+        ],
+        "z": 1,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0,
+          280,
+          0,
+          98
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Meter",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 4,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          0,
+          36
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.DesktopControls.Meter.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "Main.DesktopControls.Meter.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Meter.Charge",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 5,
+        "text": "SPRINT 10.0s / 10s",
+        "position": [
+          0,
+          10,
+          0,
+          3
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          -20,
+          0,
+          19
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.DesktopControls.Meter.Charge.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "Main.DesktopControls.Meter.Charge.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Meter.Track",
+        "position": [
+          0,
+          10,
+          0,
+          26
+        ],
+        "z": 5,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          -20,
+          0,
+          6
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.DesktopControls.Meter.Track.Corner"
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Meter.Track.Fill",
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "z": 6,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.DesktopControls.Meter.Track.Fill.Corner"
+      },
+      {
+        "class": "UIGradient",
+        "path": "Main.DesktopControls.Meter.Track.Fill.Progress"
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Meter.Track.Fill.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://106278292753740",
+        "z": 6,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "class": "UIGradient",
+        "path": "Main.DesktopControls.Meter.Track.Fill.ReusableSkin.Progress"
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Meter.Track.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://79098948711056",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Meter.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 4,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": false,
+        "path": "Main.DesktopControls.Mud",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "MUD\n[1]",
+        "position": [
+          0,
+          0,
+          0,
+          44
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          93,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.DesktopControls.Mud.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "Main.DesktopControls.Mud.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.DesktopControls.Mud.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Mud.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://101482668278578",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Mud.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "MUD\n[1]",
+        "position": [
+          0.2109680026769638,
+          0,
+          0.15186400711536407,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.5780649781227112,
+          0,
+          0.631729006767273,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.DesktopControls.Mud.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Main.DesktopControls.Mud.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "Main.DesktopControls.Mud.SelectionMark",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 8,
+        "text": "✓",
+        "position": [
+          1,
+          -5,
+          0,
+          4
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          18,
+          0,
+          18
+        ]
+      },
+      {
+        "enabled": true,
+        "path": "Main.DesktopControls.Mud.SelectionMark.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "Main.DesktopControls.Heat",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "HEAT\n[2]",
+        "position": [
+          0,
+          100,
+          0,
+          44
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          93,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.DesktopControls.Heat.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "Main.DesktopControls.Heat.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.DesktopControls.Heat.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Heat.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://85672323707215",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Heat.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "HEAT\n[2]",
+        "position": [
+          0.2109680026769638,
+          0,
+          0.15186400711536407,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.5780649781227112,
+          0,
+          0.631729006767273,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.DesktopControls.Heat.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Main.DesktopControls.Heat.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "Main.DesktopControls.Heat.SelectionMark",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 8,
+        "text": "✓",
+        "position": [
+          1,
+          -5,
+          0,
+          4
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          18,
+          0,
+          18
+        ]
+      },
+      {
+        "enabled": true,
+        "path": "Main.DesktopControls.Heat.SelectionMark.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "Main.DesktopControls.Fire",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "SPLAT!",
+        "position": [
+          0,
+          200,
+          0,
+          44
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          80,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.DesktopControls.Fire.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "Main.DesktopControls.Fire.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.DesktopControls.Fire.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Fire.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://76136999456653",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Fire.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "SPLAT!",
+        "position": [
+          0.164000004529953,
+          0,
+          0.15186400711536407,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.671999990940094,
+          0,
+          0.631729006767273,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.DesktopControls.Fire.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Main.DesktopControls.Fire.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Sprint",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "SPRINT · HOLD SHIFT",
+        "position": [
+          0,
+          0,
+          0,
+          44
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          280,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "Main.DesktopControls.Sprint.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "Main.DesktopControls.Sprint.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.DesktopControls.Sprint.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Sprint.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://105970197468128",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "Main.DesktopControls.Sprint.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "SPRINT · HOLD SHIFT",
+        "position": [
+          0.12666499614715576,
+          0,
+          0.15008200705051422,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.7466700077056885,
+          0,
+          0.6351799964904785,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "Main.DesktopControls.Sprint.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "Main.DesktopControls.Sprint.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "ColourToggle",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 5,
+        "text": "TEAM",
+        "position": [
+          -0.1991499364376068,
+          300,
+          0.7874870300292969,
+          -62
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          44,
+          0,
+          44
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "ColourToggle.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "ColourToggle.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourToggle.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "ColourToggle.ReusableSkin",
+        "loaded": true,
+        "class": "ImageLabel",
+        "image": "rbxassetid://76085140373018",
+        "z": 5,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "ColourToggle.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 7,
+        "text": "TEAM",
+        "position": [
+          0.1692499965429306,
+          0,
+          0.19791699945926666,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.6614999771118164,
+          0,
+          0.5475000143051147,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourToggle.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "ColourToggle.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": false,
+        "path": "ColourPicker",
+        "position": [
+          0.5,
+          0,
+          0.5199999809265137,
+          0
+        ],
+        "z": 20,
+        "class": "Frame",
+        "bg": 1,
+        "size": [
+          0,
+          280,
+          0,
+          138
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "ColourPicker.Corner"
+      },
+      {
+        "enabled": true,
+        "path": "ColourPicker.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Title",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 21,
+        "text": "TEAM COLOUR",
+        "position": [
+          0,
+          10,
+          0,
+          9
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          209,
+          0,
+          24
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Title.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "ColourPicker.Title.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Close",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 22,
+        "text": "X",
+        "position": [
+          0,
+          231,
+          0,
+          6
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          40,
+          0,
+          40
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "ColourPicker.Close.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "ColourPicker.Close.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Close.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Close.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://97965639732992",
+        "z": 22,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Close.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 24,
+        "text": "X",
+        "position": [
+          0.21370400488376617,
+          0,
+          0.15917299687862396,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.5725730061531067,
+          0,
+          0.6175580024719238,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Close.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "ColourPicker.Close.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Red",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 22,
+        "text": "RED",
+        "position": [
+          0,
+          10,
+          0,
+          49
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          60,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "ColourPicker.Red.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "ColourPicker.Red.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Red.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Red.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://107167211958564",
+        "z": 22,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Red.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 24,
+        "text": "RED",
+        "position": [
+          0.19410699605941772,
+          0,
+          0.15096700191497803,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.6118000149726868,
+          0,
+          0.6334829926490784,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Red.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "ColourPicker.Red.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Blue",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 22,
+        "text": "BLUE",
+        "position": [
+          0,
+          76,
+          0,
+          49
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          60,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "ColourPicker.Blue.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "ColourPicker.Blue.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Blue.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Blue.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://121784839709226",
+        "z": 22,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Blue.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 24,
+        "text": "BLUE",
+        "position": [
+          0.13256999850273132,
+          0,
+          0.20685100555419922,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.7348729968070984,
+          0,
+          0.531440019607544,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Blue.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "ColourPicker.Blue.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Green",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 22,
+        "text": "GREEN",
+        "position": [
+          0,
+          142,
+          0,
+          49
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          60,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "ColourPicker.Green.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "ColourPicker.Green.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Green.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Green.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://97920935007600",
+        "z": 22,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Green.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 24,
+        "text": "GREEN",
+        "position": [
+          0.13256999850273132,
+          0,
+          0.20685100555419922,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.7348729968070984,
+          0,
+          0.531440019607544,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Green.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "ColourPicker.Green.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Black",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextButton",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 1,
+        "z": 22,
+        "text": "BLACK",
+        "position": [
+          0,
+          208,
+          0,
+          49
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          60,
+          0,
+          48
+        ]
+      },
+      {
+        "class": "UICorner",
+        "path": "ColourPicker.Black.Corner"
+      },
+      {
+        "enabled": false,
+        "path": "ColourPicker.Black.Outline",
+        "class": "UIStroke",
+        "trans": 1
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Black.TextLimit"
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Black.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://81122790980041",
+        "z": 22,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Black.LiveCaption",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 24,
+        "text": "BLACK",
+        "position": [
+          0.13256999850273132,
+          0,
+          0.20685100555419922,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          0.7348729968070984,
+          0,
+          0.531440019607544,
+          0
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Black.LiveCaption.UITextSizeConstraint"
+      },
+      {
+        "enabled": true,
+        "path": "ColourPicker.Black.LiveCaption.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.Message",
+        "color": "1, 0.976471, 0.878431",
+        "class": "TextLabel",
+        "scaled": true,
+        "textSize": 8,
+        "trans": 0,
+        "z": 21,
+        "text": "Pick a colour for your next team.",
+        "position": [
+          0,
+          10,
+          0,
+          108
+        ],
+        "bg": 1,
+        "size": [
+          0,
+          260,
+          0,
+          21
+        ]
+      },
+      {
+        "class": "UITextSizeConstraint",
+        "path": "ColourPicker.Message.TextLimit"
+      },
+      {
+        "enabled": true,
+        "path": "ColourPicker.Message.TextOutline",
+        "class": "UIStroke",
+        "trans": 0
+      },
+      {
+        "visible": true,
+        "path": "ColourPicker.ReusableSkin",
+        "loaded": false,
+        "class": "ImageLabel",
+        "image": "rbxassetid://109740452241407",
+        "z": 20,
+        "trans": 0,
+        "position": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": 1,
+        "size": [
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "enabled": true,
+        "path": "BackgroundFallbackController",
+        "class": "LocalScript"
+      }
+    ]
+  }
+}

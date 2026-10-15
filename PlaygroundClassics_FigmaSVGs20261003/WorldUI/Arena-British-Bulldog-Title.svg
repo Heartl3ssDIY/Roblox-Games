@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1736" height="204.4" viewBox="0 0 1736 204.4">
+  <title>Arena-British-Bulldog-Title</title>
+  <desc>Editable SVG exported read-only from Roblox Studio. All label text remains live text. Named groups preserve authored UI layers. Surface host color is included as an editable backplate; scene lighting is omitted.</desc>
+  <metadata>{"source": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork", "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[1]/TitleArtwork[1]", "enabled": true, "canvas": [1736, 204.40000534057617], "fontSizeResolution": "Installed Roblox TrueType advance widths with integer size fitting"}</metadata>
+  <g id="Editable-Host-Part-Surface-Backplate">
+    <title>Host part surface color (visual context)</title>
+    <rect x="0" y="0" width="1736" height="204.4" fill="#ffe088" fill-opacity="1" />
+  </g>
+  <g id="TitleArtwork" data-source-enabled="true">
+    <g id="Title-1" data-native-name="Title" data-native-class="TextLabel" data-native-visible="true">
+      <title>Title</title>
+      <text id="EditableText-1" font-family="Luckiest Guy" font-size="100" font-weight="400" font-style="normal" fill="#1b2d3d" fill-opacity="1" text-anchor="middle" xml:space="preserve" data-roblox-font-family="rbxasset://fonts/families/LuckiestGuy.json" data-native-text-scaled="true"><tspan x="868" y="134.2">BRITISH BULLDOG</tspan></text>
+    </g>
+  </g>
+  <metadata id="playground-text-layers">{"version": 1, "texts": [{"name": "Title", "text": "BRITISH BULLDOG", "x": 34.72, "y": 52.2, "width": 1666.56, "height": 100, "fontFamily": "Luckiest Guy", "fontSize": 100, "color": "#1b2d3d", "opacity": 1.0, "strokeColor": null, "strokeWidth": 0.0, "strokeOpacity": 0.0, "align": "CENTER"}]}</metadata>
+</svg>

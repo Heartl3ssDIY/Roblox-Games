@@ -1,0 +1,191 @@
+{
+  "visual_meshes": [
+    {
+      "name": "LT_01_Foundation_Part01",
+      "triangles": 88,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_02_Paving_Part01",
+      "triangles": 108,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_02_Paving_0_Part01",
+      "triangles": 748,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_02_Paving_1_Part01",
+      "triangles": 748,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_02_Paving_2_Part01",
+      "triangles": 748,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_02_Paving_3_Part01",
+      "triangles": 748,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_03_Waterfront_Part01",
+      "triangles": 1256,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_04_Harbor_Water_Part01",
+      "triangles": 12,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_10_West_Block_00_Part01",
+      "triangles": 6718,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_10_West_Block_01_Part01",
+      "triangles": 7094,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_10_West_Block_02_Part01",
+      "triangles": 6466,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_10_West_Block_03_Part01",
+      "triangles": 5708,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_10_East_Block_00_Part01",
+      "triangles": 7600,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_10_East_Block_01_Part01",
+      "triangles": 5960,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_10_East_Block_02_Part01",
+      "triangles": 6214,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_10_East_Block_03_Part01",
+      "triangles": 6212,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_20_Civic_Shell_Part01",
+      "triangles": 6496,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_21_Civic_Windows_Part01",
+      "triangles": 6720,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_30_Execution_Platform_Part01",
+      "triangles": 1804,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_31_West_Fountain_Part01",
+      "triangles": 4056,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_32_East_Fountain_Part01",
+      "triangles": 4056,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_33_Entrance_Sign_Part01",
+      "triangles": 2560,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_34_Market_West_Part01",
+      "triangles": 1232,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_35_Market_East_Part01",
+      "triangles": 1232,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_36_Palms_Part01",
+      "triangles": 2136,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_37_Planter_Trees_Part01",
+      "triangles": 5632,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_38_Garden_Part01",
+      "triangles": 2416,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "LT_39_Street_Furniture_Part01",
+      "triangles": 2688,
+      "uv": true,
+      "zero_area_triangles": 0
+    }
+  ],
+  "studio_import_tested": false,
+  "combat_area": {
+    "minimum": [
+      -32,
+      -32,
+      0.12
+    ],
+    "maximum": [
+      32,
+      32,
+      0.12
+    ],
+    "size": [
+      64,
+      64
+    ]
+  },
+  "collision_meshes": 38,
+  "triangles": 97456
+}

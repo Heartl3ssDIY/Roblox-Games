@@ -1,0 +1,257 @@
+{
+  "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | Basic | Physics | UI | Input | Players | AvatarBehavior",
+  "firstRequireFailure": "The current thread cannot start 'ExactControllerCapabilityFixture' (lacking capability RunServerScript)",
+  "errors": [],
+  "sandboxed": true,
+  "passed": true,
+  "cleaned": true,
+  "nativeToolProbe": true,
+  "temporaryRunServerScript": true,
+  "installedCapabilities": "RunClientScript | AccessOutsideWrite | Basic | Physics | UI | Input | Players | AvatarBehavior",
+  "geometry": [
+    {
+      "viewport": "320, 568",
+      "contained": true,
+      "size": "104, 68",
+      "position": "192, 250"
+    },
+    {
+      "viewport": "375, 667",
+      "contained": true,
+      "size": "104, 68",
+      "position": "247, 299.5"
+    },
+    {
+      "viewport": "568, 320",
+      "contained": true,
+      "size": "104, 68",
+      "position": "440, 126"
+    },
+    {
+      "viewport": "667, 375",
+      "contained": true,
+      "size": "104, 68",
+      "position": "539, 153.5"
+    },
+    {
+      "viewport": "768, 1024",
+      "contained": true,
+      "size": "104, 68",
+      "position": "640, 478"
+    },
+    {
+      "viewport": "1024, 768",
+      "contained": true,
+      "size": "104, 68",
+      "position": "896, 350"
+    },
+    {
+      "viewport": "1366, 767",
+      "contained": true,
+      "size": "104, 68",
+      "position": "1238, 349.5"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Only Activated signal substituted for native click fixture",
+      "passed": true
+    },
+    {
+      "name": "Native GUI and Humanoid accessed inside installed sandbox",
+      "passed": true
+    },
+    {
+      "name": "Native Tool Activate and Deactivate authorized",
+      "passed": true
+    },
+    {
+      "name": "Bulldog Crossing shows touch SWING",
+      "passed": true
+    },
+    {
+      "name": "One tap invokes exactly one Activate and one Deactivate",
+      "passed": true
+    },
+    {
+      "name": "Repeated tap blocked by cooldown",
+      "passed": true
+    },
+    {
+      "name": "Cooldown expires and re-enables",
+      "passed": true
+    },
+    {
+      "name": "Server cooldown blocks even after client cooldown",
+      "passed": true
+    },
+    {
+      "name": "Desktop hides",
+      "passed": true
+    },
+    {
+      "name": "Desktop hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Unready data hides",
+      "passed": true
+    },
+    {
+      "name": "Unready data hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Runner hides",
+      "passed": true
+    },
+    {
+      "name": "Runner hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Lobby hides",
+      "passed": true
+    },
+    {
+      "name": "Lobby hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Mud hides",
+      "passed": true
+    },
+    {
+      "name": "Mud hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Dead humanoid hides",
+      "passed": true
+    },
+    {
+      "name": "Dead humanoid hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Bulldog ragdoll hides",
+      "passed": true
+    },
+    {
+      "name": "Bulldog ragdoll hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Tag ragdoll hides",
+      "passed": true
+    },
+    {
+      "name": "Tag ragdoll hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Wrong game bat hides",
+      "passed": true
+    },
+    {
+      "name": "Wrong game bat hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Unmarked tool hides",
+      "passed": true
+    },
+    {
+      "name": "Unmarked tool hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Disabled tool hides",
+      "passed": true
+    },
+    {
+      "name": "Disabled tool hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Unequipped bat hides",
+      "passed": true
+    },
+    {
+      "name": "Unequipped bat hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Countdown hides",
+      "passed": true
+    },
+    {
+      "name": "Countdown hides cannot invoke Tool",
+      "passed": true
+    },
+    {
+      "name": "Tagger Playing shows touch SWING",
+      "passed": true
+    },
+    {
+      "name": "Tagger tap activates once",
+      "passed": true
+    },
+    {
+      "name": "Open Roblox menu blocks activation",
+      "passed": true
+    },
+    {
+      "name": "Focused text field blocks activation",
+      "passed": true
+    },
+    {
+      "name": "Window loses focus blocks activation",
+      "passed": true
+    },
+    {
+      "name": "Focus restored re-enables",
+      "passed": true
+    },
+    {
+      "name": "Disabled ScreenGui blocks activation",
+      "passed": true
+    },
+    {
+      "name": "Runtime does not rewrite authored geometry",
+      "passed": true
+    },
+    {
+      "name": "Controller cleanup hides button",
+      "passed": true
+    },
+    {
+      "name": "Native geometry fits 320, 568",
+      "passed": true
+    },
+    {
+      "name": "Native geometry fits 375, 667",
+      "passed": true
+    },
+    {
+      "name": "Native geometry fits 568, 320",
+      "passed": true
+    },
+    {
+      "name": "Native geometry fits 667, 375",
+      "passed": true
+    },
+    {
+      "name": "Native geometry fits 768, 1024",
+      "passed": true
+    },
+    {
+      "name": "Native geometry fits 1024, 768",
+      "passed": true
+    },
+    {
+      "name": "Native geometry fits 1366, 767",
+      "passed": true
+    }
+  ]
+}

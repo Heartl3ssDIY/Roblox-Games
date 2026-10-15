@@ -1,0 +1,53 @@
+{
+  "id": "SA02",
+  "name": "Student 02 - Science lab stool",
+  "bodies": [
+    {
+      "id": "SA02_B01",
+      "asset_id": "SA02",
+      "asset": "Student 02 - Science lab stool",
+      "label": "Student 02 - Science lab stool",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.0,
+            0.36204996705055237
+          ],
+          "size": [
+            0.49000000953674316,
+            0.49000000953674316,
+            0.7150999903678894
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.24500000476837158,
+          -0.24500000476837158,
+          0.0044999998062849045
+        ],
+        "max": [
+          0.24500000476837158,
+          0.24500000476837158,
+          0.7195999622344971
+        ]
+      }
+    }
+  ],
+  "mesh_count": 5,
+  "triangles": 8112,
+  "file": "SA02_Student_02_Science_lab_stool.gltf"
+}

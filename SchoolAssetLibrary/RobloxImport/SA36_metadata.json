@@ -1,0 +1,53 @@
+{
+  "id": "SA36",
+  "name": "Evergreen school tree",
+  "bodies": [
+    {
+      "id": "SA36_B01",
+      "asset_id": "SA36",
+      "asset": "Evergreen school tree",
+      "label": "Evergreen school tree",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.0,
+            1.8899999856948853
+          ],
+          "size": [
+            2.3753750324249268,
+            2.3753750324249268,
+            3.7799999713897705
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -1.1876875162124634,
+          -1.1876875162124634,
+          0.0
+        ],
+        "max": [
+          1.1876875162124634,
+          1.1876875162124634,
+          3.7799999713897705
+        ]
+      }
+    }
+  ],
+  "mesh_count": 3,
+  "triangles": 6312,
+  "file": "SA36_Evergreen_school_tree.gltf"
+}

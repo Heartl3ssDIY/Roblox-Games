@@ -1,0 +1,16 @@
+{
+  "playStarted": false,
+  "required": true,
+  "rigs": {
+    "R6": { "success": true },
+    "R15": { "success": true }
+  },
+  "passed": true,
+  "sandboxed": true,
+  "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+  "source": "After candidate with exact live sandbox configuration",
+  "exactLiveCapabilities": true,
+  "temporaryModuleAndRigClonesDestroyed": true,
+  "originalFixturesUnchanged": true,
+  "capabilityChanges": false
+}

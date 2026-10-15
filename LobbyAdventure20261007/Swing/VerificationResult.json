@@ -1,0 +1,9 @@
+{
+  "highlights": 0,
+  "lifecycle": "start, idempotency, stop, connection cleanup passed",
+  "movingParts": 100,
+  "seats": 2,
+  "obstacles": [],
+  "simulation": "Not run: Play remains stopped",
+  "welds": 98
+}

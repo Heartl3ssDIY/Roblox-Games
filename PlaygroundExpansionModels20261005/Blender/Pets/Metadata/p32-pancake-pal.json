@@ -1,0 +1,51 @@
+{
+  "id": "P32",
+  "name": "Pancake Pal",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p32-pancake-pal.png",
+  "brief": "A cute living stack of THREE thick fluffy golden pancakes as one compact pet, glossy caramel syrup draped over the top edge and a pale-yellow butter cube fixed on top. A charming face on the middle pancake, two short creamy arms and two chunky caramel feet. Large navy eyes and tiny smile. No animal hat, no penguin, no plate or utensils.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p32-pancake-pal.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p32-pancake-pal.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p32-pancake-pal-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p32-pancake-pal.png",
+  "parts": 32,
+  "triangles": 17890,
+  "meshes": 1,
+  "maxMeshTriangles": 17890,
+  "dimensions": [
+    2.9600000381469727,
+    2.11899995803833,
+    2.205810308456421
+  ],
+  "boundsMin": [
+    -1.4800000190734863,
+    -1.100000023841858,
+    0.00499996542930603
+  ],
+  "boundsMax": [
+    1.4800000190734863,
+    1.0190000534057617,
+    2.2108101844787598
+  ],
+  "paletteColors": 11,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "ArmL",
+    "LegL",
+    "ArmR",
+    "LegR"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.9600000381469727,
+    2.11899995803833,
+    2.198218584060669
+  ]
+}

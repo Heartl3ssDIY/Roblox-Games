@@ -1,0 +1,22 @@
+Installed server integration
+
+Admin API: Economy:AdminGrantEntitlement(player, "VIP" or "BetaTester") returns boolean, message.
+Player API: ReplicatedStorage.PlaygroundShopRequest:InvokeServer("RedeemCode", {code = "..."}) returns the ordinary status, including ok, message and entitlements.VIP / entitlements.BetaTester.
+
+Persistent manual entitlements merge with verified game passes. Pass refreshes cannot remove an owner-granted VIP. VIP grants apply 3x earned coins and 2x XP; fishing doubles those rates. Beta Tester supplies its label. Dual holders display VIP and BETA TESTER together. Entitlement catalog rules use unlock.kind = "VIP" or "BetaTester".
+
+Code setup: edit ServerScriptService.PlaygroundRedemptionCodes. It is intentionally empty until the owner supplies actual codes. Each key must be uppercase ASCII letters, digits, underscores or hyphens, maximum 32 characters. Clients cannot read this module.
+
+Entry shape (replace CODE_YOU_CHOOSE; this example is not installed):
+return {
+    CODE_YOU_CHOOSE = { Enabled = true, Kind = "BetaTester", ExpiresAt = 0 },
+}
+
+Kinds supported: "BetaTester", "VIP", "Coins". Coin definitions also require Amount = an integer from 1 to 1,000,000. ExpiresAt is a Unix timestamp in seconds; omit it or use 0 for no expiry. Do not reuse an old code key for a new reward, because redeemed markers persist once per player.
+
+Rewards and redemption markers save together in the existing leased profile. Unconfirmed saves remain pending and can be retried without double rewards. Codes are case-insensitive, rate limited to one attempt every two seconds, and unavailable when live player data is offline. Studio uses the game's existing session-only data mode and explains that test grants do not persist.
+
+Verification: 45 new entitlement/code/tag Edit checks, 63 existing fishing checks and 46 existing commerce checks passed. No Play started and no real datastore used by fixtures. No existing execution permissions were broadened. New server-only data module is sandboxed with Basic and RunServerScript only.
+
+Backup: ServerStorage.VIPEntitlementsBackup20261007 plus local Before files.
+

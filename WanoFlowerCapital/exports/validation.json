@@ -1,0 +1,33 @@
+{
+  "visual_meshes": 28,
+  "triangles": 97832,
+  "zero_area_triangles": 0,
+  "all_uv": true,
+  "combat_area_obstructions": [],
+  "studio_import_tested": false,
+  "textures": {
+    "WA_ColorAtlas.001": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "WA_NormalAtlas.001": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "WA_RoughnessAtlas.001": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "collision_meshes": 33,
+  "result": "passed"
+}

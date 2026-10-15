@@ -1,0 +1,5 @@
+{
+  "path": "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+  "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+  "sandboxed": true
+}

@@ -1,0 +1,63 @@
+{
+  "activePlayers": 1,
+  "scripts": [
+    {
+      "sandboxed": true,
+      "path": "ServerScriptService.PlaygroundEconomyService",
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "matches": [
+        {
+          "text": "\tlocal board = player:FindFirstChild(\"leaderstats\")",
+          "line": 175
+        },
+        {
+          "text": "\tlocal board = player:FindFirstChild(\"leaderstats\")",
+          "line": 324
+        },
+        {
+          "text": "\tif not board then board = Instance.new(\"Folder\") board.Name = \"leaderstats\" board.Parent = player end",
+          "line": 325
+        }
+      ]
+    }
+  ],
+  "isRunning": false,
+  "bindingContext": {
+    "startup": [
+      "local Economy = require(ServerScriptService:WaitForChild(\"PlaygroundEconomyService\"))",
+      "local economy = Economy.new(lobby)",
+      "\t\teconomy.leaderboards = result",
+      "economy:Start()",
+      "local coordinator = Coordinator.new({ BritishBulldog = britishBulldog, TagYoureIt = tag, StuckInTheMud = mud }, lobby, economy)"
+    ],
+    "economyBytes": 32146,
+    "bindings": [
+      {
+        "stats": [],
+        "name": "SandboxxYY",
+        "userId": 1201803949
+      }
+    ]
+  },
+  "finding": "Native leaderstats already creates and synchronizes Wins, Level and Coins; no active client source disables PlayerList or binds Tab.",
+  "proposedChanges": [],
+  "validation": {
+    "passedChecks": 14,
+    "method": "Original native stat construction block on an isolated Folder stand-in; original Economy:_sync and _touch under unchanged capabilities",
+    "report": "Tests/NativeLeaderstats-Validation.json",
+    "compilerPassed": true,
+    "temporaryFixturesRemoved": true,
+    "liveProfilesModified": false,
+    "dataStoreCalls": 0
+  },
+  "coinPickupPreservation": {
+    "serverAmount": 5,
+    "markerCount": 10,
+    "allMarkerValues": 5,
+    "allRespawnSeconds": 45,
+    "sourceModified": false
+  },
+  "officialReference": "https://create.roblox.com/docs/players/leaderboards",
+  "noPlayStartedOrStopped": true,
+  "note": "Edit-mode placeholder player has no running profile; live Tab UI appearance is not testable without entering Play."
+}

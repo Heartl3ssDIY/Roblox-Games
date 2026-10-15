@@ -1,0 +1,341 @@
+{
+  "visual_meshes": [
+    {
+      "name": "FK_01_Terrain_Part01",
+      "triangles": 4320,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_02_Stone_Path_Part01",
+      "triangles": 10340,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_03_Stone_Stairs_Part01",
+      "triangles": 2424,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_04_Undergrowth_Part01",
+      "triangles": 3894,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_05_Rock_Outcrops_Part01",
+      "triangles": 3264,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_06_Rear_Ceremony_Part01",
+      "triangles": 5040,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_07_Vermilion_Posts_Part01",
+      "triangles": 10896,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_08_Banner_Ropes_Part01",
+      "triangles": 10320,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_00_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_00_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_01_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_01_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_02_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_02_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_03_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_03_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_04_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_04_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_05_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_05_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_06_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_06_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_07_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_07_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_08_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_08_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_09_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_09_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_10_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_10_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_11_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_11_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_12_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_12_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_13_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_13_Part01",
+      "triangles": 10349,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_20_Tree_14_Part01",
+      "triangles": 2270,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_21_Blossoms_14_Part01",
+      "triangles": 10350,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_22_Petal_Scatter_Part01",
+      "triangles": 1530,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_00_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_01_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_02_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_03_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_04_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_05_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_06_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_07_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_08_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_09_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_10_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_11_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_12_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_13_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "FK_23_Canopy_14_Part01",
+      "triangles": 6696,
+      "uv": true,
+      "zero_area_triangles": 0
+    }
+  ],
+  "collision_meshes": 73,
+  "tree_count": 15,
+  "combat_bounds": [
+    -32,
+    32,
+    -32,
+    32
+  ],
+  "post_spacing_width": 76,
+  "post_spacing_length": 86,
+  "studio_import_tested": false,
+  "triangles": 341767,
+  "combat_area_obstructions": []
+}

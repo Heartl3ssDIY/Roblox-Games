@@ -1,0 +1,12 @@
+{
+  "checksPassed": 89,
+  "compiledModules": 3,
+  "mode": "Edit",
+  "playStarted": false,
+  "published": false,
+  "playerCollisionGroups": ["Default", "BBRunner", "BBBulldog", "BBTagged", "TGPlayer", "MudPlayer"],
+  "persistentEdits": ["BritishBulldogService", "TagService", "StuckInTheMudService"],
+  "backup": "ServerStorage.PlayerCollisionBackup20261008",
+  "preserved": ["safe-zone barrier matrix", "ragdoll code", "cosmetic CanCollide", "source permissions"],
+  "limitation": "Actual moving player pushing has not been play-tested."
+}

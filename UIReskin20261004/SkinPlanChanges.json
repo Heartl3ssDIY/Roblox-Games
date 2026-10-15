@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 1,
+  "baseline": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\InitialSkinPlan.json",
+  "mappings": [
+    {
+      "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint",
+      "asset": "PNG/05-Favourite-Buttons-Blank/sprint.png",
+      "mode": "Fit",
+      "theme": "blue",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        195,
+        48
+      ],
+      "textFaceRect": [
+        0.128956,
+        0.150967,
+        0.742092,
+        0.633483
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/sprint.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge",
+      "asset": "PNG/05-Favourite-Buttons-Blank/dodge.png",
+      "mode": "Fit",
+      "theme": "gold",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        93.75,
+        48
+      ],
+      "textFaceRect": [
+        0.159162,
+        0.150967,
+        0.681685,
+        0.633483
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/dodge.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.TagHUD.Controls.Dodge",
+      "asset": "PNG/05-Favourite-Buttons-Blank/dodge.png",
+      "mode": "Fit",
+      "theme": "blue",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        58.79999923706055,
+        48
+      ],
+      "textFaceRect": [
+        0.108412,
+        0.248491,
+        0.783186,
+        0.456481
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/dodge.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.TagHUD.Results",
+      "asset": "PNG/07-Resizable-Skins/panel-normal.png",
+      "mode": "Slice",
+      "theme": "panel",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "Result title reaches beyond the fixed artwork's inset after horizontal letterboxing. Nine-slice panel fills the authored container without moving edge controls.",
+      "originalClass": "Frame",
+      "originalAbsoluteSize": [
+        716.7999877929688,
+        280.4100036621094
+      ],
+      "textFaceRect": [
+        0.016741,
+        0.037445,
+        0.966518,
+        0.910845
+      ],
+      "sliceCenter": [
+        88,
+        88,
+        424,
+        232
+      ],
+      "sliceScale": 0.25,
+      "preferredFixedAsset": "PNG/01-Empty-Panels/TagHUD-Results.png"
+    },
+    {
+      "path": "StarterGui.TagHUD.SprintPanel.Sprint",
+      "asset": "PNG/05-Favourite-Buttons-Blank/sprint.png",
+      "mode": "Fit",
+      "theme": "blue",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        145.59999084472656,
+        48
+      ],
+      "textFaceRect": [
+        0.054473,
+        0.187074,
+        0.891059,
+        0.567951
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/sprint.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.Panel.Close",
+      "asset": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "mode": "Fit",
+      "theme": "silver",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        33.40800094604492,
+        43.2838020324707
+      ],
+      "textFaceRect": [
+        0.189846,
+        0.215016,
+        0.620287,
+        0.516374
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.CompactPanel",
+      "asset": "PNG/07-Resizable-Skins/panel-normal.png",
+      "mode": "Slice",
+      "theme": "panel",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "Compact header and close button reach into the top gap from vertically letterboxed artwork. Nine-slice panel fills the authored container without moving edge controls.",
+      "originalClass": "Frame",
+      "originalAbsoluteSize": [
+        371.1999816894531,
+        637
+      ],
+      "textFaceRect": [
+        0.032328,
+        0.016484,
+        0.935345,
+        0.960754
+      ],
+      "sliceCenter": [
+        88,
+        88,
+        424,
+        232
+      ],
+      "sliceScale": 0.25,
+      "preferredFixedAsset": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Close",
+      "asset": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "mode": "Fit",
+      "theme": "silver",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        44,
+        44
+      ],
+      "textFaceRect": [
+        0.213704,
+        0.159173,
+        0.572573,
+        0.617558
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel",
+      "asset": "PNG/07-Resizable-Skins/panel-normal.png",
+      "mode": "Slice",
+      "theme": "panel",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "Shop title, close button and status lie outside horizontally letterboxed fixed artwork. Nine-slice panel fills the authored container without moving edge controls.",
+      "originalClass": "Frame",
+      "originalAbsoluteSize": [
+        1120,
+        618.3400268554688
+      ],
+      "textFaceRect": [
+        0.010714,
+        0.016981,
+        0.978571,
+        0.959569
+      ],
+      "sliceCenter": [
+        88,
+        88,
+        424,
+        232
+      ],
+      "sliceScale": 0.25,
+      "preferredFixedAsset": "PNG/01-Empty-Panels/shop-background.png"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel.Close",
+      "asset": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "mode": "Fit",
+      "theme": "silver",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        36,
+        36
+      ],
+      "textFaceRect": [
+        0.213704,
+        0.159173,
+        0.572573,
+        0.617558
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel",
+      "asset": "PNG/07-Resizable-Skins/panel-normal.png",
+      "mode": "Slice",
+      "theme": "panel",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "Portrait and level/XP text extend beyond the fixed artwork's horizontal inset. Nine-slice panel fills the authored container without moving edge controls.",
+      "originalClass": "Frame",
+      "originalAbsoluteSize": [
+        264,
+        80
+      ],
+      "textFaceRect": [
+        0.045455,
+        0.13125,
+        0.909091,
+        0.6875
+      ],
+      "sliceCenter": [
+        88,
+        88,
+        424,
+        232
+      ],
+      "sliceScale": 0.25,
+      "preferredFixedAsset": "PNG/01-Empty-Panels/level-panel.png"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactVotePanel",
+      "asset": "PNG/07-Resizable-Skins/panel-normal.png",
+      "mode": "Slice",
+      "theme": "panel",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "Full-width vote message extends beyond horizontally letterboxed artwork. Nine-slice panel fills the authored container without moving edge controls.",
+      "originalClass": "Frame",
+      "originalAbsoluteSize": [
+        660,
+        176
+      ],
+      "textFaceRect": [
+        0.018182,
+        0.059659,
+        0.963636,
+        0.857955
+      ],
+      "sliceCenter": [
+        88,
+        88,
+        424,
+        232
+      ],
+      "sliceScale": 0.25,
+      "preferredFixedAsset": "PNG/01-Empty-Panels/PlaygroundShell-CompactVotePanel.png"
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.Top.Team",
+      "asset": "PNG/05-Favourite-Buttons-Blank/team-blue-status.png",
+      "mode": "Fit",
+      "theme": "blue",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        168.9600067138672,
+        35.52000045776367
+      ],
+      "textFaceRect": [
+        0.054968,
+        0.155818,
+        0.890064,
+        0.624073
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/team-blue-status.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.Controls.Mud",
+      "asset": "PNG/05-Favourite-Buttons-Blank/mud-slot.png",
+      "mode": "Fit",
+      "theme": "mud",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": true,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        93,
+        48
+      ],
+      "textFaceRect": [
+        0.210968,
+        0.151864,
+        0.578065,
+        0.631729
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/mud-slot.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback.",
+      "selectionDescription": "Existing Mud/Heat Outline.Enabled drives SelectionMark; keep Outline instance available to game logic, suppress its frame-border rendering."
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.Controls.Heat",
+      "asset": "PNG/05-Favourite-Buttons-Blank/heat-slot.png",
+      "mode": "Fit",
+      "theme": "orange",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": true,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        93,
+        48
+      ],
+      "textFaceRect": [
+        0.210968,
+        0.151864,
+        0.578065,
+        0.631729
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/heat-slot.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback.",
+      "selectionDescription": "Existing Mud/Heat Outline.Enabled drives SelectionMark; keep Outline instance available to game logic, suppress its frame-border rendering."
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.Controls.Fire",
+      "asset": "PNG/05-Favourite-Buttons-Blank/splat.png",
+      "mode": "Fit",
+      "theme": "gold",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        80,
+        48
+      ],
+      "textFaceRect": [
+        0.164,
+        0.151864,
+        0.672,
+        0.631729
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/splat.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.Controls.Sprint",
+      "asset": "PNG/05-Favourite-Buttons-Blank/sprint-wide.png",
+      "mode": "Fit",
+      "theme": "blue",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        280,
+        48
+      ],
+      "textFaceRect": [
+        0.126665,
+        0.150082,
+        0.74667,
+        0.63518
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/sprint-wide.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.Frozen",
+      "asset": "PNG/07-Resizable-Skins/panel-normal.png",
+      "mode": "Slice",
+      "theme": "panel",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "Frozen title and rescue status extend beyond horizontally letterboxed artwork. Nine-slice panel fills the authored container without moving edge controls.",
+      "originalClass": "Frame",
+      "originalAbsoluteSize": [
+        280,
+        96
+      ],
+      "textFaceRect": [
+        0.042857,
+        0.109375,
+        0.914286,
+        0.739583
+      ],
+      "sliceCenter": [
+        88,
+        88,
+        424,
+        232
+      ],
+      "sliceScale": 0.25,
+      "preferredFixedAsset": "PNG/01-Empty-Panels/MudHUD-Frozen.png"
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Mud",
+      "asset": "PNG/05-Favourite-Buttons-Blank/mud-slot.png",
+      "mode": "Fit",
+      "theme": "mud",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": true,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        93,
+        48
+      ],
+      "textFaceRect": [
+        0.210968,
+        0.151864,
+        0.578065,
+        0.631729
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/mud-slot.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback.",
+      "selectionDescription": "Existing Mud/Heat Outline.Enabled drives SelectionMark; keep Outline instance available to game logic, suppress its frame-border rendering."
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Heat",
+      "asset": "PNG/05-Favourite-Buttons-Blank/heat-slot.png",
+      "mode": "Fit",
+      "theme": "orange",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": true,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        93,
+        48
+      ],
+      "textFaceRect": [
+        0.210968,
+        0.151864,
+        0.578065,
+        0.631729
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/heat-slot.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback.",
+      "selectionDescription": "Existing Mud/Heat Outline.Enabled drives SelectionMark; keep Outline instance available to game logic, suppress its frame-border rendering."
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Fire",
+      "asset": "PNG/05-Favourite-Buttons-Blank/splat.png",
+      "mode": "Fit",
+      "theme": "gold",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        80,
+        48
+      ],
+      "textFaceRect": [
+        0.164,
+        0.151864,
+        0.672,
+        0.631729
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/splat.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Sprint",
+      "asset": "PNG/05-Favourite-Buttons-Blank/sprint-wide.png",
+      "mode": "Fit",
+      "theme": "blue",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        280,
+        48
+      ],
+      "textFaceRect": [
+        0.126665,
+        0.150082,
+        0.74667,
+        0.63518
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/sprint-wide.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.ColourToggle",
+      "asset": "PNG/05-Favourite-Buttons-Blank/team-toggle.png",
+      "mode": "Fit",
+      "theme": "cream",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        44,
+        44
+      ],
+      "textFaceRect": [
+        0.16925,
+        0.197917,
+        0.6615,
+        0.5475
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/team-toggle.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.ColourPicker.Close",
+      "asset": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "mode": "Fit",
+      "theme": "silver",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        40,
+        40
+      ],
+      "textFaceRect": [
+        0.213704,
+        0.159173,
+        0.572573,
+        0.617558
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.ColourPicker.Red",
+      "asset": "PNG/05-Favourite-Buttons-Blank/team-red.png",
+      "mode": "Fit",
+      "theme": "red",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        60,
+        48
+      ],
+      "textFaceRect": [
+        0.194107,
+        0.150967,
+        0.6118,
+        0.633483
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/team-red.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.ColourPicker.Blue",
+      "asset": "PNG/05-Favourite-Buttons-Blank/team-blue.png",
+      "mode": "Fit",
+      "theme": "blue",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        60,
+        48
+      ],
+      "textFaceRect": [
+        0.13257,
+        0.206851,
+        0.734873,
+        0.53144
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/team-blue.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.ColourPicker.Green",
+      "asset": "PNG/05-Favourite-Buttons-Blank/team-green.png",
+      "mode": "Fit",
+      "theme": "green",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        60,
+        48
+      ],
+      "textFaceRect": [
+        0.13257,
+        0.206851,
+        0.734873,
+        0.53144
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/team-green.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    },
+    {
+      "path": "StarterGui.MudHUD.ColourPicker.Black",
+      "asset": "PNG/05-Favourite-Buttons-Blank/team-black.png",
+      "mode": "Fit",
+      "theme": "black",
+      "dynamic": false,
+      "selectionFromColour": false,
+      "selectionFromOutline": false,
+      "reason": "User's reusable favourite blank control; retain exact halftone artwork regardless of aspect difference, with Fit and text authored inside the actual coloured face.",
+      "originalClass": "TextButton",
+      "originalAbsoluteSize": [
+        60,
+        48
+      ],
+      "textFaceRect": [
+        0.13257,
+        0.206851,
+        0.734873,
+        0.53144
+      ],
+      "preferredFixedAsset": "PNG/05-Favourite-Buttons-Blank/team-black.png",
+      "fixedFavourite": true,
+      "paletteSwapping": false,
+      "feedbackPolicy": "Preserve exact image; native labels, hover tint and existing selection marks provide state feedback."
+    }
+  ],
+  "changedCount": 28,
+  "disablePaletteSwapping": [
+    "StarterGui.BritishBulldogHUD.MovementControls.Sprint",
+    "StarterGui.BritishBulldogHUD.MovementControls.Dodge",
+    "StarterGui.TagHUD.Controls.Dodge",
+    "StarterGui.TagHUD.SprintPanel.Sprint",
+    "StarterGui.PlaygroundAdminPanel.Panel.Close",
+    "StarterGui.PlaygroundAdminPanel.CompactPanel.Close",
+    "StarterGui.PlaygroundShell.ShopPanel.Close",
+    "StarterGui.MudHUD.Main.Top.Team",
+    "StarterGui.MudHUD.Main.Controls.Mud",
+    "StarterGui.MudHUD.Main.Controls.Heat",
+    "StarterGui.MudHUD.Main.Controls.Fire",
+    "StarterGui.MudHUD.Main.Controls.Sprint",
+    "StarterGui.MudHUD.Main.DesktopControls.Mud",
+    "StarterGui.MudHUD.Main.DesktopControls.Heat",
+    "StarterGui.MudHUD.Main.DesktopControls.Fire",
+    "StarterGui.MudHUD.Main.DesktopControls.Sprint",
+    "StarterGui.MudHUD.ColourToggle",
+    "StarterGui.MudHUD.ColourPicker.Close",
+    "StarterGui.MudHUD.ColourPicker.Red",
+    "StarterGui.MudHUD.ColourPicker.Blue",
+    "StarterGui.MudHUD.ColourPicker.Green",
+    "StarterGui.MudHUD.ColourPicker.Black"
+  ],
+  "changedPanels": [
+    "StarterGui.TagHUD.Results",
+    "StarterGui.PlaygroundAdminPanel.CompactPanel",
+    "StarterGui.PlaygroundShell.ShopPanel",
+    "StarterGui.PlaygroundShell.LevelPanel",
+    "StarterGui.PlaygroundShell.CompactVotePanel",
+    "StarterGui.MudHUD.Main.Frozen"
+  ],
+  "instruction": "Update only skin image, Fit/Slice properties, DefaultImage/UISkinDynamic state and the authored caption's textFaceRect. Keep outer hierarchy/positions/sizes and selection marks unchanged. Never rerun full builder solely for this refinement."
+}

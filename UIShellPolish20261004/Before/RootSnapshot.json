@@ -1,0 +1,884 @@
+{
+  "scripts": {
+    "shell": "local Players = game:GetService(\"Players\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal RunService = game:GetService(\"RunService\")\nlocal ContentProvider = game:GetService(\"ContentProvider\")\nlocal TweenService = game:GetService(\"TweenService\")\nlocal player = Players.LocalPlayer\nlocal gui = script.Parent\nlocal shop = gui:WaitForChild(\"ShopPanel\")\nlocal vote = gui:WaitForChild(\"VotePanel\")\nlocal compactVote = gui:WaitForChild(\"CompactVotePanel\")\nlocal votePanels = { vote, compactVote }\nlocal wallet = gui:WaitForChild(\"Wallet\")\nlocal dock = gui:WaitForChild(\"Dock\")\nlocal toast = gui:WaitForChild(\"RewardToast\")\nlocal catalogObject = ReplicatedStorage:WaitForChild(\"PlaygroundCatalog\", 10)\nif not catalogObject then warn(\"Playground catalog is unavailable\") return end\nlocal catalog = require(catalogObject)\nlocal ink = Color3.fromRGB(27, 45, 61)\nlocal white = Color3.fromRGB(255, 255, 248)\nlocal gold = Color3.fromRGB(255, 211, 78)\nlocal blue = Color3.fromRGB(89, 193, 244)\nlocal pink = Color3.fromRGB(255, 153, 166)\nlocal mint = Color3.fromRGB(130, 225, 180)\nlocal muted = Color3.fromRGB(194, 201, 206)\nlocal data = { coins = player:GetAttribute(\"PCCoins\") or 0, ready = player:GetAttribute(\"PCDataReady\") == true, owned = {}, equipped = {}, unlocks = {} }\nlocal category = \"All\"\nlocal page = 1\nlocal pageCount = 1\nlocal busy = false\nlocal pendingStatus = false\nlocal voteBusy = false\nlocal toastToken = 0\nlocal lastUnlockSerial = nil\nlocal slots = {}\nlocal previews = {}\nlocal lastReward = player:GetAttribute(\"PCRewardAt\")\nlocal lastCoinPickup = player:GetAttribute(\"PCCoinPickupSerial\") or 0\nlocal coinPopups = {}\nlocal wasInsideShop = false\nlocal state = nil\nlocal stateConnection = nil\nlocal pager = shop:WaitForChild(\"Pager\")\nlocal emoteEmptyState = shop:WaitForChild(\"EmoteEmptyState\")\nlocal gameLabels = { BritishBulldog = \"Bulldog\", TagYoureIt = \"Tag\", StuckInTheMud = \"Mud\", All = \"total\" }\n\nlocal function showToast(message, duration)\n\ttoastToken += 1\n\tlocal token = toastToken\n\ttoast.Message.Text = tostring(message)\n\ttoast.Visible = true\n\ttask.delay(duration or 3.2, function()\n\t\tif token == toastToken and toast.Parent then toast.Visible = false end\n\tend)\nend\n\nlocal function clearCoinPopup(popup)\n\tlocal record = coinPopups[popup]\n\tif not record then return end\n\tcoinPopups[popup] = nil\n\tif record.completed then record.completed:Disconnect() end\n\tfor _, tween in ipairs(record.tweens) do tween:Cancel() end\n\tpopup:Destroy()\nend\n\nlocal function showCoinPickup(amount, position)\n\tif typeof(amount) ~= \"number\" or amount ~= amount or amount <= 0 or amount % 1 ~= 0 or typeof(position) ~= \"Vector3\" then return end\n\tlocal templates = gui:FindFirstChild(\"Templates\")\n\tlocal template = templates and templates:FindFirstChild(\"CoinPickupPopup\")\n\tlocal lobby = workspace:FindFirstChild(\"Playground Lobby\")\n\tlocal gameplay = lobby and lobby:FindFirstChild(\"Gameplay\")\n\tlocal markers = gameplay and gameplay:FindFirstChild(\"CoinSpawns\")\n\tif not template or not template:IsA(\"BillboardGui\") or not markers then return end\n\tlocal anchor, distance = nil, 8\n\tfor _, marker in ipairs(markers:GetChildren()) do\n\t\tif marker:IsA(\"BasePart\") then\n\t\t\tlocal gap = (marker.Position - position).Magnitude\n\t\t\tif gap < distance then anchor, distance = marker, gap end\n\t\tend\n\tend\n\tif not anchor then return end\n\tlocal popup = template:Clone()\n\tpopup.Name = \"CoinPickup\"\n\tlocal label = popup:FindFirstChild(\"Amount\")\n\tif not label or not label:IsA(\"TextLabel\") then popup:Destroy() return end\n\tlabel.Text = \"+\" .. tostring(amount)\n\tpopup.Adornee = anchor\n\tpopup.StudsOffsetWorldSpace += position - anchor.Position\n\tpopup.Enabled = true\n\tpopup.Parent = gui\n\tlocal lift = TweenService:Create(popup, TweenInfo.new(0.9, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), { StudsOffsetWorldSpace = popup.StudsOffsetWorldSpace + Vector3.new(0, 1.8, 0) })\n\tlocal fade = TweenService:Create(label, TweenInfo.new(0.55, Enum.EasingStyle.Quad, Enum.EasingDirection.In, 0, false, 0.35), { TextTransparency = 1 })\n\tlocal record = { tweens = { lift, fade } }\n\tcoinPopups[popup] = record\n\tlocal stroke = label:FindFirstChildOfClass(\"UIStroke\")\n\tif stroke then table.insert(record.tweens, TweenService:Create(stroke, TweenInfo.new(0.55, Enum.EasingStyle.Quad, Enum.EasingDirection.In, 0, false, 0.35), { Transparency = 1 })) end\n\trecord.completed = fade.Completed:Connect(function() clearCoinPopup(popup) end)\n\tfor _, tween in ipairs(record.tweens) do tween:Play() end\n\treturn popup\nend\n\nlocal function setText(label, value)\n\tlabel.Text = value\n\tlocal caption = label:FindFirstChild(\"LiveCaption\")\n\tif caption and caption:IsA(\"TextLabel\") then caption.Text = value end\nend\n\nlocal function refreshWallet()\n\tlocal coins = data.ready and tostring(data.coins or 0) or \"...\"\n\twallet.Coins.Text = coins\n\twallet.Wins.Text = data.ready and tostring(player:GetAttribute(\"PCWins\") or 0) or \"...\"\n\twallet.Level.Text = data.ready and tostring(player:GetAttribute(\"PCLevel\") or 1) or \"...\"\n\tshop.Coins.Text = coins .. \" coins\"\nend\n\nlocal function visibleBounds(model)\n\tlocal low = Vector3.new(math.huge, math.huge, math.huge)\n\tlocal high = Vector3.new(-math.huge, -math.huge, -math.huge)\n\tfor _, part in ipairs(model:GetDescendants()) do\n\t\tif part:IsA(\"BasePart\") and part.Transparency < 1 then\n\t\t\tfor x = -1, 1, 2 do\n\t\t\t\tfor y = -1, 1, 2 do\n\t\t\t\t\tfor z = -1, 1, 2 do\n\t\t\t\t\t\tlocal point = part.CFrame:PointToWorldSpace(part.Size * Vector3.new(x, y, z) * 0.5)\n\t\t\t\t\t\tlow = low:Min(point)\n\t\t\t\t\t\thigh = high:Max(point)\n\t\t\t\t\tend\n\t\t\t\tend\n\t\t\tend\n\t\tend\n\tend\n\tif low.X == math.huge then return Vector3.zero, Vector3.one end\n\treturn (low + high) * 0.5, high - low\nend\n\nlocal function framePreview(record)\n\tif not record.model or not record.model.Parent then return end\n\tlocal viewport = record.card.Preview\n\tlocal camera = viewport:FindFirstChild(\"PreviewCamera\")\n\tif not camera then return end\n\tlocal aspect = math.max(0.2, viewport.AbsoluteSize.X / math.max(1, viewport.AbsoluteSize.Y))\n\tlocal angle = math.rad(camera.FieldOfView * 0.5)\n\tlocal radius = record.radius\n\tlocal distance = radius / math.sin(math.min(angle, math.atan(math.tan(angle) * aspect))) * 1.12\n\tlocal direction = Vector3.new(0.5, 0.2, -1).Unit\n\tcamera.CFrame = CFrame.lookAt(direction * distance, Vector3.zero)\n\tviewport.CurrentCamera = camera\nend\n\nlocal function renderPreview(record, item)\n\tlocal id = item and item.id or nil\n\tif record.previewId == id and (not id or record.model) then return end\n\trecord.previewId = nil\n\tif record.model then record.model:Destroy() end\n\trecord.model = nil\n\tpreviews[record] = nil\n\tlocal world = record.card.Preview:FindFirstChild(\"World\")\n\tif not world then return end\n\tfor _, child in ipairs(world:GetChildren()) do child:Destroy() end\n\tif not item then return end\n\tlocal assets = ReplicatedStorage:FindFirstChild(\"PlaygroundCosmeticAssets\")\n\tlocal original = assets and assets:FindFirstChild(id)\n\tif not original or not original:IsA(\"Model\") then return end\n\tlocal model = original:Clone()\n\tmodel.Name = \"ItemModel\"\n\tfor _, child in ipairs(model:GetDescendants()) do\n\t\tif child:IsA(\"LuaSourceContainer\") then child:Destroy()\n\t\telseif child:IsA(\"BasePart\") then\n\t\t\tchild.Anchored = true\n\t\t\tchild.CanCollide = false\n\t\t\tchild.CanTouch = false\n\t\t\tchild.CanQuery = false\n\t\telseif child:IsA(\"ParticleEmitter\") or child:IsA(\"Trail\") then child.Enabled = false end\n\tend\n\tlocal center, size = visibleBounds(model)\n\tmodel:PivotTo(CFrame.new(-center) * model:GetPivot())\n\tmodel.Parent = world\n\trecord.model = model\n\trecord.previewId = id\n\trecord.pivot = model:GetPivot()\n\trecord.radius = math.max(0.01, size.Magnitude * 0.5)\n\tpreviews[record] = record\n\tframePreview(record)\n\ttask.spawn(function()\n\t\tpcall(function() ContentProvider:PreloadAsync({ model }) end)\n\t\tif record.model == model and world.Parent then\n\t\t\tmodel.Parent = nil\n\t\t\tmodel.Parent = world\n\t\t\tframePreview(record)\n\t\tend\n\tend)\nend\n\nlocal function requirement(item, unlock)\n\tlocal rule = item.unlock or { kind = \"Coins\", amount = item.price or 0 }\n\tif rule.kind == \"Starter\" then return \"Starter reward\", \"FREE\" end\n\tif rule.kind == \"Coins\" then return tostring(item.price or rule.amount or 0) .. \" coins\", item.category end\n\tlocal progress = unlock and unlock.progress or 0\n\tlocal target = rule.amount or 0\n\tif rule.kind == \"Level\" then return \"Level \" .. tostring(target), tostring(math.min(progress, target)) .. \" / \" .. tostring(target) end\n\treturn tostring(target) .. \" \" .. (gameLabels[rule.gameId] or \"total\") .. \" wins\", tostring(math.min(progress, target)) .. \" / \" .. tostring(target)\nend\n\nlocal function refreshCards()\n\trefreshWallet()\n\tlocal filtered = {}\n\tfor _, item in ipairs(catalog.Items) do\n\t\tif category == \"All\" or item.category == category then table.insert(filtered, item) end\n\tend\n\temoteEmptyState.Visible = category == \"Emotes\" and #filtered == 0\n\tpager.Visible = #filtered > 0\n\tpageCount = math.max(1, math.ceil(#filtered / math.max(1, #slots)))\n\tpage = math.clamp(page, 1, pageCount)\n\tsetText(pager.PageLabel, tostring(page) .. \" / \" .. tostring(pageCount))\n\tfor _, spec in ipairs({ { pager.Previous, page > 1 }, { pager.Next, page < pageCount } }) do\n\t\tspec[1].Active = spec[2] and not busy\n\t\tspec[1].Selectable = spec[1].Active\n\t\tspec[1].BackgroundColor3 = spec[1].Active and blue or muted\n\tend\n\tfor index, record in ipairs(slots) do\n\t\tlocal item = filtered[(page - 1) * #slots + index]\n\t\tlocal card = record.card\n\t\trecord.item = item\n\t\tcard.Visible = item ~= nil\n\t\trenderPreview(record, item)\n\t\tif item then\n\t\t\tcard:SetAttribute(\"CatalogId\", item.id)\n\t\t\tsetText(card:FindFirstChild(\"Name\"), item.name)\n\t\t\tlocal owned = data.owned[item.id] == true\n\t\t\tlocal equipped = data.equipped[item.slot] == item.id\n\t\t\tlocal unlock = data.unlocks[item.id]\n\t\t\tlocal price, detail = requirement(item, unlock)\n\t\t\tsetText(card.Price, owned and (equipped and \"Equipped\" or \"Owned\") or price)\n\t\t\tsetText(card.Category, owned and item.category or detail)\n\t\t\tlocal isCoins = item.unlock and item.unlock.kind == \"Coins\"\n\t\t\tlocal canBuy = isCoins and (unlock and unlock.purchasable == true or not unlock and data.coins >= (item.price or 0))\n\t\t\tlocal available = item.available ~= false\n\t\t\tlocal action = not available and \"UNAVAILABLE\" or not data.ready and \"LOADING\" or equipped and \"UNEQUIP\" or owned and \"EQUIP\" or isCoins and \"BUY\" or \"LOCKED\"\n\t\t\tif busy then action = \"PLEASE WAIT\" end\n\t\t\tsetText(card.Action, action)\n\t\t\tcard.Action.Visible = true\n\t\t\tcard.Action.Active = not busy and data.ready and available and (owned or canBuy)\n\t\t\tcard.Action.Selectable = card.Action.Active\n\t\t\tcard.Action.BackgroundColor3 = not card.Action.Active and muted or equipped and mint or owned and blue or gold\n\t\t\tsetText(card.Try, \"INFO\")\n\t\t\tcard.Try.Visible = true\n\t\t\tcard.Try.Active = true\n\t\t\tcard.Try.Selectable = true\n\t\t\tlocal outline = card:FindFirstChild(\"Outline\")\n\t\t\tif outline then outline.Color = equipped and gold or ink end\n\t\telse\n\t\t\tcard:SetAttribute(\"CatalogId\", nil)\n\t\tend\n\tend\n\tfor _, button in ipairs(shop.Categories:GetChildren()) do\n\t\tif button:IsA(\"TextButton\") and button.Visible then button.BackgroundColor3 = button.Name == category and gold or white end\n\tend\nend\n\nlocal function applyReply(reply)\n\tif typeof(reply) ~= \"table\" then return end\n\tif typeof(reply.coins) == \"number\" then data.coins = reply.coins end\n\tif typeof(reply.ready) == \"boolean\" then data.ready = reply.ready end\n\tif typeof(reply.owned) == \"table\" then data.owned = reply.owned end\n\tif typeof(reply.equipped) == \"table\" then data.equipped = reply.equipped end\n\tif typeof(reply.unlocks) == \"table\" then data.unlocks = reply.unlocks end\n\tif typeof(reply.unlockSerial) == \"number\" and reply.unlockSerial ~= lastUnlockSerial then\n\t\tlastUnlockSerial = reply.unlockSerial\n\t\tif typeof(reply.newlyUnlocked) == \"table\" and #reply.newlyUnlocked > 0 then\n\t\t\tlocal names = {}\n\t\t\tfor index, id in ipairs(reply.newlyUnlocked) do\n\t\t\t\tif index > 2 then break end\n\t\t\t\tlocal item = catalog.ById[id]\n\t\t\t\tif item then table.insert(names, item.name) end\n\t\t\tend\n\t\t\tif #names > 0 then\n\t\t\t\tlocal more = #reply.newlyUnlocked > 2 and \" and \" .. tostring(#reply.newlyUnlocked - 2) .. \" more\" or \"\"\n\t\t\t\tshowToast(\"Unlocked: \" .. table.concat(names, \", \") .. more .. \"!\", 5)\n\t\t\tend\n\t\tend\n\tend\n\trefreshCards()\nend\n\nlocal request\nrequest = function(action, id, quiet)\n\tif busy then\n\t\tif action == \"GetStatus\" then pendingStatus = true end\n\t\treturn\n\tend\n\tlocal remote = ReplicatedStorage:FindFirstChild(\"PlaygroundShopRequest\")\n\tif not remote or not remote:IsA(\"RemoteFunction\") then\n\t\tif not quiet then shop.Status.Text = \"The shop is getting ready. Try again in a moment.\" end\n\t\treturn\n\tend\n\tbusy = true\n\trefreshCards()\n\ttask.spawn(function()\n\t\tlocal ok, reply = pcall(function() return remote:InvokeServer(action, id) end)\n\t\tbusy = false\n\t\tif ok and typeof(reply) == \"table\" then\n\t\t\tapplyReply(reply)\n\t\t\tif not quiet or not reply.ok then shop.Status.Text = tostring(reply.message or (reply.ok and \"All set!\" or \"Try again in a moment.\")) end\n\t\t\tif not reply.ok and not shop.Visible and not quiet then showToast(reply.message or \"Try again in a moment.\") end\n\t\telse\n\t\t\trefreshCards()\n\t\t\tif not quiet then shop.Status.Text = \"That did not go through. Try again in a moment.\" end\n\t\tend\n\t\tif pendingStatus then\n\t\t\tpendingStatus = false\n\t\t\ttask.defer(function() request(\"GetStatus\", nil, true) end)\n\t\tend\n\tend)\nend\n\nlocal function setShop(visible)\n\tshop.Visible = visible\n\tgui.Backdrop.Visible = visible\n\tif visible then\n\t\tshop.Status.Text = data.ready and \"Earn rewards, or spend your coins.\" or \"Your coins are loading...\"\n\t\trequest(\"GetStatus\", nil, true)\n\tend\nend\n\nlocal function setCategory(value)\n\tcategory = value\n\tpage = 1\n\tshop.Cards.CanvasPosition = Vector2.zero\n\trefreshCards()\nend\n\nfor _, card in ipairs(shop.Cards:GetChildren()) do\n\tif card:IsA(\"Frame\") and card:FindFirstChild(\"Preview\") and card:FindFirstChild(\"Action\") then\n\t\ttable.insert(slots, { card = card })\n\tend\nend\ntable.sort(slots, function(a, b) return a.card.Name < b.card.Name end)\nfor _, record in ipairs(slots) do\n\trecord.card.Action.Activated:Connect(function()\n\t\tlocal item = record.item\n\t\tif busy or not data.ready or not item or not record.card.Action.Active then return end\n\t\tif data.equipped[item.slot] == item.id then request(\"Unequip\", item.slot)\n\t\telseif data.owned[item.id] then request(\"Equip\", item.id)\n\t\telse request(\"Buy\", item.id) end\n\tend)\n\trecord.card.Try.Activated:Connect(function()\n\t\tlocal item = record.item\n\t\tif not item then return end\n\t\tlocal unlock = data.unlocks[item.id]\n\t\tlocal description = item.description or item.name\n\t\tif unlock and not data.owned[item.id] then description ..= \" \" .. unlock.label .. \".\" end\n\t\tshowToast(description, 5)\n\tend)\n\trecord.card.Preview:GetPropertyChangedSignal(\"AbsoluteSize\"):Connect(function() framePreview(record) end)\nend\nfor _, button in ipairs(shop.Categories:GetChildren()) do\n\tif button:IsA(\"TextButton\") and button.Visible then button.Activated:Connect(function() setCategory(button.Name) end) end\nend\npager.Previous.Activated:Connect(function()\n\tif busy or page <= 1 then return end\n\tpage -= 1\n\tshop.Cards.CanvasPosition = Vector2.zero\n\trefreshCards()\nend)\npager.Next.Activated:Connect(function()\n\tif busy or page >= pageCount then return end\n\tpage += 1\n\tshop.Cards.CanvasPosition = Vector2.zero\n\trefreshCards()\nend)\ndock.Shop.Activated:Connect(function() setShop(not shop.Visible) end)\nshop.Close.Activated:Connect(function() setShop(false) end)\ngui.Backdrop.Activated:Connect(function() setShop(false) end)\ndock.Emote.Activated:Connect(function() setCategory(\"Pets\") setShop(true) end)\ndock.Emoji.Activated:Connect(function() setCategory(\"Toys\") setShop(true) end)\nfor _, attribute in ipairs({ \"PCCoins\", \"PCWins\", \"PCLevel\", \"PCDataReady\" }) do\n\tplayer:GetAttributeChangedSignal(attribute):Connect(function()\n\t\tlocal wasReady = data.ready\n\t\tdata.coins = player:GetAttribute(\"PCCoins\") or data.coins\n\t\tdata.ready = player:GetAttribute(\"PCDataReady\") == true\n\t\trefreshCards()\n\t\tif data.ready and not wasReady then request(\"GetStatus\", nil, true) end\n\tend)\nend\nplayer:GetAttributeChangedSignal(\"PCInventoryVersion\"):Connect(function() request(\"GetStatus\", nil, true) end)\nplayer:GetAttributeChangedSignal(\"PCRewardAt\"):Connect(function()\n\tlocal now = player:GetAttribute(\"PCRewardAt\")\n\tif now and now ~= lastReward then\n\t\tlastReward = now\n\t\tlocal message = player:GetAttribute(\"PCRewardText\")\n\t\tif typeof(message) == \"string\" and message ~= \"\" then showToast(message, 4) end\n\tend\nend)\nlocal coinPickupConnection = player:GetAttributeChangedSignal(\"PCCoinPickupSerial\"):Connect(function()\n\tlocal serial = player:GetAttribute(\"PCCoinPickupSerial\")\n\tif typeof(serial) ~= \"number\" or serial <= lastCoinPickup then return end\n\tlastCoinPickup = serial\n\tshowCoinPickup(player:GetAttribute(\"PCCoinPickupAmount\"), player:GetAttribute(\"PCCoinPickupPosition\"))\nend)\nscript.Destroying:Connect(function()\n\tcoinPickupConnection:Disconnect()\n\twhile next(coinPopups) do clearCoinPopup(next(coinPopups)) end\nend)\nReplicatedStorage.ChildAdded:Connect(function(child)\n\tif child.Name == \"PlaygroundShopRequest\" then request(\"GetStatus\", nil, true)\n\telseif child.Name == \"PlaygroundCosmeticAssets\" then refreshCards() end\nend)\n\nlocal function insideZone(zone,root)\n if not zone or not zone:IsA(\"BasePart\") or not root then return false end\n local point=zone.CFrame:PointToObjectSpace(root.Position)\n return math.abs(point.X)<=zone.Size.X/2 and math.abs(point.Y)<=zone.Size.Y/2 and math.abs(point.Z)<=zone.Size.Z/2\nend\nlocal function votesText(count)\n return tostring(count)..(count==1 and \" vote\" or \" votes\")\nend\nlocal function refreshVotes()\n local phase=state and state:GetAttribute(\"Phase\") or \"Waiting\"\n local voting=phase==\"Voting\"\n local chosen=player:GetAttribute(\"PCVote\")\n for _,vote in ipairs(votePanels) do\n vote.Title.Text=voting and \"PICK THE NEXT ROUND\" or \"NEXT ROUND\"\n local ending=state and state:GetAttribute(\"VotingEndsAt\") or 0\n vote.Timer.Text=voting and tostring(math.max(0,math.ceil(ending-workspace:GetServerTimeNow())))..\"s\" or phase==\"Playing\" and \"PLAYING\" or phase==\"Paused\" and \"PAUSED\" or \"WAITING\"\n vote.VotesBritishBulldog.Text=votesText(state and state:GetAttribute(\"VotesBritishBulldog\") or 0)\n vote.VotesTagYoureIt.Text=votesText(state and state:GetAttribute(\"VotesTagYoureIt\") or 0)\n vote.VotesStuckInTheMud.Text=votesText(state and state:GetAttribute(\"VotesStuckInTheMud\") or 0)\n vote.BritishBulldog.BackgroundColor3=chosen==\"BritishBulldog\" and gold or blue\n vote.TagYoureIt.BackgroundColor3=chosen==\"TagYoureIt\" and gold or pink\n vote.StuckInTheMud.BackgroundColor3=chosen==\"StuckInTheMud\" and gold or mint\n vote.BritishBulldog.Active=voting and not voteBusy\n vote.TagYoureIt.Active=voting and not voteBusy\n local mudAvailable=state and state:GetAttribute(\"AvailableStuckInTheMud\")~=false\n vote.StuckInTheMud.Active=voting and not voteBusy and mudAvailable\n if not mudAvailable then\n  vote.StuckInTheMud.BackgroundColor3=Color3.fromRGB(162,169,184)\n  local minimum=state:GetAttribute(\"MinimumStuckInTheMud\") or 4\n  vote.VotesStuckInTheMud.Text=(state:GetAttribute(\"ReadyPlayerCount\") or 0)<minimum and \"Needs \"..tostring(minimum)..\" players\" or \"Unavailable\"\n end\n vote.StuckInTheMud.Selectable=vote.StuckInTheMud.Active\n vote.BritishBulldog.Selectable=vote.BritishBulldog.Active\n vote.TagYoureIt.Selectable=vote.TagYoureIt.Active\n if not voteBusy then\n  vote.Message.Text=voting and (chosen and chosen~=\"\" and \"Your vote is saved. You can change it.\" or \"Step onto a card to vote, or tap it here.\") or phase==\"Playing\" and \"Another round is underway.\" or phase==\"Paused\" and \"The next round is paused.\" or \"Voting opens when the next round is ready.\"\n end\n end\nend\nlocal function bindState(object)\n if not object or object==state then return end\n if stateConnection then stateConnection:Disconnect() end\n state=object\n stateConnection=state.AttributeChanged:Connect(refreshVotes)\n refreshVotes()\nend\nbindState(ReplicatedStorage:FindFirstChild(\"PlaygroundState\"))\nReplicatedStorage.ChildAdded:Connect(function(child) if child.Name==\"PlaygroundState\" then bindState(child) end end)\nplayer:GetAttributeChangedSignal(\"PCVote\"):Connect(refreshVotes)\nlocal function castVote(id)\n if voteBusy or not state or state:GetAttribute(\"Phase\")~=\"Voting\" then return end\n local remote=ReplicatedStorage:FindFirstChild(\"PlaygroundVoteRequest\")\n if not remote or not remote:IsA(\"RemoteFunction\") then return end\n voteBusy=true\n refreshVotes()\n task.spawn(function()\n  local ok,reply=pcall(function() return remote:InvokeServer(id) end)\n  voteBusy=false\n  refreshVotes()\n  if not ok then\n   for _,panel in ipairs(votePanels) do panel.Message.Text=\"That vote did not go through. Try again.\" end\n  elseif typeof(reply)==\"table\" and reply.ok==false then\n   for _,panel in ipairs(votePanels) do panel.Message.Text=tostring(reply.message or \"Step into the voting area first.\") end\n  end\n end)\nend\nfor _,panel in ipairs(votePanels) do\n for _,id in ipairs({\"BritishBulldog\",\"TagYoureIt\",\"StuckInTheMud\"}) do panel[id].Activated:Connect(function() castVote(id) end) end\nend\nplayer.CharacterAdded:Connect(function() wasInsideShop=false end)\nlocal elapsed=0\nlocal previewTime=0\nRunService.Heartbeat:Connect(function(delta)\n elapsed+=delta\n previewTime+=delta\n if elapsed<0.15 then return end\n elapsed=0\n local character=player.Character\n local root=character and character:FindFirstChild(\"HumanoidRootPart\")\n local lobby=workspace:FindFirstChild(\"Playground Lobby\")\n local gameplay=lobby and lobby:FindFirstChild(\"Gameplay\")\n local participating=player:GetAttribute(\"BBParticipating\")==true or (player:GetAttribute(\"TGParticipating\")==true or player:GetAttribute(\"MDParticipating\")==true)\n wallet.Visible=not participating\n dock.Visible=not participating\n if participating and shop.Visible then setShop(false) end\n local shopZone=gameplay and gameplay:FindFirstChild(\"ShopZone\")\n local voteZone=gameplay and gameplay:FindFirstChild(\"VoteZone\")\n local inShop=insideZone(shopZone,root)\n if inShop and not wasInsideShop and not participating then setShop(true) end\n wasInsideShop=inShop\n local showVote=not participating and insideZone(voteZone,root) and not shop.Visible\n local camera=workspace.CurrentCamera\n local useCompactVote=camera and (camera.ViewportSize.X<980 or camera.ViewportSize.Y<450) or false\n vote.Visible=showVote and not useCompactVote\n compactVote.Visible=showVote and useCompactVote\n if showVote then refreshVotes() end\n if shop.Visible then\n  local rotation=math.sin(previewTime*0.45)*0.30\n  for _,preview in pairs(previews) do\n   if preview.model.Parent then preview.model:PivotTo(CFrame.Angles(0,rotation,0)*preview.pivot) end\n  end\n end\nend)\nrefreshCards()\nrefreshVotes()\nrequest(\"GetStatus\",nil,true)\n"
+  },
+  "coinModels": {
+    "1": "ReplicatedStorage.PlaygroundSourceModels.Coins.c01-collectible-coin"
+  },
+  "icons": [],
+  "shell": {
+    "1": {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.Wallet",
+      "class": "Frame",
+      "name": "Wallet",
+      "position": "{1, -18}, {0, 14}",
+      "anchor": "1, 0",
+      "z": 3,
+      "children": {
+        "1": {
+          "visible": false,
+          "path": "StarterGui.PlaygroundShell.Wallet.Coin",
+          "name": "Coin",
+          "position": "{0, 12}, {0, 12}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 4,
+          "size": "{0, 37}, {0, 37}"
+        },
+        "2": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Wallet.Coins",
+          "class": "TextLabel",
+          "name": "Coins",
+          "position": "{0.666666687, 6}, {0, 25}",
+          "anchor": "0, 0",
+          "text": "...",
+          "z": 4,
+          "size": "{0.333333343, -12}, {0, 28}"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Wallet.Wins",
+          "class": "TextLabel",
+          "name": "Wins",
+          "position": "{0, 6}, {0, 25}",
+          "anchor": "0, 0",
+          "text": "0",
+          "z": 4,
+          "size": "{0.333333343, -12}, {0, 28}"
+        },
+        "4": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Wallet.ReusableSkin",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://117403446558356",
+          "name": "ReusableSkin",
+          "z": 3,
+          "anchor": "0, 0",
+          "position": "{0, 0}, {0, 0}",
+          "size": "{1, 0}, {1, 0}"
+        },
+        "5": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Wallet.WinsCaption",
+          "class": "TextLabel",
+          "name": "WinsCaption",
+          "position": "{0, 6}, {0, 9}",
+          "anchor": "0, 0",
+          "text": "WINS",
+          "z": 4,
+          "size": "{0.333333343, -12}, {0, 15}"
+        },
+        "6": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Wallet.Level",
+          "class": "TextLabel",
+          "name": "Level",
+          "position": "{0.333333343, 6}, {0, 25}",
+          "anchor": "0, 0",
+          "text": "1",
+          "z": 4,
+          "size": "{0.333333343, -12}, {0, 28}"
+        },
+        "7": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Wallet.LevelCaption",
+          "class": "TextLabel",
+          "name": "LevelCaption",
+          "position": "{0.333333343, 6}, {0, 9}",
+          "anchor": "0, 0",
+          "text": "LEVEL",
+          "z": 4,
+          "size": "{0.333333343, -12}, {0, 15}"
+        },
+        "8": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Wallet.CoinsCaption",
+          "class": "TextLabel",
+          "name": "CoinsCaption",
+          "position": "{0.666666687, 6}, {0, 9}",
+          "anchor": "0, 0",
+          "text": "COINS",
+          "z": 4,
+          "size": "{0.333333343, -12}, {0, 15}"
+        },
+        "9": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Wallet.ReusableSkinFallback",
+          "name": "ReusableSkinFallback",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 2,
+          "size": "{1, 0}, {1, 0}"
+        }
+      },
+      "size": "{0.25999999, 0}, {0, 64}"
+    },
+    "2": {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.Dock",
+      "class": "Frame",
+      "name": "Dock",
+      "position": "{0, 18}, {1, -18}",
+      "anchor": "0, 1",
+      "z": 3,
+      "children": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Dock.Shop",
+          "class": "TextButton",
+          "name": "Shop",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "text": "SHOP",
+          "z": 4,
+          "size": "{0, 118}, {0, 46}"
+        },
+        "2": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Dock.Emote",
+          "class": "TextButton",
+          "name": "Emote",
+          "position": "{0, 132}, {0, 0}",
+          "anchor": "0, 0",
+          "text": "PETS",
+          "z": 4,
+          "size": "{0, 56}, {0, 46}"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.Dock.Emoji",
+          "class": "TextButton",
+          "name": "Emoji",
+          "position": "{0, 202}, {0, 0}",
+          "anchor": "0, 0",
+          "text": "TOYS",
+          "z": 4,
+          "size": "{0, 56}, {0, 46}"
+        }
+      },
+      "size": "{0, 268}, {0, 48}"
+    },
+    "3": {
+      "visible": false,
+      "path": "StarterGui.PlaygroundShell.RewardToast",
+      "class": "Frame",
+      "name": "RewardToast",
+      "position": "{0.5, 0}, {0, 84}",
+      "anchor": "0.5, 0",
+      "z": 12,
+      "children": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.RewardToast.Message",
+          "class": "TextLabel",
+          "name": "Message",
+          "position": "{0.0299999993, 0}, {0.100000001, 0}",
+          "anchor": "0, 0",
+          "text": "+15 COINS",
+          "z": 13,
+          "size": "{0.939999998, 0}, {0.800000012, 0}"
+        },
+        "2": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.RewardToast.ReusableSkin",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://84589903135132",
+          "name": "ReusableSkin",
+          "z": 12,
+          "anchor": "0, 0",
+          "position": "{0, 0}, {0, 0}",
+          "size": "{1, 0}, {1, 0}"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.RewardToast.ReusableSkinFallback",
+          "name": "ReusableSkinFallback",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 11,
+          "size": "{1, 0}, {1, 0}"
+        }
+      },
+      "size": "{0.379999995, 0}, {0, 50}"
+    },
+    "4": {
+      "visible": false,
+      "path": "StarterGui.PlaygroundShell.Backdrop",
+      "class": "TextButton",
+      "text": "",
+      "name": "Backdrop",
+      "z": 20,
+      "anchor": "0, 0",
+      "position": "{0, 0}, {0, 0}",
+      "children": [],
+      "size": "{1, 0}, {1, 0}"
+    },
+    "5": {
+      "visible": false,
+      "path": "StarterGui.PlaygroundShell.ShopPanel",
+      "class": "Frame",
+      "name": "ShopPanel",
+      "position": "{0.5, 0}, {0.5, 0}",
+      "anchor": "0.5, 0.5",
+      "z": 21,
+      "children": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.Title",
+          "class": "TextLabel",
+          "name": "Title",
+          "position": "{0, 20}, {0, 9}",
+          "anchor": "0, 0",
+          "text": "GOODIES",
+          "z": 22,
+          "size": "{1, -190}, {0, 39}"
+        },
+        "2": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.Coins",
+          "class": "TextLabel",
+          "name": "Coins",
+          "position": "{1, -162}, {0, 17}",
+          "anchor": "0, 0",
+          "text": "... coins",
+          "z": 22,
+          "size": "{0, 101}, {0, 25}"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.Close",
+          "class": "TextButton",
+          "name": "Close",
+          "position": "{1, -51}, {0, 12}",
+          "anchor": "0, 0",
+          "text": "X",
+          "z": 22,
+          "size": "{0, 36}, {0, 36}"
+        },
+        "4": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.Categories",
+          "name": "Categories",
+          "position": "{0, 16}, {0, 58}",
+          "anchor": "0, 0",
+          "class": "ScrollingFrame",
+          "z": 22,
+          "size": "{1, -32}, {0, 42}"
+        },
+        "5": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.Cards",
+          "name": "Cards",
+          "position": "{0, 14}, {0, 113}",
+          "anchor": "0, 0",
+          "class": "ScrollingFrame",
+          "z": 22,
+          "size": "{1, -28}, {1, -169}"
+        },
+        "6": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.Status",
+          "class": "TextLabel",
+          "name": "Status",
+          "position": "{0, 20}, {1, -25}",
+          "anchor": "0, 0",
+          "text": "Earn rewards, or spend your coins.",
+          "z": 22,
+          "size": "{1, -40}, {0, 20}"
+        },
+        "7": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.ReusableSkin",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://117403446558356",
+          "name": "ReusableSkin",
+          "z": 21,
+          "anchor": "0, 0",
+          "position": "{0, 0}, {0, 0}",
+          "size": "{1, 0}, {1, 0}"
+        },
+        "8": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.Pager",
+          "name": "Pager",
+          "position": "{0.5, 0}, {1, -54}",
+          "anchor": "0.5, 0",
+          "class": "Frame",
+          "z": 24,
+          "size": "{0, 236}, {0, 28}"
+        },
+        "9": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.ReusableSkinFallback",
+          "name": "ReusableSkinFallback",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 20,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "10": {
+          "visible": false,
+          "path": "StarterGui.PlaygroundShell.ShopPanel.EmoteEmptyState",
+          "name": "EmoteEmptyState",
+          "position": "{0, 14}, {0, 113}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 24,
+          "size": "{1, -28}, {1, -169}"
+        }
+      },
+      "size": "{0.920000017, 0}, {0.860000014, 0}"
+    },
+    "6": {
+      "visible": false,
+      "path": "StarterGui.PlaygroundShell.VotePanel",
+      "class": "Frame",
+      "name": "VotePanel",
+      "position": "{0.5, 0}, {1, -82}",
+      "anchor": "0.5, 1",
+      "z": 8,
+      "children": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.Title",
+          "class": "TextLabel",
+          "name": "Title",
+          "position": "{0.0399999991, 0}, {0.0399999991, 0}",
+          "anchor": "0, 0",
+          "text": "PICK THE NEXT ROUND",
+          "z": 9,
+          "size": "{0.720000029, 0}, {0.180000007, 0}"
+        },
+        "2": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.Timer",
+          "class": "TextLabel",
+          "name": "Timer",
+          "position": "{0.800000012, 0}, {0.0599999987, 0}",
+          "anchor": "0, 0",
+          "text": "12s",
+          "z": 9,
+          "size": "{0.159999996, 0}, {0.140000001, 0}"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.BritishBulldog",
+          "class": "TextButton",
+          "name": "BritishBulldog",
+          "position": "{0.0350000001, 0}, {0.280000001, 0}",
+          "anchor": "0, 0",
+          "text": "BRITISH\nBULLDOG",
+          "z": 9,
+          "size": "{0.300000012, 0}, {0.449999988, 0}"
+        },
+        "4": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.TagYoureIt",
+          "class": "TextButton",
+          "name": "TagYoureIt",
+          "position": "{0.349999994, 0}, {0.280000001, 0}",
+          "anchor": "0, 0",
+          "text": "TAG\nYOU'RE IT",
+          "z": 9,
+          "size": "{0.300000012, 0}, {0.449999988, 0}"
+        },
+        "5": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.VotesBritishBulldog",
+          "class": "TextLabel",
+          "name": "VotesBritishBulldog",
+          "position": "{0.0350000001, 0}, {0.769999981, 0}",
+          "anchor": "0, 0",
+          "text": "0 votes",
+          "z": 9,
+          "size": "{0.300000012, 0}, {0.129999995, 0}"
+        },
+        "6": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.VotesTagYoureIt",
+          "class": "TextLabel",
+          "name": "VotesTagYoureIt",
+          "position": "{0.349999994, 0}, {0.769999981, 0}",
+          "anchor": "0, 0",
+          "text": "0 votes",
+          "z": 9,
+          "size": "{0.300000012, 0}, {0.129999995, 0}"
+        },
+        "7": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.Message",
+          "class": "TextLabel",
+          "name": "Message",
+          "position": "{0.0299999993, 0}, {0.910000026, 0}",
+          "anchor": "0, 0",
+          "text": "Step onto a card to vote, or tap it here.",
+          "z": 9,
+          "size": "{0.939999998, 0}, {0.0649999976, 0}"
+        },
+        "8": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.StuckInTheMud",
+          "class": "TextButton",
+          "name": "StuckInTheMud",
+          "position": "{0.665000021, 0}, {0.280000001, 0}",
+          "anchor": "0, 0",
+          "text": "STUCK IN\nTHE MUD",
+          "z": 9,
+          "size": "{0.300000012, 0}, {0.449999988, 0}"
+        },
+        "9": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.VotesStuckInTheMud",
+          "class": "TextLabel",
+          "name": "VotesStuckInTheMud",
+          "position": "{0.665000021, 0}, {0.769999981, 0}",
+          "anchor": "0, 0",
+          "text": "0 votes",
+          "z": 9,
+          "size": "{0.300000012, 0}, {0.129999995, 0}"
+        },
+        "10": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.ReusableSkin",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://117403446558356",
+          "name": "ReusableSkin",
+          "z": 8,
+          "anchor": "0, 0",
+          "position": "{0, 0}, {0, 0}",
+          "size": "{1, 0}, {1, 0}"
+        },
+        "11": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.VotePanel.ReusableSkinFallback",
+          "name": "ReusableSkinFallback",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 7,
+          "size": "{1, 0}, {1, 0}"
+        }
+      },
+      "size": "{0.620000005, 0}, {0.289999992, 0}"
+    },
+    "7": {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel",
+      "class": "Frame",
+      "name": "LevelPanel",
+      "position": "{0, 18}, {1, -82}",
+      "anchor": "0, 1",
+      "z": 6,
+      "children": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.LevelIcon",
+          "loaded": true,
+          "class": "ImageLabel",
+          "image": "rbxassetid://85788093672458",
+          "name": "LevelIcon",
+          "z": 7,
+          "anchor": "0, 0",
+          "position": "{0, 94}, {0, 11}",
+          "size": "{0, 22}, {0, 22}"
+        },
+        "2": {
+          "visible": false,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.IconFallback",
+          "class": "TextLabel",
+          "name": "IconFallback",
+          "position": "{0, 94}, {0, 11}",
+          "anchor": "0, 0",
+          "text": "★",
+          "z": 7,
+          "size": "{0, 22}, {0, 22}"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.Level",
+          "class": "TextLabel",
+          "name": "Level",
+          "position": "{0, 119}, {0, 8}",
+          "anchor": "0, 0",
+          "text": "LEVEL 1",
+          "z": 7,
+          "size": "{0, 152}, {0, 27}"
+        },
+        "4": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XP",
+          "class": "TextLabel",
+          "name": "XP",
+          "position": "{0, 90}, {0, 55}",
+          "anchor": "0, 0",
+          "text": "0 / 200 XP",
+          "z": 7,
+          "size": "{0, 181}, {0, 17}"
+        },
+        "5": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack",
+          "name": "XPTrack",
+          "position": "{0, 94}, {0, 79}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 7,
+          "size": "{0, 173}, {0, 10}"
+        },
+        "6": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.ReusableSkin",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://117403446558356",
+          "name": "ReusableSkin",
+          "z": 6,
+          "anchor": "0, 0",
+          "position": "{0, 0}, {0, 0}",
+          "size": "{1, 0}, {1, 0}"
+        },
+        "7": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview",
+          "name": "FacePreview",
+          "position": "{0, 18}, {0, 19}",
+          "anchor": "0, 0",
+          "class": "ViewportFrame",
+          "z": 7,
+          "size": "{0, 60}, {0, 60}"
+        },
+        "8": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.NextLevel",
+          "class": "TextLabel",
+          "name": "NextLevel",
+          "position": "{0, 90}, {0, 35}",
+          "anchor": "0, 0",
+          "text": "NEXT: LEVEL 2",
+          "z": 7,
+          "size": "{0, 181}, {0, 16}"
+        },
+        "9": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.ReusableSkinFallback",
+          "name": "ReusableSkinFallback",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 5,
+          "size": "{1, 0}, {1, 0}"
+        }
+      },
+      "size": "{0, 288}, {0, 98}"
+    },
+    "8": {
+      "visible": false,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel",
+      "class": "Frame",
+      "name": "CompactLevelPanel",
+      "position": "{0, 16}, {1, -201}",
+      "anchor": "0, 1",
+      "z": 6,
+      "children": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview",
+          "name": "FacePreview",
+          "position": "{0, 7}, {0, 12}",
+          "anchor": "0, 0",
+          "class": "ViewportFrame",
+          "z": 7,
+          "size": "{0, 41}, {0, 41}"
+        },
+        "2": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Level",
+          "class": "TextLabel",
+          "name": "Level",
+          "position": "{0, 54}, {0, 5}",
+          "anchor": "0, 0",
+          "text": "LV 1",
+          "z": 7,
+          "size": "{0, 89}, {0, 19}"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XP",
+          "class": "TextLabel",
+          "name": "XP",
+          "position": "{0, 52}, {0, 39}",
+          "anchor": "0, 0",
+          "text": "0 / 200 XP",
+          "z": 7,
+          "size": "{0, 93}, {0, 12}"
+        },
+        "4": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack",
+          "name": "XPTrack",
+          "position": "{0, 55}, {0, 55}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 7,
+          "size": "{0, 86}, {0, 6}"
+        },
+        "5": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.ReusableSkin",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://117403446558356",
+          "name": "ReusableSkin",
+          "z": 6,
+          "anchor": "0, 0",
+          "position": "{0, 0}, {0, 0}",
+          "size": "{1, 0}, {1, 0}"
+        },
+        "6": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.NextLevel",
+          "class": "TextLabel",
+          "name": "NextLevel",
+          "position": "{0, 52}, {0, 25}",
+          "anchor": "0, 0",
+          "text": "NEXT: LV 2",
+          "z": 7,
+          "size": "{0, 93}, {0, 12}"
+        },
+        "7": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.ReusableSkinFallback",
+          "name": "ReusableSkinFallback",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 5,
+          "size": "{1, 0}, {1, 0}"
+        }
+      },
+      "size": "{0, 151}, {0, 66}"
+    },
+    "9": {
+      "visible": false,
+      "path": "StarterGui.PlaygroundShell.CompactVotePanel",
+      "class": "Frame",
+      "name": "CompactVotePanel",
+      "position": "{0.5, 0}, {1, -74}",
+      "anchor": "0.5, 1",
+      "z": 8,
+      "children": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.Title",
+          "class": "TextLabel",
+          "name": "Title",
+          "position": "{0.0399999991, 0}, {0.0399999991, 0}",
+          "anchor": "0, 0",
+          "text": "PICK THE NEXT ROUND",
+          "z": 9,
+          "size": "{0.720000029, 0}, {0.180000007, 0}"
+        },
+        "2": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.Timer",
+          "class": "TextLabel",
+          "name": "Timer",
+          "position": "{0.800000012, 0}, {0.0599999987, 0}",
+          "anchor": "0, 0",
+          "text": "12s",
+          "z": 9,
+          "size": "{0.159999996, 0}, {0.140000001, 0}"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.BritishBulldog",
+          "class": "TextButton",
+          "name": "BritishBulldog",
+          "position": "{0.0350000001, 0}, {0.280000001, 0}",
+          "anchor": "0, 0",
+          "text": "BRITISH\nBULLDOG",
+          "z": 9,
+          "size": "{0.280000001, 0}, {0.419999987, 0}"
+        },
+        "4": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.TagYoureIt",
+          "class": "TextButton",
+          "name": "TagYoureIt",
+          "position": "{0.349999994, 0}, {0.280000001, 0}",
+          "anchor": "0, 0",
+          "text": "TAG\nYOU'RE IT",
+          "z": 9,
+          "size": "{0.280000001, 0}, {0.419999987, 0}"
+        },
+        "5": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.VotesBritishBulldog",
+          "class": "TextLabel",
+          "name": "VotesBritishBulldog",
+          "position": "{0.0350000001, 0}, {0.730000019, 0}",
+          "anchor": "0, 0",
+          "text": "0 votes",
+          "z": 9,
+          "size": "{0.280000001, 0}, {0.109999999, 0}"
+        },
+        "6": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.VotesTagYoureIt",
+          "class": "TextLabel",
+          "name": "VotesTagYoureIt",
+          "position": "{0.349999994, 0}, {0.730000019, 0}",
+          "anchor": "0, 0",
+          "text": "0 votes",
+          "z": 9,
+          "size": "{0.280000001, 0}, {0.109999999, 0}"
+        },
+        "7": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.Message",
+          "class": "TextLabel",
+          "name": "Message",
+          "position": "{0, 10}, {0, 150}",
+          "anchor": "0, 0",
+          "text": "Step onto a card to vote, or tap it here.",
+          "z": 9,
+          "size": "{1, -20}, {0, 20}"
+        },
+        "8": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.StuckInTheMud",
+          "class": "TextButton",
+          "name": "StuckInTheMud",
+          "position": "{0.665000021, 0}, {0.280000001, 0}",
+          "anchor": "0, 0",
+          "text": "STUCK IN\nTHE MUD",
+          "z": 9,
+          "size": "{0.280000001, 0}, {0.419999987, 0}"
+        },
+        "9": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.VotesStuckInTheMud",
+          "class": "TextLabel",
+          "name": "VotesStuckInTheMud",
+          "position": "{0.665000021, 0}, {0.730000019, 0}",
+          "anchor": "0, 0",
+          "text": "0 votes",
+          "z": 9,
+          "size": "{0.280000001, 0}, {0.109999999, 0}"
+        },
+        "10": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.ReusableSkin",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://117403446558356",
+          "name": "ReusableSkin",
+          "z": 8,
+          "anchor": "0, 0",
+          "position": "{0, 0}, {0, 0}",
+          "size": "{1, 0}, {1, 0}"
+        },
+        "11": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactVotePanel.ReusableSkinFallback",
+          "name": "ReusableSkinFallback",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 7,
+          "size": "{1, 0}, {1, 0}"
+        }
+      },
+      "size": "{0.620000005, 0}, {0, 176}"
+    },
+    "10": {
+      "visible": false,
+      "path": "StarterGui.PlaygroundShell.LevelUpNotice",
+      "class": "CanvasGroup",
+      "name": "LevelUpNotice",
+      "position": "{0.5, 0}, {0, 145}",
+      "anchor": "0.5, 0",
+      "z": 24,
+      "children": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelUpNotice.ReusableSkin",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://84589903135132",
+          "name": "ReusableSkin",
+          "z": 24,
+          "anchor": "0, 0",
+          "position": "{0, 0}, {0, 0}",
+          "size": "{1, 0}, {1, 0}"
+        },
+        "2": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelUpNotice.Title",
+          "class": "TextLabel",
+          "name": "Title",
+          "position": "{0, 44}, {0, 9}",
+          "anchor": "0, 0",
+          "text": "LEVEL UP!",
+          "z": 25,
+          "size": "{1, -88}, {0, 30}"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelUpNotice.Level",
+          "class": "TextLabel",
+          "name": "Level",
+          "position": "{0, 16}, {0, 42}",
+          "anchor": "0, 0",
+          "text": "LEVEL 2",
+          "z": 25,
+          "size": "{1, -32}, {0, 29}"
+        },
+        "4": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelUpNotice.LeftStar",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://85788093672458",
+          "name": "LeftStar",
+          "z": 25,
+          "anchor": "0, 0",
+          "position": "{0, 17}, {0, 13}",
+          "size": "{0, 26}, {0, 26}"
+        },
+        "5": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelUpNotice.RightStar",
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://85788093672458",
+          "name": "RightStar",
+          "z": 25,
+          "anchor": "1, 0",
+          "position": "{1, -17}, {0, 13}",
+          "size": "{0, 26}, {0, 26}"
+        },
+        "6": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelUpNotice.ReusableSkinFallback",
+          "name": "ReusableSkinFallback",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "z": 23,
+          "size": "{1, 0}, {1, 0}"
+        }
+      },
+      "size": "{0.720000029, 0}, {0, 92}"
+    }
+  }
+}

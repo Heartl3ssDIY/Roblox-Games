@@ -1,0 +1,50 @@
+[
+  {
+    "name": "race-progress-wide",
+    "width": 1120,
+    "height": 288,
+    "fontLoaded": true,
+    "textNodes": 18,
+    "rasterImages": 0,
+    "groups": 44,
+    "duplicateIds": [],
+    "xmlErrors": 0,
+    "overflow": []
+  },
+  {
+    "name": "race-progress-compact",
+    "width": 680,
+    "height": 220,
+    "fontLoaded": true,
+    "textNodes": 12,
+    "rasterImages": 0,
+    "groups": 44,
+    "duplicateIds": [],
+    "xmlErrors": 0,
+    "overflow": []
+  },
+  {
+    "name": "race-marker-states",
+    "width": 382,
+    "height": 218,
+    "fontLoaded": true,
+    "textNodes": 8,
+    "rasterImages": 0,
+    "groups": 16,
+    "duplicateIds": [],
+    "xmlErrors": 0,
+    "overflow": []
+  },
+  {
+    "name": "G-Blox-race-progress-concept",
+    "width": 1248,
+    "height": 832,
+    "fontLoaded": true,
+    "textNodes": 46,
+    "rasterImages": 0,
+    "groups": 107,
+    "duplicateIds": [],
+    "xmlErrors": 0,
+    "overflow": []
+  }
+]

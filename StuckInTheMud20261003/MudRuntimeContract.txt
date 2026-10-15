@@ -1,0 +1,76 @@
+Stuck in the Mud runtime
+
+Install StuckInTheMudService.lua as ServerScriptService.StuckInTheMudService.
+Required map: workspace["Stuck in the Mud"].Gameplay with ArenaBounds and StartPads.
+Optional map folders: TeamSpawns (Group01..Group12), PracticeSpawns, NavigationNodes.
+Precreate ReplicatedStorage.MudState (Folder) and MudActionRequest (RemoteFunction).
+Gun templates: ReplicatedStorage.MudAssets.MudGun and HeatGun, with Handle.MuzzleAttachment, GunKind Mud/Heat, and no scripts.
+Editable overhead template: ReplicatedStorage.MudAssets.MuddyTemplate (BillboardGui).
+
+Pure helpers: TeamAssignments(count, requestedTeams, maximumTeamSize), ChooseTimeoutTeams(activeTeamIds, freeCounts, originalRosterCounts).
+API: new(map, state?), Start(), StartRound(selectedPlayers?), StartPractice(player,"Shooter"|"Medic"), StopRound(), Stop().
+Start(player, role) starts the service if necessary, then starts practice. Runner/Tagger are accepted practice aliases.
+Public integration fields: active, running, phase, mode, state, roundNumber.
+Only real connected Player instances can use Action or StartPractice; bots use internal records and never pose as Player instances.
+
+Remote actions and return value:
+Sprint, boolean
+Fire, normalized aim Vector3
+Heat, boolean, normalized aim Vector3
+ChooseColor, Red/Blue/Green/Black
+Returns {ok = boolean, message = optional string}.
+Compute direction from the equipped gun's muzzle WorldPosition toward the cursor target.
+Sprint and Heat require refreshed holds within one second; send roughly every0.25-0.3 seconds.
+False hold releases are safe in any phase, including outside Mud, and never alter other games' movement.
+The server limits active requests, validates actual equipped round-owned tool name/kind, proves muzzle origin is near the body and outside cover, and computes all impacts/rescues itself.
+
+Gameplay settings are editable map attributes:
+MaxPlayers4 (clamped2..24), MinimumPlayers4, TeamCount2, MaxTeamSize2 (minimum2)
+BaseSpeed16, SprintSeconds10, SprintMultiplier2.5, SprintRefillSeconds15
+RoundDuration300, CountdownSeconds3, ResultsSeconds7
+ProjectileSpeed115, MudRange130, MudCooldownSeconds0.65
+HeatRange24, RescueSeconds5, BotShotIntervalSeconds7
+Exact2v2 default: MaxPlayers4 / MinimumPlayers4 / TeamCount2 / MaxTeamSize2.
+Optional24 balanced: MaxPlayers24 / MinimumPlayers2 / TeamCount2 / MaxTeamSize12.
+Pairs across24 players: MaxPlayers24 / TeamCount12 / MaxTeamSize2.
+
+State phases: Waiting, Countdown, Playing, Results.
+State attributes: Mode, Phase, GunAccessReady, RoundNumber, EndsAt, RoundDuration, CountdownValue, RescueSeconds,
+TeamCount, ActiveTeamCount, ParticipantCount, MuddyCount, PracticeOwnerUserId,
+TeamSummaryJSON, WinnerTeamIds, WinnerTeams (compatibility alias), WinnersText, ResultReason,
+LastResultWinnerIds, LastResultParticipantIds, LastResultPractice, LastResultRound.
+TeamSummaryJSON is an array of {teamId,colorName,free,total,originalTotal,eliminated}.
+Result IDs are comma-separated real UserIds from the assigned roster, with bots omitted.
+LastResultRound is written after all result snapshot data, allowing an atomic reward listener.
+ResultReason is LastTeamStanding, Timeout, TimeoutShared or NoActiveTeams.
+
+Player attributes:
+MDParticipating, MDTeamId, MDTeamName, MDTeamColor (Color3), MDTeamColorName, MDColorPreference,
+MDMuddy, MDEliminated, MDRescueProgress, MDSprintMax, MDSprintRemaining, MDSprinting,
+MDSprintExhausted, MDFireReadyAt, MDHeatActive, MDHeatTargetUserId, MDHeatProgress, MDTool, MDResult.
+MDRescueProgress is elapsed victim progress seconds0..RescueSeconds, not a fraction.
+MDHeatProgress is the rescuer own continuous-channel seconds0..RescueSeconds; release/interruption/rescue/cleanup resets0.
+MDTool is the actual equipped managed tool name or an empty string.
+MDResult is Won/Lost during Results and is reset at the next round.
+Color preferences are session-only and do not write DataStores.
+
+Mud is an actual visible moving projectile with swept server raycasts, not an immediate preselected hit.
+Enemies may dodge it by moving or jumping before impact. Cover and friendly bodies block it.
+Heat requires one uninterrupted five-second channel. Release, expired lease, tool change,
+cover, range, target/caster impact, target change, death or elimination resets that channel.
+Multiple healers never add elapsed times. A connected team's last free member being stuck eliminates it.
+The first last-team-standing result is latched immediately, freezes every participant, and rejects later same-update damage.
+At timeout, best free/original-roster proportion wins; equal best proportions share the win.
+Disconnecting cannot shrink the score denominator; an empty team is eliminated.
+Death/reset and bot replacement retain mud. Enemy mud victim bodies receive removable brown welded noncolliding patches and face mask while preserving team outline.
+
+MudChecks.luau is an isolated cloned-module fixture harness (107 named checks).
+MudLiveChecks.luau is a sequential Server Play harness requiring one real Play client, an idle running bootstrap and no current round.
+It starts a practice match, checks real gun equip/aim/projectile/heat/freeze/sprint/respawn/results, then stops and cleans it.
+No normal-match rewards are emitted by either harness.
+
+Capability status: This module's Tool operations require Input on this sandboxed server module in addition to the existing game base plus RemoteEvent.
+The first Input capability increase was rejected by automatic approval review and remains the parent's explicit approval step.
+StartRound and StartPractice first check both gun templates and read each Tool.Enabled inside pcall; missing Input, missing template or disabled template fails closed. They reject with Mud gun access is awaiting approval. before any active/spawn changes if access or templates are unavailable. No runtime capability metadata is read.
+MudPureChecks.luau tests team arithmetic, settings, disabled-start control flow and synthetic mud geometry. Its pending-approval assertion calls the real read-only weapon gate and expects false under the current base capability set; it mutates no Tool and starts no gameplay. Run the full MudChecks fixture after Input approval instead of this pending-only assertion.
+These source files do not install scripts, change capabilities, disable sandboxing or introduce CapabilityControl.

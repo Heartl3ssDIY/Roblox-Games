@@ -1,0 +1,818 @@
+{
+  "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+  "objects": [
+    {
+      "class": "LocalScript",
+      "path": "StarterGui.MudHUD.Controller"
+    },
+    {
+      "path": "StarterGui.MudHUD.ReusableSkinController",
+      "source": "local gui = script.Parent\nlocal records = {}\nlocal connections = {}\nlocal alive = true\nlocal captionFill = Color3.fromRGB(255, 249, 224)\n\nlocal palette = {\n\t{ name = \"Blue\", color = Color3.fromRGB(42, 160, 255) },\n\t{ name = \"Blue\", color = Color3.fromRGB(89, 193, 244) },\n\t{ name = \"Red\", color = Color3.fromRGB(255, 81, 92) },\n\t{ name = \"Green\", color = Color3.fromRGB(94, 203, 162) },\n\t{ name = \"Green\", color = Color3.fromRGB(130, 225, 180) },\n\t{ name = \"Gold\", color = Color3.fromRGB(255, 211, 78) },\n\t{ name = \"Cream\", color = Color3.fromRGB(255, 255, 248) },\n\t{ name = \"Black\", color = Color3.fromRGB(48, 56, 75) },\n\t{ name = \"Orange\", color = Color3.fromRGB(255, 158, 69) },\n\t{ name = \"Pink\", color = Color3.fromRGB(255, 153, 166) },\n\t{ name = \"Silver\", color = Color3.fromRGB(194, 201, 206) },\n\t{ name = \"Silver\", color = Color3.fromRGB(162, 169, 184) },\n\t{ name = \"Mud\", color = Color3.fromRGB(151, 94, 44) },\n}\n\nlocal function closestColour(color)\n\tlocal nearest = \"Cream\"\n\tlocal distance = math.huge\n\tfor _, entry in ipairs(palette) do\n\t\tlocal reference = entry.color\n\t\tlocal difference = (color.R - reference.R) ^ 2 + (color.G - reference.G) ^ 2 + (color.B - reference.B) ^ 2\n\t\tif difference < distance then\n\t\t\tdistance = difference\n\t\t\tnearest = entry.name\n\t\tend\n\tend\n\treturn nearest\nend\n\nlocal function connect(bucket, signal, callback)\n\tlocal connection = signal:Connect(callback)\n\ttable.insert(bucket, connection)\n\treturn connection\nend\n\nlocal function release(target)\n\tlocal record = records[target]\n\tif not record then return end\n\trecords[target] = nil\n\tfor _, connection in ipairs(record.connections) do connection:Disconnect() end\nend\n\nlocal bind\nbind = function(target)\n\tif not alive or records[target] or not target:IsA(\"GuiObject\") or target:GetAttribute(\"UISkinManaged\") ~= true then return end\n\tlocal skin = target:FindFirstChild(\"ReusableSkin\")\n\tif not skin or not skin:IsA(\"ImageLabel\") then return end\n\tlocal record = { connections = {}, hovering = false, pressed = false }\n\trecords[target] = record\n\tlocal function refresh()\n\t\tif not alive or records[target] ~= record or not target.Parent then return end\n\t\tif target.BackgroundTransparency ~= 1 then target.BackgroundTransparency = 1 end\n\t\tlocal caption = target:FindFirstChild(\"LiveCaption\")\n\t\tif caption and caption:IsA(\"TextLabel\") and (target:IsA(\"TextButton\") or target:IsA(\"TextLabel\")) then\n\t\t\tcaption.Text = target.Text\n\t\t\tcaption.TextColor3 = captionFill\n\t\t\tif target.TextTransparency ~= 1 then target.TextTransparency = 1 end\n\t\t\tif target.TextStrokeTransparency ~= 1 then target.TextStrokeTransparency = 1 end\n\t\tend\n\t\tlocal colourName = closestColour(target.BackgroundColor3)\n\t\tlocal asset = skin:GetAttribute(\"DefaultImage\")\n\t\tif target:GetAttribute(\"UISkinDynamic\") == true then asset = skin:GetAttribute(colourName .. \"Image\") or asset end\n\t\tif typeof(asset) == \"string\" and asset ~= \"\" and skin.Image ~= asset then skin.Image = asset end\n\t\tlocal tinted = target:IsA(\"GuiButton\") and target.Active and (record.hovering or record.pressed)\n\t\tskin.ImageColor3 = tinted and Color3.new(0.94, 0.94, 0.94) or Color3.new(1, 1, 1)\n\t\tlocal selection = target:FindFirstChild(\"SelectionMark\")\n\t\tif selection and selection:IsA(\"GuiObject\") then\n\t\t\tif target:GetAttribute(\"UISkinSelectionFromOutline\") == true then\n\t\t\t\tlocal outline = target:FindFirstChild(\"Outline\")\n\t\t\t\tselection.Visible = outline ~= nil and outline:IsA(\"UIStroke\") and outline.Enabled\n\t\t\telseif target:GetAttribute(\"UISkinSelectionFromColour\") == true then\n\t\t\t\tselection.Visible = colourName == \"Gold\"\n\t\t\tend\n\t\tend\n\t\tlocal sourceGradient = target:FindFirstChild(\"Progress\")\n\t\tlocal skinGradient = skin:FindFirstChild(\"Progress\")\n\t\tif sourceGradient and sourceGradient:IsA(\"UIGradient\") and skinGradient and skinGradient:IsA(\"UIGradient\") then\n\t\t\tfor _, property in ipairs({ \"Color\", \"Transparency\", \"Offset\", \"Rotation\", \"Enabled\" }) do\n\t\t\t\tskinGradient[property] = sourceGradient[property]\n\t\t\tend\n\t\tend\n\tend\n\trecord.refresh = refresh\n\tfor _, property in ipairs({ \"BackgroundColor3\", \"BackgroundTransparency\" }) do\n\t\tconnect(record.connections, target:GetPropertyChangedSignal(property), refresh)\n\tend\n\tif target:IsA(\"TextButton\") or target:IsA(\"TextLabel\") then\n\t\tfor _, property in ipairs({ \"Text\", \"TextColor3\", \"TextTransparency\", \"TextStrokeTransparency\" }) do\n\t\t\tconnect(record.connections, target:GetPropertyChangedSignal(property), refresh)\n\t\tend\n\tend\n\tconnect(record.connections, target.AttributeChanged, refresh)\n\tconnect(record.connections, skin.AttributeChanged, refresh)\n\tlocal gradient = target:FindFirstChild(\"Progress\")\n\tif gradient and gradient:IsA(\"UIGradient\") then\n\t\tfor _, property in ipairs({ \"Color\", \"Transparency\", \"Offset\", \"Rotation\", \"Enabled\" }) do\n\t\t\tconnect(record.connections, gradient:GetPropertyChangedSignal(property), refresh)\n\t\tend\n\tend\n\tlocal outline = target:FindFirstChild(\"Outline\")\n\tif outline and outline:IsA(\"UIStroke\") then connect(record.connections, outline:GetPropertyChangedSignal(\"Enabled\"), refresh) end\n\tif target:IsA(\"GuiButton\") then\n\t\tconnect(record.connections, target.MouseEnter, function() record.hovering = true refresh() end)\n\t\tconnect(record.connections, target.MouseLeave, function() record.hovering = false record.pressed = false refresh() end)\n\t\tconnect(record.connections, target.MouseButton1Down, function() record.pressed = target.Active refresh() end)\n\t\tconnect(record.connections, target.MouseButton1Up, function() record.pressed = false refresh() end)\n\t\tconnect(record.connections, target.Activated, function() record.pressed = false refresh() end)\n\t\tconnect(record.connections, target:GetPropertyChangedSignal(\"Active\"), function()\n\t\t\tif not target.Active then record.pressed = false record.hovering = false end\n\t\t\trefresh()\n\t\tend)\n\t\tconnect(record.connections, target:GetPropertyChangedSignal(\"Visible\"), function()\n\t\t\tif not target.Visible then record.pressed = false record.hovering = false end\n\t\t\trefresh()\n\t\tend)\n\tend\n\tlocal function rebind(child)\n\t\tif child.Name ~= \"ReusableSkin\" and child.Name ~= \"Progress\" and child.Name ~= \"Outline\" and child.Name ~= \"LiveCaption\" and child.Name ~= \"SelectionMark\" then return end\n\t\trelease(target)\n\t\ttask.defer(function() if target:IsDescendantOf(gui) then bind(target) end end)\n\tend\n\tconnect(record.connections, target.ChildAdded, rebind)\n\tconnect(record.connections, target.ChildRemoved, rebind)\n\tconnect(record.connections, target.AncestryChanged, function()\n\t\tif not target:IsDescendantOf(gui) then release(target) end\n\tend)\n\trefresh()\nend\n\nconnect(connections, gui.DescendantAdded, function(descendant)\n\ttask.defer(function()\n\t\tif not alive or not descendant:IsDescendantOf(gui) then return end\n\t\tbind(descendant)\n\t\tlocal parent = descendant.Parent\n\t\tif parent and parent:IsA(\"GuiObject\") then bind(parent) end\n\tend)\nend)\n\nconnect(connections, script.Destroying, function()\n\talive = false\n\tfor target in pairs(records) do release(target) end\n\tfor _, connection in ipairs(connections) do connection:Disconnect() end\nend)\n\nfor _, descendant in ipairs(gui:GetDescendants()) do bind(descendant) end\n",
+      "class": "LocalScript"
+    },
+    {
+      "path": "StarterGui.MudHUD.BackgroundFallbackController",
+      "source": "local gui = script.Parent\nlocal records = {}\nlocal connections = {}\nlocal alive = true\nlocal white = Color3.new(1, 1, 1)\nlocal palettes = {\n\tBlue = Color3.fromRGB(42, 160, 235),\n\tGold = Color3.fromRGB(255, 205, 57),\n\tCream = Color3.fromRGB(255, 249, 224),\n\tGreen = Color3.fromRGB(94, 203, 162),\n\tRed = Color3.fromRGB(255, 105, 120),\n\tPink = Color3.fromRGB(255, 153, 166),\n\tSilver = Color3.fromRGB(176, 188, 206),\n\tBlack = Color3.fromRGB(61, 69, 86),\n\tOrange = Color3.fromRGB(255, 153, 66),\n\tMud = Color3.fromRGB(168, 108, 59),\n\tPurple = Color3.fromRGB(175, 124, 229),\n}\nlocal imagePalettes = {\n\t[\"90528629970043\"] = \"Blue\", [\"84589903135132\"] = \"Gold\",\n\t[\"80217215544210\"] = \"Cream\", [\"117403446558356\"] = \"Cream\",\n\t[\"78972575698291\"] = \"Green\", [\"96220174131051\"] = \"Red\",\n\t[\"91168456076260\"] = \"Silver\", [\"137398265947826\"] = \"Black\",\n\t[\"70427716988197\"] = \"Orange\", [\"98268172973975\"] = \"Mud\",\n\t[\"109174047078490\"] = \"Purple\",\n}\n\nlocal function connect(bucket, signal, callback)\n\ttable.insert(bucket, signal:Connect(callback))\nend\n\nlocal function release(skin)\n\tlocal record = records[skin]\n\tif not record then return end\n\trecords[skin] = nil\n\tif record.fallback.Parent then record.fallback.Visible = false end\n\tfor _, connection in ipairs(record.connections) do connection:Disconnect() end\nend\n\nlocal function tint(color, imageColor)\n\treturn Color3.new(color.R * imageColor.R, color.G * imageColor.G, color.B * imageColor.B)\nend\n\nlocal function faceColor(skin, fallback)\n\tlocal image = skin.Image\n\tlocal id = string.match(image, \"^rbxassetid://(%d+)\") or string.match(image, \"[?&]id=(%d+)\")\n\tlocal palette = id and imagePalettes[id]\n\tif palette then return palettes[palette] end\n\tfor name, color in pairs(palettes) do\n\t\tif image ~= \"\" and skin:GetAttribute(name .. \"Image\") == image then return color end\n\tend\n\treturn fallback:GetAttribute(\"FallbackFaceColor\") or palettes.Cream\nend\n\nlocal function bind(skin)\n\tif not alive or records[skin] or not (skin:IsA(\"ImageLabel\") or skin:IsA(\"ImageButton\")) then return end\n\tlocal parent = skin.Parent\n\tlocal fallback = parent and parent:FindFirstChild(skin.Name .. \"Fallback\")\n\tif not fallback or not fallback:IsA(\"Frame\") or fallback:GetAttribute(\"BackgroundFallbackFor\") ~= skin.Name then return end\n\tlocal edge = fallback:FindFirstChild(\"Edge\")\n\tlocal face = edge and edge:FindFirstChild(\"Face\")\n\tif not edge or not face then return end\n\tlocal record = { connections = {}, fallback = fallback }\n\trecords[skin] = record\n\tlocal function refresh()\n\t\tif not alive or records[skin] ~= record or skin.Parent ~= fallback.Parent then return end\n\t\tlocal transparency = math.clamp(skin.ImageTransparency, 0, 1)\n\t\tfallback.Visible = skin.Visible and skin.Image ~= \"\" and not skin.IsLoaded and transparency < 1\n\t\tfallback.BackgroundTransparency = transparency\n\t\tedge.BackgroundTransparency = transparency\n\t\tface.BackgroundTransparency = transparency\n\t\tfallback.BackgroundColor3 = tint(fallback:GetAttribute(\"FallbackInkColor\") or Color3.fromRGB(31, 38, 60), skin.ImageColor3)\n\t\tlocal color = faceColor(skin, fallback)\n\t\tedge.BackgroundColor3 = tint(color:Lerp(white, 0.72), skin.ImageColor3)\n\t\tface.BackgroundColor3 = tint(color, skin.ImageColor3)\n\tend\n\trecord.refresh = refresh\n\tfor _, property in ipairs({ \"IsLoaded\", \"Image\", \"ImageTransparency\", \"ImageColor3\", \"Visible\" }) do\n\t\tconnect(record.connections, skin:GetPropertyChangedSignal(property), refresh)\n\tend\n\tconnect(record.connections, skin.AttributeChanged, refresh)\n\tconnect(record.connections, fallback.AttributeChanged, refresh)\n\tconnect(record.connections, skin.AncestryChanged, function()\n\t\tif not skin:IsDescendantOf(gui) or skin.Parent ~= fallback.Parent then release(skin) end\n\tend)\n\tconnect(record.connections, fallback.AncestryChanged, function()\n\t\tif not fallback:IsDescendantOf(gui) or fallback.Parent ~= skin.Parent then release(skin) end\n\tend)\n\trefresh()\nend\n\nconnect(connections, gui.DescendantAdded, function(descendant)\n\ttask.defer(function()\n\t\tif not alive or not descendant:IsDescendantOf(gui) then return end\n\t\tbind(descendant)\n\t\tif descendant:IsA(\"Frame\") then\n\t\t\tlocal name = descendant:GetAttribute(\"BackgroundFallbackFor\")\n\t\t\tlocal parent = descendant.Parent\n\t\t\tlocal skin = typeof(name) == \"string\" and parent and parent:FindFirstChild(name)\n\t\t\tif skin then bind(skin) end\n\t\tend\n\tend)\nend)\nconnect(connections, script.Destroying, function()\n\talive = false\n\tfor skin in pairs(records) do release(skin) end\n\tfor _, connection in ipairs(connections) do connection:Disconnect() end\nend)\nfor _, descendant in ipairs(gui:GetDescendants()) do bind(descendant) end\n\n",
+      "class": "LocalScript"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top",
+      "position": "{0.5, 0}, {0, 64}",
+      "anchor": "0.5, 0",
+      "class": "Frame",
+      "size": "{0.439999998, 0}, {0, 74}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Title",
+      "position": "{0.0399999991, 0}, {0.124594614, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "STUCK IN THE MUD",
+      "size": "{0.920000017, 0}, {0.25, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Team",
+      "position": "{0.0250000004, 0}, {0.370000005, 0}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "BLUE\n2 / 2 FREE",
+      "size": "{0.300000012, 0}, {0.479999989, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Team.TeamColour",
+      "position": "{0.161666706, 0}, {0.181846783, 0}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{0.0350000001, 0}, {0.579999983, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Team.ReusableSkin",
+      "position": "{0.0833333358, 0}, {0.0281531531, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Team.LiveCaption",
+      "position": "{0.0399999991, 0}, {0.0399999991, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "BLUE\n2 / 2 FREE",
+      "size": "{0.920000017, 0}, {0.920000017, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Timer",
+      "position": "{0.340000004, 0}, {0.334054083, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "5:00",
+      "size": "{0.300000012, 0}, {0.529999971, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Other",
+      "position": "{0.680000007, 0}, {0.389999986, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "TEAMS LEFT: 2",
+      "size": "{0.289999992, 0}, {0.419999987, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "scale": 1,
+      "path": "StarterGui.MudHUD.Main.Top.ResponsiveHudScale",
+      "class": "UIScale"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Controls",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Meter",
+      "position": "{0.5, 0}, {1, -18}",
+      "anchor": "0.5, 1",
+      "class": "Frame",
+      "size": "{0, 200}, {0, 36}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Meter.Charge",
+      "position": "{0, 10}, {0, 3}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "SPRINT 10.0s / 10s",
+      "size": "{1, -20}, {0, 19}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Meter.Track",
+      "position": "{0, 10}, {0, 26}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{1, -20}, {0, 6}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Meter.Track.Fill",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Meter.Track.Fill.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Meter.Track.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Meter.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Mud",
+      "position": "{0, 12}, {1, -202}",
+      "anchor": "0, 1",
+      "class": "TextButton",
+      "text": "MUD\n[1]",
+      "size": "{0, 50}, {0, 44}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Mud.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Mud.LiveCaption",
+      "position": "{0.210968003, 0}, {0.151864007, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "MUD\n[1]",
+      "size": "{0.578064978, 0}, {0.631729007, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Controls.Mud.SelectionMark",
+      "position": "{1, -5}, {0, 4}",
+      "anchor": "1, 0",
+      "class": "TextLabel",
+      "text": "✓",
+      "size": "{0, 18}, {0, 18}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Heat",
+      "position": "{0, 76}, {1, -202}",
+      "anchor": "0, 1",
+      "class": "TextButton",
+      "text": "HEAT\n[2]",
+      "size": "{0, 50}, {0, 44}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Heat.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Heat.LiveCaption",
+      "position": "{0.210968003, 0}, {0.151864007, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "HEAT\n[2]",
+      "size": "{0.578064978, 0}, {0.631729007, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Controls.Heat.SelectionMark",
+      "position": "{1, -5}, {0, 4}",
+      "anchor": "1, 0",
+      "class": "TextLabel",
+      "text": "✓",
+      "size": "{0, 18}, {0, 18}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Fire",
+      "position": "{1, -18}, {1, -192}",
+      "anchor": "1, 1",
+      "class": "TextButton",
+      "text": "SPLAT!",
+      "size": "{0, 100}, {0, 44}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Fire.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Fire.LiveCaption",
+      "position": "{0.164000005, 0}, {0.151864007, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "SPLAT!",
+      "size": "{0.671999991, 0}, {0.631729007, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Controls.Sprint",
+      "position": "{0, 0}, {0, 98}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "SPRINT · HOLD SHIFT",
+      "size": "{0, 280}, {0, 48}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Sprint.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Sprint.LiveCaption",
+      "position": "{0.126664996, 0}, {0.150082007, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "SPRINT · HOLD SHIFT",
+      "size": "{0.746670008, 0}, {0.635179996, 0}"
+    },
+    {
+      "scale": 1,
+      "path": "StarterGui.MudHUD.Main.Controls.ResponsiveHudScale",
+      "class": "UIScale"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Frozen",
+      "position": "{0.5, 0}, {1, -18}",
+      "anchor": "0.5, 1",
+      "class": "Frame",
+      "size": "{0, 280}, {0, 96}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Frozen.Title",
+      "position": "{0, 8}, {0, 6}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "STUCK IN THE MUD!",
+      "size": "{1, -16}, {0, 28}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Frozen.Status",
+      "position": "{0, 10}, {0, 39}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "TEAMMATE HEAT: 0.0 / 5s",
+      "size": "{1, -20}, {0, 22}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Frozen.RescueTrack",
+      "position": "{0, 12}, {0, 73}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{1, -24}, {0, 10}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Frozen.RescueTrack.Fill",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Frozen.RescueTrack.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Frozen.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Countdown",
+      "position": "{0.5, -110}, {0.5, -60}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "3",
+      "size": "{0, 220}, {0, 120}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Crosshair",
+      "position": "{0.5, 0}, {0.5, 0}",
+      "anchor": "0.5, 0.5",
+      "class": "Frame",
+      "size": "{0, 14}, {0, 14}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Crosshair.Horizontal",
+      "position": "{0, 0}, {0, 6}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{0, 14}, {0, 2}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Crosshair.Vertical",
+      "position": "{0, 6}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{0, 2}, {0, 14}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Results",
+      "position": "{0.5, 0}, {0.519999981, 0}",
+      "anchor": "0.5, 0.5",
+      "class": "Frame",
+      "size": "{0.649999976, 0}, {0, 190}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Results.Title",
+      "position": "{0.0399999991, 0}, {0.0700000003, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "YOUR TEAM WINS!",
+      "size": "{0.920000017, 0}, {0.270000011, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Results.Reason",
+      "position": "{0.0500000007, 0}, {0.379999995, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "EVERY OPPONENT IS STUCK",
+      "size": "{0.899999976, 0}, {0.159999996, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Results.Rewards",
+      "position": "{0.0500000007, 0}, {0.629999995, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "+150 COINS · +50 XP",
+      "size": "{0.899999976, 0}, {0.239999995, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Results.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.DesktopControls",
+      "position": "{1, -24}, {1, -24}",
+      "anchor": "1, 1",
+      "class": "Frame",
+      "size": "{0, 280}, {0, 98}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{1, 0}, {0, 36}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Charge",
+      "position": "{0, 10}, {0, 3}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "SPRINT 10.0s / 10s",
+      "size": "{1, -20}, {0, 19}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Track",
+      "position": "{0, 10}, {0, 26}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{1, -20}, {0, 6}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Track.Fill",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "Frame",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Track.Fill.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Track.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Mud",
+      "position": "{0, 0}, {0, 44}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "MUD\n[1]",
+      "size": "{0, 93}, {0, 48}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Mud.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Mud.LiveCaption",
+      "position": "{0.210968003, 0}, {0.151864007, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "MUD\n[1]",
+      "size": "{0.578064978, 0}, {0.631729007, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Mud.SelectionMark",
+      "position": "{1, -5}, {0, 4}",
+      "anchor": "1, 0",
+      "class": "TextLabel",
+      "text": "✓",
+      "size": "{0, 18}, {0, 18}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Heat",
+      "position": "{0, 100}, {0, 44}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "HEAT\n[2]",
+      "size": "{0, 93}, {0, 48}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Heat.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Heat.LiveCaption",
+      "position": "{0.210968003, 0}, {0.151864007, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "HEAT\n[2]",
+      "size": "{0.578064978, 0}, {0.631729007, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Heat.SelectionMark",
+      "position": "{1, -5}, {0, 4}",
+      "anchor": "1, 0",
+      "class": "TextLabel",
+      "text": "✓",
+      "size": "{0, 18}, {0, 18}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Fire",
+      "position": "{0, 200}, {0, 44}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "SPLAT!",
+      "size": "{0, 80}, {0, 48}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Fire.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Fire.LiveCaption",
+      "position": "{0.164000005, 0}, {0.151864007, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "SPLAT!",
+      "size": "{0.671999991, 0}, {0.631729007, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Sprint",
+      "position": "{0, 0}, {0, 44}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "SPRINT · HOLD SHIFT",
+      "size": "{0, 280}, {0, 48}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Sprint.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Sprint.LiveCaption",
+      "position": "{0.126664996, 0}, {0.150082007, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "SPRINT · HOLD SHIFT",
+      "size": "{0.746670008, 0}, {0.635179996, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.MobileSprint",
+      "position": "{1, -16}, {1, -138}",
+      "anchor": "1, 1",
+      "class": "TextButton",
+      "text": "SPRINT\nHOLD",
+      "size": "{0, 100}, {0, 44}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.MobileSprint.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.MobileSprint.LiveCaption",
+      "position": "{0.075000003, 0}, {0.0799999982, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "SPRINT\nHOLD",
+      "size": "{0.850000024, 0}, {0.779999971, 0}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.MudHUD.ColourPicker",
+      "position": "{0.5, 0}, {0.519999981, 0}",
+      "anchor": "0.5, 0.5",
+      "class": "Frame",
+      "size": "{0, 280}, {0, 138}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Title",
+      "position": "{0, 10}, {0, 9}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "TEAM COLOUR",
+      "size": "{0, 209}, {0, 24}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Close",
+      "position": "{0, 231}, {0, 6}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "X",
+      "size": "{0, 40}, {0, 40}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Close.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Close.LiveCaption",
+      "position": "{0.213704005, 0}, {0.159172997, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "X",
+      "size": "{0.572573006, 0}, {0.617558002, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Red",
+      "position": "{0, 10}, {0, 49}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "RED",
+      "size": "{0, 60}, {0, 48}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Red.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Red.LiveCaption",
+      "position": "{0.194106996, 0}, {0.150967002, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "RED",
+      "size": "{0.611800015, 0}, {0.633482993, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Blue",
+      "position": "{0, 76}, {0, 49}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "BLUE",
+      "size": "{0, 60}, {0, 48}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Blue.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Blue.LiveCaption",
+      "position": "{0.132569999, 0}, {0.206851006, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "BLUE",
+      "size": "{0.734872997, 0}, {0.53144002, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Green",
+      "position": "{0, 142}, {0, 49}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "GREEN",
+      "size": "{0, 60}, {0, 48}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Green.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Green.LiveCaption",
+      "position": "{0.132569999, 0}, {0.206851006, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "GREEN",
+      "size": "{0.734872997, 0}, {0.53144002, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Black",
+      "position": "{0, 208}, {0, 49}",
+      "anchor": "0, 0",
+      "class": "TextButton",
+      "text": "BLACK",
+      "size": "{0, 60}, {0, 48}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Black.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Black.LiveCaption",
+      "position": "{0.132569999, 0}, {0.206851006, 0}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "BLACK",
+      "size": "{0.734872997, 0}, {0.53144002, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.Message",
+      "position": "{0, 10}, {0, 108}",
+      "anchor": "0, 0",
+      "class": "TextLabel",
+      "text": "Pick a colour for your next team.",
+      "size": "{0, 260}, {0, 21}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.MudHUD.ColourPicker.ReusableSkin",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "class": "ImageLabel",
+      "size": "{1, 0}, {1, 0}"
+    }
+  ],
+  "sandbox": true,
+  "gui": {
+    "display": 17,
+    "insets": "Enum.ScreenInsets.DeviceSafeInsets",
+    "ignore": true
+  }
+}

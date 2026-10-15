@@ -1,0 +1,3835 @@
+{
+  "records": [
+    {
+      "sceneOccupancy": 0.23005541774139696,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Overlap 441px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 1029px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 306,
+          "x": 62,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 208.99996948242188,
+          "x": 62,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 356.3932189941406,
+          "x": 631.961181640625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 330.6067810058594,
+          "x": 98.11795043945312,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 135.6640625,
+          "x": 135.3216094970703,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 164,
+          "x": 470,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 330.6067810058594,
+          "x": 36.834434509277344,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.2521318969730208,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Overlap 441px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 1029px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Overlap 4480px²: PlaygroundIntermissionHUD.Compact / PlaygroundFishingHUD.CompactDock",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 306,
+          "x": 62,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 208.99996948242188,
+          "x": 62,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 184,
+          "x": 624,
+          "height": 66,
+          "width": 112
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 356.3932189941406,
+          "x": 631.961181640625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 330.6067810058594,
+          "x": 98.11795043945312,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 135.6640625,
+          "x": 135.3216094970703,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 164,
+          "x": 470,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 330.6067810058594,
+          "x": 36.834434509277344,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.3309047887767695,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Overlap 441px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 1029px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Overlap 13776px²: PlaygroundIntermissionHUD.Compact / PlaygroundToyHotbar.Bar",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 306,
+          "x": 62,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 208.99996948242188,
+          "x": 62,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 86,
+          "x": 544,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 356.3932189941406,
+          "x": 631.961181640625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 330.6067810058594,
+          "x": 98.11795043945312,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 135.6640625,
+          "x": 135.3216094970703,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 164,
+          "x": 470,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 330.6067810058594,
+          "x": 36.834434509277344,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.19711165605028189,
+      "scenario": "bulldog",
+      "warnings": [
+        "Text overflow: BritishBulldogHUD.TopCard/Timer"
+      ],
+      "viewport": "phone_landscape_reference",
+      "failures": [
+        "Overlap 760px²: PlaygroundSessionControls.RoundToggle / BritishBulldogHUD.MobileSprint",
+        "Overlap 320px²: PlaygroundSessionControls.RoundToggle / PlaygroundBatControls.Swing",
+        "Overlap 72px²: BritishBulldogHUD.MovementControls.Meter / PlaygroundPushControls.MobilePush"
+      ],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 194,
+          "x": 670,
+          "height": 54,
+          "width": 120
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 250.60003662109375,
+          "x": 264.41400146484375,
+          "height": 45.119998931884766,
+          "width": 323.1719970703125
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 89.25,
+          "x": 283.1319885253906,
+          "height": 78.20000457763672,
+          "width": 285.73602294921875
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 170,
+          "x": 752,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 126,
+          "x": 680,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 201.89999389648438,
+          "x": 574,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 105,
+          "x": 60,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.2051505680027861,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [
+        "Overlap 760px²: PlaygroundSessionControls.RoundToggle / TagHUD.MobileSprint",
+        "Overlap 320px²: PlaygroundSessionControls.RoundToggle / PlaygroundBatControls.Swing"
+      ],
+      "measurements": {
+        "PlaygroundPushControls.MobilePush": {
+          "y": 201.89999389648438,
+          "x": 574,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 126,
+          "x": 680,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 170,
+          "x": 752,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 244.95997619628906,
+          "x": 294.3999938964844,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "TagHUD.Top": {
+          "y": 88.95999145507812,
+          "x": 283.1319885253906,
+          "height": 86.70000457763672,
+          "width": 285.73602294921875
+        },
+        "TagHUD.MobileSprint": {
+          "y": 194,
+          "x": 670,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 105,
+          "x": 60,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.16326153780058325,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [
+        "Overlap 2288px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Mud",
+        "Overlap 2464px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Heat",
+        "Overlap 760px²: PlaygroundSessionControls.RoundToggle / MudHUD.Main.MobileSprint",
+        "Overlap 380px²: PlaygroundSessionControls.RoundToggle / MudHUD.Main.Controls.Fire"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 194,
+          "x": 670,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Top": {
+          "y": 92,
+          "x": 257.91998291015625,
+          "height": 74,
+          "width": 336.1600036621094
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 170,
+          "x": 752,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 126,
+          "x": 670,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 126,
+          "x": 56,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 126,
+          "x": 120,
+          "height": 44,
+          "width": 56
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 105,
+          "x": 60,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.42380521487047973,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Offscreen: PlaygroundSessionControls.Spectate",
+        "Overlap 80px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 556px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Overlap 2430px²: PlaygroundShell.LevelPanel / PlaygroundIntermissionHUD.Compact",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 254,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 156.99996948242188,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 307.63800048828125,
+          "x": 392.5355224609375,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 289.36199951171875,
+          "x": 43.31282043457031,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 83.1171875,
+          "x": 72.5113525390625,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 140,
+          "x": 230,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 289.36199951171875,
+          "x": -19.693771362304688,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.46447422895498675,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Offscreen: PlaygroundSessionControls.Spectate",
+        "Overlap 80px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 556px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Overlap 2430px²: PlaygroundShell.LevelPanel / PlaygroundIntermissionHUD.Compact",
+        "Overlap 6496px²: PlaygroundIntermissionHUD.Compact / PlaygroundFishingHUD.CompactDock",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 254,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 156.99996948242188,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 132,
+          "x": 384,
+          "height": 66,
+          "width": 112
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 307.63800048828125,
+          "x": 392.5355224609375,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 289.36199951171875,
+          "x": 43.31282043457031,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 83.1171875,
+          "x": 72.5113525390625,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 140,
+          "x": 230,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 289.36199951171875,
+          "x": -19.693771362304688,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.609588665574705,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Offscreen: PlaygroundSessionControls.Spectate",
+        "Overlap 80px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 556px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Overlap 2430px²: PlaygroundShell.LevelPanel / PlaygroundIntermissionHUD.Compact",
+        "Overlap 6888px²: PlaygroundIntermissionHUD.Compact / PlaygroundToyHotbar.Bar",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 254,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 156.99996948242188,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 34,
+          "x": 304,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 307.63800048828125,
+          "x": 392.5355224609375,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 289.36199951171875,
+          "x": 43.31282043457031,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 83.1171875,
+          "x": 72.5113525390625,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 140,
+          "x": 230,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 289.36199951171875,
+          "x": -19.693771362304688,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.331348401177601,
+      "scenario": "bulldog",
+      "warnings": [
+        "Text overflow: BritishBulldogHUD.TopCard/Timer"
+      ],
+      "viewport": "phone_landscape_small",
+      "failures": [
+        "Overlap 340px²: PlaygroundShell.CompactLevelPanel / BritishBulldogHUD.TopCard",
+        "Overlap 1672px²: PlaygroundSessionControls.RoundToggle / BritishBulldogHUD.MobileSprint",
+        "Overlap 867px²: BritishBulldogHUD.MovementControls.Meter / PlaygroundPushControls.MobilePush",
+        "Reserved control overlap: PlaygroundShell.CompactLevelPanel / Roblox top bar"
+      ],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 142,
+          "x": 430,
+          "height": 54,
+          "width": 120
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 198.60000610351562,
+          "x": 152.39999389648438,
+          "height": 45.119998931884766,
+          "width": 263.20001220703125
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 64.55000305175781,
+          "x": 160.75,
+          "height": 78.20000457763672,
+          "width": 246.5
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 512,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 74,
+          "x": 440,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 155.22000122070312,
+          "x": 334,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 53,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.35921012444143574,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [
+        "Overlap 342px²: PlaygroundShell.CompactLevelPanel / TagHUD.Top",
+        "Overlap 1672px²: PlaygroundSessionControls.RoundToggle / TagHUD.MobileSprint",
+        "Overlap 1327px²: TagHUD.SprintPanel.Meter / PlaygroundPushControls.MobilePush",
+        "Reserved control overlap: PlaygroundShell.CompactLevelPanel / Roblox top bar"
+      ],
+      "measurements": {
+        "PlaygroundPushControls.MobilePush": {
+          "y": 155.22000122070312,
+          "x": 334,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 74,
+          "x": 440,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 512,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 192.95999145507812,
+          "x": 152.39999389648438,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "TagHUD.Top": {
+          "y": 64.28799438476562,
+          "x": 160.75,
+          "height": 86.70000457763672,
+          "width": 246.5
+        },
+        "TagHUD.MobileSprint": {
+          "y": 142,
+          "x": 430,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 53,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.28196522887323944,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [
+        "Overlap 1428px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Top",
+        "Overlap 2288px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Mud",
+        "Overlap 2464px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Heat",
+        "Overlap 1672px²: PlaygroundSessionControls.RoundToggle / MudHUD.Main.MobileSprint",
+        "Reserved control overlap: PlaygroundShell.CompactLevelPanel / Roblox top bar"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 142,
+          "x": 430,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Top": {
+          "y": 68,
+          "x": 139,
+          "height": 74,
+          "width": 290
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 512,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 74,
+          "x": 430,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 74,
+          "x": 12,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 74,
+          "x": 76,
+          "height": 44,
+          "width": 56
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 53,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.30796935874006354,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 427px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 1486px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 309,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 211.99996948242188,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 356.2643127441406,
+          "x": 491.2454528808594,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 323.2356872558594,
+          "x": 48.77051544189453,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 139.19140625,
+          "x": 82.012451171875,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 140,
+          "x": 329,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 323.2356872558594,
+          "x": -13.36574935913086,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.3375225821283694,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 427px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 1486px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Overlap 1456px²: PlaygroundIntermissionHUD.Compact / PlaygroundFishingHUD.CompactDock",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 309,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 211.99996948242188,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 187,
+          "x": 483,
+          "height": 66,
+          "width": 112
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 356.2643127441406,
+          "x": 491.2454528808594,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 323.2356872558594,
+          "x": 48.77051544189453,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 139.19140625,
+          "x": 82.012451171875,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 140,
+          "x": 329,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 323.2356872558594,
+          "x": -13.36574935913086,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.442973856491188,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 427px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 1486px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Overlap 14760px²: PlaygroundIntermissionHUD.Compact / PlaygroundToyHotbar.Bar",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 309,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 211.99996948242188,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 89,
+          "x": 403,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 356.2643127441406,
+          "x": 491.2454528808594,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 323.2356872558594,
+          "x": 48.77051544189453,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 139.19140625,
+          "x": 82.012451171875,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 140,
+          "x": 329,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 323.2356872558594,
+          "x": -13.36574935913086,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.2451247167143685,
+      "scenario": "bulldog",
+      "warnings": [
+        "Text overflow: BritishBulldogHUD.TopCard/Timer"
+      ],
+      "viewport": "phone_landscape_standard",
+      "failures": [
+        "Overlap 1184px²: PlaygroundSessionControls.RoundToggle / PlaygroundBatControls.Swing"
+      ],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 197,
+          "x": 529,
+          "height": 54,
+          "width": 120
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 253.60003662109375,
+          "x": 192.42950439453125,
+          "height": 45.119998931884766,
+          "width": 282.1409912109375
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 65.92500305175781,
+          "x": 208.77099609375,
+          "height": 78.20000457763672,
+          "width": 249.45802307128906
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 611,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 129,
+          "x": 539,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 199.76998901367188,
+          "x": 433,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 108,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.26205494385725886,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [
+        "Overlap 1184px²: PlaygroundSessionControls.RoundToggle / PlaygroundBatControls.Swing",
+        "Overlap 187px²: TagHUD.SprintPanel.Meter / PlaygroundPushControls.MobilePush"
+      ],
+      "measurements": {
+        "PlaygroundPushControls.MobilePush": {
+          "y": 199.76998901367188,
+          "x": 433,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 129,
+          "x": 539,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 611,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 247.95997619628906,
+          "x": 201.89999389648438,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "TagHUD.Top": {
+          "y": 65.60800170898438,
+          "x": 208.77099609375,
+          "height": 86.70000457763672,
+          "width": 249.45802307128906
+        },
+        "TagHUD.MobileSprint": {
+          "y": 197,
+          "x": 529,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 108,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.20592711969210706,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [
+        "Overlap 2288px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Mud",
+        "Overlap 2464px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Heat",
+        "Overlap 1406px²: PlaygroundSessionControls.RoundToggle / MudHUD.Main.Controls.Fire"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 197,
+          "x": 529,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Top": {
+          "y": 68,
+          "x": 186.75999450683594,
+          "height": 74,
+          "width": 293.4800109863281
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 611,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 129,
+          "x": 529,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 129,
+          "x": 12,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 129,
+          "x": 76,
+          "height": 44,
+          "width": 56
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 108,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.23402246887488878,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Overlap 576px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 1384px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 303,
+          "x": 62,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 205.99996948242188,
+          "x": 62,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 350.9596252441406,
+          "x": 623.984619140625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 319.5403747558594,
+          "x": 97.67692565917969,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 133.07421875,
+          "x": 134.55384826660156,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 140,
+          "x": 462,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 319.5403747558594,
+          "x": 36.32307815551758,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.25647963256427997,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Overlap 576px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 1384px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Overlap 2128px²: PlaygroundIntermissionHUD.Compact / PlaygroundFishingHUD.CompactDock",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 303,
+          "x": 62,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 205.99996948242188,
+          "x": 62,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 181,
+          "x": 616,
+          "height": 66,
+          "width": 112
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 350.9596252441406,
+          "x": 623.984619140625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 319.5403747558594,
+          "x": 97.67692565917969,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 133.07421875,
+          "x": 134.55384826660156,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 140,
+          "x": 462,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 319.5403747558594,
+          "x": 36.32307815551758,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.33661087572869847,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Overlap 576px²: PlaygroundShell.Dock / PlaygroundSessionControls.Toggle",
+        "Overlap 1384px²: PlaygroundShell.Dock / PlaygroundSessionControls.Spectate",
+        "Overlap 14760px²: PlaygroundIntermissionHUD.Compact / PlaygroundToyHotbar.Bar",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 303,
+          "x": 62,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 205.99996948242188,
+          "x": 62,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 83,
+          "x": 536,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 350.9596252441406,
+          "x": 623.984619140625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 319.5403747558594,
+          "x": 97.67692565917969,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 133.07421875,
+          "x": 134.55384826660156,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 140,
+          "x": 462,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 319.5403747558594,
+          "x": 36.32307815551758,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.19933593123062163,
+      "scenario": "bulldog",
+      "warnings": [
+        "Text overflow: BritishBulldogHUD.TopCard/Timer"
+      ],
+      "viewport": "phone_landscape_notch",
+      "failures": [
+        "Overlap 992px²: PlaygroundSessionControls.RoundToggle / PlaygroundBatControls.Swing",
+        "Overlap 21px²: BritishBulldogHUD.MovementControls.Meter / PlaygroundPushControls.MobilePush"
+      ],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 191,
+          "x": 662,
+          "height": 54,
+          "width": 120
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 247.60003662109375,
+          "x": 262.10601806640625,
+          "height": 45.119998931884766,
+          "width": 319.7879943847656
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 65.77499389648438,
+          "x": 280.62799072265625,
+          "height": 78.20000457763672,
+          "width": 282.7439880371094
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 744,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 123,
+          "x": 672,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 194.91000366210938,
+          "x": 566,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 102,
+          "x": 60,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.20790006728400945,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [
+        "Overlap 992px²: PlaygroundSessionControls.RoundToggle / PlaygroundBatControls.Swing"
+      ],
+      "measurements": {
+        "PlaygroundPushControls.MobilePush": {
+          "y": 194.91000366210938,
+          "x": 566,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 123,
+          "x": 672,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 744,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 241.95997619628906,
+          "x": 290.3999938964844,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "TagHUD.Top": {
+          "y": 65.4639892578125,
+          "x": 280.62799072265625,
+          "height": 86.70000457763672,
+          "width": 282.7439880371094
+        },
+        "TagHUD.MobileSprint": {
+          "y": 191,
+          "x": 662,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 102,
+          "x": 60,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.1652854503149945,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [
+        "Overlap 2288px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Mud",
+        "Overlap 2464px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Heat",
+        "Overlap 1178px²: PlaygroundSessionControls.RoundToggle / MudHUD.Main.Controls.Fire"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 191,
+          "x": 662,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Top": {
+          "y": 68,
+          "x": 255.6800079345703,
+          "height": 74,
+          "width": 332.6399841308594
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 744,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 123,
+          "x": 662,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 123,
+          "x": 56,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 123,
+          "x": 120,
+          "height": 44,
+          "width": 56
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 102,
+          "x": 60,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.36623479233526846,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 3238px²: PlaygroundShell.Dock / PlaygroundShell.Wallet",
+        "Overlap 1594px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Dock / jump",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / jump",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 502,
+          "x": 18,
+          "height": 48,
+          "width": 284
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 404.9999694824219,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 529.2161254882812,
+          "x": 145.26226806640625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 449.78387451171875,
+          "x": 29.641029357910156,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 335.5703125,
+          "x": 48.71062469482422,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 160,
+          "x": 78,
+          "height": 60,
+          "width": 224
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 449.78387451171875,
+          "x": -35.54578399658203,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.40690380641977547,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 3238px²: PlaygroundShell.Dock / PlaygroundShell.Wallet",
+        "Overlap 1594px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Overlap 4592px²: PlaygroundShell.LevelPanel / PlaygroundFishingHUD.CompactDock",
+        "Overlap 188px²: PlaygroundEmoteWheel.Toggle / PlaygroundFishingHUD.CompactDock",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Dock / jump",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / jump",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 502,
+          "x": 18,
+          "height": 48,
+          "width": 284
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 404.9999694824219,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 380,
+          "x": 136,
+          "height": 66,
+          "width": 112
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 529.2161254882812,
+          "x": 145.26226806640625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 449.78387451171875,
+          "x": 29.641029357910156,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 335.5703125,
+          "x": 48.71062469482422,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 160,
+          "x": 78,
+          "height": 60,
+          "width": 224
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 449.78387451171875,
+          "x": -35.54578399658203,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.5520182430394938,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [
+        "Offscreen: PlaygroundShell.Wallet",
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 3238px²: PlaygroundShell.Dock / PlaygroundShell.Wallet",
+        "Overlap 1594px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Overlap 2536px²: PlaygroundShell.LevelPanel / PlaygroundToyHotbar.Bar",
+        "Overlap 6370px²: PlaygroundEmoteWheel.Toggle / PlaygroundToyHotbar.Bar",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Dock / jump",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / jump",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 502,
+          "x": 18,
+          "height": 48,
+          "width": 284
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 404.9999694824219,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 282,
+          "x": 56,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 529.2161254882812,
+          "x": 145.26226806640625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 449.78387451171875,
+          "x": 29.641029357910156,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 335.5703125,
+          "x": 48.71062469482422,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 160,
+          "x": 78,
+          "height": 60,
+          "width": 224
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 449.78387451171875,
+          "x": -35.54578399658203,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.331348401177601,
+      "scenario": "bulldog",
+      "warnings": [
+        "Text overflow: BritishBulldogHUD.TopCard/Timer"
+      ],
+      "viewport": "phone_portrait_small",
+      "failures": [
+        "Overlap 575px²: PlaygroundShell.CompactLevelPanel / PlaygroundPushControls.MobilePush",
+        "Overlap 47px²: PlaygroundSessionControls.RoundToggle / BritishBulldogHUD.TopCard",
+        "Reserved control overlap: BritishBulldogHUD.MovementControls.Meter / joystick",
+        "Reserved control overlap: BritishBulldogHUD.MovementControls.Meter / jump"
+      ],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 390,
+          "x": 182,
+          "height": 54,
+          "width": 120
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 446.6000061035156,
+          "x": 28.399993896484375,
+          "height": 45.119998931884766,
+          "width": 263.20001220703125
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 90.25,
+          "x": 36.75,
+          "height": 78.20000457763672,
+          "width": 246.5
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 166,
+          "x": 264,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 322,
+          "x": 192,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 359.8999938964844,
+          "x": 86,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 301,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.35921012444143574,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [
+        "Overlap 575px²: PlaygroundShell.CompactLevelPanel / PlaygroundPushControls.MobilePush",
+        "Overlap 201px²: PlaygroundSessionControls.RoundToggle / TagHUD.Top",
+        "Overlap 333px²: TagHUD.MobileSprint / TagHUD.SprintPanel.Meter",
+        "Reserved control overlap: TagHUD.SprintPanel.Meter / joystick",
+        "Reserved control overlap: TagHUD.SprintPanel.Meter / jump"
+      ],
+      "measurements": {
+        "PlaygroundPushControls.MobilePush": {
+          "y": 359.8999938964844,
+          "x": 86,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 322,
+          "x": 192,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 166,
+          "x": 264,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 440.9599914550781,
+          "x": 28.399993896484375,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "TagHUD.Top": {
+          "y": 89.75999450683594,
+          "x": 36.75,
+          "height": 86.70000457763672,
+          "width": 246.5
+        },
+        "TagHUD.MobileSprint": {
+          "y": 390,
+          "x": 182,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 301,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.28196522887323944,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [
+        "Overlap 2288px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Mud",
+        "Overlap 2464px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Heat"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 390,
+          "x": 182,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Top": {
+          "y": 88,
+          "x": 15,
+          "height": 74,
+          "width": 290
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 166,
+          "x": 264,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 322,
+          "x": 182,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 322,
+          "x": 12,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 322,
+          "x": 76,
+          "height": 44,
+          "width": 56
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 301,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.28592438122881914,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 5026px²: PlaygroundShell.Dock / PlaygroundShell.Wallet",
+        "Overlap 1936px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Dock / jump",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / jump",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 601,
+          "x": 18,
+          "height": 48,
+          "width": 339
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 503.99993896484375,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 616.7434692382812,
+          "x": 200.10110473632812,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 510.75653076171875,
+          "x": 32.67308044433594,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 436.50390625,
+          "x": 53.989013671875,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 160,
+          "x": 94.5,
+          "height": 60,
+          "width": 262.5
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 510.75653076171875,
+          "x": -32.03022003173828,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.315477604617125,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 5026px²: PlaygroundShell.Dock / PlaygroundShell.Wallet",
+        "Overlap 1936px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Overlap 3916px²: PlaygroundShell.LevelPanel / PlaygroundFishingHUD.CompactDock",
+        "Overlap 16px²: PlaygroundEmoteWheel.Toggle / PlaygroundFishingHUD.CompactDock",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Dock / jump",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / jump",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 601,
+          "x": 18,
+          "height": 48,
+          "width": 339
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 503.99993896484375,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 479,
+          "x": 191,
+          "height": 66,
+          "width": 112
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 616.7434692382812,
+          "x": 200.10110473632812,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 510.75653076171875,
+          "x": 32.67308044433594,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 436.50390625,
+          "x": 53.989013671875,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 160,
+          "x": 94.5,
+          "height": 60,
+          "width": 262.5
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 510.75653076171875,
+          "x": -32.03022003173828,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.4209288789799436,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 5026px²: PlaygroundShell.Dock / PlaygroundShell.Wallet",
+        "Overlap 1936px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Overlap 1931px²: PlaygroundShell.LevelPanel / PlaygroundToyHotbar.Bar",
+        "Overlap 3983px²: PlaygroundEmoteWheel.Toggle / PlaygroundToyHotbar.Bar",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Dock / jump",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / jump",
+        "Reserved control overlap: PlaygroundSessionControls.Toggle / joystick",
+        "Reserved control overlap: PlaygroundSessionControls.Spectate / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 601,
+          "x": 18,
+          "height": 48,
+          "width": 339
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 503.99993896484375,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 381,
+          "x": 111,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 616.7434692382812,
+          "x": 200.10110473632812,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 510.75653076171875,
+          "x": 32.67308044433594,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 436.50390625,
+          "x": 53.989013671875,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 160,
+          "x": 94.5,
+          "height": 60,
+          "width": 262.5
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 510.75653076171875,
+          "x": -32.03022003173828,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.24078315001715445,
+      "scenario": "bulldog",
+      "warnings": [
+        "Text overflow: BritishBulldogHUD.TopCard/Timer"
+      ],
+      "viewport": "phone_portrait_standard",
+      "failures": [
+        "Overlap 674px²: PlaygroundShell.CompactLevelPanel / PlaygroundPushControls.MobilePush",
+        "Reserved control overlap: BritishBulldogHUD.MovementControls.Meter / joystick",
+        "Reserved control overlap: BritishBulldogHUD.MovementControls.Meter / jump"
+      ],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 489,
+          "x": 237,
+          "height": 54,
+          "width": 120
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 545.5999755859375,
+          "x": 55.899993896484375,
+          "height": 45.119998931884766,
+          "width": 263.20001220703125
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 92.72499084472656,
+          "x": 64.25,
+          "height": 78.20000457763672,
+          "width": 246.5
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 166,
+          "x": 319,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 421,
+          "x": 247,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 440.0899963378906,
+          "x": 141,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 400,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.26102961406686803,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [
+        "Overlap 674px²: PlaygroundShell.CompactLevelPanel / PlaygroundPushControls.MobilePush",
+        "Overlap 250px²: TagHUD.MobileSprint / TagHUD.SprintPanel.Meter",
+        "Reserved control overlap: TagHUD.SprintPanel.Meter / joystick",
+        "Reserved control overlap: TagHUD.SprintPanel.Meter / jump"
+      ],
+      "measurements": {
+        "PlaygroundPushControls.MobilePush": {
+          "y": 440.0899963378906,
+          "x": 141,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 421,
+          "x": 247,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 166,
+          "x": 319,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 539.9600219726562,
+          "x": 55.899993896484375,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "TagHUD.Top": {
+          "y": 92.13600158691406,
+          "x": 64.25,
+          "height": 86.70000457763672,
+          "width": 246.5
+        },
+        "TagHUD.MobileSprint": {
+          "y": 489,
+          "x": 237,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 400,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.2048975512243878,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [
+        "Overlap 2288px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Mud",
+        "Overlap 2464px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Heat"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 489,
+          "x": 237,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Top": {
+          "y": 88,
+          "x": 42.5,
+          "height": 74,
+          "width": 290
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 166,
+          "x": 319,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 421,
+          "x": 237,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 421,
+          "x": 12,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 421,
+          "x": 76,
+          "height": 44,
+          "width": 56
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 400,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.2213720860823259,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 7154px²: PlaygroundShell.Dock / PlaygroundShell.Wallet",
+        "Overlap 222px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Overlap 481px²: PlaygroundEmoteWheel.Toggle / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Dock / jump",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 744,
+          "x": 18,
+          "height": 48,
+          "width": 354
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 646.9999389648438,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 745.953125,
+          "x": 215.05715942382812,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 608.046875,
+          "x": 33.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 581.828125,
+          "x": 55.42857360839844,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 184,
+          "x": 99,
+          "height": 60,
+          "width": 273
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 608.046875,
+          "x": -31.071426391601562,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.24382924977171708,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 7154px²: PlaygroundShell.Dock / PlaygroundShell.Wallet",
+        "Overlap 222px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Overlap 3301px²: PlaygroundShell.LevelPanel / PlaygroundFishingHUD.CompactDock",
+        "Overlap 481px²: PlaygroundEmoteWheel.Toggle / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Dock / jump",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 744,
+          "x": 18,
+          "height": 48,
+          "width": 354
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 646.9999389648438,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 622,
+          "x": 206,
+          "height": 66,
+          "width": 112
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 745.953125,
+          "x": 215.05715942382812,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 608.046875,
+          "x": 33.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 581.828125,
+          "x": 55.42857360839844,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 184,
+          "x": 99,
+          "height": 60,
+          "width": 273
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 608.046875,
+          "x": -31.071426391601562,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.3239604929361356,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Overlap 7154px²: PlaygroundShell.Dock / PlaygroundShell.Wallet",
+        "Overlap 222px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Overlap 1766px²: PlaygroundShell.LevelPanel / PlaygroundToyHotbar.Bar",
+        "Overlap 481px²: PlaygroundEmoteWheel.Toggle / PlaygroundSessionControls.Spectate",
+        "Overlap 3333px²: PlaygroundEmoteWheel.Toggle / PlaygroundToyHotbar.Bar",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Dock / jump",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 744,
+          "x": 18,
+          "height": 48,
+          "width": 354
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 646.9999389648438,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 524,
+          "x": 126,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 745.953125,
+          "x": 215.05715942382812,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 608.046875,
+          "x": 33.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 581.828125,
+          "x": 55.42857360839844,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 184,
+          "x": 99,
+          "height": 60,
+          "width": 273
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 608.046875,
+          "x": -31.071426391601562,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.18296842082282402,
+      "scenario": "bulldog",
+      "warnings": [
+        "Text overflow: BritishBulldogHUD.TopCard/Timer"
+      ],
+      "viewport": "phone_portrait_notch",
+      "failures": [
+        "Overlap 534px²: PlaygroundShell.CompactLevelPanel / PlaygroundPushControls.MobilePush",
+        "Reserved control overlap: BritishBulldogHUD.MovementControls.Meter / joystick",
+        "Reserved control overlap: BritishBulldogHUD.MovementControls.Meter / jump"
+      ],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 632,
+          "x": 252,
+          "height": 54,
+          "width": 120
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 688.5999755859375,
+          "x": 63.399993896484375,
+          "height": 45.119998931884766,
+          "width": 263.20001220703125
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 119.69999694824219,
+          "x": 71.75,
+          "height": 78.20000457763672,
+          "width": 246.5
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 190,
+          "x": 334,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 564,
+          "x": 262,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 560.47998046875,
+          "x": 156,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 543,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.1983534822532366,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [
+        "Overlap 534px²: PlaygroundShell.CompactLevelPanel / PlaygroundPushControls.MobilePush",
+        "Overlap 227px²: TagHUD.MobileSprint / TagHUD.SprintPanel.Meter",
+        "Reserved control overlap: TagHUD.SprintPanel.Meter / joystick",
+        "Reserved control overlap: TagHUD.SprintPanel.Meter / jump"
+      ],
+      "measurements": {
+        "PlaygroundPushControls.MobilePush": {
+          "y": 560.47998046875,
+          "x": 156,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 564,
+          "x": 262,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 190,
+          "x": 334,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 682.9600219726562,
+          "x": 63.399993896484375,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "TagHUD.Top": {
+          "y": 118.99200439453125,
+          "x": 71.75,
+          "height": 86.70000457763672,
+          "width": 246.5
+        },
+        "TagHUD.MobileSprint": {
+          "y": 632,
+          "x": 252,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 543,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15569935593632275,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [
+        "Overlap 2288px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Mud",
+        "Overlap 2464px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Heat"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 632,
+          "x": 252,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Top": {
+          "y": 112,
+          "x": 50,
+          "height": 74,
+          "width": 290
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 190,
+          "x": 334,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 564,
+          "x": 252,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 564,
+          "x": 12,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 564,
+          "x": 76,
+          "height": 44,
+          "width": 56
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 543,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.09794977296811218,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 938,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 840.9999389648438,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 915.1536254882812,
+          "x": 591.949462890625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 719.8463745117188,
+          "x": 54.338462829589844,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 780.0078125,
+          "x": 91.70550537109375,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 164,
+          "x": 430,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 719.8463745117188,
+          "x": -6.909889221191406,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.10734918703061218,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 938,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 840.9999389648438,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 816,
+          "x": 584,
+          "height": 66,
+          "width": 112
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 915.1536254882812,
+          "x": 591.949462890625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 719.8463745117188,
+          "x": 54.338462829589844,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 780.0078125,
+          "x": 91.70550537109375,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 164,
+          "x": 430,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 719.8463745117188,
+          "x": -6.909889221191406,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.14088800538998716,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [
+        "Offscreen: PlaygroundSessionControls.Toggle",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 938,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 840.9999389648438,
+          "x": 18,
+          "height": 81,
+          "width": 268.5
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 718,
+          "x": 504,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 915.1536254882812,
+          "x": 591.949462890625,
+          "height": 45.91999816894531,
+          "width": 155.8000030517578
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 719.8463745117188,
+          "x": 54.338462829589844,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 780.0078125,
+          "x": 91.70550537109375,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 164,
+          "x": 430,
+          "height": 60,
+          "width": 320
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 719.8463745117188,
+          "x": -6.909889221191406,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.09138721120840095,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 826,
+          "x": 630,
+          "height": 54,
+          "width": 120
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 882.5999755859375,
+          "x": 221.56800842285156,
+          "height": 45.119998931884766,
+          "width": 324.8639831542969
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 105.05000305175781,
+          "x": 240.38400268554688,
+          "height": 97.9625015258789,
+          "width": 287.23199462890625
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 170,
+          "x": 712,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 758,
+          "x": 640,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 713.8200073242188,
+          "x": 534,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 737,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.09591802182893083,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "PlaygroundPushControls.MobilePush": {
+          "y": 713.8200073242188,
+          "x": 534,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 758,
+          "x": 640,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 170,
+          "x": 712,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 876.9600219726562,
+          "x": 252.39999389648438,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "TagHUD.Top": {
+          "y": 104.12799835205078,
+          "x": 240.38400268554688,
+          "height": 109.71800231933594,
+          "width": 287.23199462890625
+        },
+        "TagHUD.MobileSprint": {
+          "y": 826,
+          "x": 630,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 737,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0696768172395726,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [
+        "Overlap 2288px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Mud",
+        "Overlap 2464px²: PlaygroundShell.CompactLevelPanel / MudHUD.Main.Controls.Heat"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 826,
+          "x": 630,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Top": {
+          "y": 92,
+          "x": 215.04000854492188,
+          "height": 74,
+          "width": 337.91998291015625
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 170,
+          "x": 712,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 758,
+          "x": 630,
+          "height": 54,
+          "width": 120
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 758,
+          "x": 12,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 758,
+          "x": 76,
+          "height": 44,
+          "width": 56
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 737,
+          "x": 16,
+          "height": 66,
+          "width": 151
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.11869333501885808,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [
+        "Overlap 1325px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Toggle",
+        "Overlap 1645px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 682,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 568.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 688.8203125,
+          "x": 831.999267578125,
+          "height": 50.39999771118164,
+          "width": 171
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 562.1796875,
+          "x": 68.45128631591797,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 519.0078125,
+          "x": 116.27398681640625,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 94,
+          "x": 332,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 562.1796875,
+          "x": 9.453483581542969,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.1352542074146914,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [
+        "Overlap 5971px²: PlaygroundShell.Wallet / PlaygroundFishingHUD.DesktopDock",
+        "Overlap 1325px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Toggle",
+        "Overlap 1645px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundFishingHUD.DesktopDock / jump"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 682,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 568.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "PlaygroundFishingHUD.DesktopDock": {
+          "y": 642,
+          "x": 858,
+          "height": 88,
+          "width": 148
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 688.8203125,
+          "x": 831.999267578125,
+          "height": 50.39999771118164,
+          "width": 171
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 562.1796875,
+          "x": 68.45128631591797,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 519.0078125,
+          "x": 116.27398681640625,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 94,
+          "x": 332,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 562.1796875,
+          "x": 9.453483581542969,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.16163156744073306,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [
+        "Overlap 1325px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Toggle",
+        "Overlap 1645px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 682,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 568.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 462,
+          "x": 760,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 688.8203125,
+          "x": 831.999267578125,
+          "height": 50.39999771118164,
+          "width": 171
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 562.1796875,
+          "x": 68.45128631591797,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 519.0078125,
+          "x": 116.27398681640625,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 94,
+          "x": 332,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 562.1796875,
+          "x": 9.453483581542969,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.1270375137611953,
+      "scenario": "bulldog",
+      "warnings": [
+        "Text overflow: BritishBulldogHUD.TopCard/Timer"
+      ],
+      "viewport": "ipad_landscape",
+      "failures": [
+        "Overlap 175px²: PlaygroundShell.LevelPanel / BritishBulldogHUD.MovementControls.Meter",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 570,
+          "x": 886,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 568.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 98.65000915527344,
+          "x": 309.24798583984375,
+          "height": 82.79999542236328,
+          "width": 405.5039978027344
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 170,
+          "x": 968,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 502,
+          "x": 896,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 506.46002197265625,
+          "x": 790,
+          "height": 54,
+          "width": 94
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 626.5999755859375,
+          "x": 335.75,
+          "height": 45.119998931884766,
+          "width": 352.5
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.13032987399936355,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.LevelPanel": {
+          "y": 568.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 506.46002197265625,
+          "x": 790,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 170,
+          "x": 968,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 620.9600219726562,
+          "x": 380.3999938964844,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 502,
+          "x": 896,
+          "height": 54,
+          "width": 104
+        },
+        "TagHUD.MobileSprint": {
+          "y": 570,
+          "x": 886,
+          "height": 54,
+          "width": 120
+        },
+        "TagHUD.Top": {
+          "y": 97.9840087890625,
+          "x": 309.24798583984375,
+          "height": 91.79999542236328,
+          "width": 405.5039978027344
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.10742604199253651,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 570,
+          "x": 886,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 568.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "MudHUD.Main.Top": {
+          "y": 92,
+          "x": 286.7200012207031,
+          "height": 74,
+          "width": 450.55999755859375
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 170,
+          "x": 968,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 502,
+          "x": 12,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 502,
+          "x": 76,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 502,
+          "x": 886,
+          "height": 54,
+          "width": 120
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.08904173997019096,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [
+        "Overlap 901px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Toggle",
+        "Overlap 901px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 702,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 588.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 703.7213134765625,
+          "x": 1172,
+          "height": 50.39999771118164,
+          "width": 171
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 565.2786865234375,
+          "x": 87.25000762939453,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 539.8671875,
+          "x": 149,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 70,
+          "x": 502.5,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 565.2786865234375,
+          "x": 31.25000762939453,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.10146542739387839,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [
+        "Overlap 6664px²: PlaygroundShell.Wallet / PlaygroundFishingHUD.DesktopDock",
+        "Overlap 901px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Toggle",
+        "Overlap 901px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick",
+        "Reserved control overlap: PlaygroundFishingHUD.DesktopDock / jump"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 702,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 588.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "PlaygroundFishingHUD.DesktopDock": {
+          "y": 662,
+          "x": 1199,
+          "height": 88,
+          "width": 148
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 703.7213134765625,
+          "x": 1172,
+          "height": 50.39999771118164,
+          "width": 171
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 565.2786865234375,
+          "x": 87.25000762939453,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 539.8671875,
+          "x": 149,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 70,
+          "x": 502.5,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 565.2786865234375,
+          "x": 31.25000762939453,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.12125327843172942,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [
+        "Overlap 901px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Toggle",
+        "Overlap 901px²: PlaygroundShell.LevelPanel / PlaygroundSessionControls.Spectate",
+        "Reserved control overlap: PlaygroundShell.Dock / joystick",
+        "Reserved control overlap: PlaygroundShell.Wallet / jump",
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 702,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 588.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 482,
+          "x": 1101,
+          "height": 134,
+          "width": 252
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 703.7213134765625,
+          "x": 1172,
+          "height": 50.39999771118164,
+          "width": 171
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 565.2786865234375,
+          "x": 87.25000762939453,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 539.8671875,
+          "x": 149,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 70,
+          "x": 502.5,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 565.2786865234375,
+          "x": 31.25000762939453,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.10592436888402786,
+      "scenario": "bulldog",
+      "warnings": [
+        "Text overflow: BritishBulldogHUD.TopCard/Timer"
+      ],
+      "viewport": "desktop",
+      "failures": [
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 590,
+          "x": 1227,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 588.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 75.75,
+          "x": 412.5,
+          "height": 82.79999542236328,
+          "width": 540
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 1309,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 522,
+          "x": 1237,
+          "height": 54,
+          "width": 104
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 518.0999755859375,
+          "x": 1131,
+          "height": 54,
+          "width": 94
+        },
+        "BritishBulldogHUD.MovementControls.Meter": {
+          "y": 646.5999755859375,
+          "x": 506.25,
+          "height": 45.119998931884766,
+          "width": 352.5
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.10959619756900656,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "PlaygroundShell.LevelPanel": {
+          "y": 588.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 518.0999755859375,
+          "x": 1131,
+          "height": 54,
+          "width": 94
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 1309,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.SprintPanel.Meter": {
+          "y": 640.9600219726562,
+          "x": 550.9000244140625,
+          "height": 56.400001525878906,
+          "width": 263.20001220703125
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 522,
+          "x": 1237,
+          "height": 54,
+          "width": 104
+        },
+        "TagHUD.MobileSprint": {
+          "y": 590,
+          "x": 1227,
+          "height": 54,
+          "width": 120
+        },
+        "TagHUD.Top": {
+          "y": 75.04000854492188,
+          "x": 412.2300109863281,
+          "height": 91.79999542236328,
+          "width": 540.5399780273438
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0911380468148452,
+      "scenario": "mud",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [
+        "Reserved control overlap: PlaygroundShell.LevelPanel / joystick"
+      ],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 590,
+          "x": 1227,
+          "height": 54,
+          "width": 120
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 588.7999267578125,
+          "x": 18,
+          "height": 97.19999694824219,
+          "width": 322.1999816894531
+        },
+        "MudHUD.Main.Top": {
+          "y": 68,
+          "x": 382.5,
+          "height": 74,
+          "width": 600
+        },
+        "PlaygroundSessionControls.RoundToggle": {
+          "y": 146,
+          "x": 1309,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 522,
+          "x": 12,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 522,
+          "x": 76,
+          "height": 44,
+          "width": 56
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 522,
+          "x": 1227,
+          "height": 54,
+          "width": 120
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    }
+  ],
+  "productionChanged": false,
+  "playStarted": false,
+  "insetsEmulated": true
+}

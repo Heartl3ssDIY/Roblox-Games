@@ -1,0 +1,59 @@
+{
+  "id": "B20",
+  "name": "Bamboo Bruiser",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b20-bamboo-bruiser.png",
+  "brief": "A recognisable baseball bat made of glossy jade-green bamboo-like segments, thick broad upper barrel and smoothly narrowing shaft, pale cream node bands, dark navy collar, tan rope-textured handgrip rendered as four simple broad wraps and flat green knob. Two small cream leaf-shaped engravings near the top, no loose leaves.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b20-bamboo-bruiser.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b20-bamboo-bruiser.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b20-bamboo-bruiser-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b20-bamboo-bruiser.png",
+  "parts": 28,
+  "triangles": 11853,
+  "meshes": 1,
+  "maxMeshTriangles": 11853,
+  "dimensions": [
+    0.7059999704360962,
+    0.7059999704360962,
+    3.6020002365112305
+  ],
+  "boundsMin": [
+    -0.3529999852180481,
+    -0.3529999852180481,
+    -0.47200000286102295
+  ],
+  "boundsMax": [
+    0.3529999852180481,
+    0.3529999852180481,
+    3.130000114440918
+  ],
+  "paletteColors": 15,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.134999990463257
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.7059999704360962,
+    0.7059999704360962,
+    3.6020002365112305
+  ]
+}

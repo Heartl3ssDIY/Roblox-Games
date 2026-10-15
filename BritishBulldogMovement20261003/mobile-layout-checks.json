@@ -1,0 +1,18 @@
+{
+  "source": "Independent read-only authored rectangle and visibility review",
+  "viewports": [[360,640],[390,844],[568,320],[667,375],[1366,767],[768,400],[900,600]],
+  "topInsets": [36,64],
+  "states": ["Runner","Tagged"],
+  "casesPassed": 28,
+  "panelIntersections": 0,
+  "offscreenOrInsetViolations": 0,
+  "touchButtonHeight": 48,
+  "runtimeAuthoredLayoutWrites": 0,
+  "smallestScreen": {
+    "viewport": [568,320],
+    "compactLevelY": [67,119],
+    "compactDepartureY": [128,180],
+    "meterY": [192,240],
+    "note": "CompactDeparture and TopCard outer outlines can touch; interiors do not overlap. Native core GUI appearance was not screenshot-tested."
+  }
+}

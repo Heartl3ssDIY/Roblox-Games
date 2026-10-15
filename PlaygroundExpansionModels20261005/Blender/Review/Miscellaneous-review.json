@@ -1,0 +1,29 @@
+{
+  "category": "Miscellaneous",
+  "ids": ["M16", "M17", "M18", "M19", "M20", "M21", "M22", "M23", "M24", "M25"],
+  "originalsInspected": true,
+  "allFinalPreviewsInspected": true,
+  "editableBlenderFiles": 10,
+  "fbxExports": 10,
+  "packedReferenceImages": true,
+  "exportValidation": "Validation-Miscellaneous.json",
+  "detailValidation": "Validation-Miscellaneous-Details.json",
+  "trianglesPerAsset": {"M16":7588,"M17":6124,"M18":8720,"M19":3168,"M20":10364,"M21":4968,"M22":9144,"M23":4208,"M24":5768,"M25":15104},
+  "modeling": "Custom solid extrusions, multi-section lofts, curved peel and blade meshes, annular nozzles, editable bevel modifiers, raised emblems and connected mechanical parts.",
+  "refinements": [
+    "M16: continuous surface seams and one extruded six-armed snowflake.",
+    "M17: three snowballs seated in an open hopper, connected internal cradle, open muzzle and emblems on both sides.",
+    "M18: hollow nozzle ring, six spokes and connected feed tube; visible cream reservoir inlays and raised grip treads.",
+    "M19: three bright yellow connected peels with cream inner surfaces, narrow navy edge bands and brown tips.",
+    "M20: three continuous compression-spring loops, sculpted padded glove, side button and panel fasteners.",
+    "M21: reinforced navy rim, connected honey overflow and rounded drips, three-cell raised honeycomb and attached carrying loop.",
+    "M22: inflated rubber body, dark red edge seam, rounded raised puff-cloud emblem and attached valve.",
+    "M23: continuous red horseshoe volume, narrow navy face trims, cyan pole caps and orange switch.",
+    "M24: three broad curved volume blades with rounded orange tips, material seam bands and a larger cream hub.",
+    "M25: open box walls, connected lid hinges, spring-mounted monster head, two horns, friendly smile and winding crank."
+  ],
+  "gameplayAssigned": false,
+  "liveStudioChanged": false,
+  "desktopControlled": false,
+  "note": "Single-view reference backs inferred consistently. Use simple separate collision proxies when integrating."
+}

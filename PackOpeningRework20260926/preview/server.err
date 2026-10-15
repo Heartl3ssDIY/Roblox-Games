@@ -1,0 +1,11 @@
+127.0.0.1 - - [26/Sep/2026 14:40:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2026 14:40:05] "GET /assets/gold.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2026 14:40:05] "GET /assets/rare-card.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2026 14:40:06] "GET /assets/PermanentMarker.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2026 14:40:06] code 404, message File not found
+127.0.0.1 - - [26/Sep/2026 14:40:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [26/Sep/2026 14:45:48] "GET /assets/common-card.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2026 14:46:40] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [26/Sep/2026 14:47:13] "GET /assets/diamond.png HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2026 14:48:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Sep/2026 14:51:07] "GET /assets/common.png HTTP/1.1" 200 -

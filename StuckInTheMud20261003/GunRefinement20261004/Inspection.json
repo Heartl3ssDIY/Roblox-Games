@@ -1,0 +1,78 @@
+{
+  "inspection": "Refined gun export geometry; no gameplay or Studio execution",
+  "guns": {
+    "MudGun": {
+      "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\GunRefinement20261004\\MudGun.glb",
+      "bytes": 410836,
+      "gunRoot": "MudGun",
+      "rootTranslation": [
+        0,
+        0,
+        0
+      ],
+      "meshCount": 70,
+      "meshInstances": 70,
+      "triangleCount": 19952,
+      "positionCount": 12966,
+      "boundsExport": [
+        [
+          -0.8245000299029535,
+          -0.8299999907612801,
+          -2.686000033887544
+        ],
+        [
+          0.8244999442286307,
+          2.7190718866347083,
+          0.9459600560248588
+        ]
+      ],
+      "dimensionsExport": [
+        1.6489999741315842,
+        3.5490718773959884,
+        3.6319600899124027
+      ],
+      "allAssetsEmbedded": true,
+      "finitePositions": true,
+      "previewObjectsExcluded": true,
+      "boundsMethod": "Embedded POSITION vertices transformed through the gun node hierarchy",
+      "passed": true
+    },
+    "HeatGun": {
+      "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\GunRefinement20261004\\HeatGun.glb",
+      "bytes": 443932,
+      "gunRoot": "HeatGun",
+      "rootTranslation": [
+        0,
+        0,
+        0
+      ],
+      "meshCount": 65,
+      "meshInstances": 65,
+      "triangleCount": 20844,
+      "positionCount": 13618,
+      "boundsExport": [
+        [
+          -0.7985000880014065,
+          -0.8299999907612801,
+          -2.640000157006645
+        ],
+        [
+          0.7985000023270836,
+          2.709649657147594,
+          0.9459600560248588
+        ]
+      ],
+      "dimensionsExport": [
+        1.59700009032849,
+        3.539649647908874,
+        3.585960213031504
+      ],
+      "allAssetsEmbedded": true,
+      "finitePositions": true,
+      "previewObjectsExcluded": true,
+      "boundsMethod": "Embedded POSITION vertices transformed through the gun node hierarchy",
+      "passed": true
+    }
+  },
+  "passed": true
+}

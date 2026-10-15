@@ -1,0 +1,10 @@
+Swing repair, 7 October 2026
+
+Observed during the user's running test: all 100 moving parts were anchored, both hinge servos were inactive, and both seat assemblies had infinite mass. The hinges were already correctly connected and configured.
+
+Installed only after Studio returned to Edit mode. The moving parts are now unanchored; the frame remains anchored. The controller restores this moving-assembly setting at startup. No positions, rotations, dimensions, visuals, or hinge parameters changed.
+
+Checks: both attachment pairs coincide; axes align; 49 internal welds per 50-part moving assembly; no external welded connections; no collidable obstructions in the rider envelope at -30, -15, 0, 15, and 30 degrees; source compiles; Play remains stopped.
+
+Backup: ServerStorage.LobbyRepairsBackup20261007.SwingBeforeUnanchor and SwingServiceBeforeUnanchor.
+Live seated motion remains for the user's next Play session.

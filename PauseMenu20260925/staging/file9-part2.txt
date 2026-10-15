@@ -1,0 +1,167 @@
+function()
+        if c1 then c1:Disconnect() end; if c2 then c2:Disconnect() end
+        rewardOverlay.Visible = false
+        if onNextMatch then onNextMatch() end
+    end)
+    rewardConnections = { c1, c2 }
+end
+
+local function lifeCluster(name)
+    local holder = hud:WaitForChild(name)
+    local hearts = {}
+    for index = 1, MAX_LIVES do hearts[index] = holder.Hearts:WaitForChild("Heart" .. index) end
+    return {name = holder:WaitForChild("NameLbl"), hearts = hearts}
+end
+
+local playerCluster = lifeCluster("PlayerCluster")
+local opponentCluster = lifeCluster("OpponentCluster")
+
+local function setLives(cluster, lives)
+    for index, heart in ipairs(cluster.hearts) do
+        heart.ImageTransparency = index <= lives and 0 or 0.7
+        heart.ImageColor3 = index <= lives and Color3.new(1, 1, 1) or Color3.fromRGB(80, 65, 75)
+        heart:SetAttribute("Full", index <= lives)
+    end
+end
+setLives(playerCluster, MAX_LIVES)
+setLives(opponentCluster, MAX_LIVES)
+
+local unitBar = hud:WaitForChild("EquippedBar")
+local function refreshEquippedBar()
+    local equipped = Loadout.getAll()
+    for index = 1, EQUIPPED_SLOTS do
+        local slot = unitBar:WaitForChild("Slot" .. index)
+        local unit = equipped[index] and UnitData.get(equipped[index])
+        slot.UnitName.Text = unit and unit.name or tostring(index)
+        slot:SetAttribute("UnitId", unit and unit.id or nil)
+        if unit then
+            UnitViewport.show(slot.UnitModel, unit.model)
+        else
+            UnitViewport.clear(slot.UnitModel)
+        end
+    end
+end
+refreshEquippedBar()
+Loadout.Changed:Connect(refreshEquippedBar)
+local function refreshMasteryBadges()
+    for index = 1, EQUIPPED_SLOTS do
+        local slot = unitBar["Slot" .. index]
+        local id = slot:GetAttribute("UnitId")
+        local unit = id and UnitData.get(id)
+        slot.MasteryBadge.Visible = unit ~= nil
+        if unit then slot.MasteryBadge.Level.Text = tostring(PlayerData.masteryLevel(id, unit.rarity)) end
+    end
+end
+refreshMasteryBadges()
+Loadout.Changed:Connect(refreshMasteryBadges)
+PlayerData.Changed:Connect(refreshMasteryBadges)
+
+local optionRegion = hud:WaitForChild("OptionRegion")
+local draftScale = optionRegion:WaitForChild("FitToScreen")
+local function resizeDraft()
+    if hud:GetAttribute("AutoFitDraft") == false then return end
+    draftScale.Scale = math.min(1, (hud.AbsoluteSize.X - 24) / math.max(1, optionRegion.Size.X.Offset))
+end
+hud:GetPropertyChangedSignal("AbsoluteSize"):Connect(resizeDraft)
+resizeDraft()
+
+local hiddenGuis = {}
+local session
+local entering = false
+local leaveArena
+local startMatch
+local startRound
+local exitButton = hud:WaitForChild("LeaveArena")
+
+local function isCurrent(match)
+	return session == match and match.active
+end
+
+local function setPhase(phase)
+	player:SetAttribute("MatchPhase", phase)
+end
+
+local function hideLobbyGui(gui)
+	if not gui:IsA("ScreenGui") or gui == hud or gui.Name == "TouchGui" then return end
+	if gui.ResetOnSpawn == false then
+		if hiddenGuis[gui] == nil then hiddenGuis[gui] = gui.Enabled end
+		gui.Enabled = false
+	end
+end
+
+local function showLobby()
+	for gui, enabled in pairs(hiddenGuis) do
+		if gui.Parent then
+			gui.Enabled = enabled and gui.Name ~= "ModePickerGui" and gui.Name ~= "ArenaSelectGui"
+		end
+	end
+	table.clear(hiddenGuis)
+end
+
+local function cancelMatch()
+	if session then session.active = false end
+	session = nil
+	CombatController.cancel()
+	Deployment.reset()
+	clearRewardConnections()
+	rewardOverlay.Visible = false
+	banner.Visible = false
+	optionRegion.Visible = false
+	DraftController.clear(optionRegion)
+end
+
+local function showBanner(match, text, duration)
+	if not isCurrent(match) then return false end
+	banner.Text = text
+	banner.TextTransparency = 0
+	banner.TextStrokeTransparency = bannerStrokeTransparency
+	banner.Visible = true
+	task.wait(duration)
+	if not isCurrent(match) then return false end
+	banner.Visible = false
+	return true
+end
+
+local function rollOpponentPool()
+	local pool = {}
+	for id, data in pairs(UnitData.all()) do
+		if UnitModels:FindFirstChild(data.model) then table.insert(pool, id) end
+	end
+	for i = #pool, 2, -1 do
+		local j = math.random(1, i)
+		pool[i], pool[j] = pool[j], pool[i]
+	end
+	while #pool > 4 do table.remove(pool) end
+	return pool
+end
+
+local function grantRewards(match, playerWon)
+	local result = PlayerData.recordResult(ArenaConfig.progressionKey, playerWon)
+	local data = {
+		playerWon = playerWon, coins = playerWon and 100 or 35,
+		accountXp = playerWon and 50 or 18, masteryChips = playerWon and 10 or 4,
+		arenaDelta = result.delta, arenaPoints = result.points,
+		milestoneCoins = result.coinsAwarded, milestoneGems = result.gemsAwarded,
+		unlockedUnits = result.unlockedUnits, unitMastery = {},
+	}
+	PlayerData.addCoins(data.coins)
+	if PlayerData.addXp(data.accountXp) > 0 then data.leveledTo = PlayerData.level() end
+	if playerWon then data.dailyPack = PlayerData.grantDailyWinPack() end
+	PlayerData.addMasteryChips(data.masteryChips)
+	for _, id in ipairs(match.playerPool) do
+		local unit = UnitData.get(id)
+		PlayerData.addMasteryPoints(id, PlayerData.MASTERY_PER_MATCH)
+		table.insert(data.unitMastery, {
+			id = id, name = unit.name, rarity = unit.rarity, gained = PlayerData.MASTERY_PER_MATCH,
+		})
+	end
+	return data
+end
+
+local function finishMatch(match, winner)
+	if not isCurrent(match) or match.finished then return end
+	match.finished = true
+	setPhase("Results")
+	player:SetAttribute("RoundWinner", winner or "draw")
+	local function replay()
+		if isCurrent(

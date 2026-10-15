@@ -1,0 +1,9 @@
+{
+  "simulation": "No Play or live avatar test performed",
+  "lifecycle": "Start, idempotency, Stop and connection cleanup passed",
+  "minimumSpacing": 3,
+  "seats": 36,
+  "appearance": "All 12 original bench surfaces unchanged",
+  "benches": 12,
+  "obstructedPositions": []
+}

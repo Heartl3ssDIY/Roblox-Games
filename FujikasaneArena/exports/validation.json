@@ -1,0 +1,32 @@
+{
+  "meshes": 54,
+  "triangles": 341767,
+  "zero_area_triangles": 0,
+  "all_uv": true,
+  "combat_area_obstructions": [],
+  "studio_import_tested": false,
+  "textures": {
+    "FK_ColorAtlas_2048.002": {
+      "loaded": true,
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    "FK_NormalAtlas.002": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "FK_RoughnessAtlas.002": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "result": "passed"
+}

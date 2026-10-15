@@ -1,0 +1,64 @@
+{
+  "compile": "passed",
+  "playStarted": false,
+  "scripts": [
+    {
+      "file": "BritishBulldogCamera.client.luau",
+      "sha256": "21ec8e85cde78786a54f829f79f24cbdf818d992c4f1d3fd726437fc4479b40e"
+    },
+    {
+      "file": "BritishBulldogHUD.Controller.luau",
+      "sha256": "577f752ed202554ee5851c4bfe79afc6b7a7fb3608ecd6145bbc487271f8e9d0"
+    },
+    {
+      "file": "BritishBulldogService.luau",
+      "sha256": "9f1540f4b2309d24c1b237edcc95e55534dc9914de5aa6ac31d966fa2f25e363"
+    },
+    {
+      "file": "MudHUD.Controller.luau",
+      "sha256": "e5ae70df2f6b6d20bc06e1caee2bca5f5fb0bd6b27c823a795508b3dffbd4df2"
+    },
+    {
+      "file": "PlaygroundEmotes.client.luau",
+      "sha256": "edf232d11b2bfa720731b80d3b5ed0041ee739d34a9bc159700888eb39f2f328"
+    },
+    {
+      "file": "PlaygroundPets.client.luau",
+      "sha256": "c5a4cebd32c64c70c10e4dbf20dba96daf47be296b005747f3bc4ee1c3b830cd"
+    },
+    {
+      "file": "PlaygroundToyHotbar.Controller.client.luau",
+      "sha256": "b9b2a3c9a7b830f6a247508572c9931e268154136683a9c1fcd5bef80fc709c3"
+    },
+    {
+      "file": "Shell.Controller.luau",
+      "sha256": "87b7274f201a8f50bc1c2d3fd3b69f960706b40bde7dbe4c6bea0da78874437f"
+    },
+    {
+      "file": "StarterGui.BritishBulldogHUD.MovementController.luau",
+      "sha256": "1213f3c8c58b880083ebfb2b7ed50f4ee8a8b45c441314dd890672ef7d9c4b51"
+    },
+    {
+      "file": "StarterGui.TagHUD.Controller.luau",
+      "sha256": "e8cabf5feb1f33646e38a67a902c62f87f7f5c7426b2368f5ad7cd6bb7ed0a58"
+    },
+    {
+      "file": "StarterGui.TagHUD.SprintController.luau",
+      "sha256": "af32f1ad3671a14e48cb575af360642e65a485a495dbea094619505aa4c3dec3"
+    },
+    {
+      "file": "TagService.luau",
+      "sha256": "a9db12438e31f31d200fb32152d7607d08498342f3f3925a737fd1c1929f03a8"
+    }
+  ],
+  "validation": {
+    "cameraLifecycle": 18,
+    "previewCameras": 12,
+    "hudBehavior": 26,
+    "hudLayout": 64,
+    "movementLocal": 185,
+    "movementNative": 85,
+    "combatNative": 49
+  },
+  "limits": "No Play session or multiplayer latency test was run."
+}

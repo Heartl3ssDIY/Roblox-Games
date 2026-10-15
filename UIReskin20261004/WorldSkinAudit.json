@@ -1,0 +1,183 @@
+{
+  "targets": [
+    {
+      "palette": "cream",
+      "path": "Workspace.British Bulldog game.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail",
+      "face": "Enum.NormalId.Back",
+      "kind": "school"
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "palette": "cream",
+      "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "face": "Enum.NormalId.Back",
+      "kind": "school"
+    },
+    {
+      "palette": "cream",
+      "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "face": "Enum.NormalId.Back",
+      "kind": "school"
+    },
+    {
+      "palette": "gold",
+      "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork",
+      "face": "Enum.NormalId.Front",
+      "kind": "title"
+    },
+    {
+      "palette": "gold",
+      "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork",
+      "face": "Enum.NormalId.Back",
+      "kind": "title"
+    },
+    {
+      "palette": "cream",
+      "path": "Workspace.Tag You're It.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail",
+      "face": "Enum.NormalId.Back",
+      "kind": "school"
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "face": "Enum.NormalId.Top",
+      "kind": "hopscotch"
+    },
+    {
+      "palette": "cream",
+      "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "face": "Enum.NormalId.Back",
+      "kind": "school"
+    },
+    {
+      "palette": "cream",
+      "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "face": "Enum.NormalId.Back",
+      "kind": "school"
+    },
+    {
+      "palette": "green",
+      "path": "Workspace.Playground Lobby.VotingAlcove.StuckInTheMudStand.ChoiceCardFace.GameName",
+      "face": "Enum.NormalId.Back",
+      "kind": "vote"
+    },
+    {
+      "palette": "red",
+      "path": "Workspace.Playground Lobby.VotingAlcove.TagYoureItStand.ChoiceCardFace.GameName",
+      "face": "Enum.NormalId.Back",
+      "kind": "vote"
+    },
+    {
+      "palette": "blue",
+      "path": "Workspace.Playground Lobby.VotingAlcove.BritishBulldogStand.ChoiceCardFace.GameName",
+      "face": "Enum.NormalId.Back",
+      "kind": "vote"
+    },
+    {
+      "palette": "gold",
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate",
+      "kind": "overhead"
+    },
+    {
+      "palette": "red",
+      "path": "ReplicatedStorage.TagAssets.TaggerTemplate",
+      "kind": "overhead"
+    },
+    {
+      "palette": "mud",
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate",
+      "kind": "overhead"
+    }
+  ],
+  "compiled": true,
+  "targetCount": 30,
+  "noNativeMutation": true,
+  "backupInstructions": "Load GetWorldSkinTargets.luau, call returned function, clone each .instance before applying. Preserve direct object references and original Parent with ObjectValues; duplicate paths cannot be resolved by path alone. Records include 27 SurfaceGui roots and 3 BillboardGui template roots. Do not clone or change any physical map parts.",
+  "artChoices": {
+    "voteSigns": "07 slice: authored aspect 4.21:1 differs from 06 game-card artwork 2.05:1.",
+    "titles": "07 gold slice: authored aspect 8.49:1.",
+    "hopscotch": "158x172 supplied backplates use Fit in square 147.2px canvases, preserving artwork aspect.",
+    "school": "07 cream slice.",
+    "overhead": "07 gold/red/mud slice."
+  },
+  "invariants": [
+    "No existing Position/Size/AnchorPoint changes.",
+    "No leaderboard changes.",
+    "No scripts or runtime behavior changed.",
+    "No Play mode or desktop control.",
+    "No physical map changes."
+  ]
+}

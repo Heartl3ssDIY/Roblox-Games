@@ -1,0 +1,39 @@
+{
+  "folder": "Workspace.Playground Lobby",
+  "builderVersion": 1,
+  "center": [0, 0, 0],
+  "bounds": [320, 80, 304],
+  "floorY": 4,
+  "spawn": {"path": "Gameplay.LobbySpawn", "position": [0, 4.6, 0], "clearPlazaDiameter": 61},
+  "voting": {
+    "zonePath": "Gameplay.VoteZone",
+    "center": [88, 10, -82],
+    "size": [74, 12, 60],
+    "choices": [
+      {"id": "BritishBulldog", "displayName": "British Bulldog", "markerPath": "Gameplay.VoteChoices.BritishBulldog", "position": [71, 8.6, -84]},
+      {"id": "TagYoureIt", "displayName": "Tag You're It", "markerPath": "Gameplay.VoteChoices.TagYoureIt", "position": [105, 8.6, -84]}
+    ]
+  },
+  "shop": {"zonePath": "Gameplay.ShopZone", "center": [-107, 10, -31], "size": [34, 12, 38]},
+  "coinMarkers": {"path": "Gameplay.CoinSpawns", "count": 10, "value": 1, "respawnSeconds": 45},
+  "navigation": {
+    "mainPathWidth": 8.8,
+    "bridgeClearWidth": 12.3,
+    "bridgeStepRise": 0.6,
+    "bridgeStepRun": 3,
+    "terraceStepRise": 0.75,
+    "terraceStepRun": 3,
+    "terraceStairWidth": 10,
+    "highestTerrainFloor": 16,
+    "pondBottom": "Continuous solid island floor at Y=4; water surfaces are noncolliding decoration"
+  },
+  "integration": {
+    "builderCreatesOnlyMissing": true,
+    "existingSpawnIsNotModified": true,
+    "britishBulldogIsNotModified": true,
+    "gameplayServicesAreSeparate": true,
+    "builderCreatesNoScripts": true,
+    "repeatedExecutionPreservesManualEdits": true
+  },
+  "validation": {"file": "PlaygroundLobbyChecks.luau", "status": "Prepared for Studio execution by parent; not executed locally"}
+}

@@ -1,0 +1,19 @@
+{
+  "isolated": {
+    "passed": true,
+    "checks": 37
+  },
+  "fullCycle": {
+    "passed": true,
+    "checks": 28
+  },
+  "installed": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"permissionsPreserved\":true,\"passed\":true,\"playStarted\":false,\"checks\":131}"
+      }
+    ],
+    "isError": false
+  }
+}

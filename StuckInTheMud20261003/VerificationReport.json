@@ -1,0 +1,425 @@
+{
+  "date": "2026-10-03",
+  "studioId": "a6fea703-0c19-4811-ba3e-0e9f90090fe9",
+  "place": "Playground Classics",
+  "status": "Installed in native Edit mode; mud weapon gameplay remains disabled pending explicit Input approval.",
+  "defaults": {
+    "players": 4,
+    "teams": 2,
+    "playersPerTeam": 2,
+    "roundSeconds": 300,
+    "arenaStuds": [
+      832,
+      832
+    ],
+    "sprintSeconds": 10,
+    "sprintMultiplier": 2.5,
+    "sprintRefillSeconds": 15,
+    "rescueSeconds": 5,
+    "winnerCoins": 150,
+    "loserCoins": 50,
+    "participantXP": 50,
+    "levelOneRequiredXP": 200,
+    "levelThresholdStepXP": 50
+  },
+  "passed": {
+    "geometry": {
+      "assertions": 46156,
+      "repairVersion": 2,
+      "parts": 2793,
+      "coverStations": 123,
+      "twoExitCubbies": 23,
+      "navigationNodes": 930,
+      "navigationEdges": 2574,
+      "scope": "Analytical native geometry/navigation validation; separate from live multiplayer traversal."
+    },
+    "nativeGunTemplates": {
+      "assertions": 353
+    },
+    "thirdGameIntegration": {
+      "passed": 50,
+      "externalProfileWrites": 0,
+      "checks": {
+        "1": "Native level one requires200XP",
+        "2": "Level1 boundary",
+        "3": "Level1 before next boundary",
+        "4": "Level2 boundary",
+        "5": "Level2 before next boundary",
+        "6": "Level3 boundary",
+        "7": "Level3 before next boundary",
+        "8": "Level4 boundary",
+        "9": "Level4 before next boundary",
+        "10": "Level5 boundary",
+        "11": "Level5 before next boundary",
+        "12": "Level6 boundary",
+        "13": "Level6 before next boundary",
+        "14": "Level7 boundary",
+        "15": "Level7 before next boundary",
+        "16": "Level8 boundary",
+        "17": "Level8 before next boundary",
+        "18": "Level9 boundary",
+        "19": "Level9 before next boundary",
+        "20": "Level10 boundary",
+        "21": "Level10 before next boundary",
+        "22": "Ten level transitions sum correctly",
+        "23": "Whole final roster paid",
+        "24": "Winning teammate receives150coins50XP",
+        "25": "Losing teammate receives50coins50XP",
+        "26": "Unrelated lobby player receives nothing",
+        "27": "Winner toast publishes exact reward",
+        "28": "Loser toast publishes exact reward",
+        "29": "Duplicate result cannot pay twice",
+        "30": "Practice cannot add coins orXP",
+        "31": "Four completed rounds reach level2for both outcomes",
+        "32": "Level2requires250XP",
+        "33": "Normal Bulldog also grants50XP",
+        "34": "Normal Tag also grants50XP",
+        "35": "Mud participants cannot use lobby emotes",
+        "36": "Two ready players cannot choose a four-player round",
+        "37": "Four ready players can choose2v2",
+        "38": "Unapproved game cannot enter automatic rotation",
+        "39": "Third game vote accepted in spatial vote zone",
+        "40": "Third game tallied",
+        "41": "Mud participant cannot vote for another round",
+        "42": "Third normal round receives ready roster",
+        "43": "Third round blocks concurrent game",
+        "44": "Stopping third game returns lobby state",
+        "45": "MudShooter admin action starts correct practice",
+        "46": "Admin stops third game",
+        "47": "MudMedic admin action starts correct practice",
+        "48": "Mud result integration preserves exact winner and roster",
+        "49": "Mud result integration enforces50XPfor all",
+        "50": "Practice result remains marked practice"
+      }
+    },
+    "tagSprintRules": {
+      "checks": {
+        "1": "Sprint starts with10seconds",
+        "2": "Nonboolean sprint rejected",
+        "3": "Playing runner can hold sprint",
+        "4": "Stationary hold does not drain",
+        "5": "Moving runner sprints at40",
+        "6": "Moving sprint consumes one second",
+        "7": "Repeated hold is rate limited",
+        "8": "Release bypasses rate limit",
+        "9": "Released sprint refills15second curve",
+        "10": "Ten continuous seconds exhausts sprint",
+        "11": "Half refill remains locked",
+        "12": "Full15second refill unlocks without release",
+        "13": "Held sprint resumes after full refill",
+        "14": "Expired hold lease stops sprint",
+        "15": "Tagger sprint uses2point5times18base",
+        "16": "Frozen player cannot move or sprint",
+        "17": "Countdown does not consume stamina",
+        "18": "Countdown hold rejected",
+        "19": "Dead player hold rejected",
+        "20": "Mud participants cannot trigger Tag sprint",
+        "21": "Tag tick preserves movement during Mud",
+        "22": "Bulldog participants cannot trigger Tag sprint",
+        "23": "Tag tick preserves movement during Bulldog",
+        "24": "Respawn clears held input without granting stamina",
+        "25": "New round grants fresh stamina even with same character",
+        "26": "Stopping sprint preserves another game movement",
+        "27": "Stopping owned Tag sprint restores baseline",
+        "28": "Leaving Tag clears sprint state"
+      },
+      "passed": 28,
+      "usesMockMovementOnly": true
+    },
+    "tagSprintPhysical": {
+      "ok": true,
+      "passed": 9,
+      "finalSourceRepeat": true,
+      "checks": [
+        "Practice starts",
+        "Countdown releases",
+        "Real hold accepted",
+        "WalkSpeed40",
+        "Movement drains stamina",
+        "Character travels",
+        "Release restores16",
+        "Lease expiry restores baseline",
+        "Stop clears participation"
+      ]
+    },
+    "mudPermissionSafe": {
+      "changesCapabilities": false,
+      "checks": {
+        "1": "Balanced roster invariant for2 players",
+        "2": "Balanced roster invariant for3 players",
+        "3": "Balanced roster invariant for4 players",
+        "4": "Balanced roster invariant for5 players",
+        "5": "Balanced roster invariant for6 players",
+        "6": "Balanced roster invariant for7 players",
+        "7": "Balanced roster invariant for8 players",
+        "8": "Balanced roster invariant for9 players",
+        "9": "Balanced roster invariant for10 players",
+        "10": "Balanced roster invariant for11 players",
+        "11": "Balanced roster invariant for12 players",
+        "12": "Balanced roster invariant for13 players",
+        "13": "Balanced roster invariant for14 players",
+        "14": "Balanced roster invariant for15 players",
+        "15": "Balanced roster invariant for16 players",
+        "16": "Balanced roster invariant for17 players",
+        "17": "Balanced roster invariant for18 players",
+        "18": "Balanced roster invariant for19 players",
+        "19": "Balanced roster invariant for20 players",
+        "20": "Balanced roster invariant for21 players",
+        "21": "Balanced roster invariant for22 players",
+        "22": "Balanced roster invariant for23 players",
+        "23": "Balanced roster invariant for24 players",
+        "24": "24-player pair mode has exactly twelve teams of two",
+        "25": "Exact 2v2 assignments",
+        "26": "Four-team configuration is balanced",
+        "27": "Pair mode keeps an odd roster within capacity",
+        "28": "Single-player roster does not create a normal match",
+        "29": "Empty roster does not create teams",
+        "30": "Team count never exceeds participating roster",
+        "31": "Team count stays within twelve unique colors",
+        "32": "Timeout uses proportion rather than raw free count",
+        "33": "Timeout selection does not mutate inputs",
+        "34": "Different roster sizes share equal-proportion win",
+        "35": "Shared winners are returned in stable team order",
+        "36": "Larger absolute free team may lose on proportion",
+        "37": "Disconnecting never shrinks the supplied original denominator",
+        "38": "Eliminated team excluded even if a stale free count exists",
+        "39": "No active teams produce no winners",
+        "40": "Zero-free teams cannot win timeout",
+        "41": "Missing original count never divides by zero",
+        "42": "Odd balanced teams both staying completely free share win",
+        "43": "Odd-team proportion is precise and fair",
+        "44": "Pending Input module fails actual weapon access gate without Tool mutation",
+        "45": "Absent authored setting uses fallback",
+        "46": "Numeric authored setting is used",
+        "47": "String authored setting uses fallback",
+        "48": "Negative authored setting is clamped",
+        "49": "Infinite authored setting uses fallback",
+        "50": "NaN authored setting uses fallback",
+        "51": "Valid negative floor height is preserved",
+        "52": "Zero results duration is permitted",
+        "53": "Sprint multiplier cannot reduce base speed",
+        "54": "Unavailable weapons reject normal round and publish limited readiness before gameplay change",
+        "55": "Unavailable weapons reject practice without spawning or participation",
+        "56": "Default normal match requires four ready players",
+        "57": "Default normal match selects four and publishes accessible readiness",
+        "58": "Optional24-player configuration remains supported",
+        "59": "Heat release clears rescuer seconds target and held lease without Tool access",
+        "60": "Disabled or inactive Mud cleanup does not inspect unrelated character or Backpack gear",
+        "61": "R6 receives six visible mud patches including face",
+        "62": "Face mask is welded to actual synthetic Head",
+        "63": "Every mud patch is massless noncolliding nontouching nonquery and welded",
+        "64": "Repeated mud update does not duplicate geometry",
+        "65": "Rescue removes coating while preserving body parts",
+        "66": "Synthetic cleanup removes coating outline and label",
+        "67": "Synthetic cleanup preserves the entire original rig",
+        "68": "R15 receives torso arm leg patches and face mask",
+        "69": "R15 rescue cleans all synthetic mud geometry"
+      },
+      "startsGameplay": false,
+      "mutatesTool": false,
+      "passed": 69,
+      "readsToolForReadiness": true
+    },
+    "nativePendingClientSmoke": {
+      "mudRejected": true,
+      "faceHiddenBehindPalette": true,
+      "mudUnavailable": true,
+      "mudMessage": "Mud gun access is awaiting approval.",
+      "requiredXP": 200,
+      "minimum": 4,
+      "mudStayedIdle": true,
+      "mudStatus": "Gun access pending",
+      "colourPreferenceAccepted": true,
+      "stopWorked": true,
+      "tagStillStarts": true,
+      "mudButtonsDisabled": true,
+      "ready": false
+    },
+    "serverModuleCompilation": {
+      "passed": 6,
+      "modules": {
+        "PlaygroundCoordinator": "table",
+        "TagSprintService": "table",
+        "PlaygroundAdminService": "table",
+        "StuckInTheMudService": "table",
+        "TagService": "table",
+        "PlaygroundEconomyService": "table"
+      }
+    },
+    "sourceIntegrity": {
+      "passed": 13,
+      "diffs": [],
+      "actual": {
+        "PlayerLevel.client.luau": {
+          "bytes": 7549,
+          "adler": 883317554
+        },
+        "TagHUD.client.luau": {
+          "bytes": 7595,
+          "adler": 717544660
+        },
+        "TagService.lua": {
+          "bytes": 40742,
+          "adler": 17401415
+        },
+        "TagSprint.client.luau": {
+          "bytes": 5295,
+          "adler": 465788510
+        },
+        "PlaygroundEconomyService.lua": {
+          "bytes": 22694,
+          "adler": 1063956088
+        },
+        "MudHUD.client.luau": {
+          "bytes": 15019,
+          "adler": 2193145367
+        },
+        "TagSprintService.lua": {
+          "bytes": 5371,
+          "adler": 2565044667
+        },
+        "PlaygroundCoordinator.lua": {
+          "bytes": 12593,
+          "adler": 2553475579
+        },
+        "StuckInTheMudService.lua": {
+          "bytes": 57042,
+          "adler": 1375832650
+        },
+        "PlaygroundBootstrap.server.lua": {
+          "bytes": 1405,
+          "adler": 3635607733
+        },
+        "PlaygroundShell.client.luau": {
+          "bytes": 13008,
+          "adler": 2410793613
+        },
+        "PlaygroundAdminPanel.client.luau": {
+          "bytes": 5501,
+          "adler": 468674678
+        },
+        "PlaygroundAdminService.lua": {
+          "bytes": 5018,
+          "adler": 233751212
+        }
+      },
+      "expected": {
+        "StuckInTheMudService.lua": {
+          "bytes": 57042,
+          "adler": 1375832650
+        },
+        "TagSprintService.lua": {
+          "bytes": 5371,
+          "adler": 2565044667
+        },
+        "PlaygroundCoordinator.lua": {
+          "bytes": 12593,
+          "adler": 2553475579
+        },
+        "PlaygroundEconomyService.lua": {
+          "bytes": 22694,
+          "adler": 1063956088
+        },
+        "PlaygroundAdminService.lua": {
+          "bytes": 5018,
+          "adler": 233751212
+        },
+        "TagService.lua": {
+          "bytes": 40742,
+          "adler": 17401415
+        },
+        "MudHUD.client.luau": {
+          "bytes": 15019,
+          "adler": 2193145367
+        },
+        "TagSprint.client.luau": {
+          "bytes": 5295,
+          "adler": 465788510
+        },
+        "PlaygroundAdminPanel.client.luau": {
+          "bytes": 5501,
+          "adler": 468674678
+        },
+        "PlaygroundShell.client.luau": {
+          "bytes": 13008,
+          "adler": 2410793613
+        },
+        "PlayerLevel.client.luau": {
+          "bytes": 7549,
+          "adler": 883317554
+        },
+        "TagHUD.client.luau": {
+          "bytes": 7595,
+          "adler": 717544660
+        },
+        "PlaygroundBootstrap.server.lua": {
+          "bytes": 1405,
+          "adler": 3635607733
+        }
+      }
+    },
+    "schoolScenery": {
+      "partsPerMap": 182,
+      "maps": [
+        "British Bulldog game",
+        "Tag You're It"
+      ],
+      "minimumPlayingBoundsClearanceStuds": 24,
+      "collidable": false
+    },
+    "layout": {
+      "viewportsChecked": 10,
+      "method": "Authored dimensions evaluated with inset scenarios, plus native controller state checks.",
+      "limitation": "No real mobile device gameplay check or native screenshot."
+    },
+    "console": {
+      "finalErrors": 0
+    },
+    "isolatedMapPreview": {
+      "sourceVisibleParts": 1511,
+      "matchingNativePartProperties": 1511,
+      "outputResolution": [
+        2048,
+        1152
+      ],
+      "geometrySource": "NativeMudGeometry.json",
+      "blend": "NativeMudArena_IsolatedPreview.blend",
+      "png": "NativeMudArena_IsolatedWide.png",
+      "fileOpenValidation": true,
+      "factoryStartupStateRestored": true,
+      "liveInstanceAccessByFallback": false
+    }
+  },
+  "pending": {
+    "serverInputApproval": {
+      "module": "ServerScriptService.StuckInTheMudService",
+      "capability": "Input",
+      "changesGranted": false,
+      "readiness": "Guarded Tool.Enabled reads fail closed under existing restricted capabilities.",
+      "reason": "Automatic approval review rejected a persistent server privilege increase without explicit user approval. No bypass or CapabilityControl grant used."
+    },
+    "mudFullRules": {
+      "fixture": "MudChecks.luau",
+      "assertionsPlanned": 107,
+      "run": false
+    },
+    "mudLive": {
+      "fixture": "MudLiveChecks.luau",
+      "run": false
+    },
+    "fullMultiplayer": {
+      "run": false
+    }
+  },
+  "limitations": {
+    "profilePersistence": "Session-only existing profile fallback; no DataStore capability or external profile writes.",
+    "mapPreview": "NativeMudArena_IsolatedWide.png is a separate Blender render of 1,511 exported visible native parts. SurfaceGui text/decals are excluded. It is a geometry preview rather than a Roblox game capture.",
+    "blenderLiveMapRender": "The live MCP map-preview request timed out; subsequent fallback uses a separate hidden factory process. Live scene restoration from the timed-out request is unverified."
+  },
+  "assets": {
+    "nativeGuns": "Editable Roblox Tool templates installed",
+    "blender": "MudHeatGuns.blend, separate MudGun/HeatGun FBX and GLB exports, previews",
+    "gui": "Editable StarterGui layouts and named-layer MudHUD.svg/TagSprint.svg",
+    "installers": "Both installers require already approved mud server Input and never grant it."
+  }
+}

@@ -1,0 +1,8 @@
+Added AntoineGold3 (verified Roblox UserId 157349477) as a full admin at the owner's explicit request.
+Owner SandboxxYY / 1201803949 remains configured and authorized.
+ServerStorage.PlaygroundAdminConfig.ExtraAdminUserIds = "157349477".
+AdminService now checks the owner or exact numeric entries in that server-only list. AdminController visibility follows the server-published PlaygroundAdmin attribute. Every command still checks server authorization.
+91 focused Edit checks passed against fresh live source: owner/new admin acceptance, unrelated and malformed caller denial, forged client flag denial, all 19 actions/aliases including all five grants, selected target dispatch and UI gate.
+Both changed sources compiled and matched Studio readback. No layout or capability changes, real grants, Play test or publishing occurred.
+Backup: ServerStorage.AdminAccessBackup20261008 and local Before directory.
+Publish the updated place for new live servers to receive this access change.

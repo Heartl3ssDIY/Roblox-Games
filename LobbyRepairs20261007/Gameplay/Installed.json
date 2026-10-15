@@ -1,0 +1,16 @@
+{
+  "studioId": "abc6a7b1-cc2d-4aea-beb5-8e0a01e05e3a",
+  "datamodel": "Edit",
+  "playStarted": false,
+  "scriptsInstalled": 5,
+  "authoredSprintLabelsChanged": 7,
+  "backup": "ServerStorage.CrossingSprintBackup20261007",
+  "ruleChecksPassed": 20,
+  "sourcesCompiled": 5,
+  "sourceChecksumsMatched": true,
+  "sprint": "Left Shift",
+  "shiftLock": "Right Shift remains available; StarterPlayer.EnableMouseLockOption remains true",
+  "loneSurvivor": "Requires departure and arrival at opposite safe zone before early victory; unfinished at timeout awards Bulldogs",
+  "preserved": ["normal timeout with multiple survivors", "initially-single-runner matches", "dodge disabled", "Bulldog no-jump", "authored HUD positions and sizes"],
+  "livePlayVerification": "Not run"
+}

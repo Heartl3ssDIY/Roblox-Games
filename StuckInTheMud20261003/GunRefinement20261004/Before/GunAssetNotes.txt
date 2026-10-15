@@ -1,0 +1,13 @@
+MudHeatGuns.blend contains only the new StuckInTheMud_Guns20261003 scene, with separate MudGun, HeatGun and PreviewStudio collections. The user's original Scene, Cube, Camera, Light, selection, active object and unsaved file path were preserved. All project saves, renders, exports and temporary asset files use this local project folder.
+
+MudGun.fbx / MudGun.glb and HeatGun.fbx / HeatGun.glb are separate selected-object exports. Each export has its grip origin at (0,0,0), Y up and muzzle forward -Z. The export script applies a temporary 180-degree rotation to the authored Blender roots and restores it afterward. Preserve the imported object transforms. The editable Blender scene retains its convenient preview orientation.
+
+Roblox target dimensions in studs are approximately MudGun (1.774,3.850,3.628) and HeatGun (1.725,3.840,3.591), ordered width, height, length. Match the imported asset scale to these bounds and align the grip origin with the existing Tool.Handle. MuzzleAttachment remains local (0,1,-2.65), pointing -Z. Keep Handle and its attachment when replacing Art with imported meshes; weld mesh parts to Handle and keep them unanchored, massless, noncolliding, nontouching and nonquery.
+
+BuildMudGunTemplates.luau creates ReplicatedStorage.MudAssets.MudGun and HeatGun as native scriptless Tools with ergonomic Handle, MuzzleAttachment and welded primitive Art. Repeated creation preserves managed templates and refuses to replace an unrelated object. No runtime behavior or GUI is included in these templates; the server game service supplies behavior.
+
+The mud blaster uses a brown tank, green body, cream badge, muddy wide nozzle and sculpted drips. The heat blaster uses orange and yellow, a chunky warm coil, sun badge and toy nozzle. Physical navy bevel edges provide cartoon borders in the exported meshes. Both assets use solid material colors and have no external texture dependencies.
+
+MudGun has 42 mesh objects and 11,256 triangles; HeatGun has 47 mesh objects and 14,412 triangles. Their largest individual meshes have 1,024 and 2,416 triangles respectively. The GLB files embed all geometry and material data. FBX files contain selected gun geometry only; cameras, lights and preview floor are excluded.
+
+MudHeatGun_Preview.png shows both guns. MudGun_Preview.png and HeatGun_Preview.png are individual portrait previews. ValidateGunExports.py checks headers, selected object names, mesh and triangle counts, finite bounds, grip origin, forward direction, embedded assets and output hashes. gun-export-manifest.json and gun-asset-validation.json record the results.

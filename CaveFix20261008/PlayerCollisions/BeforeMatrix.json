@@ -1,0 +1,65 @@
+{
+  "BBBulldog": {
+    "BBBulldog": false,
+    "Default": true,
+    "BBRunner": false,
+    "BBTagged": false,
+    "MudPlayer": true,
+    "TGPlayer": true,
+    "BBBarrier": true
+  },
+  "Default": {
+    "BBBulldog": true,
+    "Default": true,
+    "BBRunner": true,
+    "BBTagged": true,
+    "MudPlayer": true,
+    "TGPlayer": true,
+    "BBBarrier": false
+  },
+  "BBRunner": {
+    "BBBulldog": false,
+    "Default": true,
+    "BBRunner": false,
+    "BBTagged": false,
+    "MudPlayer": true,
+    "TGPlayer": true,
+    "BBBarrier": false
+  },
+  "BBTagged": {
+    "BBBulldog": false,
+    "Default": true,
+    "BBRunner": false,
+    "BBTagged": false,
+    "MudPlayer": true,
+    "TGPlayer": true,
+    "BBBarrier": false
+  },
+  "MudPlayer": {
+    "BBBulldog": true,
+    "Default": true,
+    "BBRunner": true,
+    "BBTagged": true,
+    "MudPlayer": false,
+    "TGPlayer": true,
+    "BBBarrier": true
+  },
+  "TGPlayer": {
+    "BBBulldog": true,
+    "Default": true,
+    "BBRunner": true,
+    "BBTagged": true,
+    "MudPlayer": true,
+    "TGPlayer": true,
+    "BBBarrier": true
+  },
+  "BBBarrier": {
+    "BBBulldog": true,
+    "Default": false,
+    "BBRunner": false,
+    "BBTagged": false,
+    "MudPlayer": true,
+    "TGPlayer": true,
+    "BBBarrier": true
+  }
+}

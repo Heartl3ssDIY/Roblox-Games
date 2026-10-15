@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "result": {
+    "emotes": 31,
+    "maxPrice": 15000,
+    "levelRewards": 11,
+    "passed": 120,
+    "coinPurchases": 20
+  }
+}

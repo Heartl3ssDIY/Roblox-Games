@@ -1,0 +1,12 @@
+{"stage": "started", "isolatedBackground": true}
+{"stage": "geometry_created", "parts": 1511}
+00:01.625  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_28196_6717575bff02eb8ce8243fe7774c82ca.png.png"
+Info: Saved copy as "NativeMudArena_IsolatedPreview.blend"
+{"stage": "blend_saved", "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudArena_IsolatedPreview.blend"}
+00:03.203  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\StuckInTheMud20261003\NativeMudArena_IsolatedWide.png'
+{"source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudGeometry.json", "isolatedBackgroundProcess": true, "nativeParts": 1511, "meshes": 3, "materials": 15, "axisConversion": "Roblox(X,Y,Z) to Blender(X,-Z,Y)", "engine": "BLENDER_WORKBENCH", "image": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudArena_IsolatedWide.png", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudArena_IsolatedPreview.blend", "resolution": [2048, 1152], "cameraPosition": [888.0236206054688, 1089.84716796875, 1278.1751708984375], "orthographicScale": 1713.4310302734375, "originalStateRestored": true, "originalFilepath": "", "originalScene": "Scene"}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+Unable to delete file
+Unable to delete file
+
+Blender quit

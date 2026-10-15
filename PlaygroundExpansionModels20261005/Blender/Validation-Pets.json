@@ -1,0 +1,426 @@
+{
+  "passed": true,
+  "count": 15,
+  "assets": [
+    {
+      "id": "P21",
+      "name": "Crystal Drake",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 80,
+        "packedReference": true,
+        "liveBevels": 4,
+        "localPaths": true,
+        "poseBones": 10,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 35634,
+        "maxMeshTriangles": 18956,
+        "roundtripDimensions": [
+          3.9571878910064697,
+          3.6920539140701294,
+          3.342910051345825
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P22",
+      "name": "Ember Wyrmling",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 86,
+        "packedReference": true,
+        "liveBevels": 8,
+        "localPaths": true,
+        "poseBones": 10,
+        "idleLoop": true,
+        "fbxMeshes": 3,
+        "fbxTriangles": 40960,
+        "maxMeshTriangles": 18996,
+        "roundtripDimensions": [
+          3.651637315750122,
+          3.4964864253997803,
+          3.29291795194149
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P23",
+      "name": "Cloud Pegasus",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 79,
+        "packedReference": true,
+        "liveBevels": 4,
+        "localPaths": true,
+        "poseBones": 10,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 30680,
+        "maxMeshTriangles": 18364,
+        "roundtripDimensions": [
+          2.677484154701233,
+          3.395873188972473,
+          3.6658929102122784
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P24",
+      "name": "Suncrest Griffin",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 101,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "poseBones": 10,
+        "idleLoop": true,
+        "fbxMeshes": 3,
+        "fbxTriangles": 40748,
+        "maxMeshTriangles": 18984,
+        "roundtripDimensions": [
+          3.086722731590271,
+          3.5016549825668335,
+          3.2525241374969482
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P25",
+      "name": "Halo Cherub",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 67,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "poseBones": 9,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 28812,
+        "maxMeshTriangles": 18912,
+        "roundtripDimensions": [
+          2.4365110397338867,
+          1.5289078950881958,
+          3.366368755698204
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P26",
+      "name": "Pebble Triceratops",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 72,
+        "packedReference": true,
+        "liveBevels": 1,
+        "localPaths": true,
+        "poseBones": 8,
+        "idleLoop": true,
+        "fbxMeshes": 3,
+        "fbxTriangles": 37912,
+        "maxMeshTriangles": 18576,
+        "roundtripDimensions": [
+          2.2706098556518555,
+          3.729433059692383,
+          3.590000092983246
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P27",
+      "name": "Fern Stegosaurus",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 74,
+        "packedReference": true,
+        "liveBevels": 1,
+        "localPaths": true,
+        "poseBones": 8,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 32136,
+        "maxMeshTriangles": 18872,
+        "roundtripDimensions": [
+          1.940000295639038,
+          4.534973978996277,
+          2.470515251159668
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P28",
+      "name": "Sky Pterodactyl",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 48,
+        "packedReference": true,
+        "liveBevels": 2,
+        "localPaths": true,
+        "poseBones": 8,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 22960,
+        "maxMeshTriangles": 18932,
+        "roundtripDimensions": [
+          3.7756457328796387,
+          3.1653250455856323,
+          3.504939664155245
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P29",
+      "name": "Tundra Mammoth",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 108,
+        "packedReference": true,
+        "liveBevels": 2,
+        "localPaths": true,
+        "poseBones": 8,
+        "idleLoop": true,
+        "fbxMeshes": 3,
+        "fbxTriangles": 39364,
+        "maxMeshTriangles": 18928,
+        "roundtripDimensions": [
+          2.380000114440918,
+          3.843077540397644,
+          3.1644577383995056
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P30",
+      "name": "Crowned Pig",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 48,
+        "packedReference": true,
+        "liveBevels": 15,
+        "localPaths": true,
+        "poseBones": 8,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 21108,
+        "maxMeshTriangles": 18800,
+        "roundtripDimensions": [
+          2.2199944257736206,
+          3.3104692697525024,
+          3.7191687896847725
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P31",
+      "name": "Waffle Tortoise",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 54,
+        "packedReference": true,
+        "liveBevels": 12,
+        "localPaths": true,
+        "poseBones": 8,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 36222,
+        "maxMeshTriangles": 18130,
+        "roundtripDimensions": [
+          2.156590223312378,
+          3.4851266145706177,
+          2.144379921257496
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P32",
+      "name": "Pancake Pal",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 32,
+        "packedReference": true,
+        "liveBevels": 3,
+        "localPaths": true,
+        "poseBones": 7,
+        "idleLoop": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 17890,
+        "maxMeshTriangles": 17890,
+        "roundtripDimensions": [
+          2.960000514984131,
+          2.119000554084778,
+          2.198218995705247
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P33",
+      "name": "Velvet Jumper",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 57,
+        "packedReference": true,
+        "liveBevels": 1,
+        "localPaths": true,
+        "poseBones": 11,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 26018,
+        "maxMeshTriangles": 18876,
+        "roundtripDimensions": [
+          3.280000329017639,
+          2.9860005378723145,
+          2.015139654278755
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P34",
+      "name": "Patchwork Zombie",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 60,
+        "packedReference": true,
+        "liveBevels": 13,
+        "localPaths": true,
+        "poseBones": 7,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 22608,
+        "maxMeshTriangles": 18256,
+        "roundtripDimensions": [
+          2.239999771118164,
+          1.3970005512237549,
+          3.0400005746632814
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "P35",
+      "name": "Sunfeather Phoenix",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 71,
+        "packedReference": true,
+        "liveBevels": 1,
+        "localPaths": true,
+        "poseBones": 8,
+        "idleLoop": true,
+        "fbxMeshes": 2,
+        "fbxTriangles": 24840,
+        "maxMeshTriangles": 18404,
+        "roundtripDimensions": [
+          2.438202381134033,
+          3.347083330154419,
+          3.551084738224745
+        ],
+        "fbxRigged": true,
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

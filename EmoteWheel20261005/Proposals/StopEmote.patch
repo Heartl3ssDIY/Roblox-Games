@@ -1,0 +1,10 @@
+--- EmoteCatalog20261005/After/PlaygroundEconomyService.luau
++++ EmoteWheel20261005/After/PlaygroundEconomyService.luau
+@@ -13,1 +13,1 @@
+-local actions = { GetStatus = true, Buy = true, Equip = true, Unequip = true, SelectToy = true, UseEmote = true, UseEmoji = true }
++local actions = { GetStatus = true, Buy = true, Equip = true, Unequip = true, SelectToy = true, UseEmote = true, StopEmote = true, UseEmoji = true }
+@@ -510,0 +511,4 @@
++	if action == "StopEmote" then
++		stopEmote(player)
++		return self:Status(player, true, "Dance stopped.")
++	end

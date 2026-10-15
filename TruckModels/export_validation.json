@@ -1,0 +1,62 @@
+[
+  {
+    "model": "Starter",
+    "parts": 93,
+    "dimensions": [
+      8.944999694824219,
+      15.477499961853027,
+      7.8000011731465975
+    ],
+    "names_and_materials": "passed"
+  },
+  {
+    "model": "Basic",
+    "parts": 93,
+    "dimensions": [
+      9.545000076293945,
+      18.577500343322754,
+      9.100001632700582
+    ],
+    "names_and_materials": "passed"
+  },
+  {
+    "model": "Power",
+    "parts": 100,
+    "dimensions": [
+      9.944999694824219,
+      20.215001106262207,
+      9.50000234664617
+    ],
+    "names_and_materials": "passed"
+  },
+  {
+    "model": "Super",
+    "parts": 109,
+    "dimensions": [
+      10.444999694824219,
+      23.077503204345703,
+      10.100002018822806
+    ],
+    "names_and_materials": "passed"
+  },
+  {
+    "model": "Premium",
+    "parts": 109,
+    "dimensions": [
+      10.744999885559082,
+      25.07750129699707,
+      10.40000237247807
+    ],
+    "names_and_materials": "passed"
+  },
+  {
+    "model": "Mythic",
+    "parts": 109,
+    "dimensions": [
+      10.745000839233398,
+      24.07750129699707,
+      10.4000022910177
+    ],
+    "names_and_materials": "passed"
+  }
+]

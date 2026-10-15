@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "positions": {
+    "Shop": "{0, 0}, {0, 0}",
+    "Emote": "{0, 135}, {0, -1}",
+    "Emoji": "{0, 352}, {0, -88}"
+  },
+  "playStarted": false,
+  "scriptSourcesChanged": false,
+  "checks": [
+    "Independent Dock positions and existing sizes preserved",
+    "Original PNG links and live caption strokes preserved",
+    "Critical HUD fallback plates and parent borders removed"
+  ]
+}

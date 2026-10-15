@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147.2" height="147.2" viewBox="0 0 147.2 147.2">
+  <title>School-Hopscotch-3</title>
+  <desc>Editable SVG exported read-only from Roblox Studio. All label text remains live text. Named groups preserve authored UI layers. Surface host color is included as an editable backplate; scene lighting is omitted.</desc>
+  <metadata>{"source": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail", "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]/ClassDetail[1]", "enabled": true, "canvas": [147.1999969482422, 147.1999969482422], "fontSizeResolution": "Installed Roblox TrueType advance widths with integer size fitting"}</metadata>
+  <g id="Editable-Host-Part-Surface-Backplate">
+    <title>Host part surface color (visual context)</title>
+    <rect x="0" y="0" width="147.2" height="147.2" fill="#5cd1a6" fill-opacity="1" />
+  </g>
+  <g id="ClassDetail" data-source-enabled="true">
+    <g id="Label-1" data-native-name="Label" data-native-class="TextLabel" data-native-visible="true">
+      <title>Label</title>
+      <text id="EditableText-1" font-family="Fredoka One" font-size="100" font-weight="400" font-style="normal" fill="#1b2d3d" fill-opacity="1" text-anchor="middle" xml:space="preserve" data-roblox-font-family="rbxasset://fonts/families/FredokaOne.json" data-native-text-scaled="true"><tspan x="73.6" y="105.6">3</tspan></text>
+    </g>
+  </g>
+  <metadata id="playground-text-layers">{"version": 1, "texts": [{"name": "Label", "text": "3", "x": 0.0, "y": 23.6, "width": 147.2, "height": 100, "fontFamily": "Fredoka One", "fontSize": 100, "color": "#1b2d3d", "opacity": 1.0, "strokeColor": null, "strokeWidth": 0.0, "strokeOpacity": 0.0, "align": "CENTER"}]}</metadata>
+</svg>

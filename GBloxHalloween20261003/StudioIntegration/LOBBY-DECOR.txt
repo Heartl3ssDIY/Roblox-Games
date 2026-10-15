@@ -1,0 +1,21 @@
+Halloween decor added in the open [BETA] G-Blox place, 74498603638770.
+Target: Workspace > Halloween lobby. The original lobby was not changed.
+
+Round 1: 9 currently imported Halloween models, 149 mesh parts recoloured.
+Backup: ServerStorage > HalloweenImportsBeforeColour_20261003_070442.
+Warm lantern: RGB 255,183,82, brightness 1.6, range 22 studs.
+
+G-Blox: all 9 coloured models copied into ServerStorage > HalloweenImportedModels.
+These templates reuse the existing Roblox mesh asset IDs and are decorative copies.
+Backup: ServerStorage > HalloweenLobbyBeforeDecor_20261003_070723.
+Workspace > Halloween lobby > Halloween Decor contains 40 placed models:
+14 lanterns, 12 pumpkins, 6 graves, 2 floating ghosts, 2 floor webs, 4 corner webs.
+All decorative meshes are anchored and have collision/touch/query disabled.
+The ghosts, graves and webs have no gameplay behavior in this lobby.
+529 duplicate-lobby architecture parts recoloured; 17 existing local lights warmed.
+Walkway lantern range: 30 studs, brightness 1.8. Global Lighting is unchanged.
+Verified 1,119 original workspace parts outside the duplicate retained colour,
+material, position and size. Visual checks completed in Studio.
+
+No automatic synchronization is configured between places. These are independent copies.
+Nothing was published. Changes are in the open Studio places.

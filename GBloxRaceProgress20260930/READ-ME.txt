@@ -1,0 +1,43 @@
+G-BLOX / EDITABLE RACE PROGRESS CONCEPT
+
+Open the SVGs in your vector editor. Everything is made from vector shapes,
+separate named groups and live SVG text. No flattened bitmap is inside the SVG.
+The PNGs are previews only. All names and race positions are examples.
+
+FILES
+race-progress-wide.svg       Main HUD, 1120 x 288
+race-progress-compact.svg    Compact HUD, 680 x 220
+race-marker-states.svg       Local / finished / eliminated examples
+G-Blox-race-progress-concept.svg  Presentation sheet (also fully editable)
+
+EDITING
+The text uses Press Start 2P, matching the G-Blox pixel style. A font is embedded
+for browser previews. Some editors do not import embedded web fonts: install or
+select Press Start 2P if prompted. SVG is editable; this is not a native Figma
+component library. Different editors can outline text during SVG import.
+
+Each player has a named group and a removable avatar-art subgroup. Move the
+player's position anchor along the track, then keep its avatar aligned above or
+below that anchor. The cyan filled portion represents YOUR progress, not time.
+The small number on a portrait is that player's current rank.
+
+These drawings are avatar placeholders, not live ViewportFrames. The runtime
+version would need native Roblox UI with each player's portrait/ViewportFrame
+inserted into its slot. Preserve the editable StarterGui layouts when binding
+behavior. Blender is not required for this 2D interface.
+
+IMPLEMENTATION NOTES (not implemented in this mockup)
+Measure validated progress along checkpoint/course segments, not raw world X:
+the courses can change direction and height. Move all player anchors using the
+same progress scale. Keep local-player emphasis and gently smooth visual motion.
+Stagger nearby portraits vertically without falsifying their progress anchors;
+larger clusters need additional stacking or a small grouped-count indicator.
+Keep finished and eliminated racers visually distinct. Do not label OUT racers
+as active. The compact version omits full names to preserve readability.
+
+If animated character previews are added, use simple cached rigs with a reduced
+update rate and a static portrait fallback. Do not duplicate maps into each slot.
+This design does not require fully simulating six characters inside the HUD.
+
+No Studio files were changed, no gameplay behavior was implemented, and nothing
+was published by this design task.

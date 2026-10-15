@@ -1,0 +1,59 @@
+{
+  "id": "M23",
+  "name": "Magnet Mover",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m23-magnet-mover.png",
+  "brief": "One chunky horseshoe-magnet toy gadget, a large red U-shaped magnet with pale-cyan squared pole caps, joined at the curved base to a short cream-and-navy handgrip with a big orange thumb switch. Broad navy edge trim, glossy rounded toy proportions. No floating metal, electric arcs, text or additional objects.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m23-magnet-mover.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m23-magnet-mover.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m23-magnet-mover-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m23-magnet-mover.png",
+  "parts": 18,
+  "triangles": 4208,
+  "meshes": 1,
+  "maxMeshTriangles": 4208,
+  "dimensions": [
+    1.6899999380111694,
+    0.6119999885559082,
+    2.495000123977661
+  ],
+  "boundsMin": [
+    -0.8449999690055847,
+    -0.3269999921321869,
+    0.059999994933605194
+  ],
+  "boundsMax": [
+    0.8449999690055847,
+    0.2849999964237213,
+    2.555000066757202
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.4399999976158142
+    ],
+    "MagnetPoleLeft": [
+      -0.5799999833106995,
+      0.0,
+      2.549999952316284
+    ],
+    "MagnetPoleRight": [
+      0.5799999833106995,
+      0.0,
+      2.549999952316284
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.6899999380111694,
+    0.6119999885559082,
+    2.495000123977661
+  ]
+}

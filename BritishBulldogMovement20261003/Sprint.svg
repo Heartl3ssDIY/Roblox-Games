@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="120" viewBox="0 0 390 120">
+<style>.heading{font-family:'Luckiest Guy','Fredoka One',Impact,'Comic Sans MS',sans-serif;font-weight:400;fill:#18233e}.body{font-family:'Fredoka One','Comic Sans MS',Arial,sans-serif;font-weight:400;fill:#18233e}</style>
+<g transform="translate(7 6)">
+<rect width="375" height="48" rx="13" fill="#fffae2" stroke="#18233e" stroke-width="4"/>
+<text x="12" y="23" class="heading" font-size="20">RUNNER</text>
+<text x="363" y="21" class="body" font-size="15" text-anchor="end">10.0s / 10s</text>
+<rect x="12" y="29" width="351" height="10" rx="5" fill="#d3d9d8" stroke="#18233e" stroke-width="2"/>
+<rect x="12" y="29" width="351" height="10" rx="5" fill="#2aa0ff"/>
+<rect y="60" width="195" height="40" rx="12" fill="#2aa0ff" stroke="#18233e" stroke-width="3"/>
+<g transform="translate(6 66) scale(0.4)"><path d="M36 5 12 34h17l-5 25 29-35H35z" fill="#ffcc36" stroke="#18233e" stroke-width="5" stroke-linejoin="round"/></g>
+<text x="115" y="79" class="heading" font-size="18" text-anchor="middle">SPRINT</text>
+<text x="115" y="95" class="heading" font-size="14" text-anchor="middle">HOLD SHIFT</text>
+</g>
+</svg>

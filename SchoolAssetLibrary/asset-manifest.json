@@ -1,0 +1,496 @@
+[
+  {
+    "name": "Student 01 - Maths stack chair",
+    "root": "School_Student_01_-_Maths_stack_chair",
+    "collection": "School | Student 01 - Maths stack chair",
+    "category": "02 Student seating",
+    "parts": 26,
+    "location_metres": [
+      0.0,
+      4.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Student 02 - Science lab stool",
+    "root": "School_Student_02_-_Science_lab_stool",
+    "collection": "School | Student 02 - Science lab stool",
+    "category": "02 Student seating",
+    "parts": 22,
+    "location_metres": [
+      1.5,
+      4.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Student 03 - Technology swivel chair",
+    "root": "School_Student_03_-_Technology_swivel_chair",
+    "collection": "School | Student 03 - Technology swivel chair",
+    "category": "02 Student seating",
+    "parts": 74,
+    "location_metres": [
+      3.0,
+      4.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Student 04 - Art cantilever chair",
+    "root": "School_Student_04_-_Art_cantilever_chair",
+    "collection": "School | Student 04 - Art cantilever chair",
+    "category": "02 Student seating",
+    "parts": 19,
+    "location_metres": [
+      4.5,
+      4.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Student 05 - Music posture chair",
+    "root": "School_Student_05_-_Music_posture_chair",
+    "collection": "School | Student 05 - Music posture chair",
+    "category": "02 Student seating",
+    "parts": 158,
+    "location_metres": [
+      6.0,
+      4.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Staff 01 - Task chair",
+    "root": "School_Staff_01_-_Task_chair",
+    "collection": "School | Staff 01 - Task chair",
+    "category": "03 Staff seating",
+    "parts": 215,
+    "location_metres": [
+      8.0,
+      4.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Staff 02 - Curved tub chair",
+    "root": "School_Staff_02_-_Curved_tub_chair",
+    "collection": "School | Staff 02 - Curved tub chair",
+    "category": "03 Staff seating",
+    "parts": 88,
+    "location_metres": [
+      10.0,
+      4.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Staff 03 - Low lounge armchair",
+    "root": "School_Staff_03_-_Low_lounge_armchair",
+    "collection": "School | Staff 03 - Low lounge armchair",
+    "category": "03 Staff seating",
+    "parts": 162,
+    "location_metres": [
+      12.0,
+      4.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Black pencil - pink eraser",
+    "root": "School_Black_pencil_-_pink_eraser",
+    "collection": "School | Black pencil - pink eraser",
+    "category": "01 Stationery",
+    "parts": 10,
+    "location_metres": [
+      0.029999999329447746,
+      -0.2199999988079071,
+      0.7269999980926514
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Black retractable pen",
+    "root": "School_Black_retractable_pen",
+    "collection": "School | Black retractable pen",
+    "category": "01 Stationery",
+    "parts": 12,
+    "location_metres": [
+      0.17000000178813934,
+      -0.2199999988079071,
+      0.7269999980926514
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Round graphite pencil pot",
+    "root": "School_Round_graphite_pencil_pot",
+    "collection": "School | Round graphite pencil pot",
+    "category": "01 Stationery",
+    "parts": 71,
+    "location_metres": [
+      0.5600000023841858,
+      0.03999999910593033,
+      0.7229999899864197
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Square ivory pen pot",
+    "root": "School_Square_ivory_pen_pot",
+    "collection": "School | Square ivory pen pot",
+    "category": "01 Stationery",
+    "parts": 53,
+    "location_metres": [
+      0.9200000166893005,
+      0.05000000074505806,
+      0.7229999899864197
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Whiteboard marker and eraser",
+    "root": "School_Whiteboard_marker_and_eraser",
+    "collection": "School | Whiteboard marker and eraser",
+    "category": "01 Stationery",
+    "parts": 6,
+    "location_metres": [
+      1.2000000476837158,
+      -0.15000000596046448,
+      0.7279999852180481
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Simple school laptop",
+    "root": "School_Simple_school_laptop",
+    "collection": "School | Simple school laptop",
+    "category": "05 Technology",
+    "parts": 155,
+    "location_metres": [
+      8.0,
+      8.0,
+      0.7400000095367432
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Desktop monitor",
+    "root": "School_Desktop_monitor",
+    "collection": "School | Desktop monitor",
+    "category": "05 Technology",
+    "parts": 31,
+    "location_metres": [
+      9.199999809265137,
+      8.0,
+      0.7400000095367432
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Compact desktop keyboard and mouse",
+    "root": "School_Compact_desktop_keyboard_and_mouse",
+    "collection": "School | Compact desktop keyboard and mouse",
+    "category": "05 Technology",
+    "parts": 62,
+    "location_metres": [
+      9.199999809265137,
+      7.599999904632568,
+      0.7419999837875366
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Upright piano",
+    "root": "School_Upright_piano",
+    "collection": "School | Upright piano",
+    "category": "04 Music",
+    "parts": 165,
+    "location_metres": [
+      0.0,
+      8.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Piano bench",
+    "root": "School_Piano_bench",
+    "collection": "School | Piano bench",
+    "category": "04 Music",
+    "parts": 81,
+    "location_metres": [
+      0.0,
+      7.079999923706055,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Acoustic guitar and stand",
+    "root": "School_Acoustic_guitar_and_stand",
+    "collection": "School | Acoustic guitar and stand",
+    "category": "04 Music",
+    "parts": 105,
+    "location_metres": [
+      2.0999999046325684,
+      8.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Clarinet and stand",
+    "root": "School_Clarinet_and_stand",
+    "collection": "School | Clarinet and stand",
+    "category": "04 Music",
+    "parts": 85,
+    "location_metres": [
+      3.25,
+      8.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Tall double cupboard",
+    "root": "School_Tall_double_cupboard",
+    "collection": "School | Tall double cupboard",
+    "category": "06 Storage",
+    "parts": 50,
+    "location_metres": [
+      0.0,
+      12.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Low staffroom cupboard",
+    "root": "School_Low_staffroom_cupboard",
+    "collection": "School | Low staffroom cupboard",
+    "category": "06 Storage",
+    "parts": 29,
+    "location_metres": [
+      1.899999976158142,
+      12.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Classroom tray cupboard",
+    "root": "School_Classroom_tray_cupboard",
+    "collection": "School | Classroom tray cupboard",
+    "category": "06 Storage",
+    "parts": 103,
+    "location_metres": [
+      4.0,
+      12.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Graphite electric kettle",
+    "root": "School_Graphite_electric_kettle",
+    "collection": "School | Graphite electric kettle",
+    "category": "07 Staffroom",
+    "parts": 33,
+    "location_metres": [
+      6.400000095367432,
+      12.0,
+      0.7210000157356262
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Ivory staff mug",
+    "root": "School_Ivory_staff_mug",
+    "collection": "School | Ivory staff mug",
+    "category": "07 Staffroom",
+    "parts": 4,
+    "location_metres": [
+      6.829999923706055,
+      11.890000343322754,
+      0.7210000157356262
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Graphite staff mug",
+    "root": "School_Graphite_staff_mug",
+    "collection": "School | Graphite staff mug",
+    "category": "07 Staffroom",
+    "parts": 4,
+    "location_metres": [
+      7.099999904632568,
+      11.9399995803833,
+      0.7210000157356262
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Cup and saucer",
+    "root": "School_Cup_and_saucer",
+    "collection": "School | Cup and saucer",
+    "category": "07 Staffroom",
+    "parts": 4,
+    "location_metres": [
+      7.400000095367432,
+      11.920000076293945,
+      0.7210000157356262
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Takeaway coffee cup",
+    "root": "School_Takeaway_coffee_cup",
+    "collection": "School | Takeaway coffee cup",
+    "category": "07 Staffroom",
+    "parts": 55,
+    "location_metres": [
+      7.650000095367432,
+      12.119999885559082,
+      0.7210000157356262
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "mobile whiteboard",
+    "root": "School_School_mobile_whiteboard",
+    "collection": "School | School mobile whiteboard",
+    "category": "08 Boards",
+    "parts": 53,
+    "location_metres": [
+      0.0,
+      16.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Rounded TV teaching board",
+    "root": "School_Rounded_School_TV_teaching_board",
+    "collection": "School | Rounded School TV teaching board",
+    "category": "08 Boards",
+    "parts": 59,
+    "location_metres": [
+      3.25,
+      16.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Indoor broadleaf plant",
+    "root": "School_Indoor_broadleaf_plant",
+    "collection": "School | Indoor broadleaf plant",
+    "category": "09 Indoor plants",
+    "parts": 157,
+    "location_metres": [
+      8.0,
+      16.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Indoor snake plant",
+    "root": "School_Indoor_snake_plant",
+    "collection": "School | Indoor snake plant",
+    "category": "09 Indoor plants",
+    "parts": 24,
+    "location_metres": [
+      9.199999809265137,
+      16.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Outdoor shrub planter",
+    "root": "School_Outdoor_shrub_planter",
+    "collection": "School | Outdoor shrub planter",
+    "category": "10 Outdoors",
+    "parts": 88,
+    "location_metres": [
+      8.0,
+      20.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Outdoor round shrub",
+    "root": "School_Outdoor_round_shrub",
+    "collection": "School | Outdoor round shrub",
+    "category": "10 Outdoors",
+    "parts": 9,
+    "location_metres": [
+      10.100000381469727,
+      20.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Broadleaf school tree",
+    "root": "School_Broadleaf_school_tree",
+    "collection": "School | Broadleaf school tree",
+    "category": "10 Outdoors",
+    "parts": 13,
+    "location_metres": [
+      0.0,
+      21.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Evergreen school tree",
+    "root": "School_Evergreen_school_tree",
+    "collection": "School | Evergreen school tree",
+    "category": "10 Outdoors",
+    "parts": 6,
+    "location_metres": [
+      3.0999999046325684,
+      21.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Outdoor backed bench",
+    "root": "School_Outdoor_backed_bench",
+    "collection": "School | Outdoor backed bench",
+    "category": "10 Outdoors",
+    "parts": 88,
+    "location_metres": [
+      5.800000190734863,
+      21.0,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  },
+  {
+    "name": "Outdoor backless bench",
+    "root": "School_Outdoor_backless_bench",
+    "collection": "School | Outdoor backless bench",
+    "category": "10 Outdoors",
+    "parts": 62,
+    "location_metres": [
+      5.800000190734863,
+      19.399999618530273,
+      0.0
+    ],
+    "revision": "Interactive sources 03"
+  }
+]

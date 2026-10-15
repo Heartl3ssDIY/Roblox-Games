@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1440" height="900" viewBox="0 0 1440 900">
+  <title>Editable Mud HUD</title>
+  <desc>1440 by 900 reference for StarterGui.MudHUD. Panels, colors, text and controls match BuildMudHUD.luau. Alternate Frozen, Countdown, Results, ColourPicker and MuddyTemplate groups are hidden for editing. Fonts remain editable Luckiest Guy and Fredoka One text. The canvas is transparent.</desc>
+  <metadata>Source: BuildMudHUD.luau; main control size 280x146; safe bottom offset 18; top panel 600x74 at y68.</metadata>
+  <style>
+    .outline {stroke:#18233e;stroke-width:3;stroke-linejoin:round}
+    .headline {font-family:'Luckiest Guy',Impact,sans-serif;fill:#18233e;text-anchor:middle}
+    .body {font-family:'Fredoka One','Arial Rounded MT Bold',sans-serif;fill:#18233e;text-anchor:middle}
+  </style>
+  <g id="Main.Top" inkscape:groupmode="layer" inkscape:label="Main / Top">
+    <rect id="Top.Panel" x="420" y="68" width="600" height="74" rx="14" fill="#fffae2" stroke="#18233e" stroke-width="4"/>
+    <text id="Top.Title" class="headline" x="720" y="88" font-size="21">STUCK IN THE MUD</text>
+    <g id="Top.Team">
+      <rect class="outline" x="435" y="95.38" width="180" height="35.52" rx="12" fill="#2aa0ff"/>
+      <text class="headline" x="525" y="109" font-size="14" style="fill:#fff">BLUE</text>
+      <text class="headline" x="525" y="125" font-size="14" style="fill:#fff">2 / 2 FREE</text>
+    </g>
+    <text id="Top.Timer" class="headline" x="720" y="130" font-size="39">5:00</text>
+    <text id="Top.Other" class="body" x="915" y="119" font-size="15">TEAMS LEFT: 2</text>
+  </g>
+  <g id="Main.Controls" inkscape:groupmode="layer" inkscape:label="Main / Controls">
+    <g id="Controls.Meter">
+      <rect class="outline" x="580" y="736" width="280" height="36" rx="12" fill="#fffae2"/>
+      <text id="Meter.Charge" class="body" x="720" y="754" font-size="17">SPRINT 10.0s / 10s</text>
+      <rect id="Meter.Track" x="590" y="762" width="260" height="6" rx="3" fill="#cbd4d1"/>
+      <rect id="Meter.Fill" x="590" y="762" width="260" height="6" rx="3" fill="#2aa0ff"/>
+    </g>
+    <g id="Controls.Mud">
+      <rect class="outline" x="580" y="780" width="93" height="48" rx="12" fill="#a16c3e"/>
+      <text class="headline" x="626.5" y="801" font-size="19">MUD</text>
+      <text class="headline" x="626.5" y="820" font-size="17">[1]</text>
+    </g>
+    <g id="Controls.Heat">
+      <rect class="outline" x="680" y="780" width="93" height="48" rx="12" fill="#ff963a"/>
+      <text class="headline" x="726.5" y="801" font-size="19">HEAT</text>
+      <text class="headline" x="726.5" y="820" font-size="17">[2]</text>
+    </g>
+    <g id="Controls.Fire">
+      <rect class="outline" x="780" y="780" width="80" height="48" rx="12" fill="#ffcd4d"/>
+      <text class="headline" x="820" y="811" font-size="18">SPLAT!</text>
+    </g>
+    <g id="Controls.Sprint">
+      <rect class="outline" x="580" y="834" width="280" height="48" rx="12" fill="#2aa0ff"/>
+      <text class="headline" x="720" y="865" font-size="20">SPRINT · HOLD SHIFT</text>
+    </g>
+  </g>
+  <g id="Main.Crosshair" inkscape:groupmode="layer" inkscape:label="Main / Crosshair" fill="#fffae2">
+    <rect id="Crosshair.Horizontal" x="713" y="449" width="14" height="2"/>
+    <rect id="Crosshair.Vertical" x="719" y="443" width="2" height="14"/>
+  </g>
+  <g id="ColourToggle" inkscape:groupmode="layer" inkscape:label="Colour toggle">
+    <rect class="outline" x="300" y="838" width="44" height="44" rx="12" fill="#fffae2"/>
+    <text class="headline" x="322" y="865" font-size="13">TEAM</text>
+  </g>
+  <g id="Main.Frozen" inkscape:groupmode="layer" inkscape:label="Alternate / Frozen" style="display:none">
+    <rect x="580" y="786" width="280" height="96" rx="15" fill="#fffae2" stroke="#18233e" stroke-width="4"/>
+    <text id="Frozen.Title" class="headline" x="720" y="817" font-size="24">STUCK IN THE MUD!</text>
+    <text id="Frozen.Status" class="body" x="720" y="843" font-size="17">TEAMMATE HEAT: 0.0 / 5s</text>
+    <rect id="Frozen.RescueTrack" x="592" y="859" width="256" height="10" rx="5" fill="#cbd4d1"/>
+    <rect id="Frozen.RescueFill" x="592" y="859" width="128" height="10" rx="5" fill="#ff963a"/>
+  </g>
+  <g id="Main.Countdown" inkscape:groupmode="layer" inkscape:label="Alternate / Countdown" style="display:none">
+    <text class="headline" x="720" y="483" font-size="98" style="fill:#fffae2;stroke:#18233e;stroke-width:5;paint-order:stroke fill">3</text>
+  </g>
+  <g id="Main.Results" inkscape:groupmode="layer" inkscape:label="Alternate / Results" style="display:none">
+    <rect x="405" y="373" width="630" height="190" rx="18" fill="#fffae2" stroke="#18233e" stroke-width="4"/>
+    <text id="Results.Title" class="headline" x="720" y="424" font-size="35">YOUR TEAM WINS!</text>
+    <text id="Results.Reason" class="body" x="720" y="468" font-size="18">EVERY OPPONENT IS STUCK</text>
+    <text id="Results.Rewards" class="headline" x="720" y="530" font-size="26">+150 COINS · +50 XP</text>
+  </g>
+  <g id="ColourPicker" inkscape:groupmode="layer" inkscape:label="Alternate / Colour picker" style="display:none">
+    <rect x="580" y="399" width="280" height="138" rx="15" fill="#fffae2" stroke="#18233e" stroke-width="4"/>
+    <text id="ColourPicker.Title" class="headline" x="694.5" y="431" font-size="25">TEAM COLOUR</text>
+    <rect id="ColourPicker.Close" class="outline" x="811" y="405" width="40" height="40" rx="12" fill="#fff"/>
+    <text class="headline" x="831" y="433" font-size="22">X</text>
+    <g id="ColourPicker.Red">
+      <rect class="outline" x="590" y="448" width="60" height="48" rx="12" fill="#ff515c"/>
+      <text class="headline" x="620" y="479" font-size="14" style="fill:#fff">RED</text>
+    </g>
+    <g id="ColourPicker.Blue">
+      <rect class="outline" x="656" y="448" width="60" height="48" rx="12" fill="#2aa0ff"/>
+      <text class="headline" x="686" y="479" font-size="14" style="fill:#fff">BLUE</text>
+    </g>
+    <g id="ColourPicker.Green">
+      <rect class="outline" x="722" y="448" width="60" height="48" rx="12" fill="#5ab96f"/>
+      <text class="headline" x="752" y="479" font-size="14" style="fill:#fff">GREEN</text>
+    </g>
+    <g id="ColourPicker.Black">
+      <rect class="outline" x="788" y="448" width="60" height="48" rx="12" fill="#2b3039"/>
+      <text class="headline" x="818" y="479" font-size="14" style="fill:#fff">BLACK</text>
+    </g>
+    <text id="ColourPicker.Message" class="body" x="720" y="524" font-size="13">Pick a colour for your next team.</text>
+  </g>
+  <g id="MuddyTemplate" inkscape:groupmode="layer" inkscape:label="Alternate / Overhead MuddyTemplate" style="display:none">
+    <rect class="outline" x="635" y="429" width="170" height="42" rx="12" fill="#fffae2"/>
+    <text class="headline" x="720" y="461" font-size="30" style="fill:#a16c3e">STUCK!</text>
+  </g>
+</svg>

@@ -1,0 +1,2155 @@
+{
+  "sourcePack": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004",
+  "uploadDirectory": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload",
+  "pixelPolicy": "Exact byte copies only. No resizing, re-encoding, crop, alpha or artwork modification.",
+  "files": [
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-level-panel.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/level-panel.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\level-panel.png"
+      ],
+      "sha256": "b47d19edd893859fcf6631d52f435440864dfa9806eb246cb064e25ec347fd21",
+      "width": 1072,
+      "height": 356,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-level-panel-compact.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/level-panel-compact.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\level-panel-compact.png"
+      ],
+      "sha256": "a9d6b278ab6f24df4052a5920a7de0879fd8cb31b96afc7b9a1465f591eb529d",
+      "width": 476,
+      "height": 244,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-wallet-panel.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/wallet-panel.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\wallet-panel.png"
+      ],
+      "sha256": "f72701f4bdc69e2549be7b41bbef2a0e022f2b1c507532937b88d31b4c0c902d",
+      "width": 1008,
+      "height": 292,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-shop-background.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/shop-background.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\shop-background.png"
+      ],
+      "sha256": "4ca41b3da47d4d2fa6ea871f46691b60f7e268c60cc09a3ef268811dcefa971f",
+      "width": 2048,
+      "height": 1218,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\02-item-frame-parts-item-frame.png",
+      "relativeAssetPaths": [
+        "PNG/02-Item-Frame-Parts/item-frame.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\02-Item-Frame-Parts\\item-frame.png"
+      ],
+      "sha256": "dbedb436d6d9e980b85f9e97db3f90facdfaa4d27662370adf695cb2a7a1958d",
+      "width": 984,
+      "height": 988,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\02-item-frame-parts-item-preview-background.png",
+      "relativeAssetPaths": [
+        "PNG/02-Item-Frame-Parts/item-preview-background.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\02-Item-Frame-Parts\\item-preview-background.png"
+      ],
+      "sha256": "bd76b416a3c12cbd56bd5457feadc8c5ad238d3a8222102b625addf90f312695",
+      "width": 888,
+      "height": 524,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\02-item-frame-parts-item-action-button.png",
+      "relativeAssetPaths": [
+        "PNG/02-Item-Frame-Parts/item-action-button.png",
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\02-Item-Frame-Parts\\item-action-button.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Templates_ItemCard_Action.png"
+      ],
+      "sha256": "a01b3b4653ac095907a203a1ad21f5004820c2d945346e6ab319b3309a481e97",
+      "width": 653,
+      "height": 149,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-runner-meter-background.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/runner-meter-background.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\runner-meter-background.png"
+      ],
+      "sha256": "9c4cfed46f6f85c02c3510ae2aa8331706d9eb4e269034f00211083d38d854f2",
+      "width": 1516,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-britishbulldoghud-movementcontrols-sprint.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\BritishBulldogHUD-MovementControls_Sprint.png"
+      ],
+      "sha256": "33c3bf4909321d48be9da72fe1f7ff682ccf49399ffd2cb663a3dfd9792ca86f",
+      "width": 796,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-britishbulldoghud-movementcontrols-dodge.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\BritishBulldogHUD-MovementControls_Dodge.png"
+      ],
+      "sha256": "9b7af13e9254f5ea7cf13ff9514e6adff484ae8e58f10951ac762bbb1aa15cd7",
+      "width": 391,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-taghud-top.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/TagHUD-Top.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\TagHUD-Top.png"
+      ],
+      "sha256": "6be3ec072bf6e91348d1d80c875436c2da5d19e1cc4c6dfea75db364059a24d5",
+      "width": 2048,
+      "height": 394,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-taghud-role.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/TagHUD-Role.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\TagHUD-Role.png"
+      ],
+      "sha256": "9669da22c197faedcedc40be79d7e905026f40aaf2a5f5f89c56011a0d168c81",
+      "width": 1156,
+      "height": 297,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-taghud-results.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/TagHUD-Results.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\TagHUD-Results.png"
+      ],
+      "sha256": "b205be91b9057cecd969ee0eb67041699177e74269f6eb5ada10cb3c1a82acc2",
+      "width": 2048,
+      "height": 872,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-taghud-controls-vault.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Vault.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\TagHUD-Controls_Vault.png"
+      ],
+      "sha256": "ac6a3b6ad5e0aed624c0dc6d1b58855f8eb7e58d1ad1c9973ca9c6838fa30c20",
+      "width": 251,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-taghud-controls-dodge.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\TagHUD-Controls_Dodge.png"
+      ],
+      "sha256": "090f2202bc4623781c8370470832766acb532eae49fdfd7f412f17cd87d711b7",
+      "width": 251,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-taghud-sprintpanel-sprint.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\TagHUD-SprintPanel_Sprint.png"
+      ],
+      "sha256": "1ed9535d4206a747201cabb0c6a4dc6516f6506ed11eda3cfe999c809f264363",
+      "width": 598,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundshell-rewardtoast.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/PlaygroundShell-RewardToast.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundShell-RewardToast.png"
+      ],
+      "sha256": "840c2b2556a8b26e05d687bdbf2b41ec43dc94dbc7e7e0078244ba5e21e2a097",
+      "width": 1696,
+      "height": 236,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundshell-backdrop.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/PlaygroundShell-Backdrop.png",
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundShell-Backdrop.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Backdrop.png"
+      ],
+      "sha256": "1eb9022a197191714fb941285b04b4967a2ac2546b5edbb13d6a767e95709245",
+      "width": 2048,
+      "height": 1160,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundshell-votepanel.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/PlaygroundShell-VotePanel.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundShell-VotePanel.png"
+      ],
+      "sha256": "98fb9cc2cc29ed7f1a43af3ca5b33e3c2bf3aa23d1fd753e24e6396d63a442fd",
+      "width": 2048,
+      "height": 712,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundshell-compactvotepanel.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/PlaygroundShell-CompactVotePanel.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundShell-CompactVotePanel.png"
+      ],
+      "sha256": "369271f0f46faad42278a61213ef99def4614f3c1f2175d424e3656acd04df96",
+      "width": 2048,
+      "height": 571,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-dock-shop.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Dock_Shop.png"
+      ],
+      "sha256": "5a5d20ee3919318436639f30e8e5eb89eb71c7dc2b9897d8104cc974592faf92",
+      "width": 488,
+      "height": 220,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-dock-emote.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Dock_Emote.png"
+      ],
+      "sha256": "40dd058cd49a8394b6c417817f2b51083566936836083b51518647f6f996d773",
+      "width": 240,
+      "height": 220,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-dock-emoji.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Dock_Emoji.png"
+      ],
+      "sha256": "b688df579a1adf1f9b8940b7835b7530f7a025ff90a9448dc869b99ae8558caa",
+      "width": 240,
+      "height": 220,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-shoppanel-close.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-ShopPanel_Close.png"
+      ],
+      "sha256": "9f02b554840f9e226e15c8764769fb09cb895cccee6822669cec365224a92fe7",
+      "width": 163,
+      "height": 183,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-shoppanel-categories-all.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-ShopPanel_Categories_All.png"
+      ],
+      "sha256": "b43243635527a2c7b1964124f506e5da3c1be8aa9e2d9dfd0a94ec142d1c78c3",
+      "width": 275,
+      "height": 171,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-shoppanel-categories-pets.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-ShopPanel_Categories_Pets.png"
+      ],
+      "sha256": "a44c6b626aaf72593863e2a47d3805f00570b11f0f61e12f073b53c624ce2363",
+      "width": 399,
+      "height": 171,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-shoppanel-categories-highlights.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-ShopPanel_Categories_Highlights.png"
+      ],
+      "sha256": "27c350d6a93aa99b533830e35883baa636b4a7c9962de526719c8819b6f98a1c",
+      "width": 511,
+      "height": 171,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-templates-itemcard-try.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-Templates_ItemCard_Try.png"
+      ],
+      "sha256": "0887d322b371e14b90bde79cbb3a8d8290538d104f43b554c97329e502ac5e4f",
+      "width": 225,
+      "height": 149,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-votepanel-britishbulldog.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-VotePanel_BritishBulldog.png"
+      ],
+      "sha256": "ed3175d3c4fd28ccc4f9f418ad12343c9af991d6ffccdc1e806a52aea690a5f4",
+      "width": 808,
+      "height": 436,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-votepanel-tagyoureit.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-VotePanel_TagYoureIt.png"
+      ],
+      "sha256": "317e09b2d808f9fda55bed3d0cc071630a15d21090d2a692007a67d4af20bad3",
+      "width": 808,
+      "height": 436,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-votepanel-stuckinthemud.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-VotePanel_StuckInTheMud.png"
+      ],
+      "sha256": "cc3d878ea09b3359d4d2a424c48d07be1c7841ecb8cec0db9a8a76382b1718b0",
+      "width": 808,
+      "height": 436,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-compactvotepanel-britishbulldog.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-CompactVotePanel_BritishBulldog.png"
+      ],
+      "sha256": "2467b36d0cca1b08f6af35c33bebdb32be143291fccf65afd2fecab9aa7eb7b9",
+      "width": 755,
+      "height": 332,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-compactvotepanel-tagyoureit.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-CompactVotePanel_TagYoureIt.png"
+      ],
+      "sha256": "c14729623f6d99b84b536f1f45ff6e546bbcf899c2ca6b200fcef703a994afe5",
+      "width": 755,
+      "height": 332,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-compactvotepanel-stuckinthemud.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundShell-CompactVotePanel_StuckInTheMud.png"
+      ],
+      "sha256": "4cffd917787a8e4ccd035c7c14d32d596de6600baca70a736b6f666ee6879548",
+      "width": 755,
+      "height": 332,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundadminpanel-toggle.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/PlaygroundAdminPanel-Toggle.png",
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundAdminPanel-Toggle.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Toggle.png"
+      ],
+      "sha256": "fbe7e774404dd665fefaa8271e2775dacb7822c85fbee578c89692e68c7504b4",
+      "width": 465,
+      "height": 213,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundadminpanel-panel.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundAdminPanel-Panel.png"
+      ],
+      "sha256": "65cf1f8550d74a3504ea3d31f6b6322c3ad0c6f9516c55814ecf36fbcade7fb2",
+      "width": 1224,
+      "height": 2048,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundadminpanel-panel-britishbulldog.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundAdminPanel-Panel_BritishBulldog.png"
+      ],
+      "sha256": "24532ebdeb3d4a315a4db4bb295f3df3d7bb21af84a3d90b64b9946a2674f10a",
+      "width": 1380,
+      "height": 852,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundadminpanel-compactpanel-britishbulldog.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\PlaygroundAdminPanel-CompactPanel_BritishBulldog.png"
+      ],
+      "sha256": "e4d7d2fe4d008d137d5f6a120e1feaf5f049a0dd1eebed2b5ee28eff90cdf3df",
+      "width": 1448,
+      "height": 988,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-close.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_Close.png"
+      ],
+      "sha256": "c4e19fc915084d5866b7db2f67a75f73280e8481690c50192e74e36a9afa2f34",
+      "width": 157,
+      "height": 218,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-body-content-britishbulldog-bbstart.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png"
+      ],
+      "sha256": "052b9567062e04e26ae0647fa668c3b88ef4d5b6b9ce276d268845deb85a89b6",
+      "width": 1273,
+      "height": 189,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-body-content-britishbulldog-bbrunner.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png"
+      ],
+      "sha256": "ebe22c2f4736477cbed29f4ad053d01fc18bcd02da0c08f3234bbd5e14b5dc1d",
+      "width": 1273,
+      "height": 189,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-body-content-britishbulldog-bbbulldog.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png"
+      ],
+      "sha256": "880d9b25ca9d9ef93bb46150cedc758cfd6e696412c3da0800457c964da1579c",
+      "width": 1273,
+      "height": 189,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-stopround.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_StopRound.png"
+      ],
+      "sha256": "17da2b1d8ad77a40d67313266c9d37afab19892a28a192a59a9e974c6ad970ae",
+      "width": 1404,
+      "height": 231,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-toggleautomatic.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-Panel_ToggleAutomatic.png"
+      ],
+      "sha256": "17cd49f04c66b37d384920970fde57531b7b3104136e3b6a5c170d1ca04d7735",
+      "width": 1406,
+      "height": 194,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-close.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Close.png"
+      ],
+      "sha256": "89aeb379d06a97770663aa36b8ffd785ab362be2bf04e01158ef358d42feabb1",
+      "width": 193,
+      "height": 213,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-body-content-britishbulldog-bbstart.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png"
+      ],
+      "sha256": "c04f47815487fc71a2cb108a8e9e53961256ae387a7afc2e2a87c59f828944e5",
+      "width": 1368,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-body-content-britishbulldog-bbrunner.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png"
+      ],
+      "sha256": "c86e918a9903ee253b7a8ccf1194c593b09b433289f631a84a9b2213de7db035",
+      "width": 1368,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-body-content-britishbulldog-bbbulldog.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png"
+      ],
+      "sha256": "b8dae26d387607da058fc8e2cd862d2b094848990b1bf5c2636b147e06f4c849",
+      "width": 1368,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-body-content-toggleautomatic.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.png"
+      ],
+      "sha256": "f5c607da5efbfeb202e92b3e75c7d368fcb9d02cb8c59832beb8f163e6e60e1a",
+      "width": 1368,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-top.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/MudHUD-Top.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-Top.png"
+      ],
+      "sha256": "68e4dcc1995f34ef6b888405d348a499ce6e966adecfe4c3f269bfea486dab05",
+      "width": 2048,
+      "height": 281,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-frozen.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/MudHUD-Frozen.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-Frozen.png"
+      ],
+      "sha256": "8e15c63c568e21ce804cb9947099ac08e94e17df20511aa77f1e8737cd4f341d",
+      "width": 1136,
+      "height": 420,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-results.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/MudHUD-Results.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-Results.png"
+      ],
+      "sha256": "3cdb76b4e3d925d4dcfe169fc95b82016bf81aec95edc73c05d18b766c0da9ed",
+      "width": 2048,
+      "height": 643,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-colourtoggle.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/MudHUD-ColourToggle.png",
+        "PNG/03-Other-Blank-Buttons/MudHUD-ColourToggle.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-ColourToggle.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourToggle.png"
+      ],
+      "sha256": "f4371123616658b9c9ac3ba021d3a49e5623a85b84b4475593a870deacde7ea5",
+      "width": 193,
+      "height": 213,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-colourpicker.png",
+      "relativeAssetPaths": [
+        "PNG/01-Empty-Panels/MudHUD-ColourPicker.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\01-Empty-Panels\\MudHUD-ColourPicker.png"
+      ],
+      "sha256": "0fa2951191bcfca27f135a181c0ea72393abb78ca1b7d023ac52ca287450ad5d",
+      "width": 1136,
+      "height": 588,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-top-team.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Top_Team.png"
+      ],
+      "sha256": "143dd6cc07ba71f46f2c3c1e1dbca7065635f2d66e402570994dde6ecc2135ec",
+      "width": 739,
+      "height": 181,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-controls-mud.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Controls_Mud.png"
+      ],
+      "sha256": "6fbe5afe8cbc98d0423729144f3ffb0b8882a2b95a96d9be4ad6434eaa7b8e66",
+      "width": 388,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-controls-heat.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Controls_Heat.png"
+      ],
+      "sha256": "03b19c67e05beb3add9ca5b9b82cbe9a8433f1937c109c072b11bd5ff8ff2821",
+      "width": 388,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-controls-fire.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Controls_Fire.png"
+      ],
+      "sha256": "10bbdffdd2527d8ae04d0653a8cdac7d0711baf7e2d61f8382dc71137a7b15af",
+      "width": 336,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-controls-sprint.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-Main_Controls_Sprint.png"
+      ],
+      "sha256": "9b3db4382465340685bacaf41d39cb6d80ae2433f4934472f30008cfb604fef5",
+      "width": 1136,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-close.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Close.png"
+      ],
+      "sha256": "ff9cc672bde02a0833d95f792b3944b24cb105f82a22f389b3e3b5af1e467140",
+      "width": 178,
+      "height": 198,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-red.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Red.png"
+      ],
+      "sha256": "5e5ebca975a10a3f194b03056be94981dfbb5e4edf0f174ba75ad4563305a8ff",
+      "width": 256,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-blue.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Blue.png"
+      ],
+      "sha256": "f23bb8bab5ef8b1ed6fa58c6fc99b9ab9d166f0c742e5d2db1f5981e06a06797",
+      "width": 256,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-green.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Green.png"
+      ],
+      "sha256": "12c52f5506bbdf71e6d09ab907d90369232c6466eb174acc30e30e7dcc46ffec",
+      "width": 256,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-black.png",
+      "relativeAssetPaths": [
+        "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\03-Other-Blank-Buttons\\MudHUD-ColourPicker_Black.png"
+      ],
+      "sha256": "2d0fee35169a36b4af051a3b4657373be03ac810f80882f7c798f73b0f6bbe6c",
+      "width": 256,
+      "height": 228,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\04-meter-parts-xp-track.png",
+      "relativeAssetPaths": [
+        "PNG/04-Meter-Parts/xp-track.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\04-Meter-Parts\\xp-track.png"
+      ],
+      "sha256": "5ad345638292434634a42fa02203cdfae0d2b677f2406f08688b009b7d6b055e",
+      "width": 692,
+      "height": 56,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\04-meter-parts-xp-fill.png",
+      "relativeAssetPaths": [
+        "PNG/04-Meter-Parts/xp-fill.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\04-Meter-Parts\\xp-fill.png"
+      ],
+      "sha256": "b5486ff0d4cb4b166882da699b2f1a51adaefd135135ade625de18c0612bb992",
+      "width": 692,
+      "height": 56,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\04-meter-parts-stamina-track.png",
+      "relativeAssetPaths": [
+        "PNG/04-Meter-Parts/stamina-track.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\04-Meter-Parts\\stamina-track.png"
+      ],
+      "sha256": "753fa8464777a3c8ebe5fd6f302718294b7abe9f8c992569e13f55a78d450455",
+      "width": 1420,
+      "height": 56,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\04-meter-parts-stamina-fill.png",
+      "relativeAssetPaths": [
+        "PNG/04-Meter-Parts/stamina-fill.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\04-Meter-Parts\\stamina-fill.png"
+      ],
+      "sha256": "2bf377e6d8443dd575801fe100cc3ebef9aa924af5050837516b9c30509f4992",
+      "width": 1420,
+      "height": 56,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-close.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/close.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\close.png"
+      ],
+      "sha256": "eb5f54455aac545512d059696a04ee65753a7536ca0dec2d5a94e69f3712dc3f",
+      "width": 192,
+      "height": 208,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-dodge.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/dodge.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\dodge.png"
+      ],
+      "sha256": "bda643e2f7e98e653c050e7ee113f3ecc92c00b41549919c67dbdd36ea560e86",
+      "width": 408,
+      "height": 240,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-heat-slot.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/heat-slot.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\heat-slot.png"
+      ],
+      "sha256": "d113921446e5d07f93ed5d4e4216ae31139364b701d3478ec0a0d6218ec7b9d9",
+      "width": 352,
+      "height": 236,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-mud-slot.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/mud-slot.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\mud-slot.png"
+      ],
+      "sha256": "21dc03ca5b37fc57edb3c0ca0bef4e10f9670a9743f7b4470c8851ebdbed2fea",
+      "width": 352,
+      "height": 236,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-splat.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/splat.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\splat.png"
+      ],
+      "sha256": "9709e942740c46492688f691322fc1da6d81ab8e280e4ce8c34cd1d22d943666",
+      "width": 352,
+      "height": 236,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-sprint-wide.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/sprint-wide.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\sprint-wide.png"
+      ],
+      "sha256": "86e3a5a2578cfa256402a4367e32086f86a531dce14f6c6c15f108cb3ec6fe46",
+      "width": 1152,
+      "height": 244,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-sprint.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/sprint.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\sprint.png"
+      ],
+      "sha256": "d42fd5bbb88dbf31ddef037a92f788137f9c5d218f33fa525b4c4e2793f17afc",
+      "width": 812,
+      "height": 240,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-black.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/team-black.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-black.png"
+      ],
+      "sha256": "fe835e9790598aca8896018c77af6e5e5bfde134ed10ee3778b79afad1b7de0c",
+      "width": 316,
+      "height": 216,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-blue-status.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/team-blue-status.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-blue-status.png"
+      ],
+      "sha256": "e73f795d89f5b17c97e379946406cfe6489c9e4ccaf814c3c1f2b7609f5cc314",
+      "width": 1016,
+      "height": 220,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-blue.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/team-blue.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-blue.png"
+      ],
+      "sha256": "496644cbcbc33777cdc8b01acfd57e61bc0c72b9e415ce9e3d74df0726403e79",
+      "width": 316,
+      "height": 216,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-green.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/team-green.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-green.png"
+      ],
+      "sha256": "1abf28aeebb78c33f46c0ba584e8a7c212b02817a547db138169a74a6a56834a",
+      "width": 316,
+      "height": 216,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-red.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/team-red.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-red.png"
+      ],
+      "sha256": "f31cce84e5a528577c77b9bf990e0153d85524b401c1b3f99c3b999f065c703f",
+      "width": 272,
+      "height": 240,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-toggle.png",
+      "relativeAssetPaths": [
+        "PNG/05-Favourite-Buttons-Blank/team-toggle.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\05-Favourite-Buttons-Blank\\team-toggle.png"
+      ],
+      "sha256": "22c78f23dcee4ad1a0dc38f4e2a0204d405c7767ec26408042d723f308fd67dd",
+      "width": 240,
+      "height": 212,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\06-smooth-game-card-blanks-british-bulldog.png",
+      "relativeAssetPaths": [
+        "PNG/06-Smooth-Game-Card-Blanks/british-bulldog.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\06-Smooth-Game-Card-Blanks\\british-bulldog.png"
+      ],
+      "sha256": "265fb946f35f6b07a4006c33d7ccd1368418f026d604c4ea6a65e0c8b1050bbc",
+      "width": 1280,
+      "height": 624,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\06-smooth-game-card-blanks-stuck-in-the-mud.png",
+      "relativeAssetPaths": [
+        "PNG/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\06-Smooth-Game-Card-Blanks\\stuck-in-the-mud.png"
+      ],
+      "sha256": "c3a1184da6884cceddbd828dc8fde87e74a9c5da87e29b41241afe3582dfe96f",
+      "width": 1280,
+      "height": 624,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\06-smooth-game-card-blanks-tag-youre-it.png",
+      "relativeAssetPaths": [
+        "PNG/06-Smooth-Game-Card-Blanks/tag-youre-it.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\06-Smooth-Game-Card-Blanks\\tag-youre-it.png"
+      ],
+      "sha256": "4afb5aff475e76a2602836bf8d28c3d9ae8a0c6b42f2be17e9a8a5affba65e6e",
+      "width": 1280,
+      "height": 624,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/black-disabled.png",
+        "PNG/07-Resizable-Skins/blue-disabled.png",
+        "PNG/07-Resizable-Skins/cream-disabled.png",
+        "PNG/07-Resizable-Skins/gold-disabled.png",
+        "PNG/07-Resizable-Skins/green-disabled.png",
+        "PNG/07-Resizable-Skins/mud-disabled.png",
+        "PNG/07-Resizable-Skins/orange-disabled.png",
+        "PNG/07-Resizable-Skins/purple-disabled.png",
+        "PNG/07-Resizable-Skins/red-disabled.png",
+        "PNG/07-Resizable-Skins/silver-disabled.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\black-disabled.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\blue-disabled.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\cream-disabled.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\gold-disabled.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\green-disabled.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\mud-disabled.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\orange-disabled.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\purple-disabled.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\red-disabled.png",
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\silver-disabled.png"
+      ],
+      "sha256": "534dc880ec1ba60cd7563ab1fa1a51098ac3f929c833990cc733b7ec2c9eb990",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        153
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/black-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\black-normal.png"
+      ],
+      "sha256": "a8aa543378637964e37a2f38144e5920fad11a8f17908281c2dedd4e5e18e350",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/black-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\black-pressed.png"
+      ],
+      "sha256": "6acfce91d1fbb6743dc9336aecf10a1beb0dee92fbaff866f227a18481b4a260",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-blue-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/blue-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\blue-normal.png"
+      ],
+      "sha256": "09075e3a166f0cfc3dd32ec6f31fa800e39a5b1128067e10ebefd2f689833530",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-blue-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/blue-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\blue-pressed.png"
+      ],
+      "sha256": "9a8222b0c63ea75be025efdd72a9aef649d03d9fff13c8ebe074e509ed78919e",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-cream-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/cream-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\cream-normal.png"
+      ],
+      "sha256": "183ac2222a1cdac95801f825620d6f031ae1f9589569fd986fe87bfc05bc94d7",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-cream-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/cream-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\cream-pressed.png"
+      ],
+      "sha256": "dc48e47437582bfe30b86d4c4a80c5d7811e8dc49c78b619f1f27eb1d7a8f1e8",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-gold-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/gold-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\gold-normal.png"
+      ],
+      "sha256": "1c0bb34caf63325276ee1de3782402e99961592e5760ffc558fc383d86a85710",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-gold-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/gold-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\gold-pressed.png"
+      ],
+      "sha256": "3882276317635fb812b2a993e3ca19fd0d73e5bd2d64a190a3a3ffea592e7f75",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-green-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/green-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\green-normal.png"
+      ],
+      "sha256": "9099ee70c07acadade6ee0fc95230da7426e0f710cd722f79fa1e01fdb3464c4",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-green-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/green-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\green-pressed.png"
+      ],
+      "sha256": "e28b9b601d4398155fad05d0ebc7ae9a2c602ff957ab96079a242c6ad9741b92",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-mud-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/mud-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\mud-normal.png"
+      ],
+      "sha256": "fed38b3ba5af2e0a754a1e0e2ab0e5bd9f4a239f64e7b74ae57f1341bfa84c27",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-mud-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/mud-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\mud-pressed.png"
+      ],
+      "sha256": "aff7b1d27ea873839225630dbcb0ff48278629f6af42f712bc0ba2566ca63c1b",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-orange-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/orange-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\orange-normal.png"
+      ],
+      "sha256": "61a100894962449e8f88b6a92b92ffe80c94b8ab470339acaee757ba3b4fef0a",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-orange-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/orange-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\orange-pressed.png"
+      ],
+      "sha256": "2d9f60463fc5ec1f28c242fc457127f4d19a0e0fd456fb57edabe32aa42cb85a",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-panel-disabled.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/panel-disabled.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\panel-disabled.png"
+      ],
+      "sha256": "a54464f437f35bed0c4bff319be3f70fe622b4a122a84d12ba1015621b47e80d",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        153
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-panel-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/panel-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\panel-normal.png"
+      ],
+      "sha256": "cb0a089bb0fa648a64318c0b7474797b9568ed7b2858788e00f1f1679a287030",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-panel-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/panel-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\panel-pressed.png"
+      ],
+      "sha256": "ad3b8774fe90341abba7d290fd780dd5f9e6a4fa7332b9de86db73e12c92d2f3",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-purple-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/purple-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\purple-normal.png"
+      ],
+      "sha256": "96b968543a7bd8fe684a695daad306bab9f6de180d5b02a12a42cd8d47887ade",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-purple-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/purple-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\purple-pressed.png"
+      ],
+      "sha256": "c2fbf181833a0130be001f4f5c9fb8a46ecac9576b528ae56e66912e38cecf4e",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-red-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/red-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\red-normal.png"
+      ],
+      "sha256": "859cd9945ca38307c85d3bc116bdf8d6e5caae5027cc34b931faea86de461275",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-red-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/red-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\red-pressed.png"
+      ],
+      "sha256": "f29e4ebed81112f3d8ae3227ab3b04e7d1ff6aa9920c92b64f216950accdf584",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-silver-normal.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/silver-normal.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\silver-normal.png"
+      ],
+      "sha256": "699b474bcc39a3d91660ba7bfe0c1dc7c803aa936e1f4b4f9fd05d70a7fbd6e4",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-silver-pressed.png",
+      "relativeAssetPaths": [
+        "PNG/07-Resizable-Skins/silver-pressed.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-CleanImport-20261004\\PNG\\07-Resizable-Skins\\silver-pressed.png"
+      ],
+      "sha256": "16b164c59002482b9d6afc59ae879f66bff9c7034e7800080aab19185e9e0d50",
+      "width": 512,
+      "height": 320,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        215
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-sprint-lightning.png",
+      "relativeAssetPaths": [
+        "Attachments/icon-sprint-lightning.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Downloads\\ChatGPT Image 4 Oct 2026, 10_00_57.png"
+      ],
+      "sha256": "d59329ec51f9bdd80b0453b8b30356f5345cbbfb0cff51f1e8c87a9a604649a2",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-coin.png",
+      "relativeAssetPaths": [
+        "Attachments/icon-coin.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Downloads\\ChatGPT Image 4 Oct 2026, 10_00_54.png"
+      ],
+      "sha256": "d12d60bb2b565614985d2e3a4e73c738ae4b22f974badfbd4af9ec95a42a50c3",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-xp-star.png",
+      "relativeAssetPaths": [
+        "Attachments/icon-xp-star.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Downloads\\ChatGPT Image 4 Oct 2026, 10_00_51.png"
+      ],
+      "sha256": "65fa888ad68e53672c4fd580c40103f45d260a59f9131ba7b292fc201033de15",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-heart.png",
+      "relativeAssetPaths": [
+        "Attachments/icon-heart.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Downloads\\ChatGPT Image 4 Oct 2026, 10_00_47.png"
+      ],
+      "sha256": "609b301914a43a476fc843c04d1c7f0d679b11bf1dd3d2cd9bcd8d960cf959b7",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-dodge-arrow.png",
+      "relativeAssetPaths": [
+        "Attachments/icon-dodge-arrow.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\Downloads\\ChatGPT Image 4 Oct 2026, 10_00_33.png"
+      ],
+      "sha256": "8fcbb041316a873ca96c4c29700d640f6340e4d0983d48710ff13914d8bf1cfc",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\backplate-red.png",
+      "relativeAssetPaths": [
+        "Attachments/backplate-red.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\AC\\INetCache\\1KSH0GKW\\Editable-Host-Part-Surface-Backplate[1].png"
+      ],
+      "sha256": "4f7013bc6fd2c1c1c42fb24d7bf98ac260afe8ef3587941ae46fad9e6bd6ed8a",
+      "width": 158,
+      "height": 172,
+      "mode": "RGBA",
+      "alphaRange": [
+        16,
+        255
+      ],
+      "sourceCopyVerification": "Source and copy SHA256 compared successfully during protected-cache copy."
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\backplate-gold.png",
+      "relativeAssetPaths": [
+        "Attachments/backplate-gold.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\AC\\INetCache\\T0M75AGO\\Editable-Host-Part-Surface-Backplate-1[1].png"
+      ],
+      "sha256": "9a3882a99bb7d2a6031bae7d3106c64222339b817fa4aafacd46fb3cf9807729",
+      "width": 158,
+      "height": 172,
+      "mode": "RGBA",
+      "alphaRange": [
+        16,
+        255
+      ],
+      "sourceCopyVerification": "Source and copy SHA256 compared successfully during protected-cache copy."
+    },
+    {
+      "uploadFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\backplate-green.png",
+      "relativeAssetPaths": [
+        "Attachments/backplate-green.png"
+      ],
+      "sourcePaths": [
+        "C:\\Users\\sandt\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\AC\\INetCache\\BW2UDZIE\\Editable-Host-Part-Surface-Backplate-2[1].png"
+      ],
+      "sha256": "6290828aeaeb0d8bc2fee5edd8714141e3fca0feafaff4dbd7b9c1239ff3c304",
+      "width": 158,
+      "height": 172,
+      "mode": "RGBA",
+      "alphaRange": [
+        16,
+        255
+      ],
+      "sourceCopyVerification": "Source and copy SHA256 compared successfully during protected-cache copy."
+    }
+  ],
+  "assetToFile": {
+    "PNG/01-Empty-Panels/level-panel.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-level-panel.png",
+    "PNG/01-Empty-Panels/level-panel-compact.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-level-panel-compact.png",
+    "PNG/01-Empty-Panels/wallet-panel.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-wallet-panel.png",
+    "PNG/01-Empty-Panels/shop-background.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-shop-background.png",
+    "PNG/02-Item-Frame-Parts/item-frame.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\02-item-frame-parts-item-frame.png",
+    "PNG/02-Item-Frame-Parts/item-preview-background.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\02-item-frame-parts-item-preview-background.png",
+    "PNG/02-Item-Frame-Parts/item-action-button.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\02-item-frame-parts-item-action-button.png",
+    "PNG/01-Empty-Panels/runner-meter-background.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-runner-meter-background.png",
+    "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-britishbulldoghud-movementcontrols-sprint.png",
+    "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-britishbulldoghud-movementcontrols-dodge.png",
+    "PNG/01-Empty-Panels/TagHUD-Top.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-taghud-top.png",
+    "PNG/01-Empty-Panels/TagHUD-Role.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-taghud-role.png",
+    "PNG/01-Empty-Panels/TagHUD-Results.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-taghud-results.png",
+    "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Vault.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-taghud-controls-vault.png",
+    "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-taghud-controls-dodge.png",
+    "PNG/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-taghud-sprintpanel-sprint.png",
+    "PNG/01-Empty-Panels/PlaygroundShell-RewardToast.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundshell-rewardtoast.png",
+    "PNG/01-Empty-Panels/PlaygroundShell-Backdrop.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundshell-backdrop.png",
+    "PNG/01-Empty-Panels/PlaygroundShell-VotePanel.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundshell-votepanel.png",
+    "PNG/01-Empty-Panels/PlaygroundShell-CompactVotePanel.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundshell-compactvotepanel.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-dock-shop.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-dock-emote.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-dock-emoji.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundshell-backdrop.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-shoppanel-close.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-shoppanel-categories-all.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-shoppanel-categories-pets.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-shoppanel-categories-highlights.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\02-item-frame-parts-item-action-button.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-templates-itemcard-try.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-votepanel-britishbulldog.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-votepanel-tagyoureit.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-votepanel-stuckinthemud.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-compactvotepanel-britishbulldog.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-compactvotepanel-tagyoureit.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundshell-compactvotepanel-stuckinthemud.png",
+    "PNG/01-Empty-Panels/PlaygroundAdminPanel-Toggle.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundadminpanel-toggle.png",
+    "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundadminpanel-panel.png",
+    "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundadminpanel-panel-britishbulldog.png",
+    "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundadminpanel-compactpanel-britishbulldog.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-playgroundadminpanel-toggle.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-close.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-body-content-britishbulldog-bbstart.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-body-content-britishbulldog-bbrunner.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-body-content-britishbulldog-bbbulldog.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-stopround.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-panel-toggleautomatic.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-close.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-body-content-britishbulldog-bbstart.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-body-content-britishbulldog-bbrunner.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-body-content-britishbulldog-bbbulldog.png",
+    "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-playgroundadminpanel-compactpanel-body-content-toggleautomatic.png",
+    "PNG/01-Empty-Panels/MudHUD-Top.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-top.png",
+    "PNG/01-Empty-Panels/MudHUD-Frozen.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-frozen.png",
+    "PNG/01-Empty-Panels/MudHUD-Results.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-results.png",
+    "PNG/01-Empty-Panels/MudHUD-ColourToggle.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-colourtoggle.png",
+    "PNG/01-Empty-Panels/MudHUD-ColourPicker.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-colourpicker.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-top-team.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-controls-mud.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-controls-heat.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-controls-fire.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-main-controls-sprint.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-ColourToggle.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\01-empty-panels-mudhud-colourtoggle.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-close.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-red.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-blue.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-green.png",
+    "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\03-other-blank-buttons-mudhud-colourpicker-black.png",
+    "PNG/04-Meter-Parts/xp-track.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\04-meter-parts-xp-track.png",
+    "PNG/04-Meter-Parts/xp-fill.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\04-meter-parts-xp-fill.png",
+    "PNG/04-Meter-Parts/stamina-track.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\04-meter-parts-stamina-track.png",
+    "PNG/04-Meter-Parts/stamina-fill.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\04-meter-parts-stamina-fill.png",
+    "PNG/05-Favourite-Buttons-Blank/close.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-close.png",
+    "PNG/05-Favourite-Buttons-Blank/dodge.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-dodge.png",
+    "PNG/05-Favourite-Buttons-Blank/heat-slot.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-heat-slot.png",
+    "PNG/05-Favourite-Buttons-Blank/mud-slot.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-mud-slot.png",
+    "PNG/05-Favourite-Buttons-Blank/splat.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-splat.png",
+    "PNG/05-Favourite-Buttons-Blank/sprint-wide.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-sprint-wide.png",
+    "PNG/05-Favourite-Buttons-Blank/sprint.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-sprint.png",
+    "PNG/05-Favourite-Buttons-Blank/team-black.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-black.png",
+    "PNG/05-Favourite-Buttons-Blank/team-blue-status.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-blue-status.png",
+    "PNG/05-Favourite-Buttons-Blank/team-blue.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-blue.png",
+    "PNG/05-Favourite-Buttons-Blank/team-green.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-green.png",
+    "PNG/05-Favourite-Buttons-Blank/team-red.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-red.png",
+    "PNG/05-Favourite-Buttons-Blank/team-toggle.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\05-favourite-buttons-blank-team-toggle.png",
+    "PNG/06-Smooth-Game-Card-Blanks/british-bulldog.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\06-smooth-game-card-blanks-british-bulldog.png",
+    "PNG/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\06-smooth-game-card-blanks-stuck-in-the-mud.png",
+    "PNG/06-Smooth-Game-Card-Blanks/tag-youre-it.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\06-smooth-game-card-blanks-tag-youre-it.png",
+    "PNG/07-Resizable-Skins/black-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/black-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-normal.png",
+    "PNG/07-Resizable-Skins/black-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-pressed.png",
+    "PNG/07-Resizable-Skins/blue-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/blue-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-blue-normal.png",
+    "PNG/07-Resizable-Skins/blue-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-blue-pressed.png",
+    "PNG/07-Resizable-Skins/cream-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/cream-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-cream-normal.png",
+    "PNG/07-Resizable-Skins/cream-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-cream-pressed.png",
+    "PNG/07-Resizable-Skins/gold-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/gold-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-gold-normal.png",
+    "PNG/07-Resizable-Skins/gold-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-gold-pressed.png",
+    "PNG/07-Resizable-Skins/green-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/green-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-green-normal.png",
+    "PNG/07-Resizable-Skins/green-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-green-pressed.png",
+    "PNG/07-Resizable-Skins/mud-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/mud-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-mud-normal.png",
+    "PNG/07-Resizable-Skins/mud-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-mud-pressed.png",
+    "PNG/07-Resizable-Skins/orange-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/orange-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-orange-normal.png",
+    "PNG/07-Resizable-Skins/orange-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-orange-pressed.png",
+    "PNG/07-Resizable-Skins/panel-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-panel-disabled.png",
+    "PNG/07-Resizable-Skins/panel-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-panel-normal.png",
+    "PNG/07-Resizable-Skins/panel-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-panel-pressed.png",
+    "PNG/07-Resizable-Skins/purple-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/purple-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-purple-normal.png",
+    "PNG/07-Resizable-Skins/purple-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-purple-pressed.png",
+    "PNG/07-Resizable-Skins/red-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/red-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-red-normal.png",
+    "PNG/07-Resizable-Skins/red-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-red-pressed.png",
+    "PNG/07-Resizable-Skins/silver-disabled.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-black-disabled.png",
+    "PNG/07-Resizable-Skins/silver-normal.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-silver-normal.png",
+    "PNG/07-Resizable-Skins/silver-pressed.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\07-resizable-skins-silver-pressed.png",
+    "Attachments/icon-sprint-lightning.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-sprint-lightning.png",
+    "Attachments/icon-coin.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-coin.png",
+    "Attachments/icon-xp-star.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-xp-star.png",
+    "Attachments/icon-heart.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-heart.png",
+    "Attachments/icon-dodge-arrow.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\icon-dodge-arrow.png",
+    "Attachments/backplate-red.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\backplate-red.png",
+    "Attachments/backplate-gold.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\backplate-gold.png",
+    "Attachments/backplate-green.png": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\UIReskin20261004\\Upload\\backplate-green.png"
+  },
+  "pendingBackplates": [],
+  "counts": {
+    "uniqueFiles": 116,
+    "mappedAssets": 129,
+    "blankFiles": 108,
+    "originalIcons": 5,
+    "originalBackplates": 3
+  },
+  "verifiedNoUploads": true,
+  "verification": {
+    "allStagedFileHashesMatch": true,
+    "allUploadFilenamesASCII": true,
+    "allOutputPNGFilesListed": true,
+    "originalAssetsUntouched": true,
+    "mode": "local files only; no HTTP server, API upload, Studio edit or gameplay test"
+  }
+}

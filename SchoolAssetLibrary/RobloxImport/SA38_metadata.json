@@ -1,0 +1,53 @@
+{
+  "id": "SA38",
+  "name": "Outdoor backless bench",
+  "bodies": [
+    {
+      "id": "SA38_B01",
+      "asset_id": "SA38",
+      "asset": "Outdoor backless bench",
+      "label": "Outdoor backless bench",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.0,
+            0.2532999813556671
+          ],
+          "size": [
+            1.651499629020691,
+            0.6000000238418579,
+            0.49459996819496155
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.8257498145103455,
+          -0.30000001192092896,
+          0.006000000052154064
+        ],
+        "max": [
+          0.8257498145103455,
+          0.30000001192092896,
+          0.5005999803543091
+        ]
+      }
+    }
+  ],
+  "mesh_count": 5,
+  "triangles": 9316,
+  "file": "SA38_Outdoor_backless_bench.gltf"
+}

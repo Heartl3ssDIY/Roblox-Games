@@ -1,0 +1,116 @@
+[
+  {
+    "id": "01-tag-youre-it",
+    "original": {
+      "width": 1672,
+      "height": 941
+    },
+    "png": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1865733,
+      "palette": false
+    },
+    "jpg": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 588070
+    },
+    "pass": true
+  },
+  {
+    "id": "02-playground-swings",
+    "original": {
+      "width": 1672,
+      "height": 940
+    },
+    "png": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1939467,
+      "palette": false
+    },
+    "jpg": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 570738
+    },
+    "pass": true
+  },
+  {
+    "id": "03-stuck-in-the-mud",
+    "original": {
+      "width": 1672,
+      "height": 941
+    },
+    "png": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1801207,
+      "palette": false
+    },
+    "jpg": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 605050
+    },
+    "pass": true
+  },
+  {
+    "id": "04-schoolyard-bulldog",
+    "original": {
+      "width": 1672,
+      "height": 941
+    },
+    "png": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1663745,
+      "palette": false
+    },
+    "jpg": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 539571
+    },
+    "pass": true
+  },
+  {
+    "id": "05-vip-pets-lighthouse",
+    "original": {
+      "width": 1672,
+      "height": 941
+    },
+    "png": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 2296736,
+      "palette": false
+    },
+    "jpg": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 735846
+    },
+    "pass": true
+  },
+  {
+    "id": "06-bats-and-toys",
+    "original": {
+      "width": 1672,
+      "height": 941
+    },
+    "png": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 2059306,
+      "palette": false
+    },
+    "jpg": {
+      "width": 1920,
+      "height": 1080,
+      "bytes": 682372
+    },
+    "pass": true
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "supplied": 32,
+  "resolved": 31,
+  "verifiedNativeR15": 31,
+  "unavailable": [
+    {
+      "catalogId": "112884830175040",
+      "name": "Take The L"
+    }
+  ],
+  "placeId": "95034648955135",
+  "studioId": "abebc1e9-f0ff-40ee-89e3-d70fd84682b2",
+  "mode": "Edit",
+  "playStarted": false,
+  "existingScriptsChanged": false,
+  "existingCapabilitiesChanged": false,
+  "temporaryFixturesRemoved": true,
+  "purchases": 0,
+  "reuploads": 0,
+  "notes": [
+    "Assets.json is a JSON array ordered exactly like Links.json. IDs are strings to preserve identifiers across consumers.",
+    "All31 resolved emotes loaded through normal InsertService:LoadAsset. Native R15 Animator:LoadAnimation returned a playing track with positive Length under unchanged PlaygroundEmotes capabilities.",
+    "ContentProvider service is unavailable under current PlaygroundEmotes capabilities; Animator:LoadAnimation loads directly without a separate preload dependency.",
+    "This verifies isolated R15 asset loading in Edit. Player replication, UI bindings, and live session playback belong to the integration task."
+  ],
+  "docs": [
+    "https://create.roblox.com/docs/reference/engine/classes/MarketplaceService",
+    "https://create.roblox.com/docs/reference/engine/classes/InsertService",
+    "https://create.roblox.com/docs/reference/engine/classes/Animator",
+    "https://create.roblox.com/docs/reference/engine/classes/Humanoid"
+  ]
+}

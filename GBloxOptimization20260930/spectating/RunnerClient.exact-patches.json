@@ -1,0 +1,46 @@
+{
+  "target_file": "game.StarterPlayer.StarterPlayerScripts.RunnerClient",
+  "patches": [
+    {
+      "old": "local phase = \"Waiting\"",
+      "new": "local phase = workspace:GetAttribute(\"RunnerRoundPhase\") or \"Waiting\""
+    },
+    {
+      "old": "local function runnersToWatch()\n\tlocal result = {}\n\tfor _, other in Players:GetPlayers() do\n\t\tif other:GetAttribute(\"RunnerStatus\") == \"Running\" then\n\t\t\ttable.insert(result, other)\n\t\tend\n\tend\n\ttable.sort(result, function(first, second)\n\t\treturn first.UserId < second.UserId\n\tend)\n\treturn result\nend\n\nlocal function chooseSpectatorTarget(direction)\n\tlocal runners = runnersToWatch()\n\tif #runners == 0 then\n\t\tcameraTarget = player\n\t\tspectateName.Text = \"WAITING FOR NEXT ROUND\"\n\t\treturn\n\tend\n\tspectateIndex = (spectateIndex - 1 + direction) % #runners + 1\n\tcameraTarget = runners[spectateIndex]\n\tspectateName.Text = cameraTarget.DisplayName\nend\n",
+      "new": "local spectatorHoldUntil=0\nlocal spectatorStreamKey\nlocal queuedStreamPosition\nlocal streamWorkerRunning=false\nlocal function isSpectating()\n local status=player:GetAttribute(\"RunnerStatus\")\n return phase==\"Running\" and not player:GetAttribute(\"GBloxPodiumActive\")\n  and not player:GetAttribute(\"GBloxPodiumCameraActive\")\n  and (status==\"Out\" or status==\"Finished\" or status==\"Spectating\")\nend\nlocal function requestSpectatorStream()\n local userId=player:GetAttribute(\"RunnerSpectateUserId\")\n local key=isSpectating() and userId and tostring(player:GetAttribute(\"RunnerSpectateRevision\"))..\":\"..tostring(userId) or nil\n if key==spectatorStreamKey then return end\n spectatorStreamKey=key\n local position=key and player:GetAttribute(\"RunnerSpectatePosition\")\n queuedStreamPosition=typeof(position)==\"Vector3\" and position or nil\n if streamWorkerRunning or not queuedStreamPosition or not workspace.StreamingEnabled then return end\n streamWorkerRunning=true\n task.spawn(function()\n  while queuedStreamPosition and isSpectating() do\n   local requestedKey=spectatorStreamKey\n   local requestedPosition=queuedStreamPosition\n   queuedStreamPosition=nil\n   pcall(function() player:RequestStreamAroundAsync(requestedPosition,2) end)\n   if requestedKey==spectatorStreamKey then break end\n  end\n  streamWorkerRunning=false\n end)\nend\nlocal function refreshSpectatorTarget()\n local active=isSpectating()\n spectate.Visible=active\n if not active then return end\n if os.clock()<spectatorHoldUntil then cameraTarget=player return end\n local userId=player:GetAttribute(\"RunnerSpectateUserId\")\n local target=typeof(userId)==\"number\" and Players:GetPlayerByUserId(userId) or nil\n local text\n if target and target:GetAttribute(\"RunnerStatus\")==\"Running\" then\n  cameraTarget=target\n  local root=target.Character and target.Character:FindFirstChild(\"HumanoidRootPart\")\n  text=root and target.DisplayName or \"LOADING \"..target.DisplayName..\"...\"\n else\n  cameraTarget=player\n  text=\"WAITING FOR NEXT ROUND\"\n end\n if spectateName.Text~=text then spectateName.Text=text end\nend\nlocal function runnersToWatch()\n local result={}\n for _,other in Players:GetPlayers() do\n  if other~=player and other:GetAttribute(\"RunnerStatus\")==\"Running\" then\n   table.insert(result,other)\n  end\n end\n table.sort(result,function(first,second) return first.UserId<second.UserId end)\n return result\nend\nlocal function chooseSpectatorTarget(direction)\n if not isSpectating() then return end\n local runners=runnersToWatch()\n if #runners==0 then return end\n local currentId=player:GetAttribute(\"RunnerSpectateUserId\")\n local index\n for i,other in runners do if other.UserId==currentId then index=i break end end\n if index then index=(index-1+direction)%#runners+1\n else index=direction<0 and #runners or 1 end\n spectatorHoldUntil=0\n event:FireServer(\"Spectate\",runners[index].UserId)\nend\nplayer:GetAttributeChangedSignal(\"RunnerSpectateRevision\"):Connect(requestSpectatorStream)\nlocal lastSpectatorStatus=player:GetAttribute(\"RunnerStatus\")\nplayer:GetAttributeChangedSignal(\"RunnerStatus\"):Connect(function()\n local status=player:GetAttribute(\"RunnerStatus\")\n if status==\"Finished\" and lastSpectatorStatus~=\"Finished\" then spectatorHoldUntil=os.clock()+.8\n elseif status~=\"Finished\" then spectatorHoldUntil=0 end\n lastSpectatorStatus=status\n requestSpectatorStream()\nend)\nworkspace:GetAttributeChangedSignal(\"RunnerRoundPhase\"):Connect(function()\n phase=workspace:GetAttribute(\"RunnerRoundPhase\") or phase\n requestSpectatorStream()\nend)\nfor _,name in {\"GBloxPodiumActive\",\"GBloxPodiumCameraActive\"} do\n player:GetAttributeChangedSignal(name):Connect(requestSpectatorStream)\nend\nrequestSpectatorStream()\n"
+    },
+    {
+      "old": "\telseif action == \"Finished\" or action == \"Out\" then\n\t\tcountdown.Text = action == \"Finished\" and \"FINISHED!\" or (data.idleTimeout and \"OUT! (STUCK)\" or \"OUT!\")\n\t\thint.Visible = false\n\t\tspectate.Visible = true\n\t\tspectateIndex = 0\n  if action==\"Finished\" then\n   cameraTarget=player\n   local finishedCharacter=player.Character\n   local finishedVersion=player:GetAttribute(\"RunnerCourseVersion\")\n   task.delay(.8,function()\n    if player.Character==finishedCharacter and player:GetAttribute(\"RunnerCourseVersion\")==finishedVersion\n     and player:GetAttribute(\"RunnerStatus\")==\"Finished\" and phase==\"Running\"\n     and not player:GetAttribute(\"GBloxPodiumActive\") and not player:GetAttribute(\"GBloxPodiumCameraActive\")\n     and cameraTarget==player then chooseSpectatorTarget(1) end\n   end)\n  else\n   chooseSpectatorTarget(1)\n  end",
+      "new": "\telseif action == \"Finished\" or action == \"Out\" then\n\t\tcountdown.Text = action == \"Finished\" and \"FINISHED!\" or (data.idleTimeout and \"OUT! (STUCK)\" or \"OUT!\")\n\t\thint.Visible = false\n\t\tspectateIndex = 0\n  if action==\"Finished\" then\n   spectatorHoldUntil=os.clock()+.8\n   cameraTarget=player\n  else\n   spectatorHoldUntil=0\n  end\n  requestSpectatorStream()\n  refreshSpectatorTarget()"
+    },
+    {
+      "old": "  local character=cameraTarget and cameraTarget.Character\n  local root=character and character:FindFirstChild(\"HumanoidRootPart\")\n  if not root then cameraFocus=nil return end",
+      "new": "  refreshSpectatorTarget()\n  local character=cameraTarget and cameraTarget.Character\n  local root=character and character:FindFirstChild(\"HumanoidRootPart\")\n  local targetPosition=root and root.Position\n  if not targetPosition and isSpectating() and cameraTarget~=player then\n   local position=player:GetAttribute(\"RunnerSpectatePosition\")\n   if typeof(position)==\"Vector3\" then targetPosition=position end\n  end\n  if not targetPosition then cameraFocus=nil return end\n  local anchor=root or cameraTarget"
+    },
+    {
+      "old": "  local reset=not cameraFocus or cameraCourseVersion~=version or cameraRoot~=root",
+      "new": "  local reset=not cameraFocus or cameraCourseVersion~=version or cameraRoot~=anchor"
+    },
+    {
+      "old": "   cameraFocus=Vector3.new(root.Position.X,root.Position.Y,center.Z)\n   cameraCourseVersion=version cameraRoot=root cameraRecoveryRevision=recoveryRevision",
+      "new": "   cameraFocus=Vector3.new(targetPosition.X,targetPosition.Y,center.Z)\n   cameraCourseVersion=version cameraRoot=anchor cameraRecoveryRevision=recoveryRevision"
+    },
+    {
+      "old": "   local y=CameraFollow.StepY(cameraFocus.Y,root.Position.Y,deltaTime,deadZone,",
+      "new": "   local y=CameraFollow.StepY(cameraFocus.Y,targetPosition.Y,deltaTime,deadZone,"
+    },
+    {
+      "old": "    cameraFocus.X+(root.Position.X-cameraFocus.X)*alpha,",
+      "new": "    cameraFocus.X+(targetPosition.X-cameraFocus.X)*alpha,"
+    },
+    {
+      "old": "  camera.CFrame=CFrame.lookAt(cameraFocus+cameraOffset,cameraFocus)",
+      "new": "  camera.CFrame=CFrame.lookAt(cameraFocus+cameraOffset,cameraFocus)\n  camera.Focus=CFrame.new(cameraFocus)"
+    },
+    {
+      "old": "flipButton.Activated:Connect(function() flipAction(nil,Enum.UserInputState.Begin) end)",
+      "new": "local function isFlipPointer(input)\n return input and (input.UserInputType==Enum.UserInputType.Touch\n  or input.UserInputType==Enum.UserInputType.MouseButton1)\nend\nflipButton.InputBegan:Connect(function(input)\n if isFlipPointer(input) then flipAction(nil,Enum.UserInputState.Begin) end\nend)\nflipButton.Activated:Connect(function(input)\n if not isFlipPointer(input) then flipAction(nil,Enum.UserInputState.Begin) end\nend)"
+    }
+  ]
+}
+

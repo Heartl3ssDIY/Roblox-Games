@@ -1,0 +1,98 @@
+{
+  "lighting": {
+    "ExposureCompensation": 0,
+    "ColorShift_Bottom": {
+      "values": [
+        0.6666666865348816,
+        0.3333333432674408,
+        0
+      ],
+      "type": "Color3"
+    },
+    "FogColor": {
+      "values": [
+        0.7529412508010864,
+        0.7529412508010864,
+        0.7529412508010864
+      ],
+      "type": "Color3"
+    },
+    "FogEnd": 100000,
+    "GeographicLatitude": 0,
+    "EnvironmentDiffuseScale": 1,
+    "EnvironmentSpecularScale": 1,
+    "ShadowSoftness": 0.20000000298023224,
+    "FogStart": 0,
+    "Ambient": {
+      "values": [
+        0.26274511218070984,
+        0.24313727021217346,
+        0.20784315466880798
+      ],
+      "type": "Color3"
+    },
+    "OutdoorAmbient": {
+      "values": [
+        0.27450981736183167,
+        0.27450981736183167,
+        0.27450981736183167
+      ],
+      "type": "Color3"
+    },
+    "GlobalShadows": true,
+    "Brightness": 3,
+    "ColorShift_Top": {
+      "values": [
+        0.6666666865348816,
+        0.3333333432674408,
+        0
+      ],
+      "type": "Color3"
+    },
+    "ClockTime": 14.5
+  },
+  "sky": {
+    "StarCount": 3000,
+    "SkyboxUp": "rbxassetid://497258157",
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "SkyboxDn": "rbxassetid://497258189",
+    "SkyboxOrientation": {
+      "values": [
+        0,
+        0,
+        0
+      ],
+      "type": "Vector3"
+    },
+    "CelestialBodiesShown": false,
+    "SkyboxBk": "rbxassetid://497258127",
+    "SkyboxFt": "rbxassetid://497258077",
+    "SunTextureId": "rbxasset://sky/sun.jpg",
+    "SunAngularSize": 21,
+    "SkyboxLf": "rbxassetid://497258112",
+    "SkyboxRt": "rbxassetid://497258064",
+    "MoonAngularSize": 11
+  },
+  "atmosphere": {
+    "Density": 0.28999999165534973,
+    "Haze": 0,
+    "Color": {
+      "values": [
+        0.9921569228172302,
+        1,
+        0.5137255191802979
+      ],
+      "type": "Color3"
+    },
+    "Decay": {
+      "values": [
+        0.4156862795352936,
+        0.43921568989753723,
+        0.4901960790157318
+      ],
+      "type": "Color3"
+    },
+    "Glare": 0,
+    "Offset": 0.15700000524520874
+  }
+}

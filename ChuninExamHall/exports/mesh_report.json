@@ -1,0 +1,113 @@
+{
+  "asset": "Chunin Exam Hall",
+  "visual_mesh_count": 15,
+  "total_triangles": 87698,
+  "largest_mesh_triangles": 13992,
+  "clear_combat_area": [
+    64,
+    64
+  ],
+  "combat_center": [
+    0,
+    -20,
+    0.2
+  ],
+  "footprint": [
+    82,
+    110
+  ],
+  "collision_mesh_count": 37,
+  "meshes": [
+    {
+      "name": "01_Foundation_Part01",
+      "triangles": 56,
+      "vertices": 32,
+      "uv_layers": 1
+    },
+    {
+      "name": "02_Tiled_Floor_Part02",
+      "triangles": 3608,
+      "vertices": 1968,
+      "uv_layers": 1
+    },
+    {
+      "name": "02_Tiled_Floor_Part01",
+      "triangles": 13992,
+      "vertices": 7632,
+      "uv_layers": 1
+    },
+    {
+      "name": "03_Floor_Weathering_Part01",
+      "triangles": 1186,
+      "vertices": 862,
+      "uv_layers": 1
+    },
+    {
+      "name": "04_Judges_Dais_Part01",
+      "triangles": 1088,
+      "vertices": 600,
+      "uv_layers": 1
+    },
+    {
+      "name": "05_West_Gallery_Part01",
+      "triangles": 3284,
+      "vertices": 1830,
+      "uv_layers": 1
+    },
+    {
+      "name": "06_East_Gallery_Part01",
+      "triangles": 3284,
+      "vertices": 1830,
+      "uv_layers": 1
+    },
+    {
+      "name": "07_Tall_Walls_Part01",
+      "triangles": 2024,
+      "vertices": 1104,
+      "uv_layers": 1
+    },
+    {
+      "name": "08_Rear_Windows_Part01",
+      "triangles": 1188,
+      "vertices": 696,
+      "uv_layers": 1
+    },
+    {
+      "name": "09_Sculpture_Sleeves_Part01",
+      "triangles": 13654,
+      "vertices": 6857,
+      "uv_layers": 1
+    },
+    {
+      "name": "09_Sculpture_Sleeves_Part02",
+      "triangles": 13702,
+      "vertices": 6885,
+      "uv_layers": 1
+    },
+    {
+      "name": "09_Sculpture_Sleeves_Part03",
+      "triangles": 13702,
+      "vertices": 6885,
+      "uv_layers": 1
+    },
+    {
+      "name": "09_Sculpture_Sleeves_Part04",
+      "triangles": 806,
+      "vertices": 405,
+      "uv_layers": 1
+    },
+    {
+      "name": "10_Hand_Seal_Part01",
+      "triangles": 13500,
+      "vertices": 6744,
+      "uv_layers": 1
+    },
+    {
+      "name": "11_Hall_Details_Part01",
+      "triangles": 2624,
+      "vertices": 1424,
+      "uv_layers": 1
+    }
+  ],
+  "studio_import_tested": false
+}

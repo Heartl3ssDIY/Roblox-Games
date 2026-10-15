@@ -1,0 +1,104 @@
+{
+  "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+  "checks": [
+    {
+      "name": "Initial request is shared and global world fallback stays visible until a valid reply",
+      "passed": true
+    },
+    {
+      "name": "Each board selects independently and the scheduler throttles all requests together",
+      "passed": true
+    },
+    {
+      "name": "Rapid selections send only the latest scope after the one-second limit",
+      "passed": true
+    },
+    {
+      "name": "A stale response cannot overwrite a newer selection",
+      "passed": true
+    },
+    {
+      "name": "Cached scope results serve the other board without changing the first selection",
+      "passed": true
+    },
+    {
+      "name": "Server refreshes at ten seconds and global at sixty seconds",
+      "passed": true
+    },
+    {
+      "name": "A loading cache retries after five seconds and keeps honest empty text",
+      "passed": true
+    },
+    {
+      "name": "Unavailable geographic region is not replaced with global or server scores",
+      "passed": true
+    },
+    {
+      "name": "Refresh failures preserve same-scope data and malformed initial replies preserve world fallback",
+      "passed": true
+    },
+    {
+      "name": "Remote timeout cancels the blocked task and recovers with a fresh request",
+      "passed": true
+    },
+    {
+      "name": "Missing remote keeps world fallback and recovers when the remote appears",
+      "passed": true
+    },
+    {
+      "name": "Removing a remote cancels its pending request even before the timeout",
+      "passed": true
+    },
+    {
+      "name": "Replacing a remote cancels the old call and only the replacement may render",
+      "passed": true
+    },
+    {
+      "name": "A wrong-class replacement cancels safely and a valid remote can reconnect",
+      "passed": true
+    },
+    {
+      "name": "Disabling or destroying the local UI restores the world boards",
+      "passed": true
+    },
+    {
+      "name": "Cleanup cancels an in-flight request without changing live world objects",
+      "passed": true
+    },
+    {
+      "name": "Native task cancellation succeeds under the exact controller capabilities",
+      "passed": true
+    },
+    {
+      "name": "Authored tabs, headers and all ten rows remain inside the boards",
+      "passed": true
+    },
+    {
+      "name": "Exact installed controller capabilities are retained and Play is stopped",
+      "passed": true
+    }
+  ],
+  "sandboxed": true,
+  "passed": true,
+  "playStarted": false,
+  "fixtureDestroyed": true,
+  "generatedAt": "2026-10-04T21:17:17Z",
+  "mode": "Edit",
+  "requestIntervalSeconds": 1.05,
+  "pollSeconds": {
+    "server": 10,
+    "global": 60,
+    "region": 60,
+    "loading": 5
+  },
+  "timeoutSeconds": 12,
+  "timeoutRetrySeconds": 15,
+  "permanentSourceDeploymentBy": "parent agent",
+  "liveDatastoreCalls": false,
+  "remoteLifecycleVerified": [
+    "timeout cancellation/retry",
+    "removal cancellation/reconnect",
+    "replacement cancellation/stale-reply rejection",
+    "wrong-class replacement/reconnect"
+  ]
+}

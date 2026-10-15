@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\ACULobbyCitadel\\exports\\ImportReady_ScaleFixed_20260926\\03_Civic_Branding_01.fbx",
+  "officialImporter": "Blender built-in import_scene.fbx",
+  "blenderVersion": "5.2.1 LTS",
+  "status": [
+    "FINISHED"
+  ],
+  "expectedMeshCount": 87,
+  "actualMeshCount": 87,
+  "blenderWorldBounds": [
+    [
+      -1.1379314661026,
+      -2.3721001148223877,
+      -0.5004932284355164
+    ],
+    [
+      1.117141604423523,
+      1.0977052450180054,
+      0.20850017666816711
+    ]
+  ],
+  "elapsedSeconds": 0.6374714999983553,
+  "scope": "Binary-container smoke test only. Blender converts FBX centimeter metadata into Blender units; this is not a Roblox preview or Roblox scale validation.",
+  "modifiedSourceFiles": false,
+  "blendSaved": false
+}

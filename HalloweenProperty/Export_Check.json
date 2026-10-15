@@ -1,0 +1,61 @@
+{
+  "blend": {
+    "meshes": 32,
+    "triangles": 277994,
+    "bounds": [
+      29.88611,
+      30.53369,
+      13.53783
+    ]
+  },
+  "packedTextures": [
+    "Property_Albedo",
+    "Property_Normal",
+    "Property_Roughness"
+  ],
+  "FBX_roundtrip": {
+    "meshes": 32,
+    "triangles": 277994,
+    "bounds": [
+      29.88611,
+      30.53369,
+      13.53783
+    ]
+  },
+  "FBX_textures": [
+    {
+      "name": "Property_Albedo",
+      "size": [
+        2048,
+        2048
+      ],
+      "loaded": true
+    },
+    {
+      "name": "Property_Albedo.001",
+      "size": [
+        2048,
+        2048
+      ],
+      "loaded": true
+    },
+    {
+      "name": "Property_Normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "loaded": true
+    },
+    {
+      "name": "Property_Roughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "loaded": true
+    }
+  ],
+  "GLB_meshes": 32,
+  "studioImport": "Not tested: no connected Roblox Studio instance."
+}

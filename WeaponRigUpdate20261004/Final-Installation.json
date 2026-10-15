@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"before\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior\",\"after\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | Animation | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior\",\"playStarted\":false,\"target\":\"ServerScriptService.PlaygroundBootstrap\"}"
+      }
+    ],
+    "isError": false
+  },
+  "installation": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"playStarted\":false,\"scripts\":{\"1\":{\"bytes\":63774,\"path\":\"ServerScriptService.BritishBulldogService\",\"capabilitiesPreserved\":true},\"3\":{\"bytes\":2128,\"path\":\"ServerScriptService.PlaygroundBootstrap\",\"capabilitiesPreserved\":true},\"2\":{\"bytes\":7767,\"path\":\"ServerScriptService.PlaygroundAdminService\",\"capabilitiesPreserved\":true},\"5\":{\"bytes\":59550,\"path\":\"ServerScriptService.StuckInTheMudService\",\"capabilitiesPreserved\":true},\"4\":{\"bytes\":25797,\"path\":\"ServerScriptService.PlaygroundEquipmentService\",\"capabilitiesPreserved\":true},\"7\":{\"bytes\":5506,\"path\":\"ServerScriptService.TagSprintService\",\"capabilitiesPreserved\":true},\"6\":{\"bytes\":52661,\"path\":\"ServerScriptService.TagService\",\"capabilitiesPreserved\":true},\"9\":{\"bytes\":6356,\"path\":\"StarterPlayer.StarterPlayerScripts.PlaygroundEmotes\",\"capabilitiesPreserved\":true},\"8\":{\"bytes\":13895,\"path\":\"StarterGui.PlaygroundAdminPanel.Controller\",\"capabilitiesPreserved\":true}}}"
+      }
+    ],
+    "isError": false
+  }
+}

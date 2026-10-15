@@ -1,0 +1,16 @@
+Changed live: StarterGui.MudHUD.Controller and authored descendants of StarterGui.MudHUD.Main.
+Removed obsolete ColourPicker/ColourToggle, Frozen and Mud/Heat weapon-choice controls.
+Added compact and portrait header variants, local three-heart display, OUT notice and desktop input hint.
+Preserved reusable PNG skins, ScreenGui identity, main root geometry, script capabilities and sandbox settings.
+Backup: ServerStorage.LaserTagHUDBackup20261013 plus BeforeController.luau and BeforeHUD.json.
+Controller.luau is the installed final source. BuildHUD.luau is the one-time authored-layout migration, not an idempotent installer.
+NativeChecks.luau executes the fresh live controller in an isolated fixture and removes the fixture afterwards. Validation.json records the 170 passing checks.
+Following the parent's real Play smoke test, added client-local Humanoid:EquipTool for an assigned Backpack gun. The gun must match MDManaged, local UserId, MDTeamId, current RoundNumber, expected gun name and Enabled. Server Equip remains the fallback, and server Fire validation remains authoritative. Native beginFire tests verify the actual Humanoid/Tool re-equip and invalid identity rejection.
+The parent task owns the final real Play smoke test, cross-game game-name changes and eliminated-player spectating.
+No publishing, desktop interaction, asset upload or permission changes were performed.
+
+Aim coordinate references:
+https://create.roblox.com/docs/reference/engine/classes/Camera
+https://raw.githubusercontent.com/Roblox/creator-docs/main/content/en-us/reference/engine/classes/UserInputService.yaml
+https://raw.githubusercontent.com/Roblox/creator-docs/main/content/en-us/reference/engine/classes/GuiService.yaml
+GetMouseLocation is physical-screen-relative. GetInsetArea rectangles use a shared CoreUISafeInsets origin. DeviceSafeInsets.Min minus None.Min is therefore the physical origin to subtract once. Camera.ViewportPointToRay and the full-root DeviceSafeInsets crosshair then share viewport coordinates.

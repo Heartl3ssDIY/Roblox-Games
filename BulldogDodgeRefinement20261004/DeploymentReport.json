@@ -1,0 +1,64 @@
+{
+  "place": "Playground Classics",
+  "placeId": 95034648955135,
+  "date": "2026-10-04",
+  "appliedInEditMode": true,
+  "playStarted": false,
+  "gameplayTested": false,
+  "dataStoreRequests": 0,
+  "syntaxCompiledWithoutExecution": 6,
+  "changes": [
+    "Bulldog server and client jump locks; previous jump settings restored on exit",
+    "Grounded 0.32 second dodge with 8 stud lateral travel, forward momentum, wall checks, synchronized body lean and camera banking",
+    "Two editable world leaderboards: Highest Level and Most Wins; ten rows each and a shared row design",
+    "Global ranks queued from confirmed profile loads/saves; no Studio profile or ranking writes"
+  ],
+  "leaderboardBase": {
+    "position": [
+      -12,
+      4,
+      -82
+    ],
+    "yawDegrees": 180
+  },
+  "backupsInServerStorage": [
+    "BulldogDodgeBackup20261004",
+    "PlaygroundLeaderboardsBackup20261004"
+  ],
+  "capabilitiesAdded": {
+    "PlaygroundEconomyService": [
+      "DataStore"
+    ],
+    "PlaygroundBootstrap": [
+      "DataStore",
+      "Input"
+    ],
+    "PlaygroundLeaderboardService": [
+      "RunServerScript",
+      "AccessOutsideWrite",
+      "Basic",
+      "DataStore",
+      "UI",
+      "Players"
+    ]
+  },
+  "pendingApproval": null,
+  "launcherInputApproval": "The user explicitly approved launcher Input on 2026-10-04 after automatic review required separate authorization. Applied successfully; sandbox remains enabled.",
+  "runtimeLimitations": [
+    "No movement, camera, player-session or live global-persistence test was run because the user paused Play testing.",
+    "Existing persisted XP/wins enter the ranking index when their profile is next loaded or saved.",
+    "Ranks are refreshed about once a minute; latest queued ranks may wait for a later join if shutdown budget expires."
+  ],
+  "sha256": {
+    "BritishBulldogService.lua": "9fd7cc29b18dcac333173ebf21b22894073b626bbea8df43b49013d20aa4ba3b",
+    "BBMovement.client.luau": "2f960bebd43d1ad79edec42c63eb1bf7fd984fad5324c4251801c1ef9b51a6ae",
+    "BritishBulldogCamera.client.luau": "5627d1562208d4dbc2e0072d3e9202277438bf320403049f684bb12e707ddc84",
+    "PlaygroundEconomyService.lua": "bc0ba987e6de098920b397fc1e581ba25bd60e2e4f2f2cf6e68b99f7426c212a",
+    "PlaygroundBootstrap.server.luau": "ca6460296372eeda8f46ded0c7959c51df9d57c885988034f562dce4e641cb57",
+    "PlaygroundLeaderboardService.lua": "4d702a5e657b9891d5591d3c4a2dd5ced1afdc677c7af492873bc87624d8a2b1",
+    "BuildLeaderboards.luau": "a40d8d04d76f634ce98c1a1a7cc1743f1418531c1a75db9d4635a68dfc1241f9",
+    "ApplyMovementChanges.luau": "1bd18a80c78406b9fec364171946e2671206ad64b45f11129b6129e6e09580c2",
+    "ApplyLeaderboards.luau": "13eee2d2e5c28eee01917d257781eb28a86901e80585e043b955345b148124ea",
+    "ApplyApprovedLauncherInput.luau": "57f68f8cafde29c436fb359ad5ce5880a314b34f9fd131ea4f32b167d14ddee8"
+  }
+}

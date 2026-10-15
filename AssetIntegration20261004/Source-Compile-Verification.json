@@ -1,0 +1,68 @@
+{
+  "VerifiedAtUtc": "2026-10-04T18:23:07.1134292Z",
+  "PlayStarted": false,
+  "Sources": [
+    {
+      "Name": "ReplicatedStorage.PlaygroundCatalog.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\After\\ReplicatedStorage.PlaygroundCatalog.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 8 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "Name": "ServerScriptService.PlaygroundBootstrap.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\After\\ServerScriptService.PlaygroundBootstrap.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 1 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "Name": "ServerScriptService.PlaygroundCoordinator.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\After\\ServerScriptService.PlaygroundCoordinator.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 12 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "Name": "ServerScriptService.PlaygroundEconomyService.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\After\\ServerScriptService.PlaygroundEconomyService.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 28 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "Name": "ServerScriptService.PlaygroundEquipmentService.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\After\\ServerScriptService.PlaygroundEquipmentService.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 11 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "Name": "StarterGui.PlaygroundShell.Controller.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\After\\StarterGui.PlaygroundShell.Controller.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 20 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "Name": "StarterPlayer.StarterPlayerScripts.PlaygroundPets.client.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\After\\StarterPlayer.StarterPlayerScripts.PlaygroundPets.client.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 12 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "Name": "EconomyChecks.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\Tests\\EconomyChecks.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 13 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "Name": "EquipmentChecks.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\Tests\\EquipmentChecks.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 9 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "Name": "IntegrationChecks.luau",
+      "Path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\AssetIntegration20261004\\Tests\\IntegrationChecks.luau",
+      "ExitCode": 0,
+      "Output": "Compiled 0 KLOC into 4 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    }
+  ],
+  "Passed": 10,
+  "Failed": 0
+}

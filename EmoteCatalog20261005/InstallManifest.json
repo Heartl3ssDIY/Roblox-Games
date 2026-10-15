@@ -1,0 +1,11 @@
+[
+  {"path":"ReplicatedStorage.PlaygroundCatalog","file":"PlaygroundCatalog.luau"},
+  {"path":"ServerScriptService.PlaygroundEconomyService","file":"PlaygroundEconomyService.luau"},
+  {"path":"ServerScriptService.PlaygroundLeaderboardService","file":"PlaygroundLeaderboardService.luau"},
+  {"path":"ServerScriptService.PlaygroundBootstrap","file":"PlaygroundBootstrap.luau"},
+  {"path":"StarterPlayer.StarterPlayerScripts.PlaygroundEmotes","file":"PlaygroundEmotes.client.luau"},
+  {"path":"StarterGui.PlaygroundPodium.Controller","file":"PlaygroundPodiumController.client.luau"},
+  {"path":"StarterGui.PlaygroundShell.Controller","file":"Shell.Controller.luau"},
+  {"path":"StarterGui.MudHUD.Controller","file":"MudHUD.Controller.luau","root":"MudAim"},
+  {"path":"ServerScriptService.StuckInTheMudService","file":"StuckInTheMudService.luau","root":"MudAim"}
+]

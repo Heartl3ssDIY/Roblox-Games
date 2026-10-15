@@ -1,0 +1,539 @@
+{
+  "checkCount": 133,
+  "errors": [],
+  "passed": true,
+  "checks": [
+    {
+      "name": "One-player round rejected",
+      "passed": true
+    },
+    {
+      "name": "AFK players excluded",
+      "passed": true
+    },
+    {
+      "name": "Unloaded profile excluded",
+      "passed": true
+    },
+    {
+      "name": "Other game player excluded",
+      "passed": true
+    },
+    {
+      "name": "Duplicate entries excluded",
+      "passed": true
+    },
+    {
+      "name": "Round starts with eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown freezes seated players",
+      "passed": true
+    },
+    {
+      "name": "Eight-second briefing remains until its end",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes picking",
+      "passed": true
+    },
+    {
+      "name": "Round clock is exactly three minutes",
+      "passed": true
+    },
+    {
+      "name": "Seated ducks held sitting",
+      "passed": true
+    },
+    {
+      "name": "Only picker can select",
+      "passed": true
+    },
+    {
+      "name": "Invalid target rejected",
+      "passed": true
+    },
+    {
+      "name": "Nearby picker chooses valid seated duck",
+      "passed": true
+    },
+    {
+      "name": "Picker becomes runner and chosen duck becomes goose",
+      "passed": true
+    },
+    {
+      "name": "Chosen seat disabled until lap is valid",
+      "passed": true
+    },
+    {
+      "name": "Empty chosen spot marked gold",
+      "passed": true
+    },
+    {
+      "name": "No early chair claim",
+      "passed": true
+    },
+    {
+      "name": "No runner or duck bat",
+      "passed": true
+    },
+    {
+      "name": "Sprint starts from five seconds",
+      "passed": true
+    },
+    {
+      "name": "Partial recharge resumes held sprint",
+      "passed": true
+    },
+    {
+      "name": "Backward runner is never snapped",
+      "passed": true
+    },
+    {
+      "name": "Backward reduces net lap progress",
+      "passed": true
+    },
+    {
+      "name": "Back then forward does not earn lap",
+      "passed": true
+    },
+    {
+      "name": "Backward chaser is never snapped",
+      "passed": true
+    },
+    {
+      "name": "Backward chaser cannot tag",
+      "passed": true
+    },
+    {
+      "name": "Centre shortcut is not physically corrected",
+      "passed": true
+    },
+    {
+      "name": "Centre shortcut stops credit with return guide",
+      "passed": true
+    },
+    {
+      "name": "Shortcut cannot claim",
+      "passed": true
+    },
+    {
+      "name": "Rejoining far ahead cannot skip checkpoint",
+      "passed": true
+    },
+    {
+      "name": "Returning to marker resumes without losing legal lap",
+      "passed": true
+    },
+    {
+      "name": "Round starts with eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown freezes seated players",
+      "passed": true
+    },
+    {
+      "name": "Eight-second briefing remains until its end",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes picking",
+      "passed": true
+    },
+    {
+      "name": "Round clock is exactly three minutes",
+      "passed": true
+    },
+    {
+      "name": "Nearby picker chooses valid seated duck",
+      "passed": true
+    },
+    {
+      "name": "Picker becomes runner and chosen duck becomes goose",
+      "passed": true
+    },
+    {
+      "name": "Chosen seat disabled until lap is valid",
+      "passed": true
+    },
+    {
+      "name": "Empty chosen spot marked gold",
+      "passed": true
+    },
+    {
+      "name": "Half lap is incomplete",
+      "passed": true
+    },
+    {
+      "name": "Half lap seat denied",
+      "passed": true
+    },
+    {
+      "name": "Full clockwise lap latches ready",
+      "passed": true
+    },
+    {
+      "name": "All checkpoints earned",
+      "passed": true
+    },
+    {
+      "name": "Chair approach never resets or snaps",
+      "passed": true
+    },
+    {
+      "name": "Chair approach never resets or snaps",
+      "passed": true
+    },
+    {
+      "name": "Chair approach never resets or snaps",
+      "passed": true
+    },
+    {
+      "name": "Chair approach never resets or snaps",
+      "passed": true
+    },
+    {
+      "name": "Chair approach never resets or snaps",
+      "passed": true
+    },
+    {
+      "name": "Small final turn retains readiness",
+      "passed": true
+    },
+    {
+      "name": "Valid inward chair claim succeeds",
+      "passed": true
+    },
+    {
+      "name": "New picker keeps safe current position",
+      "passed": true
+    },
+    {
+      "name": "Runner sits and chaser becomes picker",
+      "passed": true
+    },
+    {
+      "name": "Old route guide cleared on new roles",
+      "passed": true
+    },
+    {
+      "name": "Round starts with eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown freezes seated players",
+      "passed": true
+    },
+    {
+      "name": "Eight-second briefing remains until its end",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes picking",
+      "passed": true
+    },
+    {
+      "name": "Round clock is exactly three minutes",
+      "passed": true
+    },
+    {
+      "name": "Nearby picker chooses valid seated duck",
+      "passed": true
+    },
+    {
+      "name": "Picker becomes runner and chosen duck becomes goose",
+      "passed": true
+    },
+    {
+      "name": "Chosen seat disabled until lap is valid",
+      "passed": true
+    },
+    {
+      "name": "Empty chosen spot marked gold",
+      "passed": true
+    },
+    {
+      "name": "Replication bursts do not invalidate legal lap",
+      "passed": true
+    },
+    {
+      "name": "Camper at start cannot hit returning runner",
+      "passed": true
+    },
+    {
+      "name": "Camper moving at finish still lacks full route progress",
+      "passed": true
+    },
+    {
+      "name": "Round starts with eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown freezes seated players",
+      "passed": true
+    },
+    {
+      "name": "Eight-second briefing remains until its end",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes picking",
+      "passed": true
+    },
+    {
+      "name": "Round clock is exactly three minutes",
+      "passed": true
+    },
+    {
+      "name": "Nearby picker chooses valid seated duck",
+      "passed": true
+    },
+    {
+      "name": "Picker becomes runner and chosen duck becomes goose",
+      "passed": true
+    },
+    {
+      "name": "Chosen seat disabled until lap is valid",
+      "passed": true
+    },
+    {
+      "name": "Empty chosen spot marked gold",
+      "passed": true
+    },
+    {
+      "name": "Both racers can complete clockwise track",
+      "passed": true
+    },
+    {
+      "name": "Brief forward then camping cannot tag",
+      "passed": true
+    },
+    {
+      "name": "Legal chaser can resume after standing",
+      "passed": true
+    },
+    {
+      "name": "Round starts with eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown freezes seated players",
+      "passed": true
+    },
+    {
+      "name": "Eight-second briefing remains until its end",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes picking",
+      "passed": true
+    },
+    {
+      "name": "Round clock is exactly three minutes",
+      "passed": true
+    },
+    {
+      "name": "Nearby picker chooses valid seated duck",
+      "passed": true
+    },
+    {
+      "name": "Picker becomes runner and chosen duck becomes goose",
+      "passed": true
+    },
+    {
+      "name": "Chosen seat disabled until lap is valid",
+      "passed": true
+    },
+    {
+      "name": "Empty chosen spot marked gold",
+      "passed": true
+    },
+    {
+      "name": "Both have route credit",
+      "passed": true
+    },
+    {
+      "name": "Legal range-test swing starts",
+      "passed": true
+    },
+    {
+      "name": "Over-ten-stud contact misses",
+      "passed": true
+    },
+    {
+      "name": "Legal facing-test swing starts",
+      "passed": true
+    },
+    {
+      "name": "Facing-away contact misses",
+      "passed": true
+    },
+    {
+      "name": "Legal obstruction-test swing starts",
+      "passed": true
+    },
+    {
+      "name": "Wall blocks valid-route bat",
+      "passed": true
+    },
+    {
+      "name": "Legal contact swing starts",
+      "passed": true
+    },
+    {
+      "name": "Swing cooldown holds",
+      "passed": true
+    },
+    {
+      "name": "Valid chase tag eliminates runner",
+      "passed": true
+    },
+    {
+      "name": "Eliminated has explicit OUT state",
+      "passed": true
+    },
+    {
+      "name": "Caught runner ragdolls before relocation",
+      "passed": true
+    },
+    {
+      "name": "Eliminated moves to spectator spawn",
+      "passed": true
+    },
+    {
+      "name": "Spectator not repeatedly moved while outside",
+      "passed": true
+    },
+    {
+      "name": "Eliminated cannot reenter live circle",
+      "passed": true
+    },
+    {
+      "name": "Eliminated cannot swing select or claim",
+      "passed": true
+    },
+    {
+      "name": "Timeout picker loses and remaining duck wins",
+      "passed": true
+    },
+    {
+      "name": "Eliminated cannot win",
+      "passed": true
+    },
+    {
+      "name": "Cleanup restores lobby and all route flags",
+      "passed": true
+    },
+    {
+      "name": "Round starts with eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown freezes seated players",
+      "passed": true
+    },
+    {
+      "name": "Eight-second briefing remains until its end",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes picking",
+      "passed": true
+    },
+    {
+      "name": "Round clock is exactly three minutes",
+      "passed": true
+    },
+    {
+      "name": "Nearby picker chooses valid seated duck",
+      "passed": true
+    },
+    {
+      "name": "Picker becomes runner and chosen duck becomes goose",
+      "passed": true
+    },
+    {
+      "name": "Chosen seat disabled until lap is valid",
+      "passed": true
+    },
+    {
+      "name": "Empty chosen spot marked gold",
+      "passed": true
+    },
+    {
+      "name": "Final survivor stays seated until timeout",
+      "passed": true
+    },
+    {
+      "name": "Last duck wins",
+      "passed": true
+    },
+    {
+      "name": "Round starts with eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown freezes seated players",
+      "passed": true
+    },
+    {
+      "name": "Eight-second briefing remains until its end",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes picking",
+      "passed": true
+    },
+    {
+      "name": "Round clock is exactly three minutes",
+      "passed": true
+    },
+    {
+      "name": "Selection timeout chooses automatically",
+      "passed": true
+    },
+    {
+      "name": "Round starts with eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown freezes seated players",
+      "passed": true
+    },
+    {
+      "name": "Eight-second briefing remains until its end",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes picking",
+      "passed": true
+    },
+    {
+      "name": "Round clock is exactly three minutes",
+      "passed": true
+    },
+    {
+      "name": "Player loss below minimum cancels rewards",
+      "passed": true
+    },
+    {
+      "name": "Maximum remains sixteen",
+      "passed": true
+    },
+    {
+      "name": "Full sixteen-player round starts",
+      "passed": true
+    },
+    {
+      "name": "All sixteen assigned seats",
+      "passed": true
+    },
+    {
+      "name": "Shutdown clears all records",
+      "passed": true
+    }
+  ]
+}

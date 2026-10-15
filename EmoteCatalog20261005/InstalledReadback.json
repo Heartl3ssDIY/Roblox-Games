@@ -1,0 +1,51 @@
+{
+  "playRunning": false,
+  "highestPrice": 15000,
+  "originalShopLayoutsPreserved": 211,
+  "editableThumbnails": 13,
+  "temporaryObjects": [],
+  "allSourcesMatch": true,
+  "disabledRemoved": true,
+  "emotes": 31,
+  "scripts": {
+    "StarterGui.PlaygroundShell.Controller": {
+      "sourceMatch": true,
+      "sha256": "6186484AE21BDAD6CC479B61D055C676E14D8FFD992873833E15C3BE337484A8"
+    },
+    "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes": {
+      "sourceMatch": true,
+      "sha256": "D16276E61D2EBD9F64339DAB6838FF91886C65E66DE7351254EC008E21C2D75D"
+    },
+    "ServerScriptService.StuckInTheMudService": {
+      "sourceMatch": true,
+      "sha256": "96A15B562DB16C10136BB00B6793FCF7D1717C5F2A53D09164673D7137C2DC03"
+    },
+    "StarterGui.MudHUD.Controller": {
+      "sourceMatch": true,
+      "sha256": "B178128203B8E230CE0FAA2451C208F3E434919D8D38E1F105DA4B301C599024"
+    },
+    "ServerScriptService.PlaygroundBootstrap": {
+      "sourceMatch": true,
+      "sha256": "BC882827A1C87410B9C3AA50B689EF8D50CCAF0C33ED81670ECD2EC8CE495AAC"
+    },
+    "ServerScriptService.PlaygroundLeaderboardService": {
+      "sourceMatch": true,
+      "sha256": "C94F3DFF3D2469C60C0F8AC382E1BD7BF3470C3876DA54C7476898D860B23C52"
+    },
+    "ReplicatedStorage.PlaygroundCatalog": {
+      "sourceMatch": true,
+      "sha256": "A2123C68C351FE955464FB52D5EC8BDE137A512B63F7E6C4957A335A7539118E"
+    },
+    "ServerScriptService.PlaygroundEconomyService": {
+      "sourceMatch": true,
+      "sha256": "3AC585A3A5E2D0BC3DD6521FD1A77B97ACCF1FEE59E9B071756AC15B7FC900FF"
+    },
+    "StarterGui.PlaygroundPodium.Controller": {
+      "sourceMatch": true,
+      "sha256": "79F713720D226E2F8A6E0645C324D73746A8F112EB62D069296220CE53B793E7"
+    }
+  },
+  "levelRewards": 11,
+  "capabilitiesPreserved": true,
+  "coinPurchases": 20
+}

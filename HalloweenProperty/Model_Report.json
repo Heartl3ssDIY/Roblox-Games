@@ -1,0 +1,243 @@
+{
+  "reference": "https://www.youtube.com/watch?v=Bc1hwOcs0JU&t=215s",
+  "interpretation": "Original exterior reconstruction from dark video frames at 3:35 and 3:45. Back elevation, dimensions and obscured details are inferred.",
+  "units": "metres",
+  "lotDimensionsMetres": [
+    25,
+    29.8
+  ],
+  "houseFootprintMetres": [
+    14,
+    9
+  ],
+  "interior": "Exterior shell with closed front door; no furnished or playable interior.",
+  "meshCount": 32,
+  "triangles": 277994,
+  "maxMeshTriangles": 16500,
+  "parts": [
+    {
+      "name": "House_Foundation_and_Floor",
+      "triangles": 48,
+      "vertices": 32,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "House_Exterior_Walls",
+      "triangles": 1312,
+      "vertices": 876,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "House_Corner_Trim_and_Eaves",
+      "triangles": 120,
+      "vertices": 80,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "House_Roof_Shingles",
+      "triangles": 10236,
+      "vertices": 6824,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Porch_Roof_and_Railings",
+      "triangles": 1104,
+      "vertices": 736,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Windows_Frames_Shutters_and_Curtains",
+      "triangles": 1752,
+      "vertices": 1168,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Front_Door_and_Details",
+      "triangles": 204,
+      "vertices": 130,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Gutters_Chimney_and_Vents",
+      "triangles": 1204,
+      "vertices": 784,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Porch_Lanterns",
+      "triangles": 144,
+      "vertices": 96,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Fence_Front_Panels_and_Gateposts",
+      "triangles": 2464,
+      "vertices": 1554,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Fence_Side_and_Back_Panels",
+      "triangles": 7896,
+      "vertices": 4974,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Ground_Lawn_and_PlantingBeds",
+      "triangles": 72,
+      "vertices": 48,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Paths_Steps_Sidewalk",
+      "triangles": 276,
+      "vertices": 184,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_A_Front_Left_Branches",
+      "triangles": 11064,
+      "vertices": 6808,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_A_Front_Left_Leaves_01",
+      "triangles": 16500,
+      "vertices": 11000,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_A_Front_Left_Leaves_02",
+      "triangles": 15000,
+      "vertices": 10000,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_B_Front_Right_Branches",
+      "triangles": 11064,
+      "vertices": 6808,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_B_Front_Right_Leaves_01",
+      "triangles": 16500,
+      "vertices": 11000,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_B_Front_Right_Leaves_02",
+      "triangles": 15000,
+      "vertices": 10000,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_C_Back_Left_Branches",
+      "triangles": 11064,
+      "vertices": 6808,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_C_Back_Left_Leaves_01",
+      "triangles": 16500,
+      "vertices": 11000,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_C_Back_Left_Leaves_02",
+      "triangles": 15000,
+      "vertices": 10000,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_D_Back_Right_Branches",
+      "triangles": 11064,
+      "vertices": 6808,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_D_Back_Right_Leaves_01",
+      "triangles": 16500,
+      "vertices": 11000,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Tree_D_Back_Right_Leaves_02",
+      "triangles": 15000,
+      "vertices": 10000,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Shrubs_Layered_Foundation_and_Fence_01",
+      "triangles": 16500,
+      "vertices": 10980,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Shrubs_Layered_Foundation_and_Fence_02",
+      "triangles": 16500,
+      "vertices": 10980,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Shrubs_Layered_Foundation_and_Fence_03",
+      "triangles": 11928,
+      "vertices": 7940,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Small_Flowering_Plants",
+      "triangles": 3952,
+      "vertices": 2600,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Grass_Tufts_and_Wild_Groundcover",
+      "triangles": 14956,
+      "vertices": 14956,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Fallen_Leaves_and_Edge_Stones",
+      "triangles": 11214,
+      "vertices": 7201,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    },
+    {
+      "name": "Porch_Pumpkins_and_Pots",
+      "triangles": 5856,
+      "vertices": 3016,
+      "degenerateFaces": 0,
+      "boundaryEdges": 0
+    }
+  ]
+}

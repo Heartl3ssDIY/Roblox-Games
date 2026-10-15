@@ -1,0 +1,9 @@
+Fishing: four fixed rod stations around the lobby pond.
+Each player can complete three catches per UTC day. The count persists across rejoining and servers.
+Each catch waits six seconds at the rod, then randomly grants either Coins or XP with an equal 50% chance.
+Walking away, dying, or entering a round before the catch cancels without spending a daily catch.
+Each successful catch activates immediately, adding five minutes to its matching timer; there is no potion inventory.
+Coins and XP have separate timers. Repeated catches of the same type extend its remaining duration.
+Boosts multiply the player's current earned rate. VIP becomes 6x coins or 4x XP while the corresponding fishing boost is active.
+Purchased coin packs and admin grants stay at their exact amount.
+Timers continue in real time and persist across rejoining. Icons/countdowns live in the bottom-right HUD and disappear on expiry.

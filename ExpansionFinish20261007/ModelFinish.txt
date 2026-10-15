@@ -1,0 +1,43 @@
+Installed in Playground Classics on 2026-10-07 using Studio Edit mode.
+
+Models
+All 35 expansion imports have matching stud finishes and navy cartoon outlines.
+Normalized equipment copies: ReplicatedStorage.PlaygroundCosmeticAssets.B16-B25, M16-M25 and P21-P35.
+Original palettes, meshes, existing pet rig bones and saved pivots are preserved.
+The exact 35 styled source imports were moved out of Workspace into ServerStorage.PlaygroundStyledSourceAssets20261007. No source imports remain on the map. All 35 equippable ReplicatedStorage copies remain intact.
+Untouched imported originals are backed up in ServerStorage.ExpansionFinishBackup20261007.
+The stand-alone Pancake Pal mesh receives an upright library RootPart; its source placement remains unchanged.
+
+Animation
+PlaygroundEquipmentService supplies 10 distinct held bat particle/trail designs and contact bursts.
+The existing Tag/Bulldog bat swing and ragdoll logic remains in use.
+PlaygroundPets continues the existing follow, bounce and hover motion.
+PlaygroundEmotes animates the new pet bones with happy head turns, tail wagging, leg/arm stepping and wing flaps.
+This uses PlaygroundEmotes' existing Animation permission. No script capabilities were expanded.
+Stud coatings preserve skeleton data; duplicated Pancake Pal coating bones copy the original transforms.
+Reduced motion returns these bone overlays to their rest pose.
+
+New toys are cosmetic and lobby-only
+M16: drinking pose and snow sparkles.
+M17: aim/recoil pose and harmless snowball projectile.
+M18: aim pose and rising, fading bubbles.
+M19: placing pose and banana prop lasting five seconds; no slip effect.
+M20: bonking pose, sparkle burst and existing bonk sound where configured; no damage or knockback.
+M21: throwing pose, honey-pot projectile and temporary golden splat; no slow effect.
+M22: shaking pose and puff.
+M23: aiming pose and short magnetic spark beam; no pulling players.
+M24: throwing pose and spinning returning flyer.
+M25: shaking pose and confetti.
+Existing server lobby eligibility, selected-tool validation, cooldown and action cancellation checks still apply.
+
+Verification
+Four final source scripts compile with Luau 0.740.
+35 asset clone checks passed: 53 stud coatings, 129 original bones, 114 moving non-root bones, 6 synchronized coating bones.
+All 35 archived source pivots match the original Workspace backups.
+Sandboxed fixtures verified all 10 toy animation contact poses, 10 unique bat effect setups and 10 toy cosmetic actions.
+Snowball/honey impact cleanup was checked; temporary fixtures were removed.
+Live multiplayer and visual Play testing were not run; Play stayed stopped.
+
+Final sources are in After. Initial snapshots are in Before.
+InstallModelScripts.luau records the initial guarded installation; InstallRigDriver.luau records the subsequent transfer of bone animation to PlaygroundEmotes. Do not rerun these migration records against a newer live version.
+Original live scripts are also backed up in ServerStorage.ExpansionFinishScriptBackup20261007.

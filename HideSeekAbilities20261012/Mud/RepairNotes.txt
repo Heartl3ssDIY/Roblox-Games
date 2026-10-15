@@ -1,0 +1,17 @@
+Installed in Studio Edit mode on 2026-10-12. Not published and no Play test started.
+
+Changed StarterGui.MudHUD.Controller and ServerScriptService.StuckInTheMudService only.
+
+Main no-fire failure: Controller accessed a deleted ColourToggle at startup, before connecting Tool activation and its update loop. Optional legacy toggle now uses FindFirstChild; existing Main.Top.Team colour picker remains.
+
+Fire improvements: immediate initial click/tap shot; repeated hold respects replicated server cooldown; actual equipped Tool determines Mud versus Heat; native touch camera interactions cannot fire; Tool.Deactivated cannot cancel a separately held on-screen fire button; text focus, palette opening, respawn and unequip release fire safely.
+
+Aim improvements: removed duplicate device-notch subtraction from GetMouseLocation coordinates; reticle and held fire refresh after camera update; touch/gamepad use camera center, unlocked mouse uses pointer; projectile Spherecast radius now matches the visible 1.1-stud ball.
+
+Preserved server roles, anti-spam, cooldowns, camera-origin validation, muzzle obstruction, shot range, team rules, and wall blocking. No capability changes. Mobile Sprint placement unchanged on right.
+
+Tests: 11 full-controller input/lifecycle checks and 29 native aim/projectile/security checks pass. Prior Controller crashed with the actual authored HUD. With a legacy button restored only inside the isolated before fixture, 8 input checks failed before and all 11 pass after. Native before tests reproduced notch offset and visible ball edge missing avatar; all 29 after checks pass. Sources compile and installed source strings were verified exact.
+
+Backup: ServerStorage.MudAimFireRepairBackup20261012.
+
+Reference: Roblox official notch support announcement documents GetMouseLocation and ViewportPointToRay using the same device-safe viewport coordinates: https://devforum.roblox.com/t/notched-screen-support-full-release/2074324

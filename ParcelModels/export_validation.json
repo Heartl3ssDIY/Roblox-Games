@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Small",
+    "parts": 7,
+    "triangles": 1023,
+    "bodyTextures": 2,
+    "result": "pass"
+  },
+  {
+    "name": "Medium",
+    "parts": 7,
+    "triangles": 1039,
+    "bodyTextures": 2,
+    "result": "pass"
+  },
+  {
+    "name": "Large",
+    "parts": 7,
+    "triangles": 1040,
+    "bodyTextures": 2,
+    "result": "pass"
+  },
+  {
+    "name": "Fragile",
+    "parts": 10,
+    "triangles": 1307,
+    "bodyTextures": 2,
+    "result": "pass"
+  },
+  {
+    "name": "Gold",
+    "parts": 8,
+    "triangles": 1169,
+    "bodyTextures": 2,
+    "result": "pass"
+  },
+  {
+    "name": "Rainbow",
+    "parts": 13,
+    "triangles": 1215,
+    "bodyTextures": 2,
+    "result": "pass"
+  }
+]

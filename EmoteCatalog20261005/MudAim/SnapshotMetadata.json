@@ -1,0 +1,18 @@
+{
+  "placeId": "95034648955135",
+  "studioMode": "Edit",
+  "scripts": [
+    {
+      "path": "StarterGui.MudHUD.Controller",
+      "characters": 15740,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "sandbox": true
+    },
+    {
+      "path": "ServerScriptService.StuckInTheMudService",
+      "characters": 59550,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "sandbox": true
+    }
+  ]
+}

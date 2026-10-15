@@ -1,0 +1,9 @@
+Added editable StarterGui.PlaygroundBatControls.Swing, a 104x68 gold SWING button at authored mid-right position. Reuses existing gold artwork; fallback shown only while that image is unavailable.
+Shows on touch-enabled devices with a valid equipped bat, as an active Bulldog or Tagger. Hidden for desktop, runners, lobby/spectators, Stuck in the Mud, ragdoll, death and missing/disabled/wrong-game bats.
+The button activates the equipped Tool through the existing bat path. It keeps the 0.75-second swing cooldown and guards against repeated taps, menus, text entry and lost focus. No runtime layout rewriting.
+New controller is sandboxed with RunClientScript, Basic, Players, Input, UI, Physics, AccessOutsideWrite and AvatarBehavior (required for reading Humanoid.Health). Existing controllers and their permissions were not changed.
+Bat hitbox in BritishBulldogService and TagService: reach 4.5 to 6 studs, forward cone about151 to163 degrees. Existing role, round, cooldown, safe-zone, timing, movement history and line-of-sight checks remain. Avatar collisions unchanged.
+Verification: 50 native controller fixture checks and 25 native combat geometry checks passed. Button geometry checked across seven phone/tablet/desktop viewport sizes; authored position and size remain unchanged at runtime. Native visual preview showed loaded gold artwork and clean SWING/TAP labels. All temporary previews and fixtures removed.
+Local controller and both modified server services compiled and matched installed Studio source.
+Studio remained in Edit. No Play started and no publishing performed.
+Server script backup: ServerStorage.MobileSwingHitboxBackup20261008.

@@ -1,0 +1,57 @@
+Read-only audit, 2026-10-11
+Studio fa2d463c-b2d8-459c-abd5-b72902cc9338, Playground Classics, Edit mode.
+
+The failure is reported by the server, not the client:
+- StarterGui.PlaygroundAdminPanel.Controller lines 206-227 invoke PlaygroundAdminRequest(action, payload) and display reply.message.
+- Its transport error is "Server unavailable. Try again.", not the user's reported admin-cannot-finish message.
+- ServerScriptService.PlaygroundAdminService lines 117-119 return "That admin action could not finish. Try again." only after the protected command handler throws.
+- A normal shortage of players follows the StartRound false/reason return path and should show its specific reason, not this generic exception message.
+
+Client contract and authored controls are intact:
+- Exactly one TextButton exists for each BBStart, BBRunner, BBBulldog, TagStart, TagRunner, TagTagger, MudStart, MudShooter, MudMedic, HSStart, DGStart, StopRound, ToggleAutomatic.
+- All buttons are authored Active=true; controller updates their availability.
+- PlaygroundAdminRequest is a RemoteFunction.
+- The controller sends action names matching the server controls contract and a table payload with selected targetUserId.
+- The selected target is relevant to grants/status, not normal round participation; that is expected behavior.
+- The active config retains owner 1201803949 and extra admin 157349477.
+
+Bootstrap call chain:
+- Bootstrap requires all five game modules before starting the Admin service.
+- It creates and starts game services and installs equipment before constructing the coordinator/admin.
+- Lines 120-126 wrap each game's beginning method with Equipment:PrepareRound(selected).
+- Coordinator:StartGame lines 239-260 calls StartPractice(player, role) or StartRound(readyPlayers), then updates shared state.
+
+Capability observation, requiring runtime proof before remediation:
+- AdminService and Coordinator are both sandboxed and lack Animation and Input.
+- Bootstrap has both Animation and Input.
+- Bulldog/Tag game modules have Animation; Mud has Input; HideAndSeek and DuckDuckGoose have both.
+- Equipment has Input.
+- A capability intersection/call boundary is a plausible common exception point; this audit does not establish it as the cause.
+
+Native capability reproduction:
+- Exact cloned Admin and Coordinator modules retained their original source and capabilities.
+- Admin.Handle(BBStart) -> Coordinator.StartGame -> an already-required game probe with HS capabilities succeeded for Animation creation, Animator creation/GetPlayingAnimationTracks, Motor6D.Transform, UserInputService.TouchEnabled and ProximityPrompt creation/Triggered connection.
+- Negative controls executed the same protected operations directly within an Admin-capped module. Animation and Animator creation failed with missing Animation, ProximityPrompt creation failed with missing Input, and UserInputService was unavailable.
+- An Admin-capped module directly requiring an HS-capped module failed with additional Animation and Input capabilities.
+- Therefore the probe genuinely exercises sandbox enforcement, but missing Admin/Coordinator Animation/Input does not prevent invoking methods from a game module that Bootstrap has already required. No evidence supports adding these permissions as the repair.
+- Fixture is saved in CapabilityFixture.luau; ephemeral test instances were destroyed after each run.
+
+Real shared beginning-path fixture:
+- Cloned live Admin, Coordinator, Equipment, Toys, Bulldog, Tag, Mud and BulldogRules modules with their current capabilities.
+- Invoked BBStart, BBRunner, BBBulldog, TagStart, TagRunner, TagTagger and MudStart through Admin.Handle -> Coordinator.StartGame -> the exact Bootstrap preparation wrapper -> actual Equipment.PrepareRound -> actual Toys cancellation/reset -> actual game begin methods.
+- Isolated actors had character instances, equipped toy Tools, and toy movement records. All seven commands succeeded; toys were cleared/reset and expected 2- or 4-participant rounds reached the async boundary.
+- To avoid running a round or changing production state, async round bodies and practice-bot construction were stubbed. Mud readiness admission used injected fake actors because the actual gate requires Player instances in Players.
+- Actual source pre-async game checks, begin methods, admin handling and equipment/toy cleanup were exercised. No errors or warnings occurred.
+- Saved fixture: RealBeginFixture.luau, also compiled successfully with luau-compile.
+
+Sandboxed callback variation:
+- Repeated the seven-command fixture with the entry callback created in its own ModuleScript carrying exactly PlaygroundAdminService's capabilities.
+- Created the Equipment.PrepareRound wrapper in another ModuleScript carrying exactly PlaygroundBootstrap's capabilities.
+- All seven commands still succeeded. This removes privileged MCP function ownership from the entry callback and preparation wrapper.
+- Saved fixture: SandboxedCallbackFixture.luau.
+
+Version metadata:
+- Current Edit DataModel reports PlaceVersion 266 for place 95034648955135, universe 10769034155 (creator group 168026080).
+- This identifies the Studio-loaded version only. The connected Studio tool inventory offers no published source/version retrieval endpoint, so no claim is made about a running published server's code.
+
+No production objects, sources, capabilities, allowlist entries, or running state were changed.

@@ -1,0 +1,403 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "id": "P21",
+      "checks": [
+        {
+          "partPrefix": "OpaqueTurquoiseCrystal",
+          "expected": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "partPrefix": "IvoryHorn",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "WingMembrane",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P22",
+      "checks": [
+        {
+          "partPrefix": "CharcoalHorn",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "WingMembrane",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "FrontAnkleCuff",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "BackAnkleCuff",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P23",
+      "checks": [
+        {
+          "partPrefix": "HorseEar",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "FrontBlueHoof",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "BackBlueHoof",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "CurledLavenderTailLock",
+          "expected": 3,
+          "actual": 3,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P24",
+      "checks": [
+        {
+          "partPrefix": "Talon",
+          "expected": 6,
+          "actual": 6,
+          "passed": true
+        },
+        {
+          "partPrefix": "SweptGoldCrest",
+          "expected": 4,
+          "actual": 4,
+          "passed": true
+        },
+        {
+          "partPrefix": "FlightFeather",
+          "expected": 10,
+          "actual": 10,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P25",
+      "checks": [
+        {
+          "partPrefix": "ConnectedGoldHalo",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "HaloGoldPhysicalBridge",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "FlightFeather",
+          "expected": 10,
+          "actual": 10,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P26",
+      "checks": [
+        {
+          "partPrefix": "BrowHorn",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "SmallNoseHorn",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "CreamFrillKnob",
+          "expected": 9,
+          "actual": 9,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P27",
+      "checks": [
+        {
+          "partPrefix": "DorsalPlate",
+          "expected": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "partPrefix": "TailSpike",
+          "expected": 4,
+          "actual": 4,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P28",
+      "checks": [
+        {
+          "partPrefix": "PinkWingMembrane",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "ForelimbWingSpar",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "HindToe",
+          "expected": 6,
+          "actual": 6,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P29",
+      "checks": [
+        {
+          "partPrefix": "CurvedIvoryTusk",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "KnittedScarfWrap",
+          "expected": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "partPrefix": "BroadTrunkCrease",
+          "expected": 4,
+          "actual": 4,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P30",
+      "checks": [
+        {
+          "partPrefix": "ThreePointGoldCrown",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "RedSquareCrownJewel",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "RoyalCapeSide",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "CurlyPigTail",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P31",
+      "checks": [
+        {
+          "partPrefix": "DomedRecessedWaffleCell",
+          "expected": 9,
+          "actual": 9,
+          "passed": true
+        },
+        {
+          "partPrefix": "ButterSquare",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "ConformingCaramelSyrupPatch",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P32",
+      "checks": [
+        {
+          "partPrefix": "Pancake1_FluffyBody",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "Pancake2_FluffyBody",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "Pancake3_FluffyBody",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "AttachedButterCube",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "bodyDetailsStayOnBody": true,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P33",
+      "checks": [
+        {
+          "partPrefix": "ConformingPeachHeartMark",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "LegL",
+          "expected": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "partPrefix": "LegR",
+          "expected": 16,
+          "actual": 16,
+          "passed": true
+        },
+        {
+          "rigLegCount": 8,
+          "expected": 8,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P34",
+      "checks": [
+        {
+          "partPrefix": "CreamButtonEye",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "partPrefix": "CrossedButtonStitch",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "GoofyTwoToothSmile_tooth_",
+          "expected": 2,
+          "actual": 2,
+          "passed": true
+        },
+        {
+          "partPrefix": "CreamForeheadClothPatch",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "bodyDetailsStayOnBody": true,
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "P35",
+      "checks": [
+        {
+          "partPrefix": "SolidTailFlame",
+          "expected": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "partPrefix": "ThreePartCrest",
+          "expected": 3,
+          "actual": 3,
+          "passed": true
+        },
+        {
+          "partPrefix": "GoldenToe",
+          "expected": 6,
+          "actual": 6,
+          "passed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "checkCount": 52
+}

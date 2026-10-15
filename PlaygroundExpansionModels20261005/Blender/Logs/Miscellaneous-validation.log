@@ -1,0 +1,35 @@
+00:00.063  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:01.657  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m16-snowglobe-sip.blend"
+FBX version: 7400
+VALIDATED M16 True
+00:02.016  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m17-snowball-lobber.blend"
+FBX version: 7400
+VALIDATED M17 True
+00:02.047  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m18-bubble-blower.blend"
+FBX version: 7400
+VALIDATED M18 True
+00:02.094  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m19-slippy-banana.blend"
+FBX version: 7400
+VALIDATED M19 True
+00:02.110  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m20-spring-glove.blend"
+FBX version: 7400
+VALIDATED M20 True
+00:02.141  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m21-sticky-honey.blend"
+FBX version: 7400
+VALIDATED M21 True
+00:02.172  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m22-whoopee-whump.blend"
+FBX version: 7400
+VALIDATED M22 True
+00:02.203  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m23-magnet-mover.blend"
+FBX version: 7400
+VALIDATED M23 True
+00:02.235  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m24-ricochet-flyer.blend"
+FBX version: 7400
+VALIDATED M24 True
+00:02.266  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m25-pop-up-surprise.blend"
+FBX version: 7400
+VALIDATED M25 True
+VALIDATION_COMPLETE C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Validation-Miscellaneous.json
+
+Blender quit

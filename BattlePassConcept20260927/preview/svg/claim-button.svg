@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 74" role="img" aria-label="Battle Pass claim button frame">
+  <defs>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#FFF8B5"/><stop offset=".24" stop-color="#FCCE2C"/><stop offset=".64" stop-color="#D28A08"/><stop offset="1" stop-color="#8A4C00"/></linearGradient>
+    <linearGradient id="purple" x2="0" y2="1"><stop stop-color="#AF77FF"/><stop offset=".5" stop-color="#AA6EFF"/><stop offset="1" stop-color="#341560"/></linearGradient>
+  </defs>
+  <path d="M24 3H216l21 19v30l-21 19H24L3 51V23z" fill="#100030" stroke="#170038" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M25 6H215l18 17v28l-18 17H25L7 51V23z" fill="url(#gold)" stroke="#FFF8BD" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M30 13H210l16 13v23l-16 13H30L14 49V26z" fill="url(#purple)" stroke="#3A0A82" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M30 15H209l15 11H16z" fill="#F8C5FF" opacity=".28"/>
+  <path d="M16 50h208l-14 11H30z" fill="#210443" opacity=".4"/>
+  <path d="M30 17H210M30 59H210" stroke="#FAD7FF" stroke-width="1.5" opacity=".6"/>
+  <path d="M23 37l4-7 4 7-4 7zM217 37l-4-7-4 7 4 7z" fill="#F0C020"/>
+</svg>

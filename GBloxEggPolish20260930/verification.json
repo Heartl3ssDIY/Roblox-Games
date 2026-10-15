@@ -1,0 +1,20 @@
+{
+  "installed": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"installed\":true,\"enabled\":true,\"rootVisible\":false,\"templates\":63,\"serverHatchAndPricesUnchanged\":true,\"outerLayoutPreserved\":true,\"sourceLength\":14535,\"backup\":\"ServerStorage.BeforeEggPolish_20260930_202709\"}"
+      }
+    ],
+    "isError": false
+  },
+  "clientMockAssertions": 18,
+  "assetFetch": {
+    "count": 33,
+    "success": 33,
+    "note": "IsLoaded is a client-only property; fetch success was verified in Edit. Missing-image behavior tested with fake loading failures."
+  },
+  "scope": "StarterGui.GBloxEggOpening.Controller and new editable Templates only. Server hatch logic, rewards, purchase IDs, prices, artwork IDs and authored outer layout unchanged.",
+  "published": false,
+  "playtestStarted": false
+}

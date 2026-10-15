@@ -1,0 +1,32 @@
+{
+  "integration": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"freePlayCompletion\":\"100 story points in the same arena; session state\",\"installedScripts\":11,\"spawnEnabled\":true,\"oldLobby\":\"ServerStorage.BeforeLobbyIntegration_20260926_174357.Lobby_MainModeZone\",\"scale\":1,\"travelMenu\":\"StarterGui.LobbyTravelGui\",\"newLobby\":\"Workspace.Lobby_MainModeZone\"}"
+      }
+    ],
+    "isError": false
+  },
+  "travelRegression": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"liveWorkspaceTouched\":false,\"count\":38,\"passed\":true,\"checks\":[\"Reject non-string action\",\"Reject non-string lobby destination\",\"Reject unlisted lobby destination\",\"Reject unknown arena without fallback\",\"Reject false arena without default\",\"Rejected requests do not resolve arena, move or anchor avatar\",\"Reject missing marker before mutation\",\"Reject missing lookAt before mutation\",\"Unavailable destinations leave avatar and visit state unchanged\",\"Legacy lobby request maps MainMode\",\"R6 landing uses half root plus leg height and safe offset\",\"Teleport clears linear and angular velocities\",\"Arrival facing stays horizontal\",\"Cooldown prevents rapid second teleport\",\"Legacy pack request maps Packs\",\"Pack arrival faces its configured lookAt marker\",\"Travel succeeds after lobby move and scale\",\"Travel uses transformed marker position and independent avatar clearance\",\"Nil arena retains legitimate legacy default\",\"Arena entry retains existing spawn and anchored contract\",\"Match entry sets existing arena attributes\",\"Lobby travel blocked during active match\",\"Arena switching blocked until Leave\",\"Repeated identical entry is idempotent\",\"Leave bypasses request cooldown\",\"Leave restores exact return pose, original anchoring and attributes\",\"Visit-only arena rejects combat entry\",\"Visit-only arena remains visitable\",\"Free-play visit allows walking\",\"Visit return succeeds\",\"R15 teleport succeeds\",\"R15 landing uses HipHeight plus half root and safe offset\",\"Numeric catalog entry remains supported\",\"Leave restores an originally anchored character\",\"Entry before character removal succeeds\",\"Character removal clears and unanchors old visit\",\"Dead character cannot teleport\",\"Dead character may clean up Leave\"]}"
+      }
+    ],
+    "isError": false
+  },
+  "postInstall": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"activeSpawns\":[\"Workspace.Lobby_MainModeZone.SpawnLocation\"],\"topLevelLobbyModels\":[\"Lobby_MainModeZone\"],\"scale\":1,\"visuals\":4728,\"visitsUnanchored\":true,\"scripts\":[{\"path\":\"ReplicatedStorage.LobbyConfig\",\"compiled\":true},{\"path\":\"ReplicatedStorage.LobbyCollision\",\"compiled\":true},{\"path\":\"ReplicatedStorage.PlayerData\",\"compiled\":true},{\"path\":\"ReplicatedStorage.ArenaSelectionUI\",\"compiled\":true},{\"path\":\"ReplicatedStorage.ArenaTravelClient\",\"compiled\":true},{\"path\":\"ServerScriptService.ArenaTravelService\",\"compiled\":true},{\"path\":\"ServerScriptService.LobbyCollisionService\",\"compiled\":true},{\"path\":\"StarterPlayer.StarterPlayerScripts.LobbyClient\",\"compiled\":true},{\"path\":\"StarterPlayer.StarterPlayerScripts.PackShopClient\",\"compiled\":true},{\"path\":\"StarterPlayer.StarterPlayerScripts.LobbyDestinations\",\"compiled\":true},{\"path\":\"StarterPlayer.StarterPlayerScripts.ArenaCameraController\",\"compiled\":true}],\"freePlayGated\":true,\"state\":\"Integrated\",\"colliders\":1599}"
+      }
+    ],
+    "isError": false
+  },
+  "playerWalkthrough": false,
+  "currentScale": 1,
+  "screenPreviewed": true
+}

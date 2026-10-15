@@ -1,0 +1,120 @@
+{
+  "pet": "Swordfish",
+  "mesh_count": 22,
+  "base_meshes": 19,
+  "vfx_meshes": 3,
+  "triangles": 3064,
+  "one_material_each": true,
+  "parts": [
+    {
+      "name": "Head_Pearl_Cube.012",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Face_Cyan_Panel.009",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Pearl_Cap.013",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Cyan_Stripe.012",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Top.012",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Bottom.012",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_L_Violet_Temple.012",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_L_Ink.012",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_L_White_Glint.013",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Visor_R_Violet_Temple.012",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_R_Ink.012",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_R_White_Glint.013",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Helmet_Yellow_Bolt.012",
+      "recolour": "Yellow",
+      "triangles": 164
+    },
+    {
+      "name": "Dorsal_Cyan_Fin.001",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Fin_-1_Pearl.001",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Fin_1_Pearl.001",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Tail_L_Cyan.001",
+      "recolour": "Cyan",
+      "triangles": 116
+    },
+    {
+      "name": "Tail_R_Cyan.001",
+      "recolour": "Cyan",
+      "triangles": 116
+    },
+    {
+      "name": "Sword_Silver_Rostrum",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_Cyan_Underlight.013",
+      "recolour": "Glow",
+      "triangles": 108
+    },
+    {
+      "name": "VFX_-1_SpeedRail.012",
+      "recolour": "Glow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_1_SpeedRail.012",
+      "recolour": "Glow",
+      "triangles": 140
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+PLAYGROUND CLASSICS — PURCHASE SETUP
+
+Create these repeatable Developer Products:
+Donation 50 — 50 Robux
+Donation 100 — 100 Robux
+Donation 250 — 250 Robux
+Donation 1,000 — 1,000 Robux
+5,000 Coins — 49 Robux
+10,000 Coins — 99 Robux
+25,000 Coins — 249 Robux
+50,000 Coins — 499 Robux
+100,000 Coins — 999 Robux
+
+Configured permanent Game Passes (2026-10-07):
+VIP — ID 2016470307 — 799 Robux base price: 3x earned coins, 2x earned XP, VIP overhead label.
+2x Coins — ID 2014580485 — 249 Robux base price: 2x earned coins.
+2x XP — ID 2013962477 — 199 Robux base price: 2x earned XP.
+The shop fetches Roblox's live price; it may differ from the base price.
+
+VIP includes the boosts. Bonuses use the highest applicable multiplier; they do not multiply together. Boosts do not multiply purchased coin packs or admin grants.
+
+Store product IDs in ReplicatedStorage.PlaygroundCommerce.Coin5000, Coin10000, Coin25000, Coin50000 and Coin100000.
+Store game pass IDs in ReplicatedStorage.PlaygroundCommerce.VIP, DoubleCoins and DoubleXP.
+Store donation product IDs in ReplicatedStorage.PlaygroundDonationProducts.Donation50, Donation100, Donation250 and Donation1000.
+The three game pass IDs are configured. Unconfigured Developer Products still use 0 and remain unavailable.
+
+Additional donation amounts require additional Developer Products. Add an IntValue to PlaygroundDonationProducts containing the product ID. The Other Amount field matches the player's current Roblox price; it cannot set an arbitrary checkout price.
+Never reuse an existing ID for a different reward, since pending receipts must continue to receive their original reward.
+
+VIP COSMETICS HANDOFF
+VIP dragon: editable Blender model, rig and flight animations completed in PlaygroundClassics-VIPDragon-20261007; Roblox import and VIP ownership hookup remain outstanding.
+VIP bat: model later, then connect ownership to VIP.
+Pond fishing boosts are implemented separately; each doubles the player's current earned rate for its remaining duration.

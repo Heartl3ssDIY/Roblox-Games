@@ -1,0 +1,42 @@
+{
+  "studioId": "e663b018-d783-41e1-b21a-0d9753f64568",
+  "mode": "Edit",
+  "fixtureRemoved": true,
+  "checks": 1198,
+  "passed": true,
+  "failures": [],
+  "classrooms": 32,
+  "classroomsPerFloor": 16,
+  "toilets": 4,
+  "lockers": 44,
+  "staircaseUnchanged": true,
+  "schoolLength": 350,
+  "schoolFrontWallLocalZ": -214,
+  "schoolRearWallLocalZ": 136,
+  "productionInstalled": false,
+  "newRoomCentersZ": [
+    -56,
+    -95,
+    -134,
+    -173
+  ],
+  "newRoomIds": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "note": "All existing classroom furniture and both stair assemblies preserve their transforms. Front facade, vestibule furnishings, entrance grounds, seeker spawns shift156studs toward negativeZ. SchoolOriginCFrame unchanged. Asset replacement must run after map expansion."
+}

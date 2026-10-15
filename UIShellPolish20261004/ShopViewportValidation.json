@@ -1,0 +1,696 @@
+{
+  "mode": "Studio Edit only",
+  "cause": "After asset delivery recovered, the cached viewport renderer took additional time to display the newly available textures. All eight visible cards had recovered before any preview rebind.",
+  "cameraBounds": "All twelve authored cameras, model bounds, visibility, transparency and Z order valid. Mesh and texture fetch status Success for every preview.",
+  "action": "Backed up and rebound WorldModel and CurrentCamera on Slots01–05. No changes to geometry, asset IDs, layout, or controller source.",
+  "backup": "ServerStorage.ShopViewportRefreshBackup20261004",
+  "screenshot": "Shop-All-Bats-Recovered.jpg",
+  "playStarted": false,
+  "panelsRestoreOwner": "root: _G.UIShellReviewState",
+  "cards": [
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot01.Preview.PreviewCamera",
+        "frame": "3.10049009, 1.24019599, -6.20098019, -0.89442718, -0.0787499174, 0.440225452, 0, 0.984374046, 0.176090166, -0.44721359, 0.157499835, -0.880450904",
+        "fov": 35
+      },
+      "slot": 1,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b01-starter-slugger.001",
+              "position": "-9.531504474580288e-09, 0, -9.546056389808655e-09",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://132973721614249",
+              "mesh": "rbxassetid://88021769484443",
+              "size": "0.619025468826294, 3.6629998683929443, 0.6195712685585022"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "-9.531504474580288e-09, 0, -9.546056389808655e-09",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://88021769484443",
+              "size": "0.631025493144989, 3.674999952316284, 0.6315712928771973"
+            }
+          ],
+          "center": "0, -0.000010967254638671875, 0",
+          "pivot": "0.000232934952, -1.37849998, -0.000184059143, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.631025493144989, 3.674978256225586, 0.6315712928771973"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot02.Preview.PreviewCamera",
+        "frame": "3.01743031, 1.20697212, -6.03486061, -0.89442718, -0.0787499249, 0.440225452, 0, 0.984374046, 0.176090181, -0.44721359, 0.15749985, -0.880450904",
+        "fov": 35
+      },
+      "slot": 2,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b02-schoolyard-alloy.001",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://134489509348065",
+              "mesh": "rbxassetid://119415605380578",
+              "size": "0.6460000276565552, 3.548999786376953, 0.6460000276565552"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://119415605380578",
+              "size": "0.6580000519752502, 3.560999870300293, 0.6580000519752502"
+            }
+          ],
+          "center": "0, 2.384185791015625e-07, 0",
+          "pivot": "0, -1.31849957, -4.76837158e-07, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.6580000519752502, 3.561000347137451, 0.6580000519752502"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot03.Preview.PreviewCamera",
+        "frame": "3.01535106, 1.2061404, -6.03070211, -0.894427121, -0.07874991, 0.440225422, 0, 0.984373927, 0.176090166, -0.44721356, 0.15749982, -0.880450845",
+        "fov": 35
+      },
+      "slot": 3,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b03-varsity-victory.001",
+              "position": "9.313225746154785e-10, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://111459901787397",
+              "mesh": "rbxassetid://135199210937290",
+              "size": "0.6634423732757568, 3.5360000133514404, 0.6833077073097229"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "9.313225746154785e-10, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://135199210937290",
+              "size": "0.6754423975944519, 3.5480000972747803, 0.695307731628418"
+            }
+          ],
+          "center": "0, -2.384185791015625e-07, 0",
+          "pivot": "0.00872114301, -1.31200027, 0.0186533928, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.6754423975944519, 3.547999858856201, 0.695307731628418"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot04.Preview.PreviewCamera",
+        "frame": "3.01781321, 1.20712531, -6.03562641, -0.89442718, -0.0787499249, 0.440225452, 0, 0.984374046, 0.176090181, -0.44721359, 0.15749985, -0.880450904",
+        "fov": 35
+      },
+      "slot": 4,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b04-street-cone.001",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://114508295082588",
+              "mesh": "rbxassetid://129049140490974",
+              "size": "0.6814614534378052, 3.5360000133514404, 0.6814614534378052"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://129049140490974",
+              "size": "0.6934614777565002, 3.5480000972747803, 0.6934614777565002"
+            }
+          ],
+          "center": "0, -2.384185791015625e-07, 0",
+          "pivot": "0, -1.31200027, -4.76837158e-07, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.6934614777565002, 3.547999858856201, 0.6934614777565002"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot05.Preview.PreviewCamera",
+        "frame": "3.02327943, 1.20931184, -6.04655886, -0.89442718, -0.0787499323, 0.440225452, 0, 0.984374046, 0.176090196, -0.44721359, 0.157499865, -0.880450904",
+        "fov": 35
+      },
+      "slot": 5,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b05-bubblegum-bonker.001",
+              "position": "-1.1175870895385742e-08, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://83727795645779",
+              "mesh": "rbxassetid://85250143161541",
+              "size": "0.7179999947547913, 3.5409998893737793, 0.6532144546508789"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "-1.1175870895385742e-08, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://85250143161541",
+              "size": "0.7300000190734863, 3.552999973297119, 0.665214478969574"
+            }
+          ],
+          "center": "0.000016301870346069336, 0.000010728836059570312, 0",
+          "pivot": "0.0359999537, -1.30949974, 0.00360679626, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.729967474937439, 3.552978038787842, 0.665214478969574"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot06.Preview.PreviewCamera",
+        "frame": "3.07290125, 1.22916055, -6.1458025, -0.89442718, -0.0787499249, 0.440225452, 0, 0.984374046, 0.176090181, -0.44721359, 0.15749985, -0.880450904",
+        "fov": 35
+      },
+      "slot": 6,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b06-mudslinger.001",
+              "position": "0, -1.1920928955078125e-07, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://133440597267197",
+              "mesh": "rbxassetid://86692877273517",
+              "size": "0.7259999513626099, 3.5879998207092285, 0.7260000705718994"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "0, -1.1920928955078125e-07, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://86692877273517",
+              "size": "0.7379999756813049, 3.5999999046325684, 0.7380000948905945"
+            }
+          ],
+          "center": "0, -1.1920928955078125e-07, 0",
+          "pivot": "0, -1.33799934, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.7379999756813049, 3.5999996662139893, 0.7380000948905945"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot07.Preview.PreviewCamera",
+        "frame": "3.0456388, 1.21825552, -6.0912776, -0.894427121, -0.07874991, 0.440225422, 0, 0.984373927, 0.176090166, -0.44721356, 0.15749982, -0.880450845",
+        "fov": 35
+      },
+      "slot": 7,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b07-heat-coil.001",
+              "position": "0, -1.1920928955078125e-07, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://101432578314733",
+              "mesh": "rbxassetid://135893960365771",
+              "size": "0.7609999775886536, 3.5385000705718994, 0.7609999775886536"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "0, -1.1920928955078125e-07, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://135893960365771",
+              "size": "0.7730000019073486, 3.5505001544952393, 0.7730000019073486"
+            }
+          ],
+          "center": "0, -1.1920928955078125e-07, 0",
+          "pivot": "0, -1.31324959, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.7730000019073486, 3.5505001544952393, 0.7730000019073486"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot08.Preview.PreviewCamera",
+        "frame": "3.06490588, 1.22596228, -6.12981176, -0.89442718, -0.0787499174, 0.440225452, 0, 0.984374046, 0.176090166, -0.44721359, 0.157499835, -0.880450904",
+        "fov": 35
+      },
+      "slot": 8,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b08-frostbite.001",
+              "position": "0, -1.1920928955078125e-07, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://109918988991717",
+              "mesh": "rbxassetid://111805990811896",
+              "size": "0.6957692503929138, 3.5899999141693115, 0.695769190788269"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "0, -1.1920928955078125e-07, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://111805990811896",
+              "size": "0.7077692747116089, 3.6019999980926514, 0.7077692151069641"
+            }
+          ],
+          "center": "0, 0.000010728836059570312, 0",
+          "pivot": "0, -1.33500004, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.7077692747116089, 3.601977825164795, 0.7077692151069641"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot09.Preview.PreviewCamera",
+        "frame": "3.01113153, 1.20445263, -6.02226305, -0.89442718, -0.0787499249, 0.440225452, 0, 0.984374046, 0.176090181, -0.44721359, 0.15749985, -0.880450904",
+        "fov": 35
+      },
+      "slot": 9,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b09-thunder-circuit.001",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://74757679387985",
+              "mesh": "rbxassetid://118497242489860",
+              "size": "0.6460000276565552, 3.5360000133514404, 0.6727467179298401"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://118497242489860",
+              "size": "0.6580000519752502, 3.5480000972747803, 0.6847467422485352"
+            }
+          ],
+          "center": "0, -2.384185791015625e-07, 0",
+          "pivot": "0, -1.31200027, 0.0133724213, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.6580000519752502, 3.547999858856201, 0.6847467422485352"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot10.Preview.PreviewCamera",
+        "frame": "2.97318006, 1.18927205, -5.94636011, -0.89442718, -0.0787499249, 0.440225452, 0, 0.984374046, 0.176090181, -0.44721359, 0.15749985, -0.880450904",
+        "fov": 35
+      },
+      "slot": 10,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b10-pixel-party.001",
+              "position": "0, -1.1920928955078125e-07, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://101224587624554",
+              "mesh": "rbxassetid://121780590054021",
+              "size": "0.6399999856948853, 3.505000114440918, 0.5862001180648804"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "0, -1.1920928955078125e-07, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://121780590054021",
+              "size": "0.6520000100135803, 3.517000198364258, 0.5982001423835754"
+            }
+          ],
+          "center": "0, -2.384185791015625e-07, 0",
+          "pivot": "0, -1.29500008, 0.0214996338, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.6520000100135803, 3.5169997215270996, 0.5982001423835754"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot11.Preview.PreviewCamera",
+        "frame": "3.03394961, 1.21357977, -6.06789923, -0.89442718, -0.0787499174, 0.440225452, 0, 0.984374046, 0.176090166, -0.44721359, 0.157499835, -0.880450904",
+        "fov": 35
+      },
+      "slot": 11,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b11-cosmic-orbit.001",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://83518254452734",
+              "mesh": "rbxassetid://129893474331183",
+              "size": "0.731999933719635, 3.5360000133514404, 0.731999933719635"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://129893474331183",
+              "size": "0.7439999580383301, 3.5480000972747803, 0.7439999580383301"
+            }
+          ],
+          "center": "0, -2.384185791015625e-07, 0",
+          "pivot": "0, -1.31200027, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.7439999580383301, 3.547999858856201, 0.7439999580383301"
+        }
+      ],
+      "cardVisible": true
+    },
+    {
+      "cardZ": 23,
+      "camera": {
+        "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot12.Preview.PreviewCamera",
+        "frame": "3.05132055, 1.22052824, -6.10264111, -0.89442718, -0.0787499249, 0.440225452, 0, 0.984374046, 0.176090181, -0.44721359, 0.15749985, -0.880450904",
+        "fov": 35
+      },
+      "slot": 12,
+      "viewport": {
+        "visible": true,
+        "imageTransparency": 0,
+        "imageColor": "1, 1, 1",
+        "ambient": "0.764706, 0.764706, 0.764706",
+        "z": 24,
+        "backgroundTransparency": 1,
+        "position": "{0, 12}, {0, 43}",
+        "absolute": "218, 122",
+        "light": "1, 0.976471, 0.909804"
+      },
+      "models": [
+        {
+          "name": "ItemModel",
+          "parts": [
+            {
+              "textureFetch": "Enum.AssetFetchStatus.Success",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0,
+              "name": "b12-royal-champion.001",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "rbxassetid://111736584200196",
+              "mesh": "rbxassetid://94376685131739",
+              "size": "0.6618250012397766, 3.575000286102295, 0.7174126505851746"
+            },
+            {
+              "textureFetch": "",
+              "localTransparency": 0,
+              "class": "MeshPart",
+              "anchored": true,
+              "transparency": 0.6800000071525574,
+              "name": "PCStudFinish",
+              "position": "0, 0, 0",
+              "meshFetch": "Enum.AssetFetchStatus.Success",
+              "texture": "",
+              "mesh": "rbxassetid://94376685131739",
+              "size": "0.6738250255584717, 3.5870003700256348, 0.7294126749038696"
+            }
+          ],
+          "center": "0, 1.1920928955078125e-07, 0",
+          "pivot": "0, -1.33150005, 0.0277938843, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+          "size": "0.6738250255584717, 3.5870001316070557, 0.7294126749038696"
+        }
+      ],
+      "cardVisible": true
+    }
+  ]
+}

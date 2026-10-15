@@ -1,0 +1,54 @@
+{
+  "id": "M21",
+  "name": "Sticky Honey",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m21-sticky-honey.png",
+  "brief": "One squat amber honey pot with an opaque golden body, navy reinforced rim, fitted cream lid with a chunky yellow knob, broad sculpted honey drips down the shoulder and one simple embossed hexagonal honeycomb emblem on front. A short cream carrying loop attached at side, no loose dipper, no text, no puddle.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m21-sticky-honey.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m21-sticky-honey.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m21-sticky-honey-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m21-sticky-honey.png",
+  "parts": 19,
+  "triangles": 4968,
+  "meshes": 1,
+  "maxMeshTriangles": 4968,
+  "dimensions": [
+    1.8098607063293457,
+    1.499000072479248,
+    1.75
+  ],
+  "boundsMin": [
+    -0.7300000190734863,
+    -0.7689999938011169,
+    0.05999999865889549
+  ],
+  "boundsMax": [
+    1.0798606872558594,
+    0.7300000190734863,
+    1.809999942779541
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "Grip": [
+      0.8500000238418579,
+      0.10000000149011612,
+      1.0199999809265137
+    ],
+    "Spout": [
+      0.0,
+      0.0,
+      1.3300000429153442
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.8098607063293457,
+    1.499000072479248,
+    1.75
+  ]
+}

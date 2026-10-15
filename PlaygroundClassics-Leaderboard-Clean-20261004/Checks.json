@@ -1,0 +1,104 @@
+{
+  "assets": [
+    {
+      "file": "PNG/board-background.png",
+      "size": [
+        1475,
+        2048
+      ],
+      "transparent": true
+    },
+    {
+      "file": "PNG/header-background.png",
+      "size": [
+        2048,
+        383
+      ],
+      "transparent": true
+    },
+    {
+      "file": "PNG/player-row.png",
+      "size": [
+        2048,
+        204
+      ],
+      "transparent": true
+    },
+    {
+      "file": "PNG/rank-gold.png",
+      "size": [
+        188,
+        188
+      ],
+      "transparent": true
+    },
+    {
+      "file": "PNG/rank-silver.png",
+      "size": [
+        188,
+        188
+      ],
+      "transparent": true
+    },
+    {
+      "file": "PNG/rank-bronze.png",
+      "size": [
+        188,
+        188
+      ],
+      "transparent": true
+    },
+    {
+      "file": "PNG/rank-fourth-onwards.png",
+      "size": [
+        188,
+        188
+      ],
+      "transparent": true
+    },
+    {
+      "file": "PNG/avatar-border.png",
+      "size": [
+        212,
+        212
+      ],
+      "transparent": true
+    },
+    {
+      "file": "Resizable/row-resizable.png",
+      "size": [
+        512,
+        320
+      ],
+      "transparent": true
+    },
+    {
+      "file": "Resizable/board-resizable.png",
+      "size": [
+        512,
+        320
+      ],
+      "transparent": true
+    },
+    {
+      "file": "Resizable/header-resizable.png",
+      "size": [
+        512,
+        320
+      ],
+      "transparent": true
+    },
+    {
+      "file": "Optional-Fixed-Header/highest-level-lettering.png",
+      "size": [
+        1168,
+        256
+      ],
+      "transparent": true
+    }
+  ],
+  "starTransparent": true,
+  "avatarCenterTransparent": true,
+  "liveStudioTest": false,
+  "liveFigmaTest": false
+}

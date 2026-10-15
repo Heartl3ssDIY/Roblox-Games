@@ -1,0 +1,30 @@
+{
+  "edit": {
+    "checks": [
+      "Sample platform becomes Halloween",
+      "Sample wheel receives bone-colored teeth",
+      "Sample placement, wheel pivots, collision and scripts unchanged",
+      "Sample restores original colors exactly",
+      "All course themes preserve gameplay geometry and unrelated objects",
+      "Applying Halloween twice is safe",
+      "Every themed mesh can restore Normal",
+      "All original per-instance colors restore exactly",
+      "Unknown themes rejected without changes"
+    ],
+    "courseCount": 5,
+    "passed": true,
+    "themedParts": 6020
+  },
+  "live": {
+    "passed": true,
+    "checks": [
+      "Existing wheel rotation runs with Halloween active",
+      "Normal switch updates live wheel",
+      "Halloween switch updates live wheel",
+      "Theme switching does not interrupt rotation",
+      "Wheel contact flags unchanged",
+      "Newly added course mesh inherits active theme",
+      "Runtime applies all expected parts"
+    ]
+  }
+}

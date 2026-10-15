@@ -1,0 +1,764 @@
+{
+  "models": [
+    {
+      "name": "Small",
+      "file": "Parcel_Small.fbx",
+      "dimensions_xyz_blender": [
+        1.5,
+        1.08,
+        0.72
+      ],
+      "triangles": 1023,
+      "parts": [
+        {
+          "name": "ParcelSmall_Body",
+          "part": "Body",
+          "rgb": [
+            185,
+            141,
+            87
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": "Textures/Parcel_Cardboard.001.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelSmall_TopFlaps",
+          "part": "TopFlaps",
+          "rgb": [
+            202,
+            159,
+            104
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": "Textures/Parcel_Flaps.001.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelSmall_PackingTape",
+          "part": "PackingTape",
+          "rgb": [
+            217,
+            182,
+            118
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelSmall_TapeJoin",
+          "part": "TapeJoin",
+          "rgb": [
+            171,
+            135,
+            79
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelSmall_ShippingLabels",
+          "part": "ShippingLabels",
+          "rgb": [
+            243,
+            239,
+            225
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelSmall_ShippingInk",
+          "part": "ShippingInk",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 867,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelSmall_HandlingMarks",
+          "part": "HandlingMarks",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48,
+          "texture": null,
+          "normal": null
+        }
+      ],
+      "rarity": "Regular",
+      "fragile": false
+    },
+    {
+      "name": "Medium",
+      "file": "Parcel_Medium.fbx",
+      "dimensions_xyz_blender": [
+        1.9,
+        1.55,
+        1.45
+      ],
+      "triangles": 1039,
+      "parts": [
+        {
+          "name": "ParcelMedium_Body",
+          "part": "Body",
+          "rgb": [
+            185,
+            141,
+            87
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": "Textures/Parcel_Cardboard.001.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelMedium_TopFlaps",
+          "part": "TopFlaps",
+          "rgb": [
+            202,
+            159,
+            104
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": "Textures/Parcel_Flaps.001.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelMedium_PackingTape",
+          "part": "PackingTape",
+          "rgb": [
+            217,
+            182,
+            118
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelMedium_TapeJoin",
+          "part": "TapeJoin",
+          "rgb": [
+            171,
+            135,
+            79
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelMedium_ShippingLabels",
+          "part": "ShippingLabels",
+          "rgb": [
+            243,
+            239,
+            225
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelMedium_ShippingInk",
+          "part": "ShippingInk",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 883,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelMedium_HandlingMarks",
+          "part": "HandlingMarks",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48,
+          "texture": null,
+          "normal": null
+        }
+      ],
+      "rarity": "Regular",
+      "fragile": false
+    },
+    {
+      "name": "Large",
+      "file": "Parcel_Large.fbx",
+      "dimensions_xyz_blender": [
+        2.25,
+        1.9,
+        2.6
+      ],
+      "triangles": 1040,
+      "parts": [
+        {
+          "name": "ParcelLarge_Body",
+          "part": "Body",
+          "rgb": [
+            185,
+            141,
+            87
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": "Textures/Parcel_Cardboard.001.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelLarge_TopFlaps",
+          "part": "TopFlaps",
+          "rgb": [
+            202,
+            159,
+            104
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": "Textures/Parcel_Flaps.001.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelLarge_PackingTape",
+          "part": "PackingTape",
+          "rgb": [
+            217,
+            182,
+            118
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelLarge_TapeJoin",
+          "part": "TapeJoin",
+          "rgb": [
+            171,
+            135,
+            79
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelLarge_ShippingLabels",
+          "part": "ShippingLabels",
+          "rgb": [
+            243,
+            239,
+            225
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelLarge_ShippingInk",
+          "part": "ShippingInk",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 884,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelLarge_HandlingMarks",
+          "part": "HandlingMarks",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48,
+          "texture": null,
+          "normal": null
+        }
+      ],
+      "rarity": "Regular",
+      "fragile": false
+    },
+    {
+      "name": "Fragile",
+      "file": "Parcel_Fragile.fbx",
+      "dimensions_xyz_blender": [
+        1.9,
+        1.55,
+        1.45
+      ],
+      "triangles": 1307,
+      "parts": [
+        {
+          "name": "ParcelFragile_Body",
+          "part": "Body",
+          "rgb": [
+            185,
+            141,
+            87
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": "Textures/Parcel_Cardboard.001.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelFragile_TopFlaps",
+          "part": "TopFlaps",
+          "rgb": [
+            202,
+            159,
+            104
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": "Textures/Parcel_Flaps.001.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelFragile_PackingTape",
+          "part": "PackingTape",
+          "rgb": [
+            217,
+            182,
+            118
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelFragile_TapeJoin",
+          "part": "TapeJoin",
+          "rgb": [
+            171,
+            135,
+            79
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelFragile_ShippingLabels",
+          "part": "ShippingLabels",
+          "rgb": [
+            243,
+            239,
+            225
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelFragile_ShippingInk",
+          "part": "ShippingInk",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 872,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelFragile_HandlingMarks",
+          "part": "HandlingMarks",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelFragile_FragileSticker",
+          "part": "FragileSticker",
+          "rgb": [
+            215,
+            48,
+            41
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelFragile_FragilePrint",
+          "part": "FragilePrint",
+          "rgb": [
+            250,
+            243,
+            226
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 123,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelFragile_Outline",
+          "part": "Outline",
+          "rgb": [
+            215,
+            48,
+            41
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 144,
+          "texture": null,
+          "normal": null
+        }
+      ],
+      "rarity": "Regular",
+      "fragile": true
+    },
+    {
+      "name": "Gold",
+      "file": "Parcel_Gold.fbx",
+      "dimensions_xyz_blender": [
+        1.9,
+        1.55,
+        1.45
+      ],
+      "triangles": 1169,
+      "parts": [
+        {
+          "name": "ParcelGold_Body",
+          "part": "Body",
+          "rgb": [
+            224,
+            162,
+            43
+          ],
+          "material": "Metal",
+          "triangles": 12,
+          "texture": "Textures/Parcel_Gold.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelGold_TopFlaps",
+          "part": "TopFlaps",
+          "rgb": [
+            242,
+            193,
+            71
+          ],
+          "material": "Metal",
+          "triangles": 24,
+          "texture": "Textures/Parcel_GoldTop.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelGold_PackingTape",
+          "part": "PackingTape",
+          "rgb": [
+            217,
+            182,
+            118
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelGold_TapeJoin",
+          "part": "TapeJoin",
+          "rgb": [
+            171,
+            135,
+            79
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelGold_ShippingLabels",
+          "part": "ShippingLabels",
+          "rgb": [
+            243,
+            239,
+            225
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelGold_ShippingInk",
+          "part": "ShippingInk",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 869,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelGold_HandlingMarks",
+          "part": "HandlingMarks",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelGold_GlowBorder",
+          "part": "GlowBorder",
+          "rgb": [
+            255,
+            194,
+            34
+          ],
+          "material": "Neon",
+          "triangles": 144,
+          "texture": null,
+          "normal": null
+        }
+      ],
+      "rarity": "Gold",
+      "fragile": false
+    },
+    {
+      "name": "Rainbow",
+      "file": "Parcel_Rainbow.fbx",
+      "dimensions_xyz_blender": [
+        1.9,
+        1.55,
+        1.45
+      ],
+      "triangles": 1215,
+      "parts": [
+        {
+          "name": "ParcelRainbow_Body",
+          "part": "Body",
+          "rgb": [
+            168,
+            99,
+            214
+          ],
+          "material": "Metal",
+          "triangles": 12,
+          "texture": "Textures/Parcel_Rainbow.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelRainbow_TopFlaps",
+          "part": "TopFlaps",
+          "rgb": [
+            196,
+            135,
+            232
+          ],
+          "material": "Metal",
+          "triangles": 24,
+          "texture": "Textures/Parcel_RainbowTop.png",
+          "normal": "Textures/Cardboard_Normal.png"
+        },
+        {
+          "name": "ParcelRainbow_PackingTape",
+          "part": "PackingTape",
+          "rgb": [
+            217,
+            182,
+            118
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 36,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_TapeJoin",
+          "part": "TapeJoin",
+          "rgb": [
+            171,
+            135,
+            79
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 12,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_ShippingLabels",
+          "part": "ShippingLabels",
+          "rgb": [
+            243,
+            239,
+            225
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_ShippingInk",
+          "part": "ShippingInk",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 915,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_HandlingMarks",
+          "part": "HandlingMarks",
+          "rgb": [
+            54,
+            46,
+            36
+          ],
+          "material": "SmoothPlastic",
+          "triangles": 48,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_GlowBorder",
+          "part": "GlowBorder",
+          "rgb": [
+            255,
+            62,
+            86
+          ],
+          "material": "Neon",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_GlowBorder.001",
+          "part": "GlowBorder",
+          "rgb": [
+            255,
+            157,
+            48
+          ],
+          "material": "Neon",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_GlowBorder.002",
+          "part": "GlowBorder",
+          "rgb": [
+            251,
+            233,
+            66
+          ],
+          "material": "Neon",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_GlowBorder.003",
+          "part": "GlowBorder",
+          "rgb": [
+            78,
+            227,
+            137
+          ],
+          "material": "Neon",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_GlowBorder.004",
+          "part": "GlowBorder",
+          "rgb": [
+            51,
+            183,
+            255
+          ],
+          "material": "Neon",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        },
+        {
+          "name": "ParcelRainbow_GlowBorder.005",
+          "part": "GlowBorder",
+          "rgb": [
+            196,
+            84,
+            253
+          ],
+          "material": "Neon",
+          "triangles": 24,
+          "texture": null,
+          "normal": null
+        }
+      ],
+      "rarity": "Rainbow",
+      "fragile": false
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "characterAttributes": {
+    "PCToyHeld": "Exact equipped item ID M01–M15; empty/nil when absent."
+  },
+  "playerAttributes": {
+    "PCToyAction": "Action name below",
+    "PCToyActionAt": "workspace:GetServerTimeNow() when accepted",
+    "PCToyActionItem": "Exact matching equipped item ID"
+  },
+  "cleanup": "Clear all three player action attributes on unequip, respawn and round entry; clear character PCToyHeld. No tool access in animation client.",
+  "actions": [
+    {
+      "item": "M01",
+      "action": "Kick",
+      "duration": 1.1,
+      "contactAt": 0.6,
+      "placeAt": 0.24
+    },
+    {
+      "item": "M02",
+      "action": "Lob",
+      "duration": 0.85,
+      "contactAt": 0.34
+    },
+    {
+      "item": "M03",
+      "action": "Bonk",
+      "duration": 0.58,
+      "contactAt": 0.23
+    },
+    {
+      "item": "M04",
+      "action": "BarrelThrow",
+      "duration": 1.1,
+      "contactAt": 0.52
+    },
+    {
+      "item": "M05",
+      "action": "Drink",
+      "duration": 1.3,
+      "contactAt": 0.82
+    },
+    {
+      "item": "M06",
+      "action": "Drink",
+      "duration": 1.3,
+      "contactAt": 0.82
+    },
+    {
+      "item": "M07",
+      "action": "Drink",
+      "duration": 1.3,
+      "contactAt": 0.82,
+      "alternateAction": "Aim",
+      "alternateDuration": 0.8,
+      "alternateContactAt": 0.35
+    },
+    {
+      "item": "M08",
+      "action": "Shake",
+      "duration": 1.05,
+      "contactAt": 0.65
+    },
+    {
+      "item": "M10",
+      "action": "Aim",
+      "duration": 0.8,
+      "contactAt": 0.35
+    },
+    {
+      "item": "M11",
+      "action": "Throw",
+      "duration": 0.78,
+      "contactAt": 0.3
+    },
+    {
+      "item": "M12",
+      "action": "Throw",
+      "duration": 0.78,
+      "contactAt": 0.3
+    },
+    {
+      "item": "M13",
+      "action": "Throw",
+      "duration": 0.78,
+      "contactAt": 0.3
+    },
+    {
+      "item": "M14",
+      "action": "Carry",
+      "duration": 0
+    },
+    {
+      "item": "M15",
+      "action": "Place",
+      "duration": 1,
+      "contactAt": 0.46
+    }
+  ],
+  "deferred": [
+    "M09"
+  ],
+  "constraints": [
+    "Lobby only; no poses during any game participation or ragdoll/death.",
+    "Bat animations take priority and remain unchanged.",
+    "Toy actions layer over locomotion; no root CFrame, velocity, joint C0/C1 or Tool grip changes."
+  ]
+}

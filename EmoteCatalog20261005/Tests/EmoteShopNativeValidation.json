@@ -1,0 +1,12 @@
+{
+  "cards": 12,
+  "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+  "activeEmotes": 31,
+  "sandboxed": true,
+  "passed": 40,
+  "exactLiveCapabilities": true,
+  "installerChecks": 5,
+  "playStarted": false,
+  "liveChanges": false,
+  "fixtureRemoved": true
+}

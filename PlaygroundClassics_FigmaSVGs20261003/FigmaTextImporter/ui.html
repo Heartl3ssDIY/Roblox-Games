@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { margin: 0; padding: 20px; font: 13px Inter, Arial, sans-serif; color: var(--figma-color-text, #18233e); background: var(--figma-color-bg, #fff); }
+  h1 { font-size: 18px; margin: 0 0 12px; }
+  p { line-height: 1.5; margin: 10px 0; }
+  input { width: 100%; margin: 10px 0; }
+  button { border: 0; border-radius: 8px; font: inherit; padding: 10px 16px; cursor: pointer; }
+  #import { color: #fff; background: #1778ce; }
+  button:disabled { opacity: .45; cursor: default; }
+  .actions { display: flex; gap: 10px; margin-top: 14px; }
+  #status { white-space: pre-wrap; overflow: auto; max-height: 138px; font-size: 12px; line-height: 1.45; border-radius: 8px; padding: 10px; background: var(--figma-color-bg-secondary, #eef3f5); }
+  .note { font-size: 11px; opacity: .8; }
+</style>
+</head>
+<body>
+<h1>Editable SVG text</h1>
+<p>Choose Playground Classics SVGs. Vector shapes and editable text will be added to your current page when you click Import.</p>
+<input id="files" type="file" accept=".svg,image/svg+xml" multiple>
+<p class="note">Files stay local. Missing Luckiest Guy, Fredoka One or Arimo fonts fall back to Inter, with a report.</p>
+<div id="status" role="status" aria-live="polite">No files selected.</div>
+<div class="actions">
+  <button id="import" disabled>Import</button>
+  <button id="close">Close</button>
+</div>
+<script>
+const input = document.getElementById("files");
+const importButton = document.getElementById("import");
+const closeButton = document.getElementById("close");
+const status = document.getElementById("status");
+let chosen = [];
+let busy = false;
+let selectionVersion = 0;
+
+function svgDimension(root, viewBox, index, attribute) {
+  if (viewBox.length === 4 && Number.isFinite(viewBox[index]) && viewBox[index] > 0) return viewBox[index];
+  const value = parseFloat(root.getAttribute(attribute));
+  return Number.isFinite(value) && value > 0 ? value : attribute === "width" ? 1366 : 767;
+}
+
+function parseFile(name, source) {
+  if (/<!DOCTYPE|<!ENTITY/i.test(source)) throw new Error("SVG declarations are unsupported.");
+  const document = new DOMParser().parseFromString(source, "image/svg+xml");
+  if (document.querySelector("parsererror") || document.documentElement.localName !== "svg") throw new Error("Invalid SVG.");
+  const root = document.documentElement;
+  const metadata = document.getElementById("playground-text-layers");
+  if (!metadata) throw new Error("This SVG has no Playground editable text metadata. Drag it into Figma directly instead.");
+  const data = JSON.parse(metadata.textContent);
+  if (data.version !== 1 || !Array.isArray(data.texts)) throw new Error("Unsupported editable text metadata.");
+  const viewBox = (root.getAttribute("viewBox") || "").trim().split(/[\s,]+/).map(Number);
+  const width = svgDimension(root, viewBox, 2, "width");
+  const height = svgDimension(root, viewBox, 3, "height");
+  if (viewBox.length === 4 && (viewBox[0] !== 0 || viewBox[1] !== 0)) throw new Error("This helper expects a zero-origin SVG viewport.");
+  root.setAttribute("width", String(width));
+  root.setAttribute("height", String(height));
+  root.setAttribute("viewBox", "0 0 " + width + " " + height);
+  root.querySelectorAll("text, script, foreignObject, metadata").forEach(function (node) { node.remove(); });
+  root.querySelectorAll("*").forEach(function (node) {
+    Array.from(node.attributes).forEach(function (attribute) {
+      if (/^on/i.test(attribute.name)) node.removeAttribute(attribute.name);
+      if ((attribute.localName === "href" || attribute.name === "src") && !attribute.value.startsWith("#") && !attribute.value.startsWith("data:image/")) {
+        node.removeAttributeNS(attribute.namespaceURI, attribute.localName);
+      }
+    });
+  });
+  const boundsName = "__playground_import_viewport_bounds__";
+  const bounds = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  bounds.setAttribute("id", boundsName);
+  bounds.setAttribute("x", "0");
+  bounds.setAttribute("y", "0");
+  bounds.setAttribute("width", String(width));
+  bounds.setAttribute("height", String(height));
+  bounds.setAttribute("fill", "#fe00fd");
+  root.insertBefore(bounds, root.firstChild);
+  return {
+    name: name,
+    svg: new XMLSerializer().serializeToString(root),
+    texts: data.texts,
+    boundsName: boundsName,
+    width: width,
+    height: height
+  };
+}
+
+input.addEventListener("change", async function () {
+  const version = ++selectionVersion;
+  chosen = [];
+  importButton.disabled = true;
+  const files = Array.from(input.files || []);
+  if (!files.length) { status.textContent = "No files selected."; return; }
+  if (files.length > 250) { status.textContent = "Choose up to 250 SVGs per batch."; return; }
+  if (files.reduce(function (sum, file) { return sum + file.size; }, 0) > 50 * 1024 * 1024) {
+    status.textContent = "Keep each batch under 50 MB.";
+    return;
+  }
+  const prepared = [];
+  const failures = [];
+  status.textContent = "Reading local files...";
+  for (const file of files) {
+    try { prepared.push(parseFile(file.name, await file.text())); }
+    catch (error) { failures.push(file.name + ": " + String(error.message || error)); }
+  }
+  if (selectionVersion !== version) return;
+  chosen = prepared;
+  const labels = chosen.reduce(function (sum, item) { return sum + item.texts.length; }, 0);
+  status.textContent = chosen.length + " SVGs ready; " + labels + " editable labels." + (failures.length ? "\n\nSkipped:\n" + failures.join("\n") : "");
+  importButton.disabled = !chosen.length;
+});
+
+importButton.addEventListener("click", function () {
+  if (busy || !chosen.length) return;
+  busy = true;
+  importButton.disabled = true;
+  input.disabled = true;
+  closeButton.disabled = true;
+  status.textContent = "Importing into the current page...";
+  parent.postMessage({ pluginMessage: { type: "import", files: chosen } }, "*");
+});
+
+closeButton.addEventListener("click", function () {
+  if (!busy) parent.postMessage({ pluginMessage: { type: "close" } }, "*");
+});
+
+window.onmessage = function (event) {
+  if (event.source !== parent || !event.data || !event.data.pluginMessage) return;
+  const message = event.data.pluginMessage;
+  if (message.type === "progress") {
+    status.textContent = message.current + " / " + message.total + "\n" + message.message;
+  } else if (message.type === "complete" || message.type === "error") {
+    busy = false;
+    input.disabled = false;
+    closeButton.disabled = false;
+    importButton.disabled = !chosen.length;
+    if (message.type === "error") {
+      status.textContent = message.message;
+    } else {
+      status.textContent = "Imported " + message.imported + " SVGs with " + message.labels + " editable text layers.";
+      if (message.warnings.length) status.textContent += "\n\nFonts:\n" + message.warnings.join("\n");
+      if (message.failures.length) status.textContent += "\n\nSkipped:\n" + message.failures.join("\n");
+    }
+  }
+};
+</script>
+</body>
+</html>

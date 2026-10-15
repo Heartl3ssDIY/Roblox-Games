@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"loaded\":true,\"usesFreshCatalog\":true,\"result\":{\"ok\":true,\"result\":{\"passed\":true,\"checks\":[\"Real native buttons bind without Selected-property collision\",\"Held marker uses actual Tool catalog ID\",\"Other markers are hidden\",\"Available toy has active USE button\",\"Custom bar suppresses native Backpack\",\"Modal hides custom bar but preserves Backpack suppression\",\"Authoritative cooldown disables USE\",\"Pending request disables native slot controls\",\"Pending toy action shows SOON without disabling slot selection\",\"Unheld selection is labelled READY\",\"Round hides bar and restores native Backpack\"]}},\"fixtureRemoved\":true}"
+    }
+  ],
+  "isError": false
+}

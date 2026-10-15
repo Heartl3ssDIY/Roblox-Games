@@ -1,0 +1,51 @@
+local pg=game.Players.LocalPlayer:WaitForChild("PlayerGui")
+local reveal=require(game.ReplicatedStorage.PackReveal)
+local data=require(game.ReplicatedStorage.PlayerData)
+local units=require(game.ReplicatedStorage.UnitData)
+local id="Yumcha"
+local unit=units.get(id)
+assert(unit,"Test unit unavailable")
+local xp,needed=data.unitXpProgress(id,unit.rarity)
+local level=data.unitLevel(id)
+local result={packId="gold",packName="Gold Pack",cards={[id]=3},newUnits={},progress={[id]={before=xp,after=xp+3,needed=needed,level=level}}}
+local done=0
+local function finished() done+=1 end
+local g=pg:WaitForChild("PackRevealGui")
+reveal.play(pg,result,finished)
+reveal.revealNow()
+task.wait(.15)
+reveal.skip()
+assert(g:GetAttribute("RevealPhase")=="Results","Skip did not settle")
+assert(g.Board.Results.Cards["Slot_"..id]["Unit_"..id]:GetAttribute("XPAfter")==xp+3,"Wrong reward data")
+assert(g.Board.Results.Continue.Visible,"Continue missing")
+task.wait(1.2)
+assert(g:GetAttribute("RevealPhase")=="Results","Stale opening callback")
+reveal.close()
+reveal.close()
+assert(done==1,"Callback fired twice")
+reveal.play(pg,result,finished)
+reveal.revealNow()
+local deadline=os.clock()+8
+repeat task.wait(.1) until g:GetAttribute("RevealPhase")=="Results" or os.clock()>deadline
+assert(g:GetAttribute("RevealPhase")=="Results","Sequential reveal did not finish")
+assert(g.Board.Results.Cards["Slot_"..id]["Unit_"..id].XPTrack.Value.Text==(xp+3).."/"..needed.." XP","XP count did not finish")
+reveal.close()
+assert(done==2,"Normal reveal callback")
+local mystery={packId="diamond",packName="Diamond Pack",cards={},newUnits={id}}
+reveal.play(pg,mystery,finished)
+reveal.revealNow()
+local deadline2=os.clock()+5
+repeat task.wait(.05) until g:GetAttribute("RevealPhase")=="Mystery" or os.clock()>deadline2
+assert(g:GetAttribute("RevealPhase")=="Mystery","New unit reveal missing")
+reveal.skip()
+assert(g.Board.Results.Cards["Slot_"..id]["Unit_"..id].NewUnit.Visible,"New unit label missing")
+reveal.close()
+assert(done==3,"Mystery callback")
+assert(data.unitXpProgress(id,unit.rarity)==xp,"Animation changed actual XP")
+reveal.play(pg,{cards={},newUnits={}},finished)
+reveal.skip()
+assert(g.Board.Results.Empty.Visible,"Empty result handling failed")
+reveal.close()
+assert(done==4,"Empty callback")
+g:SetAttribute("PolishTest","PASS")
+print("Pack polish PASS: normal reveal, XP count, skip during seal/mystery, cancellation, empty rewards, callback once, XP unchanged.")

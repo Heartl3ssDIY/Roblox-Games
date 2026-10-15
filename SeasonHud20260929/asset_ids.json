@@ -1,0 +1,13 @@
+{
+  "seasonRankButton": "rbxassetid://97785163338195",
+  "playerStatsButton": "rbxassetid://133107485740743",
+  "leagueIcons": {
+    "Bronze": "rbxassetid://71220103095723",
+    "Silver": "rbxassetid://82737174213366",
+    "Gold": "rbxassetid://110275007352028",
+    "Platinum": "rbxassetid://78599681156713",
+    "Diamond": "rbxassetid://77131391309932"
+  },
+  "hudHoverSound": "rbxassetid://139719503904449",
+  "hudClickSound": "rbxassetid://116995696565929"
+}

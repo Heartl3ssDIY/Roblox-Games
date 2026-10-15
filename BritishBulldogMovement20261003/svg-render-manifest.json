@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Boost.svg",
+    "width": 171,
+    "height": 123,
+    "bytes": 4806
+  },
+  {
+    "name": "dodge-swoosh.svg",
+    "width": 171,
+    "height": 171,
+    "bytes": 4356
+  },
+  {
+    "name": "Dodge.svg",
+    "width": 293,
+    "height": 155,
+    "bytes": 6467
+  },
+  {
+    "name": "level-star.svg",
+    "width": 171,
+    "height": 171,
+    "bytes": 3883
+  },
+  {
+    "name": "Level.svg",
+    "width": 741,
+    "height": 251,
+    "bytes": 21279
+  },
+  {
+    "name": "sprint-lightning.svg",
+    "width": 171,
+    "height": 171,
+    "bytes": 3134
+  },
+  {
+    "name": "Sprint.svg",
+    "width": 1040,
+    "height": 320,
+    "bytes": 23385
+  },
+  {
+    "name": "TopHUD.svg",
+    "width": 1637,
+    "height": 357,
+    "bytes": 47361
+  }
+]

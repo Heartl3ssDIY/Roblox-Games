@@ -1,0 +1,52 @@
+{
+  "id": "P27",
+  "name": "Fern Stegosaurus",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p27-fern-stegosaurus.png",
+  "brief": "A cheerful moss-green baby stegosaurus with a plump low body, small round head, four squat cream-toed legs and two rows of five broad orange leaf-shaped dorsal plates attached to its back. Thick upward-curving tail ends in four short rounded cream spikes. Distinct silhouette, glossy simple surfaces.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p27-fern-stegosaurus.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p27-fern-stegosaurus.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p27-fern-stegosaurus-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p27-fern-stegosaurus.png",
+  "parts": 74,
+  "triangles": 32136,
+  "meshes": 2,
+  "maxMeshTriangles": 18872,
+  "dimensions": [
+    1.940000057220459,
+    4.53497314453125,
+    2.4705147743225098
+  ],
+  "boundsMin": [
+    -0.9700000286102295,
+    -1.88100004196167,
+    0.1499999761581421
+  ],
+  "boundsMax": [
+    0.9700000286102295,
+    2.653973340988159,
+    2.6205146312713623
+  ],
+  "paletteColors": 9,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "FrontLegL",
+    "FrontLegR",
+    "BackLegL",
+    "BackLegR",
+    "Tail"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.940000057220459,
+    4.534973621368408,
+    2.4705147743225098
+  ]
+}

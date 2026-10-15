@@ -1,0 +1,158 @@
+[
+  {
+    "path": "ServerScriptService.PlaygroundEconomyService",
+    "beforeBytes": 58105,
+    "afterBytes": 58586,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundEquipmentService",
+    "beforeBytes": 35535,
+    "afterBytes": 35667,
+    "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | AvatarAppearance | Input | Players | AvatarBehavior"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundToyService",
+    "beforeBytes": 33772,
+    "afterBytes": 33869,
+    "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundLobbySwingService",
+    "beforeBytes": 5286,
+    "afterBytes": 5321,
+    "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundSecretObbyService",
+    "beforeBytes": 9339,
+    "afterBytes": 9436,
+    "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundLobbyBenchService",
+    "beforeBytes": 3544,
+    "afterBytes": 3579,
+    "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundFishingService",
+    "beforeBytes": 6161,
+    "afterBytes": 6258,
+    "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundPushService",
+    "beforeBytes": 6383,
+    "afterBytes": 6494,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere",
+    "beforeBytes": 2753,
+    "afterBytes": 2844,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+    "beforeBytes": 41087,
+    "afterBytes": 41362,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterGui.PlaygroundShell.Controller",
+    "beforeBytes": 31041,
+    "afterBytes": 31441,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterGui.PlaygroundShell.PlayerLevelController",
+    "beforeBytes": 12251,
+    "afterBytes": 12383,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterGui.PlaygroundShell.CommerceController",
+    "beforeBytes": 6966,
+    "afterBytes": 7098,
+    "capabilities": "RunClientScript | AccessOutsideWrite | Basic | UI | Input | RemoteEvent | Players | AssetRead | Monetization | PromptExternalPurchase"
+  },
+  {
+    "path": "StarterGui.PlaygroundToyHotbar.Controller",
+    "beforeBytes": 12071,
+    "afterBytes": 12203,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterGui.PlaygroundEmoteWheel.Controller",
+    "beforeBytes": 16461,
+    "afterBytes": 16593,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterGui.PlaygroundDonations.Controller",
+    "beforeBytes": 5713,
+    "afterBytes": 5845,
+    "capabilities": "RunClientScript | AccessOutsideWrite | Basic | UI | Input | RemoteEvent | Players | AssetRead | Monetization | PromptExternalPurchase"
+  },
+  {
+    "path": "StarterGui.PlaygroundFishingHUD.Controller",
+    "beforeBytes": 3521,
+    "afterBytes": 3653,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterGui.PlaygroundPushControls.Controller",
+    "beforeBytes": 6262,
+    "afterBytes": 6359,
+    "capabilities": "RunClientScript | AccessOutsideWrite | Basic | Physics | UI | Input | RemoteEvent | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterGui.PlaygroundIntermissionHUD.Controller",
+    "beforeBytes": 4416,
+    "afterBytes": 4513,
+    "capabilities": "RunClientScript | AccessOutsideWrite | Basic | Physics | UI | Players"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundBootstrap",
+    "beforeBytes": 7382,
+    "afterBytes": 7718,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | Animation | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AssetRead | Monetization | PromptExternalPurchase | AvatarBehavior"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundCoordinator",
+    "beforeBytes": 23699,
+    "afterBytes": 24909,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "ServerScriptService.PlaygroundAdminService",
+    "beforeBytes": 8730,
+    "afterBytes": 8837,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterGui.PlaygroundAdminPanel.Controller",
+    "beforeBytes": 16745,
+    "afterBytes": 16871,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "ReplicatedStorage.PlaygroundCatalog",
+    "beforeBytes": 26045,
+    "afterBytes": 26077,
+    "capabilities": "RunClientScript | RunServerScript | Basic"
+  },
+  {
+    "path": "StarterGui.PlaygroundSessionControls.Controller",
+    "beforeBytes": 21522,
+    "afterBytes": 21711,
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+    "beforeBytes": 4515,
+    "afterBytes": 4647,
+    "capabilities": "RunClientScript | AccessOutsideWrite | Basic | Physics | Players | AvatarBehavior"
+  }
+]

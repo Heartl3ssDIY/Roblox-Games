@@ -1,0 +1,2232 @@
+{
+  "SA01": {
+    "name": "Student 01 - Maths stack chair",
+    "meshes": {
+      "SA01_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA01_B01_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA01_B01_M03": {
+        "rgb": [
+          182,
+          155,
+          128
+        ],
+        "name": "Sand shell"
+      },
+      "SA01_B01_M04": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      }
+    },
+    "eligible": true
+  },
+  "SA02": {
+    "name": "Student 02 - Science lab stool",
+    "meshes": {
+      "SA02_B01_M01": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      },
+      "SA02_B01_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA02_B01_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA02_B01_M04": {
+        "rgb": [
+          112,
+          80,
+          57
+        ],
+        "name": "Smoked oak"
+      },
+      "SA02_B01_M05": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      }
+    },
+    "eligible": true
+  },
+  "SA03": {
+    "name": "Student 03 - Technology swivel chair",
+    "meshes": {
+      "SA03_B01_M01": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA03_B01_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA03_B01_M03": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA03_B01_M04": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": true
+  },
+  "SA04": {
+    "name": "Student 04 - Art cantilever chair",
+    "meshes": {
+      "SA04_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA04_B01_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA04_B01_M03": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA04_B01_M04": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      }
+    },
+    "eligible": true
+  },
+  "SA05": {
+    "name": "Student 05 - Music posture chair",
+    "meshes": {
+      "SA05_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA05_B01_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA05_B01_M03": {
+        "rgb": [
+          117,
+          99,
+          87
+        ],
+        "name": "Warm taupe upholstery"
+      },
+      "SA05_B01_M04": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA05_B01_M05": {
+        "rgb": [
+          81,
+          72,
+          63
+        ],
+        "name": "Dark upholstery seam"
+      },
+      "SA05_B01_M06": {
+        "rgb": [
+          119,
+          99,
+          84
+        ],
+        "name": "Saddle stitching"
+      }
+    },
+    "eligible": true
+  },
+  "SA06": {
+    "name": "Staff 01 - Task chair",
+    "meshes": {
+      "SA06_B01_M01": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA06_B01_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA06_B01_M03": {
+        "rgb": [
+          183,
+          160,
+          135
+        ],
+        "name": "Oatmeal woven fabric"
+      },
+      "SA06_B01_M04": {
+        "rgb": [
+          117,
+          99,
+          87
+        ],
+        "name": "Warm taupe upholstery"
+      },
+      "SA06_B01_M05": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA06_B01_M06": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA06_B01_M07": {
+        "rgb": [
+          81,
+          72,
+          63
+        ],
+        "name": "Dark upholstery seam"
+      },
+      "SA06_B01_M08": {
+        "rgb": [
+          119,
+          99,
+          84
+        ],
+        "name": "Saddle stitching"
+      }
+    },
+    "eligible": true
+  },
+  "SA07": {
+    "name": "Staff 02 - Curved tub chair",
+    "meshes": {
+      "SA07_B01_M01": {
+        "rgb": [
+          117,
+          99,
+          87
+        ],
+        "name": "Warm taupe upholstery"
+      },
+      "SA07_B01_M02": {
+        "rgb": [
+          183,
+          160,
+          135
+        ],
+        "name": "Oatmeal woven fabric"
+      },
+      "SA07_B01_M03": {
+        "rgb": [
+          112,
+          80,
+          57
+        ],
+        "name": "Smoked oak"
+      },
+      "SA07_B01_M04": {
+        "rgb": [
+          81,
+          72,
+          63
+        ],
+        "name": "Dark upholstery seam"
+      },
+      "SA07_B01_M05": {
+        "rgb": [
+          119,
+          99,
+          84
+        ],
+        "name": "Saddle stitching"
+      },
+      "SA07_B01_M06": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA07_B01_M07": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": true
+  },
+  "SA08": {
+    "name": "Staff 03 - Low lounge armchair",
+    "meshes": {
+      "SA08_B01_M01": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      },
+      "SA08_B01_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA08_B01_M03": {
+        "rgb": [
+          183,
+          160,
+          135
+        ],
+        "name": "Oatmeal woven fabric"
+      },
+      "SA08_B01_M04": {
+        "rgb": [
+          81,
+          72,
+          63
+        ],
+        "name": "Dark upholstery seam"
+      },
+      "SA08_B01_M05": {
+        "rgb": [
+          119,
+          99,
+          84
+        ],
+        "name": "Saddle stitching"
+      },
+      "SA08_B01_M06": {
+        "rgb": [
+          112,
+          80,
+          57
+        ],
+        "name": "Smoked oak"
+      },
+      "SA08_B01_M07": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": true
+  },
+  "SA09": {
+    "name": "Black pencil - pink eraser",
+    "meshes": {
+      "SA09_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA09_B01_M02": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      },
+      "SA09_B01_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA09_B01_M04": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA09_B01_M05": {
+        "rgb": [
+          204,
+          120,
+          140
+        ],
+        "name": "Dusty pink eraser"
+      },
+      "SA09_B01_M06": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      }
+    },
+    "eligible": false
+  },
+  "SA10": {
+    "name": "Black retractable pen",
+    "meshes": {
+      "SA10_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA10_B01_M02": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA10_B01_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": false
+  },
+  "SA12": {
+    "name": "Square ivory pen pot",
+    "meshes": {
+      "SA12_B01_M01": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA12_B02_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA12_B02_M02": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA12_B02_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA12_B03_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA12_B03_M02": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA12_B03_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA12_B04_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA12_B04_M02": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA12_B04_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA12_B05_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA12_B05_M02": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA12_B05_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": false
+  },
+  "SA13": {
+    "name": "Whiteboard marker and eraser",
+    "meshes": {
+      "SA13_B02_M01": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA13_B02_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA13_B03_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA13_B03_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": false
+  },
+  "SA14": {
+    "name": "Simple school laptop",
+    "meshes": {
+      "SA14_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA14_B01_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA14_B01_M03": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA14_B01_M04": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA14_B01_M05": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA14_B01_M06": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA14_B02_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA14_B02_M02": {
+        "rgb": [
+          23,
+          35,
+          47
+        ],
+        "name": "Blue black screen"
+      },
+      "SA14_B02_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": false
+  },
+  "SA15": {
+    "name": "Desktop monitor",
+    "meshes": {
+      "SA15_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA15_B01_M02": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA15_B01_M03": {
+        "rgb": [
+          23,
+          35,
+          47
+        ],
+        "name": "Blue black screen"
+      },
+      "SA15_B01_M04": {
+        "rgb": [
+          92,
+          119,
+          81
+        ],
+        "name": "Sage foliage"
+      },
+      "SA15_B01_M05": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": false
+  },
+  "SA16": {
+    "name": "Compact desktop keyboard and mouse",
+    "meshes": {
+      "SA16_B02_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA16_B02_M02": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA16_B02_M03": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA16_B03_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA16_B03_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": false
+  },
+  "SA17": {
+    "name": "Upright piano",
+    "meshes": {
+      "SA17_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA17_B01_M02": {
+        "rgb": [
+          112,
+          80,
+          57
+        ],
+        "name": "Smoked oak"
+      },
+      "SA17_B01_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA17_B01_M04": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA17_B01_M05": {
+        "rgb": [
+          234,
+          232,
+          223
+        ],
+        "name": "Porcelain white"
+      },
+      "SA17_B01_M06": {
+        "rgb": [
+          234,
+          232,
+          223
+        ],
+        "name": "Porcelain white"
+      },
+      "SA17_B01_M07": {
+        "rgb": [
+          169,
+          138,
+          72
+        ],
+        "name": "Muted brass"
+      },
+      "SA17_B01_M08": {
+        "rgb": [
+          204,
+          120,
+          140
+        ],
+        "name": "Dusty pink eraser"
+      },
+      "SA17_B01_M09": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA17_B01_M10": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      }
+    },
+    "eligible": false
+  },
+  "SA18": {
+    "name": "Piano bench",
+    "meshes": {
+      "SA18_B01_M01": {
+        "rgb": [
+          117,
+          99,
+          87
+        ],
+        "name": "Warm taupe upholstery"
+      },
+      "SA18_B01_M02": {
+        "rgb": [
+          112,
+          80,
+          57
+        ],
+        "name": "Smoked oak"
+      },
+      "SA18_B01_M03": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA18_B01_M04": {
+        "rgb": [
+          81,
+          72,
+          63
+        ],
+        "name": "Dark upholstery seam"
+      },
+      "SA18_B01_M05": {
+        "rgb": [
+          119,
+          99,
+          84
+        ],
+        "name": "Saddle stitching"
+      }
+    },
+    "eligible": true
+  },
+  "SA19": {
+    "name": "Acoustic guitar and stand",
+    "meshes": {
+      "SA19_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA19_B01_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA19_B02_M01": {
+        "rgb": [
+          169,
+          138,
+          72
+        ],
+        "name": "Muted brass"
+      },
+      "SA19_B02_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA19_B02_M03": {
+        "rgb": [
+          112,
+          80,
+          57
+        ],
+        "name": "Smoked oak"
+      },
+      "SA19_B02_M04": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA19_B02_M05": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA19_B02_M06": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      },
+      "SA19_B02_M07": {
+        "rgb": [
+          197,
+          205,
+          207
+        ],
+        "name": "Polished keywork"
+      }
+    },
+    "eligible": true
+  },
+  "SA20": {
+    "name": "Clarinet and stand",
+    "meshes": {
+      "SA20_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA20_B02_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA20_B02_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA20_B02_M03": {
+        "rgb": [
+          197,
+          205,
+          207
+        ],
+        "name": "Polished keywork"
+      },
+      "SA20_B02_M04": {
+        "rgb": [
+          169,
+          138,
+          72
+        ],
+        "name": "Muted brass"
+      },
+      "SA20_B02_M05": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      }
+    },
+    "eligible": false
+  },
+  "SA21": {
+    "name": "Tall double cupboard",
+    "meshes": {
+      "SA21_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA21_B01_M02": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      },
+      "SA21_B01_M03": {
+        "rgb": [
+          112,
+          80,
+          57
+        ],
+        "name": "Smoked oak"
+      },
+      "SA21_B01_M04": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA21_B01_M05": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA21_B01_M06": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA21_B01_M07": {
+        "rgb": [
+          182,
+          155,
+          128
+        ],
+        "name": "Sand shell"
+      },
+      "SA21_B02_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA21_B02_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA21_B03_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA21_B03_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      }
+    },
+    "eligible": false
+  },
+  "SA22": {
+    "name": "Low staffroom cupboard",
+    "meshes": {
+      "SA22_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA22_B01_M02": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      },
+      "SA22_B01_M03": {
+        "rgb": [
+          112,
+          80,
+          57
+        ],
+        "name": "Smoked oak"
+      },
+      "SA22_B01_M04": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA22_B02_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA22_B02_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA22_B03_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA22_B03_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA22_B04_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA22_B04_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      }
+    },
+    "eligible": false
+  },
+  "SA23": {
+    "name": "Classroom tray cupboard",
+    "meshes": {
+      "SA23_B01_M01": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      },
+      "SA23_B01_M02": {
+        "rgb": [
+          112,
+          80,
+          57
+        ],
+        "name": "Smoked oak"
+      },
+      "SA23_B02_M01": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B02_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B03_M01": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B03_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B04_M01": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B04_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B05_M01": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B05_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B06_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA23_B06_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B06_M03": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B07_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA23_B07_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B07_M03": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B08_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA23_B08_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B08_M03": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B09_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA23_B09_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B09_M03": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B10_M01": {
+        "rgb": [
+          172,
+          126,
+          108
+        ],
+        "name": "Muted clay"
+      },
+      "SA23_B10_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B10_M03": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B11_M01": {
+        "rgb": [
+          172,
+          126,
+          108
+        ],
+        "name": "Muted clay"
+      },
+      "SA23_B11_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B11_M03": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B12_M01": {
+        "rgb": [
+          172,
+          126,
+          108
+        ],
+        "name": "Muted clay"
+      },
+      "SA23_B12_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B12_M03": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA23_B13_M01": {
+        "rgb": [
+          172,
+          126,
+          108
+        ],
+        "name": "Muted clay"
+      },
+      "SA23_B13_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA23_B13_M03": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      }
+    },
+    "eligible": false
+  },
+  "SA24": {
+    "name": "Graphite electric kettle",
+    "meshes": {
+      "SA24_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA24_B01_M02": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA24_B01_M03": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA24_B02_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA24_B02_M02": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA24_B02_M03": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA24_B02_M04": {
+        "rgb": [
+          23,
+          35,
+          47
+        ],
+        "name": "Blue black screen"
+      },
+      "SA24_B02_M05": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA24_B02_M06": {
+        "rgb": [
+          92,
+          119,
+          81
+        ],
+        "name": "Sage foliage"
+      },
+      "SA24_B02_M07": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      }
+    },
+    "eligible": false
+  },
+  "SA25": {
+    "name": "Ivory staff mug",
+    "meshes": {
+      "SA25_B01_M01": {
+        "rgb": [
+          214,
+          199,
+          175
+        ],
+        "name": "Glazed ivory ceramic"
+      },
+      "SA25_B01_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      }
+    },
+    "eligible": false
+  },
+  "SA26": {
+    "name": "Graphite staff mug",
+    "meshes": {
+      "SA26_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA26_B01_M02": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      }
+    },
+    "eligible": false
+  },
+  "SA27": {
+    "name": "Cup and saucer",
+    "meshes": {
+      "SA27_B01_M01": {
+        "rgb": [
+          214,
+          199,
+          175
+        ],
+        "name": "Glazed ivory ceramic"
+      },
+      "SA27_B02_M01": {
+        "rgb": [
+          214,
+          199,
+          175
+        ],
+        "name": "Glazed ivory ceramic"
+      }
+    },
+    "eligible": false
+  },
+  "SA28": {
+    "name": "Takeaway coffee cup",
+    "meshes": {
+      "SA28_B01_M01": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA28_B01_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA28_B01_M03": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA28_B01_M04": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      }
+    },
+    "eligible": false
+  },
+  "SA29": {
+    "name": "mobile whiteboard",
+    "meshes": {
+      "SA29_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA29_B01_M02": {
+        "rgb": [
+          243,
+          240,
+          230
+        ],
+        "name": "Warm white enamel"
+      },
+      "SA29_B01_M03": {
+        "preserve": true,
+        "name": "Supplied white bird emblem"
+      },
+      "SA29_B01_M04": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA29_B01_M05": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA29_B02_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA29_B02_M02": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA29_B03_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA29_B04_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA29_B05_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA29_B06_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA29_B07_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      }
+    },
+    "eligible": false
+  },
+  "SA30": {
+    "name": "Rounded TV teaching board",
+    "meshes": {
+      "SA30_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA30_B01_M02": {
+        "rgb": [
+          23,
+          35,
+          47
+        ],
+        "name": "Blue black screen"
+      },
+      "SA30_B01_M03": {
+        "preserve": true,
+        "name": "Supplied white bird emblem"
+      },
+      "SA30_B01_M04": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA30_B01_M05": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      }
+    },
+    "eligible": false
+  },
+  "SA31": {
+    "name": "Indoor broadleaf plant",
+    "meshes": {
+      "SA31_B01_M01": {
+        "rgb": [
+          209,
+          195,
+          171
+        ],
+        "name": "Warm ivory"
+      },
+      "SA31_B01_M02": {
+        "rgb": [
+          51,
+          39,
+          30
+        ],
+        "name": "Potting soil"
+      },
+      "SA31_B01_M03": {
+        "rgb": [
+          102,
+          69,
+          48
+        ],
+        "name": "Bark"
+      },
+      "SA31_B01_M04": {
+        "rgb": [
+          37,
+          63,
+          42
+        ],
+        "name": "Deep green foliage"
+      },
+      "SA31_B01_M05": {
+        "rgb": [
+          49,
+          81,
+          58
+        ],
+        "name": "Forest foliage"
+      },
+      "SA31_B01_M06": {
+        "rgb": [
+          92,
+          119,
+          81
+        ],
+        "name": "Sage foliage"
+      }
+    },
+    "eligible": true
+  },
+  "SA32": {
+    "name": "Indoor snake plant",
+    "meshes": {
+      "SA32_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA32_B01_M02": {
+        "rgb": [
+          51,
+          39,
+          30
+        ],
+        "name": "Potting soil"
+      },
+      "SA32_B01_M03": {
+        "rgb": [
+          92,
+          119,
+          81
+        ],
+        "name": "Sage foliage"
+      },
+      "SA32_B01_M04": {
+        "rgb": [
+          49,
+          81,
+          58
+        ],
+        "name": "Forest foliage"
+      }
+    },
+    "eligible": true
+  },
+  "SA33": {
+    "name": "Outdoor shrub planter",
+    "meshes": {
+      "SA33_B01_M01": {
+        "rgb": [
+          142,
+          123,
+          110
+        ],
+        "name": "Mushroom taupe"
+      },
+      "SA33_B01_M02": {
+        "rgb": [
+          51,
+          39,
+          30
+        ],
+        "name": "Potting soil"
+      },
+      "SA33_B01_M03": {
+        "rgb": [
+          37,
+          63,
+          42
+        ],
+        "name": "Deep green foliage"
+      },
+      "SA33_B01_M04": {
+        "rgb": [
+          37,
+          63,
+          42
+        ],
+        "name": "Deep green foliage"
+      },
+      "SA33_B01_M05": {
+        "rgb": [
+          102,
+          69,
+          48
+        ],
+        "name": "Bark"
+      },
+      "SA33_B01_M06": {
+        "rgb": [
+          49,
+          81,
+          58
+        ],
+        "name": "Forest foliage"
+      },
+      "SA33_B01_M07": {
+        "rgb": [
+          49,
+          81,
+          58
+        ],
+        "name": "Forest foliage"
+      },
+      "SA33_B01_M08": {
+        "rgb": [
+          92,
+          119,
+          81
+        ],
+        "name": "Sage foliage"
+      }
+    },
+    "eligible": false
+  },
+  "SA34": {
+    "name": "Outdoor round shrub",
+    "meshes": {
+      "SA34_B01_M01": {
+        "rgb": [
+          37,
+          63,
+          42
+        ],
+        "name": "Deep green foliage"
+      },
+      "SA34_B01_M02": {
+        "rgb": [
+          102,
+          69,
+          48
+        ],
+        "name": "Bark"
+      },
+      "SA34_B01_M03": {
+        "rgb": [
+          92,
+          119,
+          81
+        ],
+        "name": "Sage foliage"
+      },
+      "SA34_B01_M04": {
+        "rgb": [
+          49,
+          81,
+          58
+        ],
+        "name": "Forest foliage"
+      }
+    },
+    "eligible": true
+  },
+  "SA35": {
+    "name": "Broadleaf school tree",
+    "meshes": {
+      "SA35_B01_M01": {
+        "rgb": [
+          102,
+          69,
+          48
+        ],
+        "name": "Bark"
+      },
+      "SA35_B01_M02": {
+        "rgb": [
+          37,
+          63,
+          42
+        ],
+        "name": "Deep green foliage"
+      },
+      "SA35_B01_M03": {
+        "rgb": [
+          92,
+          119,
+          81
+        ],
+        "name": "Sage foliage"
+      },
+      "SA35_B01_M04": {
+        "rgb": [
+          49,
+          81,
+          58
+        ],
+        "name": "Forest foliage"
+      },
+      "SA35_B01_M05": {
+        "rgb": [
+          49,
+          81,
+          58
+        ],
+        "name": "Forest foliage"
+      }
+    },
+    "eligible": false
+  },
+  "SA36": {
+    "name": "Evergreen school tree",
+    "meshes": {
+      "SA36_B01_M01": {
+        "rgb": [
+          102,
+          69,
+          48
+        ],
+        "name": "Bark"
+      },
+      "SA36_B01_M02": {
+        "rgb": [
+          37,
+          63,
+          42
+        ],
+        "name": "Deep green foliage"
+      },
+      "SA36_B01_M03": {
+        "rgb": [
+          49,
+          81,
+          58
+        ],
+        "name": "Forest foliage"
+      }
+    },
+    "eligible": false
+  },
+  "SA37": {
+    "name": "Outdoor backed bench",
+    "meshes": {
+      "SA37_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA37_B01_M02": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      },
+      "SA37_B01_M03": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA37_B01_M04": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA37_B01_M05": {
+        "rgb": [
+          137,
+          101,
+          62
+        ],
+        "name": "Endgrain oak"
+      }
+    },
+    "eligible": false
+  },
+  "SA38": {
+    "name": "Outdoor backless bench",
+    "meshes": {
+      "SA38_B01_M01": {
+        "rgb": [
+          36,
+          41,
+          47
+        ],
+        "name": "Graphite powder coat"
+      },
+      "SA38_B01_M02": {
+        "rgb": [
+          181,
+          138,
+          89
+        ],
+        "name": "Natural ash"
+      },
+      "SA38_B01_M03": {
+        "rgb": [
+          160,
+          170,
+          176
+        ],
+        "name": "Brushed steel"
+      },
+      "SA38_B01_M04": {
+        "rgb": [
+          18,
+          21,
+          25
+        ],
+        "name": "Soft black rubber"
+      },
+      "SA38_B01_M05": {
+        "rgb": [
+          137,
+          101,
+          62
+        ],
+        "name": "Endgrain oak"
+      }
+    },
+    "eligible": false
+  }
+}

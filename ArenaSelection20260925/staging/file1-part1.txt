@@ -1,0 +1,63 @@
+()
+    for _, ch in ipairs(rewardBody:GetChildren()) do
+        if ch:IsA("Frame") then ch:Destroy() end
+    end
+    rewardTitle.Text = data.playerWon and "VICTORY!" or "DEFEAT"
+    rewardTitle.TextColor3 = data.playerWon and C.gold or Color3.fromRGB(220,90,110)
+
+    local curSec = rewardSection("Currencies", 1)
+    local cord = 1
+    if data.coins and data.coins > 0 then cord+=1; rewardRow(curSec, cord, "\xF0\x9F\xAA\x99", "+"..data.coins.." Coins", Color3.fromRGB(255,205,70)) end
+    if data.milestoneCoins and data.milestoneCoins > 0 then cord+=1; rewardRow(curSec, cord, "\xF0\x9F\x8E\x81", "Milestone: +"..data.milestoneCoins.." Coins", Color3.fromRGB(255,205,70)) end
+    if data.milestoneGems and data.milestoneGems > 0 then cord+=1; rewardRow(curSec, cord, "\xF0\x9F\x92\x8E", "Milestone: +"..data.milestoneGems.." Gems", Color3.fromRGB(110,220,255)) end
+    if data.masteryChips and data.masteryChips > 0 then cord+=1; rewardRow(curSec, cord, "\xE2\x97\x88", "+"..data.masteryChips.." Mastery Chips", Color3.fromRGB(190,130,255)) end
+    if data.dailyPack then
+        local pn = (data.dailyPack == "silver") and "Silver" or (data.dailyPack == "gold") and "Gold" or "Common"
+        cord+=1; rewardRow(curSec, cord, "\xF0\x9F\x8E\x81", "Daily Pack Earned: "..pn.."!  (open it in the lobby)", Color3.fromRGB(255,180,120))
+    end
+
+    local xpSec = rewardSection("Player Progress", 2)
+    rewardRow(xpSec, 1, "\xE2\xAD\x90", "+"..(data.accountXp or 0).." Account XP", Color3.fromRGB(130,200,255))
+    if data.leveledTo then
+        rewardRow(xpSec, 2, "\xF0\x9F\x86\x99", "Reached Level "..data.leveledTo.."!", C.gold)
+    end
+
+    local xpTrack = mk("Frame", { Size=UDim2.new(1,0,0,12), BackgroundColor3=Color3.fromRGB(20,12,42),
+        BorderSizePixel=0, LayoutOrder=3, ZIndex=33 }, xpSec)
+    corner(xpTrack, 6)
+    local lvl = PlayerData.level()
+    local frac = math.clamp(PlayerData.xp() / PlayerData.xpNeeded(), 0, 1)
+    local xpFill = mk("Frame", { Size=UDim2.new(frac,0,1,0), BackgroundColor3=Color3.fromRGB(130,200,255),
+        BorderSizePixel=0, ZIndex=34 }, xpTrack)
+    corner(xpFill, 6)
+    mk("TextLabel", { Size=UDim2.new(1,0,0,16), BackgroundTransparency=1, LayoutOrder=4,
+        Text="Lv "..lvl.."  \xC2\xB7  "..PlayerData.xp().." / "..PlayerData.xpNeeded().." XP",
+        TextColor3=C.sub, Font=Enum.Font.PermanentMarker, TextSize=11, TextXAlignment=Enum.TextXAlignment.Left, ZIndex=33 }, xpSec)
+
+    local apSec = rewardSection("Arena Progress", 3)
+    local dStr = (data.arenaDelta >= 0 and "+" or "") .. string.format("%g", data.arenaDelta / PlayerData.POINTS_PER_WIN)
+    rewardRow(apSec, 1, "\xF0\x9F\x93\x88", dStr.." Arena Progress  ("..string.format("%g", data.arenaPoints / PlayerData.POINTS_PER_WIN).."/10)", Color3.fromRGB(140,220,160))
+    if data.unlockedUnits and #data.unlockedUnits > 0 then
+        rewardRow(apSec, 2, "\xE2\x9C\xA8", "New Unit Unlockable in Packs!", Color3.fromRGB(255,180,120))
+    end
+
+    local uSec = rewardSection("Unit Mastery", 4)
+    mk("TextLabel", { Name="SpendHint", Size=UDim2.new(1,0,0,16), BackgroundTransparency=1, LayoutOrder=1,
+        Text="Spend \xE2\x97\x88 chips to boost units (+10 each, once per unit):", TextColor3=C.sub,
+        Font=Enum.Font.PermanentMarker, TextSize=11, TextXAlignment=Enum.TextXAlignment.Left, ZIndex=33 }, uSec)
+
+    if data.unitMastery then
+        for ui, um in ipairs(data.unitMastery) do
+            local row = mk("Frame", { Size=UDim2.new(1,0,0,32), BackgroundTransparency=1, LayoutOrder=ui+1, ZIndex=33 }, uSec)
+            mk("TextLabel", { Size=UDim2.new(0,150,1,0), Position=UDim2.new(0,0,0,0), BackgroundTransparency=1,
+                Text=um.name, TextColor3=C.btnTxt, Font=Enum.Font.PermanentMarker, TextSize=13,
+                TextXAlignment=Enum.TextXAlignment.Left, ZIndex=34 }, row)
+            local progLbl = mk("TextLabel", { Size=UDim2.new(0,120,1,0), Position=UDim2.new(0,150,0,0), BackgroundTransparency=1,
+                Text="("..PlayerData.masteryFor(um.id).."/"..PlayerData.masteryThreshold(um.rarity)..")",
+                TextColor3=Color3.fromRGB(170,140,230), Font=Enum.Font.PermanentMarker, TextSize=13,
+                TextXAlignment=Enum.TextXAlignment.Left, ZIndex=34 }, row)
+
+            local spendBtn = mk("TextButton", {
+                Size=UDim2.new(0,72,0,26), AnchorPoint=Vector2.new(1,0.5), Position=UDim2.new(1,0,0.5,0),
+                BackgroundColor3=C.cellBg, BorderSizePixel=0, AutoButtonColor=false,
+                Text="\xE2\x

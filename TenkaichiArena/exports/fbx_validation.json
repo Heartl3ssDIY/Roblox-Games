@@ -1,0 +1,449 @@
+{
+  "mesh_count": 32,
+  "total_triangles": 160698,
+  "largest_mesh": 14000,
+  "missing_uvs": [],
+  "zero_area_faces": 0,
+  "meshes": [
+    {
+      "name": "01_Ground_Part01.001",
+      "triangles": 308,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        158.0,
+        154.0,
+        3.1649999618530273
+      ]
+    },
+    {
+      "name": "02_RingSteps_Part01.001",
+      "triangles": 352,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        71.5,
+        6.0,
+        2.4000000953674316
+      ]
+    },
+    {
+      "name": "02_Ring_Part01.001",
+      "triangles": 11396,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        64.55000305175781,
+        64.55000305175781,
+        2.5399999618530273
+      ]
+    },
+    {
+      "name": "03_TempleDetails_Part01.001",
+      "triangles": 3472,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        80.3499984741211,
+        32.20000076293945,
+        17.06999969482422
+      ]
+    },
+    {
+      "name": "03_TempleShell_Part01.001",
+      "triangles": 892,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        82.0,
+        36.5,
+        17.299999237060547
+      ]
+    },
+    {
+      "name": "04_ThatchRoof_Part01.001",
+      "triangles": 9644,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        87.0,
+        33.5,
+        12.624319076538086
+      ]
+    },
+    {
+      "name": "05_Pavilion_Part01.001",
+      "triangles": 8132,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        20.0,
+        14.5,
+        14.404336929321289
+      ]
+    },
+    {
+      "name": "06_Sign_Part01.001",
+      "triangles": 5268,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        44.0,
+        2.9320011138916016,
+        17.779998779296875
+      ]
+    },
+    {
+      "name": "07_CeremonialGate_Part01.001",
+      "triangles": 4400,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        65.5,
+        3.0,
+        14.303055763244629
+      ]
+    },
+    {
+      "name": "08_Guardians_Part01.001",
+      "triangles": 10528,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        50.67000198364258,
+        3.299999237060547,
+        9.352263450622559
+      ]
+    },
+    {
+      "name": "10_Stands_East_Part01.001",
+      "triangles": 9668,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        25.524999618530273,
+        69.0999984741211,
+        14.49357795715332
+      ]
+    },
+    {
+      "name": "10_Stands_West_Part01.001",
+      "triangles": 9668,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        25.524999618530273,
+        69.0999984741211,
+        14.49357795715332
+      ]
+    },
+    {
+      "name": "11_FrontGallery_Part01.001",
+      "triangles": 1232,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        79.0,
+        12.5,
+        7.050000190734863
+      ]
+    },
+    {
+      "name": "12_Perimeter_Part01.001",
+      "triangles": 968,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        148.39999389648438,
+        116.39999389648438,
+        5.350000381469727
+      ]
+    },
+    {
+      "name": "14_Annexes_Part01.001",
+      "triangles": 8288,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        139.0,
+        23.30000114440918,
+        16.804338455200195
+      ]
+    },
+    {
+      "name": "15_Parasols_Part01.001",
+      "triangles": 3472,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        80.43817138671875,
+        7.238170623779297,
+        8.15000057220459
+      ]
+    },
+    {
+      "name": "16_FestivalBanners_Part01.001",
+      "triangles": 1136,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        108.646240234375,
+        6.4064788818359375,
+        37.624263763427734
+      ]
+    },
+    {
+      "name": "20_Palm_01_Part01.001",
+      "triangles": 3940,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        17.065242767333984,
+        20.163002014160156,
+        24.257278442382812
+      ]
+    },
+    {
+      "name": "20_Palm_02_Part01.001",
+      "triangles": 4046,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        16.206100463867188,
+        17.975818634033203,
+        26.258056640625
+      ]
+    },
+    {
+      "name": "20_Palm_03_Part01.001",
+      "triangles": 4046,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        18.26944351196289,
+        19.372940063476562,
+        26.25497055053711
+      ]
+    },
+    {
+      "name": "20_Palm_04_Part01.001",
+      "triangles": 3940,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        16.145755767822266,
+        19.507633209228516,
+        24.256608963012695
+      ]
+    },
+    {
+      "name": "20_Palm_05_Part01.001",
+      "triangles": 3940,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        18.22018814086914,
+        16.82849884033203,
+        25.25453758239746
+      ]
+    },
+    {
+      "name": "20_Palm_06_Part01.001",
+      "triangles": 4046,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        17.505657196044922,
+        18.905227661132812,
+        27.256004333496094
+      ]
+    },
+    {
+      "name": "20_Palm_07_Part01.001",
+      "triangles": 4046,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        17.40770149230957,
+        18.770462036132812,
+        26.255388259887695
+      ]
+    },
+    {
+      "name": "20_Palm_08_Part01.001",
+      "triangles": 3834,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        19.341123580932617,
+        16.751434326171875,
+        23.257234573364258
+      ]
+    },
+    {
+      "name": "20_Palm_09_Part01.001",
+      "triangles": 3940,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        18.26116180419922,
+        16.079322814941406,
+        24.25343894958496
+      ]
+    },
+    {
+      "name": "20_Palm_10_Part01.001",
+      "triangles": 4046,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        17.698837280273438,
+        16.748992919921875,
+        27.25318145751953
+      ]
+    },
+    {
+      "name": "20_Palm_11_Part01.001",
+      "triangles": 3940,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        18.67776107788086,
+        18.601890563964844,
+        24.253032684326172
+      ]
+    },
+    {
+      "name": "20_Palm_12_Part01.001",
+      "triangles": 4046,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        17.14272689819336,
+        19.662355422973633,
+        27.253482818603516
+      ]
+    },
+    {
+      "name": "21_Gardens_Part01.001",
+      "triangles": 14000,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        143.01600646972656,
+        130.81683349609375,
+        3.6635899543762207
+      ]
+    },
+    {
+      "name": "21_Gardens_Part02.001",
+      "triangles": 8280,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        55.74678421020508,
+        122.25171661376953,
+        3.6635899543762207
+      ]
+    },
+    {
+      "name": "22_GroundsDetails_Part01.001",
+      "triangles": 1784,
+      "uv_layers": 1,
+      "zero_area_faces": 0,
+      "boundary_edges": 0,
+      "dimensions": [
+        102.0,
+        78.8499984741211,
+        4.699999809265137
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Arena_ColorAtlas_2048",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path_exists": true
+    },
+    {
+      "name": "Arena_ColorAtlas_2048.001",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path_exists": true
+    },
+    {
+      "name": "Arena_NormalAtlas",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path_exists": true
+    },
+    {
+      "name": "Arena_NormalAtlas.001",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path_exists": true
+    },
+    {
+      "name": "Arena_RoughnessAtlas",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path_exists": true
+    },
+    {
+      "name": "Arena_RoughnessAtlas.001",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "path_exists": true
+    }
+  ]
+}

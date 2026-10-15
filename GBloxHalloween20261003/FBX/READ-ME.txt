@@ -1,0 +1,23 @@
+G-Blox Halloween FBX models
+16 individual binary FBX files, exported from the current GSwitch_All_Assets.blend.
+
+Complete models: 12.
+Optional assembly pieces: Zombie_Hand_Separate, Gravestone_Without_Hand,
+Bone_Saw_Wheel_Separate, Bone_Saw_Base_Without_Wheel.
+
+Choose either a complete assembly or its separate pieces; do not import both
+on top of one another. Each file is centered on its source object's pivot.
+Model dimensions and separate mesh/material parts are preserved.
+The hand pivot is at its emergence point; the wheel pivot is its rotation center.
+These are static models, with no baked animation or gameplay scripts.
+
+FBX orientation: Y up, -Z forward. Source unit scale is preserved.
+Use the same import scale for all files. Compare against one existing course
+asset before replacing anything; the current course includes resized models.
+
+Colors/material slots are included. Blender emission does not itself create
+Roblox lights; glowing parts can use Neon in Studio.
+
+All 16 files were re-imported into temporary Blender scenes to verify mesh
+counts, materials and dimensions. The original Blender scene was preserved.
+The barrel is not included.

@@ -1,0 +1,14 @@
+{
+  "name": "LobbyCoins",
+  "file_path": "game.ServerScriptService.LobbyCoins",
+  "edits": [
+    {
+      "old_string": " accumulator+=dt if accumulator<.12 then return end accumulator=0\n for _,coin in folder:GetChildren() do",
+      "new_string": " accumulator+=dt if accumulator<.12 then return end accumulator=0\n local eligible={}\n for _,player in Players:GetPlayers() do\n  local character=player.Character\n  local root=character and character:FindFirstChild(\"HumanoidRootPart\")\n  local hum=character and character:FindFirstChildOfClass(\"Humanoid\")\n  if root and hum and hum.Health>0 and player:GetAttribute(\"PlayerDataReady\")==true then\n   table.insert(eligible,{player=player,character=character,root=root,hum=hum})\n  end\n end\n for _,coin in folder:GetChildren() do"
+    },
+    {
+      "old_string": "  for _,player in Players:GetPlayers() do\n   local character=player.Character local root=character and character:FindFirstChild(\"HumanoidRootPart\") local hum=character and character:FindFirstChildOfClass(\"Humanoid\")\n   if not root or not hum or hum.Health<=0 or player:GetAttribute(\"PlayerDataReady\")~=true or (root.Position-coin.Position).Magnitude>4.5 then continue end",
+      "new_string": "  for _,entry in eligible do\n   local player,character,root,hum=entry.player,entry.character,entry.root,entry.hum\n   if player.Parent~=Players or player.Character~=character or not root:IsDescendantOf(character)\n    or not hum:IsDescendantOf(character) or hum.Health<=0 or player:GetAttribute(\"PlayerDataReady\")~=true\n    or (root.Position-coin.Position).Magnitude>4.5 then continue end"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="278" height="94" viewBox="0 0 278 94">
+<style>.heading{font-family:'Luckiest Guy','Fredoka One',Impact,'Comic Sans MS',sans-serif;font-weight:400;fill:#18233e}.body{font-family:'Fredoka One','Comic Sans MS',Arial,sans-serif;font-weight:400;fill:#18233e}</style>
+<g transform="translate(7 7)"><rect width="264" height="80" rx="16" fill="#fffae2" stroke="#18233e" stroke-width="4"/>
+<rect x="9" y="10" width="60" height="60" rx="11" fill="#c2e9f3" stroke="#18233e" stroke-width="2"/>
+<g id="EditableAvatarPlaceholder"><rect x="20" y="22" width="38" height="35" rx="12" fill="#ffd591" stroke="#18233e" stroke-width="2"/>
+<circle cx="30" cy="37" r="2.4" fill="#18233e"/><circle cx="47" cy="37" r="2.4" fill="#18233e"/><path d="M31 46q8 7 15 0" fill="none" stroke="#18233e" stroke-width="2.4" stroke-linecap="round"/></g>
+<g transform="translate(80 10) scale(0.328125)"><path d="m32 5 8 17 19 3-14 13 4 20-17-10-17 10 4-20L5 25l19-3z" fill="#ffcc36" stroke="#18233e" stroke-width="5" stroke-linejoin="round"/></g>
+<text x="105" y="30" class="heading" font-size="25">LEVEL 1</text>
+<text x="82" y="50" class="body" font-size="15">0 / 100 XP</text>
+<rect x="82" y="59" width="169" height="10" rx="5" fill="#d3d9d8" stroke="#18233e" stroke-width="2"/>
+</g>
+</svg>

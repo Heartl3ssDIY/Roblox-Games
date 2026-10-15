@@ -1,0 +1,116 @@
+{
+  "poses": [
+    {
+      "forward": 0.9996902942657471,
+      "pose": "R6_MudGun_Stand",
+      "stockTorsoClearance": 0.3100343942642212
+    },
+    {
+      "forward": 0.9993793964385986,
+      "pose": "R6_MudGun_Walk",
+      "stockTorsoClearance": 0.3100355267524719
+    },
+    {
+      "forward": 0.9996902942657471,
+      "pose": "R6_HeatGun_Stand",
+      "stockTorsoClearance": 0.3100343942642212
+    },
+    {
+      "forward": 0.9993793964385986,
+      "pose": "R6_HeatGun_Walk",
+      "stockTorsoClearance": 0.3100355267524719
+    },
+    {
+      "forward": 0.9993711113929749,
+      "pose": "R15_MudGun_Stand",
+      "stockTorsoClearance": 0.6646900177001953
+    },
+    {
+      "forward": 0.9993711113929749,
+      "pose": "R15_MudGun_Walk",
+      "stockTorsoClearance": 0.6646918058395386
+    },
+    {
+      "forward": 0.9993711113929749,
+      "pose": "R15_HeatGun_Stand",
+      "stockTorsoClearance": 0.6646900177001953
+    },
+    {
+      "forward": 0.9993711113929749,
+      "pose": "R15_HeatGun_Walk",
+      "stockTorsoClearance": 0.6646918058395386
+    }
+  ],
+  "nativeGrip": [
+    {
+      "c1": [
+        0,
+        -0.15000000596046448,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "c0": [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0
+      ],
+      "matchingAttachment": true,
+      "rig": "R6"
+    },
+    {
+      "c1": [
+        0,
+        -0.15000000596046448,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "c0": [
+        0,
+        -0.15778213739395142,
+        -1.504417070918862e-7,
+        1,
+        0,
+        0,
+        0,
+        6.123234262925839e-17,
+        1,
+        0,
+        -1,
+        6.123234262925839e-17
+      ],
+      "matchingAttachment": true,
+      "rig": "R15"
+    }
+  ],
+  "mode": "Isolated Edit checks; no Play; fake player and equip adapter for lifecycle checks; separate native EquipTool probes",
+  "passed": 28,
+  "meshCounts": {
+    "HeatGun": 65,
+    "MudGun": 70
+  }
+}

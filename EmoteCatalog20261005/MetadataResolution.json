@@ -1,0 +1,851 @@
+{
+  "ok": true,
+  "results": [
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "BAUBAU EMOTES",
+        "CreatorTargetId": 118866282,
+        "Id": 9136001255,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 93650537970037,
+      "catalogId": 114756515400742,
+      "animations": [
+        {
+          "content": "rbxassetid://93650537970037",
+          "animationId": 93650537970037,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "[BEST] Dougie (Everybody Loves Me)",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/114756515400742",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "MocapAnimations",
+        "CreatorTargetId": 969306563,
+        "Id": 9185735511,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 82378883639086,
+      "catalogId": 137284968787523,
+      "animations": [
+        {
+          "content": "rbxassetid://82378883639086",
+          "animationId": 82378883639086,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 56,
+      "name": "Street Glide",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/137284968787523",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "MocapAnimations",
+        "CreatorTargetId": 969306563,
+        "Id": 9185735511,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 132555082396072,
+      "catalogId": 134222090358172,
+      "animations": [
+        {
+          "content": "rbxassetid://132555082396072",
+          "animationId": 132555082396072,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Money Hop Switch",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/134222090358172",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Voxelates",
+        "CreatorTargetId": 8401765,
+        "Id": 2032413429,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 126771729094882,
+      "catalogId": 117302755748327,
+      "animations": [
+        {
+          "content": "rbxassetid://126771729094882",
+          "animationId": 126771729094882,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Coffin Walkout",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/117302755748327",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "hotsoupiee",
+        "CreatorTargetId": 520623444,
+        "Id": 520623444,
+        "HasVerifiedBadge": true,
+        "CreatorType": "User"
+      },
+      "metadataStatus": "verified",
+      "animationId": 110494040742516,
+      "catalogId": 107010273569673,
+      "animations": [
+        {
+          "content": "rbxassetid://110494040742516",
+          "animationId": 110494040742516,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "The Tylil Dance [Kai Cenat Dance]",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/107010273569673",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Vistilo UGC",
+        "CreatorTargetId": 13994331,
+        "Id": 3295601489,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 140349022227594,
+      "catalogId": 135211326811898,
+      "animations": [
+        {
+          "content": "rbxassetid://140349022227594",
+          "animationId": 140349022227594,
+          "name": "scuba"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Scuba Trend",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/135211326811898",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "metadataError": "MarketplaceService:getProductInfo() failed because HTTP 400",
+      "playable": false,
+      "loadStatus": "not_checked",
+      "metadataStatus": "failed",
+      "url": "https://www.roblox.com/catalog/112884830175040",
+      "resolveStatus": "unresolved",
+      "catalogId": 112884830175040
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "afterthefall",
+        "CreatorTargetId": 16288724,
+        "Id": 4046078573,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 117558759116256,
+      "catalogId": 110827382619943,
+      "animations": [
+        {
+          "content": "rbxassetid://117558759116256",
+          "animationId": 117558759116256,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Rollie (BEST LOOP)",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/110827382619943",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "DyD Corporation",
+        "CreatorTargetId": 5005217,
+        "Id": 1134920061,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 103687288237641,
+      "catalogId": 133595410032960,
+      "animations": [
+        {
+          "content": "rbxassetid://103687288237641",
+          "animationId": 103687288237641,
+          "name": "Out West"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Out West - JACKBOYS & Travis Scott, ft. Young Thug",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/133595410032960",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "uvvcanims",
+        "CreatorTargetId": 478998690,
+        "Id": 10846015795,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 105190540415890,
+      "catalogId": 115906496196760,
+      "animations": [
+        {
+          "content": "rbxassetid://105190540415890",
+          "animationId": 105190540415890,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Haskell - Four Lokos Dance",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/115906496196760",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "time()",
+        "CreatorTargetId": 32024264,
+        "Id": 4536853326,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 81913798511136,
+      "catalogId": 77017926307035,
+      "animations": [
+        {
+          "content": "rbxassetid://81913798511136",
+          "animationId": 81913798511136,
+          "name": "griddy"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Griddy (BEST)",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/77017926307035",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Diosep Store",
+        "CreatorTargetId": 12649528,
+        "Id": 2989615535,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 93941266454007,
+      "catalogId": 84110142550799,
+      "animations": [
+        {
+          "content": "rbxassetid://93941266454007",
+          "animationId": 93941266454007,
+          "name": "Gangastar dance"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Gangstar dance",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/84110142550799",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "idahk",
+        "CreatorTargetId": 204657620,
+        "Id": 8814452427,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 92659655601730,
+      "catalogId": 100951835636163,
+      "animations": [
+        {
+          "content": "rbxassetid://92659655601730",
+          "animationId": 92659655601730,
+          "name": "C walk"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Keep It Gangsta C Walk Hiphop",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/100951835636163",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Tsukisora",
+        "CreatorTargetId": 470038920,
+        "Id": 10970257584,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 78280967285254,
+      "catalogId": 104940682593173,
+      "animations": [
+        {
+          "content": "rbxassetid://78280967285254",
+          "animationId": 78280967285254,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Jabba Switchway",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/104940682593173",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "3oj5's Group",
+        "CreatorTargetId": 34370518,
+        "Id": 6078562320,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 119280135350752,
+      "catalogId": 93450937830334,
+      "animations": [
+        {
+          "content": "rbxassetid://119280135350752",
+          "animationId": 119280135350752,
+          "name": "Billy Bounce"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Billy Bounce",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/93450937830334",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Emote Shop",
+        "CreatorTargetId": 445492718,
+        "Id": 9134069822,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 106865236633450,
+      "catalogId": 117119421748582,
+      "animations": [
+        {
+          "content": "rbxassetid://106865236633450",
+          "animationId": 106865236633450,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Jamal Brazil Groove",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/117119421748582",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Lime Palace UGC",
+        "CreatorTargetId": 35483232,
+        "Id": 7853563544,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 108639244526475,
+      "catalogId": 100498935359536,
+      "animations": [
+        {
+          "content": "rbxassetid://108639244526475",
+          "animationId": 108639244526475,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "67",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/100498935359536",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Voxelates",
+        "CreatorTargetId": 8401765,
+        "Id": 2032413429,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 95127716920692,
+      "catalogId": 110064349530772,
+      "animations": [
+        {
+          "content": "rbxassetid://95127716920692",
+          "animationId": 95127716920692,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Orange Justice",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/110064349530772",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "MocapAnimations",
+        "CreatorTargetId": 969306563,
+        "Id": 9185735511,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 104609460346094,
+      "catalogId": 126353729413555,
+      "animations": [
+        {
+          "content": "rbxassetid://104609460346094",
+          "animationId": 104609460346094,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Dab Steps",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/126353729413555",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Lost n' Found",
+        "CreatorTargetId": 35301389,
+        "Id": 7676347897,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 95428460379424,
+      "catalogId": 80985588930231,
+      "animations": [
+        {
+          "content": "rbxassetid://95428460379424",
+          "animationId": 95428460379424,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Creepin Dance",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/80985588930231",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Emotes & Poses",
+        "CreatorTargetId": 916996979,
+        "Id": 9791276703,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 90018336892195,
+      "catalogId": 125328720114284,
+      "animations": [
+        {
+          "content": "rbxassetid://90018336892195",
+          "animationId": 90018336892195,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Nervy Dance",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/125328720114284",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Fr0styDias",
+        "CreatorTargetId": 3235422758,
+        "Id": 3235422758,
+        "HasVerifiedBadge": false,
+        "CreatorType": "User"
+      },
+      "metadataStatus": "verified",
+      "animationId": 108374677470972,
+      "catalogId": 137234266130963,
+      "animations": [
+        {
+          "content": "rbxassetid://108374677470972",
+          "animationId": 108374677470972,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "MJ - P.Y.T. Pretty Young Thing",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/137234266130963",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "bopy/db emotes",
+        "CreatorTargetId": 431094684,
+        "Id": 9161265182,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 134459607456762,
+      "catalogId": 105248382902194,
+      "animations": [
+        {
+          "content": "rbxassetid://134459607456762",
+          "animationId": 134459607456762,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Party Rock Anthem",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/105248382902194",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "DyD Corporation",
+        "CreatorTargetId": 5005217,
+        "Id": 1134920061,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 100468196980144,
+      "catalogId": 137057022541237,
+      "animations": [
+        {
+          "content": "rbxassetid://100468196980144",
+          "animationId": 100468196980144,
+          "name": "Passinho do Jamal"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Passinho do Jamal [BEST] [OG]",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/137057022541237",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "IceMan Animations",
+        "CreatorTargetId": 35041000,
+        "Id": 7427685214,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 134644266320983,
+      "catalogId": 86411651121424,
+      "animations": [
+        {
+          "content": "rbxassetid://134644266320983",
+          "animationId": 134644266320983,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Camden Bop",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/86411651121424",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "nodanubu",
+        "CreatorTargetId": 1373757,
+        "Id": 1373757,
+        "HasVerifiedBadge": false,
+        "CreatorType": "User"
+      },
+      "metadataStatus": "verified",
+      "animationId": 136095999219650,
+      "catalogId": 134311528115559,
+      "animations": [
+        {
+          "content": "rbxassetid://136095999219650",
+          "animationId": 136095999219650,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "how did he hit every beat",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/134311528115559",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Kursed Creations",
+        "CreatorTargetId": 34925558,
+        "Id": 7321112191,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 74800678690946,
+      "catalogId": 121644855433565,
+      "animations": [
+        {
+          "content": "rbxassetid://74800678690946",
+          "animationId": 74800678690946,
+          "name": "one handed pushup"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "One Hand Push Ups 💪 ",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/121644855433565",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "UGC Emotеs",
+        "CreatorTargetId": 1016419226,
+        "Id": 9147348643,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 131104967711844,
+      "catalogId": 80923445784018,
+      "animations": [
+        {
+          "content": "rbxassetid://131104967711844",
+          "animationId": 131104967711844,
+          "name": "gang2"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Gangnam style",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/80923445784018",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "The Best Animations",
+        "CreatorTargetId": 642599068,
+        "Id": 9145490585,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 90158235751747,
+      "catalogId": 96843993997234,
+      "animations": [
+        {
+          "content": "rbxassetid://90158235751747",
+          "animationId": 90158235751747,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Murda Bend Finn Dance",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/96843993997234",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Roblox",
+        "CreatorTargetId": 1,
+        "Id": 1,
+        "HasVerifiedBadge": true,
+        "CreatorType": "User"
+      },
+      "metadataStatus": "verified",
+      "animationId": 10714388352,
+      "catalogId": 3716636630,
+      "animations": [
+        {
+          "content": "http://www.roblox.com/asset/?id=10714388352",
+          "animationId": 10714388352,
+          "name": "Monkey Face"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Monkey",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/3716636630",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Lost n' Found",
+        "CreatorTargetId": 35301389,
+        "Id": 7676347897,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 133898543831391,
+      "catalogId": 96181123599016,
+      "animations": [
+        {
+          "content": "rbxassetid://133898543831391",
+          "animationId": 133898543831391,
+          "name": "Animation"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "NLE Choppa - Demon ",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/96181123599016",
+      "loadStatus": "not_checked",
+      "playable": false
+    },
+    {
+      "assetTypeId": 61,
+      "creator": {
+        "Name": "Starsphere UGC",
+        "CreatorTargetId": 32779202,
+        "Id": 4837040984,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "metadataStatus": "verified",
+      "animationId": 138980897636026,
+      "catalogId": 76636280785091,
+      "animations": [
+        {
+          "content": "rbxassetid://138980897636026",
+          "animationId": 138980897636026,
+          "name": "Brazillian Dance Viral Trend"
+        }
+      ],
+      "catalogPriceInRobux": 48,
+      "name": "Brazilian Dance Viral Trend",
+      "isForSale": true,
+      "resolveStatus": "resolved",
+      "url": "https://www.roblox.com/catalog/76636280785091",
+      "loadStatus": "not_checked",
+      "playable": false
+    }
+  ]
+}

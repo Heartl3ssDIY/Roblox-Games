@@ -1,0 +1,53 @@
+{
+  "id": "SA30",
+  "name": "Rounded TV teaching board",
+  "bodies": [
+    {
+      "id": "SA30_B01",
+      "asset_id": "SA30",
+      "asset": "Rounded TV teaching board",
+      "label": "Rounded TV teaching board",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.02000027894973755,
+            1.121999979019165
+          ],
+          "size": [
+            2.200000047683716,
+            0.6500003337860107,
+            2.2360000610351562
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -1.100000023841858,
+          -0.3049998879432678,
+          0.0040000006556510925
+        ],
+        "max": [
+          1.100000023841858,
+          0.3450004458427429,
+          2.240000009536743
+        ]
+      }
+    }
+  ],
+  "mesh_count": 5,
+  "triangles": 11054,
+  "file": "SA30_Rounded_TV_teaching_board.gltf"
+}

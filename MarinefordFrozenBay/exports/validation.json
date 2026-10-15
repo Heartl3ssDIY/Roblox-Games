@@ -1,0 +1,33 @@
+{
+  "visual_meshes": 22,
+  "triangles": 66956,
+  "zero_area_triangles": 0,
+  "all_uv": true,
+  "combat_area_obstructions": [],
+  "studio_import_tested": false,
+  "textures": {
+    "MF_ColorAtlas.001": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "MF_NormalAtlas.001": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "MF_RoughnessAtlas.001": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "collision_meshes": 47,
+  "result": "passed"
+}

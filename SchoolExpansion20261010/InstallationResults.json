@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-10",
+  "placeId": 95034648955135,
+  "studioMode": "Edit",
+  "installed": {
+    "classrooms": 16,
+    "toiletRooms": 4,
+    "lockers": 28,
+    "hiderSpawns": 16,
+    "schoolLengthStuds": 194,
+    "lengthAddedStuds": 78,
+    "floor": "Black PlaygroundRetroStuds",
+    "ceilings": "Cream",
+    "lampsDimmed": 48,
+    "hidingSeconds": 30,
+    "searchSeconds": 180,
+    "bellAssetId": 2783281207,
+    "bellLoaded": true
+  },
+  "checks": {
+    "map": 943,
+    "stairsAndToiletPassages": 664,
+    "vestibuleDoorways": 30,
+    "timingAndBell": 157,
+    "lightingTransitions": 25,
+    "passed": true
+  },
+  "inspection": {
+    "nativeStudioImagesReviewed": [
+      "classroom",
+      "exterior",
+      "toilets",
+      "stairs",
+      "upper toilet passages"
+    ],
+    "multiplayerPlayTest": false,
+    "published": false
+  },
+  "backup": "ServerStorage.SchoolExpansionBackup20261010",
+  "nativeResults": {
+    "expansion": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"alreadyApplied\":false,\"lengthAdded\":78,\"classrooms\":16,\"toilets\":4,\"lockers\":28,\"hiderSpawns\":16,\"newParts\":440}"
+        }
+      ],
+      "isError": false
+    },
+    "stairs": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"rise\":0.6,\"waypoints\":93,\"passed\":true,\"checks\":664,\"landingDepth\":5,\"failures\":[],\"run\":1.2,\"flightWidth\":8}"
+        }
+      ],
+      "isError": false
+    },
+    "collision": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"map\":{\"passed\":true,\"failures\":[],\"counts\":{\"toilets\":4,\"hiderSpawns\":16,\"classrooms\":16,\"lockers\":28},\"checks\":943},\"vestibule\":{\"failures\":[],\"passed\":true,\"checks\":30}}"
+        }
+      ],
+      "isError": false
+    }
+  }
+}

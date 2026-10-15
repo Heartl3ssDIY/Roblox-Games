@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": 30,
+  "failures": [],
+  "classroom": {"parts": 118, "solidParts": 75, "decorativeParts": 43, "seats": 9},
+  "toilet": {"parts": 61, "solidParts": 30, "decorativeParts": 31, "seats": 0},
+  "vending": {"parts": 41, "solidParts": 10, "decorativeParts": 31, "seats": 0},
+  "playground": {"parts": 57, "solidParts": 39, "decorativeParts": 18, "seats": 6},
+  "fixtureMode": "Roblox Studio Edit, unparented temporary models destroyed after verification",
+  "validated": [
+    "Classroom geometry fits a 50 by 38 stud room at both floor heights and rotated orientations",
+    "Eight stud wide central classroom route is clear",
+    "Both reserved locker corners at local X plus or minus 20, Z 14 are clear",
+    "All parts anchored with studs on all six faces",
+    "Decorative outlines have collision, touch and query disabled",
+    "Physical furniture has collision and query enabled",
+    "Toilet furniture fits 44 by 14 studs and leaves an entrance walkway",
+    "Vending drink display has transparent glass with real drinks behind it",
+    "Playground has two goal frames and six sittable bench positions"
+  ]
+}

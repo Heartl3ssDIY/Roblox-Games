@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"cameraAllowance\":32,\"buttons\":[{\"image\":\"rbxassetid://79619462665867\",\"path\":\"StarterGui.MudHUD.Main.MobileSprint\",\"size\":\"{0, 120}, {0, 54}\",\"position\":\"{0, 18}, {1, -202}\"},{\"image\":\"rbxassetid://79619462665867\",\"path\":\"StarterGui.TagHUD.MobileSprint\",\"size\":\"{0, 120}, {0, 54}\",\"position\":\"{0, 18}, {1, -202}\"},{\"image\":\"rbxassetid://79619462665867\",\"path\":\"StarterGui.BritishBulldogHUD.MobileSprint\",\"size\":\"{0, 120}, {0, 54}\",\"position\":\"{0, 18}, {1, -202}\"}],\"editOnly\":true,\"touchFireAboveJump\":true,\"desktopPositionsPreserved\":true,\"scripts\":[{\"permissionsPreserved\":true,\"path\":\"StarterGui.MudHUD.Controller\",\"sourceLength\":16428},{\"permissionsPreserved\":true,\"path\":\"StarterGui.TagHUD.SprintController\",\"sourceLength\":6160},{\"permissionsPreserved\":true,\"path\":\"StarterGui.BritishBulldogHUD.MovementController\",\"sourceLength\":13544}]}"
+    }
+  ],
+  "isError": false
+}

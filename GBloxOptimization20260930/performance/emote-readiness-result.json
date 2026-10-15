@@ -1,0 +1,17 @@
+{
+  "status": "module-applied-awaiting-parent-runner-integration",
+  "module": "game.ServerScriptService.RankingEmotes",
+  "backup": "ServerStorage.BeforeOptimization_20260930.EmoteReadiness.RankingEmotes",
+  "runnerPatch": "patches/RankingEmotesReadyBroadcast.json",
+  "tests": {
+    "preApplyAssertions": 37,
+    "installedAssertions": 37,
+    "sourceParity": true,
+    "syntaxCompiled": true,
+    "networkRequests": 0,
+    "livePlaytest": false,
+    "published": false
+  },
+  "behavior": "Late avatar-emote resolution now notifies only the still-selected emote on the same player profile. Parent RunnerServer insertion validates current intermission, course version, connected non-leaving racer and row before broadcasting.",
+  "scope": "No changes to podium presentation, emote permissions, catalog, prices, selection rules or reward rules."
+}

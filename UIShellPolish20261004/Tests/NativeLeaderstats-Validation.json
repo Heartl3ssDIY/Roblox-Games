@@ -1,0 +1,25 @@
+{
+  "noPlayStartedOrStopped": true,
+  "playerDestroyed": true,
+  "checks": [
+    "exact live economy capabilities and sandbox",
+    "native lowercase leaderstats folder created",
+    "only Wins Level Coins in requested creation order",
+    "Wins is a native integer column",
+    "Level is a native integer column",
+    "Coins is a native integer column",
+    "default displayed values are consistent",
+    "profile wins update native Wins",
+    "profile balance updates native Coins",
+    "earned XP updates native Level",
+    "store spend updates same native Coins instance",
+    "five coin increment reaches native list",
+    "rebinding does not duplicate native stat columns",
+    "fixture is a folder outside live Players service"
+  ],
+  "sourceChanges": 0,
+  "fixtureDestroyed": true,
+  "passed": true,
+  "dataStoreCalls": 0,
+  "testMethod": "Cloned exact live Economy capabilities. Executed original stat-construction block against a Folder stand-in, then original Economy:_sync/_touch with isolated in-memory profile. No real Player creation, profile claim, profile save or runtime service start."
+}

@@ -1,0 +1,30 @@
+{
+  "target_file": "game.ServerScriptService.RunnerServer",
+  "patches": [
+    {
+      "old": "local players = {}\nlocal roundPhase = \"Waiting\"\nlocal countdownVersion = 0",
+      "new": "local players = {}\nlocal roundPhase = \"Waiting\"\nlocal spectating=require(game.ServerScriptService:WaitForChild(\"RunnerSpectating\")).new({\n Runners=players,Phase=function() return roundPhase end,RoundKey=function() return courseVersion end,\n})\nlocal countdownVersion = 0"
+    },
+    {
+      "old": "\tworkspace:SetAttribute(\"RunnerRoundPhase\", roundPhase)\n\tevent:FireAllClients(\"State\", packet)",
+      "new": "\tworkspace:SetAttribute(\"RunnerRoundPhase\", roundPhase)\n spectating:Step()\n\tevent:FireAllClients(\"State\", packet)"
+    },
+    {
+      "old": "\tif action==\"LeaveRankings\" then leaveRankings(player,version) return",
+      "new": "\tif action==\"Spectate\" then spectating:Select(player,version) return\n\telseif action==\"LeaveRankings\" then leaveRankings(player,version) return"
+    },
+    {
+      "old": "\tlocal departing=players[player]\n\tplayers[player] = nil",
+      "new": "\tlocal departing=players[player]\n spectating:Remove(player)\n\tplayers[player] = nil"
+    },
+    {
+      "old": "local checkpointClock = 0\nlocal spinAngle = 0",
+      "new": "local checkpointClock = 0\nlocal spectatorClock = 0\nlocal spinAngle = 0"
+    },
+    {
+      "old": "RunService.Heartbeat:Connect(function(deltaTime)\n stepIdleTimeout",
+      "new": "RunService.Heartbeat:Connect(function(deltaTime)\n spectatorClock+=deltaTime\n if spectatorClock>=.25 then spectatorClock=0 spectating:Step() end\n stepIdleTimeout"
+    }
+  ]
+}
+

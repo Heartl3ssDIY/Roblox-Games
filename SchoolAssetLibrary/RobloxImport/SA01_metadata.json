@@ -1,0 +1,53 @@
+{
+  "id": "SA01",
+  "name": "Student 01 - Maths stack chair",
+  "bodies": [
+    {
+      "id": "SA01_B01",
+      "asset_id": "SA01",
+      "asset": "Student 01 - Maths stack chair",
+      "label": "Student 01 - Maths stack chair",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.0,
+            0.44999998807907104
+          ],
+          "size": [
+            0.5260000228881836,
+            0.4978000521659851,
+            0.8799999952316284
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.2630000114440918,
+          -0.24890002608299255,
+          0.010000000707805157
+        ],
+        "max": [
+          0.2630000114440918,
+          0.24890002608299255,
+          0.8899999856948853
+        ]
+      }
+    }
+  ],
+  "mesh_count": 4,
+  "triangles": 8764,
+  "file": "SA01_Student_01_Maths_stack_chair.gltf"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "shop-desktop",
+    "font": true,
+    "texts": 45,
+    "images": 0,
+    "invalidText": []
+  },
+  {
+    "name": "inventory-desktop",
+    "font": true,
+    "texts": 38,
+    "images": 0,
+    "invalidText": []
+  },
+  {
+    "name": "shop-phone",
+    "font": true,
+    "texts": 23,
+    "images": 0,
+    "invalidText": []
+  },
+  {
+    "name": "inventory-phone",
+    "font": true,
+    "texts": 32,
+    "images": 0,
+    "invalidText": []
+  },
+  {
+    "name": "ui-kit",
+    "font": true,
+    "texts": 26,
+    "images": 0,
+    "invalidText": []
+  }
+]

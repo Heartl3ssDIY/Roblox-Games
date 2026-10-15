@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="352" height="83.2" viewBox="0 0 352 83.2">
+  <title>School-Room-4</title>
+  <desc>Editable SVG exported read-only from Roblox Studio. All label text remains live text. Named groups preserve authored UI layers. Surface host color is included as an editable backplate; scene lighting is omitted.</desc>
+  <metadata>{"source": "Workspace.British Bulldog game.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail", "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]/ClassDetail[1]", "enabled": true, "canvas": [352, 83.19999694824219], "fontSizeResolution": "Installed Roblox TrueType advance widths with integer size fitting"}</metadata>
+  <g id="Editable-Host-Part-Surface-Backplate">
+    <title>Host part surface color (visual context)</title>
+    <rect x="0" y="0" width="352" height="83.2" fill="#fff3c8" fill-opacity="1" />
+  </g>
+  <g id="ClassDetail" data-source-enabled="true">
+    <g id="Label-1" data-native-name="Label" data-native-class="TextLabel" data-native-visible="true">
+      <title>Label</title>
+      <text id="EditableText-1" font-family="Fredoka One" font-size="83" font-weight="400" font-style="normal" fill="#1b2d3d" fill-opacity="1" text-anchor="middle" xml:space="preserve" data-roblox-font-family="rbxasset://fonts/families/FredokaOne.json" data-native-text-scaled="true"><tspan x="176" y="68.16">ROOM 4</tspan></text>
+    </g>
+  </g>
+  <metadata id="playground-text-layers">{"version": 1, "texts": [{"name": "Label", "text": "ROOM 4", "x": 0.0, "y": 0.1, "width": 352.0, "height": 83, "fontFamily": "Fredoka One", "fontSize": 83, "color": "#1b2d3d", "opacity": 1.0, "strokeColor": null, "strokeWidth": 0.0, "strokeOpacity": 0.0, "align": "CENTER"}]}</metadata>
+</svg>

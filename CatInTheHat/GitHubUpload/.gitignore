@@ -1,0 +1,8 @@
+# Blender autosaves and local scratch output
+*.blend1
+*.blend2
+*.blend@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

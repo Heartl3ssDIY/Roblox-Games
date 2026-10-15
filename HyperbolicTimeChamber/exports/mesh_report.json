@@ -1,0 +1,121 @@
+{
+  "visual_meshes": [
+    {
+      "name": "TC_01_Training_Floor_Part01",
+      "triangles": 12,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_02_Platforms_Part01",
+      "triangles": 692,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_03_Tiles_Part01",
+      "triangles": 3998,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_04_Trim_Part01",
+      "triangles": 1952,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_06_Pavilion_Walls_Part01",
+      "triangles": 496,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_07_Column_Detail_Part01",
+      "triangles": 4468,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_08_Dome_Part01",
+      "triangles": 4340,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_09_Gold_Detail_Part01",
+      "triangles": 6140,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_10_Side_Rooms_Part01",
+      "triangles": 200,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_11_Pink_Roofs_Part01",
+      "triangles": 2668,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_12_Interior_Part01",
+      "triangles": 732,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_13_Clock_Part01",
+      "triangles": 443,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_20_Hourglass_Gold_Part01",
+      "triangles": 10704,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_21_Hourglass_Accents_Part01",
+      "triangles": 1816,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_22_Glass_Part01",
+      "triangles": 3832,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_23_Green_Sand_Part01",
+      "triangles": 3112,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "TC_24_Orb_Lamps_Part01",
+      "triangles": 4824,
+      "uv": true,
+      "zero_area_triangles": 0
+    }
+  ],
+  "combat_bounds": [
+    -32,
+    32,
+    -32,
+    32
+  ],
+  "combat_surface_height": 0,
+  "collision_meshes": 19,
+  "studio_import_tested": false,
+  "white_floor_size": [
+    2000,
+    2000
+  ],
+  "triangles": 50429,
+  "combat_area_obstructions": []
+}

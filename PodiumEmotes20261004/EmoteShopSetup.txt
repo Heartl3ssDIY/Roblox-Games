@@ -1,0 +1,8 @@
+The Emotes shop tab is ready, but the current catalog contains no emote products.
+No animation IDs, prices, ownership, or purchase requests were invented.
+
+PlaygroundCatalog.EmoteAnimations is an empty reserved data table. Once real animation links arrive, store rig-specific entries by stable catalog item ID using fields R6AnimationId and R15AnimationId. Use only supplied, validated animation IDs. This table does not enable playback by itself; the server and emote client must validate availability and load the animations before products become purchasable.
+
+The existing client currently supports procedural Wave and Cheer only. The server's UseEmote action accepts owned Emote catalog entries, and none exist. There is no third existing catalog emote.
+
+Installation: apply InstallEmoteShop.luau's returned function in Edit mode, then replace the catalog and Shell controller with the matching After sources. Existing script permissions stay unchanged. The UI installer clones the existing Pets category button, including its reusable PNG, native fallback and editable text outline. The hidden Emojis category stays distinct. It updates only authored category widths to fit the extra tab. The coin popup and level/wallet backgrounds remain unchanged.

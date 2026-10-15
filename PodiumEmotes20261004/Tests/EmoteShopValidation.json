@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-04",
+  "compile": {
+    "installer": true,
+    "controller": true,
+    "catalog": true
+  },
+  "localCategoryChecks": 91,
+  "nativeReadOnlyDryRun": true,
+  "catalogItemsUnchanged": true,
+  "pricesUnchanged": true,
+  "animationIdsAdded": 0,
+  "otherControllerLogicByteIdentical": true,
+  "studioMutations": false,
+  "playStarted": false
+}

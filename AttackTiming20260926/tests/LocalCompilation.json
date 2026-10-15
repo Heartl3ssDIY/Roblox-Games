@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "file": "AttackAnimator.luau",
+      "sha256": "a94f99e4def113853fb34f4581c100ecbe6a82061f126ca5197b41914c28bdd3",
+      "exitCode": 0,
+      "output": "Compiled 0 KLOC into 15 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "file": "AttackTimeline.luau",
+      "sha256": "7a3294ef77bcffe8e2c149033802f8a62395a328449a6a74d7a70a3b5e8db98c",
+      "exitCode": 0,
+      "output": "Compiled 0 KLOC into 1 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "file": "CombatController.luau",
+      "sha256": "12ae0b357e7a08e1f3d7b4d5fd4da1f87a278e1479fe1921e85bfe74c4113bb7",
+      "exitCode": 0,
+      "output": "Compiled 0 KLOC into 15 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "file": "UnitData.luau",
+      "sha256": "c61442e0c24ae60830660b357122fe657d4db3e1c1314af804eb27c344a07fc5",
+      "exitCode": 0,
+      "output": "Compiled 0 KLOC into 1 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    },
+    {
+      "file": "InstallAttackTiming.luau",
+      "sha256": "da7eb9fbc2cff0095092fb01cb8e497748cb481d34de2436a195f30c80f89722",
+      "exitCode": 0,
+      "output": "Compiled 0 KLOC into 56 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+    }
+  ],
+  "compiler": "Official Luau 0.740",
+  "studioUsed": false,
+  "checkedAt": "2026-09-26T16:21:09.7164379+01:00"
+}

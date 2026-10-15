@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-04",
+  "boards": ["MostWins", "HighestLevel"],
+  "buttons": ["Global", "Server", "Region"],
+  "regions": ["Europe", "North America", "South America", "Africa", "Asia", "Oceania"],
+  "serverBackendChecks": 60,
+  "nativeFrontendChecks": 19,
+  "regionMappingChecks": 1949,
+  "remoteValidation": "passed",
+  "installedSourceCapabilities": "Existing permissions preserved; module requires and snapshot calls verified using cloned launcher/service permissions.",
+  "visualCheck": "Both boards and three buttons visible in Studio Edit",
+  "runtimeRemoteAndDatastores": "Not play-tested or written during validation",
+  "regionalHistory": "Regional indexes populate from saved profiles as players return. Scores are records published in that region; historical migration between regions is not backfilled.",
+  "playStarted": false,
+  "backup": "ServerStorage.LeaderboardScopesBackup20261004"
+}

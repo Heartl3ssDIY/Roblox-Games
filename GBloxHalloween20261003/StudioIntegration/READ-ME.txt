@@ -1,0 +1,26 @@
+Installed in Round 1 Muliplayer, place 106769122906103.
+
+In Explorer, select ReplicatedStorage > GBloxCourseTheme.
+In Properties > Attributes, set ActiveTheme to Normal or Halloween.
+The setting applies when Play starts. During Play it switches immediately.
+The current Edit-mode preview is Halloween.
+
+Five existing course folders are supported: 6,210 mesh parts.
+Colors come from the current Halloween Blender materials, converted to sRGB.
+Geometry, materials, transparency, collisions, names, references and gameplay scripts are unchanged.
+Original per-instance colors are preserved as GBloxNormalColor attributes.
+All 19 second-life tokens are included: green faces, purple rims and bone-white symbols.
+Their 19 invisible pickup triggers and gameplay properties are unchanged.
+The original ServerStorage pickup template stays normal; clones added to course folders
+receive the active theme through the existing runtime descendant listener.
+Barrels, podiums and unrelated meshes are not themed.
+
+The new Blender props and added platform skull details are not imported by this step.
+There was no model upload and no publishing. Changes are in the open Studio place.
+
+ServerScriptService > GBloxCourseTheme contains Theme and Runtime.
+Edit verification: 9 checks passed. Live verification: 7 checks passed.
+Live checks include wheel rotation, switching both directions, unchanged contact flags,
+and newly added meshes receiving the current theme. Console output was empty.
+Token extension: verified 190 token meshes, 19 unchanged triggers, exact normal-color
+restoration, template-clone support and unchanged geometry/physics. Luau compilation passed.

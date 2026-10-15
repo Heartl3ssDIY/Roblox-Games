@@ -1,0 +1,8 @@
+{
+  "passed": 10462,
+  "oracle": "Exact integer binary search",
+  "algorithm": "Bounded quadratic inversion matching Luau source",
+  "maxXP": 1000000000,
+  "externalWrites": 0,
+  "actualLuauRuntimeStillRequiresStudioFixtures": true
+}

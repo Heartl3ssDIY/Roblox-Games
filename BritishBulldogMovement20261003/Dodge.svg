@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="58" viewBox="0 0 110 58">
+<style>.heading{font-family:'Luckiest Guy','Fredoka One',Impact,'Comic Sans MS',sans-serif;font-weight:400;fill:#18233e}.body{font-family:'Fredoka One','Comic Sans MS',Arial,sans-serif;font-weight:400;fill:#18233e}</style>
+<g transform="translate(7 7)"><rect width="94" height="40" rx="12" fill="#ffcc36" stroke="#18233e" stroke-width="3"/>
+<g transform="translate(5 6) scale(0.4)"><path d="M8 40c13-21 25-24 43-13l-5-15 14 19-22 8 8-11c-12-6-22-2-33 13" fill="#2aa0ff" stroke="#18233e" stroke-width="4" stroke-linejoin="round"/><path d="m7 48 16-6M5 56l20-6" fill="none" stroke="#18233e" stroke-width="4" stroke-linecap="round"/></g>
+<text x="60" y="18" class="heading" font-size="15" text-anchor="middle">DODGE</text>
+<text x="60" y="33" class="heading" font-size="13" text-anchor="middle">[E]</text></g>
+</svg>

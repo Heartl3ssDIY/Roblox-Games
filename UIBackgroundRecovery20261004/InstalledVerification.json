@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-04",
+  "installedBackgrounds": 267,
+  "installedControllers": 6,
+  "originalImageLinksPreserved": true,
+  "coinPickupBackgroundFree": true,
+  "visualChecks": ["Wallet", "Level panel", "Meter panels", "Dock buttons", "Both lobby leaderboard headers and scope tabs"],
+  "controllerBehaviorChecks": 28,
+  "compile": "passed",
+  "exactNativeControllerCheck": "Not executed: Edit runs in server context; the production LocalScript has only RunClientScript. No permissions added.",
+  "assetDelivery": "Studio reported image download timeouts. Authored native backgrounds cover failed loads; original PNGs remain assigned.",
+  "playStarted": false
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "place": "lobby",
+    "path": "ServerScriptService.QueueServer",
+    "edits": [
+      {
+        "old": "local PlayerData = require(game.ServerScriptService:WaitForChild(\"PlayerData\"))",
+        "replacement": "local PlayerData = require(game.ServerScriptService:WaitForChild(\"PlayerData\"))\nlocal travel = require(game.ServerScriptService:WaitForChild(\"GBloxTeleportRetry\")).new({\n AttemptLimit = 3,\n NewId = function() return game:GetService(\"HttpService\"):GenerateGUID(false) end,\n IsPresent = function(player) return player.Parent == Players end,\n CopyOptions = function(old, payload)\n  local options = Instance.new(\"TeleportOptions\")\n  if old.ReservedServerAccessCode ~= \"\" then options.ReservedServerAccessCode = old.ReservedServerAccessCode\n  elseif old.ServerInstanceId ~= \"\" then options.ServerInstanceId = old.ServerInstanceId\n  else options.ShouldReserveServer = old.ShouldReserveServer end\n  options:SetTeleportData(payload)\n  return options\n end,\n Reserve = function(placeId) return TeleportService:ReserveServerAsync(placeId) end,\n Teleport = function(placeId, players, options) return TeleportService:TeleportAsync(placeId, players, options) end,\n Spawn = task.spawn, Delay = task.delay, Wait = task.wait,\n Report = function(kind, player, placeId, attempt, message)\n  if kind ~= \"Initiated\" then warn(\"[GBloxTravel]\", kind, player.UserId, placeId, attempt, message) end\n end,\n})"
+      },
+      {
+        "old": "\tlocal success, message =\n\t\tpcall(function()\n\t\t\tTeleportService:TeleportAsync(\n\t\t\t\tdestinationPlaceId,\n\t\t\t\tparty,\n\t\t\t\toptions\n\t\t\t)\n\t\tend)\n\n\tif not success then\n  for _,player in ipairs(party) do PlayerData.CancelPlaytimeTeleport(player,playtimeTickets[tostring(player.UserId)]) end\n\t\twarn(\n\t\t\t\"[Queue]\",\n\t\t\t\"Teleport failed:\",\n\t\t\tmessage\n\t\t)\n\n\t\tfor _, player in ipairs(party) do\n\t\t\tif player.Parent == Players then\n\t\t\t\tqueueEvent:FireClient(\n\t\t\t\t\tplayer,\n\t\t\t\t\t\"Error\",\n\t\t\t\t\t\"Teleport failed. Please try again.\"\n\t\t\t\t)\n\t\t\tend\n\t\tend\n\n\t\tresetZone(data, true)\n\tend\nend\n\nTeleportService.TeleportInitFailed:Connect(function(player,_,message,placeId,options)\n if placeId~=destinationValue.Value or not options then return end\n local payload=options:GetTeleportData()\n local tickets=typeof(payload)==\"table\" and payload.GBloxPlaytimeTickets\n local token=typeof(tickets)==\"table\" and tickets[tostring(player.UserId)]\n if not token then return end\n PlayerData.CancelPlaytimeTeleport(player,token)\n local data=playerZones[player]\n if data and data.State==\"Teleporting\" then\n  -- Other party members may already be in flight: preserve their handoff tickets.\n  warn(\"[Queue] Teleport initialization failed:\",message)\n  resetZone(data,true)\n end\nend)\n",
+        "replacement": " local started = travel:Start(destinationPlaceId, party, options, {\n  Failed = function(player, message)\n   PlayerData.CancelPlaytimeTeleport(player, playtimeTickets[tostring(player.UserId)])\n   if playerZones[player] == data then removePlayer(player, data, true) end\n   if player.Parent == Players then queueEvent:FireClient(player, \"Error\", message) end\n  end,\n  Retrying = function(player, attempt)\n   if player.Parent == Players then\n    queueEvent:FireClient(player, \"TravelStatus\", \"Connection slow. Retrying (\" .. attempt .. \"/3)...\")\n   end\n  end,\n })\n if not started then\n  for _, player in party do PlayerData.CancelPlaytimeTeleport(player, playtimeTickets[tostring(player.UserId)]) end\n  resetZone(data, true)\n  for _, player in party do\n   if player.Parent == Players then queueEvent:FireClient(player, \"Error\", \"Travel is already in progress. Please try again shortly.\") end\n  end\n end\nend\n\nTeleportService.TeleportInitFailed:Connect(function(player, result, message, placeId, options)\n travel:Failed(player, result.Name, message, placeId, options)\nend)\n"
+      },
+      {
+        "old": "Players.PlayerRemoving:Connect(\n\tfunction(player)\n",
+        "replacement": "Players.PlayerRemoving:Connect(\n\tfunction(player)\n        travel:Remove(player)\n"
+      },
+      {
+        "old": "   for _,member in ipairs(party) do\n    if member.Parent==Players then queueEvent:FireClient(member,\"Error\",reason or \"Save busy. Please retry.\") end\n   end\n   resetZone(data,true)",
+        "replacement": "   resetZone(data,true)\n   for _,member in ipairs(party) do\n    if member.Parent==Players then queueEvent:FireClient(member,\"Error\",reason or \"Save busy. Please retry.\") end\n   end"
+      }
+    ]
+  },
+  {
+    "place": "lobby",
+    "path": "StarterGui.PartyUi.PartyController",
+    "edits": [
+      {
+        "old": "local isLeader = false",
+        "replacement": "local isLeader = false\nlocal statusVersion = 0"
+      },
+      {
+        "old": "local function hide()\n",
+        "replacement": "local function hide()\n statusVersion += 1\n"
+      },
+      {
+        "old": "\t\tif action == \"ShowCreate\" then\n",
+        "replacement": "\t\tif action == \"ShowCreate\" then\n            statusVersion += 1\n"
+      },
+      {
+        "old": "\t\telseif action == \"PartyState\" then\n",
+        "replacement": "\t\telseif action == \"PartyState\" then\n            statusVersion += 1\n"
+      },
+      {
+        "old": "\t\telseif action == \"Error\" then\n\t\t\tui.Enabled = true\n\t\t\ttitle.Text =\n\t\t\t\ttostring(data or \"Something went wrong\")\n\n\t\t\ttask.delay(3, function()\n\t\t\t\tif title.Text ==\n\t\t\t\t\ttostring(\n\t\t\t\t\t\tdata\n\t\t\t\t\t\tor \"Something went wrong\"\n\t\t\t\t\t) then\n\n\t\t\t\t\ttitle.Text =\n\t\t\t\t\t\t\"Create Party\"\n\t\t\t\tend\n\t\t\tend)\n",
+        "replacement": "        elseif action == \"TravelStatus\" then\n            statusVersion += 1\n            ui.Enabled = true\n            showCreate(false)\n            waitingPanel.Visible = true\n            waitingLabel.Text = tostring(data or \"Reconnecting...\")\n            leaveButton.Visible = false\n        elseif action == \"Error\" then\n            statusVersion += 1\n            local version = statusVersion\n            ui.Enabled = true\n            showCreate(false)\n            waitingPanel.Visible = true\n            waitingLabel.Text = tostring(data or \"Something went wrong. Please try again.\")\n            leaveButton.Visible = false\n            task.delay(8, function()\n                if version == statusVersion then hide() end\n            end)\n"
+      }
+    ]
+  },
+  {
+    "place": "lobby",
+    "path": "ReplicatedFirst.GBloxLoading",
+    "edits": [
+      {
+        "old": "local playRequestInFlight = false",
+        "replacement": "local playRequestInFlight = false\nlocal tutorialPending = false\nlocal tutorialRequestVersion = 0\nlocal tutorialFailedVersion\ntable.insert(connections, game:GetService(\"TeleportService\").TeleportInitFailed:Connect(function(who, result, message, placeId)\n if who ~= player or placeId ~= 128350578096458 or (not tutorialPending and not playRequestInFlight) then return end\n tutorialFailedVersion = tutorialRequestVersion\n tutorialPending = false\n playRequestInFlight = false\n setState(\"Menu\")\n tween(root, 0.2, { GroupTransparency = 0 })\n main.Notice.Text = \"Could not connect to the tutorial. Please try Play again.\"\n warn(\"[G-Blox tutorial travel]\", result.Name, message)\n if UserInputService.GamepadEnabled then GuiService.SelectedObject = main.PlayButton end\nend))"
+      },
+      {
+        "old": "\tplayRequestInFlight = true\n\tmain.Notice.Text = \"Checking tutorial...\"",
+        "replacement": "\tplayRequestInFlight = true\n tutorialRequestVersion += 1\n local requestVersion = tutorialRequestVersion\n\tmain.Notice.Text = \"Checking tutorial...\""
+      },
+      {
+        "old": "\tplayRequestInFlight = false\n\n\tif success and result == \"Completed\" then",
+        "replacement": "\tif requestVersion ~= tutorialRequestVersion or tutorialFailedVersion == requestVersion then return end\n playRequestInFlight = false\n\n\tif success and result == \"Completed\" then"
+      },
+      {
+        "old": "\telseif success and result == \"Teleporting\" then\n\t\tsetState(\"Fading\")",
+        "replacement": "\telseif success and result == \"Teleporting\" then\n  tutorialPending = true\n\t\tsetState(\"Fading\")"
+      },
+      {
+        "old": "local assets, seen, loaded = {}, {}, {}",
+        "replacement": "local assets, seen, loaded = {}, {}, {}\nlocal optionalAssets = {}\nfor _, id in config.Sounds do optionalAssets[id] = true end\nfor _, id in config.LobbyAssets do optionalAssets[id] = true end\nfor _, id in config.Images do optionalAssets[id] = nil end"
+      },
+      {
+        "old": "\tlocal failed = {}\n\tfor _, id in assets do\n\t\tif not loaded[id] then table.insert(failed, id) end\n\tend\n\tgui:SetAttribute(\"FailedAssets\", table.concat(failed, \", \"))\n\tif #failed > 0 then\n\t\tloading.LoadingText.Text = \"Load interrupted\"\n\t\tloading.Retry.Visible = true\n\t\tloadingInProgress = false\n\t\twarn(\"[G-Blox menu] Couldn't load: \"..table.concat(failed, \", \"))\n\t\treturn\n\tend",
+        "replacement": "\tlocal failed, requiredFailed = {}, {}\n\tfor _, id in assets do\n\t\tif not loaded[id] then\n   table.insert(failed, id)\n   if not optionalAssets[id] then table.insert(requiredFailed, id) end\n  end\n\tend\n\tgui:SetAttribute(\"FailedAssets\", table.concat(failed, \", \"))\n if #failed > 0 then warn(\"[G-Blox menu] Asset fetch incomplete: \"..table.concat(failed, \", \")) end\n\tif #requiredFailed > 0 then\n\t\tloading.LoadingText.Text = \"Loading menu images\"\n\t\tloading.Retry.Visible = true\n\t\tloadingInProgress = false\n\t\treturn\n\tend"
+      },
+      {
+        "old": "\tlocal nextAsset, finished = 0, 0\n\tlocal workers = {}",
+        "replacement": "\ttable.sort(pending, function(a, b) return not optionalAssets[a] and optionalAssets[b] == true end)\n local requiredPending, requiredFinished = 0, 0\n for _, id in pending do if not optionalAssets[id] then requiredPending += 1 end end\n\tlocal nextAsset, finished = 0, 0\n\tlocal workers = {}"
+      },
+      {
+        "old": "\t\t\t\tfinished += 1\n\t\t\t\tupdateProgress()",
+        "replacement": "\t\t\t\tfinished += 1\n                if not optionalAssets[id] then requiredFinished += 1 end\n\t\t\t\tupdateProgress()"
+      },
+      {
+        "old": "\tlocal deadline = os.clock() + 45\n\twhile finished < #pending and os.clock() < deadline do task.wait(0.1) end",
+        "replacement": "\tlocal deadline = os.clock() + 45\n local optionalDeadline\n\twhile finished < #pending and os.clock() < deadline do\n  if requiredFinished >= requiredPending then\n   optionalDeadline = optionalDeadline or os.clock() + 4\n   if os.clock() >= optionalDeadline then break end\n  end\n  task.wait(0.1)\n end"
+      }
+    ]
+  },
+  {
+    "place": "round",
+    "path": "ReplicatedFirst.GBloxCourseLoading",
+    "edits": [
+      {
+        "old": "table.insert(assets, { key = key, id = id, object = object })",
+        "replacement": "table.insert(assets, { key = key, id = id, object = object, required = kind == \"Mesh\" })"
+      },
+      {
+        "old": "\tlocal nextAsset, finished = 0, 0\n\tlocal workers = {}",
+        "replacement": "\ttable.sort(pending, function(a, b) return a.required and not b.required end)\n local requiredPending, requiredFinished = 0, 0\n for _, asset in pending do if asset.required then requiredPending += 1 end end\n\tlocal nextAsset, finished = 0, 0\n\tlocal workers = {}"
+      },
+      {
+        "old": "\t\t\t\tfinished += 1\n\t\t\t\tupdateProgress()",
+        "replacement": "\t\t\t\tfinished += 1\n                if asset.required then requiredFinished += 1 end\n\t\t\t\tupdateProgress()"
+      },
+      {
+        "old": "\tlocal deadline = os.clock() + 45\n\twhile finished < #pending and os.clock() < deadline do task.wait(0.1) end",
+        "replacement": "\tlocal deadline = os.clock() + 45\n local optionalDeadline\n\twhile finished < #pending and os.clock() < deadline do\n  if requiredFinished >= requiredPending then\n   optionalDeadline = optionalDeadline or os.clock() + 4\n   if os.clock() >= optionalDeadline then break end\n  end\n  task.wait(0.1)\n end"
+      },
+      {
+        "old": "\tlocal failed = {}\n\tfor _, asset in assets do\n\t\tif not loaded[asset.key] then table.insert(failed, asset.id) end\n\tend\n\tgui:SetAttribute(\"FailedAssets\", table.concat(failed, \", \"))\n\tif #failed > 0 then\n\t\twarn(\"[Course loading] Couldn't load: \"..table.concat(failed, \", \"))\n\t\tshowRetry(\"Load interrupted\")\n\t\tloadingInProgress = false\n\t\treturn\n\tend",
+        "replacement": "\tlocal failed, requiredFailed = {}, {}\n\tfor _, asset in assets do\n\t\tif not loaded[asset.key] then\n   table.insert(failed, asset.id)\n   if asset.required then table.insert(requiredFailed, asset.id) end\n  end\n\tend\n\tgui:SetAttribute(\"FailedAssets\", table.concat(failed, \", \"))\n if #failed > 0 then warn(\"[Course loading] Asset fetch incomplete: \"..table.concat(failed, \", \")) end\n\tif #requiredFailed > 0 then\n\t\tshowRetry(\"Loading course geometry\")\n\t\tloadingInProgress = false\n\t\treturn\n\tend"
+      }
+    ]
+  }
+]

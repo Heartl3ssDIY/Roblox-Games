@@ -1,0 +1,47 @@
+Installed AFK and spectate controls in Playground Classics on 7 October 2026.
+
+Open the 44px three-dot button beside Admin, or press D-pad Up on a controller.
+AFK toggles round eligibility; enabling it during a round takes effect after that round.
+AFK players cannot vote, join automatic rounds, or start an admin practice round until they turn AFK off.
+The setting lasts for the current server session.
+
+Spectate is available to lobby players when a round has living player participants.
+It follows actual players (not practice bots), with previous/next controls and a return button.
+Keyboard: left/right arrow to switch, Backspace to exit.
+Controller: L1/R1 to switch, B/Circle to exit. D-pad Up focuses controls.
+Touch: the authored buttons are at least 44px.
+The character's movement is disabled while watching and restored on exit.
+Leaving/dead targets are replaced; no targets, round changes, joining a round, own death/respawn,
+opening a modal, or disabling the GUI restore the local camera and movement.
+
+Editable GUI: StarterGui.PlaygroundSessionControls
+Server logic: ServerScriptService.PlaygroundCoordinator
+RemoteFunction: ReplicatedStorage.PlaygroundSessionRequest
+Server-owned player attributes: PCAFKRequested, PCAFKQueued, PCAFK
+Client UI attributes: SessionMenuOpen, Spectating, SpectatingUserId
+The toy controller hides the bar and gates toy inputs while either session UI state is active.
+
+Studio backup: ServerStorage.SessionModesBackup20261007.PlaygroundCoordinatorBefore
+Exact original source and permissions: Before/Snapshot.json
+Checked installer: InstallSessionModesChecked.luau (guarded against repeat installation)
+
+Streaming support is installed because Workspace.StreamingEnabled is true. The server validates the
+target, adds one temporary replication focus beside the spectator's existing focus, and removes it
+on exit, invalid target, round change, death, disconnect, or a 12-second expired lease. The client
+renews every 4 seconds, can select participants whose character has not streamed in yet, and shows
+LOADING ARENA until their character arrives. Ordered request timestamps prevent stale requests
+from reapplying focus after an exit. No existing ReplicationFocus property is overwritten.
+Streaming amendment installer: InstallStreamingSupport.luau. Before-streaming sources are backed
+up beside the original Coordinator in ServerStorage.SessionModesBackup20261007.
+Roblox documents AddReplicationFocus/RemoveReplicationFocus as Players capability APIs:
+https://create.roblox.com/docs/reference/engine/classes/Player#AddReplicationFocus
+The existing scripts already have Players. No new capabilities were granted. A native fake-Player
+fixture was not run because creating a Player for a test requires WritePlayer; that permission was
+not added. Actual target/focus behavior is covered by focused mocks and awaits live Play testing.
+
+Checks: 42 AFK/streaming eligibility/voting/queue/rate-limit/lifecycle cases; 22 spectate target/camera/
+movement/streamed-arrival cases; local Luau compilation; native layout on 360x640,390x844,640x360,844x390,1024x768,
+and 1920x1080. All 14 labels fit and all 6 actionable targets are at least 44px in those native checks.
+Source readback confirms 35-second intermission, existing capabilities, closed default UI, cleanup of
+temporary layout fixtures, and no runtime Position/Size writes. Existing script permissions are unchanged.
+Play was not started or stopped. Live multi-player device testing remains to be done by the user.

@@ -1,0 +1,13 @@
+import { chromium } from "file:///C:/Users/sandt/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs";
+import { pathToFileURL } from "node:url";
+const folder = "C:/Users/sandt/Documents/Local Projects/Roblox UI Assets/Btns/BattlePassConcept20260927/figma-svg-edited/";
+const browser = await chromium.launch({headless:true, executablePath:"C:/Program Files/Google/Chrome/Application/chrome.exe"});
+const page = await browser.newPage({viewport:{width:1095,height:729}, deviceScaleFactor:1});
+const errors=[];
+page.on("pageerror", e=>errors.push(e.message));
+await page.goto(pathToFileURL(folder+"battle-pass-edited.svg").href,{waitUntil:"load"});
+await page.evaluate(()=>{document.documentElement.style.backgroundColor="#6b6b6b"});
+await page.screenshot({path:folder+"qa-battle-pass-edited.png"});
+const info=await page.evaluate(()=>({viewBox:document.querySelector("svg")?.getAttribute("viewBox"), groups:document.querySelectorAll("g[id]").length, editableText:document.querySelectorAll("text").length, images:document.querySelectorAll("image").length}));
+console.log(JSON.stringify({info,errors}));
+await browser.close();

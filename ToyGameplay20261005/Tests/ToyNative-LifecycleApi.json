@@ -1,0 +1,9 @@
+{
+  "result": {
+    "disconnected": true,
+    "connected": 2
+  },
+  "playStartedOrStopped": false,
+  "passed": true,
+  "probeDestroyed": true
+}

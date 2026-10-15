@@ -1,0 +1,27 @@
+{
+  "targetStudio": "6fd06fc4-eed9-453d-becc-0da1fd6537f2",
+  "source": "Current Studio Edit sources",
+  "changes": [
+    "Freeze unique ready human starter count at first course start",
+    "AwardMatch increments total wins only for explicit true eligibility and first place",
+    "Practice labels retain cash/trophy amounts",
+    "Solo IsWinner suppressed; first-finisher deadline unchanged",
+    "Solo rewards presentation uses practice labels and wide shot"
+  ],
+  "unchanged": [
+    "RunnerClient",
+    "GreenFinish effects",
+    "Solo cash/trophy totals",
+    "RecordTime / best-time logic",
+    "Existing GUI layout and fonts",
+    "Round scoring / progression"
+  ],
+  "assertionsPassed": 27,
+  "compiled": [
+    "RunnerServer.after.luau",
+    "PlayerData.after.luau",
+    "GBloxPodium.after.luau",
+    "MatchRewardsController.after.luau"
+  ],
+  "installed": false
+}

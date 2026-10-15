@@ -1,0 +1,755 @@
+{
+  "ok": true,
+  "geometry": [
+    {
+      "height": 568,
+      "fire": "170, 334",
+      "sprint": "18, 312",
+      "width": 320
+    },
+    {
+      "height": 667,
+      "fire": "225, 433",
+      "sprint": "18, 411",
+      "width": 375
+    },
+    {
+      "height": 375,
+      "fire": "517, 141",
+      "sprint": "18, 119",
+      "width": 667
+    },
+    {
+      "height": 292,
+      "fire": "694, 58",
+      "sprint": "18, 36",
+      "width": 844
+    },
+    {
+      "height": 1024,
+      "fire": "618, 790",
+      "sprint": "18, 768",
+      "width": 768
+    },
+    {
+      "height": 768,
+      "fire": "874, 534",
+      "sprint": "18, 512",
+      "width": 1024
+    }
+  ],
+  "checks": [
+    {
+      "name": "TagHUD substitutes only native mobile input signal",
+      "passed": true
+    },
+    {
+      "name": "TagHUD substitutes only native desktop input signal",
+      "passed": true
+    },
+    {
+      "name": "TagHUD shows only the left button on touch",
+      "passed": true
+    },
+    {
+      "name": "TagHUD phone press requests sprint",
+      "passed": true
+    },
+    {
+      "name": "TagHUD phone release stops sprint",
+      "passed": true
+    },
+    {
+      "name": "TagHUD cancelled touch stops sprint",
+      "passed": true
+    },
+    {
+      "name": "TagHUD losing focus stops sprint",
+      "passed": true
+    },
+    {
+      "name": "TagHUD text entry releases sprint",
+      "passed": true
+    },
+    {
+      "name": "TagHUD results hide mobile sprint",
+      "passed": true
+    },
+    {
+      "name": "TagHUD results cannot send sprint",
+      "passed": true
+    },
+    {
+      "name": "TagHUD desktop button remains in original slot",
+      "passed": true
+    },
+    {
+      "name": "TagHUD desktop shift still requests sprint",
+      "passed": true
+    },
+    {
+      "name": "TagHUD shift release still stops sprint",
+      "passed": true
+    },
+    {
+      "name": "TagHUD runtime preserves authored mobile geometry",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD substitutes only native mobile input signal",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD substitutes only native desktop input signal",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD shows only the left button on touch",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD phone press requests sprint",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD phone release stops sprint",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD cancelled touch stops sprint",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD losing focus stops sprint",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD text entry releases sprint",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD results hide mobile sprint",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD results cannot send sprint",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD desktop button remains in original slot",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD desktop shift still requests sprint",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD shift release still stops sprint",
+      "passed": true
+    },
+    {
+      "name": "BritishBulldogHUD runtime preserves authored mobile geometry",
+      "passed": true
+    },
+    {
+      "name": "320x568 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "320x568 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "320x568 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "320x568 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "320x568 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "320x568 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "320x568 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "320x568 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "320x568 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "320x568 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Mud remains on screen",
+      "passed": true
+    },
+    {
+      "name": "320x568 Mud clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "320x568 Mud clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "320x568 Mud clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "320x568 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Heat remains on screen",
+      "passed": true
+    },
+    {
+      "name": "320x568 Heat clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "320x568 Heat clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "320x568 Heat clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "320x568 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Fire remains on screen",
+      "passed": true
+    },
+    {
+      "name": "320x568 Fire clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "320x568 Fire clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "320x568 Fire clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "320x568  safe-zone warning clears sprint",
+      "passed": true
+    },
+    {
+      "name": "320x568  Fire clears top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "320x568  weapon selectors clear top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "320x568  touch meter does not block inputs",
+      "passed": true
+    },
+    {
+      "name": "375x667 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "375x667 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "375x667 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "375x667 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "375x667 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "375x667 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "375x667 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "375x667 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "375x667 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "375x667 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Mud remains on screen",
+      "passed": true
+    },
+    {
+      "name": "375x667 Mud clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "375x667 Mud clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "375x667 Mud clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "375x667 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Heat remains on screen",
+      "passed": true
+    },
+    {
+      "name": "375x667 Heat clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "375x667 Heat clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "375x667 Heat clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "375x667 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Fire remains on screen",
+      "passed": true
+    },
+    {
+      "name": "375x667 Fire clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "375x667 Fire clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "375x667 Fire clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "375x667  safe-zone warning clears sprint",
+      "passed": true
+    },
+    {
+      "name": "375x667  Fire clears top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "375x667  weapon selectors clear top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "375x667  touch meter does not block inputs",
+      "passed": true
+    },
+    {
+      "name": "667x375 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "667x375 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "667x375 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "667x375 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "667x375 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "667x375 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "667x375 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "667x375 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "667x375 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "667x375 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Mud remains on screen",
+      "passed": true
+    },
+    {
+      "name": "667x375 Mud clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "667x375 Mud clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "667x375 Mud clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "667x375 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Heat remains on screen",
+      "passed": true
+    },
+    {
+      "name": "667x375 Heat clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "667x375 Heat clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "667x375 Heat clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "667x375 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Fire remains on screen",
+      "passed": true
+    },
+    {
+      "name": "667x375 Fire clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "667x375 Fire clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "667x375 Fire clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "667x375  safe-zone warning clears sprint",
+      "passed": true
+    },
+    {
+      "name": "667x375  Fire clears top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "667x375  weapon selectors clear top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "667x375  touch meter does not block inputs",
+      "passed": true
+    },
+    {
+      "name": "844x292 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "844x292 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "844x292 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "844x292 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "844x292 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "844x292 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "844x292 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "844x292 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "844x292 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "844x292 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Mud remains on screen",
+      "passed": true
+    },
+    {
+      "name": "844x292 Mud clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "844x292 Mud clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "844x292 Mud clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "844x292 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Heat remains on screen",
+      "passed": true
+    },
+    {
+      "name": "844x292 Heat clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "844x292 Heat clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "844x292 Heat clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "844x292 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Fire remains on screen",
+      "passed": true
+    },
+    {
+      "name": "844x292 Fire clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "844x292 Fire clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "844x292 Fire clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "844x292  safe-zone warning clears sprint",
+      "passed": true
+    },
+    {
+      "name": "844x292  Fire clears top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "844x292  weapon selectors clear top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "844x292  touch meter does not block inputs",
+      "passed": true
+    },
+    {
+      "name": "768x1024 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "768x1024 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "768x1024 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "768x1024 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "768x1024 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "768x1024 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "768x1024 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "768x1024 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "768x1024 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "768x1024 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Mud remains on screen",
+      "passed": true
+    },
+    {
+      "name": "768x1024 Mud clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "768x1024 Mud clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "768x1024 Mud clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "768x1024 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Heat remains on screen",
+      "passed": true
+    },
+    {
+      "name": "768x1024 Heat clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "768x1024 Heat clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "768x1024 Heat clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "768x1024 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Fire remains on screen",
+      "passed": true
+    },
+    {
+      "name": "768x1024 Fire clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "768x1024 Fire clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "768x1024 Fire clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "768x1024  safe-zone warning clears sprint",
+      "passed": true
+    },
+    {
+      "name": "768x1024  Fire clears top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "768x1024  weapon selectors clear top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "768x1024  touch meter does not block inputs",
+      "passed": true
+    },
+    {
+      "name": "1024x768 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "1024x768 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "1024x768 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "1024x768 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "1024x768 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "1024x768 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "1024x768 CoreGui.MobileSprintGeometryFixture20261008.Frame.MobileSprint remains on screen",
+      "passed": true
+    },
+    {
+      "name": "1024x768 MobileSprint clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "1024x768 MobileSprint clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "1024x768 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Mud remains on screen",
+      "passed": true
+    },
+    {
+      "name": "1024x768 Mud clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "1024x768 Mud clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "1024x768 Mud clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "1024x768 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Heat remains on screen",
+      "passed": true
+    },
+    {
+      "name": "1024x768 Heat clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "1024x768 Heat clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "1024x768 Heat clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "1024x768 CoreGui.MobileSprintGeometryFixture20261008.Frame.Main.Controls.Fire remains on screen",
+      "passed": true
+    },
+    {
+      "name": "1024x768 Fire clears mobile jump",
+      "passed": true
+    },
+    {
+      "name": "1024x768 Fire clears mobile joystick",
+      "passed": true
+    },
+    {
+      "name": "1024x768 Fire clears left sprint",
+      "passed": true
+    },
+    {
+      "name": "1024x768  safe-zone warning clears sprint",
+      "passed": true
+    },
+    {
+      "name": "1024x768  Fire clears top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "1024x768  weapon selectors clear top Mud HUD",
+      "passed": true
+    },
+    {
+      "name": "1024x768  touch meter does not block inputs",
+      "passed": true
+    }
+  ]
+}

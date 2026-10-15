@@ -1,0 +1,52 @@
+{
+  "id": "P35",
+  "name": "Sunfeather Phoenix",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p35-sunfeather-phoenix.png",
+  "brief": "One adorable baby phoenix with a rounded orange body, huge expressive navy eyes, short gold beak and feet, three broad swept orange-and-yellow crest feathers, attached compact red wings, and a dramatic fan of THREE thick layered flame-shaped tail feathers in yellow, orange and red. All feathers opaque solid forms, no actual fire or external glow.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p35-sunfeather-phoenix.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p35-sunfeather-phoenix.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p35-sunfeather-phoenix-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p35-sunfeather-phoenix.png",
+  "parts": 71,
+  "triangles": 24840,
+  "meshes": 2,
+  "maxMeshTriangles": 18404,
+  "dimensions": [
+    2.4382026195526123,
+    3.34708309173584,
+    3.551084280014038
+  ],
+  "boundsMin": [
+    -1.2191013097763062,
+    -1.3539999723434448,
+    0.05781638249754906
+  ],
+  "boundsMax": [
+    1.2191013097763062,
+    1.9930832386016846,
+    3.608900547027588
+  ],
+  "paletteColors": 12,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "LegL",
+    "WingL",
+    "LegR",
+    "WingR",
+    "Tail"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.438202381134033,
+    3.34708309173584,
+    3.551084041595459
+  ]
+}

@@ -1,0 +1,895 @@
+{
+  "allPassed": true,
+  "method": "Independent direct binary FBX parse; hierarchical XYZ local transforms compared against BindPose matrices; skin cluster weights inspected per vertex.",
+  "bindPosesIdenticalAcrossThreeExports": true,
+  "robloxRuntimeImportVerified": false,
+  "notes": [
+    "Numeric model width is exactly 3.0 exported units. Select Studs and import scale 1 in Roblox.",
+    "Embedded palette bytes match the external PNG. Exporter .fbm references are fallback extraction paths, not required while Content is embedded.",
+    "All three exports share identical neutral bind poses; Rigged contains no animation curves and its model transforms reproduce its neutral bind pose. Animated files intentionally start posed, so their initial transforms differ from the neutral bind pose.",
+    "Loop closure checked in all exported channels. Visual wing motion and full-animation bounds remain separate render/evaluation checks."
+  ],
+  "files": [
+    {
+      "file": "VIP-Dragon-Rigged.fbx",
+      "sha256": "7c9b2ab8f5b1fd31a9c74c6d9e05ff5184b75de5f1dc32f7d9885224351e159b",
+      "version": 7400,
+      "meshCount": 8,
+      "triangles": 40848,
+      "maximumMeshTriangles": 7632,
+      "boneCount": 14,
+      "boneNames": [
+        "Root",
+        "Body",
+        "Head",
+        "Tail.01",
+        "Tail.02",
+        "Tail.03",
+        "Wing.L",
+        "WingTip.L",
+        "FrontPaw.L",
+        "RearPaw.L",
+        "Wing.R",
+        "WingTip.R",
+        "FrontPaw.R",
+        "RearPaw.R"
+      ],
+      "restBounds": {
+        "min": [
+          -1.5,
+          0.12770509328053795,
+          -0.9250959341993314
+        ],
+        "max": [
+          1.5,
+          1.954173315993259,
+          0.597850401665488
+        ],
+        "size": [
+          3.0,
+          1.8264682227127211,
+          1.5229463358648194
+        ]
+      },
+      "unitScaleFactor": 1.0,
+      "bindPoses": 8,
+      "duplicateBindMaximumError": 0.0,
+      "initialTransformVsBindPoseMaximumDifference": 4.852970147406488e-07,
+      "meshes": [
+        {
+          "name": "VIP_Body_Head_1_Mesh",
+          "vertices": 3654,
+          "triangles": 7280,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 0.0,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Crown_Horns_1_Mesh",
+          "vertices": 3384,
+          "triangles": 6728,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Face_1_Mesh",
+          "vertices": 3418,
+          "triangles": 6800,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Face_2_Mesh",
+          "vertices": 1942,
+          "triangles": 3856,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Paws_1_Mesh",
+          "vertices": 3848,
+          "triangles": 7632,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 0.0,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Paws_2_Mesh",
+          "vertices": 800,
+          "triangles": 1584,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 0.0,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Tail_1_Mesh",
+          "vertices": 958,
+          "triangles": 1888,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 2,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Wings_1_Mesh",
+          "vertices": 2576,
+          "triangles": 5080,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 2.9802322387695312e-08,
+          "maximumInfluences": 2,
+          "hasUV": true
+        }
+      ],
+      "embeddedTextures": [
+        {
+          "name": "VIP-Dragon-Palette.png",
+          "bytes": 1359,
+          "matchesPaletteBytes": true
+        }
+      ],
+      "animationCurveCount": 0,
+      "sampleCount": 0,
+      "durationSeconds": 0,
+      "maximumFirstLastCurveError": 0,
+      "animatedChannels": [],
+      "passed": true
+    },
+    {
+      "file": "VIP-Dragon-Hover.fbx",
+      "sha256": "39b6667ad55eba310af6eac7ea848c66bb74a6873ea8c5dd1cfed87621742982",
+      "version": 7400,
+      "meshCount": 8,
+      "triangles": 40848,
+      "maximumMeshTriangles": 7632,
+      "boneCount": 14,
+      "boneNames": [
+        "Root",
+        "Body",
+        "Head",
+        "Tail.01",
+        "Tail.02",
+        "Tail.03",
+        "Wing.L",
+        "WingTip.L",
+        "FrontPaw.L",
+        "RearPaw.L",
+        "Wing.R",
+        "WingTip.R",
+        "FrontPaw.R",
+        "RearPaw.R"
+      ],
+      "restBounds": {
+        "min": [
+          -1.5,
+          0.12770509328053795,
+          -0.9250959341993314
+        ],
+        "max": [
+          1.5,
+          1.954173315993259,
+          0.597850401665488
+        ],
+        "size": [
+          3.0,
+          1.8264682227127211,
+          1.5229463358648194
+        ]
+      },
+      "unitScaleFactor": 1.0,
+      "bindPoses": 8,
+      "duplicateBindMaximumError": 0.0,
+      "initialTransformVsBindPoseMaximumDifference": 0.9863236201245271,
+      "meshes": [
+        {
+          "name": "VIP_Body_Head_1_Mesh",
+          "vertices": 3654,
+          "triangles": 7280,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 0.0,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Crown_Horns_1_Mesh",
+          "vertices": 3384,
+          "triangles": 6728,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Face_1_Mesh",
+          "vertices": 3418,
+          "triangles": 6800,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Face_2_Mesh",
+          "vertices": 1942,
+          "triangles": 3856,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Paws_1_Mesh",
+          "vertices": 3848,
+          "triangles": 7632,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 0.0,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Paws_2_Mesh",
+          "vertices": 800,
+          "triangles": 1584,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 0.0,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Tail_1_Mesh",
+          "vertices": 958,
+          "triangles": 1888,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 2,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Wings_1_Mesh",
+          "vertices": 2576,
+          "triangles": 5080,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 2.9802322387695312e-08,
+          "maximumInfluences": 2,
+          "hasUV": true
+        }
+      ],
+      "embeddedTextures": [
+        {
+          "name": "VIP-Dragon-Palette.png",
+          "bytes": 1359,
+          "matchesPaletteBytes": true
+        }
+      ],
+      "animationCurveCount": 135,
+      "sampleCount": 41,
+      "durationSeconds": 1.3333333333333333,
+      "maximumFirstLastCurveError": 0,
+      "animatedChannels": [
+        {
+          "bone": "Body",
+          "property": "Lcl Translation",
+          "component": "d|Y",
+          "range": 0.0702250599861145
+        },
+        {
+          "bone": "Body",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 4.000000715255737
+        },
+        {
+          "bone": "Head",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 2.7997193336486816
+        },
+        {
+          "bone": "Tail.01",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 0.6071090698242188
+        },
+        {
+          "bone": "Tail.01",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 5.972258567810059
+        },
+        {
+          "bone": "Tail.01",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 0.19039297103881836
+        },
+        {
+          "bone": "Tail.02",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 3.2719039916992188
+        },
+        {
+          "bone": "Tail.02",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 4.298345565795898
+        },
+        {
+          "bone": "Tail.02",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 9.564254760742188
+        },
+        {
+          "bone": "Tail.03",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 0.351837158203125
+        },
+        {
+          "bone": "Tail.03",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 0.2162933349609375
+        },
+        {
+          "bone": "Tail.03",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 14.171340942382812
+        },
+        {
+          "bone": "Wing.L",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 2.0265579223632812e-05
+        },
+        {
+          "bone": "Wing.L",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 1.9073486328125e-05
+        },
+        {
+          "bone": "Wing.L",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 64.0000171661377
+        },
+        {
+          "bone": "WingTip.L",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 18.580047607421875
+        },
+        {
+          "bone": "WingTip.L",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 19.738571166992188
+        },
+        {
+          "bone": "WingTip.L",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 14.6678466796875
+        },
+        {
+          "bone": "FrontPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 7.7364959716796875
+        },
+        {
+          "bone": "FrontPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 2.293393611907959
+        },
+        {
+          "bone": "FrontPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 1.1964874267578125
+        },
+        {
+          "bone": "RearPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 6.1078338623046875
+        },
+        {
+          "bone": "RearPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 1.10736083984375
+        },
+        {
+          "bone": "RearPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 1.6486902236938477
+        },
+        {
+          "bone": "Wing.R",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 2.0265579223632812e-05
+        },
+        {
+          "bone": "Wing.R",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 1.9073486328125e-05
+        },
+        {
+          "bone": "Wing.R",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 64.0000171661377
+        },
+        {
+          "bone": "WingTip.R",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 18.580047607421875
+        },
+        {
+          "bone": "WingTip.R",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 19.738571166992188
+        },
+        {
+          "bone": "WingTip.R",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 14.6678466796875
+        },
+        {
+          "bone": "FrontPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 7.7364959716796875
+        },
+        {
+          "bone": "FrontPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 2.293393611907959
+        },
+        {
+          "bone": "FrontPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 1.1964874267578125
+        },
+        {
+          "bone": "RearPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 6.1078338623046875
+        },
+        {
+          "bone": "RearPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 1.10736083984375
+        },
+        {
+          "bone": "RearPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 1.6486902236938477
+        }
+      ],
+      "passed": true
+    },
+    {
+      "file": "VIP-Dragon-Fly.fbx",
+      "sha256": "e74296c999dec428950aff4f7da7a8016192a305113931e14335897ead44b935",
+      "version": 7400,
+      "meshCount": 8,
+      "triangles": 40848,
+      "maximumMeshTriangles": 7632,
+      "boneCount": 14,
+      "boneNames": [
+        "Root",
+        "Body",
+        "Head",
+        "Tail.01",
+        "Tail.02",
+        "Tail.03",
+        "Wing.L",
+        "WingTip.L",
+        "FrontPaw.L",
+        "RearPaw.L",
+        "Wing.R",
+        "WingTip.R",
+        "FrontPaw.R",
+        "RearPaw.R"
+      ],
+      "restBounds": {
+        "min": [
+          -1.5,
+          0.12770509328053795,
+          -0.9250959341993314
+        ],
+        "max": [
+          1.5,
+          1.954173315993259,
+          0.597850401665488
+        ],
+        "size": [
+          3.0,
+          1.8264682227127211,
+          1.5229463358648194
+        ]
+      },
+      "unitScaleFactor": 1.0,
+      "bindPoses": 8,
+      "duplicateBindMaximumError": 0.0,
+      "initialTransformVsBindPoseMaximumDifference": 0.9863234242218859,
+      "meshes": [
+        {
+          "name": "VIP_Body_Head_1_Mesh",
+          "vertices": 3654,
+          "triangles": 7280,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 0.0,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Crown_Horns_1_Mesh",
+          "vertices": 3384,
+          "triangles": 6728,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Face_1_Mesh",
+          "vertices": 3418,
+          "triangles": 6800,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Face_2_Mesh",
+          "vertices": 1942,
+          "triangles": 3856,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Paws_1_Mesh",
+          "vertices": 3848,
+          "triangles": 7632,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 0.0,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Paws_2_Mesh",
+          "vertices": 800,
+          "triangles": 1584,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 0.0,
+          "maximumInfluences": 1,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Tail_1_Mesh",
+          "vertices": 958,
+          "triangles": 1888,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 1.1920928955078125e-07,
+          "maximumInfluences": 2,
+          "hasUV": true
+        },
+        {
+          "name": "VIP_Wings_1_Mesh",
+          "vertices": 2576,
+          "triangles": 5080,
+          "unweightedVertices": 0,
+          "allFacesTriangulated": true,
+          "largestPolygonCorners": 3,
+          "maximumWeightSumError": 2.9802322387695312e-08,
+          "maximumInfluences": 2,
+          "hasUV": true
+        }
+      ],
+      "embeddedTextures": [
+        {
+          "name": "VIP-Dragon-Palette.png",
+          "bytes": 1359,
+          "matchesPaletteBytes": true
+        }
+      ],
+      "animationCurveCount": 135,
+      "sampleCount": 27,
+      "durationSeconds": 0.8666666666666667,
+      "maximumFirstLastCurveError": 0,
+      "animatedChannels": [
+        {
+          "bone": "Body",
+          "property": "Lcl Translation",
+          "component": "d|Y",
+          "range": 0.0700950026512146
+        },
+        {
+          "bone": "Body",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 5.956264495849609
+        },
+        {
+          "bone": "Head",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 3.9921979904174805
+        },
+        {
+          "bone": "Tail.01",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 0.6026840209960938
+        },
+        {
+          "bone": "Tail.01",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 5.928730010986328
+        },
+        {
+          "bone": "Tail.01",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 0.18899917602539062
+        },
+        {
+          "bone": "Tail.02",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 3.260112762451172
+        },
+        {
+          "bone": "Tail.02",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 4.28288459777832
+        },
+        {
+          "bone": "Tail.02",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 9.529747009277344
+        },
+        {
+          "bone": "Tail.03",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 0.3516502380371094
+        },
+        {
+          "bone": "Tail.03",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 0.21616363525390625
+        },
+        {
+          "bone": "Tail.03",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 14.163320541381836
+        },
+        {
+          "bone": "Wing.L",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 2.193450927734375e-05
+        },
+        {
+          "bone": "Wing.L",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 1.9073486328125e-05
+        },
+        {
+          "bone": "Wing.L",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 64.00000762939453
+        },
+        {
+          "bone": "WingTip.L",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 18.59593963623047
+        },
+        {
+          "bone": "WingTip.L",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 19.75510311126709
+        },
+        {
+          "bone": "WingTip.L",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 14.6802978515625
+        },
+        {
+          "bone": "FrontPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 7.6383056640625
+        },
+        {
+          "bone": "FrontPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 2.476024627685547
+        },
+        {
+          "bone": "FrontPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 0.7456893920898438
+        },
+        {
+          "bone": "RearPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 6.16876220703125
+        },
+        {
+          "bone": "RearPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 0.8982028961181641
+        },
+        {
+          "bone": "RearPaw.L",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 1.7866392135620117
+        },
+        {
+          "bone": "Wing.R",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 2.193450927734375e-05
+        },
+        {
+          "bone": "Wing.R",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 1.9073486328125e-05
+        },
+        {
+          "bone": "Wing.R",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 64.00000762939453
+        },
+        {
+          "bone": "WingTip.R",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 18.59593963623047
+        },
+        {
+          "bone": "WingTip.R",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 19.75510311126709
+        },
+        {
+          "bone": "WingTip.R",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 14.6802978515625
+        },
+        {
+          "bone": "FrontPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 7.6383056640625
+        },
+        {
+          "bone": "FrontPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 2.476024627685547
+        },
+        {
+          "bone": "FrontPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 0.7456893920898438
+        },
+        {
+          "bone": "RearPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|X",
+          "range": 6.16876220703125
+        },
+        {
+          "bone": "RearPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|Y",
+          "range": 0.8982028961181641
+        },
+        {
+          "bone": "RearPaw.R",
+          "property": "Lcl Rotation",
+          "component": "d|Z",
+          "range": 1.7866392135620117
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

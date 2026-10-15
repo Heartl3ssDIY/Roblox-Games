@@ -1,0 +1,24 @@
+{
+  "backup": "ServerStorage.StorageFacingBackup20261012",
+  "helperParts": 304,
+  "worldStorage": 76,
+  "published": false,
+  "room01AppearancePreserved": true,
+  "room01PositionPreserved": true,
+  "version": "20261012-storage-facing-v1",
+  "templates": 3,
+  "room01Exit": "10945.970703125, 36, 4520.34423828125",
+  "visualMeshes": 1133,
+  "safeExits": 76,
+  "validationChecks": 23610,
+  "changedPartTransforms": 1103,
+  "idempotency": "Second installer call returned alreadyInstalled=true and made no edits.",
+  "buildersPatched": [
+    "SchoolPropHunt20261011/Assets/BuildSchoolAssets.luau",
+    "SchoolPropHunt20261011/Assets/BuildSchoolAssets.body.luau"
+  ],
+  "builderExecuted": false,
+  "visualLimitation": "Native screenshot calls in this Studio session return a blank 3D viewport with HUD. Front direction was verified from actual handle and drawer-label mesh positions against interaction doors and exits.",
+  "verification": "23,610 checks including visual direction, all 76 exit volumes, all source part materials/physics/meshes/textures, unchanged prompts, all other logical markers, preserved Room01 user placement and appearance.",
+  "playStarted": false
+}

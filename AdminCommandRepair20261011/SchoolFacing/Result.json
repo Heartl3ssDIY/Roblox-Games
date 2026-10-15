@@ -1,0 +1,22 @@
+{
+  "studioId": "fa2d463c-b2d8-459c-abd5-b72902cc9338",
+  "mode": "Edit",
+  "installed": true,
+  "published": false,
+  "version": "20261011-facing-v2",
+  "worldModels": 320,
+  "chairs": 288,
+  "teachingBoards": 32,
+  "templates": 10,
+  "visualPartsRotated": 1801,
+  "unaffectedPartsVerified": 6338,
+  "facingChecks": 320,
+  "minimumFacingDot": 0.8300184011459351,
+  "rooms": 32,
+  "backup": "ServerStorage.SchoolFacingBackup_20261011",
+  "visualInspection": "Native before/after room capture confirms whiteboard face now visible from student seating and chairs face desks.",
+  "sourceFilesUpdated": [
+    "SchoolPropHunt20261011/Assets/BuildSchoolAssets.body.luau",
+    "SchoolPropHunt20261011/Assets/BuildSchoolAssets.luau"
+  ]
+}

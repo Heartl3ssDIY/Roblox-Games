@@ -1,0 +1,366 @@
+{
+  "checkCount": 90,
+  "passed": true,
+  "checks": [
+    {
+      "name": "568, 320: session and shell agree on compact mode",
+      "passed": true
+    },
+    {
+      "name": "568, 320: exactly one lobby dock is visible",
+      "passed": true
+    },
+    {
+      "name": "568, 320: portrait selects raised dock",
+      "passed": true
+    },
+    {
+      "name": "568, 320: hiding HUD hides all three docks",
+      "passed": true
+    },
+    {
+      "name": "568, 320: non-admin has no launcher or panel",
+      "passed": true
+    },
+    {
+      "name": "568, 320: non-admin settings action ignored",
+      "passed": true
+    },
+    {
+      "name": "568, 320: mobile admin launcher stays hidden",
+      "passed": true
+    },
+    {
+      "name": "568, 320: admin settings entry is available",
+      "passed": true
+    },
+    {
+      "name": "568, 320: settings admin action closes settings and opens panel",
+      "passed": true
+    },
+    {
+      "name": "568, 320: permission revocation hides open panel",
+      "passed": true
+    },
+    {
+      "name": "667, 375: session and shell agree on compact mode",
+      "passed": true
+    },
+    {
+      "name": "667, 375: exactly one lobby dock is visible",
+      "passed": true
+    },
+    {
+      "name": "667, 375: portrait selects raised dock",
+      "passed": true
+    },
+    {
+      "name": "667, 375: hiding HUD hides all three docks",
+      "passed": true
+    },
+    {
+      "name": "667, 375: non-admin has no launcher or panel",
+      "passed": true
+    },
+    {
+      "name": "667, 375: non-admin settings action ignored",
+      "passed": true
+    },
+    {
+      "name": "667, 375: mobile admin launcher stays hidden",
+      "passed": true
+    },
+    {
+      "name": "667, 375: admin settings entry is available",
+      "passed": true
+    },
+    {
+      "name": "667, 375: settings admin action closes settings and opens panel",
+      "passed": true
+    },
+    {
+      "name": "667, 375: permission revocation hides open panel",
+      "passed": true
+    },
+    {
+      "name": "844, 390: session and shell agree on compact mode",
+      "passed": true
+    },
+    {
+      "name": "844, 390: exactly one lobby dock is visible",
+      "passed": true
+    },
+    {
+      "name": "844, 390: portrait selects raised dock",
+      "passed": true
+    },
+    {
+      "name": "844, 390: hiding HUD hides all three docks",
+      "passed": true
+    },
+    {
+      "name": "844, 390: non-admin has no launcher or panel",
+      "passed": true
+    },
+    {
+      "name": "844, 390: non-admin settings action ignored",
+      "passed": true
+    },
+    {
+      "name": "844, 390: mobile admin launcher stays hidden",
+      "passed": true
+    },
+    {
+      "name": "844, 390: admin settings entry is available",
+      "passed": true
+    },
+    {
+      "name": "844, 390: settings admin action closes settings and opens panel",
+      "passed": true
+    },
+    {
+      "name": "844, 390: permission revocation hides open panel",
+      "passed": true
+    },
+    {
+      "name": "896, 414: session and shell agree on compact mode",
+      "passed": true
+    },
+    {
+      "name": "896, 414: exactly one lobby dock is visible",
+      "passed": true
+    },
+    {
+      "name": "896, 414: portrait selects raised dock",
+      "passed": true
+    },
+    {
+      "name": "896, 414: hiding HUD hides all three docks",
+      "passed": true
+    },
+    {
+      "name": "896, 414: non-admin has no launcher or panel",
+      "passed": true
+    },
+    {
+      "name": "896, 414: non-admin settings action ignored",
+      "passed": true
+    },
+    {
+      "name": "896, 414: mobile admin launcher stays hidden",
+      "passed": true
+    },
+    {
+      "name": "896, 414: admin settings entry is available",
+      "passed": true
+    },
+    {
+      "name": "896, 414: settings admin action closes settings and opens panel",
+      "passed": true
+    },
+    {
+      "name": "896, 414: permission revocation hides open panel",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: session and shell agree on compact mode",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: exactly one lobby dock is visible",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: portrait selects raised dock",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: hiding HUD hides all three docks",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: non-admin has no launcher or panel",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: non-admin settings action ignored",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: mobile admin launcher stays hidden",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: admin settings entry is available",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: settings admin action closes settings and opens panel",
+      "passed": true
+    },
+    {
+      "name": "1024, 768: permission revocation hides open panel",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: session and shell agree on compact mode",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: exactly one lobby dock is visible",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: portrait selects raised dock",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: hiding HUD hides all three docks",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: non-admin has no launcher or panel",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: non-admin settings action ignored",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: mobile admin launcher stays hidden",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: admin settings entry is available",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: settings admin action closes settings and opens panel",
+      "passed": true
+    },
+    {
+      "name": "1180, 820: permission revocation hides open panel",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: session and shell agree on compact mode",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: exactly one lobby dock is visible",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: portrait selects raised dock",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: hiding HUD hides all three docks",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: non-admin has no launcher or panel",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: non-admin settings action ignored",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: mobile admin launcher stays hidden",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: admin settings entry is available",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: settings admin action closes settings and opens panel",
+      "passed": true
+    },
+    {
+      "name": "1366, 1024: permission revocation hides open panel",
+      "passed": true
+    },
+    {
+      "name": "390, 844: session and shell agree on compact mode",
+      "passed": true
+    },
+    {
+      "name": "390, 844: exactly one lobby dock is visible",
+      "passed": true
+    },
+    {
+      "name": "390, 844: portrait selects raised dock",
+      "passed": true
+    },
+    {
+      "name": "390, 844: hiding HUD hides all three docks",
+      "passed": true
+    },
+    {
+      "name": "390, 844: non-admin has no launcher or panel",
+      "passed": true
+    },
+    {
+      "name": "390, 844: non-admin settings action ignored",
+      "passed": true
+    },
+    {
+      "name": "390, 844: mobile admin launcher stays hidden",
+      "passed": true
+    },
+    {
+      "name": "390, 844: admin settings entry is available",
+      "passed": true
+    },
+    {
+      "name": "390, 844: settings admin action closes settings and opens panel",
+      "passed": true
+    },
+    {
+      "name": "390, 844: permission revocation hides open panel",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: session and shell agree on compact mode",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: exactly one lobby dock is visible",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: portrait selects raised dock",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: hiding HUD hides all three docks",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: non-admin has no launcher or panel",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: non-admin settings action ignored",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: mobile admin launcher stays hidden",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: admin settings entry is available",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: settings admin action closes settings and opens panel",
+      "passed": true
+    },
+    {
+      "name": "1920, 1080: permission revocation hides open panel",
+      "passed": true
+    }
+  ]
+}

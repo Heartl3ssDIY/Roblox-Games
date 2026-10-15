@@ -1,0 +1,66 @@
+{
+  "checkCount": 15,
+  "passed": true,
+  "checks": [
+    {
+      "name": "Wrong tile hides during visit without yielding",
+      "passed": true
+    },
+    {
+      "name": "Wrong tile loses collision immediately",
+      "passed": true
+    },
+    {
+      "name": "Wrong tile is immediately excluded from floor queries",
+      "passed": true
+    },
+    {
+      "name": "Wrong tile starts unchanged restore clock",
+      "passed": true
+    },
+    {
+      "name": "Wrong tile does not advance path",
+      "passed": true
+    },
+    {
+      "name": "Wrong tile stays missing before3.5seconds",
+      "passed": true
+    },
+    {
+      "name": "Tile restores at3.5seconds",
+      "passed": true
+    },
+    {
+      "name": "Decorative transparency restores exactly",
+      "passed": true
+    },
+    {
+      "name": "Correct path advances normally",
+      "passed": true
+    },
+    {
+      "name": "Correct tile remains visible and collidable",
+      "passed": true
+    },
+    {
+      "name": "Footing checks run on the next heartbeat without throttle",
+      "passed": true
+    },
+    {
+      "name": "Second heartbeat checks immediately too",
+      "passed": true
+    },
+    {
+      "name": "Stopping restores collapsed tiles",
+      "passed": true
+    },
+    {
+      "name": "No reward granted from wrong tiles or resets",
+      "passed": true
+    },
+    {
+      "name": "Safe path stays unchanged",
+      "passed": true
+    }
+  ]
+}

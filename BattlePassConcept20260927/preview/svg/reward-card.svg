@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 330" role="img" aria-label="Battle Pass reward card frame">
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#401378"/><stop offset=".42" stop-color="#190E40"/><stop offset="1" stop-color="#311061"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#FFF5B0"/><stop offset=".3" stop-color="#FCCE2C"/><stop offset=".72" stop-color="#AD6707"/><stop offset="1" stop-color="#FFE779"/></linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2=".7" y2="1"><stop stop-color="#24105D"/><stop offset=".56" stop-color="#13053D"/><stop offset="1" stop-color="#3B176F"/></linearGradient>
+    <pattern id="stars" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M19 5l2.9 11.1L33 19l-11.1 2.9L19 33l-2.9-11.1L5 19l11.1-2.9z" fill="#A040F0" opacity=".16"/></pattern>
+    <clipPath id="body"><path d="M36 9H224l27 27v252l-31 33H40L9 288V39z"/></clipPath>
+  </defs>
+  <path d="M37 6H225l30 30v254l-33 35H38L5 290V37z" fill="#100030" stroke="#AF77FF" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M36 9H224l27 27v252l-31 33H40L9 288V39z" fill="url(#shell)" stroke="url(#gold)" stroke-width="7" stroke-linejoin="round"/>
+  <g clip-path="url(#body)">
+    <rect x="8" y="8" width="244" height="313" fill="url(#stars)"/>
+    <path d="M10 27h240l-18 29H27z" fill="#A040F0" opacity=".22"/>
+    <path d="M8 294h244l-21 30H32z" fill="#050015" opacity=".48"/>
+  </g>
+  <path d="M37 14H222" stroke="#FFF6B2" stroke-width="2" opacity=".75"/>
+  <path d="M31 67H230l10 10v138l-10 11H31l-11-11V77z" fill="#080021" stroke="#7336B0" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M35 73H226l8 9v128l-8 9H35l-9-9V82z" fill="url(#window)" stroke="#AA6EFF" stroke-width="1.5"/>
+  <path d="M49 90l5 14 14 5-14 5-5 14-5-14-14-5 14-5zM208 171l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#D1A3FF" opacity=".35"/>
+  <path d="M35 239H225l8 9v46l-8 10H35l-9-10v-46z" fill="#100030" stroke="#CF9B36" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M10 40l31-31 19 4-48 49zM251 40L222 9l-21 4 48 50zM9 289l31 31 20-4-48-48zM251 287l-31 33-20-5 49-49z" fill="#F0C020" opacity=".82"/>
+</svg>

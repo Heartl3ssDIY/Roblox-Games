@@ -1,0 +1,52 @@
+{
+  "status": "permissions repair prepared, not installed by this agent",
+  "rootCause": "Commerce Start throws connecting PromptGamePassPurchaseFinished before Ready is true; both UI scripts throw on purchase-finished event binding.",
+  "confirmed": {
+    "donationPromptEnabled": true,
+    "receiptWriters": 1,
+    "receiptPersistence": "UpdateAsync keyed by PurchaseId, verifies player/product and returns NotProcessedYet on save failure",
+    "products": [
+      {
+        "id": 3717139873,
+        "baseRobux": 50
+      },
+      {
+        "id": 3717139915,
+        "baseRobux": 100
+      },
+      {
+        "id": 3717139945,
+        "baseRobux": 250
+      },
+      {
+        "id": 3717140010,
+        "baseRobux": 1000
+      }
+    ],
+    "universeId": 10769034155,
+    "priceDiscount": {
+      "type": "RobloxPlusSubscription",
+      "percent": 10,
+      "currentRobux": [
+        45,
+        90,
+        225,
+        900
+      ]
+    }
+  },
+  "repair": {
+    "capability": "PromptExternalPurchase",
+    "targets": [
+      "ServerScriptService.PlaygroundBootstrap",
+      "ServerScriptService.PlaygroundCommerceService",
+      "StarterGui.PlaygroundShell.CommerceController",
+      "StarterGui.PlaygroundDonations.Controller"
+    ],
+    "avoidEvents": "Not a sensible fix: UI needs cancellation handling and server pass refresh; would hide errors without fixing full purchase lifecycle."
+  },
+  "limitations": [
+    "No purchase was initiated and no Play started.",
+    "Custom amount accepts only exact configured current product prices; arbitrary Robux amounts require separately priced developer products."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "M16",
+  "name": "Snowglobe Sip",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m16-snowglobe-sip.png",
+  "brief": "One squat rounded opaque ice-blue potion bottle with a broad white cap shaped like a snowball, navy collar, simple white embossed snowflake on a cream front label panel and a thick pale-blue base. The bottle is solid glossy ceramic, not see-through. No text, no floating snow or liquid splashes.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m16-snowglobe-sip.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m16-snowglobe-sip.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m16-snowglobe-sip-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m16-snowglobe-sip.png",
+  "parts": 20,
+  "triangles": 7588,
+  "meshes": 1,
+  "maxMeshTriangles": 7588,
+  "dimensions": [
+    1.3600000143051147,
+    1.093999981880188,
+    2.051886558532715
+  ],
+  "boundsMin": [
+    -0.6800000071525574,
+    -0.6039999723434448,
+    0.05000000074505806
+  ],
+  "boundsMax": [
+    0.6800000071525574,
+    0.49000000953674316,
+    2.101886510848999
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.6800000071525574
+    ],
+    "Spout": [
+      0.0,
+      0.0,
+      1.5499999523162842
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.3600000143051147,
+    1.093999981880188,
+    2.051886558532715
+  ]
+}

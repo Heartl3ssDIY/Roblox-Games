@@ -1,0 +1,26 @@
+{
+  "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudGeometry.json",
+  "isolatedBackgroundProcess": true,
+  "nativeParts": 1511,
+  "meshes": 3,
+  "materials": 15,
+  "axisConversion": "Roblox(X,Y,Z) to Blender(X,-Z,Y)",
+  "engine": "BLENDER_WORKBENCH",
+  "image": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudArena_IsolatedWide.png",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudArena_IsolatedPreview.blend",
+  "resolution": [
+    2048,
+    1152
+  ],
+  "cameraPosition": [
+    888.0236206054688,
+    1089.84716796875,
+    1278.1751708984375
+  ],
+  "orthographicScale": 1713.4310302734375,
+  "originalFilepath": "",
+  "originalScene": "Scene",
+  "factoryStartupStateRestored": true,
+  "exposure": 0.8,
+  "liveStateVerification": "Not rechecked; earlier live MCP calls timed out. This separate process does not access the live instance."
+}

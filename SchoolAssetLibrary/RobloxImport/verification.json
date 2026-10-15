@@ -1,0 +1,27 @@
+{
+  "assets": 38,
+  "bodies": 77,
+  "pickup_bodies": 45,
+  "hinges": 6,
+  "meshes": 284,
+  "triangles": 656427,
+  "max_triangles_per_mesh": 18000,
+  "textures": 79,
+  "errors": [],
+  "roundtrip_rendered": [
+    "stationery",
+    "boards",
+    "staff-seating"
+  ],
+  "roblox_studio_play_tested": false,
+  "luau_compilation": "passed",
+  "temporary_setup_fixture_test": {
+    "passed": true,
+    "assets": 38,
+    "bodies": 77,
+    "pickups": 45,
+    "hinges": 6,
+    "welds": 366,
+    "live_game_modified": false
+  }
+}

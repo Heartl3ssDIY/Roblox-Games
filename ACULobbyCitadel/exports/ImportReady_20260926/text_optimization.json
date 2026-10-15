@@ -1,0 +1,3036 @@
+[
+  {
+    "object": "Arrival court inscription",
+    "body": "A C U",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -25.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Banner seal",
+    "body": "ACU",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -14.399999618530273
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -83.06999969482422
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        6.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Banner seal.001",
+    "body": "ACU",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -14.399999618530273
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -59.06999969482422
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        6.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Banner seal.002",
+    "body": "ACU",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        14.399999618530273
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -83.06999969482422
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        6.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Banner seal.003",
+    "body": "ACU",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        14.399999618530273
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -59.06999969482422
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        6.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arrival welcome inlay",
+    "body": "FESTIVAL CITADEL",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -42.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.4500000476837158
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Waystone RANKED",
+    "body": "RANKED",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -15.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -33.380001068115234
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.799999952316284
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Waystone SUMMON",
+    "body": "SUMMON",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -33.380001068115234
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.799999952316284
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Waystone CHAMPIONS",
+    "body": "CHAMPIONS",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -35.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        26.6200008392334
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.799999952316284
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Waystone SHOP",
+    "body": "SHOP",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        31.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -26.3799991607666
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.799999952316284
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "STORY_header_lettering",
+    "body": "STORY",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        64.20999908447266
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        21.979999542236328
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "STORY_subtitle",
+    "body": "WORLDS BEYOND",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        63.95000076293945
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        19.049999237060547
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SUMMON_marquee_lettering",
+    "body": "SUMMON",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -4.371138828673793e-08,
+        -4.371138828673793e-08,
+        -1.0,
+        54.209999084472656
+      ],
+      [
+        -1.0,
+        1.910685676922942e-15,
+        4.371138828673793e-08,
+        8.000000953674316
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        13.229999542236328
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SUMMON_legend",
+    "body": "DISCOVER YOUR NEXT LEGEND",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -4.371138828673793e-08,
+        -4.371138828673793e-08,
+        -1.0,
+        54.13999938964844
+      ],
+      [
+        -1.0,
+        1.910685676922942e-15,
+        4.371138828673793e-08,
+        8.000000953674316
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        11.550000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "PVP_RANKED_sign_lettering",
+    "body": "RANKED",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -4.371138828673793e-08,
+        4.371138828673793e-08,
+        1.0,
+        -61.310001373291016
+      ],
+      [
+        1.0,
+        5.9604641222676946e-08,
+        4.371138828673793e-08,
+        4.999999523162842
+      ],
+      [
+        -5.960463766996327e-08,
+        1.0,
+        -4.371138828673793e-08,
+        10.779999732971191
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "PVP_UNRANKED_sign_lettering",
+    "body": "UNRANKED",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -4.371138828673793e-08,
+        4.371138828673793e-08,
+        1.0,
+        -61.30999755859375
+      ],
+      [
+        1.0,
+        5.9604641222676946e-08,
+        4.371138828673793e-08,
+        19.0
+      ],
+      [
+        -5.960463766996327e-08,
+        1.0,
+        -4.371138828673793e-08,
+        10.779999732971191
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "PVP_subtitle",
+    "body": "YOUR TEAM. YOUR LEGACY.",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -4.371138828673793e-08,
+        4.371138828673793e-08,
+        1.0,
+        -58.849998474121094
+      ],
+      [
+        1.0,
+        5.9604641222676946e-08,
+        4.371138828673793e-08,
+        11.999999046325684
+      ],
+      [
+        -5.960463766996327e-08,
+        1.0,
+        -4.371138828673793e-08,
+        5.449999809265137
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_SEASON_RANK_title",
+    "body": "SEASON RANK",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -69.5
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        68.02000427246094
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        12.300000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_SEASON_RANK_number",
+    "body": "01",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -73.0999984741211
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        10.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_SEASON_RANK_number.001",
+    "body": "02",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -73.0999984741211
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        8.800000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_SEASON_RANK_number.002",
+    "body": "03",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -73.0999984741211
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        7.099999904632568
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_SEASON_RANK_number.003",
+    "body": "04",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -73.0999984741211
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        5.400000095367432
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_SEASON_RANK_number.004",
+    "body": "05",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -73.0999984741211
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        3.700000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_MOST_WINS_title",
+    "body": "MOST WINS",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -58.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        68.02000427246094
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        12.300000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_MOST_WINS_number",
+    "body": "01",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -61.599998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        10.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_MOST_WINS_number.001",
+    "body": "02",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -61.599998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        8.800000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_MOST_WINS_number.002",
+    "body": "03",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -61.599998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        7.099999904632568
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_MOST_WINS_number.003",
+    "body": "04",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -61.599998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        5.400000095367432
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_MOST_WINS_number.004",
+    "body": "05",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -61.599998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        3.700000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_ARENA_MASTERY_title",
+    "body": "ARENA MASTERY",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -46.5
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        68.02000427246094
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        12.300000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_ARENA_MASTERY_number",
+    "body": "01",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -50.099998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        10.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_ARENA_MASTERY_number.001",
+    "body": "02",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -50.099998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        8.800000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_ARENA_MASTERY_number.002",
+    "body": "03",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -50.099998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        7.099999904632568
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_ARENA_MASTERY_number.003",
+    "body": "04",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -50.099998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        5.400000095367432
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "BOARD_ARENA_MASTERY_number.004",
+    "body": "05",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -50.099998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        67.98999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        3.700000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "PODIUM_position",
+    "body": "2",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -63.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        52.38999938964844
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        1.6160000562667847
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "PODIUM_position.001",
+    "body": "1",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -58.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        52.38999938964844
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        1.8320000171661377
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "PODIUM_position.002",
+    "body": "3",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -53.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        52.38999938964844
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        1.496000051498413
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "CHAMPIONS_title",
+    "body": "HALL OF CHAMPIONS",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -58.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        47.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        1.2799999713897705
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "STRONGEST_unit_label_lettering",
+    "body": "FEATURED UNIT",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -72.4000015258789
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        52.810001373291016
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        3.0299999713897705
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "STRONGEST_unit_label_lettering.001",
+    "body": "FEATURED UNIT",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -43.599998474121094
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        52.810001373291016
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        3.0299999713897705
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SHOP_ACU_lettering",
+    "body": "ACU SHOP",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        63.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -58.73999786376953
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        7.929999828338623
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SHOP_noren_symbol",
+    "body": "•",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        55.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -57.650001525878906
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        6.380000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SHOP_noren_symbol.001",
+    "body": "•",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        59.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -57.650001525878906
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        6.380000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SHOP_noren_symbol.002",
+    "body": "A",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        63.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -57.650001525878906
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        6.380000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SHOP_noren_symbol.003",
+    "body": "•",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        67.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -57.650001525878906
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        6.380000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SHOP_noren_symbol.004",
+    "body": "•",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        71.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -57.650001525878906
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        6.380000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SHOP_pack_ACU",
+    "body": "ACU",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        56.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -52.45000076293945
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        6.099999904632568
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SHOP_pack_ACU.001",
+    "body": "ACU",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        63.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -52.45000076293945
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        6.099999904632568
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "SHOP_pack_ACU.002",
+    "body": "ACU",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        70.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -52.45000076293945
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        6.099999904632568
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "QUEST_GUIDE_header_lettering",
+    "body": "QUEST GUIDE",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -24.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -37.290000915527344
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        5.130000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "MASTERY_header_lettering",
+    "body": "MASTERY",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -40.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -9.289999961853027
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        5.130000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "DAILY_REWARDS_header_lettering",
+    "body": "DAILY GIFTS",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        29.0
+      ],
+      [
+        0.0,
+        7.549790126404332e-08,
+        -1.0,
+        -35.290000915527344
+      ],
+      [
+        0.0,
+        1.0,
+        7.549790126404332e-08,
+        5.130000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "MoonGarden_Sign",
+    "body": "MOON GARDEN",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -59.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -32.79999923706055
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.6500000953674316
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "TrainingCourt_Title",
+    "body": "TRAINING",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        -82.0
+      ],
+      [
+        0.0,
+        -4.371138828673793e-08,
+        -1.0,
+        -11.380000114440918
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        7.46999979019165
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "LotusLibrary_banner_sigil",
+    "body": "ACU",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.9975510239601135,
+        -1.1484561912578073e-10,
+        -0.06994277983903885,
+        -37.020774841308594
+      ],
+      [
+        -0.06994277983903885,
+        -4.3810651106923615e-08,
+        -0.9975510239601135,
+        80.0948257446289
+      ],
+      [
+        -2.9496742826040645e-09,
+        1.0,
+        -4.371138828673793e-08,
+        10.300000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "LanternInn_banner_sigil",
+    "body": "ACU",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -4.371138828673793e-08,
+        -4.371138828673793e-08,
+        -1.0,
+        85.45999908447266
+      ],
+      [
+        -1.0,
+        1.910685676922942e-15,
+        4.371138828673793e-08,
+        17.30000114440918
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        10.300000190734863
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "MoonTea_store_sign",
+    "body": "MOON TEA",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.9210609793663025,
+        -4.801969311074572e-08,
+        -0.3894183933734894,
+        -44.507049560546875
+      ],
+      [
+        -0.3894183933734894,
+        -1.5658130791962321e-07,
+        -0.9210609793663025,
+        -42.56450653076172
+      ],
+      [
+        -1.674657568173643e-08,
+        1.0,
+        -1.6292068494294654e-07,
+        5.449999809265137
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "ScrollAtelier_store_sign",
+    "body": "SCROLL ATELIER",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.9713379740715027,
+        1.039031261029777e-08,
+        0.2377026379108429,
+        -28.08009147644043
+      ],
+      [
+        0.2377026379108429,
+        -4.245853446604997e-08,
+        -0.9713379740715027,
+        -63.75907897949219
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        5.449999809265137
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "LuckyCharms_store_sign",
+    "body": "LUCKY CHARMS",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.9800665378570557,
+        4.7240331646491995e-09,
+        -0.19866938889026642,
+        43.23114776611328
+      ],
+      [
+        -0.19866938889026642,
+        7.607582830360116e-08,
+        -0.9800665378570557,
+        -65.79285430908203
+      ],
+      [
+        1.0484072276994993e-08,
+        1.0,
+        7.549790126404332e-08,
+        5.449999809265137
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Grand_Arena_Torii_01_title",
+    "body": "ARENA TRAVEL",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.9177546501159668,
+        -1.735988597317828e-08,
+        -0.39714789390563965,
+        208.61953735351562
+      ],
+      [
+        -0.39714789390563965,
+        -4.0116329813599805e-08,
+        -0.9177546501159668,
+        -66.87921142578125
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        15.010000228881836
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Grand_Arena_Torii_02_title",
+    "body": "ARENA TRAVEL",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -4.371138828673793e-08,
+        -4.371138828673793e-08,
+        -1.0,
+        237.04200744628906
+      ],
+      [
+        -1.0,
+        1.910685676922942e-15,
+        4.371138828673793e-08,
+        -74.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        15.010000228881836
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Grand_Arena_Torii_03_title",
+    "body": "ARENA TRAVEL",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -4.371138828673793e-08,
+        -4.371138828673793e-08,
+        -1.0,
+        243.04200744628906
+      ],
+      [
+        -1.0,
+        1.910685676922942e-15,
+        4.371138828673793e-08,
+        -101.0
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        15.010000228881836
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Grand_Arena_Torii_04_title",
+    "body": "ARENA TRAVEL",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.9995065331459045,
+        -1.3730047099258513e-09,
+        -0.03141068294644356,
+        223.96990966796875
+      ],
+      [
+        -0.03141068294644356,
+        4.368981976199393e-08,
+        0.9995065331459045,
+        -125.04247283935547
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        15.010000228881836
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_01_Tenkaichi_name",
+    "body": "TENKAICHI",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.8106791973114014,
+        2.5592607144631074e-08,
+        0.5854905843734741,
+        202.76466369628906
+      ],
+      [
+        0.5854905843734741,
+        -3.543591375887445e-08,
+        -0.8106791973114014,
+        -83.44338989257812
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_01_Tenkaichi_number",
+    "body": "ARENA 01",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.8106791973114014,
+        2.5592607144631074e-08,
+        0.5854905843734741,
+        202.7670135498047
+      ],
+      [
+        0.5854905843734741,
+        -3.543591375887445e-08,
+        -0.8106791973114014,
+        -83.4466323852539
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        2.509999990463257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_02_ChuninExamHall_name",
+    "body": "CHUNIN EXAM",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.4190582036972046,
+        3.9688167419171805e-08,
+        0.9079593420028687,
+        203.73658752441406
+      ],
+      [
+        0.9079593420028687,
+        -1.831761764492512e-08,
+        -0.4190582036972046,
+        -94.2630386352539
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_02_ChuninExamHall_number",
+    "body": "ARENA 02",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.4190582036972046,
+        3.9688167419171805e-08,
+        0.9079593420028687,
+        203.74021911621094
+      ],
+      [
+        0.9079593420028687,
+        -1.831761764492512e-08,
+        -0.4190582036972046,
+        -94.26471710205078
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        2.509999990463257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_03_Loguetown_name",
+    "body": "LOGUETOWN",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.4472135305404663,
+        3.9096658355219915e-08,
+        0.8944272398948669,
+        204.69580078125
+      ],
+      [
+        0.8944272398948669,
+        1.954832562489628e-08,
+        0.4472135305404663,
+        -103.652099609375
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_03_Loguetown_number",
+    "body": "ARENA 03",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.4472135305404663,
+        3.9096658355219915e-08,
+        0.8944272398948669,
+        204.6993865966797
+      ],
+      [
+        0.8944272398948669,
+        1.954832562489628e-08,
+        0.4472135305404663,
+        -103.65030670166016
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        2.509999990463257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_04_JujutsuHigh_name",
+    "body": "JUJUTSU HIGH",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.8944272398948669,
+        1.954832384853944e-08,
+        0.4472135007381439,
+        206.347900390625
+      ],
+      [
+        0.4472135007381439,
+        3.9096658355219915e-08,
+        0.8944272398948669,
+        -114.30419921875
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_04_JujutsuHigh_number",
+    "body": "ARENA 04",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.8944272398948669,
+        1.954832384853944e-08,
+        0.4472135007381439,
+        206.3496856689453
+      ],
+      [
+        0.4472135007381439,
+        3.9096658355219915e-08,
+        0.8944272398948669,
+        -114.30062103271484
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        2.509999990463257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_05_Fujikasane_name",
+    "body": "FUJIKASANE",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.9883716702461243,
+        -6.646630357209915e-09,
+        -0.15205717086791992,
+        215.5417022705078
+      ],
+      [
+        -0.15205717086791992,
+        4.320310154071194e-08,
+        0.9883716702461243,
+        -109.02104949951172
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_05_Fujikasane_number",
+    "body": "ARENA 05",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.9883716702461243,
+        -6.646630357209915e-09,
+        -0.15205717086791992,
+        215.5410919189453
+      ],
+      [
+        -0.15205717086791992,
+        4.320310154071194e-08,
+        0.9883716702461243,
+        -109.01709747314453
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        2.509999990463257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_06_HeavensArena_name",
+    "body": "HEAVENS ARENA",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.7295371890068054,
+        -2.989601810554632e-08,
+        -0.6839411854743958,
+        226.9385986328125
+      ],
+      [
+        -0.6839411854743958,
+        3.188908337392604e-08,
+        0.7295371890068054,
+        -112.80117797851562
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_06_HeavensArena_number",
+    "body": "ARENA 06",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.7295371890068054,
+        -2.989601810554632e-08,
+        -0.6839411854743958,
+        226.9358673095703
+      ],
+      [
+        -0.6839411854743958,
+        3.188908337392604e-08,
+        0.7295371890068054,
+        -112.79825592041016
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        2.509999990463257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_07_HyperbolicTimeChamber_name",
+    "body": "TIME CHAMBER",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.16439896821975708,
+        -4.311664980605201e-08,
+        -0.986393928527832,
+        223.02700805664062
+      ],
+      [
+        -0.986393928527832,
+        7.186107264800512e-09,
+        0.16439896821975708,
+        -100.50450134277344
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_07_HyperbolicTimeChamber_number",
+    "body": "ARENA 07",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        -0.16439896821975708,
+        -4.311664980605201e-08,
+        -0.986393928527832,
+        223.02305603027344
+      ],
+      [
+        -0.986393928527832,
+        7.186107264800512e-09,
+        0.16439896821975708,
+        -100.50384521484375
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        2.509999990463257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_08_Wano_name",
+    "body": "WANO",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.566528856754303,
+        -3.602001896751972e-08,
+        -0.8240419030189514,
+        227.51634216308594
+      ],
+      [
+        -0.8240419030189514,
+        -2.4763762596080596e-08,
+        -0.566528856754303,
+        -89.70751953125
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_08_Wano_number",
+    "body": "ARENA 08",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.566528856754303,
+        -3.602001896751972e-08,
+        -0.8240419030189514,
+        227.51304626464844
+      ],
+      [
+        -0.8240419030189514,
+        -2.4763762596080596e-08,
+        -0.566528856754303,
+        -89.70978546142578
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        2.509999990463257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_09_Marineford_name",
+    "body": "MARINEFORD",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.9670745134353638,
+        -1.1124255294703289e-08,
+        -0.2544932961463928,
+        218.2329559326172
+      ],
+      [
+        -0.2544932961463928,
+        -4.227217331731481e-08,
+        -0.9670745134353638,
+        -82.91476440429688
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        3.119999885559082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  {
+    "object": "Arena_09_Marineford_number",
+    "body": "ARENA 09",
+    "font": "Permanent Marker Regular",
+    "resolutionBefore": 12,
+    "resolutionAfter": 4,
+    "bevelResolutionBefore": 4,
+    "bevelResolutionAfter": 1,
+    "bevelDepthUnchanged": 0.003000000026077032,
+    "extrusionUnchanged": 0.014999999664723873,
+    "matrixWorldUnchanged": [
+      [
+        0.9670745134353638,
+        -1.1124255294703289e-08,
+        -0.2544932961463928,
+        218.23193359375
+      ],
+      [
+        -0.2544932961463928,
+        -4.227217331731481e-08,
+        -0.9670745134353638,
+        -82.91863250732422
+      ],
+      [
+        0.0,
+        1.0,
+        -4.371138828673793e-08,
+        2.509999990463257
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+]

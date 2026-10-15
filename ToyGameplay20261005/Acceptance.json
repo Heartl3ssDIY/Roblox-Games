@@ -1,0 +1,76 @@
+{
+  "playRunning": false,
+  "dockLayout": false,
+  "pets": {
+    "name": "Pets",
+    "position": "{0, 135}, {0, -1}"
+  },
+  "toys": {
+    "name": "Toys",
+    "position": "{0, 352}, {0, -88}"
+  },
+  "uiBackup": true,
+  "soundLoaded": true,
+  "hotbar": {
+    "visible": false,
+    "slots": [
+      {
+        "name": "Slot1",
+        "skin": "rbxassetid://93628261371705",
+        "loaded": true,
+        "previewChildren": 0,
+        "caption": "EMPTY"
+      },
+      {
+        "name": "Slot2",
+        "skin": "rbxassetid://93628261371705",
+        "loaded": true,
+        "previewChildren": 0,
+        "caption": "EMPTY"
+      },
+      {
+        "name": "Slot3",
+        "skin": "rbxassetid://93628261371705",
+        "loaded": true,
+        "previewChildren": 0,
+        "caption": "EMPTY"
+      },
+      {
+        "name": "Slot4",
+        "skin": "rbxassetid://93628261371705",
+        "loaded": true,
+        "previewChildren": 0,
+        "caption": "EMPTY"
+      }
+    ],
+    "selectedLookupFixed": true
+  },
+  "fallbacks": 0,
+  "sourceBackup": true,
+  "scope": {
+    "toyUse": "Lobby only",
+    "loadoutSlots": 4,
+    "zoomSpeedMultiplier": 3,
+    "zoomDurationSeconds": 25,
+    "springHeightMultiplier": 5,
+    "springDurationSeconds": 10,
+    "emberDurationSeconds": 10,
+    "emberRecoverySeconds": 5,
+    "torchDamagePerSecond": 1,
+    "torchBurnSeconds": 10,
+    "bouncePadSeconds": 15,
+    "plungerActionDeferred": true
+  },
+  "validation": {
+    "luauCompilation": true,
+    "localToyBehaviorChecks": 54,
+    "economyAndCatalogChecks": 72,
+    "nativeToyChecks": 100,
+    "animationChecks": 215,
+    "nativeGripAndPoseChecks": 137,
+    "nativeHotbarBindingChecks": 11,
+    "existingBatAndEmotePreservationChecks": 8,
+    "noPlayStartedOrStopped": true,
+    "liveMultiplayerPlayTestPerformed": false
+  }
+}

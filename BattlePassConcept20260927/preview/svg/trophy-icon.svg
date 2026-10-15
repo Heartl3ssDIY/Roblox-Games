@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Trophy icon">
+  <defs>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF6B2"/><stop offset=".29" stop-color="#FCCE2C"/><stop offset=".65" stop-color="#B56D05"/><stop offset="1" stop-color="#FFE67A"/></linearGradient>
+    <linearGradient id="stand" x2="0" y2="1"><stop stop-color="#AF77FF"/><stop offset="1" stop-color="#341560"/></linearGradient>
+  </defs>
+  <path d="M24 16H76l-4 35c-2 14-11 22-22 22S30 65 28 51z" fill="url(#cup)" stroke="#73400A" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M25 24H10v12c0 17 11 25 24 25M75 24h15v12c0 17-11 25-24 25" fill="none" stroke="url(#cup)" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M39 73h22v10H39z" fill="url(#stand)" stroke="#100030" stroke-width="2"/>
+  <path d="M28 84h44l8 10H20z" fill="url(#cup)" stroke="#100030" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M50 27l5.5 12 13 1.5-10 8.5 3 13-11.5-7-11.5 7 3-13-10-8.5 13-1.5z" fill="#FFF5B0" stroke="#A86709" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M30 19h40" stroke="#FFF9CC" stroke-width="3" stroke-linecap="round"/>
+</svg>

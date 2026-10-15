@@ -1,0 +1,256 @@
+{
+  "passed": true,
+  "count": 10,
+  "assets": [
+    {
+      "id": "M16",
+      "name": "Snowglobe Sip",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 20,
+        "packedReference": true,
+        "liveBevels": 13,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 7588,
+        "maxMeshTriangles": 7588,
+        "roundtripDimensions": [
+          1.3600000143051147,
+          1.0940003097057343,
+          2.0518865883350372
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "M17",
+      "name": "Snowball Lobber",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 42,
+        "packedReference": true,
+        "liveBevels": 22,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 6124,
+        "maxMeshTriangles": 6124,
+        "roundtripDimensions": [
+          1.19761061668396,
+          2.0260037779808044,
+          2.3925557732582092
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "M18",
+      "name": "Bubble Blower",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 55,
+        "packedReference": true,
+        "liveBevels": 20,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 8720,
+        "maxMeshTriangles": 8720,
+        "roundtripDimensions": [
+          1.1200000047683716,
+          1.9010037183761597,
+          1.8251345753669739
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "M19",
+      "name": "Slippy Banana",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 6,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 3168,
+        "maxMeshTriangles": 3168,
+        "roundtripDimensions": [
+          2.167661666870117,
+          1.9059090614318848,
+          1.3767828941345215
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "M20",
+      "name": "Spring Glove",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 22,
+        "packedReference": true,
+        "liveBevels": 6,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 10364,
+        "maxMeshTriangles": 10364,
+        "roundtripDimensions": [
+          1.4550000429153442,
+          1.0100004076957703,
+          2.535000007599592
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "M21",
+      "name": "Sticky Honey",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 19,
+        "packedReference": true,
+        "liveBevels": 10,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 4968,
+        "maxMeshTriangles": 4968,
+        "roundtripDimensions": [
+          1.8098607063293457,
+          1.4990003108978271,
+          1.7500001825392246
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "M22",
+      "name": "Whoopee Whump",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 6,
+        "packedReference": true,
+        "liveBevels": 2,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 9144,
+        "maxMeshTriangles": 9144,
+        "roundtripDimensions": [
+          1.6119999885559082,
+          0.5995003283023834,
+          1.9310211390256882
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "M23",
+      "name": "Magnet Mover",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 18,
+        "packedReference": true,
+        "liveBevels": 13,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 4208,
+        "maxMeshTriangles": 4208,
+        "roundtripDimensions": [
+          1.6899999380111694,
+          0.6120004057884216,
+          2.4950001165270805
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "M24",
+      "name": "Ricochet Flyer",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 6,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 5768,
+        "maxMeshTriangles": 5768,
+        "roundtripDimensions": [
+          2.4911885261535645,
+          0.4950004369020462,
+          2.4179276823997498
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "M25",
+      "name": "Pop-Up Surprise",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 46,
+        "packedReference": true,
+        "liveBevels": 19,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 15104,
+        "maxMeshTriangles": 15104,
+        "roundtripDimensions": [
+          1.9050000309944153,
+          1.4451726078987122,
+          2.5320781376212835
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

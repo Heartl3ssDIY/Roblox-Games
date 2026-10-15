@@ -1,0 +1,53 @@
+{
+  "id": "SA31",
+  "name": "Indoor broadleaf plant",
+  "bodies": [
+    {
+      "id": "SA31_B01",
+      "asset_id": "SA31",
+      "asset": "Indoor broadleaf plant",
+      "label": "Indoor broadleaf plant",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.002215564250946045,
+            -0.004535764455795288,
+            0.6642685532569885
+          ],
+          "size": [
+            0.635583758354187,
+            0.6288411021232605,
+            1.328537106513977
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.31557631492614746,
+          -0.31895631551742554,
+          0.0
+        ],
+        "max": [
+          0.32000744342803955,
+          0.30988478660583496,
+          1.328537106513977
+        ]
+      }
+    }
+  ],
+  "mesh_count": 6,
+  "triangles": 12560,
+  "file": "SA31_Indoor_broadleaf_plant.gltf"
+}

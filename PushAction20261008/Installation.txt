@@ -1,0 +1,19 @@
+Push installed for Tag and British Bulldog active rounds on 8 October 2026.
+
+Controls: Q, gamepad X (Square on PlayStation), or the gold PUSH button.
+Mobile PUSH is beside SWING. Desktop PUSH is beside Sprint.
+Server validates range, direction, obstructions, participation and safe zones.
+Push impacts after 0.18 seconds, ragdolls for 3 seconds and has a 6-second cooldown.
+Pushed players remain catchable by the normal bat/tag action.
+
+Editable settings: ServerScriptService.PlaygroundPushService attributes CooldownSeconds, Reach, RagdollSeconds.
+Editable UI: StarterGui.PlaygroundPushControls.MobilePush, TagHUD.SprintPanel.Push and BritishBulldogHUD.MovementControls.Push.
+Authored animation clips: ReplicatedStorage.PlaygroundPushAnimations.R6 and R15.
+Animation preview rigs: ServerStorage.PushAnimationAuthoring20261008.
+
+Original scripts/layouts are saved in ServerStorage.PushActionBackup20261008, PushAnimationBackup20261008 and PushUiBackup20261008.
+The local Before folders also contain source backups.
+
+169 server fixture checks, 83 UI fixture checks and 63 animation checks passed.
+All verification ran in Edit mode. Play was not started and the place was not published.
+Live multiplayer physics and real client/server inputs still need a Play test.

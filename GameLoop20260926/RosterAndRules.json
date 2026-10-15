@@ -1,0 +1,334 @@
+{
+  "date": "2026-09-26",
+  "status": "Draft; no economy implementation",
+  "assumptions": {
+    "scope": "Provisional arena-period shortlists; not canonical ordered power rankings",
+    "xp": "Pending user clarification; draft recommendation 5 win / 2 loss",
+    "db": "All Dragon Ball choices reserved for the user",
+    "top100": "Global versus per-league reward scope pending",
+    "rarity": "Common, Rare, Epic, Legendary; Mystical reserved for exclusive acquisition"
+  },
+  "pools": [
+    {
+      "arena": 2,
+      "series": "Naruto",
+      "name": "Chūnin Exam Hall",
+      "cutoff": "Part I: Chūnin Exams / immediate Konoha invasion period",
+      "source": "https://naruto-official.com/en/news/01_1282",
+      "scope": "Strong adult fighters associated with this period. These are not the five strongest examinees. Ordering within the top group is debatable.",
+      "units": [
+        [
+          "Orochimaru",
+          "Legendary",
+          "Part I; snakes, sword and forbidden techniques. No later-body upgrades."
+        ],
+        [
+          "Jiraiya",
+          "Legendary",
+          "Part I; summons and standard ninjutsu. Do not import Shippuden Sage Mode feats."
+        ],
+        [
+          "Hiruzen Sarutobi",
+          "Legendary",
+          "Elder Third Hokage version, not hypothetical prime Hiruzen."
+        ],
+        [
+          "Might Guy",
+          "Epic",
+          "Part I taijutsu specialist; do not give him the war-arc Eighth Gate kit."
+        ],
+        [
+          "Kakashi Hatake",
+          "Epic",
+          "Part I Sharingan / Lightning Blade; no Kamui or double Mangekyō."
+        ]
+      ],
+      "alternative": "If you mean exam contestants only: Gaara (Epic), Naruto (Epic, finals version), Sasuke (Epic, Chidori), Neji (Rare), Rock Lee (Rare, limited Gates). Lee/Neji and the top three are matchup-dependent."
+    },
+    {
+      "arena": 3,
+      "series": "One Piece",
+      "name": "Loguetown",
+      "cutoff": "East Blue / Loguetown, before entering the Grand Line",
+      "source": "https://one-piece.com/character/smoker/index.html",
+      "scope": "Present-day visitors and fighters; exclude Roger's historical execution. Dragon is a provisional inclusion: this arc does not reveal enough of his combat ability to rank him confidently.",
+      "units": [
+        [
+          "Monkey D. Dragon",
+          "Legendary",
+          "Provisional mentor/boss candidate. No invented confirmed Devil Fruit or wind move set."
+        ],
+        [
+          "Smoker",
+          "Legendary",
+          "Loguetown captain with smoke powers and seastone jitte; no later vice-admiral upgrades."
+        ],
+        [
+          "Monkey D. Luffy",
+          "Epic",
+          "East Blue rubber-fighting version; no Gears or Haki."
+        ],
+        [
+          "Roronoa Zoro",
+          "Rare",
+          "East Blue three-sword style; no Asura, Enma or Haki."
+        ],
+        [
+          "Sanji",
+          "Rare",
+          "East Blue kicking style; no Diable Jambe, raid suit or later enhancements."
+        ]
+      ],
+      "alternative": "If only demonstrated local combat counts, leave Dragon unranked and use Buggy (Rare) as the fifth playable pack candidate."
+    },
+    {
+      "arena": 4,
+      "series": "Jujutsu Kaisen",
+      "name": "Jujutsu High",
+      "cutoff": "Season 1 Kyoto Goodwill Event / school attack",
+      "source": "https://jujutsukaisen.jp/character/index_1st.php",
+      "scope": "A strong shortlist from the event and its attacking/supporting cast, not a settled canonical top five. The training pairing is Yuji and Todo; Yuta belongs to a different roster decision.",
+      "units": [
+        [
+          "Satoru Gojo",
+          "Legendary",
+          "Adult Season 1 version; adapt Infinity to counterable game mechanics."
+        ],
+        [
+          "Hanami",
+          "Legendary",
+          "Goodwill Event version; use the abilities demonstrated in this encounter."
+        ],
+        [
+          "Mahito",
+          "Legendary",
+          "Season 1 version; no later Shibuya final transformation."
+        ],
+        [
+          "Aoi Todo",
+          "Epic",
+          "Goodwill Event Boogie Woogie; no later prosthetic/vibraslap version."
+        ],
+        [
+          "Mei Mei",
+          "Epic",
+          "Grade 1 supporting sorcerer. Exact ranking and a strict Season 1-only combat kit remain uncertain."
+        ]
+      ],
+      "alternative": "For the student training theme instead: Todo (Epic), Yuji (Rare/Epic), Megumi (Rare), Toge (Rare), Maki (Rare, pre-awakening). Yuta should be a separately labelled JJK 0 version if you choose him."
+    },
+    {
+      "arena": 5,
+      "series": "Demon Slayer",
+      "name": "Mount Fujikasane",
+      "cutoff": "Opening training and Final Selection period, through episode 5",
+      "source": "https://demonslayer-anime.com/risshihen/character/",
+      "scope": "Early-arc shortlist including mentors and the selection boss. Giyu and Urokodaki are not Final Selection contestants. Early Kanao/Urokodaki relative strength is inferred, not settled by direct fights in these episodes.",
+      "units": [
+        [
+          "Giyu Tomioka",
+          "Legendary",
+          "Opening-series Hashira; no later mark or final-battle upgrades."
+        ],
+        [
+          "Sakonji Urokodaki",
+          "Epic",
+          "Retired mentor version; not an invented prime form."
+        ],
+        [
+          "Kanao Tsuyuri",
+          "Epic",
+          "Final Selection candidate; no later eye technique or endgame feats."
+        ],
+        [
+          "Tanjiro Kamado",
+          "Rare",
+          "Final Selection Water Breathing; blue cloud haori. No Hinokami Kagura or mark."
+        ],
+        [
+          "Hand Demon",
+          "Rare",
+          "Final Selection boss; grab/arm pressure, with a readable counter."
+        ]
+      ],
+      "alternative": "If you want only the five surviving recruits: Kanao (Epic), Tanjiro (Rare), Zenitsu (Rare), Inosuke (Rare), Genya (Common). Their exact strength order cannot be established from Final Selection alone."
+    },
+    {
+      "arena": 6,
+      "series": "Hunter × Hunter",
+      "name": "Heavens Arena",
+      "cutoff": "2011 anime Heavens Arena arc; before Yorknew",
+      "source": "https://www.ntv.co.jp/hunterhunter/story/032.html",
+      "scope": "Five practical arc-associated combat candidates. Wing's full fighting strength is not shown, and Machi's brief appearance does not establish a reliable comparison; this is not an official ranking.",
+      "units": [
+        [
+          "Hisoka",
+          "Legendary",
+          "Heavens Arena Bungee Gum and trickery; no later manga developments."
+        ],
+        [
+          "Wing",
+          "Epic",
+          "Nen teacher. Full combat kit is unspecified; keep any game adaptation labelled as such."
+        ],
+        [
+          "Kastro",
+          "Epic",
+          "Tiger Bite Fist and Double, as demonstrated against Hisoka."
+        ],
+        [
+          "Killua Zoldyck",
+          "Rare",
+          "Early assassin training and basic Nen; no electricity or Godspeed."
+        ],
+        [
+          "Gon Freecss",
+          "Rare",
+          "Heavens Arena basic Nen and physical fighting; no Jajanken or adult form."
+        ]
+      ],
+      "alternative": "Zushi is a natural Common addition for the wider pack pool. A strict strongest-five list could include Machi, but her placement is uncertain."
+    },
+    {
+      "arena": 8,
+      "series": "One Piece",
+      "name": "Wano",
+      "cutoff": "Onigashima raid resolution; exclude historical flashbacks and post-raid arrivals",
+      "source": "https://one-piece.com/story/land_of_wano2/index.html",
+      "scope": "Leading raid combatants. Strength ordering among Law, Kid, Yamato and other contenders is debatable. Using the Flower Capital arrival date instead would remove these later raid upgrades.",
+      "units": [
+        [
+          "Kaido",
+          "Legendary",
+          "Wano raid version; keep base and hybrid forms explicitly labelled."
+        ],
+        [
+          "Monkey D. Luffy — Wano",
+          "Legendary",
+          "Gear 5 only if the arena pool covers the end of the raid. Otherwise use Gear 4."
+        ],
+        [
+          "Charlotte Linlin / Big Mom",
+          "Legendary",
+          "Wano version with her homies; no invented post-Wano form."
+        ],
+        [
+          "Trafalgar D. Water Law",
+          "Epic",
+          "Raid version; awakened abilities only under the end-of-raid cutoff."
+        ],
+        [
+          "Eustass Kid",
+          "Epic",
+          "Raid version; awakened magnetism only under the end-of-raid cutoff."
+        ]
+      ],
+      "alternative": "Yamato is a credible substitution for Law or Kid. If the intended date is the Flower Capital arrival, use pre-raid versions and revisit the shortlist."
+    },
+    {
+      "arena": 9,
+      "series": "One Piece",
+      "name": "Marineford",
+      "cutoff": "Opening frozen-bay battle, before Shanks's arrival",
+      "source": "https://one-piece.com/story/marineford/index.html",
+      "scope": "Five frontline powerhouses for the iced-over bay, not an uncontested verse ranking. Garp and Sengoku are strong alternatives; their exact order relative to these five is unsettled.",
+      "units": [
+        [
+          "Edward Newgate / Whitebeard",
+          "Legendary",
+          "Old, ill Marineford version; not prime Whitebeard."
+        ],
+        [
+          "Dracule Mihawk",
+          "Legendary",
+          "Marineford swordsman; no later bounty-based scaling."
+        ],
+        [
+          "Sakazuki / Akainu",
+          "Legendary",
+          "Pre-timeskip admiral; no post-timeskip fleet-admiral assumptions."
+        ],
+        [
+          "Kuzan / Aokiji",
+          "Legendary",
+          "Pre-timeskip admiral and the bay's ice theme; not post-Punk Hazard appearance."
+        ],
+        [
+          "Borsalino / Kizaru",
+          "Legendary",
+          "Pre-timeskip admiral; no later Egghead feats."
+        ]
+      ],
+      "alternative": "If the whole war is included, Shanks becomes eligible. Garp and Sengoku also belong on the wider strongest-candidate list."
+    }
+  ],
+  "loop": {
+    "confirmed": [
+      "Dragon Ball / Z / Super character choices come from you.",
+      "Story arena completions unlock additional character pools; a gift unit is separate from pack eligibility.",
+      "Cash earned through play buys packs; obtained units enter inventory and can be equipped into a team.",
+      "Both ranked and unranked PvP unlock after Arena 3.",
+      "Mystical units are excluded from normal arena packs. Intended sources: a rotating weekly Robux store or ranked rewards.",
+      "The season pass has 45 levels; you will supply rewards and UI artwork.",
+      "Top-100 ranked players should receive the selected Mystical unit plus other rewards such as XP cards / pack rewards."
+    ],
+    "proposed": [
+      "Use 5 Season XP for a completed win and 2 for a completed loss, with 15 XP per reward tier. Monthly pass reset; daily tasks can refresh separately.",
+      "Use story completion flags to group progression, and ranked trophies to measure PvP results. Story wins should not inflate competitive trophies.",
+      "Treat season ranked wins as a separate leaderboard counter. Provisional simplest launch: global top 100 eligible players by ranked wins, with trophy total then head-to-head or earliest achievement as published tie-breakers.",
+      "To reduce farming weaker opponents, use the highest league reached this season for reward eligibility, rating-based matchmaking, repeat-opponent limits and server-validated completed matches.",
+      "Example trophy movement only: +20 for an even-rated ranked win, -15 for a loss, zero change for unranked. Tune after playtesting; do not ship these numbers as confirmed rules.",
+      "Keep Mystical units within the same competitive power budget as top earnable units, with distinctive abilities/appearance. A rotating paid unit should not be required to compete."
+    ],
+    "pending": [
+      "Arena participants versus strongest known in the wider verse; provisional lists use each arena's story period.",
+      "5 XP per win / 2 per loss versus the later 5 / 10 wording.",
+      "Does top 100 mean global or top 100 within every league? Per-league distribution creates far more winners and needs anti-deranking rules.",
+      "Which modes award Season XP, whether story replays have caps, and whether draws grant anything.",
+      "Trophy gain/loss values, league thresholds, matchmaking rules and the monthly trophy reset/soft-reset policy.",
+      "Whether rank rewards are based on most wins or final trophies. The draft preserves your most-wins idea as a separate leaderboard.",
+      "Cash amounts, pack costs/odds, gift units, mastery rewards and XP-card purpose.",
+      "45 earnable rewards from tier 0 (675 XP), or start at level 1 with only 44 advances (660 XP).",
+      "Weekly store rotation time, price, reward unit schedule, late claims and duplicate Mystical compensation."
+    ],
+    "steps": [
+      "Short loading screen → optional guided first fight",
+      "Play Story Arena 1 with a starter team",
+      "Receive any first-clear gift and unlock that arena’s pack pool",
+      "Spend cash on eligible packs → collect units → equip up to the game’s existing team size",
+      "Complete Arenas 2 and 3; continue story, mastery and team upgrades",
+      "Arena 3 clear unlocks Unranked and Ranked queues",
+      "Ranked results change trophies and add ranked wins; eligible completed matches add Season XP",
+      "Claim pass tiers during the month; settle ranked rewards at season end; rotate the Mystical store weekly"
+    ],
+    "screens": [
+      {
+        "title": "PvP hub",
+        "items": [
+          "Ranked: current league, trophy total, progress to next league, season wins and countdown.",
+          "Unranked: practise with no trophy gain or loss; show whether Season XP/cash is enabled once decided.",
+          "Before Arena 3: both queue buttons explain the unlock requirement and offer Continue Story.",
+          "After Arena 3: separate Find Ranked Match and Find Unranked Match buttons."
+        ]
+      },
+      {
+        "title": "Ranked queue / results",
+        "items": [
+          "Queue: team check, opponent search status, elapsed time and Cancel.",
+          "Before match: own/opponent league and a readable team summary; no misleading guarantee of identical unit collections.",
+          "Results: outcome, cash, Season XP and trophy change as separate rows; ranked-win counter updates only after a validated win.",
+          "Leaderboard: clearly label global versus league scope, season identifier, tie-breakers and top-100 reward preview."
+        ]
+      },
+      {
+        "title": "Season pass / store",
+        "items": [
+          "Pass: current tier / 45, XP progress, monthly end date, claim states and reward slots supplied by you.",
+          "Daily challenges, if added, show their own reset timer; they do not wipe monthly pass progress.",
+          "Store: show the current Mystical unit, fixed Robux price, weekly rotation timer and ownership state.",
+          "Rank rewards: show qualifying finish, claim deadline and duplicate policy once chosen."
+        ]
+      }
+    ]
+  }
+}

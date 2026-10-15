@@ -1,0 +1,369 @@
+{
+  "note": "Real unparented Model/Part geometry; mocked clocks, services and data. No game state or progression modified.",
+  "passed": true,
+  "cases": [
+    {
+      "connectionsAfterCancel": 0,
+      "maxLogicalPositionError": 0,
+      "finalHealth": [
+        0,
+        28,
+        164,
+        0,
+        0,
+        126
+      ],
+      "firstMotionSamples": [
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.2333342730998993,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.23333387076854706,
+          "unit": "P_Ranged"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.08166760951280594,
+          "unit": "P_Tank"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.2333342730998993,
+          "unit": "E_Melee"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.23333407938480377,
+          "unit": "E_Ranged"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.0816669836640358,
+          "unit": "E_Tank"
+        },
+        {
+          "clock": 0.15,
+          "frame": 9,
+          "distance": 0.2333323210477829,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.15,
+          "frame": 9,
+          "distance": 0.23333223164081573,
+          "unit": "P_Ranged"
+        }
+      ],
+      "passed": true,
+      "logicalMovementSamples": 150,
+      "attacks": 50,
+      "baselineRenderMotionSamples": 0,
+      "name": "steady_60fps",
+      "frames": 721,
+      "interpolatedRenderMotionSamples": 1116,
+      "winner": "player",
+      "noUpdatesAfterCancel": true,
+      "pauseFramesVerified": 0
+    },
+    {
+      "connectionsAfterCancel": 0,
+      "maxLogicalPositionError": 0,
+      "finalHealth": [
+        0,
+        28,
+        164,
+        0,
+        0,
+        126
+      ],
+      "firstMotionSamples": [
+        {
+          "clock": 0.13333333333333333,
+          "frame": 4,
+          "distance": 0.466666579246521,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 4,
+          "distance": 0.4666661024093628,
+          "unit": "P_Ranged"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 4,
+          "distance": 0.16333308815956116,
+          "unit": "P_Tank"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 4,
+          "distance": 0.466666579246521,
+          "unit": "E_Melee"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 4,
+          "distance": 0.46666646003723145,
+          "unit": "E_Ranged"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 4,
+          "distance": 0.1633336991071701,
+          "unit": "E_Tank"
+        },
+        {
+          "clock": 0.16666666666666666,
+          "frame": 5,
+          "distance": 0.46666663885116577,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.16666666666666666,
+          "frame": 5,
+          "distance": 0.46666792035102844,
+          "unit": "P_Ranged"
+        }
+      ],
+      "passed": true,
+      "logicalMovementSamples": 174,
+      "attacks": 50,
+      "baselineRenderMotionSamples": 0,
+      "name": "steady_30fps",
+      "frames": 363,
+      "interpolatedRenderMotionSamples": 483,
+      "winner": "player",
+      "noUpdatesAfterCancel": true,
+      "pauseFramesVerified": 0
+    },
+    {
+      "connectionsAfterCancel": 0,
+      "maxLogicalPositionError": 0,
+      "finalHealth": [
+        0,
+        16,
+        186,
+        0,
+        6,
+        183
+      ],
+      "firstMotionSamples": [
+        {
+          "clock": 0.16399999999999998,
+          "frame": 6,
+          "distance": 0.2333342730998993,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.16399999999999998,
+          "frame": 6,
+          "distance": 0.2333340346813202,
+          "unit": "P_Ranged"
+        },
+        {
+          "clock": 0.16399999999999998,
+          "frame": 6,
+          "distance": 0.08166760951280594,
+          "unit": "P_Tank"
+        },
+        {
+          "clock": 0.16399999999999998,
+          "frame": 6,
+          "distance": 0.23333238065242767,
+          "unit": "E_Melee"
+        },
+        {
+          "clock": 0.16399999999999998,
+          "frame": 6,
+          "distance": 0.23333309590816498,
+          "unit": "E_Ranged"
+        },
+        {
+          "clock": 0.16399999999999998,
+          "frame": 6,
+          "distance": 0.0816665068268776,
+          "unit": "E_Tank"
+        },
+        {
+          "clock": 0.3773333333333333,
+          "frame": 8,
+          "distance": 0.7767238616943359,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.3773333333333333,
+          "frame": 8,
+          "distance": 0.7766897678375244,
+          "unit": "P_Ranged"
+        }
+      ],
+      "passed": true,
+      "logicalMovementSamples": 96,
+      "attacks": 44,
+      "baselineRenderMotionSamples": 0,
+      "name": "jitter_and_hitch",
+      "frames": 169,
+      "interpolatedRenderMotionSamples": 499,
+      "winner": "player",
+      "noUpdatesAfterCancel": true,
+      "pauseFramesVerified": 0
+    },
+    {
+      "connectionsAfterCancel": 0,
+      "maxLogicalPositionError": 0,
+      "finalHealth": [
+        0,
+        28,
+        164,
+        0,
+        0,
+        126
+      ],
+      "firstMotionSamples": [
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.2333342730998993,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.23333387076854706,
+          "unit": "P_Ranged"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.08166760951280594,
+          "unit": "P_Tank"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.2333342730998993,
+          "unit": "E_Melee"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.23333407938480377,
+          "unit": "E_Ranged"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.0816669836640358,
+          "unit": "E_Tank"
+        },
+        {
+          "clock": 0.15,
+          "frame": 9,
+          "distance": 0.2333323210477829,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.15,
+          "frame": 9,
+          "distance": 0.23333223164081573,
+          "unit": "P_Ranged"
+        }
+      ],
+      "passed": true,
+      "logicalMovementSamples": 150,
+      "attacks": 50,
+      "baselineRenderMotionSamples": 0,
+      "name": "pause_resume_60fps",
+      "frames": 757,
+      "interpolatedRenderMotionSamples": 1116,
+      "winner": "player",
+      "noUpdatesAfterCancel": true,
+      "pauseFramesVerified": 36
+    },
+    {
+      "connectionsAfterCancel": 0,
+      "maxLogicalPositionError": 0,
+      "finalHealth": [
+        122,
+        100,
+        230,
+        111,
+        110,
+        210
+      ],
+      "firstMotionSamples": [
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.2333342730998993,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.23333387076854706,
+          "unit": "P_Ranged"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.08166760951280594,
+          "unit": "P_Tank"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.2333342730998993,
+          "unit": "E_Melee"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.23333407938480377,
+          "unit": "E_Ranged"
+        },
+        {
+          "clock": 0.13333333333333333,
+          "frame": 8,
+          "distance": 0.0816669836640358,
+          "unit": "E_Tank"
+        },
+        {
+          "clock": 0.15,
+          "frame": 9,
+          "distance": 0.2333323210477829,
+          "unit": "P_Melee"
+        },
+        {
+          "clock": 0.15,
+          "frame": 9,
+          "distance": 0.23333223164081573,
+          "unit": "P_Ranged"
+        }
+      ],
+      "passed": true,
+      "logicalMovementSamples": 62,
+      "attacks": 5,
+      "baselineRenderMotionSamples": 0,
+      "name": "cancel_during_motion",
+      "frames": 103,
+      "interpolatedRenderMotionSamples": 488,
+      "winner": "canceled",
+      "noUpdatesAfterCancel": true,
+      "pauseFramesVerified": 0
+    }
+  ],
+  "studioId": "8f254eb9-23d1-49bf-9a7e-f5b4913e96ce",
+  "placeId": 111313211501470,
+  "verifiedAt": "2026-09-26 14:18:45 UTC"
+}

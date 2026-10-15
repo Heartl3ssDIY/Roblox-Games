@@ -1,0 +1,59 @@
+PLAYGROUND CLASSICS / BATS
+
+HAND THIS WHOLE FOLDER TO THE BLENDER CHAT.
+Create game-ready stylised models using the Originals PNGs as the visual reference. Each PNG is one distinct asset. Contact-Sheet.png is an overview, not a texture atlas. UI-512 and UI-256 are transparent shop icons of the same designs.
+
+VISUAL DIRECTION
+Chunky toy proportions, rounded bevels, broad glossy colour zones, deep navy seams and collars, cream inset panels and bold silhouettes. Build attached decorations as robust forms. Avoid tiny text, thin loose ornaments, photorealistic grunge or detached glow effects. Use the picture as the final visual reference if it differs slightly from the written concept.
+
+MODELLING HANDOFF
+These are single-view concept images, not measured turnarounds or existing 3D models. Infer unseen sides simply and consistently. Match the overall silhouette and visible colour blocking first. Keep materials reusable. Establish scale, pivot, triangle budget, collision and attachments in the Blender/game implementation chat before export. Bats need a handle grip pivot; other item pivots depend on their use. No gameplay or claim rules are implemented in these PNGs.
+
+ROBLOX UI
+Use the square UI exports with ScaleType Fit and a square UIAspectRatioConstraint, or retain the square aspect ratio yourself. Do not stretch them to fill a rectangular slot. Background transparency is already included. Do not bake item names, prices or counts into the artwork.
+
+ASSETS
+B01 / Starter Slugger / Starter
+Plain warm honey-wood baseball bat with a smooth thick rounded barrel, narrow tapered shaft, short dark navy tape grip and a small rounded knob. Two broad simple wood-grain accents only. No decorations: the default starter everyone receives.
+
+B02 / Schoolyard Alloy / Common
+Brushed pale silver aluminium baseball bat, softly chamfered thick barrel, cobalt-blue rubber grip, navy end cap and one blue collar stripe. Clean economical toy sports equipment.
+
+B03 / Varsity Victory / Uncommon
+Sporty baseball bat with a red barrel, broad ivory diagonal varsity stripe, dark navy collar and ivory-wrapped grip. A tiny simple shield-shaped blue inset on the upper barrel, no letters or numbers.
+
+B04 / Street Cone / Uncommon
+Baseball bat with a long rounded orange barrel interrupted by two thick ivory reflective bands, like traffic-cone-inspired sports equipment. Narrow navy shaft and orange rubber knob. Still clearly a baseball bat, not a complete traffic cone.
+
+B05 / Bubblegum Bonker / Rare
+Hot pink glossy baseball bat with a thick rounded candy barrel, two attached small bubblegum globules near the barrel shoulder, lilac spiral-wrapped grip and pale mint collar. Opaque candy material, no detached bubbles.
+
+B06 / Mudslinger / Rare
+Olive-green baseball bat with a chunky brown mud-coated rounded upper barrel, three large sculpted attached mud drips, cream small inset panel, navy collar and dark rubber grip. Matches a toy mud blaster palette.
+
+B07 / Heat Coil / Rare
+Orange baseball bat with a thick cylindrical barrel surrounded by three broad rigid yellow coil bands, dark navy collar rings, a cream cap on the blunt tip and orange/black rubber grip. Toy heat-tech theme. No flames or glowing particles.
+
+B08 / Frostbite / Epic
+Icy cyan baseball bat with a long solid faceted ice-crystal barrel, a rounded blunt faceted top, silver collar and deep blue wrapped grip. Broad white-blue facets, no translucent disappearing parts, no loose snowflakes.
+
+B09 / Thunder Circuit / Epic
+Electric cobalt-blue baseball bat with a large raised yellow zigzag lightning inset along its thick barrel, two gold collar rings, navy rubber grip and cyan knob. Mechanical toy-sports construction, no detached electricity.
+
+B10 / Pixel Party / Epic
+Arcade-themed baseball bat with a chunky long barrel built from three large stepped rectangular blocks with softened corners, alternating magenta and cyan panels, navy seams and lime-green grip. Must keep the long bat profile, no letters, screens or floating pixels.
+
+B11 / Cosmic Orbit / Legendary
+Deep violet baseball bat with a thick rounded barrel, pale cyan crescent-shaped inset and tiny simple silver dot inlays, a chunky fixed silver equator ring hugging the barrel, navy handle and purple grip. All parts physically attached, no floating stars or glow clouds.
+
+B12 / Royal Champion / Quest reward
+Prestige baseball bat with a cream-and-gold rounded barrel, bold navy centre band, a compact attached rounded crown-shaped cap with three blunt points, ruby-red inset gem and navy quilted-looking grip using only a few broad bands. No words.
+
+B13 / Skatepark Stripe / Epic
+A chunky baseball bat with a long cobalt-blue rounded barrel, wide mint and coral diagonal skatepark stripes, navy protective collar, cream rubber grip and coral knob. Rounded toy sports shape, no letters or skateboard attachments.
+
+B14 / Deep Sea / Epic
+A navy and turquoise baseball bat with a thick rounded barrel, three broad raised wave-shaped pale-cyan inlays, a chunky cream collar, teal rubber wrap grip and navy knob. Ocean theme made of simple solid attached shapes, no floating water.
+
+B15 / Sunburst / Quest reward
+A bright cream-and-orange baseball bat with a long rounded barrel, broad golden sun-ray geometric panels around its blunt tip, navy collar rings, deep orange grip and gold knob. Clean premium summer toy design, no text or detached rays.

@@ -1,0 +1,175 @@
+{
+  "verification": "Canonical R6 shoulder geometry evaluated with CFrame.Angles equivalent Rx*Ry*Rz and exact shoulder-to-palm levers; mathematical check, not a native Studio render.",
+  "rig": {
+    "torso": [
+      2,
+      2,
+      1
+    ],
+    "arm": [
+      1,
+      2,
+      1
+    ],
+    "shoulderC0": {
+      "left": [
+        -1,
+        0.5,
+        0
+      ],
+      "right": [
+        1,
+        0.5,
+        0
+      ]
+    },
+    "shoulderC1": {
+      "left": [
+        0.5,
+        0.5,
+        0
+      ],
+      "right": [
+        -0.5,
+        0.5,
+        0
+      ]
+    },
+    "palmLocal": [
+      0,
+      -1,
+      0
+    ],
+    "leverLeft": [
+      -0.5,
+      -1.5,
+      0
+    ],
+    "leverRight": [
+      0.5,
+      -1.5,
+      0
+    ],
+    "restRotations": "Authored C0/C1 rotations cancel for the canonical aligned arm; pose rotation is applied in torso axes."
+  },
+  "charge": {
+    "original": {
+      "leftPalm": [
+        -0.13170032584841873,
+        -0.21031200069973865,
+        -1.2587532850230958
+      ],
+      "rightPalm": [
+        0.857472155948964,
+        -0.4829193747190931,
+        -1.1123144610949065
+      ],
+      "separation": 1.0364464811404361,
+      "midpoint": [
+        0.3628859150502726,
+        -0.34661568770941587,
+        -1.185533873059001
+      ]
+    },
+    "corrected": {
+      "leftPalm": [
+        0.23748738521670942,
+        -0.23975258021701107,
+        -0.9168147934776053
+      ],
+      "rightPalm": [
+        0.5646639459709744,
+        -0.46172920654524374,
+        -1.0533637906761486
+      ],
+      "separation": 0.41828668778599787,
+      "midpoint": [
+        0.4010756655938419,
+        -0.3507408933811274,
+        -0.985089292076877
+      ]
+    }
+  },
+  "fireAtRelease": {
+    "pitch": 91,
+    "original": {
+      "leftPalm": [
+        -1.1391924727372227,
+        0.5272213864624892,
+        -1.5595121859720829
+      ],
+      "rightPalm": [
+        1.1391924727372227,
+        0.5272213864624892,
+        -1.5595121859720829
+      ],
+      "separation": 2.2783849454744454,
+      "midpoint": [
+        0,
+        0.5272213864624892,
+        -1.5595121859720829
+      ]
+    },
+    "corrected": {
+      "leftPalm": [
+        -0.18940000010743419,
+        0.4229666733966742,
+        -1.400103391449863
+      ],
+      "rightPalm": [
+        0.18940000010743419,
+        0.4229666733966742,
+        -1.400103391449863
+      ],
+      "separation": 0.37880000021486837,
+      "midpoint": [
+        0,
+        0.4229666733966742,
+        -1.400103391449863
+      ]
+    }
+  },
+  "jump": {
+    "peakRootMotorLift": 2.8,
+    "hangKeys": [
+      {
+        "time": 0.68,
+        "height": 2.8
+      },
+      {
+        "time": 1.05,
+        "height": 2.8
+      },
+      {
+        "time": 1.25,
+        "height": 2.78
+      }
+    ],
+    "release": {
+      "time": 1.35,
+      "height": 2.72
+    },
+    "rest": {
+      "time": 2.25,
+      "height": 0
+    },
+    "logicalRootMovement": false
+  },
+  "timing": {
+    "unchanged": true,
+    "releaseAt": 1.35,
+    "duration": 2.25,
+    "cooldownFloor": 2.4,
+    "beamDuration": 0.38
+  },
+  "transformOwnership": {
+    "active": "C0 sampled absolutely; native Animator Transform offset is masked to identity after evaluation.",
+    "paused": "Transform masking continues; C0 remains frozen.",
+    "stop": "Original C0 and original Transform restored.",
+    "tracksStopped": false
+  },
+  "limitations": [
+    "Canonical R6 proportions assumed; native Master Roshu rig and visual appearance still need verification when Studio finishes importing.",
+    "R6 has no articulated hands or elbows; pose approximates cupping using arm direction and small shoulder translations."
+  ]
+}

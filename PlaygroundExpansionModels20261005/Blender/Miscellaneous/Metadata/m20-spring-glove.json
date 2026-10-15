@@ -1,0 +1,54 @@
+{
+  "id": "M20",
+  "name": "Spring Glove",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m20-spring-glove.png",
+  "brief": "One red padded cartoon boxing glove mounted on a short chunky compression spring emerging from a small cream-and-cobalt toy box base. Glove tilted three-quarter toward viewer, exactly THREE thick navy spring loops, orange button on the side of the base. All parts mechanically connected, compact silhouette, no arm or wearer.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m20-spring-glove.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m20-spring-glove.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m20-spring-glove-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m20-spring-glove.png",
+  "parts": 22,
+  "triangles": 10364,
+  "meshes": 1,
+  "maxMeshTriangles": 10364,
+  "dimensions": [
+    1.4550000429153442,
+    1.0099999904632568,
+    2.5349998474121094
+  ],
+  "boundsMin": [
+    -0.6650000214576721,
+    -0.574999988079071,
+    0.015000015497207642
+  ],
+  "boundsMax": [
+    0.7900000214576721,
+    0.4350000023841858,
+    2.549999952316284
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.3400000035762787
+    ],
+    "SpringTop": [
+      0.0,
+      0.0,
+      1.5199999809265137
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.4550000429153442,
+    1.0099999904632568,
+    2.5349998474121094
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "Shell.Controller.luau": {
+      "sha256": "0c0f1364f0c0bc400a579ff432b2e8d5957ae3c3bbdd553bd6bafbd6c3f4164f",
+      "naturalImageLoading": true,
+      "noRuntimeLayoutWrites": true
+    },
+    "PlaygroundToyHotbar.Controller.client.luau": {
+      "sha256": "4ff8e152c844540cb52f9f3ccd59b79b92a4ae321ddddb28df0de7c09920f25e",
+      "naturalImageLoading": true,
+      "noRuntimeLayoutWrites": true
+    }
+  },
+  "all56OriginalsUnmodified": true,
+  "all56UniqueUploadedImagesVerified": true,
+  "eventIdsCategoryQualified": true
+}

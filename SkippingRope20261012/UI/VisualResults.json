@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "1": {
+      "name": "Waiting ropes rest overhead",
+      "passed": true
+    },
+    "2": {
+      "name": "Visual matches server path and six arms at 0.5",
+      "passed": true
+    },
+    "3": {
+      "name": "Visual matches server path and six arms at 1.8",
+      "passed": true
+    },
+    "4": {
+      "name": "Visual matches server path and six arms at 9.999",
+      "passed": true
+    },
+    "5": {
+      "name": "Visual matches server path and six arms at 10",
+      "passed": true
+    },
+    "6": {
+      "name": "Visual matches server path and six arms at 10.001",
+      "passed": true
+    },
+    "7": {
+      "name": "Visual matches server path and six arms at 30",
+      "passed": true
+    },
+    "8": {
+      "name": "Visual matches server path and six arms at 60",
+      "passed": true
+    },
+    "9": {
+      "name": "Visual matches server path and six arms at 110",
+      "passed": true
+    },
+    "10": {
+      "name": "Visual matches server path and six arms at 119.9",
+      "passed": true
+    },
+    "11": {
+      "name": "Results hold the ending pose",
+      "passed": true
+    },
+    "12": {
+      "name": "Next waiting resets rope and arms overhead",
+      "passed": true
+    },
+    "13": {
+      "name": "Late streamed rope part restores at its authored span",
+      "passed": true
+    },
+    "14": {
+      "name": "Visual cleanup disconnects render and restores six rigs",
+      "passed": true
+    }
+  },
+  "passed": true,
+  "checkCount": 14
+}

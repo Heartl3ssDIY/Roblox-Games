@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"playStarted\":false,\"passed\":true,\"checks\":{\"1\":\"Minimal +5 appears at the source coin with no bar\",\"3\":\"Popup fades and destroys itself after 0.9 seconds\",\"2\":\"Real TweenService moves the amount upward\",\"5\":\"Invalid or missing pickup locations create nothing\",\"4\":\"Authored template stays unchanged\",\"6\":\"Cleanup cancels an active popup safely\"}}"
+    }
+  ],
+  "isError": false
+}

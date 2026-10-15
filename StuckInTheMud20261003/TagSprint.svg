@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1440" height="900" viewBox="0 0 1440 900">
+  <title>Editable Tag sprint HUD</title>
+  <desc>1440 by 900 GUI content reference for StarterGui.TagHUD after BuildTagSprintUI.luau version 2. The bottom SprintPanel is 280 by 100 with a 44-pixel meter, 48-pixel sprint/vault/dodge buttons and an 18-pixel bottom offset. Protection and MoveMessage occupy the same notice slot and are alternate hidden layers. Top context matches the existing authored Tag HUD. Fonts remain editable Luckiest Guy and Fredoka One text.</desc>
+  <metadata>Sources: BuildTagSprintUI.luau and PlaygroundExpansion20261003/BuildTagHUD.luau; SprintLayoutVersion2; Protection/MoveMessage bottom126 height16.</metadata>
+  <style>
+    .outline {stroke:#18233e;stroke-width:3;stroke-linejoin:round}
+    .headline {font-family:'Luckiest Guy',Impact,sans-serif;fill:#18233e;text-anchor:middle}
+    .body {font-family:'Fredoka One','Arial Rounded MT Bold',sans-serif;fill:#18233e;text-anchor:middle}
+  </style>
+  <g id="TagHUD.Top" inkscape:groupmode="layer" inkscape:label="Existing Tag / Top">
+    <rect class="outline" x="410" y="21.6" width="620" height="126" rx="16" fill="#fffae2"/>
+    <text id="Top.Title" class="headline" x="633.2" y="51" font-size="27">TAG, YOU'RE IT!</text>
+    <text id="Top.Timer" class="headline" x="935.45" y="76" font-size="45">3:00</text>
+    <rect id="TaggerChip" class="outline" x="431.7" y="64.44" width="403" height="36.54" rx="10" fill="#ff5364"/>
+    <text id="TaggerChip.Name" class="body" x="633.2" y="91" font-size="23" style="fill:#fff">IT: PLAYER</text>
+    <text id="Top.Rule" class="body" x="720" y="133" font-size="17">LEAST TIME AS IT = SAFER</text>
+  </g>
+  <g id="SprintPanel" inkscape:groupmode="layer" inkscape:label="SprintPanel / Meter">
+    <rect id="SprintPanel.Meter" class="outline" x="580" y="782" width="280" height="44" rx="12" fill="#fffae2"/>
+    <text id="Meter.Role" class="headline" x="590" y="803" font-size="19" style="text-anchor:start">RUNNER</text>
+    <text id="Meter.Time" class="body" x="590" y="812" font-size="11" style="text-anchor:start">IT: 0.0s</text>
+    <text id="Meter.Charge" class="body" x="849" y="809" font-size="16" style="text-anchor:end">10.0s</text>
+    <rect id="Meter.Track" x="590" y="816" width="260" height="6" rx="3" fill="#c3d3d3"/>
+    <rect id="Meter.Fill" x="590" y="816" width="260" height="6" rx="3" fill="#2aa0ff"/>
+  </g>
+  <g id="SprintPanel.Sprint" inkscape:groupmode="layer" inkscape:label="Sprint button">
+    <rect class="outline" x="580" y="834" width="145.6" height="48" rx="12" fill="#2aa0ff"/>
+    <text class="headline" x="652.8" y="855" font-size="21">SPRINT</text>
+    <text class="headline" x="652.8" y="875" font-size="18">HOLD SHIFT</text>
+  </g>
+  <g id="Controls" inkscape:groupmode="layer" inkscape:label="Existing Controls / Vault and Dodge">
+    <g id="Controls.Vault">
+      <rect class="outline" x="736.8" y="834" width="58.8" height="48" rx="14" fill="#ffcc36"/>
+      <text class="headline" x="766.2" y="855" font-size="14">VAULT</text>
+      <text class="headline" x="766.2" y="875" font-size="14">[Q]</text>
+    </g>
+    <g id="Controls.Dodge">
+      <rect class="outline" x="801.2" y="834" width="58.8" height="48" rx="14" fill="#36aeff"/>
+      <text class="headline" x="830.6" y="855" font-size="14">DODGE</text>
+      <text class="headline" x="830.6" y="875" font-size="14">[X]</text>
+    </g>
+  </g>
+  <g id="Protection" inkscape:groupmode="layer" inkscape:label="Alternate / Protection notice" style="display:none">
+    <text class="body" x="720" y="771" font-size="14" style="fill:#ffcc36;stroke:#18233e;stroke-width:2;paint-order:stroke fill">TAGBACK SHIELD: 2s</text>
+  </g>
+  <g id="MoveMessage" inkscape:groupmode="layer" inkscape:label="Alternate / Move message" style="display:none">
+    <text class="body" x="720" y="771" font-size="14" style="fill:#fff;stroke:#18233e;stroke-width:2;paint-order:stroke fill">VAULT READY</text>
+  </g>
+</svg>

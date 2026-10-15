@@ -1,0 +1,237 @@
+{
+  "textures": 45,
+  "total": 45,
+  "images": 0,
+  "targets": [
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot01.Preview.World.ItemModel.b01-starter-slugger.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot02.Preview.World.ItemModel.b02-schoolyard-alloy.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot04.Preview.World.ItemModel.b04-street-cone.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot07.Preview.World.ItemModel.b07-heat-coil.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot10.Preview.World.ItemModel.b10-pixel-party.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M01.m01-playground-football.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M02.m02-playground-basketball.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.B01.b01-starter-slugger.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.B02.b02-schoolyard-alloy.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.B04.b04-street-cone.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.B07.b07-heat-coil.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.B10.b10-pixel-party.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.P20.p20-royal-slime.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.P07.p07-teapot-frog.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.P10.p10-cloud-sheep.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.P15.p15-marshmallow-dragon.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M06.m06-spring-sip.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M14.m14-camp-torch.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M03.m03-foam-bonker.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M13.m13-cake-toss.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M07.m07-ember-elixir.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M11.m11-paint-splash.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M10.m10-frost-ray.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M15.m15-bounce-pad.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCosmeticAssets.M05.m05-zoom-juice.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Bats.b01-starter-slugger.b01-starter-slugger.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Bats.b02-schoolyard-alloy.b02-schoolyard-alloy.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Bats.b04-street-cone.b04-street-cone.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Bats.b07-heat-coil.b07-heat-coil.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Bats.b10-pixel-party.b10-pixel-party.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Pets.p07-teapot-frog.p07-teapot-frog.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Pets.p10-cloud-sheep.p10-cloud-sheep.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Pets.p15-marshmallow-dragon.p15-marshmallow-dragon.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Pets.p20-royal-slime.p20-royal-slime.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m01-playground-football.m01-playground-football.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m02-playground-basketball.m02-playground-basketball.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m03-foam-bonker.m03-foam-bonker.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m05-zoom-juice.m05-zoom-juice.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m06-spring-sip.m06-spring-sip.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m07-ember-elixir.m07-ember-elixir.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m10-frost-ray.m10-frost-ray.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m11-paint-splash.m11-paint-splash.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m13-cake-toss.m13-cake-toss.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m14-camp-torch.m14-camp-torch.001",
+      "attribute": false,
+      "property": "TextureID"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m15-bounce-pad.m15-bounce-pad.001",
+      "attribute": false,
+      "property": "TextureID"
+    }
+  ],
+  "unchangedAssets": 0,
+  "attributes": 0,
+  "scripts": 0,
+  "backup": "ServerStorage.UITextureRepairBackup20261004",
+  "commit": true
+}

@@ -1,0 +1,112 @@
+{
+  "duration": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "original_audio": "muted",
+  "music": "C:\\Users\\sandt\\Downloads\\alex-morgan-gaming-stream-arcade-session-578484.mp3",
+  "shots": [
+    {
+      "name": "Logo and gravity hook",
+      "source": "gameplay",
+      "start": 25.5,
+      "duration": 2.5,
+      "speed": 1,
+      "text": "FLIP. RACE. WIN.",
+      "position": "intro",
+      "timeline_start": 0
+    },
+    {
+      "name": "Lobby tour at 2x",
+      "source": "main",
+      "start": 16,
+      "duration": 4,
+      "speed": 2,
+      "text": "YOUR NEXT RACE STARTS HERE",
+      "position": "bottom",
+      "timeline_start": 2.5
+    },
+    {
+      "name": "Gravity switch",
+      "source": "gameplay",
+      "start": 109,
+      "duration": 2.5,
+      "speed": 1,
+      "text": "MASTER GRAVITY",
+      "position": "top",
+      "timeline_start": 6.5
+    },
+    {
+      "name": "Spike wall run",
+      "source": "gameplay",
+      "start": 131.75,
+      "duration": 2.5,
+      "speed": 1,
+      "text": "DODGE THE DANGER",
+      "position": "top",
+      "timeline_start": 9.0
+    },
+    {
+      "name": "Saw close call",
+      "source": "gameplay",
+      "start": 161.75,
+      "duration": 2.5,
+      "speed": 1,
+      "text": "KEEP MOVING.",
+      "position": "top",
+      "timeline_start": 11.5
+    },
+    {
+      "name": "Course flythrough",
+      "source": "main",
+      "start": 80,
+      "duration": 3,
+      "speed": 1.5,
+      "text": "FIVE ROUNDS. ONE WINNER.",
+      "position": "bottom",
+      "timeline_start": 14.0
+    },
+    {
+      "name": "Full course reveal",
+      "source": "main",
+      "start": 93,
+      "duration": 3,
+      "speed": 1.5,
+      "text": "CAN YOU GO ALL THE WAY?",
+      "position": "bottom",
+      "timeline_start": 17.0
+    },
+    {
+      "name": "Podium reveal",
+      "source": "main",
+      "start": 146.5,
+      "duration": 3,
+      "speed": 1,
+      "text": "TAKE THE TOP SPOT",
+      "position": "top",
+      "timeline_start": 20.0
+    },
+    {
+      "name": "Victory emote",
+      "source": "main",
+      "start": 155,
+      "duration": 3,
+      "speed": 1,
+      "text": "CELEBRATE YOUR WAY",
+      "position": "bottom",
+      "timeline_start": 23.0
+    },
+    {
+      "name": "Play call to action",
+      "source": "main",
+      "start": 93,
+      "duration": 4,
+      "speed": 1,
+      "text": "",
+      "position": "end",
+      "timeline_start": 26.0
+    }
+  ]
+}

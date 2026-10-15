@@ -1,0 +1,15 @@
+{
+  "native": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"installed\":true,\"exactSource\":true,\"sourceCharacters\":22252,\"mode\":\"Edit\",\"sandboxPreserved\":true,\"capabilitiesPreserved\":true,\"originalBackup\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "checksPassed": 45,
+  "compilePassed": true,
+  "playStarted": false,
+  "published": false
+}

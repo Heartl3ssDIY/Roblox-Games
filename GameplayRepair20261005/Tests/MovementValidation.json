@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "scope": "Dodge, vault removal, movement request lifecycle, HUD animation permission repair",
+  "localChecks": {
+    "exactMergedBulldogDodgeMethods": 53,
+    "exactMergedTagDodgeMethods": 52,
+    "cameraRelativeTagDirectionAndServerInputValidation": 54,
+    "tagSprintPressReleaseFocusTouchAndTimeoutRecovery": 13,
+    "bulldogSprintPressReleaseFocusTouchAndTimeoutRecovery": 13
+  },
+  "nativeEditChecks": {
+    "r6R15DodgeAndBotWalkUnderExactApprovedAnimationCapabilities": 85,
+    "tagHudClonedGuiVisibilityAndDataBindings": 9
+  },
+  "compile": "All six movement and merged service candidates compiled successfully",
+  "preservation": "Existing bat and toy function source preserved byte-for-byte apart from newline normalization",
+  "cleanup": "Temporary native fixture removed; live sources not changed by this agent",
+  "limitations": "Physics displacement was integrated against actuator outputs in local behavior doubles. Native R6/R15 tests verify actual animation access and restoration in Edit. No Play session or live multiplayer latency test was run.",
+  "notes": [
+    "Tag left/right uses camera-relative horizontal world vectors, independent of avatar AutoRotate; rotated 90-degree avatar/camera cases verified.",
+    "Server rejects invalid directions, jumping, frozen/ragdolled state, insufficient clearance, and failed network ownership without consuming cooldown.",
+    "Dashes preserve vertical gravity and perpendicular momentum, clip against walls and bounds, reject initial overlap, and restore original automatic/player/server ownership.",
+    "Role changes, departure, death, round end and replacement cancel bursts.",
+    "Tag HUD contains no joint writes or camera ownership. Vault input and endpoint action removed. Existing Bulldog no-jump rule retained."
+  ]
+}

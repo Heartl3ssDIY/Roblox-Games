@@ -1,0 +1,20 @@
+PLAYGROUND CLASSICS - VIP DRAGON
+
+Originals/vip-dragon-clean.png: clean shape and material reference.
+Originals/vip-dragon-glow.png: UI appearance with red VIP aura.
+PNG-512, PNG-256 and PNG-128: transparent square UI exports.
+
+MATERIALS
+Gold: body, crown, ears/horns, wing ribs, feet, tail and dorsal ridges.
+Ruby red: crown gemstone and eye irises. Keep dark pupils and bright highlights.
+Crimson red: triangular membranes between golden wing ribs.
+Pale cream: belly and tiny fangs.
+Red aura: a separate visual effect, not solid model geometry.
+
+Use the clean image for the approved colours and main silhouette.
+Source/original-concept.png shows the supplied older concept and alternate views.
+Its original all-gold eyes, gemstone and wing membranes are superseded by the new red accents.
+The new artwork is a three-quarter visual reference, not an orthographic measurement drawing.
+
+UI: preserve image aspect ratio. Use Fit when placing inside a differently shaped UI slot.
+Artwork created with the built-in image generation tool. Exact prompts are in Source/Prompts.json.

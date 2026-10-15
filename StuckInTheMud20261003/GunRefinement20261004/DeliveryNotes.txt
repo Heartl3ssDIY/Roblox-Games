@@ -1,0 +1,18 @@
+Mud and Heat blasters, refinement 2 — 2026-10-04
+
+The open MudHeatGuns.blend is updated. MudHeatGuns_Refined.blend is a separate editable delivery copy. Both retain separate, named objects and editable bevels/materials. The original colors, mud tank and drips, heat coil, and dark cartoon edges are preserved.
+
+Changes: slimmer chamfered body, clipped badge panel with cleaner framing and three vents, hollow stepped muzzle with recessed chamber, shorter tank/coil and flatter cap button, mud level gauge, cap grip details, and rubber grip panels.
+
+MudGun.fbx / MudGun.glb and HeatGun.fbx / HeatGun.glb contain selected gun geometry only. Preview floor, cameras and lights are excluded. Geometry/material data is embedded; no external texture files are required.
+
+Coordinates: grip/root origin (0,0,0), Y up, muzzle forward -Z. Preserve imported transforms. The exported gun bounds are approximately width × height × length in studs:
+Mud: 1.649 × 3.549 × 3.632
+Heat: 1.597 × 3.540 × 3.586
+The existing Roblox MuzzleAttachment remains local (0,1,-2.65), pointing -Z.
+
+When importing into the existing Tools, keep Handle, Grip and MuzzleAttachment; replace Art only. Weld imported MeshParts to Handle, unanchored, massless, noncolliding, nontouching, nonquery. Roblox's current Tools have not been replaced with these Blender meshes in this refinement.
+
+The preview images show the revised Blender models. Inspection.json records export bounds, counts and embedded assets. Mud has 70 mesh objects / 19,952 triangles; Heat has 65 / 20,844. Largest individual meshes: 1,536 and 2,416 triangles. No Roblox Play session or gameplay test was run.
+
+Before contains the prior disk files plus MudHeatGuns_Before.blend captured from the live scene before editing. RefineGunModels.py applies the geometry pass once to asset version 1; SaveRefinedGuns.py saves/renders/exports version 2. Do not rerun the original CreateMudGunAssets.py over this scene.

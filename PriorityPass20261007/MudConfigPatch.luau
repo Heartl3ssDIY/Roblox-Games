@@ -1,0 +1,11 @@
+local arena = workspace:FindFirstChild("Stuck in the Mud")
+assert(arena and arena:FindFirstChild("Gameplay"), "Mud arena is missing")
+assert(arena:GetAttribute("MinimumPlayers") == 4 or arena:GetAttribute("MinimumPlayers") == 2, "Mud minimum changed since inspection")
+assert(arena:GetAttribute("TeamCount") == 2, "Mud team count changed since inspection")
+assert(arena:GetAttribute("MaxPlayers") == nil or arena:GetAttribute("MaxPlayers") == 4, "Mud maximum changed since inspection")
+assert(arena:GetAttribute("MaxTeamSize") == nil or arena:GetAttribute("MaxTeamSize") == 2, "Mud team size changed since inspection")
+arena:SetAttribute("MinimumPlayers", 2)
+arena:SetAttribute("TeamCount", 2)
+arena:SetAttribute("MaxPlayers", nil)
+arena:SetAttribute("MaxTeamSize", nil)
+return { MinimumPlayers = 2, TeamCount = 2, MaxPlayersRemoved = true, MaxTeamSizeRemoved = true }

@@ -1,0 +1,131 @@
+{
+  "placeId": 95034648955135,
+  "workspace": [
+    {
+      "name": "British Bulldog game",
+      "class": "Folder"
+    },
+    {
+      "name": "Tag You're It",
+      "class": "Folder"
+    },
+    {
+      "name": "Playground Lobby",
+      "class": "Folder"
+    },
+    {
+      "name": "Stuck in the Mud",
+      "class": "Folder"
+    },
+    {
+      "name": "MudRoundEffects",
+      "class": "Folder"
+    },
+    {
+      "name": "MudRoundEffects",
+      "class": "Folder"
+    },
+    {
+      "name": "Terrain",
+      "class": "Terrain"
+    },
+    {
+      "name": "SpawnLocation",
+      "class": "SpawnLocation"
+    },
+    {
+      "name": "Part",
+      "class": "Part"
+    },
+    {
+      "name": "Baseplate",
+      "class": "Part"
+    },
+    {
+      "name": "Camera",
+      "class": "Camera"
+    }
+  ],
+  "scripts": [
+    {
+      "bytes": 869,
+      "path": "ServerScriptService.BritishBulldogRules",
+      "name": "BritishBulldogRules",
+      "sandboxed": true,
+      "class": "ModuleScript",
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+    },
+    {
+      "bytes": 49461,
+      "path": "ServerScriptService.BritishBulldogService",
+      "name": "BritishBulldogService",
+      "sandboxed": true,
+      "class": "ModuleScript",
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    {
+      "bytes": 1167,
+      "path": "ServerScriptService.BritishBulldogBootstrap",
+      "name": "BritishBulldogBootstrap",
+      "sandboxed": true,
+      "class": "Script",
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    {
+      "bytes": 22694,
+      "path": "ServerScriptService.PlaygroundEconomyService",
+      "name": "PlaygroundEconomyService",
+      "sandboxed": true,
+      "class": "ModuleScript",
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    {
+      "bytes": 12594,
+      "path": "ServerScriptService.PlaygroundCoordinator",
+      "name": "PlaygroundCoordinator",
+      "sandboxed": true,
+      "class": "ModuleScript",
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    {
+      "bytes": 1405,
+      "path": "ServerScriptService.PlaygroundBootstrap",
+      "name": "PlaygroundBootstrap",
+      "sandboxed": true,
+      "class": "Script",
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    {
+      "bytes": 7385,
+      "path": "StarterGui.BritishBulldogHUD.Controller",
+      "name": "Controller",
+      "sandboxed": true,
+      "class": "LocalScript",
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+    },
+    {
+      "bytes": 12080,
+      "path": "StarterGui.BritishBulldogHUD.MovementController",
+      "name": "MovementController",
+      "sandboxed": true,
+      "class": "LocalScript",
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    {
+      "bytes": 2951,
+      "path": "StarterGui.BritishBulldogHUD.UserArtworkController",
+      "name": "UserArtworkController",
+      "sandboxed": true,
+      "class": "LocalScript",
+      "capabilities": "RunClientScript | AccessOutsideWrite | Basic | UI"
+    },
+    {
+      "bytes": 2102,
+      "path": "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "name": "BritishBulldogCamera",
+      "sandboxed": true,
+      "class": "LocalScript",
+      "capabilities": "RunClientScript | AccessOutsideWrite | Basic | Physics | Players | AvatarBehavior"
+    }
+  ]
+}

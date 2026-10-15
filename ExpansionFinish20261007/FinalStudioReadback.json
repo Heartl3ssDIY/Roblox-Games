@@ -1,0 +1,77 @@
+{
+  "fixtures": [],
+  "play": false,
+  "scripts": [
+    {
+      "bytes": 25813,
+      "path": "ReplicatedStorage.PlaygroundCatalog",
+      "matched": true
+    },
+    {
+      "bytes": 31182,
+      "path": "ServerScriptService.PlaygroundEquipmentService",
+      "matched": true
+    },
+    {
+      "bytes": 32494,
+      "path": "ServerScriptService.PlaygroundToyService",
+      "matched": true
+    },
+    {
+      "bytes": 13359,
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundPets",
+      "matched": true
+    },
+    {
+      "bytes": 36542,
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+      "matched": true
+    },
+    {
+      "bytes": 19766,
+      "path": "ServerScriptService.PlaygroundCoordinator",
+      "matched": true
+    },
+    {
+      "bytes": 17664,
+      "path": "StarterGui.PlaygroundSessionControls.Controller",
+      "matched": true
+    },
+    {
+      "bytes": 11745,
+      "path": "StarterGui.PlaygroundToyHotbar.Controller",
+      "matched": true
+    },
+    {
+      "bytes": 18065,
+      "path": "StarterGui.PlaygroundPodium.Controller",
+      "matched": true
+    },
+    {
+      "bytes": 6834,
+      "path": "StarterGui.TagHUD.Controller",
+      "matched": true
+    },
+    {
+      "bytes": 66326,
+      "path": "ServerScriptService.TagService",
+      "matched": true
+    },
+    {
+      "bytes": 25597,
+      "path": "StarterGui.PlaygroundShell.Controller",
+      "matched": true
+    },
+    {
+      "bytes": 11426,
+      "path": "StarterGui.PlaygroundShell.PlayerLevelController",
+      "matched": true
+    },
+    {
+      "bytes": 15235,
+      "path": "StarterGui.PlaygroundEmoteWheel.Controller",
+      "matched": true
+    }
+  ],
+  "note": "All 14 installed source files match compiled final files after newline normalization. Edit mode checks only; no live Play or device test."
+}

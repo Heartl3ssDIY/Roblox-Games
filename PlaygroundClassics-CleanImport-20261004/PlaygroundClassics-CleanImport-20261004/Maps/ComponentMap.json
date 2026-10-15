@@ -1,0 +1,522 @@
+[
+  {
+    "source": "Panels/PlaygroundShell/LevelPanel.svg",
+    "node": "StarterGui.PlaygroundShell.LevelPanel_Background-Glossy",
+    "asset": "01-Empty-Panels/level-panel.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/CompactLevelPanel.svg",
+    "node": "StarterGui.PlaygroundShell.CompactLevelPanel_Background-Glossy",
+    "asset": "01-Empty-Panels/level-panel-compact.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/Wallet.svg",
+    "node": "StarterGui.PlaygroundShell.Wallet_Background-Glossy",
+    "asset": "01-Empty-Panels/wallet-panel.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/ShopPanel.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel_Background-Glossy",
+    "asset": "01-Empty-Panels/shop-background.svg"
+  },
+  {
+    "source": "Templates/Shop_ItemCard.svg",
+    "node": "StarterGui.PlaygroundShell.Templates.ItemCard_Background-Glossy",
+    "asset": "02-Item-Frame-Parts/item-frame.svg"
+  },
+  {
+    "source": "Templates/Shop_ItemCard.svg",
+    "node": "StarterGui.PlaygroundShell.Templates.ItemCard.Preview_Background-Glossy",
+    "asset": "02-Item-Frame-Parts/item-preview-background.svg"
+  },
+  {
+    "source": "Templates/Shop_ItemCard.svg",
+    "node": "StarterGui.PlaygroundShell.Templates.ItemCard.Action_Background-Glossy",
+    "asset": "02-Item-Frame-Parts/item-action-button.svg"
+  },
+  {
+    "source": "Panels/BritishBulldogHUD/MovementControls.svg",
+    "node": "StarterGui.BritishBulldogHUD.MovementControls.Meter_Background-Glossy",
+    "asset": "01-Empty-Panels/runner-meter-background.svg"
+  },
+  {
+    "source": "Controls/BritishBulldogHUD/MovementControls_Sprint.svg",
+    "node": "StarterGui.BritishBulldogHUD.MovementControls.Sprint_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.svg"
+  },
+  {
+    "source": "Controls/BritishBulldogHUD/MovementControls_Dodge.svg",
+    "node": "StarterGui.BritishBulldogHUD.MovementControls.Dodge_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.svg"
+  },
+  {
+    "source": "Panels/TagHUD/Top.svg",
+    "node": "StarterGui.TagHUD.Top_Background-Glossy",
+    "asset": "01-Empty-Panels/TagHUD-Top.svg"
+  },
+  {
+    "source": "Panels/TagHUD/Role.svg",
+    "node": "StarterGui.TagHUD.Role_Background-Glossy",
+    "asset": "01-Empty-Panels/TagHUD-Role.svg"
+  },
+  {
+    "source": "Panels/TagHUD/Results.svg",
+    "node": "StarterGui.TagHUD.Results_Background-Glossy",
+    "asset": "01-Empty-Panels/TagHUD-Results.svg"
+  },
+  {
+    "source": "Controls/TagHUD/Controls_Vault.svg",
+    "node": "StarterGui.TagHUD.Controls.Vault_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/TagHUD-Controls_Vault.svg"
+  },
+  {
+    "source": "Controls/TagHUD/Controls_Dodge.svg",
+    "node": "StarterGui.TagHUD.Controls.Dodge_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/TagHUD-Controls_Dodge.svg"
+  },
+  {
+    "source": "Controls/TagHUD/SprintPanel_Sprint.svg",
+    "node": "StarterGui.TagHUD.SprintPanel.Sprint_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/Wallet.svg",
+    "node": "StarterGui.PlaygroundShell.Wallet_Background-Glossy",
+    "asset": "01-Empty-Panels/wallet-panel.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/RewardToast.svg",
+    "node": "StarterGui.PlaygroundShell.RewardToast_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundShell-RewardToast.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/Backdrop.svg",
+    "node": "StarterGui.PlaygroundShell.Backdrop_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundShell-Backdrop.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/ShopPanel.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel_Background-Glossy",
+    "asset": "01-Empty-Panels/shop-background.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/VotePanel.svg",
+    "node": "StarterGui.PlaygroundShell.VotePanel_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundShell-VotePanel.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/LevelPanel.svg",
+    "node": "StarterGui.PlaygroundShell.LevelPanel_Background-Glossy",
+    "asset": "01-Empty-Panels/level-panel.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/CompactLevelPanel.svg",
+    "node": "StarterGui.PlaygroundShell.CompactLevelPanel_Background-Glossy",
+    "asset": "01-Empty-Panels/level-panel-compact.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/CompactVotePanel.svg",
+    "node": "StarterGui.PlaygroundShell.CompactVotePanel_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundShell-CompactVotePanel.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/Dock_Shop.svg",
+    "node": "StarterGui.PlaygroundShell.Dock.Shop_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/Dock_Emote.svg",
+    "node": "StarterGui.PlaygroundShell.Dock.Emote_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/Dock_Emoji.svg",
+    "node": "StarterGui.PlaygroundShell.Dock.Emoji_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/Backdrop.svg",
+    "node": "StarterGui.PlaygroundShell.Backdrop_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-Backdrop.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/ShopPanel_Close.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel.Close_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/ShopPanel_Categories_All.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel.Categories.All_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/ShopPanel_Categories_Pets.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel.Categories.Pets_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/ShopPanel_Categories_Emotes.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel.Categories.Emotes_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/ShopPanel_Categories_Emojis.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel.Categories.Emojis_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/ShopPanel_Categories_Trails.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel.Categories.Trails_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/ShopPanel_Categories_Highlights.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel.Categories.Highlights_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/ShopPanel_Categories_Gear.svg",
+    "node": "StarterGui.PlaygroundShell.ShopPanel.Categories.Gear_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/Templates_ItemCard_Action.svg",
+    "node": "StarterGui.PlaygroundShell.Templates.ItemCard.Action_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/Templates_ItemCard_Try.svg",
+    "node": "StarterGui.PlaygroundShell.Templates.ItemCard.Try_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/VotePanel_BritishBulldog.svg",
+    "node": "StarterGui.PlaygroundShell.VotePanel.BritishBulldog_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/VotePanel_TagYoureIt.svg",
+    "node": "StarterGui.PlaygroundShell.VotePanel.TagYoureIt_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/VotePanel_StuckInTheMud.svg",
+    "node": "StarterGui.PlaygroundShell.VotePanel.StuckInTheMud_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/CompactVotePanel_BritishBulldog.svg",
+    "node": "StarterGui.PlaygroundShell.CompactVotePanel.BritishBulldog_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/CompactVotePanel_TagYoureIt.svg",
+    "node": "StarterGui.PlaygroundShell.CompactVotePanel.TagYoureIt_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.svg"
+  },
+  {
+    "source": "Controls/PlaygroundShell/CompactVotePanel_StuckInTheMud.svg",
+    "node": "StarterGui.PlaygroundShell.CompactVotePanel.StuckInTheMud_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/Toggle.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Toggle_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-Toggle.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/Panel.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-Panel.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/CompactPanel.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-Panel.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/CompactToggle.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactToggle_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-Toggle.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/Panel_BritishBulldog.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/Panel_TagYoureIt.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/Panel_StuckInTheMud.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/CompactPanel_BritishBulldog.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/CompactPanel_TagYoureIt.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.svg"
+  },
+  {
+    "source": "Panels/PlaygroundAdminPanel/CompactPanel_StuckInTheMud.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Toggle.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Toggle_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Close.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Close_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBStart.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBStart_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBRunner.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBRunner_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBBulldog.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBBulldog_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagStart.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagStart_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagRunner.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagRunner_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagTagger.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagTagger_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudStart.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudStart_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudShooter.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudShooter_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudMedic.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudMedic_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_StopRound.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.StopRound_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/Panel_ToggleAutomatic.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.Panel.ToggleAutomatic_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Close.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Close_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBStart.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBStart_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBRunner.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBRunner_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBBulldog_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagStart.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagStart_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagRunner.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagRunner_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagTagger.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagTagger_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudStart.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudStart_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudShooter.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudShooter_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudMedic.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudMedic_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StopRound.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StopRound_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_ToggleAutomatic.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.ToggleAutomatic_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.svg"
+  },
+  {
+    "source": "Controls/PlaygroundAdminPanel/CompactToggle.svg",
+    "node": "StarterGui.PlaygroundAdminPanel.CompactToggle_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.svg"
+  },
+  {
+    "source": "Panels/MudHUD/Top.svg",
+    "node": "StarterGui.MudHUD.Main.Top_Background-Glossy",
+    "asset": "01-Empty-Panels/MudHUD-Top.svg"
+  },
+  {
+    "source": "Panels/MudHUD/Frozen.svg",
+    "node": "StarterGui.MudHUD.Main.Frozen_Background-Glossy",
+    "asset": "01-Empty-Panels/MudHUD-Frozen.svg"
+  },
+  {
+    "source": "Panels/MudHUD/Results.svg",
+    "node": "StarterGui.MudHUD.Main.Results_Background-Glossy",
+    "asset": "01-Empty-Panels/MudHUD-Results.svg"
+  },
+  {
+    "source": "Panels/MudHUD/ColourToggle.svg",
+    "node": "StarterGui.MudHUD.ColourToggle_Background-Glossy",
+    "asset": "01-Empty-Panels/MudHUD-ColourToggle.svg"
+  },
+  {
+    "source": "Panels/MudHUD/ColourPicker.svg",
+    "node": "StarterGui.MudHUD.ColourPicker_Background-Glossy",
+    "asset": "01-Empty-Panels/MudHUD-ColourPicker.svg"
+  },
+  {
+    "source": "Controls/MudHUD/Main_Top_Team.svg",
+    "node": "StarterGui.MudHUD.Main.Top.Team_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-Main_Top_Team.svg"
+  },
+  {
+    "source": "Controls/MudHUD/Main_Controls_Mud.svg",
+    "node": "StarterGui.MudHUD.Main.Controls.Mud_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.svg"
+  },
+  {
+    "source": "Controls/MudHUD/Main_Controls_Heat.svg",
+    "node": "StarterGui.MudHUD.Main.Controls.Heat_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.svg"
+  },
+  {
+    "source": "Controls/MudHUD/Main_Controls_Fire.svg",
+    "node": "StarterGui.MudHUD.Main.Controls.Fire_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.svg"
+  },
+  {
+    "source": "Controls/MudHUD/Main_Controls_Sprint.svg",
+    "node": "StarterGui.MudHUD.Main.Controls.Sprint_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.svg"
+  },
+  {
+    "source": "Controls/MudHUD/ColourToggle.svg",
+    "node": "StarterGui.MudHUD.ColourToggle_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-ColourToggle.svg"
+  },
+  {
+    "source": "Controls/MudHUD/ColourPicker_Close.svg",
+    "node": "StarterGui.MudHUD.ColourPicker.Close_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.svg"
+  },
+  {
+    "source": "Controls/MudHUD/ColourPicker_Red.svg",
+    "node": "StarterGui.MudHUD.ColourPicker.Red_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.svg"
+  },
+  {
+    "source": "Controls/MudHUD/ColourPicker_Blue.svg",
+    "node": "StarterGui.MudHUD.ColourPicker.Blue_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.svg"
+  },
+  {
+    "source": "Controls/MudHUD/ColourPicker_Green.svg",
+    "node": "StarterGui.MudHUD.ColourPicker.Green_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.svg"
+  },
+  {
+    "source": "Controls/MudHUD/ColourPicker_Black.svg",
+    "node": "StarterGui.MudHUD.ColourPicker.Black_Background-Glossy",
+    "asset": "03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.svg"
+  },
+  {
+    "source": "Panels/States/Mud_Frozen_RescueProgress.svg",
+    "node": "StarterGui.MudHUD.Main.Frozen_Background-Glossy",
+    "asset": "01-Empty-Panels/MudHUD-Frozen.svg"
+  },
+  {
+    "source": "Panels/States/Mud_Frozen_TeamEliminated.svg",
+    "node": "StarterGui.MudHUD.Main.Frozen_Background-Glossy",
+    "asset": "01-Empty-Panels/MudHUD-Frozen.svg"
+  },
+  {
+    "source": "Panels/States/Level_Compact_Progress.svg",
+    "node": "StarterGui.PlaygroundShell.CompactLevelPanel_Background-Glossy",
+    "asset": "01-Empty-Panels/level-panel-compact.svg"
+  },
+  {
+    "source": "Panels/States/Voting_Compact_Selected.svg",
+    "node": "StarterGui.PlaygroundShell.CompactVotePanel_Background-Glossy",
+    "asset": "01-Empty-Panels/PlaygroundShell-CompactVotePanel.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/LevelPanel.svg",
+    "node": "StarterGui.PlaygroundShell.LevelPanel.XPTrack_Background",
+    "asset": "04-Meter-Parts/xp-track.svg"
+  },
+  {
+    "source": "Panels/PlaygroundShell/LevelPanel.svg",
+    "node": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill_Background",
+    "asset": "04-Meter-Parts/xp-fill.svg"
+  },
+  {
+    "source": "Panels/BritishBulldogHUD/MovementControls.svg",
+    "node": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track_Background",
+    "asset": "04-Meter-Parts/stamina-track.svg"
+  },
+  {
+    "source": "Panels/BritishBulldogHUD/MovementControls.svg",
+    "node": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track.Fill_Background",
+    "asset": "04-Meter-Parts/stamina-fill.svg"
+  }
+]

@@ -1,0 +1,5350 @@
+{
+  "records": [
+    {
+      "enabled": true,
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate",
+      "canvas": [
+        160,
+        54
+      ],
+      "class": "BillboardGui",
+      "billboardSize": [
+        0,
+        160,
+        0,
+        54
+      ],
+      "lightInfluence": 0,
+      "locator": "ReplicatedStorage[1]/BritishBulldogAssets[1]/TaggedTemplate[1]",
+      "name": "TaggedTemplate",
+      "children": [
+        {
+          "visible": true,
+          "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel",
+          "children": [
+            {
+              "locator": "ReplicatedStorage[1]/BritishBulldogAssets[1]/TaggedTemplate[1]/Panel[1]/Corner[1]",
+              "name": "Corner",
+              "radius": [
+                0,
+                13
+              ],
+              "class": "UICorner",
+              "children": [],
+              "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.Corner"
+            },
+            {
+              "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.Outline",
+              "color": [
+                24,
+                35,
+                62
+              ],
+              "class": "UIStroke",
+              "thickness": 3,
+              "locator": "ReplicatedStorage[1]/BritishBulldogAssets[1]/TaggedTemplate[1]/Panel[1]/Outline[1]",
+              "name": "Outline",
+              "join": "Round",
+              "mode": "Border",
+              "children": [],
+              "transparency": 0
+            },
+            {
+              "alignY": "Center",
+              "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.TaggedLabel",
+              "textTransparency": 0,
+              "class": "TextLabel",
+              "textStrokeTransparency": 1,
+              "alignX": "Center",
+              "locator": "ReplicatedStorage[1]/BritishBulldogAssets[1]/TaggedTemplate[1]/Panel[1]/TaggedLabel[1]",
+              "textSize": 8,
+              "borderColor": [
+                27,
+                42,
+                53
+              ],
+              "anchor": [
+                0,
+                0
+              ],
+              "zIndex": 4,
+              "backgroundColor": [
+                163,
+                162,
+                165
+              ],
+              "size": [
+                0.8799999952316284,
+                0,
+                0.8199999928474426,
+                0
+              ],
+              "clip": false,
+              "richText": false,
+              "children": [
+                {
+                  "locator": "ReplicatedStorage[1]/BritishBulldogAssets[1]/TaggedTemplate[1]/Panel[1]/TaggedLabel[1]/TextSizeLimit[1]",
+                  "name": "TextSizeLimit",
+                  "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.TaggedLabel.TextSizeLimit",
+                  "maxTextSize": 31,
+                  "class": "UITextSizeConstraint",
+                  "children": [],
+                  "minTextSize": 12
+                }
+              ],
+              "textStrokeColor": [
+                0,
+                0,
+                0
+              ],
+              "textWrapped": true,
+              "text": "TAGGED",
+              "backgroundTransparency": 1,
+              "measurements": [
+                [
+                  10,
+                  37,
+                  10
+                ],
+                [
+                  12,
+                  44,
+                  12
+                ],
+                [
+                  14,
+                  50,
+                  14
+                ],
+                [
+                  16,
+                  58,
+                  16
+                ],
+                [
+                  18,
+                  65,
+                  18
+                ],
+                [
+                  20,
+                  71,
+                  20
+                ],
+                [
+                  24,
+                  86,
+                  24
+                ],
+                [
+                  28,
+                  99,
+                  28
+                ],
+                [
+                  32,
+                  113,
+                  32
+                ],
+                [
+                  40,
+                  141,
+                  40
+                ],
+                [
+                  48,
+                  167,
+                  48
+                ],
+                [
+                  64,
+                  222,
+                  64
+                ],
+                [
+                  80,
+                  277,
+                  80
+                ],
+                [
+                  100,
+                  343,
+                  100
+                ]
+              ],
+              "rotation": 0,
+              "font": {
+                "family": "rbxasset://fonts/families/LuckiestGuy.json",
+                "enum": "LuckiestGuy",
+                "style": "Normal",
+                "weight": "Regular"
+              },
+              "name": "TaggedLabel",
+              "position": [
+                0.05999999865889549,
+                0,
+                0.10000000149011612,
+                0
+              ],
+              "borderSize": 0,
+              "visible": true,
+              "textScaled": true,
+              "textColor": [
+                24,
+                35,
+                62
+              ]
+            }
+          ],
+          "clip": false,
+          "borderSize": 0,
+          "class": "Frame",
+          "backgroundTransparency": 0,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "rotation": 0,
+          "locator": "ReplicatedStorage[1]/BritishBulldogAssets[1]/TaggedTemplate[1]/Panel[1]",
+          "name": "Panel",
+          "position": [
+            0.02500000037252903,
+            0,
+            0.05999999865889549,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            255,
+            204,
+            54
+          ],
+          "size": [
+            0.949999988079071,
+            0,
+            0.8399999737739563,
+            0
+          ]
+        }
+      ],
+      "alwaysOnTop": false
+    },
+    {
+      "enabled": true,
+      "path": "ReplicatedStorage.TagAssets.TaggerTemplate",
+      "canvas": [
+        120,
+        48
+      ],
+      "class": "BillboardGui",
+      "billboardSize": [
+        0,
+        120,
+        0,
+        48
+      ],
+      "lightInfluence": 0,
+      "locator": "ReplicatedStorage[1]/TagAssets[1]/TaggerTemplate[1]",
+      "name": "TaggerTemplate",
+      "children": [
+        {
+          "visible": true,
+          "path": "ReplicatedStorage.TagAssets.TaggerTemplate.Panel",
+          "children": [
+            {
+              "locator": "ReplicatedStorage[1]/TagAssets[1]/TaggerTemplate[1]/Panel[1]/Corner[1]",
+              "name": "Corner",
+              "radius": [
+                0,
+                12
+              ],
+              "class": "UICorner",
+              "children": [],
+              "path": "ReplicatedStorage.TagAssets.TaggerTemplate.Panel.Corner"
+            },
+            {
+              "path": "ReplicatedStorage.TagAssets.TaggerTemplate.Panel.Outline",
+              "color": [
+                24,
+                35,
+                62
+              ],
+              "class": "UIStroke",
+              "thickness": 3,
+              "locator": "ReplicatedStorage[1]/TagAssets[1]/TaggerTemplate[1]/Panel[1]/Outline[1]",
+              "name": "Outline",
+              "join": "Round",
+              "mode": "Border",
+              "children": [],
+              "transparency": 0
+            },
+            {
+              "alignY": "Center",
+              "path": "ReplicatedStorage.TagAssets.TaggerTemplate.Panel.Title",
+              "textTransparency": 0,
+              "class": "TextLabel",
+              "textStrokeTransparency": 1,
+              "alignX": "Center",
+              "locator": "ReplicatedStorage[1]/TagAssets[1]/TaggerTemplate[1]/Panel[1]/Title[1]",
+              "textSize": 8,
+              "borderColor": [
+                27,
+                42,
+                53
+              ],
+              "anchor": [
+                0,
+                0
+              ],
+              "zIndex": 4,
+              "backgroundColor": [
+                163,
+                162,
+                165
+              ],
+              "size": [
+                0.9200000166893005,
+                0,
+                0.8299999833106995,
+                0
+              ],
+              "clip": false,
+              "richText": false,
+              "children": [
+                {
+                  "locator": "ReplicatedStorage[1]/TagAssets[1]/TaggerTemplate[1]/Panel[1]/Title[1]/TextLimit[1]",
+                  "name": "TextLimit",
+                  "path": "ReplicatedStorage.TagAssets.TaggerTemplate.Panel.Title.TextLimit",
+                  "maxTextSize": 28,
+                  "class": "UITextSizeConstraint",
+                  "children": [],
+                  "minTextSize": 10
+                }
+              ],
+              "textStrokeColor": [
+                0,
+                0,
+                0
+              ],
+              "textWrapped": true,
+              "text": "YOU'RE IT!",
+              "backgroundTransparency": 1,
+              "measurements": [
+                [
+                  10,
+                  49,
+                  10
+                ],
+                [
+                  12,
+                  58,
+                  12
+                ],
+                [
+                  14,
+                  65,
+                  14
+                ],
+                [
+                  16,
+                  75,
+                  16
+                ],
+                [
+                  18,
+                  84,
+                  18
+                ],
+                [
+                  20,
+                  92,
+                  20
+                ],
+                [
+                  24,
+                  112,
+                  24
+                ],
+                [
+                  28,
+                  131,
+                  28
+                ],
+                [
+                  32,
+                  147,
+                  32
+                ],
+                [
+                  40,
+                  182,
+                  40
+                ],
+                [
+                  48,
+                  219,
+                  48
+                ],
+                [
+                  64,
+                  287,
+                  64
+                ],
+                [
+                  80,
+                  360,
+                  80
+                ],
+                [
+                  100,
+                  447,
+                  100
+                ]
+              ],
+              "rotation": 0,
+              "font": {
+                "family": "rbxasset://fonts/families/LuckiestGuy.json",
+                "enum": "LuckiestGuy",
+                "style": "Normal",
+                "weight": "Regular"
+              },
+              "name": "Title",
+              "position": [
+                0.03999999910593033,
+                0,
+                0.07999999821186066,
+                0
+              ],
+              "borderSize": 0,
+              "visible": true,
+              "textScaled": true,
+              "textColor": [
+                255,
+                255,
+                255
+              ]
+            }
+          ],
+          "clip": false,
+          "borderSize": 0,
+          "class": "Frame",
+          "backgroundTransparency": 0,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "rotation": 0,
+          "locator": "ReplicatedStorage[1]/TagAssets[1]/TaggerTemplate[1]/Panel[1]",
+          "name": "Panel",
+          "position": [
+            0.03999999910593033,
+            0,
+            0.05999999865889549,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            255,
+            83,
+            100
+          ],
+          "size": [
+            0.9200000166893005,
+            0,
+            0.8500000238418579,
+            0
+          ]
+        }
+      ],
+      "alwaysOnTop": false
+    },
+    {
+      "enabled": false,
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate",
+      "canvas": [
+        170,
+        42
+      ],
+      "class": "BillboardGui",
+      "billboardSize": [
+        0,
+        170,
+        0,
+        42
+      ],
+      "lightInfluence": 0,
+      "locator": "ReplicatedStorage[1]/MudAssets[1]/MuddyTemplate[1]",
+      "name": "MuddyTemplate",
+      "children": [
+        {
+          "visible": true,
+          "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card",
+          "children": [
+            {
+              "locator": "ReplicatedStorage[1]/MudAssets[1]/MuddyTemplate[1]/Card[1]/Corner[1]",
+              "name": "Corner",
+              "radius": [
+                0,
+                12
+              ],
+              "class": "UICorner",
+              "children": [],
+              "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.Corner"
+            },
+            {
+              "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.Outline",
+              "color": [
+                24,
+                35,
+                62
+              ],
+              "class": "UIStroke",
+              "thickness": 3,
+              "locator": "ReplicatedStorage[1]/MudAssets[1]/MuddyTemplate[1]/Card[1]/Outline[1]",
+              "name": "Outline",
+              "join": "Round",
+              "mode": "Border",
+              "children": [],
+              "transparency": 0
+            },
+            {
+              "alignY": "Center",
+              "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.Title",
+              "textTransparency": 0,
+              "class": "TextLabel",
+              "textStrokeTransparency": 1,
+              "alignX": "Center",
+              "locator": "ReplicatedStorage[1]/MudAssets[1]/MuddyTemplate[1]/Card[1]/Title[1]",
+              "textSize": 8,
+              "borderColor": [
+                27,
+                42,
+                53
+              ],
+              "anchor": [
+                0,
+                0
+              ],
+              "zIndex": 5,
+              "backgroundColor": [
+                163,
+                162,
+                165
+              ],
+              "size": [
+                1,
+                -14,
+                1,
+                -8
+              ],
+              "clip": false,
+              "richText": false,
+              "children": [
+                {
+                  "locator": "ReplicatedStorage[1]/MudAssets[1]/MuddyTemplate[1]/Card[1]/Title[1]/TextLimit[1]",
+                  "name": "TextLimit",
+                  "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.Title.TextLimit",
+                  "maxTextSize": 30,
+                  "class": "UITextSizeConstraint",
+                  "children": [],
+                  "minTextSize": 9
+                }
+              ],
+              "textStrokeColor": [
+                0,
+                0,
+                0
+              ],
+              "textWrapped": true,
+              "text": "STUCK!",
+              "backgroundTransparency": 1,
+              "measurements": [
+                [
+                  10,
+                  35,
+                  10
+                ],
+                [
+                  12,
+                  41,
+                  12
+                ],
+                [
+                  14,
+                  47,
+                  14
+                ],
+                [
+                  16,
+                  54,
+                  16
+                ],
+                [
+                  18,
+                  59,
+                  18
+                ],
+                [
+                  20,
+                  65,
+                  20
+                ],
+                [
+                  24,
+                  78,
+                  24
+                ],
+                [
+                  28,
+                  91,
+                  28
+                ],
+                [
+                  32,
+                  102,
+                  32
+                ],
+                [
+                  40,
+                  126,
+                  40
+                ],
+                [
+                  48,
+                  152,
+                  48
+                ],
+                [
+                  64,
+                  202,
+                  64
+                ],
+                [
+                  80,
+                  253,
+                  80
+                ],
+                [
+                  100,
+                  314,
+                  100
+                ]
+              ],
+              "rotation": 0,
+              "font": {
+                "family": "rbxasset://fonts/families/LuckiestGuy.json",
+                "enum": "LuckiestGuy",
+                "style": "Normal",
+                "weight": "Regular"
+              },
+              "name": "Title",
+              "position": [
+                0,
+                7,
+                0,
+                4
+              ],
+              "borderSize": 1,
+              "visible": true,
+              "textScaled": true,
+              "textColor": [
+                161,
+                108,
+                62
+              ]
+            }
+          ],
+          "clip": false,
+          "borderSize": 0,
+          "class": "Frame",
+          "backgroundTransparency": 0,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "rotation": 0,
+          "locator": "ReplicatedStorage[1]/MudAssets[1]/MuddyTemplate[1]/Card[1]",
+          "name": "Card",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            255,
+            250,
+            226
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "alwaysOnTop": false
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork",
+      "canvas": [
+        1736,
+        204.40000534057617
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[1]",
+        "color": [
+          255,
+          224,
+          136
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel",
+        "size": [
+          124,
+          14.600000381469727,
+          0.20000000298023224
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[1]/TitleArtwork[1]",
+      "name": "TitleArtwork",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork.Title",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[1]/TitleArtwork[1]/Title[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            0.9599999785423279,
+            0,
+            0.9399999976158142,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "BRITISH BULLDOG",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              85,
+              10
+            ],
+            [
+              12,
+              101,
+              12
+            ],
+            [
+              14,
+              114,
+              14
+            ],
+            [
+              16,
+              131,
+              16
+            ],
+            [
+              18,
+              147,
+              18
+            ],
+            [
+              20,
+              159,
+              20
+            ],
+            [
+              24,
+              192,
+              24
+            ],
+            [
+              28,
+              223,
+              28
+            ],
+            [
+              32,
+              255,
+              32
+            ],
+            [
+              40,
+              315,
+              40
+            ],
+            [
+              48,
+              378,
+              48
+            ],
+            [
+              64,
+              498,
+              64
+            ],
+            [
+              80,
+              621,
+              80
+            ],
+            [
+              100,
+              774,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/LuckiestGuy.json",
+            "enum": "LuckiestGuy",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Title",
+          "position": [
+            0.019999999552965164,
+            0,
+            0.029999999329447746,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 14
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork",
+      "canvas": [
+        1736,
+        204.40000534057617
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[2]",
+        "color": [
+          255,
+          224,
+          136
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel",
+        "size": [
+          124,
+          14.600000381469727,
+          0.20000000298023224
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[2]/TitleArtwork[1]",
+      "name": "TitleArtwork",
+      "alwaysOnTop": false,
+      "face": "Front",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork.Title",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[2]/TitleArtwork[1]/Title[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            0.9599999785423279,
+            0,
+            0.9399999976158142,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "BRITISH BULLDOG",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              85,
+              10
+            ],
+            [
+              12,
+              101,
+              12
+            ],
+            [
+              14,
+              114,
+              14
+            ],
+            [
+              16,
+              131,
+              16
+            ],
+            [
+              18,
+              147,
+              18
+            ],
+            [
+              20,
+              159,
+              20
+            ],
+            [
+              24,
+              192,
+              24
+            ],
+            [
+              28,
+              223,
+              28
+            ],
+            [
+              32,
+              255,
+              32
+            ],
+            [
+              40,
+              315,
+              40
+            ],
+            [
+              48,
+              378,
+              48
+            ],
+            [
+              64,
+              498,
+              64
+            ],
+            [
+              80,
+              621,
+              80
+            ],
+            [
+              100,
+              774,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/LuckiestGuy.json",
+            "enum": "LuckiestGuy",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Title",
+          "position": [
+            0.019999999552965164,
+            0,
+            0.029999999329447746,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 14
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail",
+      "canvas": [
+        352,
+        83.19999694824219
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.ClassroomFacade.RoomPlaque",
+        "size": [
+          11,
+          2.5999999046325684,
+          0.5
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "ROOM 4",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              35,
+              10
+            ],
+            [
+              12,
+              41,
+              12
+            ],
+            [
+              14,
+              49,
+              14
+            ],
+            [
+              16,
+              55,
+              16
+            ],
+            [
+              18,
+              61,
+              18
+            ],
+            [
+              20,
+              66,
+              20
+            ],
+            [
+              24,
+              80,
+              24
+            ],
+            [
+              28,
+              94,
+              28
+            ],
+            [
+              32,
+              106,
+              32
+            ],
+            [
+              40,
+              131,
+              40
+            ],
+            [
+              48,
+              156,
+              48
+            ],
+            [
+              64,
+              210,
+              64
+            ],
+            [
+              80,
+              261,
+              80
+            ],
+            [
+              100,
+              325,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "1",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              4,
+              10
+            ],
+            [
+              12,
+              4,
+              12
+            ],
+            [
+              14,
+              5,
+              14
+            ],
+            [
+              16,
+              6,
+              16
+            ],
+            [
+              18,
+              6,
+              18
+            ],
+            [
+              20,
+              7,
+              20
+            ],
+            [
+              24,
+              8,
+              24
+            ],
+            [
+              28,
+              10,
+              28
+            ],
+            [
+              32,
+              11,
+              32
+            ],
+            [
+              40,
+              14,
+              40
+            ],
+            [
+              48,
+              16,
+              48
+            ],
+            [
+              64,
+              22,
+              64
+            ],
+            [
+              80,
+              27,
+              80
+            ],
+            [
+              100,
+              34,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "2",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              6,
+              10
+            ],
+            [
+              12,
+              7,
+              12
+            ],
+            [
+              14,
+              8,
+              14
+            ],
+            [
+              16,
+              9,
+              16
+            ],
+            [
+              18,
+              10,
+              18
+            ],
+            [
+              20,
+              11,
+              20
+            ],
+            [
+              24,
+              13,
+              24
+            ],
+            [
+              28,
+              15,
+              28
+            ],
+            [
+              32,
+              17,
+              32
+            ],
+            [
+              40,
+              21,
+              40
+            ],
+            [
+              48,
+              25,
+              48
+            ],
+            [
+              64,
+              33,
+              64
+            ],
+            [
+              80,
+              41,
+              80
+            ],
+            [
+              100,
+              51,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]",
+        "color": [
+          92,
+          209,
+          166
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "3",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              6,
+              10
+            ],
+            [
+              12,
+              7,
+              12
+            ],
+            [
+              14,
+              8,
+              14
+            ],
+            [
+              16,
+              9,
+              16
+            ],
+            [
+              18,
+              10,
+              18
+            ],
+            [
+              20,
+              11,
+              20
+            ],
+            [
+              24,
+              13,
+              24
+            ],
+            [
+              28,
+              15,
+              28
+            ],
+            [
+              32,
+              17,
+              32
+            ],
+            [
+              40,
+              21,
+              40
+            ],
+            [
+              48,
+              25,
+              48
+            ],
+            [
+              64,
+              33,
+              64
+            ],
+            [
+              80,
+              41,
+              80
+            ],
+            [
+              100,
+              51,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "4",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              8,
+              16
+            ],
+            [
+              18,
+              9,
+              18
+            ],
+            [
+              20,
+              10,
+              20
+            ],
+            [
+              24,
+              12,
+              24
+            ],
+            [
+              28,
+              14,
+              28
+            ],
+            [
+              32,
+              16,
+              32
+            ],
+            [
+              40,
+              20,
+              40
+            ],
+            [
+              48,
+              24,
+              48
+            ],
+            [
+              64,
+              32,
+              64
+            ],
+            [
+              80,
+              40,
+              80
+            ],
+            [
+              100,
+              49,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "5",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              7,
+              16
+            ],
+            [
+              18,
+              8,
+              18
+            ],
+            [
+              20,
+              9,
+              20
+            ],
+            [
+              24,
+              11,
+              24
+            ],
+            [
+              28,
+              13,
+              28
+            ],
+            [
+              32,
+              14,
+              32
+            ],
+            [
+              40,
+              18,
+              40
+            ],
+            [
+              48,
+              21,
+              48
+            ],
+            [
+              64,
+              28,
+              64
+            ],
+            [
+              80,
+              35,
+              80
+            ],
+            [
+              100,
+              44,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]",
+        "color": [
+          92,
+          209,
+          166
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "6",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              8,
+              16
+            ],
+            [
+              18,
+              9,
+              18
+            ],
+            [
+              20,
+              10,
+              20
+            ],
+            [
+              24,
+              12,
+              24
+            ],
+            [
+              28,
+              13,
+              28
+            ],
+            [
+              32,
+              15,
+              32
+            ],
+            [
+              40,
+              19,
+              40
+            ],
+            [
+              48,
+              23,
+              48
+            ],
+            [
+              64,
+              30,
+              64
+            ],
+            [
+              80,
+              37,
+              80
+            ],
+            [
+              100,
+              47,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "7",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              8,
+              16
+            ],
+            [
+              18,
+              9,
+              18
+            ],
+            [
+              20,
+              10,
+              20
+            ],
+            [
+              24,
+              12,
+              24
+            ],
+            [
+              28,
+              13,
+              28
+            ],
+            [
+              32,
+              15,
+              32
+            ],
+            [
+              40,
+              19,
+              40
+            ],
+            [
+              48,
+              23,
+              48
+            ],
+            [
+              64,
+              30,
+              64
+            ],
+            [
+              80,
+              38,
+              80
+            ],
+            [
+              100,
+              47,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "8",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              8,
+              16
+            ],
+            [
+              18,
+              9,
+              18
+            ],
+            [
+              20,
+              10,
+              20
+            ],
+            [
+              24,
+              12,
+              24
+            ],
+            [
+              28,
+              14,
+              28
+            ],
+            [
+              32,
+              16,
+              32
+            ],
+            [
+              40,
+              20,
+              40
+            ],
+            [
+              48,
+              24,
+              48
+            ],
+            [
+              64,
+              31,
+              64
+            ],
+            [
+              80,
+              39,
+              80
+            ],
+            [
+              100,
+              49,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "canvas": [
+        166.39999389648438,
+        192
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper",
+        "size": [
+          5.199999809265137,
+          6,
+          0.20000000298023224
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "CLASS\n4B",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              28,
+              20
+            ],
+            [
+              12,
+              33,
+              24
+            ],
+            [
+              14,
+              38,
+              28
+            ],
+            [
+              16,
+              44,
+              32
+            ],
+            [
+              18,
+              50,
+              36
+            ],
+            [
+              20,
+              55,
+              40
+            ],
+            [
+              24,
+              65,
+              48
+            ],
+            [
+              28,
+              76,
+              56
+            ],
+            [
+              32,
+              87,
+              64
+            ],
+            [
+              40,
+              108,
+              80
+            ],
+            [
+              48,
+              130,
+              96
+            ],
+            [
+              64,
+              169,
+              128
+            ],
+            [
+              80,
+              211,
+              160
+            ],
+            [
+              100,
+              265,
+              200
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "canvas": [
+        166.39999389648438,
+        192
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper",
+        "size": [
+          5.199999809265137,
+          6,
+          0.20000000298023224
+        ]
+      },
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "SPORTS\nDAY",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              34,
+              20
+            ],
+            [
+              12,
+              41,
+              24
+            ],
+            [
+              14,
+              48,
+              28
+            ],
+            [
+              16,
+              54,
+              32
+            ],
+            [
+              18,
+              60,
+              36
+            ],
+            [
+              20,
+              66,
+              40
+            ],
+            [
+              24,
+              80,
+              48
+            ],
+            [
+              28,
+              93,
+              56
+            ],
+            [
+              32,
+              105,
+              64
+            ],
+            [
+              40,
+              131,
+              80
+            ],
+            [
+              48,
+              158,
+              96
+            ],
+            [
+              64,
+              208,
+              128
+            ],
+            [
+              80,
+              260,
+              160
+            ],
+            [
+              100,
+              324,
+              200
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail",
+      "canvas": [
+        352,
+        83.19999694824219
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.ClassroomFacade.RoomPlaque",
+        "size": [
+          11,
+          2.5999999046325684,
+          0.5
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "ROOM 4",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              35,
+              10
+            ],
+            [
+              12,
+              41,
+              12
+            ],
+            [
+              14,
+              49,
+              14
+            ],
+            [
+              16,
+              55,
+              16
+            ],
+            [
+              18,
+              61,
+              18
+            ],
+            [
+              20,
+              66,
+              20
+            ],
+            [
+              24,
+              80,
+              24
+            ],
+            [
+              28,
+              94,
+              28
+            ],
+            [
+              32,
+              106,
+              32
+            ],
+            [
+              40,
+              131,
+              40
+            ],
+            [
+              48,
+              156,
+              48
+            ],
+            [
+              64,
+              210,
+              64
+            ],
+            [
+              80,
+              261,
+              80
+            ],
+            [
+              100,
+              325,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "1",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              4,
+              10
+            ],
+            [
+              12,
+              4,
+              12
+            ],
+            [
+              14,
+              5,
+              14
+            ],
+            [
+              16,
+              6,
+              16
+            ],
+            [
+              18,
+              6,
+              18
+            ],
+            [
+              20,
+              7,
+              20
+            ],
+            [
+              24,
+              8,
+              24
+            ],
+            [
+              28,
+              10,
+              28
+            ],
+            [
+              32,
+              11,
+              32
+            ],
+            [
+              40,
+              14,
+              40
+            ],
+            [
+              48,
+              16,
+              48
+            ],
+            [
+              64,
+              22,
+              64
+            ],
+            [
+              80,
+              27,
+              80
+            ],
+            [
+              100,
+              34,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "2",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              6,
+              10
+            ],
+            [
+              12,
+              7,
+              12
+            ],
+            [
+              14,
+              8,
+              14
+            ],
+            [
+              16,
+              9,
+              16
+            ],
+            [
+              18,
+              10,
+              18
+            ],
+            [
+              20,
+              11,
+              20
+            ],
+            [
+              24,
+              13,
+              24
+            ],
+            [
+              28,
+              15,
+              28
+            ],
+            [
+              32,
+              17,
+              32
+            ],
+            [
+              40,
+              21,
+              40
+            ],
+            [
+              48,
+              25,
+              48
+            ],
+            [
+              64,
+              33,
+              64
+            ],
+            [
+              80,
+              41,
+              80
+            ],
+            [
+              100,
+              51,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]",
+        "color": [
+          92,
+          209,
+          166
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "3",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              6,
+              10
+            ],
+            [
+              12,
+              7,
+              12
+            ],
+            [
+              14,
+              8,
+              14
+            ],
+            [
+              16,
+              9,
+              16
+            ],
+            [
+              18,
+              10,
+              18
+            ],
+            [
+              20,
+              11,
+              20
+            ],
+            [
+              24,
+              13,
+              24
+            ],
+            [
+              28,
+              15,
+              28
+            ],
+            [
+              32,
+              17,
+              32
+            ],
+            [
+              40,
+              21,
+              40
+            ],
+            [
+              48,
+              25,
+              48
+            ],
+            [
+              64,
+              33,
+              64
+            ],
+            [
+              80,
+              41,
+              80
+            ],
+            [
+              100,
+              51,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "4",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              8,
+              16
+            ],
+            [
+              18,
+              9,
+              18
+            ],
+            [
+              20,
+              10,
+              20
+            ],
+            [
+              24,
+              12,
+              24
+            ],
+            [
+              28,
+              14,
+              28
+            ],
+            [
+              32,
+              16,
+              32
+            ],
+            [
+              40,
+              20,
+              40
+            ],
+            [
+              48,
+              24,
+              48
+            ],
+            [
+              64,
+              32,
+              64
+            ],
+            [
+              80,
+              40,
+              80
+            ],
+            [
+              100,
+              49,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "5",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              7,
+              16
+            ],
+            [
+              18,
+              8,
+              18
+            ],
+            [
+              20,
+              9,
+              20
+            ],
+            [
+              24,
+              11,
+              24
+            ],
+            [
+              28,
+              13,
+              28
+            ],
+            [
+              32,
+              14,
+              32
+            ],
+            [
+              40,
+              18,
+              40
+            ],
+            [
+              48,
+              21,
+              48
+            ],
+            [
+              64,
+              28,
+              64
+            ],
+            [
+              80,
+              35,
+              80
+            ],
+            [
+              100,
+              44,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]",
+        "color": [
+          92,
+          209,
+          166
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "6",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              8,
+              16
+            ],
+            [
+              18,
+              9,
+              18
+            ],
+            [
+              20,
+              10,
+              20
+            ],
+            [
+              24,
+              12,
+              24
+            ],
+            [
+              28,
+              13,
+              28
+            ],
+            [
+              32,
+              15,
+              32
+            ],
+            [
+              40,
+              19,
+              40
+            ],
+            [
+              48,
+              23,
+              48
+            ],
+            [
+              64,
+              30,
+              64
+            ],
+            [
+              80,
+              37,
+              80
+            ],
+            [
+              100,
+              47,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "7",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              8,
+              16
+            ],
+            [
+              18,
+              9,
+              18
+            ],
+            [
+              20,
+              10,
+              20
+            ],
+            [
+              24,
+              12,
+              24
+            ],
+            [
+              28,
+              13,
+              28
+            ],
+            [
+              32,
+              15,
+              32
+            ],
+            [
+              40,
+              19,
+              40
+            ],
+            [
+              48,
+              23,
+              48
+            ],
+            [
+              64,
+              30,
+              64
+            ],
+            [
+              80,
+              38,
+              80
+            ],
+            [
+              100,
+              47,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Top",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "8",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              5,
+              10
+            ],
+            [
+              12,
+              6,
+              12
+            ],
+            [
+              14,
+              7,
+              14
+            ],
+            [
+              16,
+              8,
+              16
+            ],
+            [
+              18,
+              9,
+              18
+            ],
+            [
+              20,
+              10,
+              20
+            ],
+            [
+              24,
+              12,
+              24
+            ],
+            [
+              28,
+              14,
+              28
+            ],
+            [
+              32,
+              16,
+              32
+            ],
+            [
+              40,
+              20,
+              40
+            ],
+            [
+              48,
+              24,
+              48
+            ],
+            [
+              64,
+              31,
+              64
+            ],
+            [
+              80,
+              39,
+              80
+            ],
+            [
+              100,
+              49,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "canvas": [
+        166.39999389648438,
+        192
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper",
+        "size": [
+          5.199999809265137,
+          6,
+          0.20000000298023224
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "CLASS\n4B",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              28,
+              20
+            ],
+            [
+              12,
+              33,
+              24
+            ],
+            [
+              14,
+              38,
+              28
+            ],
+            [
+              16,
+              44,
+              32
+            ],
+            [
+              18,
+              50,
+              36
+            ],
+            [
+              20,
+              55,
+              40
+            ],
+            [
+              24,
+              65,
+              48
+            ],
+            [
+              28,
+              76,
+              56
+            ],
+            [
+              32,
+              87,
+              64
+            ],
+            [
+              40,
+              108,
+              80
+            ],
+            [
+              48,
+              130,
+              96
+            ],
+            [
+              64,
+              169,
+              128
+            ],
+            [
+              80,
+              211,
+              160
+            ],
+            [
+              100,
+              265,
+              200
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "canvas": [
+        166.39999389648438,
+        192
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0.30000001192092896,
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper",
+        "size": [
+          5.199999809265137,
+          6,
+          0.20000000298023224
+        ]
+      },
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]/ClassDetail[1]",
+      "name": "ClassDetail",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 1,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]/ClassDetail[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [],
+          "textStrokeColor": [
+            0,
+            0,
+            0
+          ],
+          "textWrapped": true,
+          "text": "SPORTS\nDAY",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              34,
+              20
+            ],
+            [
+              12,
+              41,
+              24
+            ],
+            [
+              14,
+              48,
+              28
+            ],
+            [
+              16,
+              54,
+              32
+            ],
+            [
+              18,
+              60,
+              36
+            ],
+            [
+              20,
+              66,
+              40
+            ],
+            [
+              24,
+              80,
+              48
+            ],
+            [
+              28,
+              93,
+              56
+            ],
+            [
+              32,
+              105,
+              64
+            ],
+            [
+              40,
+              131,
+              80
+            ],
+            [
+              48,
+              158,
+              96
+            ],
+            [
+              64,
+              208,
+              128
+            ],
+            [
+              80,
+              260,
+              160
+            ],
+            [
+              100,
+              324,
+              200
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            27,
+            45,
+            61
+          ]
+        }
+      ],
+      "pixelsPerStud": 32
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Playground Lobby.VotingAlcove.BritishBulldogStand.ChoiceCardFace.GameName",
+      "canvas": [
+        695.3999519348145,
+        165.2999997138977
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0,
+      "host": {
+        "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/BritishBulldogStand[1]/ChoiceCardFace[1]",
+        "color": [
+          94,
+          179,
+          232
+        ],
+        "transparency": 0,
+        "path": "Workspace.Playground Lobby.VotingAlcove.BritishBulldogStand.ChoiceCardFace",
+        "size": [
+          13.907999038696289,
+          3.305999994277954,
+          0.15199999511241913
+        ]
+      },
+      "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/BritishBulldogStand[1]/ChoiceCardFace[1]/GameName[1]",
+      "name": "GameName",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Playground Lobby.VotingAlcove.BritishBulldogStand.ChoiceCardFace.GameName.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 0,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/BritishBulldogStand[1]/ChoiceCardFace[1]/GameName[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [
+            {
+              "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/BritishBulldogStand[1]/ChoiceCardFace[1]/GameName[1]/Label[1]/UIPadding[1]",
+              "name": "UIPadding",
+              "class": "UIPadding",
+              "padding": {
+                "top": [
+                  0,
+                  8
+                ],
+                "right": [
+                  0,
+                  14
+                ],
+                "left": [
+                  0,
+                  14
+                ],
+                "bottom": [
+                  0,
+                  8
+                ]
+              },
+              "children": [],
+              "path": "Workspace.Playground Lobby.VotingAlcove.BritishBulldogStand.ChoiceCardFace.GameName.Label.UIPadding"
+            }
+          ],
+          "textStrokeColor": [
+            29,
+            46,
+            72
+          ],
+          "textWrapped": true,
+          "text": "British Bulldog",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              63,
+              10
+            ],
+            [
+              12,
+              77,
+              12
+            ],
+            [
+              14,
+              88,
+              14
+            ],
+            [
+              16,
+              100,
+              16
+            ],
+            [
+              18,
+              111,
+              18
+            ],
+            [
+              20,
+              121,
+              20
+            ],
+            [
+              24,
+              144,
+              24
+            ],
+            [
+              28,
+              169,
+              28
+            ],
+            [
+              32,
+              193,
+              32
+            ],
+            [
+              40,
+              241,
+              40
+            ],
+            [
+              48,
+              286,
+              48
+            ],
+            [
+              64,
+              382,
+              64
+            ],
+            [
+              80,
+              474,
+              80
+            ],
+            [
+              100,
+              590,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            255,
+            251,
+            232
+          ]
+        }
+      ],
+      "pixelsPerStud": 50
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Playground Lobby.VotingAlcove.TagYoureItStand.ChoiceCardFace.GameName",
+      "canvas": [
+        695.3999519348145,
+        165.2999997138977
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0,
+      "host": {
+        "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/TagYoureItStand[1]/ChoiceCardFace[1]",
+        "color": [
+          250,
+          154,
+          177
+        ],
+        "transparency": 0,
+        "path": "Workspace.Playground Lobby.VotingAlcove.TagYoureItStand.ChoiceCardFace",
+        "size": [
+          13.907999038696289,
+          3.305999994277954,
+          0.15199999511241913
+        ]
+      },
+      "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/TagYoureItStand[1]/ChoiceCardFace[1]/GameName[1]",
+      "name": "GameName",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Playground Lobby.VotingAlcove.TagYoureItStand.ChoiceCardFace.GameName.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 0,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/TagYoureItStand[1]/ChoiceCardFace[1]/GameName[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [
+            {
+              "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/TagYoureItStand[1]/ChoiceCardFace[1]/GameName[1]/Label[1]/UIPadding[1]",
+              "name": "UIPadding",
+              "class": "UIPadding",
+              "padding": {
+                "top": [
+                  0,
+                  8
+                ],
+                "right": [
+                  0,
+                  14
+                ],
+                "left": [
+                  0,
+                  14
+                ],
+                "bottom": [
+                  0,
+                  8
+                ]
+              },
+              "children": [],
+              "path": "Workspace.Playground Lobby.VotingAlcove.TagYoureItStand.ChoiceCardFace.GameName.Label.UIPadding"
+            }
+          ],
+          "textStrokeColor": [
+            29,
+            46,
+            72
+          ],
+          "textWrapped": true,
+          "text": "Tag You're It",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              53,
+              10
+            ],
+            [
+              12,
+              65,
+              12
+            ],
+            [
+              14,
+              74,
+              14
+            ],
+            [
+              16,
+              85,
+              16
+            ],
+            [
+              18,
+              94,
+              18
+            ],
+            [
+              20,
+              103,
+              20
+            ],
+            [
+              24,
+              123,
+              24
+            ],
+            [
+              28,
+              144,
+              28
+            ],
+            [
+              32,
+              164,
+              32
+            ],
+            [
+              40,
+              203,
+              40
+            ],
+            [
+              48,
+              241,
+              48
+            ],
+            [
+              64,
+              322,
+              64
+            ],
+            [
+              80,
+              401,
+              80
+            ],
+            [
+              100,
+              499,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            255,
+            251,
+            232
+          ]
+        }
+      ],
+      "pixelsPerStud": 50
+    },
+    {
+      "enabled": true,
+      "path": "Workspace.Playground Lobby.VotingAlcove.StuckInTheMudStand.ChoiceCardFace.GameName",
+      "canvas": [
+        695.3999519348145,
+        165.2999997138977
+      ],
+      "class": "SurfaceGui",
+      "lightInfluence": 0,
+      "host": {
+        "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/StuckInTheMudStand[1]/ChoiceCardFace[1]",
+        "color": [
+          111,
+          196,
+          151
+        ],
+        "transparency": 0,
+        "path": "Workspace.Playground Lobby.VotingAlcove.StuckInTheMudStand.ChoiceCardFace",
+        "size": [
+          13.907999038696289,
+          3.305999994277954,
+          0.15199999511241913
+        ]
+      },
+      "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/StuckInTheMudStand[1]/ChoiceCardFace[1]/GameName[1]",
+      "name": "GameName",
+      "alwaysOnTop": false,
+      "face": "Back",
+      "sizingMode": "PixelsPerStud",
+      "children": [
+        {
+          "alignY": "Center",
+          "path": "Workspace.Playground Lobby.VotingAlcove.StuckInTheMudStand.ChoiceCardFace.GameName.Label",
+          "textTransparency": 0,
+          "class": "TextLabel",
+          "textStrokeTransparency": 0,
+          "alignX": "Center",
+          "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/StuckInTheMudStand[1]/ChoiceCardFace[1]/GameName[1]/Label[1]",
+          "textSize": 8,
+          "borderColor": [
+            27,
+            42,
+            53
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "zIndex": 1,
+          "backgroundColor": [
+            163,
+            162,
+            165
+          ],
+          "size": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "clip": false,
+          "richText": false,
+          "children": [
+            {
+              "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/StuckInTheMudStand[1]/ChoiceCardFace[1]/GameName[1]/Label[1]/UIPadding[1]",
+              "name": "UIPadding",
+              "class": "UIPadding",
+              "padding": {
+                "top": [
+                  0,
+                  8
+                ],
+                "right": [
+                  0,
+                  14
+                ],
+                "left": [
+                  0,
+                  14
+                ],
+                "bottom": [
+                  0,
+                  8
+                ]
+              },
+              "children": [],
+              "path": "Workspace.Playground Lobby.VotingAlcove.StuckInTheMudStand.ChoiceCardFace.GameName.Label.UIPadding"
+            }
+          ],
+          "textStrokeColor": [
+            29,
+            46,
+            72
+          ],
+          "textWrapped": true,
+          "text": "Stuck in the Mud",
+          "backgroundTransparency": 1,
+          "measurements": [
+            [
+              10,
+              73,
+              10
+            ],
+            [
+              12,
+              89,
+              12
+            ],
+            [
+              14,
+              101,
+              14
+            ],
+            [
+              16,
+              115,
+              16
+            ],
+            [
+              18,
+              127,
+              18
+            ],
+            [
+              20,
+              139,
+              20
+            ],
+            [
+              24,
+              166,
+              24
+            ],
+            [
+              28,
+              193,
+              28
+            ],
+            [
+              32,
+              220,
+              32
+            ],
+            [
+              40,
+              273,
+              40
+            ],
+            [
+              48,
+              324,
+              48
+            ],
+            [
+              64,
+              433,
+              64
+            ],
+            [
+              80,
+              537,
+              80
+            ],
+            [
+              100,
+              668,
+              100
+            ]
+          ],
+          "rotation": 0,
+          "font": {
+            "family": "rbxasset://fonts/families/FredokaOne.json",
+            "enum": "FredokaOne",
+            "style": "Normal",
+            "weight": "Regular"
+          },
+          "name": "Label",
+          "position": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "borderSize": 1,
+          "visible": true,
+          "textScaled": true,
+          "textColor": [
+            255,
+            251,
+            232
+          ]
+        }
+      ],
+      "pixelsPerStud": 50
+    }
+  ],
+  "nativeMutation": false,
+  "datamodel": "Edit",
+  "studioId": "a6fea703-0c19-4811-ba3e-0e9f90090fe9"
+}

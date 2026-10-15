@@ -1,0 +1,20 @@
+Installed location: Workspace > Playground Lobby > PlaygroundLobbySwing
+Runtime module: ServerScriptService > PlaygroundLobbySwingService
+Launcher integration: require(ServerScriptService.PlaygroundLobbySwingService).Start()
+Returned service supports :Stop(); module also exposes .Stop().
+
+Two independent swing seats. Press E, tap the prompt, or press the controller interact button to sit. The swing builds up gently while seated and returns to rest after leaving. Jump to exit. Joining a game or dying releases the seat immediately. The server validates distance, health, seating state, round participation, and repeat interaction.
+
+Editable swing settings on the model:
+SwingAngle = 26 degrees (runtime bounded to 8-30)
+SwingPeriod = 4.5 seconds (runtime bounded to 3.5-8)
+Center = (51, 4, 35). Footprint = 32 by 24 studs.
+
+Construction uses 274 editable Parts with PlaygroundRetroStuds on the coloured frame, sign, mat, and seats. Thin physical navy edges do not consume Highlight rendering slots. The 100 moving Parts are welded into two assemblies with 98 WeldConstraints; only each Seat has mass. Anchored frame supports two limited HingeConstraint servos. Moving decoration does not collide with players.
+
+Verified in Edit: source compilation, two aligned hinge axes and matching pivots, all moving parts correctly welded and unanchored, clear swing envelope, prompt controls, matching existing approved module capabilities, Start/Stop idempotence and connection cleanup. No Play simulation or live seated-player test was run.
+
+Native API references:
+https://create.roblox.com/docs/reference/engine/classes/HingeConstraint
+https://create.roblox.com/docs/reference/engine/classes/ProximityPrompt
+https://create.roblox.com/docs/reference/engine/classes/Seat

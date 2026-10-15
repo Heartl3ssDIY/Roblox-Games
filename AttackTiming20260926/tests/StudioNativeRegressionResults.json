@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "controllerCases": 28,
+  "animatorCases": 2,
+  "lifecycleCases": 9,
+  "roshiController": [
+    {
+      "passed": true,
+      "trace": "30fps",
+      "exactlyOneHitPerShot": true,
+      "releaseAt": 1.35,
+      "name": "Master Roshu",
+      "animationDuration": 2.25,
+      "shots": 3,
+      "cooldown": 5.3,
+      "noOverlap": true
+    },
+    {
+      "passed": true,
+      "trace": "60fps",
+      "exactlyOneHitPerShot": true,
+      "releaseAt": 1.35,
+      "name": "Master Roshu",
+      "animationDuration": 2.25,
+      "shots": 3,
+      "cooldown": 5.3,
+      "noOverlap": true
+    },
+    {
+      "passed": true,
+      "trace": "120fps",
+      "exactlyOneHitPerShot": true,
+      "releaseAt": 1.35,
+      "name": "Master Roshu",
+      "animationDuration": 2.25,
+      "shots": 3,
+      "cooldown": 5.3,
+      "noOverlap": true
+    },
+    {
+      "passed": true,
+      "trace": "jitter_and_hitch",
+      "exactlyOneHitPerShot": true,
+      "releaseAt": 1.35,
+      "name": "Master Roshu",
+      "animationDuration": 2.25,
+      "shots": 3,
+      "cooldown": 5.3,
+      "noOverlap": true
+    }
+  ],
+  "roshiAnimator": [
+    {
+      "peakOffset": 2.8,
+      "releaseHeight": 2.72,
+      "passed": true,
+      "rig": "R6",
+      "restC0Restored": true,
+      "logicalRootUnchanged": true,
+      "airChargeSeconds": 0.57,
+      "pausedTrackInjectionSuppressed": true,
+      "c1PreservedAndTransformRestored": true,
+      "remainingConnections": 0,
+      "comparedFps": [
+        30,
+        60,
+        120
+      ]
+    },
+    {
+      "peakOffset": 2.8,
+      "releaseHeight": 2.72,
+      "passed": true,
+      "rig": "R15",
+      "restC0Restored": true,
+      "logicalRootUnchanged": true,
+      "airChargeSeconds": 0.57,
+      "pausedTrackInjectionSuppressed": true,
+      "c1PreservedAndTransformRestored": true,
+      "remainingConnections": 0,
+      "comparedFps": [
+        30,
+        60,
+        120
+      ]
+    }
+  ],
+  "roshiLifecycle": {
+    "callbacks": 1,
+    "name": "roshi_finishes_landing_before_result",
+    "passed": true
+  },
+  "note": "Isolated, unparented native Instances; mocked frame signals, clock, damage data and effects preferences. No live game state, rewards, assets or progression modified."
+}

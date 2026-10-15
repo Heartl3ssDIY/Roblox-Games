@@ -1,0 +1,111 @@
+97\x88 +10", TextColor3=Color3.fromRGB(190,130,255),
+                Font=Enum.Font.PermanentMarker, TextSize=13, ZIndex=34,
+            }, row)
+            corner(spendBtn, 8); stroke(spendBtn, Color3.fromRGB(150,100,210), 1)
+
+            local spentOnThisUnit = false
+            spendBtn.Activated:Connect(function()
+                if spentOnThisUnit then return end
+                if PlayerData.masteryChips() < 1 then
+
+                    local orig = spendBtn.BackgroundColor3
+                    spendBtn.BackgroundColor3 = Color3.fromRGB(170,50,50)
+                    task.delay(0.4, function()
+                        if spendBtn.Parent and not spentOnThisUnit then spendBtn.BackgroundColor3 = orig end
+                    end)
+                    return
+                end
+
+                PlayerData.addMasteryChips(-1)
+                PlayerData.addMasteryPoints(um.id, 10)
+                spentOnThisUnit = true
+
+                progLbl.Text = "("..PlayerData.masteryFor(um.id).."/"..PlayerData.masteryThreshold(um.rarity)..")"
+                spendBtn.Active = false
+                spendBtn.BackgroundColor3 = C.cellBg
+                spendBtn.TextColor3 = C.sub
+                spendBtn.Text = "Spent"
+                local st = spendBtn:FindFirstChildOfClass("UIStroke")
+                if st then st.Color = Color3.fromRGB(70,55,100) end
+            end)
+            spendBtn.MouseEnter:Connect(function()
+                if not spentOnThisUnit then spendBtn.BackgroundColor3 = C.panel end
+            end)
+            spendBtn.MouseLeave:Connect(function()
+                if not spentOnThisUnit then spendBtn.BackgroundColor3 = C.cellBg end
+            end)
+        end
+    end
+
+    rewardOverlay.Visible = true
+    local c1, c2
+    c1 = backLobbyBtn.Activated:Connect(function()
+        if c1 then c1:Disconnect() end; if c2 then c2:Disconnect() end
+        rewardOverlay.Visible = false
+        if onLobby then onLobby() end
+    end)
+    c2 = nextMatchBtn.Activated:Connect(function()
+        if c1 then c1:Disconnect() end; if c2 then c2:Disconnect() end
+        rewardOverlay.Visible = false
+        if onNextMatch then onNextMatch() end
+    end)
+    rewardConnections = { c1, c2 }
+end
+
+local function lifeCluster(name)
+    local holder = hud:WaitForChild(name)
+    local hearts = {}
+    for index = 1, MAX_LIVES do hearts[index] = holder.Hearts:WaitForChild("Heart" .. index) end
+    return {name = holder:WaitForChild("NameLbl"), hearts = hearts}
+end
+
+local playerCluster = lifeCluster("PlayerCluster")
+local opponentCluster = lifeCluster("OpponentCluster")
+
+local function setLives(cluster, lives)
+    for index, heart in ipairs(cluster.hearts) do
+        heart.ImageTransparency = index <= lives and 0 or 0.7
+        heart.ImageColor3 = index <= lives and Color3.new(1, 1, 1) or Color3.fromRGB(80, 65, 75)
+        heart:SetAttribute("Full", index <= lives)
+    end
+end
+setLives(playerCluster, MAX_LIVES)
+setLives(opponentCluster, MAX_LIVES)
+
+local unitBar = hud:WaitForChild("EquippedBar")
+local function refreshEquippedBar()
+    local equipped = Loadout.getAll()
+    for index = 1, EQUIPPED_SLOTS do
+        local slot = unitBar:WaitForChild("Slot" .. index)
+        local unit = equipped[index] and UnitData.get(equipped[index])
+        slot.UnitName.Text = unit and unit.name or tostring(index)
+        slot:SetAttribute("UnitId", unit and unit.id or nil)
+        if unit then
+            UnitViewport.show(slot.UnitModel, unit.model)
+        else
+            UnitViewport.clear(slot.UnitModel)
+        end
+    end
+end
+refreshEquippedBar()
+Loadout.Changed:Connect(refreshEquippedBar)
+local function refreshMasteryBadges()
+    for index = 1, EQUIPPED_SLOTS do
+        local slot = unitBar["Slot" .. index]
+        local id = slot:GetAttribute("UnitId")
+        local unit = id and UnitData.get(id)
+        slot.MasteryBadge.Visible = unit ~= nil
+        if unit then slot.MasteryBadge.Level.Text = tostring(PlayerData.masteryLevel(id, unit.rarity)) end
+    end
+end
+refreshMasteryBadges()
+Loadout.Changed:Connect(refreshMasteryBadges)
+PlayerData.Changed:Connect(refreshMasteryBadges)
+
+local optionRegion = hud:WaitForChild("OptionRegion")
+local draftScale = optionRegion:WaitForChild("FitToScreen")
+local function resizeDraft()
+    if hud:GetAttribute("AutoFitDraft") == false then return end
+    draftScale.Scale = math.min(1, (hud.AbsoluteSize.X - 24) / math.max(1, optionRegion.Size.X.Offset))
+end
+hud:GetPropertyChangedSignal("AbsoluteSize"):Connect(resizeDraft)

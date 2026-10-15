@@ -1,0 +1,52 @@
+{
+  "id": "P31",
+  "name": "Waffle Tortoise",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p31-waffle-tortoise.png",
+  "brief": "One adorable little golden tortoise whose thick square-rounded shell is a golden waffle with a very clear simple 3-by-3 grid of recessed pockets, a glossy caramel syrup patch and one thick pale-yellow butter square attached on top. Cream neck and four stubby feet, happy round face and tiny tail. No plate, no utensils.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p31-waffle-tortoise.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p31-waffle-tortoise.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p31-waffle-tortoise-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p31-waffle-tortoise.png",
+  "parts": 54,
+  "triangles": 36222,
+  "meshes": 2,
+  "maxMeshTriangles": 18130,
+  "dimensions": [
+    2.156589984893799,
+    3.48512601852417,
+    2.164489984512329
+  ],
+  "boundsMin": [
+    -1.1165900230407715,
+    -1.9359999895095825,
+    0.08999999612569809
+  ],
+  "boundsMax": [
+    1.0399999618530273,
+    1.5491259098052979,
+    2.2544898986816406
+  ],
+  "paletteColors": 14,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "FrontLegL",
+    "FrontLegR",
+    "BackLegL",
+    "BackLegR",
+    "Tail"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.156589984893799,
+    3.48512601852417,
+    2.144378900527954
+  ]
+}

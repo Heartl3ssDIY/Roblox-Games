@@ -1,0 +1,132 @@
+onentLives)
+	task.spawn(function()
+		local title = winner == "player" and "Round Won!" or winner == "opponent" and "Round Lost!" or "Draw!"
+		if not showBanner(match, title, 1.2) then return end
+		if match.quickRound then finishMatch(match, winner)
+		elseif match.playerLives == 0 then finishMatch(match, "opponent")
+		elseif match.opponentLives == 0 then finishMatch(match, "player")
+		elseif match.draws >= 3 then finishMatch(match, nil)
+		else startRound(match) end
+	end)
+end
+
+startRound = function(match)
+	if not isCurrent(match) then return end
+	match.round += 1
+	player:SetAttribute("MatchRound", match.round)
+	setPhase("Draft")
+	task.spawn(function()
+		Deployment.reset()
+		for _, id in ipairs(match.playerArmy) do Deployment.deploy(id, "player") end
+		for _, id in ipairs(match.opponentArmy) do Deployment.deploy(id, "opponent") end
+		if not showBanner(match, "Round " .. match.round, match.quickRound and 0.5 or 1) then return end
+		local ctx = {
+			optionRegion = optionRegion, playerPool = match.playerPool,
+			opponentPool = match.opponentPool, quickRound = match.quickRound,
+			pickTime = match.quickRound and 3 or 15,
+			isCurrent = function() return isCurrent(match) end,
+			onDeploy = function(side, id)
+				table.insert(side == "player" and match.playerArmy or match.opponentArmy, id)
+			end,
+		}
+		if match.pityFor and not DraftController.runPityPick(ctx, match.pityFor) then return end
+		if not DraftController.runRound(ctx) then
+			if isCurrent(match) then
+				warn("Round stopped because a unit could not deploy")
+				leaveArena()
+			end
+			return
+		end
+		if not showBanner(match, "Fight!", 0.5) then return end
+		setPhase("Combat")
+		CombatController.run(function(winner) roundEnded(match, winner) end, {
+			isCurrent = ctx.isCurrent, timeLimit = match.quickRound and 20 or 30,
+		})
+	end)
+end
+
+startMatch = function(quickRound)
+	cancelMatch()
+	local pool = Loadout.getAll()
+	if #pool ~= EQUIPPED_SLOTS then
+		warn("Equip four units before starting a match")
+		leaveArena()
+		return
+	end
+	local match = {
+		active = true, quickRound = quickRound == true, finished = false,
+		playerPool = pool, opponentPool = rollOpponentPool(),
+		playerArmy = {}, opponentArmy = {}, playerLives = MAX_LIVES, opponentLives = MAX_LIVES,
+		round = 0, draws = 0,
+	}
+	session = match
+	player:SetAttribute("QuickRound", match.quickRound)
+	player:SetAttribute("RoundWinner", nil)
+	setLives(playerCluster, MAX_LIVES)
+	setLives(opponentCluster, MAX_LIVES)
+	playerCluster.name.Text = player.DisplayName
+	opponentCluster.name.Text = match.quickRound and "Practice Opponent" or "Opponent"
+	refreshEquippedBar()
+	startRound(match)
+end
+
+leaveArena = function()
+	local success, message = ArenaTravelClient.leave()
+	if not success then warn(message) return end
+	cancelMatch()
+	hud.Enabled = false
+	showLobby()
+	setPhase("Lobby")
+	player:SetAttribute("QuickRound", nil)
+	player:SetAttribute("MatchRound", nil)
+end
+
+local function enterArena(arenaName, quickRound)
+	if entering or session or arenaName ~= ArenaConfig.arenaName then return end
+    if PlayerData.pendingDailyPack() then
+        require(ReplicatedStorage:WaitForChild("ArenaSelectionUI")).open(playerGui)
+        return
+    end
+	if #Loadout.getAll() ~= EQUIPPED_SLOTS then return end
+	entering = true
+	local success, message = ArenaTravelClient.enter()
+	entering = false
+	if not success then warn(message) return end
+	for _, gui in ipairs(playerGui:GetChildren()) do hideLobbyGui(gui) end
+	hud.Enabled = true
+	startMatch(quickRound)
+end
+
+exitButton.Activated:Connect(leaveArena)
+playerGui.ChildAdded:Connect(function(gui)
+	task.defer(function()
+		if session and gui.Parent then hideLobbyGui(gui) end
+	end)
+end)
+player.CharacterRemoving:Connect(function()
+	cancelMatch()
+	ArenaTravelClient.restore()
+	hud.Enabled = false
+	showLobby()
+	setPhase("Lobby")
+end)
+
+local events = ReplicatedStorage:WaitForChild("ArenaEvents")
+events:WaitForChild("EnterArena").Event:Connect(function(name, quickRound)
+	enterArena(name or ArenaConfig.arenaName, quickRound == true and RunService:IsStudio())
+end)
+local leaveEvent = events:FindFirstChild("LeaveArena")
+if not leaveEvent then
+	leaveEvent = Instance.new("BindableEvent")
+	leaveEvent.Name = "LeaveArena"
+	leaveEvent.Parent = events
+end
+leaveEvent.Event:Connect(leaveArena)
+UserInputService.InputBegan:Connect(function(input, processed)
+	if not processed and RunService:IsStudio() and input.KeyCode == Enum.KeyCode.F6 then
+		enterArena(ArenaConfig.arenaName, true)
+	end
+end)
+setPhase("Lobby")
+
+if RunService:IsSt

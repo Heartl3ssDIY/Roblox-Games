@@ -1,0 +1,127 @@
+function PlayerData.unclaimedLevelCount(): number
+	local n = 0
+	for lvl = 2, state.level do
+		if not state.claimedLevels[lvl] then n += 1 end
+	end
+	return n
+end
+
+function PlayerData.packCount(packId: string): number
+	return (state.packInventory and state.packInventory[packId]) or 0
+end
+function PlayerData.allPackCounts()
+	local t = {}
+	for id, n in pairs(state.packInventory or {}) do t[id] = n end
+	return t
+end
+function PlayerData.addPack(packId: string, n: number)
+	state.packInventory[packId] = math.max(0, (state.packInventory[packId] or 0) + (n or 1))
+	fire()
+end
+
+function PlayerData.consumePack(packId: string): boolean
+	if (state.packInventory[packId] or 0) <= 0 then return false end
+	state.packInventory[packId] -= 1
+	fire()
+	return true
+end
+
+function PlayerData.totalBankedPacks(): number
+	local n = 0
+	for _, c in pairs(state.packInventory or {}) do n += c end
+	return n
+end
+
+local DAILY_WIN_DAY = 24 * 60 * 60
+local DAILY_WIN_PACKS = { "bronze", "bronze", "bronze", "silver" }
+
+local function dailyState(now)
+    now = now or os.time()
+    local dw = state.dailyWin
+    local day = math.floor(now / DAILY_WIN_DAY)
+    dw.pending = dw.pending or {}
+    if dw.day ~= day then
+        dw.day = day
+        dw.windowStart = day * DAILY_WIN_DAY
+        dw.winsThisWindow = 0
+        dw.claimed = {}
+    end
+    return dw
+end
+
+function PlayerData.grantDailyWinPack(): string?
+    local dw = dailyState()
+    if dw.winsThisWindow >= #DAILY_WIN_PACKS then return nil end
+    dw.winsThisWindow += 1
+    local packId = DAILY_WIN_PACKS[dw.winsThisWindow]
+    table.insert(dw.pending, {packId = packId, day = dw.day, slot = dw.winsThisWindow})
+    PlayerData.addPack(packId, 1)
+    return packId
+end
+
+function PlayerData.pendingDailyPack()
+    local pending = dailyState().pending
+    return pending[1] and table.clone(pending[1]) or nil
+end
+
+function PlayerData.consumeDailyPack(): string?
+    local dw = dailyState()
+    local reward = dw.pending[1]
+    if not reward or PlayerData.packCount(reward.packId) < 1 then return nil end
+    table.remove(dw.pending, 1)
+    state.packInventory[reward.packId] -= 1
+    if reward.day == dw.day then dw.claimed[reward.slot] = true end
+    fire()
+    return reward.packId
+end
+
+function PlayerData.dailyWinRewards()
+    local dw = dailyState()
+    local result = {}
+    for index, packId in ipairs(DAILY_WIN_PACKS) do
+        result[index] = {
+            packId = packId,
+            earned = index <= dw.winsThisWindow,
+            claimed = dw.claimed[index] == true,
+        }
+    end
+    return result
+end
+
+function PlayerData.dailyWinPacksRemaining(): number
+    return math.max(0, #DAILY_WIN_PACKS - dailyState().winsThisWindow)
+end
+
+function PlayerData.dailyWinResetIn(): number
+    local dw = dailyState()
+    return math.max(0, (dw.day + 1) * DAILY_WIN_DAY - os.time())
+end
+
+state.dailyClaims = {}
+local DAY = 24 * 60 * 60
+
+function PlayerData.canClaimDaily(key: string): boolean
+	local last = state.dailyClaims[key]
+	if not last then return true end
+	return (os.time() - last) >= DAY
+end
+
+function PlayerData.secondsUntilDaily(key: string): number
+	local last = state.dailyClaims[key]
+	if not last then return 0 end
+	return math.max(0, DAY - (os.time() - last))
+end
+
+function PlayerData.claimDaily(key: string): boolean
+	if not PlayerData.canClaimDaily(key) then return false end
+	state.dailyClaims[key] = os.time()
+	fire()
+	return true
+end
+
+PlayerData.POINTS_PER_WIN = POINTS_PER_WIN
+PlayerData.POINTS_PER_LOSS = POINTS_PER_LOSS
+
+return PlayerData
+
+

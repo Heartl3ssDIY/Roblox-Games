@@ -1,0 +1,12 @@
+{
+  "fixtureCleaned": true,
+  "passed": true,
+  "result": {
+    "passed": true,
+    "result": {
+      "nativeContentProviderAvailable": false,
+      "passed": true,
+      "checks": 33
+    }
+  }
+}

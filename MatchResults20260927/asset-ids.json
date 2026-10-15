@@ -1,0 +1,171 @@
+{
+  "placeName": "Anime Combat Units",
+  "placeId": 111313211501470,
+  "studioId": "dbb55e20-54e8-4b7d-970d-e17e7973f261",
+  "uploadedDate": "2026-09-27",
+  "note": "These image assets were uploaded to Roblox through the connected Studio. This manifest does not itself configure any ScreenGui or script.",
+  "assets": {
+    "continue-button.png": {
+      "assetId": "rbxassetid://105193057724817",
+      "width": 285,
+      "height": 90,
+      "source": "C:\\Users\\sandt\\AppData\\Local\\Temp\\ContinueButton.png"
+    },
+    "defeat-mastery-background.png": {
+      "assetId": "rbxassetid://138145126598588",
+      "width": 1020,
+      "height": 770,
+      "source": "C:\\Users\\sandt\\Downloads\\match defeat brackground.png"
+    },
+    "boost-mastery-button.png": {
+      "assetId": "rbxassetid://73374426634457",
+      "width": 182,
+      "height": 57,
+      "source": "C:\\Users\\sandt\\Downloads\\Boost mastery button.png"
+    },
+    "mastery-level-progress.png": {
+      "assetId": "rbxassetid://70428166259206",
+      "width": 120,
+      "height": 35,
+      "source": "C:\\Users\\sandt\\Downloads\\Mastery level progress.png"
+    },
+    "mastery-level-background.png": {
+      "assetId": "rbxassetid://140644676430211",
+      "width": 165,
+      "height": 35,
+      "source": "C:\\Users\\sandt\\Downloads\\Mastery level background.png"
+    },
+    "plus-10.png": {
+      "assetId": "rbxassetid://121544804255246",
+      "width": 72,
+      "height": 39,
+      "source": "C:\\Users\\sandt\\Downloads\\+10.png"
+    },
+    "victory-mastery-background.png": {
+      "assetId": "rbxassetid://90192041134022",
+      "width": 1020,
+      "height": 770,
+      "source": "C:\\Users\\sandt\\Downloads\\match defeat brackground (1).png"
+    },
+    "plus-4.png": {
+      "assetId": "rbxassetid://135413571790091",
+      "width": 56,
+      "height": 38,
+      "source": "C:\\Users\\sandt\\Downloads\\+4.png"
+    },
+    "mastery-badge.png": {
+      "assetId": "rbxassetid://122724395505127",
+      "width": 48,
+      "height": 50,
+      "source": "C:\\Users\\sandt\\Downloads\\mastery Badge.png"
+    },
+    "victory-reward-card-background.png": {
+      "assetId": "rbxassetid://117611313233784",
+      "width": 180,
+      "height": 270,
+      "source": "C:\\Users\\sandt\\Downloads\\UI (4)\\Match Victory Rewards (continue\\victory rewards background.png"
+    },
+    "mastery-chips.png": {
+      "assetId": "rbxassetid://82519543150534",
+      "width": 144,
+      "height": 144,
+      "source": "C:\\Users\\sandt\\Downloads\\Mastery Chips.png"
+    },
+    "choose-pity-card-background.png": {
+      "assetId": "rbxassetid://86551066856363",
+      "width": 180,
+      "height": 270,
+      "source": "C:\\Users\\sandt\\Downloads\\choose pity bckground.png"
+    },
+    "coins-ui.png": {
+      "assetId": "rbxassetid://89228355418112",
+      "width": 204,
+      "height": 56,
+      "source": "C:\\Users\\sandt\\Downloads\\Coin's UI.png"
+    },
+    "defeat-rewards-background.png": {
+      "assetId": "rbxassetid://104358901410455",
+      "width": 1020,
+      "height": 770,
+      "source": "C:\\Users\\sandt\\Downloads\\match defeat (awards) brackground.png"
+    },
+    "trophies.png": {
+      "assetId": "rbxassetid://85966572974472",
+      "width": 125,
+      "height": 125,
+      "source": "C:\\Users\\sandt\\Downloads\\Trophies.png"
+    },
+    "back-to-lobby-button.png": {
+      "assetId": "rbxassetid://123872020975526",
+      "width": 285,
+      "height": 90,
+      "source": "C:\\Users\\sandt\\AppData\\Local\\Temp\\Back2 lobby Button.png"
+    },
+    "victory-rewards-background.png": {
+      "assetId": "rbxassetid://109991829655284",
+      "width": 1020,
+      "height": 770,
+      "source": "C:\\Users\\sandt\\AppData\\Local\\Temp\\match defeat (awards) brackground.png"
+    },
+    "coin.png": {
+      "assetId": "rbxassetid://94275735623851",
+      "width": 150,
+      "height": 150,
+      "source": "C:\\Users\\sandt\\AppData\\Local\\Temp\\coin.png"
+    },
+    "ACU_BattlePass_BackgroundFrame.png": {
+      "assetId": "rbxassetid://85054833830322",
+      "width": 985,
+      "height": 593,
+      "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BattlePassConcept20260927\\figma-svg-edited\\background-frame.svg"
+    },
+    "ACU_BattlePass_RewardCoin.png": {
+      "assetId": "rbxassetid://104639886186145",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BattlePassConcept20260927\\preview\\assets\\reward-coin.png"
+    },
+    "ACU_BattlePass_RewardDiamond.png": {
+      "assetId": "rbxassetid://138321736461215",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BattlePassConcept20260927\\preview\\assets\\reward-diamond.png"
+    },
+    "ACU_BattlePass_LevelOrb.png": {
+      "assetId": "rbxassetid://87811714558579",
+      "width": 40,
+      "height": 40,
+      "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Main Screen UI\\Battle pass level.png"
+    },
+    "ACU_BattlePass_FreeLane.png": {
+      "assetId": "rbxassetid://127340570040354",
+      "width": 804,
+      "height": 130,
+      "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BattlePassConcept20260927\\figma-svg-edited\\free-lane-pattern.svg"
+    },
+    "ACU_BattlePass_PaidLane.png": {
+      "assetId": "rbxassetid://140309972602044",
+      "width": 804,
+      "height": 133,
+      "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BattlePassConcept20260927\\figma-svg-edited\\paid-lane-pattern.svg"
+    },
+    "ACU_BattlePass_RewardCard.png": {
+      "assetId": "rbxassetid://86771357470337",
+      "width": 124,
+      "height": 112,
+      "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BattlePassConcept20260927\\figma-svg-edited\\reward-card-edited.svg"
+    },
+    "ACU_BattlePass_SidebarButton.png": {
+      "assetId": "rbxassetid://84113469823548",
+      "width": 364,
+      "height": 140,
+      "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Main Screen UI\\Battlepass UI Button.png"
+    },
+    "ACU_BattlePass_LevelProgress.png": {
+      "assetId": "rbxassetid://132327696066191",
+      "width": 140,
+      "height": 30,
+      "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Main Screen UI\\Battle pass level progress.png"
+    }
+  }
+}

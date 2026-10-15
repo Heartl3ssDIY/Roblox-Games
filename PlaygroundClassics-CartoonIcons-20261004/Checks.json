@@ -1,0 +1,62 @@
+[
+  {
+    "file": "256px/heart.png",
+    "width": 256,
+    "height": 256,
+    "transparent": true
+  },
+  {
+    "file": "512px/heart.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "256px/level-star.png",
+    "width": 256,
+    "height": 256,
+    "transparent": true
+  },
+  {
+    "file": "512px/level-star.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "256px/dodge-swoosh.png",
+    "width": 256,
+    "height": 256,
+    "transparent": true
+  },
+  {
+    "file": "512px/dodge-swoosh.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "256px/sprint-lightning.png",
+    "width": 256,
+    "height": 256,
+    "transparent": true
+  },
+  {
+    "file": "512px/sprint-lightning.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "256px/cash-coin.png",
+    "width": 256,
+    "height": 256,
+    "transparent": true
+  },
+  {
+    "file": "512px/cash-coin.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  }
+]

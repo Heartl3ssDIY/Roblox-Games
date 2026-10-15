@@ -1,0 +1,165 @@
+{
+  "pet": "Bat",
+  "mesh_count": 31,
+  "base_meshes": 28,
+  "vfx_meshes": 3,
+  "triangles": 4656,
+  "one_material_each": true,
+  "parts": [
+    {
+      "name": "Head_Pearl_Cube.003",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Face_Purple_Panel",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Pearl_Cap.004",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Cyan_Stripe.003",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Top.003",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Bottom.003",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_L_Violet_Temple.003",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_L_Ink.003",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_L_White_Glint.004",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Visor_R_Violet_Temple.003",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_R_Ink.003",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_R_White_Glint.004",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Helmet_Yellow_Bolt.003",
+      "recolour": "Yellow",
+      "triangles": 164
+    },
+    {
+      "name": "Ear_L_Pearl",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Ear_L_Violet_Inlay",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Ear_R_Pearl",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Ear_R_Violet_Inlay",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Nose_Purple",
+      "recolour": "Purple",
+      "triangles": 224
+    },
+    {
+      "name": "Wing_L_Bat",
+      "recolour": "Ink",
+      "triangles": 220
+    },
+    {
+      "name": "Wing_-1_Cyan_Strut",
+      "recolour": "Cyan",
+      "triangles": 140
+    },
+    {
+      "name": "Wing_-1_Cyan_Strut.001",
+      "recolour": "Cyan",
+      "triangles": 204
+    },
+    {
+      "name": "Wing_-1_Cyan_Strut.002",
+      "recolour": "Cyan",
+      "triangles": 140
+    },
+    {
+      "name": "Wing_R_Bat",
+      "recolour": "Ink",
+      "triangles": 220
+    },
+    {
+      "name": "Wing_1_Cyan_Strut",
+      "recolour": "Cyan",
+      "triangles": 140
+    },
+    {
+      "name": "Wing_1_Cyan_Strut.001",
+      "recolour": "Cyan",
+      "triangles": 204
+    },
+    {
+      "name": "Wing_1_Cyan_Strut.002",
+      "recolour": "Cyan",
+      "triangles": 140
+    },
+    {
+      "name": "Fang_-1_White",
+      "recolour": "White",
+      "triangles": 140
+    },
+    {
+      "name": "Fang_1_White",
+      "recolour": "White",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_Cyan_Underlight.004",
+      "recolour": "Glow",
+      "triangles": 108
+    },
+    {
+      "name": "VFX_-1_SpeedRail.003",
+      "recolour": "Glow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_1_SpeedRail.003",
+      "recolour": "Glow",
+      "triangles": 140
+    }
+  ]
+}

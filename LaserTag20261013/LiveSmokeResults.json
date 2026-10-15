@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-13",
+  "published": false,
+  "tests": {
+    "red": {
+      "hud": true,
+      "title": "LASER TAG",
+      "phase": "Playing",
+      "shots": {
+        "1": {
+          "message": "Laser fired.",
+          "ok": true,
+          "hearts": {
+            "1": "♥",
+            "2": "♥",
+            "3": "♡"
+          },
+          "status": "BLUE"
+        },
+        "2": {
+          "message": "Laser fired.",
+          "ok": true,
+          "hearts": {
+            "1": "♥",
+            "2": "♡",
+            "3": "♡"
+          },
+          "status": "BLUE"
+        },
+        "3": {
+          "message": "Laser fired.",
+          "ok": true,
+          "hearts": {
+            "1": "♡",
+            "2": "♡",
+            "3": "♡"
+          },
+          "status": "OUT"
+        }
+      },
+      "lives": 2,
+      "coins": 150
+    },
+    "blue": {
+      "equipped": false,
+      "phase": "Playing",
+      "shots": {
+        "1": {
+          "message": "Laser fired.",
+          "ok": true,
+          "hearts": {
+            "1": "♥",
+            "2": "♡",
+            "3": "♡"
+          },
+          "status": "RED"
+        },
+        "2": {
+          "message": "Laser fired.",
+          "ok": true,
+          "hearts": {
+            "1": "♡",
+            "2": "♡",
+            "3": "♡"
+          },
+          "status": "OUT"
+        },
+        "3": {
+          "message": "Laser fired.",
+          "ok": true,
+          "hearts": {
+            "1": "♡",
+            "2": "♡",
+            "3": "♡"
+          },
+          "status": "OUT"
+        }
+      },
+      "lives": 2,
+      "equipOk": true
+    }
+  },
+  "reEquipRetest": {"afterRestored":"MudGun","afterUnequip":false,"liveControllerBytes":15725,"fireMessage":"Laser fired.","phase":"Playing","fireOk":true,"helperRestored":"MudGun","original":"MudGun"},
+  "notes": [
+    "Live tests used real admin practice actions and real client/server Fire remotes.",
+    "Practice bots were temporarily anchored in the running test for deterministic aiming; none persisted after Stop.",
+    "Blue target was also shot by a practice teammate, so its hearts fell faster than one per user shot.",
+    "Blue manual local unequip exposed a presentation race. Repaired by locally equipping the assigned managed gun before Fire, retaining server validation. The exact installed helper restored MudGun in a fresh live Client test and the subsequent real Fire request succeeded. Final fresh test console was empty.",
+    "Only console error was a test query that referenced MudPracticeBots after its practice round had already ended; no production script error was logged."
+  ]
+}

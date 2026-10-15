@@ -1,0 +1,37 @@
+[
+  {
+    "card": "Card_1",
+    "name": "1,000 Cash",
+    "id": 3713203989,
+    "price": 99,
+    "amount": 1000
+  },
+  {
+    "card": "Card_2",
+    "name": "5,000 Cash",
+    "id": 3713204079,
+    "price": 499,
+    "amount": 5000
+  },
+  {
+    "card": "Card_3",
+    "name": "25,000 Cash",
+    "id": 3713204982,
+    "price": 2000,
+    "amount": 25000
+  },
+  {
+    "card": "Card_4",
+    "name": "100,000 Cash",
+    "id": 3713205097,
+    "price": 4499,
+    "amount": 100000
+  },
+  {
+    "card": "Card_5",
+    "name": "1,000,000 Cash",
+    "id": 3713205149,
+    "price": 9499,
+    "amount": 1000000
+  }
+]

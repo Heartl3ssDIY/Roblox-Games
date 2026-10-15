@@ -1,0 +1,25 @@
+{
+  "avatarFactory": {
+    "method": "Players:CreateHumanoidModelFromUserIdAsync(userId)",
+    "requiredCapability": "Players",
+    "yields": true,
+    "source": "https://create.roblox.com/docs/reference/engine/classes/Players#CreateHumanoidModelFromUserIdAsync"
+  },
+  "nativeR15Pose": {
+    "method": "AnimationConstraint.Transform",
+    "requiredCapabilities": ["Physics", "Animation"],
+    "source": "https://create.roblox.com/docs/reference/engine/classes/AnimationConstraint#Transform"
+  },
+  "network": {
+    "controllerRemoteCalls": 0,
+    "snapshotAttribute": "PlayerGui.PlaygroundLeaderboards.PodiumSnapshot",
+    "selectionAttributes": ["PodiumScope", "PodiumBoard"],
+    "reason": "Reuse existing leaderboard polling and its authorized RemoteEvent capability."
+  },
+  "animations": {
+    "default": "Procedural rank-specific looping celebration on native R6 or R15 joints",
+    "optionalAttribute": "PlayerGui.PlaygroundPodium.PodiumAnimationId",
+    "publishesAssets": false
+  },
+  "editableLayout": "StarterGui.PlaygroundPodium authored SurfaceGui objects; runtime binds Adornee and text only"
+}

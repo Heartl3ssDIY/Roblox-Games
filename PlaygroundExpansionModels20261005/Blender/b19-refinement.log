@@ -1,0 +1,18 @@
+00:00.046  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:57: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:111: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:02.484  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_96052_4c5bd2e9e50a7102ad98ae46ca11de11.png.png"
+00:21.203  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Previews\b19-cloud-nine.png'
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b19-cloud-nine.fbx'
+export finished in 0.0240 sec.
+Info: Saved as "b19-cloud-nine.blend"
+ASSET_COMPLETE {"id": "B19", "name": "Cloud Nine", "category": "Bats", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b19-cloud-nine.png", "brief": "An elegant chunky baseball bat with a pearl-white rounded barrel, sky-blue lower taper, two broad embossed feather panels wrapping along the barrel and a lavender collar. Small thick gold ring at the barrel tip, lavender grip and cream knob. All features attached, no floating cloud or angel, no detached halo.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b19-cloud-nine.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b19-cloud-nine.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b19-cloud-nine-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b19-cloud-nine.png", "parts": 28, "triangles": 11890, "meshes": 1, "maxMeshTriangles": 11890, "dimensions": [0.8045977354049683, 0.8014746904373169, 3.626999855041504], "boundsMin": [-0.4615977704524994, -0.45847469568252563, -0.47200000286102295], "boundsMax": [0.34299999475479126, 0.34299999475479126, 3.1549999713897705], "paletteColors": 10, "anchors": {"GripAttachment": [0.0, 0.0, 0.0], "Grip": [0.0, 0.0, 0.0], "BarrelTip": [0.0, 0.0, 3.134999990463257]}, "editable": true, "rigged": false, "rigBones": [], "collision": "Visual meshes non-colliding; use simple game-owned collision proxy", "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette", "gameplayImplemented": false, "exportDimensions": [0.8045977354049683, 0.8014746904373169, 3.626999855041504]}
+PACK_COMPLETE {"count": 1, "ids": ["B19"]}
+Unable to delete file
+Unable to delete file
+
+Blender quit

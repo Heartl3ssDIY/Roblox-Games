@@ -1,0 +1,41 @@
+{
+  "studioId": "1a0863ce-d22b-4fe4-aa7a-bae0848387f5",
+  "placeId": 95034648955135,
+  "mode": "Edit",
+  "beforeReproduction": {
+    "operation": "StartGame(BritishBulldog, nil, nil, false) with not enough players",
+    "started": false,
+    "reason": "Not enough ready players",
+    "automaticRounds": false,
+    "phase": "Paused"
+  },
+  "after": {
+    "nativeChecksPassed": 45,
+    "compilePassed": true,
+    "coverage": [
+      "35-second automatic start without votes",
+      "No premature start or duplicate active round",
+      "Fresh intermission after round completion",
+      "Manual practice preserves automatic setting",
+      "Explicit admin pause and StopRound still pause",
+      "Failed manual start does not disable automatic rounds",
+      "Rejected and thrown starts recover in five seconds",
+      "Votes retained across temporary start failures",
+      "No solo public practice or reduced minimum",
+      "Player data, AFK, participant, and avatar eligibility",
+      "Minimum player and gun availability gates"
+    ],
+    "scope": "Native Studio module fixture using actual candidate source, mocked players and round services, and isolated state folders. No Play or live rewards.",
+    "publishedIncidentConfirmed": false
+  },
+  "hudState": {
+    "folder": "ReplicatedStorage.PlaygroundState",
+    "phase": "Phase",
+    "deadline": "VotingEndsAt",
+    "readyCount": "ReadyPlayerCount",
+    "minimum": "MinimumReadyPlayers",
+    "duration": "IntermissionSeconds",
+    "status": "IntermissionStatus",
+    "diagnostic": "LastRoundStartError"
+  }
+}

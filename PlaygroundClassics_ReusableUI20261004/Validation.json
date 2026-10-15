@@ -1,0 +1,211 @@
+{
+  "svg": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics_ReusableUI20261004\\Playground-UI-Templates.svg",
+  "checkedAtUTC": "2026-10-04T01:34:16.510658+00:00",
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "templates": [
+    {
+      "template": "button",
+      "id": "Template_button",
+      "rectanglesChecked": 2,
+      "declaredSize": [
+        380.0,
+        72.0
+      ],
+      "boardBounds": [
+        56.0,
+        204.0,
+        436.0,
+        276.0
+      ],
+      "liveTextLayers": 2
+    },
+    {
+      "template": "panel",
+      "id": "Template_panel",
+      "rectanglesChecked": 1,
+      "declaredSize": [
+        640.0,
+        284.0
+      ],
+      "boardBounds": [
+        756.0,
+        204.0,
+        1396.0,
+        488.0
+      ],
+      "liveTextLayers": 1
+    },
+    {
+      "template": "round-header",
+      "id": "Template_round_header",
+      "rectanglesChecked": 3,
+      "declaredSize": [
+        640.0,
+        156.0
+      ],
+      "boardBounds": [
+        1456.0,
+        204.0,
+        2096.0,
+        360.0
+      ],
+      "liveTextLayers": 7
+    },
+    {
+      "template": "meter",
+      "id": "Template_meter",
+      "rectanglesChecked": 2,
+      "declaredSize": [
+        380.0,
+        80.0
+      ],
+      "boardBounds": [
+        56.0,
+        554.0,
+        436.0,
+        634.0
+      ],
+      "liveTextLayers": 2
+    },
+    {
+      "template": "player-card",
+      "id": "Template_player_card",
+      "rectanglesChecked": 4,
+      "declaredSize": [
+        380.0,
+        142.0
+      ],
+      "boardBounds": [
+        756.0,
+        554.0,
+        1136.0,
+        696.0
+      ],
+      "liveTextLayers": 2
+    },
+    {
+      "template": "info-card",
+      "id": "Template_info_card",
+      "rectanglesChecked": 1,
+      "declaredSize": [
+        380.0,
+        118.0
+      ],
+      "boardBounds": [
+        1456.0,
+        554.0,
+        1836.0,
+        672.0
+      ],
+      "liveTextLayers": 3
+    },
+    {
+      "template": "item-card",
+      "id": "Template_item_card",
+      "rectanglesChecked": 4,
+      "declaredSize": [
+        224.0,
+        278.0
+      ],
+      "boardBounds": [
+        56.0,
+        904.0,
+        280.0,
+        1182.0
+      ],
+      "liveTextLayers": 6
+    },
+    {
+      "template": "status-text",
+      "id": "Template_status_text",
+      "rectanglesChecked": 0,
+      "declaredSize": [
+        640.0,
+        106.0
+      ],
+      "boardBounds": [
+        756.0,
+        904.0,
+        1396.0,
+        1010.0
+      ],
+      "liveTextLayers": 1
+    },
+    {
+      "template": "icons",
+      "id": "Template_icons",
+      "rectanglesChecked": 0,
+      "declaredSize": [
+        640.0,
+        244.0
+      ],
+      "boardBounds": [
+        1456.0,
+        904.0,
+        2096.0,
+        1148.0
+      ],
+      "liveTextLayers": 7
+    },
+    {
+      "template": "compact-badge",
+      "id": "Template_compact_badge",
+      "rectanglesChecked": 2,
+      "declaredSize": [
+        500.0,
+        112.0
+      ],
+      "boardBounds": [
+        56.0,
+        1254.0,
+        556.0,
+        1366.0
+      ],
+      "liveTextLayers": 3
+    },
+    {
+      "template": "scrollbar",
+      "id": "Template_scrollbar",
+      "rectanglesChecked": 2,
+      "declaredSize": [
+        380.0,
+        40.0
+      ],
+      "boardBounds": [
+        756.0,
+        1254.0,
+        1136.0,
+        1294.0
+      ],
+      "liveTextLayers": 0
+    }
+  ],
+  "additionalSVGFiles": [],
+  "boardBounds": [
+    0.0,
+    0.0,
+    2160.0,
+    1450.0
+  ],
+  "templateCount": 11,
+  "uniqueIds": 106,
+  "liveTextLayers": 49,
+  "coverageSlots": {
+    "Header left count": "RoundHeader_LeftCount",
+    "Header right count": "RoundHeader_RightCount",
+    "Header phase/crossing": "RoundHeader_Phase",
+    "Player XP track": "PlayerCard_XPTrack",
+    "Player XP fill": "PlayerCard_XPFill",
+    "Button optional icon slot": "Button_IconSlot",
+    "Button optional hint slot": "Button_Hint",
+    "Scrollbar track": "Scrollbar_Track",
+    "Scrollbar thumb": "Scrollbar_Thumb",
+    "Badge optional support line": "CompactBadge_Support",
+    "Badge optional count": "CompactBadge_CountBox",
+    "ItemCard_ActionSlot": "ItemCard_ActionSlot",
+    "ItemCard_TrySlot": "ItemCard_TrySlot"
+  },
+  "metadataTextLayers": 34
+}

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"dryRun\":false,\"zoneSize\":{\"1\":63,\"3\":49,\"2\":12},\"stands\":{\"1\":{\"x\":68,\"padDepth\":15.959999084472657,\"z\":-84,\"id\":\"BritishBulldog\",\"padWidth\":14.25,\"baseY\":4.54639995098114,\"triggerHeight\":8},\"3\":{\"x\":108,\"padDepth\":15.959999084472657,\"z\":-84,\"id\":\"StuckInTheMud\",\"padWidth\":14.25,\"baseY\":4.54639995098114,\"triggerHeight\":8},\"2\":{\"x\":88,\"padDepth\":15.959999084472657,\"z\":-84,\"id\":\"TagYoureIt\",\"padWidth\":14.25,\"baseY\":4.54639995098114,\"triggerHeight\":8}},\"backup\":\"ServerStorage.AssetIntegrationBackups.CompactVotingStands20261004\",\"parts\":31}"
+    }
+  ],
+  "isError": false
+}

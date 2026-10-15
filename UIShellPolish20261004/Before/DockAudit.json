@@ -1,0 +1,670 @@
+{
+  "visible": true,
+  "backgroundAlpha": 1,
+  "class": "Frame",
+  "name": "Dock",
+  "absoluteSize": "268, 48",
+  "absolutePosition": "18, 701",
+  "size": "{0, 268}, {0, 48}",
+  "attributes": [],
+  "z": 3,
+  "anchor": "0, 1",
+  "background": "0.639216, 0.635294, 0.647059",
+  "children": [
+    {
+      "visible": true,
+      "backgroundAlpha": 1,
+      "color": "1, 0.976471, 0.878431",
+      "class": "TextButton",
+      "alignX": "Enum.TextXAlignment.Center",
+      "attributes": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+        "UISkinSelectionFromColour": "false",
+        "UISkinHiddenText": "true",
+        "UISkinManaged": "true",
+        "UISkinSelectionFromOutline": "false",
+        "UISkinDynamic": "false"
+      },
+      "anchor": "0, 0",
+      "background": "1, 0.827451, 0.305882",
+      "textSize": 8,
+      "size": "{0, 118}, {0, 46}",
+      "absoluteSize": "118, 46",
+      "text": "SHOP",
+      "children": [
+        {
+          "min": 9,
+          "attributes": [],
+          "max": 27,
+          "class": "UITextSizeConstraint",
+          "children": [],
+          "name": "TextSizeLimit"
+        },
+        {
+          "top": "0, 3",
+          "children": [],
+          "attributes": [],
+          "bottom": "0, 3",
+          "right": "0, 5",
+          "class": "UIPadding",
+          "left": "0, 5",
+          "name": "TextPadding"
+        },
+        {
+          "children": [],
+          "class": "UICorner",
+          "name": "Corner",
+          "attributes": []
+        },
+        {
+          "color": "0.105882, 0.176471, 0.239216",
+          "class": "UIStroke",
+          "alpha": 1,
+          "thickness": 3,
+          "attributes": [],
+          "name": "Outline",
+          "strokeSizing": "Enum.StrokeSizingMode.FixedSize",
+          "children": [],
+          "apply": "Enum.ApplyStrokeMode.Border"
+        },
+        {
+          "visible": true,
+          "backgroundAlpha": 1,
+          "loaded": true,
+          "class": "ImageLabel",
+          "image": "rbxassetid://84589903135132",
+          "attributes": {
+            "DefaultImage": "rbxassetid://84589903135132",
+            "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+            "UISkinTargetPath": "StarterGui.PlaygroundShell.Dock.Shop"
+          },
+          "anchor": "0, 0",
+          "background": "0.639216, 0.635294, 0.647059",
+          "children": [],
+          "size": "{1, 0}, {1, 0}",
+          "absoluteSize": "108, 40",
+          "absolutePosition": "23, 704",
+          "name": "ReusableSkin",
+          "z": 4,
+          "sliceScale": 0.25,
+          "sliceCenter": "88, 88, 424, 232",
+          "scaleType": "Enum.ScaleType.Slice",
+          "pos": "{0, 0}, {0, 0}"
+        },
+        {
+          "visible": true,
+          "backgroundAlpha": 1,
+          "color": "1, 0.976471, 0.878431",
+          "class": "TextLabel",
+          "alignX": "Enum.TextXAlignment.Center",
+          "attributes": [],
+          "anchor": "0, 0",
+          "background": "0.639216, 0.635294, 0.647059",
+          "textSize": 8,
+          "size": "{0.796609998, 0}, {0.569999993, 0}",
+          "absoluteSize": "86.0338821, 22.7999992",
+          "text": "SHOP",
+          "children": [
+            {
+              "min": 8,
+              "attributes": [],
+              "max": 26,
+              "class": "UITextSizeConstraint",
+              "children": [],
+              "name": "UITextSizeConstraint"
+            },
+            {
+              "color": "0.0941176, 0.117647, 0.2",
+              "class": "UIStroke",
+              "alpha": 0,
+              "thickness": 0.08500000089406967,
+              "attributes": [],
+              "name": "TextOutline",
+              "strokeSizing": "Enum.StrokeSizingMode.ScaledSize",
+              "children": [],
+              "apply": "Enum.ApplyStrokeMode.Contextual"
+            }
+          ],
+          "scaled": true,
+          "font": "Enum.Font.FredokaOne",
+          "name": "LiveCaption",
+          "z": 6,
+          "alignY": "Enum.TextYAlignment.Center",
+          "textAlpha": 0,
+          "absolutePosition": "33.9830589, 711.200012",
+          "pos": "{0.101695001, 0}, {0.180000007, 0}"
+        },
+        {
+          "visible": false,
+          "backgroundAlpha": 0,
+          "class": "Frame",
+          "name": "ReusableSkinFallback",
+          "absoluteSize": "108, 40",
+          "absolutePosition": "23, 704",
+          "size": "{1, 0}, {1, 0}",
+          "attributes": {
+            "FallbackFaceColor": "1, 0.803922, 0.223529",
+            "BackgroundFallbackVersion": "1",
+            "FallbackInkColor": "0.121569, 0.14902, 0.235294",
+            "BackgroundFallbackFor": "ReusableSkin"
+          },
+          "z": 3,
+          "anchor": "0, 0",
+          "background": "0.121569, 0.14902, 0.235294",
+          "children": [
+            {
+              "children": [],
+              "class": "UICorner",
+              "name": "Corner",
+              "attributes": []
+            },
+            {
+              "visible": true,
+              "backgroundAlpha": 0,
+              "class": "Frame",
+              "name": "Edge",
+              "absoluteSize": "104, 36",
+              "absolutePosition": "25, 706",
+              "size": "{1, -4}, {1, -4}",
+              "attributes": [],
+              "z": 3,
+              "anchor": "0, 0",
+              "background": "1, 0.945098, 0.782588",
+              "children": [
+                {
+                  "children": [],
+                  "class": "UICorner",
+                  "name": "Corner",
+                  "attributes": []
+                },
+                {
+                  "visible": true,
+                  "backgroundAlpha": 0,
+                  "class": "Frame",
+                  "name": "Face",
+                  "absoluteSize": "100, 30",
+                  "absolutePosition": "27, 708",
+                  "size": "{1, -4}, {1, -6}",
+                  "attributes": [],
+                  "z": 3,
+                  "anchor": "0, 0",
+                  "background": "1, 0.803922, 0.223529",
+                  "children": [
+                    {
+                      "children": [],
+                      "class": "UICorner",
+                      "name": "Corner",
+                      "attributes": []
+                    },
+                    {
+                      "children": [],
+                      "class": "UIGradient",
+                      "name": "FaceShade",
+                      "attributes": []
+                    }
+                  ],
+                  "pos": "{0, 2}, {0, 2}"
+                }
+              ],
+              "pos": "{0, 2}, {0, 2}"
+            }
+          ],
+          "pos": "{0, 0}, {0, 0}"
+        }
+      ],
+      "scaled": true,
+      "font": "Enum.Font.LuckiestGuy",
+      "name": "Shop",
+      "z": 4,
+      "alignY": "Enum.TextYAlignment.Center",
+      "textAlpha": 1,
+      "absolutePosition": "18, 701",
+      "pos": "{0, 0}, {0, 0}"
+    },
+    {
+      "visible": true,
+      "backgroundAlpha": 1,
+      "color": "1, 0.976471, 0.878431",
+      "class": "TextButton",
+      "alignX": "Enum.TextXAlignment.Center",
+      "attributes": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+        "UISkinSelectionFromColour": "false",
+        "UISkinHiddenText": "true",
+        "UISkinManaged": "true",
+        "UISkinSelectionFromOutline": "false",
+        "UISkinDynamic": "false"
+      },
+      "anchor": "0, 0",
+      "background": "0.34902, 0.756863, 0.956863",
+      "textSize": 8,
+      "size": "{0, 56}, {0, 46}",
+      "absoluteSize": "56, 46",
+      "text": "PETS",
+      "children": [
+        {
+          "min": 9,
+          "attributes": [],
+          "max": 20,
+          "class": "UITextSizeConstraint",
+          "children": [],
+          "name": "TextSizeLimit"
+        },
+        {
+          "top": "0, 3",
+          "children": [],
+          "attributes": [],
+          "bottom": "0, 3",
+          "right": "0, 5",
+          "class": "UIPadding",
+          "left": "0, 5",
+          "name": "TextPadding"
+        },
+        {
+          "children": [],
+          "class": "UICorner",
+          "name": "Corner",
+          "attributes": []
+        },
+        {
+          "color": "0.105882, 0.176471, 0.239216",
+          "class": "UIStroke",
+          "alpha": 1,
+          "thickness": 3,
+          "attributes": [],
+          "name": "Outline",
+          "strokeSizing": "Enum.StrokeSizingMode.FixedSize",
+          "children": [],
+          "apply": "Enum.ApplyStrokeMode.Border"
+        },
+        {
+          "visible": true,
+          "backgroundAlpha": 1,
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://90528629970043",
+          "attributes": {
+            "DefaultImage": "rbxassetid://90528629970043",
+            "AssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+            "UISkinTargetPath": "StarterGui.PlaygroundShell.Dock.Emote"
+          },
+          "anchor": "0, 0",
+          "background": "0.639216, 0.635294, 0.647059",
+          "children": [],
+          "size": "{1, 0}, {1, 0}",
+          "absoluteSize": "46, 40",
+          "absolutePosition": "155, 704",
+          "name": "ReusableSkin",
+          "z": 4,
+          "sliceScale": 0.25,
+          "sliceCenter": "88, 88, 424, 232",
+          "scaleType": "Enum.ScaleType.Slice",
+          "pos": "{0, 0}, {0, 0}"
+        },
+        {
+          "visible": true,
+          "backgroundAlpha": 1,
+          "color": "1, 0.976471, 0.878431",
+          "class": "TextLabel",
+          "alignX": "Enum.TextXAlignment.Center",
+          "attributes": [],
+          "anchor": "0, 0",
+          "background": "0.639216, 0.635294, 0.647059",
+          "textSize": 8,
+          "size": "{0.600000024, 0}, {0.569999993, 0}",
+          "absoluteSize": "27.6000004, 22.7999992",
+          "text": "PETS",
+          "children": [
+            {
+              "min": 8,
+              "attributes": [],
+              "max": 26,
+              "class": "UITextSizeConstraint",
+              "children": [],
+              "name": "UITextSizeConstraint"
+            },
+            {
+              "color": "0.0941176, 0.117647, 0.2",
+              "class": "UIStroke",
+              "alpha": 0,
+              "thickness": 0.08500000089406967,
+              "attributes": [],
+              "name": "TextOutline",
+              "strokeSizing": "Enum.StrokeSizingMode.ScaledSize",
+              "children": [],
+              "apply": "Enum.ApplyStrokeMode.Contextual"
+            }
+          ],
+          "scaled": true,
+          "font": "Enum.Font.FredokaOne",
+          "name": "LiveCaption",
+          "z": 6,
+          "alignY": "Enum.TextYAlignment.Center",
+          "textAlpha": 0,
+          "absolutePosition": "164.199997, 711.200012",
+          "pos": "{0.200000003, 0}, {0.180000007, 0}"
+        },
+        {
+          "visible": true,
+          "backgroundAlpha": 0,
+          "class": "Frame",
+          "name": "ReusableSkinFallback",
+          "absoluteSize": "46, 40",
+          "absolutePosition": "155, 704",
+          "size": "{1, 0}, {1, 0}",
+          "attributes": {
+            "FallbackFaceColor": "0.164706, 0.627451, 0.921569",
+            "BackgroundFallbackVersion": "1",
+            "FallbackInkColor": "0.121569, 0.14902, 0.235294",
+            "BackgroundFallbackFor": "ReusableSkin"
+          },
+          "z": 3,
+          "anchor": "0, 0",
+          "background": "0.121569, 0.14902, 0.235294",
+          "children": [
+            {
+              "children": [],
+              "class": "UICorner",
+              "name": "Corner",
+              "attributes": []
+            },
+            {
+              "visible": true,
+              "backgroundAlpha": 0,
+              "class": "Frame",
+              "name": "Edge",
+              "absoluteSize": "42, 36",
+              "absolutePosition": "157, 706",
+              "size": "{1, -4}, {1, -4}",
+              "attributes": [],
+              "z": 3,
+              "anchor": "0, 0",
+              "background": "0.766118, 0.895686, 0.978039",
+              "children": [
+                {
+                  "children": [],
+                  "class": "UICorner",
+                  "name": "Corner",
+                  "attributes": []
+                },
+                {
+                  "visible": true,
+                  "backgroundAlpha": 0,
+                  "class": "Frame",
+                  "name": "Face",
+                  "absoluteSize": "38, 30",
+                  "absolutePosition": "159, 708",
+                  "size": "{1, -4}, {1, -6}",
+                  "attributes": [],
+                  "z": 3,
+                  "anchor": "0, 0",
+                  "background": "0.164706, 0.627451, 0.921569",
+                  "children": [
+                    {
+                      "children": [],
+                      "class": "UICorner",
+                      "name": "Corner",
+                      "attributes": []
+                    },
+                    {
+                      "children": [],
+                      "class": "UIGradient",
+                      "name": "FaceShade",
+                      "attributes": []
+                    }
+                  ],
+                  "pos": "{0, 2}, {0, 2}"
+                }
+              ],
+              "pos": "{0, 2}, {0, 2}"
+            }
+          ],
+          "pos": "{0, 0}, {0, 0}"
+        }
+      ],
+      "scaled": true,
+      "font": "Enum.Font.LuckiestGuy",
+      "name": "Emote",
+      "z": 4,
+      "alignY": "Enum.TextYAlignment.Center",
+      "textAlpha": 1,
+      "absolutePosition": "150, 701",
+      "pos": "{0, 132}, {0, 0}"
+    },
+    {
+      "visible": true,
+      "backgroundAlpha": 1,
+      "color": "1, 0.976471, 0.878431",
+      "class": "TextButton",
+      "alignX": "Enum.TextXAlignment.Center",
+      "attributes": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/silver-normal.png",
+        "UISkinSelectionFromColour": "false",
+        "UISkinHiddenText": "true",
+        "UISkinManaged": "true",
+        "UISkinSelectionFromOutline": "false",
+        "UISkinDynamic": "false"
+      },
+      "anchor": "0, 0",
+      "background": "1, 0.6, 0.65098",
+      "textSize": 8,
+      "size": "{0, 56}, {0, 46}",
+      "absoluteSize": "56, 46",
+      "text": "TOYS",
+      "children": [
+        {
+          "visible": true,
+          "backgroundAlpha": 1,
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://91168456076260",
+          "attributes": {
+            "DefaultImage": "rbxassetid://91168456076260",
+            "AssetKey": "PNG/07-Resizable-Skins/silver-normal.png",
+            "UISkinTargetPath": "StarterGui.PlaygroundShell.Dock.Emoji"
+          },
+          "anchor": "0, 0",
+          "background": "0.639216, 0.635294, 0.647059",
+          "children": [],
+          "size": "{1, 0}, {1, 0}",
+          "absoluteSize": "46, 40",
+          "absolutePosition": "201, 705",
+          "name": "ReusableSkin",
+          "z": 4,
+          "sliceScale": 0.25,
+          "sliceCenter": "88, 88, 424, 232",
+          "scaleType": "Enum.ScaleType.Slice",
+          "pos": "{-0.521739125, 0}, {0.0250000004, 0}"
+        },
+        {
+          "visible": true,
+          "backgroundAlpha": 1,
+          "color": "1, 0.976471, 0.878431",
+          "class": "TextLabel",
+          "alignX": "Enum.TextXAlignment.Center",
+          "attributes": [],
+          "anchor": "0, 0",
+          "background": "0.639216, 0.635294, 0.647059",
+          "textSize": 8,
+          "size": "{0.600000024, 0}, {0.569999993, 0}",
+          "absoluteSize": "27.6000004, 22.7999992",
+          "text": "TOYS",
+          "children": [
+            {
+              "min": 8,
+              "attributes": [],
+              "max": 26,
+              "class": "UITextSizeConstraint",
+              "children": [],
+              "name": "UITextSizeConstraint"
+            },
+            {
+              "color": "0.0941176, 0.117647, 0.2",
+              "class": "UIStroke",
+              "alpha": 0,
+              "thickness": 0.08500000089406967,
+              "attributes": [],
+              "name": "TextOutline",
+              "strokeSizing": "Enum.StrokeSizingMode.ScaledSize",
+              "children": [],
+              "apply": "Enum.ApplyStrokeMode.Contextual"
+            }
+          ],
+          "scaled": true,
+          "font": "Enum.Font.FredokaOne",
+          "name": "LiveCaption",
+          "z": 6,
+          "alignY": "Enum.TextYAlignment.Center",
+          "textAlpha": 0,
+          "absolutePosition": "234.199997, 711.200012",
+          "pos": "{0.200000003, 0}, {0.180000007, 0}"
+        },
+        {
+          "min": 9,
+          "attributes": [],
+          "max": 27,
+          "class": "UITextSizeConstraint",
+          "children": [],
+          "name": "TextSizeLimit"
+        },
+        {
+          "top": "0, 3",
+          "children": [],
+          "attributes": [],
+          "bottom": "0, 3",
+          "right": "0, 5",
+          "class": "UIPadding",
+          "left": "0, 5",
+          "name": "TextPadding"
+        },
+        {
+          "children": [],
+          "class": "UICorner",
+          "name": "Corner",
+          "attributes": []
+        },
+        {
+          "color": "0.105882, 0.176471, 0.239216",
+          "class": "UIStroke",
+          "alpha": 1,
+          "thickness": 3,
+          "attributes": [],
+          "name": "Outline",
+          "strokeSizing": "Enum.StrokeSizingMode.FixedSize",
+          "children": [],
+          "apply": "Enum.ApplyStrokeMode.Border"
+        },
+        {
+          "visible": false,
+          "backgroundAlpha": 1,
+          "loaded": false,
+          "class": "ImageLabel",
+          "image": "rbxassetid://79089853577434",
+          "attributes": {
+            "DefaultImage": "rbxassetid://79089853577434",
+            "AssetKey": "Attachments/icon-heart.png",
+            "UISkinTargetPath": "StarterGui.PlaygroundShell.Dock.Emoji"
+          },
+          "anchor": "0, 0",
+          "background": "0.639216, 0.635294, 0.647059",
+          "children": [],
+          "size": "{0.600000024, 0}, {0.699999988, 0}",
+          "absoluteSize": "27.6000004, 28",
+          "absolutePosition": "210.199997, 709",
+          "name": "ArtworkIcon",
+          "z": 6,
+          "sliceScale": 1,
+          "sliceCenter": "0, 0, 0, 0",
+          "scaleType": "Enum.ScaleType.Fit",
+          "pos": "{-0.321739197, 0}, {0.125, 0}"
+        },
+        {
+          "visible": true,
+          "backgroundAlpha": 0,
+          "class": "Frame",
+          "name": "ReusableSkinFallback",
+          "absoluteSize": "46, 40",
+          "absolutePosition": "201, 705",
+          "size": "{1, 0}, {1, 0}",
+          "attributes": {
+            "FallbackFaceColor": "0.690196, 0.737255, 0.807843",
+            "BackgroundFallbackVersion": "1",
+            "FallbackInkColor": "0.121569, 0.14902, 0.235294",
+            "BackgroundFallbackFor": "ReusableSkin"
+          },
+          "z": 3,
+          "anchor": "0, 0",
+          "background": "0.121569, 0.14902, 0.235294",
+          "children": [
+            {
+              "children": [],
+              "class": "UICorner",
+              "name": "Corner",
+              "attributes": []
+            },
+            {
+              "visible": true,
+              "backgroundAlpha": 0,
+              "class": "Frame",
+              "name": "Edge",
+              "absoluteSize": "42, 36",
+              "absolutePosition": "203, 707",
+              "size": "{1, -4}, {1, -4}",
+              "attributes": [],
+              "z": 3,
+              "anchor": "0, 0",
+              "background": "0.913255, 0.926431, 0.946196",
+              "children": [
+                {
+                  "children": [],
+                  "class": "UICorner",
+                  "name": "Corner",
+                  "attributes": []
+                },
+                {
+                  "visible": true,
+                  "backgroundAlpha": 0,
+                  "class": "Frame",
+                  "name": "Face",
+                  "absoluteSize": "38, 30",
+                  "absolutePosition": "205, 709",
+                  "size": "{1, -4}, {1, -6}",
+                  "attributes": [],
+                  "z": 3,
+                  "anchor": "0, 0",
+                  "background": "0.690196, 0.737255, 0.807843",
+                  "children": [
+                    {
+                      "children": [],
+                      "class": "UICorner",
+                      "name": "Corner",
+                      "attributes": []
+                    },
+                    {
+                      "children": [],
+                      "class": "UIGradient",
+                      "name": "FaceShade",
+                      "attributes": []
+                    }
+                  ],
+                  "pos": "{0, 2}, {0, 2}"
+                }
+              ],
+              "pos": "{0, 2}, {0, 2}"
+            }
+          ],
+          "pos": "{-0.521739125, 0}, {0.0250000004, 0}"
+        }
+      ],
+      "scaled": true,
+      "font": "Enum.Font.LuckiestGuy",
+      "name": "Emoji",
+      "z": 4,
+      "alignY": "Enum.TextYAlignment.Center",
+      "textAlpha": 1,
+      "absolutePosition": "220, 701",
+      "pos": "{0, 202}, {0, 0}"
+    }
+  ],
+  "pos": "{0, 18}, {1, -18}"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "model": "Starter",
+    "mesh_parts": 93,
+    "triangles": 1884,
+    "moving_groups": 6
+  },
+  {
+    "model": "Basic",
+    "mesh_parts": 93,
+    "triangles": 1884,
+    "moving_groups": 6
+  },
+  {
+    "model": "Power",
+    "mesh_parts": 100,
+    "triangles": 1968,
+    "moving_groups": 6
+  },
+  {
+    "model": "Super",
+    "mesh_parts": 109,
+    "triangles": 2460,
+    "moving_groups": 8
+  },
+  {
+    "model": "Premium",
+    "mesh_parts": 109,
+    "triangles": 2460,
+    "moving_groups": 8
+  },
+  {
+    "model": "Mythic",
+    "mesh_parts": 109,
+    "triangles": 2460,
+    "moving_groups": 8
+  }
+]

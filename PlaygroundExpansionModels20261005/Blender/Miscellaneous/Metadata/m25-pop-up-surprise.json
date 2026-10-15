@@ -1,0 +1,64 @@
+{
+  "id": "M25",
+  "name": "Pop-Up Surprise",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m25-pop-up-surprise.png",
+  "brief": "One cheerful wind-up jack-in-the-box toy with a red chamfered cube, cream panel with one large gold star, cobalt-blue hinged lid open behind, a short thick navy spring topped by a goofy mint-green round monster head with two tiny cream horns and a big friendly smile. Small gold winding crank attached to box side. All parts connected, no confetti, no detached lid.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m25-pop-up-surprise.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m25-pop-up-surprise.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m25-pop-up-surprise-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m25-pop-up-surprise.png",
+  "parts": 46,
+  "triangles": 15104,
+  "meshes": 1,
+  "maxMeshTriangles": 15104,
+  "dimensions": [
+    1.9049999713897705,
+    1.4596198797225952,
+    2.5589704513549805
+  ],
+  "boundsMin": [
+    -0.5849999785423279,
+    -0.6784999966621399,
+    0.019999995827674866
+  ],
+  "boundsMax": [
+    1.3200000524520874,
+    0.7811198830604553,
+    2.578970432281494
+  ],
+  "paletteColors": 9,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.5799999833106995
+    ],
+    "LidHinge": [
+      0.0,
+      0.4300000071525574,
+      1.100000023841858
+    ],
+    "Head": [
+      0.0,
+      -0.09000000357627869,
+      1.9299999475479126
+    ],
+    "WindUp": [
+      0.699999988079071,
+      0.0,
+      0.6499999761581421
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.9049999713897705,
+    1.4451721906661987,
+    2.5320780277252197
+  ]
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "id": "E01",
+    "name": "Dougie",
+    "unlock": "Coins",
+    "amount": 500,
+    "catalogId": "114756515400742",
+    "animationId": "93650537970037"
+  },
+  {
+    "id": "E02",
+    "name": "Street Glide",
+    "unlock": "Coins",
+    "amount": 750,
+    "catalogId": "137284968787523",
+    "animationId": "82378883639086"
+  },
+  {
+    "id": "E03",
+    "name": "Money Hop Switch",
+    "unlock": "Coins",
+    "amount": 1000,
+    "catalogId": "134222090358172",
+    "animationId": "132555082396072"
+  },
+  {
+    "id": "E04",
+    "name": "Coffin Walkout",
+    "unlock": "Level",
+    "amount": 5,
+    "catalogId": "117302755748327",
+    "animationId": "126771729094882"
+  },
+  {
+    "id": "E05",
+    "name": "The Tylil Dance",
+    "unlock": "Coins",
+    "amount": 1500,
+    "catalogId": "107010273569673",
+    "animationId": "110494040742516"
+  },
+  {
+    "id": "E06",
+    "name": "Scuba Trend",
+    "unlock": "Level",
+    "amount": 8,
+    "catalogId": "135211326811898",
+    "animationId": "140349022227594"
+  },
+  {
+    "id": "E08",
+    "name": "Rollie",
+    "unlock": "Coins",
+    "amount": 2000,
+    "catalogId": "110827382619943",
+    "animationId": "117558759116256"
+  },
+  {
+    "id": "E09",
+    "name": "Out West",
+    "unlock": "Coins",
+    "amount": 2500,
+    "catalogId": "133595410032960",
+    "animationId": "103687288237641"
+  },
+  {
+    "id": "E10",
+    "name": "Four Lokos Dance",
+    "unlock": "Level",
+    "amount": 12,
+    "catalogId": "115906496196760",
+    "animationId": "105190540415890"
+  },
+  {
+    "id": "E11",
+    "name": "Griddy",
+    "unlock": "Coins",
+    "amount": 5000,
+    "catalogId": "77017926307035",
+    "animationId": "81913798511136"
+  },
+  {
+    "id": "E12",
+    "name": "Gangstar Dance",
+    "unlock": "Coins",
+    "amount": 3000,
+    "catalogId": "84110142550799",
+    "animationId": "93941266454007"
+  },
+  {
+    "id": "E13",
+    "name": "Keep It Gangsta",
+    "unlock": "Level",
+    "amount": 16,
+    "catalogId": "100951835636163",
+    "animationId": "92659655601730"
+  },
+  {
+    "id": "E14",
+    "name": "Jabba Switchway",
+    "unlock": "Coins",
+    "amount": 3500,
+    "catalogId": "104940682593173",
+    "animationId": "78280967285254"
+  },
+  {
+    "id": "E15",
+    "name": "Billy Bounce",
+    "unlock": "Level",
+    "amount": 20,
+    "catalogId": "93450937830334",
+    "animationId": "119280135350752"
+  },
+  {
+    "id": "E16",
+    "name": "Jamal Brazil Groove",
+    "unlock": "Coins",
+    "amount": 4000,
+    "catalogId": "117119421748582",
+    "animationId": "106865236633450"
+  },
+  {
+    "id": "E17",
+    "name": "67",
+    "unlock": "Level",
+    "amount": 25,
+    "catalogId": "100498935359536",
+    "animationId": "108639244526475"
+  },
+  {
+    "id": "E18",
+    "name": "Orange Justice",
+    "unlock": "Coins",
+    "amount": 6500,
+    "catalogId": "110064349530772",
+    "animationId": "95127716920692"
+  },
+  {
+    "id": "E19",
+    "name": "Dab Steps",
+    "unlock": "Coins",
+    "amount": 4500,
+    "catalogId": "126353729413555",
+    "animationId": "104609460346094"
+  },
+  {
+    "id": "E20",
+    "name": "Creepin Dance",
+    "unlock": "Coins",
+    "amount": 5000,
+    "catalogId": "80985588930231",
+    "animationId": "95428460379424"
+  },
+  {
+    "id": "E21",
+    "name": "Nervy Dance",
+    "unlock": "Level",
+    "amount": 30,
+    "catalogId": "125328720114284",
+    "animationId": "90018336892195"
+  },
+  {
+    "id": "E22",
+    "name": "Pretty Young Thing",
+    "unlock": "Coins",
+    "amount": 7500,
+    "catalogId": "137234266130963",
+    "animationId": "108374677470972"
+  },
+  {
+    "id": "E23",
+    "name": "Party Rock Anthem",
+    "unlock": "Coins",
+    "amount": 10000,
+    "catalogId": "105248382902194",
+    "animationId": "134459607456762"
+  },
+  {
+    "id": "E24",
+    "name": "Passinho do Jamal",
+    "unlock": "Level",
+    "amount": 35,
+    "catalogId": "137057022541237",
+    "animationId": "100468196980144"
+  },
+  {
+    "id": "E25",
+    "name": "Camden Bop",
+    "unlock": "Coins",
+    "amount": 6000,
+    "catalogId": "86411651121424",
+    "animationId": "134644266320983"
+  },
+  {
+    "id": "E26",
+    "name": "Every Beat",
+    "unlock": "Level",
+    "amount": 40,
+    "catalogId": "134311528115559",
+    "animationId": "136095999219650"
+  },
+  {
+    "id": "E27",
+    "name": "One Hand Push Ups",
+    "unlock": "Coins",
+    "amount": 8000,
+    "catalogId": "121644855433565",
+    "animationId": "74800678690946"
+  },
+  {
+    "id": "E28",
+    "name": "Gangnam Style",
+    "unlock": "Coins",
+    "amount": 12500,
+    "catalogId": "80923445784018",
+    "animationId": "131104967711844"
+  },
+  {
+    "id": "E29",
+    "name": "Murda Bend",
+    "unlock": "Coins",
+    "amount": 9000,
+    "catalogId": "96843993997234",
+    "animationId": "90158235751747"
+  },
+  {
+    "id": "E30",
+    "name": "Monkey",
+    "unlock": "Level",
+    "amount": 3,
+    "catalogId": "3716636630",
+    "animationId": "10714388352"
+  },
+  {
+    "id": "E31",
+    "name": "NLE Choppa Demon",
+    "unlock": "Coins",
+    "amount": 15000,
+    "catalogId": "96181123599016",
+    "animationId": "133898543831391"
+  },
+  {
+    "id": "E32",
+    "name": "Brazilian Dance",
+    "unlock": "Level",
+    "amount": 50,
+    "catalogId": "76636280785091",
+    "animationId": "138980897636026"
+  }
+]

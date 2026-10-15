@@ -1,0 +1,123 @@
+local Players        = game:GetService("Players")
+local RunService     = game:GetService("RunService")
+local TweenService   = game:GetService("TweenService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ArenaTravelClient = require(ReplicatedStorage:WaitForChild("ArenaTravelClient"))
+
+local player     = Players.LocalPlayer
+local playerGui  = player:WaitForChild("PlayerGui")
+local character  = player.Character or player.CharacterAdded:Wait()
+
+player.CharacterAdded:Connect(function(c)
+    character = c
+end)
+
+local mmz       = workspace:WaitForChild("Lobby_MainModeZone")
+local spawnPart = mmz:WaitForChild("MainModeSpawn")
+local ringOuter = mmz:WaitForChild("RingOuter")
+
+local RING_RADIUS = 11
+
+local C = {
+    bg      = Color3.fromRGB(18, 12, 36),
+    panel   = Color3.fromRGB(32, 20, 62),
+    border  = Color3.fromRGB(148, 88, 255),
+    accent  = Color3.fromRGB(180, 120, 255),
+    btnBg   = Color3.fromRGB(50, 28, 98),
+    btnHov  = Color3.fromRGB(78, 48, 145),
+    btnTxt  = Color3.fromRGB(230, 210, 255),
+    title   = Color3.fromRGB(220, 190, 255),
+    sub     = Color3.fromRGB(155, 130, 195),
+    close   = Color3.fromRGB(200, 70, 95),
+    play    = Color3.fromRGB(90, 215, 130),
+    playTxt = Color3.fromRGB(15, 55, 28),
+    gold    = Color3.fromRGB(255, 210, 80),
+    lock    = Color3.fromRGB(90, 80, 120),
+    lockTxt = Color3.fromRGB(140, 120, 170),
+    arena   = Color3.fromRGB(22, 14, 48),
+    arenaBorder = Color3.fromRGB(255, 180, 50),
+}
+
+local function corner(p, r)
+    Instance.new("UICorner", p).CornerRadius = UDim.new(0, r or 14)
+end
+local function stroke(p, col, thick)
+    local s = Instance.new("UIStroke", p)
+    s.Color = col or C.border; s.Thickness = thick or 2
+end
+
+local playGui = playerGui:WaitForChild("PlayButtonGui")
+local playBtn = playGui:WaitForChild("PlayBtn")
+playBtn.Activated:Connect(function()
+    local success, message = ArenaTravelClient.toLobbyPortal()
+    if not success then warn(message) end
+end)
+
+local ModePickerUI = require(ReplicatedStorage:WaitForChild("ModePickerUI"))
+local modeGui = ModePickerUI.build(playerGui)
+local mainBtn = modeGui.Panel.Content.Main
+
+local arenaGui = Instance.new("ScreenGui")
+arenaGui.Name = "ArenaSelectGui"; arenaGui.ResetOnSpawn = false
+arenaGui.IgnoreGuiInset = true; arenaGui.Enabled = false; arenaGui.Parent = playerGui
+
+local aOverlay = Instance.new("Frame", arenaGui)
+aOverlay.Size = UDim2.new(1,0,1,0)
+aOverlay.BackgroundColor3 = Color3.fromRGB(0,0,0)
+aOverlay.BackgroundTransparency = 0.45
+aOverlay.BorderSizePixel = 0
+
+local aPanel = Instance.new("Frame", arenaGui)
+aPanel.Name = "ArenaPanel"
+aPanel.Size = UDim2.new(0, 700, 0, 520)
+aPanel.Position = UDim2.new(0.5,-350,0.5,-260)
+aPanel.BackgroundColor3 = C.arena
+aPanel.BorderSizePixel = 0
+corner(aPanel, 26)
+stroke(aPanel, C.arenaBorder, 3)
+
+local aHeader = Instance.new("Frame", aPanel)
+aHeader.Size = UDim2.new(1,0,0,58)
+aHeader.Position = UDim2.new(0,0,0,0)
+aHeader.BackgroundColor3 = Color3.fromRGB(28, 18, 55)
+aHeader.BorderSizePixel = 0
+corner(aHeader, 26)
+
+local aHeaderFill = Instance.new("Frame", aPanel)
+aHeaderFill.Size = UDim2.new(1,0,0,28)
+aHeaderFill.Position = UDim2.new(0,0,0,30)
+aHeaderFill.BackgroundColor3 = Color3.fromRGB(28, 18, 55)
+aHeaderFill.BorderSizePixel = 0
+
+local aTitle = Instance.new("TextLabel", aHeader)
+aTitle.Size = UDim2.new(1,-60,1,0)
+aTitle.Position = UDim2.new(0,20,0,0)
+aTitle.BackgroundTransparency = 1
+aTitle.Text = "📍  Select Arena"
+aTitle.TextColor3 = C.gold
+aTitle.Font = Enum.Font.GothamBold
+aTitle.TextSize = 22
+aTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+local aClose = Instance.new("TextButton", aHeader)
+aClose.Size = UDim2.new(0,34,0,34)
+aClose.Position = UDim2.new(1,-44,0.5,-17)
+aClose.BackgroundColor3 = C.close
+aClose.Text = "✕"; aClose.TextColor3 = Color3.fromRGB(255,255,255)
+aClose.Font = Enum.Font.GothamBold; aClose.TextSize = 16
+aClose.BorderSizePixel = 0
+corner(aClose, 17)
+aClose.Activated:Connect(function()
+    aPanel.Size = UDim2.new(0,700,0,520)
+    aPanel.Position = UDim2.new(0.5,-350,0.5,-260)
+    TweenService:Create(aPanel, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
+        { Size=UDim2.new(0,700,0,10), Position=UDim2.new(0.5,-350,0.5,-5) }):Play()
+    task.delay(0.2, function() arenaGui.Enabled = false end)
+end)
+
+local card = Instance.new("Frame", aPanel)
+card.Name = "Arena1Card"
+card.Size = UDim2.new(0, 640, 0, 390)
+card.Position = UDim2.new(0.5,-320,0,72)
+card.BackgroundColor3 = Color3.fromRGB(28, 16, 54)
+card.Bor

@@ -1,0 +1,784 @@
+{
+  "records": [
+    {
+      "sceneOccupancy": 0.1700157672401444,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundShell.Wallet/CoinsCaption",
+        "Text overflow: PlaygroundSessionControls.CompactToggle/Label",
+        "Text overflow: PlaygroundSessionControls.CompactSpectate/Label"
+      ],
+      "viewport": "phone_landscape_reference",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 222.36000061035156,
+          "x": 304,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 720,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 676.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 314,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 194,
+          "x": 704,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 307,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.3132009212127035,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundShell.Wallet/CoinsCaption",
+        "Text overflow: PlaygroundSessionControls.CompactToggle/Label",
+        "Text overflow: PlaygroundSessionControls.CompactSpectate/Label"
+      ],
+      "viewport": "phone_landscape_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 182.39999389648438,
+          "x": 162,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 480,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 436.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 172,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 464,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 165,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.2275957998585547,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundShell.Wallet/CoinsCaption",
+        "Text overflow: PlaygroundSessionControls.CompactToggle/Label",
+        "Text overflow: PlaygroundSessionControls.CompactSpectate/Label"
+      ],
+      "viewport": "phone_landscape_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 213.75,
+          "x": 211.5,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 579,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 535.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 221.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 563,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 214.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.17294750103178086,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundShell.Wallet/CoinsCaption",
+        "Text overflow: PlaygroundSessionControls.CompactToggle/Label",
+        "Text overflow: PlaygroundSessionControls.CompactSpectate/Label"
+      ],
+      "viewport": "phone_landscape_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 210.3300018310547,
+          "x": 300,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 712,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 668.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 310,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 696,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 303,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.3132009212127035,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundShell.Wallet/CoinsCaption",
+        "Text overflow: PlaygroundSessionControls.PortraitToggle/Label",
+        "Text overflow: PlaygroundSessionControls.PortraitSpectate/Label"
+      ],
+      "viewport": "phone_portrait_small",
+      "failures": [
+        "Overlap 157px²: PlaygroundToyHotbar.Bar / PlaygroundFishingHUD.PortraitDock"
+      ],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 332.3599853515625,
+          "x": 38,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 172,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 188.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 41,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 68,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 296,
+          "x": 112,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 48,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 120,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.2275957998585547,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundShell.Wallet/CoinsCaption",
+        "Text overflow: PlaygroundSessionControls.PortraitToggle/Label",
+        "Text overflow: PlaygroundSessionControls.PortraitSpectate/Label"
+      ],
+      "viewport": "phone_portrait_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 388.7900085449219,
+          "x": 65.5,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 199.5,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 243.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 68.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 95.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 296,
+          "x": 139.5,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 75.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 147.5,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.17294750103178086,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundShell.Wallet/CoinsCaption",
+        "Text overflow: PlaygroundSessionControls.PortraitToggle/Label",
+        "Text overflow: PlaygroundSessionControls.PortraitSpectate/Label"
+      ],
+      "viewport": "phone_portrait_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 480.6199951171875,
+          "x": 73,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 214,
+          "x": 207,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 108,
+          "x": 258.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 108,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 164,
+          "x": 76,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 214,
+          "x": 103,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 320,
+          "x": 147,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 268,
+          "x": 83,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 214,
+          "x": 155,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.07238693166048811,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundShell.Wallet/CoinsCaption",
+        "Text overflow: PlaygroundSessionControls.PortraitToggle/Label",
+        "Text overflow: PlaygroundSessionControls.PortraitSpectate/Label"
+      ],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 582.5999755859375,
+          "x": 262,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 194,
+          "x": 396,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 636.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 265,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 194,
+          "x": 292,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 300,
+          "x": 336,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 248,
+          "x": 272,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 194,
+          "x": 344,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0742810567220052,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundSessionControls.CompactToggle/Label",
+        "Text overflow: PlaygroundSessionControls.CompactSpectate/Label"
+      ],
+      "viewport": "ipad_landscape",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 436.67999267578125,
+          "x": 390,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 936,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 873.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 400,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 194,
+          "x": 920,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 393,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.055724397130647134,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [
+        "Text overflow: PlaygroundSessionControls.CompactToggle/Label",
+        "Text overflow: PlaygroundSessionControls.CompactSpectate/Label"
+      ],
+      "viewport": "laptop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 437.760009765625,
+          "x": 560.5,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 1277,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1214.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 570.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 1261,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 563.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.06263888888888888,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 615.5999755859375,
+          "x": 838,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1722,
+          "height": 56,
+          "width": 190
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 128,
+          "x": 74,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 70,
+          "x": 780,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 128,
+          "x": 18,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 889.9999389648438,
+          "x": 18,
+          "height": 108,
+          "width": 358
+        },
+        "PlaygroundFishingHUD.DesktopDock": {
+          "y": 974,
+          "x": 1754,
+          "height": 88,
+          "width": 148
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 838,
+          "x": 18,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundShell.Dock": {
+          "y": 1014,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        }
+      },
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "productionChanged": false,
+  "playStarted": false,
+  "insetsEmulated": true
+}

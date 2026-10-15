@@ -1,0 +1,996 @@
+{
+  "studioId": "a6fea703-0c19-4811-ba3e-0e9f90090fe9",
+  "datamodel": "Edit",
+  "nativeMutation": false,
+  "nativeGuiCount": 30,
+  "svgCount": 20,
+  "nativeDedupeCount": 18,
+  "runtimeEmojiVariants": 2,
+  "sources": [
+    {
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate",
+      "locator": "ReplicatedStorage[1]/BritishBulldogAssets[1]/TaggedTemplate[1]",
+      "class": "BillboardGui",
+      "enabledInSource": true,
+      "file": "Overhead-Tagged.svg",
+      "canvas": [
+        160,
+        54
+      ],
+      "host": null
+    },
+    {
+      "path": "ReplicatedStorage.TagAssets.TaggerTemplate",
+      "locator": "ReplicatedStorage[1]/TagAssets[1]/TaggerTemplate[1]",
+      "class": "BillboardGui",
+      "enabledInSource": true,
+      "file": "Overhead-Youre-It.svg",
+      "canvas": [
+        120,
+        48
+      ],
+      "host": null
+    },
+    {
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate",
+      "locator": "ReplicatedStorage[1]/MudAssets[1]/MuddyTemplate[1]",
+      "class": "BillboardGui",
+      "enabledInSource": false,
+      "file": "Overhead-Stuck.svg",
+      "canvas": [
+        170,
+        42
+      ],
+      "host": null
+    },
+    {
+      "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork",
+      "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[1]/TitleArtwork[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "Arena-British-Bulldog-Title.svg",
+      "canvas": [
+        1736,
+        204.40000534057617
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[1]",
+        "color": [
+          255,
+          224,
+          136
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel",
+        "size": [
+          124,
+          14.600000381469727,
+          0.20000000298023224
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork",
+      "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[2]/TitleArtwork[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "Arena-British-Bulldog-Title.svg",
+      "canvas": [
+        1736,
+        204.40000534057617
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/ArenaWalls[1]/TitleCreamPanel[2]",
+        "color": [
+          255,
+          224,
+          136
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel",
+        "size": [
+          124,
+          14.600000381469727,
+          0.20000000298023224
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Room-4.svg",
+      "canvas": [
+        352,
+        83.19999694824219
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.ClassroomFacade.RoomPlaque",
+        "size": [
+          11,
+          2.5999999046325684,
+          0.5
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-1.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-2.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-3.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]",
+        "color": [
+          92,
+          209,
+          166
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-4.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-5.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-6.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]",
+        "color": [
+          92,
+          209,
+          166
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-7.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-8.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Class-4B.svg",
+      "canvas": [
+        166.39999389648438,
+        192
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper",
+        "size": [
+          5.199999809265137,
+          6,
+          0.20000000298023224
+        ]
+      }
+    },
+    {
+      "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Sports-Day.svg",
+      "canvas": [
+        166.39999389648438,
+        192
+      ],
+      "host": {
+        "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper",
+        "size": [
+          5.199999809265137,
+          6,
+          0.20000000298023224
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Room-4.svg",
+      "canvas": [
+        352,
+        83.19999694824219
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassroomFacade[1]/RoomPlaque[1]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.ClassroomFacade.RoomPlaque",
+        "size": [
+          11,
+          2.5999999046325684,
+          0.5
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-1.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[1]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-2.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[2]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-3.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[3]",
+        "color": [
+          92,
+          209,
+          166
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-4.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[4]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-5.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[5]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-6.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[6]",
+        "color": [
+          92,
+          209,
+          166
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-7.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[7]",
+        "color": [
+          255,
+          203,
+          68
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Hopscotch-8.svg",
+      "canvas": [
+        147.1999969482422,
+        147.1999969482422
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/PaintedSchoolGames[1]/HopscotchSquare[8]",
+        "color": [
+          255,
+          127,
+          121
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare",
+        "size": [
+          4.599999904632568,
+          0.12999999523162842,
+          4.599999904632568
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Class-4B.svg",
+      "canvas": [
+        166.39999389648438,
+        192
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[1]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper",
+        "size": [
+          5.199999809265137,
+          6,
+          0.20000000298023224
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+      "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]/ClassDetail[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "School-Sports-Day.svg",
+      "canvas": [
+        166.39999389648438,
+        192
+      ],
+      "host": {
+        "locator": "Workspace[1]/Tag You're It[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]",
+        "color": [
+          255,
+          243,
+          200
+        ],
+        "transparency": 0,
+        "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper",
+        "size": [
+          5.199999809265137,
+          6,
+          0.20000000298023224
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Playground Lobby.VotingAlcove.BritishBulldogStand.ChoiceCardFace.GameName",
+      "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/BritishBulldogStand[1]/ChoiceCardFace[1]/GameName[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "Vote-Stand-British-Bulldog.svg",
+      "canvas": [
+        695.3999519348145,
+        165.2999997138977
+      ],
+      "host": {
+        "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/BritishBulldogStand[1]/ChoiceCardFace[1]",
+        "color": [
+          94,
+          179,
+          232
+        ],
+        "transparency": 0,
+        "path": "Workspace.Playground Lobby.VotingAlcove.BritishBulldogStand.ChoiceCardFace",
+        "size": [
+          13.907999038696289,
+          3.305999994277954,
+          0.15199999511241913
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Playground Lobby.VotingAlcove.TagYoureItStand.ChoiceCardFace.GameName",
+      "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/TagYoureItStand[1]/ChoiceCardFace[1]/GameName[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "Vote-Stand-Tag-Youre-It.svg",
+      "canvas": [
+        695.3999519348145,
+        165.2999997138977
+      ],
+      "host": {
+        "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/TagYoureItStand[1]/ChoiceCardFace[1]",
+        "color": [
+          250,
+          154,
+          177
+        ],
+        "transparency": 0,
+        "path": "Workspace.Playground Lobby.VotingAlcove.TagYoureItStand.ChoiceCardFace",
+        "size": [
+          13.907999038696289,
+          3.305999994277954,
+          0.15199999511241913
+        ]
+      }
+    },
+    {
+      "path": "Workspace.Playground Lobby.VotingAlcove.StuckInTheMudStand.ChoiceCardFace.GameName",
+      "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/StuckInTheMudStand[1]/ChoiceCardFace[1]/GameName[1]",
+      "class": "SurfaceGui",
+      "enabledInSource": true,
+      "file": "Vote-Stand-Stuck-In-The-Mud.svg",
+      "canvas": [
+        695.3999519348145,
+        165.2999997138977
+      ],
+      "host": {
+        "locator": "Workspace[1]/Playground Lobby[1]/VotingAlcove[1]/StuckInTheMudStand[1]/ChoiceCardFace[1]",
+        "color": [
+          111,
+          196,
+          151
+        ],
+        "transparency": 0,
+        "path": "Workspace.Playground Lobby.VotingAlcove.StuckInTheMudStand.ChoiceCardFace",
+        "size": [
+          13.907999038696289,
+          3.305999994277954,
+          0.15199999511241913
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "Arena-British-Bulldog-Title.svg",
+      "sha256": "aaa540161753a8b42366cfc27485e9f6d3631fabc52777884c74ff723ba2ea25",
+      "width": 1736.0,
+      "height": 204.4,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Luckiest Guy"
+      ]
+    },
+    {
+      "file": "Emoji-Bubble-Heart.svg",
+      "sha256": "d295eaf6228a1c69105fb50e34b84ce626bd50db40d0f4c6d6fd8aabfe36a14b",
+      "width": 84.0,
+      "height": 84.0,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Arimo"
+      ]
+    },
+    {
+      "file": "Emoji-Bubble-Star.svg",
+      "sha256": "81c68ca0b2e6598085b1810c61873a48112ec87780b2518fd0b0b647a147f10b",
+      "width": 84.0,
+      "height": 84.0,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Arimo"
+      ]
+    },
+    {
+      "file": "Overhead-Stuck.svg",
+      "sha256": "54802491fe4ea5fe251b45bdd9394ae355c52925f090de808eefa763e686acee",
+      "width": 178.0,
+      "height": 50.0,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Luckiest Guy"
+      ]
+    },
+    {
+      "file": "Overhead-Tagged.svg",
+      "sha256": "3a859d491a2666f07b56fb997c9d413f1df4252f535ebf89300971d6d9d87964",
+      "width": 168.0,
+      "height": 62.0,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Luckiest Guy"
+      ]
+    },
+    {
+      "file": "Overhead-Youre-It.svg",
+      "sha256": "8613be431cc6b271281d676d1c1d6b2c406de2c1dcf4514269174b50ec8ed456",
+      "width": 128.0,
+      "height": 56.0,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Luckiest Guy"
+      ]
+    },
+    {
+      "file": "School-Class-4B.svg",
+      "sha256": "79a9e79b23d75aa9c8e400d303b072ebd472426f603e7437d140d88a9b358266",
+      "width": 166.4,
+      "height": 192.0,
+      "liveTextElements": 1,
+      "textImporterLines": 2,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Hopscotch-1.svg",
+      "sha256": "8047f25705f95bf41e89a1d43f5079442397c8691363dbc7d02fe01855bd1d22",
+      "width": 147.2,
+      "height": 147.2,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Hopscotch-2.svg",
+      "sha256": "6fab0eaf53ff45c51a5d6fbcfe1427bdc4556d614f55ed6ec44e078060c7cfc3",
+      "width": 147.2,
+      "height": 147.2,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Hopscotch-3.svg",
+      "sha256": "a71bad6b1dc35e57aae37e306819bf98c02e39501e6a35811aed7bdf55ad424f",
+      "width": 147.2,
+      "height": 147.2,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Hopscotch-4.svg",
+      "sha256": "8b8a42d953c4892fc5deca2508caefa7029a6b63e841a986a758d280dbf1d78f",
+      "width": 147.2,
+      "height": 147.2,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Hopscotch-5.svg",
+      "sha256": "a3bc09f22ec66ed03aec3d1c94e6de5dc925c8c54772febc202e7ee057522c62",
+      "width": 147.2,
+      "height": 147.2,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Hopscotch-6.svg",
+      "sha256": "94c5e4e6a67f98ab7042fe7fdbecc508ee079d5b37377f958508b302b2de5717",
+      "width": 147.2,
+      "height": 147.2,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Hopscotch-7.svg",
+      "sha256": "449453b267da83f52202d262628d60c262902af7f364098e09b01691d8da0061",
+      "width": 147.2,
+      "height": 147.2,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Hopscotch-8.svg",
+      "sha256": "4ab2221bae95fcb824899b93e2359209bd39511cf7d9b755bd463a3671f89efc",
+      "width": 147.2,
+      "height": 147.2,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Room-4.svg",
+      "sha256": "d14f9151fc313a0e9df0ac1827307c0d7bf71f25bb9b69288a21f81e64d7bd72",
+      "width": 352.0,
+      "height": 83.2,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "School-Sports-Day.svg",
+      "sha256": "850e898164ce38971db8d9f7b29964a23a6ddcee80e0d7d5d306eb4dda4aaac7",
+      "width": 166.4,
+      "height": 192.0,
+      "liveTextElements": 1,
+      "textImporterLines": 2,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "Vote-Stand-British-Bulldog.svg",
+      "sha256": "5ce940d4692517c085cd3a7f03a13d391f02f57a52053cfb58355de0407ef21b",
+      "width": 695.4,
+      "height": 165.3,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "Vote-Stand-Stuck-In-The-Mud.svg",
+      "sha256": "e1c72969a8ad3928f178e12748f5b0138aaaadfe11c90c43b82c4074e6360c67",
+      "width": 695.4,
+      "height": 165.3,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    },
+    {
+      "file": "Vote-Stand-Tag-Youre-It.svg",
+      "sha256": "f9fa1b5f04c3a057afbdbd69c6ae5f294b7a31c64e0fd413e3b19936eb81612c",
+      "width": 695.4,
+      "height": 165.3,
+      "liveTextElements": 1,
+      "textImporterLines": 1,
+      "fonts": [
+        "Fredoka One"
+      ]
+    }
+  ],
+  "fontSources": {
+    "Luckiest Guy": {
+      "fontFile": "LuckiestGuy-Regular.ttf",
+      "sha256": "27642d3c0ef4bb18602b9b525df500d60f0c2c83b47f50512dd3aa48de0ea1a4"
+    },
+    "Fredoka One": {
+      "fontFile": "FredokaOne-Regular.ttf",
+      "sha256": "08a0193637baffaa1d9926085fe2a2716c1ce06136b74a9627e61663649c0f37"
+    },
+    "Arimo": {
+      "fontFile": "Arimo-Regular.ttf",
+      "sha256": "f770502d7caad307e5b2131d4d763e22ed506ae4eb93775e29667bd0f8d3af1f"
+    }
+  },
+  "notes": [
+    "Every original native Gui path has a corresponding SVG. Sibling-indexed locator paths disambiguate repeated object names.",
+    "Identical school artwork and British Bulldog arena titles are shared across original instances.",
+    "Native disabled billboards are exported visibly as standalone editable artwork.",
+    "Surface host part color is included as a separately named editable vector backplate.",
+    "World scene lighting, perspective and 3D host geometry are not baked into 2D artwork.",
+    "TextScaled uses installed Roblox TrueType advance widths with integer font-size fitting. Captured TextService measurements are also retained in the snapshot. Live SVG text metrics can differ slightly from Roblox.",
+    "Runtime emoji font is the TextLabel engine default LegacyArial, whose Roblox font is Arimo; glyph fallback depends on locally installed fonts.",
+    "All art contains editable SVG text and primitive shapes; no bitmap embeddings.",
+    "Optional playground-text-layers metadata stores one editable text-importer record per rendered line. Coordinates are relative to the SVG viewport; y is the line-box top. The helper is not executed by the exporter."
+  ]
+}

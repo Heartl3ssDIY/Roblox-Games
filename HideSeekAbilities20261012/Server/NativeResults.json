@@ -1,0 +1,839 @@
+{
+  "checkCount": 208,
+  "errors": [],
+  "passed": true,
+  "checks": [
+    {
+      "name": "Only suitable tagged props are eligible",
+      "passed": true
+    },
+    {
+      "name": "Storage displays correct kind",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "School sprint capacity is twenty-five seconds",
+      "passed": true
+    },
+    {
+      "name": "Hider can begin sprinting",
+      "passed": true
+    },
+    {
+      "name": "One sprint second uses one of twenty-five seconds",
+      "passed": true
+    },
+    {
+      "name": "School can sprint from a partially recharged bar",
+      "passed": true
+    },
+    {
+      "name": "School empty stamina stops sprinting",
+      "passed": true
+    },
+    {
+      "name": "First positive recharge immediately resumes school sprint",
+      "passed": true
+    },
+    {
+      "name": "School sprint releases without a recharge gate",
+      "passed": true
+    },
+    {
+      "name": "School refill caps at twenty-five",
+      "passed": true
+    },
+    {
+      "name": "Only hiders receive random prop morphs",
+      "passed": true
+    },
+    {
+      "name": "Prop identity is replicated on player and character",
+      "passed": true
+    },
+    {
+      "name": "Bat reach remains ten studs",
+      "passed": true
+    },
+    {
+      "name": "Locker interaction uses F and controller X",
+      "passed": true
+    },
+    {
+      "name": "Wrong roles cannot use other side abilities",
+      "passed": true
+    },
+    {
+      "name": "Unknown and malformed actions are rejected",
+      "passed": true
+    },
+    {
+      "name": "Hider switches object",
+      "passed": true
+    },
+    {
+      "name": "Switch chooses a different eligible object",
+      "passed": true
+    },
+    {
+      "name": "Switch replicates its three second cooldown",
+      "passed": true
+    },
+    {
+      "name": "Switch cannot spam",
+      "passed": true
+    },
+    {
+      "name": "Switch reusable after cooldown",
+      "passed": true
+    },
+    {
+      "name": "Hider places grounded decoy",
+      "passed": true
+    },
+    {
+      "name": "Decoy is exact current prop identity",
+      "passed": true
+    },
+    {
+      "name": "Decoy preserves visible object size",
+      "passed": true
+    },
+    {
+      "name": "Decoy has cartoon outline",
+      "passed": true
+    },
+    {
+      "name": "Decoy parts cannot obstruct map",
+      "passed": true
+    },
+    {
+      "name": "Decoy has no avatar weld",
+      "passed": true
+    },
+    {
+      "name": "Decoy has no avatar weld",
+      "passed": true
+    },
+    {
+      "name": "Decoy parts cannot obstruct map",
+      "passed": true
+    },
+    {
+      "name": "Decoy has no avatar weld",
+      "passed": true
+    },
+    {
+      "name": "Decoy cannot spam",
+      "passed": true
+    },
+    {
+      "name": "Decoy counter replicates",
+      "passed": true
+    },
+    {
+      "name": "Swing can target decoy",
+      "passed": true
+    },
+    {
+      "name": "Wall protects decoy against through-wall hits",
+      "passed": true
+    },
+    {
+      "name": "Decoy swing after cooldown",
+      "passed": true
+    },
+    {
+      "name": "Ten-stud bat hits stationary decoy",
+      "passed": true
+    },
+    {
+      "name": "Decoy hit reveals owner for five seconds",
+      "passed": true
+    },
+    {
+      "name": "Decoy never converts or rewards tag",
+      "passed": true
+    },
+    {
+      "name": "Decoy hit consumes bat swing",
+      "passed": true
+    },
+    {
+      "name": "Behind decoy placed",
+      "passed": true
+    },
+    {
+      "name": "Behind-facing swing starts",
+      "passed": true
+    },
+    {
+      "name": "Swing does not hit behind player",
+      "passed": true
+    },
+    {
+      "name": "Repeated decoy after cooldown 1",
+      "passed": true
+    },
+    {
+      "name": "Repeated decoy after cooldown 2",
+      "passed": true
+    },
+    {
+      "name": "Repeated decoy after cooldown 3",
+      "passed": true
+    },
+    {
+      "name": "Fourth placement replaces oldest; at most three active",
+      "passed": true
+    },
+    {
+      "name": "Decoy owner can hide in wardrobe",
+      "passed": true
+    },
+    {
+      "name": "Locker name is replicated for scan visual",
+      "passed": true
+    },
+    {
+      "name": "No object switch or decoy while inside wardrobe",
+      "passed": true
+    },
+    {
+      "name": "Seeker scan starts",
+      "passed": true
+    },
+    {
+      "name": "Scan duration is ten seconds then sixty cooldown",
+      "passed": true
+    },
+    {
+      "name": "Scan reveals both world and locker hiders",
+      "passed": true
+    },
+    {
+      "name": "Scan reason and source replicate",
+      "passed": true
+    },
+    {
+      "name": "Scan cannot spam",
+      "passed": true
+    },
+    {
+      "name": "Shorter decoy reveal cannot truncate scan",
+      "passed": true
+    },
+    {
+      "name": "Leaving wardrobe clears scanner locker target",
+      "passed": true
+    },
+    {
+      "name": "Switching objects cannot evade reveal",
+      "passed": true
+    },
+    {
+      "name": "Active scan expires after ten",
+      "passed": true
+    },
+    {
+      "name": "Cooldown begins after active phase",
+      "passed": true
+    },
+    {
+      "name": "Cannot rescan before full minute cooldown",
+      "passed": true
+    },
+    {
+      "name": "Scan reusable exactly after cooldown",
+      "passed": true
+    },
+    {
+      "name": "Character cleanup preserves scan cooldown against respawn abuse",
+      "passed": true
+    },
+    {
+      "name": "Owner cleanup removes all decoys and reveal",
+      "passed": true
+    },
+    {
+      "name": "Owner cleanup leaves no decoy instances",
+      "passed": true
+    },
+    {
+      "name": "Abilities forbidden during countdown",
+      "passed": true
+    },
+    {
+      "name": "Abilities forbidden during results",
+      "passed": true
+    },
+    {
+      "name": "Frozen hider cannot use abilities",
+      "passed": true
+    },
+    {
+      "name": "Ragdolled hider cannot use abilities",
+      "passed": true
+    },
+    {
+      "name": "Airborne hider cannot leave floating decoy",
+      "passed": true
+    },
+    {
+      "name": "Out of bounds hider cannot use abilities",
+      "passed": true
+    },
+    {
+      "name": "Nonparticipants cannot use abilities",
+      "passed": true
+    },
+    {
+      "name": "Hider keeps decoy until conversion",
+      "passed": true
+    },
+    {
+      "name": "Prop bottom rests at avatar feet",
+      "passed": true
+    },
+    {
+      "name": "Morph retains template scale",
+      "passed": true
+    },
+    {
+      "name": "Morph has black occluded outline",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Head",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Handle",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Right Leg",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: HumanoidRootPart",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Right Arm",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Left Leg",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Left Arm",
+      "passed": true
+    },
+    {
+      "name": "Avatar collider and rig size remain unchanged: Torso",
+      "passed": true
+    },
+    {
+      "name": "Visible prop is massless welded decoration",
+      "passed": true
+    },
+    {
+      "name": "Late avatar accessories and sparkles stay concealed",
+      "passed": true
+    },
+    {
+      "name": "Morphed hider can enter wardrobe",
+      "passed": true
+    },
+    {
+      "name": "Wardrobe conceals prop and outline",
+      "passed": true
+    },
+    {
+      "name": "Hider can leave wardrobe",
+      "passed": true
+    },
+    {
+      "name": "Leaving wardrobe reveals prop only",
+      "passed": true
+    },
+    {
+      "name": "Wardrobe can be occupied again",
+      "passed": true
+    },
+    {
+      "name": "Seeker can find and convert wardrobe occupant",
+      "passed": true
+    },
+    {
+      "name": "Conversion clears decoy and reveal",
+      "passed": true
+    },
+    {
+      "name": "Conversion removes prop before ragdoll",
+      "passed": true
+    },
+    {
+      "name": "Conversion restores avatar face and late accessory",
+      "passed": true
+    },
+    {
+      "name": "Converted seeker recovers normally",
+      "passed": true
+    },
+    {
+      "name": "Seeker can swing at a prop",
+      "passed": true
+    },
+    {
+      "name": "Prop cannot be tagged through walls",
+      "passed": true
+    },
+    {
+      "name": "Seeker can swing again after cooldown",
+      "passed": true
+    },
+    {
+      "name": "Prop tags at 9.9 studs convert and reveal avatar",
+      "passed": true
+    },
+    {
+      "name": "Admin stop restores all originals",
+      "passed": true
+    },
+    {
+      "name": "Admin stop clears hiding flags",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Missing morph is repaired instead of invisible hider",
+      "passed": true
+    },
+    {
+      "name": "Respawn returns visible seeker with no stale morph",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Decoy may exist before owner death",
+      "passed": true
+    },
+    {
+      "name": "Death removes owner decoys and reveal",
+      "passed": true
+    },
+    {
+      "name": "Death cleans prop and converts hider",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Decoy may exist at round end",
+      "passed": true
+    },
+    {
+      "name": "Five minute timeout awards surviving hiders",
+      "passed": true
+    },
+    {
+      "name": "Results clear every decoy immediately",
+      "passed": true
+    },
+    {
+      "name": "Results reveal avatars and remove all props",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Decoy may exist before owner leaves",
+      "passed": true
+    },
+    {
+      "name": "Leaving removes decoys immediately",
+      "passed": true
+    },
+    {
+      "name": "Unavailable props cancel startup rather than invisible play",
+      "passed": true
+    },
+    {
+      "name": "Failed start restores all participant flags",
+      "passed": true
+    },
+    {
+      "name": "Clone failure cancels the prepared round safely",
+      "passed": true
+    },
+    {
+      "name": "Clone failure leaves no hidden avatars",
+      "passed": true
+    },
+    {
+      "name": "Round accepts eligible connected players",
+      "passed": true
+    },
+    {
+      "name": "Countdown starts",
+      "passed": true
+    },
+    {
+      "name": "Countdown becomes hiding",
+      "passed": true
+    },
+    {
+      "name": "One initial seeker",
+      "passed": true
+    },
+    {
+      "name": "Seeker frozen while hiders move",
+      "passed": true
+    },
+    {
+      "name": "Seeker physically held during hiding",
+      "passed": true
+    },
+    {
+      "name": "No early swing during hiding",
+      "passed": true
+    },
+    {
+      "name": "Hiding grace is exactly 30 seconds",
+      "passed": true
+    },
+    {
+      "name": "Seekers remain held before thirty seconds",
+      "passed": true
+    },
+    {
+      "name": "Bell is silent before release",
+      "passed": true
+    },
+    {
+      "name": "Bell rings once at seeker release",
+      "passed": true
+    },
+    {
+      "name": "Heartbeat does not replay bell",
+      "passed": true
+    },
+    {
+      "name": "Hiding becomes seeking",
+      "passed": true
+    },
+    {
+      "name": "Seeker releases for hunting",
+      "passed": true
+    },
+    {
+      "name": "Search lasts exactly five minutes",
+      "passed": true
+    },
+    {
+      "name": "Unrecoverable morph loss cancels rewards",
+      "passed": true
+    },
+    {
+      "name": "Shutdown clears service and no props remain",
+      "passed": true
+    }
+  ]
+}

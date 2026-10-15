@@ -1,0 +1,282 @@
+[
+  {
+    "id": "B16",
+    "category": "Bats",
+    "name": "Fossil Slugger",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b16-fossil-slugger.png",
+    "sha256": "25ae2aa97e8033ba667968542841a9c1a829d8aa04403dcd61f09a8642e30c3f",
+    "url": "http://127.0.0.1:8772/B16.png"
+  },
+  {
+    "id": "B17",
+    "category": "Bats",
+    "name": "Dragon Scale",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b17-dragon-scale.png",
+    "sha256": "2742a91e3609341b6e60bda6d0b0b20412ff2f5704da9811323e1903458faf26",
+    "url": "http://127.0.0.1:8772/B17.png"
+  },
+  {
+    "id": "B18",
+    "category": "Bats",
+    "name": "Breakfast Bonker",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b18-breakfast-bonker.png",
+    "sha256": "ea8037c24e27512c92b1130e04fecd1377da06fdf47c1c6d4e938a1ea410de5f",
+    "url": "http://127.0.0.1:8772/B18.png"
+  },
+  {
+    "id": "B19",
+    "category": "Bats",
+    "name": "Cloud Nine",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b19-cloud-nine.png",
+    "sha256": "36a539309a0004cb839fa31a9e4b1e9a72e361f5bed45e22c2a5274d6179a530",
+    "url": "http://127.0.0.1:8772/B19.png"
+  },
+  {
+    "id": "B20",
+    "category": "Bats",
+    "name": "Bamboo Bruiser",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b20-bamboo-bruiser.png",
+    "sha256": "dda6be8b89db639d07195260870b1d9feef7b2b041ac290bc201346616961c18",
+    "url": "http://127.0.0.1:8772/B20.png"
+  },
+  {
+    "id": "B21",
+    "category": "Bats",
+    "name": "Arcade Combo",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b21-arcade-combo.png",
+    "sha256": "c3cd662d84010bc8f4e20c64e2a12c64631ebc2d4730cb24826ee98cd88bc2ff",
+    "url": "http://127.0.0.1:8772/B21.png"
+  },
+  {
+    "id": "B22",
+    "category": "Bats",
+    "name": "Honeycomb Hitter",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b22-honeycomb-hitter.png",
+    "sha256": "1c9e6108f940dbaff2ebf69c2b6eb6ae2f31fa7e792a029a907f94c4d687ede2",
+    "url": "http://127.0.0.1:8772/B22.png"
+  },
+  {
+    "id": "B23",
+    "category": "Bats",
+    "name": "Clockwork Clobber",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b23-clockwork-clobber.png",
+    "sha256": "35bf3168d966ab3c070f29fb415a37ce856fb4edcfb7db5ab2106eee9e142b40",
+    "url": "http://127.0.0.1:8772/B23.png"
+  },
+  {
+    "id": "B24",
+    "category": "Bats",
+    "name": "Patchwork Popper",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b24-patchwork-popper.png",
+    "sha256": "c77a321313308316dc5cdb6097996540b6090bd9c7d7cb23e94a2e374109e8a4",
+    "url": "http://127.0.0.1:8772/B24.png"
+  },
+  {
+    "id": "B25",
+    "category": "Bats",
+    "name": "Prism Champion",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\UI-512\\b25-prism-champion.png",
+    "sha256": "47fb9d9b1f4733b6161716e5cdcfec2ad98029b7f2371c2945cf3a7e7a59f330",
+    "url": "http://127.0.0.1:8772/B25.png"
+  },
+  {
+    "id": "P21",
+    "category": "Pets",
+    "name": "Crystal Drake",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p21-crystal-drake.png",
+    "sha256": "121f36606a4d92ab4e116c0bee1ae9dfcf97e74652da5ae31eea62b4d628733c",
+    "url": "http://127.0.0.1:8772/P21.png"
+  },
+  {
+    "id": "P22",
+    "category": "Pets",
+    "name": "Ember Wyrmling",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p22-ember-wyrmling.png",
+    "sha256": "0c1014c61f8078beb6f7ef9732516d7851ea1e347e79b80391226aa1eea450f5",
+    "url": "http://127.0.0.1:8772/P22.png"
+  },
+  {
+    "id": "P23",
+    "category": "Pets",
+    "name": "Cloud Pegasus",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p23-cloud-pegasus.png",
+    "sha256": "672729ce5196562ba10493bae0f603566bc44211b42799fbb696b3be43613817",
+    "url": "http://127.0.0.1:8772/P23.png"
+  },
+  {
+    "id": "P24",
+    "category": "Pets",
+    "name": "Suncrest Griffin",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p24-suncrest-griffin.png",
+    "sha256": "5b8f58d4789595e6125167a65cfc73cc7ba0ac34915230e1d4d41618b34e8af0",
+    "url": "http://127.0.0.1:8772/P24.png"
+  },
+  {
+    "id": "P25",
+    "category": "Pets",
+    "name": "Halo Cherub",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p25-halo-cherub.png",
+    "sha256": "c9fffa7eeeaae8a6e47546ebd297f3ceef5b12da36e59d8e97a3806105c91615",
+    "url": "http://127.0.0.1:8772/P25.png"
+  },
+  {
+    "id": "P26",
+    "category": "Pets",
+    "name": "Pebble Triceratops",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p26-pebble-triceratops.png",
+    "sha256": "17590eb4237286c096a30fecb0e8413a0708bff3354ddba4fcea4fcd1c43c4db",
+    "url": "http://127.0.0.1:8772/P26.png"
+  },
+  {
+    "id": "P27",
+    "category": "Pets",
+    "name": "Fern Stegosaurus",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p27-fern-stegosaurus.png",
+    "sha256": "61b851fd2e09360b509900227b5f964f4a163b85131fab88b5bb0001e958af3f",
+    "url": "http://127.0.0.1:8772/P27.png"
+  },
+  {
+    "id": "P28",
+    "category": "Pets",
+    "name": "Sky Pterodactyl",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p28-sky-pterodactyl.png",
+    "sha256": "ce8456465c506351393547cf023b1055dc27caff14c14275355a4e41ce073fd0",
+    "url": "http://127.0.0.1:8772/P28.png"
+  },
+  {
+    "id": "P29",
+    "category": "Pets",
+    "name": "Tundra Mammoth",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p29-tundra-mammoth.png",
+    "sha256": "09c0b024df9230ff79981a04c38ef17712e3a5733db81c98bee05d374d3d75b2",
+    "url": "http://127.0.0.1:8772/P29.png"
+  },
+  {
+    "id": "P30",
+    "category": "Pets",
+    "name": "Crowned Pig",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p30-crowned-pig.png",
+    "sha256": "f211e29c0e155ec79f62e7997b83b82ac3bd56dbb27bc5354ada2c968863c748",
+    "url": "http://127.0.0.1:8772/P30.png"
+  },
+  {
+    "id": "P31",
+    "category": "Pets",
+    "name": "Waffle Tortoise",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p31-waffle-tortoise.png",
+    "sha256": "5b4414604183fd47e70ddec088ed57590ee034e9ad79af83af3689d37b4648d0",
+    "url": "http://127.0.0.1:8772/P31.png"
+  },
+  {
+    "id": "P32",
+    "category": "Pets",
+    "name": "Pancake Pal",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p32-pancake-pal.png",
+    "sha256": "b367446ab82d708861052fbd3dadc19cb311dfc32e7ce9e903bfe3d697cad5e2",
+    "url": "http://127.0.0.1:8772/P32.png"
+  },
+  {
+    "id": "P33",
+    "category": "Pets",
+    "name": "Velvet Jumper",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p33-velvet-jumper-v4.png",
+    "sha256": "df51da309bb61ed29354b7af6a5cddf6d4944e886d13a06dd941335d243f143f",
+    "url": "http://127.0.0.1:8772/P33.png"
+  },
+  {
+    "id": "P34",
+    "category": "Pets",
+    "name": "Patchwork Zombie",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p34-patchwork-zombie.png",
+    "sha256": "b0a3b0ecabb98c91493dcdb1c9fbd119e79cc2c41d6c2054cef6bcaf81d39223",
+    "url": "http://127.0.0.1:8772/P34.png"
+  },
+  {
+    "id": "P35",
+    "category": "Pets",
+    "name": "Sunfeather Phoenix",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\UI-512\\p35-sunfeather-phoenix.png",
+    "sha256": "c340cb26162395fa98ca416c09dca4138fbffd272f0d476615c8036a5164b01a",
+    "url": "http://127.0.0.1:8772/P35.png"
+  },
+  {
+    "id": "M16",
+    "category": "Miscellaneous",
+    "name": "Snowglobe Sip",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m16-snowglobe-sip.png",
+    "sha256": "678764b6c1a4d51324759fc6d9d4d5ca45f4c5c4644b95402818486a959157f3",
+    "url": "http://127.0.0.1:8772/M16.png"
+  },
+  {
+    "id": "M17",
+    "category": "Miscellaneous",
+    "name": "Snowball Lobber",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m17-snowball-lobber.png",
+    "sha256": "8036c67506d94718db1a7ef5db0087dec49e13205d21077c3fca3ec62906b5e4",
+    "url": "http://127.0.0.1:8772/M17.png"
+  },
+  {
+    "id": "M18",
+    "category": "Miscellaneous",
+    "name": "Bubble Blower",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m18-bubble-blower.png",
+    "sha256": "e052b708bb376c6df165c2ba63a6b4daf2b8a45fcd86f1a26606c635ea604ef8",
+    "url": "http://127.0.0.1:8772/M18.png"
+  },
+  {
+    "id": "M19",
+    "category": "Miscellaneous",
+    "name": "Slippy Banana",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m19-slippy-banana.png",
+    "sha256": "8742d93ef225189f37165365f86c160dd8a9b28c09ed58f18565b7c527accb09",
+    "url": "http://127.0.0.1:8772/M19.png"
+  },
+  {
+    "id": "M20",
+    "category": "Miscellaneous",
+    "name": "Spring Glove",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m20-spring-glove.png",
+    "sha256": "c42b5c92a9eab0d3af9aaded961d2ef614b8ef161fef1a1117aa987cb9f8e267",
+    "url": "http://127.0.0.1:8772/M20.png"
+  },
+  {
+    "id": "M21",
+    "category": "Miscellaneous",
+    "name": "Sticky Honey",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m21-sticky-honey.png",
+    "sha256": "e09135ba7e6a765e2c1debcb126e25512adaf1d0993df76689ca898ce57f1321",
+    "url": "http://127.0.0.1:8772/M21.png"
+  },
+  {
+    "id": "M22",
+    "category": "Miscellaneous",
+    "name": "Whoopee Whump",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m22-whoopee-whump.png",
+    "sha256": "138e8c0e96fb7916c566ee4db592ef0a39b1a094d52352d2adeb0daa3e5d62b2",
+    "url": "http://127.0.0.1:8772/M22.png"
+  },
+  {
+    "id": "M23",
+    "category": "Miscellaneous",
+    "name": "Magnet Mover",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m23-magnet-mover.png",
+    "sha256": "f88151fe7cba49a4a17e55e3f6df68f3b2e947236e6ba8d993c3b67eade079c6",
+    "url": "http://127.0.0.1:8772/M23.png"
+  },
+  {
+    "id": "M24",
+    "category": "Miscellaneous",
+    "name": "Ricochet Flyer",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m24-ricochet-flyer.png",
+    "sha256": "c715c32e0a679e1d37df8a0bd5e96657e275d4559939f8be9cbda0f93b57bda1",
+    "url": "http://127.0.0.1:8772/M24.png"
+  },
+  {
+    "id": "M25",
+    "category": "Miscellaneous",
+    "name": "Pop-Up Surprise",
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\UI-512\\m25-pop-up-surprise.png",
+    "sha256": "ac1799c5c04ebabfdd9407eb8756dda6e13094ceb9c99f2371b2c55a8a95bad9",
+    "url": "http://127.0.0.1:8772/M25.png"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "expected_meshes": 159,
+  "imported_meshes": 159,
+  "triangles": 6356,
+  "missing": [],
+  "position_errors": [],
+  "size_errors": [],
+  "material_errors": [],
+  "max_position_error": 4.76837158203125e-07
+}

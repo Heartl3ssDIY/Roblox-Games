@@ -1,0 +1,28 @@
+{
+  "targetWingspanStuds": 3,
+  "sourceMeshCount": 80,
+  "runtimeMeshes": 8,
+  "bones": 14,
+  "exportGlobalScale": 0.01,
+  "runtimeTriangles": 40848,
+  "actions": {
+    "VIP_Hover_Loop": {
+      "frames": 41,
+      "fps": 30
+    },
+    "VIP_Flight_Loop": {
+      "frames": 27,
+      "fps": 30
+    }
+  },
+  "runtimeMeshTriangles": {
+    "VIP_Body_Head_1": 7280,
+    "VIP_Face_1": 6800,
+    "VIP_Face_2": 3856,
+    "VIP_Crown_Horns_1": 6728,
+    "VIP_Paws_1": 7632,
+    "VIP_Paws_2": 1584,
+    "VIP_Tail_1": 1888,
+    "VIP_Wings_1": 5080
+  }
+}

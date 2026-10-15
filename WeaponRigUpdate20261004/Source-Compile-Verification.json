@@ -1,0 +1,87 @@
+[
+  {
+    "name": "ServerScriptService.BritishBulldogService.luau",
+    "exitCode": 0,
+    "output": "Compiled 1 KLOC into 58 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "ServerScriptService.PlaygroundAdminService.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 7 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "ServerScriptService.PlaygroundEquipmentService.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 25 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "ServerScriptService.StuckInTheMudService.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 57 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "ServerScriptService.TagService.luau",
+    "exitCode": 0,
+    "output": "Compiled 1 KLOC into 50 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "ServerScriptService.TagSprintService.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 5 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "StarterGui.PlaygroundAdminPanel.Controller.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 15 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 7 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 6 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "AdminRegressionChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 12 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "BatRigAndAnimationChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 8 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "BulldogNativeRagdollChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 4 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "BulldogSwingChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 9 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "CreateGunPosePreview.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 4 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "EmotesCapabilityReview.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 2 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "MudWeaponChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 7 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "name": "TagBatChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 24 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  }
+]

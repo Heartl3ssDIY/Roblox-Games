@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"backup\":\"ServerStorage.MudMobileUiBackup20261008\",\"buttons\":{\"1\":\"StarterGui.BritishBulldogHUD.MobileSprint\",\"3\":\"StarterGui.MudHUD.Main.MobileSprint\",\"2\":\"StarterGui.TagHUD.MobileSprint\"}}"
+    }
+  ],
+  "isError": false
+}

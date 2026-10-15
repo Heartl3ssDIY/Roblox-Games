@@ -1,0 +1,96 @@
+{
+  "MudGun": {
+    "meshes": 70,
+    "triangles": 19952,
+    "largestMeshTriangles": 1536,
+    "gripOrigin": [
+      0,
+      0,
+      0
+    ],
+    "muzzleRoblox": [
+      0,
+      1,
+      -2.65
+    ],
+    "targetRobloxStudDimensions": [
+      1.6489999741315842,
+      3.5490718773959884,
+      3.6319600899124027
+    ],
+    "fbxSha256": "7e693f93dd3b15a7667662d4b146ab1426024e5d18f5b64f84d8bde701bdb997",
+    "glbSha256": "c582109f67b9979eba17052ed3d0a1edef01741b7b26018dd5b8baf8f12edb78",
+    "embeddedMaterials": 9,
+    "externalAssets": 0,
+    "boundsExport": [
+      [
+        -0.8245000299029535,
+        -0.8299999907612801,
+        -2.686000033887544
+      ],
+      [
+        0.8244999442286307,
+        2.7190718866347083,
+        0.9459600560248588
+      ]
+    ]
+  },
+  "HeatGun": {
+    "meshes": 65,
+    "triangles": 20844,
+    "largestMeshTriangles": 2416,
+    "gripOrigin": [
+      0,
+      0,
+      0
+    ],
+    "muzzleRoblox": [
+      0,
+      1,
+      -2.65
+    ],
+    "targetRobloxStudDimensions": [
+      1.59700009032849,
+      3.539649647908874,
+      3.585960213031504
+    ],
+    "fbxSha256": "ff0f50dc2ffacd0aa5b5d86bdd50287c8107c20062b43a681d704554188cd0ed",
+    "glbSha256": "8fe7f3978c9b10a9daffaf0a6ba23b73d7fe8fd795998f3fd38f295a7c12aff5",
+    "embeddedMaterials": 8,
+    "externalAssets": 0,
+    "boundsExport": [
+      [
+        -0.7985000880014065,
+        -0.8299999907612801,
+        -2.640000157006645
+      ],
+      [
+        0.7985000023270836,
+        2.709649657147594,
+        0.9459600560248588
+      ]
+    ]
+  },
+  "MudHeatGuns.blend": {
+    "bytes": 238605,
+    "sha256": "366cb005e13e80bdcc0726649cf8242094cbfe1b41cd0cbe20e195a406cb66dc"
+  },
+  "MudHeatGun_Preview.png": {
+    "bytes": 1884346,
+    "sha256": "443fe9ec50bfee50b212fed4ebca7dd04456c88b206b6540fa53c5097eb2b026"
+  },
+  "MudGun_Preview.png": {
+    "bytes": 1635164,
+    "sha256": "9ea6e42472ff6a3d317280df4684e561e79472519b686e3f6d0c474c1bb5a52d"
+  },
+  "HeatGun_Preview.png": {
+    "bytes": 1665315,
+    "sha256": "c7daf0d6230af2349d24b33641383adfb5e25bf56beda746d6bc4d8df5479ed8"
+  },
+  "version": 2,
+  "exportGeometryInspected": true,
+  "visuallyReviewed": true,
+  "gameplayRun": false,
+  "robloxMeshImportPerformed": false,
+  "backup": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\GunRefinement20261004\\Before"
+}

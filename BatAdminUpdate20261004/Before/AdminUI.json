@@ -1,0 +1,1752 @@
+[
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Toggle",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 1,
+    "text": "ADMIN",
+    "class": "TextButton",
+    "size": "{0, 112}, {0, 44}",
+    "pos": "{0.0120000001, 0}, {0.0450000018, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Toggle.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Toggle",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://84589903135132",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 1,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Toggle.LiveCaption",
+    "attrs": [],
+    "z": 3,
+    "text": "ADMIN",
+    "class": "TextLabel",
+    "size": "{0.785713971, 0}, {0.569999993, 0}",
+    "pos": "{0.107143, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": false,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel",
+    "attrs": {
+      "UISkinAssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinManaged": true,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 1,
+    "class": "Frame",
+    "size": "{0.289999992, 0}, {0.860000014, 0}",
+    "pos": "{0.0120000001, 0}, {0.125, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Title",
+    "attrs": [],
+    "z": 2,
+    "text": "PLAYGROUND ADMIN",
+    "class": "TextLabel",
+    "size": "{0.769999981, 0}, {0.075000003, 0}",
+    "pos": "{0.0399999991, 0}, {0.0199999996, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Close",
+    "attrs": {
+      "UISkinAssetKey": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 2,
+    "text": "X",
+    "class": "TextButton",
+    "size": "{0.0900000036, 0}, {0.0700000003, 0}",
+    "pos": "{0.86500001, 0}, {0.0250000004, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Close.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://97965639732992",
+      "AssetKey": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Close"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Close.LiveCaption",
+    "attrs": [],
+    "z": 4,
+    "text": "X",
+    "class": "TextLabel",
+    "size": "{0.620287001, 0}, {0.516373992, 0}",
+    "pos": "{0.189845994, 0}, {0.215016007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body",
+    "attrs": [],
+    "z": 2,
+    "class": "ScrollingFrame",
+    "size": "{0.910000026, 0}, {0.625, 0}",
+    "pos": "{0.0450000018, 0}, {0.119999997, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content",
+    "attrs": [],
+    "z": 2,
+    "class": "Frame",
+    "size": "{1, -14}, {0, 644}",
+    "pos": "{0, 4}, {0, 4}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog",
+    "attrs": {
+      "UISkinAssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinManaged": true,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 2,
+    "class": "Frame",
+    "size": "{1, 0}, {0, 204}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.Title",
+    "attrs": [],
+    "z": 3,
+    "text": "BRITISH BULLDOG",
+    "class": "TextLabel",
+    "size": "{0.920000017, 0}, {0.170000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.0299999993, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.Status",
+    "attrs": [],
+    "z": 3,
+    "text": "Ready",
+    "class": "TextLabel",
+    "size": "{0.920000017, 0}, {0.119999997, 0}",
+    "pos": "{0.0399999991, 0}, {0.209999993, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBStart",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "START ROUND",
+    "class": "TextButton",
+    "size": "{0.920000017, 0}, {0.185000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.349999994, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBStart.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBStart",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://84589903135132",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBStart.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "START ROUND",
+    "class": "TextLabel",
+    "size": "{0.919432998, 0}, {0.569999993, 0}",
+    "pos": "{0.0402840003, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBRunner",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO RUNNER",
+    "class": "TextButton",
+    "size": "{0.920000017, 0}, {0.185000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.564999998, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBRunner.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBRunner",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://90528629970043",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBRunner.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO RUNNER",
+    "class": "TextLabel",
+    "size": "{0.919432998, 0}, {0.569999993, 0}",
+    "pos": "{0.0402840003, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBBulldog",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO BULLDOG",
+    "class": "TextButton",
+    "size": "{0.920000017, 0}, {0.185000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.779999971, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBBulldog.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBBulldog",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://96220174131051",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBBulldog.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO BULLDOG",
+    "class": "TextLabel",
+    "size": "{0.919432998, 0}, {0.569999993, 0}",
+    "pos": "{0.0402840003, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://120185559195264",
+      "AssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt",
+    "attrs": {
+      "UISkinAssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinManaged": true,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 2,
+    "class": "Frame",
+    "size": "{1, 0}, {0, 204}",
+    "pos": "{0, 0}, {0, 218}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.Title",
+    "attrs": [],
+    "z": 3,
+    "text": "TAG YOU'RE IT",
+    "class": "TextLabel",
+    "size": "{0.920000017, 0}, {0.170000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.0299999993, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.Status",
+    "attrs": [],
+    "z": 3,
+    "text": "Ready",
+    "class": "TextLabel",
+    "size": "{0.920000017, 0}, {0.119999997, 0}",
+    "pos": "{0.0399999991, 0}, {0.209999993, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagStart",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "START ROUND",
+    "class": "TextButton",
+    "size": "{0.920000017, 0}, {0.185000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.349999994, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagStart.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagStart",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://84589903135132",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagStart.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "START ROUND",
+    "class": "TextLabel",
+    "size": "{0.919432998, 0}, {0.569999993, 0}",
+    "pos": "{0.0402840003, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagRunner",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO RUNNER",
+    "class": "TextButton",
+    "size": "{0.920000017, 0}, {0.185000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.564999998, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagRunner.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagRunner",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://90528629970043",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagRunner.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO RUNNER",
+    "class": "TextLabel",
+    "size": "{0.919432998, 0}, {0.569999993, 0}",
+    "pos": "{0.0402840003, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagTagger",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO TAGGER",
+    "class": "TextButton",
+    "size": "{0.920000017, 0}, {0.185000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.779999971, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagTagger.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagTagger",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://96220174131051",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagTagger.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO TAGGER",
+    "class": "TextLabel",
+    "size": "{0.919432998, 0}, {0.569999993, 0}",
+    "pos": "{0.0402840003, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://120185559195264",
+      "AssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud",
+    "attrs": {
+      "UISkinAssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinManaged": true,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 2,
+    "class": "Frame",
+    "size": "{1, 0}, {0, 204}",
+    "pos": "{0, 0}, {0, 436}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.Title",
+    "attrs": [],
+    "z": 3,
+    "text": "STUCK IN THE MUD",
+    "class": "TextLabel",
+    "size": "{0.920000017, 0}, {0.170000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.0299999993, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.Status",
+    "attrs": [],
+    "z": 3,
+    "text": "Ready",
+    "class": "TextLabel",
+    "size": "{0.920000017, 0}, {0.119999997, 0}",
+    "pos": "{0.0399999991, 0}, {0.209999993, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudStart",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "START ROUND",
+    "class": "TextButton",
+    "size": "{0.920000017, 0}, {0.185000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.349999994, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudStart.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudStart",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://84589903135132",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudStart.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "START ROUND",
+    "class": "TextLabel",
+    "size": "{0.919432998, 0}, {0.569999993, 0}",
+    "pos": "{0.0402840003, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudShooter",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO MUD GUN",
+    "class": "TextButton",
+    "size": "{0.920000017, 0}, {0.185000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.564999998, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudShooter.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudShooter",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://90528629970043",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudShooter.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO MUD GUN",
+    "class": "TextLabel",
+    "size": "{0.919432998, 0}, {0.569999993, 0}",
+    "pos": "{0.0402840003, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudMedic",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO RESCUE",
+    "class": "TextButton",
+    "size": "{0.920000017, 0}, {0.185000002, 0}",
+    "pos": "{0.0399999991, 0}, {0.779999971, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudMedic.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudMedic",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://96220174131051",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudMedic.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO RESCUE",
+    "class": "TextLabel",
+    "size": "{0.919432998, 0}, {0.569999993, 0}",
+    "pos": "{0.0402840003, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://120185559195264",
+      "AssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.StopRound",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 2,
+    "text": "STOP / BACK TO LOBBY",
+    "class": "TextButton",
+    "size": "{0.889999986, 0}, {0.075000003, 0}",
+    "pos": "{0.0549999997, 0}, {0.779999971, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.StopRound.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.StopRound",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://96220174131051",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.StopRound.LiveCaption",
+    "attrs": [],
+    "z": 4,
+    "text": "STOP / BACK TO LOBBY",
+    "class": "TextLabel",
+    "size": "{0.927353978, 0}, {0.569999993, 0}",
+    "pos": "{0.0363229997, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.ToggleAutomatic",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/green-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 2,
+    "text": "AUTO ROUNDS: ON",
+    "class": "TextButton",
+    "size": "{0.889999986, 0}, {0.0599999987, 0}",
+    "pos": "{0.0549999997, 0}, {0.875, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.ToggleAutomatic.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel.ToggleAutomatic",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://78972575698291",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/green-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.ToggleAutomatic.LiveCaption",
+    "attrs": [],
+    "z": 4,
+    "text": "AUTO ROUNDS: ON",
+    "class": "TextLabel",
+    "size": "{0.927353978, 0}, {0.569999993, 0}",
+    "pos": "{0.0363229997, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.Message",
+    "attrs": [],
+    "z": 2,
+    "text": "Choose a game to test.",
+    "class": "TextLabel",
+    "size": "{0.899999976, 0}, {0.0419999994, 0}",
+    "pos": "{0.0500000007, 0}, {0.947000027, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.Panel.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://123875397211996",
+      "AssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.Panel"
+    },
+    "z": 1,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": false,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/panel-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinManaged": true,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 1,
+    "class": "Frame",
+    "size": "{0.289999992, 0}, {1, -82}",
+    "pos": "{0.0120000001, 0}, {0, 64}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Title",
+    "attrs": [],
+    "z": 2,
+    "text": "PLAYGROUND ADMIN",
+    "class": "TextLabel",
+    "size": "{1, -76}, {0, 38}",
+    "pos": "{0, 12}, {0, 10}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Close",
+    "attrs": {
+      "UISkinAssetKey": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 2,
+    "text": "X",
+    "class": "TextButton",
+    "size": "{0, 44}, {0, 44}",
+    "pos": "{1, -54}, {0, 8}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Close.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://97965639732992",
+      "AssetKey": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Close"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Close.LiveCaption",
+    "attrs": [],
+    "z": 4,
+    "text": "X",
+    "class": "TextLabel",
+    "size": "{0.572573006, 0}, {0.617558002, 0}",
+    "pos": "{0.213704005, 0}, {0.159172997, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body",
+    "attrs": [],
+    "z": 2,
+    "class": "ScrollingFrame",
+    "size": "{1, -20}, {1, -68}",
+    "pos": "{0, 10}, {0, 58}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content",
+    "attrs": [],
+    "z": 2,
+    "class": "Frame",
+    "size": "{1, -12}, {0, 924}",
+    "pos": "{0, 4}, {0, 4}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog",
+    "attrs": {
+      "UISkinAssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinManaged": true,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 2,
+    "class": "Frame",
+    "size": "{1, 0}, {0, 238}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.Title",
+    "attrs": [],
+    "z": 3,
+    "text": "BRITISH BULLDOG",
+    "class": "TextLabel",
+    "size": "{1, -20}, {0, 32}",
+    "pos": "{0, 10}, {0, 6}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.Status",
+    "attrs": [],
+    "z": 3,
+    "text": "Ready",
+    "class": "TextLabel",
+    "size": "{1, -20}, {0, 24}",
+    "pos": "{0, 10}, {0, 42}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBStart",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "START ROUND",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 75}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBStart.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBStart",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://84589903135132",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBStart.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "START ROUND",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBRunner",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO RUNNER",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 130}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBRunner.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBRunner",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://90528629970043",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBRunner.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO RUNNER",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBBulldog",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO BULLDOG",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 185}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBBulldog.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBBulldog",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://96220174131051",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBBulldog.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO BULLDOG",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://91368986924015",
+      "AssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt",
+    "attrs": {
+      "UISkinAssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinManaged": true,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 2,
+    "class": "Frame",
+    "size": "{1, 0}, {0, 238}",
+    "pos": "{0, 0}, {0, 252}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.Title",
+    "attrs": [],
+    "z": 3,
+    "text": "TAG YOU'RE IT",
+    "class": "TextLabel",
+    "size": "{1, -20}, {0, 32}",
+    "pos": "{0, 10}, {0, 6}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.Status",
+    "attrs": [],
+    "z": 3,
+    "text": "Ready",
+    "class": "TextLabel",
+    "size": "{1, -20}, {0, 24}",
+    "pos": "{0, 10}, {0, 42}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagStart",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "START ROUND",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 75}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagStart.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagStart",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://84589903135132",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagStart.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "START ROUND",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagRunner",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO RUNNER",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 130}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagRunner.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagRunner",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://90528629970043",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagRunner.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO RUNNER",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagTagger",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO TAGGER",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 185}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagTagger.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagTagger",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://96220174131051",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagTagger.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO TAGGER",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://91368986924015",
+      "AssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud",
+    "attrs": {
+      "UISkinAssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinManaged": true,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": false
+    },
+    "z": 2,
+    "class": "Frame",
+    "size": "{1, 0}, {0, 238}",
+    "pos": "{0, 0}, {0, 504}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.Title",
+    "attrs": [],
+    "z": 3,
+    "text": "STUCK IN THE MUD",
+    "class": "TextLabel",
+    "size": "{1, -20}, {0, 32}",
+    "pos": "{0, 10}, {0, 6}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.Status",
+    "attrs": [],
+    "z": 3,
+    "text": "Ready",
+    "class": "TextLabel",
+    "size": "{1, -20}, {0, 24}",
+    "pos": "{0, 10}, {0, 42}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudStart",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "START ROUND",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 75}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudStart.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudStart",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://84589903135132",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudStart.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "START ROUND",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudShooter",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO MUD GUN",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 130}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudShooter.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudShooter",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://90528629970043",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudShooter.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO MUD GUN",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudMedic",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 3,
+    "text": "SOLO RESCUE",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 185}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudMedic.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudMedic",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://96220174131051",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 3,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudMedic.LiveCaption",
+    "attrs": [],
+    "z": 5,
+    "text": "SOLO RESCUE",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://91368986924015",
+      "AssetKey": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StopRound",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 2,
+    "text": "STOP / BACK TO LOBBY",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 756}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StopRound.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StopRound",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://96220174131051",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/red-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StopRound.LiveCaption",
+    "attrs": [],
+    "z": 4,
+    "text": "STOP / BACK TO LOBBY",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.ToggleAutomatic",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/green-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 2,
+    "text": "AUTO ROUNDS: ON",
+    "class": "TextButton",
+    "size": "{1, -20}, {0, 48}",
+    "pos": "{0, 10}, {0, 816}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.ToggleAutomatic.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.ToggleAutomatic",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://78972575698291",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/green-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 2,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.ToggleAutomatic.LiveCaption",
+    "attrs": [],
+    "z": 4,
+    "text": "AUTO ROUNDS: ON",
+    "class": "TextLabel",
+    "size": "{0.924812019, 0}, {0.569999993, 0}",
+    "pos": "{0.0375940017, 0}, {0.180000007, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.Message",
+    "attrs": [],
+    "z": 2,
+    "text": "Choose a game to test.",
+    "class": "TextLabel",
+    "size": "{1, -20}, {0, 42}",
+    "pos": "{0, 10}, {0, 876}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.ReusableSkin",
+    "attrs": {
+      "DefaultImage": "rbxassetid://117403446558356",
+      "AssetKey": "PNG/07-Resizable-Skins/panel-normal.png",
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactPanel"
+    },
+    "z": 1,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": false,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactToggle",
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "UISkinSelectionFromColour": false,
+      "UISkinHiddenText": true,
+      "UISkinManaged": true,
+      "ReadyColor": null,
+      "UISkinSelectionFromOutline": false,
+      "UISkinDynamic": true
+    },
+    "z": 1,
+    "text": "ADMIN",
+    "class": "TextButton",
+    "size": "{0, 112}, {0, 44}",
+    "pos": "{0.0120000001, 0}, {0, 8}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactToggle.ReusableSkin",
+    "attrs": {
+      "UISkinTargetPath": "StarterGui.PlaygroundAdminPanel.CompactToggle",
+      "SilverImage": "rbxassetid://91168456076260",
+      "DefaultImage": "rbxassetid://84589903135132",
+      "OrangeImage": "rbxassetid://70427716988197",
+      "RedImage": "rbxassetid://96220174131051",
+      "BlueImage": "rbxassetid://90528629970043",
+      "MudImage": "rbxassetid://98268172973975",
+      "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+      "PurpleImage": "rbxassetid://109174047078490",
+      "PinkImage": "rbxassetid://96220174131051",
+      "CreamImage": "rbxassetid://80217215544210",
+      "GoldImage": "rbxassetid://84589903135132",
+      "GreenImage": "rbxassetid://78972575698291",
+      "BlackImage": "rbxassetid://137398265947826"
+    },
+    "z": 1,
+    "class": "ImageLabel",
+    "size": "{1, 0}, {1, 0}",
+    "pos": "{0, 0}, {0, 0}"
+  },
+  {
+    "visible": true,
+    "path": "StarterGui.PlaygroundAdminPanel.CompactToggle.LiveCaption",
+    "attrs": [],
+    "z": 3,
+    "text": "ADMIN",
+    "class": "TextLabel",
+    "size": "{0.785713971, 0}, {0.569999993, 0}",
+    "pos": "{0.107143, 0}, {0.180000007, 0}"
+  }
+]

@@ -1,0 +1,18 @@
+00:00.063  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:57: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:111: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:02.407  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_112600_cee394d0a636aedcee52dbe94b31f6fe.png.png"
+00:20.657  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Previews\m16-snowglobe-sip.png'
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m16-snowglobe-sip.fbx'
+export finished in 0.0106 sec.
+Info: Saved as "m16-snowglobe-sip.blend"
+ASSET_COMPLETE {"id": "M16", "name": "Snowglobe Sip", "category": "Miscellaneous", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m16-snowglobe-sip.png", "brief": "One squat rounded opaque ice-blue potion bottle with a broad white cap shaped like a snowball, navy collar, simple white embossed snowflake on a cream front label panel and a thick pale-blue base. The bottle is solid glossy ceramic, not see-through. No text, no floating snow or liquid splashes.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m16-snowglobe-sip.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m16-snowglobe-sip.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m16-snowglobe-sip-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m16-snowglobe-sip.png", "parts": 36, "triangles": 3748, "meshes": 1, "maxMeshTriangles": 3748, "dimensions": [1.3600000143051147, 1.0880000591278076, 2.051886558532715], "boundsMin": [-0.6800000071525574, -0.5980000495910645, 0.05000000074505806], "boundsMax": [0.6800000071525574, 0.49000000953674316, 2.101886510848999], "paletteColors": 6, "anchors": {"Grip": [0.0, 0.0, 0.6800000071525574], "Spout": [0.0, 0.0, 1.5499999523162842]}, "editable": true, "rigged": false, "rigBones": [], "collision": "Visual meshes non-colliding; use simple game-owned collision proxy", "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette", "gameplayImplemented": false, "exportDimensions": [1.3600000143051147, 1.0880000591278076, 2.051886558532715]}
+PACK_COMPLETE {"count": 1, "ids": ["M16"]}
+Unable to delete file
+Unable to delete file
+
+Blender quit

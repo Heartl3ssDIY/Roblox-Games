@@ -1,0 +1,59 @@
+{
+  "id": "B17",
+  "name": "Dragon Scale",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b17-dragon-scale.png",
+  "brief": "A long tapered baseball bat with a glossy emerald barrel clad in four broad overlapping rounded dragon-scale bands, golden end cap and collar, plum-purple grip and gold knob. Three small rounded gold dorsal ridges attached along the back of the barrel. A simple cream oval inset, no eyes or dragon head.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b17-dragon-scale.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b17-dragon-scale.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b17-dragon-scale-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b17-dragon-scale.png",
+  "parts": 21,
+  "triangles": 11994,
+  "meshes": 1,
+  "maxMeshTriangles": 11994,
+  "dimensions": [
+    0.8819799423217773,
+    0.792374849319458,
+    3.6020002365112305
+  ],
+  "boundsMin": [
+    -0.5139158368110657,
+    -0.4243107736110687,
+    -0.47200000286102295
+  ],
+  "boundsMax": [
+    0.36806410551071167,
+    0.36806410551071167,
+    3.130000114440918
+  ],
+  "paletteColors": 10,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.134999990463257
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.8819799423217773,
+    0.792374849319458,
+    3.6020002365112305
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "SA05",
+  "name": "Student 05 - Music posture chair",
+  "bodies": [
+    {
+      "id": "SA05_B01",
+      "asset_id": "SA05",
+      "asset": "Student 05 - Music posture chair",
+      "label": "Student 05 - Music posture chair",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.0011001527309417725,
+            0.4674413204193115
+          ],
+          "size": [
+            0.5590001940727234,
+            0.5318001508712769,
+            0.9148826599121094
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.2795000970363617,
+          -0.26479992270469666,
+          0.010000000707805157
+        ],
+        "max": [
+          0.2795000970363617,
+          0.2670002281665802,
+          0.9248826503753662
+        ]
+      }
+    }
+  ],
+  "mesh_count": 6,
+  "triangles": 14120,
+  "file": "SA05_Student_05_Music_posture_chair.gltf"
+}

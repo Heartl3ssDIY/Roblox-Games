@@ -1,0 +1,4228 @@
+{
+  "records": [
+    {
+      "sceneOccupancy": 0.11685541411204586,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 720,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 307,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 676.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 314,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.12775029996661347,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 720,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 194,
+          "x": 704,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 307,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 676.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 314,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15912088138557678,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 720,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 222.36000061035156,
+          "x": 304,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 307,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 676.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 314,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.1700157672401444,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 222.36000061035156,
+          "x": 304,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 720,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 676.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 314,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 194,
+          "x": 704,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 307,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0903921289882157,
+      "scenario": "bulldog",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "BritishBulldogHUD.TopCard/PhaseLabel",
+          "min": 9,
+          "max": 15,
+          "text": "CROSSING 1",
+          "rect": "69.9212723, 8.97000027",
+          "bounds": "46, 9"
+        }
+      ],
+      "viewport": "phone_landscape_reference",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 204,
+          "x": 690,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 211.89999389648438,
+          "x": 592,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 89.25,
+          "x": 316.74798583984375,
+          "height": 59.79999923706055,
+          "width": 218.50399780273438
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 136,
+          "x": 696,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 82,
+          "x": 579.7200317382812,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 378,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0946338328438082,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 378,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 211.89999389648438,
+          "x": 592,
+          "height": 44,
+          "width": 76
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 136,
+          "x": 696,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 82,
+          "x": 579.7200317382812,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.MobileSprint": {
+          "y": 204,
+          "x": 690,
+          "height": 44,
+          "width": 100
+        },
+        "TagHUD.Top": {
+          "y": 88.96000671386719,
+          "x": 316.74798583984375,
+          "height": 66.29999542236328,
+          "width": 218.50399780273438
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0874877311904959,
+      "scenario": "mud",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "MudHUD.Main.Top/LiveCaption",
+          "min": 9,
+          "max": 17,
+          "text": "BLUE\n2 / 2 FREE",
+          "rect": "58.3447647, 14.4085979",
+          "bounds": "40, 9"
+        }
+      ],
+      "viewport": "phone_landscape_reference",
+      "failures": [],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 204,
+          "x": 690,
+          "height": 44,
+          "width": 100
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 136,
+          "x": 690,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 378,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 82,
+          "x": 579.7200317382812,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 126,
+          "x": 56,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 126,
+          "x": 120,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Top": {
+          "y": 88,
+          "x": 316.74798583984375,
+          "height": 48.099998474121094,
+          "width": 218.50399780273438
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.21526958318453449,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 480,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 165,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 436.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 172,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.23534000571974575,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 480,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 464,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 165,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 436.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 172,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.29313049867749225,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 480,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 182.39999389648438,
+          "x": 162,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 165,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 436.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 172,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.3132009212127035,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 182.39999389648438,
+          "x": 162,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 480,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 436.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 172,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 464,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 165,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15664777649750172,
+      "scenario": "bulldog",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "BritishBulldogHUD.TopCard/PhaseLabel",
+          "min": 9,
+          "max": 15,
+          "text": "CROSSING 1",
+          "rect": "60.3199959, 8.97000027",
+          "bounds": "46, 9"
+        }
+      ],
+      "viewport": "phone_landscape_small",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 152,
+          "x": 450,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 165.22000122070312,
+          "x": 352,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 64.55000305175781,
+          "x": 189.75,
+          "height": 59.79999923706055,
+          "width": 188.5
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 84,
+          "x": 456,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 392.6400146484375,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 236,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.16338880467163006,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 236,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 165.22000122070312,
+          "x": 352,
+          "height": 44,
+          "width": 76
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 84,
+          "x": 456,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 392.6400146484375,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.MobileSprint": {
+          "y": 152,
+          "x": 450,
+          "height": 44,
+          "width": 100
+        },
+        "TagHUD.Top": {
+          "y": 64.28800964355469,
+          "x": 189.75,
+          "height": 66.29999542236328,
+          "width": 188.5
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15322870660415838,
+      "scenario": "mud",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "MudHUD.Main.Top/LiveCaption",
+          "min": 9,
+          "max": 17,
+          "text": "BLUE\n2 / 2 FREE",
+          "rect": "50.3331184, 14.4085979",
+          "bounds": "40, 9"
+        }
+      ],
+      "viewport": "phone_landscape_small",
+      "failures": [],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 152,
+          "x": 450,
+          "height": 44,
+          "width": 100
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 84,
+          "x": 450,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 236,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 392.6400146484375,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 74,
+          "x": 12,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 74,
+          "x": 76,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Top": {
+          "y": 64,
+          "x": 189.75,
+          "height": 48.099998474121094,
+          "width": 188.5
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15643138206745022,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 579,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 214.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 535.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 221.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.17101608971362714,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 579,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 563,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 214.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 535.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 221.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.21301109221237777,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 579,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 213.75,
+          "x": 211.5,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 214.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 535.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 221.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.2275957998585547,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 213.75,
+          "x": 211.5,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 579,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 535.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 221.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 563,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 214.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.11437308170023266,
+      "scenario": "bulldog",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "BritishBulldogHUD.TopCard/PhaseLabel",
+          "min": 9,
+          "max": 15,
+          "text": "CROSSING 1",
+          "rect": "61.0438423, 8.97000027",
+          "bounds": "46, 9"
+        }
+      ],
+      "viewport": "phone_landscape_standard",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 207,
+          "x": 549,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 209.76998901367188,
+          "x": 451,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 65.92500305175781,
+          "x": 238.11900329589844,
+          "height": 59.79999923706055,
+          "width": 190.76199340820312
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 139,
+          "x": 555,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 464.9100036621094,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 285.5,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.11933041195292259,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 285.5,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 209.76998901367188,
+          "x": 451,
+          "height": 44,
+          "width": 76
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 139,
+          "x": 555,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 464.9100036621094,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.MobileSprint": {
+          "y": 207,
+          "x": 549,
+          "height": 44,
+          "width": 100
+        },
+        "TagHUD.Top": {
+          "y": 65.60800170898438,
+          "x": 238.11900329589844,
+          "height": 66.29999542236328,
+          "width": 190.76199340820312
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.11178271500991452,
+      "scenario": "mud",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "MudHUD.Main.Top/LiveCaption",
+          "min": 9,
+          "max": 17,
+          "text": "BLUE\n2 / 2 FREE",
+          "rect": "50.9371185, 14.4085979",
+          "bounds": "40, 9"
+        }
+      ],
+      "viewport": "phone_landscape_standard",
+      "failures": [],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 207,
+          "x": 549,
+          "height": 44,
+          "width": 100
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 139,
+          "x": 549,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 285.5,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 464.9100036621094,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 129,
+          "x": 12,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 129,
+          "x": 76,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Top": {
+          "y": 64,
+          "x": 238.11900329589844,
+          "height": 48.099998474121094,
+          "width": 190.76199340820312
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.11887045643340925,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 712,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 303,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 668.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 310,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.12995321253986203,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 712,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 696,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 303,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 668.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 310,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.16186474492532807,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 712,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 210.3300018310547,
+          "x": 300,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 303,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 668.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 310,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.17294750103178086,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 210.3300018310547,
+          "x": 300,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 712,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 668.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 310,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 52,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 696,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 303,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 52,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 104,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.09153516808530573,
+      "scenario": "bulldog",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "BritishBulldogHUD.TopCard/PhaseLabel",
+          "min": 9,
+          "max": 15,
+          "text": "CROSSING 1",
+          "rect": "69.1891098, 8.97000027",
+          "bounds": "46, 9"
+        }
+      ],
+      "viewport": "phone_landscape_notch",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 201,
+          "x": 682,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 204.91000366210938,
+          "x": 584,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 65.7750015258789,
+          "x": 313.8919982910156,
+          "height": 59.79999923706055,
+          "width": 216.2159881591797
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 133,
+          "x": 688,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 573.8800048828125,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 374,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.09580483359215994,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 374,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 204.91000366210938,
+          "x": 584,
+          "height": 44,
+          "width": 76
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 133,
+          "x": 688,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 573.8800048828125,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.MobileSprint": {
+          "y": 201,
+          "x": 682,
+          "height": 44,
+          "width": 100
+        },
+        "TagHUD.Top": {
+          "y": 65.46400451660156,
+          "x": 313.8919982910156,
+          "height": 66.29999542236328,
+          "width": 216.2159881591797
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.08866201452344491,
+      "scenario": "mud",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "MudHUD.Main.Top/LiveCaption",
+          "min": 9,
+          "max": 17,
+          "text": "BLUE\n2 / 2 FREE",
+          "rect": "57.7338219, 14.4085979",
+          "bounds": "40, 9"
+        }
+      ],
+      "viewport": "phone_landscape_notch",
+      "failures": [],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 201,
+          "x": 682,
+          "height": 44,
+          "width": 100
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 133,
+          "x": 682,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 374,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 573.8800048828125,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 123,
+          "x": 56,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 123,
+          "x": 120,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Top": {
+          "y": 64,
+          "x": 313.8919982910156,
+          "height": 48.099998474121094,
+          "width": 216.2159881591797
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.21526958318453449,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 120,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 41,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 188.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 68,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 172,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 48,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.23534000571974575,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 292,
+          "x": 112,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 120,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 41,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 188.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 68,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 172,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 48,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.29313049867749225,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 120,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 332.3599853515625,
+          "x": 38,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 41,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 188.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 68,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 172,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 48,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.3132009212127035,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 332.3599853515625,
+          "x": 38,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 172,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 188.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 41,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 68,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 292,
+          "x": 112,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 48,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 120,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15664777649750172,
+      "scenario": "bulldog",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "BritishBulldogHUD.TopCard/PhaseLabel",
+          "min": 9,
+          "max": 15,
+          "text": "CROSSING 1",
+          "rect": "60.3199959, 8.97000027",
+          "bounds": "46, 9"
+        }
+      ],
+      "viewport": "phone_portrait_small",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 400,
+          "x": 202,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 369.8999938964844,
+          "x": 104,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 90.25,
+          "x": 65.75,
+          "height": 59.79999923706055,
+          "width": 188.5
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 332,
+          "x": 208,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 170,
+          "x": 268,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 220,
+          "x": 112,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.16338880467163006,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 220,
+          "x": 112,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 369.8999938964844,
+          "x": 104,
+          "height": 44,
+          "width": 76
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 332,
+          "x": 208,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 170,
+          "x": 268,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.MobileSprint": {
+          "y": 400,
+          "x": 202,
+          "height": 44,
+          "width": 100
+        },
+        "TagHUD.Top": {
+          "y": 89.760009765625,
+          "x": 65.75,
+          "height": 66.29999542236328,
+          "width": 188.5
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15322870660415838,
+      "scenario": "mud",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "MudHUD.Main.Top/LiveCaption",
+          "min": 9,
+          "max": 17,
+          "text": "BLUE\n2 / 2 FREE",
+          "rect": "50.3331184, 14.4085979",
+          "bounds": "40, 9"
+        }
+      ],
+      "viewport": "phone_portrait_small",
+      "failures": [],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 400,
+          "x": 202,
+          "height": 44,
+          "width": 100
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 332,
+          "x": 202,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 220,
+          "x": 112,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 170,
+          "x": 268,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 322,
+          "x": 12,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 322,
+          "x": 76,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Top": {
+          "y": 84,
+          "x": 65.75,
+          "height": 48.099998474121094,
+          "width": 188.5
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15643138206745022,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 147.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 68.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 243.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 95.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 199.5,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 75.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.17101608971362714,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 292,
+          "x": 139.5,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 147.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 68.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 243.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 95.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 199.5,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 75.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.21301109221237777,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 147.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 388.7900085449219,
+          "x": 65.5,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 68.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 243.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 95.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 199.5,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 75.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.2275957998585547,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 388.7900085449219,
+          "x": 65.5,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 190,
+          "x": 199.5,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 84,
+          "x": 243.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 84,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 140,
+          "x": 68.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 190,
+          "x": 95.5,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 292,
+          "x": 139.5,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 244,
+          "x": 75.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 190,
+          "x": 147.5,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.1138322832831021,
+      "scenario": "bulldog",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "BritishBulldogHUD.TopCard/PhaseLabel",
+          "min": 9,
+          "max": 15,
+          "text": "CROSSING 1",
+          "rect": "60.3199959, 8.97000027",
+          "bounds": "46, 9"
+        }
+      ],
+      "viewport": "phone_portrait_standard",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 499,
+          "x": 257,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 450.0899963378906,
+          "x": 159,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 92.7249984741211,
+          "x": 93.25,
+          "height": 59.79999923706055,
+          "width": 188.5
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 431,
+          "x": 263,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 170,
+          "x": 323,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 220,
+          "x": 139.5,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.11873083113289547,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 220,
+          "x": 139.5,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 450.0899963378906,
+          "x": 159,
+          "height": 44,
+          "width": 76
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 431,
+          "x": 263,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 170,
+          "x": 323,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.MobileSprint": {
+          "y": 499,
+          "x": 257,
+          "height": 44,
+          "width": 100
+        },
+        "TagHUD.Top": {
+          "y": 92.13600158691406,
+          "x": 93.25,
+          "height": 66.29999542236328,
+          "width": 188.5
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.1113477249869938,
+      "scenario": "mud",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "MudHUD.Main.Top/LiveCaption",
+          "min": 9,
+          "max": 17,
+          "text": "BLUE\n2 / 2 FREE",
+          "rect": "50.3331184, 14.4085979",
+          "bounds": "40, 9"
+        }
+      ],
+      "viewport": "phone_portrait_standard",
+      "failures": [],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 499,
+          "x": 257,
+          "height": 44,
+          "width": 100
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 431,
+          "x": 257,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 220,
+          "x": 139.5,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 170,
+          "x": 323,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 421,
+          "x": 12,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 421,
+          "x": 76,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Top": {
+          "y": 84,
+          "x": 93.25,
+          "height": 48.099998474121094,
+          "width": 188.5
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.11887045643340925,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 214,
+          "x": 155,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 164,
+          "x": 76,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 108,
+          "x": 258.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 214,
+          "x": 103,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 214,
+          "x": 207,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 268,
+          "x": 83,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 108,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.12995321253986203,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 316,
+          "x": 147,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 214,
+          "x": 155,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 164,
+          "x": 76,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 108,
+          "x": 258.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 214,
+          "x": 103,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 214,
+          "x": 207,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 268,
+          "x": 83,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 108,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.16186474492532807,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 214,
+          "x": 155,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 480.6199951171875,
+          "x": 73,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 164,
+          "x": 76,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 108,
+          "x": 258.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 214,
+          "x": 103,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 214,
+          "x": 207,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 268,
+          "x": 83,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 108,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.17294750103178086,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 480.6199951171875,
+          "x": 73,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 214,
+          "x": 207,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 108,
+          "x": 258.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 108,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 164,
+          "x": 76,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 214,
+          "x": 103,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 316,
+          "x": 147,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 268,
+          "x": 83,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 214,
+          "x": 155,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.08649987804163906,
+      "scenario": "bulldog",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "BritishBulldogHUD.TopCard/PhaseLabel",
+          "min": 9,
+          "max": 15,
+          "text": "CROSSING 1",
+          "rect": "60.3199959, 8.97000027",
+          "bounds": "46, 9"
+        }
+      ],
+      "viewport": "phone_portrait_notch",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 642,
+          "x": 272,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 570.47998046875,
+          "x": 174,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 119.69998931884766,
+          "x": 100.75,
+          "height": 59.79999923706055,
+          "width": 188.5
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 574,
+          "x": 278,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 194,
+          "x": 338,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 244,
+          "x": 147,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.09022222972753517,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 244,
+          "x": 147,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 570.47998046875,
+          "x": 174,
+          "height": 44,
+          "width": 76
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 574,
+          "x": 278,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 194,
+          "x": 338,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.MobileSprint": {
+          "y": 642,
+          "x": 272,
+          "height": 44,
+          "width": 100
+        },
+        "TagHUD.Top": {
+          "y": 118.99200439453125,
+          "x": 100.75,
+          "height": 66.29999542236328,
+          "width": 188.5
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.08461188999991441,
+      "scenario": "mud",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "MudHUD.Main.Top/LiveCaption",
+          "min": 9,
+          "max": 17,
+          "text": "BLUE\n2 / 2 FREE",
+          "rect": "50.3331184, 14.4085979",
+          "bounds": "40, 9"
+        }
+      ],
+      "viewport": "phone_portrait_notch",
+      "failures": [],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 642,
+          "x": 272,
+          "height": 44,
+          "width": 100
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 574,
+          "x": 272,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 244,
+          "x": 147,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 194,
+          "x": 338,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 564,
+          "x": 12,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 564,
+          "x": 76,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Top": {
+          "y": 108,
+          "x": 100.75,
+          "height": 48.099998474121094,
+          "width": 188.5
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    },
+    {
+      "sceneOccupancy": 0.04975306121777978,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 194,
+          "x": 344,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 265,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 636.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 194,
+          "x": 292,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 194,
+          "x": 396,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 248,
+          "x": 272,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.05439173309277978,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 296,
+          "x": 336,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 194,
+          "x": 344,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 265,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 636.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 194,
+          "x": 292,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 194,
+          "x": 396,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 248,
+          "x": 272,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.06774825978548811,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 194,
+          "x": 344,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 582.5999755859375,
+          "x": 262,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 265,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 636.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 194,
+          "x": 292,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 194,
+          "x": 396,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 248,
+          "x": 272,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.07238693166048811,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 582.5999755859375,
+          "x": 262,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.PortraitEmoteToggle": {
+          "y": 194,
+          "x": 396,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 636.5,
+          "height": 36.39999771118164,
+          "width": 123.49999237060547
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 265,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.PortraitToggle": {
+          "y": 194,
+          "x": 292,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.PortraitDock": {
+          "y": 296,
+          "x": 336,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundIntermissionHUD.Portrait": {
+          "y": 248,
+          "x": 272,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.PortraitSpectate": {
+          "y": 194,
+          "x": 344,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0427937557816079,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 836,
+          "x": 650,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 723.8200073242188,
+          "x": 552,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 105.05000305175781,
+          "x": 274.176025390625,
+          "height": 74.9124984741211,
+          "width": 219.64797973632812
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 768,
+          "x": 656,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 174,
+          "x": 716,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 336,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.045304495353293284,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 336,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 723.8200073242188,
+          "x": 552,
+          "height": 44,
+          "width": 76
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 768,
+          "x": 656,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 174,
+          "x": 716,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.MobileSprint": {
+          "y": 836,
+          "x": 650,
+          "height": 44,
+          "width": 100
+        },
+        "TagHUD.Top": {
+          "y": 104.12799072265625,
+          "x": 274.176025390625,
+          "height": 83.9020004272461,
+          "width": 219.64797973632812
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.03731926916778713,
+      "scenario": "mud",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "MudHUD.Main.Top/LiveCaption",
+          "min": 9,
+          "max": 17,
+          "text": "BLUE\n2 / 2 FREE",
+          "rect": "58.6502304, 14.4085979",
+          "bounds": "40, 9"
+        }
+      ],
+      "viewport": "ipad_portrait",
+      "failures": [],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 836,
+          "x": 650,
+          "height": 44,
+          "width": 100
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 768,
+          "x": 650,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 336,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 174,
+          "x": 716,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 758,
+          "x": 12,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 758,
+          "x": 76,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Top": {
+          "y": 88,
+          "x": 274.176025390625,
+          "height": 48.099998474121094,
+          "width": 219.64797973632812
+        }
+      },
+      "size": [
+        768,
+        1024
+      ]
+    },
+    {
+      "sceneOccupancy": 0.051647186279296875,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 936,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 393,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 873.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 400,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.056285858154296875,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 936,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 194,
+          "x": 920,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 393,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 873.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 400,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0696423848470052,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 936,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 436.67999267578125,
+          "x": 390,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 393,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 873.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 400,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0742810567220052,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 436.67999267578125,
+          "x": 390,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 144,
+          "x": 936,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 88,
+          "x": 873.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 88,
+          "x": 400,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 88,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 194,
+          "x": 920,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 144,
+          "x": 393,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 144,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 144,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.05560426344076793,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 580,
+          "x": 906,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 516.4600219726562,
+          "x": 808,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 98.64999389648438,
+          "x": 331.7760009765625,
+          "height": 73.5999984741211,
+          "width": 360.447998046875
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 512,
+          "x": 912,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 82,
+          "x": 725.52001953125,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 464,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.05927093008756638,
+      "scenario": "tag",
+      "warnings": [],
+      "viewport": "ipad_landscape",
+      "failures": [],
+      "measurements": {
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 464,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 516.4600219726562,
+          "x": 808,
+          "height": 44,
+          "width": 76
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 512,
+          "x": 912,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 82,
+          "x": 725.52001953125,
+          "height": 44,
+          "width": 44
+        },
+        "TagHUD.MobileSprint": {
+          "y": 580,
+          "x": 906,
+          "height": 44,
+          "width": 100
+        },
+        "TagHUD.Top": {
+          "y": 97.98399353027344,
+          "x": 331.7760009765625,
+          "height": 81.5999984741211,
+          "width": 360.447998046875
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.05101842468182246,
+      "scenario": "mud",
+      "warnings": [
+        {
+          "scaled": true,
+          "path": "MudHUD.Main.Top/LiveCaption",
+          "min": 9,
+          "max": 17,
+          "text": "BLUE\n2 / 2 FREE",
+          "rect": "96.2465363, 17.7336597",
+          "bounds": "40, 9"
+        }
+      ],
+      "viewport": "ipad_landscape",
+      "failures": [],
+      "measurements": {
+        "MudHUD.Main.MobileSprint": {
+          "y": 580,
+          "x": 906,
+          "height": 44,
+          "width": 100
+        },
+        "MudHUD.Main.Controls.Fire": {
+          "y": 512,
+          "x": 906,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 464,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 82,
+          "x": 725.52001953125,
+          "height": 44,
+          "width": 44
+        },
+        "MudHUD.Main.Controls.Mud": {
+          "y": 502,
+          "x": 12,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Controls.Heat": {
+          "y": 502,
+          "x": 76,
+          "height": 44,
+          "width": 50
+        },
+        "MudHUD.Main.Top": {
+          "y": 88,
+          "x": 331.7760009765625,
+          "height": 59.20000076293945,
+          "width": 360.447998046875
+        }
+      },
+      "size": [
+        1024,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.0387448489010989,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "laptop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 1277,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 563.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1214.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 570.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.042224702380952384,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "laptop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 1277,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 1261,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 563.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1214.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 570.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.05224454365079365,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "laptop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 1277,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 437.760009765625,
+          "x": 560.5,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 563.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1214.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 570.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.055724397130647134,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "laptop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 437.760009765625,
+          "x": 560.5,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundEmoteWheel.CompactEmoteToggle": {
+          "y": 120,
+          "x": 1277,
+          "height": 44,
+          "width": 80
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1214.5,
+          "height": 42,
+          "width": 142.5
+        },
+        "PlaygroundIntermissionHUD.Compact": {
+          "y": 64,
+          "x": 570.5,
+          "height": 44,
+          "width": 224
+        },
+        "PlaygroundShell.CompactLevelPanel": {
+          "y": 64,
+          "x": 8,
+          "height": 48,
+          "width": 144
+        },
+        "PlaygroundFishingHUD.CompactDock": {
+          "y": 170,
+          "x": 1261,
+          "height": 38,
+          "width": 96
+        },
+        "PlaygroundShell.CompactDock": {
+          "y": 120,
+          "x": 563.5,
+          "height": 44,
+          "width": 238
+        },
+        "PlaygroundSessionControls.CompactToggle": {
+          "y": 120,
+          "x": 8,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundSessionControls.CompactSpectate": {
+          "y": 120,
+          "x": 60,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1365,
+        768
+      ]
+    },
+    {
+      "sceneOccupancy": 0.04953317901234568,
+      "scenario": "lobby",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 1014,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 889.9999389648438,
+          "x": 18,
+          "height": 108,
+          "width": 358
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1722,
+          "height": 56,
+          "width": 190
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 128,
+          "x": 74,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 838,
+          "x": 18,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 70,
+          "x": 780,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 128,
+          "x": 18,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "sceneOccupancy": 0.05581404320987654,
+      "scenario": "lobby_boosts",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 1014,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 889.9999389648438,
+          "x": 18,
+          "height": 108,
+          "width": 358
+        },
+        "PlaygroundFishingHUD.DesktopDock": {
+          "y": 974,
+          "x": 1754,
+          "height": 88,
+          "width": 148
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1722,
+          "height": 56,
+          "width": 190
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 128,
+          "x": 74,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 838,
+          "x": 18,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 70,
+          "x": 780,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 128,
+          "x": 18,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "sceneOccupancy": 0.056358024691358026,
+      "scenario": "lobby_toys",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundShell.Dock": {
+          "y": 1014,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 889.9999389648438,
+          "x": 18,
+          "height": 108,
+          "width": 358
+        },
+        "PlaygroundToyHotbar.Bar": {
+          "y": 615.5999755859375,
+          "x": 838,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1722,
+          "height": 56,
+          "width": 190
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 128,
+          "x": 74,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 838,
+          "x": 18,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 70,
+          "x": 780,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 128,
+          "x": 18,
+          "height": 44,
+          "width": 44
+        }
+      },
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "sceneOccupancy": 0.06263888888888888,
+      "scenario": "lobby_toys_boosts",
+      "warnings": [],
+      "viewport": "desktop",
+      "failures": [],
+      "measurements": {
+        "PlaygroundToyHotbar.Bar": {
+          "y": 615.5999755859375,
+          "x": 838,
+          "height": 58,
+          "width": 244
+        },
+        "PlaygroundShell.Wallet": {
+          "y": 64,
+          "x": 1722,
+          "height": 56,
+          "width": 190
+        },
+        "PlaygroundSessionControls.Spectate": {
+          "y": 128,
+          "x": 74,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundIntermissionHUD.Desktop": {
+          "y": 70,
+          "x": 780,
+          "height": 68,
+          "width": 360
+        },
+        "PlaygroundSessionControls.Toggle": {
+          "y": 128,
+          "x": 18,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundShell.LevelPanel": {
+          "y": 889.9999389648438,
+          "x": 18,
+          "height": 108,
+          "width": 358
+        },
+        "PlaygroundFishingHUD.DesktopDock": {
+          "y": 974,
+          "x": 1754,
+          "height": 88,
+          "width": 148
+        },
+        "PlaygroundEmoteWheel.Toggle": {
+          "y": 838,
+          "x": 18,
+          "height": 48,
+          "width": 140
+        },
+        "PlaygroundShell.Dock": {
+          "y": 1014,
+          "x": 18,
+          "height": 48,
+          "width": 382
+        }
+      },
+      "size": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "productionChanged": false,
+  "playStarted": false,
+  "insetsEmulated": true
+}

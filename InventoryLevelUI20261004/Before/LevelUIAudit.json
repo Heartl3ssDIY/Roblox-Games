@@ -1,0 +1,610 @@
+{
+  "script": {
+    "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+    "path": "StarterGui.PlaygroundShell.PlayerLevelController",
+    "source": "local Players=game:GetService(\"Players\")\nlocal RunService=game:GetService(\"RunService\")\nlocal player=Players.LocalPlayer\nlocal gui=script.Parent\nlocal panel=gui:WaitForChild(\"LevelPanel\")\nlocal compact=gui:WaitForChild(\"CompactLevelPanel\")\nlocal panels={panel,compact}\nlocal connections={}\nlocal alive=true\nlocal previewGeneration=0\nlocal previewCharacter=nil\nlocal previewPending=false\n\nfor _,target in ipairs(panels) do\n local viewport=target:WaitForChild(\"FacePreview\")\n local camera=viewport:FindFirstChild(\"Camera\")\n if not camera then\n  camera=Instance.new(\"Camera\")\n  camera.Name=\"Camera\"\n  camera.FieldOfView=viewport:GetAttribute(\"PreviewFieldOfView\") or 32\n  camera.CFrame=viewport:GetAttribute(\"PreviewCameraCFrame\") or CFrame.lookAt(Vector3.new(0,0.15,-4.2),Vector3.new(0,0.15,0))\n  camera.Parent=viewport\n end\n viewport.CurrentCamera=camera\nend\n\nlocal function connect(signal,callback)\n local connection=signal:Connect(callback)\n table.insert(connections,connection)\n return connection\nend\n\nlocal function numberAttribute(name,fallback)\n local value=player:GetAttribute(name)\n return typeof(value)==\"number\" and value==value and math.abs(value)<math.huge and value or fallback\nend\n\nlocal function progress(gradient,fraction)\n fraction=math.clamp(fraction,0,1)\n if fraction<=0 then gradient.Transparency=NumberSequence.new(1)\n elseif fraction>=1 then gradient.Transparency=NumberSequence.new(0)\n else\n  gradient.Transparency=NumberSequence.new({NumberSequenceKeypoint.new(0,0),NumberSequenceKeypoint.new(math.max(0.0001,fraction-0.0001),0),NumberSequenceKeypoint.new(math.min(0.9999,fraction+0.0001),1),NumberSequenceKeypoint.new(1,1)})\n end\nend\n\nlocal function sanitize(object)\n for _,descendant in ipairs(object:GetDescendants()) do\n  local keep=descendant:IsA(\"BasePart\") or descendant:IsA(\"DataModelMesh\") or descendant:IsA(\"Decal\") or descendant:IsA(\"Texture\")\n   or descendant:IsA(\"SurfaceAppearance\") or descendant:IsA(\"Attachment\") or descendant:IsA(\"Bone\")\n  if not keep then descendant:Destroy() end\n end\n local parts={}\n if object:IsA(\"BasePart\") then table.insert(parts,object) end\n for _,descendant in ipairs(object:GetDescendants()) do if descendant:IsA(\"BasePart\") then table.insert(parts,descendant) end end\n for _,part in ipairs(parts) do part.Anchored=true part.CanCollide=false part.CanTouch=false part.CanQuery=false part.CastShadow=false end\n return parts\nend\n\nlocal function clonePart(source)\n local ok,clone=pcall(function() return source:Clone() end)\n return ok and clone or nil\nend\n\nlocal function rebuildPreview()\n if not alive then return end\n local character=player.Character\n local head=character and character:FindFirstChild(\"Head\")\n if not head or not head:IsA(\"BasePart\") then return end\n local generation=previewGeneration\n local headAttachments={}\n for _,attachment in ipairs(head:GetChildren()) do if attachment:IsA(\"Attachment\") then headAttachments[attachment.Name]=true end end\n local prototype=Instance.new(\"Model\")\n prototype.Name=\"AvatarPreview\"\n local headClone=clonePart(head)\n if not headClone then prototype:Destroy() return end\n local headOrigin=head.CFrame\n local headParts=sanitize(headClone)\n for _,part in ipairs(headParts) do part.CFrame=headOrigin:ToObjectSpace(part.CFrame) end\n headClone.Parent=prototype\n prototype.PrimaryPart=headClone\n for _,accessory in ipairs(character:GetChildren()) do\n  if accessory:IsA(\"Accessory\") then\n   local handle=accessory:FindFirstChild(\"Handle\")\n   if handle and handle:IsA(\"BasePart\") then\n    local attachedToHead=false\n    for _,attachment in ipairs(handle:GetChildren()) do\n     if attachment:IsA(\"Attachment\") and headAttachments[attachment.Name] then attachedToHead=true break end\n     if attachment:IsA(\"Weld\") and (attachment.Part0==head or attachment.Part1==head) then attachedToHead=true break end\n    end\n    if attachedToHead then\n     local clone=clonePart(handle)\n     if clone then\n      clone.Name=accessory.Name\n      local parts=sanitize(clone)\n      for _,part in ipairs(parts) do part.CFrame=headOrigin:ToObjectSpace(part.CFrame) end\n      clone.Parent=prototype\n     end\n    end\n   end\n  end\n end\n if not alive or generation~=previewGeneration or character~=player.Character then prototype:Destroy() return end\n for _,target in ipairs(panels) do\n  local viewport=target.FacePreview\n  local world=viewport.World\n  local clone=prototype:Clone()\n  if clone then\n   local old=world:FindFirstChild(\"AvatarPreview\")\n   if old then old:Destroy() end\n   clone.Parent=world\n   viewport.CurrentCamera=viewport.Camera\n  end\n end\n prototype:Destroy()\nend\n\nlocal function schedulePreview()\n if previewPending then return end\n previewPending=true\n task.delay(0.12,function()\n  previewPending=false\n  rebuildPreview()\n end)\nend\n\nlocal characterConnection=nil\nlocal function bindCharacter(character)\n previewGeneration+=1\n previewCharacter=character\n if characterConnection then characterConnection:Disconnect() characterConnection=nil end\n if character then\n  characterConnection=character.DescendantAdded:Connect(function(descendant)\n   if descendant:IsA(\"BasePart\") or descendant:IsA(\"Decal\") or descendant:IsA(\"Attachment\") or descendant:IsA(\"SpecialMesh\") then schedulePreview() end\n  end)\n end\n schedulePreview()\nend\n\nlocal function refresh()\n local level=math.max(1,math.floor(numberAttribute(\"PCLevel\",1)))\n local required=math.max(1,numberAttribute(\"PCLevelXPRequired\",200+50*(level-1)))\n local xp=math.clamp(numberAttribute(\"PCLevelXP\",0),0,required)\n panel.Level.Text=\"LEVEL \"..tostring(level)\n compact.Level.Text=\"LV \"..tostring(level)\n panel.XP.Text=string.format(\"%d / %d XP\",math.floor(xp),math.floor(required))\n compact.XP.Text=string.format(\"%d / %d\",math.floor(xp),math.floor(required))\n for _,target in ipairs(panels) do progress(target.XPTrack.Fill.Progress,xp/required) end\n local shop=gui:FindFirstChild(\"ShopPanel\")\n local vote=gui:FindFirstChild(\"VotePanel\")\n local compactVote=gui:FindFirstChild(\"CompactVotePanel\")\n local mudHUD=gui.Parent and gui.Parent:FindFirstChild(\"MudHUD\")\n local palette=mudHUD and mudHUD:FindFirstChild(\"ColourPicker\")\n local modal=(shop and shop.Visible) or (vote and vote.Visible) or (compactVote and compactVote.Visible) or (mudHUD and mudHUD.Enabled and palette and palette.Visible)\n local camera=workspace.CurrentCamera\n local narrow=camera and (camera.ViewportSize.X<980 or camera.ViewportSize.Y<450) or false\n local inGame=player:GetAttribute(\"BBParticipating\")==true or (player:GetAttribute(\"TGParticipating\")==true or player:GetAttribute(\"MDParticipating\")==true)\n local useCompact=narrow and inGame\n panel.Visible=not modal and not useCompact\n compact.Visible=not modal and useCompact\n if player.Character~=previewCharacter then bindCharacter(player.Character) end\nend\n\nfor _,name in ipairs({\"PCXP\",\"PCLevel\",\"PCLevelXP\",\"PCLevelXPRequired\",\"BBParticipating\",\"TGParticipating\",\"MDParticipating\"}) do connect(player:GetAttributeChangedSignal(name),refresh) end\nconnect(player.CharacterAdded,bindCharacter)\nconnect(player.CharacterRemoving,function() bindCharacter(nil) end)\nconnect(player.CharacterAppearanceLoaded,function(character) if character==player.Character then schedulePreview() end end)\nlocal elapsed=0\nconnect(RunService.Heartbeat,function(delta)\n elapsed+=delta\n if elapsed>=0.15 then elapsed=0 refresh() end\nend)\nconnect(script.Destroying,function()\n alive=false\n previewGeneration+=1\n if characterConnection then characterConnection:Disconnect() end\n for _,connection in ipairs(connections) do connection:Disconnect() end\nend)\nbindCharacter(player.Character)\nrefresh()",
+    "sandboxed": true
+  },
+  "children": [
+    {
+      "name": "Controller",
+      "class": "LocalScript"
+    },
+    {
+      "name": "PlayerLevelController",
+      "class": "LocalScript"
+    },
+    {
+      "name": "ReusableSkinController",
+      "class": "LocalScript"
+    },
+    {
+      "name": "Wallet",
+      "class": "Frame"
+    },
+    {
+      "name": "Dock",
+      "class": "Frame"
+    },
+    {
+      "name": "RewardToast",
+      "class": "Frame"
+    },
+    {
+      "name": "Backdrop",
+      "class": "TextButton"
+    },
+    {
+      "name": "ShopPanel",
+      "class": "Frame"
+    },
+    {
+      "name": "Templates",
+      "class": "Folder"
+    },
+    {
+      "name": "VotePanel",
+      "class": "Frame"
+    },
+    {
+      "name": "LevelPanel",
+      "class": "Frame"
+    },
+    {
+      "name": "CompactLevelPanel",
+      "class": "Frame"
+    },
+    {
+      "name": "CompactVotePanel",
+      "class": "Frame"
+    }
+  ],
+  "panels": [
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel",
+      "class": "Frame",
+      "backgroundTransparency": 1,
+      "name": "LevelPanel",
+      "z": 6,
+      "anchor": "0, 1",
+      "background": "1, 0.980392, 0.886275",
+      "position": "{0, 18}, {1, -82}",
+      "size": "{0, 264}, {0, 80}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.Corner",
+      "name": "Corner",
+      "class": "UICorner"
+    },
+    {
+      "thickness": 4,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.Outline",
+      "name": "Outline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.137255, 0.243137",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Border"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.LevelIcon",
+      "sliceScale": 1,
+      "class": "ImageLabel",
+      "sliceCenter": "0, 0, 0, 0",
+      "scaleType": "Enum.ScaleType.Fit",
+      "backgroundTransparency": 1,
+      "image": "rbxassetid://85788093672458",
+      "name": "LevelIcon",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "position": "{0, 88}, {0, 10}",
+      "size": "{0, 21}, {0, 21}"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.IconFallback",
+      "textScaled": true,
+      "textColor": "1, 0.976471, 0.878431",
+      "textTransparency": 0,
+      "class": "TextLabel",
+      "position": "{0, 80}, {0, 8}",
+      "backgroundTransparency": 1,
+      "text": "★",
+      "font": "Font { Family = rbxasset://fonts/families/FredokaOne.json, Weight = Regular, Style = Normal }",
+      "name": "IconFallback",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "textSize": 8,
+      "size": "{0, 21}, {0, 23}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.IconFallback.TextLimit",
+      "name": "TextLimit",
+      "class": "UITextSizeConstraint"
+    },
+    {
+      "thickness": 0.08500000089406967,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.IconFallback.TextOutline",
+      "name": "TextOutline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.117647, 0.2",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Contextual"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.Level",
+      "textScaled": true,
+      "textColor": "1, 0.976471, 0.878431",
+      "textTransparency": 0,
+      "class": "TextLabel",
+      "position": "{0, 113}, {0, 8}",
+      "backgroundTransparency": 1,
+      "text": "LEVEL 1",
+      "font": "Font { Family = rbxasset://fonts/families/FredokaOne.json, Weight = Regular, Style = Normal }",
+      "name": "Level",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "textSize": 8,
+      "size": "{0, 139}, {0, 26}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.Level.TextLimit",
+      "name": "TextLimit",
+      "class": "UITextSizeConstraint"
+    },
+    {
+      "thickness": 0.08500000089406967,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.Level.TextOutline",
+      "name": "TextOutline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.117647, 0.2",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Contextual"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XP",
+      "textScaled": true,
+      "textColor": "1, 0.976471, 0.878431",
+      "textTransparency": 0,
+      "class": "TextLabel",
+      "position": "{0, 90}, {0, 36}",
+      "backgroundTransparency": 1,
+      "text": "0 / 200 XP",
+      "font": "Font { Family = rbxasset://fonts/families/FredokaOne.json, Weight = Regular, Style = Normal }",
+      "name": "XP",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "textSize": 8,
+      "size": "{0, 163}, {0, 17}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XP.TextLimit",
+      "name": "TextLimit",
+      "class": "UITextSizeConstraint"
+    },
+    {
+      "thickness": 0.08500000089406967,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XP.TextOutline",
+      "name": "TextOutline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.117647, 0.2",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Contextual"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack",
+      "class": "Frame",
+      "backgroundTransparency": 1,
+      "name": "XPTrack",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.827451, 0.85098, 0.847059",
+      "position": "{0, 90}, {0, 59}",
+      "size": "{0, 161}, {0, 10}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Corner",
+      "name": "Corner",
+      "class": "UICorner"
+    },
+    {
+      "thickness": 2,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Outline",
+      "name": "Outline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.137255, 0.243137",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Border"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill",
+      "class": "Frame",
+      "backgroundTransparency": 1,
+      "name": "Fill",
+      "z": 8,
+      "anchor": "0, 0",
+      "background": "0.164706, 0.627451, 1",
+      "position": "{0, 0}, {0, 0}",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill.Corner",
+      "name": "Corner",
+      "class": "UICorner"
+    },
+    {
+      "transparency": "0 1 0 1 1 0 ",
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill.Progress",
+      "name": "Progress",
+      "class": "UIGradient"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill.ReusableSkin",
+      "sliceScale": 0.1785714030265808,
+      "class": "ImageLabel",
+      "sliceCenter": "28, 24, 664, 32",
+      "scaleType": "Enum.ScaleType.Slice",
+      "backgroundTransparency": 1,
+      "image": "rbxassetid://74663024847674",
+      "name": "ReusableSkin",
+      "z": 8,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "position": "{0, 0}, {0, 0}",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "transparency": "0 1 0 1 1 0 ",
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill.ReusableSkin.Progress",
+      "name": "Progress",
+      "class": "UIGradient"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.ReusableSkin",
+      "sliceScale": 0.1785714030265808,
+      "class": "ImageLabel",
+      "sliceCenter": "28, 24, 664, 32",
+      "scaleType": "Enum.ScaleType.Slice",
+      "backgroundTransparency": 1,
+      "image": "rbxassetid://124471757308253",
+      "name": "ReusableSkin",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "position": "{0, 0}, {0, 0}",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.ReusableSkin",
+      "sliceScale": 0.25,
+      "class": "ImageLabel",
+      "sliceCenter": "88, 88, 424, 232",
+      "scaleType": "Enum.ScaleType.Slice",
+      "backgroundTransparency": 1,
+      "image": "rbxassetid://117403446558356",
+      "name": "ReusableSkin",
+      "z": 6,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "position": "{0, 0}, {0, 0}",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview",
+      "class": "ViewportFrame",
+      "backgroundTransparency": 0,
+      "name": "FacePreview",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.760784, 0.913725, 0.952941",
+      "position": "{0, 22}, {0, 10}",
+      "size": "{0, 60}, {0, 60}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.Corner",
+      "name": "Corner",
+      "class": "UICorner"
+    },
+    {
+      "thickness": 2,
+      "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.Outline",
+      "name": "Outline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.137255, 0.243137",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Border"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World",
+      "name": "World",
+      "class": "WorldModel"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview",
+      "name": "AvatarPreview",
+      "class": "Model"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview.Head",
+      "name": "Head",
+      "class": "Part"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview.Eye",
+      "name": "Eye",
+      "class": "Part"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview.Eye",
+      "name": "Eye",
+      "class": "Part"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview.Smile",
+      "name": "Smile",
+      "class": "Part"
+    },
+    {
+      "visible": false,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel",
+      "class": "Frame",
+      "backgroundTransparency": 1,
+      "name": "CompactLevelPanel",
+      "z": 6,
+      "anchor": "0, 1",
+      "background": "1, 0.980392, 0.886275",
+      "position": "{0, 16}, {1, -201}",
+      "size": "{0, 115}, {0, 52}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Corner",
+      "name": "Corner",
+      "class": "UICorner"
+    },
+    {
+      "thickness": 3,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Outline",
+      "name": "Outline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.137255, 0.243137",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Border"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview",
+      "class": "ViewportFrame",
+      "backgroundTransparency": 0,
+      "name": "FacePreview",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.760784, 0.913725, 0.952941",
+      "position": "{0, 5}, {0, 5}",
+      "size": "{0, 41}, {0, 41}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.Corner",
+      "name": "Corner",
+      "class": "UICorner"
+    },
+    {
+      "thickness": 2,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.Outline",
+      "name": "Outline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.137255, 0.243137",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Border"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World",
+      "name": "World",
+      "class": "WorldModel"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview",
+      "name": "AvatarPreview",
+      "class": "Model"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview.Head",
+      "name": "Head",
+      "class": "Part"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview.Eye",
+      "name": "Eye",
+      "class": "Part"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview.Eye",
+      "name": "Eye",
+      "class": "Part"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview.Smile",
+      "name": "Smile",
+      "class": "Part"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Level",
+      "textScaled": true,
+      "textColor": "1, 0.976471, 0.878431",
+      "textTransparency": 0,
+      "class": "TextLabel",
+      "position": "{0, 51}, {0, 4}",
+      "backgroundTransparency": 1,
+      "text": "LV 1",
+      "font": "Font { Family = rbxasset://fonts/families/FredokaOne.json, Weight = Regular, Style = Normal }",
+      "name": "Level",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "textSize": 8,
+      "size": "{0, 60}, {0, 20}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Level.TextLimit",
+      "name": "TextLimit",
+      "class": "UITextSizeConstraint"
+    },
+    {
+      "thickness": 0.08500000089406967,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Level.TextOutline",
+      "name": "TextOutline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.117647, 0.2",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Contextual"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XP",
+      "textScaled": true,
+      "textColor": "1, 0.976471, 0.878431",
+      "textTransparency": 0,
+      "class": "TextLabel",
+      "position": "{0, 51}, {0, 24}",
+      "backgroundTransparency": 1,
+      "text": "0 / 200",
+      "font": "Font { Family = rbxasset://fonts/families/FredokaOne.json, Weight = Regular, Style = Normal }",
+      "name": "XP",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "textSize": 8,
+      "size": "{0, 59}, {0, 11}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XP.TextLimit",
+      "name": "TextLimit",
+      "class": "UITextSizeConstraint"
+    },
+    {
+      "thickness": 0.08500000089406967,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XP.TextOutline",
+      "name": "TextOutline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.117647, 0.2",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Contextual"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack",
+      "class": "Frame",
+      "backgroundTransparency": 1,
+      "name": "XPTrack",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.827451, 0.85098, 0.847059",
+      "position": "{0, 51}, {0, 40}",
+      "size": "{0, 56}, {0, 6}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Corner",
+      "name": "Corner",
+      "class": "UICorner"
+    },
+    {
+      "thickness": 2,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Outline",
+      "name": "Outline",
+      "position": "Enum.BorderStrokePosition.Outer",
+      "color": "0.0941176, 0.137255, 0.243137",
+      "class": "UIStroke",
+      "mode": "Enum.ApplyStrokeMode.Border"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Fill",
+      "class": "Frame",
+      "backgroundTransparency": 1,
+      "name": "Fill",
+      "z": 8,
+      "anchor": "0, 0",
+      "background": "0.164706, 0.627451, 1",
+      "position": "{0, 0}, {0, 0}",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Fill.Corner",
+      "name": "Corner",
+      "class": "UICorner"
+    },
+    {
+      "transparency": "0 1 0 1 1 0 ",
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Fill.Progress",
+      "name": "Progress",
+      "class": "UIGradient"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Fill.ReusableSkin",
+      "sliceScale": 0.10714290291070938,
+      "class": "ImageLabel",
+      "sliceCenter": "28, 24, 664, 32",
+      "scaleType": "Enum.ScaleType.Slice",
+      "backgroundTransparency": 1,
+      "image": "rbxassetid://74663024847674",
+      "name": "ReusableSkin",
+      "z": 8,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "position": "{0, 0}, {0, 0}",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "transparency": "0 1 0 1 1 0 ",
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Fill.ReusableSkin.Progress",
+      "name": "Progress",
+      "class": "UIGradient"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.ReusableSkin",
+      "sliceScale": 0.10714290291070938,
+      "class": "ImageLabel",
+      "sliceCenter": "28, 24, 664, 32",
+      "scaleType": "Enum.ScaleType.Slice",
+      "backgroundTransparency": 1,
+      "image": "rbxassetid://124471757308253",
+      "name": "ReusableSkin",
+      "z": 7,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "position": "{0, 0}, {0, 0}",
+      "size": "{1, 0}, {1, 0}"
+    },
+    {
+      "visible": true,
+      "path": "StarterGui.PlaygroundShell.CompactLevelPanel.ReusableSkin",
+      "sliceScale": 0.25,
+      "class": "ImageLabel",
+      "sliceCenter": "88, 88, 424, 232",
+      "scaleType": "Enum.ScaleType.Slice",
+      "backgroundTransparency": 1,
+      "image": "rbxassetid://117403446558356",
+      "name": "ReusableSkin",
+      "z": 6,
+      "anchor": "0, 0",
+      "background": "0.639216, 0.635294, 0.647059",
+      "position": "{0, 0}, {0, 0}",
+      "size": "{1, 0}, {1, 0}"
+    }
+  ]
+}

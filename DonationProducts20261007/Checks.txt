@@ -1,0 +1,8 @@
+Installed all nine user-supplied Developer Product IDs in Playground Classics, universe 10769034155.
+Five coin bundles: 5,000 / 10,000 / 25,000 / 50,000 / 100,000. Four donations: 50 / 100 / 250 / 1,000 base Robux.
+Roblox's Developer Product listing verified the universe, sale availability and all base prices before installation. Customer-specific prices, including Roblox Plus discounts, remain fetched by the existing UI and confirmed by Roblox's purchase prompt.
+The 25K product's Creator Hub description currently says 20,000. The game awards 25,000, matching the user's table and product name. Remote description was not changed.
+All five shop cards and four donation buttons map to the installed config entries. Donation board prompt enabled. The existing bootstrap starts Commerce; only one live server module assigns ProcessReceipt.
+71 receipt checks passed against clones of the installed config: exact coin bundles despite VIP/fishing multipliers, duplicate/rejoin receipts, failed and ambiguous saves, donations without coins, unknown/malformed receipts and absent players.
+Existing game passes preserved. No controller/source changes, actual purchases, Play runs or publishing performed.
+Backup: ServerStorage.DonationProductsBackup20261007, plus local Before/Configs.json.

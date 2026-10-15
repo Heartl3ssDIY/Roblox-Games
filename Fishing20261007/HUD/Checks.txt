@@ -1,0 +1,19 @@
+Fishing HUD installed 7 October 2026.
+
+StarterGui.PlaygroundFishingHUD contains editable DesktopDock and CompactDock layouts.
+Both show the supplied potion icon above an outlined countdown. There is no inventory or activation button.
+The compact layout leaves 122 pixels below for touch jumping and 72 pixels at the right, clear of round Settings.
+Runtime changes only visibility, timer text and compact UIScale; it does not overwrite authored positions or sizes.
+
+Coins icon: rbxassetid://140694007262146
+XP icon: rbxassetid://116411095284602
+Both fetched successfully and rendered visibly in the native Studio preview. Both reported IsLoaded=true after rendering.
+
+Native layout checks passed at 360x640, 390x844, 640x360, 844x390, 1024x768 and 1920x1080, allowing 36px for safe-area insets.
+All images and timer labels stayed in bounds; 15:00 fit every label. Compact dock clears reserved touch-jump and round-Settings rectangles.
+15 controller checks passed: inactive/expired visibility, independent boosts, stacked minutes, touch layout, Hide UI and shop suppression, restoration and authored position/size preservation.
+Controller, builder and verification fixture compile. Installed controller matches local source after line-ending normalization.
+New controller retains the existing PlayerLevelController's approved sandbox capabilities; no capabilities were broadened.
+
+Temporary preview and check objects removed. Local upload server stopped. No existing UI source was changed.
+Play was not started or stopped; physical-device/live gameplay checks remain for the user.

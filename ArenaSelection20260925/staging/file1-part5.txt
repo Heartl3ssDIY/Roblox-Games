@@ -1,0 +1,11 @@
+udio() and workspace:GetAttribute("StudioQuickRoundOnPlay") then
+	task.spawn(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		character:WaitForChild("HumanoidRootPart")
+		task.wait(1.5)
+		enterArena(ArenaConfig.arenaName, true)
+	end)
+end
+
+
+

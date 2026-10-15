@@ -1,0 +1,59 @@
+{
+  "id": "M17",
+  "name": "Snowball Lobber",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m17-snowball-lobber.png",
+  "brief": "One playful chunky snowball-launching toy gadget, a chamfered cobalt-blue box housing with navy trim, short wide ivory barrel aimed toward upper left, an open scoop-shaped cyan hopper on top holding THREE attached chunky white snowballs, orange safety muzzle rim, a short blue grip and cream side panel with a simple snowball emblem. Clearly a snowball launcher distinct from a crystal freeze ray. No ammo floating outside the hopper, no beam or realistic firearm details.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m17-snowball-lobber.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m17-snowball-lobber.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m17-snowball-lobber-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m17-snowball-lobber.png",
+  "parts": 42,
+  "triangles": 6124,
+  "meshes": 1,
+  "maxMeshTriangles": 6124,
+  "dimensions": [
+    1.19761061668396,
+    2.026003360748291,
+    2.3925554752349854
+  ],
+  "boundsMin": [
+    -0.59880530834198,
+    -1.3200000524520874,
+    0.19486576318740845
+  ],
+  "boundsMax": [
+    0.59880530834198,
+    0.7060033082962036,
+    2.587421178817749
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.3700000047683716,
+      0.5600000023841858
+    ],
+    "Muzzle": [
+      0.0,
+      -1.340000033378601,
+      1.4700000286102295
+    ],
+    "Hopper": [
+      0.0,
+      0.07000000029802322,
+      2.049999952316284
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.19761061668396,
+    2.026003360748291,
+    2.3925554752349854
+  ]
+}

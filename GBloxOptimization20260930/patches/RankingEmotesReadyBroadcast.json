@@ -1,0 +1,10 @@
+{
+  "name": "RankingEmotesReadyBroadcast",
+  "file_path": "game.ServerScriptService.RunnerServer",
+  "edits": [
+    {
+      "old_string": "local lastRankingPacket",
+      "new_string": "local lastRankingPacket\nRankingEmotes.SetAnimationReadyHandler(function(player,key,id)\n local data=players[player]\n if not data or data.leavingLobby or not player.Parent or roundPhase~=\"Intermission\"\n  or not lastRankingPacket or lastRankingPacket.courseVersion~=courseVersion\n  or RankingEmotes.Selected(player)~=key then return end\n for _,row in lastRankingPacket.rows do\n  if row.userId==player.UserId and row.emoteKey==key then\n   row.emoteAnimationId=id\n   event:FireAllClients(\"RankingEmoteChanged\",{\n    courseVersion=courseVersion,userId=player.UserId,key=key,animationId=id,\n   })\n   return\n  end\n end\nend)"
+    }
+  ]
+}

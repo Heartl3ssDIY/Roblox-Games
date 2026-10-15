@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"ownership\":[{\"id\":2016470307,\"owned\":true,\"ok\":true},{\"id\":2013962477,\"owned\":true,\"ok\":true},{\"id\":2014580485,\"owned\":true,\"ok\":true}],\"offers\":[{\"ok\":true,\"id\":3717139252,\"basePrice\":49,\"name\":\"Coin5000\",\"isForSale\":true,\"price\":45,\"universe\":10769034155,\"valid\":true},{\"ok\":true,\"id\":3717139576,\"basePrice\":99,\"name\":\"Coin10000\",\"isForSale\":true,\"price\":90,\"universe\":10769034155,\"valid\":true},{\"ok\":true,\"id\":3717139651,\"basePrice\":249,\"name\":\"Coin25000\",\"isForSale\":true,\"price\":225,\"universe\":10769034155,\"valid\":true},{\"ok\":true,\"id\":3717139714,\"basePrice\":499,\"name\":\"Coin50000\",\"isForSale\":true,\"price\":450,\"universe\":10769034155,\"valid\":true},{\"ok\":true,\"id\":3717139770,\"basePrice\":999,\"name\":\"Coin100000\",\"isForSale\":true,\"price\":900,\"universe\":10769034155,\"valid\":true},{\"ok\":true,\"id\":2016470307,\"basePrice\":799,\"name\":\"VIP\",\"isForSale\":true,\"price\":720,\"valid\":true},{\"ok\":true,\"id\":2014580485,\"basePrice\":249,\"name\":\"DoubleCoins\",\"isForSale\":true,\"price\":225,\"valid\":true},{\"ok\":true,\"id\":2013962477,\"basePrice\":199,\"name\":\"DoubleXP\",\"isForSale\":true,\"price\":180,\"valid\":true},{\"ok\":true,\"id\":3717139873,\"basePrice\":50,\"name\":\"Donation50\",\"isForSale\":true,\"price\":45,\"universe\":10769034155,\"valid\":true},{\"ok\":true,\"id\":3717139915,\"basePrice\":100,\"name\":\"Donation100\",\"isForSale\":true,\"price\":90,\"universe\":10769034155,\"valid\":true},{\"ok\":true,\"id\":3717139945,\"basePrice\":250,\"name\":\"Donation250\",\"isForSale\":true,\"price\":225,\"universe\":10769034155,\"valid\":true},{\"ok\":true,\"id\":3717140010,\"basePrice\":1000,\"name\":\"Donation1000\",\"isForSale\":true,\"price\":900,\"universe\":10769034155,\"valid\":true}]}"
+    }
+  ],
+  "isError": false
+}

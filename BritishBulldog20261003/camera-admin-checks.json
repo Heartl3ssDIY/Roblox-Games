@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-03",
+  "passed": 9,
+  "checks": {
+    "configurable": true,
+    "waitingWithoutStream": true,
+    "locksInsideStreamedArena": true,
+    "restoredWhenArenaStreamsOut": true,
+    "configuredBeforeBoundsStream": true,
+    "restoredWithMissingBounds": true,
+    "restoredOnDestroy": true,
+    "relocksAfterStreamOut": true,
+    "lockedBeforeArenaStreams": true
+  }
+}

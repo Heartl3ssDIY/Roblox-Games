@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-14",
+  "scope": "Laser Tag mobile camera aim, Shoot/Sprint controls and HUD",
+  "studioMode": "Edit",
+  "deviceSimulationStopped": true,
+  "published": false,
+  "checks": 181,
+  "compilerPassed": true,
+  "cameraAim": "Crosshair and aim ray share projected camera-forward point, preserving true centre across notch insets",
+  "smallPhone": {
+    "sprint": {
+      "visible": true,
+      "h": 48,
+      "x": 583,
+      "w": 104,
+      "y": 81.44000244140625
+    },
+    "forwardDot": 1.0000001192092896,
+    "jump": {
+      "visible": true,
+      "h": 70,
+      "x": 610,
+      "w": 70,
+      "y": 190
+    },
+    "phase": "Playing",
+    "fallback": true,
+    "shoot": {
+      "visible": true,
+      "h": 54,
+      "x": 583,
+      "w": 104,
+      "y": 19.44000244140625
+    },
+    "header": {
+      "visible": true,
+      "h": 66,
+      "x": 222.5,
+      "w": 260,
+      "y": -6
+    },
+    "viewport": "705, 338",
+    "sprintJumpOverlap": false,
+    "loaded": {
+      "shoot": true,
+      "header": true,
+      "sprint": true
+    }
+  },
+  "tablet": {
+    "sprint": {
+      "visible": true,
+      "h": 48,
+      "x": 1252,
+      "w": 104,
+      "y": 691.2799682617188
+    },
+    "forwardDot": 1.0000001192092896,
+    "jump": {
+      "visible": true,
+      "h": 120,
+      "x": 1204,
+      "w": 120,
+      "y": 763
+    },
+    "phase": "Playing",
+    "fallback": {
+      "shoot": false,
+      "header": false,
+      "sprint": false
+    },
+    "shoot": {
+      "visible": true,
+      "h": 54,
+      "x": 1252,
+      "w": 104,
+      "y": 629.2799682617188
+    },
+    "header": {
+      "visible": true,
+      "h": 86,
+      "x": 477,
+      "w": 420,
+      "y": -46
+    },
+    "viewport": "1374, 1031",
+    "sprintJumpOverlap": false,
+    "lobby": {
+      "sprintVisible": false,
+      "shootVisible": true
+    },
+    "loaded": {
+      "shoot": true,
+      "header": true,
+      "sprint": true
+    }
+  },
+  "finalAuthoredLayout": {
+    "oversizedScaledStrokes": [],
+    "layout": {
+      "1": {
+        "sliceCenter": "88, 88, 264, 148",
+        "path": "StarterGui.MudHUD.Main.Controls.Fire",
+        "image": "rbxassetid://76136999456653",
+        "position": "{1, -18}, {0.879999995, -166}",
+        "anchor": "1, 1",
+        "zIndex": 20,
+        "sliceScale": 0.18000000715255737,
+        "size": "{0, 104}, {0, 54}"
+      },
+      "2": {
+        "sliceCenter": "88, 88, 424, 232",
+        "path": "StarterGui.MudHUD.Main.MobileSprint",
+        "image": "https://www.roblox.com/asset/?id=90528629970043&version=1",
+        "position": "{1, -18}, {0.879999995, -110}",
+        "anchor": "1, 1",
+        "zIndex": 20,
+        "sliceScale": 0.15000000596046448,
+        "size": "{0, 104}, {0, 48}"
+      },
+      "3": {
+        "sliceCenter": "88, 88, 424, 232",
+        "path": "StarterGui.MudHUD.Main.Top",
+        "image": "rbxassetid://80217215544210",
+        "position": "{0.5, 0}, {0, 12}",
+        "anchor": "0.5, 0",
+        "zIndex": 4,
+        "sliceScale": 0.15000000596046448,
+        "size": "{0, 420}, {0, 86}"
+      },
+      "4": {
+        "sliceCenter": "88, 88, 424, 232",
+        "path": "StarterGui.MudHUD.Main.CompactTop",
+        "image": "rbxassetid://80217215544210",
+        "position": "{0.5, 0}, {0, 52}",
+        "anchor": "0.5, 0",
+        "zIndex": 4,
+        "sliceScale": 0.15000000596046448,
+        "size": "{0, 260}, {0, 66}"
+      },
+      "5": {
+        "sliceCenter": "88, 88, 424, 232",
+        "path": "StarterGui.MudHUD.Main.PortraitTop",
+        "image": "rbxassetid://80217215544210",
+        "position": "{0.5, 0}, {0, 52}",
+        "anchor": "0.5, 0",
+        "zIndex": 4,
+        "sliceScale": 0.15000000596046448,
+        "size": "{0, 260}, {0, 66}"
+      },
+      "6": {
+        "path": "StarterGui.MudHUD.Main.Crosshair",
+        "position": "{0.5, 0}, {0.5, 0}",
+        "anchor": "0.5, 0.5",
+        "zIndex": 30,
+        "size": "{0, 20}, {0, 20}"
+      }
+    },
+    "backup": true,
+    "editMode": true
+  },
+  "backups": [
+    "ServerStorage.LaserTagMobileControllerBackup20261014",
+    "ServerStorage.LaserTagMobileLayoutBackup20261014.Main"
+  ],
+  "limits": "Studio device emulation and native code checks; no physical phone test or published-server validation performed."
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-10",
+  "studioId": "483dfd6d-2ee2-4c23-bfb1-cbdea1a92a1e",
+  "placeId": 95034648955135,
+  "universeId": 10769034155,
+  "installed": true,
+  "published": false,
+  "multiplayerPlayTestRun": false,
+  "world": "Workspace.Duck Duck Goose",
+  "origin": [12800, 33, 4534],
+  "service": "ServerScriptService.DuckDuckGooseService",
+  "editableHud": "StarterGui.DuckDuckGooseHUD",
+  "minimumPlayers": 2,
+  "maximumPlayers": 16,
+  "durationSeconds": 180,
+  "selectionSeconds": 15,
+  "sprintSeconds": 5,
+  "tagReachStuds": 10,
+  "lapDirection": "clockwise",
+  "partialSprintRechargeUsable": true,
+  "loop": [
+    "Picker chooses a nearby seated Duck; selection automatically happens after 15 seconds if needed.",
+    "Picker becomes Runner; selected Duck becomes Goose and receives their bat.",
+    "Runner must complete the marked clockwise outside lap before claiming the gold seat.",
+    "A successful seat claim seats Runner and promotes Goose to Picker.",
+    "A valid Goose bat hit eliminates Runner and promotes Goose to Picker.",
+    "At 180 seconds Picker or Runner loses, eliminated players lose, and all other surviving Ducks win.",
+    "A sole legitimate survivor waits as FinalDuck until the timer expires and wins. Too few players caused by departures cancels rewards."
+  ],
+  "controls": {
+    "choose": "E / gamepad Y near a seated Duck, or GOOSE touch button",
+    "sprint": "Shift / gamepad L3 / right-side mobile SPRINT hold",
+    "swing": "Existing equipment click/tap/gamepad swing controls; active Goose only"
+  },
+  "backups": [
+    "ServerStorage.DuckDuckGooseBackup20261010",
+    "ServerStorage.DuckDuckGooseIntegrationBackup20261010",
+    "ServerStorage.DuckDuckGooseUiBackup20261010",
+    "ServerStorage.DuckDuckGooseWorldVoteBackup20261010",
+    "ServerStorage.DuckDuckGooseSafetyBackup20261010",
+    "ServerStorage.DuckDuckGooseFinalUiBackup20261010"
+  ],
+  "checks": {
+    "serviceNative": 121,
+    "hudNative": 69,
+    "coreIntegrationNative": 44,
+    "votingUiNative": 149,
+    "votingFallbackBehavior": 12,
+    "installedIntegrationChecks": 167,
+    "mapGeometryNative": 651,
+    "trackArrowsNative": 166,
+    "finalLuauSourcesCompiled": 30,
+    "method": "Edit-mode isolated fixtures with native Roblox objects and mocked players/time/input. No live players, persistent economy data or published game modified."
+  },
+  "remainingValidation": "A two-or-more-player Play session to assess live replication, input feel and chase balance."
+}

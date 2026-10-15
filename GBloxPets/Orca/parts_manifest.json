@@ -1,0 +1,125 @@
+{
+  "pet": "Orca",
+  "mesh_count": 23,
+  "base_meshes": 20,
+  "vfx_meshes": 3,
+  "triangles": 3372,
+  "one_material_each": true,
+  "parts": [
+    {
+      "name": "Head_Pearl_Cube.014",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Face_Ink_Panel",
+      "recolour": "Ink",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Pearl_Cap.015",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Cyan_Stripe.014",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Top.014",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Bottom.014",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_L_Violet_Temple.014",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_L_Ink.014",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_L_White_Glint.015",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Visor_R_Violet_Temple.014",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_R_Ink.014",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_R_White_Glint.015",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Helmet_Yellow_Bolt.014",
+      "recolour": "Yellow",
+      "triangles": 164
+    },
+    {
+      "name": "Dorsal_Cyan_Fin.002",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Fin_-1_Pearl.002",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Fin_1_Pearl.002",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Tail_L_Cyan.002",
+      "recolour": "Cyan",
+      "triangles": 116
+    },
+    {
+      "name": "Tail_R_Cyan.002",
+      "recolour": "Cyan",
+      "triangles": 116
+    },
+    {
+      "name": "Orca_-1_White_EyePatch",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Orca_1_White_EyePatch",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "VFX_Cyan_Underlight.015",
+      "recolour": "Glow",
+      "triangles": 108
+    },
+    {
+      "name": "VFX_-1_SpeedRail.014",
+      "recolour": "Glow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_1_SpeedRail.014",
+      "recolour": "Glow",
+      "triangles": 140
+    }
+  ]
+}

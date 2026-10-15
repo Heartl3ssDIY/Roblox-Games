@@ -1,0 +1,46 @@
+Weapon rig and click/tap combat update — 4 October 2026
+
+Installed into the open Playground Classics place in Roblox Studio, in Edit mode.
+Play was never started. The place was not published.
+
+Behaviour
+- All 15 currently available catalogue bats are native, undroppable Tools.
+- Bats equip only for Bulldogs during Crossing and the current Tagger during Playing.
+- Click/tap requests a swing. The server validates the active game, role, character, cooldown, frontal arc, range, line of sight and target protection.
+- Cooldown: 0.75 seconds. Windup: 0.16 seconds. Impact window ends at 0.30 seconds. One target per swing.
+- Successful hits preserve each game's scoring/role rules and apply a 1.35-second ragdoll.
+- Existing individual held VFX, impact bursts, cartoon outlines and stud layers are retained.
+- Hand grips and procedural upper-body swing poses support native R6, legacy Motor6D R15, and current AnimationConstraint R15.
+- The former Tagger retains a disabled bat briefly to finish the visible followthrough; it cannot hit again.
+- MudGun and HeatGun remain exclusive to active Stuck in the Mud participants. Round/owner checks reject stale or foreign tools. Both guns have matching palm attachments, correct forward muzzle orientation, and noncolliding/massless art.
+- Admin item grants/equip selection, coins and levels remain available. Lobby bat preview was removed; bat selection is used in the appropriate game.
+
+Installed sources
+ServerScriptService: BritishBulldogService, TagService, TagSprintService, StuckInTheMudService, PlaygroundEquipmentService, PlaygroundAdminService, PlaygroundBootstrap.
+StarterPlayer.StarterPlayerScripts: PlaygroundEmotes.
+StarterGui.PlaygroundAdminPanel: Controller.
+StarterGui authored layout is preserved apart from removing the obsolete HIDE BAT control. ReusableSkinController is included as a reference copy and was unchanged.
+
+Approved permissions
+Animation was added only to BritishBulldogService, TagService, PlaygroundEmotes and PlaygroundBootstrap, following the user's explicit approvals.
+All other capability values were preserved. Equipment uses injected game-service references and needs no additional capabilities.
+
+Verification
+- All 15 bats fitted on native R6 and R15: 30 native grips, with role/lifecycle/pose restoration checks.
+- 12 static bat pose combinations and 8 gun pose combinations passed orientation/clearance review.
+- 20 Tag combat checks; 57 Bulldog swing checks; 72 native Bulldog ragdoll checks.
+- 23 genuine game-service calls through Equipment's actual capability boundary.
+- 28 Mud gun lifecycle checks plus separate native grip checks.
+- 113 admin regression checks.
+- Final launcher loaded all six installed service modules using its actual sandbox and permissions.
+- Final candidate scripts and test helpers compiled.
+- Temporary Workspace previews/check folders removed.
+These are Edit-mode checks. Live multiplayer input replication, latency and moving ragdoll physics have not been play-tested.
+
+Recovery and files
+Before/ contains the original source snapshots; After/ contains installed sources.
+InstallFinalWeapons.luau validates live source against these snapshots and preserves capabilities.
+Studio backups: ServerStorage.WeaponRigUpdateBackup20261004 and ServerStorage.WeaponRigBackup20261004.
+ServerStorage.WeaponRigFixtures holds isolated native validation rigs for repeating the saved checks. Gameplay does not reference or spawn them.
+The individual JSON validation reports record check details. Initial-BatRigChecks.json and the earlier root BulldogNativeRagdoll-Validation.json are superseded by Final-BatRigChecks.json and Tests/BulldogNativeRagdoll-Validation.json.
+

@@ -1,0 +1,350 @@
+{
+  "records": [
+    {
+      "sceneOccupancy": 0.0903921289882157,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "phone_landscape_reference",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 204,
+          "x": 690,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 211.89999389648438,
+          "x": 592,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 89.25,
+          "x": 316.74798583984375,
+          "height": 59.79999923706055,
+          "width": 218.50399780273438
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 136,
+          "x": 696,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 82,
+          "x": 579.7200317382812,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 224,
+          "x": 378,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        852,
+        393
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15664777649750172,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "phone_landscape_small",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 152,
+          "x": 450,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 165.22000122070312,
+          "x": 352,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 64.55000305175781,
+          "x": 189.75,
+          "height": 59.79999923706055,
+          "width": 188.5
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 84,
+          "x": 456,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 392.6400146484375,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 236,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        568,
+        320
+      ]
+    },
+    {
+      "sceneOccupancy": 0.11437308170023266,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "phone_landscape_standard",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 207,
+          "x": 549,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 209.76998901367188,
+          "x": 451,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 65.92500305175781,
+          "x": 238.11900329589844,
+          "height": 59.79999923706055,
+          "width": 190.76199340820312
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 139,
+          "x": 555,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 464.9100036621094,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 285.5,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        667,
+        375
+      ]
+    },
+    {
+      "sceneOccupancy": 0.09153516808530573,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "phone_landscape_notch",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 201,
+          "x": 682,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 204.91000366210938,
+          "x": 584,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 65.7750015258789,
+          "x": 313.8919982910156,
+          "height": 59.79999923706055,
+          "width": 216.2159881591797
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 133,
+          "x": 688,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.CompactRoundToggle": {
+          "y": 58,
+          "x": 573.8800048828125,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 200,
+          "x": 374,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        844,
+        390
+      ]
+    },
+    {
+      "sceneOccupancy": 0.15664777649750172,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "phone_portrait_small",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 400,
+          "x": 202,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 369.8999938964844,
+          "x": 104,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 90.25,
+          "x": 65.75,
+          "height": 59.79999923706055,
+          "width": 188.5
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 332,
+          "x": 208,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 170,
+          "x": 268,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 220,
+          "x": 112,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        320,
+        568
+      ]
+    },
+    {
+      "sceneOccupancy": 0.1138322832831021,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "phone_portrait_standard",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 499,
+          "x": 257,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 450.0899963378906,
+          "x": 159,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 92.7249984741211,
+          "x": 93.25,
+          "height": 59.79999923706055,
+          "width": 188.5
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 431,
+          "x": 263,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 170,
+          "x": 323,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 220,
+          "x": 139.5,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        375,
+        667
+      ]
+    },
+    {
+      "sceneOccupancy": 0.08649987804163906,
+      "scenario": "bulldog",
+      "warnings": [],
+      "viewport": "phone_portrait_notch",
+      "failures": [],
+      "measurements": {
+        "BritishBulldogHUD.MobileSprint": {
+          "y": 642,
+          "x": 272,
+          "height": 44,
+          "width": 100
+        },
+        "PlaygroundPushControls.MobilePush": {
+          "y": 570.47998046875,
+          "x": 174,
+          "height": 44,
+          "width": 76
+        },
+        "BritishBulldogHUD.TopCard": {
+          "y": 119.69998931884766,
+          "x": 100.75,
+          "height": 59.79999923706055,
+          "width": 188.5
+        },
+        "PlaygroundBatControls.Swing": {
+          "y": 574,
+          "x": 278,
+          "height": 44,
+          "width": 88
+        },
+        "PlaygroundSessionControls.PortraitRoundToggle": {
+          "y": 194,
+          "x": 338,
+          "height": 44,
+          "width": 44
+        },
+        "PlaygroundFishingHUD.RoundDock": {
+          "y": 244,
+          "x": 147,
+          "height": 38,
+          "width": 96
+        }
+      },
+      "size": [
+        390,
+        844
+      ]
+    }
+  ],
+  "productionChanged": false,
+  "playStarted": false,
+  "insetsEmulated": true
+}

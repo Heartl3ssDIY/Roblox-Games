@@ -1,0 +1,18 @@
+00:00.063  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:57: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:111: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:02.719  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_107380_eee22051afb173afcc0eb7b6d12d3bb9.png.png"
+00:21.860  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Previews\m18-bubble-blower.png'
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m18-bubble-blower.fbx'
+export finished in 0.0179 sec.
+Info: Saved as "m18-bubble-blower.blend"
+ASSET_COMPLETE {"id": "M18", "name": "Bubble Blower", "category": "Miscellaneous", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m18-bubble-blower.png", "brief": "One chunky hand-held bubble blower toy with a bright pink rounded rectangular housing, cream side panel with three simple cyan bubble shapes, a wide hollow turquoise ring nozzle attached at the front, a short navy rubber grip and a squat yellow soap reservoir fitted below the housing. One complete object, no bubbles floating outside it, no words.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m18-bubble-blower.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m18-bubble-blower.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m18-bubble-blower-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m18-bubble-blower.png", "parts": 55, "triangles": 8720, "meshes": 1, "maxMeshTriangles": 8720, "dimensions": [1.1200000047683716, 1.901003360748291, 1.82513427734375], "boundsMin": [-0.5600000023841858, -1.1950000524520874, 0.19486576318740845], "boundsMax": [0.5600000023841858, 0.7060033082962036, 2.0199999809265137], "paletteColors": 7, "anchors": {"Grip": [0.0, 0.3700000047683716, 0.5600000023841858], "Muzzle": [0.0, -1.2200000286102295, 1.4600000381469727], "Reservoir": [0.0, -0.3700000047683716, 0.5699999928474426]}, "editable": true, "rigged": false, "rigBones": [], "collision": "Visual meshes non-colliding; use simple game-owned collision proxy", "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette", "gameplayImplemented": false, "exportDimensions": [1.1200000047683716, 1.901003360748291, 1.82513427734375]}
+PACK_COMPLETE {"count": 1, "ids": ["M18"]}
+Unable to delete file
+Unable to delete file
+
+Blender quit

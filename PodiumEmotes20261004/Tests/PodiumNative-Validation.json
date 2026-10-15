@@ -1,0 +1,72 @@
+{
+  "avatarApi": {
+    "success": true,
+    "result": {
+      "creatorUserId": 1201803949,
+      "avatar": {
+        "bodyHeight": 5.500038602343196,
+        "bodyAndAccessoryParts": 24,
+        "rootAnchored": true,
+        "nativeAnimationConstraints": 15
+      },
+      "exactCapabilities": true,
+      "passed": true,
+      "completed": true,
+      "playStarted": false,
+      "requested": true,
+      "elapsedSeconds": 0.5582798999967054,
+      "fixtureDestroyed": true,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+    }
+  },
+  "rigs": {
+    "success": true,
+    "result": {
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+      "playStarted": false,
+      "checks": [
+        "exact Emotes sandbox and capabilities",
+        "numeric authored animation ids normalize",
+        "reject invalid animation id ",
+        "reject invalid animation id 0",
+        "reject invalid animation id https://example.com/123",
+        "reject invalid animation id abc",
+        "reject invalid animation id 123.5",
+        "reject invalid animation id -1",
+        "reject invalid animation id inf",
+        "reject invalid animation id nan",
+        "R6 body height is 5.5 excluding oversized accessory",
+        "R6 generated scripts removed",
+        "R6 inaccessible extra instance safely ignored",
+        "R6 root anchored and humanoid display hidden",
+        "R6 every body and accessory part is noninteractive",
+        "R6 feet fit standing point",
+        "R6 faces podium front positive Z",
+        "R6 rank 1 celebration poses shoulder",
+        "R6 rank 1 pose restores exactly",
+        "R6 rank 2 celebration poses shoulder",
+        "R6 rank 2 pose restores exactly",
+        "R6 rank 3 celebration poses shoulder",
+        "R6 rank 3 pose restores exactly",
+        "R6 authored animation bypasses procedural joint pose",
+        "R15 body height is 5.5 excluding oversized accessory",
+        "R15 generated scripts removed",
+        "R15 inaccessible extra instance safely ignored",
+        "R15 root anchored and humanoid display hidden",
+        "R15 every body and accessory part is noninteractive",
+        "R15 feet fit standing point",
+        "R15 faces podium front positive Z",
+        "R15 rank 1 celebration poses shoulder",
+        "R15 rank 1 pose restores exactly",
+        "R15 rank 2 celebration poses shoulder",
+        "R15 rank 2 pose restores exactly",
+        "R15 rank 3 celebration poses shoulder",
+        "R15 rank 3 pose restores exactly",
+        "R15 authored animation bypasses procedural joint pose"
+      ],
+      "avatarsFetched": 0,
+      "fixtureDestroyed": true,
+      "passed": true
+    }
+  }
+}

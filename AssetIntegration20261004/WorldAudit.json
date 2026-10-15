@@ -1,0 +1,859 @@
+{
+  "collisions": [
+    {
+      "totals": {
+        "SolidVisible": 32,
+        "PassHidden": 75,
+        "SolidHidden": 2,
+        "PassVisible": 589
+      },
+      "name": "British Bulldog game",
+      "suspects": [
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree03.TrunkInk",
+          "size": "7, 28, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree06.TrunkInk",
+          "size": "7, 28, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree14.TrunkInk",
+          "size": "7, 36, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree11.TrunkInk",
+          "size": "7, 36, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree05.TrunkInk",
+          "size": "7, 36, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree13.TrunkInk",
+          "size": "7, 32, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree07.TrunkInk",
+          "size": "7, 32, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree12.TrunkInk",
+          "size": "7, 28, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree15.TrunkInk",
+          "size": "7, 28, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree02.TrunkInk",
+          "size": "7, 36, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree04.TrunkInk",
+          "size": "7, 32, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree08.TrunkInk",
+          "size": "7, 36, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.IslandEndOutline",
+          "size": "752, 25, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree16.TrunkInk",
+          "size": "7, 32, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree01.TrunkInk",
+          "size": "7, 32, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree10.TrunkInk",
+          "size": "7, 32, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.BubbleTree09.TrunkInk",
+          "size": "7, 28, 7"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.IslandEndOutline",
+          "size": "752, 27, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.IslandSideOutline",
+          "size": "8, 25, 730"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CartoonScenery.IslandSideOutline",
+          "size": "8, 29, 730"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.ArenaWalls.SideWallOutline",
+          "size": "8, 25, 376"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.ArenaWalls.EndWallOutline",
+          "size": "240, 25, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.ArenaWalls.SideWallOutline",
+          "size": "8, 25, 376"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.ArenaWalls.EndWallOutline",
+          "size": "240, 25, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.British Bulldog game.CourtArtwork.CourtFoundationOutline",
+          "size": "244, 1.5, 388"
+        },
+        {
+          "group": "BBBarrier",
+          "path": "Workspace.British Bulldog game.Gameplay.BulldogBarriers.NorthBulldogBarrier",
+          "size": "232, 100, 1.5"
+        },
+        {
+          "group": "BBBarrier",
+          "path": "Workspace.British Bulldog game.Gameplay.BulldogBarriers.SouthBulldogBarrier",
+          "size": "232, 100, 1.5"
+        }
+      ]
+    },
+    {
+      "totals": {
+        "SolidVisible": 106,
+        "PassHidden": 197,
+        "PassVisible": 806
+      },
+      "name": "Tag You're It",
+      "suspects": [
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.Perimeter.WestEastFenceInk",
+          "size": "8, 16, 432"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.Perimeter.NorthSouthFenceInk",
+          "size": "432, 16, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.Perimeter.WestEastFenceInk",
+          "size": "8, 16, 432"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.Perimeter.NorthSouthFenceInk",
+          "size": "432, 16, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.LoopWestEast1Ink",
+          "size": "16, 1.2000000476837158, 80"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.LoopWestEast-1Ink",
+          "size": "16, 1.2000000476837158, 80"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.PatioAccess2Ink",
+          "size": "14, 8, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.PatioAccess3Ink",
+          "size": "14, 12, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.LoopNorthSouth1Ink",
+          "size": "112, 1.2000000476837158, 16"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.SkippingStep3Ink",
+          "size": "14, 9, 14"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.PatioAccess1Ink",
+          "size": "14, 4, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.SkippingStep5Ink",
+          "size": "14, 12, 14"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.SkippingStep1Ink",
+          "size": "14, 3, 14"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.OuterWestEastRampInk",
+          "size": "18, 1.399999976158142, 34.11322784423828"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.SkippingStep2Ink",
+          "size": "14, 6, 14"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.SkippingStep4Ink",
+          "size": "14, 12, 14"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.OuterNorthSouthRampInk",
+          "size": "18, 1.399999976158142, 34.11322784423828"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Sunbeam.LoopNorthSouth-1Ink",
+          "size": "112, 1.2000000476837158, 16"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.PatioAccess1Ink",
+          "size": "14, 4, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.OuterNorthSouthRampInk",
+          "size": "18, 1.399999976158142, 34.11322784423828"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.CoralRoofInk",
+          "size": "28, 1.2000000476837158, 32"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.LoopWestEast-1Ink",
+          "size": "16, 1.2000000476837158, 80"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.LoopNorthSouth-1Ink",
+          "size": "112, 1.2000000476837158, 16"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.PatioAccess3Ink",
+          "size": "14, 12, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.PatioAccess2Ink",
+          "size": "14, 8, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.RoofPillarInk",
+          "size": "3.4000000953674316, 18.799999237060547, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.RoofApproachInk",
+          "size": "12, 1.2000000476837158, 16"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.RoofLandingInk",
+          "size": "16, 1.2000000476837158, 16"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.RoofApproachInk",
+          "size": "12, 1.2000000476837158, 16"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.OuterWestEastRampInk",
+          "size": "18, 1.399999976158142, 34.11322784423828"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.RoofPillarInk",
+          "size": "3.4000000953674316, 18.799999237060547, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.LoopNorthSouth1Ink",
+          "size": "112, 1.2000000476837158, 16"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.RoofLandingInk",
+          "size": "16, 1.2000000476837158, 16"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.LoopWestEast1Ink",
+          "size": "16, 1.2000000476837158, 80"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.RoofPillarInk",
+          "size": "3.4000000953674316, 18.799999237060547, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.CoralRoofs.RoofPillarInk",
+          "size": "3.4000000953674316, 18.799999237060547, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Wavewalk.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Wavewalk.PatioAccess3Ink",
+          "size": "14, 12, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Wavewalk.LoopPillarInk",
+          "size": "3.4000000953674316, 10.800000190734863, 3.4000000953674316"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Wavewalk.PatioAccess1Ink",
+          "size": "14, 4, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Wavewalk.OuterWestEastRampInk",
+          "size": "18, 1.399999976158142, 34.11322784423828"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Tag You're It.Geometry.ParkourRoutes.Wavewalk.OuterNorthSouthRampInk",
+          "size": "18, 1.399999976158142, 34.11322784423828"
+        }
+      ]
+    },
+    {
+      "totals": {
+        "SolidVisible": 331,
+        "PassHidden": 1282,
+        "PassVisible": 1180
+      },
+      "name": "Stuck in the Mud",
+      "suspects": [
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Perimeter.FenceXInk",
+          "size": "6, 34, 844"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Perimeter.FenceZInk",
+          "size": "844, 34, 6"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Perimeter.FenceXInk",
+          "size": "6, 34, 844"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Perimeter.FenceZInk",
+          "size": "844, 34, 6"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.DoorLintelInk",
+          "size": "18, 4, 2.700000047683716"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.SideWallInk",
+          "size": "2.5, 21, 58"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.DoorLintelInk",
+          "size": "18, 4, 2.700000047683716"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.BookcaseInk",
+          "size": "14, 7, 3"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.SideWallInk",
+          "size": "2.5, 21, 58"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.DeskInk",
+          "size": "20, 3, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.BookcaseInk",
+          "size": "14, 7, 3"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom01.DeskInk",
+          "size": "20, 3, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.DeskInk",
+          "size": "20, 3, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.BookcaseInk",
+          "size": "14, 7, 3"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.SideWallInk",
+          "size": "2.5, 21, 58"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.BookcaseInk",
+          "size": "14, 7, 3"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.DoorLintelInk",
+          "size": "18, 4, 2.700000047683716"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.DeskInk",
+          "size": "20, 3, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.SideWallInk",
+          "size": "2.5, 21, 58"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom02.DoorLintelInk",
+          "size": "18, 4, 2.700000047683716"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.DeskInk",
+          "size": "20, 3, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.DeskInk",
+          "size": "20, 3, 8"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.BookcaseInk",
+          "size": "14, 7, 3"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.DoorLintelInk",
+          "size": "18, 4, 2.700000047683716"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.SideWallInk",
+          "size": "2.5, 21, 58"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.SideWallInk",
+          "size": "2.5, 21, 58"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.DoorWallInk",
+          "size": "36, 21, 2.5"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.DoorLintelInk",
+          "size": "18, 4, 2.700000047683716"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Classroom03.BookcaseInk",
+          "size": "14, 7, 3"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.MonkeyBars.MonkeyPostInk",
+          "size": "3.5999999046325684, 11, 3.5999999046325684"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.MonkeyBars.MonkeyPostInk",
+          "size": "3.5999999046325684, 11, 3.5999999046325684"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.MonkeyBars.MonkeyPostInk",
+          "size": "3.5999999046325684, 11, 3.5999999046325684"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.MonkeyBars.MonkeyPostInk",
+          "size": "3.5999999046325684, 11, 3.5999999046325684"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Swings.SwingPostInk",
+          "size": "3.5999999046325684, 14, 3.5999999046325684"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Swings.SwingPostInk",
+          "size": "3.5999999046325684, 14, 3.5999999046325684"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Swings.SwingPostInk",
+          "size": "3.5999999046325684, 14, 3.5999999046325684"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.Swings.SwingPostInk",
+          "size": "3.5999999046325684, 14, 3.5999999046325684"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.RoundersPitch.PitchEquipmentBoxInk",
+          "size": "28, 5, 9"
+        },
+        {
+          "group": "Default",
+          "path": "Workspace.Stuck in the Mud.Geometry.Landmarks.RoundersPitch.PitchEquipmentBoxInk",
+          "size": "28, 5, 9"
+        }
+      ]
+    }
+  ],
+  "votes": [
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.Nature.VotingShrub",
+      "class": "Model",
+      "cf": "56.7125015, 6.34000015, -58.9715004, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "4.731000900268555, 3.306000232696533, 3.3630013465881348"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.Nature.VotingShrub",
+      "class": "Model",
+      "cf": "120.712502, 6.34000015, -58.9715004, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "4.730997085571289, 3.306000232696533, 3.3630013465881348"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.Nature.VotingShrub",
+      "class": "Model",
+      "cf": "120.712502, 6.34000015, -104.971497, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "4.730997085571289, 3.306000232696533, 3.3630013465881348"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.Nature.VotingShrub",
+      "class": "Model",
+      "cf": "56.7125015, 6.34000015, -104.971497, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "4.731000900268555, 3.306000232696533, 3.3630013465881348"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.VotingAlcove",
+      "class": "Folder"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.VotingAlcove.VotingPavingRim",
+      "trans": 0,
+      "collide": true,
+      "class": "Part",
+      "cf": "88, 4.03000021, -82, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "69.19999694824219, 0.25999999046325684, 55.20000076293945"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.VotingAlcove.VotingPaving",
+      "trans": 0,
+      "collide": true,
+      "class": "Part",
+      "cf": "88, 4.1500001, -82, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "68, 0.25999999046325684, 54"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.VotingAlcove.VotingInnerRim",
+      "trans": 0,
+      "collide": true,
+      "class": "Part",
+      "cf": "88, 4.25, -82, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "64.19999694824219, 0.18000000715255737, 50.20000076293945"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.VotingAlcove.VotingInner",
+      "trans": 0,
+      "collide": true,
+      "class": "Part",
+      "cf": "88, 4.36999989, -82, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "63, 0.18000000715255737, 49"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.Gameplay.VoteChoices",
+      "class": "Folder"
+    },
+    {
+      "attrs": {
+        "IsVotingArea": true,
+        "AvailableGames": "BritishBulldog,TagYoureIt,StuckInTheMud"
+      },
+      "path": "Workspace.Playground Lobby.Gameplay.VoteZone",
+      "trans": 1,
+      "collide": false,
+      "class": "Part",
+      "cf": "88, 10, -82, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "74, 12, 60"
+    },
+    {
+      "attrs": [],
+      "path": "Workspace.Playground Lobby.Improvements20261003.TreeAndFlowerGroups.VoteFir",
+      "class": "Model",
+      "cf": "132, 13.5699997, -106, 0.707106769, 0, 0.707106769, 0, 1, 0, -0.707106769, 0, 0.707106769",
+      "size": "10.823999404907227, 19.139999389648438, 10.823999404907227"
+    }
+  ],
+  "lobby": [
+    {
+      "class": "Folder",
+      "name": "Island",
+      "desc": 10
+    },
+    {
+      "class": "Folder",
+      "name": "Paths",
+      "desc": 122
+    },
+    {
+      "class": "Folder",
+      "name": "Nature",
+      "desc": 605
+    },
+    {
+      "class": "Folder",
+      "name": "Furniture",
+      "desc": 36
+    },
+    {
+      "class": "Folder",
+      "name": "Pond",
+      "desc": 101
+    },
+    {
+      "class": "Folder",
+      "name": "PicnicTerrace",
+      "desc": 53
+    },
+    {
+      "class": "Folder",
+      "name": "ShopNook",
+      "desc": 22
+    },
+    {
+      "class": "Folder",
+      "name": "VotingAlcove",
+      "desc": 60
+    },
+    {
+      "class": "Folder",
+      "name": "Gameplay",
+      "desc": 19
+    },
+    {
+      "class": "Folder",
+      "name": "Improvements20261003",
+      "desc": 1658
+    },
+    {
+      "class": "Model",
+      "name": "Leaderboards",
+      "desc": 510
+    }
+  ],
+  "loose": [
+    {
+      "path": "Workspace.Part",
+      "trans": 0,
+      "size": "13.109830856323242, 2, 0.249364972114563"
+    },
+    {
+      "path": "Workspace.c01-collectible-coin.c01-collectible-coin.001",
+      "trans": 0,
+      "size": "2.0299999713897705, 2.0299999713897705, 0.4780001640319824"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m01-playground-football.m01-playground-football.001",
+      "trans": 0,
+      "size": "1.8882895708084106, 1.888289451599121, 1.8882895708084106"
+    },
+    {
+      "path": "Workspace.Toys and misc items.m02-playground-basketball.m02-playground-basketball.001",
+      "trans": 0,
+      "size": "1.9259713888168335, 1.9260001182556152, 1.9259999990463257"
+    },
+    {
+      "path": "Workspace.p01-pocket-bulldog.RootPart",
+      "trans": 1,
+      "size": "0.019999999552965164, 0.019999999552965164, 0.009999999776482582"
+    },
+    {
+      "path": "Workspace.MudGun.RootPart",
+      "trans": 1,
+      "size": "0.019999999552965164, 0.019999999552965164, 0.009999999776482582"
+    },
+    {
+      "path": "Workspace.HeatGun.RootPart",
+      "trans": 1,
+      "size": "0.019999999552965164, 0.019999999552965164, 0.009999999776482582"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "viewports": [
+    {
+      "shopColumns": 1,
+      "minimumTouch": 44,
+      "buttons": 50,
+      "viewport": [
+        390,
+        844
+      ],
+      "wheelSize": 215.875,
+      "scrollCanvasY": 2859
+    },
+    {
+      "shopColumns": 3,
+      "minimumTouch": 44,
+      "buttons": 50,
+      "viewport": [
+        844,
+        390
+      ],
+      "wheelSize": 212,
+      "scrollCanvasY": 955
+    },
+    {
+      "shopColumns": 2,
+      "minimumTouch": 44,
+      "buttons": 50,
+      "viewport": [
+        640,
+        360
+      ],
+      "wheelSize": 182,
+      "scrollCanvasY": 1431
+    },
+    {
+      "shopColumns": 3,
+      "minimumTouch": 44,
+      "buttons": 50,
+      "viewport": [
+        768,
+        1024
+      ],
+      "wheelSize": 511.0833435058594,
+      "scrollCanvasY": 955
+    },
+    {
+      "shopColumns": 4,
+      "minimumTouch": 44,
+      "buttons": 50,
+      "viewport": [
+        1024,
+        768
+      ],
+      "wheelSize": 511.0833435058594,
+      "scrollCanvasY": 717
+    },
+    {
+      "shopColumns": 5,
+      "minimumTouch": 44,
+      "buttons": 50,
+      "viewport": [
+        1365,
+        768
+      ],
+      "wheelSize": 511.0833435058594,
+      "scrollCanvasY": 717
+    }
+  ],
+  "passed": true,
+  "playStarted": false
+}

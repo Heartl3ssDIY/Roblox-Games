@@ -1,0 +1,41 @@
+{
+  "installedInStudio": true,
+  "published": false,
+  "studioId": "8608e3fa-3a58-41c1-ae99-893413a51229",
+  "date": "2026-10-12",
+  "summary": {
+    "pianosCorrected": 4,
+    "rooms": 32,
+    "plants": 42,
+    "remainingStudentChairs": 208,
+    "chairGaps": 48,
+    "validationChecks": 11527,
+    "plantsRelocated": 16,
+    "backup": "ServerStorage.HideSeekFurnitureBackup20261012",
+    "shiftedChairs": 139,
+    "modifiedModels": 332,
+    "deskGroups": 64
+  },
+  "collisionAudit": {
+    "movedSolidParts": 530,
+    "structuralAndStorageConflicts": 0
+  },
+  "preserved": [
+    "All teaching boards and their corrected facing",
+    "Teacher chairs and desks",
+    "Storage models including hiding positions and exits",
+    "Doors, corridors, stairs, toilets and school structure",
+    "Canonical school prop and morph templates",
+    "Stud materials, black outlines and collision properties"
+  ],
+  "visualVerification": {
+    "before": "Viewed classroom 1 and music classroom 5 through native screenshots; confirmed piano keyboard pointed away from its bench.",
+    "after": "Native screenshot tool returned a blank 3D viewport with visible HUD on two attempts. Current Edit mode and model geometry intact; final rendered view could not be verified.",
+    "geometric": "All 4 piano keyboards face their benches; every plant clear of locker/storage parts and exits; all moved colliders retain exact rigid relationship to visual meshes."
+  },
+  "backups": {
+    "studio": "ServerStorage.HideSeekFurnitureBackup20261012",
+    "manifest": "InstalledManifest.json",
+    "restore": "RestoreFurniture.luau"
+  }
+}

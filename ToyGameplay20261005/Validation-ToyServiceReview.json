@@ -1,0 +1,28 @@
+{
+  "candidate": "After/PlaygroundToyService.luau",
+  "sha256": "8636124602E34B9D6CCA8D61036904D48184AC43CFEA504E2866F94E9A7456FD",
+  "passed": 54,
+  "checks": 54,
+  "success": true,
+  "scope": "Local service execution with Roblox vector, transform and instance doubles; no Studio mutation or Play",
+  "confirmedFixes": [
+    "Imported visual bounds-to-pivot offset retained during projectile motion",
+    "R6 leg height included in pad detection",
+    "Freeze during windup cancels pending contact"
+  ],
+  "coverage": [
+    "Lobby/readiness/liveness guards",
+    "Movement multipliers and exact expiry",
+    "Burn damage bounded to ten one-HP ticks",
+    "Effect cleanup on death and owner departure",
+    "Game entry, item swap and explicit cancellation reject delayed contacts",
+    "Malformed aim rejected",
+    "Ember activation and post-effect cooldown",
+    "Pad ground validation",
+    "Shutdown cleans tracked effects"
+  ],
+  "limitations": [
+    "Native sandbox permissions, real meshes, projectiles and visible rig poses remain for native validation",
+    "Equipment must validate actual owned loadout and Tool binding before Use"
+  ]
+}

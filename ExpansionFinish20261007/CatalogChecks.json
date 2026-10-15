@@ -1,0 +1,11 @@
+{
+  "coinUnlocks": 23,
+  "passed": true,
+  "existingItemsPreserved": 81,
+  "newItems": 35,
+  "winUnlocks": 4,
+  "maximumCoins": 100000,
+  "maximumLevel": 500,
+  "thumbnails": 35,
+  "levelUnlocks": 8
+}

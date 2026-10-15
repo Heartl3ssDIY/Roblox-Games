@@ -1,0 +1,189 @@
+{
+  "backup": "ServerStorage.PlaygroundUIReskinBackup20261004",
+  "cleanup": {
+    "assetsRemoved": 12,
+    "effectsRemoved": 0,
+    "templates": 1,
+    "emptySlots": 12,
+    "previewModelsRemoved": 12,
+    "previewPedestalsRemoved": 13
+  },
+  "leaderboards": {
+    "styledLabels": 100,
+    "rowsIncludingTemplates": 22,
+    "artworkPlacements": 72,
+    "boards": 2,
+    "runtimeScriptsChanged": false,
+    "authoredLayoutPreserved": true
+  },
+  "playTestingStarted": false,
+  "backedUpObjects": 40,
+  "screens": {
+    "hiddenShadows": 6,
+    "captions": 87,
+    "icons": 5,
+    "libraryAssets": 124,
+    "missingIcons": [],
+    "skins": 164,
+    "nativeColourFills": 3,
+    "removedArtwork": 37,
+    "textOutlines": 236
+  },
+  "world": {
+    "instances": [
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail",
+        "asset": "PNG/07-Resizable-Skins/cream-normal.png",
+        "kind": "school"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-green.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-gold.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-green.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-gold.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-red.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-red.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-gold.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-red.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+        "asset": "PNG/07-Resizable-Skins/cream-normal.png",
+        "kind": "school"
+      },
+      {
+        "path": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+        "asset": "PNG/07-Resizable-Skins/cream-normal.png",
+        "kind": "school"
+      },
+      {
+        "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork",
+        "asset": "PNG/07-Resizable-Skins/gold-normal.png",
+        "kind": "title"
+      },
+      {
+        "path": "Workspace.British Bulldog game.ArenaWalls.TitleCreamPanel.TitleArtwork",
+        "asset": "PNG/07-Resizable-Skins/gold-normal.png",
+        "kind": "title"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.ClassroomFacade.RoomPlaque.ClassDetail",
+        "asset": "PNG/07-Resizable-Skins/cream-normal.png",
+        "kind": "school"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-green.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-gold.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-red.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-gold.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-gold.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-red.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-green.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.PaintedSchoolGames.HopscotchSquare.ClassDetail",
+        "asset": "Attachments/backplate-red.png",
+        "kind": "hopscotch"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+        "asset": "PNG/07-Resizable-Skins/cream-normal.png",
+        "kind": "school"
+      },
+      {
+        "path": "Workspace.Tag You're It.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail",
+        "asset": "PNG/07-Resizable-Skins/cream-normal.png",
+        "kind": "school"
+      },
+      {
+        "path": "Workspace.Playground Lobby.VotingAlcove.StuckInTheMudStand.ChoiceCardFace.GameName",
+        "asset": "PNG/07-Resizable-Skins/green-normal.png",
+        "kind": "vote"
+      },
+      {
+        "path": "Workspace.Playground Lobby.VotingAlcove.TagYoureItStand.ChoiceCardFace.GameName",
+        "asset": "PNG/07-Resizable-Skins/red-normal.png",
+        "kind": "vote"
+      },
+      {
+        "path": "Workspace.Playground Lobby.VotingAlcove.BritishBulldogStand.ChoiceCardFace.GameName",
+        "asset": "PNG/07-Resizable-Skins/blue-normal.png",
+        "kind": "vote"
+      },
+      {
+        "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate",
+        "asset": "PNG/07-Resizable-Skins/gold-normal.png",
+        "kind": "overhead"
+      },
+      {
+        "path": "ReplicatedStorage.TagAssets.TaggerTemplate",
+        "asset": "PNG/07-Resizable-Skins/red-normal.png",
+        "kind": "overhead"
+      },
+      {
+        "path": "ReplicatedStorage.MudAssets.MuddyTemplate",
+        "asset": "PNG/07-Resizable-Skins/mud-normal.png",
+        "kind": "overhead"
+      }
+    ],
+    "labels": 30,
+    "overheadTemplates": 3,
+    "surfaceGuis": 27
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schoolFacing": "288 chairs, 32 teaching boards, 10 templates corrected and validated",
+  "adminCommands": "Current Studio BBStart, BBRunner, BBBulldog, TagStart, TagRunner, TagTagger, MudStart passed isolated preparation checks with native sandbox capabilities",
+  "diagnostics": "62 native checks passed, including owner/extra admin access, non-admin denial, error detail reporting and recovery after failure",
+  "productionFailure": "User reports failure in published Roblox; exact underlying exception has not been reproduced or recovered",
+  "ui": "Editable ErrorDetails panel in StarterGui.PlaygroundAdminPanel.AdminHub; authorized admins can copy errors; existing layout preserved",
+  "permissionsChanged": false,
+  "playStopped": true,
+  "published": false
+}

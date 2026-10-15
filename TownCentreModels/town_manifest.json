@@ -1,0 +1,6700 @@
+[
+  {
+    "name": "TownCentre_Normal",
+    "markers": {
+      "WarehouseTeleport": [
+        -5,
+        0.9,
+        -9
+      ],
+      "DealershipTeleport": [
+        5,
+        0.9,
+        -9
+      ],
+      "MainEntrance": [
+        0,
+        0.8,
+        13.6
+      ],
+      "PlayerArrival": [
+        0,
+        0.8,
+        6
+      ],
+      "TruckImpact": [
+        11.5,
+        3.2,
+        12.7
+      ],
+      "GiftTruckRoot": [
+        10.8,
+        0,
+        21.65
+      ],
+      "GiftSpillOrigin": [
+        9.83,
+        2.52,
+        30.84
+      ],
+      "GiftScatterGround": [
+        9.6,
+        0.06,
+        33.0
+      ]
+    },
+    "kind": "building",
+    "floorTop": 0.8,
+    "sharedPivot": [
+      0,
+      0,
+      0
+    ],
+    "truckYaw": -6,
+    "damage": false,
+    "parts": [
+      {
+        "name": "TownCentre_Normal__Shell__Foundation",
+        "group": "Shell",
+        "part": "Foundation",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          0.30000001192092896,
+          -0.0
+        ],
+        "size": [
+          38.0,
+          0.6000000238418579,
+          26.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Floor__Floor",
+        "group": "Floor",
+        "part": "Floor",
+        "rgb": [
+          198,
+          195,
+          182
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          0.699999988079071,
+          -0.0
+        ],
+        "size": [
+          38.0,
+          0.20000004768371582,
+          26.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__WallLeft",
+        "group": "Shell",
+        "part": "WallLeft",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -18.700000762939453,
+          6.949999809265137,
+          -0.0
+        ],
+        "size": [
+          0.5999984741210938,
+          12.30000114440918,
+          26.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__WallRight",
+        "group": "Shell",
+        "part": "WallRight",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          18.700000762939453,
+          6.949999809265137,
+          -0.0
+        ],
+        "size": [
+          0.5999984741210938,
+          12.30000114440918,
+          26.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__WallBack",
+        "group": "Shell",
+        "part": "WallBack",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -9.5367431640625e-07,
+          6.949999809265137,
+          -12.699999809265137
+        ],
+        "size": [
+          36.80000305175781,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__InnerPier-1",
+        "group": "Shell",
+        "part": "InnerPier-1",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -5.75,
+          6.949999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          3.5,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__OuterPier-1",
+        "group": "Shell",
+        "part": "OuterPier-1",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -16.950000762939453,
+          6.949999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          2.9000015258789062,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__WindowSillWall-1",
+        "group": "Shell",
+        "part": "WindowSillWall-1",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          2.0999999046325684,
+          12.699999809265137
+        ],
+        "size": [
+          8.0,
+          2.5999999046325684,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__WindowHeader-1",
+        "group": "Shell",
+        "part": "WindowHeader-1",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          11.449999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          8.0,
+          3.299999237060547,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Glass__WindowGlass-1",
+        "group": "Glass",
+        "part": "WindowGlass-1",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          -11.5,
+          6.599999904632568,
+          12.699999809265137
+        ],
+        "size": [
+          7.720001220703125,
+          6.119999885559082,
+          0.05500030517578125
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowJamb-7",
+        "group": "Trim",
+        "part": "WindowJamb-7",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -7.569999694824219,
+          6.599999904632568,
+          13.03499984741211
+        ],
+        "size": [
+          0.1399993896484375,
+          6.40000057220459,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowJamb-15",
+        "group": "Trim",
+        "part": "WindowJamb-15",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -15.430000305175781,
+          6.599999904632568,
+          13.03499984741211
+        ],
+        "size": [
+          0.1399993896484375,
+          6.40000057220459,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowRail-13",
+        "group": "Trim",
+        "part": "WindowRail-13",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          3.4700000286102295,
+          13.03499984741211
+        ],
+        "size": [
+          7.720001220703125,
+          0.1399998664855957,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowRail-19",
+        "group": "Trim",
+        "part": "WindowRail-19",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          9.729999542236328,
+          13.03499984741211
+        ],
+        "size": [
+          7.720001220703125,
+          0.1399993896484375,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowMullion-1",
+        "group": "Trim",
+        "part": "WindowMullion-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          6.599999904632568,
+          13.03499984741211
+        ],
+        "size": [
+          0.1100006103515625,
+          6.09999942779541,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__InnerPier1",
+        "group": "Shell",
+        "part": "InnerPier1",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          5.75,
+          6.949999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          3.5,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__OuterPier1",
+        "group": "Shell",
+        "part": "OuterPier1",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          16.950000762939453,
+          6.949999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          2.9000015258789062,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__WindowSillWall1",
+        "group": "Shell",
+        "part": "WindowSillWall1",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          11.5,
+          2.0999999046325684,
+          12.699999809265137
+        ],
+        "size": [
+          8.0,
+          2.5999999046325684,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__WindowHeader1",
+        "group": "Shell",
+        "part": "WindowHeader1",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          11.5,
+          11.449999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          8.0,
+          3.299999237060547,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Glass__WindowGlass1",
+        "group": "Glass",
+        "part": "WindowGlass1",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          11.5,
+          6.599999904632568,
+          12.699999809265137
+        ],
+        "size": [
+          7.720001220703125,
+          6.119999885559082,
+          0.05500030517578125
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowJamb7",
+        "group": "Trim",
+        "part": "WindowJamb7",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          7.569999694824219,
+          6.599999904632568,
+          13.03499984741211
+        ],
+        "size": [
+          0.1399993896484375,
+          6.40000057220459,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowJamb15",
+        "group": "Trim",
+        "part": "WindowJamb15",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          15.430000305175781,
+          6.599999904632568,
+          13.03499984741211
+        ],
+        "size": [
+          0.1399993896484375,
+          6.40000057220459,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowRail13",
+        "group": "Trim",
+        "part": "WindowRail13",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          11.5,
+          3.4700000286102295,
+          13.03499984741211
+        ],
+        "size": [
+          7.720001220703125,
+          0.1399998664855957,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowRail19",
+        "group": "Trim",
+        "part": "WindowRail19",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          11.5,
+          9.729999542236328,
+          13.03499984741211
+        ],
+        "size": [
+          7.720001220703125,
+          0.1399993896484375,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__WindowMullion1",
+        "group": "Trim",
+        "part": "WindowMullion1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          11.5,
+          6.599999904632568,
+          13.03499984741211
+        ],
+        "size": [
+          0.1100006103515625,
+          6.09999942779541,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Shell__EntryHeader",
+        "group": "Shell",
+        "part": "EntryHeader",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          11.699999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          8.0,
+          2.799999237060547,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__EntryJamb-1",
+        "group": "Trim",
+        "part": "EntryJamb-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -4.0,
+          5.550000190734863,
+          13.050000190734863
+        ],
+        "size": [
+          0.160003662109375,
+          9.5,
+          0.1399993896484375
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceGlass-1",
+        "group": "EntryDoors",
+        "part": "EntranceGlass-1",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          -4.134428024291992,
+          5.350000381469727,
+          14.981510162353516
+        ],
+        "size": [
+          0.5610542297363281,
+          8.939998626708984,
+          3.612229347229004
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceDoorStile-1-1",
+        "group": "EntryDoors",
+        "part": "EntranceDoorStile-1-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -3.874176025390625,
+          5.350000381469727,
+          13.129709243774414
+        ],
+        "size": [
+          0.1143341064453125,
+          9.100000381469727,
+          0.12284660339355469
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceDoorStile-11",
+        "group": "EntryDoors",
+        "part": "EntranceDoorStile-11",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -4.394681930541992,
+          5.350000381469727,
+          16.833311080932617
+        ],
+        "size": [
+          0.11433792114257812,
+          9.100000381469727,
+          0.1228485107421875
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceDoorRail-1-4",
+        "group": "EntryDoors",
+        "part": "EntranceDoorRail-1-4",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -4.134428024291992,
+          0.8500003814697266,
+          14.981510162353516
+        ],
+        "size": [
+          0.6056175231933594,
+          0.10000002384185791,
+          3.6184921264648438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceDoorRail-14",
+        "group": "EntryDoors",
+        "part": "EntranceDoorRail-14",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -4.134428024291992,
+          9.850000381469727,
+          14.981510162353516
+        ],
+        "size": [
+          0.6056175231933594,
+          0.10000038146972656,
+          3.6184921264648438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntrancePull-1",
+        "group": "EntryDoors",
+        "part": "EntrancePull-1",
+        "rgb": [
+          82,
+          91,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -4.475027084350586,
+          5.250000476837158,
+          16.32720375061035
+        ],
+        "size": [
+          0.09886550903320312,
+          1.0500001907348633,
+          0.08184432983398438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Trim__EntryJamb1",
+        "group": "Trim",
+        "part": "EntryJamb1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          3.9999990463256836,
+          5.550000190734863,
+          13.050000190734863
+        ],
+        "size": [
+          0.1600017547607422,
+          9.5,
+          0.1399993896484375
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceGlass1",
+        "group": "EntryDoors",
+        "part": "EntranceGlass1",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          4.134428977966309,
+          5.350000381469727,
+          14.981510162353516
+        ],
+        "size": [
+          0.5610561370849609,
+          8.939998626708984,
+          3.612229347229004
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceDoorStile1-1",
+        "group": "EntryDoors",
+        "part": "EntranceDoorStile1-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          4.394682884216309,
+          5.350000381469727,
+          16.833311080932617
+        ],
+        "size": [
+          0.11433601379394531,
+          9.100000381469727,
+          0.1228485107421875
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceDoorStile11",
+        "group": "EntryDoors",
+        "part": "EntranceDoorStile11",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          3.874176025390625,
+          5.350000381469727,
+          13.129709243774414
+        ],
+        "size": [
+          0.1143341064453125,
+          9.100000381469727,
+          0.12284660339355469
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceDoorRail1-4",
+        "group": "EntryDoors",
+        "part": "EntranceDoorRail1-4",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          4.134428024291992,
+          0.8500003814697266,
+          14.981510162353516
+        ],
+        "size": [
+          0.6056175231933594,
+          0.10000002384185791,
+          3.6184921264648438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntranceDoorRail14",
+        "group": "EntryDoors",
+        "part": "EntranceDoorRail14",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          4.134428024291992,
+          9.850000381469727,
+          14.981510162353516
+        ],
+        "size": [
+          0.6056175231933594,
+          0.10000038146972656,
+          3.6184921264648438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__EntryDoors__EntrancePull1",
+        "group": "EntryDoors",
+        "part": "EntrancePull1",
+        "rgb": [
+          82,
+          91,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          4.475028038024902,
+          5.250000476837158,
+          16.32720375061035
+        ],
+        "size": [
+          0.09886741638183594,
+          1.0500001907348633,
+          0.08184432983398438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__EntryCanopy",
+        "group": "Roof",
+        "part": "EntryCanopy",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -9.5367431640625e-07,
+          10.649999618530273,
+          14.25
+        ],
+        "size": [
+          10.30000114440918,
+          0.31999969482421875,
+          3.200000762939453
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Signs__TownNameFascia",
+        "group": "Signs",
+        "part": "TownNameFascia",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -9.5367431640625e-07,
+          11.430000305175781,
+          15.770000457763672
+        ],
+        "size": [
+          10.30000114440918,
+          1.2299995422363281,
+          0.15999984741210938
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Signs__TownCentreSign",
+        "group": "Signs",
+        "part": "TownCentreSign",
+        "rgb": [
+          238,
+          233,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -0.0055201053619384766,
+          11.477720260620117,
+          15.864999771118164
+        ],
+        "size": [
+          6.60468053817749,
+          0.6440000534057617,
+          0.011999130249023438
+        ],
+        "triangles": 584
+      },
+      {
+        "name": "TownCentre_Normal__Ground__EntranceLanding",
+        "group": "Ground",
+        "part": "EntranceLanding",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          9.5367431640625e-07,
+          0.4000000059604645,
+          14.550000190734863
+        ],
+        "size": [
+          8.19999885559082,
+          0.800000011920929,
+          3.1000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Ground__EntranceRamp",
+        "group": "Ground",
+        "part": "EntranceRamp",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          9.5367431640625e-07,
+          0.3199999928474426,
+          19.100000381469727
+        ],
+        "size": [
+          8.19999885559082,
+          0.9600000381469727,
+          6.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RoofWing-13",
+        "group": "Roof",
+        "part": "RoofWing-13",
+        "rgb": [
+          180,
+          184,
+          181
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -13.0,
+          13.350000381469727,
+          -0.0
+        ],
+        "size": [
+          14.0,
+          0.5,
+          28.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RoofWing13",
+        "group": "Roof",
+        "part": "RoofWing13",
+        "rgb": [
+          180,
+          184,
+          181
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          13.0,
+          13.350000381469727,
+          -0.0
+        ],
+        "size": [
+          14.0,
+          0.5,
+          28.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RoofFront",
+        "group": "Roof",
+        "part": "RoofFront",
+        "rgb": [
+          180,
+          184,
+          181
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          13.350000381469727,
+          7.0
+        ],
+        "size": [
+          12.0,
+          0.5,
+          14.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RoofBack",
+        "group": "Roof",
+        "part": "RoofBack",
+        "rgb": [
+          180,
+          184,
+          181
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          13.350000381469727,
+          -12.0
+        ],
+        "size": [
+          12.0,
+          0.5,
+          4.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RoofFasciaZ-14",
+        "group": "Roof",
+        "part": "RoofFasciaZ-14",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -9.5367431640625e-07,
+          13.270000457763672,
+          -14.0
+        ],
+        "size": [
+          40.24000549316406,
+          0.5499992370605469,
+          0.15999984741210938
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RoofFasciaZ14",
+        "group": "Roof",
+        "part": "RoofFasciaZ14",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -9.5367431640625e-07,
+          13.270000457763672,
+          14.0
+        ],
+        "size": [
+          40.24000549316406,
+          0.5499992370605469,
+          0.15999984741210938
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RoofFasciaX-20",
+        "group": "Roof",
+        "part": "RoofFasciaX-20",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -20.040000915527344,
+          13.270000457763672,
+          -0.0
+        ],
+        "size": [
+          0.160003662109375,
+          0.5499992370605469,
+          27.84000015258789
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RoofFasciaX20",
+        "group": "Roof",
+        "part": "RoofFasciaX20",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          20.040000915527344,
+          13.270000457763672,
+          -0.0
+        ],
+        "size": [
+          0.15999984741210938,
+          0.5499992370605469,
+          27.84000015258789
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestorySide-6",
+        "group": "Roof",
+        "part": "ClerestorySide-6",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          -6.0,
+          14.670000076293945,
+          -5.0
+        ],
+        "size": [
+          0.18000030517578125,
+          2.1399993896484375,
+          10.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestorySide6",
+        "group": "Roof",
+        "part": "ClerestorySide6",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          6.0,
+          14.670000076293945,
+          -5.0
+        ],
+        "size": [
+          0.18000030517578125,
+          2.1399993896484375,
+          10.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestoryEnd-10",
+        "group": "Roof",
+        "part": "ClerestoryEnd-10",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          0.0,
+          14.670000076293945,
+          -10.0
+        ],
+        "size": [
+          11.819999694824219,
+          2.1399993896484375,
+          0.18000030517578125
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestoryEnd0",
+        "group": "Roof",
+        "part": "ClerestoryEnd0",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          0.0,
+          14.670000076293945,
+          -0.0
+        ],
+        "size": [
+          11.819999694824219,
+          2.1399993896484375,
+          0.18000000715255737
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestoryFrame-6-10",
+        "group": "Roof",
+        "part": "ClerestoryFrame-6-10",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -6.0,
+          14.670000076293945,
+          -10.0
+        ],
+        "size": [
+          0.160003662109375,
+          2.200000762939453,
+          0.2199993133544922
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestoryFrame-60",
+        "group": "Roof",
+        "part": "ClerestoryFrame-60",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -6.0,
+          14.670000076293945,
+          -0.0
+        ],
+        "size": [
+          0.160003662109375,
+          2.200000762939453,
+          0.2199999988079071
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestoryFrame0-10",
+        "group": "Roof",
+        "part": "ClerestoryFrame0-10",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          14.670000076293945,
+          -10.0
+        ],
+        "size": [
+          0.160003662109375,
+          2.200000762939453,
+          0.2199993133544922
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestoryFrame00",
+        "group": "Roof",
+        "part": "ClerestoryFrame00",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          14.670000076293945,
+          -0.0
+        ],
+        "size": [
+          0.160003662109375,
+          2.200000762939453,
+          0.2199999988079071
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestoryFrame6-10",
+        "group": "Roof",
+        "part": "ClerestoryFrame6-10",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          6.0,
+          14.670000076293945,
+          -10.0
+        ],
+        "size": [
+          0.15999984741210938,
+          2.200000762939453,
+          0.2199993133544922
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__ClerestoryFrame60",
+        "group": "Roof",
+        "part": "ClerestoryFrame60",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          6.0,
+          14.670000076293945,
+          -0.0
+        ],
+        "size": [
+          0.15999984741210938,
+          2.200000762939453,
+          0.2199999988079071
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RaisedRoof",
+        "group": "Roof",
+        "part": "RaisedRoof",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          15.9399995803833,
+          -5.0
+        ],
+        "size": [
+          12.650001525878906,
+          0.39999961853027344,
+          10.649999618530273
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__RaisedRoofEdge",
+        "group": "Roof",
+        "part": "RaisedRoofEdge",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          16.18000030517578,
+          -5.0
+        ],
+        "size": [
+          12.849998474121094,
+          0.0800018310546875,
+          10.850000381469727
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__ReceptionBase",
+        "group": "Interior",
+        "part": "ReceptionBase",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -12.0,
+          2.1700000762939453,
+          -3.5
+        ],
+        "size": [
+          6.8000030517578125,
+          2.739999771118164,
+          2.6000001430511475
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__ReceptionTop",
+        "group": "Interior",
+        "part": "ReceptionTop",
+        "rgb": [
+          161,
+          125,
+          86
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -12.0,
+          3.6600000858306885,
+          -3.5
+        ],
+        "size": [
+          7.1999969482421875,
+          0.23999977111816406,
+          3.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Signs__ReceptionSign",
+        "group": "Signs",
+        "part": "ReceptionSign",
+        "rgb": [
+          238,
+          233,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -11.999765396118164,
+          2.43927001953125,
+          -2.184999942779541
+        ],
+        "size": [
+          3.14054012298584,
+          0.32899999618530273,
+          0.012000083923339844
+        ],
+        "triangles": 576
+      },
+      {
+        "name": "TownCentre_Normal__Interior__DeskLeaflet",
+        "group": "Interior",
+        "part": "DeskLeaflet",
+        "rgb": [
+          228,
+          220,
+          195
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -13.5,
+          3.805000066757202,
+          -3.299999952316284
+        ],
+        "size": [
+          1.0999984741210938,
+          0.05000019073486328,
+          0.7800002098083496
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__ReceptionChairSeat",
+        "group": "Interior",
+        "part": "ReceptionChairSeat",
+        "rgb": [
+          69,
+          104,
+          103
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -12.0,
+          2.319999933242798,
+          -6.099999904632568
+        ],
+        "size": [
+          2.0,
+          0.2199997901916504,
+          1.8999996185302734
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__ReceptionChairBack",
+        "group": "Interior",
+        "part": "ReceptionChairBack",
+        "rgb": [
+          69,
+          104,
+          103
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -12.0,
+          3.380000114440918,
+          -6.980000019073486
+        ],
+        "size": [
+          2.0,
+          1.8999998569488525,
+          0.18000030517578125
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__ReceptionChairStem",
+        "group": "Interior",
+        "part": "ReceptionChairStem",
+        "rgb": [
+          82,
+          91,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -12.0,
+          1.5499999523162842,
+          -6.099999904632568
+        ],
+        "size": [
+          0.279998779296875,
+          1.3000000715255737,
+          0.2799997329711914
+        ],
+        "triangles": 60
+      },
+      {
+        "name": "TownCentre_Normal__Interior__ReceptionChairBase",
+        "group": "Interior",
+        "part": "ReceptionChairBase",
+        "rgb": [
+          82,
+          91,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -12.0,
+          0.8799999952316284,
+          -6.099999904632568
+        ],
+        "size": [
+          1.6999969482421875,
+          0.1499999761581421,
+          1.6999998092651367
+        ],
+        "triangles": 60
+      },
+      {
+        "name": "TownCentre_Normal__Interior__WaitingBenchSeat",
+        "group": "Interior",
+        "part": "WaitingBenchSeat",
+        "rgb": [
+          161,
+          125,
+          86
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          15.0,
+          2.2799999713897705,
+          1.0
+        ],
+        "size": [
+          2.4000015258789062,
+          0.25,
+          7.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__WaitingBenchBack",
+        "group": "Interior",
+        "part": "WaitingBenchBack",
+        "rgb": [
+          69,
+          104,
+          103
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          16.100000381469727,
+          3.309999942779541,
+          1.0
+        ],
+        "size": [
+          0.20000076293945312,
+          1.8100001811981201,
+          7.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__BenchSupport-1",
+        "group": "Interior",
+        "part": "BenchSupport-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          15.0,
+          1.5,
+          -1.2999999523162842
+        ],
+        "size": [
+          1.9000015258789062,
+          1.3000000715255737,
+          0.24000000953674316
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__BenchSupport3",
+        "group": "Interior",
+        "part": "BenchSupport3",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          15.0,
+          1.5,
+          3.299999952316284
+        ],
+        "size": [
+          1.9000015258789062,
+          1.3000000715255737,
+          0.23999977111816406
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__Noticeboard",
+        "group": "Interior",
+        "part": "Noticeboard",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -18.299999237060547,
+          6.800000190734863,
+          4.0
+        ],
+        "size": [
+          0.15000152587890625,
+          3.700000286102295,
+          5.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__Notice2",
+        "group": "Interior",
+        "part": "Notice2",
+        "rgb": [
+          228,
+          220,
+          195
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -18.200000762939453,
+          7.099999904632568,
+          2.799999952316284
+        ],
+        "size": [
+          0.03499603271484375,
+          0.8199996948242188,
+          1.119999885559082
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__Notice4",
+        "group": "Interior",
+        "part": "Notice4",
+        "rgb": [
+          228,
+          220,
+          195
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -18.200000762939453,
+          7.099999904632568,
+          4.400000095367432
+        ],
+        "size": [
+          0.03499603271484375,
+          0.8199996948242188,
+          1.119999885559082
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Interior__Notice4.001",
+        "group": "Interior",
+        "part": "Notice4",
+        "rgb": [
+          228,
+          220,
+          195
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -18.200000762939453,
+          5.849999904632568,
+          4.0
+        ],
+        "size": [
+          0.03499603271484375,
+          0.8199996948242188,
+          1.119999885559082
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__TravelPads__WAREHOUSEPad",
+        "group": "TravelPads",
+        "part": "WAREHOUSEPad",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -5.0,
+          0.8299999833106995,
+          -9.0
+        ],
+        "size": [
+          4.3000030517578125,
+          0.059999942779541016,
+          4.299999713897705
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__TravelPads__WAREHOUSEPadInset",
+        "group": "TravelPads",
+        "part": "WAREHOUSEPadInset",
+        "rgb": [
+          198,
+          195,
+          182
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -5.0,
+          0.8659999966621399,
+          -9.0
+        ],
+        "size": [
+          3.8499984741210938,
+          0.011999964714050293,
+          3.8500003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Signs__WAREHOUSEBoard",
+        "group": "Signs",
+        "part": "WAREHOUSEBoard",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -5.0,
+          6.199999809265137,
+          -12.354999542236328
+        ],
+        "size": [
+          6.0,
+          1.3500003814697266,
+          0.07999992370605469
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Signs__WAREHOUSELabel",
+        "group": "Signs",
+        "part": "WAREHOUSELabel",
+        "rgb": [
+          238,
+          233,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -5.008554935455322,
+          6.224189758300781,
+          -12.300000190734863
+        ],
+        "size": [
+          3.541180372238159,
+          0.41300010681152344,
+          0.011999130249023438
+        ],
+        "triangles": 660
+      },
+      {
+        "name": "TownCentre_Normal__TravelPads__DEALERSHIPPad",
+        "group": "TravelPads",
+        "part": "DEALERSHIPPad",
+        "rgb": [
+          215,
+          179,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          4.999999046325684,
+          0.8299999833106995,
+          -9.0
+        ],
+        "size": [
+          4.30000114440918,
+          0.059999942779541016,
+          4.299999713897705
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__TravelPads__DEALERSHIPPadInset",
+        "group": "TravelPads",
+        "part": "DEALERSHIPPadInset",
+        "rgb": [
+          198,
+          195,
+          182
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          5.0,
+          0.8659999966621399,
+          -9.0
+        ],
+        "size": [
+          3.8499984741210938,
+          0.011999964714050293,
+          3.8500003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Signs__DEALERSHIPBoard",
+        "group": "Signs",
+        "part": "DEALERSHIPBoard",
+        "rgb": [
+          215,
+          179,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          5.0,
+          6.199999809265137,
+          -12.354999542236328
+        ],
+        "size": [
+          6.0,
+          1.3500003814697266,
+          0.07999992370605469
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Signs__DEALERSHIPLabel",
+        "group": "Signs",
+        "part": "DEALERSHIPLabel",
+        "rgb": [
+          238,
+          233,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          5.01947021484375,
+          6.224189758300781,
+          -12.300000190734863
+        ],
+        "size": [
+          3.1694798469543457,
+          0.41300010681152344,
+          0.011999130249023438
+        ],
+        "triangles": 608
+      },
+      {
+        "name": "TownCentre_Normal__Signs__TravelHeading",
+        "group": "Signs",
+        "part": "TravelHeading",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          0.0034999847412109375,
+          9.34000015258789,
+          -12.319999694824219
+        ],
+        "size": [
+          3.442000150680542,
+          0.6919994354248047,
+          0.011999130249023438
+        ],
+        "triangles": 284
+      },
+      {
+        "name": "TownCentre_Normal__Roof__CeilingLight-11",
+        "group": "Roof",
+        "part": "CeilingLight-11",
+        "rgb": [
+          246,
+          240,
+          210
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -11.5,
+          13.039999961853027,
+          -4.5
+        ],
+        "size": [
+          3.0,
+          0.07999992370605469,
+          1.3999998569488525
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__CeilingLight-11.001",
+        "group": "Roof",
+        "part": "CeilingLight-11",
+        "rgb": [
+          246,
+          240,
+          210
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -11.5,
+          13.039999961853027,
+          5.5
+        ],
+        "size": [
+          3.0,
+          0.07999992370605469,
+          1.3999996185302734
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__CeilingLight11",
+        "group": "Roof",
+        "part": "CeilingLight11",
+        "rgb": [
+          246,
+          240,
+          210
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          11.5,
+          13.039999961853027,
+          -4.5
+        ],
+        "size": [
+          3.0,
+          0.07999992370605469,
+          1.3999998569488525
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Roof__CeilingLight11.001",
+        "group": "Roof",
+        "part": "CeilingLight11",
+        "rgb": [
+          246,
+          240,
+          210
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          11.5,
+          13.039999961853027,
+          5.5
+        ],
+        "size": [
+          3.0,
+          0.07999992370605469,
+          1.3999996185302734
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Exterior__EntryPlanter",
+        "group": "Exterior",
+        "part": "EntryPlanter",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -14.5,
+          0.9200000762939453,
+          16.700000762939453
+        ],
+        "size": [
+          3.8000030517578125,
+          1.440000057220459,
+          2.200000762939453
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Normal__Exterior__EntryShrub",
+        "group": "Exterior",
+        "part": "EntryShrub",
+        "rgb": [
+          74,
+          111,
+          76
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -14.5,
+          2.049999952316284,
+          16.700000762939453
+        ],
+        "size": [
+          3.3499984741210938,
+          1.0499998331069946,
+          1.7599992752075195
+        ],
+        "triangles": 12
+      }
+    ],
+    "meshParts": 96,
+    "triangles": 3900
+  },
+  {
+    "name": "TownCentre_Crashed",
+    "markers": {
+      "WarehouseTeleport": [
+        -5,
+        0.9,
+        -9
+      ],
+      "DealershipTeleport": [
+        5,
+        0.9,
+        -9
+      ],
+      "MainEntrance": [
+        0,
+        0.8,
+        13.6
+      ],
+      "PlayerArrival": [
+        0,
+        0.8,
+        6
+      ],
+      "TruckImpact": [
+        11.5,
+        3.2,
+        12.7
+      ],
+      "GiftTruckRoot": [
+        10.8,
+        0,
+        21.65
+      ],
+      "GiftSpillOrigin": [
+        9.83,
+        2.52,
+        30.84
+      ],
+      "GiftScatterGround": [
+        9.6,
+        0.06,
+        33.0
+      ]
+    },
+    "kind": "building",
+    "floorTop": 0.8,
+    "sharedPivot": [
+      0,
+      0,
+      0
+    ],
+    "truckYaw": -6,
+    "damage": true,
+    "parts": [
+      {
+        "name": "TownCentre_Crashed__Shell__Foundation",
+        "group": "Shell",
+        "part": "Foundation",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          0.30000001192092896,
+          -0.0
+        ],
+        "size": [
+          38.0,
+          0.6000000238418579,
+          26.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Floor__Floor",
+        "group": "Floor",
+        "part": "Floor",
+        "rgb": [
+          198,
+          195,
+          182
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          0.699999988079071,
+          -0.0
+        ],
+        "size": [
+          38.0,
+          0.20000004768371582,
+          26.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Shell__WallLeft",
+        "group": "Shell",
+        "part": "WallLeft",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -18.700000762939453,
+          6.949999809265137,
+          -0.0
+        ],
+        "size": [
+          0.5999984741210938,
+          12.30000114440918,
+          26.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Shell__WallRight",
+        "group": "Shell",
+        "part": "WallRight",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          18.700000762939453,
+          6.949999809265137,
+          -0.0
+        ],
+        "size": [
+          0.5999984741210938,
+          12.30000114440918,
+          26.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Shell__WallBack",
+        "group": "Shell",
+        "part": "WallBack",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          9.5367431640625e-07,
+          6.949999809265137,
+          -12.699999809265137
+        ],
+        "size": [
+          36.80000305175781,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Shell__InnerPier-1",
+        "group": "Shell",
+        "part": "InnerPier-1",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -5.75,
+          6.949999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          3.5,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Shell__OuterPier-1",
+        "group": "Shell",
+        "part": "OuterPier-1",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -16.950000762939453,
+          6.949999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          2.9000015258789062,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Shell__WindowSillWall-1",
+        "group": "Shell",
+        "part": "WindowSillWall-1",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          2.0999999046325684,
+          12.699999809265137
+        ],
+        "size": [
+          8.0,
+          2.5999999046325684,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Shell__WindowHeader-1",
+        "group": "Shell",
+        "part": "WindowHeader-1",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          11.449999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          8.0,
+          3.299999237060547,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Glass__WindowGlass-1",
+        "group": "Glass",
+        "part": "WindowGlass-1",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          -11.5,
+          6.599999904632568,
+          12.699999809265137
+        ],
+        "size": [
+          7.720001220703125,
+          6.119999885559082,
+          0.05500030517578125
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Trim__WindowJamb-7",
+        "group": "Trim",
+        "part": "WindowJamb-7",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -7.569999694824219,
+          6.599999904632568,
+          13.03499984741211
+        ],
+        "size": [
+          0.1399993896484375,
+          6.40000057220459,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Trim__WindowJamb-15",
+        "group": "Trim",
+        "part": "WindowJamb-15",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -15.430000305175781,
+          6.599999904632568,
+          13.03499984741211
+        ],
+        "size": [
+          0.1399993896484375,
+          6.40000057220459,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Trim__WindowRail-13",
+        "group": "Trim",
+        "part": "WindowRail-13",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          3.4700000286102295,
+          13.03499984741211
+        ],
+        "size": [
+          7.720001220703125,
+          0.1399998664855957,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Trim__WindowRail-19",
+        "group": "Trim",
+        "part": "WindowRail-19",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          9.729999542236328,
+          13.03499984741211
+        ],
+        "size": [
+          7.720001220703125,
+          0.1399993896484375,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Trim__WindowMullion-1",
+        "group": "Trim",
+        "part": "WindowMullion-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -11.5,
+          6.599999904632568,
+          13.03499984741211
+        ],
+        "size": [
+          0.1100006103515625,
+          6.09999942779541,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Shell__EntryHeader",
+        "group": "Shell",
+        "part": "EntryHeader",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          11.699999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          8.0,
+          2.799999237060547,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Trim__EntryJamb-1",
+        "group": "Trim",
+        "part": "EntryJamb-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -3.9999990463256836,
+          5.550000190734863,
+          13.050000190734863
+        ],
+        "size": [
+          0.1600017547607422,
+          9.5,
+          0.1399993896484375
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceGlass-1",
+        "group": "EntryDoors",
+        "part": "EntranceGlass-1",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          -4.134428977966309,
+          5.350000381469727,
+          14.981510162353516
+        ],
+        "size": [
+          0.5610561370849609,
+          8.939998626708984,
+          3.612229347229004
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceDoorStile-1-1",
+        "group": "EntryDoors",
+        "part": "EntranceDoorStile-1-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -3.874176025390625,
+          5.350000381469727,
+          13.129709243774414
+        ],
+        "size": [
+          0.1143341064453125,
+          9.100000381469727,
+          0.12284660339355469
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceDoorStile-11",
+        "group": "EntryDoors",
+        "part": "EntranceDoorStile-11",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -4.394682884216309,
+          5.350000381469727,
+          16.833311080932617
+        ],
+        "size": [
+          0.11433601379394531,
+          9.100000381469727,
+          0.1228485107421875
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceDoorRail-1-4",
+        "group": "EntryDoors",
+        "part": "EntranceDoorRail-1-4",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -4.134428024291992,
+          0.8500003814697266,
+          14.981510162353516
+        ],
+        "size": [
+          0.6056175231933594,
+          0.10000002384185791,
+          3.6184921264648438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceDoorRail-14",
+        "group": "EntryDoors",
+        "part": "EntranceDoorRail-14",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -4.134428024291992,
+          9.850000381469727,
+          14.981510162353516
+        ],
+        "size": [
+          0.6056175231933594,
+          0.10000038146972656,
+          3.6184921264648438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntrancePull-1",
+        "group": "EntryDoors",
+        "part": "EntrancePull-1",
+        "rgb": [
+          82,
+          91,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -4.475028038024902,
+          5.250000476837158,
+          16.32720375061035
+        ],
+        "size": [
+          0.09886741638183594,
+          1.0500001907348633,
+          0.08184432983398438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Trim__EntryJamb1",
+        "group": "Trim",
+        "part": "EntryJamb1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          4.0,
+          5.550000190734863,
+          13.050000190734863
+        ],
+        "size": [
+          0.160003662109375,
+          9.5,
+          0.1399993896484375
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceGlass1",
+        "group": "EntryDoors",
+        "part": "EntranceGlass1",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          4.134428024291992,
+          5.350000381469727,
+          14.981510162353516
+        ],
+        "size": [
+          0.5610542297363281,
+          8.939998626708984,
+          3.612229347229004
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceDoorStile1-1",
+        "group": "EntryDoors",
+        "part": "EntranceDoorStile1-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          4.394683837890625,
+          5.350000381469727,
+          16.833311080932617
+        ],
+        "size": [
+          0.1143341064453125,
+          9.100000381469727,
+          0.1228485107421875
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceDoorStile11",
+        "group": "EntryDoors",
+        "part": "EntranceDoorStile11",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          3.874176025390625,
+          5.350000381469727,
+          13.129709243774414
+        ],
+        "size": [
+          0.1143341064453125,
+          9.100000381469727,
+          0.12284660339355469
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceDoorRail1-4",
+        "group": "EntryDoors",
+        "part": "EntranceDoorRail1-4",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          4.134428024291992,
+          0.8500003814697266,
+          14.981510162353516
+        ],
+        "size": [
+          0.6056175231933594,
+          0.10000002384185791,
+          3.6184921264648438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntranceDoorRail14",
+        "group": "EntryDoors",
+        "part": "EntranceDoorRail14",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          4.134428024291992,
+          9.850000381469727,
+          14.981510162353516
+        ],
+        "size": [
+          0.6056175231933594,
+          0.10000038146972656,
+          3.6184921264648438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__EntryDoors__EntrancePull1",
+        "group": "EntryDoors",
+        "part": "EntrancePull1",
+        "rgb": [
+          82,
+          91,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          4.475027084350586,
+          5.250000476837158,
+          16.32720375061035
+        ],
+        "size": [
+          0.09886550903320312,
+          1.0500001907348633,
+          0.08184432983398438
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__EntryCanopy",
+        "group": "Roof",
+        "part": "EntryCanopy",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          9.5367431640625e-07,
+          10.649999618530273,
+          14.25
+        ],
+        "size": [
+          10.30000114440918,
+          0.31999969482421875,
+          3.200000762939453
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Signs__TownNameFascia",
+        "group": "Signs",
+        "part": "TownNameFascia",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          9.5367431640625e-07,
+          11.430000305175781,
+          15.770000457763672
+        ],
+        "size": [
+          10.30000114440918,
+          1.2299995422363281,
+          0.15999984741210938
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Signs__TownCentreSign",
+        "group": "Signs",
+        "part": "TownCentreSign",
+        "rgb": [
+          238,
+          233,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -0.0055201053619384766,
+          11.477720260620117,
+          15.864999771118164
+        ],
+        "size": [
+          6.60468053817749,
+          0.6440000534057617,
+          0.011999130249023438
+        ],
+        "triangles": 584
+      },
+      {
+        "name": "TownCentre_Crashed__Ground__EntranceLanding",
+        "group": "Ground",
+        "part": "EntranceLanding",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -9.5367431640625e-07,
+          0.4000000059604645,
+          14.550000190734863
+        ],
+        "size": [
+          8.19999885559082,
+          0.800000011920929,
+          3.1000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Ground__EntranceRamp",
+        "group": "Ground",
+        "part": "EntranceRamp",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -9.5367431640625e-07,
+          0.3199999928474426,
+          19.100000381469727
+        ],
+        "size": [
+          8.19999885559082,
+          0.9600000381469727,
+          6.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RoofWing-13",
+        "group": "Roof",
+        "part": "RoofWing-13",
+        "rgb": [
+          180,
+          184,
+          181
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -13.0,
+          13.350000381469727,
+          -0.0
+        ],
+        "size": [
+          14.0,
+          0.5,
+          28.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RoofWing13",
+        "group": "Roof",
+        "part": "RoofWing13",
+        "rgb": [
+          180,
+          184,
+          181
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          13.0,
+          13.350000381469727,
+          -0.0
+        ],
+        "size": [
+          14.0,
+          0.5,
+          28.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RoofFront",
+        "group": "Roof",
+        "part": "RoofFront",
+        "rgb": [
+          180,
+          184,
+          181
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          13.350000381469727,
+          7.0
+        ],
+        "size": [
+          12.0,
+          0.5,
+          14.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RoofBack",
+        "group": "Roof",
+        "part": "RoofBack",
+        "rgb": [
+          180,
+          184,
+          181
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          13.350000381469727,
+          -12.0
+        ],
+        "size": [
+          12.0,
+          0.5,
+          4.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RoofFasciaZ-14",
+        "group": "Roof",
+        "part": "RoofFasciaZ-14",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          9.5367431640625e-07,
+          13.270000457763672,
+          -14.0
+        ],
+        "size": [
+          40.24000549316406,
+          0.5499992370605469,
+          0.15999984741210938
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RoofFasciaZ14",
+        "group": "Roof",
+        "part": "RoofFasciaZ14",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          9.5367431640625e-07,
+          13.270000457763672,
+          14.0
+        ],
+        "size": [
+          40.24000549316406,
+          0.5499992370605469,
+          0.15999984741210938
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RoofFasciaX-20",
+        "group": "Roof",
+        "part": "RoofFasciaX-20",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -20.040000915527344,
+          13.270000457763672,
+          -0.0
+        ],
+        "size": [
+          0.15999984741210938,
+          0.5499992370605469,
+          27.84000015258789
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RoofFasciaX20",
+        "group": "Roof",
+        "part": "RoofFasciaX20",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          20.040000915527344,
+          13.270000457763672,
+          -0.0
+        ],
+        "size": [
+          0.160003662109375,
+          0.5499992370605469,
+          27.84000015258789
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestorySide-6",
+        "group": "Roof",
+        "part": "ClerestorySide-6",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          -6.0,
+          14.670000076293945,
+          -5.0
+        ],
+        "size": [
+          0.18000030517578125,
+          2.1399993896484375,
+          10.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestorySide6",
+        "group": "Roof",
+        "part": "ClerestorySide6",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          6.0,
+          14.670000076293945,
+          -5.0
+        ],
+        "size": [
+          0.18000030517578125,
+          2.1399993896484375,
+          10.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestoryEnd-10",
+        "group": "Roof",
+        "part": "ClerestoryEnd-10",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          0.0,
+          14.670000076293945,
+          -10.0
+        ],
+        "size": [
+          11.819999694824219,
+          2.1399993896484375,
+          0.18000030517578125
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestoryEnd0",
+        "group": "Roof",
+        "part": "ClerestoryEnd0",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": true,
+        "center": [
+          0.0,
+          14.670000076293945,
+          -0.0
+        ],
+        "size": [
+          11.819999694824219,
+          2.1399993896484375,
+          0.18000000715255737
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestoryFrame-6-10",
+        "group": "Roof",
+        "part": "ClerestoryFrame-6-10",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -6.0,
+          14.670000076293945,
+          -10.0
+        ],
+        "size": [
+          0.15999984741210938,
+          2.200000762939453,
+          0.2199993133544922
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestoryFrame-60",
+        "group": "Roof",
+        "part": "ClerestoryFrame-60",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -6.0,
+          14.670000076293945,
+          -0.0
+        ],
+        "size": [
+          0.15999984741210938,
+          2.200000762939453,
+          0.2199999988079071
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestoryFrame0-10",
+        "group": "Roof",
+        "part": "ClerestoryFrame0-10",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          14.670000076293945,
+          -10.0
+        ],
+        "size": [
+          0.160003662109375,
+          2.200000762939453,
+          0.2199993133544922
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestoryFrame00",
+        "group": "Roof",
+        "part": "ClerestoryFrame00",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          14.670000076293945,
+          -0.0
+        ],
+        "size": [
+          0.160003662109375,
+          2.200000762939453,
+          0.2199999988079071
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestoryFrame6-10",
+        "group": "Roof",
+        "part": "ClerestoryFrame6-10",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          6.0,
+          14.670000076293945,
+          -10.0
+        ],
+        "size": [
+          0.160003662109375,
+          2.200000762939453,
+          0.2199993133544922
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__ClerestoryFrame60",
+        "group": "Roof",
+        "part": "ClerestoryFrame60",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          6.0,
+          14.670000076293945,
+          -0.0
+        ],
+        "size": [
+          0.160003662109375,
+          2.200000762939453,
+          0.2199999988079071
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RaisedRoof",
+        "group": "Roof",
+        "part": "RaisedRoof",
+        "rgb": [
+          222,
+          218,
+          205
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          15.9399995803833,
+          -5.0
+        ],
+        "size": [
+          12.650001525878906,
+          0.39999961853027344,
+          10.649999618530273
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__RaisedRoofEdge",
+        "group": "Roof",
+        "part": "RaisedRoofEdge",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          0.0,
+          16.18000030517578,
+          -5.0
+        ],
+        "size": [
+          12.849998474121094,
+          0.0800018310546875,
+          10.850000381469727
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__ReceptionBase",
+        "group": "Interior",
+        "part": "ReceptionBase",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -12.0,
+          2.1700000762939453,
+          -3.5
+        ],
+        "size": [
+          6.799999237060547,
+          2.739999771118164,
+          2.6000001430511475
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__ReceptionTop",
+        "group": "Interior",
+        "part": "ReceptionTop",
+        "rgb": [
+          161,
+          125,
+          86
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -12.0,
+          3.6600000858306885,
+          -3.5
+        ],
+        "size": [
+          7.200000762939453,
+          0.23999977111816406,
+          3.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Signs__ReceptionSign",
+        "group": "Signs",
+        "part": "ReceptionSign",
+        "rgb": [
+          238,
+          233,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -11.999765396118164,
+          2.43927001953125,
+          -2.184999942779541
+        ],
+        "size": [
+          3.14054012298584,
+          0.32899999618530273,
+          0.012000083923339844
+        ],
+        "triangles": 576
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__DeskLeaflet",
+        "group": "Interior",
+        "part": "DeskLeaflet",
+        "rgb": [
+          228,
+          220,
+          195
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -13.5,
+          3.805000066757202,
+          -3.299999952316284
+        ],
+        "size": [
+          1.0999984741210938,
+          0.05000019073486328,
+          0.7800002098083496
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__ReceptionChairSeat",
+        "group": "Interior",
+        "part": "ReceptionChairSeat",
+        "rgb": [
+          69,
+          104,
+          103
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -12.0,
+          2.319999933242798,
+          -6.099999904632568
+        ],
+        "size": [
+          2.0,
+          0.2199997901916504,
+          1.8999996185302734
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__ReceptionChairBack",
+        "group": "Interior",
+        "part": "ReceptionChairBack",
+        "rgb": [
+          69,
+          104,
+          103
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -12.0,
+          3.380000114440918,
+          -6.980000019073486
+        ],
+        "size": [
+          2.0,
+          1.8999998569488525,
+          0.18000030517578125
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__ReceptionChairStem",
+        "group": "Interior",
+        "part": "ReceptionChairStem",
+        "rgb": [
+          82,
+          91,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -12.0,
+          1.5499999523162842,
+          -6.099999904632568
+        ],
+        "size": [
+          0.279998779296875,
+          1.3000000715255737,
+          0.2799997329711914
+        ],
+        "triangles": 60
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__ReceptionChairBase",
+        "group": "Interior",
+        "part": "ReceptionChairBase",
+        "rgb": [
+          82,
+          91,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -12.0,
+          0.8799999952316284,
+          -6.099999904632568
+        ],
+        "size": [
+          1.7000007629394531,
+          0.1499999761581421,
+          1.6999998092651367
+        ],
+        "triangles": 60
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__WaitingBenchSeat",
+        "group": "Interior",
+        "part": "WaitingBenchSeat",
+        "rgb": [
+          161,
+          125,
+          86
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          15.0,
+          2.2799999713897705,
+          1.0
+        ],
+        "size": [
+          2.4000015258789062,
+          0.25,
+          7.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__WaitingBenchBack",
+        "group": "Interior",
+        "part": "WaitingBenchBack",
+        "rgb": [
+          69,
+          104,
+          103
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          16.100000381469727,
+          3.309999942779541,
+          1.0
+        ],
+        "size": [
+          0.20000076293945312,
+          1.8100001811981201,
+          7.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__BenchSupport-1",
+        "group": "Interior",
+        "part": "BenchSupport-1",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          15.0,
+          1.5,
+          -1.2999999523162842
+        ],
+        "size": [
+          1.9000015258789062,
+          1.3000000715255737,
+          0.24000000953674316
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__BenchSupport3",
+        "group": "Interior",
+        "part": "BenchSupport3",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          15.0,
+          1.5,
+          3.299999952316284
+        ],
+        "size": [
+          1.9000015258789062,
+          1.3000000715255737,
+          0.23999977111816406
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__Noticeboard",
+        "group": "Interior",
+        "part": "Noticeboard",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -18.299999237060547,
+          6.800000190734863,
+          4.0
+        ],
+        "size": [
+          0.15000152587890625,
+          3.700000286102295,
+          5.0
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__Notice2",
+        "group": "Interior",
+        "part": "Notice2",
+        "rgb": [
+          228,
+          220,
+          195
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -18.200000762939453,
+          7.099999904632568,
+          2.799999952316284
+        ],
+        "size": [
+          0.034999847412109375,
+          0.8199996948242188,
+          1.119999885559082
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__Notice4",
+        "group": "Interior",
+        "part": "Notice4",
+        "rgb": [
+          228,
+          220,
+          195
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -18.200000762939453,
+          7.099999904632568,
+          4.400000095367432
+        ],
+        "size": [
+          0.034999847412109375,
+          0.8199996948242188,
+          1.119999885559082
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Interior__Notice4.001",
+        "group": "Interior",
+        "part": "Notice4",
+        "rgb": [
+          228,
+          220,
+          195
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -18.200000762939453,
+          5.849999904632568,
+          4.0
+        ],
+        "size": [
+          0.034999847412109375,
+          0.8199996948242188,
+          1.119999885559082
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__TravelPads__WAREHOUSEPad",
+        "group": "TravelPads",
+        "part": "WAREHOUSEPad",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -4.999999046325684,
+          0.8299999833106995,
+          -9.0
+        ],
+        "size": [
+          4.30000114440918,
+          0.059999942779541016,
+          4.299999713897705
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__TravelPads__WAREHOUSEPadInset",
+        "group": "TravelPads",
+        "part": "WAREHOUSEPadInset",
+        "rgb": [
+          198,
+          195,
+          182
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -5.0,
+          0.8659999966621399,
+          -9.0
+        ],
+        "size": [
+          3.8499984741210938,
+          0.011999964714050293,
+          3.8500003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Signs__WAREHOUSEBoard",
+        "group": "Signs",
+        "part": "WAREHOUSEBoard",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -5.0,
+          6.199999809265137,
+          -12.354999542236328
+        ],
+        "size": [
+          6.0,
+          1.3500003814697266,
+          0.07999992370605469
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Signs__WAREHOUSELabel",
+        "group": "Signs",
+        "part": "WAREHOUSELabel",
+        "rgb": [
+          238,
+          233,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -5.008554935455322,
+          6.224189758300781,
+          -12.300000190734863
+        ],
+        "size": [
+          3.541180372238159,
+          0.41300010681152344,
+          0.011999130249023438
+        ],
+        "triangles": 660
+      },
+      {
+        "name": "TownCentre_Crashed__TravelPads__DEALERSHIPPad",
+        "group": "TravelPads",
+        "part": "DEALERSHIPPad",
+        "rgb": [
+          215,
+          179,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          5.0,
+          0.8299999833106995,
+          -9.0
+        ],
+        "size": [
+          4.3000030517578125,
+          0.059999942779541016,
+          4.299999713897705
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__TravelPads__DEALERSHIPPadInset",
+        "group": "TravelPads",
+        "part": "DEALERSHIPPadInset",
+        "rgb": [
+          198,
+          195,
+          182
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          5.0,
+          0.8659999966621399,
+          -9.0
+        ],
+        "size": [
+          3.8499984741210938,
+          0.011999964714050293,
+          3.8500003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Signs__DEALERSHIPBoard",
+        "group": "Signs",
+        "part": "DEALERSHIPBoard",
+        "rgb": [
+          215,
+          179,
+          92
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          5.0,
+          6.199999809265137,
+          -12.354999542236328
+        ],
+        "size": [
+          6.0,
+          1.3500003814697266,
+          0.07999992370605469
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Signs__DEALERSHIPLabel",
+        "group": "Signs",
+        "part": "DEALERSHIPLabel",
+        "rgb": [
+          238,
+          233,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          5.01947021484375,
+          6.224189758300781,
+          -12.300000190734863
+        ],
+        "size": [
+          3.1694798469543457,
+          0.41300010681152344,
+          0.011999130249023438
+        ],
+        "triangles": 608
+      },
+      {
+        "name": "TownCentre_Crashed__Signs__TravelHeading",
+        "group": "Signs",
+        "part": "TravelHeading",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          0.0034999847412109375,
+          9.34000015258789,
+          -12.319999694824219
+        ],
+        "size": [
+          3.442000150680542,
+          0.6919994354248047,
+          0.011999130249023438
+        ],
+        "triangles": 284
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__CeilingLight-11",
+        "group": "Roof",
+        "part": "CeilingLight-11",
+        "rgb": [
+          246,
+          240,
+          210
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -11.5,
+          13.039999961853027,
+          -4.5
+        ],
+        "size": [
+          3.0,
+          0.07999992370605469,
+          1.3999998569488525
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__CeilingLight-11.001",
+        "group": "Roof",
+        "part": "CeilingLight-11",
+        "rgb": [
+          246,
+          240,
+          210
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -11.5,
+          13.039999961853027,
+          5.5
+        ],
+        "size": [
+          3.0,
+          0.07999992370605469,
+          1.3999996185302734
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__CeilingLight11",
+        "group": "Roof",
+        "part": "CeilingLight11",
+        "rgb": [
+          246,
+          240,
+          210
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          11.5,
+          13.039999961853027,
+          -4.5
+        ],
+        "size": [
+          3.0,
+          0.07999992370605469,
+          1.3999998569488525
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Roof__CeilingLight11.001",
+        "group": "Roof",
+        "part": "CeilingLight11",
+        "rgb": [
+          246,
+          240,
+          210
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          11.5,
+          13.039999961853027,
+          5.5
+        ],
+        "size": [
+          3.0,
+          0.07999992370605469,
+          1.3999996185302734
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Exterior__EntryPlanter",
+        "group": "Exterior",
+        "part": "EntryPlanter",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -14.5,
+          0.9200000762939453,
+          16.700000762939453
+        ],
+        "size": [
+          3.799999237060547,
+          1.440000057220459,
+          2.200000762939453
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Exterior__EntryShrub",
+        "group": "Exterior",
+        "part": "EntryShrub",
+        "rgb": [
+          74,
+          111,
+          76
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -14.5,
+          2.049999952316284,
+          16.700000762939453
+        ],
+        "size": [
+          3.3499984741210938,
+          1.0499998331069946,
+          1.7599992752075195
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__ImpactLeftPier",
+        "group": "Damage",
+        "part": "ImpactLeftPier",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          5.100000381469727,
+          6.949999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          2.200000762939453,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__ImpactRightPier",
+        "group": "Damage",
+        "part": "ImpactRightPier",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          17.60000228881836,
+          6.949999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          1.5999984741210938,
+          12.30000114440918,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__ImpactUpperWall",
+        "group": "Damage",
+        "part": "ImpactUpperWall",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          11.5,
+          11.449999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          10.599998474121094,
+          3.299999237060547,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__ImpactWindowShoulder6",
+        "group": "Damage",
+        "part": "ImpactWindowShoulder6",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          6.850000381469727,
+          9.199999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          1.2999992370605469,
+          1.2000007629394531,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__ImpactWindowShoulder16",
+        "group": "Damage",
+        "part": "ImpactWindowShoulder16",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          16.149999618530273,
+          9.199999809265137,
+          12.699999809265137
+        ],
+        "size": [
+          1.2999992370605469,
+          1.2000007629394531,
+          0.6000003814697266
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__RemainingWindowPane",
+        "group": "Damage",
+        "part": "RemainingWindowPane",
+        "rgb": [
+          104,
+          151,
+          157
+        ],
+        "transparency": 0.699999988079071,
+        "roughness": 0.30000001192092896,
+        "metallic": 0.10000000149011612,
+        "solid": false,
+        "center": [
+          11.5,
+          9.119999885559082,
+          13.03499984741211
+        ],
+        "size": [
+          7.599998474121094,
+          1.0200004577636719,
+          0.04000091552734375
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__RemainingWindowTop",
+        "group": "Damage",
+        "part": "RemainingWindowTop",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          11.5,
+          9.729999542236328,
+          13.074999809265137
+        ],
+        "size": [
+          7.75,
+          0.1399993896484375,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__LooseBrickEdge0",
+        "group": "Damage",
+        "part": "LooseBrickEdge0",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          6.400001525878906,
+          1.2000000476837158,
+          12.729999542236328
+        ],
+        "size": [
+          0.779998779296875,
+          0.38000011444091797,
+          0.5599994659423828
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__LooseBrickEdge1",
+        "group": "Damage",
+        "part": "LooseBrickEdge1",
+        "rgb": [
+          176,
+          110,
+          83
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          6.3899993896484375,
+          3.0999999046325684,
+          12.75
+        ],
+        "size": [
+          0.8252944946289062,
+          0.48485660552978516,
+          0.5599994659423828
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__LooseBrickEdge2",
+        "group": "Damage",
+        "part": "LooseBrickEdge2",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          6.5,
+          6.699999809265137,
+          12.779999732971191
+        ],
+        "size": [
+          0.82049560546875,
+          0.4722251892089844,
+          0.5599994659423828
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__LooseBrickEdge3",
+        "group": "Damage",
+        "part": "LooseBrickEdge3",
+        "rgb": [
+          176,
+          110,
+          83
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          16.579999923706055,
+          1.850000023841858,
+          12.720000267028809
+        ],
+        "size": [
+          0.8046073913574219,
+          0.4334843158721924,
+          0.5599994659423828
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__LooseBrickEdge4",
+        "group": "Damage",
+        "part": "LooseBrickEdge4",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          16.56999969482422,
+          5.25,
+          12.770000457763672
+        ],
+        "size": [
+          0.8298416137695312,
+          0.49734020233154297,
+          0.5599994659423828
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__LooseBrickEdge5",
+        "group": "Damage",
+        "part": "LooseBrickEdge5",
+        "rgb": [
+          176,
+          110,
+          83
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          7.299999237060547,
+          8.449999809265137,
+          12.779999732971191
+        ],
+        "size": [
+          0.810150146484375,
+          0.4465351104736328,
+          0.5599994659423828
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__LooseBrickEdge6",
+        "group": "Damage",
+        "part": "LooseBrickEdge6",
+        "rgb": [
+          156,
+          92,
+          71
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          15.450000762939453,
+          8.40999984741211,
+          12.800000190734863
+        ],
+        "size": [
+          0.8252944946289062,
+          0.48485755920410156,
+          0.5599994659423828
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__FallenBrick0",
+        "group": "Damage",
+        "part": "FallenBrick0",
+        "rgb": [
+          176,
+          110,
+          83
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          6.19999885559082,
+          0.18000000715255737,
+          15.100000381469727
+        ],
+        "size": [
+          0.9531211853027344,
+          0.36000001430511475,
+          0.7652435302734375
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__FallenBrick1",
+        "group": "Damage",
+        "part": "FallenBrick1",
+        "rgb": [
+          176,
+          110,
+          83
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          17.599998474121094,
+          0.18000000715255737,
+          14.800000190734863
+        ],
+        "size": [
+          0.9407958984375,
+          0.36000001430511475,
+          0.7225017547607422
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__FallenBrick2",
+        "group": "Damage",
+        "part": "FallenBrick2",
+        "rgb": [
+          176,
+          110,
+          83
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          18.0,
+          0.18000000715255737,
+          16.5
+        ],
+        "size": [
+          0.8835296630859375,
+          0.36000001430511475,
+          0.5874977111816406
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__FallenBrick3",
+        "group": "Damage",
+        "part": "FallenBrick3",
+        "rgb": [
+          176,
+          110,
+          83
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          6.5,
+          0.18000000715255737,
+          17.200000762939453
+        ],
+        "size": [
+          0.9621047973632812,
+          0.36000001430511475,
+          0.8703575134277344
+        ],
+        "triangles": 12
+      },
+      {
+        "name": "TownCentre_Crashed__Damage__BentWindowRail",
+        "group": "Damage",
+        "part": "BentWindowRail",
+        "rgb": [
+          46,
+          84,
+          85
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          16.64999771118164,
+          7.699999809265137,
+          13.170000076293945
+        ],
+        "size": [
+          0.5471420288085938,
+          2.0028862953186035,
+          0.12999916076660156
+        ],
+        "triangles": 12
+      }
+    ],
+    "meshParts": 105,
+    "triangles": 4008
+  },
+  {
+    "name": "GiftTruck_Crashed",
+    "markers": {
+      "GiftSpillOrigin": [
+        0,
+        2.52,
+        9.35
+      ],
+      "FrontImpact": [
+        0,
+        3,
+        -8.5
+      ]
+    },
+    "kind": "truck",
+    "groups": {
+      "WheelL1": {
+        "pivot": [
+          -3.45,
+          1.18,
+          -6.800000000000001
+        ],
+        "type": "wheel",
+        "radius": 1.18,
+        "front": true
+      },
+      "WheelR1": {
+        "pivot": [
+          3.45,
+          1.18,
+          -6.800000000000001
+        ],
+        "type": "wheel",
+        "radius": 1.18,
+        "front": true
+      },
+      "WheelL2": {
+        "pivot": [
+          -3.7299999999999995,
+          1.18,
+          6.5
+        ],
+        "type": "wheel",
+        "radius": 1.18,
+        "front": false
+      },
+      "WheelR2": {
+        "pivot": [
+          3.7299999999999995,
+          1.18,
+          6.5
+        ],
+        "type": "wheel",
+        "radius": 1.18,
+        "front": false
+      },
+      "DoorLeft": {
+        "pivot": [
+          -3.8599999999999994,
+          5.635,
+          8.87
+        ],
+        "type": "door",
+        "openAngle": -110
+      },
+      "DoorRight": {
+        "pivot": [
+          3.8599999999999994,
+          5.635,
+          8.87
+        ],
+        "type": "door",
+        "openAngle": 110
+      }
+    },
+    "cargo": {
+      "center": [
+        0,
+        5.6850000000000005,
+        2.71
+      ],
+      "size": [
+        7.52,
+        6.11,
+        11.83
+      ]
+    },
+    "rear": [
+      0,
+      5.635,
+      8.87
+    ],
+    "openDoors": true,
+    "placement": {
+      "position": [
+        10.8,
+        0,
+        21.65
+      ],
+      "yaw": -6
+    },
+    "parts": [
+      {
+        "name": "GiftTruck_Crashed__Body__Chassis",
+        "group": "Body",
+        "part": "Chassis",
+        "rgb": [
+          47,
+          52,
+          55
+        ],
+        "transparency": 0.0,
+        "roughness": 0.6499999761581421,
+        "metallic": 0.20000000298023224,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          1.5474998950958252,
+          0.17749977111816406
+        ],
+        "size": [
+          7.980000019073486,
+          1.2350000143051147,
+          17.854999542236328
+        ],
+        "triangles": 2156
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__CargoDeck",
+        "group": "Body",
+        "part": "CargoDeck",
+        "rgb": [
+          146,
+          114,
+          77
+        ],
+        "transparency": 0.0,
+        "roughness": 0.800000011920929,
+        "metallic": 0.0,
+        "solid": true,
+        "center": [
+          -1.1920928955078125e-06,
+          2.4000000953674316,
+          2.7100000381469727
+        ],
+        "size": [
+          7.949999809265137,
+          0.23999977111816406,
+          12.280000686645508
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__DarkSteel",
+        "group": "Body",
+        "part": "DarkSteel",
+        "rgb": [
+          83,
+          92,
+          100
+        ],
+        "transparency": 0.0,
+        "roughness": 0.41999998688697815,
+        "metallic": 0.6499999761581421,
+        "solid": false,
+        "center": [
+          -1.430511474609375e-06,
+          3.893293619155884,
+          -0.2799406051635742
+        ],
+        "size": [
+          8.71658992767334,
+          5.28765344619751,
+          18.159879684448242
+        ],
+        "triangles": 5456
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__CargoWall-1",
+        "group": "Body",
+        "part": "CargoWall-1",
+        "rgb": [
+          110,
+          80,
+          148
+        ],
+        "transparency": 0.0,
+        "roughness": 0.47999998927116394,
+        "metallic": 0.12999999523162842,
+        "solid": true,
+        "center": [
+          -4.000001430511475,
+          5.810000419616699,
+          2.7100000381469727
+        ],
+        "size": [
+          0.20000004768371582,
+          6.4200005531311035,
+          12.280000686645508
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__CargoInside",
+        "group": "Body",
+        "part": "CargoInside",
+        "rgb": [
+          192,
+          197,
+          197
+        ],
+        "transparency": 0.0,
+        "roughness": 0.6499999761581421,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          5.809999942779541,
+          2.7099993228912354
+        ],
+        "size": [
+          7.808000087738037,
+          6.279999732971191,
+          12.180000305175781
+        ],
+        "triangles": 376
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Steel",
+        "group": "Body",
+        "part": "Steel",
+        "rgb": [
+          158,
+          166,
+          169
+        ],
+        "transparency": 0.0,
+        "roughness": 0.3199999928474426,
+        "metallic": 0.7799999713897705,
+        "solid": false,
+        "center": [
+          -1.430511474609375e-06,
+          5.087500095367432,
+          2.8974993228912354
+        ],
+        "size": [
+          8.320000648498535,
+          8.02500057220459,
+          12.694999694824219
+        ],
+        "triangles": 2256
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__GiftPaint",
+        "group": "Body",
+        "part": "GiftPaint",
+        "rgb": [
+          51,
+          113,
+          121
+        ],
+        "transparency": 0.0,
+        "roughness": 0.3499999940395355,
+        "metallic": 0.1599999964237213,
+        "solid": false,
+        "center": [
+          -1.430511474609375e-06,
+          5.0,
+          -0.08819389343261719
+        ],
+        "size": [
+          8.252999305725098,
+          7.639999866485596,
+          17.63638687133789
+        ],
+        "triangles": 3800
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Rubber",
+        "group": "Body",
+        "part": "Rubber",
+        "rgb": [
+          36,
+          39,
+          42
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7200000286102295,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -1.430511474609375e-06,
+          3.5829412937164307,
+          0.06399917602539062
+        ],
+        "size": [
+          8.970000267028809,
+          6.658483028411865,
+          18.22800064086914
+        ],
+        "triangles": 5908
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Amber",
+        "group": "Body",
+        "part": "Amber",
+        "rgb": [
+          230,
+          123,
+          20
+        ],
+        "transparency": 0.0,
+        "roughness": 0.25999999046325684,
+        "metallic": 0.18000000715255737,
+        "solid": false,
+        "center": [
+          -1.430511474609375e-06,
+          2.1399998664855957,
+          0.07349777221679688
+        ],
+        "size": [
+          8.404999732971191,
+          0.7400000095367432,
+          18.268001556396484
+        ],
+        "triangles": 1880
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Grille",
+        "group": "Body",
+        "part": "Grille",
+        "rgb": [
+          16,
+          20,
+          23
+        ],
+        "transparency": 0.0,
+        "roughness": 0.6000000238418579,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          3.2205700874328613,
+          -0.08295917510986328
+        ],
+        "size": [
+          7.87000036239624,
+          3.2121400833129883,
+          18.46791648864746
+        ],
+        "triangles": 6872
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__CargoWall1",
+        "group": "Body",
+        "part": "CargoWall1",
+        "rgb": [
+          110,
+          80,
+          148
+        ],
+        "transparency": 0.0,
+        "roughness": 0.47999998927116394,
+        "metallic": 0.12999999523162842,
+        "solid": true,
+        "center": [
+          3.9999985694885254,
+          5.810000419616699,
+          2.7100000381469727
+        ],
+        "size": [
+          0.19999957084655762,
+          6.4200005531311035,
+          12.280000686645508
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__CargoRoof",
+        "group": "Body",
+        "part": "CargoRoof",
+        "rgb": [
+          110,
+          80,
+          148
+        ],
+        "transparency": 0.0,
+        "roughness": 0.47999998927116394,
+        "metallic": 0.12999999523162842,
+        "solid": true,
+        "center": [
+          -1.430511474609375e-06,
+          9.0,
+          2.7100000381469727
+        ],
+        "size": [
+          8.199999809265137,
+          0.20000076293945312,
+          12.280000686645508
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__CargoFront",
+        "group": "Body",
+        "part": "CargoFront",
+        "rgb": [
+          110,
+          80,
+          148
+        ],
+        "transparency": 0.0,
+        "roughness": 0.47999998927116394,
+        "metallic": 0.12999999523162842,
+        "solid": true,
+        "center": [
+          -1.1920928955078125e-06,
+          5.809999942779541,
+          -3.330000400543213
+        ],
+        "size": [
+          7.800000190734863,
+          6.380000114440918,
+          0.19999980926513672
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Interior",
+        "group": "Body",
+        "part": "Interior",
+        "rgb": [
+          64,
+          69,
+          74
+        ],
+        "transparency": 0.0,
+        "roughness": 0.8399999737739563,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          3.812756061553955,
+          -6.301257133483887
+        ],
+        "size": [
+          7.260000228881836,
+          2.09206485748291,
+          4.972513198852539
+        ],
+        "triangles": 376
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Glass",
+        "group": "Body",
+        "part": "Glass",
+        "rgb": [
+          34,
+          54,
+          65
+        ],
+        "transparency": 0.0,
+        "roughness": 0.11999999731779099,
+        "metallic": 0.3799999952316284,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          5.89670467376709,
+          -6.476095676422119
+        ],
+        "size": [
+          7.427999973297119,
+          1.962590217590332,
+          4.812190055847168
+        ],
+        "triangles": 244
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Mirror",
+        "group": "Body",
+        "part": "Mirror",
+        "rgb": [
+          163,
+          181,
+          190
+        ],
+        "transparency": 0.0,
+        "roughness": 0.07999999821186066,
+        "metallic": 0.949999988079071,
+        "solid": false,
+        "center": [
+          -1.430511474609375e-06,
+          5.899819850921631,
+          -8.5600004196167
+        ],
+        "size": [
+          8.880000114440918,
+          1.005000114440918,
+          0.024999618530273438
+        ],
+        "triangles": 752
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Seat",
+        "group": "Body",
+        "part": "Seat",
+        "rgb": [
+          40,
+          43,
+          46
+        ],
+        "transparency": 0.0,
+        "roughness": 0.9300000071525574,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          3.7824997901916504,
+          -4.668849945068359
+        ],
+        "size": [
+          5.035200119018555,
+          1.7650001049041748,
+          1.222301959991455
+        ],
+        "triangles": 1128
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Chrome",
+        "group": "Body",
+        "part": "Chrome",
+        "rgb": [
+          204,
+          212,
+          216
+        ],
+        "transparency": 0.0,
+        "roughness": 0.1899999976158142,
+        "metallic": 0.8999999761581421,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          2.6845297813415527,
+          -8.847000122070312
+        ],
+        "size": [
+          7.070000171661377,
+          0.5754587650299072,
+          0.396331787109375
+        ],
+        "triangles": 376
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Lens",
+        "group": "Body",
+        "part": "Lens",
+        "rgb": [
+          195,
+          213,
+          216
+        ],
+        "transparency": 0.0,
+        "roughness": 0.17000000178813934,
+        "metallic": 0.30000001192092896,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          2.31545352935791,
+          -0.025361061096191406
+        ],
+        "size": [
+          7.009999752044678,
+          1.090907096862793,
+          18.46571922302246
+        ],
+        "triangles": 928
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__WhiteLight",
+        "group": "Body",
+        "part": "WhiteLight",
+        "rgb": [
+          241,
+          243,
+          221
+        ],
+        "transparency": 0.0,
+        "roughness": 0.20000000298023224,
+        "metallic": 0.25,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          2.703256368637085,
+          -8.915000915527344
+        ],
+        "size": [
+          6.9039998054504395,
+          0.20930147171020508,
+          0.3609428405761719
+        ],
+        "triangles": 368
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Plate",
+        "group": "Body",
+        "part": "Plate",
+        "rgb": [
+          215,
+          218,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.550000011920929,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          2.114408493041992,
+          -0.0723409652709961
+        ],
+        "size": [
+          1.1299999952316284,
+          0.6488173007965088,
+          18.433679580688477
+        ],
+        "triangles": 376
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL1__Tyre",
+        "group": "WheelL1",
+        "part": "Tyre",
+        "rgb": [
+          25,
+          27,
+          28
+        ],
+        "transparency": 0.0,
+        "roughness": 0.8500000238418579,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -3.449997901916504,
+          1.1799999475479126,
+          -6.800002098083496
+        ],
+        "size": [
+          1.1816062927246094,
+          2.359999895095825,
+          2.4085559844970703
+        ],
+        "triangles": 2688
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL1__Grille",
+        "group": "WheelL1",
+        "part": "Grille",
+        "rgb": [
+          16,
+          20,
+          23
+        ],
+        "transparency": 0.0,
+        "roughness": 0.6000000238418579,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -3.455853223800659,
+          1.1800000667572021,
+          -6.801280975341797
+        ],
+        "size": [
+          0.9235424995422363,
+          2.3623600006103516,
+          2.415264129638672
+        ],
+        "triangles": 384
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL1__Rubber",
+        "group": "WheelL1",
+        "part": "Rubber",
+        "rgb": [
+          36,
+          39,
+          42
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7200000286102295,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -3.449998140335083,
+          1.1799999475479126,
+          -6.800002098083496
+        ],
+        "size": [
+          1.1272311210632324,
+          1.8407999277114868,
+          1.9542183876037598
+        ],
+        "triangles": 540
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL1__Steel",
+        "group": "WheelL1",
+        "part": "Steel",
+        "rgb": [
+          158,
+          166,
+          169
+        ],
+        "transparency": 0.0,
+        "roughness": 0.3199999928474426,
+        "metallic": 0.7799999713897705,
+        "solid": false,
+        "center": [
+          -3.8338189125061035,
+          1.1799999475479126,
+          -6.874624252319336
+        ],
+        "size": [
+          0.3990046977996826,
+          1.5693999528884888,
+          1.5479435920715332
+        ],
+        "triangles": 3936
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL1__DarkSteel",
+        "group": "WheelL1",
+        "part": "DarkSteel",
+        "rgb": [
+          83,
+          92,
+          100
+        ],
+        "transparency": 0.0,
+        "roughness": 0.41999998688697815,
+        "metallic": 0.6499999761581421,
+        "solid": false,
+        "center": [
+          -3.8215246200561523,
+          1.1800000667572021,
+          -6.86044979095459
+        ],
+        "size": [
+          0.32599759101867676,
+          0.5428000688552856,
+          0.5652890205383301
+        ],
+        "triangles": 256
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL1__Chrome",
+        "group": "WheelL1",
+        "part": "Chrome",
+        "rgb": [
+          204,
+          212,
+          216
+        ],
+        "transparency": 0.0,
+        "roughness": 0.1899999976158142,
+        "metallic": 0.8999999761581421,
+        "solid": false,
+        "center": [
+          -3.8747849464416504,
+          1.1799999475479126,
+          -6.874903678894043
+        ],
+        "size": [
+          0.18736505508422852,
+          0.6989774703979492,
+          0.7108550071716309
+        ],
+        "triangles": 160
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR1__Tyre",
+        "group": "WheelR1",
+        "part": "Tyre",
+        "rgb": [
+          25,
+          27,
+          28
+        ],
+        "transparency": 0.0,
+        "roughness": 0.8500000238418579,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          3.4499969482421875,
+          1.1799999475479126,
+          -6.80000114440918
+        ],
+        "size": [
+          1.1816062927246094,
+          2.359999895095825,
+          2.4085559844970703
+        ],
+        "triangles": 2688
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR1__Grille",
+        "group": "WheelR1",
+        "part": "Grille",
+        "rgb": [
+          16,
+          20,
+          23
+        ],
+        "transparency": 0.0,
+        "roughness": 0.6000000238418579,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          3.4441418647766113,
+          1.1800000667572021,
+          -6.801279544830322
+        ],
+        "size": [
+          0.9235424995422363,
+          2.3623600006103516,
+          2.4152631759643555
+        ],
+        "triangles": 384
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR1__Rubber",
+        "group": "WheelR1",
+        "part": "Rubber",
+        "rgb": [
+          36,
+          39,
+          42
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7200000286102295,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          3.4499974250793457,
+          1.1799999475479126,
+          -6.80000114440918
+        ],
+        "size": [
+          1.1272308826446533,
+          1.8407999277114868,
+          1.9542179107666016
+        ],
+        "triangles": 540
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR1__Steel",
+        "group": "WheelR1",
+        "part": "Steel",
+        "rgb": [
+          158,
+          166,
+          169
+        ],
+        "transparency": 0.0,
+        "roughness": 0.3199999928474426,
+        "metallic": 0.7799999713897705,
+        "solid": false,
+        "center": [
+          3.833817958831787,
+          1.1799999475479126,
+          -6.725379943847656
+        ],
+        "size": [
+          0.3990046977996826,
+          1.5693999528884888,
+          1.5479435920715332
+        ],
+        "triangles": 3936
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR1__DarkSteel",
+        "group": "WheelR1",
+        "part": "DarkSteel",
+        "rgb": [
+          83,
+          92,
+          100
+        ],
+        "transparency": 0.0,
+        "roughness": 0.41999998688697815,
+        "metallic": 0.6499999761581421,
+        "solid": false,
+        "center": [
+          3.821523904800415,
+          1.1800000667572021,
+          -6.739554405212402
+        ],
+        "size": [
+          0.32599735260009766,
+          0.5428000688552856,
+          0.5652890205383301
+        ],
+        "triangles": 256
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR1__Chrome",
+        "group": "WheelR1",
+        "part": "Chrome",
+        "rgb": [
+          204,
+          212,
+          216
+        ],
+        "transparency": 0.0,
+        "roughness": 0.1899999976158142,
+        "metallic": 0.8999999761581421,
+        "solid": false,
+        "center": [
+          3.874783992767334,
+          1.1799999475479126,
+          -6.725099563598633
+        ],
+        "size": [
+          0.18736505508422852,
+          0.6989774703979492,
+          0.7108550071716309
+        ],
+        "triangles": 160
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL2__Tyre",
+        "group": "WheelL2",
+        "part": "Tyre",
+        "rgb": [
+          25,
+          27,
+          28
+        ],
+        "transparency": 0.0,
+        "roughness": 0.8500000238418579,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -3.7300052642822266,
+          1.1799999475479126,
+          6.5
+        ],
+        "size": [
+          0.849600076675415,
+          2.359999895095825,
+          2.359999656677246
+        ],
+        "triangles": 2688
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL2__Grille",
+        "group": "WheelL2",
+        "part": "Grille",
+        "rgb": [
+          16,
+          20,
+          23
+        ],
+        "transparency": 0.0,
+        "roughness": 0.6000000238418579,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -3.735905170440674,
+          1.1800000667572021,
+          6.5
+        ],
+        "size": [
+          0.5215599536895752,
+          2.3623600006103516,
+          2.3623600006103516
+        ],
+        "triangles": 384
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL2__Rubber",
+        "group": "WheelL2",
+        "part": "Rubber",
+        "rgb": [
+          36,
+          39,
+          42
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7200000286102295,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -3.7523348331451416,
+          1.1799999475479126,
+          6.5
+        ],
+        "size": [
+          0.8730196952819824,
+          1.8407999277114868,
+          1.8408002853393555
+        ],
+        "triangles": 540
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL2__Steel",
+        "group": "WheelL2",
+        "part": "Steel",
+        "rgb": [
+          158,
+          166,
+          169
+        ],
+        "transparency": 0.0,
+        "roughness": 0.3199999928474426,
+        "metallic": 0.7799999713897705,
+        "solid": false,
+        "center": [
+          -4.113504886627197,
+          1.1799999475479126,
+          6.5
+        ],
+        "size": [
+          0.15339946746826172,
+          1.5693999528884888,
+          1.5693998336791992
+        ],
+        "triangles": 3936
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL2__DarkSteel",
+        "group": "WheelL2",
+        "part": "DarkSteel",
+        "rgb": [
+          83,
+          92,
+          100
+        ],
+        "transparency": 0.0,
+        "roughness": 0.41999998688697815,
+        "metallic": 0.6499999761581421,
+        "solid": false,
+        "center": [
+          -4.113504886627197,
+          1.1800000667572021,
+          6.5
+        ],
+        "size": [
+          0.24779987335205078,
+          0.5428000688552856,
+          0.5427999496459961
+        ],
+        "triangles": 256
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelL2__Chrome",
+        "group": "WheelL2",
+        "part": "Chrome",
+        "rgb": [
+          204,
+          212,
+          216
+        ],
+        "transparency": 0.0,
+        "roughness": 0.1899999976158142,
+        "metallic": 0.8999999761581421,
+        "solid": false,
+        "center": [
+          -4.1613450050354,
+          1.1799999475479126,
+          6.5
+        ],
+        "size": [
+          0.06499958038330078,
+          0.6989774703979492,
+          0.7103595733642578
+        ],
+        "triangles": 160
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR2__Tyre",
+        "group": "WheelR2",
+        "part": "Tyre",
+        "rgb": [
+          25,
+          27,
+          28
+        ],
+        "transparency": 0.0,
+        "roughness": 0.8500000238418579,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          3.7299985885620117,
+          1.1799999475479126,
+          6.499999523162842
+        ],
+        "size": [
+          0.8495995998382568,
+          2.359999895095825,
+          2.359999656677246
+        ],
+        "triangles": 2688
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR2__Grille",
+        "group": "WheelR2",
+        "part": "Grille",
+        "rgb": [
+          16,
+          20,
+          23
+        ],
+        "transparency": 0.0,
+        "roughness": 0.6000000238418579,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          3.7240986824035645,
+          1.1800000667572021,
+          6.499999523162842
+        ],
+        "size": [
+          0.5215599536895752,
+          2.3623600006103516,
+          2.3623600006103516
+        ],
+        "triangles": 384
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR2__Rubber",
+        "group": "WheelR2",
+        "part": "Rubber",
+        "rgb": [
+          36,
+          39,
+          42
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7200000286102295,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          3.752328872680664,
+          1.1799999475479126,
+          6.499999523162842
+        ],
+        "size": [
+          0.8730201721191406,
+          1.8407999277114868,
+          1.8408002853393555
+        ],
+        "triangles": 540
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR2__Steel",
+        "group": "WheelR2",
+        "part": "Steel",
+        "rgb": [
+          158,
+          166,
+          169
+        ],
+        "transparency": 0.0,
+        "roughness": 0.3199999928474426,
+        "metallic": 0.7799999713897705,
+        "solid": false,
+        "center": [
+          4.113498687744141,
+          1.1799999475479126,
+          6.499999523162842
+        ],
+        "size": [
+          0.15340042114257812,
+          1.5693999528884888,
+          1.5693998336791992
+        ],
+        "triangles": 3936
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR2__DarkSteel",
+        "group": "WheelR2",
+        "part": "DarkSteel",
+        "rgb": [
+          83,
+          92,
+          100
+        ],
+        "transparency": 0.0,
+        "roughness": 0.41999998688697815,
+        "metallic": 0.6499999761581421,
+        "solid": false,
+        "center": [
+          4.113498687744141,
+          1.1800000667572021,
+          6.499999523162842
+        ],
+        "size": [
+          0.24780035018920898,
+          0.5428000688552856,
+          0.5427999496459961
+        ],
+        "triangles": 256
+      },
+      {
+        "name": "GiftTruck_Crashed__WheelR2__Chrome",
+        "group": "WheelR2",
+        "part": "Chrome",
+        "rgb": [
+          204,
+          212,
+          216
+        ],
+        "transparency": 0.0,
+        "roughness": 0.1899999976158142,
+        "metallic": 0.8999999761581421,
+        "solid": false,
+        "center": [
+          4.161338806152344,
+          1.1799999475479126,
+          6.499999523162842
+        ],
+        "size": [
+          0.06500053405761719,
+          0.6989774703979492,
+          0.7103595733642578
+        ],
+        "triangles": 160
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorLeft__Rubber",
+        "group": "DoorLeft",
+        "part": "Rubber",
+        "rgb": [
+          36,
+          39,
+          42
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7200000286102295,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -4.52608585357666,
+          5.635000228881836,
+          10.700050354003906
+        ],
+        "size": [
+          1.434401035308838,
+          6.295000076293945,
+          3.6637191772460938
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorLeft__GiftCargo",
+        "group": "DoorLeft",
+        "part": "GiftCargo",
+        "rgb": [
+          110,
+          80,
+          148
+        ],
+        "transparency": 0.0,
+        "roughness": 0.47999998927116394,
+        "metallic": 0.12999999523162842,
+        "solid": false,
+        "center": [
+          -4.535482883453369,
+          5.635000228881836,
+          10.696630477905273
+        ],
+        "size": [
+          1.438650131225586,
+          6.229999542236328,
+          3.6082019805908203
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorLeft__Steel",
+        "group": "DoorLeft",
+        "part": "Steel",
+        "rgb": [
+          158,
+          166,
+          169
+        ],
+        "transparency": 0.0,
+        "roughness": 0.3199999928474426,
+        "metallic": 0.7799999713897705,
+        "solid": false,
+        "center": [
+          -4.612772464752197,
+          5.635000228881836,
+          10.59231948852539
+        ],
+        "size": [
+          1.3615398406982422,
+          6.190000534057617,
+          3.7227373123168945
+        ],
+        "triangles": 2292
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorLeft__DarkSteel",
+        "group": "DoorLeft",
+        "part": "DarkSteel",
+        "rgb": [
+          83,
+          92,
+          100
+        ],
+        "transparency": 0.0,
+        "roughness": 0.41999998688697815,
+        "metallic": 0.6499999761581421,
+        "solid": false,
+        "center": [
+          -5.168107032775879,
+          5.51039981842041,
+          12.054658889770508
+        ],
+        "size": [
+          0.12841320037841797,
+          0.3100004196166992,
+          0.2748441696166992
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorLeft__Red",
+        "group": "DoorLeft",
+        "part": "Red",
+        "rgb": [
+          167,
+          24,
+          21
+        ],
+        "transparency": 0.0,
+        "roughness": 0.28999999165534973,
+        "metallic": 0.15000000596046448,
+        "solid": false,
+        "center": [
+          -4.628511428833008,
+          2.880000114440918,
+          10.662771224975586
+        ],
+        "size": [
+          1.26395845413208,
+          0.10500001907348633,
+          3.4406824111938477
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorRight__Rubber",
+        "group": "DoorRight",
+        "part": "Rubber",
+        "rgb": [
+          36,
+          39,
+          42
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7200000286102295,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          4.526081085205078,
+          5.635000228881836,
+          10.700052261352539
+        ],
+        "size": [
+          1.4344007968902588,
+          6.295000076293945,
+          3.6637191772460938
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorRight__GiftCargo",
+        "group": "DoorRight",
+        "part": "GiftCargo",
+        "rgb": [
+          110,
+          80,
+          148
+        ],
+        "transparency": 0.0,
+        "roughness": 0.47999998927116394,
+        "metallic": 0.12999999523162842,
+        "solid": false,
+        "center": [
+          4.535477638244629,
+          5.635000228881836,
+          10.696632385253906
+        ],
+        "size": [
+          1.438650369644165,
+          6.229999542236328,
+          3.608201026916504
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorRight__Steel",
+        "group": "DoorRight",
+        "part": "Steel",
+        "rgb": [
+          158,
+          166,
+          169
+        ],
+        "transparency": 0.0,
+        "roughness": 0.3199999928474426,
+        "metallic": 0.7799999713897705,
+        "solid": false,
+        "center": [
+          4.612767219543457,
+          5.635000228881836,
+          10.592321395874023
+        ],
+        "size": [
+          1.361539602279663,
+          6.190000534057617,
+          3.722738265991211
+        ],
+        "triangles": 2292
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorRight__DarkSteel",
+        "group": "DoorRight",
+        "part": "DarkSteel",
+        "rgb": [
+          83,
+          92,
+          100
+        ],
+        "transparency": 0.0,
+        "roughness": 0.41999998688697815,
+        "metallic": 0.6499999761581421,
+        "solid": false,
+        "center": [
+          5.168101787567139,
+          5.51039981842041,
+          12.05466079711914
+        ],
+        "size": [
+          0.12841320037841797,
+          0.3100004196166992,
+          0.2748432159423828
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__DoorRight__Red",
+        "group": "DoorRight",
+        "part": "Red",
+        "rgb": [
+          167,
+          24,
+          21
+        ],
+        "transparency": 0.0,
+        "roughness": 0.28999999165534973,
+        "metallic": 0.15000000596046448,
+        "solid": false,
+        "center": [
+          4.628506183624268,
+          2.880000114440918,
+          10.662772178649902
+        ],
+        "size": [
+          1.2639586925506592,
+          0.10500001907348633,
+          3.440683364868164
+        ],
+        "triangles": 188
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Red",
+        "group": "Body",
+        "part": "Red",
+        "rgb": [
+          167,
+          24,
+          21
+        ],
+        "transparency": 0.0,
+        "roughness": 0.28999999165534973,
+        "metallic": 0.15000000596046448,
+        "solid": false,
+        "center": [
+          -1.1920928955078125e-06,
+          5.319999694824219,
+          9.07874870300293
+        ],
+        "size": [
+          7.910000324249268,
+          7.099999904632568,
+          0.25749969482421875
+        ],
+        "triangles": 1128
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__GiftGold",
+        "group": "Body",
+        "part": "GiftGold",
+        "rgb": [
+          220,
+          178,
+          76
+        ],
+        "transparency": 0.0,
+        "roughness": 0.44999998807907104,
+        "metallic": 0.2199999988079071,
+        "solid": false,
+        "center": [
+          -9.5367431640625e-07,
+          5.901249885559082,
+          2.59999942779541
+        ],
+        "size": [
+          8.253999710083008,
+          6.462499618530273,
+          0.5199999809265137
+        ],
+        "triangles": 36
+      },
+      {
+        "name": "GiftTruck_Crashed__Body__Trim",
+        "group": "Body",
+        "part": "Trim",
+        "rgb": [
+          238,
+          233,
+          215
+        ],
+        "transparency": 0.0,
+        "roughness": 0.7799999713897705,
+        "metallic": 0.0,
+        "solid": false,
+        "center": [
+          -1.6689300537109375e-06,
+          6.406239986419678,
+          5.249998569488525
+        ],
+        "size": [
+          8.286005020141602,
+          0.4479999542236328,
+          3.8496007919311523
+        ],
+        "triangles": 1552
+      }
+    ],
+    "meshParts": 58,
+    "triangles": 74852,
+    "exportPose": "rear doors already open; front wheels turned; ground-centred pivot"
+  }
+]

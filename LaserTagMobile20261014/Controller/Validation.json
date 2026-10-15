@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-14",
+  "scope": "StarterGui.MudHUD.Controller only",
+  "studioBackup": "ServerStorage.LaserTagMobileControllerBackup20261014",
+  "nativeChecks": 181,
+  "imageFallbackReconcile": "Existing HUD refresh reconciles actual load state even without a property-change event",
+  "imageFallbackBindings": 5,
+  "asymmetricPhoneInsetCameraDot": 1.0,
+  "lockedAim": "WorldToViewportPoint(camera.CFrame.Position + camera.CFrame.LookVector * 100), shared crosshair and ray point",
+  "viewports": 9,
+  "nativeCameraRoundtrips": 3,
+  "playTest": "Root owns real-device/live verification",
+  "capabilitiesChanged": false,
+  "authoredLayoutMutated": false,
+  "behavior": [
+    "Touch hardware uses camera-centre aim unless preferred input is gamepad, which also uses camera-centre aim",
+    "Touch buttons stay visible even when PreferredInput reports KeyboardAndMouse",
+    "Mouse-only PCs retain pointer aim",
+    "Global synthesized mobile mouse presses cannot fire; explicit Shoot button controls fire",
+    "Shoot and sprint touches release independently; camera gestures do not release either",
+    "Held input survives PreferredInput switches that do not change effective input mode",
+    "Modal, elimination, cooldown, tool identity, round state and focus restrictions remain active"
+  ]
+}

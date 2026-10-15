@@ -1,0 +1,202 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 126,
+    "sha256": "3a9ed7937974617dd14a60d739dbff59c1c47654c09155816036a788e2e915d1"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 111,
+    "sha256": "e3d4fe70512fe8ed3f79f8f0e4b50b7d139cad569bfbc6b218c026ea0af0a731"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2751,
+    "sha256": "9313e4e7ca7171c041d2e28ef152faa1e5bc4e74f15d00097c5b5e07c3b1f6b5"
+  },
+  {
+    "path": "archive/Before_Horror.blend",
+    "bytes": 6229800,
+    "sha256": "4fc210d7cf9e1a78e433c8c7877b6d31af25a11e831f69950c51af0558edf81b"
+  },
+  {
+    "path": "base/Apply_Default_Colours.luau",
+    "bytes": 4271,
+    "sha256": "f92cf3ef8c674538d0bfbfe663d5d60a6ca7c2309b31d64014750c9aefd830b4"
+  },
+  {
+    "path": "base/Cat_SurfaceNormal.png",
+    "bytes": 4406190,
+    "sha256": "a6aa0b162f741b7f6b959089c8c301e61bfb5e1f4d3de2f70c04f43cf3b934fb"
+  },
+  {
+    "path": "base/CatInTheHat_Back.png",
+    "bytes": 1826958,
+    "sha256": "692ba60e74605dd5505bc51256dc67ff680b2c1adba35ae9b94720ab6145713a"
+  },
+  {
+    "path": "base/CatInTheHat_Base.blend",
+    "bytes": 6229082,
+    "sha256": "99f9824bb895f20e6c1bba5701a9c70d91916c22e21e66231ff34a34faaf9b92"
+  },
+  {
+    "path": "base/CatInTheHat_Base.fbx",
+    "bytes": 6330924,
+    "sha256": "1cbb03ce2f2d3beafb47b11ad05f772cf0984b66506d50b8738e13fdf3409d00"
+  },
+  {
+    "path": "base/CatInTheHat_Base.glb",
+    "bytes": 6081560,
+    "sha256": "0f31a232a09ede31c2eeb0cd66617e17830d06ec5f8dff39b580d271b61b732a"
+  },
+  {
+    "path": "base/CatInTheHat_Front.png",
+    "bytes": 1771294,
+    "sha256": "485add741ab6f30d8363a0d83aafad9331090351cc973f9aad9b578c7258db9c"
+  },
+  {
+    "path": "base/CatInTheHat_ThreeQuarter.png",
+    "bytes": 1788777,
+    "sha256": "eae274338da4fdb344dfaf00ba63a8051924cc5cc2cab92b3102886b72ea8301"
+  },
+  {
+    "path": "base/Export_Check.json",
+    "bytes": 563,
+    "sha256": "28c55ce1dbc10543523ca85bdcf573b630f2b8dc8e1321df145f3973a933a909"
+  },
+  {
+    "path": "base/Model_Parts.json",
+    "bytes": 18864,
+    "sha256": "9214d7435510af6773872f66c4a5ca1121adf27501a66f569ec76041302bc46c"
+  },
+  {
+    "path": "base/README.md",
+    "bytes": 4123,
+    "sha256": "c35f47cd924aada0111a2ec6260491d52e0e5740a23ab06546b7c031a6327416"
+  },
+  {
+    "path": "horror/Cat_SurfaceNormal.png",
+    "bytes": 4406190,
+    "sha256": "a6aa0b162f741b7f6b959089c8c301e61bfb5e1f4d3de2f70c04f43cf3b934fb"
+  },
+  {
+    "path": "horror/CatInTheHat_Horror_Portrait.png",
+    "bytes": 1564832,
+    "sha256": "e1cdb9f89eb143c65f2406b1946e04d91a5c313bd8d3d3d196f213603708d7b4"
+  },
+  {
+    "path": "horror/CatInTheHat_Horror_Studio.png",
+    "bytes": 1786652,
+    "sha256": "d41b0c5dc1d358737a9bf40e0ad69754565097d952df8168a437372e79b22389"
+  },
+  {
+    "path": "horror/CatInTheHat_Horror.blend",
+    "bytes": 6297154,
+    "sha256": "d77e551508f39d2819b720cd01cb4c38a6167551ffbfb5763343d0281b2f61e8"
+  },
+  {
+    "path": "horror/CatInTheHat_Horror.fbx",
+    "bytes": 6434988,
+    "sha256": "af18f1371c76ba3e92a37d1b9bb285b3d261a9f38cdc9f18cad67868bffff221"
+  },
+  {
+    "path": "horror/CatInTheHat_Horror.glb",
+    "bytes": 6144072,
+    "sha256": "aceb41fee86ab8f71b75fdb1d3aa96d8021d3c086cef7019e5732989db18ee13"
+  },
+  {
+    "path": "horror/Horror_Export_Check.json",
+    "bytes": 395,
+    "sha256": "be6d61738b34af004a279b659cdf913e8422a59a764aee22c20d52d18b5f1914"
+  },
+  {
+    "path": "horror/Horror_Model_Parts.json",
+    "bytes": 12673,
+    "sha256": "0c5d32168bb4d7ce48910a5db485a57a017a096f4195afe2c12429f88aa928b4"
+  },
+  {
+    "path": "horror/README.md",
+    "bytes": 1608,
+    "sha256": "8940009ff5c09bb09a4a8043b4a55f0a0c1c02c6fc075dd15567f303013ac1d3"
+  },
+  {
+    "path": "references/01-outfits.png",
+    "bytes": 916066,
+    "sha256": "7f83ca681e691163e5e6352754657f71e0008e7f3f24b8ce36a9721f6c9cf47e"
+  },
+  {
+    "path": "references/02-full-body.png",
+    "bytes": 139522,
+    "sha256": "d74f0f167b47d841a5274e470c86bc0ce6268e5cd03bc8cdd20c20f309ccc94a"
+  },
+  {
+    "path": "references/03-film-pose.png",
+    "bytes": 318376,
+    "sha256": "5ebf4c5f95bc1886d9f3eecdbb9b6edeeee2bd1448f79307dbd6b8dc9eb9f432"
+  },
+  {
+    "path": "references/04-costume-front-back.png",
+    "bytes": 202086,
+    "sha256": "b73180e3c9e7da80e76c5dc084f52c992ecf31639eacccc5cbe22d547bb278ba"
+  },
+  {
+    "path": "references/05-avatar-proportions.png",
+    "bytes": 29973,
+    "sha256": "3c64aa5e47f6d4df60a7b877bb77ab0cb48f4282dba33dcde363a07b12264fdd"
+  },
+  {
+    "path": "source/build_accessories.py",
+    "bytes": 5419,
+    "sha256": "6ecbaa1e408f0b0849c7f44f3d5b150e492f4551d879a3c507cbca605399d321"
+  },
+  {
+    "path": "source/build_cat.py",
+    "bytes": 9859,
+    "sha256": "20193992773a82d2c2c2ac01ca999847f76597a45e92d6869f65eaa3d58cb05b"
+  },
+  {
+    "path": "source/build_details.py",
+    "bytes": 7211,
+    "sha256": "2d44eae85dd9227584ea38b54546d74eba5f8947edcab4c120a28e61a626a157"
+  },
+  {
+    "path": "source/check_glb_scale.py",
+    "bytes": 1145,
+    "sha256": "94dca2e57fe13b9feec204a928e1f1debd2823b580d375853fb655d2242de3db"
+  },
+  {
+    "path": "source/final_check.py",
+    "bytes": 2937,
+    "sha256": "29d591d576eebd5d1ff91a3e986300ed0e5cae9d83a1fa98fe8585ca6d3ed336"
+  },
+  {
+    "path": "source/finish_exports.py",
+    "bytes": 6142,
+    "sha256": "46407cea7936837d6e0f2fbed151883590be69f6a2e270f37deab356af8e3d99"
+  },
+  {
+    "path": "source/make_horror_variant.py",
+    "bytes": 8628,
+    "sha256": "b448c244a4ff4e442916db182e5dc42abcfcd736024e9ecdebb9fa16370024ef"
+  },
+  {
+    "path": "source/polish_cat.py",
+    "bytes": 3179,
+    "sha256": "b7b5bbc7d407a7438bb0c47d956caa3bf00b3917b8d50d5782fc1788baef59b2"
+  },
+  {
+    "path": "source/refine_cat.py",
+    "bytes": 5130,
+    "sha256": "5900e0c9bfb7637370a7bb4ab1121f53b57d0d523d74883002bdf0d3046a4707"
+  },
+  {
+    "path": "source/horror/export_horror.py",
+    "bytes": 5281,
+    "sha256": "f2c26a072a6bdd4a9c6231c25dcef8bff0fe1c94af98ae8cb1eda6aa276e3b3b"
+  },
+  {
+    "path": "source/horror/render_portrait.py",
+    "bytes": 831,
+    "sha256": "ae197a1c43612d0f9bbd2cfab4e7d1df0914e846735cc8f6bc52134250bbe4c8"
+  }
+]

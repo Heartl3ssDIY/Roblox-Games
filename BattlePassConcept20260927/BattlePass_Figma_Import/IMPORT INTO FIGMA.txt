@@ -1,0 +1,19 @@
+ANIME COMBAT UNITS — BATTLE PASS
+
+Drag battle-pass-with-currency.svg onto the canvas in your existing Figma UI file.
+This is the closest single-file picture of the current two-row design. The frame,
+lanes, reward slots, and markers are SVG vectors. The coin, diamond, and mastery
+artwork is embedded from your supplied PNGs; it stays image artwork.
+
+battle-pass-layout.svg is the same screen without currency pictures. Use it when
+you want to edit or replace the reward art first.
+
+all-45-tiers.svg contains every level in a long, editable strip. The main screen
+shows the first visible tiers; the live game will scroll through all 45.
+
+The smaller SVGs are individual reusable components. Permanent Marker is the
+intended headline font. If Figma imports text as vector outlines, you can replace
+those labels with ordinary Figma text layers using Permanent Marker.
+
+Reward amounts, the final reward schedule, and paid-pass pricing are still TBD.
+No pack artwork is included. Nothing has been uploaded to Roblox Studio.

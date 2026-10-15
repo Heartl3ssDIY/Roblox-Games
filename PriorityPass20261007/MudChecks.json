@@ -1,0 +1,88 @@
+{
+  "hudCounts": true,
+  "spawnChecks": [
+    {
+      "team": 1,
+      "allocated": 350,
+      "authoredPads": 72
+    },
+    {
+      "team": 2,
+      "allocated": 350,
+      "authoredPads": 72
+    }
+  ],
+  "partialSprint": true,
+  "teamCounts": [
+    {
+      "count": 0,
+      "startAllowed": false,
+      "teamA": 0,
+      "teamB": 0,
+      "teams": 0
+    },
+    {
+      "count": 1,
+      "startAllowed": false,
+      "teamA": 0,
+      "teamB": 0,
+      "teams": 0
+    },
+    {
+      "count": 2,
+      "startAllowed": true,
+      "teamA": 1,
+      "teamB": 1,
+      "teams": 2
+    },
+    {
+      "count": 3,
+      "startAllowed": true,
+      "teamA": 2,
+      "teamB": 1,
+      "teams": 2
+    },
+    {
+      "count": 4,
+      "startAllowed": true,
+      "teamA": 2,
+      "teamB": 2,
+      "teams": 2
+    },
+    {
+      "count": 5,
+      "startAllowed": true,
+      "teamA": 3,
+      "teamB": 2,
+      "teams": 2
+    },
+    {
+      "count": 31,
+      "startAllowed": true,
+      "teamA": 16,
+      "teamB": 15,
+      "teams": 2
+    },
+    {
+      "count": 100,
+      "startAllowed": true,
+      "teamA": 50,
+      "teamB": 50,
+      "teams": 2
+    },
+    {
+      "count": 201,
+      "startAllowed": true,
+      "teamA": 101,
+      "teamB": 100,
+      "teams": 2
+    },
+    {
+      "count": 701,
+      "startAllowed": true,
+      "teamA": 351,
+      "teamB": 350,
+      "teams": 2
+    }
+  ]
+}

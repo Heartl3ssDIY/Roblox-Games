@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"assets\":50,\"catalogItems\":50,\"outlines\":50,\"shopCards\":12,\"lobbyLocked\":2452,\"studCoatings\":51,\"playStarted\":false,\"gunMeshParts\":{\"HeatGun\":65,\"MudGun\":70},\"rigsPreserved\":20}"
+    }
+  ],
+  "isError": false
+}

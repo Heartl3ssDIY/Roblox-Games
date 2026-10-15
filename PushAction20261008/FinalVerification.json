@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"caps\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior\",\"controllerHint\":\"ButtonX\",\"settings\":{\"RagdollSeconds\":3,\"CooldownSeconds\":6,\"Reach\":6},\"animation\":true,\"clips\":2,\"client\":true,\"bootstrap\":true,\"remote\":\"RemoteEvent\"}"
+    }
+  ],
+  "isError": false
+}

@@ -1,0 +1,209 @@
+{
+  "ok": true,
+  "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+  "playStarted": false,
+  "exactCapabilities": true,
+  "result": {
+    "total": 49,
+    "passed": 49,
+    "checks": [
+      {
+        "name": "Native R6 attacker / R15 close front target",
+        "passed": true
+      },
+      {
+        "name": "Fast runner crossing between samples hits",
+        "passed": true
+      },
+      {
+        "name": "Close circling runner at swing edge hits",
+        "passed": true
+      },
+      {
+        "name": "Diagonal dodge enters cone and reach only between old sample points",
+        "passed": true
+      },
+      {
+        "name": "Turning attacker catches a stationary target entering its front arc",
+        "passed": true
+      },
+      {
+        "name": "Rotating attacker never reaches a target behind its whole arc",
+        "passed": true
+      },
+      {
+        "name": "Degenerate opposite-facing interpolation cannot produce side contact",
+        "passed": true
+      },
+      {
+        "name": "Moving rotating sweeps include every dense-oracle contact across 160 cases",
+        "passed": true
+      },
+      {
+        "name": "Moving attacker and moving target use relative sweep",
+        "passed": true
+      },
+      {
+        "name": "Behind attacker misses",
+        "passed": true
+      },
+      {
+        "name": "Outside short reach misses",
+        "passed": true
+      },
+      {
+        "name": "Large vertical separation misses",
+        "passed": true
+      },
+      {
+        "name": "Protected-time portion cannot hit",
+        "passed": true
+      },
+      {
+        "name": "Contact before windup only misses",
+        "passed": true
+      },
+      {
+        "name": "No contact after window closes",
+        "passed": true
+      },
+      {
+        "name": "Final overlapping interval is not dropped",
+        "passed": true
+      },
+      {
+        "name": "Stale sample cannot sweep",
+        "passed": true
+      },
+      {
+        "name": "Teleport path cannot create hit",
+        "passed": true
+      },
+      {
+        "name": "Replacement character cannot reuse historical positions",
+        "passed": true
+      },
+      {
+        "name": "Native physical wall blocks stationary contact",
+        "passed": true
+      },
+      {
+        "name": "Native physical wall blocks swept contact",
+        "passed": true
+      },
+      {
+        "name": "Native close dummy eligibility ignores static practice name",
+        "passed": true
+      },
+      {
+        "name": "Contact without manual swing never tags",
+        "passed": true
+      },
+      {
+        "name": "Accepted swing publishes timestamp and one serial",
+        "passed": true
+      },
+      {
+        "name": "Repeated click obeys cooldown",
+        "passed": true
+      },
+      {
+        "name": "Wrong role cannot swing",
+        "passed": true
+      },
+      {
+        "name": "Cancelled swing cannot hit",
+        "passed": true
+      },
+      {
+        "name": "Protected target remains immune",
+        "passed": true
+      },
+      {
+        "name": "Ragdolled attacker cannot swing",
+        "passed": true
+      },
+      {
+        "name": "Frozen target cannot be hit",
+        "passed": true
+      },
+      {
+        "name": "Wrong round swing cannot hit",
+        "passed": true
+      },
+      {
+        "name": "Live Tag transfer accepts swept moving target once",
+        "passed": true
+      },
+      {
+        "name": "Bulldog manual swing accepts native R6",
+        "passed": true
+      },
+      {
+        "name": "Bulldog cooldown rejects repeat",
+        "passed": true
+      },
+      {
+        "name": "Bulldog swept runner caught once",
+        "passed": true
+      },
+      {
+        "name": "Bulldog arrived-safe runner cannot be caught",
+        "passed": true
+      },
+      {
+        "name": "Chase prediction is horizontal and capped at four studs",
+        "passed": true
+      },
+      {
+        "name": "Supported same-level corridor allows direct pursuit",
+        "passed": true
+      },
+      {
+        "name": "Open chest ray to raised platform still requires path",
+        "passed": true
+      },
+      {
+        "name": "Missing ground ahead requires path",
+        "passed": true
+      },
+      {
+        "name": "New path resumes ahead of a moving bot instead of backtracking",
+        "passed": true
+      },
+      {
+        "name": "Practice sprint matches human maximum speed",
+        "passed": true
+      },
+      {
+        "name": "Practice sprint exhausts after bounded duration",
+        "passed": true
+      },
+      {
+        "name": "Exhausted practice sprint must refill fully",
+        "passed": true
+      },
+      {
+        "name": "Path request busy flag prevents duplicate compute",
+        "passed": true
+      },
+      {
+        "name": "Path request respects repath deadline",
+        "passed": true
+      },
+      {
+        "name": "Async native path cancels stale round without replacing route",
+        "passed": true
+      },
+      {
+        "name": "Tag ragdoll snapshots restored AutoRotate after cancelling dodge",
+        "passed": true
+      },
+      {
+        "name": "Bulldog ragdoll snapshots restored AutoRotate after cancelling dodge",
+        "passed": true
+      }
+    ]
+  },
+  "mode": "Edit"
+}

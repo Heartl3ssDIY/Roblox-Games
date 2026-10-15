@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="614" height="134" viewBox="0 0 614 134">
+<style>.heading{font-family:'Luckiest Guy','Fredoka One',Impact,'Comic Sans MS',sans-serif;font-weight:400;fill:#18233e}.body{font-family:'Fredoka One','Comic Sans MS',Arial,sans-serif;font-weight:400;fill:#18233e}</style>
+<g transform="translate(7 7)"><rect width="600" height="120" rx="20" fill="#fffae2" stroke="#18233e" stroke-width="5"/>
+<text x="300" y="27" class="heading" font-size="22" text-anchor="middle">BRITISH BULLDOG</text>
+<rect x="15" y="42" width="180" height="58" rx="12" fill="#ff515c" stroke="#18233e" stroke-width="3"/>
+<rect x="405" y="42" width="180" height="58" rx="12" fill="#2aa0ff" stroke="#18233e" stroke-width="3"/>
+<text x="105" y="70" class="heading" font-size="30" text-anchor="middle" style="fill:#fff">1</text>
+<text x="105" y="91" class="heading" font-size="19" text-anchor="middle">BULLDOGS</text>
+<text x="495" y="70" class="heading" font-size="30" text-anchor="middle" style="fill:#fff">23</text>
+<text x="495" y="91" class="heading" font-size="19" text-anchor="middle">RUNNERS</text>
+<text x="300" y="81" class="heading" font-size="51" text-anchor="middle">3:00</text>
+<text x="300" y="109" class="body" font-size="15" text-anchor="middle">CROSSING</text></g>
+</svg>

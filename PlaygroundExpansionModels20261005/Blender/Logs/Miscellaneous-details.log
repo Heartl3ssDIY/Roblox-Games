@@ -1,0 +1,15 @@
+00:00.062  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:01.641  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m16-snowglobe-sip.blend"
+00:01.656  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m17-snowball-lobber.blend"
+00:01.656  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m18-bubble-blower.blend"
+00:01.672  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m19-slippy-banana.blend"
+00:01.687  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m20-spring-glove.blend"
+00:01.703  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m21-sticky-honey.blend"
+00:01.703  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m22-whoopee-whump.blend"
+00:01.719  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m23-magnet-mover.blend"
+00:01.734  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m24-ricochet-flyer.blend"
+00:01.734  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Blend\m25-pop-up-surprise.blend"
+MISC_DETAILS_PASSED 10
+
+Blender quit

@@ -1,0 +1,53 @@
+{
+  "id": "SA26",
+  "name": "Graphite staff mug",
+  "bodies": [
+    {
+      "id": "SA26_B01",
+      "asset_id": "SA26",
+      "asset": "Graphite staff mug",
+      "label": "Graphite staff mug",
+      "kind": "pickup",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.01900000125169754,
+            0.0,
+            0.05040000006556511
+          ],
+          "size": [
+            0.12600000202655792,
+            0.08799999952316284,
+            0.10080000013113022
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.04399999976158142,
+          -0.04399999976158142,
+          0.0
+        ],
+        "max": [
+          0.0820000022649765,
+          0.04399999976158142,
+          0.10080000013113022
+        ]
+      }
+    }
+  ],
+  "mesh_count": 2,
+  "triangles": 2768,
+  "file": "SA26_Graphite_staff_mug.gltf"
+}

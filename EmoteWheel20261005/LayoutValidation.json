@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "safeArea": [
+        1920,
+        1044
+      ],
+      "panel": [
+        650.0,
+        677.08
+      ],
+      "radialSlot": 106.17,
+      "slotThumbnail": [
+        76.44,
+        43.0
+      ],
+      "minimumFooterHitHeight": 26,
+      "passed": true
+    },
+    {
+      "viewport": [
+        1280,
+        720
+      ],
+      "safeArea": [
+        1280,
+        684
+      ],
+      "panel": [
+        604.11,
+        629.28
+      ],
+      "radialSlot": 98.67,
+      "slotThumbnail": [
+        71.04,
+        39.96
+      ],
+      "minimumFooterHitHeight": 26,
+      "passed": true
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "safeArea": [
+        1024,
+        732
+      ],
+      "panel": [
+        646.5,
+        673.44
+      ],
+      "radialSlot": 105.6,
+      "slotThumbnail": [
+        76.03,
+        42.77
+      ],
+      "minimumFooterHitHeight": 26,
+      "passed": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "safeArea": [
+        390,
+        808
+      ],
+      "panel": [
+        366.6,
+        381.88
+      ],
+      "radialSlot": 59.88,
+      "slotThumbnail": [
+        43.11,
+        24.25
+      ],
+      "minimumFooterHitHeight": 26,
+      "passed": true
+    },
+    {
+      "viewport": [
+        375,
+        667
+      ],
+      "safeArea": [
+        375,
+        631
+      ],
+      "panel": [
+        352.5,
+        367.19
+      ],
+      "radialSlot": 57.57,
+      "slotThumbnail": [
+        41.45,
+        23.32
+      ],
+      "minimumFooterHitHeight": 26,
+      "passed": true
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "safeArea": [
+        320,
+        532
+      ],
+      "panel": [
+        300.8,
+        313.33
+      ],
+      "radialSlot": 49.13,
+      "slotThumbnail": [
+        35.37,
+        19.9
+      ],
+      "minimumFooterHitHeight": 26,
+      "passed": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "safeArea": [
+        756,
+        354
+      ],
+      "panel": [
+        312.65,
+        325.68
+      ],
+      "radialSlot": 51.07,
+      "slotThumbnail": [
+        36.77,
+        20.68
+      ],
+      "minimumFooterHitHeight": 26,
+      "passed": true
+    },
+    {
+      "viewport": [
+        667,
+        375
+      ],
+      "safeArea": [
+        579,
+        339
+      ],
+      "panel": [
+        299.4,
+        311.88
+      ],
+      "radialSlot": 48.9,
+      "slotThumbnail": [
+        35.21,
+        19.81
+      ],
+      "minimumFooterHitHeight": 26,
+      "passed": true
+    },
+    {
+      "viewport": [
+        568,
+        320
+      ],
+      "safeArea": [
+        480,
+        284
+      ],
+      "panel": [
+        270.0,
+        281.25
+      ],
+      "radialSlot": 44.1,
+      "slotThumbnail": [
+        31.75,
+        17.86
+      ],
+      "minimumFooterHitHeight": 26,
+      "passed": true
+    }
+  ],
+  "notes": [
+    "Pure authored-coordinate evaluation; no Studio installation or Play used.",
+    "Actual engine constraint evaluation will be verified after root installation.",
+    "All eight radial tap targets are >=44px, with no overlap with other slots or hub/footer controls."
+  ]
+}

@@ -1,0 +1,52 @@
+ACU FESTIVAL CITADEL - SCALE-CORRECTED IMPORTS
+
+USE THIS PACKAGE INSTEAD OF THE EARLIER FBX FILES.
+The earlier export accidentally baked a 100x unit conversion into the FBX. These files already correct that error.
+Do NOT additionally apply 0.01 or 0.1 to these files. The intended full lobby is approximately 632 studs across.
+This fixes export units; it does not shrink the Blender master or its avatar-scale buildings.
+
+FIRST: import 00_SCALE_CHECK_10_STUDS.fbx.
+Set Scale Unit to Studs, import scale 1, and Merge Meshes OFF.
+The cube should measure exactly 10 x 10 x 10 studs in Studio. It is a calibration object, not part of the lobby.
+If it does not measure 10 studs, stop and correct the importer scale settings before importing the lobby.
+
+THEN: import the 42 numbered district/gate FBXs, one batch at a time.
+Keep every FBX beside the included textures folder.
+Use Studs / scale 1, Merge Meshes OFF, Insert Using Scene Position ON, Set Pivot to Scene Origin ON, Anchored ON.
+Every batch shares the original origin. Do not center or reposition batches individually.
+Move their common parent model after assembly if the complete lobby needs relocating.
+Do not overlay these files on an earlier complete import; that would duplicate the scenery.
+
+EXPECTED VISUAL BOUNDS, measured from actual binary FBX data after transforms:
+X 630.72598, Y 195.74625, Z 631.86453 studs.
+Bounds include hanging bedrock and distant scenery, not only the walkable floor.
+
+COLLISION:
+Import ACU_Citadel_Collision.fbx separately. It has the same corrected unit conversion.
+Collision bounds are X 607.73584, Y 44.37500, Z 607.16241 studs.
+Set visual meshes CanCollide=false; collision proxy Anchored=true, CanCollide=true, Transparency=1.
+The collision proxy still needs a complete walk test around steps, bridges and boundaries.
+
+PRESERVED:
+Original .blend and earlier exports remain untouched.
+Same Permanent Marker font, sign text, geometry shapes, UV coordinates, normals, materials, textures and layout.
+The smaller package keeps the prior lettering-only sampling optimization.
+All 24 texture images are byte-identical to the previous export.
+Texture paths resolve beside each FBX. PBR channel paths are in import_manifest.json.
+markers.json remains at intended 1 Blender unit = 1 stud coordinates and now matches these files.
+
+VALIDATION:
+42 visual FBXs, 4,728 meshes, 3,927,897 triangles; each mesh has at most 9,000 triangles.
+Actual vertex/triangle counts checked against manifest. All non-coordinate FBX property bytes preserved.
+Every previous world-space coordinate was corrected by exactly 1/100. Geometry hierarchy verified flat before transform correction.
+10 stud calibration cube checked independently from its binary data.
+See scale_validation.json and file_validation.json.
+Studio import and runtime performance still require validation.
+
+REBUILD:
+build_import_ready_scale_fixed.py retains original source construction and corrected FBX export global_scale=.01.
+It generates a new ImportReady_ScaleFixed_Rebuilt folder by default and refuses to overwrite batches.
+The 100x conversion came from Blender's FBX_SCALE_NONE handling, which multiplies the transform by 100 even with apply_unit_scale=False.
+The corrected export applies global_scale=.01 to cancel only that implicit conversion.
+
+The old ImportReady_20260926/build_import_ready.py is historical and still uses the old scale. Do not reuse it. Use the versioned scale-fixed builder supplied here.

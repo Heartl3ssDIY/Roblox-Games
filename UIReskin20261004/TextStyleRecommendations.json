@@ -1,0 +1,764 @@
+{
+  "researchDate": "2026-10-04",
+  "verifiedFacts": [
+    {
+      "fact": "A UIStroke parented directly to a TextLabel/TextButton and using Contextual outlines glyphs; Border outlines the rectangular GuiObject bounds.",
+      "source": "https://create.roblox.com/docs/ui/appearance-modifiers#text-outline-or-border"
+    },
+    {
+      "fact": "Custom BorderStrokePosition and BorderOffset apply only to border strokes. Contextual text strokes can only be placed on the outer text boundary.",
+      "source": "https://devforum.roblox.com/t/full-release-uistroke-improvements-scaling-offsets-and-more/3958036/1"
+    },
+    {
+      "fact": "Text fill transparency and UIStroke transparency are independent. Keep TextTransparency=0 to retain fill.",
+      "source": "https://create.roblox.com/docs/reference/engine/classes/UIStroke#Transparency"
+    },
+    {
+      "fact": "With StrokeSizingMode=ScaledSize on contextual text, Thickness is relative to font size.",
+      "source": "https://create.roblox.com/docs/ui/appearance-modifiers#thickness"
+    }
+  ],
+  "recommendedNativeSetup": {
+    "parent": "The actual editable TextLabel or TextButton, not its image/frame background",
+    "UIStroke.Name": "TextOutline",
+    "UIStroke.ApplyStrokeMode": "Contextual",
+    "UIStroke.ColorRGB": [
+      24,
+      30,
+      51
+    ],
+    "UIStroke.Thickness": 0.09,
+    "UIStroke.StrokeSizingMode": "ScaledSize",
+    "UIStroke.Transparency": 0,
+    "UIStroke.LineJoinMode": "Round",
+    "TextColorRGB": [
+      255,
+      249,
+      224
+    ],
+    "TextTransparency": 0,
+    "TextStrokeTransparency": 1,
+    "BackgroundTransparency": 1,
+    "Font": "FredokaOne",
+    "TextScaled": "Keep existing authored policy; add or retain UITextSizeConstraint where necessary. Do not alter layout each frame.",
+    "BorderStrokePosition": "Leave unused for glyph strokes; changing this does not move the glyph outline.",
+    "fallbackIfScaledSizeUnavailable": "FixedSize, Thickness=1.5 for 14\u201317px text, 1.8 for 18\u201322px text, 2.2 for 24\u201332px text."
+  },
+  "implementationGuidance": [
+    "Author exactly one contextual UIStroke per text element. Remove or disable older duplicate contextual strokes and legacy TextStroke rather than layering ambiguous outlines.",
+    "Do not add a new panel-border UIStroke to simulate the requested glyph stroke; the provided PNG already includes its perimeter artwork.",
+    "Do not use UIStroke with TextTransparency=1 for filled captions, since that explicitly produces hollow lettering.",
+    "Avoid UIStroke thickness tweens; animate button image/state or overall control feedback instead.",
+    "Use padding or authored child-label bounds to center on coloured face, which is above the full asset midpoint due to the lower bevel.",
+    "The exact measured centres apply inside the rendered image rectangle. If ScaleType=Fit letterboxes inside a different-aspect parent, offset and scale the text rectangle with the actual fitted image rectangle; do not blindly center on the whole click target.",
+    "For a parent rectangle W,H and source w,h: fitScale=min(W/w,H/h); imageOrigin=((W-w*fitScale)/2,(H-h*fitScale)/2); textRect=imageOrigin+logicalRect*fitScale.",
+    "Alternative for varying target proportions: use group 07 nine-slice and native text on a consistent authored inset, avoiding mismatched Fit artwork.",
+    "Suggested native text sizes are visual starting points. Roblox font line metrics differ from SVG glyph-bound centering, so do not apply old Text-Centring-Checks verticalAdjustment values directly.",
+    "Leave leaderboard artwork untouched this turn; user will provide it later."
+  ],
+  "favouriteButtonGeometry": [
+    {
+      "name": "close",
+      "logicalSize": [
+        48.0,
+        52.0
+      ],
+      "face": {
+        "x": 6.277,
+        "y": 6.277,
+        "width": 35.445,
+        "height": 36.113,
+        "rx": 10.855
+      },
+      "innerFace": {
+        "x": 7.38,
+        "y": 7.38,
+        "width": 33.24,
+        "height": 33.908,
+        "rx": 8.65
+      },
+      "faceCenter": [
+        23.9995,
+        24.3335
+      ],
+      "faceCenterScale": [
+        0.49999,
+        0.467952
+      ],
+      "textRectLogical": [
+        11.38,
+        9.38,
+        25.24,
+        29.908
+      ],
+      "textRectScale": [
+        0.237083,
+        0.180385,
+        0.525833,
+        0.575154
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.237083,
+        "right": 0.237083,
+        "top": 0.180385,
+        "bottom": 0.244462
+      },
+      "suggestedDefaultText": "X",
+      "suggestedTextSizeAtLogicalAssetSize": 24,
+      "TextWrapped": false,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 1,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "dodge",
+      "logicalSize": [
+        102.0,
+        60.0
+      ],
+      "face": {
+        "x": 7.058,
+        "y": 7.058,
+        "width": 87.885,
+        "height": 42.009,
+        "rx": 12.295
+      },
+      "innerFace": {
+        "x": 8.308,
+        "y": 8.308,
+        "width": 85.385,
+        "height": 39.509,
+        "rx": 9.795
+      },
+      "faceCenter": [
+        51.0005,
+        28.0625
+      ],
+      "faceCenterScale": [
+        0.500005,
+        0.467708
+      ],
+      "textRectLogical": [
+        12.308,
+        10.308,
+        77.385,
+        35.509
+      ],
+      "textRectScale": [
+        0.120667,
+        0.1718,
+        0.758676,
+        0.591817
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.120667,
+        "right": 0.120657,
+        "top": 0.1718,
+        "bottom": 0.236383
+      },
+      "suggestedDefaultText": "DODGE\n[E]",
+      "suggestedTextSizeAtLogicalAssetSize": 17,
+      "TextWrapped": true,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 0.95,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "heat-slot",
+      "logicalSize": [
+        88.0,
+        59.0
+      ],
+      "face": {
+        "x": 6.96,
+        "y": 6.96,
+        "width": 74.08,
+        "height": 41.272,
+        "rx": 12.29
+      },
+      "innerFace": {
+        "x": 8.21,
+        "y": 8.21,
+        "width": 71.58,
+        "height": 38.772,
+        "rx": 9.79
+      },
+      "faceCenter": [
+        44.0,
+        27.596
+      ],
+      "faceCenterScale": [
+        0.5,
+        0.467729
+      ],
+      "textRectLogical": [
+        12.21,
+        10.21,
+        63.58,
+        34.772
+      ],
+      "textRectScale": [
+        0.13875,
+        0.173051,
+        0.7225,
+        0.589356
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.13875,
+        "right": 0.13875,
+        "top": 0.173051,
+        "bottom": 0.237593
+      },
+      "suggestedDefaultText": "HEAT\n[2]",
+      "suggestedTextSizeAtLogicalAssetSize": 17,
+      "TextWrapped": true,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 0.95,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "mud-slot",
+      "logicalSize": [
+        88.0,
+        59.0
+      ],
+      "face": {
+        "x": 6.96,
+        "y": 6.96,
+        "width": 74.08,
+        "height": 41.272,
+        "rx": 12.29
+      },
+      "innerFace": {
+        "x": 8.21,
+        "y": 8.21,
+        "width": 71.58,
+        "height": 38.772,
+        "rx": 9.79
+      },
+      "faceCenter": [
+        44.0,
+        27.596
+      ],
+      "faceCenterScale": [
+        0.5,
+        0.467729
+      ],
+      "textRectLogical": [
+        12.21,
+        10.21,
+        63.58,
+        34.772
+      ],
+      "textRectScale": [
+        0.13875,
+        0.173051,
+        0.7225,
+        0.589356
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.13875,
+        "right": 0.13875,
+        "top": 0.173051,
+        "bottom": 0.237593
+      },
+      "suggestedDefaultText": "MUD\n[1]",
+      "suggestedTextSizeAtLogicalAssetSize": 17,
+      "TextWrapped": true,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 0.95,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "splat",
+      "logicalSize": [
+        88.0,
+        59.0
+      ],
+      "face": {
+        "x": 6.96,
+        "y": 6.96,
+        "width": 74.08,
+        "height": 41.272,
+        "rx": 12.29
+      },
+      "innerFace": {
+        "x": 8.21,
+        "y": 8.21,
+        "width": 71.58,
+        "height": 38.772,
+        "rx": 9.79
+      },
+      "faceCenter": [
+        44.0,
+        27.596
+      ],
+      "faceCenterScale": [
+        0.5,
+        0.467729
+      ],
+      "textRectLogical": [
+        12.21,
+        10.21,
+        63.58,
+        34.772
+      ],
+      "textRectScale": [
+        0.13875,
+        0.173051,
+        0.7225,
+        0.589356
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.13875,
+        "right": 0.13875,
+        "top": 0.173051,
+        "bottom": 0.237593
+      },
+      "suggestedDefaultText": "SPLAT!",
+      "suggestedTextSizeAtLogicalAssetSize": 18,
+      "TextWrapped": false,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 1,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "sprint-wide",
+      "logicalSize": [
+        288.0,
+        61.0
+      ],
+      "face": {
+        "x": 7.155,
+        "y": 7.155,
+        "width": 273.69,
+        "height": 42.746,
+        "rx": 12.23
+      },
+      "innerFace": {
+        "x": 8.405,
+        "y": 8.405,
+        "width": 271.19,
+        "height": 40.246,
+        "rx": 9.73
+      },
+      "faceCenter": [
+        144.0,
+        28.528
+      ],
+      "faceCenterScale": [
+        0.5,
+        0.467672
+      ],
+      "textRectLogical": [
+        12.405,
+        10.405,
+        263.19,
+        36.246
+      ],
+      "textRectScale": [
+        0.043073,
+        0.170574,
+        0.913854,
+        0.594197
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.043073,
+        "right": 0.043073,
+        "top": 0.170574,
+        "bottom": 0.23523
+      },
+      "suggestedDefaultText": "SPRINT \u00b7 HOLD SHIFT",
+      "suggestedTextSizeAtLogicalAssetSize": 20,
+      "TextWrapped": false,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 1,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "sprint",
+      "logicalSize": [
+        203.0,
+        60.0
+      ],
+      "face": {
+        "x": 7.058,
+        "y": 7.058,
+        "width": 188.885,
+        "height": 42.009,
+        "rx": 12.295
+      },
+      "innerFace": {
+        "x": 8.308,
+        "y": 8.308,
+        "width": 186.385,
+        "height": 39.509,
+        "rx": 9.795
+      },
+      "faceCenter": [
+        101.5005,
+        28.0625
+      ],
+      "faceCenterScale": [
+        0.500002,
+        0.467708
+      ],
+      "textRectLogical": [
+        12.308,
+        10.308,
+        178.385,
+        35.509
+      ],
+      "textRectScale": [
+        0.060631,
+        0.1718,
+        0.878744,
+        0.591817
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.060631,
+        "right": 0.060626,
+        "top": 0.1718,
+        "bottom": 0.236383
+      },
+      "suggestedDefaultText": "SPRINT\nHOLD SHIFT",
+      "suggestedTextSizeAtLogicalAssetSize": 17,
+      "TextWrapped": true,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 0.95,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "team-black",
+      "logicalSize": [
+        79.0,
+        54.0
+      ],
+      "face": {
+        "x": 6.473,
+        "y": 6.473,
+        "width": 66.055,
+        "height": 37.587,
+        "rx": 11.265
+      },
+      "innerFace": {
+        "x": 7.62,
+        "y": 7.62,
+        "width": 63.76,
+        "height": 35.292,
+        "rx": 8.97
+      },
+      "faceCenter": [
+        39.5005,
+        25.2665
+      ],
+      "faceCenterScale": [
+        0.500006,
+        0.467898
+      ],
+      "textRectLogical": [
+        11.62,
+        9.62,
+        55.76,
+        31.292
+      ],
+      "textRectScale": [
+        0.147089,
+        0.178148,
+        0.705823,
+        0.579481
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.147089,
+        "right": 0.147089,
+        "top": 0.178148,
+        "bottom": 0.24237
+      },
+      "suggestedDefaultText": "BLACK",
+      "suggestedTextSizeAtLogicalAssetSize": 16,
+      "TextWrapped": false,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 1,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "team-blue-status",
+      "logicalSize": [
+        254.0,
+        55.0
+      ],
+      "face": {
+        "x": 6.57,
+        "y": 6.57,
+        "width": 240.86,
+        "height": 38.324,
+        "rx": 11.47
+      },
+      "innerFace": {
+        "x": 7.74,
+        "y": 7.74,
+        "width": 238.52,
+        "height": 35.984,
+        "rx": 9.13
+      },
+      "faceCenter": [
+        127.0,
+        25.732
+      ],
+      "faceCenterScale": [
+        0.5,
+        0.467855
+      ],
+      "textRectLogical": [
+        11.74,
+        9.74,
+        230.52,
+        31.984
+      ],
+      "textRectScale": [
+        0.04622,
+        0.177091,
+        0.907559,
+        0.581527
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.04622,
+        "right": 0.04622,
+        "top": 0.177091,
+        "bottom": 0.241382
+      },
+      "suggestedDefaultText": "BLUE\nFREE",
+      "suggestedTextSizeAtLogicalAssetSize": 15,
+      "TextWrapped": true,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 0.95,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "team-blue",
+      "logicalSize": [
+        79.0,
+        54.0
+      ],
+      "face": {
+        "x": 6.473,
+        "y": 6.473,
+        "width": 66.055,
+        "height": 37.587,
+        "rx": 11.265
+      },
+      "innerFace": {
+        "x": 7.62,
+        "y": 7.62,
+        "width": 63.76,
+        "height": 35.292,
+        "rx": 8.97
+      },
+      "faceCenter": [
+        39.5005,
+        25.2665
+      ],
+      "faceCenterScale": [
+        0.500006,
+        0.467898
+      ],
+      "textRectLogical": [
+        11.62,
+        9.62,
+        55.76,
+        31.292
+      ],
+      "textRectScale": [
+        0.147089,
+        0.178148,
+        0.705823,
+        0.579481
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.147089,
+        "right": 0.147089,
+        "top": 0.178148,
+        "bottom": 0.24237
+      },
+      "suggestedDefaultText": "BLUE",
+      "suggestedTextSizeAtLogicalAssetSize": 17,
+      "TextWrapped": false,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 1,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "team-green",
+      "logicalSize": [
+        79.0,
+        54.0
+      ],
+      "face": {
+        "x": 6.473,
+        "y": 6.473,
+        "width": 66.055,
+        "height": 37.587,
+        "rx": 11.265
+      },
+      "innerFace": {
+        "x": 7.62,
+        "y": 7.62,
+        "width": 63.76,
+        "height": 35.292,
+        "rx": 8.97
+      },
+      "faceCenter": [
+        39.5005,
+        25.2665
+      ],
+      "faceCenterScale": [
+        0.500006,
+        0.467898
+      ],
+      "textRectLogical": [
+        11.62,
+        9.62,
+        55.76,
+        31.292
+      ],
+      "textRectScale": [
+        0.147089,
+        0.178148,
+        0.705823,
+        0.579481
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.147089,
+        "right": 0.147089,
+        "top": 0.178148,
+        "bottom": 0.24237
+      },
+      "suggestedDefaultText": "GREEN",
+      "suggestedTextSizeAtLogicalAssetSize": 16,
+      "TextWrapped": false,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 1,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "team-red",
+      "logicalSize": [
+        68.0,
+        60.0
+      ],
+      "face": {
+        "x": 7.058,
+        "y": 7.058,
+        "width": 53.885,
+        "height": 42.009,
+        "rx": 12.295
+      },
+      "innerFace": {
+        "x": 8.308,
+        "y": 8.308,
+        "width": 51.385,
+        "height": 39.509,
+        "rx": 9.795
+      },
+      "faceCenter": [
+        34.0005,
+        28.0625
+      ],
+      "faceCenterScale": [
+        0.500007,
+        0.467708
+      ],
+      "textRectLogical": [
+        12.308,
+        10.308,
+        43.385,
+        35.509
+      ],
+      "textRectScale": [
+        0.181,
+        0.1718,
+        0.638015,
+        0.591817
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.181,
+        "right": 0.180985,
+        "top": 0.1718,
+        "bottom": 0.236383
+      },
+      "suggestedDefaultText": "RED",
+      "suggestedTextSizeAtLogicalAssetSize": 18,
+      "TextWrapped": false,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 1,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    },
+    {
+      "name": "team-toggle",
+      "logicalSize": [
+        60.0,
+        53.0
+      ],
+      "face": {
+        "x": 6.375,
+        "y": 6.375,
+        "width": 47.25,
+        "height": 36.85,
+        "rx": 11.06
+      },
+      "innerFace": {
+        "x": 7.5,
+        "y": 7.5,
+        "width": 45.0,
+        "height": 34.6,
+        "rx": 8.81
+      },
+      "faceCenter": [
+        30.0,
+        24.8
+      ],
+      "faceCenterScale": [
+        0.5,
+        0.467925
+      ],
+      "textRectLogical": [
+        11.5,
+        9.5,
+        37.0,
+        30.6
+      ],
+      "textRectScale": [
+        0.191667,
+        0.179245,
+        0.616667,
+        0.577358
+      ],
+      "fullCanvasUIPaddingScale": {
+        "left": 0.191667,
+        "right": 0.191667,
+        "top": 0.179245,
+        "bottom": 0.243396
+      },
+      "suggestedDefaultText": "TEAM",
+      "suggestedTextSizeAtLogicalAssetSize": 14,
+      "TextWrapped": false,
+      "TextXAlignment": "Center",
+      "TextYAlignment": "Center",
+      "LineHeight": 1,
+      "note": "Native text is editable. Replace device hints through behavior, keep art blank. Values are authoring recommendations, not gameplay-verified."
+    }
+  ],
+  "verificationScope": "Official documentation plus source SVG geometry only. No Studio mutations, desktop control or gameplay test."
+}

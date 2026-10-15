@@ -1,0 +1,58 @@
+rn session ~= nil and session.active and not session.finished end,
+    pause = MatchClock.setPaused,
+    quit = function()
+        local match = session
+        if not match or not match.active or match.finished then return false, "The match has already ended." end
+        local success, message = leaveArena()
+        if not success then return false, message end
+        if not match.quickRound then PlayerData.recordResult(ArenaConfig.progressionKey, false) end
+        player:SetAttribute("LastMatchForfeited", true)
+        require(ReplicatedStorage:WaitForChild("ArenaSelectionUI")).open(playerGui)
+        return true
+    end,
+})
+playerGui.ChildAdded:Connect(function(gui)
+	task.defer(function()
+		if session and gui.Parent then hideLobbyGui(gui) end
+	end)
+end)
+player.CharacterRemoving:Connect(function()
+	cancelMatch()
+	ArenaTravelClient.restore()
+	hud.Enabled = false
+	showLobby()
+	setPhase("Lobby")
+end)
+
+local events = ReplicatedStorage:WaitForChild("ArenaEvents")
+events:WaitForChild("EnterArena").Event:Connect(function(name, quickRound)
+	enterArena(name or ArenaConfig.arenaName, quickRound == true and RunService:IsStudio())
+end)
+local leaveEvent = events:FindFirstChild("LeaveArena")
+if not leaveEvent then
+	leaveEvent = Instance.new("BindableEvent")
+	leaveEvent.Name = "LeaveArena"
+	leaveEvent.Parent = events
+end
+leaveEvent.Event:Connect(function()
+    if session and session.active and not session.finished then PauseMenu.open()
+    else leaveArena() end
+end)
+UserInputService.InputBegan:Connect(function(input, processed)
+	if not processed and RunService:IsStudio() and input.KeyCode == Enum.KeyCode.F6 then
+		enterArena(ArenaConfig.arenaName, true)
+	end
+end)
+setPhase("Lobby")
+
+if RunService:IsStudio() and workspace:GetAttribute("StudioQuickRoundOnPlay") then
+	task.spawn(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		character:WaitForChild("HumanoidRootPart")
+		task.wait(1.5)
+		enterArena(ArenaConfig.arenaName, true)
+	end)
+end
+
+
+

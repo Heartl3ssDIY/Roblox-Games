@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-03",
+  "lobbyPlaceId": 74498603638770,
+  "roundPlaceId": 106769122906103,
+  "studioBackup": "ServerStorage.BeforeHalloweenShop20261003",
+  "published": false,
+  "playtested": false,
+  "unlimitedUntil": "2026-11-01T00:00:00Z",
+  "abilities": {
+    "Pumpkin": {
+      "unlockCash": 150000,
+      "rechargeCash": 15000,
+      "cooldownSeconds": 25,
+      "splatSeconds": 4
+    },
+    "Web": {
+      "unlockCash": 350000,
+      "rechargeCash": 35000,
+      "cooldownSeconds": 30,
+      "holdSeconds": 5
+    }
+  },
+  "initialGameUses": 3,
+  "cashRechargeGameUses": 1,
+  "verified": {
+    "economy": 187,
+    "paidMatchTicket": 45,
+    "shopUI": 36,
+    "purchasedAbilityAndHazardBehavior": 66,
+    "equipEndpoint": 17,
+    "liveSourceReadbacks": 13
+  },
+  "sourcePaths": {
+    "lobby": [
+      "ServerScriptService.PlayerData",
+      "ServerScriptService.AbilityShopServer",
+      "ReplicatedStorage.GBloxAbilityRules",
+      "StarterGui.GBloxShopMockups.InventoryNavigation",
+      "StarterGui.GBloxShopMockups.PreviewNavigation",
+      "ServerScriptService.GBloxDailyRewardsServer"
+    ],
+    "round": [
+      "ServerScriptService.PlayerData",
+      "ReplicatedStorage.GBloxAbilityRules",
+      "ServerScriptService.GBloxHalloweenService",
+      "ServerScriptService.GBloxGravitySwitch",
+      "ServerScriptService.RunnerServer",
+      "StarterGui.GBloxAbilityHUD.Controller",
+      "StarterGui.GBloxHalloweenControls.Controller"
+    ]
+  },
+  "notes": [
+    "Existing daily rewards/catalogs left unchanged.",
+    "Old free Halloween OnServerEvent activation removed.",
+    "Purchased abilities remain usable outside Halloween; seasonal course hazards still Halloween Course1 only.",
+    "Calendar refresh updates display attributes every 30 seconds; server reservation cutoff enforced per request."
+  ]
+}

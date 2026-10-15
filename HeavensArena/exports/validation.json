@@ -1,0 +1,33 @@
+{
+  "visual_meshes": 36,
+  "triangles": 194716,
+  "zero_area_triangles": 0,
+  "all_uv": true,
+  "combat_area_obstructions": [],
+  "studio_import_tested": false,
+  "textures": {
+    "HA_ColorAtlas.001": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "HA_NormalAtlas.001": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    "HA_RoughnessAtlas.001": {
+      "loaded": true,
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "collision_meshes": 16,
+  "result": "passed"
+}

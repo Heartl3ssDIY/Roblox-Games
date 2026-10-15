@@ -1,0 +1,25 @@
+{
+  "assets": [
+    {
+      "name": "TownCentre_Normal",
+      "meshParts": 96,
+      "triangles": 3900,
+      "exports": "passed"
+    },
+    {
+      "name": "TownCentre_Crashed",
+      "meshParts": 105,
+      "triangles": 4008,
+      "exports": "passed"
+    },
+    {
+      "name": "GiftTruck_Crashed",
+      "meshParts": 58,
+      "triangles": 74852,
+      "exports": "passed"
+    }
+  ],
+  "matching_parts_between_buildings": 83,
+  "clear_route_samples_per_building": 87,
+  "no_gameplay_scripts_executed": true
+}

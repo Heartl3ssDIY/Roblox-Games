@@ -1,0 +1,150 @@
+{
+  "changedScripts": [
+    {
+      "path": "ServerScriptService.PlaygroundAdminService",
+      "beforeLength": 8898,
+      "afterLength": 8944,
+      "capabilitiesUnchanged": true
+    },
+    {
+      "path": "ServerScriptService.PlaygroundCoordinator",
+      "beforeLength": 24909,
+      "afterLength": 25267,
+      "capabilitiesUnchanged": true
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.Controller",
+      "beforeLength": 16881,
+      "afterLength": 16887,
+      "capabilitiesUnchanged": true
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.Controller",
+      "beforeLength": 31441,
+      "afterLength": 31447,
+      "capabilitiesUnchanged": true
+    },
+    {
+      "path": "ReplicatedStorage.PlaygroundCatalog",
+      "beforeLength": 26077,
+      "afterLength": 26042,
+      "capabilitiesUnchanged": true
+    },
+    {
+      "path": "StarterGui.PlaygroundSessionControls.Controller",
+      "beforeLength": 21711,
+      "afterLength": 22042,
+      "capabilitiesUnchanged": true
+    }
+  ],
+  "changedLabels": [
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot06.Price",
+      "text": "25 Mud wins",
+      "after": "25 Laser Tag wins"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot07.Price",
+      "text": "50 Mud wins",
+      "after": "50 Laser Tag wins"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.VotePanel.Choices.StuckInTheMud.Button.LiveCaption",
+      "text": "STUCK IN\nTHE MUD",
+      "after": "LASER TAG"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CompactVotePanel.Choices.StuckInTheMud.Button.LiveCaption",
+      "text": "STUCK IN\nTHE MUD",
+      "after": "LASER TAG"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.Title",
+      "text": "STUCK IN THE MUD",
+      "after": "LASER TAG"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudShooter",
+      "text": "SOLO MUD GUN",
+      "after": "SOLO RED TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudShooter.LiveCaption",
+      "text": "SOLO MUD GUN",
+      "after": "SOLO RED TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudMedic",
+      "text": "SOLO RESCUE",
+      "after": "SOLO BLUE TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudMedic.LiveCaption",
+      "text": "SOLO RESCUE",
+      "after": "SOLO BLUE TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.Title",
+      "text": "STUCK IN THE MUD",
+      "after": "LASER TAG"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudShooter",
+      "text": "SOLO MUD GUN",
+      "after": "SOLO RED TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudShooter.LiveCaption",
+      "text": "SOLO MUD GUN",
+      "after": "SOLO RED TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudMedic",
+      "text": "SOLO RESCUE",
+      "after": "SOLO BLUE TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudMedic.LiveCaption",
+      "text": "SOLO RESCUE",
+      "after": "SOLO BLUE TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.AdminHub.Pages.Rounds.StuckInTheMud.Title",
+      "text": "STUCK IN THE MUD",
+      "after": "LASER TAG"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.AdminHub.Pages.Rounds.StuckInTheMud.MudShooter",
+      "text": "SOLO MUD GUN",
+      "after": "SOLO RED TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.AdminHub.Pages.Rounds.StuckInTheMud.MudShooter.LiveCaption",
+      "text": "SOLO MUD GUN",
+      "after": "SOLO RED TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.AdminHub.Pages.Rounds.StuckInTheMud.MudMedic",
+      "text": "SOLO RESCUE",
+      "after": "SOLO BLUE TEAM"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.AdminHub.Pages.Rounds.StuckInTheMud.MudMedic.LiveCaption",
+      "text": "SOLO RESCUE",
+      "after": "SOLO BLUE TEAM"
+    },
+    {
+      "path": "Workspace.Playground Lobby.VotingAlcove.StuckInTheMudStand.ChoiceCardFace.GameName.Label",
+      "text": "Stuck in the Mud",
+      "after": "Laser Tag"
+    }
+  ],
+  "savedProgressKey": "StuckInTheMud",
+  "displayName": "Laser Tag",
+  "nativeIntegrationChecks": {
+    "passed": true,
+    "count": 25
+  },
+  "backup": "ServerStorage.LaserTagIntegrationBackup20261013",
+  "published": false
+}

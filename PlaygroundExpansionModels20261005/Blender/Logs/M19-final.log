@@ -1,0 +1,18 @@
+00:00.063  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:57: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:111: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:02.484  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_96196_392914ece65da9440b242dff60d64c1f.png.png"
+00:19.500  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Miscellaneous\Previews\m19-slippy-banana.png'
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m19-slippy-banana.fbx'
+export finished in 0.0092 sec.
+Info: Saved as "m19-slippy-banana.blend"
+ASSET_COMPLETE {"id": "M19", "name": "Slippy Banana", "category": "Miscellaneous", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m19-slippy-banana.png", "brief": "One oversized cartoon banana peel with THREE thick yellow peel flaps curving outward from a central cream stump, rounded brown stem tip. All three flaps form one connected object and lie in a compact triangular footprint. Bright glossy broad shading, no detached fruit, no face, no floor.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m19-slippy-banana.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m19-slippy-banana.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m19-slippy-banana-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m19-slippy-banana.png", "parts": 6, "triangles": 3168, "meshes": 1, "maxMeshTriangles": 3168, "dimensions": [2.167661666870117, 1.9059088230133057, 1.3767825365066528], "boundsMin": [-1.0838308334350586, -1.218000054359436, 0.21321749687194824], "boundsMax": [1.0838308334350586, 0.6879087686538696, 1.590000033378601], "paletteColors": 4, "anchors": {"Grip": [0.0, 0.0, 1.2899999618530273], "Ground": [0.0, 0.0, 0.12999999523162842]}, "editable": true, "rigged": false, "rigBones": [], "collision": "Visual meshes non-colliding; use simple game-owned collision proxy", "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette", "gameplayImplemented": false, "exportDimensions": [2.167661666870117, 1.9059088230133057, 1.3767825365066528]}
+PACK_COMPLETE {"count": 1, "ids": ["M19"]}
+Unable to delete file
+Unable to delete file
+
+Blender quit

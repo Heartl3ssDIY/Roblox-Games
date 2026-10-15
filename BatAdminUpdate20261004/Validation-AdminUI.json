@@ -1,0 +1,49 @@
+{
+  "bindingChecks": {
+    "playStarted": false,
+    "checks": [
+      "opening defaults explicitly to self",
+      "recipient can select another player",
+      "search binds actual catalog id",
+      "overlapping item requests are blocked",
+      "grant equip sends explicit recipient and item",
+      "equipped item and preview update UI",
+      "hide preview routes correctly",
+      "pet filter binds first pet",
+      "pet pagination binds next eight",
+      "every catalog item reachable through pagination",
+      "coin grant routes entered amount to self",
+      "level increment routes to selected other player",
+      "invalid amount never reaches server",
+      "round control preserved: BBStart",
+      "round control preserved: BBRunner",
+      "round control preserved: BBBulldog",
+      "round control preserved: TagStart",
+      "round control preserved: TagRunner",
+      "round control preserved: TagTagger",
+      "round control preserved: MudStart",
+      "round control preserved: MudShooter",
+      "round control preserved: MudMedic",
+      "round control preserved: StopRound",
+      "round control preserved: ToggleAutomatic",
+      "removed admin permission hides controls and blocks requests"
+    ],
+    "networkCalls": 0,
+    "realGrants": 0,
+    "passed": 25,
+    "catalogItems": 50
+  },
+  "authoredUI": {
+    "buttons": 43,
+    "labels": 80,
+    "inputs": 3,
+    "slots": 8,
+    "issues": [],
+    "imageFetchSuccess": 6
+  },
+  "visualReview": {
+    "desktop": true,
+    "compact": "340x660",
+    "authoredSizingRestored": true
+  }
+}

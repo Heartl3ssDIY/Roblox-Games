@@ -1,0 +1,17 @@
+{
+  "capabilityIssues": [],
+  "mode": "Edit",
+  "boards": [
+    {
+      "rows": 10,
+      "name": "HighestLevel",
+      "templateHidden": true
+    },
+    {
+      "rows": 10,
+      "name": "MostWins",
+      "templateHidden": true
+    }
+  ],
+  "matchedSources": 6
+}

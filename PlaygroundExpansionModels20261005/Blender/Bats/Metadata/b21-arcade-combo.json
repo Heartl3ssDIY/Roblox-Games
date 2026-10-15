@@ -1,0 +1,59 @@
+{
+  "id": "B21",
+  "name": "Arcade Combo",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b21-arcade-combo.png",
+  "brief": "A chunky baseball bat with a dark violet elongated cylindrical barrel with broad cyan edge rails and exactly three large glossy arcade buttons arranged lengthwise, red yellow and mint. Cream inset panel behind buttons, magenta collar, navy rubber grip with turquoise rings and magenta knob. Blunt rounded tip, no screen text or cords.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b21-arcade-combo.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b21-arcade-combo.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b21-arcade-combo-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b21-arcade-combo.png",
+  "parts": 27,
+  "triangles": 8922,
+  "meshes": 1,
+  "maxMeshTriangles": 8922,
+  "dimensions": [
+    0.746917724609375,
+    0.8604907989501953,
+    3.622000217437744
+  ],
+  "boundsMin": [
+    -0.39191776514053345,
+    -0.5054908394813538,
+    -0.47200000286102295
+  ],
+  "boundsMax": [
+    0.35499998927116394,
+    0.35499998927116394,
+    3.1500000953674316
+  ],
+  "paletteColors": 9,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.134999990463257
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.746917724609375,
+    0.8555053472518921,
+    3.622000217437744
+  ]
+}

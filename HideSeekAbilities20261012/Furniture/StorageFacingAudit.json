@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-12",
+  "readOnly": true,
+  "storageCount": 76,
+  "types": {
+    "SA21": 54,
+    "SA22": 11,
+    "SA23": 11
+  },
+  "storageOutsideLockerSpots": 0,
+  "visualFrontOpposesPromptAndExit": 76,
+  "recommendation": "Rotate only imported SA* visual MeshParts 180 degrees in each model's local pivot space. Preserve Door, HidePoint, ExitPoint, CollisionHull and overall model pivot.",
+  "exitCollisionAudit": {
+    "volume": [
+      2.5,
+      4.5,
+      2.5
+    ],
+    "clear": 75,
+    "conflicts": [
+      {
+        "name": "Room01_HidingStorage",
+        "part": "Workspace.Hide and Seek.Geometry.PlaygroundPrimarySchool.Structure.ClassDividerFrontExpansion0-11Panel",
+        "note": "This storage has been manually moved and rotated about 25 degrees; recheck exit clearance separately."
+      }
+    ]
+  },
+  "frontEvidence": {
+    "SA21": "SA21_B02_M02 handle local Z ≈ +1.355",
+    "SA22": "SA22_B03_M02 handle local Z ≈ +1.420",
+    "SA23": "SA23_B08_M02 drawer label local Z ≈ +1.102"
+  },
+  "logicalEvidence": "Door local Z is approximately -1.2 to -1.55; ExitPoint is about -5.1 to -6.4."
+}

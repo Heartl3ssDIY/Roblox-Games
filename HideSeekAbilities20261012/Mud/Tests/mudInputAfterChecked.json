@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "version": "After",
+  "result": {
+    "total": 11,
+    "passed": 11,
+    "checks": {
+      "1": {
+        "name": "Very quick PC click fires exactly once before next frame",
+        "passed": true
+      },
+      "2": {
+        "name": "Very quick phone fire-button tap fires exactly once",
+        "passed": true
+      },
+      "3": {
+        "name": "Camera pan on touch does not fire the Tool",
+        "passed": true
+      },
+      "4": {
+        "name": "Touch fire remains held when native Tool deactivates",
+        "passed": true
+      },
+      "5": {
+        "name": "Switching to Heat uses actual equipped Tool before attribute replication",
+        "passed": true
+      },
+      "6": {
+        "name": "Holding Mud respects cooldown and stops on release",
+        "passed": true
+      },
+      "7": {
+        "name": "Stuck players cannot fire",
+        "passed": true
+      },
+      "8": {
+        "name": "Opening colour menu cancels firing",
+        "passed": true
+      },
+      "9": {
+        "name": "Text entry never starts gunfire",
+        "passed": true
+      },
+      "10": {
+        "name": "Touch sprint does not fire",
+        "passed": true
+      },
+      "11": {
+        "name": "Respawn reconnects once to new tools",
+        "passed": true
+      }
+    }
+  }
+}

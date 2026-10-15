@@ -1,0 +1,75 @@
+{
+  "addedNonCollidableParts": 278,
+  "courses": [
+    {
+      "name": " Course -  round 1",
+      "newGameplay": true
+    },
+    {
+      "name": " Course -  round 2",
+      "newGameplay": false
+    },
+    {
+      "name": " Course -  round 3",
+      "newGameplay": false
+    },
+    {
+      "name": " Course -  round 5",
+      "newGameplay": false
+    },
+    {
+      "name": " Course -  round 4",
+      "newGameplay": false
+    }
+  ],
+  "originalWorldUnchanged": true,
+  "isolatedChecks": {"freezeAssertions": 71, "freezeScenarios": 12, "clientChecks": 26, "gameplayChecks": 31},
+  "multiplayerPlaytestPerformed": false,
+  "compiledScripts": 6,
+  "traps": [
+    {
+      "support": "Workspace. Course -  round 1.Zone 1-10.Normal flat zone_6.Bottom_Flat_Platform.Flat_Platform_RunSurface",
+      "type": "CornerWeb",
+      "name": "CornerWeb_Lower",
+      "position": "3268, 8.146895408630371, 8330"
+    },
+    {
+      "support": "Workspace. Course -  round 1.Zone 21-30.Normal flat zone_22.Top_Flat_Platform.Flat_Platform_RunSurface",
+      "type": "CornerWeb",
+      "name": "CornerWeb_Upper",
+      "position": "2425, 35.98689270019531, 8330"
+    },
+    {
+      "support": "Workspace. Course -  round 1.Zone 1-10.Normal flat zone_10.Bottom_Flat_Platform.Flat_Platform_RunSurface",
+      "type": "Grave",
+      "name": "Grave_LowerRidge",
+      "position": "3096, -4.853104591369629, 8330"
+    },
+    {
+      "support": "Workspace. Course -  round 1.Zone 11-20.Normal flat zone_18.Top_Flat_Platform.Flat_Platform_RunSurface",
+      "type": "Grave",
+      "name": "Grave_UpperRidge",
+      "position": "2749, 49.98689270019531, 8330"
+    }
+  ],
+  "published": false,
+  "templateNames": [
+    "Floor_Web_Trap",
+    "Last_Place_Chaser_Ghost",
+    "Jack_O_Lantern",
+    "Corner_Cobweb",
+    "Gravestone_Without_Hand",
+    "Ectoplasm_Lantern",
+    "Throwable_Pumpkin",
+    "Gravestone_Trap",
+    "Halloween_Bone_Saw_Platform",
+    "Ghost",
+    "Trap_Web",
+    "Zombie_Hand",
+    "Skull_Decoration"
+  ],
+  "decorations": 16,
+  "originalPartCount": 6791,
+  "originalWorldFingerprint": "2129397923",
+  "playtestStarted": false
+}

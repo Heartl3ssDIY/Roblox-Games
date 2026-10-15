@@ -1,0 +1,147 @@
++{
+  "models": [
+    {
+      "bounds": "-148.54580688476562, 73.7646713256836, 150.867431640625",
+      "name": "VIP-Dragon-Rigged-display",
+      "attributes": {
+        "PCOutlineDepthMode": "Occluded",
+        "PCPetClipSet": "VIPDragon",
+        "PCOutlineEnabled": true,
+        "PCOutlineFillColor": null,
+        "PCOutlineTransparency": 0,
+        "PCOutlineFillTransparency": 1,
+        "PCDisplayPet": true,
+        "RBX_ReimportId": "5edc85f0-9e7e-4d4b-93c9-9c959a2f53e7",
+        "PCOutlineStored": true,
+        "PCOutlineColor": null
+      },
+      "pivot": "-145.412247, 61.8000031, 148.238052, 0.642787635, 0, -0.766044497, 0, 1, 0, 0.766044497, 0, 0.642787635",
+      "size": "75.15000915527344, 73.92933654785156, 38.22367858886719"
+    },
+    {
+      "bounds": "9.696919441223145, 7.037592887878418, -81.4380111694336",
+      "name": "Owner - Lead Developer",
+      "attributes": [],
+      "pivot": "9.69999695, 4.00007534, -81.2999954, -1, -1.19209361e-07, 4.76835282e-07, -1.19209304e-07, 1, 1.19208792e-07, -4.76835282e-07, 1.19208735e-07, -1",
+      "size": "4.370518684387207, 6.079130172729492, 2.5800461769104004"
+    }
+  ],
+  "placeId": 95034648955135,
+  "textures": [
+    {
+      "transparency": 0.800000011920929,
+      "studsU": 8,
+      "studsV": 8,
+      "color": "0, 0, 0",
+      "asset": "rbxassetid://6372755229",
+      "path": "Workspace.Baseplate.Texture"
+    }
+  ],
+  "scripts": [
+    {
+      "characters": 1053,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+      "name": "BritishBulldogRules"
+    },
+    {
+      "characters": 76038,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "name": "BritishBulldogService"
+    },
+    {
+      "characters": 1167,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "name": "BritishBulldogBootstrap"
+    },
+    {
+      "characters": 8082,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "name": "PlaygroundAdminService"
+    },
+    {
+      "characters": 68115,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "name": "TagService"
+    },
+    {
+      "characters": 22252,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "name": "PlaygroundCoordinator"
+    },
+    {
+      "characters": 6650,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | Animation | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AssetRead | Monetization | PromptExternalPurchase | AvatarBehavior",
+      "name": "PlaygroundBootstrap"
+    },
+    {
+      "characters": 61048,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "name": "StuckInTheMudService"
+    },
+    {
+      "characters": 5506,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "name": "TagSprintService"
+    },
+    {
+      "characters": 19918,
+      "capabilities": "RunServerScript | AccessOutsideWrite | Basic | DataStore | UI | Players",
+      "name": "PlaygroundLeaderboardService"
+    },
+    {
+      "characters": 57235,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "name": "PlaygroundEconomyService"
+    },
+    {
+      "characters": 34359,
+      "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "name": "PlaygroundEquipmentService"
+    },
+    {
+      "characters": 2235,
+      "capabilities": "RunServerScript | AccessOutsideWrite | Basic | DataStore | UI | Players",
+      "name": "PlaygroundRegions"
+    },
+    {
+      "characters": 33621,
+      "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "name": "PlaygroundToyService"
+    },
+    {
+      "characters": 5233,
+      "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "name": "PlaygroundLobbySwingService"
+    },
+    {
+      "characters": 9344,
+      "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "name": "PlaygroundSecretObbyService"
+    },
+    {
+      "characters": 3491,
+      "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "name": "PlaygroundLobbyBenchService"
+    },
+    {
+      "characters": 7829,
+      "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | DataStore | UI | RemoteEvent | Players | AssetRead | Monetization | PromptExternalPurchase",
+      "name": "PlaygroundCommerceService"
+    },
+    {
+      "characters": 6010,
+      "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "name": "PlaygroundFishingService"
+    },
+    {
+      "characters": 10,
+      "capabilities": "RunServerScript | Basic",
+      "name": "PlaygroundRedemptionCodes"
+    },
+    {
+      "characters": 6215,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "name": "PlaygroundPushService"
+    }
+  ]
+}

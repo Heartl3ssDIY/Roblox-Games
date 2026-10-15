@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="166.4" height="192" viewBox="0 0 166.4 192">
+  <title>School-Sports-Day</title>
+  <desc>Editable SVG exported read-only from Roblox Studio. All label text remains live text. Named groups preserve authored UI layers. Surface host color is included as an editable backplate; scene lighting is omitted.</desc>
+  <metadata>{"source": "Workspace.British Bulldog game.SchoolScenery.ClassNoticeboard.PinnedClassPaper.ClassDetail", "locator": "Workspace[1]/British Bulldog game[1]/SchoolScenery[1]/ClassNoticeboard[1]/PinnedClassPaper[2]/ClassDetail[1]", "enabled": true, "canvas": [166.39999389648438, 192], "fontSizeResolution": "Installed Roblox TrueType advance widths with integer size fitting"}</metadata>
+  <g id="Editable-Host-Part-Surface-Backplate">
+    <title>Host part surface color (visual context)</title>
+    <rect x="0" y="0" width="166.4" height="192" fill="#fff3c8" fill-opacity="1" />
+  </g>
+  <g id="ClassDetail" data-source-enabled="true">
+    <g id="Label-1" data-native-name="Label" data-native-class="TextLabel" data-native-visible="true">
+      <title>Label</title>
+      <text id="EditableText-1" font-family="Fredoka One" font-size="42" font-weight="400" font-style="normal" fill="#1b2d3d" fill-opacity="1" text-anchor="middle" xml:space="preserve" data-roblox-font-family="rbxasset://fonts/families/FredokaOne.json" data-native-text-scaled="true"><tspan x="83.2" y="88.44">SPORTS</tspan><tspan x="83.2" y="130.44">DAY</tspan></text>
+    </g>
+  </g>
+  <metadata id="playground-text-layers">{"version": 1, "texts": [{"name": "Label / Line 1", "text": "SPORTS", "x": 0.0, "y": 54.0, "width": 166.4, "height": 42, "fontFamily": "Fredoka One", "fontSize": 42, "color": "#1b2d3d", "opacity": 1.0, "strokeColor": null, "strokeWidth": 0.0, "strokeOpacity": 0.0, "align": "CENTER"}, {"name": "Label / Line 2", "text": "DAY", "x": 0.0, "y": 96.0, "width": 166.4, "height": 42, "fontFamily": "Fredoka One", "fontSize": 42, "color": "#1b2d3d", "opacity": 1.0, "strokeColor": null, "strokeWidth": 0.0, "strokeOpacity": 0.0, "align": "CENTER"}]}</metadata>
+</svg>

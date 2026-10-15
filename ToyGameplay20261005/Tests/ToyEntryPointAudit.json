@@ -1,0 +1,335 @@
+{
+  "bounds": {
+    "size": "320, 80, 304",
+    "position": "0, 40, 0"
+  },
+  "calls": [
+    {
+      "name": "BritishBulldogService",
+      "lines": [
+        "\t\t\tlocal current = burst.root.AssemblyLinearVelocity",
+        "\t\t\tburst.root.AssemblyLinearVelocity = current - burst.direction * current:Dot(burst.direction)",
+        "function Service:_startDodgeBurst(record, direction, now, duration, distance, forwardVelocity, params)",
+        "\troot.AssemblyLinearVelocity = initial + Vector3.new(0, math.min(root.AssemblyLinearVelocity.Y, 0), 0)",
+        "\tlocal speed = alive(record) and Vector3.new(record.root.AssemblyLinearVelocity.X, 0, record.root.AssemblyLinearVelocity.Z).Magnitude or 0",
+        "\tlocal forwardSpeed = math.clamp(record.root.AssemblyLinearVelocity:Dot(forward), -record.humanoid.WalkSpeed, record.humanoid.WalkSpeed)",
+        "\tself:_startDodgeBurst(record, direction, now, duration, distance, forwardVelocity, params)",
+        "\t\t\tpart.AssemblyLinearVelocity = Vector3.zero",
+        "\t\troot.AssemblyLinearVelocity = direction * 8 + Vector3.new(0, 3, 0)",
+        "\trecord.root.AssemblyLinearVelocity = Vector3.zero",
+        "\trecord.root.AssemblyLinearVelocity = Vector3.zero",
+        "\t\t\t\t\t\t\ttarget = runner.root.Position + runner.root.AssemblyLinearVelocity * 0.2",
+        "\t\t\t\trecord.root.AssemblyLinearVelocity = Vector3.zero",
+        "function Service:StartRound(selectedPlayers)",
+        "\treturn self:_beginRound(participants, \"Round\")",
+        "function Service:_beginRound(participants, mode, roles, owner)",
+        "function Service:StartPractice(player, role)",
+        "\treturn self:_beginRound(participants, \"Practice\" .. role, roles, player)",
+        "\t\t\t\t\t\tself:StartRound()"
+      ]
+    },
+    {
+      "name": "BritishBulldogBootstrap",
+      "lines": [
+        "\treturn service:StartRound(selectedPlayers)"
+      ]
+    },
+    {
+      "name": "TagService",
+      "lines": [
+        "\t\t\tpart.AssemblyLinearVelocity = Vector3.zero",
+        "\t\troot.AssemblyLinearVelocity = direction * 8 + Vector3.new(0, 3, 0)",
+        "\trecord.root.AssemblyLinearVelocity = Vector3.zero",
+        "function Service:_startBurst(record, horizontalVelocity, duration)",
+        "\t\t\t\tif not nearest or distance < nearest then nearest, target = distance, runner.root.Position + runner.root.AssemblyLinearVelocity * 0.15 end",
+        "\t\t\t\trecord.root.AssemblyLinearVelocity = Vector3.zero",
+        "\t\tvelocity, cooldown, duration = forward * 32 + Vector3.new(0, math.max(0, record.root.AssemblyLinearVelocity.Y), 0), 3, 0.24",
+        "\tself:_startBurst(record, Vector3.new(velocity.X, 0, velocity.Z), duration)",
+        "\troot.AssemblyLinearVelocity = velocity",
+        "function Service:_begin(participants, mode, firstTagger, owner)",
+        "function Service:StartRound(selectedPlayers)",
+        "\treturn self:_begin(participants, \"Round\")",
+        "function Service:StartPractice(player, role)",
+        "\treturn self:_begin(participants, \"Practice\" .. role, firstTagger, player)"
+      ]
+    },
+    {
+      "name": "PlaygroundCoordinator",
+      "lines": [
+        "\tif role then started, reason = service:StartPractice(player, role)",
+        "\telse started, reason = service:StartRound(self:_readyPlayers()) end"
+      ]
+    },
+    {
+      "name": "StuckInTheMudService",
+      "lines": [
+        "\trecord.root.AssemblyLinearVelocity, record.root.AssemblyAngularVelocity = Vector3.zero, Vector3.zero",
+        "\tlocal speed = alive(record) and Vector3.new(record.root.AssemblyLinearVelocity.X, 0, record.root.AssemblyLinearVelocity.Z).Magnitude or 0",
+        "\t\t\t\t\t\t\tlocal predicted = goal + target.root.AssemblyLinearVelocity * lead",
+        "\t\t\tif record.frozen and record.lockedCFrame then if (record.root.Position - record.lockedCFrame.Position).Magnitude > 0.05 then self:_teleport(record, record.lockedCFrame) end record.root.AssemblyLinearVelocity, record.root.AssemblyAngularVelocity = Vector3.zero, Vector3.zero record.humanoid:Move(Vector3.zero)",
+        "function Service:_begin(participants, mode, teams, owner)",
+        "function Service:StartRound(selected)",
+        "\treturn self:_begin(participants, \"Round\")",
+        "function Service:StartPractice(player, role)",
+        "\treturn self:_begin(participants, \"Practice\" .. role, teams, player)",
+        "\tif player then if not self.running then self:Start() end return self:StartPractice(player, role or \"Shooter\") end"
+      ]
+    },
+    {
+      "name": "TagSprintService",
+      "lines": [
+        "   local velocity=record.root and record.root.AssemblyLinearVelocity or Vector3.zero"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "entryPoints": "function Service:StartRound(selectedPlayers)\n\tif not self.running then\n\t\treturn false, \"Service is not running\"\n\tend\n\tif self.active then\n\t\treturn false, \"A round is already running\"\n\tend\n\tlocal participants, included = {}, {}\n\tfor _, player in ipairs(selectedPlayers or self:_readyPlayers()) do\n\t\tlocal record = self.records[player]\n\t\tif record and not record.isBot and not included[player] and player.Parent == Players and record.ready and alive(record) then\n\t\t\tincluded[player] = true\n\t\t\ttable.insert(participants, player)\n\t\tend\n\tend\n\tif #participants < math.floor(self:_setting(\"MinimumPlayers\", 2, 2)) then\n\t\treturn false, \"Not enough ready players\"\n\tend\n\treturn self:_beginRound(participants, \"Round\")\nend\n\nfunction Service:_beginRound(participants, mode, roles, owner)\n\tself.active = true\n\tlocal token = { roles = roles }\n\tself.currentRound = token\n\tself.mode = mode\n\tself.practiceOwner = owner\n\tsetAttribute(self.state, \"Mode\", mode)\n\tsetAttribute(self.state, \"PracticeOwnerUserId\", owner and owner.UserId or 0)\n\tsetAttribute(self.state, \"IntermissionEndsAt\", 0)\n\ttask.spawn(function()\n\t\tlocal ok, failure = xpcall(function()\n\t\t\tself:_runRound(participants, token)\n\t\tend, debug.traceback)\n\t\tif not ok then\n\t\t\twarn(\"British Bulldog round failed: \" .. tostring(failure))\n\t\t\tself:_cleanupRound(token)\n\t\tend\n\tend)\n\treturn true\nend\n\nfunction Service:StartPractice(player, role)\n\tif not self.running then\n\t\treturn false, \"Service is not running\"\n\tend\n\tif self.active then\n\t\treturn false, \"A round is already running\"\n\tend\n\tif role ~= \"Runner\" and role ~= \"Bulldog\" then\n\t\treturn false, \"Choose Runner or Bulldog practice\"\n\tend\n\tlocal record = self.records[player]\n\tif not record or record.isBot or player.Parent ~= Players or not record.ready or not alive(record) then\n\t\treturn false, \"Your character is not ready yet\"\n\tend\n\tlocal participants = { player }\n\tlocal roles = { [player] = role }\n\tlocal botRole = role == \"Runner\" and \"Bulldog\" or \"Runner\"\n\tlocal ok, failure = xpcall(function()\n\t\tfor index = 1, role == \"Runner\" and 1 or 3 do\n\t\t\tlocal bot = self:_createPracticeBot(index, botRole)\n\t\t\ttable.insert(participants, bot)\n\t\t\troles[bot] = botRole\n\t\tend\n\tend, debug.traceback)\n\tif not ok then\n\t\tself:_cleanupPracticeBots()\n\t\twarn(\"British Bulldog practice failed: \" .. tostring(failure))\n\t\treturn false, \"Practice bots could not be created\"\n\tend\n\treturn self:_beginRound(participants, \"Practice\" .. role, roles, player)\nend\n\nfunction Service:StopRound()\n\tif not self.active then\n\t\treturn false, \"No round is running\"\n\tend\n\tself.currentRound = nil\n\tself:_cleanupRound()\n\tsetAttribute(self.state, \"WinnerTeam\", \"None\")\n\tsetAttribute(self.state, \"WinnersText\", \"Round stopped by admin\")\n\treturn true\nend\n\nfunction Service:_autoLoop(generation)\n\twhile self.running and self.runGeneration == generation do\n\t\tif not self.active and self.arena:GetAttribute(\"AutoStart\") ~= false then\n\t\t\tlocal minimum = math.floor(self:_setting(\"MinimumPlayers\", 2, 2))\n\t\t\tif #self:_readyPlayers() >= minimum then\n\t\t\t\tself:_setPhase(\"Intermission\")\n\t\t\t\tlocal untilTime = workspace:GetServerTimeNow() + self:_setting(\"IntermissionSeconds\", 12, 0)\n\t\t\t\tsetAttribute(self.state, \"IntermissionEndsAt\", untilTime)\n\t\t\t\twhile self.running and self.runGeneration == generation and not self.active and self.arena:GetAttribute(\"AutoStart\") ~= false and #self:_readyPlayers() >= minimum and workspace:GetServerTimeNow() < untilTime do\n\t\t\t\t\ttask.wait(0.2)\n\t\t\t\tend\n\t\t\t\tif not self.running or self.runGeneration ~= generation then\n\t\t\t\t\treturn\n\t\t\t\tend\n\t\t\t\tif not self.active then\n\t\t\t\t\tif self.running and self.arena:GetAttribute(\"AutoStart\") ~= false and #self:_readyPlayers() >= minimum then\n\t\t\t\t\t\tself:StartRound()\n\t\t\t\t\telse\n\t\t\t\t\t\tself:_setPhase(\"Waiting\")\n\t\t\t\t\tend\n\t\t\t\tend\n\t\t\tend\n\t\tend\n\t\ttask.wait(0.25)\n\tend\nend\n\nfunction Service:Start()\n\tif self.running then\n\t\treturn\n\tend\n\tself.running = true\n\trunningService = self\n\tself.runGeneration = self.runGeneration + 1\n\tlocal generation = self.runGeneration\n\tself:_collisionGroups()\n\tfor name, value in pairs({ Phase = \"Waiting\", Mode = \"Waiting\", PracticeOwnerUserId = 0, EndsAt = 0, RoundDuration = self:_setting(\"RoundDuration\", 180, 1), CountdownValue = 0, RunnerCount = 0, BulldogCount = 0, CrossingNumber = 0, RoundNumber = 0, WinnerTeam = \"\", WinnersText = \"\", Destination = \"South\", DepartureSeconds = self:_setting(\"DepartureSeconds\", 5, 0.1), IntermissionEndsAt = 0 }) do\n\t\tsetAttribute(self.state, name, value)\n\tend\n\ttable.insert(self.connections, Players.PlayerAdded:Connect(function(player)\n\t\tself:_addPlayer(player)\n\tend))\n\ttable.insert(self.connections, Players.PlayerRemoving:Connect(function(player)\n\t\tself:_removePlayer(player)\n\tend))\n\ttable.insert(self.connections, RunService.Heartbeat:Connect(function(dt)\n\t\tself.tickAccumulator = self.tickAccumulator + dt\n\t\tif self.tickAccumulator >= 0.05 then\n\t\t\tlocal elapsed = self.tickAccumulator\n\t\t\tself.tickAccumulator = 0\n\t\t\tself:_tick(elapsed)\n\t\tend\n\tend))\n\tfor _, player in ipairs(Players:GetPlayers()) do\n\t\tself:_addPlayer(player)\n\tend\n\tlocal movementRemote = ReplicatedStorage:FindFirstChild(\"BBMovementRequest\")\n\tif movementRemote and movementRemote:IsA(\"RemoteFunction\") then\n\t\tself.movementRemote = movementRemote\n\t\tmovementRemote.OnServerInvoke = function(player, action, value) return self:Move(player, action, value) end\n\tend\n\ttask.spawn(function()\n\t\tself:_autoLoop(generation)\n\tend)\nend\n\nfunction Service:Stop()\n\tself.running = false\n\tself.runGeneration = self.runGeneration + 1\n\tself.currentRound = nil\n\tdisconnectAll(self.connections)\n\tself:_cleanupRound()\n\tfor _, record in pairs(self.records) do\n\t\tdisconnectAll(record.connections)\n\t\tdisconnectAll(record.characterConnections)\n\tend\n\ttable.clear(self.records)\n\tif self.movementRemote then self.movementRemote.OnServerInvoke = nil end\n\tif runningService == self then\n\t\trunningService = nil\n\tend\nend\n\nfunction Service.GetRunningService()\n\treturn runningService\nend\n\nreturn Service\n",
+      "name": "BritishBulldogService",
+      "methods": [
+        "_setting",
+        "_inside",
+        "_inField",
+        "_pastSource",
+        "_counts",
+        "_publishCounts",
+        "_setPhase",
+        "_collisionGroups",
+        "_assignCollision",
+        "_visuals",
+        "_sprintCapacity",
+        "_movementAllowed",
+        "_applyMovementSpeed",
+        "_publishMovement",
+        "_releaseSprint",
+        "_stopDodgeBurst",
+        "_cancelMovement",
+        "_movementRayParameters",
+        "_dodgeClear",
+        "_threat",
+        "_startDodgeBurst",
+        "_updateMovement",
+        "_confirmEscape",
+        "Move",
+        "_restoreJump",
+        "_lockJump",
+        "_setRole",
+        "_departure",
+        "_batSwingAllowed",
+        "TryBatSwing",
+        "CancelBatSwing",
+        "_resolveBatSwings",
+        "_restoreRagdoll",
+        "_ragdoll",
+        "_updateRagdoll",
+        "_freeze",
+        "_unfreeze",
+        "_teleport",
+        "_spawnCFrame",
+        "_returnLobby",
+        "_restoreCharacter",
+        "_caught",
+        "_forfeit",
+        "_setupCharacter",
+        "_addPlayer",
+        "_removePlayer",
+        "_readyPlayers",
+        "_createPracticeBot",
+        "_cleanupPracticeBots",
+        "_drivePracticeBots",
+        "_keepBulldogInField",
+        "_keepRunnerLegal",
+        "_tick",
+        "_outcome",
+        "_isRound",
+        "_countdown",
+        "_finishCrossing",
+        "_results",
+        "_cleanupRound",
+        "_runRound",
+        "StartRound",
+        "_beginRound",
+        "StartPractice",
+        "StopRound",
+        "_autoLoop",
+        "Start",
+        "Stop"
+      ]
+    },
+    {
+      "entryPoints": "function Service:StartRound(selectedPlayers)\n\tif not self.running then return false, \"Service is not running\" end\n\tif self.active then return false, \"A round is already running\" end\n\tlocal participants = self:_readyPlayers(selectedPlayers)\n\tif #participants < math.floor(self:_setting(\"MinimumPlayers\", 2, 2)) then return false, \"Not enough ready players\" end\n\treturn self:_begin(participants, \"Round\")\nend\n\nfunction Service:StartPractice(player, role)\n\tif not self.running then return false, \"Service is not running\" end\n\tif self.active then return false, \"A round is already running\" end\n\tif role ~= \"Runner\" and role ~= \"Tagger\" then return false, \"Choose Runner or Tagger practice\" end\n\tlocal record = self.records[player]\n\tif not record or record.isBot or player.Parent ~= Players or not alive(record) or (player:GetAttribute(\"BBParticipating\") == true or player:GetAttribute(\"MDParticipating\") == true) then return false, \"Your character is not ready yet\" end\n\tlocal participants = { player }\n\tlocal firstTagger = role == \"Tagger\" and player or nil\n\tlocal ok, failure = xpcall(function()\n\t\tfor index = 1, role == \"Runner\" and 1 or 3 do\n\t\t\tlocal bot = self:_newBot(index, role == \"Runner\" and \"Tagger\" or \"Runner\")\n\t\t\ttable.insert(participants, bot)\n\t\t\tif role == \"Runner\" then firstTagger = bot end\n\t\tend\n\tend, debug.traceback)\n\tif not ok then self:_clearBots() warn(\"Tag practice failed: \" .. tostring(failure)) return false, \"Practice bots could not be created\" end\n\treturn self:_begin(participants, \"Practice\" .. role, firstTagger, player)\nend\n\nfunction Service:StopRound()\n\tif not self.active then return false, \"No round is running\" end\n\tself.currentRound = nil\n\tself:_cleanup()\n\tattribute(self.state, \"WinnersText\", \"Round stopped by admin\")\n\treturn true\nend\n\nfunction Service:Start()\n\tif self.running then return end\n\tself.running = true\n\trunningService = self\n\tlocal provider = PhysicsService\n\tlocal ok = pcall(function() workspace:IsCollisionGroupRegistered(\"TGPlayer\") end)\n\tif ok then provider = workspace end\n\tif not provider:IsCollisionGroupRegistered(\"TGPlayer\") then provider:RegisterCollisionGroup(\"TGPlayer\") end\n\tprovider:CollisionGroupSetCollidable(\"TGPlayer\", \"TGPlayer\", false)\n\tfor name, value in pairs({ Phase = \"Waiting\", Mode = \"Waiting\", EndsAt = 0, CountdownValue = 0, RoundNumber = 0,\n\t\tRoundDuration = self:_setting(\"RoundDuration\", 180, 1), TaggerName = \"\", TaggerUserId = 0, RunnerCount = 0,\n\t\tParticipantCount = 0, TagCount = 0, WinnersText = \"\", LosersText = \"\", PracticeOwnerUserId = 0,\n\t\tLastResultRound = 0, LastResultWinnerIds = \"\", LastResultParticipantIds = \"\", LastResultPractice = true, WinRule = \"MostTaggerTime\", InitialGraceEndsAt = 0 }) do\n\t\tattribute(self.state, name, value)\n\tend\n\ttable.insert(self.connections, Players.PlayerAdded:Connect(function(player) self:_addPlayer(player) end))\n\ttable.insert(self.connections, Players.PlayerRemoving:Connect(function(player) self:_removePlayer(player) end))\n\ttable.insert(self.connections, RunService.Heartbeat:Connect(function(dt)\n\t\tself.tickAccumulator = self.tickAccumulator + dt\n\t\tif self.tickAccumulator >= 0.05 then self.tickAccumulator = 0 self:_tick() end\n\tend))\n\tfor _, player in ipairs(Players:GetPlayers()) do self:_addPlayer(player) end\n\tlocal remote = ReplicatedStorage:FindFirstChild(\"TagMovementRequest\")\n\tif remote and remote:IsA(\"RemoteFunction\") then\n\t\tself.movementRemote = remote\n\t\tremote.OnServerInvoke = function(player, action) return self:Move(player, action) end\n\tend\nend\n\nfunction Service:Stop()\n\tself.running = false\n\tself.currentRound = nil\n\tdisconnect(self.connections)\n\tself:_cleanup()\n\tfor _, record in pairs(self.records) do disconnect(record.connections) disconnect(record.characterConnections) end\n\ttable.clear(self.records)\n\tif self.movementRemote then self.movementRemote.OnServerInvoke = nil end\n\tif runningService == self then runningService = nil end\nend\n\nfunction Service.GetRunningService() return runningService end\n\nreturn Service\n",
+      "name": "TagService",
+      "methods": [
+        "_setting",
+        "_phase",
+        "_counts",
+        "_publish",
+        "_spawn",
+        "_restoreRagdoll",
+        "_ragdoll",
+        "_updateRagdoll",
+        "_teleport",
+        "_restore",
+        "_collision",
+        "_movement",
+        "_stopBurst",
+        "_startBurst",
+        "_role",
+        "_record",
+        "_setupCharacter",
+        "_addPlayer",
+        "_removePlayer",
+        "_readyPlayers",
+        "_account",
+        "_replaceTagger",
+        "_rayParameters",
+        "_batInField",
+        "TryBatSwing",
+        "CancelBatSwing",
+        "_swingCanHit",
+        "_canTag",
+        "_transfer",
+        "_keepLegal",
+        "_newBot",
+        "_respawnBot",
+        "_clearBots",
+        "_fallbackRoute",
+        "_path",
+        "_botTarget",
+        "_driveBots",
+        "_tick",
+        "Move",
+        "_valid",
+        "_results",
+        "_cleanup",
+        "_run",
+        "_begin",
+        "StartRound",
+        "StartPractice",
+        "StopRound",
+        "Start",
+        "Stop"
+      ]
+    },
+    {
+      "entryPoints": "function Service:StartRound(selected)\n\tif not self.running then return false, \"Service is not running\" end if self.active then return false, \"A round is already running\" end\n\tlocal ready = self:_weaponsReady() attribute(self.state, \"GunAccessReady\", ready)\n\tif not ready then return false, \"Mud gun access is awaiting approval.\" end\n\tlocal participants = self:_readyPlayers(selected)\n\tlocal minimum = math.clamp(math.floor(self:_setting(\"MinimumPlayers\", 4, 2)), 2, 24)\n\tlocal maximum = math.clamp(math.floor(self:_setting(\"MaxPlayers\", 4, 2)), 2, 24)\n\tif #participants < minimum or maximum < minimum then return false, \"At least \" .. minimum .. \" ready players are needed.\" end\n\tfor index = #participants, 2, -1 do local other = self.random:NextInteger(1, index) participants[index], participants[other] = participants[other], participants[index] end\n\twhile #participants > maximum do table.remove(participants) end\n\treturn self:_begin(participants, \"Round\")\nend\n\nfunction Service:StartPractice(player, role)\n\tif not self.running then return false, \"Service is not running\" end if self.active then return false, \"A round is already running\" end\n\tlocal ready = self:_weaponsReady() attribute(self.state, \"GunAccessReady\", ready)\n\tif not ready then return false, \"Mud gun access is awaiting approval.\" end\n\tif role ~= \"Runner\" and role ~= \"Tagger\" and role ~= \"Shooter\" and role ~= \"Medic\" then return false, \"Choose Shooter or Medic practice\" end\n\tlocal record = self.records[player] if not connectedPlayer(player) or not record or record.isBot or not alive(record) or player:GetAttribute(\"BBParticipating\") or player:GetAttribute(\"TGParticipating\") then return false, \"Your character is not ready\" end\n\tlocal participants, teams = { player }, { 1 }\n\tlocal ok, failure = xpcall(function() for index = 1, 3 do local bot = self:_newBot(index, index == 1 and \"Runner\" or \"Tagger\") table.insert(participants, bot) table.insert(teams, index == 1 and 1 or 2) self.records[bot].practiceMedic = index == 1 end end, debug.traceback)\n\tif not ok then self:_clearBots() warn(tostring(failure)) return false, \"Practice bots could not be created\" end\n\treturn self:_begin(participants, \"Practice\" .. role, teams, player)\nend\n\nfunction Service:StopRound()\n\tif not self.active then return false, \"No round is running\" end self.currentRound = nil self:_cleanup() return true\nend\n\nfunction Service:Start(player, role)\n\tif player then if not self.running then self:Start() end return self:StartPractice(player, role or \"Shooter\") end\n\tif self.running then return end self.running, runningService = true, self\n\tlocal provider = PhysicsService if pcall(function() workspace:IsCollisionGroupRegistered(\"MudPlayer\") end) then provider = workspace end\n\tif not provider:IsCollisionGroupRegistered(\"MudPlayer\") then provider:RegisterCollisionGroup(\"MudPlayer\") end provider:CollisionGroupSetCollidable(\"MudPlayer\", \"MudPlayer\", false)\n\tfor name, value in pairs({ Phase = \"Waiting\", Mode = \"Waiting\", GunAccessReady = self:_weaponsReady(), EndsAt = 0, CountdownValue = 0, RoundNumber = 0, RoundDuration = 300, RescueSeconds = 5, ActiveTeamCount = 0, ParticipantCount = 0, MuddyCount = 0, TeamCount = 2, TeamSummaryJSON = \"[]\", WinnersText = \"\", WinnerTeams = \"\", WinnerTeamIds = \"\", ResultReason = \"\", LastResultWinnerIds = \"\", LastResultParticipantIds = \"\", LastResultPractice = true, LastResultRound = 0, PracticeOwnerUserId = 0 }) do attribute(self.state, name, value) end\n\ttable.insert(self.connections, Players.PlayerAdded:Connect(function(value) self:_addPlayer(value) end)) table.insert(self.connections, Players.PlayerRemoving:Connect(function(value) self:_removePlayer(value) end))\n\ttable.insert(self.connections, RunService.Heartbeat:Connect(function(dt) self.tickAccumulator += dt if self.tickAccumulator >= 0.05 then local elapsed = self.tickAccumulator self.tickAccumulator = 0 self:_tick(math.min(elapsed, 0.25)) end end))\n\tfor _, value in ipairs(Players:GetPlayers()) do self:_addPlayer(value) end\n\tlocal remote = ReplicatedStorage:FindFirstChild(\"MudActionRequest\") if remote and remote:IsA(\"RemoteFunction\") then self.remote = remote remote.OnServerInvoke = function(value, action, argument, aim) return self:Action(value, action, argument, aim) end end\nend\n\nfunction Service:Stop()\n\tself.running, self.currentRound = false, nil disconnect(self.connections) self:_cleanup()\n\tfor _, record in pairs(self.records) do disconnect(record.connections) disconnect(record.characterConnections) end table.clear(self.records)\n\tif self.remote then self.remote.OnServerInvoke = nil end if runningService == self then runningService = nil end\nend\n\nfunction Service.GetRunningService() return runningService end\n\nreturn Service\n",
+      "name": "StuckInTheMudService",
+      "methods": [
+        "_setting",
+        "_phase",
+        "_chooseTeamColors",
+        "_colorName",
+        "_timeoutWinners",
+        "_spawn",
+        "_teleport",
+        "_publishRecord",
+        "_collision",
+        "_mudVisual",
+        "_role",
+        "_movement",
+        "_freeze",
+        "_toolsAllowed",
+        "_destroyTools",
+        "_watchTools",
+        "_giveTools",
+        "_restore",
+        "_record",
+        "_setupCharacter",
+        "_addPlayer",
+        "_removePlayer",
+        "_readyPlayers",
+        "_teams",
+        "_stick",
+        "_clearHeat",
+        "_canAct",
+        "_equipped",
+        "_rayParameters",
+        "_origin",
+        "_hitRecord",
+        "_effects",
+        "_fire",
+        "_tickProjectiles",
+        "_heatTarget",
+        "_tickHeat",
+        "_tickSprint",
+        "_action",
+        "Action",
+        "_keepLegal",
+        "_newBot",
+        "_respawnBot",
+        "_clearBots",
+        "_fallbackRoute",
+        "_path",
+        "_botTarget",
+        "_moveBot",
+        "_driveBots",
+        "_tick",
+        "_valid",
+        "_results",
+        "_cleanup",
+        "_run",
+        "_begin",
+        "_weaponsReady",
+        "StartRound",
+        "StartPractice",
+        "StopRound",
+        "Start",
+        "Stop"
+      ]
+    }
+  ],
+  "privateBoundaries": [
+    {
+      "name": "BritishBulldogService",
+      "methods": [
+        {
+          "method": "_beginRound",
+          "source": "function Service:_beginRound(participants, mode, roles, owner)\n\tself.active = true\n\tlocal token = { roles = roles }\n\tself.currentRound = token\n\tself.mode = mode\n\tself.practiceOwner = owner\n\tsetAttribute(self.state, \"Mode\", mode)\n\tsetAttribute(self.state, \"PracticeOwnerUserId\", owner and owner.UserId or 0)\n\tsetAttribute(self.state, \"IntermissionEndsAt\", 0)\n\ttask.spawn(function()\n\t\tlocal ok, failure = xpcall(function()\n\t\t\tself:_runRound(participants, token)\n\t\tend, debug.traceback)\n\t\tif not ok then\n\t\t\twarn(\"British Bulldog round failed: \" .. tostring(failure))\n\t\t\tself:_cleanupRound(token)\n\t\tend\n\tend)\n\treturn true\nend\n"
+        },
+        {
+          "method": "_runRound",
+          "source": "function Service:_runRound(participants, token)\n\tif not self:_isRound(token) then\n\t\treturn\n\tend\n\tself.roundNumber = self.roundNumber + 1\n\tself.source = \"North\"\n\tself.destination = \"South\"\n\tself.crossingNumber = 0\n\tself.endsAt = 0\n\tsetAttribute(self.state, \"RoundNumber\", self.roundNumber)\n\tsetAttribute(self.state, \"EndsAt\", self.endsAt)\n\tsetAttribute(self.state, \"RoundDuration\", self:_setting(\"RoundDuration\", 180, 1))\n\tsetAttribute(self.state, \"WinnerTeam\", \"\")\n\tsetAttribute(self.state, \"WinnersText\", \"\")\n\tlocal firstBulldog = self.random:NextInteger(1, #participants)\n\tfor index, player in ipairs(participants) do\n\t\tlocal record = self.records[player]\n\t\tif record then\n\t\t\trecord.participating = true\n\t\t\trecord.spawnIndex = index\n\t\t\trecord.pendingBulldog = false\n\t\t\trecord.arrived = false\n\t\t\tlocal role = token.roles and token.roles[player] or (index == firstBulldog and \"Bulldog\" or \"Runner\")\n\t\t\trecord.initialBulldog = role == \"Bulldog\"\n\t\t\trecord.sprintMax = role == \"Bulldog\" and self:_setting(\"InitialBulldogSprintSeconds\", 15, 0.1) or self:_setting(\"RunnerSprintSeconds\", 10, 0.1)\n\t\t\trecord.sprintRemaining = record.sprintMax\n\t\t\trecord.sprintHeld = false\n\t\t\trecord.sprintExhausted = false\n\t\t\trecord.sprintLeaseEndsAt = 0\n\t\t\trecord.boostEndsAt = 0\n\t\t\trecord.dodgeReadyAt = 0\n\t\t\tsetAttribute(player, \"BBDodgeConfirmedAt\", 0)\n\t\t\tself:_setRole(record, role, role)\n\t\t\tself:_teleport(record, self:_spawnCFrame(role == \"Bulldog\" and \"Bulldog\" or \"North\", index))\n\t\tend\n\tend\n\tself:_publishCounts()\n\twhile self:_isRound(token) and not self:_outcome() do\n\t\tif not self:_countdown(token) then\n\t\t\tbreak\n\t\tend\n\t\twhile self:_isRound(token) and not self:_outcome() do\n\t\t\tlocal _, _, _, _, unresolved = self:_counts()\n\t\t\tif Rules.CrossingResolved(unresolved) then\n\t\t\t\tbreak\n\t\t\tend\n\t\t\ttask.wait(0.05)\n\t\tend\n\t\tif not self:_isRound(token) or self:_outcome() then\n\t\t\tbreak\n\t\tend\n\t\tself:_finishCrossing()\n\tend\n\tif self:_isRound(token) then\n\t\tself:_results(self:_outcome() or \"None\", token)\n\t\tif self:_isRound(token) then\n\t\t\tself:_cleanupRound(token)\n\t\tend\n\tend\nend\n"
+        },
+        {
+          "method": "_setRole",
+          "source": "function Service:_setRole(record, role, status)\n\trecord.batSwing = nil\n\tself:_lockJump(record)\n\tif record.participating and record.humanoid and record.humanoid.Parent and not record.originalWalkSpeed then\n\t\trecord.originalWalkSpeed = record.humanoid.WalkSpeed\n\tend\n\tif record.role ~= role then self:_cancelMovement(record) end\n\trecord.role = role\n\tif role == \"Spectator\" then record.initialBulldog = false record.sprintExhausted = false end\n\tself:_sprintCapacity(record)\n\tif record.participating and record.humanoid and record.humanoid.Parent then\n\t\tif not record.originalWalkSpeed then\n\t\t\trecord.originalWalkSpeed = record.humanoid.WalkSpeed\n\t\tend\n\t\tself:_applyMovementSpeed(record, workspace:GetServerTimeNow())\n\tend\n\tsetAttribute(record.player, \"BBRole\", role)\n\tsetAttribute(record.player, \"BBParticipating\", record.participating)\n\tsetAttribute(record.player, \"BBStatus\", status or \"\")\n\tif record.character then\n\t\tfor _, part in ipairs(record.character:GetDescendants()) do\n\t\t\tself:_assignCollision(record, part)\n\t\tend\n\tend\n\tself:_visuals(record)\n\tif record.isBot and record.character then\n\t\tlocal torso = record.character:FindFirstChild(\"Torso\")\n\t\tif torso then\n\t\t\ttorso.Color = role == \"Bulldog\" and BULLDOG_COLOR or RUNNER_COLOR\n\t\tend\n\tend\n\tself:_publishCounts()\nend\n"
+        }
+      ]
+    },
+    {
+      "name": "TagService",
+      "methods": [
+        {
+          "method": "_begin",
+          "source": "function Service:_begin(participants, mode, firstTagger, owner)\n\tself.active = true\n\tself.mode = mode\n\tself.practiceOwner = owner\n\tlocal token = { firstTagger = firstTagger }\n\tself.currentRound = token\n\tattribute(self.state, \"Mode\", mode)\n\tattribute(self.state, \"PracticeOwnerUserId\", owner and owner.UserId or 0)\n\ttask.spawn(function()\n\t\tlocal ok, failure = xpcall(function() self:_run(participants, token) end, debug.traceback)\n\t\tif not ok then warn(\"Tag round failed: \" .. tostring(failure)) self:_cleanup(token) end\n\tend)\n\treturn true\nend\n"
+        },
+        {
+          "method": "_run",
+          "source": "function Service:_run(participants, token)\n\tif not self:_valid(token) then return end\n\tself.roundNumber = self.roundNumber + 1\n\tself.tagCount = 0\n\tself.winRule = self.arena:GetAttribute(\"WinRule\") == \"LastTagger\" and \"LastTagger\" or \"MostTaggerTime\"\n\tattribute(self.state, \"RoundNumber\", self.roundNumber)\n\tattribute(self.state, \"WinRule\", self.winRule)\n\tattribute(self.state, \"WinnersText\", \"\")\n\tattribute(self.state, \"LosersText\", \"\")\n\tattribute(self.state, \"RoundDuration\", self:_setting(\"RoundDuration\", 180, 1))\n\tlocal initial = token.firstTagger or participants[self.random:NextInteger(1, #participants)]\n\tfor index, player in ipairs(participants) do\n\t\tlocal record = self.records[player]\n\t\tif record then\n\t\t\trecord.participating = true\n\t\t\trecord.spawnIndex = record.isBot and record.spawnIndex or index\n\t\t\trecord.taggerSeconds = 0\n\t\t\trecord.tagsMade = 0\n\t\t\trecord.protectedEndsAt = 0\n\t\t\trecord.tagCooldownEndsAt = 0\n\t\t\trecord.moveCooldowns = {}\n\t\t\trecord.lastGoodCFrame = nil\n\t\t\tattribute(player, \"TGResult\", \"\")\n\t\t\tattribute(player, \"TGVaultReadyAt\", 0)\n\t\t\tattribute(player, \"TGDodgeReadyAt\", 0)\n\t\t\trecord.frozen = true\n\t\t\tif player == initial then self.tagger = record end\n\t\t\tself:_role(record, player == initial and \"Tagger\" or \"Runner\")\n\t\t\tself:_teleport(record, self:_spawn(record.spawnIndex, player == initial))\n\t\tend\n\tend\n\tself:_publish()\n\tself:_phase(\"Countdown\")\n\tfor number = math.floor(self:_setting(\"CountdownSeconds\", 3, 1)), 1, -1 do\n\t\tif not self:_valid(token) then return end\n\t\tattribute(self.state, \"CountdownValue\", number)\n\t\tlocal untilTime = workspace:GetServerTimeNow() + 1\n\t\twhile self:_valid(token) and workspace:GetServerTimeNow() < untilTime do task.wait(0.05) end\n\tend\n\tif not self:_valid(token) then return end\n\tattribute(self.state, \"CountdownValue\", 0)\n\tself.endsAt = workspace:GetServerTimeNow() + self:_setting(\"RoundDuration\", 180, 1)\n\tself.lastAccountAt = workspace:GetServerTimeNow()\n\tself.initialGraceEndsAt = self.winRule == \"MostTaggerTime\" and self.lastAccountAt + self:_setting(\"InitialTaggerGraceSeconds\", 8, 0) or 0\n\tattribute(self.state, \"InitialGraceEndsAt\", self.initialGraceEndsAt)\n\tattribute(self.state, \"EndsAt\", self.endsAt)\n\tself:_phase(\"Playing\")\n\tfor _, record in pairs(self.records) do\n\t\tif record.participating then record.frozen = false self:_movement(record) end\n\tend\n\twhile self:_valid(token) and workspace:GetServerTimeNow() < self.endsAt and self:_counts() > 1 do task.wait(0.05) end\n\tif self:_valid(token) then\n\t\tif self:_counts() > 1 then self:_results(token) end\n\t\tself:_cleanup(token)\n\tend\nend\n"
+        },
+        {
+          "method": "_role",
+          "source": "function Service:_role(record, role)\n\tif role ~= \"Tagger\" then record.batSwing = nil end\n\trecord.role = role\n\tattribute(record.player, \"TGParticipating\", record.participating)\n\tattribute(record.player, \"TGRole\", role)\n\tattribute(record.player, \"TGTaggerSeconds\", record.taggerSeconds or 0)\n\tattribute(record.player, \"TGProtectedEndsAt\", record.protectedEndsAt or 0)\n\tself:_movement(record)\n\tif not record.character or not record.character.Parent then return end\n\tfor _, part in ipairs(record.character:GetDescendants()) do self:_collision(record, part) end\n\tif record.participating then\n\t\tlocal outline = record.character:FindFirstChild(\"TGOutline\")\n\t\tif not outline then\n\t\t\toutline = Instance.new(\"Highlight\")\n\t\t\toutline.Name = \"TGOutline\"\n\t\t\toutline.FillTransparency = 1\n\t\t\toutline.OutlineTransparency = 0\n\t\t\toutline.Adornee = record.character\n\t\t\toutline.DepthMode = Enum.HighlightDepthMode.Occluded\n\t\t\toutline.Parent = record.character\n\t\tend\n\t\toutline.OutlineColor = COLORS[role] or COLORS.Runner\n\t\tlocal assets = ReplicatedStorage:FindFirstChild(\"TagAssets\")\n\t\tlocal label = record.character:FindFirstChild(\"TGTaggerLabel\")\n\t\tif role == \"Tagger\" and not label and assets and assets:FindFirstChild(\"TaggerTemplate\") then\n\t\t\tlabel = assets.TaggerTemplate:Clone()\n\t\t\tlabel.Name = \"TGTaggerLabel\"\n\t\t\tlabel.Adornee = record.character:FindFirstChild(\"Head\") or record.root\n\t\t\tlabel.Enabled = true\n\t\t\tlabel.Parent = record.character\n\t\telseif role ~= \"Tagger\" and label then label:Destroy() end\n\t\tif record.isBot and record.character:FindFirstChild(\"Torso\") then\n\t\t\trecord.character.Torso.Color = COLORS[role] or COLORS.Runner\n\t\tend\n\tend\nend\n"
+        }
+      ]
+    },
+    {
+      "name": "StuckInTheMudService",
+      "methods": [
+        {
+          "method": "_begin",
+          "source": "function Service:_begin(participants, mode, teams, owner)\n\tself.active, self.mode, self.practiceOwner = true, mode, owner\n\tlocal token = { teams = teams } self.currentRound = token\n\tattribute(self.state, \"Mode\", mode) attribute(self.state, \"PracticeOwnerUserId\", owner and owner.UserId or 0)\n\ttask.spawn(function() local ok, failure = xpcall(function() self:_run(participants, token) end, debug.traceback) if not ok then warn(\"Stuck in the Mud round failed: \" .. tostring(failure)) self:_cleanup(token) end end)\n\treturn true\nend\n"
+        },
+        {
+          "method": "_run",
+          "source": "function Service:_run(participants, token)\n\tif not self:_valid(token) then return end\n\tself.roundNumber += 1 self.eliminatedTeams, self.originalTeamSizes, self.roundRoster, self.pendingWinners = {}, {}, {}, nil\n\tattribute(self.state, \"RoundNumber\", self.roundNumber) attribute(self.state, \"RoundDuration\", self:_setting(\"RoundDuration\", 300, 1)) attribute(self.state, \"RescueSeconds\", self:_setting(\"RescueSeconds\", 5, 0.1)) attribute(self.state, \"WinnersText\", \"\") attribute(self.state, \"WinnerTeams\", \"\") attribute(self.state, \"WinnerTeamIds\", \"\") attribute(self.state, \"ResultReason\", \"\")\n\tlocal assignments\n\tif token.teams then assignments, self.teamCount = token.teams, 2 else assignments, self.teamCount = Service.TeamAssignments(#participants, self:_setting(\"TeamCount\", 2, 2), self:_setting(\"MaxTeamSize\", 2, 2)) end\n\tlocal slots = {}\n\tfor index, player in ipairs(participants) do\n\t\tlocal record = self.records[player]\n\t\tif record then\n\t\t\trecord.participating, record.teamId, record.muddy, record.eliminated = true, assignments[index], false, false slots[record.teamId] = (slots[record.teamId] or 0) + 1 record.spawnIndex = slots[record.teamId]\n\t\t\tself.originalTeamSizes[record.teamId] = (self.originalTeamSizes[record.teamId] or 0) + 1\n\t\t\ttable.insert(self.roundRoster, { userId = player.UserId, teamId = record.teamId, isBot = record.isBot })\n\t\t\trecord.sprintMax = self:_setting(\"SprintSeconds\", 10, 0.1) record.sprintRemaining = record.sprintMax record.sprintExhausted, record.sprintHeld, record.fireReadyAt = false, false, 0\n\t\t\trecord.rescueProgress, record.lastGoodCFrame, record.requests, record.nextBotShotAt = 0, nil, {}, nil attribute(player, \"MDResult\", \"\")\n\t\t\tlocal spawn = self:_spawn(record.spawnIndex, record.teamId)\n\t\t\tlocal practice = token.teams and parts(self.gameplay:FindFirstChild(\"PracticeSpawns\"))\n\t\t\tif practice and #practice > 0 then spawn = practice[(index - 1) % #practice + 1].CFrame elseif token.teams then spawn = CFrame.new(self.bounds.Position.X + (record.teamId == 1 and -22 or 22), self.spawnPads[1].Position.Y, self.bounds.Position.Z + (record.spawnIndex - 1) * 17) end\n\t\t\tself:_teleport(record, spawn) self:_freeze(record, true) self:_giveTools(record) self:_role(record)\n\t\tend\n\tend\n\tself:_chooseTeamColors()\n\tfor _, record in pairs(self.records) do if record.participating then self:_role(record) end end\n\tself:_teams(false) self:_phase(\"Countdown\")\n\tfor number = math.floor(self:_setting(\"CountdownSeconds\", 3, 1)), 1, -1 do if not self:_valid(token) then return end attribute(self.state, \"CountdownValue\", number) local untilTime = workspace:GetServerTimeNow() + 1 while self:_valid(token) and workspace:GetServerTimeNow() < untilTime do task.wait(0.05) end end\n\tif not self:_valid(token) then return end\n\tself.endsAt = workspace:GetServerTimeNow() + self:_setting(\"RoundDuration\", 300, 1) attribute(self.state, \"EndsAt\", self.endsAt) attribute(self.state, \"CountdownValue\", 0) self:_phase(\"Playing\")\n\tfor _, record in pairs(self.records) do if record.participating and self.pendingWinners == nil then if not alive(record) or (record.isBot and record.practiceMedic and self.mode == \"PracticeMedic\") then self:_stick(record, nil) else self:_freeze(record, false) end end end\n\tlocal active = self:_teams(true)\n\twhile self:_valid(token) and self.pendingWinners == nil and workspace:GetServerTimeNow() < self.endsAt do task.wait(0.05) active = self:_teams(true) end\n\tif self:_valid(token) then\n\t\tlocal reason\n\t\tif self.pendingWinners then active = self.pendingWinners reason = #active == 0 and \"NoActiveTeams\" or \"LastTeamStanding\"\n\t\telse active = self:_timeoutWinners() reason = #active > 1 and \"TimeoutShared\" or #active == 0 and \"NoActiveTeams\" or \"Timeout\" end\n\t\tself:_results(token, active, reason) self:_cleanup(token)\n\tend\nend\n"
+        },
+        {
+          "method": "_role",
+          "source": "function Service:_role(record)\n\tself:_publishRecord(record)\n\tif not record.character or not record.character.Parent then return end\n\tfor _, part in ipairs(record.character:GetDescendants()) do self:_collision(record, part) end\n\tif record.participating then\n\t\tlocal outline = record.character:FindFirstChild(\"MDOutline\")\n\t\tif not outline then\n\t\t\toutline = Instance.new(\"Highlight\") outline.Name = \"MDOutline\" outline.Adornee = record.character\n\t\t\toutline.FillTransparency = 1 outline.OutlineTransparency = 0 outline.DepthMode = Enum.HighlightDepthMode.Occluded outline.Parent = record.character\n\t\tend\n\t\toutline.OutlineColor = TEAM_COLORS[self:_colorName(record.teamId)]\n\t\toutline.FillColor = Color3.fromRGB(124, 83, 54)\n\t\toutline.FillTransparency = record.muddy and 0.55 or 1\n\t\tself:_mudVisual(record)\n\t\tlocal label = record.character:FindFirstChild(\"MDMuddyLabel\")\n\t\tlocal assets = ReplicatedStorage:FindFirstChild(\"MudAssets\")\n\t\tlocal template = assets and assets:FindFirstChild(\"MuddyTemplate\")\n\t\tif record.muddy and not label and template then label = template:Clone() label.Name = \"MDMuddyLabel\" label.Adornee = record.character:FindFirstChild(\"Head\") or record.root label.Enabled = true label.Parent = record.character\n\t\telseif not record.muddy and label then label:Destroy() end\n\t\tlocal torso = record.isBot and record.character:FindFirstChild(\"Torso\")\n\t\tif torso then torso.Color = record.muddy and Color3.fromRGB(124, 83, 54) or outline.OutlineColor end\n\tend\nend\n"
+        }
+      ]
+    }
+  ],
+  "noStudioMutation": true
+}

@@ -1,0 +1,59 @@
+{
+  "id": "B22",
+  "name": "Honeycomb Hitter",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b22-honeycomb-hitter.png",
+  "brief": "A warm amber baseball bat with a rounded barrel wrapped in five large golden hexagonal honeycomb panels, a few broad opaque golden honey drips moulded against its surface, cream tip cap, navy collar and black-and-yellow striped rubber grip. Amber knob. No bees, no jars, no separate honey puddles.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b22-honeycomb-hitter.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b22-honeycomb-hitter.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b22-honeycomb-hitter-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b22-honeycomb-hitter.png",
+  "parts": 24,
+  "triangles": 9608,
+  "meshes": 1,
+  "maxMeshTriangles": 9608,
+  "dimensions": [
+    0.771142840385437,
+    0.7757577896118164,
+    3.611999988555908
+  ],
+  "boundsMin": [
+    -0.3855714201927185,
+    -0.3901863694190979,
+    -0.47200000286102295
+  ],
+  "boundsMax": [
+    0.3855714201927185,
+    0.3855714201927185,
+    3.140000104904175
+  ],
+  "paletteColors": 11,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.134999990463257
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.771142840385437,
+    0.7757577896118164,
+    3.611999988555908
+  ]
+}

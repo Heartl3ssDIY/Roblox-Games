@@ -1,0 +1,139 @@
+{
+  "BritishBulldogService": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldog20261003\\BritishBulldogService.lua",
+    "sha256": "97f569bbbf85104614d50c8b7908ce65c07f8059a267f5670aa2f7776f5897fc",
+    "bytes": 49462,
+    "kind": "source"
+  },
+  "BritishBulldogHUD": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldog20261003\\BritishBulldogHUD.client.luau",
+    "sha256": "1fb74ffaa1088c245c6cb839cbfe765dbc5c971116c89716948dbd87f2644dcd",
+    "bytes": 7386,
+    "kind": "source"
+  },
+  "TagService": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansion20261003\\TagService.lua",
+    "sha256": "1c2ea70407fc2a3eeae862a9adbf40a626e19174bb0dffb2ea773d05c3317ab4",
+    "bytes": 40640,
+    "kind": "source"
+  },
+  "PlaygroundEconomyService": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansion20261003\\PlaygroundEconomyService.lua",
+    "sha256": "be455d65a8a5347b16e5445c640d20166bc5c4a64490713f012fad4fd540a51a",
+    "bytes": 22417,
+    "kind": "source"
+  },
+  "PlaygroundCoordinator": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansion20261003\\PlaygroundCoordinator.lua",
+    "sha256": "3a163ce1567c168328870ec154edad44b14248a0ab10994b199c815aaf83058d",
+    "bytes": 9231,
+    "kind": "source"
+  },
+  "BBMovement": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\BBMovement.client.luau",
+    "sha256": "bc3132a87fd85127e8070db84ccd8bc82cf5909454013994a2a91a27af2783c3",
+    "bytes": 12081,
+    "kind": "source"
+  },
+  "PlayerLevel": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\PlayerLevel.client.luau",
+    "sha256": "49e53e462b3bb7480fcfcc21399cb4b4915d179c7618c679a99f7c11d78d3613",
+    "bytes": 7191,
+    "kind": "source"
+  },
+  "upgradeBritishBulldogControls": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\UpgradeBritishBulldogControls.luau",
+    "sha256": "0db8d5d637caef10c4eea753431d815aed8087885240467be0e24e7c3f588465",
+    "bytes": 5902,
+    "kind": "builder"
+  },
+  "upgradePlayerLevel": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\UpgradePlayerLevel.luau",
+    "sha256": "fa36827822faa93bb990e4043cd71751a93271a3fcafe62bd6c004a756848e8a",
+    "bytes": 5543,
+    "kind": "builder"
+  },
+  "IconAssetIds": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\IconAssetIds.json",
+    "sha256": "040aaf956729b5634f0ae36da3bea13709b5ca16fecea1b37b9dd0fee73a32c1",
+    "bytes": 130,
+    "kind": "asset_json",
+    "normalized_assets": {
+      "Sprint": "rbxassetid://86080260918857",
+      "Dodge": "rbxassetid://99567482512995",
+      "Level": "rbxassetid://99215209137796"
+    }
+  },
+  "package": {
+    "sha256": "c49a88acab159036bb69f79161b5e1974bd385e74b6011f4d3cd6f3b13ad16c2",
+    "bytes": 170637,
+    "sources": 7,
+    "builders": 2,
+    "runtime_layout_writes": false,
+    "new_remote_capabilities": [
+      "RemoteEvent"
+    ],
+    "input_scripts": [
+      "BritishBulldogHUD.MovementController"
+    ],
+    "animation_scripts": [
+      "PlaygroundShell.PlayerLevelController"
+    ],
+    "prior_expansion_required": true,
+    "icon_assets": {
+      "Sprint": "rbxassetid://86080260918857",
+      "Dodge": "rbxassetid://99567482512995",
+      "Level": "rbxassetid://99215209137796"
+    },
+    "support_files": {
+      "Boost.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\Boost.svg",
+        "sha256": "89023f598178cba00379b50a39b5660e4a7d3f4e1c91372d6462618c26b23342",
+        "bytes": 391,
+        "kind": "support_svg"
+      },
+      "dodge-swoosh.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\dodge-swoosh.svg",
+        "sha256": "9e98f444a9d220db98b5c8c96eb21748b6c8eacc73c35a941aafa6b4bdd9487a",
+        "bytes": 605,
+        "kind": "support_svg"
+      },
+      "Dodge.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\Dodge.svg",
+        "sha256": "2cd24f19dfcfcb48cb6d0d0a7add334d9a45147aafb773d60284ff0950608234",
+        "bytes": 899,
+        "kind": "support_svg"
+      },
+      "level-star.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\level-star.svg",
+        "sha256": "3ec5e6d6cba6ad9132c5fe241fa76d62305c4ef84c00eeebbf737c6e3274a91f",
+        "bytes": 496,
+        "kind": "support_svg"
+      },
+      "Level.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\Level.svg",
+        "sha256": "991a1d1be5a3682ca722220e107ad76883e2a4db3072c1e430cb8c39509f6c96",
+        "bytes": 1302,
+        "kind": "support_svg"
+      },
+      "sprint-lightning.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\sprint-lightning.svg",
+        "sha256": "722c1a0c611db79bfa8baa9c39a4e8c1792a4349813d3c4d847332b39268e5dc",
+        "bytes": 472,
+        "kind": "support_svg"
+      },
+      "Sprint.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\Sprint.svg",
+        "sha256": "81e8d9f3c55316692c8d787a7cb25b2c12dc93e41593085cf5152ab9979edbe5",
+        "bytes": 1199,
+        "kind": "support_svg"
+      },
+      "TopHUD.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldogMovement20261003\\TopHUD.svg",
+        "sha256": "0e316d9671bb4f7a61cebabf15f046064662a6b428fd10554fbfe500afafa439",
+        "bytes": 1294,
+        "kind": "support_svg"
+      }
+    }
+  }
+}

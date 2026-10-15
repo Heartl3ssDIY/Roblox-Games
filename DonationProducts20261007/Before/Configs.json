@@ -1,0 +1,125 @@
+{
+  "PlaygroundCommerce": {
+    "attrs": {
+      "Ready": false
+    },
+    "path": "ReplicatedStorage.PlaygroundCommerce",
+    "entries": [
+      {
+        "value": 0,
+        "class": "IntValue",
+        "name": "Coin5000",
+        "attrs": {
+          "Kind": "Product",
+          "Robux": 49,
+          "Coins": 5000
+        }
+      },
+      {
+        "value": 0,
+        "class": "IntValue",
+        "name": "Coin10000",
+        "attrs": {
+          "Kind": "Product",
+          "Robux": 99,
+          "Coins": 10000
+        }
+      },
+      {
+        "value": 0,
+        "class": "IntValue",
+        "name": "Coin25000",
+        "attrs": {
+          "Kind": "Product",
+          "Robux": 249,
+          "Coins": 25000
+        }
+      },
+      {
+        "value": 0,
+        "class": "IntValue",
+        "name": "Coin50000",
+        "attrs": {
+          "Kind": "Product",
+          "Robux": 499,
+          "Coins": 50000
+        }
+      },
+      {
+        "value": 0,
+        "class": "IntValue",
+        "name": "Coin100000",
+        "attrs": {
+          "Kind": "Product",
+          "Robux": 999,
+          "Coins": 100000
+        }
+      },
+      {
+        "value": 2016470307,
+        "class": "IntValue",
+        "name": "VIP",
+        "attrs": {
+          "Robux": 799,
+          "Kind": "GamePass"
+        }
+      },
+      {
+        "value": 2014580485,
+        "class": "IntValue",
+        "name": "DoubleCoins",
+        "attrs": {
+          "Robux": 249,
+          "Kind": "GamePass"
+        }
+      },
+      {
+        "value": 2013962477,
+        "class": "IntValue",
+        "name": "DoubleXP",
+        "attrs": {
+          "Robux": 199,
+          "Kind": "GamePass"
+        }
+      }
+    ]
+  },
+  "PlaygroundDonationProducts": {
+    "attrs": [],
+    "path": "ReplicatedStorage.PlaygroundDonationProducts",
+    "entries": [
+      {
+        "value": 0,
+        "class": "IntValue",
+        "name": "Donation50",
+        "attrs": {
+          "BaseRobux": 50
+        }
+      },
+      {
+        "value": 0,
+        "class": "IntValue",
+        "name": "Donation100",
+        "attrs": {
+          "BaseRobux": 100
+        }
+      },
+      {
+        "value": 0,
+        "class": "IntValue",
+        "name": "Donation250",
+        "attrs": {
+          "BaseRobux": 250
+        }
+      },
+      {
+        "value": 0,
+        "class": "IntValue",
+        "name": "Donation1000",
+        "attrs": {
+          "BaseRobux": 1000
+        }
+      }
+    ]
+  }
+}

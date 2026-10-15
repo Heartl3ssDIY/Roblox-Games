@@ -1,0 +1,51 @@
+{
+  "id": "P34",
+  "name": "Patchwork Zombie",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p34-patchwork-zombie.png",
+  "brief": "A silly friendly chibi zombie companion with a large square-rounded mint-green head, one button-shaped eye and one shiny navy eye, a big goofy smile with two chunky teeth. Squat body wearing a plum-purple hoodie and dark teal shorts, stubby hands and feet, one simple cream fabric patch on the forehead. No gore, wounds, exposed bones or weapon.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p34-patchwork-zombie.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p34-patchwork-zombie.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p34-patchwork-zombie-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p34-patchwork-zombie.png",
+  "parts": 60,
+  "triangles": 22608,
+  "meshes": 2,
+  "maxMeshTriangles": 18256,
+  "dimensions": [
+    2.239999771118164,
+    1.3969999551773071,
+    3.0399999618530273
+  ],
+  "boundsMin": [
+    -1.119999885559082,
+    -0.8169999718666077,
+    0.019999951124191284
+  ],
+  "boundsMax": [
+    1.119999885559082,
+    0.5799999833106995,
+    3.059999942779541
+  ],
+  "paletteColors": 19,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "ArmL",
+    "LegL",
+    "ArmR",
+    "LegR"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.239999532699585,
+    1.3969999551773071,
+    3.0399999618530273
+  ]
+}

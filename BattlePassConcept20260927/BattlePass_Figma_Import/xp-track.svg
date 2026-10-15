@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 42" role="img" aria-label="Editable Battle Pass XP track">
+  <title>Battle Pass XP track</title>
+  <defs>
+    <linearGradient id="progress" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#75D5F4"/><stop offset=".5" stop-color="#4080D0"/><stop offset="1" stop-color="#2458A9"/></linearGradient>
+  </defs>
+  <g id="track">
+    <rect x="1" y="1" width="418" height="40" rx="20" fill="#252531" stroke="#160F29" stroke-width="2"/>
+    <rect x="6" y="6" width="408" height="30" rx="15" fill="#343442" stroke="#777187" stroke-width="1"/>
+  </g>
+  <g id="editable-progress-fill">
+    <path d="M21 8h113a13 13 0 0 1 13 13 13 13 0 0 1-13 13H21A13 13 0 0 1 8 21 13 13 0 0 1 21 8z" fill="url(#progress)"/>
+    <path d="M21 10h112" stroke="#B8F5FF" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+  </g>
+  <g id="track-bevel">
+    <path d="M21 5h378" stroke="#B5B0C0" stroke-width="1" opacity=".3"/>
+    <path d="M21 37h378" stroke="#13131D" stroke-width="1" opacity=".55"/>
+  </g>
+</svg>

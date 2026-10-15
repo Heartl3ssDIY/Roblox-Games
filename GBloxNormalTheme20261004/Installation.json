@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-04",
+  "placeId": 106769122906103,
+  "activeTheme": "Normal",
+  "normalPaletteRestoredExactly": true,
+  "restoredParts": 6210,
+  "hiddenSeasonalParts": 1046,
+  "seasonalLightsDisabled": 22,
+  "geometryAndCollisionsUnchanged": true,
+  "normalSkyAndAtmosphereSource": "[BETA] G-Blox lobby; no original Round 1 environment snapshot available",
+  "normalLighting": "Preserves existing Round 1 lighting except neutral ambient and color shifts copied from the lobby",
+  "halloweenEnvironmentStorage": "ServerStorage.GBloxCourseEnvironments.Halloween",
+  "normalEnvironmentStorage": "ServerStorage.GBloxCourseEnvironments.Normal",
+  "backup": "ServerStorage.BeforeNormalTheme20261004",
+  "themeSwitch": "ReplicatedStorage.GBloxCourseTheme.ActiveTheme (Normal / Halloween)",
+  "pumpkin": "Moved existing Course 1 Jack_O_Lantern under HalloweenGameplay.Decorations without changing transform or collision",
+  "published": false,
+  "playtested": false
+}

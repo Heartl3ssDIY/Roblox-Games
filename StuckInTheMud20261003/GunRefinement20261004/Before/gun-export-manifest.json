@@ -1,0 +1,82 @@
+{
+  "MudGun": {
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudGun.fbx",
+    "glb": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudGun.glb",
+    "fbxBytes": 266044,
+    "glbBytes": 231432,
+    "meshes": 42,
+    "triangles": 11256,
+    "largestMeshTriangles": 1024,
+    "gripOrigin": [
+      0,
+      0,
+      0
+    ],
+    "muzzleBlender": [
+      0,
+      -2.65,
+      1
+    ],
+    "muzzleRoblox": [
+      0,
+      1,
+      -2.65
+    ],
+    "exportForwardAxis": "-Z",
+    "authoringToExportRotationDegrees": 180,
+    "fbxFinished": [
+      "FINISHED"
+    ],
+    "glbFinished": [
+      "FINISHED"
+    ]
+  },
+  "HeatGun": {
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\HeatGun.fbx",
+    "glb": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\HeatGun.glb",
+    "fbxBytes": 331820,
+    "glbBytes": 309532,
+    "meshes": 47,
+    "triangles": 14412,
+    "largestMeshTriangles": 2416,
+    "gripOrigin": [
+      0,
+      0,
+      0
+    ],
+    "muzzleBlender": [
+      0,
+      -2.65,
+      1
+    ],
+    "muzzleRoblox": [
+      0,
+      1,
+      -2.65
+    ],
+    "exportForwardAxis": "-Z",
+    "authoringToExportRotationDegrees": 180,
+    "fbxFinished": [
+      "FINISHED"
+    ],
+    "glbFinished": [
+      "FINISHED"
+    ]
+  },
+  "blend": {
+    "filepath": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudHeatGuns.blend",
+    "bytes": 162576,
+    "containsOnlyManagedScene": true
+  },
+  "preserved": {
+    "scene": "Scene",
+    "filepath": "",
+    "objects": [
+      "Cube",
+      "Light",
+      "Camera"
+    ],
+    "selection": [],
+    "activeObject": "Cube"
+  }
+}

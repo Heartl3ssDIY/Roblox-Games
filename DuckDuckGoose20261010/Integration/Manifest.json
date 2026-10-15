@@ -1,0 +1,304 @@
+{
+  "groups": [
+    [
+      "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere",
+      "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes"
+    ],
+    [
+      "StarterGui.PlaygroundShell.Controller",
+      "StarterGui.PlaygroundShell.PlayerLevelController",
+      "StarterGui.PlaygroundShell.CommerceController",
+      "StarterGui.PlaygroundAdminPanel.Controller"
+    ],
+    [
+      "StarterGui.PlaygroundToyHotbar.Controller",
+      "StarterGui.PlaygroundEmoteWheel.Controller",
+      "StarterGui.PlaygroundSessionControls.Controller",
+      "StarterGui.PlaygroundDonations.Controller",
+      "StarterGui.PlaygroundFishingHUD.Controller",
+      "StarterGui.PlaygroundBatControls.Controller",
+      "StarterGui.PlaygroundIntermissionHUD.Controller"
+    ],
+    [
+      "ReplicatedStorage.PlaygroundCatalog",
+      "ServerScriptService.PlaygroundAdminService",
+      "ServerScriptService.PlaygroundCoordinator"
+    ],
+    [
+      "ServerScriptService.PlaygroundEconomyService"
+    ],
+    [
+      "ServerScriptService.PlaygroundEquipmentService",
+      "ServerScriptService.PlaygroundToyService"
+    ],
+    [
+      "ServerScriptService.PlaygroundLobbySwingService",
+      "ServerScriptService.PlaygroundSecretObbyService",
+      "ServerScriptService.PlaygroundLobbyBenchService",
+      "ServerScriptService.PlaygroundFishingService",
+      "ServerScriptService.PlaygroundPushService",
+      "StarterGui.PlaygroundPushControls.Controller"
+    ],
+    [
+      "ServerScriptService.PlaygroundBootstrap"
+    ]
+  ],
+  "beforeHashes": {
+    "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera": 292868346,
+    "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere": 437997409,
+    "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes": 1560286834,
+    "StarterPlayer.StarterPlayerScripts.PlaygroundPets": 1811359316,
+    "StarterGui.PlaygroundShell.Controller": 1831593661,
+    "StarterGui.PlaygroundShell.PlayerLevelController": 2047788710,
+    "StarterGui.PlaygroundShell.CommerceController": 954923208,
+    "StarterGui.PlaygroundAdminPanel.Controller": 1332480643,
+    "StarterGui.PlaygroundToyHotbar.Controller": 1886663257,
+    "StarterGui.PlaygroundEmoteWheel.Controller": 1530477875,
+    "StarterGui.PlaygroundSessionControls.Controller": 1535613685,
+    "StarterGui.PlaygroundDonations.Controller": 2014600268,
+    "StarterGui.PlaygroundFishingHUD.Controller": 1670076257,
+    "StarterGui.PlaygroundBatControls.Controller": 1909341071,
+    "StarterGui.PlaygroundIntermissionHUD.Controller": 1058767317,
+    "ReplicatedStorage.PlaygroundCatalog": 1678216908,
+    "ServerScriptService.PlaygroundAdminService": 1374130468,
+    "ServerScriptService.PlaygroundCoordinator": 662588760,
+    "ServerScriptService.PlaygroundBootstrap": 1285146170,
+    "ServerScriptService.PlaygroundEconomyService": 915578304,
+    "ServerScriptService.PlaygroundEquipmentService": 1467775725,
+    "ServerScriptService.PlaygroundToyService": 1666751846,
+    "ServerScriptService.PlaygroundLobbySwingService": 786263874,
+    "ServerScriptService.PlaygroundSecretObbyService": 1063533538,
+    "ServerScriptService.PlaygroundLobbyBenchService": 2000129994,
+    "ServerScriptService.PlaygroundFishingService": 420005555,
+    "ServerScriptService.PlaygroundPushService": 317986207,
+    "StarterGui.PlaygroundPushControls.Controller": 2130263385
+  },
+  "afterHashes": {
+    "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera": 233641297,
+    "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere": 947370447,
+    "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes": 1485311896,
+    "StarterGui.PlaygroundShell.Controller": 297437938,
+    "StarterGui.PlaygroundShell.PlayerLevelController": 1924872173,
+    "StarterGui.PlaygroundShell.CommerceController": 1938774835,
+    "StarterGui.PlaygroundAdminPanel.Controller": 288410300,
+    "StarterGui.PlaygroundToyHotbar.Controller": 674598432,
+    "StarterGui.PlaygroundEmoteWheel.Controller": 487787175,
+    "StarterGui.PlaygroundSessionControls.Controller": 1835871687,
+    "StarterGui.PlaygroundDonations.Controller": 369871353,
+    "StarterGui.PlaygroundFishingHUD.Controller": 991157405,
+    "StarterGui.PlaygroundBatControls.Controller": 1263330899,
+    "StarterGui.PlaygroundIntermissionHUD.Controller": 94519385,
+    "ReplicatedStorage.PlaygroundCatalog": 989140918,
+    "ServerScriptService.PlaygroundAdminService": 1190708090,
+    "ServerScriptService.PlaygroundCoordinator": 1489884087,
+    "ServerScriptService.PlaygroundBootstrap": 208534973,
+    "ServerScriptService.PlaygroundEconomyService": 1077265464,
+    "ServerScriptService.PlaygroundEquipmentService": 2136719028,
+    "ServerScriptService.PlaygroundToyService": 1745467822,
+    "ServerScriptService.PlaygroundLobbySwingService": 1430572022,
+    "ServerScriptService.PlaygroundSecretObbyService": 1723726874,
+    "ServerScriptService.PlaygroundLobbyBenchService": 2053443118,
+    "ServerScriptService.PlaygroundFishingService": 1009253996,
+    "ServerScriptService.PlaygroundPushService": 496784774,
+    "StarterGui.PlaygroundPushControls.Controller": 1882537479
+  },
+  "metadata": {
+    "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera": {
+      "caps": "RunClientScript | AccessOutsideWrite | Basic | Physics | Players | AvatarBehavior",
+      "path": "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "sandboxed": true,
+      "length": 4446,
+      "class": "LocalScript"
+    },
+    "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere",
+      "sandboxed": true,
+      "length": 2662,
+      "class": "LocalScript"
+    },
+    "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+      "sandboxed": true,
+      "length": 40589,
+      "class": "LocalScript"
+    },
+    "StarterPlayer.StarterPlayerScripts.PlaygroundPets": {
+      "caps": "RunClientScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Players | AvatarBehavior",
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundPets",
+      "sandboxed": true,
+      "length": 17828,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundShell.Controller": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "path": "StarterGui.PlaygroundShell.Controller",
+      "sandboxed": true,
+      "length": 29560,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundShell.PlayerLevelController": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+      "path": "StarterGui.PlaygroundShell.PlayerLevelController",
+      "sandboxed": true,
+      "length": 12123,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundShell.CommerceController": {
+      "caps": "RunClientScript | AccessOutsideWrite | Basic | UI | Input | RemoteEvent | Players | AssetRead | Monetization | PromptExternalPurchase",
+      "path": "StarterGui.PlaygroundShell.CommerceController",
+      "sandboxed": true,
+      "length": 6834,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundAdminPanel.Controller": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "path": "StarterGui.PlaygroundAdminPanel.Controller",
+      "sandboxed": true,
+      "length": 15554,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundToyHotbar.Controller": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "path": "StarterGui.PlaygroundToyHotbar.Controller",
+      "sandboxed": true,
+      "length": 11943,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundEmoteWheel.Controller": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "path": "StarterGui.PlaygroundEmoteWheel.Controller",
+      "sandboxed": true,
+      "length": 16333,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundSessionControls.Controller": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "path": "StarterGui.PlaygroundSessionControls.Controller",
+      "sandboxed": true,
+      "length": 21018,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundDonations.Controller": {
+      "caps": "RunClientScript | AccessOutsideWrite | Basic | UI | Input | RemoteEvent | Players | AssetRead | Monetization | PromptExternalPurchase",
+      "path": "StarterGui.PlaygroundDonations.Controller",
+      "sandboxed": true,
+      "length": 5581,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundFishingHUD.Controller": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+      "path": "StarterGui.PlaygroundFishingHUD.Controller",
+      "sandboxed": true,
+      "length": 3389,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundBatControls.Controller": {
+      "caps": "RunClientScript | AccessOutsideWrite | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "path": "StarterGui.PlaygroundBatControls.Controller",
+      "sandboxed": true,
+      "length": 4039,
+      "class": "LocalScript"
+    },
+    "StarterGui.PlaygroundIntermissionHUD.Controller": {
+      "caps": "RunClientScript | AccessOutsideWrite | Basic | Physics | UI | Players",
+      "path": "StarterGui.PlaygroundIntermissionHUD.Controller",
+      "sandboxed": true,
+      "length": 4319,
+      "class": "LocalScript"
+    },
+    "ReplicatedStorage.PlaygroundCatalog": {
+      "caps": "RunClientScript | RunServerScript | Basic",
+      "path": "ReplicatedStorage.PlaygroundCatalog",
+      "sandboxed": true,
+      "length": 26010,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundAdminService": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundAdminService",
+      "sandboxed": true,
+      "length": 8187,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundCoordinator": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundCoordinator",
+      "sandboxed": true,
+      "length": 22676,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundBootstrap": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | Animation | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AssetRead | Monetization | PromptExternalPurchase | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundBootstrap",
+      "sandboxed": true,
+      "length": 7003,
+      "class": "Script"
+    },
+    "ServerScriptService.PlaygroundEconomyService": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundEconomyService",
+      "sandboxed": true,
+      "length": 57624,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundEquipmentService": {
+      "caps": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundEquipmentService",
+      "sandboxed": true,
+      "length": 34857,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundToyService": {
+      "caps": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundToyService",
+      "sandboxed": true,
+      "length": 33675,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundLobbySwingService": {
+      "caps": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundLobbySwingService",
+      "sandboxed": true,
+      "length": 5251,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundSecretObbyService": {
+      "caps": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundSecretObbyService",
+      "sandboxed": true,
+      "length": 9398,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundLobbyBenchService": {
+      "caps": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundLobbyBenchService",
+      "sandboxed": true,
+      "length": 3509,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundFishingService": {
+      "caps": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundFishingService",
+      "sandboxed": true,
+      "length": 6064,
+      "class": "ModuleScript"
+    },
+    "ServerScriptService.PlaygroundPushService": {
+      "caps": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+      "path": "ServerScriptService.PlaygroundPushService",
+      "sandboxed": true,
+      "class": "ModuleScript",
+      "length": 6215
+    },
+    "StarterGui.PlaygroundPushControls.Controller": {
+      "caps": "RunClientScript | AccessOutsideWrite | Basic | Physics | UI | Input | RemoteEvent | Players | AvatarBehavior",
+      "path": "StarterGui.PlaygroundPushControls.Controller",
+      "sandboxed": true,
+      "class": "LocalScript",
+      "length": 6113
+    }
+  }
+}

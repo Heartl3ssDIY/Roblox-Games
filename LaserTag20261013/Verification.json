@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-13",
+  "installedInStudio": true,
+  "published": false,
+  "finalStudioMode": "Edit",
+  "game": "Laser Tag",
+  "internalProgressId": "StuckInTheMud",
+  "rules": {
+    "teams": [
+      "Red",
+      "Blue"
+    ],
+    "lives": 3,
+    "roundSeconds": 300,
+    "eliminatedPlayers": "Out until round ends; spectator area and camera available",
+    "normalMinimumPlayers": 2,
+    "timeout": "Most surviving players, then remaining hearts; exact tie shares win"
+  },
+  "verified": [
+    "Server mechanics and lifecycle checks passed.",
+    "170 client input, aim, re-equip, HUD and viewport checks passed.",
+    "25 integration, admin, spectating, reward and saved progress checks passed.",
+    "Native map checks verified darker colours, retained studs/outlines, gun rig preservation and separated spawn positions.",
+    "Live Red and Blue practice actions start successfully; correct team guns automatically equip.",
+    "Live rectangular laser projectiles remove hearts and eliminate targets at zero.",
+    "Installed client re-equip helper restores manually unequipped gun; real server Fire succeeds afterwards.",
+    "Final fresh live-test console is empty; Studio test stopped."
+  ],
+  "limits": [
+    "Live gameplay used one real Studio player and practice bots; full multiplayer and physical phone/controller feel still need player testing.",
+    "No desktop input control, screenshot review or publishing performed."
+  ],
+  "backups": [
+    "Integration/Before",
+    "Server/BeforeService.luau",
+    "Client/BeforeController.luau",
+    "Client/BeforeHUD.json",
+    "Map/OriginalPaletteManifest.json",
+    "ServerStorage.LaserTagIntegrationBackup20261013",
+    "ServerStorage.LaserTagHUDBackup20261013",
+    "ServerStorage.LaserTagVisualBackup20261013"
+  ]
+}

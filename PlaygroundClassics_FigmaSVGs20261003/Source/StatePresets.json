@@ -1,0 +1,3296 @@
+[
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_Runner.svg",
+    "roots": [
+      "TopCard",
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_Bulldog.svg",
+    "roots": [
+      "TopCard",
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "BULLDOG"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "15.0s / 15s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#ff515c"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#ff515c"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": false
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_Sprinting.svg",
+    "roots": [
+      "TopCard",
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "5.6s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 0.56,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINTING\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_Recharging.svg",
+    "roots": [
+      "TopCard",
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "0.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 0,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "RECHARGING\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_DodgeCooldown.svg",
+    "roots": [
+      "TopCard",
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n2.4s"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_EscapeBoost.svg",
+    "roots": [
+      "TopCard",
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": true
+      },
+      "MovementControls.EscapeBoost.Caption": {
+        "text": "2×\nBOOST"
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_LeaveSafeZone.svg",
+    "roots": [
+      "TopCard",
+      "MovementControls",
+      "Departure"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      },
+      "Departure.Panel.Prompt": {
+        "text": "LEAVE SAFE ZONE"
+      },
+      "Departure.Panel.SecondsBadge.Seconds": {
+        "text": "5"
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_Countdown.svg",
+    "roots": [
+      "TopCard",
+      "MovementControls",
+      "Countdown"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "3:00",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 1"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "1"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOG"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "23"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      },
+      "Countdown": {
+        "text": "3",
+        "color": "#ffffff"
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_BulldogCall.svg",
+    "roots": [
+      "TopCard",
+      "MovementControls",
+      "Countdown"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      },
+      "Countdown": {
+        "text": "BULLDOG!",
+        "color": "#ffcc36"
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_Tagged.svg",
+    "roots": [
+      "TopCard",
+      "Tagged"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      },
+      "Tagged.Panel.Title": {
+        "text": "TAGGED"
+      },
+      "Tagged.Panel.Status": {
+        "text": "Tagged"
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_SurvivorsWin.svg",
+    "roots": [
+      "Results"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      },
+      "Results.Panel.Title": {
+        "text": "SURVIVORS WIN!",
+        "color": "#2aa0ff"
+      },
+      "Results.Panel.WinnersScroll.Winners": {
+        "text": "Alex, Jamie, Riley"
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Screens/BritishBulldog_BulldogsWin.svg",
+    "roots": [
+      "Results"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      },
+      "Results.Panel.Title": {
+        "text": "BULLDOGS WIN!",
+        "color": "#ff515c"
+      },
+      "Results.Panel.WinnersScroll.Winners": {
+        "text": "Alex, Jamie, Riley"
+      }
+    }
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Screens/Tag_Runner.svg",
+    "roots": [
+      "Top",
+      "SprintPanel",
+      "Controls"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      }
+    }
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Screens/Tag_YoureIt.svg",
+    "roots": [
+      "Top",
+      "SprintPanel",
+      "Controls"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "YOU'RE IT!"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#ff515c"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#ff515c"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      }
+    }
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Screens/Tag_TagbackShield.svg",
+    "roots": [
+      "Top",
+      "SprintPanel",
+      "Controls",
+      "Protection"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      },
+      "Protection": {
+        "text": "TAGBACK SHIELD: 2s"
+      }
+    }
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Screens/Tag_Countdown.svg",
+    "roots": [
+      "Top",
+      "SprintPanel",
+      "Countdown"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "3:00"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "FIRST CHASE GRACE: 8s"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      },
+      "Countdown": {
+        "text": "3"
+      }
+    }
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Screens/Tag_Sprinting.svg",
+    "roots": [
+      "Top",
+      "SprintPanel",
+      "Controls"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "5.6s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 0.56,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINTING\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      }
+    }
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Screens/Tag_Recharging.svg",
+    "roots": [
+      "Top",
+      "SprintPanel",
+      "Controls"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "0.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 0,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "RECHARGING\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      }
+    }
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Screens/Tag_MoveCooldowns.svg",
+    "roots": [
+      "Top",
+      "SprintPanel",
+      "Controls"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n1.8s",
+        "bg": "#c2c9ce"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n2.4s",
+        "bg": "#c2c9ce"
+      }
+    }
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Screens/Tag_Win.svg",
+    "roots": [
+      "Top",
+      "Results"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "0:00"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      },
+      "Results.Title": {
+        "text": "YOU WIN!",
+        "color": "#36aeff"
+      },
+      "Results.Loser": {
+        "text": "MOST TIME AS IT: Alex"
+      },
+      "Results.WinnersScroll.Winners": {
+        "text": "WINNERS: Jamie, Riley"
+      }
+    }
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Screens/Tag_Loss.svg",
+    "roots": [
+      "Top",
+      "Results"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "0:00"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      },
+      "Results.Title": {
+        "text": "TRY AGAIN!",
+        "color": "#ff5364"
+      },
+      "Results.Loser": {
+        "text": "MOST TIME AS IT: Alex"
+      },
+      "Results.WinnersScroll.Winners": {
+        "text": "WINNERS: Jamie, Riley"
+      }
+    }
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Screens/Mud_MudGun.svg",
+    "roots": [
+      "Main"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": true
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Fire": {
+        "text": "SPLAT!"
+      },
+      "Main.Crosshair": {
+        "visible": true
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": false
+      },
+      "Main.Results": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Screens/Mud_HeatGun.svg",
+    "roots": [
+      "Main"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": true
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Fire": {
+        "text": "HEAT\nHOLD"
+      },
+      "Main.Crosshair": {
+        "visible": true
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": false
+      },
+      "Main.Results": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Screens/Mud_RescuingTeammate.svg",
+    "roots": [
+      "Main"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": true
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "RESCUING 2.8s / 5s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Fire": {
+        "text": "HEAT\nHOLD"
+      },
+      "Main.Crosshair": {
+        "visible": true
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": false
+      },
+      "Main.Results": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Screens/Mud_Stuck.svg",
+    "roots": [
+      "Main"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": false
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Fire": {
+        "text": "SPLAT!"
+      },
+      "Main.Crosshair": {
+        "visible": false
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": true
+      },
+      "Main.Results": {
+        "visible": false
+      },
+      "Main.Frozen.Title": {
+        "text": "STUCK IN THE MUD!"
+      },
+      "Main.Frozen.Status": {
+        "text": "TEAMMATE HEAT: 0.0 / 5s"
+      },
+      "Main.Frozen.RescueTrack.Fill": {
+        "fill": 0
+      }
+    }
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Screens/Mud_BeingRescued.svg",
+    "roots": [
+      "Main"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n1/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": false
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Fire": {
+        "text": "SPLAT!"
+      },
+      "Main.Crosshair": {
+        "visible": false
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": true
+      },
+      "Main.Results": {
+        "visible": false
+      },
+      "Main.Frozen.Title": {
+        "text": "STUCK IN THE MUD!"
+      },
+      "Main.Frozen.Status": {
+        "text": "TEAMMATE HEAT: 2.8 / 5s"
+      },
+      "Main.Frozen.RescueTrack.Fill": {
+        "fill": 0.56
+      }
+    }
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Screens/Mud_Countdown.svg",
+    "roots": [
+      "Main"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "5:00"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": true
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Fire": {
+        "text": "SPLAT!"
+      },
+      "Main.Crosshair": {
+        "visible": false
+      },
+      "Main.Countdown": {
+        "visible": true,
+        "text": "3"
+      },
+      "Main.Frozen": {
+        "visible": false
+      },
+      "Main.Results": {
+        "visible": false
+      }
+    }
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Screens/Mud_TeamWin.svg",
+    "roots": [
+      "Main"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": false
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": false
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Fire": {
+        "text": "SPLAT!"
+      },
+      "Main.Crosshair": {
+        "visible": false
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": false
+      },
+      "Main.Results": {
+        "visible": true
+      },
+      "Main.Results.Title": {
+        "text": "YOUR TEAM WINS!"
+      },
+      "Main.Results.Reason": {
+        "text": "LAST TEAM STILL FREE"
+      },
+      "Main.Results.Rewards": {
+        "text": "+150 COINS · +50 XP"
+      }
+    }
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Screens/Mud_TeamLoss.svg",
+    "roots": [
+      "Main"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": false
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": false
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Fire": {
+        "text": "SPLAT!"
+      },
+      "Main.Crosshair": {
+        "visible": false
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": false
+      },
+      "Main.Results": {
+        "visible": true
+      },
+      "Main.Results.Title": {
+        "text": "ROUND FINISHED!"
+      },
+      "Main.Results.Reason": {
+        "text": "LAST TEAM STILL FREE"
+      },
+      "Main.Results.Rewards": {
+        "text": "+50 COINS · +50 XP"
+      }
+    }
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Screens/Mud_TeamColourPicker.svg",
+    "roots": [
+      "ColourPicker"
+    ],
+    "overrides": {
+      "ColourPicker.Message": {
+        "text": "Pick a colour for your next team."
+      }
+    }
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Screens/Lobby_HUD.svg",
+    "roots": [
+      "Wallet",
+      "Dock",
+      "LevelPanel"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      }
+    }
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Screens/Lobby_Shop.svg",
+    "roots": [
+      "Backdrop",
+      "ShopPanel"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "ShopPanel.Cards.Slot01.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot01.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot02.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot02.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot03.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot03.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot04.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot04.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot05.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot05.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot06.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot06.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot07.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot07.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot08.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot08.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot09.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot09.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot10.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot10.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot11.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot11.Action": {
+        "text": "COMING SOON",
+        "bg": "#dce1d7"
+      },
+      "ShopPanel.Cards.Slot11.Price": {
+        "text": "Coming later"
+      },
+      "ShopPanel.Cards.Slot12.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot12.Action": {
+        "text": "COMING SOON",
+        "bg": "#dce1d7"
+      },
+      "ShopPanel.Cards.Slot12.Price": {
+        "text": "Coming later"
+      }
+    }
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Screens/Lobby_VotingSelected.svg",
+    "roots": [
+      "Wallet",
+      "Dock",
+      "VotePanel"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "VotePanel.Title": {
+        "text": "PICK THE NEXT ROUND"
+      },
+      "VotePanel.Timer": {
+        "text": "12s"
+      },
+      "VotePanel.VotesBritishBulldog": {
+        "text": "9 votes"
+      },
+      "VotePanel.VotesTagYoureIt": {
+        "text": "8 votes"
+      },
+      "VotePanel.VotesStuckInTheMud": {
+        "text": "7 votes"
+      },
+      "VotePanel.BritishBulldog": {
+        "bg": "#59c1f4"
+      },
+      "VotePanel.TagYoureIt": {
+        "bg": "#ffd34e"
+      },
+      "VotePanel.StuckInTheMud": {
+        "bg": "#82e1b4"
+      },
+      "VotePanel.Message": {
+        "text": "Your vote is saved. You can change it."
+      }
+    }
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Screens/Lobby_VotingUnavailable.svg",
+    "roots": [
+      "Wallet",
+      "Dock",
+      "VotePanel"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "VotePanel.Title": {
+        "text": "PICK THE NEXT ROUND"
+      },
+      "VotePanel.Timer": {
+        "text": "12s"
+      },
+      "VotePanel.VotesBritishBulldog": {
+        "text": "9 votes"
+      },
+      "VotePanel.VotesTagYoureIt": {
+        "text": "8 votes"
+      },
+      "VotePanel.VotesStuckInTheMud": {
+        "text": "Needs 4 players"
+      },
+      "VotePanel.BritishBulldog": {
+        "bg": "#59c1f4"
+      },
+      "VotePanel.TagYoureIt": {
+        "bg": "#ffd34e"
+      },
+      "VotePanel.StuckInTheMud": {
+        "bg": "#a2a9b8"
+      },
+      "VotePanel.Message": {
+        "text": "Your vote is saved. You can change it."
+      }
+    }
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Screens/Lobby_RewardToast.svg",
+    "roots": [
+      "Wallet",
+      "Dock",
+      "LevelPanel",
+      "RewardToast"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "RewardToast.Message": {
+        "text": "+150 coins · +50 XP · Round won!"
+      }
+    }
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Panels/States/BritishBulldog_Controls_Runner.svg",
+    "roots": [
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Panels/States/BritishBulldog_Controls_Bulldog.svg",
+    "roots": [
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "BULLDOG"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "15.0s / 15s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#ff515c"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#ff515c"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": false
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Panels/States/BritishBulldog_Controls_Recharging.svg",
+    "roots": [
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "0.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 0,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "RECHARGING\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Panels/States/BritishBulldog_Controls_EscapeBoost.svg",
+    "roots": [
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": true
+      },
+      "MovementControls.EscapeBoost.Caption": {
+        "text": "2×\nBOOST"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Panels/States/BritishBulldog_Controls_DodgeCooldown.svg",
+    "roots": [
+      "MovementControls"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n2.4s"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Panels/States/BritishBulldog_Departure_Compact.svg",
+    "roots": [
+      "CompactDeparture"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      },
+      "Departure.Panel.Prompt": {
+        "text": "LEAVE SAFE ZONE"
+      },
+      "Departure.Panel.SecondsBadge.Seconds": {
+        "text": "5"
+      },
+      "CompactDeparture.Panel.Prompt": {
+        "text": "LEAVE!"
+      },
+      "CompactDeparture.Panel.SecondsBadge.Seconds": {
+        "text": "5"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "BritishBulldogHUD",
+    "file": "Panels/States/BritishBulldog_Tagged_Panel.svg",
+    "roots": [
+      "Tagged"
+    ],
+    "overrides": {
+      "TopCard.Panel.Timer": {
+        "text": "2:36",
+        "color": "#18233e"
+      },
+      "TopCard.Panel.PhaseLabel": {
+        "text": "CROSSING 2"
+      },
+      "TopCard.Panel.BulldogChip.Count": {
+        "text": "5"
+      },
+      "TopCard.Panel.BulldogChip.Caption": {
+        "text": "BULLDOGS"
+      },
+      "TopCard.Panel.RunnerChip.Count": {
+        "text": "19"
+      },
+      "TopCard.Panel.RunnerChip.Caption": {
+        "text": "RUNNERS"
+      },
+      "MovementControls.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "MovementControls.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "MovementControls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint": {
+        "bg": "#2aa0ff"
+      },
+      "MovementControls.Sprint.Caption": {
+        "text": "SPRINT\nHOLD SHIFT"
+      },
+      "MovementControls.Dodge": {
+        "visible": true
+      },
+      "MovementControls.Dodge.Caption": {
+        "text": "DODGE\n[E]"
+      },
+      "MovementControls.EscapeBoost": {
+        "visible": false
+      },
+      "Tagged.Panel.Title": {
+        "text": "TAGGED"
+      },
+      "Tagged.Panel.Status": {
+        "text": "Tagged"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Panels/States/Tag_Controls_Runner.svg",
+    "roots": [
+      "SprintPanel",
+      "Controls"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Panels/States/Tag_Controls_Tagger.svg",
+    "roots": [
+      "SprintPanel",
+      "Controls"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "YOU'RE IT!"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#ff515c"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#ff515c"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Panels/States/Tag_Controls_Cooldowns.svg",
+    "roots": [
+      "SprintPanel",
+      "Controls"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n1.8s",
+        "bg": "#c2c9ce"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n2.4s",
+        "bg": "#c2c9ce"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "TagHUD",
+    "file": "Panels/States/Tag_TagbackShield_Notice.svg",
+    "roots": [
+      "Protection"
+    ],
+    "overrides": {
+      "Top.Timer": {
+        "text": "2:36"
+      },
+      "Top.TaggerChip.Name": {
+        "text": "IT: Alex"
+      },
+      "Top.Rule": {
+        "text": "MOST TIME AS IT LOSES"
+      },
+      "SprintPanel.Meter.Role": {
+        "text": "RUNNER"
+      },
+      "SprintPanel.Meter.Time": {
+        "text": "IT: 8.2s"
+      },
+      "SprintPanel.Meter.Charge": {
+        "text": "10.0s / 10s"
+      },
+      "SprintPanel.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "SprintPanel.Sprint": {
+        "text": "SPRINT\nHOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Controls.Vault": {
+        "text": "VAULT\n[Q]",
+        "bg": "#ffcc36"
+      },
+      "Controls.Dodge": {
+        "text": "DODGE\n[X]",
+        "bg": "#36aeff"
+      },
+      "Protection": {
+        "text": "TAGBACK SHIELD: 2s"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Panels/States/Mud_Controls_HeatGun.svg",
+    "roots": [
+      "Main.Controls"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": true
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Fire": {
+        "text": "HEAT\nHOLD"
+      },
+      "Main.Crosshair": {
+        "visible": true
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": false
+      },
+      "Main.Results": {
+        "visible": false
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Panels/States/Mud_Controls_Rescuing.svg",
+    "roots": [
+      "Main.Controls"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": true
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "RESCUING 2.8s / 5s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Fire": {
+        "text": "HEAT\nHOLD"
+      },
+      "Main.Crosshair": {
+        "visible": true
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": false
+      },
+      "Main.Results": {
+        "visible": false
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Panels/States/Mud_Frozen_RescueProgress.svg",
+    "roots": [
+      "Main.Frozen"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n1/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": false
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Fire": {
+        "text": "SPLAT!"
+      },
+      "Main.Crosshair": {
+        "visible": false
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": true
+      },
+      "Main.Results": {
+        "visible": false
+      },
+      "Main.Frozen.Title": {
+        "text": "STUCK IN THE MUD!"
+      },
+      "Main.Frozen.Status": {
+        "text": "TEAMMATE HEAT: 2.8 / 5s"
+      },
+      "Main.Frozen.RescueTrack.Fill": {
+        "fill": 0.56
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Panels/States/Mud_Frozen_TeamEliminated.svg",
+    "roots": [
+      "Main.Frozen"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": false
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 10.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 1,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "SPRINT · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Fire": {
+        "text": "SPLAT!"
+      },
+      "Main.Crosshair": {
+        "visible": false
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": true
+      },
+      "Main.Results": {
+        "visible": false
+      },
+      "Main.Frozen.Title": {
+        "text": "TEAM ELIMINATED"
+      },
+      "Main.Frozen.Status": {
+        "text": "TEAMMATE HEAT: 0.0 / 5s"
+      },
+      "Main.Frozen.RescueTrack.Fill": {
+        "fill": 0
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "MudHUD",
+    "file": "Panels/States/Mud_Controls_Recharging.svg",
+    "roots": [
+      "Main.Controls"
+    ],
+    "overrides": {
+      "Main": {
+        "visible": true
+      },
+      "Main.Top": {
+        "visible": true
+      },
+      "Main.Top.Timer": {
+        "text": "4:38"
+      },
+      "Main.Top.Team": {
+        "text": "BLUE\n2/2 FREE",
+        "bg": "#2aa0ff"
+      },
+      "Main.Top.Other": {
+        "text": "RED\n1/2 FREE"
+      },
+      "Main.Controls": {
+        "visible": true
+      },
+      "Main.Controls.Meter.Charge": {
+        "text": "SPRINT 0.0s / 10s"
+      },
+      "Main.Controls.Meter.Track.Fill": {
+        "fill": 0,
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Sprint": {
+        "text": "RECHARGING · HOLD SHIFT",
+        "bg": "#2aa0ff"
+      },
+      "Main.Controls.Mud": {
+        "text": "MUD\n[1]"
+      },
+      "Main.Controls.Heat": {
+        "text": "HEAT\n[2]"
+      },
+      "Main.Controls.Mud.Outline": {
+        "stroke": "#ffcd4d"
+      },
+      "Main.Controls.Heat.Outline": {
+        "stroke": "#18233e"
+      },
+      "Main.Controls.Fire": {
+        "text": "SPLAT!"
+      },
+      "Main.Crosshair": {
+        "visible": true
+      },
+      "Main.Countdown": {
+        "visible": false
+      },
+      "Main.Frozen": {
+        "visible": false
+      },
+      "Main.Results": {
+        "visible": false
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Panels/States/ShopItem_Buy.svg",
+    "roots": [
+      "ShopPanel.Cards.Slot01"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "ShopPanel.Cards.Slot01.Price": {
+        "text": "45 coins"
+      },
+      "ShopPanel.Cards.Slot01.Action": {
+        "text": "BUY",
+        "bg": "#ffd34e"
+      },
+      "ShopPanel.Cards.Slot01.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot01.Outline": {
+        "stroke": "#1b2d3d"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Panels/States/ShopItem_Owned.svg",
+    "roots": [
+      "ShopPanel.Cards.Slot01"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "ShopPanel.Cards.Slot01.Price": {
+        "text": "Owned"
+      },
+      "ShopPanel.Cards.Slot01.Action": {
+        "text": "EQUIP",
+        "bg": "#59c1f4"
+      },
+      "ShopPanel.Cards.Slot01.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot01.Outline": {
+        "stroke": "#1b2d3d"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Panels/States/ShopItem_Equipped.svg",
+    "roots": [
+      "ShopPanel.Cards.Slot01"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "ShopPanel.Cards.Slot01.Price": {
+        "text": "Equipped"
+      },
+      "ShopPanel.Cards.Slot01.Action": {
+        "text": "UNEQUIP",
+        "bg": "#82e1b4"
+      },
+      "ShopPanel.Cards.Slot01.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot01.Outline": {
+        "stroke": "#ffd34e"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Panels/States/ShopItem_Loading.svg",
+    "roots": [
+      "ShopPanel.Cards.Slot01"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "ShopPanel.Cards.Slot01.Price": {
+        "text": "45 coins"
+      },
+      "ShopPanel.Cards.Slot01.Action": {
+        "text": "LOADING",
+        "bg": "#dce1d7"
+      },
+      "ShopPanel.Cards.Slot01.Try": {
+        "visible": false
+      },
+      "ShopPanel.Cards.Slot01.Outline": {
+        "stroke": "#1b2d3d"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Panels/States/ShopItem_EmoteUse.svg",
+    "roots": [
+      "ShopPanel.Cards.Slot03"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "ShopPanel.Cards.Slot03.Price": {
+        "text": "Equipped"
+      },
+      "ShopPanel.Cards.Slot03.Action": {
+        "text": "UNEQUIP",
+        "bg": "#82e1b4"
+      },
+      "ShopPanel.Cards.Slot03.Try": {
+        "visible": true,
+        "text": "USE"
+      },
+      "ShopPanel.Cards.Slot03.Outline": {
+        "stroke": "#ffd34e"
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Panels/States/ShopItem_ComingSoon.svg",
+    "roots": [
+      "ShopPanel.Cards.Slot11"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "ShopPanel.Cards.Slot11.Price": {
+        "text": "Coming later"
+      },
+      "ShopPanel.Cards.Slot11.Action": {
+        "text": "COMING SOON",
+        "bg": "#dce1d7"
+      },
+      "ShopPanel.Cards.Slot11.Try": {
+        "visible": false
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Panels/States/Level_Compact_Progress.svg",
+    "roots": [
+      "CompactLevelPanel"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "CompactLevelPanel.Level": {
+        "text": "LV 3"
+      },
+      "CompactLevelPanel.XP": {
+        "text": "150 / 300"
+      },
+      "CompactLevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      }
+    },
+    "crop": true
+  },
+  {
+    "gui": "PlaygroundShell",
+    "file": "Panels/States/Voting_Compact_Selected.svg",
+    "roots": [
+      "CompactVotePanel"
+    ],
+    "overrides": {
+      "Wallet.Coins": {
+        "text": "1250"
+      },
+      "Wallet.Wins": {
+        "text": "8 wins"
+      },
+      "LevelPanel.Level": {
+        "text": "LEVEL 3"
+      },
+      "LevelPanel.XP": {
+        "text": "150 / 300 XP"
+      },
+      "LevelPanel.XPTrack.Fill": {
+        "fill": 0.5
+      },
+      "ShopPanel.Coins": {
+        "text": "1250 coins"
+      },
+      "ShopPanel.Status": {
+        "text": "Pick a little something for your next round."
+      },
+      "CompactVotePanel.Title": {
+        "text": "PICK THE NEXT ROUND"
+      },
+      "CompactVotePanel.Timer": {
+        "text": "12s"
+      },
+      "CompactVotePanel.VotesBritishBulldog": {
+        "text": "9 votes"
+      },
+      "CompactVotePanel.VotesTagYoureIt": {
+        "text": "8 votes"
+      },
+      "CompactVotePanel.VotesStuckInTheMud": {
+        "text": "7 votes"
+      },
+      "CompactVotePanel.BritishBulldog": {
+        "bg": "#59c1f4"
+      },
+      "CompactVotePanel.TagYoureIt": {
+        "bg": "#ffd34e"
+      },
+      "CompactVotePanel.StuckInTheMud": {
+        "bg": "#82e1b4"
+      },
+      "CompactVotePanel.Message": {
+        "text": "Your vote is saved. You can change it."
+      }
+    },
+    "crop": true
+  }
+]

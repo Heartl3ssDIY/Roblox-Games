@@ -1,0 +1,223 @@
+{
+  "count": 10,
+  "totalChecks": 126,
+  "assets": [
+    {
+      "id": "B16",
+      "passed": 12,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Fossil rib count 6",
+        "Embossed three-toed count 1"
+      ],
+      "triangles": 8204,
+      "editableParts": 17,
+      "viewTransform": "Standard"
+    },
+    {
+      "id": "B17",
+      "passed": 12,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Overlapping rounded scale band count 4",
+        "Rounded gold dorsal ridge count 3"
+      ],
+      "triangles": 11994,
+      "editableParts": 21,
+      "viewTransform": "Standard"
+    },
+    {
+      "id": "B18",
+      "passed": 13,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Waffle pocket count 15",
+        "Caramel grip ring count 2",
+        "All 15 waffle cells have real inset depth"
+      ],
+      "triangles": 6144,
+      "editableParts": 31,
+      "viewTransform": "Standard"
+    },
+    {
+      "id": "B19",
+      "passed": 13,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Left feather panel count 1",
+        "Right feather panel count 1",
+        "Attached thick gold tip ring count 1"
+      ],
+      "triangles": 11890,
+      "editableParts": 28,
+      "viewTransform": "Standard"
+    },
+    {
+      "id": "B20",
+      "passed": 12,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Rope broad wrap count 4",
+        "Cream leaf engraving count 2"
+      ],
+      "triangles": 11853,
+      "editableParts": 28,
+      "viewTransform": "Standard"
+    },
+    {
+      "id": "B21",
+      "passed": 13,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Button 1 glossy count 1",
+        "Button 2 glossy count 1",
+        "Button 3 glossy count 1"
+      ],
+      "triangles": 8922,
+      "editableParts": 27,
+      "viewTransform": "Standard"
+    },
+    {
+      "id": "B22",
+      "passed": 11,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Honeycomb hexagonal panel count 5"
+      ],
+      "triangles": 9608,
+      "editableParts": 24,
+      "viewTransform": "Standard"
+    },
+    {
+      "id": "B23",
+      "passed": 13,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Eight-tooth brass toy gear count 1",
+        "Broad navy clockwork collar count 2",
+        "Wind-up key rounded finger hole count 2"
+      ],
+      "triangles": 10150,
+      "editableParts": 30,
+      "viewTransform": "Standard"
+    },
+    {
+      "id": "B24",
+      "passed": 12,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Large orange button rim count 1",
+        "Mint sewn broad panel count 2"
+      ],
+      "triangles": 17076,
+      "editableParts": 49,
+      "viewTransform": "Standard"
+    },
+    {
+      "id": "B25",
+      "passed": 15,
+      "checks": [
+        "Editable individually named geometry retained",
+        "Grip attachment retained at hand origin",
+        "Bat total length within authored hand scale",
+        "Model remains narrower than one stud",
+        "Every exported mesh below 19000 triangles",
+        "All editable vertices finite",
+        "No zero-area editable faces",
+        "Reference image packed into blend",
+        "Export palette packed into blend",
+        "FBX and texture export present",
+        "Six broad opaque crystal facets count 1",
+        "Crystal collar 1 cream count 1",
+        "Crystal collar 2 cream count 1",
+        "Six cross-section vertices per crystal profile ring",
+        "Crystal faces remain opaque and flat-shaded"
+      ],
+      "triangles": 5796,
+      "editableParts": 25,
+      "viewTransform": "Standard"
+    }
+  ],
+  "method": "Opened every saved editable Blender file; inspected native geometry, attachments, packed images and brief-specific detail counts. No Studio or Play changes."
+}

@@ -1,0 +1,52 @@
+{
+  "id": "P30",
+  "name": "Crowned Pig",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p30-crowned-pig.png",
+  "brief": "A lovable plump PINK PIG wearing a prominent GOLD CROWN with three broad points and one red square jewel, a playful Minecraft king-pig homage interpreted as an original rounded cartoon pet. Large gently square-rounded head, broad cuboid pink snout with two nostrils, floppy triangular ears, four stubby dark brown hooves, little curly tail. A short rich red royal cape with cream trim attached at the shoulders. Friendly confident smile. Crown securely sitting on the head; no pixel art, no writing, no tools.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p30-crowned-pig.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p30-crowned-pig.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p30-crowned-pig-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p30-crowned-pig.png",
+  "parts": 48,
+  "triangles": 21108,
+  "meshes": 2,
+  "maxMeshTriangles": 18800,
+  "dimensions": [
+    2.219994306564331,
+    3.3104684352874756,
+    3.719168186187744
+  ],
+  "boundsMin": [
+    -1.1099971532821655,
+    -1.531000018119812,
+    0.03999999165534973
+  ],
+  "boundsMax": [
+    1.1099971532821655,
+    1.7794684171676636,
+    3.7591681480407715
+  ],
+  "paletteColors": 16,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "FrontLegL",
+    "FrontLegR",
+    "BackLegL",
+    "BackLegR",
+    "Tail"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.219994306564331,
+    3.3104684352874756,
+    3.719168186187744
+  ]
+}

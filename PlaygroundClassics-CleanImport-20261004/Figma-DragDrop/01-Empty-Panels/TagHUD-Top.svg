@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="605.04" height="116.38" viewBox="0 0 605.04 116.38">
+  <title>TagHUD-Top</title>
+  <desc>Isolated empty UI artwork. No captions, counters, placeholder images or item contents.</desc>
+  <defs>
+    <linearGradient id="Glossy1-EditableSkin-Fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffae7" stop-opacity="1" />
+      <stop offset="0.48" stop-color="#fff8df" stop-opacity="1" />
+      <stop offset="1" stop-color="#e0dac4" stop-opacity="1" />
+    </linearGradient>
+    <clipPath id="Glossy1-EditableSkin-Clip">
+      <rect x="386.48" y="22.408" width="593.04" height="101.38" rx="11.0" />
+    </clipPath>
+    <linearGradient id="Glossy1-EditableSkin-Shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(-380.48 -16.408)">
+    <g id="StarterGui.TagHUD.Top_Background-Glossy" data-original-fill="#fffae2" data-skin-theme="panel">
+      <rect id="Glossy1-EditableSkin-OuterKeyline" x="382.48" y="18.408" width="601.04" height="112.38" rx="16.0" fill="#20263d" stroke="#fffcf2" stroke-width="0.96" />
+      <rect id="Glossy1-EditableSkin-Face" x="385.48" y="21.408" width="595.04" height="103.38" rx="13.0" fill="url(#Glossy1-EditableSkin-Fill)" stroke="#fffdf4" stroke-width="2.0" />
+      <g id="Glossy1-EditableSkin-SurfaceDetail" clip-path="url(#Glossy1-EditableSkin-Clip)">
+        <rect id="Glossy1-EditableSkin-TopGloss" x="386.48" y="22.408" width="593.04" height="28.0" fill="url(#Glossy1-EditableSkin-Shine)" />
+        <path d="M 398.48 25.408 H 967.52" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,253 @@
+{
+  "rows": {
+    "1": {
+      "absoluteSize": "900, 82",
+      "absolutePosition": "233, -40",
+      "class": "Frame",
+      "name": "StarterGui.GBloxRaceProgress.HUD",
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": -0.05736636370420456,
+        "4": 4
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0
+      },
+      "zIndex": 1,
+      "clip": false,
+      "size": {
+        "1": 0.7599999904632568,
+        "2": 0,
+        "3": 0,
+        "4": 82
+      }
+    },
+    "2": {
+      "min": "260, 82",
+      "class": "UISizeConstraint",
+      "name": "StarterGui.GBloxRaceProgress.HUD.ResponsiveWidth",
+      "max": "900, 82"
+    },
+    "3": {
+      "absoluteSize": "828, 16",
+      "absolutePosition": "269, -2",
+      "class": "Frame",
+      "name": "StarterGui.GBloxRaceProgress.HUD.Track",
+      "position": {
+        "1": 0,
+        "2": 36,
+        "3": 0,
+        "4": 38
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "zIndex": 1,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -72,
+        "3": 0,
+        "4": 16
+      }
+    },
+    "4": {
+      "scaleType": "Stretch",
+      "sliceCenter": "0, 0, 0, 0",
+      "absolutePosition": "272.958038, -31",
+      "class": "ImageLabel",
+      "rectOffset": "0, 0",
+      "rectSize": "0, 0",
+      "absoluteSize": "888.041931, 32",
+      "image": "rbxassetid://75503937294462",
+      "name": "StarterGui.GBloxRaceProgress.HUD.Track.TrackArtwork",
+      "position": {
+        "1": 0.004780239425599575,
+        "2": 0,
+        "3": -1.8125,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "zIndex": 1,
+      "clip": false,
+      "size": {
+        "1": 1.0725144147872925,
+        "2": 0,
+        "3": 2,
+        "4": 0
+      }
+    },
+    "5": {
+      "absoluteSize": "820, 10",
+      "absolutePosition": "273, 1",
+      "class": "Frame",
+      "name": "StarterGui.GBloxRaceProgress.HUD.Track.ProgressInterior",
+      "position": {
+        "1": 0,
+        "2": 4,
+        "3": 0,
+        "4": 3
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "zIndex": 2,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -8,
+        "3": 1,
+        "4": -6
+      }
+    },
+    "6": {
+      "scaleType": "Stretch",
+      "sliceCenter": "0, 0, 0, 0",
+      "absolutePosition": "273, -24.1300011",
+      "class": "ImageLabel",
+      "rectOffset": "0, 0",
+      "rectSize": "0, 0",
+      "absoluteSize": "0, 20",
+      "image": "rbxassetid://84519143176739",
+      "name": "StarterGui.GBloxRaceProgress.HUD.Track.ProgressInterior.Fill",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": -2.513000011444092,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "zIndex": 1,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0
+      }
+    },
+    "7": {
+      "scaleType": "Stretch",
+      "sliceCenter": "0, 0, 0, 0",
+      "absolutePosition": "245.5, 5",
+      "class": "ImageLabel",
+      "rectOffset": "0, 0",
+      "rectSize": "0, 0",
+      "absoluteSize": "55, 12",
+      "image": "rbxassetid://135544039418291",
+      "name": "StarterGui.GBloxRaceProgress.HUD.Track.StartLabel",
+      "position": {
+        "1": 0.004830917809158564,
+        "2": 0,
+        "3": -0.0625,
+        "4": 8
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0
+      },
+      "zIndex": 3,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 55,
+        "3": 0,
+        "4": 12
+      }
+    },
+    "8": {
+      "scaleType": "Stretch",
+      "sliceCenter": "0, 0, 0, 0",
+      "absolutePosition": "1105.5, 10",
+      "class": "ImageLabel",
+      "rectOffset": "0, 0",
+      "rectSize": "0, 0",
+      "absoluteSize": "65, 12",
+      "image": "rbxassetid://90743517207431",
+      "name": "StarterGui.GBloxRaceProgress.HUD.Track.FinishLabel",
+      "position": {
+        "1": 1.0495169162750244,
+        "2": 0,
+        "3": 0.25,
+        "4": 8
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0
+      },
+      "zIndex": 3,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 65,
+        "3": 0,
+        "4": 12
+      }
+    },
+    "9": {
+      "scaleType": "Stretch",
+      "sliceCenter": "0, 0, 0, 0",
+      "absolutePosition": "1171, -34.9373131",
+      "class": "ImageLabel",
+      "rectOffset": "0, 0",
+      "rectSize": "0, 0",
+      "absoluteSize": "30, 40",
+      "image": "rbxassetid://88205366205241",
+      "name": "StarterGui.GBloxRaceProgress.HUD.Track.FinishFlag",
+      "position": {
+        "1": 1.0797101259231567,
+        "2": 8,
+        "3": -0.808582067489624,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0.5
+      },
+      "zIndex": 3,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 30,
+        "3": 0,
+        "4": 40
+      }
+    },
+    "10": {
+      "absoluteSize": "888, 32",
+      "absolutePosition": "273, -31",
+      "class": "Frame",
+      "name": "StarterGui.GBloxRaceProgress.HUD.Track.Markers",
+      "position": {
+        "1": 0.004830917809158564,
+        "2": 0,
+        "3": -1.8125,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "zIndex": 10,
+      "clip": false,
+      "size": {
+        "1": 1.0724637508392334,
+        "2": 0,
+        "3": 2,
+        "4": 0
+      }
+    }
+  },
+  "source": "local Players = game:GetService(\"Players\")\nlocal ReplicatedStorage = game:GetService(\"ReplicatedStorage\")\nlocal TweenService = game:GetService(\"TweenService\")\nlocal player = Players.LocalPlayer\nlocal config = require(ReplicatedStorage:WaitForChild(\"RunnerConfig\"))\nlocal gui = script.Parent\nif game.PlaceId ~= config.PlaceId or config.TutorialRecovery == true then gui.Enabled = false return end\n\nlocal Rules = require(ReplicatedStorage:WaitForChild(\"GBloxRaceProgressRules\"))\nlocal Portraits = require(ReplicatedStorage:WaitForChild(\"GBloxRacePortraits\"))\nlocal event = ReplicatedStorage:WaitForChild(\"RunnerEvent\")\nlocal root = gui:WaitForChild(\"HUD\")\nlocal track = root:WaitForChild(\"Track\")\nlocal markers = track:WaitForChild(\"Markers\")\nlocal fill = track:WaitForChild(\"ProgressInterior\"):WaitForChild(\"Fill\")\nlocal template = gui:WaitForChild(\"Templates\"):WaitForChild(\"PlayerMarker\")\nlocal artwork = gui:WaitForChild(\"Artwork\")\nlocal entries, connections = {}, {}\nlocal version = player:GetAttribute(\"RunnerCourseVersion\") or 0\nlocal sequence = 0\nlocal phase = workspace:GetAttribute(\"RunnerRoundPhase\") or \"Waiting\"\nlocal packet, fillTween, destroyed\nlocal smooth = TweenInfo.new(0.15, Enum.EasingStyle.Linear)\nroot.Visible = false\n\nlocal function clearDisplay()\n\tpacket = nil\n\tfor _, entry in entries do\n\t\tif entry.tween then entry.tween:Cancel() end\n\t\tentry.frame.Visible = false\n\t\tentry.fresh = true\n\tend\n\tif fillTween then fillTween:Cancel() end\n\tfill.Size = UDim2.fromScale(0, 1)\n\troot.Visible = false\nend\n\nlocal function visibility()\n\troot.Visible = Rules.Visible(phase, player:GetAttribute(\"GBloxCourseReady\"),\n\t\tplayer:GetAttribute(\"GBloxPodiumActive\"), player:GetAttribute(\"GBloxPodiumCameraActive\"), packet ~= nil)\nend\n\nlocal function imageFor(key)\n\tlocal value = artwork:FindFirstChild(key)\n\treturn value and value.Value or \"\"\nend\n\nlocal function removeEntry(id)\n\tlocal entry = entries[id]\n\tif not entry then return end\n\tif entry.tween then entry.tween:Cancel() end\n\tentry.portrait:Destroy()\n\tentry.frame:Destroy()\n\tentries[id] = nil\nend\n\nlocal function getEntry(id)\n\tif entries[id] then return entries[id] end\n\tlocal marker = template:Clone()\n\tmarker.Name = \"Player_\" .. tostring(id)\n\tmarker.Parent = markers\n\tlocal entry = {frame = marker, fresh = true}\n\tentry.portrait = Portraits.Bind(marker, Players:GetPlayerByUserId(id), id)\n\tentries[id] = entry\n\treturn entry\nend\n\nlocal function applyPacket(nextPacket)\n\tlocal minimum = math.max(version, player:GetAttribute(\"RunnerCourseVersion\") or 0)\n\tlocal accepted = Rules.Accept(nextPacket, minimum, sequence, config.MaxPlayers)\n\tif not accepted then return end\n\tsequence = accepted.sequence\n\tif accepted.courseVersion ~= version then clearDisplay() end\n\tversion, phase = accepted.courseVersion, accepted.phase\n\tif phase ~= \"Running\" then clearDisplay() return end\n\tpacket = accepted\n\tlocal present, ownProgress = {}, 0\n\tfor _, row in accepted.rows do\n\t\tpresent[row.userId] = true\n\t\tlocal entry = getEntry(row.userId)\n\t\tlocal marker = entry.frame\n\t\tlocal isLocal = row.userId == player.UserId\n\t\tlocal style = Rules.Appearance(row.place, isLocal, row.status)\n\t\tmarker.ZIndex = style.zIndex\n\t\tmarker.Ring.Image = imageFor(style.ring)\n\t\tmarker.Badge.Image = imageFor(style.badge)\n\t\tmarker.Badge.Number.Text = tostring(row.place)\n\t\tmarker.Badge.Number.Visible = style.showNumber\n\t\tmarker.YouLabel.Visible = isLocal\n\t\tmarker.Finished.Visible = style.finished\n\t\tmarker.OutLabel.Visible = style.muted\n\t\tmarker.Ring.ImageTransparency = style.muted and 0.35 or 0\n\t\tmarker.Portrait.ImageTransparency = style.muted and 0.5 or 0\n\t\tmarker.Thumbnail.ImageTransparency = style.muted and 0.5 or 0\n\t\tmarker.Visible = true\n\t\tlocal position = UDim2.new(row.progress, 0, template.Position.Y.Scale, template.Position.Y.Offset)\n\t\tif entry.tween then entry.tween:Cancel() end\n\t\tif entry.fresh or not root.Visible then\n\t\t\tmarker.Position = position\n\t\telse\n\t\t\tentry.tween = TweenService:Create(marker, smooth, {Position = position})\n\t\t\tentry.tween:Play()\n\t\tend\n\t\tentry.fresh = false\n\t\tif isLocal then ownProgress = row.progress end\n\tend\n\tfor id, entry in entries do\n\t\tif not present[id] then\n\t\t\tif entry.tween then entry.tween:Cancel() end\n\t\t\tentry.frame.Visible = false\n\t\t\tentry.fresh = true\n\t\tend\n\tend\n\tif fillTween then fillTween:Cancel() end\n\tlocal fillSize = UDim2.fromScale(ownProgress, 1)\n\tif not root.Visible then fill.Size = fillSize else\n\t\tfillTween = TweenService:Create(fill, smooth, {Size = fillSize})\n\t\tfillTween:Play()\n\tend\n\tvisibility()\nend\n\ntable.insert(connections, event.OnClientEvent:Connect(function(action, data)\n\tif action == \"RaceProgress\" then applyPacket(data)\n\telseif action == \"State\" and type(data) == \"table\" then\n\t\tif type(data.courseVersion) ~= \"number\" or data.courseVersion < version then return end\n\t\tif data.courseVersion ~= version then clearDisplay() end\n\t\tversion, phase = data.courseVersion, data.phase\n\t\tif phase ~= \"Running\" then clearDisplay() else visibility() end\n\tend\nend))\nfor _, attribute in {\"GBloxCourseReady\", \"GBloxPodiumActive\", \"GBloxPodiumCameraActive\"} do\n\ttable.insert(connections, player:GetAttributeChangedSignal(attribute):Connect(visibility))\nend\ntable.insert(connections, player:GetAttributeChangedSignal(\"RunnerCourseVersion\"):Connect(function()\n\tlocal current = player:GetAttribute(\"RunnerCourseVersion\") or 0\n\tif current > version then version = current clearDisplay() end\nend))\ntable.insert(connections, workspace:GetAttributeChangedSignal(\"RunnerRoundPhase\"):Connect(function()\n\tlocal current = workspace:GetAttribute(\"RunnerRoundPhase\")\n\tif current ~= \"Running\" then phase = current clearDisplay() end\nend))\ntable.insert(connections, Players.PlayerRemoving:Connect(function(leaving) removeEntry(leaving.UserId) end))\nlocal function cleanup()\n\tif destroyed then return end\n\tdestroyed = true\n\tfor _, connection in connections do connection:Disconnect() end\n\tfor id in entries do removeEntry(id) end\n\tif fillTween then fillTween:Cancel() end\nend\nscript.Destroying:Connect(cleanup)\ngui.Destroying:Connect(cleanup)\n",
+  "insets": "CoreUISafeInsets"
+}

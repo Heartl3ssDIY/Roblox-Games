@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "playStarted": false,
+  "checks": [
+    {
+      "name": "R6 contact tag creates five limited sockets and keeps its root motor connected",
+      "passed": true
+    },
+    {
+      "name": "Timer preserves the full ragdoll duration then restores a tagged freeze",
+      "passed": true
+    },
+    {
+      "name": "Repeated tags do not restart ragdoll or increment hit VFX",
+      "passed": true
+    },
+    {
+      "name": "R15 uses its real joints and preserves previously disabled motors",
+      "passed": true
+    },
+    {
+      "name": "Every imported bat has identical ragdoll duration and no damage",
+      "passed": true
+    },
+    {
+      "name": "Crossing conversion preserves ragdoll then releases the new Bulldog",
+      "passed": true
+    },
+    {
+      "name": "Results freeze allows a final hit to finish visibly",
+      "passed": true
+    },
+    {
+      "name": "Reset or elimination without bat contact does not trigger ragdoll",
+      "passed": true
+    },
+    {
+      "name": "Death and character removal clean transient constraints",
+      "passed": true
+    },
+    {
+      "name": "Respawn restores the old rig and never applies stale recovery to the new one",
+      "passed": true
+    },
+    {
+      "name": "Teleport removes the old ragdoll before moving the character",
+      "passed": true
+    },
+    {
+      "name": "Expired and inactive rounds reject tags without a VFX event",
+      "passed": true
+    },
+    {
+      "name": "Safe zones, arrival, departure and frozen attacker tag rules remain enforced",
+      "passed": true
+    },
+    {
+      "name": "Round stop restores joints, jump settings and all transient state",
+      "passed": true
+    },
+    {
+      "name": "Service was never started and Play remains stopped",
+      "passed": true
+    }
+  ],
+  "fixtureDestroyed": true,
+  "mode": "Edit",
+  "generatedAt": "2026-10-04T18:42:27Z",
+  "batsChecked": 15
+}
+

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"dryRun\":false,\"floors\":{\"1\":{\"map\":\"Tag You're It\",\"paintLayers\":162,\"floorTopUnchanged\":32.900001525878909,\"maximumLift\":0.1500005330145271},\"2\":{\"map\":\"Stuck in the Mud\",\"paintLayers\":181,\"floorTopUnchanged\":32.900001525878909,\"maximumLift\":0.30000183172523267}},\"backup\":\"ServerStorage.AssetIntegrationBackups.MapSurfaceSeparation20261004\",\"reasons\":{\"Separate island foundation from coloured floor\":2,\"Separate grass lip from island side face\":2,\"Separate monkey-bar header from post tops\":2,\"Leave a gap between neighbouring book colours\":108,\"Separate overlapping floor paint layers\":298,\"Inset door trim beneath storage colour top\":54,\"Separate cream caps from ink tops\":54,\"Remove coloured bridge overlap at loop joins\":4},\"parts\":524}"
+    }
+  ],
+  "isError": false
+}

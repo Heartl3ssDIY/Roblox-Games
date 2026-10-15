@@ -1,0 +1,18 @@
+00:00.047  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:57: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes=True
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Source\build_pack.py:111: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True
+00:02.360  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_50544_614d97b3eba56cc534504947d3bf0f6c.png.png"
+00:18.406  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Bats\Previews\b16-fossil-slugger.png'
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b16-fossil-slugger.fbx'
+export finished in 0.0158 sec.
+Info: Saved as "b16-fossil-slugger.blend"
+ASSET_COMPLETE {"id": "B16", "name": "Fossil Slugger", "category": "Bats", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b16-fossil-slugger.png", "brief": "A recognisable long tapered baseball bat with a broad ivory fossil-bone barrel, three chunky tan rib-like rings fused around the upper barrel, dark navy collar and a dark brown wrapped grip. One simple embossed dinosaur footprint on the barrel, blunt rounded end, no skull, blades or spikes.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b16-fossil-slugger.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b16-fossil-slugger.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b16-fossil-slugger-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b16-fossil-slugger.png", "parts": 17, "triangles": 7320, "meshes": 1, "maxMeshTriangles": 7320, "dimensions": [0.7742580771446228, 0.7742580771446228, 3.6000001430511475], "boundsMin": [-0.3871290385723114, -0.3871290385723114, -0.46000000834465027], "boundsMax": [0.3871290385723114, 0.3871290385723114, 3.140000104904175], "paletteColors": 9, "anchors": {"GripAttachment": [0.0, 0.0, 0.0], "Grip": [0.0, 0.0, 0.0], "BarrelTip": [0.0, 0.0, 3.134999990463257]}, "editable": true, "rigged": false, "rigBones": [], "collision": "Visual meshes non-colliding; use simple game-owned collision proxy", "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette", "gameplayImplemented": false, "exportDimensions": [0.7742580771446228, 0.7742580771446228, 3.6000001430511475]}
+PACK_COMPLETE {"count": 1, "ids": ["B16"]}
+Unable to delete file
+Unable to delete file
+
+Blender quit

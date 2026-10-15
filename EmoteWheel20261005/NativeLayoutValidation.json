@@ -1,0 +1,2855 @@
+{
+  "cleaned": true,
+  "disabled": true,
+  "mode": "Edit",
+  "cases": [
+    {
+      "panel": {
+        "y": 183.45831298828125,
+        "x": 635,
+        "w": 650,
+        "h": 677.0833740234375
+      },
+      "safeArea": [
+        1920,
+        1044
+      ],
+      "nodes": {
+        "Close": {
+          "y": 18.28125,
+          "x": 565.5,
+          "w": 55.25,
+          "h": 40.625
+        },
+        "Slot7": {
+          "y": 227.90625,
+          "x": 117.2166748046875,
+          "w": 106.16667175292969,
+          "h": 106.16667175292969
+        },
+        "Slot8": {
+          "y": 118.51681518554688,
+          "x": 162.52728271484375,
+          "w": 106.16667175292969,
+          "h": 106.16667175292969
+        },
+        "PageLabel": {
+          "y": 537.604248046875,
+          "x": 234,
+          "w": 182,
+          "h": 43.33333969116211
+        },
+        "Slot3": {
+          "y": 227.90625,
+          "x": 426.6165771484375,
+          "w": 106.16667175292969,
+          "h": 106.16667175292969
+        },
+        "Status": {
+          "y": 501.71881103515625,
+          "x": 48.75,
+          "w": 552.5,
+          "h": 25.729167938232422
+        },
+        "Slot6": {
+          "y": 337.29571533203125,
+          "x": 162.52728271484375,
+          "w": 106.16667175292969,
+          "h": 106.16667175292969
+        },
+        "Slot1": {
+          "y": 73.20623779296875,
+          "x": 271.91668701171875,
+          "w": 106.16667175292969,
+          "h": 106.16667175292969
+        },
+        "Slot4": {
+          "y": 337.29571533203125,
+          "x": 381.30609130859375,
+          "w": 106.16667175292969,
+          "h": 106.16667175292969
+        },
+        "ShopButton": {
+          "y": 605.3125610351562,
+          "x": 162.5,
+          "w": 325,
+          "h": 47.395835876464844
+        },
+        "Next": {
+          "y": 534.8958740234375,
+          "x": 429,
+          "w": 78,
+          "h": 50.10417175292969
+        },
+        "Title": {
+          "y": 16.927078247070312,
+          "x": 52,
+          "w": 468.0000305175781,
+          "h": 44.01041793823242
+        },
+        "StopButton": {
+          "y": 303.3333740234375,
+          "x": 273,
+          "w": 104,
+          "h": 32.500003814697266
+        },
+        "Previous": {
+          "y": 534.8958740234375,
+          "x": 143,
+          "w": 78,
+          "h": 50.10417175292969
+        },
+        "Slot5": {
+          "y": 382.60626220703125,
+          "x": 271.91668701171875,
+          "w": 106.16667175292969,
+          "h": 106.16667175292969
+        },
+        "Hint": {
+          "y": 231.5625,
+          "x": 240.5,
+          "w": 169,
+          "h": 57.552085876464844
+        },
+        "Slot2": {
+          "y": 118.51681518554688,
+          "x": 381.30609130859375,
+          "w": 106.16667175292969,
+          "h": 106.16667175292969
+        }
+      },
+      "viewport": [
+        1920,
+        1080
+      ],
+      "issues": [],
+      "pass": true,
+      "texts": [
+        {
+          "fits": true,
+          "bounds": [
+            65,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.ItemName",
+          "box": [
+            102.98167419433594,
+            35.565834045410156
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            42,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.State",
+          "box": [
+            89.18000030517578,
+            16.98666763305664
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            71,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.ItemName",
+          "box": [
+            102.98167419433594,
+            35.565834045410156
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.State",
+          "box": [
+            89.18000030517578,
+            16.98666763305664
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            93,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.ItemName",
+          "box": [
+            102.98167419433594,
+            35.565834045410156
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.State",
+          "box": [
+            89.18000030517578,
+            16.98666763305664
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            80,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.ItemName",
+          "box": [
+            102.98167419433594,
+            35.565834045410156
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.State",
+          "box": [
+            89.18000030517578,
+            16.98666763305664
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            76,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.ItemName",
+          "box": [
+            102.98167419433594,
+            35.565834045410156
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.State",
+          "box": [
+            89.18000030517578,
+            16.98666763305664
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            78,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.ItemName",
+          "box": [
+            102.98167419433594,
+            35.565834045410156
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.State",
+          "box": [
+            89.18000030517578,
+            16.98666763305664
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            69,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.ItemName",
+          "box": [
+            102.98167419433594,
+            35.565834045410156
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.State",
+          "box": [
+            89.18000030517578,
+            16.98666763305664
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            88,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.ItemName",
+          "box": [
+            102.98167419433594,
+            35.565834045410156
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.State",
+          "box": [
+            89.18000030517578,
+            16.98666763305664
+          ]
+        }
+      ]
+    },
+    {
+      "panel": {
+        "y": 27.3599853515625,
+        "x": 337.94561767578125,
+        "w": 604.1087646484375,
+        "h": 629.280029296875
+      },
+      "safeArea": [
+        1280,
+        684
+      ],
+      "nodes": {
+        "Close": {
+          "y": 16.990562438964844,
+          "x": 525.5746459960938,
+          "w": 51.349246978759766,
+          "h": 37.75680160522461
+        },
+        "Slot7": {
+          "y": 211.81565856933594,
+          "x": 108.94094848632812,
+          "w": 98.67110443115234,
+          "h": 98.67110443115234
+        },
+        "Slot8": {
+          "y": 110.14933776855469,
+          "x": 151.05252075195312,
+          "w": 98.67110443115234,
+          "h": 98.67110443115234
+        },
+        "PageLabel": {
+          "y": 499.64837646484375,
+          "x": 217.47918701171875,
+          "w": 169.15045166015625,
+          "h": 40.273921966552734
+        },
+        "Slot3": {
+          "y": 211.81565856933594,
+          "x": 396.4967041015625,
+          "w": 98.67110443115234,
+          "h": 98.67110443115234
+        },
+        "Status": {
+          "y": 466.2965087890625,
+          "x": 45.308135986328125,
+          "w": 513.4924926757812,
+          "h": 23.912639617919922
+        },
+        "Slot6": {
+          "y": 313.48199462890625,
+          "x": 151.05252075195312,
+          "w": 98.67110443115234,
+          "h": 98.67110443115234
+        },
+        "Slot1": {
+          "y": 68.03776550292969,
+          "x": 252.71881103515625,
+          "w": 98.67110443115234,
+          "h": 98.67110443115234
+        },
+        "Slot4": {
+          "y": 313.48199462890625,
+          "x": 354.3851318359375,
+          "w": 98.67110443115234,
+          "h": 98.67110443115234
+        },
+        "ShopButton": {
+          "y": 562.5763549804688,
+          "x": 151.02719116210938,
+          "w": 302.05438232421875,
+          "h": 44.04960250854492
+        },
+        "Next": {
+          "y": 497.1312255859375,
+          "x": 398.7117919921875,
+          "w": 72.49304962158203,
+          "h": 46.56672286987305
+        },
+        "Title": {
+          "y": 15.732002258300781,
+          "x": 48.328704833984375,
+          "w": 434.95831298828125,
+          "h": 40.903202056884766
+        },
+        "StopButton": {
+          "y": 281.9174499511719,
+          "x": 253.72564697265625,
+          "w": 96.65740203857422,
+          "h": 30.205442428588867
+        },
+        "Previous": {
+          "y": 497.1312255859375,
+          "x": 132.9039306640625,
+          "w": 72.49304962158203,
+          "h": 46.56672286987305
+        },
+        "Slot5": {
+          "y": 355.59356689453125,
+          "x": 252.71881103515625,
+          "w": 98.67110443115234,
+          "h": 98.67110443115234
+        },
+        "Hint": {
+          "y": 215.2137908935547,
+          "x": 223.520263671875,
+          "w": 157.06826782226562,
+          "h": 53.48880386352539
+        },
+        "Slot2": {
+          "y": 110.14933776855469,
+          "x": 354.3851318359375,
+          "w": 98.67110443115234,
+          "h": 98.67110443115234
+        }
+      },
+      "viewport": [
+        1280,
+        720
+      ],
+      "issues": [],
+      "pass": true,
+      "texts": [
+        {
+          "fits": true,
+          "bounds": [
+            61,
+            32
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.ItemName",
+          "box": [
+            95.71097564697266,
+            33.0548210144043
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            42,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.State",
+          "box": [
+            82.88372802734375,
+            15.787376403808594
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            67,
+            32
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.ItemName",
+          "box": [
+            95.71097564697266,
+            33.0548210144043
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.State",
+          "box": [
+            82.88372802734375,
+            15.787376403808594
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            88,
+            32
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.ItemName",
+          "box": [
+            95.71097564697266,
+            33.0548210144043
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.State",
+          "box": [
+            82.88372802734375,
+            15.787376403808594
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            75,
+            32
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.ItemName",
+          "box": [
+            95.71097564697266,
+            33.0548210144043
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.State",
+          "box": [
+            82.88372802734375,
+            15.787376403808594
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            71,
+            32
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.ItemName",
+          "box": [
+            95.71097564697266,
+            33.0548210144043
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.State",
+          "box": [
+            82.88372802734375,
+            15.787376403808594
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            73,
+            32
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.ItemName",
+          "box": [
+            95.71097564697266,
+            33.0548210144043
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.State",
+          "box": [
+            82.88372802734375,
+            15.787376403808594
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            64,
+            32
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.ItemName",
+          "box": [
+            95.71097564697266,
+            33.0548210144043
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.State",
+          "box": [
+            82.88372802734375,
+            15.787376403808594
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            82,
+            32
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.ItemName",
+          "box": [
+            95.71097564697266,
+            33.0548210144043
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.State",
+          "box": [
+            82.88372802734375,
+            15.787376403808594
+          ]
+        }
+      ]
+    },
+    {
+      "panel": {
+        "y": 29.279998779296875,
+        "x": 188.74880981445312,
+        "w": 646.5023803710938,
+        "h": 673.4400024414062
+      },
+      "safeArea": [
+        1024,
+        732
+      ],
+      "nodes": {
+        "Close": {
+          "y": 18.182876586914062,
+          "x": 562.4571533203125,
+          "w": 54.952701568603516,
+          "h": 40.40639877319336
+        },
+        "Slot7": {
+          "y": 226.67990112304688,
+          "x": 116.5859375,
+          "w": 105.59539031982422,
+          "h": 105.59539031982422
+        },
+        "Slot8": {
+          "y": 117.87910461425781,
+          "x": 161.6527099609375,
+          "w": 105.59539031982422,
+          "h": 105.59539031982422
+        },
+        "PageLabel": {
+          "y": 534.7113037109375,
+          "x": 232.74087524414062,
+          "w": 181.02066040039062,
+          "h": 43.100162506103516
+        },
+        "Slot3": {
+          "y": 226.67990112304688,
+          "x": 424.3210754394531,
+          "w": 105.59539031982422,
+          "h": 105.59539031982422
+        },
+        "Status": {
+          "y": 499.0190734863281,
+          "x": 48.4876708984375,
+          "w": 549.5270385742188,
+          "h": 25.59071922302246
+        },
+        "Slot6": {
+          "y": 335.480712890625,
+          "x": 161.6527099609375,
+          "w": 105.59539031982422,
+          "h": 105.59539031982422
+        },
+        "Slot1": {
+          "y": 72.81233215332031,
+          "x": 270.4534912109375,
+          "w": 105.59539031982422,
+          "h": 105.59539031982422
+        },
+        "Slot4": {
+          "y": 335.480712890625,
+          "x": 379.2543029785156,
+          "w": 105.59539031982422,
+          "h": 105.59539031982422
+        },
+        "ShopButton": {
+          "y": 602.0552978515625,
+          "x": 161.62557983398438,
+          "w": 323.2511901855469,
+          "h": 47.14080047607422
+        },
+        "Next": {
+          "y": 532.017578125,
+          "x": 426.6916198730469,
+          "w": 77.58028411865234,
+          "h": 49.83456039428711
+        },
+        "Title": {
+          "y": 16.835994720458984,
+          "x": 51.72016906738281,
+          "w": 465.4817199707031,
+          "h": 43.773597717285156
+        },
+        "StopButton": {
+          "y": 301.7011413574219,
+          "x": 271.531005859375,
+          "w": 103.44037628173828,
+          "h": 32.32511901855469
+        },
+        "Previous": {
+          "y": 532.017578125,
+          "x": 142.23052978515625,
+          "w": 77.58028411865234,
+          "h": 49.83456039428711
+        },
+        "Slot5": {
+          "y": 380.5474548339844,
+          "x": 270.4534912109375,
+          "w": 105.59539031982422,
+          "h": 105.59539031982422
+        },
+        "Hint": {
+          "y": 230.31649780273438,
+          "x": 239.20590209960938,
+          "w": 168.09060668945312,
+          "h": 57.242401123046875
+        },
+        "Slot2": {
+          "y": 117.87910461425781,
+          "x": 379.2543029785156,
+          "w": 105.59539031982422,
+          "h": 105.59539031982422
+        }
+      },
+      "viewport": [
+        1024,
+        768
+      ],
+      "issues": [],
+      "pass": true,
+      "texts": [
+        {
+          "fits": true,
+          "bounds": [
+            65,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.ItemName",
+          "box": [
+            102.42752838134766,
+            35.37445831298828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            42,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.State",
+          "box": [
+            88.70012664794922,
+            16.895261764526367
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            71,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.ItemName",
+          "box": [
+            102.42752838134766,
+            35.37445831298828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.State",
+          "box": [
+            88.70012664794922,
+            16.895261764526367
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            93,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.ItemName",
+          "box": [
+            102.42752838134766,
+            35.37445831298828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.State",
+          "box": [
+            88.70012664794922,
+            16.895261764526367
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            80,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.ItemName",
+          "box": [
+            102.42752838134766,
+            35.37445831298828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.State",
+          "box": [
+            88.70012664794922,
+            16.895261764526367
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            76,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.ItemName",
+          "box": [
+            102.42752838134766,
+            35.37445831298828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.State",
+          "box": [
+            88.70012664794922,
+            16.895261764526367
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            78,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.ItemName",
+          "box": [
+            102.42752838134766,
+            35.37445831298828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.State",
+          "box": [
+            88.70012664794922,
+            16.895261764526367
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            69,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.ItemName",
+          "box": [
+            102.42752838134766,
+            35.37445831298828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.State",
+          "box": [
+            88.70012664794922,
+            16.895261764526367
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            88,
+            34
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.ItemName",
+          "box": [
+            102.42752838134766,
+            35.37445831298828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            11
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.State",
+          "box": [
+            88.70012664794922,
+            16.895261764526367
+          ]
+        }
+      ]
+    },
+    {
+      "panel": {
+        "y": 213.0625,
+        "x": 11.699996948242188,
+        "w": 366.6000061035156,
+        "h": 381.875
+      },
+      "safeArea": [
+        390,
+        808
+      ],
+      "nodes": {
+        "Close": {
+          "y": 10.310623168945312,
+          "x": 318.9420166015625,
+          "w": 31.161001205444336,
+          "h": 26
+        },
+        "Slot7": {
+          "y": 128.53912353515625,
+          "x": 66.11021423339844,
+          "w": 59.87799835205078,
+          "h": 59.87799835205078
+        },
+        "Slot8": {
+          "y": 66.843505859375,
+          "x": 91.66537475585938,
+          "w": 59.87799835205078,
+          "h": 59.87799835205078
+        },
+        "PageLabel": {
+          "y": 303.208740234375,
+          "x": 131.97601318359375,
+          "w": 102.64800262451172,
+          "h": 24.440000534057617
+        },
+        "Slot3": {
+          "y": 128.53912353515625,
+          "x": 240.61180114746094,
+          "w": 59.87799835205078,
+          "h": 59.87799835205078
+        },
+        "Status": {
+          "y": 282.9693603515625,
+          "x": 27.4949951171875,
+          "w": 311.6100158691406,
+          "h": 14.511249542236328
+        },
+        "Slot6": {
+          "y": 190.23477172851562,
+          "x": 91.66537475585938,
+          "w": 59.87799835205078,
+          "h": 59.87799835205078
+        },
+        "Slot1": {
+          "y": 41.288330078125,
+          "x": 153.3610076904297,
+          "w": 59.87799835205078,
+          "h": 59.87799835205078
+        },
+        "Slot4": {
+          "y": 190.23477172851562,
+          "x": 215.05662536621094,
+          "w": 59.87799835205078,
+          "h": 59.87799835205078
+        },
+        "ShopButton": {
+          "y": 341.396240234375,
+          "x": 91.6500015258789,
+          "w": 183.3000030517578,
+          "h": 26.731250762939453
+        },
+        "Next": {
+          "y": 301.6812744140625,
+          "x": 241.9560089111328,
+          "w": 43.992000579833984,
+          "h": 28.258750915527344
+        },
+        "Title": {
+          "y": 9.546875,
+          "x": 29.3280029296875,
+          "w": 263.9520263671875,
+          "h": 24.821874618530273
+        },
+        "StopButton": {
+          "y": 171.08001708984375,
+          "x": 153.9720001220703,
+          "w": 58.65599822998047,
+          "h": 26
+        },
+        "Previous": {
+          "y": 301.6812744140625,
+          "x": 80.6520004272461,
+          "w": 43.992000579833984,
+          "h": 28.258750915527344
+        },
+        "Slot5": {
+          "y": 215.7899169921875,
+          "x": 153.3610076904297,
+          "w": 59.87799835205078,
+          "h": 59.87799835205078
+        },
+        "Hint": {
+          "y": 130.60125732421875,
+          "x": 135.64199829101562,
+          "w": 95.31600189208984,
+          "h": 32.459373474121094
+        },
+        "Slot2": {
+          "y": 66.843505859375,
+          "x": 215.05662536621094,
+          "w": 59.87799835205078,
+          "h": 59.87799835205078
+        }
+      },
+      "viewport": [
+        390,
+        844
+      ],
+      "issues": [],
+      "pass": true,
+      "texts": [
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            20
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.ItemName",
+          "box": [
+            58.081661224365234,
+            20.05912971496582
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            35,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.State",
+          "box": [
+            50.297515869140625,
+            9.580479621887207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            42,
+            20
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.ItemName",
+          "box": [
+            58.081661224365234,
+            20.05912971496582
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.State",
+          "box": [
+            50.297515869140625,
+            9.580479621887207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            56,
+            20
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.ItemName",
+          "box": [
+            58.081661224365234,
+            20.05912971496582
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.State",
+          "box": [
+            50.297515869140625,
+            9.580479621887207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            47,
+            20
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.ItemName",
+          "box": [
+            58.081661224365234,
+            20.05912971496582
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.State",
+          "box": [
+            50.297515869140625,
+            9.580479621887207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            45,
+            20
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.ItemName",
+          "box": [
+            58.081661224365234,
+            20.05912971496582
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.State",
+          "box": [
+            50.297515869140625,
+            9.580479621887207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            47,
+            20
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.ItemName",
+          "box": [
+            58.081661224365234,
+            20.05912971496582
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.State",
+          "box": [
+            50.297515869140625,
+            9.580479621887207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            20
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.ItemName",
+          "box": [
+            58.081661224365234,
+            20.05912971496582
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.State",
+          "box": [
+            50.297515869140625,
+            9.580479621887207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            52,
+            20
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.ItemName",
+          "box": [
+            58.081661224365234,
+            20.05912971496582
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.State",
+          "box": [
+            50.297515869140625,
+            9.580479621887207
+          ]
+        }
+      ]
+    },
+    {
+      "panel": {
+        "y": 131.90625,
+        "x": 11.25,
+        "w": 352.5,
+        "h": 367.1875
+      },
+      "safeArea": [
+        375,
+        631
+      ],
+      "nodes": {
+        "Close": {
+          "y": 9.9140625,
+          "x": 306.67498779296875,
+          "w": 30,
+          "h": 26
+        },
+        "Slot7": {
+          "y": 123.59530639648438,
+          "x": 63.56748962402344,
+          "w": 57.57500457763672,
+          "h": 57.57500076293945
+        },
+        "Slot8": {
+          "y": 64.2725830078125,
+          "x": 88.1397705078125,
+          "w": 57.57500457763672,
+          "h": 57.57500076293945
+        },
+        "PageLabel": {
+          "y": 291.546875,
+          "x": 126.89999389648438,
+          "w": 98.69999694824219,
+          "h": 23.500001907348633
+        },
+        "Slot3": {
+          "y": 123.59530639648438,
+          "x": 231.35748291015625,
+          "w": 57.57500457763672,
+          "h": 57.57500076293945
+        },
+        "Status": {
+          "y": 272.0859375,
+          "x": 26.4375,
+          "w": 299.625,
+          "h": 13.953125
+        },
+        "Slot6": {
+          "y": 182.91802978515625,
+          "x": 88.1397705078125,
+          "w": 57.57500457763672,
+          "h": 57.57500076293945
+        },
+        "Slot1": {
+          "y": 39.7003173828125,
+          "x": 147.46249389648438,
+          "w": 57.57500457763672,
+          "h": 57.57500076293945
+        },
+        "Slot4": {
+          "y": 182.91802978515625,
+          "x": 206.78521728515625,
+          "w": 57.57500457763672,
+          "h": 57.57500076293945
+        },
+        "ShopButton": {
+          "y": 328.265625,
+          "x": 88.125,
+          "w": 176.25,
+          "h": 26
+        },
+        "Next": {
+          "y": 290.078125,
+          "x": 232.6500244140625,
+          "w": 42.29999923706055,
+          "h": 27.171875
+        },
+        "Title": {
+          "y": 9.1796875,
+          "x": 28.20000457763672,
+          "w": 253.8000030517578,
+          "h": 23.8671875
+        },
+        "StopButton": {
+          "y": 164.5,
+          "x": 148.04998779296875,
+          "w": 56.39999771118164,
+          "h": 26
+        },
+        "Previous": {
+          "y": 290.078125,
+          "x": 77.55000305175781,
+          "w": 42.29999923706055,
+          "h": 27.171875
+        },
+        "Slot5": {
+          "y": 207.49032592773438,
+          "x": 147.46249389648438,
+          "w": 57.57500457763672,
+          "h": 57.57500076293945
+        },
+        "Hint": {
+          "y": 125.578125,
+          "x": 130.4250030517578,
+          "w": 91.64999389648438,
+          "h": 31.2109375
+        },
+        "Slot2": {
+          "y": 64.2725830078125,
+          "x": 206.78521728515625,
+          "w": 57.57500457763672,
+          "h": 57.57500076293945
+        }
+      },
+      "viewport": [
+        375,
+        667
+      ],
+      "issues": [],
+      "pass": true,
+      "texts": [
+        {
+          "fits": true,
+          "bounds": [
+            36,
+            18
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.ItemName",
+          "box": [
+            55.847755432128906,
+            19.287626266479492
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            35,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.State",
+          "box": [
+            48.36300277709961,
+            9.211999893188477
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            39,
+            18
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.ItemName",
+          "box": [
+            55.847755432128906,
+            19.287626266479492
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.State",
+          "box": [
+            48.36300277709961,
+            9.211999893188477
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            53,
+            18
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.ItemName",
+          "box": [
+            55.847755432128906,
+            19.287626266479492
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.State",
+          "box": [
+            48.36300277709961,
+            9.211999893188477
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            44,
+            18
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.ItemName",
+          "box": [
+            55.847755432128906,
+            19.287626266479492
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.State",
+          "box": [
+            48.36300277709961,
+            9.211999893188477
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            43,
+            18
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.ItemName",
+          "box": [
+            55.847755432128906,
+            19.287626266479492
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.State",
+          "box": [
+            48.36300277709961,
+            9.211999893188477
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            43,
+            18
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.ItemName",
+          "box": [
+            55.847755432128906,
+            19.287626266479492
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.State",
+          "box": [
+            48.36300277709961,
+            9.211999893188477
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            18
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.ItemName",
+          "box": [
+            55.847755432128906,
+            19.287626266479492
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.State",
+          "box": [
+            48.36300277709961,
+            9.211999893188477
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            49,
+            18
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.ItemName",
+          "box": [
+            55.847755432128906,
+            19.287626266479492
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            41,
+            9
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.State",
+          "box": [
+            48.36300277709961,
+            9.211999893188477
+          ]
+        }
+      ]
+    },
+    {
+      "panel": {
+        "y": 109.33334350585938,
+        "x": 9.600006103515625,
+        "w": 300.79998779296875,
+        "h": 313.33331298828125
+      },
+      "safeArea": [
+        320,
+        532
+      ],
+      "nodes": {
+        "Close": {
+          "y": 8.459991455078125,
+          "x": 261.69598388671875,
+          "w": 30,
+          "h": 26
+        },
+        "Slot7": {
+          "y": 105.46798706054688,
+          "x": 54.24427032470703,
+          "w": 49.13066101074219,
+          "h": 49.13066101074219
+        },
+        "Slot8": {
+          "y": 54.845947265625,
+          "x": 75.21260833740234,
+          "w": 49.13066101074219,
+          "h": 49.13066101074219
+        },
+        "PageLabel": {
+          "y": 248.78665161132812,
+          "x": 108.28799438476562,
+          "w": 84.2239990234375,
+          "h": 20.053333282470703
+        },
+        "Slot3": {
+          "y": 105.46798706054688,
+          "x": 197.425048828125,
+          "w": 49.13066101074219,
+          "h": 49.13066101074219
+        },
+        "Status": {
+          "y": 232.17996215820312,
+          "x": 22.55999755859375,
+          "w": 255.67999267578125,
+          "h": 11.906665802001953
+        },
+        "Slot6": {
+          "y": 156.09002685546875,
+          "x": 75.21260833740234,
+          "w": 49.13066101074219,
+          "h": 49.13066101074219
+        },
+        "Slot1": {
+          "y": 33.877593994140625,
+          "x": 125.83465576171875,
+          "w": 49.13066101074219,
+          "h": 49.13066101074219
+        },
+        "Slot4": {
+          "y": 156.09002685546875,
+          "x": 176.45669555664062,
+          "w": 49.13066101074219,
+          "h": 49.13066101074219
+        },
+        "ShopButton": {
+          "y": 280.1199951171875,
+          "x": 75.19999694824219,
+          "w": 150.39999389648438,
+          "h": 26
+        },
+        "Next": {
+          "y": 247.5333251953125,
+          "x": 198.5279998779297,
+          "w": 36.09599685668945,
+          "h": 26
+        },
+        "Title": {
+          "y": 7.833335876464844,
+          "x": 24.064002990722656,
+          "w": 216.5760040283203,
+          "h": 20.36666488647461
+        },
+        "StopButton": {
+          "y": 140.37332153320312,
+          "x": 126.33599853515625,
+          "w": 48.12799835205078,
+          "h": 26
+        },
+        "Previous": {
+          "y": 247.5333251953125,
+          "x": 66.17599487304688,
+          "w": 36.09599685668945,
+          "h": 26
+        },
+        "Slot5": {
+          "y": 177.058349609375,
+          "x": 125.83465576171875,
+          "w": 49.13066101074219,
+          "h": 49.13066101074219
+        },
+        "Hint": {
+          "y": 107.16000366210938,
+          "x": 111.2959976196289,
+          "w": 78.20799255371094,
+          "h": 26.633331298828125
+        },
+        "Slot2": {
+          "y": 54.845947265625,
+          "x": 176.45669555664062,
+          "w": 49.13066101074219,
+          "h": 49.13066101074219
+        }
+      },
+      "viewport": [
+        320,
+        568
+      ],
+      "issues": [],
+      "pass": true,
+      "texts": [
+        {
+          "fits": true,
+          "bounds": [
+            31,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.ItemName",
+          "box": [
+            47.656742095947266,
+            16.458772659301758
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            29,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.State",
+          "box": [
+            41.269752502441406,
+            7.860905647277832
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            35,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.ItemName",
+          "box": [
+            47.656742095947266,
+            16.458772659301758
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.State",
+          "box": [
+            41.269752502441406,
+            7.860905647277832
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            47,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.ItemName",
+          "box": [
+            47.656742095947266,
+            16.458772659301758
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.State",
+          "box": [
+            41.269752502441406,
+            7.860905647277832
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            39,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.ItemName",
+          "box": [
+            47.656742095947266,
+            16.458772659301758
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.State",
+          "box": [
+            41.269752502441406,
+            7.860905647277832
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.ItemName",
+          "box": [
+            47.656742095947266,
+            16.458772659301758
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.State",
+          "box": [
+            41.269752502441406,
+            7.860905647277832
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            39,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.ItemName",
+          "box": [
+            47.656742095947266,
+            16.458772659301758
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.State",
+          "box": [
+            41.269752502441406,
+            7.860905647277832
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.ItemName",
+          "box": [
+            47.656742095947266,
+            16.458772659301758
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.State",
+          "box": [
+            41.269752502441406,
+            7.860905647277832
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            42,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.ItemName",
+          "box": [
+            47.656742095947266,
+            16.458772659301758
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.State",
+          "box": [
+            41.269752502441406,
+            7.860905647277832
+          ]
+        }
+      ]
+    },
+    {
+      "panel": {
+        "y": 14.160003662109375,
+        "x": 221.67361450195312,
+        "w": 312.65277099609375,
+        "h": 325.67999267578125
+      },
+      "safeArea": [
+        756,
+        354
+      ],
+      "nodes": {
+        "Close": {
+          "y": 8.793357849121094,
+          "x": 272.0079040527344,
+          "w": 30,
+          "h": 26
+        },
+        "Slot7": {
+          "y": 109.62388610839844,
+          "x": 56.3817138671875,
+          "w": 51.06662368774414,
+          "h": 51.06662368774414
+        },
+        "Slot8": {
+          "y": 57.007110595703125,
+          "x": 78.17630004882812,
+          "w": 51.06662368774414,
+          "h": 51.06662368774414
+        },
+        "PageLabel": {
+          "y": 258.5899353027344,
+          "x": 112.55499267578125,
+          "w": 87.54277801513672,
+          "h": 20.843521118164062
+        },
+        "Slot3": {
+          "y": 109.62388610839844,
+          "x": 205.20443725585938,
+          "w": 51.06662368774414,
+          "h": 51.06662368774414
+        },
+        "Status": {
+          "y": 241.328857421875,
+          "x": 23.448959350585938,
+          "w": 265.7548522949219,
+          "h": 12.375839233398438
+        },
+        "Slot6": {
+          "y": 162.2406768798828,
+          "x": 78.17630004882812,
+          "w": 51.06662368774414,
+          "h": 51.06662368774414
+        },
+        "Slot1": {
+          "y": 35.2125244140625,
+          "x": 130.79306030273438,
+          "w": 51.06662368774414,
+          "h": 51.06662368774414
+        },
+        "Slot4": {
+          "y": 162.2406768798828,
+          "x": 183.40985107421875,
+          "w": 51.06662368774414,
+          "h": 51.06662368774414
+        },
+        "ShopButton": {
+          "y": 291.15789794921875,
+          "x": 78.16317749023438,
+          "w": 156.32638549804688,
+          "h": 26
+        },
+        "Next": {
+          "y": 257.2872009277344,
+          "x": 206.350830078125,
+          "w": 37.518333435058594,
+          "h": 26
+        },
+        "Title": {
+          "y": 8.14200210571289,
+          "x": 25.012237548828125,
+          "w": 225.11000061035156,
+          "h": 21.169198989868164
+        },
+        "StopButton": {
+          "y": 145.90464782714844,
+          "x": 131.31417846679688,
+          "w": 50.02444076538086,
+          "h": 26
+        },
+        "Previous": {
+          "y": 257.2872009277344,
+          "x": 68.78359985351562,
+          "w": 37.518333435058594,
+          "h": 26
+        },
+        "Slot5": {
+          "y": 184.03526306152344,
+          "x": 130.79306030273438,
+          "w": 51.06662368774414,
+          "h": 51.06662368774414
+        },
+        "Hint": {
+          "y": 111.382568359375,
+          "x": 115.6815185546875,
+          "w": 81.28971862792969,
+          "h": 27.68280029296875
+        },
+        "Slot2": {
+          "y": 57.007110595703125,
+          "x": 183.40985107421875,
+          "w": 51.06662368774414,
+          "h": 51.06662368774414
+        }
+      },
+      "viewport": [
+        844,
+        390
+      ],
+      "issues": [],
+      "pass": true,
+      "texts": [
+        {
+          "fits": true,
+          "bounds": [
+            31,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.ItemName",
+          "box": [
+            49.53462600708008,
+            17.107318878173828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            31,
+            8
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.State",
+          "box": [
+            42.89596176147461,
+            8.170660018920898
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            35,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.ItemName",
+          "box": [
+            49.53462600708008,
+            17.107318878173828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            8
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.State",
+          "box": [
+            42.89596176147461,
+            8.170660018920898
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            47,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.ItemName",
+          "box": [
+            49.53462600708008,
+            17.107318878173828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            8
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.State",
+          "box": [
+            42.89596176147461,
+            8.170660018920898
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            39,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.ItemName",
+          "box": [
+            49.53462600708008,
+            17.107318878173828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            8
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.State",
+          "box": [
+            42.89596176147461,
+            8.170660018920898
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.ItemName",
+          "box": [
+            49.53462600708008,
+            17.107318878173828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            8
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.State",
+          "box": [
+            42.89596176147461,
+            8.170660018920898
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            39,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.ItemName",
+          "box": [
+            49.53462600708008,
+            17.107318878173828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            8
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.State",
+          "box": [
+            42.89596176147461,
+            8.170660018920898
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.ItemName",
+          "box": [
+            49.53462600708008,
+            17.107318878173828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            8
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.State",
+          "box": [
+            42.89596176147461,
+            8.170660018920898
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            42,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.ItemName",
+          "box": [
+            49.53462600708008,
+            17.107318878173828
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            8
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.State",
+          "box": [
+            42.89596176147461,
+            8.170660018920898
+          ]
+        }
+      ]
+    },
+    {
+      "panel": {
+        "y": 13.55999755859375,
+        "x": 139.79759216308594,
+        "w": 299.4048156738281,
+        "h": 311.8800048828125
+      },
+      "safeArea": [
+        579,
+        339
+      ],
+      "nodes": {
+        "Close": {
+          "y": 8.420761108398438,
+          "x": 260.482177734375,
+          "w": 30,
+          "h": 26
+        },
+        "Slot7": {
+          "y": 104.97881317138672,
+          "x": 53.99267578125,
+          "w": 48.90278244018555,
+          "h": 48.90278244018555
+        },
+        "Slot8": {
+          "y": 54.59156036376953,
+          "x": 74.86375427246094,
+          "w": 48.90278244018555,
+          "h": 48.90278244018555
+        },
+        "PageLabel": {
+          "y": 247.63275146484375,
+          "x": 107.78573608398438,
+          "w": 83.8333511352539,
+          "h": 19.9603214263916
+        },
+        "Slot3": {
+          "y": 104.97881317138672,
+          "x": 196.5093536376953,
+          "w": 48.90278244018555,
+          "h": 48.90278244018555
+        },
+        "Status": {
+          "y": 231.10308837890625,
+          "x": 22.455368041992188,
+          "w": 254.4940948486328,
+          "h": 11.851439476013184
+        },
+        "Slot6": {
+          "y": 155.3660888671875,
+          "x": 74.86375427246094,
+          "w": 48.90278244018555,
+          "h": 48.90278244018555
+        },
+        "Slot1": {
+          "y": 33.72047424316406,
+          "x": 125.25102233886719,
+          "w": 48.90278244018555,
+          "h": 48.90278244018555
+        },
+        "Slot4": {
+          "y": 155.3660888671875,
+          "x": 175.63829040527344,
+          "w": 48.90278244018555,
+          "h": 48.90278244018555
+        },
+        "ShopButton": {
+          "y": 278.8207092285156,
+          "x": 74.85121154785156,
+          "w": 149.70240783691406,
+          "h": 26
+        },
+        "Next": {
+          "y": 246.38519287109375,
+          "x": 197.60719299316406,
+          "w": 35.9285774230957,
+          "h": 26
+        },
+        "Title": {
+          "y": 7.797000885009766,
+          "x": 23.952377319335938,
+          "w": 215.57147216796875,
+          "h": 20.272199630737305
+        },
+        "StopButton": {
+          "y": 139.7222442626953,
+          "x": 125.75001525878906,
+          "w": 47.90476989746094,
+          "h": 26
+        },
+        "Previous": {
+          "y": 246.38519287109375,
+          "x": 65.86906433105469,
+          "w": 35.9285774230957,
+          "h": 26
+        },
+        "Slot5": {
+          "y": 176.23715209960938,
+          "x": 125.25102233886719,
+          "w": 48.90278244018555,
+          "h": 48.90278244018555
+        },
+        "Hint": {
+          "y": 106.6629638671875,
+          "x": 110.77978515625,
+          "w": 77.84525299072266,
+          "h": 26.50979995727539
+        },
+        "Slot2": {
+          "y": 54.59156036376953,
+          "x": 175.63829040527344,
+          "w": 48.90278244018555,
+          "h": 48.90278244018555
+        }
+      },
+      "viewport": [
+        667,
+        375
+      ],
+      "issues": [],
+      "pass": true,
+      "texts": [
+        {
+          "fits": true,
+          "bounds": [
+            31,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.ItemName",
+          "box": [
+            47.435699462890625,
+            16.38243293762207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            29,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.State",
+          "box": [
+            41.07833480834961,
+            7.8244452476501465
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            35,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.ItemName",
+          "box": [
+            47.435699462890625,
+            16.38243293762207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.State",
+          "box": [
+            41.07833480834961,
+            7.8244452476501465
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            47,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.ItemName",
+          "box": [
+            47.435699462890625,
+            16.38243293762207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.State",
+          "box": [
+            41.07833480834961,
+            7.8244452476501465
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            39,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.ItemName",
+          "box": [
+            47.435699462890625,
+            16.38243293762207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.State",
+          "box": [
+            41.07833480834961,
+            7.8244452476501465
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            38,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.ItemName",
+          "box": [
+            47.435699462890625,
+            16.38243293762207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.State",
+          "box": [
+            41.07833480834961,
+            7.8244452476501465
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            39,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.ItemName",
+          "box": [
+            47.435699462890625,
+            16.38243293762207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.State",
+          "box": [
+            41.07833480834961,
+            7.8244452476501465
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.ItemName",
+          "box": [
+            47.435699462890625,
+            16.38243293762207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.State",
+          "box": [
+            41.07833480834961,
+            7.8244452476501465
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            42,
+            16
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.ItemName",
+          "box": [
+            47.435699462890625,
+            16.38243293762207
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.State",
+          "box": [
+            41.07833480834961,
+            7.8244452476501465
+          ]
+        }
+      ]
+    },
+    {
+      "panel": {
+        "y": 1.375,
+        "x": 105,
+        "w": 270,
+        "h": 281.25
+      },
+      "safeArea": [
+        480,
+        284
+      ],
+      "nodes": {
+        "Close": {
+          "y": 7.59375,
+          "x": 234.89999389648438,
+          "w": 30,
+          "h": 26
+        },
+        "Slot7": {
+          "y": 94.66874694824219,
+          "x": 48.69000244140625,
+          "w": 44.10000228881836,
+          "h": 44.10000228881836
+        },
+        "Slot8": {
+          "y": 49.230064392089844,
+          "x": 67.51130676269531,
+          "w": 44.10000228881836,
+          "h": 44.10000228881836
+        },
+        "PageLabel": {
+          "y": 223.31251525878906,
+          "x": 97.20001220703125,
+          "w": 75.5999984741211,
+          "h": 18
+        },
+        "Slot3": {
+          "y": 94.66874694824219,
+          "x": 177.21002197265625,
+          "w": 44.10000228881836,
+          "h": 44.10000228881836
+        },
+        "Status": {
+          "y": 208.40625,
+          "x": 20.25,
+          "w": 229.5,
+          "h": 10.6875
+        },
+        "Slot6": {
+          "y": 140.107421875,
+          "x": 67.51130676269531,
+          "w": 44.10000228881836,
+          "h": 44.10000228881836
+        },
+        "Slot1": {
+          "y": 30.408750534057617,
+          "x": 112.94999694824219,
+          "w": 44.10000228881836,
+          "h": 44.10000228881836
+        },
+        "Slot4": {
+          "y": 140.107421875,
+          "x": 158.388671875,
+          "w": 44.10000228881836,
+          "h": 44.10000228881836
+        },
+        "ShopButton": {
+          "y": 251.4375,
+          "x": 67.5,
+          "w": 135,
+          "h": 26
+        },
+        "Next": {
+          "y": 222.1875,
+          "x": 178.20001220703125,
+          "w": 32.39999771118164,
+          "h": 26
+        },
+        "Title": {
+          "y": 7.03125,
+          "x": 21.599998474121094,
+          "w": 194.40000915527344,
+          "h": 18.28125
+        },
+        "StopButton": {
+          "y": 126,
+          "x": 113.39999389648438,
+          "w": 43.20000076293945,
+          "h": 26
+        },
+        "Previous": {
+          "y": 222.1875,
+          "x": 59.399993896484375,
+          "w": 32.39999771118164,
+          "h": 26
+        },
+        "Slot5": {
+          "y": 158.92874145507812,
+          "x": 112.94999694824219,
+          "w": 44.10000228881836,
+          "h": 44.10000228881836
+        },
+        "Hint": {
+          "y": 96.1875,
+          "x": 99.89999389648438,
+          "w": 70.19999694824219,
+          "h": 23.90625
+        },
+        "Slot2": {
+          "y": 49.230064392089844,
+          "x": 158.388671875,
+          "w": 44.10000228881836,
+          "h": 44.10000228881836
+        }
+      },
+      "viewport": [
+        568,
+        320
+      ],
+      "issues": [],
+      "pass": true,
+      "texts": [
+        {
+          "fits": true,
+          "bounds": [
+            29,
+            14
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.ItemName",
+          "box": [
+            42.77700424194336,
+            14.7735013961792
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            29,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot1.State",
+          "box": [
+            37.044002532958984,
+            7.056000232696533
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            32,
+            14
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.ItemName",
+          "box": [
+            42.77700424194336,
+            14.7735013961792
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot2.State",
+          "box": [
+            37.044002532958984,
+            7.056000232696533
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            42,
+            14
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.ItemName",
+          "box": [
+            42.77700424194336,
+            14.7735013961792
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot3.State",
+          "box": [
+            37.044002532958984,
+            7.056000232696533
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            37,
+            14
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.ItemName",
+          "box": [
+            42.77700424194336,
+            14.7735013961792
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot4.State",
+          "box": [
+            37.044002532958984,
+            7.056000232696533
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            34,
+            14
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.ItemName",
+          "box": [
+            42.77700424194336,
+            14.7735013961792
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot5.State",
+          "box": [
+            37.044002532958984,
+            7.056000232696533
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            35,
+            14
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.ItemName",
+          "box": [
+            42.77700424194336,
+            14.7735013961792
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot6.State",
+          "box": [
+            37.044002532958984,
+            7.056000232696533
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            31,
+            14
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.ItemName",
+          "box": [
+            42.77700424194336,
+            14.7735013961792
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot7.State",
+          "box": [
+            37.044002532958984,
+            7.056000232696533
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            39,
+            14
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.ItemName",
+          "box": [
+            42.77700424194336,
+            14.7735013961792
+          ]
+        },
+        {
+          "fits": true,
+          "bounds": [
+            33,
+            7
+          ],
+          "name": "StarterGui.__EmoteWheelLayoutAudit.VirtualViewport.Panel.Wheel.Slot8.State",
+          "box": [
+            37.044002532958984,
+            7.056000232696533
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "Native UIAspectRatioConstraint and UISizeConstraint evaluation in an isolated disabled StarterGui fixture; no controller.",
+  "passed": true,
+  "labelChecks": 144,
+  "refinement": "ItemName width increased from 0.88 to 0.97 of slot after native 568x320 checks found clipping for Pretty Young Thing and NLE Choppa Demon. All 144 tested name/state labels now fit."
+}

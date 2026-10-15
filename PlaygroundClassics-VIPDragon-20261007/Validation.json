@@ -1,0 +1,56 @@
+[
+  {
+    "name": "vip-dragon-clean",
+    "size": 512,
+    "width": 512,
+    "height": 512,
+    "transparentPixels": 182859,
+    "edgePixelsAbove8": 0,
+    "pass": true
+  },
+  {
+    "name": "vip-dragon-clean",
+    "size": 256,
+    "width": 256,
+    "height": 256,
+    "transparentPixels": 44803,
+    "edgePixelsAbove8": 0,
+    "pass": true
+  },
+  {
+    "name": "vip-dragon-clean",
+    "size": 128,
+    "width": 128,
+    "height": 128,
+    "transparentPixels": 10895,
+    "edgePixelsAbove8": 0,
+    "pass": true
+  },
+  {
+    "name": "vip-dragon-glow",
+    "size": 512,
+    "width": 512,
+    "height": 512,
+    "transparentPixels": 186728,
+    "edgePixelsAbove8": 0,
+    "pass": true
+  },
+  {
+    "name": "vip-dragon-glow",
+    "size": 256,
+    "width": 256,
+    "height": 256,
+    "transparentPixels": 46309,
+    "edgePixelsAbove8": 0,
+    "pass": true
+  },
+  {
+    "name": "vip-dragon-glow",
+    "size": 128,
+    "width": 128,
+    "height": 128,
+    "transparentPixels": 11642,
+    "edgePixelsAbove8": 0,
+    "pass": true
+  }
+]

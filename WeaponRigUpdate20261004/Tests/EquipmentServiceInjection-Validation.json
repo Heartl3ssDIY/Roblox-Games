@@ -1,0 +1,38 @@
+{
+  "capabilities": {
+    "TagService": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "PlaygroundEquipmentService": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+    "BritishBulldogService": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+  },
+  "playStarted": false,
+  "checks": [
+    "BritishBulldogService retains exact live sandbox settings",
+    "TagService retains exact live sandbox settings",
+    "PlaygroundEquipmentService retains exact live sandbox settings",
+    "BritishBulldog resolves exact injected service",
+    "BritishBulldog genuine swing accepted through Equipment capability boundary",
+    "BritishBulldog genuine service creates contact window and timestamp",
+    "BritishBulldog accepted swing starts tool animation",
+    "BritishBulldog cooldown is enforced across injected call",
+    "BritishBulldog genuine cancellation clears windup and preserves cooldown",
+    "BritishBulldog cancellation cannot bypass cooldown",
+    "BritishBulldog genuine frozen-state rejection propagates",
+    "BritishBulldog restored state permits a new swing",
+    "BritishBulldog cleanup cancels genuine service window and destroys tool",
+    "TagYoureIt resolves exact injected service",
+    "TagYoureIt genuine swing accepted through Equipment capability boundary",
+    "TagYoureIt genuine service creates contact window and timestamp",
+    "TagYoureIt accepted swing starts tool animation",
+    "TagYoureIt cooldown is enforced across injected call",
+    "TagYoureIt genuine cancellation clears windup and preserves cooldown",
+    "TagYoureIt cancellation cannot bypass cooldown",
+    "TagYoureIt genuine frozen-state rejection propagates",
+    "TagYoureIt restored state permits a new swing",
+    "TagYoureIt cleanup cancels genuine service window and destroys tool"
+  ],
+  "fixtureDestroyed": true,
+  "realPlayersMutated": 0,
+  "passed": true,
+  "capabilityChanges": false,
+  "source": "After candidates tested with exact live sandbox configuration"
+}

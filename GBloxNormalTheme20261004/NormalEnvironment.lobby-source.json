@@ -1,0 +1,98 @@
+{
+  "lighting": {
+    "ExposureCompensation": 0,
+    "ColorShift_Bottom": {
+      "values": [
+        0,
+        0,
+        0
+      ],
+      "type": "Color3"
+    },
+    "FogColor": {
+      "values": [
+        0.7529412508010864,
+        0.7529412508010864,
+        0.7529412508010864
+      ],
+      "type": "Color3"
+    },
+    "FogEnd": 100000,
+    "GeographicLatitude": 0,
+    "EnvironmentDiffuseScale": 1,
+    "EnvironmentSpecularScale": 1,
+    "ShadowSoftness": 0.20000000298023224,
+    "FogStart": 0,
+    "Ambient": {
+      "values": [
+        0.27450981736183167,
+        0.27450981736183167,
+        0.27450981736183167
+      ],
+      "type": "Color3"
+    },
+    "OutdoorAmbient": {
+      "values": [
+        0.27450981736183167,
+        0.27450981736183167,
+        0.27450981736183167
+      ],
+      "type": "Color3"
+    },
+    "GlobalShadows": true,
+    "Brightness": 3,
+    "ColorShift_Top": {
+      "values": [
+        0,
+        0,
+        0
+      ],
+      "type": "Color3"
+    },
+    "ClockTime": 14.5
+  },
+  "sky": {
+    "StarCount": 3000,
+    "SkyboxUp": "rbxassetid://6412503613",
+    "MoonTextureId": "rbxassetid://6444320592",
+    "SkyboxDn": "rbxassetid://6444884785",
+    "SkyboxOrientation": {
+      "values": [
+        0,
+        0,
+        0
+      ],
+      "type": "Vector3"
+    },
+    "CelestialBodiesShown": true,
+    "SkyboxBk": "rbxassetid://6444884337",
+    "SkyboxFt": "rbxassetid://6444884337",
+    "SunTextureId": "rbxassetid://6196665106",
+    "SunAngularSize": 11,
+    "SkyboxLf": "rbxassetid://6444884337",
+    "SkyboxRt": "rbxassetid://6444884337",
+    "MoonAngularSize": 11
+  },
+  "atmosphere": {
+    "Density": 0.30000001192092896,
+    "Haze": 0,
+    "Color": {
+      "values": [
+        0.7803921699523926,
+        0.7803921699523926,
+        0.7803921699523926
+      ],
+      "type": "Color3"
+    },
+    "Decay": {
+      "values": [
+        0.4156862795352936,
+        0.43921568989753723,
+        0.4901960790157318
+      ],
+      "type": "Color3"
+    },
+    "Glare": 0,
+    "Offset": 0.25
+  }
+}

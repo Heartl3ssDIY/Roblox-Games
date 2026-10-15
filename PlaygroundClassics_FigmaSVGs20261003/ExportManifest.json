@@ -1,0 +1,1256 @@
+{
+  "date": "2026-10-03",
+  "files": [
+    {
+      "file": "Controls/BritishBulldogHUD/MovementControls_Dodge.svg",
+      "bytes": 3064,
+      "sha256": "1f70b3b74ef91834e476f0eb6cb70730b62b72ec79ecc5d883fcc5ec6afa2d06"
+    },
+    {
+      "file": "Controls/BritishBulldogHUD/MovementControls_Sprint.svg",
+      "bytes": 2951,
+      "sha256": "0901ac3a894e7800d37337540eb7835adc5def1c8e6426ceb4f0081693f19c92"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Black.svg",
+      "bytes": 1244,
+      "sha256": "3d7a2be66eb93a4b7ed17b854f98c7b6082690c1ea6d293068af61b863c0f94e"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Blue.svg",
+      "bytes": 1236,
+      "sha256": "87a01448eae2bb80651672ddff8b2cd3a19136d0dbe48dd9c96bfb895dfb5368"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Close.svg",
+      "bytes": 1223,
+      "sha256": "db90e767d5df5ad881b85b1c4ce4f155d2c3d87aa8e1acf2eb3acf050f69144e"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Green.svg",
+      "bytes": 1244,
+      "sha256": "f403fa11c12fa920c013d7a66d297987dc7135b2e7a9ad0cb47b06f243082cdd"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Red.svg",
+      "bytes": 1228,
+      "sha256": "f62b4ae4b832445878e8f3d0861d52b1b6f74fb327191560809d2e75e1fbf73c"
+    },
+    {
+      "file": "Controls/MudHUD/ColourToggle.svg",
+      "bytes": 1199,
+      "sha256": "54ae1ec716e5986b0f2c560a28ee21180e47f3482095b04fabefddb410b2cb85"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Fire.svg",
+      "bytes": 1239,
+      "sha256": "bcc89a38a75baa1d12292f66a65fb1ef73ebf773463f8a5f8dc28500fcf7c2b9"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Heat.svg",
+      "bytes": 1764,
+      "sha256": "43152ca33184c3e27d936ed32697be46aae188d12dbcf3a0a9321eeef87a48b3"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Mud.svg",
+      "bytes": 1754,
+      "sha256": "f3cce61d079086714fa33ca729432efce647bbd6a3b8a36ea3f59bd6da77b351"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Sprint.svg",
+      "bytes": 1282,
+      "sha256": "60e5b1bf3595a10d9df070262a00af79da00deba61d6e1210f07bc82b4b1f08e"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Top_Team.svg",
+      "bytes": 1775,
+      "sha256": "9c7eb47e4fff2e3434e9dec4e1647ef74b057618a0a3fe9c7dd5f8452974954d"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "bytes": 1531,
+      "sha256": "ba335f1eb653b804eee716208afb59c477da4119dc822332fd350a51650e52d0"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBRunner.svg",
+      "bytes": 1523,
+      "sha256": "91fbbb43a7e71dc5218df3a8def2af4e8bd59c7e15115acd0d04db65dc59cd70"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBStart.svg",
+      "bytes": 1515,
+      "sha256": "58cb8c74b0f34a6d01b822f8e14b11d0e833c225bbf995936971b28498bad711"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StopRound.svg",
+      "bytes": 1455,
+      "sha256": "25b0660287400863e787bf0d233459f8e1a4a1bfebdb10cfa4e2d198b23126d3"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudMedic.svg",
+      "bytes": 1517,
+      "sha256": "63e49533932e5145bcb3c110e2648026b2c739e038f7d58ab55b71f926177b95"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudShooter.svg",
+      "bytes": 1531,
+      "sha256": "daf0cc6655eb4e220e23cade0f64ffeb14a1de90812ff42a3b0b5f314f8995d4"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudStart.svg",
+      "bytes": 1515,
+      "sha256": "e53403064b3d4918bb62480a5bd2e548e8cb0f619600afb2ec82d22069d85ce1"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagRunner.svg",
+      "bytes": 1505,
+      "sha256": "1e012417afa5ea8dae9ab9e14ee39c9d4cc221fa04c10eca7efd245d67967be7"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagStart.svg",
+      "bytes": 1497,
+      "sha256": "fe870e01abe17ee7ea3b0ae1b45b026e1fc453bcca01cb732738d788238c29f6"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagTagger.svg",
+      "bytes": 1505,
+      "sha256": "9611aacd964b927f4d61acfca39d265e79df587f5216e42d25e4c6fb536764bf"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_ToggleAutomatic.svg",
+      "bytes": 1483,
+      "sha256": "1974a9c51089dfbae73ad4566255eb35f2c67371bd4de5a97682b28419493a81"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Close.svg",
+      "bytes": 1323,
+      "sha256": "046e4ccdc60c3047847867915aa173d989c75ec67fc0e139d2ef55d5ffb8e590"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactToggle.svg",
+      "bytes": 1299,
+      "sha256": "68fe104079940c09cf6c56471724ab6b23ecaaadf595e6087a6471a2fe9a14f7"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "bytes": 1570,
+      "sha256": "0c73a8b09f4848371ae2ec8cb98ab3b943ef91c388e3b070ea677e8375be174a"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBRunner.svg",
+      "bytes": 1562,
+      "sha256": "18a53dd4ebd71398071f553f650327d22b6ed7b0fcb299a282448cfffa3399dc"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBStart.svg",
+      "bytes": 1556,
+      "sha256": "4c8dfe2b512be1fef9595505741e9051b5e76522a0c9f5dce52a110ecbbf1926"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudMedic.svg",
+      "bytes": 1556,
+      "sha256": "dfc412a2a4e61e77f10bd09094b6a52910e70c49d4180a35b8e7c7b180a6e2cb"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudShooter.svg",
+      "bytes": 1570,
+      "sha256": "151c3cc8db34a4c1d303681694da5eef421a2ef9f464b92d23ff27ccb771aabf"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudStart.svg",
+      "bytes": 1556,
+      "sha256": "8cf1576706f11b4db1a00de3e5c01552d96939b0d5f6af5f4c0f50b916c66f4e"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagRunner.svg",
+      "bytes": 1544,
+      "sha256": "b8c648d5eab8e77091906f9228bc5a3f70236ab17de24ccd1d99123c4ed5c740"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagStart.svg",
+      "bytes": 1538,
+      "sha256": "adb6d946ee17cab110681441be33918ab49e687676bba59e735f782cf73d2832"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagTagger.svg",
+      "bytes": 1544,
+      "sha256": "2474455e515d1c00762aafba27bea598ad3503934cca460dfdb0e144f34e1d16"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Close.svg",
+      "bytes": 1337,
+      "sha256": "6d9408d6a761602b6f4782f1a7104d5265b3005e1c23bce02d4f382e03d344a0"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_StopRound.svg",
+      "bytes": 1414,
+      "sha256": "d3c72e5b2c080f9d420b70497c25e2fbdbba61e6df7733de6a5aa2bbcad947e3"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_ToggleAutomatic.svg",
+      "bytes": 1405,
+      "sha256": "5ddd7667797a3edead2ed1bb7cc5cf78ff423f3126ee70ead3c71258fb4d2e6e"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Toggle.svg",
+      "bytes": 1270,
+      "sha256": "43383006c40c59d57710043495838b1ec44cf999cc241603783357f1a38a23fe"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Backdrop.svg",
+      "bytes": 652,
+      "sha256": "4303dcfb16d46685615bb46dd7a505281ac2de63c5b3f84e2e03f31d06001b19"
+    },
+    {
+      "file": "Controls/PlaygroundShell/CompactVotePanel_BritishBulldog.svg",
+      "bytes": 2089,
+      "sha256": "005045c9a8dc9af1d1046eac95376d4864c96b0226ace57a285a4d73c00ff097"
+    },
+    {
+      "file": "Controls/PlaygroundShell/CompactVotePanel_StuckInTheMud.svg",
+      "bytes": 2083,
+      "sha256": "f0153dfccaf026e8c1ab0b217331e8028823b1e36a3352ef2020214e9f0d1918"
+    },
+    {
+      "file": "Controls/PlaygroundShell/CompactVotePanel_TagYoureIt.svg",
+      "bytes": 2050,
+      "sha256": "74cda0fbe1ddd85b39495df757914007198b6120fc841eb936c5bc4dc4578b01"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Dock_Emoji.svg",
+      "bytes": 1237,
+      "sha256": "f494b15937bb180257c48c9679a037a5b4cf21625fb9720c1de530f46a82d274"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Dock_Emote.svg",
+      "bytes": 1237,
+      "sha256": "1882f531698d18638d0bbe7abdd6d25eef7d86cdae3ad520fc71d916de70ccc6"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Dock_Shop.svg",
+      "bytes": 1236,
+      "sha256": "54b08037a39bf14740b100e33246a2f8ee43e9a6c1903db434efc505e4bbe6ff"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_All.svg",
+      "bytes": 1330,
+      "sha256": "f967fc81560b471895e02231de58f90afdf33898783de8373cd4997c58a178f2"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Emojis.svg",
+      "bytes": 1358,
+      "sha256": "6998ef09312650fcbb94eaa8b8b233d0460976048e2793e1294a8dbf771bc5d3"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Emotes.svg",
+      "bytes": 1358,
+      "sha256": "a786a22802be9262d872860e19fa16da70b7b82be36a3f88b9261056e8a33b7c"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Gear.svg",
+      "bytes": 1342,
+      "sha256": "b70283d5039d5e11e7ecfec5872874ae994b20a0d953c23196f7b8bf22774c75"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Highlights.svg",
+      "bytes": 1392,
+      "sha256": "0ece58a7552388018deb23f12889ed804ed93211767b1528c43d2182a3836f84"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Pets.svg",
+      "bytes": 1342,
+      "sha256": "488dfd22b7a42fba9ae6c52a1d98edb2ad047b2f82fe79d7b008116c5b6f2498"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Trails.svg",
+      "bytes": 1358,
+      "sha256": "50aacd209820564020794bc9a3cdd19b260f5643d350fbd67c6b0f3a5a8ecd72"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Close.svg",
+      "bytes": 1259,
+      "sha256": "d83c311ab534aa74ee47f19ccc61b5db2890d67c9364b3661265ac7f6c811246"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Templates_ItemCard_Action.svg",
+      "bytes": 1329,
+      "sha256": "817ad353ed2b543b49a42bd515d46f630e83a1d9b2749581cb48544d8d230f11"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Templates_ItemCard_Try.svg",
+      "bytes": 1313,
+      "sha256": "98b68775bbe363387bcb00b9ec509e627a42ce58465b4c0223262a06219cf890"
+    },
+    {
+      "file": "Controls/PlaygroundShell/VotePanel_BritishBulldog.svg",
+      "bytes": 2031,
+      "sha256": "b62e42790dfcac02d7283d036abd1801f245e9e38534cc929dbfaa5f71a740ab"
+    },
+    {
+      "file": "Controls/PlaygroundShell/VotePanel_StuckInTheMud.svg",
+      "bytes": 2025,
+      "sha256": "f4b32f6e1aca0eb2c6c8138f378333197612f3d223298a89e5e8386b68b3b60b"
+    },
+    {
+      "file": "Controls/PlaygroundShell/VotePanel_TagYoureIt.svg",
+      "bytes": 1988,
+      "sha256": "f2c6bda9cacb1a39ca724c5ac30f82441e502c335f9f28c555510e1c343e350a"
+    },
+    {
+      "file": "Controls/TagHUD/Controls_Dodge.svg",
+      "bytes": 1835,
+      "sha256": "df50cb9b3bdfcd8e8d069dce03ffe06c887daed6f396e1e6ddfb91900351174b"
+    },
+    {
+      "file": "Controls/TagHUD/Controls_Vault.svg",
+      "bytes": 1835,
+      "sha256": "225069f6b6e4484604051f4ca00007f9aef309af75b94131d98230d061737f29"
+    },
+    {
+      "file": "Controls/TagHUD/SprintPanel_Sprint.svg",
+      "bytes": 1872,
+      "sha256": "3cacb3c392b99fcbd438b05269917f6c1c4df773974a4c612fc32df2716b3885"
+    },
+    {
+      "file": "FigmaTextImporter/code.js",
+      "bytes": 9019,
+      "sha256": "b8df4e739653e04fc10f29a5ae78f4acf49f7a7dc9b4020331e15da2660cd737"
+    },
+    {
+      "file": "FigmaTextImporter/manifest.json",
+      "bytes": 260,
+      "sha256": "0356cf3cff62957621bf7999359d4874250a4767c21f4fed0248a03f937d6513"
+    },
+    {
+      "file": "FigmaTextImporter/README.txt",
+      "bytes": 2431,
+      "sha256": "83d863e7e5e3b3341da026d4bebc53375776873795db4147ec87c154690fc6d7"
+    },
+    {
+      "file": "FigmaTextImporter/ui.html",
+      "bytes": 6983,
+      "sha256": "7b79038218592d8b27befc595f55712220676c1a44024f6b025fe80909d42279"
+    },
+    {
+      "file": "FigmaTextImporter/ValidateImporter.cjs",
+      "bytes": 11029,
+      "sha256": "ba60f83b322a6c76f864d947038798a7bce329f4ab1312dcb24b7a9b2a8d5684"
+    },
+    {
+      "file": "HiddenElements/BritishBulldogHUD_MovementControls_Dodge_IconFallback.svg",
+      "bytes": 1347,
+      "sha256": "a91e01582d9828b7006615993984c53fc5f6bf8f2ac4fa68050a6859a74b3768"
+    },
+    {
+      "file": "HiddenElements/BritishBulldogHUD_MovementControls_Sprint_IconFallback.svg",
+      "bytes": 1351,
+      "sha256": "6a39d6202a5df4f0017c47e962342165bb48ad1b44370c3e65bbedb9bb0464ee"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_LevelPanel_IconFallback.svg",
+      "bytes": 1244,
+      "sha256": "c8d2d74e493a2216078584fb0e90b9c846b03796f5124495b1a8e450a6eb9e99"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot01_Try.svg",
+      "bytes": 1350,
+      "sha256": "86094cbe8b743acb13895418e79a949398ab65c2a4afd68ae1cce67a1173adf5"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot02_Try.svg",
+      "bytes": 1350,
+      "sha256": "578e523b67fc76faea6b043015e8889bbd2b8325592e623b43250f24b1fc4f85"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot04_Try.svg",
+      "bytes": 1353,
+      "sha256": "e5e569dd634c5f8a9b447bd4c68e0b8f9ceaf576c5dda1a8b89c9327ee39aaf8"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot05_Try.svg",
+      "bytes": 1350,
+      "sha256": "baaceeab64ab4d9b441a940edac10df46f7235cc65ce45e8b1361d1479c4798b"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot06_Try.svg",
+      "bytes": 1350,
+      "sha256": "ec0a72589f62d9c5aaf0ac467352397f9b42e447fd75e97afec358a38c397877"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot07_Try.svg",
+      "bytes": 1350,
+      "sha256": "370836070f7285ddafa2e2e79e0f07c5aa8379eea1cf44ee1b8bd7e5fdb68803"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot08_Try.svg",
+      "bytes": 1353,
+      "sha256": "3e098b55101cc9afdad43ea213a6d82a46a974070a3cd21150cddb5ee88f6f72"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot09_Try.svg",
+      "bytes": 1350,
+      "sha256": "4516841824efc2c0a0cfd77ccc7b7a3fb13e89a167f96acb579e14d3532c07d8"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot10_Try.svg",
+      "bytes": 1350,
+      "sha256": "0d56ab4442afedcddbeeb8019758094649d93097a860fda71f6e68da4868e4a0"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot11_Try.svg",
+      "bytes": 1350,
+      "sha256": "1a4184029e56d4200c2c8ced629894a2d132cd060a900236521455927c8e78e4"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot12_Try.svg",
+      "bytes": 1353,
+      "sha256": "ae3f836524ea5b9a5d54a60c18ede2b2a82a076bb70ceb450d876abcfdc56daf"
+    },
+    {
+      "file": "Icons/dodge-swoosh.svg",
+      "bytes": 608,
+      "sha256": "5c9c7ec4414d89c207b9d1eaa06e7190c23c238e86272bcda264498b0c5e5443"
+    },
+    {
+      "file": "Icons/level-star.svg",
+      "bytes": 499,
+      "sha256": "ea15273e5a3c8673a51d6bf36de8c73a413246105fb5963036eb993c0ae04ba1"
+    },
+    {
+      "file": "Icons/sprint-lightning.svg",
+      "bytes": 475,
+      "sha256": "075e662d95f032e8aa5d49521b6e23702699577561b6c1bc7f0b99a30494a632"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/CompactDeparture.svg",
+      "bytes": 3677,
+      "sha256": "c070fb553e4fbd67eac1a6af8d0ddc9a51b64692df60bb76cf825220311580b6"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Countdown.svg",
+      "bytes": 1407,
+      "sha256": "47e2bcc7edd5d6748823223d4d074fbeb264351f2a115d9b4f511ef086d6e3dc"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Departure.svg",
+      "bytes": 3631,
+      "sha256": "3b7a4e24235298fed72eef1de686459314276387f6952088c62329d312403616"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/MovementControls.svg",
+      "bytes": 8974,
+      "sha256": "14547180b933567c25c3adca006179247323eef8c1b6164016aabf19677710d6"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Results.svg",
+      "bytes": 4782,
+      "sha256": "6d0427992e17d1c0183ec4eb3a638e78b65548b33bd4804e1636bb3ddf696816"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/RolePill.svg",
+      "bytes": 2175,
+      "sha256": "78e922bb868877d9661d7d963286508a3c21969949a7e24b4b8aac7fa71692c5"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Tagged.svg",
+      "bytes": 3040,
+      "sha256": "41c6588b05946412b5de30577669e0cf4c0af98323af901249acdd41679404f8"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/TopCard.svg",
+      "bytes": 8458,
+      "sha256": "58556e101b94c40cd0c3a684f992472ebe7005b4f59022985b473127443c0131"
+    },
+    {
+      "file": "Panels/MudHUD/ColourPicker.svg",
+      "bytes": 6447,
+      "sha256": "193c1e2dd64c4d3e8858b71b22333b644b2ffc2b6b4fc13bb1f962c2788318ee"
+    },
+    {
+      "file": "Panels/MudHUD/ColourToggle.svg",
+      "bytes": 1197,
+      "sha256": "857c29ec68ff01576fd4b74aac89bcb25b19ff7cf23252425555d8621b912641"
+    },
+    {
+      "file": "Panels/MudHUD/Controls.svg",
+      "bytes": 7006,
+      "sha256": "bced95b44100161deff572f69038303224df4bd16e941ab7dcdaabb715dec200"
+    },
+    {
+      "file": "Panels/MudHUD/Countdown.svg",
+      "bytes": 1235,
+      "sha256": "fd0df61b84b00f3ef1ff8a78ded0c2ac96225a08198760a2de881a19ef96151a"
+    },
+    {
+      "file": "Panels/MudHUD/Crosshair.svg",
+      "bytes": 1122,
+      "sha256": "918d7d571b5d154e76be76c64870929879963732961a0170988ec12b51895195"
+    },
+    {
+      "file": "Panels/MudHUD/Frozen.svg",
+      "bytes": 3092,
+      "sha256": "bd729f9614deb87686feaa349600c1ee454a5a4e9c577b19df9ce21b0b2993e8"
+    },
+    {
+      "file": "Panels/MudHUD/Results.svg",
+      "bytes": 3223,
+      "sha256": "6f983bb1381c85e87b4e55945ac6b18fd5a7eaeb8469cd53f0939a14cebe5b93"
+    },
+    {
+      "file": "Panels/MudHUD/Top.svg",
+      "bytes": 4394,
+      "sha256": "7d28df925afa62abe6f56c3af578ddbe847b1dcf0c1786f8570f28f544e459a6"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel.svg",
+      "bytes": 25071,
+      "sha256": "b11d8c11d35aca89b25c4fd0b99d5befa06131c27ec4b4ed9aefeccff207e4ae"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_AllGamesExpanded.svg",
+      "bytes": 22838,
+      "sha256": "e3aa154b61cadf06625ec71c58382f2e4b6fb8726eeaccd7cca931c55350d044"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_BritishBulldog.svg",
+      "bytes": 6047,
+      "sha256": "cb71964a1e13010a1d5fff6ec824b45dd214f8bd437fbf3cdff5cb7918d7b84f"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_StuckInTheMud.svg",
+      "bytes": 6030,
+      "sha256": "d46065f311a2ea005672baf55e46dcb6b928d46324b1a04deb84f5806357b9e4"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_TagYoureIt.svg",
+      "bytes": 5938,
+      "sha256": "80459dfabbd502e899c06f561065541e22e78d1d5f57c57140e577f160dbc07a"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactToggle.svg",
+      "bytes": 1297,
+      "sha256": "3628f3e1e3ef7e2c20ab27d2fc3503bd869852ad6ba14e18cf1c99280371d99d"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel.svg",
+      "bytes": 25581,
+      "sha256": "61d8fdbd9175bbede4c0c3ac69f7b762b3d7e7299b231fe9afa19638c06d12b8"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_AllGamesExpanded.svg",
+      "bytes": 23297,
+      "sha256": "7639723bd588b6f8b51367ce10cf65a3492f79303960fad83b176d061e53f0a7"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_BritishBulldog.svg",
+      "bytes": 6255,
+      "sha256": "830e074f6200f803941322371354c2c9e4aa88ef3c5dbeeada74a3085401b072"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_StuckInTheMud.svg",
+      "bytes": 6238,
+      "sha256": "8123518b1480a49f32210cdca37a1888ae99f492c50c092b160222f2a3fe22ae"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_TagYoureIt.svg",
+      "bytes": 6148,
+      "sha256": "a099c13910423f709f093d8bc6cdab4998420af4e310f2fa0fab7ad87c5d15e4"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Toggle.svg",
+      "bytes": 1268,
+      "sha256": "c2de89af5c20e42c066f4ae3d9f18905b1b8f396b1331b7887f75d7b014b3168"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Backdrop.svg",
+      "bytes": 650,
+      "sha256": "6b397893bc1f1e1f10df041f0f0559926a4023f324190070a8dca1f85426811d"
+    },
+    {
+      "file": "Panels/PlaygroundShell/CompactLevelPanel.svg",
+      "bytes": 5777,
+      "sha256": "617b400f8999b362dbfe064d549a65738cbfa73848909e1cce3575dc7bedfb66"
+    },
+    {
+      "file": "Panels/PlaygroundShell/CompactVotePanel.svg",
+      "bytes": 11271,
+      "sha256": "bf1c9c1a726adc9162961ad06f10a5ae768ccdf67ce0fd56dd398d68f5ff312a"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Dock.svg",
+      "bytes": 3112,
+      "sha256": "dcbd1c29f01093a723c0f927823e26c781d00b27aed36e2b2b2ee0c77700453e"
+    },
+    {
+      "file": "Panels/PlaygroundShell/LevelPanel.svg",
+      "bytes": 6156,
+      "sha256": "1f81d41ad77d9272fea03ce9815ec7621246953d6a5b24042e7940255c079038"
+    },
+    {
+      "file": "Panels/PlaygroundShell/RewardToast.svg",
+      "bytes": 1630,
+      "sha256": "0d2a4fb776e7e0b1a36e43aa2054a164170ba4ed29b40093ebf8168dcd59d712"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Shop_All12Items.svg",
+      "bytes": 285573,
+      "sha256": "ab4de160ee065c2c74b2a051ac4d6e64079473d0a8d6de1bbd94af1659bead4e"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Shop_CompleteExpanded.svg",
+      "bytes": 295990,
+      "sha256": "8cf5426b0c54e1e27ddc3147af86d4d956050fe85f2ed15d233670600afe8720"
+    },
+    {
+      "file": "Panels/PlaygroundShell/ShopPanel.svg",
+      "bytes": 303049,
+      "sha256": "1f923c4c7272c638800b517592a8bfbce26d873208adee0e8d9f20bbc0e57304"
+    },
+    {
+      "file": "Panels/PlaygroundShell/VotePanel.svg",
+      "bytes": 10979,
+      "sha256": "351ec48a2f929848aeee49eedf4495c4ccb1bd71275987e7309f41382428c251"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Wallet.svg",
+      "bytes": 3447,
+      "sha256": "bae72178f28750d03e622490d38efe712c9f409c6caade70ec49a1ae60b07697"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_Bulldog.svg",
+      "bytes": 5974,
+      "sha256": "99b51758746aed9d8d8e73d5c904ace33214687b9b4aa84b1c927bc52be4295c"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_DodgeCooldown.svg",
+      "bytes": 8612,
+      "sha256": "c2a1e77203dae281b54da849d74d1b0225a69e8ab44aac4f78cf94d0ece388f5"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_EscapeBoost.svg",
+      "bytes": 10488,
+      "sha256": "8f921479b8e6357e69251ae36312861cfd53f4a05555de28a0f4289ca3018574"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_Recharging.svg",
+      "bytes": 8463,
+      "sha256": "38fbe4e8abbe09735e1292c44f28c69b224b08b2fd3388cd492f9b7f6fb67f20"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_Runner.svg",
+      "bytes": 8603,
+      "sha256": "c41b15223add64b25ef62e0b34ad43d3653090342aabd54bd1f745a49c2add02"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Departure_Compact.svg",
+      "bytes": 3664,
+      "sha256": "561caa53187a137df242521c7ba9cf8cc29dc0bb8dda8000de58b387f1c7f61c"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Tagged_Panel.svg",
+      "bytes": 3034,
+      "sha256": "f966b1f3bc78447ffa9800257cfb7ee836738f28f6adc3d4325ea1dbc6b3f9ce"
+    },
+    {
+      "file": "Panels/States/Level_Compact_Progress.svg",
+      "bytes": 5415,
+      "sha256": "0481cf629aae4606b166ef34b306fec92a00be00245221974f0815473a539163"
+    },
+    {
+      "file": "Panels/States/Mud_Controls_HeatGun.svg",
+      "bytes": 7220,
+      "sha256": "c80e343424a9f1d14a1eb92abb04efe441796622e7a137e35e60bd37462ff3f9"
+    },
+    {
+      "file": "Panels/States/Mud_Controls_Recharging.svg",
+      "bytes": 6548,
+      "sha256": "7f979c91517ebfb72db3fbf1c52eb327f252162d44c81f4819e581e5c1237479"
+    },
+    {
+      "file": "Panels/States/Mud_Controls_Rescuing.svg",
+      "bytes": 7221,
+      "sha256": "dba6542c5ab8999204bd54546a149ff1fd30febf6201a17c447707c8a9bc1e91"
+    },
+    {
+      "file": "Panels/States/Mud_Frozen_RescueProgress.svg",
+      "bytes": 2772,
+      "sha256": "4caa7e874b945597b9dc2c6ee4cc7ad727afc97e73c0187838679f99207de535"
+    },
+    {
+      "file": "Panels/States/Mud_Frozen_TeamEliminated.svg",
+      "bytes": 2633,
+      "sha256": "e1ecec198abcc3bbfae5b766d945841e4402b581577422b7934160805de2309f"
+    },
+    {
+      "file": "Panels/States/ShopItem_Buy.svg",
+      "bytes": 22423,
+      "sha256": "5c2e32699ae755ed209eb68923daf011f16802f06ff63277033aa97add541911"
+    },
+    {
+      "file": "Panels/States/ShopItem_ComingSoon.svg",
+      "bytes": 29539,
+      "sha256": "0c7b94222b3e10a68a43803e50da826c84b1819fdbad58bdafb7569ed09c7955"
+    },
+    {
+      "file": "Panels/States/ShopItem_EmoteUse.svg",
+      "bytes": 18062,
+      "sha256": "9182998e1f47577e2b79effbb3f6c2e758200c013ded1c12fe8a4ad8b281ae27"
+    },
+    {
+      "file": "Panels/States/ShopItem_Equipped.svg",
+      "bytes": 22436,
+      "sha256": "f661c5f8885bac4f4b19c0dce20ed959459119c0dec0564f7294f48853ac63ff"
+    },
+    {
+      "file": "Panels/States/ShopItem_Loading.svg",
+      "bytes": 22435,
+      "sha256": "97e399fad7752733a5a7be11f83ebd40be787476723a26fce3ed9518c13fe469"
+    },
+    {
+      "file": "Panels/States/ShopItem_Owned.svg",
+      "bytes": 22423,
+      "sha256": "6df7097aa2c4882c0bb936c6f41b92d05e3b9ec158b588565faee68d27513cd7"
+    },
+    {
+      "file": "Panels/States/Tag_Controls_Cooldowns.svg",
+      "bytes": 8340,
+      "sha256": "faed723d43a21b2ed545af43a3a1c843a4ac2eccc85ec128c9d7d3927a08ee4f"
+    },
+    {
+      "file": "Panels/States/Tag_Controls_Runner.svg",
+      "bytes": 8333,
+      "sha256": "5590e1cf43ef108c159910668a8983c2510d5da514bdb218bfff77ea7134212e"
+    },
+    {
+      "file": "Panels/States/Tag_Controls_Tagger.svg",
+      "bytes": 8350,
+      "sha256": "c9dfedcc114d86364236408a200ca8916fda677e276124e3b9f0d5753ea2e651"
+    },
+    {
+      "file": "Panels/States/Tag_TagbackShield_Notice.svg",
+      "bytes": 1252,
+      "sha256": "c546830bbe734cd88bc1ddf19dffb602f9ea1e6ee8eca37e247002d8b00c83e0"
+    },
+    {
+      "file": "Panels/States/Voting_Compact_Selected.svg",
+      "bytes": 11245,
+      "sha256": "6a99f5a4ad9c9fb3040f3d648668475f94d01fecbc8ab10e81f570648f09dcbc"
+    },
+    {
+      "file": "Panels/TagHUD/Controls.svg",
+      "bytes": 3519,
+      "sha256": "c979f0b09013132b7cfbd348ec760809746ada32b9d38b379281750f18a18d96"
+    },
+    {
+      "file": "Panels/TagHUD/Countdown.svg",
+      "bytes": 1307,
+      "sha256": "c4702d3fb1f506c279c9a0baf6e322cec5cb3f85f078c0ad55b93cb4eee4c6a5"
+    },
+    {
+      "file": "Panels/TagHUD/MoveMessage.svg",
+      "bytes": 624,
+      "sha256": "bc87f87ba176bee0811ee0d56a26f1454fd4fd419ec1eeb15cbbeb230bdc6d6b"
+    },
+    {
+      "file": "Panels/TagHUD/Protection.svg",
+      "bytes": 1256,
+      "sha256": "62aae0aa2901aded1cbaa93521cb197c4af77186530aae5c515773354299de5c"
+    },
+    {
+      "file": "Panels/TagHUD/Results.svg",
+      "bytes": 3875,
+      "sha256": "f839bbab471af79c6ee845276a885baa55396222abbbd8c784d6fdc65666d6de"
+    },
+    {
+      "file": "Panels/TagHUD/Role.svg",
+      "bytes": 2300,
+      "sha256": "11ab8a740fd668ac485b42ca3e89f4adfc533ed7a3178f71fee6ddef827db279"
+    },
+    {
+      "file": "Panels/TagHUD/SprintPanel.svg",
+      "bytes": 5521,
+      "sha256": "09f13d609fa5aa051bc8eb0a8fda2d2b077f89879c6d4947ff1f634501a41302"
+    },
+    {
+      "file": "Panels/TagHUD/Top.svg",
+      "bytes": 4332,
+      "sha256": "f2b593b64300ab6b81672b0a6d71a890daa453cddb42982c6d2e59607c9a2f19"
+    },
+    {
+      "file": "README.txt",
+      "bytes": 3458,
+      "sha256": "dc0915c6a35ce1863fef6830b5b56c4435f37c0b03c83ded620f431823e8fc47"
+    },
+    {
+      "file": "RenderChecks.json",
+      "bytes": 26717,
+      "sha256": "63894942caca76e5d5c952293de4735dcd4a722f8889ffc1098a08d16b45e435"
+    },
+    {
+      "file": "Screens/BritishBulldog_Bulldog.svg",
+      "bytes": 13984,
+      "sha256": "7f22018e304d32f0184b68a42cf21adc77732c32d619bd45e287b3616bbf6497"
+    },
+    {
+      "file": "Screens/BritishBulldog_BulldogCall.svg",
+      "bytes": 17591,
+      "sha256": "1d1e35d37272170ce3837720fc7235a12d4eb53820d13abdc20a4953a4ee2fd0"
+    },
+    {
+      "file": "Screens/BritishBulldog_BulldogsWin.svg",
+      "bytes": 4764,
+      "sha256": "025759feea1a81ca0347bcac5afae8f42b81aed9169b17c1c7e2fd8d56a116a3"
+    },
+    {
+      "file": "Screens/BritishBulldog_Countdown.svg",
+      "bytes": 17573,
+      "sha256": "5201fd99dc441d6c19214fbffc000e49e2f0ddd13bc6682b1d7bfd19cf52a0f0"
+    },
+    {
+      "file": "Screens/BritishBulldog_DodgeCooldown.svg",
+      "bytes": 16602,
+      "sha256": "1d0703becd1d0327745e143d911f85d9b9c2165c1fdf2075f19a969e8b2d5a84"
+    },
+    {
+      "file": "Screens/BritishBulldog_EscapeBoost.svg",
+      "bytes": 18469,
+      "sha256": "02f6e6b444a9621efe936d7714debc4dc4eb0b51a345365b09152b5aff2aa281"
+    },
+    {
+      "file": "Screens/BritishBulldog_LeaveSafeZone.svg",
+      "bytes": 19791,
+      "sha256": "8907c2155d5486905cbd67373befa370e646bd1395183a0961da772c27541077"
+    },
+    {
+      "file": "Screens/BritishBulldog_Recharging.svg",
+      "bytes": 16453,
+      "sha256": "f835d56bf456f2b75f21176932d61d9b2edb7b07d3d9c0c9a61be7d280f7271a"
+    },
+    {
+      "file": "Screens/BritishBulldog_Runner.svg",
+      "bytes": 16593,
+      "sha256": "ca8c91ac1cd8e1b9760fbe371642088f1e172b545a06e0d869ca9a0d51a6ddc7"
+    },
+    {
+      "file": "Screens/BritishBulldog_Sprinting.svg",
+      "bytes": 16603,
+      "sha256": "993f1822af4273bf1c70d92604647a665268cb9cf6718b0edcf4e3da8ca67ad1"
+    },
+    {
+      "file": "Screens/BritishBulldog_SurvivorsWin.svg",
+      "bytes": 4767,
+      "sha256": "88e7ad92e85d73aa41db3df6d3f13ef774d0209295d207e58b9f151ee884fcf0"
+    },
+    {
+      "file": "Screens/BritishBulldog_Tagged.svg",
+      "bytes": 11058,
+      "sha256": "0721b2965da62ae817922eebd0a0e8eae787d87fa4c79b7361c55f333940c9eb"
+    },
+    {
+      "file": "Screens/Lobby_HUD.svg",
+      "bytes": 11573,
+      "sha256": "1ba0f23ad480fbcbc61ea9f9d2514edc0b0b637dd49616892eca182cd2c23556"
+    },
+    {
+      "file": "Screens/Lobby_RewardToast.svg",
+      "bytes": 12800,
+      "sha256": "23b7273260c797259a4243f71bae3865bd681ad9d0a40b21841915cbacce79c3"
+    },
+    {
+      "file": "Screens/Lobby_Shop.svg",
+      "bytes": 305539,
+      "sha256": "84798ddeb16e2c2a1e246abf5fb740e8cf99eaf8f6e6b9c3d6fdb9e95511ead8"
+    },
+    {
+      "file": "Screens/Lobby_VotingSelected.svg",
+      "bytes": 16697,
+      "sha256": "1a55deadbf524c67d10eb6a83e987b447320ea255feda5a490fe57354de177f5"
+    },
+    {
+      "file": "Screens/Lobby_VotingUnavailable.svg",
+      "bytes": 16716,
+      "sha256": "0e486422345c6a47d5f44271c38bb9e9c5e8ba563d86c195d2a90fd268de3ac4"
+    },
+    {
+      "file": "Screens/Mud_BeingRescued.svg",
+      "bytes": 7489,
+      "sha256": "247581b278d6b3642617e7997900541f9cfa2fb4bc24570ec2b44be0b472de5f"
+    },
+    {
+      "file": "Screens/Mud_Countdown.svg",
+      "bytes": 12190,
+      "sha256": "fc1c5e5aa92f0834c8004d9b99b6921926d53aad1c7d4387376c48d2419947c7"
+    },
+    {
+      "file": "Screens/Mud_HeatGun.svg",
+      "bytes": 12611,
+      "sha256": "c4e1d2d52125dc370ce2cb38ba1dbca3cca5ea9f78a5fc0ab85af52c960f26b4"
+    },
+    {
+      "file": "Screens/Mud_MudGun.svg",
+      "bytes": 12073,
+      "sha256": "bf75af963c7737303f6ebf88f159416a129cc5074de96c28f061a71a1049290c"
+    },
+    {
+      "file": "Screens/Mud_RescuingTeammate.svg",
+      "bytes": 12620,
+      "sha256": "594ab101c44740be2bd3597d08ec76c582509c42a25d335d5bd68d2eb58bfeef"
+    },
+    {
+      "file": "Screens/Mud_Stuck.svg",
+      "bytes": 7347,
+      "sha256": "4198810be2b9d088573cb464a3779f736363f402afc94cf3860b49c4abaf8fc0"
+    },
+    {
+      "file": "Screens/Mud_TeamColourPicker.svg",
+      "bytes": 6615,
+      "sha256": "583f0e560e5fe169eb85f1539eb24d38d2db825c232a394e0c7203e245d0e4b8"
+    },
+    {
+      "file": "Screens/Mud_TeamLoss.svg",
+      "bytes": 3389,
+      "sha256": "0364b5797203c2d31e5001b0c0713367215227df32be7a6a7bc8277401ffba9b"
+    },
+    {
+      "file": "Screens/Mud_TeamWin.svg",
+      "bytes": 3390,
+      "sha256": "96e86eb9e6846342c117c22cb706b6edef629b8f503f6c6c935617ecf3383130"
+    },
+    {
+      "file": "Screens/Tag_Countdown.svg",
+      "bytes": 9990,
+      "sha256": "57276e4ce24a7992c0688c94ef2fad0d39114281c182ee19bc9817700cf2bbfd"
+    },
+    {
+      "file": "Screens/Tag_Loss.svg",
+      "bytes": 7770,
+      "sha256": "1f7090fb43c4a42fc6a3a9b2340d3f2fa13f1f772dc567c3f60229801b1b3fc0"
+    },
+    {
+      "file": "Screens/Tag_MoveCooldowns.svg",
+      "bytes": 12174,
+      "sha256": "b9946a31339a1e3e5b3e8878de08d4b3fa1ca79ca86a0927064d78f64135f2e6"
+    },
+    {
+      "file": "Screens/Tag_Recharging.svg",
+      "bytes": 12025,
+      "sha256": "35b0c2d8fd91dd8743abb20c81da5cdce4685f3d7bd01afdbda1ee8fce568935"
+    },
+    {
+      "file": "Screens/Tag_Runner.svg",
+      "bytes": 12163,
+      "sha256": "aefead3eac5bc8e919ecdf0bc1f29fde55cac5b85bd86e4a8bbd94a1447d60b9"
+    },
+    {
+      "file": "Screens/Tag_Sprinting.svg",
+      "bytes": 12155,
+      "sha256": "86586258da6d65a06dd46df1286c9ac310b7bf20e7c64763bc16231ab488c304"
+    },
+    {
+      "file": "Screens/Tag_TagbackShield.svg",
+      "bytes": 13029,
+      "sha256": "722ce810f7ec11c20b45fa31b04e654290be439fb63a2b23fffcd76f1a5c1757"
+    },
+    {
+      "file": "Screens/Tag_Win.svg",
+      "bytes": 7765,
+      "sha256": "58dbef64ef92c4aacc355be3465d8d45c450b8a1c0d8ffd7b4194841dc3e4aad"
+    },
+    {
+      "file": "Screens/Tag_YoureIt.svg",
+      "bytes": 12181,
+      "sha256": "3d3613e54ce83dadf3b38177a98d64b16b9cdf4ee3c21ac39102bf715fa15c64"
+    },
+    {
+      "file": "ShopItems/Slot01.svg",
+      "bytes": 22431,
+      "sha256": "e58f008149b35ad1b6d60cd25ba334440cffa3dc18e4b1cd6d982183e6a7e110"
+    },
+    {
+      "file": "ShopItems/Slot02.svg",
+      "bytes": 11280,
+      "sha256": "f2ead6c714040561912c63800b071e4b8e7d9e539d57b0262ec745ed0647dd75"
+    },
+    {
+      "file": "ShopItems/Slot03.svg",
+      "bytes": 17138,
+      "sha256": "2e8c493ce9e1c825dfcf3eb6ba64e8b9a409b61f66cdd05d42b5b5c039e7dbe7"
+    },
+    {
+      "file": "ShopItems/Slot04.svg",
+      "bytes": 17383,
+      "sha256": "ad82c39c87adaf4b9b2e3f36c2ab0c561737557b9e8b39c80abb41c6e6132b4f"
+    },
+    {
+      "file": "ShopItems/Slot05.svg",
+      "bytes": 50086,
+      "sha256": "83493de1591788dafec1fa7e2afe52273aa919641f72c5bd28a1cfe8f1cf522c"
+    },
+    {
+      "file": "ShopItems/Slot06.svg",
+      "bytes": 11750,
+      "sha256": "e283adfd497518248814ea99ea008c19445d332bee8d35c55f1c25bcc7a10586"
+    },
+    {
+      "file": "ShopItems/Slot07.svg",
+      "bytes": 24748,
+      "sha256": "61754133899a853878768d75fa427fb99b035aeea8c8367680393d94c1c5d6ae"
+    },
+    {
+      "file": "ShopItems/Slot08.svg",
+      "bytes": 25139,
+      "sha256": "67b006ecd8df523400609d8e34b1136006df202fdbba13b5fd0a75f25e026210"
+    },
+    {
+      "file": "ShopItems/Slot09.svg",
+      "bytes": 23788,
+      "sha256": "413997948b39a9ea829d0fadb5b36cb6ad42b49a34fc5e1347b28b317c417267"
+    },
+    {
+      "file": "ShopItems/Slot10.svg",
+      "bytes": 23796,
+      "sha256": "d240c761b229c80821e069442c5c56a99c0022828890083133fd99b0dbd65b70"
+    },
+    {
+      "file": "ShopItems/Slot11.svg",
+      "bytes": 29532,
+      "sha256": "99dde4282819fd58459115e81af93d3e77bc8001f4a09cf1065c047dfa114a5e"
+    },
+    {
+      "file": "ShopItems/Slot12.svg",
+      "bytes": 32533,
+      "sha256": "13ee20d49617ed2027e31b0c20ccf8cf89cdfea62270533a611cb1183a8fba0c"
+    },
+    {
+      "file": "Source/BuildPackage.py",
+      "bytes": 3989,
+      "sha256": "307bde5b8bc9dccb83bec6b36df84c0c7b14040b060bef11b08924a3592a1fd5"
+    },
+    {
+      "file": "Source/BuildUIKit.py",
+      "bytes": 6501,
+      "sha256": "3b1cad6ed11cdf97c0b55aa38692e60eddcba2fbb84d0949e8f52f3d86971195"
+    },
+    {
+      "file": "Source/CaptureGui.luau",
+      "bytes": 4235,
+      "sha256": "1934d9a832a4831a8c137132db7537bf10760f7960769c6cd67c82fe085cca0d"
+    },
+    {
+      "file": "Source/ExportSVGs.py",
+      "bytes": 19877,
+      "sha256": "0bff7462e0827f895915cc44f963a93708b0f77e9645a2cf9fb7607c4c7db382"
+    },
+    {
+      "file": "Source/IndependentReview.json",
+      "bytes": 671,
+      "sha256": "ab545c636fb3e588ac847023ec5ee32477a254220951c12f4a0678a73489d853"
+    },
+    {
+      "file": "Source/NativeGuiSnapshot.json",
+      "bytes": 763946,
+      "sha256": "6f24e691e7e0f6914290089a69c638316ba55199bcdb2092b6a5f7f1cde2c365"
+    },
+    {
+      "file": "Source/RenderSVGs.cjs",
+      "bytes": 3740,
+      "sha256": "3a06a75e0bbccb5fbb24796770c7205c15588568aa59623f639c2dc72790bab2"
+    },
+    {
+      "file": "Source/StatePresets.json",
+      "bytes": 73387,
+      "sha256": "746a7c3b1fb0480dc93b8e3a2ed402b0b25f87926cd1060fcea74470ff160b70"
+    },
+    {
+      "file": "Source/TextFitChecks.json",
+      "bytes": 126,
+      "sha256": "4bdcdb308d0e3cad8c6f88277667886e800517bdd7bd33450a38521e7a2f821e"
+    },
+    {
+      "file": "Source/UIKitManifest.json",
+      "bytes": 2819,
+      "sha256": "6068b0a0a45d1c7080dd764866062eac98e92e4b12d76a599faa0185c06f007e"
+    },
+    {
+      "file": "SVGManifest.json",
+      "bytes": 74940,
+      "sha256": "27c7a18f67d72024f538c4bf72a3c09002c6257ca931f789c6c8ec6eaa42c9ad"
+    },
+    {
+      "file": "Templates/Shop_ItemCard.svg",
+      "bytes": 8893,
+      "sha256": "b264f9d6c85567314b4b62b62e1aeb75cc79fa9b581acfd578b792b854c32d1b"
+    },
+    {
+      "file": "UI-ContactSheet.png",
+      "bytes": 286141,
+      "sha256": "4136d65c1ba8dc84a7167038bd6dc17b54f2497dc50a3cd4dd121db8443ac5d6"
+    },
+    {
+      "file": "UI-Kit-Overview.png",
+      "bytes": 336045,
+      "sha256": "2fc1691dd8db27049f28ac3d4125c0292ced32519c874ebf40175b01c0d34637"
+    },
+    {
+      "file": "UI-Kit-Overview.svg",
+      "bytes": 510566,
+      "sha256": "57bf1e35d82b1b9dba754aadb079dacd4b29ccf67d6a666d334a502f8778c68c"
+    },
+    {
+      "file": "WorldUI/Arena-British-Bulldog-Title.svg",
+      "bytes": 1828,
+      "sha256": "aaa540161753a8b42366cfc27485e9f6d3631fabc52777884c74ff723ba2ea25"
+    },
+    {
+      "file": "WorldUI/CaptureWorldUI.luau",
+      "bytes": 4131,
+      "sha256": "ea98f7aed7cc8e19bdddfb080da1ecc93b07d8be59c5da6d3cff6f6713d59066"
+    },
+    {
+      "file": "WorldUI/CheckWorldUITextMetadata.py",
+      "bytes": 2477,
+      "sha256": "8330f412c5500b75b9bb84261704af88fc2b96bfc19d7aaf016fdaf99bf55e03"
+    },
+    {
+      "file": "WorldUI/Emoji-Bubble-Heart.svg",
+      "bytes": 1349,
+      "sha256": "d295eaf6228a1c69105fb50e34b84ce626bd50db40d0f4c6d6fd8aabfe36a14b"
+    },
+    {
+      "file": "WorldUI/Emoji-Bubble-Star.svg",
+      "bytes": 1346,
+      "sha256": "81c68ca0b2e6598085b1810c61873a48112ec87780b2518fd0b0b647a147f10b"
+    },
+    {
+      "file": "WorldUI/ExportWorldUI.py",
+      "bytes": 20526,
+      "sha256": "8ece9fa3d6373aa067384f0afe325d18eee58bcc62d5b50f8d30c8fb75b57dae"
+    },
+    {
+      "file": "WorldUI/NativeWorldUISnapshot.json",
+      "bytes": 123766,
+      "sha256": "0178784b95323543d5c76728aa9b667d00b647da0a5f62923c330a5fe5d129f3"
+    },
+    {
+      "file": "WorldUI/Overhead-Stuck.svg",
+      "bytes": 1918,
+      "sha256": "54802491fe4ea5fe251b45bdd9394ae355c52925f090de808eefa763e686acee"
+    },
+    {
+      "file": "WorldUI/Overhead-Tagged.svg",
+      "bytes": 1989,
+      "sha256": "3a859d491a2666f07b56fb997c9d413f1df4252f535ebf89300971d6d9d87964"
+    },
+    {
+      "file": "WorldUI/Overhead-Youre-It.svg",
+      "bytes": 1959,
+      "sha256": "8613be431cc6b271281d676d1c1d6b2c406de2c1dcf4514269174b50ec8ed456"
+    },
+    {
+      "file": "WorldUI/README.txt",
+      "bytes": 2489,
+      "sha256": "5243f0cb9419c74dda8924d017beb47d4945af0c5640265be05a3236decc53e5"
+    },
+    {
+      "file": "WorldUI/RenderWorldUI.cjs",
+      "bytes": 3549,
+      "sha256": "5344a7b288faaa0147e9285b5073b569e89a846b29668c0799b9e70bdbe58d20"
+    },
+    {
+      "file": "WorldUI/School-Class-4B.svg",
+      "bytes": 2127,
+      "sha256": "79a9e79b23d75aa9c8e400d303b072ebd472426f603e7437d140d88a9b358266"
+    },
+    {
+      "file": "WorldUI/School-Hopscotch-1.svg",
+      "bytes": 1844,
+      "sha256": "8047f25705f95bf41e89a1d43f5079442397c8691363dbc7d02fe01855bd1d22"
+    },
+    {
+      "file": "WorldUI/School-Hopscotch-2.svg",
+      "bytes": 1844,
+      "sha256": "6fab0eaf53ff45c51a5d6fbcfe1427bdc4556d614f55ed6ec44e078060c7cfc3"
+    },
+    {
+      "file": "WorldUI/School-Hopscotch-3.svg",
+      "bytes": 1844,
+      "sha256": "a71bad6b1dc35e57aae37e306819bf98c02e39501e6a35811aed7bdf55ad424f"
+    },
+    {
+      "file": "WorldUI/School-Hopscotch-4.svg",
+      "bytes": 1844,
+      "sha256": "8b8a42d953c4892fc5deca2508caefa7029a6b63e841a986a758d280dbf1d78f"
+    },
+    {
+      "file": "WorldUI/School-Hopscotch-5.svg",
+      "bytes": 1844,
+      "sha256": "a3bc09f22ec66ed03aec3d1c94e6de5dc925c8c54772febc202e7ee057522c62"
+    },
+    {
+      "file": "WorldUI/School-Hopscotch-6.svg",
+      "bytes": 1844,
+      "sha256": "94c5e4e6a67f98ab7042fe7fdbecc508ee079d5b37377f958508b302b2de5717"
+    },
+    {
+      "file": "WorldUI/School-Hopscotch-7.svg",
+      "bytes": 1844,
+      "sha256": "449453b267da83f52202d262628d60c262902af7f364098e09b01691d8da0061"
+    },
+    {
+      "file": "WorldUI/School-Hopscotch-8.svg",
+      "bytes": 1844,
+      "sha256": "4ab2221bae95fcb824899b93e2359209bd39511cf7d9b755bd463a3671f89efc"
+    },
+    {
+      "file": "WorldUI/School-Room-4.svg",
+      "bytes": 1805,
+      "sha256": "d14f9151fc313a0e9df0ac1827307c0d7bf71f25bb9b69288a21f81e64d7bd72"
+    },
+    {
+      "file": "WorldUI/School-Sports-Day.svg",
+      "bytes": 2133,
+      "sha256": "850e898164ce38971db8d9f7b29964a23a6ddcee80e0d7d5d306eb4dda4aaac7"
+    },
+    {
+      "file": "WorldUI/Vote-Stand-British-Bulldog.svg",
+      "bytes": 1970,
+      "sha256": "5ce940d4692517c085cd3a7f03a13d391f02f57a52053cfb58355de0407ef21b"
+    },
+    {
+      "file": "WorldUI/Vote-Stand-Stuck-In-The-Mud.svg",
+      "bytes": 1971,
+      "sha256": "e1c72969a8ad3928f178e12748f5b0138aaaadfe11c90c43b82c4074e6360c67"
+    },
+    {
+      "file": "WorldUI/Vote-Stand-Tag-Youre-It.svg",
+      "bytes": 1958,
+      "sha256": "f9fa1b5f04c3a057afbdbd69c6ae5f294b7a31c64e0fd413e3b19936eb81612c"
+    },
+    {
+      "file": "WorldUI/WorldUI-ContactSheet.png",
+      "bytes": 200417,
+      "sha256": "ec5522ea093ac30d46b3fe1998f30f14d1c645910e528adef4de7a37565ceb13"
+    },
+    {
+      "file": "WorldUI/WorldUIManifest.json",
+      "bytes": 32729,
+      "sha256": "3f616ccbd392cad3b2f5018cf441d7d8bf19ae2503bb40b2644439b1535bae1c"
+    },
+    {
+      "file": "WorldUI/WorldUIRenderValidation.json",
+      "bytes": 3059,
+      "sha256": "2982fd4245a252cf1a7b4a410f4415c93d72d11f1ef2726d86bc218a3f8b245f"
+    },
+    {
+      "file": "WorldUI/WorldUITextMetadataValidation.json",
+      "bytes": 2438,
+      "sha256": "b74b40302c22f15d0f452ce57e3cb7ed107dc8b431ddabdc98f09cbafc920d6c"
+    },
+    {
+      "file": "PackageChecks.json",
+      "bytes": 488,
+      "sha256": "2bcdcd7375c48336c2df65fae99eeb1c21af1a8cdc079458a4875783058b24d5"
+    }
+  ],
+  "svgFiles": 219
+}

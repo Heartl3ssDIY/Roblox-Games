@@ -1,0 +1,49 @@
+{
+  "installedInStudio": true,
+  "published": false,
+  "date": "2026-10-12",
+  "game": "Skipping Rope",
+  "islandNumber": 6,
+  "rules": {
+    "lanes": 3,
+    "spotsPerLane": 8,
+    "maxParticipants": 24,
+    "turnerCharacters": 6,
+    "roundSeconds": 120,
+    "speedIncreasePercent": 5,
+    "speedIncreaseEverySeconds": 10,
+    "hitsToEliminate": 2,
+    "firstHitHealthPercent": 50,
+    "spectatorSeats": 24,
+    "zeroSurvivorsEndsEarly": true,
+    "oneSurvivorMustFinishTimer": true
+  },
+  "integration": [
+    "sixth game voting",
+    "automatic intermission",
+    "admin start and stop",
+    "rewards",
+    "AFK",
+    "spectating",
+    "camera",
+    "lobby toy exclusions",
+    "editable StarterGui HUD"
+  ],
+  "automatedChecks": {
+    "map": 2952,
+    "server": 103,
+    "integration": 196,
+    "hud": 25,
+    "ropeVisualMath": 15
+  },
+  "verificationLimits": [
+    "Play remained stopped; no live multiplayer session was run.",
+    "Native viewport capture did not complete, so no rendered visual approval is claimed."
+  ],
+  "backups": [
+    "ServerStorage.SkippingRopeMapBackup20261012",
+    "ServerStorage.SkippingRopeIntegrationBackup20261012",
+    "Server/BeforeSpectatorSeating.luau"
+  ],
+  "studioReadyForPlaytest": true
+}

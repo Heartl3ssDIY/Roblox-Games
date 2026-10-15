@@ -1,0 +1,212 @@
+[
+  {
+    "id": "stone_floor",
+    "provider": "Poly Haven",
+    "source": "https://polyhaven.com/a/stone_floor",
+    "license": "CC0",
+    "license_url": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "format": "JPG",
+    "uv_map": "DetailUV",
+    "normal_convention": "OpenGL",
+    "maps": {
+      "Color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stone_floor/stone_floor_diff_2k.jpg",
+      "Normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stone_floor/stone_floor_nor_gl_2k.jpg",
+      "Roughness": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stone_floor/stone_floor_rough_2k.jpg"
+    },
+    "local_files": {
+      "Color": "stone_floor_Color.jpg",
+      "Normal": "stone_floor_Normal.jpg",
+      "Roughness": "stone_floor_Roughness.jpg"
+    },
+    "color_spaces": {
+      "Color": "sRGB",
+      "Normal": "Non-Color",
+      "Roughness": "Non-Color"
+    }
+  },
+  {
+    "id": "slate_floor",
+    "provider": "Poly Haven",
+    "source": "https://polyhaven.com/a/slate_floor",
+    "license": "CC0",
+    "license_url": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "format": "JPG",
+    "uv_map": "DetailUV",
+    "normal_convention": "OpenGL",
+    "maps": {
+      "Color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/slate_floor/slate_floor_diff_2k.jpg",
+      "Normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/slate_floor/slate_floor_nor_gl_2k.jpg",
+      "Roughness": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/slate_floor/slate_floor_rough_2k.jpg"
+    },
+    "local_files": {
+      "Color": "slate_floor_Color.jpg",
+      "Normal": "slate_floor_Normal.jpg",
+      "Roughness": "slate_floor_Roughness.jpg"
+    },
+    "color_spaces": {
+      "Color": "sRGB",
+      "Normal": "Non-Color",
+      "Roughness": "Non-Color"
+    }
+  },
+  {
+    "id": "wood_planks",
+    "provider": "Poly Haven",
+    "source": "https://polyhaven.com/a/wood_planks",
+    "license": "CC0",
+    "license_url": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "format": "JPG",
+    "uv_map": "DetailUV",
+    "normal_convention": "OpenGL",
+    "maps": {
+      "Color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_planks/wood_planks_diff_2k.jpg",
+      "Normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_planks/wood_planks_nor_gl_2k.jpg",
+      "Roughness": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_planks/wood_planks_rough_2k.jpg"
+    },
+    "local_files": {
+      "Color": "wood_planks_Color.jpg",
+      "Normal": "wood_planks_Normal.jpg",
+      "Roughness": "wood_planks_Roughness.jpg"
+    },
+    "color_spaces": {
+      "Color": "sRGB",
+      "Normal": "Non-Color",
+      "Roughness": "Non-Color"
+    }
+  },
+  {
+    "id": "grey_roof_01",
+    "provider": "Poly Haven",
+    "source": "https://polyhaven.com/a/grey_roof_01",
+    "license": "CC0",
+    "license_url": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "format": "JPG",
+    "uv_map": "DetailUV",
+    "normal_convention": "OpenGL",
+    "maps": {
+      "Color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_roof_01/grey_roof_01_diff_2k.jpg",
+      "Normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_roof_01/grey_roof_01_nor_gl_2k.jpg",
+      "Roughness": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grey_roof_01/grey_roof_01_rough_2k.jpg"
+    },
+    "local_files": {
+      "Color": "grey_roof_01_Color.jpg",
+      "Normal": "grey_roof_01_Normal.jpg",
+      "Roughness": "grey_roof_01_Roughness.jpg"
+    },
+    "color_spaces": {
+      "Color": "sRGB",
+      "Normal": "Non-Color",
+      "Roughness": "Non-Color"
+    }
+  },
+  {
+    "id": "aerial_grass_rock",
+    "provider": "Poly Haven",
+    "source": "https://polyhaven.com/a/aerial_grass_rock",
+    "license": "CC0",
+    "license_url": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "format": "JPG",
+    "uv_map": "DetailUV",
+    "normal_convention": "OpenGL",
+    "maps": {
+      "Color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_grass_rock/aerial_grass_rock_diff_2k.jpg",
+      "Normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_grass_rock/aerial_grass_rock_nor_gl_2k.jpg",
+      "Roughness": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/aerial_grass_rock/aerial_grass_rock_rough_2k.jpg"
+    },
+    "local_files": {
+      "Color": "aerial_grass_rock_Color.jpg",
+      "Normal": "aerial_grass_rock_Normal.jpg",
+      "Roughness": "aerial_grass_rock_Roughness.jpg"
+    },
+    "color_spaces": {
+      "Color": "sRGB",
+      "Normal": "Non-Color",
+      "Roughness": "Non-Color"
+    }
+  },
+  {
+    "id": "rock_face_03",
+    "provider": "Poly Haven",
+    "source": "https://polyhaven.com/a/rock_face_03",
+    "license": "CC0",
+    "license_url": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "format": "JPG",
+    "uv_map": "DetailUV",
+    "normal_convention": "OpenGL",
+    "maps": {
+      "Color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_face_03/rock_face_03_diff_2k.jpg",
+      "Normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_face_03/rock_face_03_nor_gl_2k.jpg",
+      "Roughness": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_face_03/rock_face_03_rough_2k.jpg"
+    },
+    "local_files": {
+      "Color": "rock_face_03_Color.jpg",
+      "Normal": "rock_face_03_Normal.jpg",
+      "Roughness": "rock_face_03_Roughness.jpg"
+    },
+    "color_spaces": {
+      "Color": "sRGB",
+      "Normal": "Non-Color",
+      "Roughness": "Non-Color"
+    }
+  },
+  {
+    "id": "bark_brown_01",
+    "provider": "Poly Haven",
+    "source": "https://polyhaven.com/a/bark_brown_01",
+    "license": "CC0",
+    "license_url": "https://polyhaven.com/license",
+    "resolution": "2k",
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "format": "JPG",
+    "uv_map": "DetailUV",
+    "normal_convention": "OpenGL",
+    "maps": {
+      "Color": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/bark_brown_01/bark_brown_01_diff_2k.jpg",
+      "Normal": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/bark_brown_01/bark_brown_01_nor_gl_2k.jpg",
+      "Roughness": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/bark_brown_01/bark_brown_01_rough_2k.jpg"
+    },
+    "local_files": {
+      "Color": "bark_brown_01_Color.jpg",
+      "Normal": "bark_brown_01_Normal.jpg",
+      "Roughness": "bark_brown_01_Roughness.jpg"
+    },
+    "color_spaces": {
+      "Color": "sRGB",
+      "Normal": "Non-Color",
+      "Roughness": "Non-Color"
+    }
+  }
+]

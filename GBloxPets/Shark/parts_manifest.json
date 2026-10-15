@@ -1,0 +1,140 @@
+{
+  "pet": "Shark",
+  "mesh_count": 26,
+  "base_meshes": 23,
+  "vfx_meshes": 3,
+  "triangles": 3624,
+  "one_material_each": true,
+  "parts": [
+    {
+      "name": "Head_Pearl_Cube.011",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Face_Cyan_Panel.008",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Pearl_Cap.012",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Cyan_Stripe.011",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Top.011",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Bottom.011",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_L_Violet_Temple.011",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_L_Ink.011",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_L_White_Glint.012",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Visor_R_Violet_Temple.011",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_R_Ink.011",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_R_White_Glint.012",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Helmet_Yellow_Bolt.011",
+      "recolour": "Yellow",
+      "triangles": 164
+    },
+    {
+      "name": "Dorsal_Cyan_Fin",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Fin_-1_Pearl",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Fin_1_Pearl",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Tail_L_Cyan",
+      "recolour": "Cyan",
+      "triangles": 116
+    },
+    {
+      "name": "Tail_R_Cyan",
+      "recolour": "Cyan",
+      "triangles": 116
+    },
+    {
+      "name": "Tooth_1_White",
+      "recolour": "White",
+      "triangles": 140
+    },
+    {
+      "name": "Tooth_2_White",
+      "recolour": "White",
+      "triangles": 140
+    },
+    {
+      "name": "Tooth_3_White",
+      "recolour": "White",
+      "triangles": 140
+    },
+    {
+      "name": "Tooth_4_White",
+      "recolour": "White",
+      "triangles": 140
+    },
+    {
+      "name": "Tooth_5_White",
+      "recolour": "White",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_Cyan_Underlight.012",
+      "recolour": "Glow",
+      "triangles": 108
+    },
+    {
+      "name": "VFX_-1_SpeedRail.011",
+      "recolour": "Glow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_1_SpeedRail.011",
+      "recolour": "Glow",
+      "triangles": 140
+    }
+  ]
+}

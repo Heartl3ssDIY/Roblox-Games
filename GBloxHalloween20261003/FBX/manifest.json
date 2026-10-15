@@ -1,0 +1,486 @@
+{
+  "source_blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\GSwitch_All_Assets.blend",
+  "units": "Source scale preserved; FBX Y up, -Z forward.",
+  "models": [
+    {
+      "file": "Haunted_Run_Platform.fbx",
+      "source_root": "HW_Haunted_Run_Platform",
+      "mesh_parts": 18,
+      "objects": 21,
+      "pivot_world_before_recentering": [
+        -8.000000953674316,
+        -28.0,
+        0.5
+      ],
+      "bounds_blender": [
+        [
+          -11.99999713897705,
+          -3.8233094215393066,
+          -0.4999999403953552
+        ],
+        [
+          11.999999046325684,
+          3.606111526489258,
+          0.4999999403953552
+        ]
+      ],
+      "dimensions_blender": [
+        23.999996185302734,
+        7.4294209480285645,
+        0.9999998807907104
+      ],
+      "bytes": 107212,
+      "sha256": "676d4c25d2ee7f1bebc6a1765698a40d42fbec28e51945d32792e53d20f79d9a"
+    },
+    {
+      "file": "Bone_Saw_Platform.fbx",
+      "source_root": "HW_Bone_Saw_Platform",
+      "mesh_parts": 22,
+      "objects": 27,
+      "pivot_world_before_recentering": [
+        20.0,
+        -28.0,
+        0.5
+      ],
+      "bounds_blender": [
+        [
+          -12.0,
+          -3.6540651321411133,
+          -0.5
+        ],
+        [
+          12.0,
+          3.436863899230957,
+          2.883096933364868
+        ]
+      ],
+      "dimensions_blender": [
+        24.0,
+        7.09092903137207,
+        3.383096933364868
+      ],
+      "bytes": 186300,
+      "sha256": "ad766cf4f9749c71a796850c77e5be47124f5e4d119f5525e9b3298f44f32648"
+    },
+    {
+      "file": "Cursed_Ridged_Block.fbx",
+      "source_root": "HW_Cursed_Ridged_Block",
+      "mesh_parts": 1,
+      "objects": 1,
+      "pivot_world_before_recentering": [
+        -30.0,
+        -28.076486587524414,
+        2.564204692840576
+      ],
+      "bounds_blender": [
+        [
+          -3.0337727069854736,
+          -2.5240533351898193,
+          -2.564204692840576
+        ],
+        [
+          3.0337727069854736,
+          2.6770262718200684,
+          2.564204692840576
+        ]
+      ],
+      "dimensions_blender": [
+        6.067545413970947,
+        5.201079607009888,
+        5.128409385681152
+      ],
+      "bytes": 33148,
+      "sha256": "1af95032e59b7be0e54f15e4c31fbd6d1734faccfc5cf873f0e728f7ed1f9139"
+    },
+    {
+      "file": "Ectoplasm_Speed_Boost.fbx",
+      "source_root": "HW_Ectoplasm_Speed_Boost",
+      "mesh_parts": 4,
+      "objects": 5,
+      "pivot_world_before_recentering": [
+        -40.38246154785156,
+        -27.432485580444336,
+        2.8417513370513916
+      ],
+      "bounds_blender": [
+        [
+          -0.9999998211860657,
+          -0.22535404562950134,
+          -1.0000007152557373
+        ],
+        [
+          0.9999998211860657,
+          0.22535404562950134,
+          0.9999988675117493
+        ]
+      ],
+      "dimensions_blender": [
+        1.9999996423721313,
+        0.4507080912590027,
+        1.9999995827674866
+      ],
+      "bytes": 81180,
+      "sha256": "9ab8423ec150de949a4696aaf0c48f91862e4af84160c70858b33eab757c5a4a"
+    },
+    {
+      "file": "Haunted_Finish_Gate.fbx",
+      "source_root": "HW_Haunted_Finish_Gate",
+      "mesh_parts": 3,
+      "objects": 4,
+      "pivot_world_before_recentering": [
+        39.0,
+        -28.0,
+        6.71999979019165
+      ],
+      "bounds_blender": [
+        [
+          -0.5549995303153992,
+          -3.7841639518737793,
+          -6.71999979019165
+        ],
+        [
+          0.5550004839897156,
+          3.7841639518737793,
+          6.71999979019165
+        ]
+      ],
+      "dimensions_blender": [
+        1.1100000143051147,
+        7.568327903747559,
+        13.4399995803833
+      ],
+      "bytes": 40604,
+      "sha256": "9f1e558c26a10bd21491e6e852e3253b0999c4345642805f606a9a0b6bd8cfb3"
+    },
+    {
+      "file": "Jack_O_Lantern.fbx",
+      "source_root": "HW_Jack_O_Lantern",
+      "mesh_parts": 8,
+      "objects": 9,
+      "pivot_world_before_recentering": [
+        -21.0,
+        -47.0,
+        0.0
+      ],
+      "bounds_blender": [
+        [
+          -1.4512499570846558,
+          -1.3868979215621948,
+          0.12999999523162842
+        ],
+        [
+          1.4512499570846558,
+          1.3868979215621948,
+          3.0992236137390137
+        ]
+      ],
+      "dimensions_blender": [
+        2.9024999141693115,
+        2.7737958431243896,
+        2.9692236185073853
+      ],
+      "bytes": 86828,
+      "sha256": "696449cb51108eba323659c664c82701a62fcb06169cbe5e93d1ac55ebf6fbe1"
+    },
+    {
+      "file": "Throwable_Pumpkin.fbx",
+      "source_root": "HW_Throwable_Pumpkin",
+      "mesh_parts": 8,
+      "objects": 9,
+      "pivot_world_before_recentering": [
+        -16.5,
+        -47.0,
+        0.0
+      ],
+      "bounds_blender": [
+        [
+          -0.7691624164581299,
+          -0.7350558638572693,
+          0.06889999657869339
+        ],
+        [
+          0.7691624164581299,
+          0.7350558638572693,
+          1.6425883769989014
+        ]
+      ],
+      "dimensions_blender": [
+        1.5383248329162598,
+        1.4701117277145386,
+        1.573688380420208
+      ],
+      "bytes": 86940,
+      "sha256": "6143a2d5edbc9185a469e815dbd41ccbfaee600cb45743e5a84035a0dc5f9ad4"
+    },
+    {
+      "file": "Gravestone_Trap.fbx",
+      "source_root": "HW_Gravestone_Trap",
+      "mesh_parts": 38,
+      "objects": 40,
+      "pivot_world_before_recentering": [
+        -6.0,
+        -47.0,
+        0.0
+      ],
+      "bounds_blender": [
+        [
+          -2.0,
+          -2.711817979812622,
+          -0.10102355480194092
+        ],
+        [
+          2.0,
+          1.2999999523162842,
+          5.25
+        ]
+      ],
+      "dimensions_blender": [
+        4.0,
+        4.011817932128906,
+        5.351023554801941
+      ],
+      "bytes": 169212,
+      "sha256": "554f0f80cc7976a80f4a24900894d0ecfa022cf08a5acecfc76aa561c4778edb"
+    },
+    {
+      "file": "Last_Place_Chaser_Ghost.fbx",
+      "source_root": "HW_Last_Place_Chaser_Ghost",
+      "mesh_parts": 10,
+      "objects": 11,
+      "pivot_world_before_recentering": [
+        5.0,
+        -47.0,
+        0.0
+      ],
+      "bounds_blender": [
+        [
+          -2.2685046195983887,
+          -1.0255000591278076,
+          0.10000000149011612
+        ],
+        [
+          2.2685046195983887,
+          1.0434000492095947,
+          4.949999809265137
+        ]
+      ],
+      "dimensions_blender": [
+        4.537009239196777,
+        2.0689001083374023,
+        4.849999807775021
+      ],
+      "bytes": 81532,
+      "sha256": "00b2f2e5550b414e42ad2fccae62460438dca4adfadb36d4f0df14dde973c352"
+    },
+    {
+      "file": "Floor_Web_Trap.fbx",
+      "source_root": "HW_Floor_Web_Trap",
+      "mesh_parts": 16,
+      "objects": 17,
+      "pivot_world_before_recentering": [
+        -34.0,
+        -48.0,
+        0.18000000715255737
+      ],
+      "bounds_blender": [
+        [
+          -4.234999656677246,
+          -4.234999656677246,
+          -0.07031089067459106
+        ],
+        [
+          4.2278571128845215,
+          4.234999656677246,
+          0.03464101627469063
+        ]
+      ],
+      "dimensions_blender": [
+        8.462856769561768,
+        8.469999313354492,
+        0.10495190694928169
+      ],
+      "bytes": 66396,
+      "sha256": "bcadae134e3a6a057d0bccc3748bf71607a38c702d93396a469618a35ef8a4eb"
+    },
+    {
+      "file": "Corner_Cobweb.fbx",
+      "source_root": "HW_Corner_Cobweb",
+      "mesh_parts": 13,
+      "objects": 14,
+      "pivot_world_before_recentering": [
+        15.0,
+        -48.0,
+        0.20000000298023224
+      ],
+      "bounds_blender": [
+        [
+          -0.03999999910593033,
+          -0.034641019999980927,
+          -0.04000000283122063
+        ],
+        [
+          5.017668724060059,
+          0.07031127065420151,
+          5.017668724060059
+        ]
+      ],
+      "dimensions_blender": [
+        5.057668723165989,
+        0.10495229065418243,
+        5.057668726891279
+      ],
+      "bytes": 55884,
+      "sha256": "10707cef3aac7e4db9ffc74fd92babd8ec8c3653f277812ef49cf6bd82e4bfd8"
+    },
+    {
+      "file": "Ectoplasm_Lantern.fbx",
+      "source_root": "HW_Ectoplasm_Lantern",
+      "mesh_parts": 16,
+      "objects": 17,
+      "pivot_world_before_recentering": [
+        25.0,
+        -48.0,
+        0.0
+      ],
+      "bounds_blender": [
+        [
+          -1.0750000476837158,
+          -0.8999999761581421,
+          0.0
+        ],
+        [
+          1.0750000476837158,
+          0.8999999761581421,
+          4.264999866485596
+        ]
+      ],
+      "dimensions_blender": [
+        2.1500000953674316,
+        1.7999999523162842,
+        4.264999866485596
+      ],
+      "bytes": 85692,
+      "sha256": "772c866e9d614d1b5bd6881c92b648deae27a5d732d7f6524a07855675da0965"
+    },
+    {
+      "file": "Zombie_Hand_Separate.fbx",
+      "source_root": "HW_Zombie_Hand_Animated",
+      "mesh_parts": 16,
+      "objects": 17,
+      "pivot_world_before_recentering": [
+        -5.880000114440918,
+        -48.849998474121094,
+        0.2199999988079071
+      ],
+      "bounds_blender": [
+        [
+          -1.2233399152755737,
+          -0.7450013756752014,
+          -0.321023553609848
+        ],
+        [
+          0.8939999938011169,
+          0.41999998688697815,
+          3.763401746749878
+        ]
+      ],
+      "dimensions_blender": [
+        2.1173399090766907,
+        1.1650013625621796,
+        4.084425300359726
+      ],
+      "bytes": 77916,
+      "sha256": "3700977f23255f4c4214cae53aeb3e8e96032348df31346cc3a5ff158be5daf9"
+    },
+    {
+      "file": "Gravestone_Without_Hand.fbx",
+      "source_root": "HW_Gravestone_Trap",
+      "mesh_parts": 22,
+      "objects": 23,
+      "pivot_world_before_recentering": [
+        -6.0,
+        -47.0,
+        0.0
+      ],
+      "bounds_blender": [
+        [
+          -2.0,
+          -2.711817979812622,
+          0.0
+        ],
+        [
+          2.0,
+          1.2999999523162842,
+          5.25
+        ]
+      ],
+      "dimensions_blender": [
+        4.0,
+        4.011817932128906,
+        5.25
+      ],
+      "bytes": 104412,
+      "sha256": "7437e0f0829e8e5f45c000c2fe6fe0f67f5ce9c3e150f51f0c808434801406e1"
+    },
+    {
+      "file": "Bone_Saw_Wheel_Separate.fbx",
+      "source_root": "HW_Red_Spiked_Wheel",
+      "mesh_parts": 4,
+      "objects": 5,
+      "pivot_world_before_recentering": [
+        20.0,
+        -28.0,
+        1.75
+      ],
+      "bounds_blender": [
+        [
+          -1.7064285278320312,
+          -0.39312270283699036,
+          -1.633096694946289
+        ],
+        [
+          1.7064294815063477,
+          0.29771125316619873,
+          1.6330969333648682
+        ]
+      ],
+      "dimensions_blender": [
+        3.412858009338379,
+        0.6908339560031891,
+        3.2661936283111572
+      ],
+      "bytes": 95116,
+      "sha256": "8045a52d04f40e78059b0055b3f6486e7efbdd82090fd1468bc9846817c9d713"
+    },
+    {
+      "file": "Bone_Saw_Base_Without_Wheel.fbx",
+      "source_root": "HW_Bone_Saw_Platform",
+      "mesh_parts": 18,
+      "objects": 22,
+      "pivot_world_before_recentering": [
+        20.0,
+        -28.0,
+        0.5
+      ],
+      "bounds_blender": [
+        [
+          -12.0,
+          -3.6540651321411133,
+          -0.5
+        ],
+        [
+          12.0,
+          3.436863899230957,
+          0.5
+        ]
+      ],
+      "dimensions_blender": [
+        24.0,
+        7.09092903137207,
+        1.0
+      ],
+      "bytes": 106492,
+      "sha256": "ae0a1b001a652efba02675a9dc6bba2b35915d11b1cc2b195ed77941716767a7"
+    }
+  ]
+}

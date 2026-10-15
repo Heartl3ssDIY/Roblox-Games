@@ -1,0 +1,17 @@
+{
+  "status": "local SVG fallback completed; Figma rate limited",
+  "originalFile": "https://www.figma.com/design/KSjiU2dZUjpq7udDmE4LvV/UI?node-id=386-257",
+  "blankDraftFile": "https://www.figma.com/design/pLt8pUE8U3cgO8U475qTUt",
+  "figmaWrites": "Blank draft file only; no artwork nodes created or changed",
+  "font": "Press Start 2P Regular",
+  "screens": [
+    "shop-desktop.svg",
+    "inventory-desktop.svg",
+    "shop-phone.svg",
+    "inventory-phone.svg",
+    "ui-kit.svg"
+  ],
+  "walletAndOwnership": "Sample preview data, not a live account",
+  "liveChanges": false,
+  "prices": "Gamepass prices supplied by user; Roblox purchase prompt is authoritative"
+}

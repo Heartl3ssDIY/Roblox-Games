@@ -1,0 +1,251 @@
+{
+  "poses": [
+    {
+      "tipInTorso": [
+        1.2863743305206299,
+        3.74298095703125,
+        -1.5549886226654053
+      ],
+      "name": "R6_B01_Idle",
+      "gripError": 0,
+      "hand": [
+        1.425547480583191,
+        899,
+        -0.5647205710411072
+      ],
+      "shaftUp": 1
+    },
+    {
+      "tipInTorso": [
+        -0.16034960746765137,
+        3.02886962890625,
+        -2.2968215942382812
+      ],
+      "name": "R6_B01_Impact",
+      "gripError": 0,
+      "hand": [
+        1.3675801753997803,
+        899.015625,
+        -10.603854179382324
+      ],
+      "shaftUp": 0.8754260540008545
+    },
+    {
+      "tipInTorso": [
+        -1.8642656803131104,
+        1.0404052734375,
+        -2.1262569427490234
+      ],
+      "name": "R6_B01_Followthrough",
+      "gripError": 0,
+      "hand": [
+        1.1627578735351562,
+        899.0057373046875,
+        -20.68809700012207
+      ],
+      "shaftUp": 0.36599811911582947
+    },
+    {
+      "tipInTorso": [
+        1.2863740921020508,
+        3.66796875,
+        -1.5549886226654053
+      ],
+      "name": "R6_B06_Idle",
+      "gripError": 0,
+      "hand": [
+        9.42554759979248,
+        899,
+        -0.5647205710411072
+      ],
+      "shaftUp": 1
+    },
+    {
+      "tipInTorso": [
+        -0.12865304946899414,
+        2.9632568359375,
+        -2.2792282104492188
+      ],
+      "name": "R6_B06_Impact",
+      "gripError": 0,
+      "hand": [
+        9.36758041381836,
+        899.015625,
+        -10.603854179382324
+      ],
+      "shaftUp": 0.8754260540008545
+    },
+    {
+      "tipInTorso": [
+        -1.7962923049926758,
+        1.012939453125,
+        -2.1104087829589844
+      ],
+      "name": "R6_B06_Followthrough",
+      "gripError": 0,
+      "hand": [
+        9.162757873535156,
+        899.0057373046875,
+        -20.68809700012207
+      ],
+      "shaftUp": 0.36599811911582947
+    },
+    {
+      "tipInTorso": [
+        1.412027359008789,
+        3.4857177734375,
+        -1.8572924137115479
+      ],
+      "name": "R15_B01_Idle",
+      "gripError": 0,
+      "hand": [
+        19.24118423461914,
+        900.497314453125,
+        -1.6886833906173706
+      ],
+      "shaftUp": 0.9982618093490601
+    },
+    {
+      "tipInTorso": [
+        -0.5293655395507812,
+        2.68707275390625,
+        -2.321967124938965
+      ],
+      "name": "R15_B01_Impact",
+      "gripError": 0,
+      "hand": [
+        19.022113800048828,
+        900.1713256835938,
+        -11.623580932617188
+      ],
+      "shaftUp": 0.8689302802085876
+    },
+    {
+      "tipInTorso": [
+        -2.1631736755371094,
+        1.0615234375,
+        -1.1463050842285156
+      ],
+      "name": "R15_B01_Followthrough",
+      "gripError": 0,
+      "hand": [
+        18.676328659057617,
+        899.7463989257812,
+        -21.322084426879883
+      ],
+      "shaftUp": 0.5152803063392639
+    },
+    {
+      "tipInTorso": [
+        1.4076156616210938,
+        3.41082763671875,
+        -1.8570128679275513
+      ],
+      "name": "R15_B06_Idle",
+      "gripError": 0,
+      "hand": [
+        27.24118423461914,
+        900.497314453125,
+        -1.6886833906173706
+      ],
+      "shaftUp": 0.9982618093490601
+    },
+    {
+      "tipInTorso": [
+        -0.4945526123046875,
+        2.62188720703125,
+        -2.3090858459472656
+      ],
+      "name": "R15_B06_Impact",
+      "gripError": 0,
+      "hand": [
+        27.022113800048828,
+        900.1713256835938,
+        -11.623580932617188
+      ],
+      "shaftUp": 0.8689302802085876
+    },
+    {
+      "tipInTorso": [
+        -2.099191665649414,
+        1.0228271484375,
+        -1.1524715423583984
+      ],
+      "name": "R15_B06_Followthrough",
+      "gripError": 0,
+      "hand": [
+        26.676328659057617,
+        899.7463989257812,
+        -21.322084426879883
+      ],
+      "shaftUp": 0.5152803063392639
+    }
+  ],
+  "clearance": [
+    {
+      "name": "R6_B01_Idle",
+      "torsoFrontGap": 0.7051419019699097
+    },
+    {
+      "name": "R6_B01_Impact",
+      "torsoFrontGap": 0.5635366439819336
+    },
+    {
+      "name": "R6_B01_Followthrough",
+      "torsoFrontGap": 0.42607688903808594
+    },
+    {
+      "name": "R6_B06_Idle",
+      "torsoFrontGap": 0.6450014114379883
+    },
+    {
+      "name": "R6_B06_Impact",
+      "torsoFrontGap": 0.4991941452026367
+    },
+    {
+      "name": "R6_B06_Followthrough",
+      "torsoFrontGap": 0.3526725769042969
+    },
+    {
+      "name": "R15_B01_Idle",
+      "torsoFrontGap": 0.9952893257141113
+    },
+    {
+      "name": "R15_B01_Impact",
+      "torsoFrontGap": 0.7866648435592651
+    },
+    {
+      "name": "R15_B01_Followthrough",
+      "torsoFrontGap": 0.21415603160858154
+    },
+    {
+      "name": "R15_B06_Idle",
+      "torsoFrontGap": 0.9357538223266602
+    },
+    {
+      "name": "R15_B06_Impact",
+      "torsoFrontGap": 0.7171000242233276
+    },
+    {
+      "name": "R15_B06_Followthrough",
+      "torsoFrontGap": 0.1461724042892456
+    }
+  ],
+  "mode": "Static Edit-mode native R6/R15 rigs; exact candidate Equipment:_makeBat and Emotes sampleBatPose; all joints solved with actual C0/C1; no Play",
+  "visualReview": {
+    "passed": true,
+    "captures": [
+      "BatR6Idle",
+      "BatR15B06Idle",
+      "BatR15B06Followthrough",
+      "BatR6B01Impact"
+    ],
+    "findings": [
+      "Both B01 and B06 remain upright in idle and seated at the palm grip.",
+      "Impact and followthrough move the bat across the front of the avatar rather than through the torso.",
+      "All 12 attachment positions match their native hand grip exactly.",
+      "All visible bat bounds remain ahead of the torso front plane; minimum clearance 0.146 studs."
+    ]
+  },
+  "limits": "Standard R6/R15 proportions sampled at idle, impact (0.20s) and followthrough (0.30s); static checks do not replace future live animation/network testing."
+}

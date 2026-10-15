@@ -1,0 +1,22 @@
+[
+  {
+    "old_string": "local roundPhase = \"Waiting\"\nlocal spectating=",
+    "new_string": "local roundPhase = \"Waiting\"\nlocal raceProgress\nlocal spectating="
+  },
+  {
+    "old_string": "\tevent:FireAllClients(\"State\", packet)\nend\n\nlocal function resetRound()",
+    "new_string": "\tevent:FireAllClients(\"State\", packet)\n if raceProgress then raceProgress:Publish() end\nend\n\nlocal function resetRound()"
+  },
+  {
+    "old_string": " return math.clamp((data.roundStartX-data.root.Position.X)/span,0,1)\nend\n\nlocal function sendRoundRankings()",
+    "new_string": " return math.clamp((data.roundStartX-data.root.Position.X)/span,0,1)\nend\n\nraceProgress=require(game.ServerScriptService:WaitForChild(\"GBloxRaceProgressServer\")).new({\n Runners=players,Phase=function() return roundPhase end,RoundKey=function() return courseVersion end,\n CourseNumber=function() return courseNumber end,Progress=currentRoundProgress,\n IsPresent=function(player) return player.Parent==Players end,\n Broadcast=function(packet) event:FireAllClients(\"RaceProgress\",packet) end,\n})\n\nlocal function sendRoundRankings()"
+  },
+  {
+    "old_string": "            data.roundStoppedProgress=nil data.roundFinishTime=nil data.roundFinishPlace=nil data.firstFinishTime=nil data.maxProgress=0 data.roundStartX=data.root.Position.X\n            data.root.Anchored = false",
+    "new_string": "            data.roundStoppedProgress=nil data.roundFinishTime=nil data.roundFinishPlace=nil data.firstFinishTime=nil data.maxProgress=0 data.roundStartX=data.root.Position.X\n            raceProgress:MarkStarted(player,courseVersion)\n            data.root.Anchored = false"
+  },
+  {
+    "old_string": "RunService.Heartbeat:Connect(function(deltaTime)\n spectatorClock+=deltaTime",
+    "new_string": "RunService.Heartbeat:Connect(function(deltaTime)\n raceProgress:Step(deltaTime)\n spectatorClock+=deltaTime"
+  }
+]

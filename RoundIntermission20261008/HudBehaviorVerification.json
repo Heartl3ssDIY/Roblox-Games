@@ -1,0 +1,24 @@
+{
+  "passed": 60,
+  "mode": "Edit",
+  "source": "Exact installed PlaygroundIntermissionHUD controller at execution",
+  "gui": "Isolated clone of authored PlaygroundIntermissionHUD",
+  "mocked": ["local player", "replicated state", "clock", "camera", "heartbeat"],
+  "capabilities": "Exact controller permissions plus temporary RunServerScript for ModuleScript fixture only",
+  "coverage": [
+    "35-second countdown, rounding, zero and no negative time",
+    "Waiting and paused explanations",
+    "Round-start retry reason",
+    "Playing and all three participation attributes hide HUD",
+    "Portrait and landscape phones, tablet and desktop boundaries",
+    "Compact reward-toast suppression and restoration",
+    "Shop backdrop, Hide UI and Session menu suppression and restoration on desktop and phone",
+    "Image loading fallback",
+    "Missing camera fallback",
+    "No authored position, size or anchor mutations",
+    "All four connections disconnected on destruction"
+  ],
+  "productionChanged": false,
+  "playStarted": false,
+  "published": false
+}

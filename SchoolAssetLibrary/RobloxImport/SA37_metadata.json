@@ -1,0 +1,53 @@
+{
+  "id": "SA37",
+  "name": "Outdoor backed bench",
+  "bodies": [
+    {
+      "id": "SA37_B01",
+      "asset_id": "SA37",
+      "asset": "Outdoor backed bench",
+      "label": "Outdoor backed bench",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.03356802463531494,
+            0.48604467511177063
+          ],
+          "size": [
+            1.851500391960144,
+            0.6671360731124878,
+            0.960089385509491
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.925750195980072,
+          -0.30000001192092896,
+          0.006000000052154064
+        ],
+        "max": [
+          0.925750195980072,
+          0.36713606119155884,
+          0.9660893678665161
+        ]
+      }
+    }
+  ],
+  "mesh_count": 5,
+  "triangles": 14572,
+  "file": "SA37_Outdoor_backed_bench.gltf"
+}

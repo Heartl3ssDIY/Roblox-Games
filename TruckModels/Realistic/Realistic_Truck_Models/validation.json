@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Starter",
+    "meshParts": 59,
+    "triangles": 72212,
+    "maxTrianglesPerMesh": 6696,
+    "geometry_names_uv_materials": "passed",
+    "glb_content": "truck only"
+  },
+  {
+    "name": "Basic",
+    "meshParts": 60,
+    "triangles": 73524,
+    "maxTrianglesPerMesh": 6872,
+    "geometry_names_uv_materials": "passed",
+    "glb_content": "truck only"
+  },
+  {
+    "name": "Power",
+    "meshParts": 60,
+    "triangles": 73676,
+    "maxTrianglesPerMesh": 6976,
+    "geometry_names_uv_materials": "passed",
+    "glb_content": "truck only"
+  },
+  {
+    "name": "Super",
+    "meshParts": 72,
+    "triangles": 92520,
+    "maxTrianglesPerMesh": 6960,
+    "geometry_names_uv_materials": "passed",
+    "glb_content": "truck only"
+  },
+  {
+    "name": "Premium",
+    "meshParts": 73,
+    "triangles": 92584,
+    "maxTrianglesPerMesh": 6856,
+    "geometry_names_uv_materials": "passed",
+    "glb_content": "truck only"
+  },
+  {
+    "name": "Mythic",
+    "meshParts": 72,
+    "triangles": 92648,
+    "maxTrianglesPerMesh": 6920,
+    "geometry_names_uv_materials": "passed",
+    "glb_content": "truck only"
+  }
+]

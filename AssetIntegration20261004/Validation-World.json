@@ -1,0 +1,97 @@
+{
+  "voteZoneMatchesPaving": true,
+  "playStarted": false,
+  "voting": [
+    {
+      "padSize": [
+        14.25,
+        0.13679999113082886,
+        15.959999084472656
+      ],
+      "triggerInsidePaving": true,
+      "id": "BritishBulldog",
+      "centre": [
+        68,
+        -84
+      ],
+      "gameIdPreserved": true,
+      "triggerInsideZone": true,
+      "baseHeightPreserved": true,
+      "rimInsidePaving": true,
+      "triggerMatchesPad": true
+    },
+    {
+      "padSize": [
+        14.25,
+        0.13679999113082886,
+        15.959999084472656
+      ],
+      "triggerInsidePaving": true,
+      "id": "TagYoureIt",
+      "centre": [
+        88,
+        -84
+      ],
+      "gameIdPreserved": true,
+      "triggerInsideZone": true,
+      "baseHeightPreserved": true,
+      "rimInsidePaving": true,
+      "triggerMatchesPad": true
+    },
+    {
+      "padSize": [
+        14.25,
+        0.13679999113082886,
+        15.959999084472656
+      ],
+      "triggerInsidePaving": true,
+      "id": "StuckInTheMud",
+      "centre": [
+        108,
+        -84
+      ],
+      "gameIdPreserved": true,
+      "triggerInsideZone": true,
+      "baseHeightPreserved": true,
+      "rimInsidePaving": true,
+      "triggerMatchesPad": true
+    }
+  ],
+  "backups": [
+    {
+      "completed": true,
+      "changedCanCollide": [],
+      "name": "MapSurfaceSeparation20261004",
+      "missingReferences": [],
+      "records": 524
+    },
+    {
+      "completed": true,
+      "changedCanCollide": [],
+      "name": "CompactVotingStands20261004",
+      "missingReferences": [],
+      "records": 31
+    }
+  ],
+  "mode": "Edit",
+  "generatedAt": "2026-10-04T18:13:50Z",
+  "maps": [
+    {
+      "topConflicts": [],
+      "name": "Tag You're It",
+      "floorTopUnchanged": true,
+      "floorTop": 32.900001525878906,
+      "foundationGap": 0.15999984741210938,
+      "checkedBlockParts": 545
+    },
+    {
+      "topConflicts": [],
+      "name": "Stuck in the Mud",
+      "floorTopUnchanged": true,
+      "floorTop": 32.900001525878906,
+      "foundationGap": 0.15999984741210938,
+      "checkedBlockParts": 1195
+    }
+  ]
+}
+

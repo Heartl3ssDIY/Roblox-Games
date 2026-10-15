@@ -1,0 +1,56 @@
+{
+  "repair": {
+    "userLayoutPreserved": true,
+    "sliceScale": 1.0666667222976685,
+    "innerPosition": "{0.00625000009, 0}, {0.200000003, 0}",
+    "parent": "StarterGui.GBloxRaceProgress.HUD.Track.TrackArtwork",
+    "innerSize": "{0.987500012, 0}, {0.600000024, 0}",
+    "fillSize": "{0, 0}, {1, 0}",
+    "fillPosition": "{0, 0}, {0, 0}"
+  },
+  "tests": {
+    "noPublishedChanges": true,
+    "passed": true,
+    "checks": {
+      "1": {
+        "interior": "876.941406, 19.2000008",
+        "track": "888.041931, 32",
+        "screen": "1366, 768",
+        "tested": {
+          "1": 0,
+          "2": 0.01,
+          "3": 0.25,
+          "4": 0.62,
+          "5": 1
+        }
+      },
+      "2": {
+        "interior": "603.09845, 19.2000008",
+        "track": "610.732605, 32",
+        "screen": "844, 390",
+        "tested": {
+          "1": 0,
+          "2": 0.01,
+          "3": 0.25,
+          "4": 0.62,
+          "5": 1
+        }
+      },
+      "3": {
+        "interior": "237.663834, 19.2000008",
+        "track": "240.672226, 32",
+        "screen": "390, 844",
+        "tested": {
+          "1": 0,
+          "2": 0.01,
+          "3": 0.25,
+          "4": 0.62,
+          "5": 1
+        }
+      }
+    }
+  },
+  "published": false,
+  "playtestStarted": false,
+  "scope": "Only fill frame and Controller fill lookup. User HUD, track artwork, marker layer, labels, flag and player template positions/sizes preserved."
+}

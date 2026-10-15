@@ -1,0 +1,59 @@
+{
+  "id": "B24",
+  "name": "Patchwork Popper",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b24-patchwork-popper.png",
+  "brief": "A long rounded baseball bat with purple and mint-green broad stitched fabric-like panels, simple cream cross stitches and one large round orange button mounted near the upper barrel. Navy collar, orange grip with purple wraps and mint knob. Glossy toy appearance, blunt cap, no gore or exposed stuffing.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b24-patchwork-popper.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b24-patchwork-popper.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b24-patchwork-popper-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b24-patchwork-popper.png",
+  "parts": 49,
+  "triangles": 17076,
+  "meshes": 1,
+  "maxMeshTriangles": 17076,
+  "dimensions": [
+    0.6851526498794556,
+    0.8154181241989136,
+    3.6020002365112305
+  ],
+  "boundsMin": [
+    -0.3461526334285736,
+    -0.4764181077480316,
+    -0.47200000286102295
+  ],
+  "boundsMax": [
+    0.33899998664855957,
+    0.33899998664855957,
+    3.130000114440918
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.134999990463257
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6851526498794556,
+    0.8154181241989136,
+    3.6020002365112305
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "categories": [
+    {
+      "visible": true,
+      "name": "All",
+      "size": "{0, 64}, {0, 33}",
+      "attrs": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+        "UISkinSelectionFromColour": true,
+        "UISkinHiddenText": true,
+        "UISkinManaged": true,
+        "UISkinSelectionFromOutline": false,
+        "UISkinDynamic": true
+      },
+      "class": "TextButton",
+      "children": [
+        {
+          "class": "UITextSizeConstraint",
+          "name": "TextSizeLimit"
+        },
+        {
+          "class": "UIPadding",
+          "name": "TextPadding"
+        },
+        {
+          "class": "UICorner",
+          "name": "Corner"
+        },
+        {
+          "class": "UIStroke",
+          "name": "Outline"
+        },
+        {
+          "image": "rbxassetid://84589903135132",
+          "class": "ImageLabel",
+          "name": "ReusableSkin"
+        },
+        {
+          "class": "TextLabel",
+          "name": "LiveCaption",
+          "text": "ALL"
+        },
+        {
+          "class": "TextLabel",
+          "name": "SelectionMark",
+          "text": "✓"
+        },
+        {
+          "class": "Frame",
+          "name": "ReusableSkinFallback"
+        }
+      ],
+      "pos": "{0, 0}, {0, 0}"
+    },
+    {
+      "visible": true,
+      "name": "Pets",
+      "size": "{0, 95}, {0, 33}",
+      "attrs": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/cream-normal.png",
+        "UISkinSelectionFromColour": true,
+        "UISkinHiddenText": true,
+        "UISkinManaged": true,
+        "UISkinSelectionFromOutline": false,
+        "UISkinDynamic": true
+      },
+      "class": "TextButton",
+      "children": [
+        {
+          "class": "UITextSizeConstraint",
+          "name": "TextSizeLimit"
+        },
+        {
+          "class": "UIPadding",
+          "name": "TextPadding"
+        },
+        {
+          "class": "UICorner",
+          "name": "Corner"
+        },
+        {
+          "class": "UIStroke",
+          "name": "Outline"
+        },
+        {
+          "image": "rbxassetid://80217215544210",
+          "class": "ImageLabel",
+          "name": "ReusableSkin"
+        },
+        {
+          "class": "TextLabel",
+          "name": "LiveCaption",
+          "text": "PETS"
+        },
+        {
+          "class": "TextLabel",
+          "name": "SelectionMark",
+          "text": "✓"
+        },
+        {
+          "class": "Frame",
+          "name": "ReusableSkinFallback"
+        }
+      ],
+      "pos": "{0, 0}, {0, 0}"
+    },
+    {
+      "visible": true,
+      "name": "Bats",
+      "size": "{0, 95}, {0, 33}",
+      "attrs": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/cream-normal.png",
+        "UISkinSelectionFromColour": true,
+        "UISkinHiddenText": true,
+        "UISkinManaged": true,
+        "UISkinSelectionFromOutline": false,
+        "UISkinDynamic": true
+      },
+      "class": "TextButton",
+      "children": [
+        {
+          "class": "UITextSizeConstraint",
+          "name": "TextSizeLimit"
+        },
+        {
+          "class": "UIPadding",
+          "name": "TextPadding"
+        },
+        {
+          "class": "UICorner",
+          "name": "Corner"
+        },
+        {
+          "class": "UIStroke",
+          "name": "Outline"
+        },
+        {
+          "image": "rbxassetid://80217215544210",
+          "class": "ImageLabel",
+          "name": "ReusableSkin"
+        },
+        {
+          "class": "TextLabel",
+          "name": "LiveCaption",
+          "text": "BATS"
+        },
+        {
+          "class": "TextLabel",
+          "name": "SelectionMark",
+          "text": "✓"
+        },
+        {
+          "class": "Frame",
+          "name": "ReusableSkinFallback"
+        }
+      ],
+      "pos": "{0, 0}, {0, 0}"
+    },
+    {
+      "visible": false,
+      "name": "Emojis",
+      "size": "{0, 95}, {0, 33}",
+      "attrs": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/cream-normal.png",
+        "UISkinSelectionFromColour": true,
+        "UISkinHiddenText": true,
+        "UISkinManaged": true,
+        "UISkinSelectionFromOutline": false,
+        "UISkinDynamic": true
+      },
+      "class": "TextButton",
+      "children": [
+        {
+          "class": "UITextSizeConstraint",
+          "name": "TextSizeLimit"
+        },
+        {
+          "class": "UIPadding",
+          "name": "TextPadding"
+        },
+        {
+          "class": "UICorner",
+          "name": "Corner"
+        },
+        {
+          "class": "UIStroke",
+          "name": "Outline"
+        },
+        {
+          "image": "rbxassetid://80217215544210",
+          "class": "ImageLabel",
+          "name": "ReusableSkin"
+        },
+        {
+          "class": "TextLabel",
+          "name": "LiveCaption",
+          "text": "EMOJIS"
+        },
+        {
+          "class": "TextLabel",
+          "name": "SelectionMark",
+          "text": "✓"
+        },
+        {
+          "class": "Frame",
+          "name": "ReusableSkinFallback"
+        }
+      ],
+      "pos": "{0, 0}, {0, 0}"
+    },
+    {
+      "visible": false,
+      "name": "Trails",
+      "size": "{0, 95}, {0, 33}",
+      "attrs": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/cream-normal.png",
+        "UISkinSelectionFromColour": true,
+        "UISkinHiddenText": true,
+        "UISkinManaged": true,
+        "UISkinSelectionFromOutline": false,
+        "UISkinDynamic": true
+      },
+      "class": "TextButton",
+      "children": [
+        {
+          "class": "UITextSizeConstraint",
+          "name": "TextSizeLimit"
+        },
+        {
+          "class": "UIPadding",
+          "name": "TextPadding"
+        },
+        {
+          "class": "UICorner",
+          "name": "Corner"
+        },
+        {
+          "class": "UIStroke",
+          "name": "Outline"
+        },
+        {
+          "image": "rbxassetid://80217215544210",
+          "class": "ImageLabel",
+          "name": "ReusableSkin"
+        },
+        {
+          "class": "TextLabel",
+          "name": "LiveCaption",
+          "text": "TRAILS"
+        },
+        {
+          "class": "TextLabel",
+          "name": "SelectionMark",
+          "text": "✓"
+        },
+        {
+          "class": "Frame",
+          "name": "ReusableSkinFallback"
+        }
+      ],
+      "pos": "{0, 0}, {0, 0}"
+    },
+    {
+      "visible": false,
+      "name": "Highlights",
+      "size": "{0, 123}, {0, 33}",
+      "attrs": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/cream-normal.png",
+        "UISkinSelectionFromColour": true,
+        "UISkinHiddenText": true,
+        "UISkinManaged": true,
+        "UISkinSelectionFromOutline": false,
+        "UISkinDynamic": true
+      },
+      "class": "TextButton",
+      "children": [
+        {
+          "class": "UITextSizeConstraint",
+          "name": "TextSizeLimit"
+        },
+        {
+          "class": "UIPadding",
+          "name": "TextPadding"
+        },
+        {
+          "class": "UICorner",
+          "name": "Corner"
+        },
+        {
+          "class": "UIStroke",
+          "name": "Outline"
+        },
+        {
+          "image": "rbxassetid://80217215544210",
+          "class": "ImageLabel",
+          "name": "ReusableSkin"
+        },
+        {
+          "class": "TextLabel",
+          "name": "LiveCaption",
+          "text": "HIGHLIGHTS"
+        },
+        {
+          "class": "TextLabel",
+          "name": "SelectionMark",
+          "text": "✓"
+        },
+        {
+          "class": "Frame",
+          "name": "ReusableSkinFallback"
+        }
+      ],
+      "pos": "{0, 0}, {0, 0}"
+    },
+    {
+      "visible": true,
+      "name": "Toys",
+      "size": "{0, 95}, {0, 33}",
+      "attrs": {
+        "UISkinAssetKey": "PNG/07-Resizable-Skins/cream-normal.png",
+        "UISkinSelectionFromColour": true,
+        "UISkinHiddenText": true,
+        "UISkinManaged": true,
+        "UISkinSelectionFromOutline": false,
+        "UISkinDynamic": true
+      },
+      "class": "TextButton",
+      "children": [
+        {
+          "class": "UITextSizeConstraint",
+          "name": "TextSizeLimit"
+        },
+        {
+          "class": "UIPadding",
+          "name": "TextPadding"
+        },
+        {
+          "class": "UICorner",
+          "name": "Corner"
+        },
+        {
+          "class": "UIStroke",
+          "name": "Outline"
+        },
+        {
+          "image": "rbxassetid://80217215544210",
+          "class": "ImageLabel",
+          "name": "ReusableSkin"
+        },
+        {
+          "class": "TextLabel",
+          "name": "LiveCaption",
+          "text": "TOYS"
+        },
+        {
+          "class": "TextLabel",
+          "name": "SelectionMark",
+          "text": "✓"
+        },
+        {
+          "class": "Frame",
+          "name": "ReusableSkinFallback"
+        }
+      ],
+      "pos": "{0, 0}, {0, 0}"
+    }
+  ],
+  "templates": [
+    {
+      "name": "ItemCard",
+      "class": "Frame"
+    },
+    {
+      "name": "AssetLibrary",
+      "class": "Folder"
+    },
+    {
+      "name": "CoinPickupPopup",
+      "class": "BillboardGui"
+    }
+  ],
+  "remotes": [],
+  "shop": {
+    "categoriesPosition": "{0, 16}, {0, 58}",
+    "categoriesSize": "{1, -32}, {0, 42}",
+    "size": "{0.920000017, 0}, {0.860000014, 0}"
+  }
+}

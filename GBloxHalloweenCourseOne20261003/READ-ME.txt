@@ -1,0 +1,72 @@
+Course 1 Halloween implementation - 2026-10-03
+
+Installed in Round 1 Muliplayer, place 106769122906103.
+Nothing published. No Studio playtest started or stopped.
+Studio recovery: ServerStorage > BeforeHalloweenCourseOne_20261003_080454.
+Original source copies are StringValues for RunnerServer, GBloxAbilityEffects, GBloxGravitySwitch.
+
+Scope:
+- Only Course 1 receives new decorations/traps and seasonal gameplay.
+- Normal/Halloween course colours installed earlier remain unchanged.
+- All 6,791 original Workspace parts retain their placement, dimensions, colours,
+  collision/touch/query flags, materials and anchoring.
+- 278 new parts are anchored and non-collidable, non-touching, non-querying.
+- Imported source models are preserved; new copies reuse their mesh asset IDs.
+- No lobby shop, paid ability ownership, purchases, wins or reward amounts changed.
+  Using a seasonal ability counts as using an ability for the existing no-ability bonus.
+- Boss battle is not implemented.
+
+Editable assets:
+ReplicatedStorage > GBloxHalloweenAssets:
+  Floor_Web_Trap / Trap_Web, Last_Place_Chaser_Ghost / Ghost, Throwable_Pumpkin,
+  Jack_O_Lantern, Corner_Cobweb, Gravestone_Without_Hand, Gravestone_Trap,
+  Ectoplasm_Lantern, Halloween_Bone_Saw_Platform, Zombie_Hand, Skull_Decoration.
+Templates have corrected bottom-centred pivots. Active ghost/projectile clones are recentered.
+
+Editable course:
+Workspace > Course - round 1 [actual folder has leading spaces] > HalloweenGameplay
+  Decorations: eight skull accents + eight pumpkins/lanterns/graves.
+  Traps: CornerWeb_Lower, CornerWeb_Upper, Grave_LowerRidge, Grave_UpperRidge.
+Each trap contains an editable Sensor and Support ObjectValue. Moving a sensor changes
+the trigger region; move its accompanying visual model too. Gameplay never rebuilds
+or replaces the original platforms. No physical trap collider was added.
+
+Mechanics:
+- V / L1 / PLACE WEB: free seasonal test ability, 30-second cooldown.
+  Web lasts eight seconds; each other grounded racer entering it is held five seconds.
+  Multiple racers can be caught; owner is immune; one web cannot re-catch the same racer.
+- Corner webs: visible permanent course obstacles, five-second hold plus short immunity.
+- Grave: stationary in its ridge sensor for one second, then animated hand rises/curls,
+  holds for five seconds, and eliminates that racer. Simply running past does not trigger it.
+- Ghost: chases the least-progress active racer, retargets when the order changes,
+  disappears after one elimination per course version. Eight-second starting grace.
+  Initial speed 24 studs/second; +1.1 every 1.1 seconds; cap 60. These are tuning defaults.
+- B / R1 / PUMPKIN: throws at the nearest racer ahead within 70 studs, with the same
+  gravity direction. Short homing flight; hit shows a three-second splat, never freezes input.
+  Ten-second pumpkin cooldown is provisional because no cooldown was specified.
+- Grave/ghost elimination is terminal for that round, not a second-life revive.
+  Existing Spike/Fall/Death recoveries remain intact.
+- All holds, models and screen effects clean up on theme/course/status/character changes.
+  A separate seasonal freeze source preserves the existing paid Freeze effect.
+
+Controls/artwork:
+StarterGui > GBloxHalloweenControls is editable. Controller updates data and visibility,
+not authored positions or sizes. Compact Arcade-font controls support keyboard, gamepad
+and touch. PumpkinSplat > Artwork.Image is blank for your uploaded orange splat.
+FallbackSplatEnabled controls the temporary orange fallback.
+
+Settings:
+ReplicatedStorage > GBloxCourseTheme > ActiveTheme must be Halloween.
+ReplicatedStorage > GBloxHalloweenSettings > Enabled must be true.
+All timings, radii, speed limits and cooldowns are editable attributes.
+UsePublishedConfig defaults false. If enabled, optional server-only ConfigService keys
+GBloxHalloween.<attributeName> override matching values between rounds; missing keys
+and unavailable configs keep attribute defaults. No external config was created/published.
+
+Verification:
+- Six installed production scripts compile in Studio.
+- World fingerprint unchanged: 2129397923.
+- Local CLI: 71 freeze assertions, 26 client checks, 31 gameplay-service checks passed.
+- Static Edit-mode placement screenshots inspected for web visibility and ridge placement.
+- Real multiplayer/physics/feel remains for your playtest, as requested.
+

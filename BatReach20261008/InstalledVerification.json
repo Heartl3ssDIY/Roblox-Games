@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"installed\":[\"BritishBulldogService\",\"TagService\"],\"backup\":\"ServerStorage.BatReachBackup20261008\",\"playStarted\":false,\"reach\":10}"
+    }
+  ],
+  "isError": false
+}

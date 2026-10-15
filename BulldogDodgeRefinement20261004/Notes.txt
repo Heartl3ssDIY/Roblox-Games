@@ -1,0 +1,11 @@
+Applied to Playground Classics in Studio Edit mode on 2026-10-04.
+
+British Bulldog now locks jumping on the server and local client for the full participation period, including role changes. Existing jump settings are restored when the round ends. Dodge is a grounded, eased sideways burst with forward movement preserved, body lean visible to other players, and a subtle camera bank.
+
+The two boards are under Workspace > Playground Lobby > Leaderboards, on the north lawn facing the plaza. Edit their authored SurfaceGui layouts and hidden RowTemplate directly. LeaderboardMaster.svg is one reusable editable design for both board types. Runtime updates data/visibility only.
+
+Play testing remains stopped. Syntax compilation and Edit-mode source/structure/placement checks passed. Movement feel, multiplayer behavior and live DataStores have not been tested.
+
+The user approved Input on the launcher, and that permission is now applied so it can require the already-approved mud-gun module. Sandbox remains enabled. No DataStore requests were made during editing.
+
+Before/ contains exact native source snapshots. ServerStorage contains matching disabled-script backups. The Apply*.luau files are source-guarded installation records; they deliberately refuse a second run over changed sources or existing boards. Do not rerun older all-games installers over this refinement.

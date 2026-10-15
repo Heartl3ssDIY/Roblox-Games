@@ -1,0 +1,106 @@
+[
+  {
+    "path": "ServerScriptService.RunnerServer",
+    "before": {
+      "length": 56415,
+      "hash": 924997321
+    },
+    "after": {
+      "length": 57744,
+      "hash": 1265876705
+    },
+    "edits": [
+      {
+        "old": "local matchId = game:GetService(\"HttpService\"):GenerateGUID(false)\nlocal matchResults = {}\nlocal matchPaid = false\nlocal finalRanking\nlocal RewardRules=require(game.ReplicatedStorage:WaitForChild(\"GBloxMatchRewardRules\"))\nlocal Podium=require(game.ServerScriptService:WaitForChild(\"GBloxPodium\"))\n",
+        "new": "local matchId = game:GetService(\"HttpService\"):GenerateGUID(false)\nlocal matchResults = {}\nlocal matchPaid = false\nlocal matchHumanCount\nlocal matchWinEligible=false\nlocal roundHumanCount=0\nlocal finalRanking\nlocal RewardRules=require(game.ReplicatedStorage:WaitForChild(\"GBloxMatchRewardRules\"))\nlocal Podium=require(game.ServerScriptService:WaitForChild(\"GBloxPodium\"))\n"
+      },
+      {
+        "old": "   if pet then table.insert(petList,{Id=id,CashMultiplier=pet.CashMultiplier,TrophyMultiplier=pet.TrophyMultiplier}) end\n  end\n  local breakdown=RewardRules.Build(place,#finalRanking,r,nil,nil,petList,PlayerData.GetCashMultiplier(p),PlayerData.GetTrophyMultiplier(p))\n  p:SetAttribute(\"MatchFinalPlace\",place)\n  p:SetAttribute(\"MatchRewardRecorded\",false)\n  Podium.UpdateReward(p,breakdown,\"Saving\")\n",
+        "new": "   if pet then table.insert(petList,{Id=id,CashMultiplier=pet.CashMultiplier,TrophyMultiplier=pet.TrophyMultiplier}) end\n  end\n  local breakdown=RewardRules.Build(place,#finalRanking,r,nil,nil,petList,PlayerData.GetCashMultiplier(p),PlayerData.GetTrophyMultiplier(p))\n  breakdown.competitive=matchWinEligible\n  breakdown.humanCount=matchHumanCount or 0\n  if not matchWinEligible then\n   for _,row in breakdown.rows do\n    if row.label==\"Won without abilities\" then row.label=\"Completed without abilities\"\n    elseif row.label==\"Podium bonus\" then row.label=\"Completion bonus\"\n    elseif row.label:sub(1,8)==\"Placing \" then row.label=\"Practice completion\" end\n   end\n  end\n  p:SetAttribute(\"MatchWinEligible\",matchWinEligible)\n  p:SetAttribute(\"MatchFinalPlace\",place)\n  p:SetAttribute(\"MatchRewardRecorded\",false)\n  Podium.UpdateReward(p,breakdown,\"Saving\")\n"
+      },
+      {
+        "old": "   while not PlayerData.Get(p) and p.Parent and os.clock()<deadline do task.wait(.2) end\n   if not p.Parent then return end\n   if r.finishes==5 then PlayerData.RecordTime(p,r.time) end\n   local saved,recorded=PlayerData.AwardMatch(p,matchId,place,breakdown.cash,breakdown.trophies)\n   p:SetAttribute(\"MatchRewardRecorded\",recorded==true)\n   Podium.UpdateReward(p,breakdown,saved and \"Saved\" or recorded and \"SavePending\" or \"Unavailable\")\n   if not saved then warn(\"[MatchRewards] Save pending\",p.UserId,matchId) end\n",
+        "new": "   while not PlayerData.Get(p) and p.Parent and os.clock()<deadline do task.wait(.2) end\n   if not p.Parent then return end\n   if r.finishes==5 then PlayerData.RecordTime(p,r.time) end\n   local saved,recorded=PlayerData.AwardMatch(p,matchId,place,breakdown.cash,breakdown.trophies,matchWinEligible)\n   p:SetAttribute(\"MatchRewardRecorded\",recorded==true)\n   Podium.UpdateReward(p,breakdown,saved and \"Saved\" or recorded and \"SavePending\" or \"Unavailable\")\n   if not saved then warn(\"[MatchRewards] Save pending\",p.UserId,matchId) end\n"
+      },
+      {
+        "old": "\tif courseNumber>=maxRounds then\n  sendRoundRankings()\n  roundPhase=\"MatchComplete\"\n  Podium.Start(payMatch(),matchId,courseVersion,players)\n  broadcastState({message=\"\"})\n  return\n end\n",
+        "new": "\tif courseNumber>=maxRounds then\n  sendRoundRankings()\n  roundPhase=\"MatchComplete\"\n  Podium.Start(payMatch(),matchId,courseVersion,players,{competitive=matchWinEligible,humanCount=matchHumanCount or 0})\n  broadcastState({message=\"\"})\n  return\n end\n"
+      },
+      {
+        "old": "\tif version ~= countdownVersion then return end\n\tlocal ready = allReady()\n\tif not ready then return end\n\troundPhase = \"Running\"\n\n\tlastRankingPacket=nil\n",
+        "new": "\tif version ~= countdownVersion then return end\n\tlocal ready = allReady()\n\tif not ready then return end\n local starterIds={}\n for player,data in players do\n  if player.Parent==Players and data.ready and data.status~=\"Spectating\" and data.root and data.root.Parent then\n   starterIds[player.UserId]=true\n  end\n end\n roundHumanCount=0\n for _ in starterIds do roundHumanCount+=1 end\n if courseNumber==1 and matchHumanCount==nil then\n  matchHumanCount=roundHumanCount\n  matchWinEligible=matchHumanCount>=2\n  workspace:SetAttribute(\"RunnerMatchHumanCount\",matchHumanCount)\n  workspace:SetAttribute(\"RunnerMatchCompetitive\",matchWinEligible)\n end\n workspace:SetAttribute(\"RunnerRoundHumanCount\",roundHumanCount)\n\troundPhase = \"Running\"\n\n\tlastRankingPacket=nil\n"
+      },
+      {
+        "old": "\troundWinner = nil\n\tfinishPlace = 0\n\tfor player, data in players do\n\t\tif data.ready and data.root and data.root.Parent then\n\t\t\tplayer:SetAttribute(\"RunnerRaceStartedAt\",workspace:GetServerTimeNow())\n            setStatus(player, \"Running\")\n            data.idleWatch=IdleRules.New(roundStartedAt,data.root.Position:Dot(forward),courseVersion)\n",
+        "new": "\troundWinner = nil\n\tfinishPlace = 0\n\tfor player, data in players do\n\t\tif player.Parent==Players and data.ready and data.status~=\"Spectating\" and data.root and data.root.Parent then\n\t\t\tplayer:SetAttribute(\"RunnerRaceStartedAt\",workspace:GetServerTimeNow())\n            setStatus(player, \"Running\")\n            data.idleWatch=IdleRules.New(roundStartedAt,data.root.Position:Dot(forward),courseVersion)\n"
+      },
+      {
+        "old": "\t-- Finishing a course is not an overall match win; rewards belong to match results.\n\tevent:FireClient(player, \"Finished\", {\n\t\tPlace = finishPlace,\n\t\tIsWinner = isWinner,\n\t\tTimeMs = math.floor(finishTime * 1000 + 0.5),\n\t\tCourseNumber = courseNumber,\n\t})\n",
+        "new": "\t-- Finishing a course is not an overall match win; rewards belong to match results.\n\tevent:FireClient(player, \"Finished\", {\n\t\tPlace = finishPlace,\n\t\tIsWinner = isWinner and roundHumanCount>=2,\n  Competitive = matchWinEligible,\n\t\tTimeMs = math.floor(finishTime * 1000 + 0.5),\n\t\tCourseNumber = courseNumber,\n\t})\n"
+      }
+    ]
+  },
+  {
+    "path": "ServerScriptService.PlayerData",
+    "before": {
+      "length": 20538,
+      "hash": 1533005930
+    },
+    "after": {
+      "length": 20572,
+      "hash": 1687811390
+    },
+    "edits": [
+      {
+        "old": " if not p or not p.CanSave or ms<=0 then return end\n if p.FastestTimeMs==0 or ms<p.FastestTimeMs then p.FastestTimeMs=ms sync(player) task.spawn(PlayerData.Save,player) end\nend\nfunction PlayerData.AwardMatch(player,matchId,place,cash,trophies)\n local p=profiles[player]\n if not p or (not p.CanSave and not p.StudioTemporary) then return false,false end\n if p.MatchReceipts[matchId] then\n",
+        "new": " if not p or not p.CanSave or ms<=0 then return end\n if p.FastestTimeMs==0 or ms<p.FastestTimeMs then p.FastestTimeMs=ms sync(player) task.spawn(PlayerData.Save,player) end\nend\nfunction PlayerData.AwardMatch(player,matchId,place,cash,trophies,competitive)\n local p=profiles[player]\n if not p or (not p.CanSave and not p.StudioTemporary) then return false,false end\n if p.MatchReceipts[matchId] then\n"
+      },
+      {
+        "old": " end\n p.MatchReceipts[matchId]=os.time()\n for id,time in p.MatchReceipts do if time<os.time()-604800 then p.MatchReceipts[id]=nil end end\n if place==1 then p.Wins+=1 end\n p.Cash+=number(cash) p.TotalCashEarned+=number(cash) p.Trophies+=number(trophies)\n sync(player)\n return p.StudioTemporary or PlayerData.Save(player),true\n",
+        "new": " end\n p.MatchReceipts[matchId]=os.time()\n for id,time in p.MatchReceipts do if time<os.time()-604800 then p.MatchReceipts[id]=nil end end\n if place==1 and competitive==true then p.Wins+=1 end\n p.Cash+=number(cash) p.TotalCashEarned+=number(cash) p.Trophies+=number(trophies)\n sync(player)\n return p.StudioTemporary or PlayerData.Save(player),true\n"
+      }
+    ]
+  },
+  {
+    "path": "ServerScriptService.GBloxPodium",
+    "before": {
+      "length": 9218,
+      "hash": 421210284
+    },
+    "after": {
+      "length": 9304,
+      "hash": 1990240956
+    },
+    "edits": [
+      {
+        "old": " local base\n for _,v in stage:GetChildren() do if v:IsA(\"BasePart\") and v.Name==\"Podium base\" and (not base or v.Position.Y>base.Position.Y) then base=v end end\n local center=base and base.Position+Vector3.new(0,10.5,0) or roster[1].cframe.Position\n active={allowed=allowed,spawns=spawns,nextReturn={},preview=game:GetService(\"RunService\"):IsStudio() and options and options.preview==true,returnAt=workspace:GetServerTimeNow()+M.ReturnSeconds,packet={id=matchId,courseVersion=version,roster=roster,center=center,stageSize=base and Vector3.new(base.Size.X,36,base.Size.Z) or Vector3.new(100,36,90)}}\n for player in allowed do\n  local data=runners[player]\n  if data then data.status=\"Podium\" data.recovering=false data.recoveryVersion=(data.recoveryVersion or 0)+1 end\n",
+        "new": " local base\n for _,v in stage:GetChildren() do if v:IsA(\"BasePart\") and v.Name==\"Podium base\" and (not base or v.Position.Y>base.Position.Y) then base=v end end\n local center=base and base.Position+Vector3.new(0,10.5,0) or roster[1].cframe.Position\n active={allowed=allowed,spawns=spawns,nextReturn={},preview=game:GetService(\"RunService\"):IsStudio() and options and options.preview==true,returnAt=workspace:GetServerTimeNow()+M.ReturnSeconds,packet={id=matchId,courseVersion=version,competitive=options and options.competitive,humanCount=options and options.humanCount,roster=roster,center=center,stageSize=base and Vector3.new(base.Size.X,36,base.Size.Z) or Vector3.new(100,36,90)}}\n for player in allowed do\n  local data=runners[player]\n  if data then data.status=\"Podium\" data.recovering=false data.recoveryVersion=(data.recoveryVersion or 0)+1 end\n"
+      }
+    ]
+  },
+  {
+    "path": "StarterGui.GBloxMatchRewards.Controller",
+    "before": {
+      "length": 11529,
+      "hash": 1592285026
+    },
+    "after": {
+      "length": 12090,
+      "hash": 419448182
+    },
+    "edits": [
+      {
+        "old": " local b=reward.breakdown\n if not b then return end\n for _,row in rows do row.frame:Destroy() end table.clear(rows)\n panel.Stats.Text=string.format(\"PLACE %d  |  TIME %s  |  DEATHS %d  |  %.2f POINTS\",b.place,timeText(b.time),b.deaths,b.score)\n for _,entry in b.rows do\n  local frame=Instance.new(\"Frame\") frame.BackgroundTransparency=1 frame.Parent=panel.Rows\n  local function label(text,x,width,alignment)\n",
+        "new": " local b=reward.breakdown\n if not b then return end\n for _,row in rows do row.frame:Destroy() end table.clear(rows)\n if b.competitive==false then\n  panel.Stats.Text=string.format(\"SOLO PRACTICE  |  TIME %s  |  DEATHS %d  |  %.2f POINTS\",timeText(b.time),b.deaths,b.score)\n else\n  panel.Stats.Text=string.format(\"PLACE %d  |  TIME %s  |  DEATHS %d  |  %.2f POINTS\",b.place,timeText(b.time),b.deaths,b.score)\n end\n for _,entry in b.rows do\n  local frame=Instance.new(\"Frame\") frame.BackgroundTransparency=1 frame.Parent=panel.Rows\n  local function label(text,x,width,alignment)\n"
+      },
+      {
+        "old": " end\n panel.TotalCash.Text=comma(b.cash) panel.TotalTrophies.Text=comma(b.trophies)\n panel.Status.Text=reward.state==\"Preview\" and \"STUDIO PREVIEW - no rewards awarded.\" or reward.state==\"Saved\" and \"Rewards added to your balance.\" or reward.state==\"SavePending\" and \"Rewards recorded; saving before you leave...\" or reward.state==\"Unavailable\" and \"Rewards are not ready. Please stay connected.\" or \"Saving your rewards...\"\n layout()\nend\nlocal function reveal()\n",
+        "new": " end\n panel.TotalCash.Text=comma(b.cash) panel.TotalTrophies.Text=comma(b.trophies)\n panel.Status.Text=reward.state==\"Preview\" and \"STUDIO PREVIEW - no rewards awarded.\" or reward.state==\"Saved\" and \"Rewards added to your balance.\" or reward.state==\"SavePending\" and \"Rewards recorded; saving before you leave...\" or reward.state==\"Unavailable\" and \"Rewards are not ready. Please stay connected.\" or \"Saving your rewards...\"\n if b.competitive==false and reward.state==\"Saved\" then panel.Status.Text=\"Practice rewards added. Solo races do not award wins.\" end\n layout()\nend\nlocal function reveal()\n"
+      },
+      {
+        "old": " shownId=data.id packet=data completed=false leaving=false pop:SetOpen(false,true)\n toggle.Visible=false emoteButton.Visible=false menuPop:SetOpen(false,true)\n panel.ReturnToLobby.Active=true panel.ReturnToLobby.Label.Text=\"RETURN TO LOBBY\"\n if visuals then visuals:Destroy() visuals=nil end\n p:SetAttribute(\"GBloxPodiumCameraActive\",true)\n local runnerUI=p.PlayerGui:FindFirstChild(\"RunnerUI\") if runnerUI then runnerUI.Enabled=false end\n local rankings=p.PlayerGui:FindFirstChild(\"GBloxRoundRankings\") if rankings then rankings.Enabled=false end\n task.spawn(function()\n  g.RevealTitle.Text=\"MATCH COMPLETE\"\n  if workspace.StreamingEnabled then pcall(function() p:RequestStreamAroundAsync(data.center,8) end) end\n  if shownId~=data.id then return end\n  local camera=workspace.CurrentCamera camera.CameraType=Enum.CameraType.Scriptable\n  visuals=Visuals.Begin(data)\n  local shots=Presentation.Shots(data,camera.ViewportSize.X/math.max(1,camera.ViewportSize.Y))\n  for index,shot in shots do\n   if shownId~=data.id then return end\n   visuals:Reveal(shot.place)\n   g.RevealTitle.Text=shot.place and (({\"1ST\",\"2ND\",\"3RD\"})[shot.place]..\" PLACE - \"..shot.name) or \"THE FINAL PLACEMENTS\"\n   heldCamera=nil heldFov=nil\n   if index==1 then\n    -- Cut to third place instead of flying across the entire map from the course.\n",
+        "new": " shownId=data.id packet=data completed=false leaving=false pop:SetOpen(false,true)\n toggle.Visible=false emoteButton.Visible=false menuPop:SetOpen(false,true)\n panel.ReturnToLobby.Active=true panel.ReturnToLobby.Label.Text=\"RETURN TO LOBBY\"\n panel.Title.Text=data.competitive==false and \"PRACTICE REWARDS\" or \"MATCH REWARDS\"\n if visuals then visuals:Destroy() visuals=nil end\n p:SetAttribute(\"GBloxPodiumCameraActive\",true)\n local runnerUI=p.PlayerGui:FindFirstChild(\"RunnerUI\") if runnerUI then runnerUI.Enabled=false end\n local rankings=p.PlayerGui:FindFirstChild(\"GBloxRoundRankings\") if rankings then rankings.Enabled=false end\n task.spawn(function()\n  g.RevealTitle.Text=data.competitive==false and \"PRACTICE COMPLETE\" or \"MATCH COMPLETE\"\n  if workspace.StreamingEnabled then pcall(function() p:RequestStreamAroundAsync(data.center,8) end) end\n  if shownId~=data.id then return end\n  local camera=workspace.CurrentCamera camera.CameraType=Enum.CameraType.Scriptable\n  visuals=Visuals.Begin(data)\n  local shots=Presentation.Shots(data,camera.ViewportSize.X/math.max(1,camera.ViewportSize.Y))\n  if data.competitive==false then shots={shots[#shots]} end\n  for index,shot in shots do\n   if shownId~=data.id then return end\n   visuals:Reveal(shot.place)\n   g.RevealTitle.Text=data.competitive==false and \"SOLO PRACTICE - NO WIN AWARDED\" or shot.place and (({\"1ST\",\"2ND\",\"3RD\"})[shot.place]..\" PLACE - \"..shot.name) or \"THE FINAL PLACEMENTS\"\n   heldCamera=nil heldFov=nil\n   if index==1 then\n    -- Cut to third place instead of flying across the entire map from the course.\n"
+      }
+    ]
+  }
+]

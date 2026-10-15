@@ -1,0 +1,150 @@
+{
+  "pet": "Hare",
+  "mesh_count": 28,
+  "base_meshes": 25,
+  "vfx_meshes": 3,
+  "triangles": 4144,
+  "one_material_each": true,
+  "parts": [
+    {
+      "name": "Head_Pearl_Cube.008",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Face_Cyan_Panel.006",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Pearl_Cap.009",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Cyan_Stripe.008",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Top.008",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Bottom.008",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_L_Violet_Temple.008",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_L_Ink.008",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_L_White_Glint.009",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Visor_R_Violet_Temple.008",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_R_Ink.008",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_R_White_Glint.009",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Helmet_Yellow_Bolt.008",
+      "recolour": "Yellow",
+      "triangles": 164
+    },
+    {
+      "name": "Ear_L_Pearl.003",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Ear_L_Violet_Inlay.003",
+      "recolour": "Purple",
+      "triangles": 136
+    },
+    {
+      "name": "Ear_R_Pearl.003",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Ear_R_Violet_Inlay.003",
+      "recolour": "Purple",
+      "triangles": 136
+    },
+    {
+      "name": "Muzzle_Pearl.002",
+      "recolour": "Pearl",
+      "triangles": 224
+    },
+    {
+      "name": "Nose_Ink.002",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Whisker_-1_0",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "Whisker_-1_1",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "Whisker_-1_2",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "Whisker_1_0",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "Whisker_1_1",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "Whisker_1_2",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_Cyan_Underlight.009",
+      "recolour": "Glow",
+      "triangles": 108
+    },
+    {
+      "name": "VFX_-1_SpeedRail.008",
+      "recolour": "Glow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_1_SpeedRail.008",
+      "recolour": "Glow",
+      "triangles": 140
+    }
+  ]
+}

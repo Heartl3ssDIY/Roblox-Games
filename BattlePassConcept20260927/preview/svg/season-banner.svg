@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="Battle Pass season banner frame">
+  <defs>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#341560"/><stop offset=".46" stop-color="#190E40"/><stop offset="1" stop-color="#21094C"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFF5A3"/><stop offset=".34" stop-color="#FCCE2C"/><stop offset=".68" stop-color="#C67800"/><stop offset="1" stop-color="#FFE574"/></linearGradient>
+    <pattern id="stars" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M19 4l3.1 11.9L34 19l-11.9 3.1L19 34l-3.1-11.9L4 19l11.9-3.1z" fill="#A040F0" opacity=".19"/></pattern>
+    <clipPath id="inside"><path d="M73 24H1147l-60 83 61 88H75l-43-33 41-55-41-49z"/></clipPath>
+    <filter id="aura" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <path d="M70 11H1171l-70 96 69 101H69L13 167l45-59L12 58z" fill="none" stroke="#AF77FF" stroke-width="18" opacity=".7" filter="url(#aura)"/>
+  <path d="M70 11H1171l-70 96 69 101H69L13 167l45-59L12 58z" fill="#100030" stroke="#150034" stroke-width="13" stroke-linejoin="round"/>
+  <path d="M73 24H1147l-60 83 61 88H75l-43-33 41-55-41-49z" fill="url(#face)" stroke="url(#gold)" stroke-width="10" stroke-linejoin="round"/>
+  <g clip-path="url(#inside)">
+    <rect x="23" y="19" width="1137" height="182" fill="url(#stars)"/>
+    <path d="M59 35H1132l-20 28H81z" fill="#7541C3" opacity=".32"/>
+    <path d="M70 181H1125l20 21H76z" fill="#050019" opacity=".5"/>
+    <path d="M164 28l-37 166M217 28l-37 166" stroke="#5D2E9A" stroke-width="3" opacity=".4"/>
+    <path d="M80 51h1041M83 172h1035" stroke="#FCE775" stroke-width="2" opacity=".27"/>
+    <path d="M1060 35l5 16 16 5-16 5-5 16-5-16-16-5 16-5z" fill="#D8A7FF" opacity=".45"/>
+    <path d="M997 157l3 10 10 3-10 3-3 10-3-10-10-3 10-3z" fill="#D8A7FF" opacity=".35"/>
+  </g>
+  <path d="M74 24H1146" stroke="#FFF4A2" stroke-width="3" opacity=".87"/>
+  <path d="M74 195H1148" stroke="#662591" stroke-width="4" opacity=".75"/>
+  <circle cx="123" cy="109" r="66" fill="#0A001F" stroke="#22094E" stroke-width="7"/>
+  <circle cx="123" cy="109" r="58" fill="#AA6EFF" stroke="url(#gold)" stroke-width="7"/>
+  <circle cx="123" cy="109" r="47" fill="#1B0750" stroke="#E8A5FF" stroke-width="3"/>
+  <path d="M123 65l10 28 30 1-23 18 8 29-25-17-25 17 8-29-23-18 30-1z" fill="url(#gold)" stroke="#FFF4B0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M93 157l-8 30 25-12 13 18 13-18 25 12-8-30" fill="#6820B5" stroke="#F0C020" stroke-width="3" stroke-linejoin="round"/>
+</svg>

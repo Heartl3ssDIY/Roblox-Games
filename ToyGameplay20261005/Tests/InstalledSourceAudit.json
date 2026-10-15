@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"PlaygroundToyService\":{\"caps\":\"RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior\",\"matches\":true,\"length\":27182},\"ShellController\":{\"caps\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior\",\"matches\":true,\"length\":22871},\"PlaygroundEquipmentService\":{\"caps\":\"RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior\",\"matches\":true,\"length\":29371},\"HotbarController\":{\"caps\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior\",\"matches\":true,\"length\":13352},\"PlaygroundBootstrap\":{\"caps\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | Animation | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior\",\"matches\":true,\"length\":5486},\"PlaygroundCatalog\":{\"caps\":\"RunClientScript | RunServerScript | Basic\",\"matches\":true,\"length\":8220},\"PlaygroundEmotes\":{\"caps\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior\",\"matches\":true,\"length\":21358},\"PlaygroundEconomyService\":{\"caps\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior\",\"matches\":true,\"length\":38364}}"
+    }
+  ],
+  "isError": false
+}

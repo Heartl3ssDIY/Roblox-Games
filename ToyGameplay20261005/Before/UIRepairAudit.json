@@ -1,0 +1,1425 @@
+{
+  "dock": {
+    "attrs": {
+      "DockPolishVersion": "1"
+    },
+    "backgroundAlpha": 1,
+    "class": "Frame",
+    "path": "StarterGui.PlaygroundShell.Dock",
+    "absolutePosition": "18, 701",
+    "absoluteSize": "382, 48",
+    "visible": true,
+    "z": 3,
+    "position": "{0, 18}, {1, -18}",
+    "anchor": "0, 1",
+    "background": "0.639216, 0.635294, 0.647059",
+    "children": [
+      {
+        "attrs": {
+          "UISkinAssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+          "UISkinSelectionFromColour": "false",
+          "UISkinHiddenText": "true",
+          "UISkinManaged": "true",
+          "UISkinSelectionFromOutline": "false",
+          "UISkinDynamic": "false"
+        },
+        "backgroundAlpha": 1,
+        "class": "TextButton",
+        "path": "StarterGui.PlaygroundShell.Dock.Shop",
+        "absolutePosition": "18.0000038, 701",
+        "absoluteSize": "118.333336, 46",
+        "visible": true,
+        "z": 4,
+        "position": "{0, 0}, {0, 0}",
+        "anchor": "0, 0",
+        "background": "1, 0.803922, 0.223529",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Dock.Shop.TextSizeLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Dock.Shop.TextPadding",
+            "children": [],
+            "class": "UIPadding"
+          },
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Dock.Shop.Corner",
+            "children": [],
+            "class": "UICorner"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Dock.Shop.Outline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 1,
+            "thickness": 3,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Border"
+          },
+          {
+            "attrs": {
+              "DefaultImage": "rbxassetid://84589903135132",
+              "AssetKey": "PNG/07-Resizable-Skins/gold-normal.png",
+              "UISkinTargetPath": "StarterGui.PlaygroundShell.Dock.Shop"
+            },
+            "backgroundAlpha": 1,
+            "path": "StarterGui.PlaygroundShell.Dock.Shop.ReusableSkin",
+            "visible": true,
+            "isLoaded": true,
+            "class": "ImageLabel",
+            "alpha": 0,
+            "absolutePosition": "23.0000038, 704",
+            "absoluteSize": "108.333336, 40",
+            "image": "rbxassetid://84589903135132",
+            "z": 4,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.639216, 0.635294, 0.647059",
+            "children": [],
+            "size": "{1, 0}, {1, 0}"
+          },
+          {
+            "attrs": [],
+            "backgroundAlpha": 1,
+            "class": "TextLabel",
+            "path": "StarterGui.PlaygroundShell.Dock.Shop.LiveCaption",
+            "absolutePosition": "33.8333359, 712",
+            "absoluteSize": "86.6666718, 24",
+            "visible": true,
+            "z": 6,
+            "position": "{0.5, 0}, {0.5, 0}",
+            "anchor": "0.5, 0.5",
+            "background": "0.639216, 0.635294, 0.647059",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.Dock.Shop.LiveCaption.UITextSizeConstraint",
+                "children": [],
+                "class": "UITextSizeConstraint"
+              },
+              {
+                "enabled": true,
+                "path": "StarterGui.PlaygroundShell.Dock.Shop.LiveCaption.TextOutline",
+                "color": "0.0941176, 0.117647, 0.2",
+                "class": "UIStroke",
+                "alpha": 0,
+                "thickness": 0.08500000089406967,
+                "attrs": [],
+                "children": [],
+                "apply": "Enum.ApplyStrokeMode.Contextual"
+              }
+            ],
+            "size": "{0.800000012, 0}, {0.600000024, 0}"
+          },
+          {
+            "attrs": {
+              "FallbackFaceColor": "1, 0.803922, 0.223529",
+              "BackgroundFallbackVersion": "1",
+              "FallbackInkColor": "0.121569, 0.14902, 0.235294",
+              "BackgroundFallbackFor": "ReusableSkin"
+            },
+            "backgroundAlpha": 0,
+            "class": "Frame",
+            "path": "StarterGui.PlaygroundShell.Dock.Shop.ReusableSkinFallback",
+            "absolutePosition": "23.0000038, 704",
+            "absoluteSize": "108.333336, 40",
+            "visible": false,
+            "z": 3,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.121569, 0.14902, 0.235294",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.Dock.Shop.ReusableSkinFallback.Corner",
+                "children": [],
+                "class": "UICorner"
+              },
+              {
+                "attrs": [],
+                "backgroundAlpha": 0,
+                "class": "Frame",
+                "path": "StarterGui.PlaygroundShell.Dock.Shop.ReusableSkinFallback.Edge",
+                "absolutePosition": "25.0000038, 706",
+                "absoluteSize": "104.333336, 36",
+                "visible": true,
+                "z": 3,
+                "position": "{0, 2}, {0, 2}",
+                "anchor": "0, 0",
+                "background": "1, 0.945098, 0.782588",
+                "children": [
+                  {
+                    "attrs": [],
+                    "path": "StarterGui.PlaygroundShell.Dock.Shop.ReusableSkinFallback.Edge.Corner",
+                    "class": "UICorner"
+                  },
+                  {
+                    "attrs": [],
+                    "backgroundAlpha": 0,
+                    "class": "Frame",
+                    "absolutePosition": "27.0000038, 708",
+                    "absoluteSize": "100.333336, 30",
+                    "visible": true,
+                    "z": 3,
+                    "position": "{0, 2}, {0, 2}",
+                    "anchor": "0, 0",
+                    "background": "1, 0.803922, 0.223529",
+                    "path": "StarterGui.PlaygroundShell.Dock.Shop.ReusableSkinFallback.Edge.Face",
+                    "size": "{1, -4}, {1, -6}"
+                  }
+                ],
+                "size": "{1, -4}, {1, -4}"
+              }
+            ],
+            "size": "{1, 0}, {1, 0}"
+          }
+        ],
+        "size": "{0.333333343, -9}, {0, 46}"
+      },
+      {
+        "attrs": {
+          "UISkinAssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+          "UISkinSelectionFromColour": "false",
+          "UISkinHiddenText": "true",
+          "UISkinManaged": "true",
+          "UISkinSelectionFromOutline": "false",
+          "UISkinDynamic": "false"
+        },
+        "backgroundAlpha": 1,
+        "class": "TextButton",
+        "path": "StarterGui.PlaygroundShell.Dock.Emote",
+        "absolutePosition": "150.333344, 701",
+        "absoluteSize": "118.333336, 46",
+        "visible": true,
+        "z": 4,
+        "position": "{0, 135}, {0, -1}",
+        "anchor": "0, 0",
+        "background": "0.164706, 0.627451, 0.921569",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Dock.Emote.TextSizeLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Dock.Emote.TextPadding",
+            "children": [],
+            "class": "UIPadding"
+          },
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Dock.Emote.Corner",
+            "children": [],
+            "class": "UICorner"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Dock.Emote.Outline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 1,
+            "thickness": 3,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Border"
+          },
+          {
+            "attrs": {
+              "DefaultImage": "https://www.roblox.com/asset/?id=90528629970043&version=1",
+              "AssetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+              "UISkinTargetPath": "StarterGui.PlaygroundShell.Dock.Emote"
+            },
+            "backgroundAlpha": 1,
+            "path": "StarterGui.PlaygroundShell.Dock.Emote.ReusableSkin",
+            "visible": true,
+            "isLoaded": true,
+            "class": "ImageLabel",
+            "alpha": 0,
+            "absolutePosition": "155.333344, 704",
+            "absoluteSize": "108.333336, 40",
+            "image": "https://www.roblox.com/asset/?id=90528629970043&version=1",
+            "z": 4,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.639216, 0.635294, 0.647059",
+            "children": [],
+            "size": "{1, 0}, {1, 0}"
+          },
+          {
+            "attrs": [],
+            "backgroundAlpha": 1,
+            "class": "TextLabel",
+            "path": "StarterGui.PlaygroundShell.Dock.Emote.LiveCaption",
+            "absolutePosition": "166.166687, 712",
+            "absoluteSize": "86.6666718, 24",
+            "visible": true,
+            "z": 6,
+            "position": "{0.5, 0}, {0.5, 0}",
+            "anchor": "0.5, 0.5",
+            "background": "0.639216, 0.635294, 0.647059",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.Dock.Emote.LiveCaption.UITextSizeConstraint",
+                "children": [],
+                "class": "UITextSizeConstraint"
+              },
+              {
+                "enabled": true,
+                "path": "StarterGui.PlaygroundShell.Dock.Emote.LiveCaption.TextOutline",
+                "color": "0.0941176, 0.117647, 0.2",
+                "class": "UIStroke",
+                "alpha": 0,
+                "thickness": 0.08500000089406967,
+                "attrs": [],
+                "children": [],
+                "apply": "Enum.ApplyStrokeMode.Contextual"
+              }
+            ],
+            "size": "{0.800000012, 0}, {0.600000024, 0}"
+          },
+          {
+            "attrs": {
+              "FallbackFaceColor": "0.164706, 0.627451, 0.921569",
+              "BackgroundFallbackVersion": "1",
+              "FallbackInkColor": "0.121569, 0.14902, 0.235294",
+              "BackgroundFallbackFor": "ReusableSkin"
+            },
+            "backgroundAlpha": 0,
+            "class": "Frame",
+            "path": "StarterGui.PlaygroundShell.Dock.Emote.ReusableSkinFallback",
+            "absolutePosition": "155.333344, 704",
+            "absoluteSize": "108.333336, 40",
+            "visible": false,
+            "z": 3,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.121569, 0.14902, 0.235294",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.Dock.Emote.ReusableSkinFallback.Corner",
+                "children": [],
+                "class": "UICorner"
+              },
+              {
+                "attrs": [],
+                "backgroundAlpha": 0,
+                "class": "Frame",
+                "path": "StarterGui.PlaygroundShell.Dock.Emote.ReusableSkinFallback.Edge",
+                "absolutePosition": "157.333344, 706",
+                "absoluteSize": "104.333336, 36",
+                "visible": true,
+                "z": 3,
+                "position": "{0, 2}, {0, 2}",
+                "anchor": "0, 0",
+                "background": "0.766118, 0.895686, 0.978039",
+                "children": [
+                  {
+                    "attrs": [],
+                    "path": "StarterGui.PlaygroundShell.Dock.Emote.ReusableSkinFallback.Edge.Corner",
+                    "class": "UICorner"
+                  },
+                  {
+                    "attrs": [],
+                    "backgroundAlpha": 0,
+                    "class": "Frame",
+                    "absolutePosition": "159.333344, 708",
+                    "absoluteSize": "100.333336, 30",
+                    "visible": true,
+                    "z": 3,
+                    "position": "{0, 2}, {0, 2}",
+                    "anchor": "0, 0",
+                    "background": "0.164706, 0.627451, 0.921569",
+                    "path": "StarterGui.PlaygroundShell.Dock.Emote.ReusableSkinFallback.Edge.Face",
+                    "size": "{1, -4}, {1, -6}"
+                  }
+                ],
+                "size": "{1, -4}, {1, -4}"
+              }
+            ],
+            "size": "{1, 0}, {1, 0}"
+          }
+        ],
+        "size": "{0.333333343, -9}, {0, 46}"
+      },
+      {
+        "attrs": {
+          "UISkinAssetKey": "PNG/07-Resizable-Skins/silver-normal.png",
+          "UISkinSelectionFromColour": "false",
+          "UISkinHiddenText": "true",
+          "UISkinManaged": "true",
+          "UISkinSelectionFromOutline": "false",
+          "UISkinDynamic": "false"
+        },
+        "backgroundAlpha": 1,
+        "class": "TextButton",
+        "path": "StarterGui.PlaygroundShell.Dock.Emoji",
+        "absolutePosition": "282.666687, 701",
+        "absoluteSize": "118.333336, 46",
+        "visible": true,
+        "z": 4,
+        "position": "{0, 352}, {0, -88}",
+        "anchor": "0, 0",
+        "background": "0.690196, 0.737255, 0.807843",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Dock.Emoji.TextSizeLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Dock.Emoji.TextPadding",
+            "children": [],
+            "class": "UIPadding"
+          },
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Dock.Emoji.Corner",
+            "children": [],
+            "class": "UICorner"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Dock.Emoji.Outline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 1,
+            "thickness": 3,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Border"
+          },
+          {
+            "attrs": {
+              "DefaultImage": "https://www.roblox.com/asset/?id=91168456076260&version=1",
+              "AssetKey": "PNG/07-Resizable-Skins/silver-normal.png",
+              "UISkinTargetPath": "StarterGui.PlaygroundShell.Dock.Emoji"
+            },
+            "backgroundAlpha": 1,
+            "path": "StarterGui.PlaygroundShell.Dock.Emoji.ReusableSkin",
+            "visible": true,
+            "isLoaded": true,
+            "class": "ImageLabel",
+            "alpha": 0,
+            "absolutePosition": "287.666687, 704",
+            "absoluteSize": "108.333336, 40",
+            "image": "https://www.roblox.com/asset/?id=91168456076260&version=1",
+            "z": 4,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.639216, 0.635294, 0.647059",
+            "children": [],
+            "size": "{1, 0}, {1, 0}"
+          },
+          {
+            "attrs": [],
+            "backgroundAlpha": 1,
+            "class": "TextLabel",
+            "path": "StarterGui.PlaygroundShell.Dock.Emoji.LiveCaption",
+            "absolutePosition": "298.5, 712",
+            "absoluteSize": "86.6666718, 24",
+            "visible": true,
+            "z": 6,
+            "position": "{0.5, 0}, {0.5, 0}",
+            "anchor": "0.5, 0.5",
+            "background": "0.639216, 0.635294, 0.647059",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.Dock.Emoji.LiveCaption.UITextSizeConstraint",
+                "children": [],
+                "class": "UITextSizeConstraint"
+              },
+              {
+                "enabled": true,
+                "path": "StarterGui.PlaygroundShell.Dock.Emoji.LiveCaption.TextOutline",
+                "color": "0.0941176, 0.117647, 0.2",
+                "class": "UIStroke",
+                "alpha": 0,
+                "thickness": 0.08500000089406967,
+                "attrs": [],
+                "children": [],
+                "apply": "Enum.ApplyStrokeMode.Contextual"
+              }
+            ],
+            "size": "{0.800000012, 0}, {0.600000024, 0}"
+          },
+          {
+            "attrs": {
+              "FallbackFaceColor": "0.690196, 0.737255, 0.807843",
+              "BackgroundFallbackVersion": "1",
+              "FallbackInkColor": "0.121569, 0.14902, 0.235294",
+              "BackgroundFallbackFor": "ReusableSkin"
+            },
+            "backgroundAlpha": 0,
+            "class": "Frame",
+            "path": "StarterGui.PlaygroundShell.Dock.Emoji.ReusableSkinFallback",
+            "absolutePosition": "287.666687, 704",
+            "absoluteSize": "108.333336, 40",
+            "visible": false,
+            "z": 3,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.121569, 0.14902, 0.235294",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.Dock.Emoji.ReusableSkinFallback.Corner",
+                "children": [],
+                "class": "UICorner"
+              },
+              {
+                "attrs": [],
+                "backgroundAlpha": 0,
+                "class": "Frame",
+                "path": "StarterGui.PlaygroundShell.Dock.Emoji.ReusableSkinFallback.Edge",
+                "absolutePosition": "289.666687, 706",
+                "absoluteSize": "104.333336, 36",
+                "visible": true,
+                "z": 3,
+                "position": "{0, 2}, {0, 2}",
+                "anchor": "0, 0",
+                "background": "0.913255, 0.926431, 0.946196",
+                "children": [
+                  {
+                    "attrs": [],
+                    "path": "StarterGui.PlaygroundShell.Dock.Emoji.ReusableSkinFallback.Edge.Corner",
+                    "class": "UICorner"
+                  },
+                  {
+                    "attrs": [],
+                    "backgroundAlpha": 0,
+                    "class": "Frame",
+                    "absolutePosition": "291.666687, 708",
+                    "absoluteSize": "100.333336, 30",
+                    "visible": true,
+                    "z": 3,
+                    "position": "{0, 2}, {0, 2}",
+                    "anchor": "0, 0",
+                    "background": "0.690196, 0.737255, 0.807843",
+                    "path": "StarterGui.PlaygroundShell.Dock.Emoji.ReusableSkinFallback.Edge.Face",
+                    "size": "{1, -4}, {1, -6}"
+                  }
+                ],
+                "size": "{1, -4}, {1, -4}"
+              }
+            ],
+            "size": "{1, 0}, {1, 0}"
+          }
+        ],
+        "size": "{0.333333343, -9}, {0, 46}"
+      },
+      {
+        "attrs": [],
+        "path": "StarterGui.PlaygroundShell.Dock.DockSizeLimit",
+        "children": [],
+        "class": "UISizeConstraint"
+      },
+      {
+        "attrs": [],
+        "path": "StarterGui.PlaygroundShell.Dock.DockLayout",
+        "children": [],
+        "class": "UIListLayout"
+      }
+    ],
+    "size": "{1, -36}, {0, 48}"
+  },
+  "wallet": {
+    "attrs": {
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/panel-normal.png",
+      "UISkinSelectionFromColour": "false",
+      "UISkinManaged": "true",
+      "CoinOnlyWalletVersion": "1",
+      "UISkinSelectionFromOutline": "false",
+      "UISkinDynamic": "false"
+    },
+    "backgroundAlpha": 1,
+    "class": "Frame",
+    "path": "StarterGui.PlaygroundShell.Wallet",
+    "absolutePosition": "1152, 36",
+    "absoluteSize": "190, 56",
+    "visible": true,
+    "z": 3,
+    "position": "{0, 1152}, {0, 36}",
+    "anchor": "0, 0",
+    "background": "1, 0.968627, 0.858824",
+    "children": [
+      {
+        "attrs": [],
+        "path": "StarterGui.PlaygroundShell.Wallet.SizeLimit",
+        "children": [],
+        "class": "UISizeConstraint"
+      },
+      {
+        "attrs": [],
+        "path": "StarterGui.PlaygroundShell.Wallet.Corner",
+        "children": [],
+        "class": "UICorner"
+      },
+      {
+        "enabled": true,
+        "path": "StarterGui.PlaygroundShell.Wallet.Outline",
+        "color": "0.105882, 0.176471, 0.239216",
+        "class": "UIStroke",
+        "alpha": 1,
+        "thickness": 4,
+        "attrs": [],
+        "children": [],
+        "apply": "Enum.ApplyStrokeMode.Border"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "Frame",
+        "path": "StarterGui.PlaygroundShell.Wallet.Coin",
+        "absolutePosition": "1160, 43",
+        "absoluteSize": "42, 42",
+        "visible": true,
+        "z": 4,
+        "position": "{0, 8}, {0, 7}",
+        "anchor": "0, 0",
+        "background": "1, 0.827451, 0.305882",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Wallet.Coin.Corner",
+            "children": [],
+            "class": "UICorner"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Wallet.Coin.Outline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 1,
+            "thickness": 3,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Border"
+          },
+          {
+            "attrs": {
+              "UISkinHiddenText": "true"
+            },
+            "backgroundAlpha": 1,
+            "class": "TextLabel",
+            "path": "StarterGui.PlaygroundShell.Wallet.Coin.Symbol",
+            "absolutePosition": "1163.35999, 44.6800003",
+            "absoluteSize": "35.2799988, 35.2799988",
+            "visible": false,
+            "z": 5,
+            "position": "{0.0799999982, 0}, {0.0399999991, 0}",
+            "anchor": "0, 0",
+            "background": "0.639216, 0.635294, 0.647059",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.Wallet.Coin.Symbol.TextSizeLimit",
+                "class": "UITextSizeConstraint"
+              }
+            ],
+            "size": "{0.839999974, 0}, {0.839999974, 0}"
+          },
+          {
+            "attrs": {
+              "DefaultImage": "rbxassetid://116272100820962",
+              "AssetKey": "Attachments/icon-coin.png",
+              "UISkinTargetPath": "StarterGui.PlaygroundShell.Wallet.Coin"
+            },
+            "backgroundAlpha": 1,
+            "path": "StarterGui.PlaygroundShell.Wallet.Coin.ReusableIcon",
+            "visible": true,
+            "isLoaded": true,
+            "class": "ImageLabel",
+            "alpha": 0,
+            "absolutePosition": "1160, 43",
+            "absoluteSize": "42, 42",
+            "image": "rbxassetid://116272100820962",
+            "z": 5,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.639216, 0.635294, 0.647059",
+            "children": [],
+            "size": "{1, 0}, {1, 0}"
+          },
+          {
+            "attrs": {
+              "FallbackFaceColor": "1, 0.803922, 0.223529",
+              "FallbackInkColor": "0.105882, 0.164706, 0.254902",
+              "BackgroundFallbackVersion": "1",
+              "BackgroundFallbackFor": "ReusableIcon",
+              "CoinIconFallbackVersion": "1"
+            },
+            "backgroundAlpha": 0,
+            "class": "Frame",
+            "path": "StarterGui.PlaygroundShell.Wallet.Coin.ReusableIconFallback",
+            "absolutePosition": "1160, 43",
+            "absoluteSize": "42, 42",
+            "visible": false,
+            "z": 4,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.105882, 0.164706, 0.254902",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.Wallet.Coin.ReusableIconFallback.UICorner",
+                "class": "UICorner"
+              },
+              {
+                "attrs": [],
+                "backgroundAlpha": 0,
+                "class": "Frame",
+                "absolutePosition": "1162, 45",
+                "absoluteSize": "38, 38",
+                "visible": true,
+                "z": 4,
+                "position": "{0, 2}, {0, 2}",
+                "anchor": "0, 0",
+                "background": "1, 0.921569, 0.619608",
+                "path": "StarterGui.PlaygroundShell.Wallet.Coin.ReusableIconFallback.Edge",
+                "size": "{1, -4}, {1, -4}"
+              }
+            ],
+            "size": "{1, 0}, {1, 0}"
+          }
+        ],
+        "size": "{0, 42}, {0, 42}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.Wallet.Coins",
+        "absolutePosition": "1210, 57",
+        "absoluteSize": "122, 28",
+        "visible": true,
+        "z": 4,
+        "position": "{0, 58}, {0, 21}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Wallet.Coins.TextSizeLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Wallet.Coins.TextOutline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 1.7000000476837158,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{1, -68}, {0, 28}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.Wallet.Wins",
+        "absolutePosition": "1158, 61",
+        "absoluteSize": "51.3333359, 28",
+        "visible": false,
+        "z": 4,
+        "position": "{0, 6}, {0, 25}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Wallet.Wins.TextSizeLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Wallet.Wins.TextOutline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 1.7000000476837158,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{0.333333343, -12}, {0, 28}"
+      },
+      {
+        "attrs": {
+          "DefaultImage": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+          "AssetKey": "PNG/07-Resizable-Skins/panel-normal.png",
+          "UISkinTargetPath": "StarterGui.PlaygroundShell.Wallet"
+        },
+        "backgroundAlpha": 1,
+        "path": "StarterGui.PlaygroundShell.Wallet.ReusableSkin",
+        "visible": true,
+        "isLoaded": true,
+        "class": "ImageLabel",
+        "alpha": 0,
+        "absolutePosition": "1152, 36",
+        "absoluteSize": "190, 56",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 3,
+        "position": "{0, 0}, {0, 0}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [],
+        "size": "{1, 0}, {1, 0}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.Wallet.WinsCaption",
+        "absolutePosition": "1158, 45",
+        "absoluteSize": "51.3333359, 15",
+        "visible": false,
+        "z": 4,
+        "position": "{0, 6}, {0, 9}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Wallet.WinsCaption.TextSizeLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Wallet.WinsCaption.TextOutline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 1.2000000476837158,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{0.333333343, -12}, {0, 15}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.Wallet.Level",
+        "absolutePosition": "1221.33337, 61",
+        "absoluteSize": "51.3333359, 28",
+        "visible": false,
+        "z": 4,
+        "position": "{0.333333343, 6}, {0, 25}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Wallet.Level.TextSizeLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Wallet.Level.TextOutline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 1.7000000476837158,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{0.333333343, -12}, {0, 28}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.Wallet.LevelCaption",
+        "absolutePosition": "1221.33337, 45",
+        "absoluteSize": "51.3333359, 15",
+        "visible": false,
+        "z": 4,
+        "position": "{0.333333343, 6}, {0, 9}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Wallet.LevelCaption.TextSizeLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Wallet.LevelCaption.TextOutline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 1.2000000476837158,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{0.333333343, -12}, {0, 15}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.Wallet.CoinsCaption",
+        "absolutePosition": "1210, 42",
+        "absoluteSize": "122, 13",
+        "visible": true,
+        "z": 4,
+        "position": "{0, 58}, {0, 6}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Wallet.CoinsCaption.TextSizeLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.Wallet.CoinsCaption.TextOutline",
+            "color": "0.105882, 0.176471, 0.239216",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 1.2000000476837158,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{1, -68}, {0, 13}"
+      },
+      {
+        "attrs": {
+          "FallbackFaceColor": "1, 0.976471, 0.878431",
+          "BackgroundFallbackVersion": "1",
+          "FallbackInkColor": "0.121569, 0.14902, 0.235294",
+          "BackgroundFallbackFor": "ReusableSkin"
+        },
+        "backgroundAlpha": 0,
+        "class": "Frame",
+        "path": "StarterGui.PlaygroundShell.Wallet.ReusableSkinFallback",
+        "absolutePosition": "1152, 36",
+        "absoluteSize": "190, 56",
+        "visible": false,
+        "z": 2,
+        "position": "{0, 0}, {0, 0}",
+        "anchor": "0, 0",
+        "background": "0.121569, 0.14902, 0.235294",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.Wallet.ReusableSkinFallback.Corner",
+            "children": [],
+            "class": "UICorner"
+          },
+          {
+            "attrs": [],
+            "backgroundAlpha": 0,
+            "class": "Frame",
+            "path": "StarterGui.PlaygroundShell.Wallet.ReusableSkinFallback.Edge",
+            "absolutePosition": "1154, 38",
+            "absoluteSize": "186, 52",
+            "visible": true,
+            "z": 2,
+            "position": "{0, 2}, {0, 2}",
+            "anchor": "0, 0",
+            "background": "1, 0.993412, 0.965961",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.Wallet.ReusableSkinFallback.Edge.Corner",
+                "class": "UICorner"
+              },
+              {
+                "attrs": [],
+                "backgroundAlpha": 0,
+                "class": "Frame",
+                "absolutePosition": "1156, 40",
+                "absoluteSize": "182, 46",
+                "visible": true,
+                "z": 2,
+                "position": "{0, 2}, {0, 2}",
+                "anchor": "0, 0",
+                "background": "1, 0.976471, 0.878431",
+                "path": "StarterGui.PlaygroundShell.Wallet.ReusableSkinFallback.Edge.Face",
+                "size": "{1, -4}, {1, -6}"
+              }
+            ],
+            "size": "{1, -4}, {1, -4}"
+          }
+        ],
+        "size": "{1, 0}, {1, 0}"
+      }
+    ],
+    "size": "{0, 190}, {0, 56}"
+  },
+  "level": {
+    "attrs": {
+      "UISkinSelectionFromOutline": "false",
+      "UISkinSelectionFromColour": "false",
+      "UISkinManaged": "true",
+      "UISkinAssetKey": "PNG/07-Resizable-Skins/panel-normal.png",
+      "UISkinDynamic": "false"
+    },
+    "backgroundAlpha": 1,
+    "class": "Frame",
+    "path": "StarterGui.PlaygroundShell.LevelPanel",
+    "absolutePosition": "18, 587",
+    "absoluteSize": "288, 98",
+    "visible": true,
+    "z": 6,
+    "position": "{0, 18}, {1, -82}",
+    "anchor": "0, 1",
+    "background": "1, 0.980392, 0.886275",
+    "children": [
+      {
+        "attrs": [],
+        "path": "StarterGui.PlaygroundShell.LevelPanel.Corner",
+        "children": [],
+        "class": "UICorner"
+      },
+      {
+        "enabled": true,
+        "path": "StarterGui.PlaygroundShell.LevelPanel.Outline",
+        "color": "0.0941176, 0.137255, 0.243137",
+        "class": "UIStroke",
+        "alpha": 1,
+        "thickness": 4,
+        "attrs": [],
+        "children": [],
+        "apply": "Enum.ApplyStrokeMode.Border"
+      },
+      {
+        "attrs": {
+          "DefaultImage": "rbxassetid://85788093672458",
+          "AssetKey": "Attachments/icon-xp-star.png",
+          "UISkinTargetPath": "StarterGui.PlaygroundShell.LevelPanel.LevelIcon"
+        },
+        "backgroundAlpha": 1,
+        "path": "StarterGui.PlaygroundShell.LevelPanel.LevelIcon",
+        "visible": true,
+        "isLoaded": true,
+        "class": "ImageLabel",
+        "alpha": 0,
+        "absolutePosition": "112, 598",
+        "absoluteSize": "22, 22",
+        "image": "rbxassetid://85788093672458",
+        "z": 7,
+        "position": "{0, 94}, {0, 11}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [],
+        "size": "{0, 22}, {0, 22}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.LevelPanel.IconFallback",
+        "absolutePosition": "112, 598",
+        "absoluteSize": "22, 22",
+        "visible": false,
+        "z": 7,
+        "position": "{0, 94}, {0, 11}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.LevelPanel.IconFallback.TextLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.LevelPanel.IconFallback.TextOutline",
+            "color": "0.0941176, 0.117647, 0.2",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 0.08500000089406967,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{0, 22}, {0, 22}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.LevelPanel.Level",
+        "absolutePosition": "137, 595",
+        "absoluteSize": "152, 27",
+        "visible": true,
+        "z": 7,
+        "position": "{0, 119}, {0, 8}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.LevelPanel.Level.TextLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.LevelPanel.Level.TextOutline",
+            "color": "0.0941176, 0.117647, 0.2",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 2,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{0, 152}, {0, 27}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.LevelPanel.XP",
+        "absolutePosition": "108, 642",
+        "absoluteSize": "181, 17",
+        "visible": true,
+        "z": 7,
+        "position": "{0, 90}, {0, 55}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.LevelPanel.XP.TextLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.LevelPanel.XP.TextOutline",
+            "color": "0.0941176, 0.117647, 0.2",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 1.2999999523162842,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{0, 181}, {0, 17}"
+      },
+      {
+        "attrs": {
+          "UISkinSelectionFromOutline": "false",
+          "UISkinSelectionFromColour": "false",
+          "UISkinManaged": "true",
+          "UISkinAssetKey": "PNG/04-Meter-Parts/xp-track.png",
+          "UISkinDynamic": "false"
+        },
+        "backgroundAlpha": 1,
+        "class": "Frame",
+        "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack",
+        "absolutePosition": "112, 666",
+        "absoluteSize": "173, 10",
+        "visible": true,
+        "z": 7,
+        "position": "{0, 94}, {0, 79}",
+        "anchor": "0, 0",
+        "background": "0.827451, 0.85098, 0.847059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Corner",
+            "children": [],
+            "class": "UICorner"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Outline",
+            "color": "0.0941176, 0.137255, 0.243137",
+            "class": "UIStroke",
+            "alpha": 1,
+            "thickness": 2,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Border"
+          },
+          {
+            "attrs": {
+              "UISkinSelectionFromOutline": "false",
+              "UISkinSelectionFromColour": "false",
+              "UISkinManaged": "true",
+              "UISkinAssetKey": "PNG/04-Meter-Parts/xp-fill.png",
+              "UISkinDynamic": "false"
+            },
+            "backgroundAlpha": 1,
+            "class": "Frame",
+            "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill",
+            "absolutePosition": "112, 666",
+            "absoluteSize": "173, 10",
+            "visible": true,
+            "z": 8,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.164706, 0.627451, 1",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill.Corner",
+                "class": "UICorner"
+              },
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill.Progress",
+                "class": "UIGradient"
+              },
+              {
+                "attrs": {
+                  "DefaultImage": "rbxassetid://74663024847674",
+                  "AssetKey": "PNG/04-Meter-Parts/xp-fill.png",
+                  "UISkinTargetPath": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill"
+                },
+                "backgroundAlpha": 1,
+                "visible": true,
+                "isLoaded": true,
+                "class": "ImageLabel",
+                "alpha": 0,
+                "absolutePosition": "112, 666",
+                "absoluteSize": "173, 10",
+                "image": "rbxassetid://74663024847674",
+                "z": 8,
+                "position": "{0, 0}, {0, 0}",
+                "anchor": "0, 0",
+                "background": "0.639216, 0.635294, 0.647059",
+                "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill.ReusableSkin",
+                "size": "{1, 0}, {1, 0}"
+              }
+            ],
+            "size": "{1, 0}, {1, 0}"
+          },
+          {
+            "attrs": {
+              "DefaultImage": "rbxassetid://124471757308253",
+              "AssetKey": "PNG/04-Meter-Parts/xp-track.png",
+              "UISkinTargetPath": "StarterGui.PlaygroundShell.LevelPanel.XPTrack"
+            },
+            "backgroundAlpha": 1,
+            "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.ReusableSkin",
+            "visible": true,
+            "isLoaded": true,
+            "class": "ImageLabel",
+            "alpha": 0,
+            "absolutePosition": "112, 666",
+            "absoluteSize": "173, 10",
+            "image": "rbxassetid://124471757308253",
+            "z": 7,
+            "position": "{0, 0}, {0, 0}",
+            "anchor": "0, 0",
+            "background": "0.639216, 0.635294, 0.647059",
+            "children": [],
+            "size": "{1, 0}, {1, 0}"
+          }
+        ],
+        "size": "{0, 173}, {0, 10}"
+      },
+      {
+        "attrs": {
+          "DefaultImage": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+          "AssetKey": "PNG/07-Resizable-Skins/panel-normal.png",
+          "UISkinTargetPath": "StarterGui.PlaygroundShell.LevelPanel"
+        },
+        "backgroundAlpha": 1,
+        "path": "StarterGui.PlaygroundShell.LevelPanel.ReusableSkin",
+        "visible": true,
+        "isLoaded": true,
+        "class": "ImageLabel",
+        "alpha": 0,
+        "absolutePosition": "18, 587",
+        "absoluteSize": "288, 98",
+        "image": "https://www.roblox.com/asset/?id=117403446558356&version=1",
+        "z": 6,
+        "position": "{0, 0}, {0, 0}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [],
+        "size": "{1, 0}, {1, 0}"
+      },
+      {
+        "attrs": {
+          "PreviewCameraCFrame": "0, 0.150000006, -4.19999981, -1, 0, 0, 0, 1, 0, 0, 0, -1",
+          "PreviewFieldOfView": "32"
+        },
+        "backgroundAlpha": 0,
+        "class": "ViewportFrame",
+        "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview",
+        "absolutePosition": "36, 606",
+        "absoluteSize": "60, 60",
+        "visible": true,
+        "z": 7,
+        "position": "{0, 18}, {0, 19}",
+        "anchor": "0, 0",
+        "background": "0.760784, 0.913725, 0.952941",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.Corner",
+            "children": [],
+            "class": "UICorner"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.Outline",
+            "color": "0.0941176, 0.137255, 0.243137",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 2,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Border"
+          },
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview",
+                "class": "Model"
+              }
+            ],
+            "class": "WorldModel"
+          }
+        ],
+        "size": "{0, 60}, {0, 60}"
+      },
+      {
+        "attrs": [],
+        "backgroundAlpha": 1,
+        "class": "TextLabel",
+        "path": "StarterGui.PlaygroundShell.LevelPanel.NextLevel",
+        "absolutePosition": "108, 622",
+        "absoluteSize": "181, 16",
+        "visible": true,
+        "z": 7,
+        "position": "{0, 90}, {0, 35}",
+        "anchor": "0, 0",
+        "background": "0.639216, 0.635294, 0.647059",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.LevelPanel.NextLevel.TextLimit",
+            "children": [],
+            "class": "UITextSizeConstraint"
+          },
+          {
+            "enabled": true,
+            "path": "StarterGui.PlaygroundShell.LevelPanel.NextLevel.TextOutline",
+            "color": "0.0941176, 0.117647, 0.2",
+            "class": "UIStroke",
+            "alpha": 0,
+            "thickness": 1.2999999523162842,
+            "attrs": [],
+            "children": [],
+            "apply": "Enum.ApplyStrokeMode.Contextual"
+          }
+        ],
+        "size": "{0, 181}, {0, 16}"
+      },
+      {
+        "attrs": {
+          "FallbackFaceColor": "1, 0.976471, 0.878431",
+          "BackgroundFallbackVersion": "1",
+          "FallbackInkColor": "0.121569, 0.14902, 0.235294",
+          "BackgroundFallbackFor": "ReusableSkin"
+        },
+        "backgroundAlpha": 0,
+        "class": "Frame",
+        "path": "StarterGui.PlaygroundShell.LevelPanel.ReusableSkinFallback",
+        "absolutePosition": "18, 587",
+        "absoluteSize": "288, 98",
+        "visible": false,
+        "z": 5,
+        "position": "{0, 0}, {0, 0}",
+        "anchor": "0, 0",
+        "background": "0.121569, 0.14902, 0.235294",
+        "children": [
+          {
+            "attrs": [],
+            "path": "StarterGui.PlaygroundShell.LevelPanel.ReusableSkinFallback.Corner",
+            "children": [],
+            "class": "UICorner"
+          },
+          {
+            "attrs": [],
+            "backgroundAlpha": 0,
+            "class": "Frame",
+            "path": "StarterGui.PlaygroundShell.LevelPanel.ReusableSkinFallback.Edge",
+            "absolutePosition": "20, 589",
+            "absoluteSize": "284, 94",
+            "visible": true,
+            "z": 5,
+            "position": "{0, 2}, {0, 2}",
+            "anchor": "0, 0",
+            "background": "1, 0.993412, 0.965961",
+            "children": [
+              {
+                "attrs": [],
+                "path": "StarterGui.PlaygroundShell.LevelPanel.ReusableSkinFallback.Edge.Corner",
+                "class": "UICorner"
+              },
+              {
+                "attrs": [],
+                "backgroundAlpha": 0,
+                "class": "Frame",
+                "absolutePosition": "22, 591",
+                "absoluteSize": "280, 88",
+                "visible": true,
+                "z": 5,
+                "position": "{0, 2}, {0, 2}",
+                "anchor": "0, 0",
+                "background": "1, 0.976471, 0.878431",
+                "path": "StarterGui.PlaygroundShell.LevelPanel.ReusableSkinFallback.Edge.Face",
+                "size": "{1, -4}, {1, -6}"
+              }
+            ],
+            "size": "{1, -4}, {1, -4}"
+          }
+        ],
+        "size": "{1, 0}, {1, 0}"
+      }
+    ],
+    "size": "{0, 288}, {0, 98}"
+  }
+}

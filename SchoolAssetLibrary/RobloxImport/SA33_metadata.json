@@ -1,0 +1,53 @@
+{
+  "id": "SA33",
+  "name": "Outdoor shrub planter",
+  "bodies": [
+    {
+      "id": "SA33_B01",
+      "asset_id": "SA33",
+      "asset": "Outdoor shrub planter",
+      "label": "Outdoor shrub planter",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0006319284439086914,
+            -0.0020954906940460205,
+            0.49971598386764526
+          ],
+          "size": [
+            2.042325019836426,
+            0.6721029281616211,
+            0.9994319677352905
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -1.0205305814743042,
+          -0.33814695477485657,
+          0.0
+        ],
+        "max": [
+          1.0217944383621216,
+          0.3339559733867645,
+          0.9994319677352905
+        ]
+      }
+    }
+  ],
+  "mesh_count": 8,
+  "triangles": 58266,
+  "file": "SA33_Outdoor_shrub_planter.gltf"
+}

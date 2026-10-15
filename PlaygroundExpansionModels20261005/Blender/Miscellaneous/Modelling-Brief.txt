@@ -1,0 +1,44 @@
+PLAYGROUND CLASSICS / MISCELLANEOUS
+
+HAND THIS WHOLE FOLDER TO THE BLENDER CHAT.
+Create game-ready stylised models using the Originals PNGs as the visual reference. Each PNG is one distinct asset. Contact-Sheet.png is an overview, not a texture atlas. UI-512 and UI-256 are transparent shop icons of the same designs.
+
+VISUAL DIRECTION
+Chunky toy proportions, rounded bevels, broad glossy colour zones, deep navy seams and collars, cream inset panels and bold silhouettes. Build attached decorations as robust forms. Avoid tiny text, thin loose ornaments, photorealistic grunge or detached glow effects. Use the picture as the final visual reference if it differs slightly from the written concept.
+
+MODELLING HANDOFF
+These are single-view concept images, not measured turnarounds or existing 3D models. Infer unseen sides simply and consistently. Match the overall silhouette and visible colour blocking first. Keep materials reusable. Establish scale, pivot, triangle budget, collision and attachments in the Blender/game implementation chat before export. Bats need a handle grip pivot; other item pivots depend on their use. No gameplay or claim rules are implemented in these PNGs.
+
+ROBLOX UI
+Use the square UI exports with ScaleType Fit and a square UIAspectRatioConstraint, or retain the square aspect ratio yourself. Do not stretch them to fill a rectangular slot. Background transparency is already included. Do not bake item names, prices or counts into the artwork.
+
+ASSETS
+M16 / Snowglobe Sip / Snow potion
+One squat rounded opaque ice-blue potion bottle with a broad white cap shaped like a snowball, navy collar, simple white embossed snowflake on a cream front label panel and a thick pale-blue base. The bottle is solid glossy ceramic, not see-through. No text, no floating snow or liquid splashes.
+
+M17 / Snowball Lobber / Snow toy
+One playful chunky snowball-launching toy gadget, a chamfered cobalt-blue box housing with navy trim, short wide ivory barrel aimed toward upper left, an open scoop-shaped cyan hopper on top holding THREE attached chunky white snowballs, orange safety muzzle rim, a short blue grip and cream side panel with a simple snowball emblem. Clearly a snowball launcher distinct from a crystal freeze ray. No ammo floating outside the hopper, no beam or realistic firearm details.
+
+M18 / Bubble Blower / Toy gadget
+One chunky hand-held bubble blower toy with a bright pink rounded rectangular housing, cream side panel with three simple cyan bubble shapes, a wide hollow turquoise ring nozzle attached at the front, a short navy rubber grip and a squat yellow soap reservoir fitted below the housing. One complete object, no bubbles floating outside it, no words.
+
+M19 / Slippy Banana / Prank prop
+One oversized cartoon banana peel with THREE thick yellow peel flaps curving outward from a central cream stump, rounded brown stem tip. All three flaps form one connected object and lie in a compact triangular footprint. Bright glossy broad shading, no detached fruit, no face, no floor.
+
+M20 / Spring Glove / Prank gadget
+One red padded cartoon boxing glove mounted on a short chunky compression spring emerging from a small cream-and-cobalt toy box base. Glove tilted three-quarter toward viewer, exactly THREE thick navy spring loops, orange button on the side of the base. All parts mechanically connected, compact silhouette, no arm or wearer.
+
+M21 / Sticky Honey / Throwing prop
+One squat amber honey pot with an opaque golden body, navy reinforced rim, fitted cream lid with a chunky yellow knob, broad sculpted honey drips down the shoulder and one simple embossed hexagonal honeycomb emblem on front. A short cream carrying loop attached at side, no loose dipper, no text, no puddle.
+
+M22 / Whoopee Whump / Prank prop
+One plump bright coral-red whoopee cushion, round flattened rubber body with a thick broad dark-red edge seam and a short attached neck valve at the top. A large cream comic puff-cloud symbol embossed on the front, no writing. Three-quarter view makes its inflated thickness clear. No actual gas cloud.
+
+M23 / Magnet Mover / Toy gadget
+One chunky horseshoe-magnet toy gadget, a large red U-shaped magnet with pale-cyan squared pole caps, joined at the curved base to a short cream-and-navy handgrip with a big orange thumb switch. Broad navy edge trim, glossy rounded toy proportions. No floating metal, electric arcs, text or additional objects.
+
+M24 / Ricochet Flyer / Throwing toy
+One chunky three-armed rounded toy boomerang with a cream central circular hub, three broad cyan curved blades with orange rubber tip caps and deep navy edge seams. Three arms attached to one hub, smoothly rounded blunt edges. Three-quarter slight tilt to show thickness, no motion trails, no symbols or text.
+
+M25 / Pop-Up Surprise / Prank toy
+One cheerful wind-up jack-in-the-box toy with a red chamfered cube, cream panel with one large gold star, cobalt-blue hinged lid open behind, a short thick navy spring topped by a goofy mint-green round monster head with two tiny cream horns and a big friendly smile. Small gold winding crank attached to box side. All parts connected, no confetti, no detached lid.

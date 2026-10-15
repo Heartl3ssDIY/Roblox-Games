@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-04",
+  "compiler": "Luau 0.740",
+  "compile": "passed",
+  "test": "passed",
+  "checks": 1949,
+  "assignedCountryCodes": 249,
+  "documentedRobloxCodes": 250,
+  "exhaustiveAsciiPairs": 676,
+  "exceptions": {
+    "AQ": "nil: no requested broad region",
+    "XX": "nil: unknown",
+    "AN": "NorthAmerica: documented legacy code",
+    "TW": "Asia",
+    "SD": "Africa: valid M49 code beyond documented Roblox table"
+  },
+  "playStarted": false,
+  "studioMutations": false
+}

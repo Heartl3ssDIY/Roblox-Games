@@ -1,0 +1,318 @@
+{
+  "placeId": 95034648955135,
+  "studioMode": "Edit",
+  "existingCapabilitiesPreserved": true,
+  "playStarted": false,
+  "checks": [
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 5.666666507720947,
+      "animationId": 93650537970037,
+      "catalogId": 114756515400742
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 9.733333587646484,
+      "animationId": 82378883639086,
+      "catalogId": 137284968787523
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 8.733333587646484,
+      "animationId": 132555082396072,
+      "catalogId": 134222090358172
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 6.9666666984558105,
+      "animationId": 126771729094882,
+      "catalogId": 117302755748327
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 9.600000381469727,
+      "animationId": 110494040742516,
+      "catalogId": 107010273569673
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 8.254166603088379,
+      "animationId": 140349022227594,
+      "catalogId": 135211326811898
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 10,
+      "animationId": 117558759116256,
+      "catalogId": 110827382619943
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 6.833333492279053,
+      "animationId": 103687288237641,
+      "catalogId": 133595410032960
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 6.449999809265137,
+      "animationId": 105190540415890,
+      "catalogId": 115906496196760
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 6.066666603088379,
+      "animationId": 81913798511136,
+      "catalogId": 77017926307035
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 2.799999952316284,
+      "animationId": 93941266454007,
+      "catalogId": 84110142550799
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 10,
+      "animationId": 92659655601730,
+      "catalogId": 100951835636163
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 7.599999904632568,
+      "animationId": 78280967285254,
+      "catalogId": 104940682593173
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 9.866666793823242,
+      "animationId": 119280135350752,
+      "catalogId": 93450937830334
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 2.866666555404663,
+      "animationId": 106865236633450,
+      "catalogId": 117119421748582
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 10,
+      "animationId": 108639244526475,
+      "catalogId": 100498935359536
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 6.5,
+      "animationId": 95127716920692,
+      "catalogId": 110064349530772
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 3.3333332538604736,
+      "animationId": 104609460346094,
+      "catalogId": 126353729413555
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 7.65500020980835,
+      "animationId": 95428460379424,
+      "catalogId": 80985588930231
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 9.833333015441895,
+      "animationId": 90018336892195,
+      "catalogId": 125328720114284
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 3.7333333492279053,
+      "animationId": 108374677470972,
+      "catalogId": 137234266130963
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 3.633333444595337,
+      "animationId": 134459607456762,
+      "catalogId": 105248382902194
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 5.333333492279053,
+      "animationId": 100468196980144,
+      "catalogId": 137057022541237
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 9.899999618530273,
+      "animationId": 134644266320983,
+      "catalogId": 86411651121424
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 3.6666667461395264,
+      "animationId": 136095999219650,
+      "catalogId": 134311528115559
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 9.149999618530273,
+      "animationId": 74800678690946,
+      "catalogId": 121644855433565
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 8.533333778381348,
+      "animationId": 131104967711844,
+      "catalogId": 80923445784018
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 9.660833358764648,
+      "animationId": 90158235751747,
+      "catalogId": 96843993997234
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 6.632999897003174,
+      "animationId": 10714388352,
+      "catalogId": 3716636630
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 8.758749961853027,
+      "animationId": 133898543831391,
+      "catalogId": 96181123599016
+    },
+    {
+      "preload": [],
+      "isPlaying": true,
+      "playable": true,
+      "preloadStatus": "service_unavailable_in_existing_capabilities",
+      "loadStatus": "verified_native_r15",
+      "duration": 5.5333333015441895,
+      "animationId": 138980897636026,
+      "catalogId": 76636280785091
+    }
+  ]
+}

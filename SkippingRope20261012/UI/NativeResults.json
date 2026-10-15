@@ -1,0 +1,106 @@
+{
+  "checks": {
+    "1": {
+      "name": "Hidden outside the round",
+      "passed": true
+    },
+    "2": {
+      "name": "Phone countdown shows rules and correct lane",
+      "passed": true
+    },
+    "3": {
+      "name": "Playing hides briefing and starts two-minute timer",
+      "passed": true
+    },
+    "4": {
+      "name": "Initial health message and speed",
+      "passed": true
+    },
+    "5": {
+      "name": "Five percent speed increase after ten seconds",
+      "passed": true
+    },
+    "6": {
+      "name": "First hit shows one life and warning",
+      "passed": true
+    },
+    "7": {
+      "name": "Eliminated stays visible with OUT",
+      "passed": true
+    },
+    "8": {
+      "name": "Temporary hit notice disappears",
+      "passed": true
+    },
+    "9": {
+      "name": "Hide UI preference hides all skipping HUD",
+      "passed": true
+    },
+    "10": {
+      "name": "Spectators get matching game view",
+      "passed": true
+    },
+    "11": {
+      "name": "Other game spectators do not see skipping HUD",
+      "passed": true
+    },
+    "12": {
+      "name": "Survivor sees win and no countdown",
+      "passed": true
+    },
+    "13": {
+      "name": "Cancelled round has no false win",
+      "passed": true
+    },
+    "14": {
+      "name": "Responsive layout inside 568, 320",
+      "passed": true
+    },
+    "15": {
+      "name": "Responsive layout inside 667, 375",
+      "passed": true
+    },
+    "16": {
+      "name": "Responsive layout inside 844, 390",
+      "passed": true
+    },
+    "17": {
+      "name": "Responsive layout inside 320, 568",
+      "passed": true
+    },
+    "18": {
+      "name": "Responsive layout inside 390, 844",
+      "passed": true
+    },
+    "19": {
+      "name": "Responsive layout inside 768, 1024",
+      "passed": true
+    },
+    "20": {
+      "name": "Responsive layout inside 1024, 768",
+      "passed": true
+    },
+    "21": {
+      "name": "Responsive layout inside 1366, 1024",
+      "passed": true
+    },
+    "22": {
+      "name": "Responsive layout inside 1920, 1080",
+      "passed": true
+    },
+    "23": {
+      "name": "Rules text fits authored phone and tablet boxes",
+      "passed": true
+    },
+    "24": {
+      "name": "Runtime preserves editable positions and sizes",
+      "passed": true
+    },
+    "25": {
+      "name": "Destroy disconnects heartbeat",
+      "passed": true
+    }
+  },
+  "passed": true,
+  "checkCount": 25
+}

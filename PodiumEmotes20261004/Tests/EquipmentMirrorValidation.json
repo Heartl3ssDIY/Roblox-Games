@@ -1,0 +1,89 @@
+{
+  "review": "No actionable finding in candidate diff",
+  "native": {
+    "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+    "checks": [
+      "Candidate preserves exact sandbox and capabilities",
+      "Original preserves exact sandbox and capabilities",
+      "R6 binds with real Accessory under unchanged sandbox",
+      "R6 starts unheld with no game",
+      "R6 Accessory ChildAdded safely queues",
+      "R6 Accessory ChildRemoved safely queues",
+      "R6 authored Tool is parented to rig",
+      "R6 initial Tool parenting mirrors held state and game",
+      "R6 explicit clear removes tool and both mirrors",
+      "R6 external Tool destruction clears mirrors",
+      "R6 swing cancellation remains wired",
+      "R15 binds with real Accessory under unchanged sandbox",
+      "R15 starts unheld with no game",
+      "R15 Accessory ChildAdded safely queues",
+      "R15 Accessory ChildRemoved safely queues",
+      "R15 authored Tool is parented to rig",
+      "R15 initial Tool parenting mirrors held state and game",
+      "R15 explicit clear removes tool and both mirrors",
+      "R15 external Tool destruction clears mirrors",
+      "R15 swing cancellation remains wired"
+    ],
+    "R6OriginalBinder": {
+      "passed": false,
+      "error": "The current thread cannot access 'BodyColors' (lacking capability AvatarAppearance)"
+    },
+    "realPlayersMutated": 0,
+    "R6EditUnequippedEventObserved": false,
+    "playStarted": false,
+    "fixtureDestroyed": true,
+    "R15EditUnequippedEventObserved": false,
+    "passed": true,
+    "R15OriginalBinder": {
+      "passed": false,
+      "error": "The current thread cannot access 'BodyColors' (lacking capability AvatarAppearance)"
+    }
+  },
+  "behavior": {
+    "mockedSignals": true,
+    "playStarted": false,
+    "checks": [
+      "Bind begins with false/nil mirrors",
+      "Equipped event mirrors true and current game",
+      "Unequipped event clears held/game mirrors",
+      "Unequipped still cancels hit and queues refresh",
+      "Re-equipped event restores mirrors",
+      "Valid existing tool refresh repairs mirrors without replacement",
+      "Clear destroys tool and clears record and character state",
+      "Disconnected stale Tool events cannot restore held state",
+      "External destruction clears both mirrors",
+      "Humanoid death destroys held bat and clears mirrors",
+      "Respawn clears old character mirrors",
+      "Respawn initializes new character mirrors",
+      "Tag tool mirrors correct game",
+      "Tag finishing swing retains original tool",
+      "Tag finishing swing preserves held/game mirrors",
+      "Tag finishing swing disables another hit and cancels contact",
+      "Expired finishing swing clears tool and mirrors",
+      "Ragdoll prevents finishing-swing retention",
+      "Refresh on a dead humanoid clears mirrors",
+      "Unavailable profile clears held mirrors"
+    ],
+    "passed": true,
+    "fixtureDestroyed": true
+  },
+  "eventProbe": {
+    "parentIsRig": false,
+    "unequipped": 0,
+    "isRunning": false,
+    "destroyed": 1,
+    "equipped": 0
+  },
+  "limitations": [
+    "Tool Equipped/Unequipped events were not emitted by the independent Edit-mode native probe. Event callback transitions and Humanoid.Died behavior were validated with deterministic signals, not a live Play session."
+  ],
+  "sourceMethods": [
+    "Equipment:_clearBat",
+    "Equipment:_clearGear",
+    "Equipment:_makeBat",
+    "Equipment:_refresh",
+    "Equipment:_bindCharacter"
+  ],
+  "candidate": "After/PlaygroundEquipmentService.luau",
+  "candidateModified": false
+}

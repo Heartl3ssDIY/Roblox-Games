@@ -1,0 +1,31 @@
+{
+  "candidate": "After/PlaygroundEmotes.client.luau",
+  "sha256": "75B059A21D2A55AFDD9A819731795BE96F1F4B85437E75BC8604F6D5DD61AF00",
+  "tests": {
+    "localPoseTimingAndGateChecks": 215,
+    "sourcePreservationChecks": 8,
+    "luauCompilation": true
+  },
+  "coverage": [
+    "Every toy action duration and gameplay contact matches shared contract",
+    "Finite and continuous pose tracks with idle recovery",
+    "Place then kick, upward basketball release, overhead barrel lift, drink tipping, present oscillation, frost recoil and low pad placement",
+    "R6/R15 native joint-name selection and elbow decomposition",
+    "No stale action after item changes",
+    "Immediate toy cancellation on unequip/death/round participation/ragdoll",
+    "Existing bat and Wave/Cheer implementation unchanged",
+    "No Tool access, new instances, permissions, character CFrame writes, physics or gameplay state changes"
+  ],
+  "limitations": [
+    "Edit dummy native checks cover exact capabilities, rig poses, restoration and model welds. Actual real-player Backpack transfer awaits user play testing.",
+    "No Play session started or stopped; temporary native previews removed after capture."
+  ],
+  "integration": {
+    "contract": "ToyAnimationContract.json",
+    "held": "character.PCToyHeld",
+    "action": "player.PCToyAction",
+    "timestamp": "player.PCToyActionAt",
+    "item": "player.PCToyActionItem",
+    "release": "Keep held state for the gesture duration while hiding a released visual separately. Clear held/action attrs immediately for actual unequip, death, respawn or game entry."
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "visual_meshes": [
+    {
+      "name": "MF_01_Frozen_Bay_Part01",
+      "triangles": 508,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_02_Ice_Surface_Part01",
+      "triangles": 877,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_10_Harbour_Walls_Part01",
+      "triangles": 840,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_11_Wall_Trim_Part01",
+      "triangles": 5544,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_12_Quays_Part01",
+      "triangles": 840,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_13_Defence_Panels_Part01",
+      "triangles": 2184,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_14_Fortress_Terrace_Part01",
+      "triangles": 128,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_20_Fortress_Body_Part01",
+      "triangles": 72,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_03_Perimeter_Ice_Part01",
+      "triangles": 3634,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_21_Facade_Details_Part01",
+      "triangles": 3685,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_22_Roofs_Part01",
+      "triangles": 11976,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_22_Roofs_Part02",
+      "triangles": 11984,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_22_Roofs_Part03",
+      "triangles": 1612,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_23_Flags_Part01",
+      "triangles": 336,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_24_Coastal_Rocks_Part01",
+      "triangles": 424,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_25_Watchtowers_Part01",
+      "triangles": 608,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_26_Barracks_Part01",
+      "triangles": 72,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_30_Cannons_Part01",
+      "triangles": 11900,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_30_Cannons_Part02",
+      "triangles": 4564,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_40_Frozen_Ships_Part01",
+      "triangles": 4232,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_04_Outer_Sea_Part01",
+      "triangles": 12,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "MF_05_Frozen_Waves_Part01",
+      "triangles": 924,
+      "uv": true,
+      "zero_area_triangles": 0
+    }
+  ],
+  "combat_bounds": [
+    -32,
+    32,
+    -32,
+    32
+  ],
+  "combat_surface_height": 0.065,
+  "collision_meshes": 47,
+  "studio_import_tested": false,
+  "bay_radius": 96,
+  "triangles": 66956,
+  "combat_area_obstructions": []
+}

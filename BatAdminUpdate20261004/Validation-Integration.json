@@ -1,0 +1,18 @@
+{
+  "mode": "Edit",
+  "playStarted": false,
+  "published": false,
+  "newCapabilitiesGranted": false,
+  "changedScripts": 5,
+  "catalogItems": 50,
+  "batsWithDistinctHeldVFX": 15,
+  "ragdollSeconds": 1.35,
+  "adminEconomyChecksPassed": 113,
+  "adminClientChecksPassed": 25,
+  "ragdollScenariosPassed": 15,
+  "equipmentRegressionScenariosPassed": 15,
+  "vfxTextureFetchFailures": 0,
+  "adminUI": { "skinnedButtons": 43, "textStrokes": 80, "nativeInputs": 3, "reusableRows": 8, "previewRestoredHidden": true },
+  "temporaryFixturesRemaining": 0,
+  "liveMultiplayerPhysicsTested": false
+}

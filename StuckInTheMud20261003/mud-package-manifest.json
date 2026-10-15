@@ -1,0 +1,480 @@
+{
+  "files": {
+    "StuckInTheMudService": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\StuckInTheMudService.lua",
+      "sha256": "356e3d37be82a4e25f6bd32b208a8ac46c03476725825dba3c15914342586837",
+      "bytes": 57043,
+      "kind": "source"
+    },
+    "TagSprintService": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\TagSprintService.lua",
+      "sha256": "a72f70f73fa69a9e117ca151ace306f198febdd05de3a8a9085e7c61d04faa88",
+      "bytes": 5372,
+      "kind": "source"
+    },
+    "PlaygroundCoordinator": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\PlaygroundCoordinator.lua",
+      "sha256": "b49b60a0c8eed48ea96e8dcda4a9dd3432dfdde0aaaf9e863171b8960c0c1444",
+      "bytes": 12594,
+      "kind": "source"
+    },
+    "PlaygroundEconomyService": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\PlaygroundEconomyService.lua",
+      "sha256": "58075f39ed1518ac82d44b33bedc0ffd29533ffdb9996beff4b0ae133a289b2a",
+      "bytes": 22695,
+      "kind": "source"
+    },
+    "PlaygroundAdminService": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\PlaygroundAdminService.lua",
+      "sha256": "a94f675a7075fa4213abbb840fac990ae4f4789e613ddb4bbf5e093733a12538",
+      "bytes": 5019,
+      "kind": "source"
+    },
+    "TagService": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\TagService.lua",
+      "sha256": "48e3b505143f88916152fb99d1317d4a74e1415e73e221b596c0144897209b97",
+      "bytes": 40743,
+      "kind": "source"
+    },
+    "MudHUD": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudHUD.client.luau",
+      "sha256": "fd44c5634476fe2510c526660ef921d2e3c72a81e49f2e7cb540bb278a24d6b3",
+      "bytes": 15020,
+      "kind": "source"
+    },
+    "TagSprint": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\TagSprint.client.luau",
+      "sha256": "7c5e1df0085f3ee705cd7826ca72b9a14070efe91cb0025fe434b0c63e308acd",
+      "bytes": 5296,
+      "kind": "source"
+    },
+    "TagHUD": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\TagHUD.client.luau",
+      "sha256": "a518b37e76beb4808827c28276b031705a09ecd576e9579ef61952cd42f6a4a8",
+      "bytes": 7596,
+      "kind": "source"
+    },
+    "PlaygroundAdminPanel": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\PlaygroundAdminPanel.client.luau",
+      "sha256": "de7948571050d5fc38dae4da1dceac0489b8bd712a7007e6c02b43e4c1cc9b92",
+      "bytes": 5502,
+      "kind": "source"
+    },
+    "PlaygroundShell": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\PlaygroundShell.client.luau",
+      "sha256": "380f0dec2f06fe65ffd229653497ea37195911575d78553e1ad6d876b4ddf289",
+      "bytes": 13009,
+      "kind": "source"
+    },
+    "PlayerLevel": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\PlayerLevel.client.luau",
+      "sha256": "4119e82fe14d9e82d393341a0a719287a97ecc1d0f20e3dbf3d3389b4779a47c",
+      "bytes": 7550,
+      "kind": "source"
+    },
+    "PlaygroundBootstrap": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\PlaygroundBootstrap.server.lua",
+      "sha256": "7bbd9a9fc386e1cbfa688bccc206b438433ff2606ac10ea3c12ef34a4d746ada",
+      "bytes": 1406,
+      "kind": "source"
+    },
+    "buildMudArena": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\BuildMudArena.luau",
+      "sha256": "8671c357775d4952886435defb588488b30a4185504fd9f2bcef25e36ffb0b45",
+      "bytes": 26748,
+      "kind": "builder"
+    },
+    "repairMudArena": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\RepairMudArena.luau",
+      "sha256": "1d24d5c75a49bd306dddf939e9cf6d4ef2ae1af91e0b5878d9f4aa79d2926f0c",
+      "bytes": 7956,
+      "kind": "builder"
+    },
+    "buildMudGunTemplates": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\BuildMudGunTemplates.luau",
+      "sha256": "9e3cc4324ab17b877723feaecab5d466337485cf5609deb5c918d90041bee0b5",
+      "bytes": 5898,
+      "kind": "builder"
+    },
+    "buildMudHUD": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\BuildMudHUD.luau",
+      "sha256": "c3e0f53ad1a92b1ad7187c6f1cf7485baff4521f48da252296ba84e34367cb3d",
+      "bytes": 7486,
+      "kind": "builder"
+    },
+    "buildTagSprintUI": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\BuildTagSprintUI.luau",
+      "sha256": "ff1b4d46b8e73b95c3ba8f2fbb53a1dd53ebdde54c55fb06563dbe23a2466932",
+      "bytes": 3453,
+      "kind": "builder"
+    },
+    "upgradeThirdGameLobby": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\UpgradeThirdGameLobby.luau",
+      "sha256": "b4fe8d2d344d5143aa552aae30e9b8a9d837825af4e3796f7faaab449f6524dd",
+      "bytes": 7946,
+      "kind": "builder"
+    },
+    "buildSchoolScenery": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\BuildSchoolScenery.luau",
+      "sha256": "ff6d5a8fbd04b0121c88f7d50227c7a3179f5e5d02174ff897744c416309ef2b",
+      "bytes": 11446,
+      "kind": "builder"
+    }
+  },
+  "package": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\InstallStuckInTheMud.luau",
+    "sha256": "8d665613dace2790f71de61743607acd700fb6271339316596ad367b52838bb4",
+    "bytes": 284778,
+    "sources": 13,
+    "builders": 7,
+    "prior_expansion_and_movement_required": true,
+    "runtime_layout_writes": false,
+    "installation_pending_explicit_input_approval": true,
+    "server_input_grant_performed_by_installer": false,
+    "available_mud_team_profiles": {
+      "two_v_two": {
+        "TeamCount": 2,
+        "MaxTeamSize": 2,
+        "MaxPlayers": 4,
+        "MinimumPlayers": 4
+      },
+      "two_full_teams": {
+        "TeamCount": 2,
+        "MaxTeamSize": 12,
+        "MaxPlayers": 24,
+        "MinimumPlayers": 2
+      },
+      "pairs_24": {
+        "TeamCount": 12,
+        "MaxTeamSize": 2,
+        "MaxPlayers": 24,
+        "MinimumPlayers": 2
+      }
+    },
+    "default_mud_team_profile": "two_v_two",
+    "new_remote_class": "RemoteFunction",
+    "new_remote_capabilities": [
+      "RemoteEvent"
+    ],
+    "input_scripts": [
+      "ServerScriptService.StuckInTheMudService",
+      "MudHUD.Controller",
+      "TagHUD.SprintController",
+      "TagHUD.Controller",
+      "PlaygroundAdminPanel.Controller"
+    ],
+    "animation_scripts": [
+      "PlaygroundShell.PlayerLevelController"
+    ],
+    "support_files": {
+      "blender-asset-build.json": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\blender-asset-build.json",
+        "sha256": "1c8b51fd3e5f4eb2117058be6da894a3108bf6614424fda3bf4b2ffe3f257a59",
+        "bytes": 1243,
+        "kind": "support"
+      },
+      "CreateMudGunAssets.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\CreateMudGunAssets.py",
+        "sha256": "e5a895ce4a551cb66b5060a46deea81f48aa199fea8b982c5ec270e9318a4b7c",
+        "bytes": 14107,
+        "kind": "support"
+      },
+      "gun-asset-validation.json": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\gun-asset-validation.json",
+        "sha256": "2d8043e73f7fbd7d8291c9fa1d661182e66ae21bff6afe6ae1367ced12f9f472",
+        "bytes": 1824,
+        "kind": "support"
+      },
+      "gun-export-manifest.json": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\gun-export-manifest.json",
+        "sha256": "d6de56c4cfb8fb71a52c75b04603c36dc4c2e6436ad3148edf07268eff35a314",
+        "bytes": 1899,
+        "kind": "support"
+      },
+      "GunAssetNotes.txt": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\GunAssetNotes.txt",
+        "sha256": "0b2a5934ad802d3b8130b41b856be6628281024e34103f4acf5dc45503fb33e4",
+        "bytes": 2603,
+        "kind": "support"
+      },
+      "HeatGun.fbx": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\HeatGun.fbx",
+        "sha256": "1f8174170697ad09aa3c3f8fa67b11e042bfaad6f95463959c310c3bb0ea5083",
+        "bytes": 331820,
+        "kind": "support"
+      },
+      "HeatGun.glb": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\HeatGun.glb",
+        "sha256": "a9f37e4a6ad9ee56fd31dd86c90a0b936beb50433e8d63dcdbae552d99a54aae",
+        "bytes": 309532,
+        "kind": "support"
+      },
+      "HeatGun_Preview.png": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\HeatGun_Preview.png",
+        "sha256": "2ab157ee4439bafe62c5f2e95804c9e6bda3b9cd1bc9ed1a2e843060cb6e12d7",
+        "bytes": 1861322,
+        "kind": "support"
+      },
+      "MudChecks.luau": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudChecks.luau",
+        "sha256": "a52c9385db983615d5265aeebe1e943db09afc7baeeb32ed0f21da7f7f6a240f",
+        "bytes": 30921,
+        "kind": "support"
+      },
+      "MudGun.fbx": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudGun.fbx",
+        "sha256": "c7185aaf98626d8f408d00062cda79181a0ee065244b06b9dd720a4d7df501ac",
+        "bytes": 266044,
+        "kind": "support"
+      },
+      "MudGun.glb": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudGun.glb",
+        "sha256": "b23fe6e49f00febac0ae5085f43d9658c01f387b46b79202bd39b2535a2e4118",
+        "bytes": 231432,
+        "kind": "support"
+      },
+      "MudGun_Preview.png": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudGun_Preview.png",
+        "sha256": "0330dc6b0b134132be1ac17d4d24063a2a47f78fe6612cf275bddd5f60c81bcd",
+        "bytes": 1828298,
+        "kind": "support"
+      },
+      "MudGunTemplateChecks.luau": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudGunTemplateChecks.luau",
+        "sha256": "ff6299d5107fe36874f2d9e9abcce9b03a7b12cdc3d52c16277a7121e2e5292b",
+        "bytes": 1718,
+        "kind": "support"
+      },
+      "MudHeatGun_Preview.png": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudHeatGun_Preview.png",
+        "sha256": "fa2db3653efd2ad1e41d261717306747ce8fbbaaff29dcd2f6ffc232843e2f34",
+        "bytes": 1857153,
+        "kind": "support"
+      },
+      "MudHeatGuns.blend": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudHeatGuns.blend",
+        "sha256": "c1cb1b5b3097e050b8ab8f48f90982b92403d8d0fa2b1d4d4bcf940daa5b1996",
+        "bytes": 162576,
+        "kind": "support"
+      },
+      "MudHUD.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudHUD.svg",
+        "sha256": "0b15585157db899428c602d8f031b73146ed199476ed7efb2c97355dd320faa5",
+        "bytes": 6940,
+        "kind": "support"
+      },
+      "MudLiveChecks.luau": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudLiveChecks.luau",
+        "sha256": "c93eb88983310b42fe47cf36856790b734c4bd9004127d590d56d6b0f7e442ea",
+        "bytes": 7697,
+        "kind": "support"
+      },
+      "MudPackageSupport.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudPackageSupport.py",
+        "sha256": "470b947158166c2642469ed2472b9e90833b1398c7740384d511d02fd66db6c9",
+        "bytes": 15249,
+        "kind": "support"
+      },
+      "MudPureChecks.luau": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudPureChecks.luau",
+        "sha256": "a5fe3c8370d00fc1c1867d2041d0c1acda9fcb513e79658525c420ddbe131199",
+        "bytes": 12875,
+        "kind": "support"
+      },
+      "MudRuntimeContract.txt": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\MudRuntimeContract.txt",
+        "sha256": "3968821e2315761fa65cf02f197c601e2b1b8b01e7a8654d5bbb3160828f72af",
+        "bytes": 6365,
+        "kind": "support"
+      },
+      "NativeMudArena_IsolatedPreview.blend": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudArena_IsolatedPreview.blend",
+        "sha256": "654fae2d7c1289db70fcb104075ae76bc856ac72693e1269950f4056f6bd4558",
+        "bytes": 396467,
+        "kind": "isolated_blender_preview"
+      },
+      "NativeMudArena_IsolatedPreview.blend1": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudArena_IsolatedPreview.blend1",
+        "sha256": "37a4350ff635e223bc74d8d6331b08a08a3147afdf6e77dff35bfb4706f4a189",
+        "bytes": 396475,
+        "kind": "isolated_blender_preview"
+      },
+      "NativeMudArena_IsolatedWide.png": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudArena_IsolatedWide.png",
+        "sha256": "b7cc78b37d446e8324e8895e37cee8e1935f5a00ddc13279b095d905d4c24df1",
+        "bytes": 2763210,
+        "kind": "isolated_blender_preview"
+      },
+      "NativeMudBlender.stderr.log": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudBlender.stderr.log",
+        "sha256": "0c745cab0e06f42404e52ca2df212c2f953f11dca7cfb6bdebf8beccfb030b6b",
+        "bytes": 220,
+        "kind": "isolated_blender_preview"
+      },
+      "NativeMudBlender.stdout.log": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudBlender.stdout.log",
+        "sha256": "c434f90e73b62b2bb80a35502b54f15b30e64b642195ec9d20ad1b436d922949",
+        "bytes": 1562,
+        "kind": "isolated_blender_preview"
+      },
+      "NativeMudChecks.stderr.log": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudChecks.stderr.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "kind": "isolated_blender_preview"
+      },
+      "NativeMudChecks.stdout.log": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudChecks.stdout.log",
+        "sha256": "b60b2858063c6e3040a92c7483357f9c1ac05e0ed3ee646b23b5214344736a8d",
+        "bytes": 763,
+        "kind": "isolated_blender_preview"
+      },
+      "NativeMudIsolatedRenderReport.json": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudIsolatedRenderReport.json",
+        "sha256": "9eedae950622c7f2451761e8cc751b762d1d0a8454aa66b80265ec066064a47e",
+        "bytes": 1051,
+        "kind": "isolated_blender_preview"
+      },
+      "NativeMudPreviewChecks.json": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudPreviewChecks.json",
+        "sha256": "95c4a3eab56848c43a89f71ae23696e388ec52f96b5dcfb57f52497e16254bcb",
+        "bytes": 577,
+        "kind": "isolated_blender_preview"
+      },
+      "PatchIntegrations.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\PatchIntegrations.py",
+        "sha256": "f8e98c016459aabcc6cc7d57904ceb33c453ed84c164a5eb213d5a7eb00b9847",
+        "bytes": 9366,
+        "kind": "support"
+      },
+      "README.txt": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\README.txt",
+        "sha256": "df1bdb6f775cad4aae5057bd3e41afb2a222d40c22d8be8eace72dbfe3915c20",
+        "bytes": 10799,
+        "kind": "support"
+      },
+      "RebuildMudPackage.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\RebuildMudPackage.py",
+        "sha256": "a96949628b847a07abf79c2278117b0667dd6838f93abca36fe02a478c7ad834",
+        "bytes": 17627,
+        "kind": "support"
+      },
+      "RenderMudGunAssets.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\RenderMudGunAssets.py",
+        "sha256": "6c1500aba5764e27b19c5b9f40af19821bd8f488ea48543c479063bd4342331e",
+        "bytes": 2147,
+        "kind": "support"
+      },
+      "RenderNativeMud.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\RenderNativeMud.py",
+        "sha256": "1861d551f7e84cf4d0bc4c17d3cdd3743ce5b5f84da01e9655c9a831e24fb0d2",
+        "bytes": 10571,
+        "kind": "support"
+      },
+      "RenderUIReferences.cjs": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\RenderUIReferences.cjs",
+        "sha256": "62cd78955c2fc4f4d993d0641e909205493e3f1ece5e43b1996eee2b315edafd",
+        "bytes": 1958,
+        "kind": "support"
+      },
+      "SaveExportMudGunAssets.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\SaveExportMudGunAssets.py",
+        "sha256": "d37b10ea8d982f50c78c72bdb97878f5f6e7b1d1d70fefbe8881e33ca2a2537d",
+        "bytes": 6126,
+        "kind": "support"
+      },
+      "TagSprint.svg": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\TagSprint.svg",
+        "sha256": "4a007ff9a4275b50649ad197639016bf9fb78dd3333b20e40e52f40b1b61b551",
+        "bytes": 4057,
+        "kind": "support"
+      },
+      "TagSprintChecks.luau": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\TagSprintChecks.luau",
+        "sha256": "0648e4e07b8dce0f5b154ed012b64c0122300a105247f3266d91cf7290c40032",
+        "bytes": 5441,
+        "kind": "support"
+      },
+      "TagSprintLiveChecks.luau": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\TagSprintLiveChecks.luau",
+        "sha256": "d32c2f8aacbfe5455695e5f4e8c2b7baf30ea33d9ecbb8a4813f0f34dc5c4f43",
+        "bytes": 2558,
+        "kind": "support"
+      },
+      "ThirdGameIntegrationChecks.luau": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\ThirdGameIntegrationChecks.luau",
+        "sha256": "3f692837ae98e6a88105fecd0f0f0a438cb17b6c0ff2da06c197d7cdece77149",
+        "bytes": 8361,
+        "kind": "support"
+      },
+      "ValidateGunExports.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\ValidateGunExports.py",
+        "sha256": "44e79047f30ba8a93523954e64f3f4016df24c07f071758ce93d0bf80d249772",
+        "bytes": 3887,
+        "kind": "support"
+      },
+      "ValidateMudArena.luau": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\ValidateMudArena.luau",
+        "sha256": "775e13fb2a796058f1ef9c84e85b4786101bb899c03dc05d988dc89e3e1b2269",
+        "bytes": 12701,
+        "kind": "support"
+      },
+      "ValidateMudPackage.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\ValidateMudPackage.py",
+        "sha256": "30b309ec99eccd6c14f0dc2502c8d48a5849cdb82a5946a929d815d65c16618c",
+        "bytes": 1394,
+        "kind": "support"
+      },
+      "VerificationReport.json": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\VerificationReport.json",
+        "sha256": "c8cddcf749259f0de2efcf911586eb463924152a7f818d4ddf21e1383ec63a78",
+        "bytes": 16293,
+        "kind": "native_qa_report"
+      },
+      "VerifyNativeMudPreview.py": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\VerifyNativeMudPreview.py",
+        "sha256": "d4886d21d908d7c7a5e3b197cf0b43a51c933c4a2343bb5e3f8f22934438656d",
+        "bytes": 1821,
+        "kind": "support"
+      },
+      "NativeMudGeometry.json": {
+        "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\NativeMudGeometry.json",
+        "sha256": "c59ec2ef62d482bf18a38f3330ac0bcd24c11bb21c1a49855793936fca8d4d1b",
+        "bytes": 152442,
+        "kind": "isolated_blender_preview"
+      }
+    },
+    "preview_metadata_pending": false,
+    "preview_kind": "isolated_blender_reconstruction_of_native_geometry",
+    "preview_is_native_game_screenshot": false
+  },
+  "all_games_package": {
+    "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\InstallPlaygroundAllGames.luau",
+    "sha256": "85931adb57981adeab27a873a6522611a089e533269b3585c36b4ce44d5c4b86",
+    "bytes": 613269,
+    "stages": [
+      "PlaygroundExpansion",
+      "StuckInTheMud"
+    ],
+    "expansion_stage": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansion20261003\\InstallPlaygroundExpansion.luau",
+      "sha256": "c15a92d84df0ba6c7cdc72e1360ae064cb50ea529baae98f0dc20f3453adbb01",
+      "bytes": 327760,
+      "kind": "installer_stage"
+    },
+    "expansion_manifest": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansion20261003\\expansion-package-manifest.json",
+      "sha256": "f12c41618c75e0a7a363daf4fc234636581481db4317c8a77ffffb719fa76d78",
+      "bytes": 11398,
+      "kind": "stage_manifest"
+    },
+    "mud_stage": {
+      "file": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003\\InstallStuckInTheMud.luau",
+      "sha256": "8d665613dace2790f71de61743607acd700fb6271339316596ad367b52838bb4",
+      "bytes": 284778,
+      "kind": "installer_stage"
+    },
+    "existing_british_bulldog_geometry_required": true,
+    "installation_pending_explicit_input_approval": true
+  }
+}

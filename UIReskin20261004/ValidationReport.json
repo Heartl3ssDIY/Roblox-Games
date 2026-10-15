@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "summary": {
+    "avatarBorders": 22,
+    "rankSkins": 22,
+    "blankShopSlots": 12,
+    "imageAssets": 365,
+    "previewBackgrounds": 13,
+    "controllers": 5,
+    "boards": 2,
+    "legacyNodes": 0,
+    "rowSkins": 22,
+    "planPaths": 171,
+    "sourcesCompiled": 8,
+    "visibleGlyphs": 48,
+    "imageMeterGradients": 4,
+    "meterGradients": 7
+  },
+  "gameplayTested": false,
+  "mode": "Edit static audit",
+  "issues": []
+}

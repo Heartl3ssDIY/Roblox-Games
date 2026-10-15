@@ -1,0 +1,42 @@
+return {
+	PlaceId = 106769122906103,
+	FadeTime = 0.65,
+	Images = {
+		Background = "rbxassetid://122165574452062",
+		Title = "rbxassetid://103051161706359",
+		LoadingTrack = "rbxassetid://104101066298867",
+		LoadingFill = "rbxassetid://79883867193567",
+		SoundOn = "rbxassetid://70976583524860",
+		SoundOff = "rbxassetid://86993407384494",
+	},
+	Sounds = {
+		Hover = "rbxassetid://98390881944061",
+		Toggle = "rbxassetid://85549623140205",
+	},
+	-- Preload these even when course streaming has not replicated the parts yet.
+	CourseAssets = {
+		{ kind = "Animation", id = "rbxassetid://913376220" },
+		{ kind = "Image", id = "rbxasset://textures/SpawnLocation.png" },
+		{ kind = "Mesh", id = "rbxassetid://101146488643776" },
+		{ kind = "Mesh", id = "rbxassetid://102798607465965" },
+		{ kind = "Mesh", id = "rbxassetid://105773650120671" },
+		{ kind = "Mesh", id = "rbxassetid://109133812276823" },
+		{ kind = "Mesh", id = "rbxassetid://112438364790499" },
+		{ kind = "Mesh", id = "rbxassetid://113366122727403" },
+		{ kind = "Mesh", id = "rbxassetid://117489544957970" },
+		{ kind = "Mesh", id = "rbxassetid://122393791579837" },
+		{ kind = "Mesh", id = "rbxassetid://123000298705322" },
+		{ kind = "Mesh", id = "rbxassetid://126706592978897" },
+		{ kind = "Mesh", id = "rbxassetid://127822556793177" },
+		{ kind = "Mesh", id = "rbxassetid://127943095940795" },
+		{ kind = "Mesh", id = "rbxassetid://132615154429126" },
+		{ kind = "Mesh", id = "rbxassetid://135470183920726" },
+		{ kind = "Mesh", id = "rbxassetid://136047855420377" },
+		{ kind = "Mesh", id = "rbxassetid://74426767818839" },
+		{ kind = "Mesh", id = "rbxassetid://86898658268441" },
+		{ kind = "Mesh", id = "rbxassetid://90721000420328" },
+		{ kind = "Mesh", id = "rbxassetid://98285254976744" },
+		{ kind = "Mesh", id = "rbxassetid://99006827655306" },
+	},
+}
+

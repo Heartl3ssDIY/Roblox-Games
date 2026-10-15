@@ -1,0 +1,199 @@
+{
+  "templateCount": 11,
+  "buttonMasterCount": 1,
+  "coverageAudit": {
+    "screenGuiCount": 5,
+    "guiObjectCount": 327,
+    "screens": {
+      "BritishBulldogHUD": 57,
+      "TagHUD": 28,
+      "PlaygroundAdminPanel": 54,
+      "PlaygroundShell": 151,
+      "MudHUD": 37
+    },
+    "scope": "Current reusable visual families. Full screens compose these masters; plain container frames and dim overlays use layout and fill settings."
+  },
+  "templates": [
+    {
+      "key": "button",
+      "name": "01 / BUTTON",
+      "id": "Template_button",
+      "x": 56,
+      "y": 204,
+      "width": 380,
+      "height": 72,
+      "reuse": [
+        "Sprint",
+        "Dodge",
+        "Vault",
+        "Shop",
+        "Admin",
+        "Buy / Use",
+        "Start / Stop",
+        "Voting choices",
+        "Team colors",
+        "Shop categories",
+        "Icon actions"
+      ]
+    },
+    {
+      "key": "panel",
+      "name": "02 / PANEL SHELL",
+      "id": "Template_panel",
+      "x": 756,
+      "y": 204,
+      "width": 640,
+      "height": 284,
+      "reuse": [
+        "Shop",
+        "Admin panel",
+        "Voting panel",
+        "Round results",
+        "Team picker",
+        "World signs"
+      ]
+    },
+    {
+      "key": "round-header",
+      "name": "03 / ROUND HEADER",
+      "id": "Template_round_header",
+      "x": 1456,
+      "y": 204,
+      "width": 640,
+      "height": 156,
+      "reuse": [
+        "British Bulldog timer and counts",
+        "Tag You're It timer and counts",
+        "Stuck in the Mud timer and counts"
+      ]
+    },
+    {
+      "key": "meter",
+      "name": "04 / METER",
+      "id": "Template_meter",
+      "x": 56,
+      "y": 554,
+      "width": 380,
+      "height": 80,
+      "reuse": [
+        "Stamina",
+        "Stamina recharge",
+        "XP",
+        "Rescue progress",
+        "Gun heat"
+      ]
+    },
+    {
+      "key": "player-card",
+      "name": "05 / PLAYER CARD",
+      "id": "Template_player_card",
+      "x": 756,
+      "y": 554,
+      "width": 380,
+      "height": 142,
+      "reuse": [
+        "Avatar and level",
+        "Player identity",
+        "Compact player profile"
+      ]
+    },
+    {
+      "key": "info-card",
+      "name": "06 / INFO CARD",
+      "id": "Template_info_card",
+      "x": 1456,
+      "y": 554,
+      "width": 380,
+      "height": 118,
+      "reuse": [
+        "Coins and wins",
+        "Round rewards",
+        "Currency and statistic summaries"
+      ]
+    },
+    {
+      "key": "item-card",
+      "name": "07 / ITEM CARD",
+      "id": "Template_item_card",
+      "x": 56,
+      "y": 904,
+      "width": 224,
+      "height": 278,
+      "reuse": [
+        "All 12 shop slots",
+        "Pet preview",
+        "Emote preview",
+        "Trail preview",
+        "Highlight preview",
+        "Cosmetic gear preview"
+      ]
+    },
+    {
+      "key": "status-text",
+      "name": "08 / STATUS TEXT",
+      "id": "Template_status_text",
+      "x": 756,
+      "y": 904,
+      "width": 640,
+      "height": 106,
+      "reuse": [
+        "Countdown numbers",
+        "BULLDOG call",
+        "Role label",
+        "Cooldown",
+        "Win / Loss message",
+        "Overhead label"
+      ]
+    },
+    {
+      "key": "icons",
+      "name": "09 / ICON PALETTE",
+      "id": "Template_icons",
+      "x": 1456,
+      "y": 904,
+      "width": 640,
+      "height": 244,
+      "reuse": [
+        "Sprint lightning",
+        "Dodge swoosh",
+        "Level / reward star",
+        "Heart",
+        "Coin",
+        "Crosshair",
+        "Emoji bubble"
+      ]
+    },
+    {
+      "key": "compact-badge",
+      "name": "10 / STATUS BADGE",
+      "id": "Template_compact_badge",
+      "x": 56,
+      "y": 1254,
+      "width": 500,
+      "height": 112,
+      "reuse": [
+        "Role label",
+        "Tagged / Frozen notice",
+        "Leave safe zone countdown",
+        "Escape boost",
+        "Protection / movement notice"
+      ]
+    },
+    {
+      "key": "scrollbar",
+      "name": "11 / SCROLLBAR",
+      "id": "Template_scrollbar",
+      "x": 756,
+      "y": 1254,
+      "width": 380,
+      "height": 40,
+      "reuse": [
+        "Shop categories",
+        "Shop cards",
+        "Admin sections",
+        "Round winners"
+      ]
+    }
+  ],
+  "principle": "Change labels, colors and values on reuse. Do not create another design file for each action, game, number, item or state."
+}

@@ -1,0 +1,55 @@
+{
+  "id": "P33",
+  "name": "Velvet Jumper",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p33-velvet-jumper-v4.png",
+  "brief": "One cute plush-like jumping spider, a single round plum-purple body and smaller attached head with two oversized glossy navy front eyes plus two tiny eyes above. Exactly EIGHT short thick rounded legs, four on each side, visibly attached and splayed neatly. Peach heart marking on its back, tiny happy mouth. Friendly, no web, no detached props or scary fangs. Final reference uses a slightly elevated front view so all eight legs are visible. Model four legs on each side.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p33-velvet-jumper-v4.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p33-velvet-jumper-v4.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p33-velvet-jumper-v4-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p33-velvet-jumper-v4.png",
+  "parts": 57,
+  "triangles": 26018,
+  "meshes": 2,
+  "maxMeshTriangles": 18876,
+  "dimensions": [
+    3.2800002098083496,
+    2.9860000610351562,
+    2.015138864517212
+  ],
+  "boundsMin": [
+    -1.6400001049041748,
+    -1.4559999704360962,
+    0.12499991059303284
+  ],
+  "boundsMax": [
+    1.6400001049041748,
+    1.5300002098083496,
+    2.140138864517212
+  ],
+  "paletteColors": 8,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "LegL1",
+    "LegL2",
+    "LegL3",
+    "LegL4",
+    "LegR1",
+    "LegR2",
+    "LegR3",
+    "LegR4"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    3.2800002098083496,
+    2.9860002994537354,
+    2.015139102935791
+  ]
+}

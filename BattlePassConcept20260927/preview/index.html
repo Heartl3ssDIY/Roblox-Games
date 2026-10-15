@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#676767">
+  <title>Anime Combat Units — Battle Pass concept</title>
+  <link rel="preload" as="image" href="./assets/reward-coin.png">
+  <link rel="preload" as="image" href="./assets/reward-diamond.png">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="preview-stage">
+    <main class="pass-screen" id="passScreen" aria-label="Season One Battle Pass">
+      <button class="close-pass" id="closePass" type="button" aria-label="Close Battle Pass">×</button>
+
+      <header class="pass-header">
+        <div class="title-lockup">
+          <span class="season-kicker">SEASON ONE</span>
+          <h1>BATTLE PASS</h1>
+        </div>
+        <div class="progress-block">
+          <div class="progress-copy">
+            <span id="passLevel">LEVEL</span>
+            <span>PASS XP</span>
+          </div>
+          <div class="progress-rail" id="progressRail" role="progressbar" aria-label="Battle Pass XP toward next level" aria-valuemin="0" aria-valuemax="15" aria-valuenow="0">
+            <div class="progress-fill" id="progressFill"></div>
+            <img class="progress-orb" id="progressOrb" src="./svg/xp-orb.svg" alt="">
+          </div>
+          <span class="xp-value" id="xpText">0 / 15 PASS XP</span>
+        </div>
+      </header>
+
+      <div class="track-heading"><h2>REWARD TRACK</h2></div>
+
+      <section class="track-layout" aria-label="Battle Pass reward track">
+        <div class="lane-labels">
+          <div class="free-label"><span class="lane-spark" aria-hidden="true">✦</span><strong>FREE</strong></div>
+          <div class="rail-label"><strong>LEVEL</strong></div>
+          <div class="paid-label"><span class="lane-spark" aria-hidden="true">✦</span><strong>PAID</strong>
+            <button class="buy-button" id="buyButton" type="button" aria-label="Preview premium pass for 1499 Robux"><span class="robux-mark" aria-hidden="true">◇</span><span>1499</span></button>
+            <span class="visually-hidden" id="premiumStatus">LOCKED</span>
+          </div>
+        </div>
+        <div class="track-scroller" id="trackScroller" tabindex="0" aria-label="Scroll sideways through 45 Battle Pass levels">
+          <div class="tier-list" id="tierList"></div>
+        </div>
+      </section>
+
+      <footer class="pass-footer">45 LEVELS <span aria-hidden="true">✦</span> 15 PASS XP EACH</footer>
+    </main>
+
+    <button class="reopen-pass" id="reopenPass" type="button" hidden>OPEN BATTLE PASS</button>
+  </div>
+
+  <button class="designer-tab" id="demoButton" type="button" aria-expanded="false" aria-controls="demoPanel">DEMO CONTROLS</button>
+  <aside class="demo-panel" id="demoPanel" aria-label="Prototype controls" hidden>
+    <div class="demo-panel-head"><strong>DESIGN PREVIEW ONLY</strong><button id="closeDemo" type="button" aria-label="Close demo controls">×</button></div>
+    <p>Simulate matches to test the track. These controls are outside the player UI.</p>
+    <div class="demo-actions">
+      <button id="winButton" type="button">WIN <small>+5 pass XP · +10 trophies</small></button>
+      <button id="lossButton" type="button">LOSS <small>+2 pass XP · −4 trophies</small></button>
+      <button id="forfeitButton" type="button">FORFEIT <small>Designer-only test</small></button>
+    </div>
+    <label class="premium-toggle"><input id="premiumToggle" type="checkbox"> Preview paid pass unlocked</label>
+    <div class="demo-stat"><span>TROPHIES</span><strong id="trophyValue">0</strong></div>
+    <button class="reset-button" id="resetButton" type="button">RESET PREVIEW</button>
+  </aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

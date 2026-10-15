@@ -1,0 +1,21 @@
+{
+  "studioId": "7023997f-0934-4375-96b6-d81cba4ba64b",
+  "mode": "Edit",
+  "fixtureRemoved": true,
+  "productionMutated": false,
+  "checks": 1262,
+  "passed": true,
+  "rooms": 32,
+  "classroomsPerFloor": 16,
+  "hidingSpots": 76,
+  "storageRayChecks": 76,
+  "storageRayFailures": [],
+  "assetPlacements": 557,
+  "replacedProps": 431,
+  "failures": [],
+  "fixedDuringReview": [
+    "Clarinet collision hull blocked four classroom doorway routes.",
+    "Guitar collision hull blocked four original locker exits.",
+    "Asset owner relocated guitar and clarinet to outer classroom wall and all checks now pass."
+  ]
+}

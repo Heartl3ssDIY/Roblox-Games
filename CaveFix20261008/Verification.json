@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"ok\":true,\"checks\":[{\"name\":\"R6 feet registers a safe tile\",\"passed\":true},{\"name\":\"R15 feet registers a safe tile\",\"passed\":true},{\"name\":\"small avatar registers a safe tile\",\"passed\":true},{\"name\":\"tall avatar registers a safe tile\",\"passed\":true},{\"name\":\"Jumping above a tile does not complete it\",\"passed\":true},{\"name\":\"Skipped row resets to the start\",\"passed\":true},{\"name\":\"Wrong tile flashes and starts collapse\",\"passed\":true},{\"name\":\"All wrong-tile pieces disappear and stop colliding\",\"passed\":true},{\"name\":\"Falling resets the run\",\"passed\":true},{\"name\":\"Collapsed platform returns with solid collision\",\"passed\":true},{\"name\":\"Correct row 1 progresses\",\"passed\":true},{\"name\":\"Correct row 2 progresses\",\"passed\":true},{\"name\":\"Correct row 3 progresses\",\"passed\":true},{\"name\":\"Correct row 4 progresses\",\"passed\":true},{\"name\":\"Correct row 5 progresses\",\"passed\":true},{\"name\":\"Correct row 6 progresses\",\"passed\":true},{\"name\":\"Correct row 7 progresses\",\"passed\":true},{\"name\":\"Correct row 8 progresses\",\"passed\":true},{\"name\":\"Remote chest claim rejected\",\"passed\":true},{\"name\":\"Completed path reaches daily reward service\",\"passed\":true},{\"name\":\"Daily denial is reported without extra award\",\"passed\":true},{\"name\":\"Chest cannot award an incomplete run\",\"passed\":true},{\"name\":\"Loading data gets useful entrance feedback\",\"passed\":true},{\"name\":\"Entrance teleports to start with fresh progress\",\"passed\":true},{\"name\":\"Return portal clears active run\",\"passed\":true},{\"name\":\"Prompt and heartbeat connections start\",\"passed\":true},{\"name\":\"Stopping disconnects the controller\",\"passed\":true}]}"
+    }
+  ],
+  "isError": false
+}

@@ -1,0 +1,231 @@
+{
+  "visual_meshes": [
+    {
+      "name": "HA_01_Foundation_Part01",
+      "triangles": 96,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_02_Arena_Floor_Part01",
+      "triangles": 192,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_03_Concourse_Part01",
+      "triangles": 96,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_04_Trim_Part01",
+      "triangles": 384,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_05_Combat_Platform_Part01",
+      "triangles": 3228,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part01",
+      "triangles": 7344,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part02",
+      "triangles": 7344,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part03",
+      "triangles": 7344,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part04",
+      "triangles": 7344,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part05",
+      "triangles": 7344,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part06",
+      "triangles": 7344,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part07",
+      "triangles": 7344,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part08",
+      "triangles": 7344,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part09",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part10",
+      "triangles": 456,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part11",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part12",
+      "triangles": 456,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part13",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part14",
+      "triangles": 456,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part15",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part16",
+      "triangles": 456,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part17",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part18",
+      "triangles": 456,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part19",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part20",
+      "triangles": 456,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part21",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part22",
+      "triangles": 456,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part23",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_20_Seats_Part24",
+      "triangles": 456,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_10_Terraces_Part01",
+      "triangles": 7104,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_11_Stairs_Part01",
+      "triangles": 9024,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_12_Railings_Part01",
+      "triangles": 8320,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_13_Walls_Part01",
+      "triangles": 2880,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_14_Roof_Rim_Part01",
+      "triangles": 2112,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_15_Lamps_Part01",
+      "triangles": 1824,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "HA_16_Solid_Structure_Part01",
+      "triangles": 1056,
+      "uv": true,
+      "zero_area_triangles": 0
+    }
+  ],
+  "combat_bounds": [
+    -32,
+    32,
+    -32,
+    32
+  ],
+  "combat_surface_height": 1.795,
+  "collision_meshes": 16,
+  "studio_import_tested": false,
+  "triangles": 194716,
+  "combat_area_obstructions": []
+}

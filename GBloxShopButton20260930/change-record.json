@@ -1,0 +1,23 @@
+{
+  "placeId": 74498603638770,
+  "sourceImage": "C:/Users/sandt/Documents/Local Projects/Roblox UI Assets/G-Blox/Shop button.png",
+  "published": false,
+  "verification": {
+    "before": {
+      "scaleType": "Fit",
+      "position": "{0, 0}, {0, 0}",
+      "anchor": "0, 0",
+      "image": "rbxassetid://135533758514741",
+      "size": "{0, 133}, {0, 84}"
+    },
+    "path": "StarterGui.GBloxShopMockups.PreviewButtons.Shop",
+    "navigationUnchanged": true,
+    "afterImage": "rbxassetid://116603451322309",
+    "loadStatus": {
+      "rbxassetid://116603451322309": "Success",
+      "rbxasset://fonts/PressStart2P-Regular.ttf": "Success",
+      "rbxasset://fonts/families/PressStart2P.json": "Success"
+    },
+    "layoutUnchanged": true
+  }
+}

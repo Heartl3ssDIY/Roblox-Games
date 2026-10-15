@@ -1,0 +1,46 @@
+{
+  "placeId": 106769122906103,
+  "placeName": "Round 1 Muliplayer",
+  "date": "2026-10-04",
+  "status": "installed_verified_in_edit",
+  "published": false,
+  "playtested": false,
+  "backup": "ServerStorage.BeforeHalloweenPolish20261004",
+  "sourcesInstalled": [
+    "GBloxPumpkinThrow",
+    "ServerScriptService.GBloxAbilityEffects",
+    "ServerScriptService.GBloxGravitySwitch",
+    "ServerScriptService.GBloxHalloweenService",
+    "ServerScriptService.RunnerServer",
+    "ServerScriptService.GBloxHalloweenAppearance",
+    "StarterPlayer.StarterPlayerScripts.RunnerClient",
+    "StarterGui.GBloxAbilityHUD.Controller"
+  ],
+  "originalCourseParts": {
+    "hash": 3102243301,
+    "parts": 6629
+  },
+  "originalCoursePartsUnchanged": true,
+  "archivedOriginalPropertiesUnchanged": true,
+  "looseImportsArchive": "ReplicatedStorage.GBloxHalloweenLooseImports",
+  "archivedCount": 10,
+  "addedDecorations": 48,
+  "addedCornerWebs": 8,
+  "existingCornerWebsUpdated": 5,
+  "cornerWebSeconds": 7,
+  "cornerWebFallSpeed": 6,
+  "pumpkinHoldSeconds": 0.4,
+  "pumpkinTarget": "racer behind the owner",
+  "pumpkinCooldownSeconds": 25,
+  "pumpkinSplatSeconds": 4,
+  "paidWebHoldSecondsUnchanged": 5,
+  "checks": {
+    "freezeAndCornerAssertions": 234,
+    "pumpkinThrowAssertions": 103,
+    "halloweenServiceAssertions": 156,
+    "compiledScripts": 8,
+    "geometryModels": 56,
+    "geometryIssues": 0
+  },
+  "pending": "User-provided pumpkin splatter UI; real movement and visual feel need user playtesting."
+}

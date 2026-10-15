@@ -1,0 +1,65 @@
+Skipping Rope integration - 2026-10-12
+Installed in stopped Roblox Studio place Playground Classics.
+No Play test or publish was started. Existing script capabilities and Sandbox flags were preserved.
+
+Changed sources (Before and After snapshots are in this folder):
+- ServerScriptService.PlaygroundEconomyService
+- ServerScriptService.PlaygroundEquipmentService
+- ServerScriptService.PlaygroundToyService
+- ServerScriptService.PlaygroundLobbySwingService
+- ServerScriptService.PlaygroundSecretObbyService
+- ServerScriptService.PlaygroundLobbyBenchService
+- ServerScriptService.PlaygroundFishingService
+- ServerScriptService.PlaygroundPushService
+- StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere
+- StarterPlayer.StarterPlayerScripts.PlaygroundEmotes
+- StarterGui.PlaygroundShell.Controller
+- StarterGui.PlaygroundShell.PlayerLevelController
+- StarterGui.PlaygroundShell.CommerceController
+- StarterGui.PlaygroundToyHotbar.Controller
+- StarterGui.PlaygroundEmoteWheel.Controller
+- StarterGui.PlaygroundDonations.Controller
+- StarterGui.PlaygroundFishingHUD.Controller
+- StarterGui.PlaygroundPushControls.Controller
+- StarterGui.PlaygroundIntermissionHUD.Controller
+- ServerScriptService.PlaygroundBootstrap
+- ServerScriptService.PlaygroundCoordinator
+- ServerScriptService.PlaygroundAdminService
+- StarterGui.PlaygroundAdminPanel.Controller
+- ReplicatedStorage.PlaygroundCatalog
+- StarterGui.PlaygroundSessionControls.Controller
+- StarterPlayer.StarterPlayerScripts.BritishBulldogCamera
+
+Authored objects:
+- StarterGui.PlaygroundAdminPanel.AdminHub.Pages.Rounds.SkippingRope: new sixth game row and SKStart button.
+- Rounds.RoundSettings.LayoutOrder: moved after new row.
+- StarterGui.PlaygroundShell.VotePanel.Choices.SkippingRope: new scrollable game card.
+- StarterGui.PlaygroundShell.CompactVotePanel.Choices.SkippingRope: corresponding compact card.
+- Both Choices.CanvasSize values extend to include sixth card; both ScrollHint captions mention six games.
+- Workspace.Playground Lobby.VotingAlcove.SkippingRopeStand: new model using existing sign style.
+- Workspace.Playground Lobby.Gameplay.VoteChoices.SkippingRope: new matching trigger.
+- Existing five world voting stands and triggers repositioned into two rows of three. All six stay within the existing alcove and do not overlap.
+
+Backups:
+ServerStorage.SkippingRopeIntegrationBackup20261012 contains all 26 previous sources, previous admin Rounds frame, both previous voting panels, all previous triggers and five stand models.
+
+Behavior:
+- Skipping Rope is available to the existing 35-second vote/intermission loop and authorized admin controls.
+- No-vote automatic selection now randomly chooses among eligible games excluding the previous one, instead of getting stuck alternating the first two games.
+- Coordinator tracks its active state, AFK requests, spectator targets and result rewards.
+- Winners increment total and Skipping Rope wins. Eliminated participants get ordinary participation rewards. Duplicate/cancelled rewards are blocked.
+- Equipped toys are cleared before starting, including duplicate backpack/StarterGear tools. Lobby toys, emotes, fishing, benches, swings, obby and purchases remain unavailable to jumpers and eliminated spectators until cleanup.
+- Lobby HUD and camera follow existing in-round behavior. Push and bats are not available to Skipping Rope players.
+- Pet follower logic was inspected: its only special game restriction is Hide and Seek; pets already follow players in other games without a game whitelist. No new pet behavior was required.
+- Players.MaxPlayers is 60. The new service selects at most 24; surplus ready players remain in the lobby.
+
+Validation:
+- 26 changed source files and all five build/test scripts compiled with Luau 0.740.
+- 37 isolated native checks: coordinator transitions, all-game unvoted rotation, AFK/spectate/admin and reward persistence schema.
+- 28 native live-source full-cycle checks: actual new service + coordinator/equipment/admin/economy, countdown through results and automatic next round.
+- 131 installed-source/capability/UI/world-alignment checks.
+- Fixtures remove themselves; no persistent player rewards or data store writes were performed.
+
+Remaining verification:
+A normal Studio/Roblox multiplayer play test is still needed to judge jump timing, network delay and visual presentation with real touch/gamepad inputs. This integration did not publish the place.
+

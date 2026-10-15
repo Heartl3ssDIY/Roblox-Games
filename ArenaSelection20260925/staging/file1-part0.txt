@@ -1,0 +1,96 @@
+local Players      = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local UnitData = require(ReplicatedStorage:WaitForChild("UnitData"))
+local UnitModels = ReplicatedStorage:WaitForChild("UnitModels")
+local UnitViewport = require(ReplicatedStorage:WaitForChild("UnitViewport"))
+local Loadout = require(ReplicatedStorage:WaitForChild("Loadout"))
+local DraftController = require(ReplicatedStorage:WaitForChild("DraftController"))
+local Deployment = require(ReplicatedStorage:WaitForChild("Deployment"))
+local CombatController = require(ReplicatedStorage:WaitForChild("CombatController"))
+local PlayerData = require(ReplicatedStorage:WaitForChild("PlayerData"))
+
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local ArenaConfig = require(ReplicatedStorage:WaitForChild("ArenaConfig"))
+local ArenaTravelClient = require(ReplicatedStorage:WaitForChild("ArenaTravelClient"))
+
+local player    = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+
+local C = {
+    bg      = Color3.fromRGB(18, 12, 36),
+    panel   = Color3.fromRGB(32, 20, 62),
+    btnHov = Color3.fromRGB(60, 38, 112),
+    border  = Color3.fromRGB(148, 88, 255),
+    accent  = Color3.fromRGB(180, 120, 255),
+    btnTxt  = Color3.fromRGB(230, 210, 255),
+    sub     = Color3.fromRGB(155, 130, 195),
+    gold    = Color3.fromRGB(255, 210, 80),
+    cellBg  = Color3.fromRGB(40, 24, 78),
+    heart   = Color3.fromRGB(235, 70, 90),
+    heartOff= Color3.fromRGB(70, 50, 90),
+    red     = Color3.fromRGB(200, 70, 90),
+    blue    = Color3.fromRGB(80, 110, 220),
+}
+local function corner(p, r) Instance.new("UICorner", p).CornerRadius = UDim.new(0, r or 12) end
+local function stroke(p, col, th)
+    local s = Instance.new("UIStroke", p); s.Color = col; s.Thickness = th or 2
+    s.ApplyStrokeMode = Enum.ApplyStrokeMode.Border; return s
+end
+local function mk(class, props, parent)
+    local o = Instance.new(class)
+    for k,v in pairs(props) do o[k]=v end
+    o.Parent = parent; return o
+end
+
+local MAX_LIVES = 4
+local EQUIPPED_SLOTS = 4
+
+local hud = playerGui:WaitForChild("ArenaHUD")
+hud.Enabled = false
+local banner = hud:WaitForChild("RoundBanner")
+local rewardOverlay = hud:WaitForChild("RewardOverlay")
+local rewardPanel = rewardOverlay:WaitForChild("RewardPanel")
+local rewardTitle = rewardPanel:WaitForChild("Title")
+local rewardBody = rewardPanel:WaitForChild("Body")
+local rewardPanelSize = rewardPanel.Size
+local bannerStrokeTransparency = banner.TextStrokeTransparency
+
+local function rewardSection(titleText, order)
+    local sec = mk("Frame", {
+        Name = "Sec_"..titleText, Size = UDim2.new(1,0,0,0), AutomaticSize = Enum.AutomaticSize.Y,
+        BackgroundColor3 = C.panel, BorderSizePixel = 0, LayoutOrder = order, ZIndex = 32,
+    }, rewardBody)
+    corner(sec, 12); stroke(sec, C.border, 1)
+    mk("UIPadding", { PaddingTop=UDim.new(0,8), PaddingBottom=UDim.new(0,10),
+        PaddingLeft=UDim.new(0,12), PaddingRight=UDim.new(0,12) }, sec)
+    mk("UIListLayout", { Padding = UDim.new(0,6), SortOrder = Enum.SortOrder.LayoutOrder }, sec)
+    mk("TextLabel", { Name="SecTitle", Size=UDim2.new(1,0,0,22), BackgroundTransparency=1,
+        Text=titleText, TextColor3=C.gold, Font=Enum.Font.PermanentMarker, TextSize=16,
+        TextXAlignment=Enum.TextXAlignment.Left, LayoutOrder=0, ZIndex=33 }, sec)
+    return sec
+end
+
+local function rewardRow(parent, order, icon, label, color)
+    local row = mk("Frame", { Size=UDim2.new(1,0,0,28), BackgroundTransparency=1, LayoutOrder=order, ZIndex=33 }, parent)
+    mk("TextLabel", { Size=UDim2.new(0,32,1,0), BackgroundTransparency=1, Text=icon,
+        TextColor3=color, Font=Enum.Font.PermanentMarker, TextSize=18, ZIndex=34 }, row)
+    mk("TextLabel", { Size=UDim2.new(1,-40,1,0), Position=UDim2.new(0,38,0,0), BackgroundTransparency=1,
+        Text=label, TextColor3=C.btnTxt, Font=Enum.Font.PermanentMarker, TextSize=14,
+        TextXAlignment=Enum.TextXAlignment.Left, ZIndex=34 }, row)
+    return row
+end
+
+local backLobbyBtn = rewardPanel:WaitForChild("BackLobby")
+local nextMatchBtn = rewardPanel:WaitForChild("NextMatch")
+
+local rewardConnections = {}
+
+local function clearRewardConnections()
+    for _, connection in ipairs(rewardConnections) do connection:Disconnect() end
+    table.clear(rewardConnections)
+end
+
+local function showRewards(data, onLobby, onNextMatch)
+    clearRewardConnections

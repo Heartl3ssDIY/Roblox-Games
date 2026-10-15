@@ -1,0 +1,237 @@
+{
+  "folder": "Tag You're It",
+  "floor_top": 32.9,
+  "center": [
+    6500,
+    32.9,
+    4534
+  ],
+  "bounds_size": [
+    416,
+    100,
+    416
+  ],
+  "bounds_center": [
+    6500,
+    82.9,
+    4534
+  ],
+  "area": 173056,
+  "area_ratio_to_british_bulldog": 2.099378881987578,
+  "ground_navigation": {
+    "nodes": 171,
+    "edges": 677,
+    "connected": true,
+    "minimum_neighbors": 2,
+    "obstacle_clearance": 3.3,
+    "all_24_spawns_connected": true
+  },
+  "spawn_pads": [
+    [
+      6350,
+      36.5,
+      4344
+    ],
+    [
+      6410,
+      36.5,
+      4344
+    ],
+    [
+      6470,
+      36.5,
+      4344
+    ],
+    [
+      6530,
+      36.5,
+      4344
+    ],
+    [
+      6590,
+      36.5,
+      4344
+    ],
+    [
+      6650,
+      36.5,
+      4344
+    ],
+    [
+      6690,
+      36.5,
+      4384
+    ],
+    [
+      6690,
+      36.5,
+      4444
+    ],
+    [
+      6690,
+      36.5,
+      4504
+    ],
+    [
+      6690,
+      36.5,
+      4564
+    ],
+    [
+      6690,
+      36.5,
+      4624
+    ],
+    [
+      6690,
+      36.5,
+      4684
+    ],
+    [
+      6650,
+      36.5,
+      4724
+    ],
+    [
+      6590,
+      36.5,
+      4724
+    ],
+    [
+      6530,
+      36.5,
+      4724
+    ],
+    [
+      6470,
+      36.5,
+      4724
+    ],
+    [
+      6410,
+      36.5,
+      4724
+    ],
+    [
+      6350,
+      36.5,
+      4724
+    ],
+    [
+      6310,
+      36.5,
+      4684
+    ],
+    [
+      6310,
+      36.5,
+      4624
+    ],
+    [
+      6310,
+      36.5,
+      4564
+    ],
+    [
+      6310,
+      36.5,
+      4504
+    ],
+    [
+      6310,
+      36.5,
+      4444
+    ],
+    [
+      6310,
+      36.5,
+      4384
+    ]
+  ],
+  "courses": [
+    {
+      "id": "Sunbeam",
+      "center": [
+        -102,
+        -102
+      ],
+      "loop_height": 12,
+      "loop_width": 16,
+      "ramps": 2,
+      "ramp_width": 18,
+      "ramp_slope_degrees": 20.272969493286244,
+      "ramp_run": 32,
+      "maximum_height": 12,
+      "max_step_rise": 4,
+      "max_jump_gap": 4,
+      "open_ground_underpasses": true
+    },
+    {
+      "id": "CoralRoofs",
+      "center": [
+        102,
+        -102
+      ],
+      "loop_height": 12,
+      "loop_width": 16,
+      "ramps": 2,
+      "ramp_width": 18,
+      "ramp_slope_degrees": 20.272969493286244,
+      "ramp_run": 32,
+      "maximum_height": 20,
+      "max_step_rise": 4,
+      "max_jump_gap": 4,
+      "open_ground_underpasses": true
+    },
+    {
+      "id": "Wavewalk",
+      "center": [
+        -102,
+        102
+      ],
+      "loop_height": 12,
+      "loop_width": 16,
+      "ramps": 2,
+      "ramp_width": 18,
+      "ramp_slope_degrees": 20.272969493286244,
+      "ramp_run": 32,
+      "maximum_height": 12,
+      "max_step_rise": 4,
+      "max_jump_gap": 4,
+      "open_ground_underpasses": true
+    },
+    {
+      "id": "MintTerrace",
+      "center": [
+        102,
+        102
+      ],
+      "loop_height": 12,
+      "loop_width": 16,
+      "ramps": 2,
+      "ramp_width": 18,
+      "ramp_slope_degrees": 20.272969493286244,
+      "ramp_run": 32,
+      "maximum_height": 24,
+      "max_step_rise": 4,
+      "max_jump_gap": 4,
+      "open_ground_underpasses": true
+    }
+  ],
+  "vaults": {
+    "count": 8,
+    "collision_height": 2.8,
+    "visual_height": 3.1
+  },
+  "shared_bridges": {
+    "count": 4,
+    "height": 12,
+    "width": 16,
+    "ground_headroom": 10.8
+  },
+  "validation": {
+    "ground_graph": "passed",
+    "geometry_analysis": "passed",
+    "live_humanoid_traversal": "pending Studio playtest"
+  }
+}

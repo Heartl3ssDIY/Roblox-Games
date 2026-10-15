@@ -1,0 +1,170 @@
+{
+  "pet": "Hummingbird",
+  "mesh_count": 32,
+  "base_meshes": 27,
+  "vfx_meshes": 5,
+  "triangles": 4724,
+  "one_material_each": true,
+  "parts": [
+    {
+      "name": "Head_Pearl_Cube.004",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Face_Cyan_Panel.004",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Pearl_Cap.005",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Cyan_Stripe.004",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Top.004",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Bottom.004",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_L_Violet_Temple.004",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_L_Ink.004",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_L_White_Glint.005",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Visor_R_Violet_Temple.004",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_R_Ink.004",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_R_White_Glint.005",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Helmet_Yellow_Bolt.004",
+      "recolour": "Yellow",
+      "triangles": 164
+    },
+    {
+      "name": "Wing_L_Silver_Joint.004",
+      "recolour": "Silver",
+      "triangles": 224
+    },
+    {
+      "name": "Wing_L_Feather_1.003",
+      "recolour": "Pearl",
+      "triangles": 148
+    },
+    {
+      "name": "Wing_L_Feather_2.003",
+      "recolour": "Purple",
+      "triangles": 148
+    },
+    {
+      "name": "Wing_L_Feather_3.003",
+      "recolour": "Purple",
+      "triangles": 132
+    },
+    {
+      "name": "Thruster_L_Silver.003",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "Wing_R_Silver_Joint.004",
+      "recolour": "Silver",
+      "triangles": 224
+    },
+    {
+      "name": "Wing_R_Feather_1.003",
+      "recolour": "Pearl",
+      "triangles": 148
+    },
+    {
+      "name": "Wing_R_Feather_2.003",
+      "recolour": "Purple",
+      "triangles": 148
+    },
+    {
+      "name": "Wing_R_Feather_3.003",
+      "recolour": "Purple",
+      "triangles": 132
+    },
+    {
+      "name": "Thruster_R_Silver.003",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "Tail_1_Pearl.003",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Tail_2_Pearl.003",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Tail_3_Pearl.003",
+      "recolour": "Pearl",
+      "triangles": 136
+    },
+    {
+      "name": "Beak_Yellow_Needle",
+      "recolour": "Yellow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_L_Jet.003",
+      "recolour": "Glow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_R_Jet.003",
+      "recolour": "Glow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_Cyan_Underlight.005",
+      "recolour": "Glow",
+      "triangles": 108
+    },
+    {
+      "name": "VFX_-1_SpeedRail.004",
+      "recolour": "Glow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_1_SpeedRail.004",
+      "recolour": "Glow",
+      "triangles": 140
+    }
+  ]
+}

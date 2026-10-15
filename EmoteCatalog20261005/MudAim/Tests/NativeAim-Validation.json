@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "playStarted": false,
+  "existingCapabilitiesPreserved": true,
+  "mode": "Edit",
+  "results": {
+    "total": 25,
+    "passed": 25,
+    "checks": [
+      {
+        "name": "Mouse ray uses raw viewport pixels without adding topbar inset",
+        "passed": true
+      },
+      {
+        "name": "Crosshair points to same pixel as mouse ray",
+        "passed": true
+      },
+      {
+        "name": "Authored reticle size and anchor preserved",
+        "passed": true
+      },
+      {
+        "name": "Device safe inset moves mouse ray and reticle together",
+        "passed": true
+      },
+      {
+        "name": "Touch uses camera centre instead of fire-button finger",
+        "passed": true
+      },
+      {
+        "name": "Gamepad uses camera centre instead of stale mouse",
+        "passed": true
+      },
+      {
+        "name": "Mouse on touch-capable device follows current preferred input",
+        "passed": true
+      },
+      {
+        "name": "Locked-centre mouse follows camera forward",
+        "passed": true
+      },
+      {
+        "name": "Out-of-viewport mouse is clamped",
+        "passed": true
+      },
+      {
+        "name": "Native ray packet converges real muzzle onto camera target",
+        "passed": true
+      },
+      {
+        "name": "Unbounded remote camera origin rejected",
+        "passed": true
+      },
+      {
+        "name": "NaN aim rejected",
+        "passed": true
+      },
+      {
+        "name": "Infinite camera position rejected",
+        "passed": true
+      },
+      {
+        "name": "Zero direction rejected",
+        "passed": true
+      },
+      {
+        "name": "Missing camera fields rejected",
+        "passed": true
+      },
+      {
+        "name": "Managed equipped gun remains mandatory",
+        "passed": true
+      },
+      {
+        "name": "Camera cannot be spoofed through cover behind shooter",
+        "passed": true
+      },
+      {
+        "name": "Camera-visible enemy remains blocked by muzzle-side wall",
+        "passed": true
+      },
+      {
+        "name": "Cooldown still rejects immediate repeat",
+        "passed": true
+      },
+      {
+        "name": "Clear camera-guided shot reaches enemy with unchanged projectile motion",
+        "passed": true
+      },
+      {
+        "name": "Muddy player cannot shoot",
+        "passed": true
+      },
+      {
+        "name": "Bot legacy vector aiming remains supported",
+        "passed": true
+      },
+      {
+        "name": "Heat stores camera-ray aim packet",
+        "passed": true
+      },
+      {
+        "name": "Heat release clears packet and lease",
+        "passed": true
+      },
+      {
+        "name": "Muzzle cannot protrude through close wall",
+        "passed": true
+      }
+    ]
+  }
+}

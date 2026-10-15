@@ -1,0 +1,311 @@
+{
+  "allPassed": true,
+  "batches": 42,
+  "meshes": 4728,
+  "triangles": 3927897,
+  "checks": [
+    "FBX binary file parse",
+    "all geometry names equal manifest",
+    "all triangle and vertex counts equal manifest",
+    "every face triangulated",
+    "every mesh<=9000 triangles",
+    "every batch<=50 MiB",
+    "all relative texture references resolve"
+  ],
+  "reports": [
+    {
+      "file": "01_Landscape_01.fbx",
+      "geometryCount": 250,
+      "triangles": 4648,
+      "bytes": 969548,
+      "passed": true
+    },
+    {
+      "file": "01_Landscape_02.fbx",
+      "geometryCount": 250,
+      "triangles": 5782,
+      "bytes": 1033340,
+      "passed": true
+    },
+    {
+      "file": "01_Landscape_03.fbx",
+      "geometryCount": 250,
+      "triangles": 4812,
+      "bytes": 1012652,
+      "passed": true
+    },
+    {
+      "file": "01_Landscape_04.fbx",
+      "geometryCount": 121,
+      "triangles": 286,
+      "bytes": 393452,
+      "passed": true
+    },
+    {
+      "file": "02_Plaza_Paths_Arrival_01.fbx",
+      "geometryCount": 250,
+      "triangles": 90868,
+      "bytes": 3049628,
+      "passed": true
+    },
+    {
+      "file": "02_Plaza_Paths_Arrival_02.fbx",
+      "geometryCount": 250,
+      "triangles": 180954,
+      "bytes": 5481676,
+      "passed": true
+    },
+    {
+      "file": "02_Plaza_Paths_Arrival_03.fbx",
+      "geometryCount": 242,
+      "triangles": 55980,
+      "bytes": 2312108,
+      "passed": true
+    },
+    {
+      "file": "03_Civic_Branding_01.fbx",
+      "geometryCount": 87,
+      "triangles": 4788,
+      "bytes": 440732,
+      "passed": true
+    },
+    {
+      "file": "04_Story_Gate_01.fbx",
+      "geometryCount": 28,
+      "triangles": 90156,
+      "bytes": 2411196,
+      "passed": true
+    },
+    {
+      "file": "05_Summon_Hall_01.fbx",
+      "geometryCount": 38,
+      "triangles": 137640,
+      "bytes": 3585308,
+      "passed": true
+    },
+    {
+      "file": "06_Ranked_Hall_01.fbx",
+      "geometryCount": 31,
+      "triangles": 156980,
+      "bytes": 4124284,
+      "passed": true
+    },
+    {
+      "file": "07_Champions_Court_01.fbx",
+      "geometryCount": 33,
+      "triangles": 245784,
+      "bytes": 6147036,
+      "passed": true
+    },
+    {
+      "file": "07_Champions_Court_02.fbx",
+      "geometryCount": 45,
+      "triangles": 192352,
+      "bytes": 4862076,
+      "passed": true
+    },
+    {
+      "file": "08_Shop_NPC_Stations_01.fbx",
+      "geometryCount": 70,
+      "triangles": 216496,
+      "bytes": 5590332,
+      "passed": true
+    },
+    {
+      "file": "09_Market_Street_01.fbx",
+      "geometryCount": 144,
+      "triangles": 204688,
+      "bytes": 6107516,
+      "passed": true
+    },
+    {
+      "file": "10_Academy_01.fbx",
+      "geometryCount": 144,
+      "triangles": 40248,
+      "bytes": 1438972,
+      "passed": true
+    },
+    {
+      "file": "11_Celestial_Pagoda_01.fbx",
+      "geometryCount": 73,
+      "triangles": 33812,
+      "bytes": 1131260,
+      "passed": true
+    },
+    {
+      "file": "12_City_Buildings_01.fbx",
+      "geometryCount": 250,
+      "triangles": 136924,
+      "bytes": 4370364,
+      "passed": true
+    },
+    {
+      "file": "12_City_Buildings_02.fbx",
+      "geometryCount": 250,
+      "triangles": 139419,
+      "bytes": 4923004,
+      "passed": true
+    },
+    {
+      "file": "12_City_Buildings_03.fbx",
+      "geometryCount": 250,
+      "triangles": 102169,
+      "bytes": 3953244,
+      "passed": true
+    },
+    {
+      "file": "12_City_Buildings_04.fbx",
+      "geometryCount": 250,
+      "triangles": 111768,
+      "bytes": 4303324,
+      "passed": true
+    },
+    {
+      "file": "12_City_Buildings_05.fbx",
+      "geometryCount": 115,
+      "triangles": 59148,
+      "bytes": 2011468,
+      "passed": true
+    },
+    {
+      "file": "13_Fortress_Backdrop_01.fbx",
+      "geometryCount": 179,
+      "triangles": 145488,
+      "bytes": 4720604,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_01_01.fbx",
+      "geometryCount": 15,
+      "triangles": 69540,
+      "bytes": 2164428,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_02_01.fbx",
+      "geometryCount": 20,
+      "triangles": 72896,
+      "bytes": 2291500,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_03_01.fbx",
+      "geometryCount": 16,
+      "triangles": 69694,
+      "bytes": 2182172,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_04_01.fbx",
+      "geometryCount": 16,
+      "triangles": 78368,
+      "bytes": 2421596,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_05_01.fbx",
+      "geometryCount": 18,
+      "triangles": 79548,
+      "bytes": 2470444,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_06_01.fbx",
+      "geometryCount": 16,
+      "triangles": 87188,
+      "bytes": 2677612,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_07_01.fbx",
+      "geometryCount": 17,
+      "triangles": 85168,
+      "bytes": 2629244,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_08_01.fbx",
+      "geometryCount": 12,
+      "triangles": 52006,
+      "bytes": 1642828,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_09_01.fbx",
+      "geometryCount": 16,
+      "triangles": 75356,
+      "bytes": 2343020,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Torii_01_01.fbx",
+      "geometryCount": 16,
+      "triangles": 50800,
+      "bytes": 1599516,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Torii_02_01.fbx",
+      "geometryCount": 20,
+      "triangles": 50800,
+      "bytes": 1352684,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Torii_03_01.fbx",
+      "geometryCount": 33,
+      "triangles": 50800,
+      "bytes": 1396588,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Torii_04_01.fbx",
+      "geometryCount": 16,
+      "triangles": 50800,
+      "bytes": 1569468,
+      "passed": true
+    },
+    {
+      "file": "14_Arena_Promenade_01.fbx",
+      "geometryCount": 42,
+      "triangles": 3647,
+      "bytes": 267516,
+      "passed": true
+    },
+    {
+      "file": "15_Waterfall_Ravine_01.fbx",
+      "geometryCount": 83,
+      "triangles": 42564,
+      "bytes": 1917980,
+      "passed": true
+    },
+    {
+      "file": "16_Outer_Gardens_Forests_01.fbx",
+      "geometryCount": 250,
+      "triangles": 220835,
+      "bytes": 8800268,
+      "passed": true
+    },
+    {
+      "file": "16_Outer_Gardens_Forests_02.fbx",
+      "geometryCount": 102,
+      "triangles": 99512,
+      "bytes": 3986172,
+      "passed": true
+    },
+    {
+      "file": "17_Inner_Gardens_Training_01.fbx",
+      "geometryCount": 230,
+      "triangles": 247526,
+      "bytes": 8210796,
+      "passed": true
+    },
+    {
+      "file": "17_Inner_Gardens_Training_02.fbx",
+      "geometryCount": 190,
+      "triangles": 79659,
+      "bytes": 3168796,
+      "passed": true
+    }
+  ]
+}

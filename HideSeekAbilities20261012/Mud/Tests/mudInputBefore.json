@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "version": "Before",
+  "result": {
+    "total": 11,
+    "passed": 0,
+    "checks": {
+      "1": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:74\n",
+        "passed": false,
+        "name": "Very quick PC click fires exactly once before next frame"
+      },
+      "2": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:78\n",
+        "passed": false,
+        "name": "Very quick phone fire-button tap fires exactly once"
+      },
+      "3": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:82\n",
+        "passed": false,
+        "name": "Camera pan on touch does not fire the Tool"
+      },
+      "4": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:86\n",
+        "passed": false,
+        "name": "Touch fire remains held when native Tool deactivates"
+      },
+      "5": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:90\n",
+        "passed": false,
+        "name": "Switching to Heat uses actual equipped Tool before attribute replication"
+      },
+      "6": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:96\n",
+        "passed": false,
+        "name": "Holding Mud respects cooldown and stops on release"
+      },
+      "7": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:101\n",
+        "passed": false,
+        "name": "Stuck players cannot fire"
+      },
+      "8": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:104\n",
+        "passed": false,
+        "name": "Opening colour menu cancels firing"
+      },
+      "9": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:108\n",
+        "passed": false,
+        "name": "Text entry never starts gunfire"
+      },
+      "10": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:111\n",
+        "passed": false,
+        "name": "Touch sprint does not fire"
+      },
+      "11": {
+        "error": "ColourToggle is not a valid member of ScreenGui \"ServerStorage._MudInputFixture.MudHUD\"\nServerStorage._MudInputFixture.ClientCandidate:280\nServerStorage._MudInputFixture.Checks:60 function fixture\nServerStorage._MudInputFixture.Checks:70\nServerStorage._MudInputFixture.Checks:70 function check\nServerStorage._MudInputFixture.Checks:115\n",
+        "passed": false,
+        "name": "Respawn reconnects once to new tools"
+      }
+    }
+  }
+}

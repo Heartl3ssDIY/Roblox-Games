@@ -1,0 +1,14 @@
+{
+  "name": "PetFollower",
+  "file_path": "game.StarterPlayer.StarterPlayerScripts.GBloxPetFollower",
+  "edits": [
+    {
+      "old_string": " local motors={}\n for _,v in model:GetDescendants() do if v:IsA(\"Motor6D\") and string.find(v.Name,\"WingMotor_\",1,true) then\n  table.insert(motors,{motor=v,side=v:GetAttribute(\"GBloxWingSide\")==\"L\" and -1 or 1})\n end end\n states[player][slot]={slot=slot,model=model,root=root,motors=motors,rotationOffset=rotationOffset,cf=nil,last=nil,phase=math.random()*math.pi*2}",
+      "new_string": " local motors={}\n local trails={}\n for _,v in model:GetDescendants() do\n  if v:IsA(\"Motor6D\") and string.find(v.Name,\"WingMotor_\",1,true) then\n   table.insert(motors,{motor=v,side=v:GetAttribute(\"GBloxWingSide\")==\"L\" and -1 or 1})\n  elseif v:IsA(\"Trail\") and v.Name==\"GBloxVelocityTrail\" then\n   table.insert(trails,v)\n  end\n end\n states[player][slot]={slot=slot,model=model,root=root,motors=motors,trails=trails,rotationOffset=rotationOffset,cf=nil,last=nil,phase=math.random()*math.pi*2}"
+    },
+    {
+      "old_string": "  for _,v in state.model:GetDescendants() do if v:IsA(\"Trail\") and v.Name==\"GBloxVelocityTrail\" then\n   v.Enabled=speed>3\n  end end",
+      "new_string": "  local moving=speed>3\n  if state.trailsEnabled~=moving then\n   state.trailsEnabled=moving\n   for _,trail in state.trails do\n    if trail.Parent then trail.Enabled=moving end\n   end\n  end"
+    }
+  ]
+}

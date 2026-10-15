@@ -1,0 +1,53 @@
+{
+  "id": "SA35",
+  "name": "Broadleaf school tree",
+  "bodies": [
+    {
+      "id": "SA35_B01",
+      "asset_id": "SA35",
+      "asset": "Broadleaf school tree",
+      "label": "Broadleaf school tree",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0642770528793335,
+            8.463859558105469e-06,
+            1.995812177658081
+          ],
+          "size": [
+            3.0020158290863037,
+            2.7722086906433105,
+            3.9956235885620117
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -1.4367308616638184,
+          -1.3860958814620972,
+          -0.0019996766932308674
+        ],
+        "max": [
+          1.5652849674224854,
+          1.3861128091812134,
+          3.993623971939087
+        ]
+      }
+    }
+  ],
+  "mesh_count": 5,
+  "triangles": 63252,
+  "file": "SA35_Broadleaf_school_tree.gltf"
+}

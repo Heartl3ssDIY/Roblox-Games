@@ -1,0 +1,59 @@
+{
+  "id": "B19",
+  "name": "Cloud Nine",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b19-cloud-nine.png",
+  "brief": "An elegant chunky baseball bat with a pearl-white rounded barrel, sky-blue lower taper, two broad embossed feather panels wrapping along the barrel and a lavender collar. Small thick gold ring at the barrel tip, lavender grip and cream knob. All features attached, no floating cloud or angel, no detached halo.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b19-cloud-nine.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b19-cloud-nine.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b19-cloud-nine-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b19-cloud-nine.png",
+  "parts": 28,
+  "triangles": 11890,
+  "meshes": 1,
+  "maxMeshTriangles": 11890,
+  "dimensions": [
+    0.8045977354049683,
+    0.8014746904373169,
+    3.626999855041504
+  ],
+  "boundsMin": [
+    -0.4615977704524994,
+    -0.45847469568252563,
+    -0.47200000286102295
+  ],
+  "boundsMax": [
+    0.34299999475479126,
+    0.34299999475479126,
+    3.1549999713897705
+  ],
+  "paletteColors": 10,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.134999990463257
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.8045977354049683,
+    0.8014746904373169,
+    3.626999855041504
+  ]
+}

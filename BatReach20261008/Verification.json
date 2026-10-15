@@ -1,0 +1,21 @@
+{
+  "checks": 34,
+  "passed": true,
+  "newReach": 10,
+  "nativeVectors": true,
+  "actualWallRaycasts": true,
+  "playStarted": false,
+  "installed": false,
+  "covers": [
+    "Tag and Bulldog hits at 9.9 and 10 studs",
+    "Tag and Bulldog misses beyond 10 studs",
+    "Behind and sideways rejection",
+    "Full 3D distance limit",
+    "Actual wall raycasts block extended hits",
+    "Contact timing and expiry",
+    "Round ownership and player eligibility",
+    "Bulldog safe arrival and departure protection",
+    "Tag spawn and tag-back protection",
+    "Tag configured reach hard cap"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"purchasePrompted\":false,\"playStarted\":false,\"eventChecks\":6,\"liveSourcesChanged\":false,\"passed\":true,\"probes\":{\"1\":{\"editOnlyRunServerScript\":false,\"name\":\"Bootstrap to Commerce sandbox chain\",\"checks\":{\"1\":{\"event\":\"PromptGamePassPurchaseFinished\",\"passed\":true},\"2\":{\"event\":\"PromptProductPurchaseFinished\",\"passed\":true}}},\"3\":{\"editOnlyRunServerScript\":true,\"name\":\"Donation client native events\",\"checks\":{\"1\":{\"event\":\"PromptGamePassPurchaseFinished\",\"passed\":true},\"2\":{\"event\":\"PromptProductPurchaseFinished\",\"passed\":true}}},\"2\":{\"editOnlyRunServerScript\":true,\"name\":\"Shop client native events\",\"checks\":{\"1\":{\"event\":\"PromptGamePassPurchaseFinished\",\"passed\":true},\"2\":{\"event\":\"PromptProductPurchaseFinished\",\"passed\":true}}}}}"
+    }
+  ],
+  "isError": false
+}

@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "version": "Before with restored fixture legacy button",
+  "result": {
+    "total": 11,
+    "passed": 3,
+    "checks": {
+      "1": {
+        "error": "ServerStorage._MudInputFixture.Checks:77: quick click was dropped\nServerStorage._MudInputFixture.Checks:77\nServerStorage._MudInputFixture.Checks:71\nServerStorage._MudInputFixture.Checks:71 function check\nServerStorage._MudInputFixture.Checks:75\n",
+        "passed": false,
+        "name": "Very quick PC click fires exactly once before next frame"
+      },
+      "2": {
+        "error": "ServerStorage._MudInputFixture.Checks:81: quick tap was dropped\nServerStorage._MudInputFixture.Checks:81\nServerStorage._MudInputFixture.Checks:71\nServerStorage._MudInputFixture.Checks:71 function check\nServerStorage._MudInputFixture.Checks:79\n",
+        "passed": false,
+        "name": "Very quick phone fire-button tap fires exactly once"
+      },
+      "3": {
+        "error": "ServerStorage._MudInputFixture.Checks:85: camera movement fired the gun\nServerStorage._MudInputFixture.Checks:85\nServerStorage._MudInputFixture.Checks:71\nServerStorage._MudInputFixture.Checks:71 function check\nServerStorage._MudInputFixture.Checks:83\n",
+        "passed": false,
+        "name": "Camera pan on touch does not fire the Tool"
+      },
+      "4": {
+        "error": "ServerStorage._MudInputFixture.Checks:89: tool deactivation cancelled fire-button hold\nServerStorage._MudInputFixture.Checks:89\nServerStorage._MudInputFixture.Checks:71\nServerStorage._MudInputFixture.Checks:71 function check\nServerStorage._MudInputFixture.Checks:87\n",
+        "passed": false,
+        "name": "Touch fire remains held when native Tool deactivates"
+      },
+      "5": {
+        "error": "ServerStorage._MudInputFixture.Checks:95: stale MDTool selected wrong weapon\nServerStorage._MudInputFixture.Checks:95\nServerStorage._MudInputFixture.Checks:71\nServerStorage._MudInputFixture.Checks:71 function check\nServerStorage._MudInputFixture.Checks:91\n",
+        "passed": false,
+        "name": "Switching to Heat uses actual equipped Tool before attribute replication"
+      },
+      "6": {
+        "error": "ServerStorage._MudInputFixture.Checks:99: assertion failed!\nServerStorage._MudInputFixture.Checks:99\nServerStorage._MudInputFixture.Checks:71\nServerStorage._MudInputFixture.Checks:71 function check\nServerStorage._MudInputFixture.Checks:97\n",
+        "passed": false,
+        "name": "Holding Mud respects cooldown and stops on release"
+      },
+      "7": {
+        "name": "Stuck players cannot fire",
+        "passed": true
+      },
+      "8": {
+        "name": "Opening colour menu cancels firing",
+        "passed": true
+      },
+      "9": {
+        "error": "ServerStorage._MudInputFixture.Checks:110: assertion failed!\nServerStorage._MudInputFixture.Checks:110\nServerStorage._MudInputFixture.Checks:71\nServerStorage._MudInputFixture.Checks:71 function check\nServerStorage._MudInputFixture.Checks:109\n",
+        "passed": false,
+        "name": "Text entry never starts gunfire"
+      },
+      "10": {
+        "name": "Touch sprint does not fire",
+        "passed": true
+      },
+      "11": {
+        "error": "ServerStorage._MudInputFixture.Checks:121: assertion failed!\nServerStorage._MudInputFixture.Checks:121\nServerStorage._MudInputFixture.Checks:71\nServerStorage._MudInputFixture.Checks:71 function check\nServerStorage._MudInputFixture.Checks:116\n",
+        "passed": false,
+        "name": "Respawn reconnects once to new tools"
+      }
+    }
+  }
+}

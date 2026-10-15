@@ -1,0 +1,30 @@
++{
+  "placeId": 95034648955135,
+  "date": "2026-10-09",
+  "mode": "Edit",
+  "published": false,
+  "livePhoneTest": false,
+  "regularPlayerCombinedScenarios": 71,
+  "remainingGeometryOrClippingFailures": 0,
+  "phaseCaptionRechecks": 7,
+  "referenceLobbyOccupancy": {
+    "before": 0.23,
+    "after": 0.117
+  },
+  "smallLandscapeLobbyOccupancy": {
+    "before": 0.424,
+    "after": 0.215
+  },
+  "phonePortraitLobbyOccupancy": {
+    "before": 0.366,
+    "after": 0.215
+  },
+  "ipadLandscapeLobbyOccupancy": {
+    "before": 0.119,
+    "after": 0.052
+  },
+  "layoutEditableInStarterGui": true,
+  "sprintSide": "Right",
+  "checks": "Native whole-hierarchy layouts with simulated screen insets; input/display controller fixtures and compilation.",
+  "visualCapture": "Studio screenshot API timed out; native geometry and TextFits checks completed."
+}

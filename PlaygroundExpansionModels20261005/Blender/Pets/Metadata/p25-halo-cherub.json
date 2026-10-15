@@ -1,0 +1,53 @@
+{
+  "id": "P25",
+  "name": "Halo Cherub",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p25-halo-cherub.png",
+  "brief": "One tiny angel companion pet with a round cream face, two shiny navy eyes, a tiny smiling mouth, a simple pale-blue bell-shaped robe/body, stubby hands and feet, and two attached layered ivory wings. A thick golden halo ring is physically joined to the little swept hair tuft on top. No human adult anatomy, no detached rings, no staff.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p25-halo-cherub.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p25-halo-cherub.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p25-halo-cherub-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p25-halo-cherub.png",
+  "parts": 67,
+  "triangles": 28812,
+  "meshes": 2,
+  "maxMeshTriangles": 18912,
+  "dimensions": [
+    2.4365105628967285,
+    1.5289075374603271,
+    3.4220774173736572
+  ],
+  "boundsMin": [
+    -1.2182552814483643,
+    -0.8100000023841858,
+    0.044999971985816956
+  ],
+  "boundsMax": [
+    1.2182552814483643,
+    0.7189075946807861,
+    3.4670774936676025
+  ],
+  "paletteColors": 9,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "ArmL",
+    "LegL",
+    "ArmR",
+    "LegR",
+    "WingL",
+    "WingR"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.4365105628967285,
+    1.5289075374603271,
+    3.366368532180786
+  ]
+}

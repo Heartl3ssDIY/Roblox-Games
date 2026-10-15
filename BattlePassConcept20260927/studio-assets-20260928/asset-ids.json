@@ -1,0 +1,37 @@
+{
+  "placeName": "Anime Combat Units",
+  "placeId": 111313211501470,
+  "studioId": "d8379c35-2eb7-4082-ab54-02b37a0efd6f",
+  "uploadedDate": "2026-09-28",
+  "notes": [
+    "All uploaded files are the exact supplied PNG bytes staged in this folder; no screenshots were uploaded.",
+    "All PNGs are RGBA with alpha values from 0 to 255.",
+    "Full-length Free Lane and Free front label were not among the supplied local files. The prior 804x130 Free Lane is an interim match.",
+    "Reward images are uploaded without assigning amounts, tiers, or entitlement rules.",
+    "Paid Lane is 6000x195 and uploaded without resizing."
+  ],
+  "assets": {
+    "bp-background.png": {"assetId": "rbxassetid://82458737144781", "width": 1425, "height": 859, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Choose game mode brackground.png"},
+    "bp-top-header.png": {"assetId": "rbxassetid://100753141767266", "width": 1324, "height": 123, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\top-header.png"},
+    "bp-track-header.png": {"assetId": "rbxassetid://125999780894402", "width": 1328, "height": 70, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\track-header.png"},
+    "bp-paid-lane.png": {"assetId": "rbxassetid://77460578668996", "width": 6000, "height": 195, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Paid Lane.png"},
+    "bp-paid-front.png": {"assetId": "rbxassetid://102640421348517", "width": 162, "height": 195, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Paid front label.png"},
+    "bp-paid-reward-1.png": {"assetId": "rbxassetid://129704761841940", "width": 178, "height": 167, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\paid-reward-1.png"},
+    "bp-buy-button.png": {"assetId": "rbxassetid://80844793649639", "width": 115, "height": 33, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\buy pack button (robux).png"},
+    "bp-level-strip.png": {"assetId": "rbxassetid://138767366559461", "width": 1166, "height": 53, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Level strip.png"},
+    "bp-level-front.png": {"assetId": "rbxassetid://114677588282418", "width": 160, "height": 53, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Level front.png"},
+    "bp-level-marker.png": {"assetId": "rbxassetid://139867530048817", "width": 50, "height": 50, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\level-marker-1.png"},
+    "bp-footer.png": {"assetId": "rbxassetid://139954012293479", "width": 1326, "height": 46, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\footer.png"},
+    "bp-xp-track.png": {"assetId": "rbxassetid://80336953493057", "width": 400, "height": 30, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Battle pass level progress.png"},
+    "bp-xp-orb.png": {"assetId": "rbxassetid://87811714558579", "width": 40, "height": 40, "reusedFrom": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\MatchResults20260927\\asset-ids.json", "note": "Byte-identical to previously uploaded orb"},
+    "bp-earned.png": {"assetId": "rbxassetid://74562787545470", "width": 119, "height": 23, "source": "C:\\Users\\sandt\\AppData\\Local\\Temp\\earned.png"},
+    "bp-free-lane-existing.png": {"assetId": "rbxassetid://127340570040354", "width": 804, "height": 130, "reusedFrom": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\MatchResults20260927\\asset-ids.json", "note": "Interim older blue lane, not supplied full-length version"},
+    "bp-reward-coin.png": {"assetId": "rbxassetid://104639886186145", "width": 1254, "height": 1254, "reusedFrom": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\MatchResults20260927\\asset-ids.json"},
+    "bp-reward-diamond.png": {"assetId": "rbxassetid://138321736461215", "width": 1254, "height": 1254, "reusedFrom": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\MatchResults20260927\\asset-ids.json"},
+    "bp-reward-mastery.png": {"assetId": "rbxassetid://82519543150534", "width": 144, "height": 144, "reusedFrom": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\MatchResults20260927\\asset-ids.json"},
+    "bp-pack-common.png": {"assetId": "rbxassetid://73606499921543", "width": 190, "height": 312, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Packs Shop Ui\\Common Pack.png"},
+    "bp-pack-diamond.png": {"assetId": "rbxassetid://110308903192424", "width": 178, "height": 296, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Packs Shop Ui\\Diamond Pack.png"},
+    "bp-pack-silver.png": {"assetId": "rbxassetid://118796124465923", "width": 178, "height": 292, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Packs Shop Ui\\Silver Pack.png"},
+    "bp-pack-gold.png": {"assetId": "rbxassetid://107366517958284", "width": 178, "height": 292, "source": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Anime Combat Units\\Packs Shop Ui\\Gold Pack.png"}
+  }
+}

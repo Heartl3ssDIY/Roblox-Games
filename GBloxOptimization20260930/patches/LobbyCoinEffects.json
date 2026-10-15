@@ -1,0 +1,10 @@
+{
+  "name": "LobbyCoinEffects",
+  "file_path": "game.StarterPlayer.StarterPlayerScripts.LobbyCoinEffects",
+  "edits": [
+    {
+      "old_string": "Run.RenderStepped:Connect(function()\n local time=workspace:GetServerTimeNow() local root=player.Character and player.Character:FindFirstChild(\"HumanoidRootPart\")\n for _,coin in folder:GetChildren() do\n  if coin:IsA(\"BasePart\") then\n   local rest=coin:GetAttribute(\"RestCFrame\")\n   if rest and root and (root.Position-rest.Position).Magnitude<180 then\n    coin.CFrame=rest*CFrame.new(0,math.sin(time*2.4+rest.Position.X*.37+rest.Position.Z*.21)*.55,0)*CFrame.Angles(0,time*1.2,0)\n   end\n  end\n end\nend)",
+      "new_string": "local coins={}\nlocal function removeCoin(coin)\n local state=coins[coin]\n if state then state.connection:Disconnect() coins[coin]=nil end\nend\nlocal function addCoin(coin)\n if not coin:IsA(\"BasePart\") or coin.Parent~=folder or coins[coin] then return end\n local state={rest=coin:GetAttribute(\"RestCFrame\")}\n state.connection=coin:GetAttributeChangedSignal(\"RestCFrame\"):Connect(function()\n  state.rest=coin:GetAttribute(\"RestCFrame\")\n end)\n coins[coin]=state\nend\nlocal added=folder.ChildAdded:Connect(addCoin)\nlocal removed=folder.ChildRemoved:Connect(removeCoin)\nfor _,coin in folder:GetChildren() do addCoin(coin) end\nlocal render=Run.RenderStepped:Connect(function()\n local time=workspace:GetServerTimeNow() local root=player.Character and player.Character:FindFirstChild(\"HumanoidRootPart\")\n if not root then return end\n for coin,state in coins do\n  local rest=state.rest\n  if rest and coin.Parent==folder and (root.Position-rest.Position).Magnitude<180 then\n   coin.CFrame=rest*CFrame.new(0,math.sin(time*2.4+rest.Position.X*.37+rest.Position.Z*.21)*.55,0)*CFrame.Angles(0,time*1.2,0)\n  end\n end\nend)\nscript.Destroying:Connect(function()\n render:Disconnect() added:Disconnect() removed:Disconnect()\n for coin in coins do removeCoin(coin) end\nend)"
+    }
+  ]
+}

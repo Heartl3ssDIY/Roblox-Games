@@ -1,0 +1,265 @@
+{
+  "allPassed": true,
+  "independentReader": "Custom binary parser; independent transform matrices and bound math; no Blender runtime used.",
+  "reports": [
+    {
+      "file": "01_Landscape_01.fbx",
+      "meshes": 250,
+      "bounds": [
+        [
+          -296.1491394042969,
+          -116.3822021484375,
+          -310.8448486328125
+        ],
+        [
+          311.6781921386719,
+          9.999471664428711,
+          311.44769287109375
+        ]
+      ],
+      "size": [
+        607.8273315429688,
+        126.38167381286621,
+        622.2925415039062
+      ],
+      "unitScaleFactor": [
+        1
+      ],
+      "maximumWorldRatioError": 0,
+      "maximumVertexRatioError": 0,
+      "maximumManifestError": 1.5034555190140964e-05,
+      "otherArrayHashesEqual": true,
+      "otherArraysCompared": 2000
+    },
+    {
+      "file": "03_Civic_Branding_01.fbx",
+      "meshes": 87,
+      "bounds": [
+        [
+          -113.79315185546875,
+          -50.04933166503906,
+          -109.77052307128906
+        ],
+        [
+          111.71416473388672,
+          20.850000381469727,
+          237.2100067138672
+        ]
+      ],
+      "size": [
+        225.50731658935547,
+        70.89933204650879,
+        346.98052978515625
+      ],
+      "unitScaleFactor": [
+        1
+      ],
+      "maximumWorldRatioError": 0,
+      "maximumVertexRatioError": 0,
+      "maximumManifestError": 3.5160820743840304e-06,
+      "otherArrayHashesEqual": true,
+      "otherArraysCompared": 696
+    },
+    {
+      "file": "05_Summon_Hall_01.fbx",
+      "meshes": 38,
+      "bounds": [
+        [
+          52.5,
+          0.5,
+          -26.551910400390625
+        ],
+        [
+          83.12999725341797,
+          26.654340744018555,
+          10.551910400390625
+        ]
+      ],
+      "size": [
+        30.62999725341797,
+        26.154340744018555,
+        37.10382080078125
+      ],
+      "unitScaleFactor": [
+        1
+      ],
+      "maximumWorldRatioError": 0,
+      "maximumVertexRatioError": 0,
+      "maximumManifestError": 3.4215378548196895e-06,
+      "otherArrayHashesEqual": true,
+      "otherArraysCompared": 304
+    },
+    {
+      "file": "10_Academy_01.fbx",
+      "meshes": 144,
+      "bounds": [
+        [
+          -224.01181030273438,
+          1.1200000047683716,
+          -111.5999984741211
+        ],
+        [
+          -119.98818969726562,
+          37.552146911621094,
+          8.100000381469727
+        ]
+      ],
+      "size": [
+        104.02362060546875,
+        36.43214690685272,
+        119.69999885559082
+      ],
+      "unitScaleFactor": [
+        1
+      ],
+      "maximumWorldRatioError": 0,
+      "maximumVertexRatioError": 0,
+      "maximumManifestError": 7.62939453125e-06,
+      "otherArrayHashesEqual": true,
+      "otherArraysCompared": 1152
+    },
+    {
+      "file": "14_60_ArenaPortals_Gate_04_01.fbx",
+      "meshes": 16,
+      "bounds": [
+        [
+          201.0126190185547,
+          1.2400000095367432,
+          112.86103820800781
+        ],
+        [
+          209.3089141845703,
+          7.4666290283203125,
+          120.80000305175781
+        ]
+      ],
+      "size": [
+        8.296295166015625,
+        6.226629018783569,
+        7.93896484375
+      ],
+      "unitScaleFactor": [
+        1
+      ],
+      "maximumWorldRatioError": 0,
+      "maximumVertexRatioError": 0,
+      "maximumManifestError": 7.577927959800945e-06,
+      "otherArrayHashesEqual": true,
+      "otherArraysCompared": 128
+    },
+    {
+      "file": "ACU_Citadel_Collision.fbx",
+      "meshes": 798,
+      "bounds": [
+        [
+          -303.867919921875,
+          0.8999996252824918,
+          -303.1624147136979
+        ],
+        [
+          303.867919921875,
+          45.27500059247489,
+          303.9999998370753
+        ]
+      ],
+      "size": [
+        607.73583984375,
+        44.3750009671924,
+        607.1624145507732
+      ],
+      "unitScaleFactor": [
+        1
+      ],
+      "maximumWorldRatioError": 5.684341886080802e-14,
+      "maximumVertexRatioError": 0,
+      "maximumManifestError": null,
+      "otherArrayHashesEqual": true,
+      "otherArraysCompared": 5586
+    }
+  ],
+  "texturesByteIdentical": 24,
+  "markerCoordinatesUnchanged": 76,
+  "markerAxisConversionVerified": true,
+  "textOptimizationManifestByteIdentical": true,
+  "calibrationCube": {
+    "file": "00_SCALE_CHECK_10_STUDS.fbx",
+    "meshes": 1,
+    "vertices": 8,
+    "worldBounds": [
+      [
+        -5,
+        -5,
+        -5
+      ],
+      [
+        5,
+        5,
+        5
+      ]
+    ],
+    "size": [
+      10,
+      10,
+      10
+    ],
+    "unitScaleFactor": 1,
+    "hiddenModelScale": false,
+    "passed": true
+  },
+  "exporterAudit": {
+    "blenderVersion": "5.2",
+    "implementation": "C:/Program Files/Blender Foundation/Blender 5.2/5.2/scripts/addons_core/io_scene_fbx/export_fbx_bin.py:3542",
+    "cause": "apply_unit_scale=False selects100; FBX_SCALE_NONE applies100*global_scale to coordinates and writes UnitScaleFactor1. global_scale1 therefore enlarged real geometry100x.",
+    "correctedFlags": {
+      "global_scale": 0.01,
+      "apply_unit_scale": false,
+      "apply_scale_options": "FBX_SCALE_NONE",
+      "axis_forward": "-Z",
+      "axis_up": "Y",
+      "use_space_transform": true,
+      "bake_space_transform": true
+    },
+    "rootVisualExporterCorrected": true,
+    "rootCollisionExporterCorrected": true,
+    "criticalOptionsNowAsserted": true,
+    "recommendation": "Use a fresh10-unit calibration cube plus parsed worldbounds assertions on future exports. Preserve the original historical batch builder but do not rerun its global_scale1 settings."
+  },
+  "markerDistrictChecks": [
+    {
+      "marker": "INTERACT_Summon",
+      "point": [
+        57,
+        1.2000000476837158,
+        -8
+      ],
+      "district": "05_Summon_Hall_01.fbx",
+      "insideBounds": true
+    },
+    {
+      "marker": "AcademyFastTravel",
+      "point": [
+        -172,
+        2,
+        -17
+      ],
+      "district": "10_Academy_01.fbx",
+      "insideBounds": true
+    },
+    {
+      "marker": "PORTAL_04_JujutsuHigh",
+      "point": [
+        205,
+        2.0399999618530273,
+        117
+      ],
+      "district": "14_60_ArenaPortals_Gate_04_01.fbx",
+      "insideBounds": true
+    }
+  ],
+  "scope": "Independent sample audit of 5 visual batches, all 798 collision meshes, and a reference cube; no Studio calls, no Blender runtime calls, no production modifications by auditor.",
+  "risks": [
+    "Studio import has not been verified by this audit. Import with Scale Unit Studs and scale1; automatic unit interpretation may differ.",
+    "Collision remains the existing starter proxy; its extents are smaller than decorative outer visual bounds and walk testing remains necessary.",
+    "Original historical exports and historical batch builder still have100x output. Use corrected deliverable and corrected future builder."
+  ]
+}

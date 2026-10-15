@@ -1,0 +1,9 @@
+{
+  "recoveredBoostWalkSpeed": 32,
+  "otherKeysSink": true,
+  "normalWalkSpeed": 16,
+  "tinyBoostWalkSpeed": 18.4,
+  "tickSeconds": 0.1,
+  "shiftKeysPass": true,
+  "tinyStamina": 0.01
+}

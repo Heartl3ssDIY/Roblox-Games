@@ -1,0 +1,80 @@
+[
+  {
+    "model": "Gift_Rose",
+    "parts": 10,
+    "triangles": 912,
+    "nameLimit": true,
+    "grounded": true,
+    "dimensions": [
+      1.5359997749328613,
+      1.6850000537285084,
+      1.3859999775886536
+    ],
+    "result": "pass"
+  },
+  {
+    "model": "Gift_Sky",
+    "parts": 10,
+    "triangles": 912,
+    "nameLimit": true,
+    "grounded": true,
+    "dimensions": [
+      1.8860000371932983,
+      1.1350000973392298,
+      1.335999846458435
+    ],
+    "result": "pass"
+  },
+  {
+    "model": "Gift_Violet",
+    "parts": 10,
+    "triangles": 912,
+    "nameLimit": true,
+    "grounded": true,
+    "dimensions": [
+      1.1560001373291016,
+      2.0577333895611503,
+      1.1559998989105225
+    ],
+    "result": "pass"
+  },
+  {
+    "model": "Gift_Mint",
+    "parts": 10,
+    "triangles": 1936,
+    "nameLimit": true,
+    "grounded": true,
+    "dimensions": [
+      1.5240001678466797,
+      1.355000141264,
+      1.5239999890327454
+    ],
+    "result": "pass"
+  },
+  {
+    "model": "Gift_Amber",
+    "parts": 10,
+    "triangles": 720,
+    "nameLimit": true,
+    "grounded": true,
+    "dimensions": [
+      1.9859999418258667,
+      1.3650000887161795,
+      0.9960000514984131
+    ],
+    "result": "pass"
+  },
+  {
+    "model": "Gift_Coral",
+    "parts": 10,
+    "triangles": 720,
+    "nameLimit": true,
+    "grounded": true,
+    "dimensions": [
+      1.3359999656677246,
+      1.494333374087887,
+      1.3359999060630798
+    ],
+    "result": "pass"
+  }
+]

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" role="img" aria-label="Battle Pass navigation tab frame">
+  <defs>
+    <linearGradient id="face" x2="0" y2="1"><stop stop-color="#341560"/><stop offset=".6" stop-color="#190E40"/><stop offset="1" stop-color="#291051"/></linearGradient>
+    <linearGradient id="edge" x2="0" y2="1"><stop stop-color="#FFF5A4"/><stop offset=".36" stop-color="#FCCE2C"/><stop offset=".75" stop-color="#A96000"/><stop offset="1" stop-color="#FFE264"/></linearGradient>
+    <pattern id="star" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M12.5 2l2.3 8.2 8.2 2.3-8.2 2.3-2.3 8.2-2.3-8.2L2 12.5l8.2-2.3z" fill="#A040F0" opacity=".22"/></pattern>
+    <clipPath id="shape"><path d="M68 12H401l-47 56 37 66H71l-52-31 34-34-28-26z"/></clipPath>
+  </defs>
+  <path d="M68 9H405l-49 59 39 70H70l-56-34 35-35-30-27z" fill="#100030" stroke="#AF77FF" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M68 12H401l-47 56 37 66H71l-52-31 34-34-28-26z" fill="url(#face)" stroke="url(#edge)" stroke-width="7" stroke-linejoin="round"/>
+  <g clip-path="url(#shape)"><rect x="19" y="12" width="385" height="122" fill="url(#star)"/><path d="M48 22H390l-12 17H60z" fill="#8A4AD1" opacity=".23"/><path d="M50 120H376l10 18H69z" fill="#07001C" opacity=".45"/></g>
+  <path d="M69 15H397" stroke="#FFF9B6" stroke-width="2" opacity=".8"/>
+  <circle cx="91" cy="75" r="35" fill="#100030" stroke="#F0C020" stroke-width="4"/>
+  <circle cx="91" cy="75" r="27" fill="#AA6EFF" stroke="#E8B8FF" stroke-width="2"/>
+  <path d="M91 53l5 15 16 1-12 10 4 15-13-9-13 9 4-15-12-10 16-1z" fill="#F0C020" stroke="#FFF5A4" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M77 106l-3 19 17-10 17 10-3-19" fill="#A040F0" stroke="#F0C020" stroke-width="2"/>
+</svg>

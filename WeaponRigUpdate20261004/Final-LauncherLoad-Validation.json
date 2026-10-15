@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"modules\":{\"1\":{\"name\":\"BritishBulldogService\",\"result\":\"table\",\"passed\":true},\"3\":{\"name\":\"TagSprintService\",\"result\":\"table\",\"passed\":true},\"2\":{\"name\":\"TagService\",\"result\":\"table\",\"passed\":true},\"5\":{\"name\":\"PlaygroundEquipmentService\",\"result\":\"table\",\"passed\":true},\"4\":{\"name\":\"StuckInTheMudService\",\"result\":\"table\",\"passed\":true},\"6\":{\"name\":\"PlaygroundAdminService\",\"result\":\"table\",\"passed\":true}},\"launcherAnimation\":true,\"passed\":true,\"playStarted\":false}"
+    }
+  ],
+  "isError": false
+}

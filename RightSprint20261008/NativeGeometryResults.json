@@ -1,0 +1,375 @@
+{
+  "layouts": [
+    {
+      "sprint": "182, 346",
+      "swing": "192, 278",
+      "height": 524,
+      "fire": "182, 278",
+      "width": 320
+    },
+    {
+      "sprint": "237, 445",
+      "swing": "247, 377",
+      "height": 623,
+      "fire": "237, 377",
+      "width": 375
+    },
+    {
+      "sprint": "430, 98",
+      "swing": "440, 30",
+      "height": 276,
+      "fire": "430, 30",
+      "width": 568
+    },
+    {
+      "sprint": "529, 153",
+      "swing": "539, 85",
+      "height": 331,
+      "fire": "529, 85",
+      "width": 667
+    },
+    {
+      "sprint": "706, 70",
+      "swing": "716, 2",
+      "height": 248,
+      "fire": "706, 2",
+      "width": 844
+    },
+    {
+      "sprint": "630, 802",
+      "swing": "640, 734",
+      "height": 980,
+      "fire": "630, 734",
+      "width": 768
+    },
+    {
+      "sprint": "886, 546",
+      "swing": "896, 478",
+      "height": 724,
+      "fire": "886, 478",
+      "width": 1024
+    },
+    {
+      "sprint": "1056, 612",
+      "swing": "1066, 544",
+      "height": 790,
+      "fire": "1056, 544",
+      "width": 1194
+    }
+  ],
+  "ok": true,
+  "checks": [
+    {
+      "name": "ServerStorage.RightSprintGeometryFixture20261008.TagHUD.SprintPanel.Sprint desktop layout stays unchanged",
+      "passed": true
+    },
+    {
+      "name": "ServerStorage.RightSprintGeometryFixture20261008.BritishBulldogHUD.MovementControls.Push desktop layout stays unchanged",
+      "passed": true
+    },
+    {
+      "name": "ServerStorage.RightSprintGeometryFixture20261008.BritishBulldogHUD.MovementControls.Sprint desktop layout stays unchanged",
+      "passed": true
+    },
+    {
+      "name": "ServerStorage.RightSprintGeometryFixture20261008.TagHUD.SprintPanel.Push desktop layout stays unchanged",
+      "passed": true
+    },
+    {
+      "name": "ServerStorage.RightSprintGeometryFixture20261008.MudHUD.Main.DesktopControls desktop layout stays unchanged",
+      "passed": true
+    },
+    {
+      "name": "All input sources and bindings stay unchanged",
+      "passed": true
+    },
+    {
+      "name": "320x524 safe area all touch buttons stay on screen",
+      "passed": true
+    },
+    {
+      "name": "320x524 safe area all touch buttons clear jump and joystick",
+      "passed": true
+    },
+    {
+      "name": "320x524 safe area tap targets and captions remain readable",
+      "passed": true
+    },
+    {
+      "name": "320x524 safe area all three sprint buttons are on the right",
+      "passed": true
+    },
+    {
+      "name": "320x524 safe area Sprint Swing and Push do not overlap",
+      "passed": true
+    },
+    {
+      "name": "320x524 safe area Mud Sprint Fire and selectors do not overlap",
+      "passed": true
+    },
+    {
+      "name": "320x524 safe area Bulldog controls clear top HUD and safe warning",
+      "passed": true
+    },
+    {
+      "name": "320x524 safe area Tag controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "320x524 safe area Mud controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "375x623 safe area all touch buttons stay on screen",
+      "passed": true
+    },
+    {
+      "name": "375x623 safe area all touch buttons clear jump and joystick",
+      "passed": true
+    },
+    {
+      "name": "375x623 safe area tap targets and captions remain readable",
+      "passed": true
+    },
+    {
+      "name": "375x623 safe area all three sprint buttons are on the right",
+      "passed": true
+    },
+    {
+      "name": "375x623 safe area Sprint Swing and Push do not overlap",
+      "passed": true
+    },
+    {
+      "name": "375x623 safe area Mud Sprint Fire and selectors do not overlap",
+      "passed": true
+    },
+    {
+      "name": "375x623 safe area Bulldog controls clear top HUD and safe warning",
+      "passed": true
+    },
+    {
+      "name": "375x623 safe area Tag controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "375x623 safe area Mud controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "568x276 safe area all touch buttons stay on screen",
+      "passed": true
+    },
+    {
+      "name": "568x276 safe area all touch buttons clear jump and joystick",
+      "passed": true
+    },
+    {
+      "name": "568x276 safe area tap targets and captions remain readable",
+      "passed": true
+    },
+    {
+      "name": "568x276 safe area all three sprint buttons are on the right",
+      "passed": true
+    },
+    {
+      "name": "568x276 safe area Sprint Swing and Push do not overlap",
+      "passed": true
+    },
+    {
+      "name": "568x276 safe area Mud Sprint Fire and selectors do not overlap",
+      "passed": true
+    },
+    {
+      "name": "568x276 safe area Bulldog controls clear top HUD and safe warning",
+      "passed": true
+    },
+    {
+      "name": "568x276 safe area Tag controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "568x276 safe area Mud controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "667x331 safe area all touch buttons stay on screen",
+      "passed": true
+    },
+    {
+      "name": "667x331 safe area all touch buttons clear jump and joystick",
+      "passed": true
+    },
+    {
+      "name": "667x331 safe area tap targets and captions remain readable",
+      "passed": true
+    },
+    {
+      "name": "667x331 safe area all three sprint buttons are on the right",
+      "passed": true
+    },
+    {
+      "name": "667x331 safe area Sprint Swing and Push do not overlap",
+      "passed": true
+    },
+    {
+      "name": "667x331 safe area Mud Sprint Fire and selectors do not overlap",
+      "passed": true
+    },
+    {
+      "name": "667x331 safe area Bulldog controls clear top HUD and safe warning",
+      "passed": true
+    },
+    {
+      "name": "667x331 safe area Tag controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "667x331 safe area Mud controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "844x248 safe area all touch buttons stay on screen",
+      "passed": true
+    },
+    {
+      "name": "844x248 safe area all touch buttons clear jump and joystick",
+      "passed": true
+    },
+    {
+      "name": "844x248 safe area tap targets and captions remain readable",
+      "passed": true
+    },
+    {
+      "name": "844x248 safe area all three sprint buttons are on the right",
+      "passed": true
+    },
+    {
+      "name": "844x248 safe area Sprint Swing and Push do not overlap",
+      "passed": true
+    },
+    {
+      "name": "844x248 safe area Mud Sprint Fire and selectors do not overlap",
+      "passed": true
+    },
+    {
+      "name": "844x248 safe area Bulldog controls clear top HUD and safe warning",
+      "passed": true
+    },
+    {
+      "name": "844x248 safe area Tag controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "844x248 safe area Mud controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "768x980 safe area all touch buttons stay on screen",
+      "passed": true
+    },
+    {
+      "name": "768x980 safe area all touch buttons clear jump and joystick",
+      "passed": true
+    },
+    {
+      "name": "768x980 safe area tap targets and captions remain readable",
+      "passed": true
+    },
+    {
+      "name": "768x980 safe area all three sprint buttons are on the right",
+      "passed": true
+    },
+    {
+      "name": "768x980 safe area Sprint Swing and Push do not overlap",
+      "passed": true
+    },
+    {
+      "name": "768x980 safe area Mud Sprint Fire and selectors do not overlap",
+      "passed": true
+    },
+    {
+      "name": "768x980 safe area Bulldog controls clear top HUD and safe warning",
+      "passed": true
+    },
+    {
+      "name": "768x980 safe area Tag controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "768x980 safe area Mud controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "1024x724 safe area all touch buttons stay on screen",
+      "passed": true
+    },
+    {
+      "name": "1024x724 safe area all touch buttons clear jump and joystick",
+      "passed": true
+    },
+    {
+      "name": "1024x724 safe area tap targets and captions remain readable",
+      "passed": true
+    },
+    {
+      "name": "1024x724 safe area all three sprint buttons are on the right",
+      "passed": true
+    },
+    {
+      "name": "1024x724 safe area Sprint Swing and Push do not overlap",
+      "passed": true
+    },
+    {
+      "name": "1024x724 safe area Mud Sprint Fire and selectors do not overlap",
+      "passed": true
+    },
+    {
+      "name": "1024x724 safe area Bulldog controls clear top HUD and safe warning",
+      "passed": true
+    },
+    {
+      "name": "1024x724 safe area Tag controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "1024x724 safe area Mud controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "1194x790 safe area all touch buttons stay on screen",
+      "passed": true
+    },
+    {
+      "name": "1194x790 safe area all touch buttons clear jump and joystick",
+      "passed": true
+    },
+    {
+      "name": "1194x790 safe area tap targets and captions remain readable",
+      "passed": true
+    },
+    {
+      "name": "1194x790 safe area all three sprint buttons are on the right",
+      "passed": true
+    },
+    {
+      "name": "1194x790 safe area Sprint Swing and Push do not overlap",
+      "passed": true
+    },
+    {
+      "name": "1194x790 safe area Mud Sprint Fire and selectors do not overlap",
+      "passed": true
+    },
+    {
+      "name": "1194x790 safe area Bulldog controls clear top HUD and safe warning",
+      "passed": true
+    },
+    {
+      "name": "1194x790 safe area Tag controls clear top HUD",
+      "passed": true
+    },
+    {
+      "name": "1194x790 safe area Mud controls clear top HUD",
+      "passed": true
+    }
+  ]
+}

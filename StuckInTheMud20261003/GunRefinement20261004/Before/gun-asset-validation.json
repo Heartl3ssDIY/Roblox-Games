@@ -1,0 +1,68 @@
+{
+  "MudGun": {
+    "meshes": 42,
+    "triangles": 11256,
+    "largestMeshTriangles": 1024,
+    "gripOrigin": [
+      0,
+      0,
+      0
+    ],
+    "muzzleRoblox": [
+      -2.3167035791971103e-07,
+      1.0,
+      -2.65
+    ],
+    "targetRobloxStudDimensions": [
+      1.773999810218811,
+      3.850000023841858,
+      3.628042459487915
+    ],
+    "fbxSha256": "c7185aaf98626d8f408d00062cda79181a0ee065244b06b9dd720a4d7df501ac",
+    "glbSha256": "b23fe6e49f00febac0ae5085f43d9658c01f387b46b79202bd39b2535a2e4118",
+    "embeddedMaterials": 7,
+    "externalAssets": 0
+  },
+  "HeatGun": {
+    "meshes": 47,
+    "triangles": 14412,
+    "largestMeshTriangles": 2416,
+    "gripOrigin": [
+      0,
+      0,
+      0
+    ],
+    "muzzleRoblox": [
+      -2.3167035791971103e-07,
+      1.0,
+      -2.65
+    ],
+    "targetRobloxStudDimensions": [
+      1.7249999046325684,
+      3.840000033378601,
+      3.5905425548553467
+    ],
+    "fbxSha256": "1f8174170697ad09aa3c3f8fa67b11e042bfaad6f95463959c310c3bb0ea5083",
+    "glbSha256": "a9f37e4a6ad9ee56fd31dd86c90a0b936beb50433e8d63dcdbae552d99a54aae",
+    "embeddedMaterials": 6,
+    "externalAssets": 0
+  },
+  "MudHeatGuns.blend": {
+    "bytes": 162576,
+    "sha256": "c1cb1b5b3097e050b8ab8f48f90982b92403d8d0fa2b1d4d4bcf940daa5b1996"
+  },
+  "MudGun_Preview.png": {
+    "bytes": 1828298,
+    "sha256": "0330dc6b0b134132be1ac17d4d24063a2a47f78fe6612cf275bddd5f60c81bcd"
+  },
+  "HeatGun_Preview.png": {
+    "bytes": 1861322,
+    "sha256": "2ab157ee4439bafe62c5f2e95804c9e6bda3b9cd1bc9ed1a2e843060cb6e12d7"
+  },
+  "MudHeatGun_Preview.png": {
+    "bytes": 1857153,
+    "sha256": "fa2db3653efd2ad1e41d261717306747ce8fbbaaff29dcd2f6ffc232843e2f34"
+  },
+  "userScenePreserved": true,
+  "standaloneBlendOnlyManagedScene": true
+}

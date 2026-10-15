@@ -1,0 +1,15 @@
+{
+  "scope": "Two existing lobby leaderboards, their twenty authored rows and two hidden RowTemplate objects.",
+  "pixelPolicy": "All eight PNGs staged as exact byte copies. No editing, resizing, cropping or re-encoding of source images.",
+  "avatarBorder": { "width": 212, "height": 212, "centerAlpha": 0, "application": "Overlay live Avatar ImageLabel with a child ImageLabel; preserve original Avatar.Image and ScaleType." },
+  "fitPolicy": "Every imported ImageLabel uses ScaleType.Fit. Only newly added artwork fills its existing parent bounds.",
+  "existingLayout": "Positions, sizes, anchor points, names, text values, visibility and live Avatar.Image on existing objects remain authored.",
+  "textPolicy": "Existing TextLabels retain editable text, native fonts and authored sizing. Light fill plus contextual dark navy UIStroke at ScaledSize thickness 0.085; legacy glyph stroke and duplicate frame strokes disabled.",
+  "layering": "Board artwork below Header/Body. Row artwork below RankBadge/Avatar. Rank artwork below Rank text. Transparent avatar-border overlay above avatar image. Text above all backgrounds.",
+  "knownLimits": [
+    "Fitted image ratios differ slightly from native bounds, leaving subpixel letterboxing rather than stretching supplied artwork.",
+    "The physical board Part colors and geometry remain unchanged; their authored SurfaceGui receives the skin.",
+    "Header star uses uploaded Attachments/icon-xp-star.png when supplied, otherwise retains its native glyph.",
+    "No Studio installation or Play testing performed by this script-authoring subtask."
+  ]
+}

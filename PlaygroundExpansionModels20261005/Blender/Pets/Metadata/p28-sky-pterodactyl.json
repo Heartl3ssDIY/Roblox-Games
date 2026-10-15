@@ -1,0 +1,52 @@
+{
+  "id": "P28",
+  "name": "Sky Pterodactyl",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p28-sky-pterodactyl.png",
+  "brief": "A cute lavender baby pterosaur standing with two little feet and compact partially open wings, a long rounded peach beak, a small backward swept head crest and shiny navy eyes. Cream chest, pink wing membranes stretched between chunky purple wing fingers, wings clearly attached to the forelimbs. Whole compact dinosaur visible.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p28-sky-pterodactyl.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p28-sky-pterodactyl.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p28-sky-pterodactyl-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p28-sky-pterodactyl.png",
+  "parts": 48,
+  "triangles": 22960,
+  "meshes": 2,
+  "maxMeshTriangles": 18932,
+  "dimensions": [
+    3.7756457328796387,
+    3.165325164794922,
+    3.5049400329589844
+  ],
+  "boundsMin": [
+    -1.8878228664398193,
+    -1.981210470199585,
+    0.0563606396317482
+  ],
+  "boundsMax": [
+    1.8878228664398193,
+    1.184114694595337,
+    3.561300754547119
+  ],
+  "paletteColors": 11,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "LegL",
+    "WingL",
+    "LegR",
+    "WingR",
+    "Tail"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    3.775646209716797,
+    3.165325164794922,
+    3.5049400329589844
+  ]
+}

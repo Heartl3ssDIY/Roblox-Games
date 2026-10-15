@@ -1,0 +1,76 @@
+{
+  "referenceCanvas": [
+    720,
+    1000
+  ],
+  "header": {
+    "position": [
+      18,
+      18
+    ],
+    "size": [
+      684,
+      128
+    ],
+    "iconSuggestedRect": [
+      22,
+      24,
+      76,
+      76
+    ],
+    "letteringOverlay": {
+      "position": [
+        100,
+        0
+      ],
+      "size": [
+        584,
+        128
+      ]
+    }
+  },
+  "repeatedRow": {
+    "size": [
+      672,
+      67
+    ],
+    "rowGap": 7,
+    "rankRect": [
+      8,
+      10,
+      47,
+      47
+    ],
+    "avatarRect": [
+      69,
+      7,
+      53,
+      53
+    ],
+    "playerNameArea": [
+      137,
+      8,
+      410,
+      51
+    ],
+    "levelArea": [
+      558,
+      8,
+      96,
+      51
+    ]
+  },
+  "nineSlice": {
+    "imagePixels": [
+      512,
+      320
+    ],
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25
+  }
+}

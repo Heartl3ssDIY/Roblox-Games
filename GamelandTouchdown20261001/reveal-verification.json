@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-01",
+  "liveServerChecksPassed": 20,
+  "speedMultiplier": 2,
+  "testedCustomBaseSpeed": 20,
+  "testedRunningSpeed": 40,
+  "speedRestoredAfter": ["tackle", "qualification", "admin stop"],
+  "choiceLocks": ["Cannot change lane inside a committed tile", "Cannot backtrack behind a committed row", "Cannot return onto a row after leaving it", "Can change lanes in the next staging strip"],
+  "reveal": "Only the completed row's danger lane is sent to that player. The full hidden route remains server-side.",
+  "clientChecks": {
+    "quarterbackRevealed": true,
+    "characterFallenFlat": true,
+    "gruntLoaded": true,
+    "gruntDuration": 0.6731666666666667,
+    "orbitingStars": 3,
+    "orbitingBirds": 2,
+    "swirlSegments": 14,
+    "effectsCleanedOnReturn": true
+  },
+  "sounds": [
+    {"name": "TackleGrunt", "assetId": "4596892095", "source": "https://create.roblox.com/store/asset/4596892095", "loaded": true},
+    {"name": "RevealPop", "assetId": "72264591133889", "source": "https://create.roblox.com/store/asset/72264591133889", "loaded": true}
+  ],
+  "finalStudioMode": "Edit"
+}

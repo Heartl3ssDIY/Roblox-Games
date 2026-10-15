@@ -1,0 +1,488 @@
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+
+local Coordinator = {}
+Coordinator.__index = Coordinator
+local games = { "BritishBulldog", "TagYoureIt", "StuckInTheMud", "HideAndSeek" }
+local INTERMISSION_SECONDS = 35
+local START_RETRY_SECONDS = 5
+local titles = { BritishBulldog = "British Bulldog", TagYoureIt = "Tag You're It", StuckInTheMud = "Stuck in the Mud", HideAndSeek = "Hide and Seek" }
+
+function Coordinator.new(services, lobby, economy)
+	local self = setmetatable({}, Coordinator)
+	self.services = services
+	self.lobby = lobby
+	self.economy = economy
+	self.zone = lobby.Gameplay.VoteZone
+	self.state = ReplicatedStorage:WaitForChild("PlaygroundState")
+	self.votes = {}
+	self.lastVote = {}
+	self.lastSessionRequest = {}
+	self.sessionConnections = {}
+	self.spectators = {}
+	self.lastSpectateStamp = {}
+	self.lastSpectateRequest = {}
+	self.connections = {}
+	self.running = false
+	self.autoEnabled = true
+	self.votingEndsAt = 0
+	self.startRetryAt = 0
+	self.random = Random.new()
+	self.lastGame = nil
+	return self
+end
+
+function Coordinator:ActiveGame()
+	for _, id in ipairs(games) do if self.services[id] and self.services[id].active then return id end end
+	return nil
+end
+
+function Coordinator:_participating(player)
+	return player:GetAttribute("BBParticipating") == true or player:GetAttribute("TGParticipating") == true or player:GetAttribute("MDParticipating") == true or player:GetAttribute("HSParticipating") == true
+end
+
+function Coordinator:_afkRequested(player)
+	return player:GetAttribute("PCAFK") == true or player:GetAttribute("PCAFKRequested") == true
+end
+
+function Coordinator:_syncAFK(player)
+	local requested = player:GetAttribute("PCAFKRequested") == true
+	local participating = self:_participating(player)
+	player:SetAttribute("PCAFK", requested and not participating)
+	player:SetAttribute("PCAFKQueued", requested and participating)
+	if participating then self:_clearSpectate(player) end
+end
+
+function Coordinator:_clearSpectate(player)
+	local entry = self.spectators[player]
+	if not entry then return end
+	self.spectators[player] = nil
+	pcall(player.RemoveReplicationFocus, player, entry.root)
+end
+
+function Coordinator:_spectateTarget(player, userId)
+	if player.Parent ~= Players or self:_participating(player) then return nil end
+	local active = self:ActiveGame()
+	local service = active and self.services[active]
+	local phase = service and service.state:GetAttribute("Phase")
+	if not service or phase == "Waiting" or phase == "Results" or phase == "Intermission" then return nil end
+	local target = Players:GetPlayerByUserId(userId)
+	local attribute = ({ BritishBulldog = "BBParticipating", TagYoureIt = "TGParticipating", StuckInTheMud = "MDParticipating", HideAndSeek = "HSParticipating" })[active]
+	local character = target and target.Character
+	local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+	local root = character and character:FindFirstChild("HumanoidRootPart")
+	if target == player or not target or not target:GetAttribute(attribute) or not humanoid or humanoid.Health <= 0 or not root then return nil end
+	return target, root
+end
+
+function Coordinator:SetSpectate(player, userId, stamp)
+	local now = workspace:GetServerTimeNow()
+	if player.Parent ~= Players or typeof(stamp) ~= "number" or stamp ~= stamp or math.abs(stamp - now) > 30
+		or stamp <= (self.lastSpectateStamp[player] or -math.huge) then return { ok = false, message = "Expired spectate request." } end
+	self.lastSpectateStamp[player] = stamp
+	if userId == 0 then self:_clearSpectate(player) return { ok = true } end
+	if typeof(userId) ~= "number" or userId ~= userId or userId % 1 ~= 0 then return { ok = false, message = "Invalid player." } end
+	if now - (self.lastSpectateRequest[player] or -math.huge) < 0.2 then return { ok = false, message = "Please wait a moment." } end
+	self.lastSpectateRequest[player] = now
+	local target, root = self:_spectateTarget(player, userId)
+	if not target then self:_clearSpectate(player) return { ok = false, message = "That player is no longer in the round." } end
+	local entry = self.spectators[player]
+	if not entry or entry.root ~= root then
+		self:_clearSpectate(player)
+		local ok = pcall(player.AddReplicationFocus, player, root)
+		if not ok then return { ok = false, message = "Could not load that arena. Try again." } end
+		entry = { userId = userId, root = root }
+		self.spectators[player] = entry
+	end
+	entry.expiresAt = now + 12
+	return { ok = true, position = root.Position }
+end
+
+function Coordinator:_updateSpectators()
+	local now = workspace:GetServerTimeNow()
+	for player, entry in pairs(self.spectators) do
+		local target, root = self:_spectateTarget(player, entry.userId)
+		local ownHumanoid = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+		if not target or root ~= entry.root or now >= entry.expiresAt or not ownHumanoid or ownHumanoid.Health <= 0 then self:_clearSpectate(player) end
+	end
+end
+
+function Coordinator:SetAFK(player, enabled)
+	if player.Parent ~= Players or typeof(enabled) ~= "boolean" then
+		return { ok = false, message = "Invalid AFK request." }
+	end
+	local now = os.clock()
+	if now - (self.lastSessionRequest[player] or -math.huge) < 0.4 then
+		return { ok = false, message = "Please wait a moment." }
+	end
+	self.lastSessionRequest[player] = now
+	player:SetAttribute("PCAFKRequested", enabled)
+	self:_syncAFK(player)
+	if enabled then
+		self.votes[player] = nil
+		if self.padChoices then self.padChoices[player] = nil end
+		player:SetAttribute("PCVote", "")
+		self:_counts()
+	end
+	return {
+		ok = true,
+		afk = player:GetAttribute("PCAFK") == true,
+		queued = player:GetAttribute("PCAFKQueued") == true,
+		requested = enabled,
+		message = enabled and (self:_participating(player) and "AFK after this round." or "AFK on. You will stay in the lobby.") or "AFK off. You can join the next round.",
+	}
+end
+
+function Coordinator:_watchSessionPlayer(player)
+	if self.sessionConnections[player] then return end
+	player:SetAttribute("PCAFKRequested", false)
+	player:SetAttribute("PCAFK", false)
+	player:SetAttribute("PCAFKQueued", false)
+	local connections = {}
+	self.sessionConnections[player] = connections
+	for _, name in ipairs({ "BBParticipating", "TGParticipating", "MDParticipating", "HSParticipating" }) do
+		table.insert(connections, player:GetAttributeChangedSignal(name):Connect(function()
+			self:_syncAFK(player)
+		end))
+	end
+end
+
+function Coordinator:_readyPlayers()
+	local list = {}
+	for _, player in ipairs(Players:GetPlayers()) do
+		local humanoid = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+		if humanoid and humanoid.Health > 0 and not self:_afkRequested(player) and not self:_participating(player) and player:GetAttribute("PCDataReady") == true then
+			table.insert(list, player)
+		end
+	end
+	return list
+end
+
+function Coordinator:MinimumPlayers(id)
+	local service=self.services[id]
+	local minimum=service and service.arena and service.arena:GetAttribute("MinimumPlayers")
+	if typeof(minimum)~="number" or minimum~=minimum or math.abs(minimum)==math.huge then minimum=id=="StuckInTheMud" and 4 or 2 end
+	return math.max(2,math.floor(minimum))
+end
+
+function Coordinator:GameAvailable(id, readyCount)
+	local service=self.services[id]
+	if not service or service.running == false then return false end
+	if id=="StuckInTheMud" and service.state:GetAttribute("GunAccessReady")==false then return false end
+	return (readyCount or #self:_readyPlayers())>=self:MinimumPlayers(id)
+end
+
+function Coordinator:_availability(readyCount)
+	self.state:SetAttribute("ReadyPlayerCount",readyCount)
+	for _,id in ipairs(games) do
+	 self.state:SetAttribute("Available"..id,self:GameAvailable(id,readyCount))
+	 if self.services[id] then self.state:SetAttribute("Minimum"..id,self:MinimumPlayers(id)) end
+	end
+end
+
+function Coordinator:_insideZone(player)
+	local root = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+	if not root then return false end
+	local point = self.zone.CFrame:PointToObjectSpace(root.Position)
+	local half = self.zone.Size / 2
+	return math.abs(point.X) <= half.X and math.abs(point.Y) <= half.Y and math.abs(point.Z) <= half.Z
+end
+
+function Coordinator:_counts()
+	local counts = { BritishBulldog = 0, TagYoureIt = 0, StuckInTheMud = 0, HideAndSeek = 0 }
+	for player, id in pairs(self.votes) do
+		if player.Parent == Players and not self:_afkRequested(player) and counts[id] then counts[id] += 1 end
+	end
+	for id, count in pairs(counts) do self.state:SetAttribute("Votes" .. id, count) end
+	return counts
+end
+
+function Coordinator:_clearVotes()
+	for player in pairs(self.votes) do if player.Parent == Players then player:SetAttribute("PCVote", "") end end
+	table.clear(self.votes)
+	self:_counts()
+end
+
+function Coordinator:SetAutoEnabled(enabled)
+	self.autoEnabled = enabled == true
+	self.votingEndsAt = 0
+	self.startRetryAt = 0
+	self.state:SetAttribute("LastRoundStartError", "")
+	self.state:SetAttribute("IntermissionStatus", self.autoEnabled and "Waiting for ready players" or "Automatic rounds paused by an admin")
+	self.state:SetAttribute("AutomaticRounds", self.autoEnabled)
+	self.state:SetAttribute("VotingEndsAt", 0)
+	if not self:ActiveGame() then
+		self.state:SetAttribute("Phase", self.autoEnabled and "Waiting" or "Paused")
+		self:_clearVotes()
+	end
+end
+
+function Coordinator:Vote(player, id)
+	if typeof(id) ~= "string" or not self.services[id] then return { ok = false, message = "Choose an available game." } end
+	if self.state:GetAttribute("Phase") ~= "Voting" or self:ActiveGame() or not self.autoEnabled then return { ok = false, message = "Voting opens between rounds." } end
+	if self:_afkRequested(player) then return { ok = false, message = "Turn AFK off before voting." } end
+	if player:GetAttribute("PCDataReady") ~= true then return { ok = false, message = "Your player data is loading." } end
+	if not self:GameAvailable(id) then return {ok=false,message="This game is not ready for the next round."} end
+	if self:_participating(player) or not self:_insideZone(player) then return { ok = false, message = "Walk into the voting area first." } end
+	local humanoid = player.Character and player.Character:FindFirstChildOfClass("Humanoid")
+	if not humanoid or humanoid.Health <= 0 then return { ok = false, message = "Your character is loading." } end
+	local now = os.clock()
+	if now - (self.lastVote[player] or -math.huge) < 0.35 then return { ok = false, message = "Please wait a moment." } end
+	self.lastVote[player] = now
+	self.votes[player] = id
+	player:SetAttribute("PCVote", id)
+	self:_counts()
+	return { ok = true, message = "Vote saved." }
+end
+
+function Coordinator:StartGame(id, player, role, automatic)
+	local service = self.services[id]
+	if not service then return false, "This game is not available yet." end
+	if self:ActiveGame() then return false, "A game is running. Stop it first." end
+	if role and (not player or self:_afkRequested(player)) then return false, "Turn AFK off before starting practice." end
+	local started, reason
+	if role and not service.StartPractice then return false, "This game requires a normal round." end
+	if role then started, reason = service:StartPractice(player, role)
+	else started, reason = service:StartRound(self:_readyPlayers()) end
+	if started then
+		self.votingEndsAt = 0
+		self.startRetryAt = 0
+		self.state:SetAttribute("VotingEndsAt", 0)
+		self.state:SetAttribute("LastRoundStartError", "")
+		self.state:SetAttribute("IntermissionStatus", "")
+		self:_clearVotes()
+		self.lastGame = id
+		self.state:SetAttribute("ActiveGame", id)
+		self.state:SetAttribute("GameTitle", titles[id])
+		self.state:SetAttribute("Phase", "Playing")
+	end
+	return started, reason
+end
+
+function Coordinator:StopGame()
+	local stopped = false
+	for _, id in ipairs(games) do
+		if self.services[id] and self.services[id].active then self.services[id]:StopRound() stopped = true end
+	end
+	self:SetAutoEnabled(false)
+	self.state:SetAttribute("ActiveGame", "")
+	self.state:SetAttribute("GameTitle", "")
+	return true, stopped and "Back in the lobby." or "Ready in the lobby."
+end
+
+function Coordinator:_chooseGame()
+	local counts = self:_counts()
+	local readyCount=#self:_readyPlayers()
+	local maximum = 0
+	for _, id in ipairs(games) do if self:GameAvailable(id,readyCount) then maximum = math.max(maximum, counts[id]) end end
+	local tied = {}
+	for _, id in ipairs(games) do if self:GameAvailable(id,readyCount) and counts[id] == maximum then table.insert(tied, id) end end
+	if maximum == 0 and self.lastGame then
+		for _, id in ipairs(tied) do if id ~= self.lastGame then return id end end
+	end
+	return #tied>0 and tied[self.random:NextInteger(1, #tied)] or nil
+end
+
+function Coordinator:_rewardBulldog()
+	local service = self.services.BritishBulldog
+	if service.phase ~= "Results" then return end
+	local state = service.state
+	local team = state:GetAttribute("WinnerTeam")
+	if team ~= "Runners" and team ~= "Bulldogs" then return end
+	local winnerIds, participantIds = {}, {}
+	for player, record in pairs(service.records) do
+		if not record.isBot and record.participating and player.Parent == Players then
+			table.insert(participantIds, player.UserId)
+			if (team == "Runners" and record.role == "Runner") or (team == "Bulldogs" and record.role == "Bulldog") then table.insert(winnerIds, player.UserId) end
+		end
+	end
+	table.sort(winnerIds)
+	table.sort(participantIds)
+	self.economy:AwardRound("BB:" .. tostring(state:GetAttribute("RoundNumber")), winnerIds, string.find(state:GetAttribute("Mode") or "", "Practice", 1, true) ~= nil, participantIds, { gameId = "BritishBulldog" })
+end
+
+function Coordinator:_rewardTag()
+	local state = self.services.TagYoureIt.state
+	local ids, participants = {}, {}
+	for value in string.gmatch(state:GetAttribute("LastResultWinnerIds") or "", "%-?%d+") do table.insert(ids, tonumber(value)) end
+	for value in string.gmatch(state:GetAttribute("LastResultParticipantIds") or "", "%-?%d+") do table.insert(participants, tonumber(value)) end
+	self.economy:AwardRound("TAG:" .. tostring(state:GetAttribute("LastResultRound")), ids, state:GetAttribute("LastResultPractice") == true, participants, { gameId = "TagYoureIt" })
+end
+
+function Coordinator:_rewardMud()
+ local service=self.services.StuckInTheMud
+ if not service then return end
+ local state=service.state
+ local ids,participants={},{}
+ for value in string.gmatch(state:GetAttribute("LastResultWinnerIds") or "", "%-?%d+") do table.insert(ids,tonumber(value)) end
+ for value in string.gmatch(state:GetAttribute("LastResultParticipantIds") or "", "%-?%d+") do table.insert(participants,tonumber(value)) end
+ self.economy:AwardRound("MUD:"..tostring(state:GetAttribute("LastResultRound")),ids,state:GetAttribute("LastResultPractice")==true,participants,{gameId="StuckInTheMud",winnerXP=50,loserXP=50})
+end
+
+function Coordinator:_rewardHideAndSeek()
+ local service = self.services.HideAndSeek
+ if not service then return end
+ local state = service.state
+ local ids, participants = {}, {}
+ for value in string.gmatch(state:GetAttribute("LastResultWinnerIds") or "", "%-?%d+") do table.insert(ids, tonumber(value)) end
+ for value in string.gmatch(state:GetAttribute("LastResultParticipantIds") or "", "%-?%d+") do table.insert(participants, tonumber(value)) end
+ self.economy:AwardRound("HS:" .. tostring(state:GetAttribute("LastResultRound")), ids, state:GetAttribute("LastResultPractice") == true, participants, { gameId = "HideAndSeek" })
+end
+
+function Coordinator:_padVoting()
+ self.padChoices=self.padChoices or {}
+ if self.state:GetAttribute("Phase")~="Voting" then table.clear(self.padChoices) return end
+ local choices=self.lobby.Gameplay:FindFirstChild("VoteChoices")
+ if not choices then return end
+ for _,player in ipairs(Players:GetPlayers()) do
+  local root=player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+  local choice
+  if root and not self:_afkRequested(player) and self:_insideZone(player) then
+   for _,pad in ipairs(choices:GetChildren()) do
+    if pad:IsA("BasePart") and pad:GetAttribute("Available")~=false then
+     local point=pad.CFrame:PointToObjectSpace(root.Position)
+     local half=pad.Size/2
+     if math.abs(point.X)<=half.X and math.abs(point.Y)<=half.Y and math.abs(point.Z)<=half.Z then choice=pad:GetAttribute("GameId") break end
+    end
+   end
+  end
+  if choice and not self:GameAvailable(choice) then choice=nil end
+  if choice~=self.padChoices[player] then
+   self.padChoices[player]=choice
+   if choice then self:Vote(player,choice) end
+  end
+ end
+end
+
+function Coordinator:_step(now)
+	self:_updateSpectators()
+	local active = self:ActiveGame()
+	local readyCount = #self:_readyPlayers()
+	self:_availability(readyCount)
+	local minimum, available = math.huge, false
+	for _, id in ipairs(games) do
+		local service = self.services[id]
+		if service and service.running ~= false and not (id == "StuckInTheMud" and service.state:GetAttribute("GunAccessReady") == false) then
+			minimum = math.min(minimum, self:MinimumPlayers(id))
+			available = available or self:GameAvailable(id, readyCount)
+		end
+	end
+	if minimum == math.huge then minimum = 2 end
+	self.state:SetAttribute("MinimumReadyPlayers", minimum)
+	if active then
+		self.votingEndsAt, self.startRetryAt = 0, 0
+		self.state:SetAttribute("Phase", "Playing")
+		self.state:SetAttribute("ActiveGame", active)
+		self.state:SetAttribute("GameTitle", titles[active])
+		self.state:SetAttribute("VotingEndsAt", 0)
+		self.state:SetAttribute("IntermissionStatus", "")
+	elseif not self.autoEnabled then
+		self.state:SetAttribute("Phase", "Paused")
+		self.state:SetAttribute("ActiveGame", "")
+		self.state:SetAttribute("GameTitle", "")
+		self.state:SetAttribute("IntermissionStatus", "Automatic rounds paused by an admin")
+	elseif not available then
+		self.votingEndsAt, self.startRetryAt = 0, 0
+		self.state:SetAttribute("Phase", "Waiting")
+		self.state:SetAttribute("ActiveGame", "")
+		self.state:SetAttribute("GameTitle", "")
+		self.state:SetAttribute("VotingEndsAt", 0)
+		self.state:SetAttribute("IntermissionStatus", readyCount < minimum
+			and string.format("Waiting for ready players (%d/%d)", readyCount, minimum)
+			or "Waiting for an available game")
+		self:_clearVotes()
+	elseif self.votingEndsAt == 0 then
+		self:_clearVotes()
+		self.votingEndsAt = now + INTERMISSION_SECONDS
+		self.state:SetAttribute("Phase", "Voting")
+		self.state:SetAttribute("ActiveGame", "")
+		self.state:SetAttribute("GameTitle", "")
+		self.state:SetAttribute("VotingEndsAt", self.votingEndsAt)
+		self.state:SetAttribute("IntermissionStatus", "Next round starts in")
+		self.state:SetAttribute("LastRoundStartError", "")
+	elseif now >= self.votingEndsAt and now >= self.startRetryAt then
+		local selected = self:_chooseGame()
+		local ok, started, reason = pcall(self.StartGame, self, selected, nil, nil, true)
+		if not ok or not started then
+			local failure = tostring(ok and reason or started)
+			self.startRetryAt = now + START_RETRY_SECONDS
+			self.state:SetAttribute("IntermissionStatus", "Preparing the next round - retrying")
+			self.state:SetAttribute("LastRoundStartError", failure)
+			warn("Automatic round could not start: " .. failure)
+		end
+	end
+	self:_padVoting()
+end
+
+function Coordinator:_loop()
+	while self.running do
+		self:_step(workspace:GetServerTimeNow())
+		task.wait(0.25)
+	end
+end
+
+function Coordinator:Start()
+	if self.running then return end
+	self.running = true
+	self.state:SetAttribute("AutomaticRounds", self.autoEnabled)
+	self.state:SetAttribute("IntermissionSeconds", INTERMISSION_SECONDS)
+	self.state:SetAttribute("MinimumReadyPlayers", 2)
+	self.state:SetAttribute("IntermissionStatus", "Waiting for ready players")
+	self.state:SetAttribute("LastRoundStartError", "")
+	self.state:SetAttribute("Phase", "Waiting")
+	self.state:SetAttribute("ActiveGame", "")
+	self.state:SetAttribute("VotingEndsAt", 0)
+	self:_counts()
+	local remote = ReplicatedStorage:WaitForChild("PlaygroundVoteRequest")
+	remote.OnServerInvoke = function(player, id) return self:Vote(player, id) end
+	self.remote = remote
+	local sessionRemote = ReplicatedStorage:WaitForChild("PlaygroundSessionRequest")
+	sessionRemote.OnServerInvoke = function(player, action, value, stamp)
+		if action == "SetSpectate" then return self:SetSpectate(player, value, stamp) end
+		if action ~= "SetAFK" then return { ok = false, message = "Invalid session request." } end
+		return self:SetAFK(player, value)
+	end
+	self.sessionRemote = sessionRemote
+	table.insert(self.connections, Players.PlayerAdded:Connect(function(player) self:_watchSessionPlayer(player) end))
+	for _, player in ipairs(Players:GetPlayers()) do self:_watchSessionPlayer(player) end
+	table.insert(self.connections, Players.PlayerRemoving:Connect(function(player)
+		self.votes[player] = nil
+		self.lastVote[player] = nil
+		self.lastSessionRequest[player] = nil
+		self:_clearSpectate(player)
+		self.lastSpectateStamp[player] = nil
+		self.lastSpectateRequest[player] = nil
+		for _, connection in ipairs(self.sessionConnections[player] or {}) do connection:Disconnect() end
+		self.sessionConnections[player] = nil
+		self:_counts()
+	end))
+	table.insert(self.connections, self.services.BritishBulldog.state:GetAttributeChangedSignal("Phase"):Connect(function() self:_rewardBulldog() end))
+	table.insert(self.connections, self.services.TagYoureIt.state:GetAttributeChangedSignal("LastResultRound"):Connect(function() self:_rewardTag() end))
+	if self.services.StuckInTheMud then table.insert(self.connections,self.services.StuckInTheMud.state:GetAttributeChangedSignal("LastResultRound"):Connect(function() self:_rewardMud() end)) end
+	if self.services.HideAndSeek then table.insert(self.connections, self.services.HideAndSeek.state:GetAttributeChangedSignal("LastResultRound"):Connect(function() self:_rewardHideAndSeek() end)) end
+	task.spawn(function() self:_loop() end)
+end
+
+function Coordinator:Stop()
+	self.running = false
+	self:StopGame()
+	for _, connection in ipairs(self.connections) do connection:Disconnect() end
+	if self.remote then self.remote.OnServerInvoke = nil end
+	if self.sessionRemote then self.sessionRemote.OnServerInvoke = nil end
+	for player in pairs(self.spectators) do self:_clearSpectate(player) end
+	table.clear(self.lastSpectateStamp)
+	table.clear(self.lastSpectateRequest)
+	for player, connections in pairs(self.sessionConnections) do
+		for _, connection in ipairs(connections) do connection:Disconnect() end
+		if player.Parent == Players then
+			player:SetAttribute("PCAFKRequested", false)
+			player:SetAttribute("PCAFK", false)
+			player:SetAttribute("PCAFKQueued", false)
+		end
+	end
+	table.clear(self.sessionConnections)
+	table.clear(self.lastSessionRequest)
+end
+
+return Coordinator

@@ -1,0 +1,64 @@
+{
+  "round": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"installed\":true,\"historicalWinsUnchanged\":true,\"backup\":\"ServerStorage.BeforeCompetitiveWins_20261002_132149\",\"scripts\":{\"1\":\"ServerScriptService.PlayerData\",\"4\":\"ServerScriptService.GBloxPodium\",\"3\":\"StarterGui.GBloxMatchRewards.Controller\",\"2\":\"ServerScriptService.RunnerServer\"}}"
+      }
+    ],
+    "isError": false
+  },
+  "lobby": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"installed\":true,\"panelVisible\":false,\"embeddedService\":true,\"paged\":true,\"threshold\":10,\"backup\":\"ServerStorage.BeforeAdminGiveaway_20261002_132311\",\"adminOnly\":1201803949,\"savedAndOffline\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "verification": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"authorizationBeforeQuery\":true,\"globalSavedWins\":true,\"oldGrantButtonsPreserved\":true,\"checkerHiddenUntilOpened\":true,\"compiled\":2}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"compiled\":4,\"soloWinGate\":true,\"gameId\":10611575889}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "1cb7da",
+        "wall_time_seconds": 0.1698075,
+        "exit_code": 0,
+        "original_token_count": 20,
+        "output": "Compiled 0 KLOC into 21 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)\r\n"
+      }
+    }
+  ],
+  "isolatedLogicAssertions": 27,
+  "isolatedUIAssertions": 15,
+  "datastoresQueriedDuringVerification": false,
+  "published": false,
+  "playtestStarted": false,
+  "historicalWinTotalsUntouched": true,
+  "membershipVerification": "separate",
+  "listSource": "GBlox_Wins_v1 saved ordered index, includes offline accounts; paginate all 10+ entries with Next"
+}

@@ -1,0 +1,12 @@
+Inventory and level HUD update — 4 October 2026
+
+Installed into the open Studio Edit place. Play was not started.
+
+The existing top-right wallet now has clearly labelled Wins, Level and Coins columns using the existing reusable panel skin and outside text strokes. Values update from the existing player attributes and show loading placeholders until the profile is ready. Standard leaderstats are created in Wins, Level, Coins order. Existing in-round wallet visibility rules are preserved.
+
+LevelPanel and CompactLevelPanel remain authored/editable in StarterGui.PlaygroundShell. They now include explicit next-level labels and XP progress. The controller updates both the fill gradient and its visible reusable skin. The new LevelUpNotice uses the existing gold panel art and outlined labels. It appears on genuine level increases, stays silent on initial load/rejoin, replaces earlier notices with the newest attained level, and fades away. Runtime code preserves authored layout positions and sizes.
+
+Corner value/loading/layout checks and 12 level UI checks passed. Installed Luau sources compile. Full HUD preview was inspected, including readable stats and a partially filled blue XP bar. Temporary previews were removed and original GUI enable states restored.
+
+Before/ contains original sources. After/ contains installed sources. Inventory.json is the read-only snapshot used for the inventory list. Installation.json and the validation JSONs record results.
+Studio backups: ServerStorage.InventoryLevelUIBackup20261004 and ServerStorage.InventoryLevelUIBackups20261004.LevelUIInitial.

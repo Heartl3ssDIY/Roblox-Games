@@ -1,0 +1,268 @@
+[
+  {
+    "name": "Student 01 - Maths stack chair",
+    "root": "Wren_Student_01_-_Maths_stack_chair",
+    "collection": "Wren | Student 01 - Maths stack chair",
+    "category": "02 Student seating",
+    "parts": 14
+  },
+  {
+    "name": "Student 02 - Science lab stool",
+    "root": "Wren_Student_02_-_Science_lab_stool",
+    "collection": "Wren | Student 02 - Science lab stool",
+    "category": "02 Student seating",
+    "parts": 10
+  },
+  {
+    "name": "Student 03 - Technology swivel chair",
+    "root": "Wren_Student_03_-_Technology_swivel_chair",
+    "collection": "Wren | Student 03 - Technology swivel chair",
+    "category": "02 Student seating",
+    "parts": 18
+  },
+  {
+    "name": "Student 04 - Art cantilever chair",
+    "root": "Wren_Student_04_-_Art_cantilever_chair",
+    "collection": "Wren | Student 04 - Art cantilever chair",
+    "category": "02 Student seating",
+    "parts": 7
+  },
+  {
+    "name": "Student 05 - Music posture chair",
+    "root": "Wren_Student_05_-_Music_posture_chair",
+    "collection": "Wren | Student 05 - Music posture chair",
+    "category": "02 Student seating",
+    "parts": 14
+  },
+  {
+    "name": "Staff 01 - Task chair",
+    "root": "Wren_Staff_01_-_Task_chair",
+    "collection": "Wren | Staff 01 - Task chair",
+    "category": "03 Staff seating",
+    "parts": 20
+  },
+  {
+    "name": "Staff 02 - Curved tub chair",
+    "root": "Wren_Staff_02_-_Curved_tub_chair",
+    "collection": "Wren | Staff 02 - Curved tub chair",
+    "category": "03 Staff seating",
+    "parts": 7
+  },
+  {
+    "name": "Staff 03 - Low lounge armchair",
+    "root": "Wren_Staff_03_-_Low_lounge_armchair",
+    "collection": "Wren | Staff 03 - Low lounge armchair",
+    "category": "03 Staff seating",
+    "parts": 10
+  },
+  {
+    "name": "Black pencil - pink eraser",
+    "root": "Wren_Black_pencil_-_pink_eraser",
+    "collection": "Wren | Black pencil - pink eraser",
+    "category": "01 Stationery",
+    "parts": 9
+  },
+  {
+    "name": "Black retractable pen",
+    "root": "Wren_Black_retractable_pen",
+    "collection": "Wren | Black retractable pen",
+    "category": "01 Stationery",
+    "parts": 9
+  },
+  {
+    "name": "Round graphite pencil pot",
+    "root": "Wren_Round_graphite_pencil_pot",
+    "collection": "Wren | Round graphite pencil pot",
+    "category": "01 Stationery",
+    "parts": 66
+  },
+  {
+    "name": "Square ivory pen pot",
+    "root": "Wren_Square_ivory_pen_pot",
+    "collection": "Wren | Square ivory pen pot",
+    "category": "01 Stationery",
+    "parts": 41
+  },
+  {
+    "name": "Whiteboard marker and eraser",
+    "root": "Wren_Whiteboard_marker_and_eraser",
+    "collection": "Wren | Whiteboard marker and eraser",
+    "category": "01 Stationery",
+    "parts": 4
+  },
+  {
+    "name": "Simple school laptop",
+    "root": "Wren_Simple_school_laptop",
+    "collection": "Wren | Simple school laptop",
+    "category": "05 Technology",
+    "parts": 71
+  },
+  {
+    "name": "Desktop monitor",
+    "root": "Wren_Desktop_monitor",
+    "collection": "Wren | Desktop monitor",
+    "category": "05 Technology",
+    "parts": 6
+  },
+  {
+    "name": "Compact desktop keyboard and mouse",
+    "root": "Wren_Compact_desktop_keyboard_and_mouse",
+    "collection": "Wren | Compact desktop keyboard and mouse",
+    "category": "05 Technology",
+    "parts": 60
+  },
+  {
+    "name": "Upright piano",
+    "root": "Wren_Upright_piano",
+    "collection": "Wren | Upright piano",
+    "category": "04 Music",
+    "parts": 107
+  },
+  {
+    "name": "Piano bench",
+    "root": "Wren_Piano_bench",
+    "collection": "Wren | Piano bench",
+    "category": "04 Music",
+    "parts": 6
+  },
+  {
+    "name": "Acoustic guitar and stand",
+    "root": "Wren_Acoustic_guitar_and_stand",
+    "collection": "Wren | Acoustic guitar and stand",
+    "category": "04 Music",
+    "parts": 53
+  },
+  {
+    "name": "Clarinet and stand",
+    "root": "Wren_Clarinet_and_stand",
+    "collection": "Wren | Clarinet and stand",
+    "category": "04 Music",
+    "parts": 43
+  },
+  {
+    "name": "Tall double cupboard",
+    "root": "Wren_Tall_double_cupboard",
+    "collection": "Wren | Tall double cupboard",
+    "category": "06 Storage",
+    "parts": 11
+  },
+  {
+    "name": "Low staffroom cupboard",
+    "root": "Wren_Low_staffroom_cupboard",
+    "collection": "Wren | Low staffroom cupboard",
+    "category": "06 Storage",
+    "parts": 9
+  },
+  {
+    "name": "Classroom tray cupboard",
+    "root": "Wren_Classroom_tray_cupboard",
+    "collection": "Wren | Classroom tray cupboard",
+    "category": "06 Storage",
+    "parts": 79
+  },
+  {
+    "name": "Graphite electric kettle",
+    "root": "Wren_Graphite_electric_kettle",
+    "collection": "Wren | Graphite electric kettle",
+    "category": "07 Staffroom",
+    "parts": 14
+  },
+  {
+    "name": "Ivory staff mug",
+    "root": "Wren_Ivory_staff_mug",
+    "collection": "Wren | Ivory staff mug",
+    "category": "07 Staffroom",
+    "parts": 2
+  },
+  {
+    "name": "Graphite staff mug",
+    "root": "Wren_Graphite_staff_mug",
+    "collection": "Wren | Graphite staff mug",
+    "category": "07 Staffroom",
+    "parts": 2
+  },
+  {
+    "name": "Cup and saucer",
+    "root": "Wren_Cup_and_saucer",
+    "collection": "Wren | Cup and saucer",
+    "category": "07 Staffroom",
+    "parts": 3
+  },
+  {
+    "name": "Takeaway coffee cup",
+    "root": "Wren_Takeaway_coffee_cup",
+    "collection": "Wren | Takeaway coffee cup",
+    "category": "07 Staffroom",
+    "parts": 3
+  },
+  {
+    "name": "Wren mobile whiteboard",
+    "root": "Wren_Wren_mobile_whiteboard",
+    "collection": "Wren | Wren mobile whiteboard",
+    "category": "08 Boards",
+    "parts": 16
+  },
+  {
+    "name": "Rounded Wren TV teaching board",
+    "root": "Wren_Rounded_Wren_TV_teaching_board",
+    "collection": "Wren | Rounded Wren TV teaching board",
+    "category": "08 Boards",
+    "parts": 13
+  },
+  {
+    "name": "Indoor broadleaf plant",
+    "root": "Wren_Indoor_broadleaf_plant",
+    "collection": "Wren | Indoor broadleaf plant",
+    "category": "09 Indoor plants",
+    "parts": 31
+  },
+  {
+    "name": "Indoor snake plant",
+    "root": "Wren_Indoor_snake_plant",
+    "collection": "Wren | Indoor snake plant",
+    "category": "09 Indoor plants",
+    "parts": 24
+  },
+  {
+    "name": "Outdoor shrub planter",
+    "root": "Wren_Outdoor_shrub_planter",
+    "collection": "Wren | Outdoor shrub planter",
+    "category": "10 Outdoors",
+    "parts": 17
+  },
+  {
+    "name": "Outdoor round shrub",
+    "root": "Wren_Outdoor_round_shrub",
+    "collection": "Wren | Outdoor round shrub",
+    "category": "10 Outdoors",
+    "parts": 8
+  },
+  {
+    "name": "Broadleaf school tree",
+    "root": "Wren_Broadleaf_school_tree",
+    "collection": "Wren | Broadleaf school tree",
+    "category": "10 Outdoors",
+    "parts": 12
+  },
+  {
+    "name": "Evergreen school tree",
+    "root": "Wren_Evergreen_school_tree",
+    "collection": "Wren | Evergreen school tree",
+    "category": "10 Outdoors",
+    "parts": 5
+  },
+  {
+    "name": "Outdoor backed bench",
+    "root": "Wren_Outdoor_backed_bench",
+    "collection": "Wren | Outdoor backed bench",
+    "category": "10 Outdoors",
+    "parts": 22
+  },
+  {
+    "name": "Outdoor backless bench",
+    "root": "Wren_Outdoor_backless_bench",
+    "collection": "Wren | Outdoor backless bench",
+    "category": "10 Outdoors",
+    "parts": 12
+  }
+]

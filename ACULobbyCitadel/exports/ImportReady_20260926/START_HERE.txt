@@ -1,0 +1,22 @@
+ACU FESTIVAL CITADEL - SMALLER IMPORT BATCHES
+
+Keep every .fbx beside the textures folder. Import the numbered visual FBXs, one batch at a time.
+Import settings: Scale Unit Studs; scale1; Merge Meshes OFF; Insert Using Scene Position ON; Set Pivot to Scene Origin ON; Anchored ON.
+Every batch uses the original shared origin. Do not individually center/reposition batches. Move their common parent model after assembly if needed.
+Avoid importing these batches on top of a completed original lobby, which would duplicate it.
+
+The original .blend, original FBX/GLB and full-size delivery are untouched.
+Only FONT curve tessellation and bevel subdivision were simplified in an isolated export session. The same Permanent Marker font, exact strings, text locations, extrusion and physical bevel depth are retained.
+Scenery dimensions, architecture, materials, 24 texture images, UV coordinates and original shading are preserved. Textures have byte-for-byte checks in import_manifest.json.
+Each mesh stays at or below9,000 triangles. All batches are below50MiB. File sizes here are packaging targets, not claimed Roblox importer limits.
+The visual FBXs use shared external textures instead of embedding a copy in every batch. Missing PBR channels can be assigned through SurfaceAppearance from PBRMaterials in import_manifest.json.
+
+Visual meshes: CanCollide false. Import ACU_Citadel_Collision.fbx separately as the collision proxy; hide its visual appearance. The proxy is unchanged and still needs walk testing.
+Set DoubleSided true only for flagged meshes in import_manifest.json.
+markers.json contains unchanged interaction anchors; no game logic has been wired.
+
+This variant has been checked as export files. Actual Studio import and runtime performance still need validation.
+
+BEFORE: 14788577 triangles / 5824 meshes
+AFTER: 3927897 triangles / 4728 meshes / 42 batches
+Triangle reduction: 73.44%

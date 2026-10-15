@@ -1,0 +1,343 @@
+{
+  "mesh_count": 56,
+  "triangles": 17208,
+  "parts": [
+    {
+      "name": "Head_Pearl_MainCube",
+      "material": "01 | Pearl armour",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Helmet_Pearl_Cap",
+      "material": "01 | Pearl armour",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Face_Cyan_Panel",
+      "material": "02 | Velocity cyan",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Helmet_Cyan_Forehead",
+      "material": "02 | Velocity cyan",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Helmet_Cyan_TopStripe",
+      "material": "02 | Velocity cyan",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Helmet_L_Silver_TopSeam",
+      "material": "03 | Titanium silver",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Helmet_L_Cyan_Band",
+      "material": "02 | Velocity cyan",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Goggles_L_Violet_Temple",
+      "material": "04 | Gravity violet",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Eye_L_White_Surround",
+      "material": "07 | Eye highlights",
+      "triangles": 528,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Eye_L_Ink_Pupil",
+      "material": "06 | Obsidian eyes",
+      "triangles": 528,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Eye_L_White_Glint",
+      "material": "07 | Eye highlights",
+      "triangles": 528,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Helmet_R_Silver_TopSeam",
+      "material": "03 | Titanium silver",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Helmet_R_Cyan_Band",
+      "material": "02 | Velocity cyan",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Goggles_R_Violet_Temple",
+      "material": "04 | Gravity violet",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Eye_R_White_Surround",
+      "material": "07 | Eye highlights",
+      "triangles": 528,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Eye_R_Ink_Pupil",
+      "material": "06 | Obsidian eyes",
+      "triangles": 528,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Eye_R_White_Glint",
+      "material": "07 | Eye highlights",
+      "triangles": 528,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Goggles_Silver_ContinuousFrame",
+      "material": "03 | Titanium silver",
+      "triangles": 1120,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Goggles_Violet_OuterTrim",
+      "material": "04 | Gravity violet",
+      "triangles": 1120,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Helmet_Yellow_Lightning",
+      "material": "05 | Falcon yellow",
+      "triangles": 284,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Beak_Yellow",
+      "material": "05 | Falcon yellow",
+      "triangles": 172,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_L_Silver_Joint",
+      "material": "03 | Titanium silver",
+      "triangles": 528,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_L_Violet_Feather_1",
+      "material": "04 | Gravity violet",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_L_Silver_Covert_1",
+      "material": "03 | Titanium silver",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_L_Violet_Feather_2",
+      "material": "04 | Gravity violet",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_L_Silver_Covert_2",
+      "material": "03 | Titanium silver",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_L_Violet_Feather_3",
+      "material": "04 | Gravity violet",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_L_Silver_Covert_3",
+      "material": "03 | Titanium silver",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_L_Silver_Housing",
+      "material": "03 | Titanium silver",
+      "triangles": 252,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_L_Ink_Nozzle",
+      "material": "06 | Obsidian eyes",
+      "triangles": 252,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_L_Silver_Rib_1",
+      "material": "03 | Titanium silver",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_L_Silver_Rib_2",
+      "material": "03 | Titanium silver",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_L_Silver_Rib_3",
+      "material": "03 | Titanium silver",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_R_Silver_Joint",
+      "material": "03 | Titanium silver",
+      "triangles": 528,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_R_Violet_Feather_1",
+      "material": "04 | Gravity violet",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_R_Silver_Covert_1",
+      "material": "03 | Titanium silver",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_R_Violet_Feather_2",
+      "material": "04 | Gravity violet",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_R_Silver_Covert_2",
+      "material": "03 | Titanium silver",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_R_Violet_Feather_3",
+      "material": "04 | Gravity violet",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Wing_R_Silver_Covert_3",
+      "material": "03 | Titanium silver",
+      "triangles": 300,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_R_Silver_Housing",
+      "material": "03 | Titanium silver",
+      "triangles": 252,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_R_Ink_Nozzle",
+      "material": "06 | Obsidian eyes",
+      "triangles": 252,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_R_Silver_Rib_1",
+      "material": "03 | Titanium silver",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_R_Silver_Rib_2",
+      "material": "03 | Titanium silver",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Thruster_R_Silver_Rib_3",
+      "material": "03 | Titanium silver",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Tail_1_Pearl_Feather",
+      "material": "01 | Pearl armour",
+      "triangles": 236,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Tail_1_Cyan_Stripe",
+      "material": "02 | Velocity cyan",
+      "triangles": 204,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Tail_2_Pearl_Feather",
+      "material": "01 | Pearl armour",
+      "triangles": 236,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Tail_2_Cyan_Stripe",
+      "material": "02 | Velocity cyan",
+      "triangles": 172,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Tail_3_Pearl_Feather",
+      "material": "01 | Pearl armour",
+      "triangles": 236,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "Tail_3_Cyan_Stripe",
+      "material": "02 | Velocity cyan",
+      "triangles": 204,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "VFX_L_Cyan_Jet",
+      "material": "08 | Cyan emission - Neon in Roblox",
+      "triangles": 252,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "VFX_L_White_Core",
+      "material": "09 | Jet core - Neon in Roblox",
+      "triangles": 252,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "VFX_R_Cyan_Jet",
+      "material": "08 | Cyan emission - Neon in Roblox",
+      "triangles": 252,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "VFX_R_White_Core",
+      "material": "09 | Jet core - Neon in Roblox",
+      "triangles": 252,
+      "non_manifold_edges": 0
+    },
+    {
+      "name": "VFX_Cyan_Underlight",
+      "material": "08 | Cyan emission - Neon in Roblox",
+      "triangles": 188,
+      "non_manifold_edges": 0
+    }
+  ],
+  "single_material_per_mesh": true
+}

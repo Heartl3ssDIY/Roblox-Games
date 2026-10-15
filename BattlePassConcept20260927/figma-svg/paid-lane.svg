@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" role="img" aria-label="Paid Battle Pass lane">
+  <title>Paid reward lane</title>
+  <defs>
+    <linearGradient id="paid-fill" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C77E84"/><stop offset=".5" stop-color="#BA6885"/><stop offset="1" stop-color="#843F78"/></linearGradient>
+    <linearGradient id="paid-side" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8F3F84"/><stop offset="1" stop-color="#D87579"/></linearGradient>
+  </defs>
+  <g id="lane-base">
+    <rect x="1" y="1" width="1198" height="188" fill="url(#paid-fill)" stroke="#FFCEB8" stroke-width="2"/>
+    <rect x="1" y="1" width="196" height="188" fill="url(#paid-side)"/>
+    <path d="M196 2v186" stroke="#663171" stroke-width="3"/>
+    <path d="M1 2h1198" stroke="#FFE5C4" stroke-width="2" opacity=".8"/>
+    <path d="M1 185h1198" stroke="#5C235E" stroke-width="4"/>
+  </g>
+  <g id="column-guides" stroke="#FFE5E9" opacity=".23">
+    <path d="M394 7v176M592 7v176M790 7v176M988 7v176"/>
+  </g>
+  <g id="lane-highlights" fill="#FFF0C2" opacity=".5">
+    <circle cx="245" cy="27" r="2"/><circle cx="547" cy="39" r="2"/><circle cx="831" cy="18" r="2"/><circle cx="1114" cy="33" r="2"/>
+    <path d="M108 45l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/>
+  </g>
+</svg>

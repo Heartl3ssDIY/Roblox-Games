@@ -1,0 +1,308 @@
+{
+  "placeId": 106769122906103,
+  "imports": [
+    {
+      "name": "Floor_Web_Trap",
+      "pivot": [
+        735.5271606445312,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Last_Place_Chaser_Ghost",
+      "pivot": [
+        716.78759765625,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Jack_O_Lantern",
+      "pivot": [
+        754.087646484375,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Corner_Cobweb",
+      "pivot": [
+        749.5794677734375,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Gravestone_Without_Hand",
+      "pivot": [
+        763.2183227539062,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Ectoplasm_Lantern",
+      "pivot": [
+        775.1292724609375,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Throwable_Pumpkin",
+      "pivot": [
+        768.0029907226562,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Gravestone_Trap",
+      "pivot": [
+        768.0029907226562,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Halloween_Platform_Skull_Decoration.002",
+      "pivot": [
+        795.0303344726562,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Halloween_Platform_Skull_Decoration.003",
+      "pivot": [
+        795.0303344726562,
+        -9.437999725341797,
+        8235.6318359375,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "settings": {
+    "GraveHoldSeconds": 5,
+    "WebCooldown": 30,
+    "UsePublishedConfig": false,
+    "GraveStillRadius": 0.75,
+    "WebRechargePrice": 35000,
+    "GhostMaxSpeed": 60,
+    "CourseNumber": 1,
+    "GhostBaseSpeed": 24,
+    "WebHoldSeconds": 5,
+    "CornerWebImmunity": 3,
+    "GhostSpeedInterval": 1.1,
+    "PumpkinRange": 70,
+    "PumpkinSplatSeconds": 4,
+    "PollInterval": 0.1,
+    "PumpkinPrice": 150000,
+    "WebMaxActive": 6,
+    "WebRadius": 7,
+    "CornerWebHoldSeconds": 5,
+    "BuildVersion": "20261003-Shop-2",
+    "PumpkinLifetime": 2,
+    "Enabled": true,
+    "GhostSpawnBehind": 22,
+    "GhostSpeedIncrease": 1.1,
+    "UnlimitedUntilUnix": 1793491200,
+    "WebLifetime": 8,
+    "UnlimitedFromUnix": 1790812800,
+    "PumpkinRechargePrice": 15000,
+    "PumpkinHitRadius": 3,
+    "GhostInitialDelay": 8,
+    "PumpkinCooldown": 25,
+    "GhostCatchRadius": 3.2,
+    "WebPrice": 350000,
+    "PumpkinSpeed": 70,
+    "GraveStuckSeconds": 1,
+    "GraveStillSpeed": 2.5
+  },
+  "traps": [
+    {
+      "path": "Workspace. Course -  round 1.HalloweenGameplay.Traps.CornerWeb_Lower",
+      "hold": 5,
+      "pivot": [
+        2946.509765625,
+        -6.933104515075684,
+        8330,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "path": "Workspace. Course -  round 1.HalloweenGameplay.Traps.CornerWeb_Upper",
+      "hold": 5,
+      "pivot": [
+        2323.727783203125,
+        55.06689453125,
+        8330,
+        -1,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "path": "Workspace. Course -  round 1.HalloweenGameplay.Traps.CornerWeb_Lower",
+      "hold": 5,
+      "pivot": [
+        2989.216064453125,
+        56.06689453125,
+        8330,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "path": "Workspace. Course -  round 1.HalloweenGameplay.Traps.CornerWeb_Lower",
+      "hold": 5,
+      "pivot": [
+        2796.357177734375,
+        56.06689453125,
+        8330,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "path": "Workspace. Course -  round 1.HalloweenGameplay.Traps.CornerWeb_Lower",
+      "hold": 5,
+      "pivot": [
+        2796.357177734375,
+        -15.848594665527344,
+        8330,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ]
+    }
+  ],
+  "world": {
+    "hash": 3102243301,
+    "parts": 6629
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "B16",
+  "name": "Fossil Slugger",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Bats\\Originals\\b16-fossil-slugger.png",
+  "brief": "A recognisable long tapered baseball bat with a broad ivory fossil-bone barrel, three chunky tan rib-like rings fused around the upper barrel, dark navy collar and a dark brown wrapped grip. One simple embossed dinosaur footprint on the barrel, blunt rounded end, no skull, blades or spikes.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Blend\\b16-fossil-slugger.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\FBX\\b16-fossil-slugger.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Textures\\b16-fossil-slugger-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Bats\\Previews\\b16-fossil-slugger.png",
+  "parts": 17,
+  "triangles": 8204,
+  "meshes": 1,
+  "maxMeshTriangles": 8204,
+  "dimensions": [
+    0.7742580771446228,
+    0.7742580771446228,
+    3.611999988555908
+  ],
+  "boundsMin": [
+    -0.3871290385723114,
+    -0.3871290385723114,
+    -0.47200000286102295
+  ],
+  "boundsMax": [
+    0.3871290385723114,
+    0.3871290385723114,
+    3.140000104904175
+  ],
+  "paletteColors": 9,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.134999990463257
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.7742580771446228,
+    0.7742580771446228,
+    3.611999988555908
+  ]
+}

@@ -1,0 +1,1152 @@
+[
+  {
+    "index": 1,
+    "catalogId": "114756515400742",
+    "name": "[BEST] Dougie (Everybody Loves Me)",
+    "url": "https://www.roblox.com/catalog/114756515400742/BEST-Dougie-Everybody-Loves-Me",
+    "thumbnail": "rbxthumb://type=Asset&id=114756515400742&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "93650537970037",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "BAUBAU EMOTES",
+        "CreatorTargetId": 118866282,
+        "Id": 9136001255,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 5.666666507720947,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 2,
+    "catalogId": "137284968787523",
+    "name": "Street Glide",
+    "url": "https://www.roblox.com/catalog/137284968787523/Street-Glide",
+    "thumbnail": "rbxthumb://type=Asset&id=137284968787523&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "82378883639086",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "MocapAnimations",
+        "CreatorTargetId": 969306563,
+        "Id": 9185735511,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 56
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 9.733333587646484,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 3,
+    "catalogId": "134222090358172",
+    "name": "Money Hop Switch",
+    "url": "https://www.roblox.com/catalog/134222090358172/Money-Hop-Switch",
+    "thumbnail": "rbxthumb://type=Asset&id=134222090358172&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "132555082396072",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "MocapAnimations",
+        "CreatorTargetId": 969306563,
+        "Id": 9185735511,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 8.733333587646484,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 4,
+    "catalogId": "117302755748327",
+    "name": "Coffin Walkout",
+    "url": "https://www.roblox.com/catalog/117302755748327/Coffin-Walkout",
+    "thumbnail": "rbxthumb://type=Asset&id=117302755748327&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "126771729094882",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Voxelates",
+        "CreatorTargetId": 8401765,
+        "Id": 2032413429,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 6.9666666984558105,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 5,
+    "catalogId": "107010273569673",
+    "name": "The Tylil Dance [Kai Cenat Dance]",
+    "url": "https://www.roblox.com/catalog/107010273569673/The-Tylil-Dance-Kai-Cenat-Dance",
+    "thumbnail": "rbxthumb://type=Asset&id=107010273569673&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "110494040742516",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "hotsoupiee",
+        "CreatorTargetId": 520623444,
+        "Id": 520623444,
+        "HasVerifiedBadge": true,
+        "CreatorType": "User"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 9.600000381469727,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 6,
+    "catalogId": "135211326811898",
+    "name": "Scuba Trend",
+    "url": "https://www.roblox.com/catalog/135211326811898/Scuba-Trend",
+    "thumbnail": "rbxthumb://type=Asset&id=135211326811898&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "140349022227594",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Vistilo UGC",
+        "CreatorTargetId": 13994331,
+        "Id": 3295601489,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 8.254166603088379,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 7,
+    "catalogId": "112884830175040",
+    "name": "Take The L",
+    "url": "https://www.roblox.com/catalog/112884830175040/Take-The-L",
+    "thumbnail": "rbxthumb://type=Asset&id=112884830175040&w=420&h=420",
+    "assetTypeId": null,
+    "animationId": null,
+    "metadataStatus": "failed",
+    "resolveStatus": "unresolved",
+    "loadStatus": "unavailable",
+    "playable": false,
+    "available": false,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": null,
+      "isForSale": null,
+      "catalogPriceInRobux": null,
+      "error": "MarketplaceService:getProductInfo() failed because HTTP 400",
+      "retry": "MarketplaceService:GetProductInfoAsync HTTP400",
+      "officialItemLookup": "AvatarEditorService:GetItemDetailsAsync HTTP404"
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": null,
+      "animationTrackPlaying": false,
+      "preloadRequired": false
+    },
+    "nameSource": "user_supplied_url_unverified",
+    "notes": "Asset unavailable from both Roblox lookup APIs. AnimationId unresolved; do not sell or grant playback until a working replacement link is verified."
+  },
+  {
+    "index": 8,
+    "catalogId": "110827382619943",
+    "name": "Rollie (BEST LOOP)",
+    "url": "https://www.roblox.com/catalog/110827382619943/Rollie-BEST-LOOP",
+    "thumbnail": "rbxthumb://type=Asset&id=110827382619943&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "117558759116256",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "afterthefall",
+        "CreatorTargetId": 16288724,
+        "Id": 4046078573,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 10,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 9,
+    "catalogId": "133595410032960",
+    "name": "Out West - JACKBOYS & Travis Scott, ft. Young Thug",
+    "url": "https://www.roblox.com/catalog/133595410032960/Out-West-JACKBOYS-Travis-Scott-ft-Young-Thug",
+    "thumbnail": "rbxthumb://type=Asset&id=133595410032960&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "103687288237641",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "DyD Corporation",
+        "CreatorTargetId": 5005217,
+        "Id": 1134920061,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 6.833333492279053,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 10,
+    "catalogId": "115906496196760",
+    "name": "Haskell - Four Lokos Dance",
+    "url": "https://www.roblox.com/catalog/115906496196760/Haskell-Four-Lokos-Dance",
+    "thumbnail": "rbxthumb://type=Asset&id=115906496196760&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "105190540415890",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "uvvcanims",
+        "CreatorTargetId": 478998690,
+        "Id": 10846015795,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 6.449999809265137,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 11,
+    "catalogId": "77017926307035",
+    "name": "Griddy (BEST)",
+    "url": "https://www.roblox.com/catalog/77017926307035/Griddy-BEST",
+    "thumbnail": "rbxthumb://type=Asset&id=77017926307035&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "81913798511136",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "time()",
+        "CreatorTargetId": 32024264,
+        "Id": 4536853326,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 6.066666603088379,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 12,
+    "catalogId": "84110142550799",
+    "name": "Gangstar dance",
+    "url": "https://www.roblox.com/catalog/84110142550799/Gangstar-dance",
+    "thumbnail": "rbxthumb://type=Asset&id=84110142550799&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "93941266454007",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Diosep Store",
+        "CreatorTargetId": 12649528,
+        "Id": 2989615535,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 2.799999952316284,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 13,
+    "catalogId": "100951835636163",
+    "name": "Keep It Gangsta C Walk Hiphop",
+    "url": "https://www.roblox.com/catalog/100951835636163/Keep-It-Gangsta-C-Walk-Hiphop",
+    "thumbnail": "rbxthumb://type=Asset&id=100951835636163&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "92659655601730",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "idahk",
+        "CreatorTargetId": 204657620,
+        "Id": 8814452427,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 10,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 14,
+    "catalogId": "104940682593173",
+    "name": "Jabba Switchway",
+    "url": "https://www.roblox.com/catalog/104940682593173/Jabba-Switchway",
+    "thumbnail": "rbxthumb://type=Asset&id=104940682593173&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "78280967285254",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Tsukisora",
+        "CreatorTargetId": 470038920,
+        "Id": 10970257584,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 7.599999904632568,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 15,
+    "catalogId": "93450937830334",
+    "name": "Billy Bounce",
+    "url": "https://www.roblox.com/catalog/93450937830334/Billy-Bounce",
+    "thumbnail": "rbxthumb://type=Asset&id=93450937830334&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "119280135350752",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "3oj5's Group",
+        "CreatorTargetId": 34370518,
+        "Id": 6078562320,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 9.866666793823242,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 16,
+    "catalogId": "117119421748582",
+    "name": "Jamal Brazil Groove",
+    "url": "https://www.roblox.com/catalog/117119421748582/Jamal-Brazil-Groove",
+    "thumbnail": "rbxthumb://type=Asset&id=117119421748582&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "106865236633450",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Emote Shop",
+        "CreatorTargetId": 445492718,
+        "Id": 9134069822,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 2.866666555404663,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 17,
+    "catalogId": "100498935359536",
+    "name": "67",
+    "url": "https://www.roblox.com/catalog/100498935359536/67",
+    "thumbnail": "rbxthumb://type=Asset&id=100498935359536&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "108639244526475",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Lime Palace UGC",
+        "CreatorTargetId": 35483232,
+        "Id": 7853563544,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 10,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 18,
+    "catalogId": "110064349530772",
+    "name": "Orange Justice",
+    "url": "https://www.roblox.com/catalog/110064349530772/Orange-Justice",
+    "thumbnail": "rbxthumb://type=Asset&id=110064349530772&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "95127716920692",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Voxelates",
+        "CreatorTargetId": 8401765,
+        "Id": 2032413429,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 6.5,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 19,
+    "catalogId": "126353729413555",
+    "name": "Dab Steps",
+    "url": "https://www.roblox.com/catalog/126353729413555/Dab-Steps",
+    "thumbnail": "rbxthumb://type=Asset&id=126353729413555&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "104609460346094",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "MocapAnimations",
+        "CreatorTargetId": 969306563,
+        "Id": 9185735511,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 3.3333332538604736,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 20,
+    "catalogId": "80985588930231",
+    "name": "Creepin Dance",
+    "url": "https://www.roblox.com/catalog/80985588930231/Creepin-Dance",
+    "thumbnail": "rbxthumb://type=Asset&id=80985588930231&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "95428460379424",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Lost n' Found",
+        "CreatorTargetId": 35301389,
+        "Id": 7676347897,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 7.65500020980835,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 21,
+    "catalogId": "125328720114284",
+    "name": "Nervy Dance",
+    "url": "https://www.roblox.com/catalog/125328720114284/Nervy-Dance",
+    "thumbnail": "rbxthumb://type=Asset&id=125328720114284&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "90018336892195",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Emotes & Poses",
+        "CreatorTargetId": 916996979,
+        "Id": 9791276703,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 9.833333015441895,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 22,
+    "catalogId": "137234266130963",
+    "name": "MJ - P.Y.T. Pretty Young Thing",
+    "url": "https://www.roblox.com/catalog/137234266130963/MJ-P-Y-T-Pretty-Young-Thing",
+    "thumbnail": "rbxthumb://type=Asset&id=137234266130963&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "108374677470972",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Fr0styDias",
+        "CreatorTargetId": 3235422758,
+        "Id": 3235422758,
+        "HasVerifiedBadge": false,
+        "CreatorType": "User"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 3.7333333492279053,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 23,
+    "catalogId": "105248382902194",
+    "name": "Party Rock Anthem",
+    "url": "https://www.roblox.com/catalog/105248382902194/Party-Rock-Anthem",
+    "thumbnail": "rbxthumb://type=Asset&id=105248382902194&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "134459607456762",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "bopy/db emotes",
+        "CreatorTargetId": 431094684,
+        "Id": 9161265182,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 3.633333444595337,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 24,
+    "catalogId": "137057022541237",
+    "name": "Passinho do Jamal [BEST] [OG]",
+    "url": "https://www.roblox.com/catalog/137057022541237/Passinho-do-Jamal-BEST-OG",
+    "thumbnail": "rbxthumb://type=Asset&id=137057022541237&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "100468196980144",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "DyD Corporation",
+        "CreatorTargetId": 5005217,
+        "Id": 1134920061,
+        "HasVerifiedBadge": true,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 5.333333492279053,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 25,
+    "catalogId": "86411651121424",
+    "name": "Camden Bop",
+    "url": "https://www.roblox.com/catalog/86411651121424/Camden-Bop",
+    "thumbnail": "rbxthumb://type=Asset&id=86411651121424&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "134644266320983",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "IceMan Animations",
+        "CreatorTargetId": 35041000,
+        "Id": 7427685214,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 9.899999618530273,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 26,
+    "catalogId": "134311528115559",
+    "name": "how did he hit every beat",
+    "url": "https://www.roblox.com/catalog/134311528115559/how-did-he-hit-every-beat",
+    "thumbnail": "rbxthumb://type=Asset&id=134311528115559&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "136095999219650",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "nodanubu",
+        "CreatorTargetId": 1373757,
+        "Id": 1373757,
+        "HasVerifiedBadge": false,
+        "CreatorType": "User"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 3.6666667461395264,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 27,
+    "catalogId": "121644855433565",
+    "name": "One Hand Push Ups 💪 ",
+    "url": "https://www.roblox.com/catalog/121644855433565/One-Hand-Push-Ups",
+    "thumbnail": "rbxthumb://type=Asset&id=121644855433565&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "74800678690946",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Kursed Creations",
+        "CreatorTargetId": 34925558,
+        "Id": 7321112191,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 9.149999618530273,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 28,
+    "catalogId": "80923445784018",
+    "name": "Gangnam style",
+    "url": "https://www.roblox.com/catalog/80923445784018/Gangnam-style",
+    "thumbnail": "rbxthumb://type=Asset&id=80923445784018&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "131104967711844",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "UGC Emotеs",
+        "CreatorTargetId": 1016419226,
+        "Id": 9147348643,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 8.533333778381348,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 29,
+    "catalogId": "96843993997234",
+    "name": "Murda Bend Finn Dance",
+    "url": "https://www.roblox.com/catalog/96843993997234/Murda-Bend-Finn-Dance",
+    "thumbnail": "rbxthumb://type=Asset&id=96843993997234&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "90158235751747",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "The Best Animations",
+        "CreatorTargetId": 642599068,
+        "Id": 9145490585,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 9.660833358764648,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 30,
+    "catalogId": "3716636630",
+    "name": "Monkey",
+    "url": "https://www.roblox.com/catalog/3716636630/Monkey",
+    "thumbnail": "rbxthumb://type=Asset&id=3716636630&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "10714388352",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Roblox",
+        "CreatorTargetId": 1,
+        "Id": 1,
+        "HasVerifiedBadge": true,
+        "CreatorType": "User"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 6.632999897003174,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 31,
+    "catalogId": "96181123599016",
+    "name": "NLE Choppa - Demon ",
+    "url": "https://www.roblox.com/catalog/96181123599016/NLE-Choppa-Demon",
+    "thumbnail": "rbxthumb://type=Asset&id=96181123599016&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "133898543831391",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Lost n' Found",
+        "CreatorTargetId": 35301389,
+        "Id": 7676347897,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 8.758749961853027,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  },
+  {
+    "index": 32,
+    "catalogId": "76636280785091",
+    "name": "Brazilian Dance Viral Trend",
+    "url": "https://www.roblox.com/catalog/76636280785091/Brazilian-Dance-Viral-Trend",
+    "thumbnail": "rbxthumb://type=Asset&id=76636280785091&w=420&h=420",
+    "assetTypeId": 61,
+    "animationId": "138980897636026",
+    "metadataStatus": "verified",
+    "resolveStatus": "resolved",
+    "loadStatus": "verified_native_r15",
+    "playable": true,
+    "available": true,
+    "rigType": "R15",
+    "metadata": {
+      "source": "MarketplaceService:GetProductInfoAsync",
+      "creator": {
+        "Name": "Starsphere UGC",
+        "CreatorTargetId": 32779202,
+        "Id": 4837040984,
+        "HasVerifiedBadge": false,
+        "CreatorType": "Group"
+      },
+      "isForSale": true,
+      "catalogPriceInRobux": 48
+    },
+    "verification": {
+      "placeId": "95034648955135",
+      "studioMode": "Edit",
+      "exactExistingEmotesCapabilities": true,
+      "animationLengthSeconds": 5.5333333015441895,
+      "animationTrackPlaying": true,
+      "preloadRequired": false
+    },
+    "nameSource": "Roblox_product_metadata"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "ServerScriptService.BritishBulldogService.luau",
+    "exitCode": 0,
+    "output": "Compiled 1 KLOC into 55 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "file": "ServerScriptService.PlaygroundAdminService.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 8 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "file": "ServerScriptService.PlaygroundEconomyService.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 31 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "file": "ServerScriptService.PlaygroundEquipmentService.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 22 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "file": "StarterGui.PlaygroundAdminPanel.Controller.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 16 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "file": "AdminEconomyChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 12 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "file": "AdminUIBindingChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 11 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "file": "BatEffectsChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 4 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "file": "BulldogRagdollChecks.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 16 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  },
+  {
+    "file": "InstallAdminUI.luau",
+    "exitCode": 0,
+    "output": "Compiled 0 KLOC into 13 KB bytecode (read 0.00s, parse 0.00s, compile 0.00s)"
+  }
+]

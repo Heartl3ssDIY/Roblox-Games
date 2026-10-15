@@ -1,0 +1,11 @@
+Installed: StarterPlayer.StarterPlayerScripts.PlaygroundPets
+Backup: ServerStorage.PetAdminFix20261007.PlaygroundPetsBefore
+Root cause: Tool inherits Model. The global cartoon-outline scan called Tool:GetAttribute despite lacking Input capability, aborting pet initialization before follower updates connected.
+Fix: outline candidates require ClassName Model; locally held cosmetic priority checks the child model ancestry instead of invoking methods on the Tool.
+Capabilities: unchanged. No Input added.
+Edit sandbox verification: 121 assertions passed, using native instances and all 35 current pet templates.
+Coverage: actual Tool scan without Input; held cosmetic outline restoration; P01-P35 visible above floor and behind owner; remote follower; movement; round presence; map teleport; unequip/re-equip; respawn/death; distance culling/return; player removal.
+Local Luau compiler: passed.
+Source installed under exact before-source guard, exact after-source readback passed.
+Play was not started. Runtime multiplayer/device test remains outstanding.
+An initial failed fixture removed 65 existing managed outlines during cleanup. All 65 were restored from exact per-model PCOutline metadata, including enabled status and original PCCosmeticManaged=true. All properties verified and Workspace returned to its 160-Highlight baseline. Final saved fixture isolates its outline candidate set before testing and cleanup.

@@ -1,0 +1,193 @@
+{
+  "visual_meshes": [
+    {
+      "name": "JH_01_Ground_Part01",
+      "triangles": 52,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_02_Combat_Courtyard_Part01",
+      "triangles": 12,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_03_Stone_Walks_Part01",
+      "triangles": 2616,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_10_Hall_Bodies_Part01",
+      "triangles": 120,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_11_Timber_and_Screens_Part01",
+      "triangles": 8408,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_12_Tiled_Roofs_Part01",
+      "triangles": 11976,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_12_Tiled_Roofs_Part02",
+      "triangles": 9316,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_13_Shrine_Details_Part01",
+      "triangles": 368,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_14_Stairs_Part01",
+      "triangles": 108,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_20_Campus_Block_Part01",
+      "triangles": 24,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_21_Campus_Block_Trim_Part01",
+      "triangles": 4680,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_22_Campus_Block_Roof_Part01",
+      "triangles": 4820,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_24_Pagoda_Part01",
+      "triangles": 3580,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_25_Pagoda_Roofs_Part01",
+      "triangles": 11966,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_25_Pagoda_Roofs_Part02",
+      "triangles": 38,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_30_Enclosure_Walls_Part01",
+      "triangles": 72,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_31_Enclosure_Roofs_Part01",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_31_Enclosure_Roofs_Part02",
+      "triangles": 11976,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_31_Enclosure_Roofs_Part03",
+      "triangles": 5384,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_32_Entry_Gate_Part01",
+      "triangles": 2360,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_33_Lanterns_Part01",
+      "triangles": 816,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_34_Training_Props_Part01",
+      "triangles": 336,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_40_Tree_Trunks_Part01",
+      "triangles": 11356,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_41_Tree_Canopies_Part01",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_41_Tree_Canopies_Part02",
+      "triangles": 7040,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_41_Tree_Canopies_Part03",
+      "triangles": 12000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_41_Tree_Canopies_Part04",
+      "triangles": 7040,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_42_Garden_Planting_Part01",
+      "triangles": 2928,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "JH_43_Garden_Stones_Part01",
+      "triangles": 120,
+      "uv": true,
+      "zero_area_triangles": 0
+    }
+  ],
+  "combat_bounds": [
+    -32,
+    32,
+    -32,
+    32
+  ],
+  "combat_surface_height": 0.05,
+  "collision_meshes": 54,
+  "studio_import_tested": false,
+  "courtyard_dimensions": [
+    80,
+    116
+  ],
+  "triangles": 143512,
+  "combat_area_obstructions": []
+}

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"backup\":\"ServerStorage.RightSprintBackup20261008\",\"changed\":{\"1\":\"StarterGui.BritishBulldogHUD.MobileSprint\",\"8\":\"StarterGui.MudHUD.Main.Controls.Fire\",\"3\":\"StarterGui.MudHUD.Main.MobileSprint\",\"2\":\"StarterGui.TagHUD.MobileSprint\",\"5\":\"StarterGui.PlaygroundPushControls.MobilePush\",\"4\":\"StarterGui.PlaygroundBatControls.Swing\",\"7\":\"StarterGui.MudHUD.Main.Controls.Heat\",\"6\":\"StarterGui.MudHUD.Main.Controls.Mud\"}}"
+    }
+  ],
+  "isError": false
+}

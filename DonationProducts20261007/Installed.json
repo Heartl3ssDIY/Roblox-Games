@@ -1,0 +1,73 @@
+{
+  "passes": [
+    {
+      "id": 2016470307,
+      "baseRobux": 799,
+      "name": "VIP"
+    },
+    {
+      "id": 2014580485,
+      "baseRobux": 249,
+      "name": "DoubleCoins"
+    },
+    {
+      "id": 2013962477,
+      "baseRobux": 199,
+      "name": "DoubleXP"
+    }
+  ],
+  "universeId": 10769034155,
+  "products": [
+    {
+      "id": 3717139252,
+      "baseRobux": 49,
+      "name": "Coin5000",
+      "coins": 5000
+    },
+    {
+      "id": 3717139576,
+      "baseRobux": 99,
+      "name": "Coin10000",
+      "coins": 10000
+    },
+    {
+      "id": 3717139651,
+      "baseRobux": 249,
+      "name": "Coin25000",
+      "coins": 25000
+    },
+    {
+      "id": 3717139714,
+      "baseRobux": 499,
+      "name": "Coin50000",
+      "coins": 50000
+    },
+    {
+      "id": 3717139770,
+      "baseRobux": 999,
+      "name": "Coin100000",
+      "coins": 100000
+    },
+    {
+      "id": 3717139873,
+      "baseRobux": 50,
+      "name": "Donation50"
+    },
+    {
+      "id": 3717139915,
+      "baseRobux": 100,
+      "name": "Donation100"
+    },
+    {
+      "id": 3717139945,
+      "baseRobux": 250,
+      "name": "Donation250"
+    },
+    {
+      "id": 3717140010,
+      "baseRobux": 1000,
+      "name": "Donation1000"
+    }
+  ],
+  "edit": true
+}

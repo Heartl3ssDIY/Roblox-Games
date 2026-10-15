@@ -1,0 +1,61 @@
+LEADERBOARD - CLEAN REUSABLE PARTS
+
+PNG/ contains eight independent transparent background/frame assets:
+- board-background: the empty cream master background.
+- header-background: the empty glossy blue title bar.
+- player-row: ONE reusable empty row for every player.
+- avatar-border: a hollow border with a genuinely transparent centre.
+- rank-gold, rank-silver, rank-bronze: first/second/third place backgrounds.
+- rank-fourth-onwards: one dark background for every remaining position.
+
+Figma-DragDrop/ contains editable vector versions of those eight blank parts.
+Drag these directly into Figma. No plugin or developer mode is needed, and
+there is no live SVG text to misalign. Names, levels, rank numbers, stars,
+question marks and avatar placeholders are not baked into these components.
+
+Icons/ contains the NEW blue faceted leaderboard star as transparent PNGs:
+256px, 512px and the full-resolution original. There is no SVG star.
+It is a different design from the previous rounded gold level star.
+The star was generated separately with the built-in image-generation tool.
+Prompt direction: single sharp five-point icy cyan/silver-blue crystal star,
+chunky dark navy outline, broad glossy cel-shaded facets, small white highlight,
+transparent background, no lettering, particles, circle or backing badge.
+
+Optional-Fixed-Header/ contains PNG-only fixed wording:
+- highest-level-lettering.png: text alone on transparency.
+- header-highest-level.png: blue header plus the same wording, without the star.
+The wording is HIGHEST LEVEL / ALL TIME · TOP 10. These are optional; the main
+header remains blank. The lettering PNG avoids font changes during Figma import.
+
+ASSEMBLY
+The original reference canvas is 720x1000. Component logical sizes match the
+source master: header 684x128, row 672x67, avatar border 53x53, rank badge 47x47.
+Most PNGs are exported at 4x; large parts are capped at a 2048px longest edge.
+Use the pixel dimensions recorded in Source/AssetManifest.json when needed.
+Layout-Notes.json records the original spacing and useful overlay positions.
+
+Duplicate the row component inside your scrolling list. Add native labels for
+rank, player name and level. Put the live avatar viewport beneath avatar-border.
+Rank badges are blank so the number can update independently. Use the dark
+badge for 4, 5, 6 and all following positions. No repeated row images are needed.
+The pack supplies art assets, not leaderboard data or scrolling behaviour.
+
+Use ScaleType=Fit for fixed-shape images when preserving their proportions.
+Resizable/ contains optional smooth backgrounds for flexible UI sizes.
+Only those 512x320 PNGs use these nine-slice settings:
+  ScaleType = Slice
+  SliceCenter = Rect.new(88,88,424,232)
+  SliceScale = 0.25
+The cream row and board resizable skins share the same appearance; either can
+be reused for both. Keep rank badges and the star square rather than stretching.
+
+Assembly-Preview.png shows the parts placed together. It is a reference only;
+use the separate files for importing. Parts-Preview.png labels each component,
+but those captions and its grey background are not included in the artwork.
+
+CHECKS
+Individual assets were checked for visible artwork and transparent alpha.
+The avatar-border centre was explicitly checked to be transparent.
+The eight Figma import SVGs contain no text or embedded images.
+The assembled example was visually reviewed. Live Figma/Studio behaviour has
+not been tested. The supplied LeaderboardMaster.svg was left untouched.

@@ -1,0 +1,39 @@
+G-BLOX UI REFRESH — FIRST DESIGN CONCEPT
+30 September 2026
+
+START HERE
+Open G-Blox-UI-preview.png to compare the four layouts.
+Desktop: Shop and Inventory, 1440 x 900.
+Phone: Shop and Inventory in landscape, 844 x 390.
+ui-kit.svg contains the matching buttons, tabs, state labels and vector icons.
+
+EDITABLE SOURCE
+The five .svg files contain separate SVG text, paths and named groups, not flattened screenshots. They include the existing Press Start 2P pixel font for browser preview. Text remains text in these source files. How imported text behaves depends on the editor and installed fonts.
+
+These are SVG mockups, not native Figma component sets or Auto Layout frames. Direct Figma authoring was blocked by the account's Starter-plan MCP limit. Your original Figma file was only inspected and was not changed. An empty draft file was created before the limit was reached; it does not contain these designs.
+
+You can import the SVG files into Figma for review and vector editing. A later native Figma pass can rebuild the final approved version as components and Auto Layout frames when tool access is available.
+
+DESIGN DIRECTION
+- Keep the established blue, grey, teal and pixel-font identity.
+- Use quieter navy panels behind content and keep texture in the header.
+- Separate item art, names, descriptions, prices and interaction states.
+- Use consistent cyan purchase actions and distinct outlined secondary actions.
+- Show effect, cooldown and remaining full-game charges in the ability detail panel.
+- Reflow for phone landscape; do not simply shrink the desktop screen.
+- Vector icons are original concept replacements for review, not copies of the existing asset pack.
+
+SAMPLE DATA / SCOPE
+Wallet values and inventory ownership are example preview data, not the user's live balances.
+The game-pass prices follow the supplied values. Roblox's purchase confirmation remains the authority for current price.
+Only the visible Game Passes and Abilities tabs are mocked up. Other tabs are navigation placeholders, not completed screens.
+No purchase buttons are connected in these design files. No game logic, Studio objects, publishing or original Figma artwork was changed.
+
+IMPLEMENTATION HANDOFF
+If this direction is approved, build the in-game layouts as editable ScreenGui templates in StarterGui. Keep prices, labels, timers and states as real UI text; scripts should bind behaviour and data without overwriting authored layout.
+The single-charge rule applies to a full match after the first activation, not to each round. Abilities retain their own cooldown or once-per-round rule.
+
+VALIDATION
+All five SVGs rendered successfully with the pixel font.
+No embedded raster images and no text outside the SVG canvas.
+Desktop and phone layouts were visually reviewed and phone spacing/text/buttons refined.

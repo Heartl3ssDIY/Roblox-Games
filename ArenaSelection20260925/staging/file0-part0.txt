@@ -1,0 +1,151 @@
+local PlayerData = {}
+
+local changed = Instance.new("BindableEvent")
+PlayerData.Changed = changed.Event
+local function fire() changed:Fire() end
+
+local state = {
+	coins = 1000,
+	gems = 100,
+	masteryChips = 0,
+
+	level = 1,
+	xp = 0,
+
+	arenaProgress = {
+		["Tenkaichi"] = { points = 0, wins = 0, losses = 0 },
+	},
+
+	claimedMilestones = { ["Tenkaichi"] = {} },
+
+	unitUnlock = {
+		Bluma = "locked",
+		Pikkolo = "locked",
+	},
+
+	unitLevels = {},
+	unitXp = {},
+	unitLocks = {},
+
+	masteryPoints = {},
+
+	claimedLevels = {},
+
+	packInventory = { bronze = 0, silver = 0, gold = 0 },
+
+	dailyWin = { windowStart = 0, winsThisWindow = 0 },
+}
+
+local POINTS_PER_WIN = 10
+local POINTS_PER_LOSS = -10
+
+local MASTERY_THRESHOLD = { Common = 40, Rare = 60, Epic = 80, Legendary = 100 }
+local MASTERY_PER_MATCH = 10
+local ARENA_MILESTONES = {
+	["Tenkaichi"] = {
+		{ points = 20,  reward = { coins = 1000 } },
+		{ points = 40,  unlockUnit = "Bluma" },
+		{ points = 80,  reward = { gems = 10 } },
+		{ points = 100, unlockUnit = "Pikkolo" },
+	},
+}
+
+function PlayerData.xpForLevel(level: number): number
+
+	return math.floor(100 * (1.25 ^ (level - 1)) + 0.5)
+end
+
+function PlayerData.get(key: string) return state[key] end
+function PlayerData.coins() return state.coins end
+function PlayerData.gems() return state.gems end
+function PlayerData.masteryChips() return state.masteryChips end
+function PlayerData.level() return state.level end
+function PlayerData.xp() return state.xp end
+function PlayerData.xpNeeded() return PlayerData.xpForLevel(state.level) end
+
+function PlayerData.unitLevel(id: string): number
+	return state.unitLevels[id] or 1
+end
+function PlayerData.unitXp(id: string): number
+	return state.unitXp[id] or 0
+end
+function PlayerData.masteryFor(id: string): number
+	return state.masteryPoints[id] or 0
+end
+function PlayerData.arenaWins(arena: string): number
+	local prog = state.arenaProgress[arena]
+	return prog and prog.wins or 0
+end
+
+function PlayerData.addCoins(n: number) state.coins = math.max(0, state.coins + n); fire() end
+function PlayerData.addGems(n: number) state.gems = math.max(0, state.gems + n); fire() end
+function PlayerData.addMasteryChips(n: number) state.masteryChips = math.max(0, state.masteryChips + n); fire() end
+function PlayerData.spendCoins(n: number): boolean
+	if state.coins < n then return false end
+	state.coins -= n; fire(); return true
+end
+function PlayerData.spendGems(n: number): boolean
+	if state.gems < n then return false end
+	state.gems -= n; fire(); return true
+end
+
+function PlayerData.addXp(n: number): number
+	state.xp += n
+	local gained = 0
+	while state.xp >= PlayerData.xpForLevel(state.level) do
+		state.xp -= PlayerData.xpForLevel(state.level)
+		state.level += 1
+		gained += 1
+	end
+	fire()
+	return gained
+end
+
+function PlayerData.recordResult(arena: string, won: boolean)
+	local prog = state.arenaProgress[arena]
+	if not prog then prog = { points = 0, wins = 0, losses = 0 }; state.arenaProgress[arena] = prog end
+	local claimed = state.claimedMilestones[arena]
+	if not claimed then claimed = {}; state.claimedMilestones[arena] = claimed end
+
+	local before = prog.points
+	if won then prog.wins += 1 else prog.losses += 1 end
+	prog.points = math.clamp(prog.points + (won and POINTS_PER_WIN or POINTS_PER_LOSS), 0, 100)
+	if prog.points >= 100 then prog.completed = true end
+	local after = prog.points
+
+	local result = {
+		points = after, delta = after - before, won = won,
+		wins = prog.wins, losses = prog.losses,
+		coinsAwarded = 0, gemsAwarded = 0, unlockedUnits = {},
+	}
+
+	local milestones = ARENA_MILESTONES[arena]
+	if milestones and after > before then
+		for _, ms in ipairs(milestones) do
+			if after >= ms.points and not claimed[ms.points] then
+				claimed[ms.points] = true
+				if ms.reward then
+					if ms.reward.coins then state.coins += ms.reward.coins; result.coinsAwarded += ms.reward.coins end
+					if ms.reward.gems then state.gems += ms.reward.gems; result.gemsAwarded += ms.reward.gems end
+				end
+				if ms.unlockUnit then
+
+					if state.unitUnlock[ms.unlockUnit] ~= "owned" then
+						state.unitUnlock[ms.unlockUnit] = "unlockable"
+					end
+					table.insert(result.unlockedUnits, ms.unlockUnit)
+				end
+			end
+		end
+	end
+
+	fire()
+	return result
+end
+
+function PlayerData.arenaProgress(arena: string)
+	local prog = state.arenaProgress[arena] or { points = 0, wins = 0, losses = 0 }
+	return {
+		points = prog.points, wins = prog.wins, losses = prog.losses,
+		milestones = ARENA_MILESTONES[arena] or {},
+        progressWins = prog.points / POINTS

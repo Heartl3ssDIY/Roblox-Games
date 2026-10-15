@@ -1,0 +1,7 @@
+User-supplied fishing reward icons, received 7 October 2026.
+
+boost-2x-coins.png — gold/green bottle labelled 2x CASH; use for the 2x coins boost.
+boost-2x-xp.png — purple/cyan bottle labelled 2x XP; use for the 2x XP boost.
+
+Preserve these original PNGs. These are UI reward icons, not requests for physical potion models.
+Pond fishing and temporary boost activation remain deferred. Duration, drop chances, and interaction with permanent VIP/game-pass boosts are not yet specified.

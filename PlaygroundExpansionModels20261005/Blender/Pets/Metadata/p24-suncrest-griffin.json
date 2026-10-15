@@ -1,0 +1,54 @@
+{
+  "id": "P24",
+  "name": "Suncrest Griffin",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p24-suncrest-griffin.png",
+  "brief": "A chubby baby griffin with a cream eagle head, chunky golden beak, small swept-back gold head feathers, caramel lion body, stout golden front talons and rounded lion rear paws. Two attached compact navy-and-gold feathered wings and a curled lion tail. Proud friendly face, no crown.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p24-suncrest-griffin.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p24-suncrest-griffin.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p24-suncrest-griffin-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p24-suncrest-griffin.png",
+  "parts": 101,
+  "triangles": 40748,
+  "meshes": 3,
+  "maxMeshTriangles": 18984,
+  "dimensions": [
+    3.0867221355438232,
+    3.501655101776123,
+    3.252523422241211
+  ],
+  "boundsMin": [
+    -1.5433610677719116,
+    -1.5968393087387085,
+    0.12999999523162842
+  ],
+  "boundsMax": [
+    1.5433610677719116,
+    1.9048157930374146,
+    3.38252329826355
+  ],
+  "paletteColors": 9,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "FrontLegL",
+    "FrontLegR",
+    "BackLegL",
+    "BackLegR",
+    "WingL",
+    "WingR",
+    "Tail"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    3.086721897125244,
+    3.501655101776123,
+    3.252523422241211
+  ]
+}

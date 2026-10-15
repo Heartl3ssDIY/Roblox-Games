@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"error\":\"The current thread cannot start 'EquipmentUnderTest' (lacking capability RunServerScript)\\nAssistantCommand:19\\nAssistantCommand:15\\n\",\"playStarted\":false,\"fixtureDestroyed\":true,\"passed\":false,\"mode\":\"Edit\",\"generatedAt\":\"2026-10-04T18:20:42Z\",\"checks\":[]}"
+    }
+  ],
+  "isError": false
+}

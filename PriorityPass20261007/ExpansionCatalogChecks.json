@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"maxPrice\":50000,\"existingCoinsTripled\":50,\"maxLevel\":500,\"newIcons\":35,\"newItems\":35,\"unchangedRewardEntries\":31,\"passed\":true,\"pendingToys\":10}"
+    }
+  ],
+  "isError": false
+}

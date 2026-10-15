@@ -1,0 +1,13 @@
+{
+  "reason": "Studio image deliveries timed out; assigned assets still exist and match the game owner. No image IDs were removed by coin pickup changes.",
+  "assets": [
+    "117403446558356",
+    "90528629970043",
+    "84589903135132",
+    "93628261371705",
+    "80217215544210"
+  ],
+  "studioFetch": "Enum.AssetFetchStatus.Failure",
+  "testedAlternatives": "Canonical HTTPS URLs, fixed first-version URL, original panel variants also failed; artwork asset IDs retained.",
+  "plan": "Authored native panel/button backgrounds shown only while their PNG is not loaded. CoinPickupPopup excluded."
+}

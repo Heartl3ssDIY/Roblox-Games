@@ -1,0 +1,53 @@
+{
+  "id": "SA09",
+  "name": "Black pencil - pink eraser",
+  "bodies": [
+    {
+      "id": "SA09_B01",
+      "asset_id": "SA09",
+      "asset": "Black pencil - pink eraser",
+      "label": "Black pencil - pink eraser",
+      "kind": "pickup",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            -0.033260274678468704,
+            -0.09456504136323929,
+            0.0059999823570251465
+          ],
+          "size": [
+            0.06652054935693741,
+            0.18913008272647858,
+            0.010099999606609344
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.06652054935693741,
+          -0.18913008272647858,
+          0.0009499825537204742
+        ],
+        "max": [
+          -8.149072527885437e-10,
+          6.752088665962219e-09,
+          0.011049982160329819
+        ]
+      }
+    }
+  ],
+  "mesh_count": 6,
+  "triangles": 1228,
+  "file": "SA09_Black_pencil_pink_eraser.gltf"
+}

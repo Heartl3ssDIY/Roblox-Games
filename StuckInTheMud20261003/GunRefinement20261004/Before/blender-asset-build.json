@@ -1,0 +1,57 @@
+{
+  "scene": "StuckInTheMud_Guns20261003",
+  "userScenePreserved": "Scene",
+  "userFilepathPreserved": true,
+  "coordinateConvention": "Blender X right, -Y muzzle forward, Z up; Roblox X right, -Z muzzle forward, Y up",
+  "MudGun": {
+    "meshObjects": 42,
+    "boundsBlender": [
+      [
+        -3.0369999408721924,
+        -2.629999876022339,
+        -0.8600000143051147
+      ],
+      [
+        -1.2630001306533813,
+        0.9980425834655762,
+        2.990000009536743
+      ]
+    ],
+    "dimensionsBlender": [
+      1.773999810218811,
+      3.628042459487915,
+      3.850000023841858
+    ]
+  },
+  "HeatGun": {
+    "meshObjects": 47,
+    "boundsBlender": [
+      [
+        1.2875001430511475,
+        -2.5924999713897705,
+        -0.8600000143051147
+      ],
+      [
+        3.012500047683716,
+        0.9980425834655762,
+        2.9800000190734863
+      ]
+    ],
+    "dimensionsBlender": [
+      1.7249999046325684,
+      3.5905425548553467,
+      3.840000033378601
+    ]
+  },
+  "muzzleBlender": [
+    0,
+    -2.65,
+    1
+  ],
+  "muzzleRoblox": [
+    0,
+    1,
+    -2.65
+  ],
+  "output": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\StuckInTheMud20261003"
+}

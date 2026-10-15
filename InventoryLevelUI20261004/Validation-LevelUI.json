@@ -1,0 +1,74 @@
+{
+  "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+  "checks": [
+    {
+      "name": "Loading profile never announces and displays loading state",
+      "passed": true
+    },
+    {
+      "name": "Already-loaded rejoin uses a silent current-level baseline",
+      "passed": true
+    },
+    {
+      "name": "Ready flag before missing level waits for a valid baseline",
+      "passed": true
+    },
+    {
+      "name": "A genuine level increase announces only once",
+      "passed": true
+    },
+    {
+      "name": "Batched multi-level gain announces the latest level",
+      "passed": true
+    },
+    {
+      "name": "New level supersedes pending notice and stale fade cannot hide it",
+      "passed": true
+    },
+    {
+      "name": "Loading reset hides old notice and establishes a fresh silent baseline",
+      "passed": true
+    },
+    {
+      "name": "Lower or repeated level values never replay an old announcement",
+      "passed": true
+    },
+    {
+      "name": "XP clamps safely and the visible reusable fill matches its progress gradient",
+      "passed": true
+    },
+    {
+      "name": "Cleanup stops connections, tweens and delayed notice callbacks",
+      "passed": true
+    },
+    {
+      "name": "Editable notification uses the existing skin and outside contextual text outlines",
+      "passed": true
+    },
+    {
+      "name": "Exact live capability set used and Play remains stopped",
+      "passed": true
+    }
+  ],
+  "sandboxed": true,
+  "passed": true,
+  "playStarted": false,
+  "fixtureDestroyed": true,
+  "generatedAt": "2026-10-04T20:50:31Z",
+  "mode": "Edit",
+  "uiInstall": {
+    "backup": "ServerStorage.InventoryLevelUIBackups20261004.LevelUIInitial",
+    "changed": {
+      "1": "StarterGui.PlaygroundShell.LevelPanel",
+      "2": "StarterGui.PlaygroundShell.CompactLevelPanel",
+      "3": "StarterGui.PlaygroundShell.LevelUpNotice"
+    },
+    "sourceChanged": false
+  },
+  "sourceDeployed": false,
+  "xpFillVerified": [
+    0,
+    0.16,
+    1
+  ]
+}

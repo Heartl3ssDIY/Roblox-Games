@@ -1,0 +1,14 @@
+{
+  "name": "RankingEmotesReady",
+  "file_path": "game.ServerScriptService.RankingEmotes",
+  "edits": [
+    {
+      "old_string": "local profiles={}",
+      "new_string": "local profiles={}\nlocal animationReadyHandler\nfunction Emotes.SetAnimationReadyHandler(handler)\n assert(handler==nil or typeof(handler)==\"function\",\"Expected an animation-ready callback\")\n animationReadyHandler=handler\nend"
+    },
+    {
+      "old_string": "     option.animationId=id -- Existing inter-round viewport previews use this.",
+      "new_string": "     option.animationId=id -- Existing inter-round viewport previews use this.\n     if id and profile.selected==option.key and animationReadyHandler then\n      animationReadyHandler(player,option.key,id)\n     end"
+    }
+  ]
+}

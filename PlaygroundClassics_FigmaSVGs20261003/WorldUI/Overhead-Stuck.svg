@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="50" viewBox="-4 -4 178 50">
+  <title>Overhead-Stuck</title>
+  <desc>Editable SVG exported read-only from Roblox Studio. All label text remains live text. Named groups preserve authored UI layers. Surface host color is included as an editable backplate; scene lighting is omitted.</desc>
+  <metadata>{"source": "ReplicatedStorage.MudAssets.MuddyTemplate", "locator": "ReplicatedStorage[1]/MudAssets[1]/MuddyTemplate[1]", "enabled": false, "canvas": [170, 42], "fontSizeResolution": "Installed Roblox TrueType advance widths with integer size fitting"}</metadata>
+  <g id="MuddyTemplate" data-source-enabled="false">
+    <g id="Card-1" data-native-name="Card" data-native-class="Frame" data-native-visible="true">
+      <title>Card</title>
+      <rect id="Background-1" x="0" y="0" width="170" height="42" rx="12" fill="#fffae2" fill-opacity="1" />
+      <rect id="Outline-1" x="0" y="0" width="170" height="42" rx="12" fill="none" stroke="#18233e" stroke-width="3" stroke-opacity="1" stroke-linejoin="round" />
+      <g id="Title-2" data-native-name="Title" data-native-class="TextLabel" data-native-visible="true">
+        <title>Title</title>
+        <text id="EditableText-2" font-family="Luckiest Guy" font-size="30" font-weight="400" font-style="normal" fill="#a16c3e" fill-opacity="1" text-anchor="middle" xml:space="preserve" data-roblox-font-family="rbxasset://fonts/families/LuckiestGuy.json" data-native-text-scaled="true"><tspan x="85" y="30.6">STUCK!</tspan></text>
+      </g>
+    </g>
+  </g>
+  <metadata id="playground-text-layers">{"version": 1, "texts": [{"name": "Title", "text": "STUCK!", "x": 11.0, "y": 10.0, "width": 156.0, "height": 30, "fontFamily": "Luckiest Guy", "fontSize": 30, "color": "#a16c3e", "opacity": 1.0, "strokeColor": null, "strokeWidth": 0.0, "strokeOpacity": 0.0, "align": "CENTER"}]}</metadata>
+</svg>

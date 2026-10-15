@@ -1,0 +1,54 @@
+{
+  "id": "M22",
+  "name": "Whoopee Whump",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m22-whoopee-whump.png",
+  "brief": "One plump bright coral-red whoopee cushion, round flattened rubber body with a thick broad dark-red edge seam and a short attached neck valve at the top. A large cream comic puff-cloud symbol embossed on the front, no writing. Three-quarter view makes its inflated thickness clear. No actual gas cloud.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m22-whoopee-whump.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m22-whoopee-whump.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m22-whoopee-whump-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m22-whoopee-whump.png",
+  "parts": 6,
+  "triangles": 9144,
+  "meshes": 1,
+  "maxMeshTriangles": 9144,
+  "dimensions": [
+    1.6119999885559082,
+    0.5995000004768372,
+    1.9399725198745728
+  ],
+  "boundsMin": [
+    -0.8059999942779541,
+    -0.3244999945163727,
+    0.08399999141693115
+  ],
+  "boundsMax": [
+    0.8059999942779541,
+    0.2750000059604645,
+    2.023972511291504
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.800000011920929
+    ],
+    "Valve": [
+      -0.30000001192092896,
+      0.0,
+      1.9800000190734863
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.6119999885559082,
+    0.5995000004768372,
+    1.9310210943222046
+  ]
+}

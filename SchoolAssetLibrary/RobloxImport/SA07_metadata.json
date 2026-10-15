@@ -1,0 +1,53 @@
+{
+  "id": "SA07",
+  "name": "Staff 02 - Curved tub chair",
+  "bodies": [
+    {
+      "id": "SA07_B01",
+      "asset_id": "SA07",
+      "asset": "Staff 02 - Curved tub chair",
+      "label": "Staff 02 - Curved tub chair",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.03749999403953552,
+            0.4380109906196594
+          ],
+          "size": [
+            0.8599997162818909,
+            0.7649999856948853,
+            0.8760219812393188
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.42999985814094543,
+          -0.3449999988079071,
+          0.0
+        ],
+        "max": [
+          0.42999985814094543,
+          0.41999998688697815,
+          0.8760219812393188
+        ]
+      }
+    }
+  ],
+  "mesh_count": 7,
+  "triangles": 11748,
+  "file": "SA07_Staff_02_Curved_tub_chair.gltf"
+}

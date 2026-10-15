@@ -1,0 +1,59 @@
+{
+  "allPassed": true,
+  "batches": 6,
+  "meshes": 266,
+  "triangles": 271619,
+  "checks": [
+    "FBX binary file parse",
+    "all geometry names equal manifest",
+    "all triangle and vertex counts equal manifest",
+    "every face triangulated",
+    "every mesh<=9000 triangles",
+    "every batch<=50 MiB",
+    "all relative texture references resolve"
+  ],
+  "reports": [
+    {
+      "file": "16_Outer_Gardens_Forests_01_RETRY_A.fbx",
+      "geometryCount": 64,
+      "triangles": 54912,
+      "bytes": 2237868,
+      "passed": true
+    },
+    {
+      "file": "16_Outer_Gardens_Forests_01_RETRY_B.fbx",
+      "geometryCount": 64,
+      "triangles": 57787,
+      "bytes": 2251532,
+      "passed": true
+    },
+    {
+      "file": "16_Outer_Gardens_Forests_01_RETRY_C.fbx",
+      "geometryCount": 64,
+      "triangles": 39948,
+      "bytes": 1960172,
+      "passed": true
+    },
+    {
+      "file": "16_Outer_Gardens_Forests_01_RETRY_D.fbx",
+      "geometryCount": 58,
+      "triangles": 68172,
+      "bytes": 2835420,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Torii_01_01_RETRY_A.fbx",
+      "geometryCount": 8,
+      "triangles": 2464,
+      "bytes": 145836,
+      "passed": true
+    },
+    {
+      "file": "14_60_ArenaPortals_Torii_01_01_RETRY_B.fbx",
+      "geometryCount": 8,
+      "triangles": 48336,
+      "bytes": 1563132,
+      "passed": true
+    }
+  ]
+}

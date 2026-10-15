@@ -1,0 +1,370 @@
+{
+  "mode": "Read-only Studio Edit audit; no source, GUI, or model mutations",
+  "place": {
+    "id": "95034648955135",
+    "owner": "1201803949",
+    "ownerName": "SandboxxYY"
+  },
+  "previewSystem": "Shop cards already use imported 3D models in ViewportFrames. The catalog has no external item thumbnail URLs.",
+  "catalogItems": 50,
+  "missingCatalogModels": 0,
+  "meshFetchFailures": 0,
+  "itemTextureFailures": [
+    {
+      "id": "M01",
+      "part": "m01-playground-football.001",
+      "texture": "rbxassetid://100539330226546",
+      "mesh": "rbxassetid://86791073365564"
+    },
+    {
+      "id": "M02",
+      "part": "m02-playground-basketball.001",
+      "texture": "rbxassetid://125246073050419",
+      "mesh": "rbxassetid://81752272427130"
+    },
+    {
+      "id": "B01",
+      "part": "b01-starter-slugger.001",
+      "texture": "rbxassetid://123507196566157",
+      "mesh": "rbxassetid://88021769484443"
+    },
+    {
+      "id": "B02",
+      "part": "b02-schoolyard-alloy.001",
+      "texture": "rbxassetid://79252676101716",
+      "mesh": "rbxassetid://119415605380578"
+    },
+    {
+      "id": "B04",
+      "part": "b04-street-cone.001",
+      "texture": "rbxassetid://130506580988262",
+      "mesh": "rbxassetid://129049140490974"
+    },
+    {
+      "id": "B07",
+      "part": "b07-heat-coil.001",
+      "texture": "rbxassetid://93668124136868",
+      "mesh": "rbxassetid://135893960365771"
+    },
+    {
+      "id": "B10",
+      "part": "b10-pixel-party.001",
+      "texture": "rbxassetid://126253255507136",
+      "mesh": "rbxassetid://121780590054021"
+    },
+    {
+      "id": "P20",
+      "part": "p20-royal-slime.001",
+      "texture": "rbxassetid://132401412990527",
+      "mesh": "rbxassetid://119366056220439"
+    },
+    {
+      "id": "P07",
+      "part": "p07-teapot-frog.001",
+      "texture": "rbxassetid://85281732022508",
+      "mesh": "rbxassetid://103495881382797"
+    },
+    {
+      "id": "P10",
+      "part": "p10-cloud-sheep.001",
+      "texture": "rbxassetid://78625250050574",
+      "mesh": "rbxassetid://114140861145578"
+    },
+    {
+      "id": "P15",
+      "part": "p15-marshmallow-dragon.001",
+      "texture": "rbxassetid://74275313124140",
+      "mesh": "rbxassetid://93294807992363"
+    },
+    {
+      "id": "M06",
+      "part": "m06-spring-sip.001",
+      "texture": "rbxassetid://109681254778872",
+      "mesh": "rbxassetid://139156720908611"
+    },
+    {
+      "id": "M14",
+      "part": "m14-camp-torch.001",
+      "texture": "rbxassetid://124360132175805",
+      "mesh": "rbxassetid://110235880298287"
+    },
+    {
+      "id": "M03",
+      "part": "m03-foam-bonker.001",
+      "texture": "rbxassetid://80407469243731",
+      "mesh": "rbxassetid://111959832396114"
+    },
+    {
+      "id": "M13",
+      "part": "m13-cake-toss.001",
+      "texture": "rbxassetid://76340836984351",
+      "mesh": "rbxassetid://114272234567020"
+    },
+    {
+      "id": "M07",
+      "part": "m07-ember-elixir.001",
+      "texture": "rbxassetid://117206150581635",
+      "mesh": "rbxassetid://74081339871321"
+    },
+    {
+      "id": "M11",
+      "part": "m11-paint-splash.001",
+      "texture": "rbxassetid://77523691277614",
+      "mesh": "rbxassetid://77246360828411"
+    },
+    {
+      "id": "M10",
+      "part": "m10-frost-ray.001",
+      "texture": "rbxassetid://80228313711945",
+      "mesh": "rbxassetid://113654622017148"
+    },
+    {
+      "id": "M15",
+      "part": "m15-bounce-pad.001",
+      "texture": "rbxassetid://99969575973903",
+      "mesh": "rbxassetid://91827615419081"
+    },
+    {
+      "id": "M05",
+      "part": "m05-zoom-juice.001",
+      "texture": "rbxassetid://78142008898295",
+      "mesh": "rbxassetid://110017617331104"
+    }
+  ],
+  "uiFailures": [
+    {
+      "image": "rbxassetid://90528629970043",
+      "default": "rbxassetid://90528629970043",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "PNG/07-Resizable-Skins/blue-normal.png",
+      "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.RunnerChip.ReusableSkin"
+    },
+    {
+      "image": "rbxassetid://117403446558356",
+      "default": "rbxassetid://117403446558356",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "PNG/07-Resizable-Skins/panel-normal.png",
+      "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.ReusableSkin"
+    },
+    {
+      "image": "rbxassetid://137538759579588",
+      "default": "rbxassetid://137538759579588",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "Attachments/icon-sprint-lightning.png",
+      "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint.Icon"
+    },
+    {
+      "image": "rbxassetid://74934450566926",
+      "default": "rbxassetid://74934450566926",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "PNG/05-Favourite-Buttons-Blank/dodge.png",
+      "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge.ReusableSkin"
+    },
+    {
+      "image": "rbxassetid://91168456076260",
+      "default": "rbxassetid://91168456076260",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "PNG/07-Resizable-Skins/silver-normal.png",
+      "path": "StarterGui.PlaygroundShell.Dock.Emoji.ReusableSkin"
+    },
+    {
+      "image": "rbxassetid://117179645671753",
+      "default": "rbxassetid://117179645671753",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "Attachments/backplate-gold.png",
+      "path": "StarterGui.PlaygroundShell.Templates.AssetLibrary.Attachments__backplate-gold"
+    },
+    {
+      "image": "rbxassetid://118786662467854",
+      "default": "rbxassetid://118786662467854",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "Attachments/backplate-green.png",
+      "path": "StarterGui.PlaygroundShell.Templates.AssetLibrary.Attachments__backplate-green"
+    },
+    {
+      "image": "rbxassetid://88236798408109",
+      "default": "rbxassetid://88236798408109",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "Attachments/backplate-red.png",
+      "path": "StarterGui.PlaygroundShell.Templates.AssetLibrary.Attachments__backplate-red"
+    },
+    {
+      "image": "rbxassetid://124832519425228",
+      "default": "rbxassetid://124832519425228",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "Leaderboard/board-background.png",
+      "path": "StarterGui.PlaygroundShell.Templates.AssetLibrary.Leaderboard__board-background"
+    },
+    {
+      "image": "rbxassetid://93625190571591",
+      "default": "rbxassetid://93625190571591",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "Leaderboard/header-background.png",
+      "path": "StarterGui.PlaygroundShell.Templates.AssetLibrary.Leaderboard__header-background"
+    },
+    {
+      "image": "rbxassetid://78972575698291",
+      "default": "rbxassetid://78972575698291",
+      "status": "Enum.AssetFetchStatus.Failure",
+      "assetKey": "PNG/07-Resizable-Skins/green-normal.png",
+      "path": "StarterGui.PlaygroundShell.Templates.AssetLibrary.PNG__07-Resizable-Skins__green-normal"
+    }
+  ],
+  "boundedNativeRetry": {
+    "originalURIs": "3 representative originals all returned Failure in 0.115s",
+    "canonicalURIs": {
+      "elapsed": 0.11529879999579862,
+      "finished": true,
+      "results": [
+        {
+          "id": "https://www.roblox.com/asset/?id=132401412990527",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=125246073050419",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=77523691277614",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=100539330226546",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=123507196566157",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=79252676101716",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=130506580988262",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=109681254778872",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=93668124136868",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=126253255507136",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=85281732022508",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=76340836984351",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=80407469243731",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=78625250050574",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=74275313124140",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=124360132175805",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=117206150581635",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=80228313711945",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=78142008898295",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=99969575973903",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=90528629970043",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=74934450566926",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=78972575698291",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=124832519425228",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=117403446558356",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=137538759579588",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=88236798408109",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=91168456076260",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=118786662467854",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=117179645671753",
+          "status": "Enum.AssetFetchStatus.Failure"
+        },
+        {
+          "id": "https://www.roblox.com/asset/?id=93625190571591",
+          "status": "Enum.AssetFetchStatus.Failure"
+        }
+      ]
+    }
+  },
+  "diagnosis": {
+    "latest": "Native Studio log records HttpError: Timedout on image asset delivery at 2026-10-04T21:02:50Z.",
+    "uploadTime": "Earlier 406 AssetDelivery406AcrBeingGenerated failures at initial upload; also affected B03 which now succeeds. This is not evidence of a permanent moderation rejection.",
+    "metadata": "Three failed images and successful B03 reference resolve as Image asset type 1, owned by the place creator.",
+    "log": "C:/Users/sandt/AppData/Local/Roblox/logs/0.741.19.7411056_20261004T164957Z_Studio_71E2D_last.log",
+    "sampleLines": [
+      1603,
+      1613,
+      3233,
+      3587,
+      21538,
+      21547,
+      21575
+    ]
+  },
+  "permissionObservation": {
+    "source": "https://create.roblox.com/docs/reference/engine/classes/ContentProvider",
+    "finding": "Current Shell Controller calls ContentProvider:PreloadAsync inside pcall, but its capabilities omit AssetManagement required by current docs. That preload cannot be relied on for runtime retry. Engine automatic loading remains available; no new capability requested or added."
+  },
+  "preparedFix": {
+    "mapping": "TextureRepairMapping.json",
+    "installer": "InstallTextureRepair.luau",
+    "policy": "Only exact replacement image IDs, matching original byte PNGs, after successful fetch. Preserve UI layout and model geometry. Back up every original property and script reference before changes. Root uploads and applies."
+  }
+}

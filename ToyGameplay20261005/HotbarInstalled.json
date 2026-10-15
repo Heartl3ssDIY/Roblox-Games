@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"sourceCapabilities\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior\",\"path\":\"StarterGui.PlaygroundToyHotbar\",\"backup\":\"ServerStorage.ToyGameplayUIBackup20261005\",\"dryRun\":false,\"slots\":4,\"newCapabilities\":false}"
+    }
+  ],
+  "isError": false
+}

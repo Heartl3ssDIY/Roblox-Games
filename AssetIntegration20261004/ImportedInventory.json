@@ -1,0 +1,3465 @@
+{
+  "models": [
+    {
+      "attrs": {
+        "RBX_ReimportId": "bc3cecd5-50fb-4f66-a672-15bb5c86a336"
+      },
+      "path": "Workspace.c01-collectible-coin",
+      "name": "c01-collectible-coin",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://96198472894161",
+          "name": "c01-collectible-coin.001",
+          "anchored": false,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://107946275216351",
+          "size": "2.0299999713897705, 2.0299999713897705, 0.4780001640319824"
+        }
+      ],
+      "pivot": "-5.51064348, 8.02003479, 23.8981934, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "2.0299999713897705, 2.0299999713897705, 0.4780001640319824"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "9ed9a371-3777-4e2a-b069-272f7116067e"
+      },
+      "path": "Workspace.Toys and misc items.m01-playground-football",
+      "name": "m01-playground-football",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://100539330226546",
+          "name": "m01-playground-football.001",
+          "anchored": false,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://86791073365564",
+          "size": "1.8882895708084106, 1.888289451599121, 1.8882895708084106"
+        }
+      ],
+      "pivot": "3.33167458, 4.21000051, 11.9793987, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "1.8882896900177002, 1.888289451599121, 1.888289451599121"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "c1e2e7aa-5536-4f18-978e-f9d5de6ecb1a"
+      },
+      "path": "Workspace.Toys and misc items.m02-playground-basketball",
+      "name": "m02-playground-basketball",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://125246073050419",
+          "name": "m02-playground-basketball.001",
+          "anchored": false,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://81752272427130",
+          "size": "1.9259713888168335, 1.9260001182556152, 1.9259999990463257"
+        }
+      ],
+      "pivot": "2.8368125, 4.28297997, 8.91739464, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "1.9259713888168335, 1.9259748458862305, 1.9259998798370361"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "0e9c268d-4830-40c6-b4e5-d43deaff1de5"
+      },
+      "path": "Workspace.Bats.b01-starter-slugger",
+      "name": "b01-starter-slugger",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://123507196566157",
+          "name": "b01-starter-slugger.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://88021769484443",
+          "size": "0.619025468826294, 3.6629998683929443, 0.6195712685585022"
+        }
+      ],
+      "pivot": "0, 8.20457077, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.619025468826294, 3.662978172302246, 0.6195712685585022"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "82c3fd17-40ad-4935-9426-3bd6f9e9218c"
+      },
+      "path": "Workspace.Bats.b02-schoolyard-alloy",
+      "name": "b02-schoolyard-alloy",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://79252676101716",
+          "name": "b02-schoolyard-alloy.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://119415605380578",
+          "size": "0.6460000276565552, 3.548999786376953, 0.6460000276565552"
+        }
+      ],
+      "pivot": "0, 8.20457077, -2, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6460000276565552, 3.5490002632141113, 0.6460000276565552"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "79962954-897a-4dfd-924b-6f02619469b5"
+      },
+      "path": "Workspace.Bats.b03-varsity-victory",
+      "name": "b03-varsity-victory",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://111459901787397",
+          "name": "b03-varsity-victory.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://135199210937290",
+          "size": "0.6634423732757568, 3.5360000133514404, 0.6833077073097229"
+        }
+      ],
+      "pivot": "0, 8.20457077, -4, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6634423732757568, 3.5359997749328613, 0.6833077073097229"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "0ea23be7-743f-4047-99ce-c516a63dcceb"
+      },
+      "path": "Workspace.Bats.b04-street-cone",
+      "name": "b04-street-cone",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://130506580988262",
+          "name": "b04-street-cone.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://129049140490974",
+          "size": "0.6814614534378052, 3.5360000133514404, 0.6814614534378052"
+        }
+      ],
+      "pivot": "0, 8.20457077, -6, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6814614534378052, 3.5359997749328613, 0.6814614534378052"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "cf5e9b89-026d-4f13-85ea-ff8a7527e399"
+      },
+      "path": "Workspace.Bats.b05-bubblegum-bonker",
+      "name": "b05-bubblegum-bonker",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://83727795645779",
+          "name": "b05-bubblegum-bonker.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://85250143161541",
+          "size": "0.7179999947547913, 3.5409998893737793, 0.6532144546508789"
+        }
+      ],
+      "pivot": "0, 8.20457077, -8, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.7179679870605469, 3.540977954864502, 0.6532144546508789"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "efab4021-34c2-45eb-83df-57b97dd84ba6"
+      },
+      "path": "Workspace.Bats.b06-mudslinger",
+      "name": "b06-mudslinger",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://133440597267197",
+          "name": "b06-mudslinger.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://86692877273517",
+          "size": "0.7259999513626099, 3.5879998207092285, 0.7260000705718994"
+        }
+      ],
+      "pivot": "0, 8.20457077, -10, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.7259999513626099, 3.5879998207092285, 0.7260000705718994"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "629c7b0e-faac-4fd8-9fff-abf8f1fd17a6"
+      },
+      "path": "Workspace.Bats.b07-heat-coil",
+      "name": "b07-heat-coil",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://93668124136868",
+          "name": "b07-heat-coil.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://135893960365771",
+          "size": "0.7609999775886536, 3.5385000705718994, 0.7609999775886536"
+        }
+      ],
+      "pivot": "0, 8.20457077, -12, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.7609999775886536, 3.5384998321533203, 0.7609999775886536"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "334ba896-27e0-490a-b879-53cdcbc8f8bb"
+      },
+      "path": "Workspace.Bats.b08-frostbite",
+      "name": "b08-frostbite",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://109918988991717",
+          "name": "b08-frostbite.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://111805990811896",
+          "size": "0.6957692503929138, 3.5899999141693115, 0.695769190788269"
+        }
+      ],
+      "pivot": "0, 8.20457077, -14, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6957692503929138, 3.5899782180786133, 0.695769190788269"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "be106ad6-1670-4896-bcc8-d5c79358bbe7"
+      },
+      "path": "Workspace.Bats.b09-thunder-circuit",
+      "name": "b09-thunder-circuit",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://74757679387985",
+          "name": "b09-thunder-circuit.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://118497242489860",
+          "size": "0.6460000276565552, 3.5360000133514404, 0.6727467179298401"
+        }
+      ],
+      "pivot": "0, 8.20457077, -16, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6460000276565552, 3.5359997749328613, 0.6727467179298401"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "a6f8bd39-3f59-46dd-a957-c07dee68aaf9"
+      },
+      "path": "Workspace.Bats.b10-pixel-party",
+      "name": "b10-pixel-party",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://126253255507136",
+          "name": "b10-pixel-party.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://121780590054021",
+          "size": "0.6399999856948853, 3.505000114440918, 0.5862001180648804"
+        }
+      ],
+      "pivot": "0, 8.20457077, -18, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6399999856948853, 3.505000114440918, 0.5862001180648804"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "4af72df4-5cad-4957-9114-f6e689f61b88"
+      },
+      "path": "Workspace.Bats.b11-cosmic-orbit",
+      "name": "b11-cosmic-orbit",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://83518254452734",
+          "name": "b11-cosmic-orbit.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://129893474331183",
+          "size": "0.731999933719635, 3.5360000133514404, 0.731999933719635"
+        }
+      ],
+      "pivot": "0, 8.20457077, -20, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.731999933719635, 3.5359997749328613, 0.731999933719635"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "cc1a3a31-966e-44f1-99ef-e01c24b49f1e"
+      },
+      "path": "Workspace.Bats.b12-royal-champion",
+      "name": "b12-royal-champion",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://111736584200196",
+          "name": "b12-royal-champion.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://94376685131739",
+          "size": "0.6618250012397766, 3.575000286102295, 0.7174126505851746"
+        }
+      ],
+      "pivot": "0, 8.20457077, -22, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6618250012397766, 3.5749998092651367, 0.7174126505851746"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "978d2cb0-6888-4239-a2d9-1fc166cbcc8f"
+      },
+      "path": "Workspace.Bats.b13-skatepark-stripe",
+      "name": "b13-skatepark-stripe",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://103075607664135",
+          "name": "b13-skatepark-stripe.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://92726869342203",
+          "size": "0.6714901328086853, 3.5360000133514404, 0.662958025932312"
+        }
+      ],
+      "pivot": "0, 8.20457077, -24, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6714901328086853, 3.5359997749328613, 0.662958025932312"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "50b9b3a6-eb40-4d51-abc4-15ccbaccc613"
+      },
+      "path": "Workspace.Bats.b14-deep-sea",
+      "name": "b14-deep-sea",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://72425747412389",
+          "name": "b14-deep-sea.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://90103863325136",
+          "size": "0.6778929829597473, 3.549499988555908, 0.6767531633377075"
+        }
+      ],
+      "pivot": "0, 8.20457077, -26, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6778929829597473, 3.549499988555908, 0.6767531633377075"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "8569859b-2a84-4b73-9996-7a5268148739"
+      },
+      "path": "Workspace.Bats.b15-sunburst",
+      "name": "b15-sunburst",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://110256674258106",
+          "name": "b15-sunburst.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://129832467084534",
+          "size": "0.6617742776870728, 3.55299973487854, 0.6694213151931763"
+        }
+      ],
+      "pivot": "0, 8.20457077, -28, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "0.6617742776870728, 3.552978038787842, 0.6694213151931763"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "053dcf6f-a727-43ee-8ca3-2575898cf250"
+      },
+      "path": "Workspace.p20-royal-slime",
+      "name": "p20-royal-slime",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://132401412990527",
+          "name": "p20-royal-slime.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://119366056220439",
+          "size": "1.6318594217300415, 2.0260000228881836, 1.214050054550171"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p20-royal-slime.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p20-royal-slime.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p20-royal-slime.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "28.2804165, 13, -7.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.631826639175415, 1.21405029296875, 2.0260000228881836"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "d8cd466a-c78a-4f39-a3a4-cb356086522e"
+      },
+      "path": "Workspace.p07-teapot-frog",
+      "name": "p07-teapot-frog",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://85281732022508",
+          "name": "p07-teapot-frog.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://103495881382797",
+          "size": "2.234029531478882, 1.7280001640319824, 1.4160000085830688"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p07-teapot-frog.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p07-teapot-frog.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p07-teapot-frog.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "21.2804165, 12.3619804, -2.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "2.2339746952056885, 1.416000247001648, 1.7280001640319824"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "530e6efe-20db-490e-bbcd-a62b1f7a4460"
+      },
+      "path": "Workspace.p18-lava-toaster",
+      "name": "p18-lava-toaster",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://135493491273976",
+          "name": "p18-lava-toaster.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://114483373648470",
+          "size": "1.6624999046325684, 1.96999990940094, 1.0860000848770142"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p18-lava-toaster.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p18-lava-toaster.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p18-lava-toaster.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "21.2804165, 12.3619804, -7.99999762, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.6624597311019897, 1.0860004425048828, 1.9700000286102295"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "5e0fe52e-5b5c-433a-a583-e7cbd2847390"
+      },
+      "path": "Workspace.p03-pancake-penguin",
+      "name": "p03-pancake-penguin",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://110882651956005",
+          "name": "p03-pancake-penguin.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://102348918634416",
+          "size": "1.6630810499191284, 2.4650001525878906, 1.3640000820159912"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p03-pancake-penguin.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p03-pancake-penguin.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p03-pancake-penguin.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "25, 12.3619804, 2.01165676e-06, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.6630810499191284, 1.3639682531356812, 2.4650001525878906"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "23ffc1f4-3250-4ab0-ae0f-c5e6e33eb890"
+      },
+      "path": "Workspace.p08-skater-shark",
+      "name": "p08-skater-shark",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://91713332386189",
+          "name": "p08-skater-shark.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://133661865759315",
+          "size": "1.46999990940094, 2.235170841217041, 1.434999942779541"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p08-skater-shark.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p08-skater-shark.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p08-skater-shark.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "24.2804165, 12.3619804, -2.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.46999990940094, 1.4349652528762817, 2.235170841217041"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "4da22f59-fdb3-4414-8d1d-a2d323f73d48"
+      },
+      "path": "Workspace.p02-toast-capybara",
+      "name": "p02-toast-capybara",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://83872307647787",
+          "name": "p02-toast-capybara.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://100485293669911",
+          "size": "1.3899999856948853, 1.7280001640319824, 2.2170000076293945"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p02-toast-capybara.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p02-toast-capybara.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p02-toast-capybara.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "28, 12.3619804, 2.01165676e-06, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.3899999856948853, 2.2170002460479736, 1.7279596328735352"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "fe038254-e582-4212-99c8-c3f13345d202"
+      },
+      "path": "Workspace.p17-gummy-rex",
+      "name": "p17-gummy-rex",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://98171515441484",
+          "name": "p17-gummy-rex.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://101177738207180",
+          "size": "1.464611530303955, 2.2100000381469727, 2.117820978164673"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p17-gummy-rex.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p17-gummy-rex.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p17-gummy-rex.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "31.2028961, 12.3619804, -7.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.4645862579345703, 2.117821455001831, 2.2099461555480957"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "e79568f1-97a0-4ef8-8848-c79a056c13e7"
+      },
+      "path": "Workspace.p05-rocket-snail",
+      "name": "p05-rocket-snail",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://129293513062197",
+          "name": "p05-rocket-snail.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://79564795447268",
+          "size": "1.5484259128570557, 2.276594877243042, 2.0400311946868896"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p05-rocket-snail.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p05-rocket-snail.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p05-rocket-snail.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "18.2804165, 12.3619804, 1.89244747e-06, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.5484259128570557, 2.040031671524048, 2.276595115661621"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "957fc730-3afa-4021-8ee0-a6b867a9ebab"
+      },
+      "path": "Workspace.p04-jelly-axolotl",
+      "name": "p04-jelly-axolotl",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://122244373383610",
+          "name": "p04-jelly-axolotl.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://83849581510322",
+          "size": "2.4107484817504883, 1.7420705556869507, 2.1082208156585693"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p04-jelly-axolotl.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p04-jelly-axolotl.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p04-jelly-axolotl.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "22, 12.3619804, 2.02655792e-06, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "2.4107484817504883, 2.1082210540771484, 1.7420709133148193"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "5d80b14e-ef7f-4198-ae13-01b0dde84805"
+      },
+      "path": "Workspace.p14-hoodie-ghost",
+      "name": "p14-hoodie-ghost",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://123996425630181",
+          "name": "p14-hoodie-ghost.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://105883487000510",
+          "size": "1.6200000047683716, 1.9131532907485962, 1.1435197591781616"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p14-hoodie-ghost.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p14-hoodie-ghost.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p14-hoodie-ghost.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "21.2804165, 12.3619804, -5.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.6198415756225586, 1.1434922218322754, 1.9131536483764648"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "8ae0f2a1-84e6-42ae-a67a-a3a6be3eb3b7"
+      },
+      "path": "Workspace.p11-cactus-cat",
+      "name": "p11-cactus-cat",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://119886935968870",
+          "name": "p11-cactus-cat.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://139025126821737",
+          "size": "1.7544589042663574, 1.97265625, 1.7454204559326172"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p11-cactus-cat.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p11-cactus-cat.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p11-cactus-cat.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "31.2804165, 12.3619804, -5.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.7543781995773315, 1.745335578918457, 1.972656488418579"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "25be4012-05de-4731-a57f-1337da44b607"
+      },
+      "path": "Workspace.p06-traffic-crab",
+      "name": "p06-traffic-crab",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://94070479238641",
+          "name": "p06-traffic-crab.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://103645079741919",
+          "size": "3.1323506832122803, 1.8424482345581055, 1.0169998407363892"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p06-traffic-crab.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p06-traffic-crab.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p06-traffic-crab.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "18.2804165, 12.3619804, -2.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "3.1322741508483887, 1.0169010162353516, 1.84242582321167"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "14901c0c-3dbc-42e6-bcff-555b628988e9"
+      },
+      "path": "Workspace.p12-ufo-jelly",
+      "name": "p12-ufo-jelly",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://77466075872389",
+          "name": "p12-ufo-jelly.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://131010596311339",
+          "size": "1.7799999713897705, 2.108938217163086, 1.7799999713897705"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p12-ufo-jelly.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p12-ufo-jelly.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p12-ufo-jelly.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "28.2804165, 12.3619804, -5.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.7799127101898193, 1.7798696756362915, 2.108835220336914"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "18ca5e05-b9ee-497a-8904-123fa21ebcd4"
+      },
+      "path": "Workspace.p13-pumpkin-bunny",
+      "name": "p13-pumpkin-bunny",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://77857082300512",
+          "name": "p13-pumpkin-bunny.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://93498042498015",
+          "size": "1.2400000095367432, 2.0874907970428467, 1.6989998817443848"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p13-pumpkin-bunny.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p13-pumpkin-bunny.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p13-pumpkin-bunny.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "24.2804165, 12.3619804, -5.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.2399392127990723, 1.699000358581543, 2.087491035461426"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "01adc6a3-029f-4cfc-8287-71d83f3e7889"
+      },
+      "path": "Workspace.p09-disco-duck",
+      "name": "p09-disco-duck",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://90600526223702",
+          "name": "p09-disco-duck.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://134608160969987",
+          "size": "1.5988812446594238, 2.1043336391448975, 1.7929998636245728"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p09-disco-duck.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p09-disco-duck.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p09-disco-duck.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "28.2804165, 12.3619804, -2.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.5988812446594238, 1.7930002212524414, 2.1043338775634766"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "9fe82dc6-d0da-4e60-b7ce-ee3339994580"
+      },
+      "path": "Workspace.p10-cloud-sheep",
+      "name": "p10-cloud-sheep",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://78625250050574",
+          "name": "p10-cloud-sheep.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://114140861145578",
+          "size": "1.694714069366455, 1.75, 1.500999927520752"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p10-cloud-sheep.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p10-cloud-sheep.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p10-cloud-sheep.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "31.2804165, 12.3619804, -2.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.6946932077407837, 1.5009639263153076, 1.75"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "d5b7eb8f-2d5b-471b-bbf5-f3de11816da4"
+      },
+      "path": "Workspace.p15-marshmallow-dragon",
+      "name": "p15-marshmallow-dragon",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://74275313124140",
+          "name": "p15-marshmallow-dragon.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://93294807992363",
+          "size": "2.4901723861694336, 2.162933111190796, 1.9714412689208984"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p15-marshmallow-dragon.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p15-marshmallow-dragon.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p15-marshmallow-dragon.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "18.2804165, 12.3619804, -5.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "2.4901723861694336, 1.9714417457580566, 2.162933349609375"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "e101314a-eb01-413e-b243-720bb3fd13a6"
+      },
+      "path": "Workspace.p16-banana-gorilla",
+      "name": "p16-banana-gorilla",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://124509150488515",
+          "name": "p16-banana-gorilla.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://126720408086556",
+          "size": "2.3421645164489746, 2.349635601043701, 1.2624998092651367"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p16-banana-gorilla.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p16-banana-gorilla.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p16-banana-gorilla.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "18.2804165, 12.3619804, -7.99999857, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "2.3420498371124268, 1.2625001668930054, 2.3496360778808594"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "0fdc996f-0e4a-4c1a-bc9f-3236dedf8236"
+      },
+      "path": "Workspace.p19-moon-moth",
+      "name": "p19-moon-moth",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://138064744382731",
+          "name": "p19-moon-moth.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://96572757668918",
+          "size": "2.3767940998077393, 2.0647103786468506, 0.7889999747276306"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p19-moon-moth.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p19-moon-moth.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p19-moon-moth.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "24.2804165, 12.3619804, -7.99999809, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "2.3767940998077393, 0.7890003323554993, 2.0647106170654297"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "9995bcb6-8375-4f71-8513-af943a643579"
+      },
+      "path": "Workspace.p01-pocket-bulldog",
+      "name": "p01-pocket-bulldog",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://128240216421270",
+          "name": "p01-pocket-bulldog_Part1",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://92822657018899",
+          "size": "1.4802721738815308, 1.1694955825805664, 1.315946340560913"
+        },
+        {
+          "name": "p01-pocket-bulldog_Part1Motor6D",
+          "class": "Motor6D"
+        },
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://128240216421270",
+          "name": "p01-pocket-bulldog_Part2",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://108900218384137",
+          "size": "2.1500000953674316, 1.9831085205078125, 2.263209581375122"
+        },
+        {
+          "name": "p01-pocket-bulldog_Part2Motor6D",
+          "class": "Motor6D"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "p01-pocket-bulldog_Part1_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p01-pocket-bulldog_Part1_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p01-pocket-bulldog_Part1_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p01-pocket-bulldog_Part2_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p01-pocket-bulldog_Part2_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "p01-pocket-bulldog_Part2_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        },
+        {
+          "collide": true,
+          "name": "RootPart",
+          "anchored": false,
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "Part",
+          "material": "Plastic",
+          "size": "0.019999999552965164, 0.019999999552965164, 0.009999999776482582"
+        }
+      ],
+      "pivot": "31, 12.3619804, 2.01165676e-06, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "2.1499998569488525, 2.044903516769409, 2.263209581375122"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "2beb89f3-68c6-4368-9b40-f554e3416182"
+      },
+      "path": "Workspace.m12-eggsploit",
+      "name": "m12-eggsploit",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://95104280961809",
+          "name": "m12-eggsploit.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://100830130883809",
+          "size": "1.284000039100647, 1.8299999237060547, 1.284000039100647"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m12-eggsploit.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m12-eggsploit.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m12-eggsploit.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -21.4423866, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.284000039100647, 1.283976435661316, 1.8300001621246338"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "58acf690-974d-4f38-8770-51cf6ed7de05"
+      },
+      "path": "Workspace.m06-spring-sip",
+      "name": "m06-spring-sip",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://109681254778872",
+          "name": "m06-spring-sip.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://139156720908611",
+          "size": "1.2979999780654907, 2.172499895095825, 1.2979999780654907"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m06-spring-sip.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m06-spring-sip.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m06-spring-sip.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -2.99999905, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.2979999780654907, 1.2979686260223389, 2.1725006103515625"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "f36706f4-8de8-42f3-9d5b-1744729f2fc4"
+      },
+      "path": "Workspace.m14-camp-torch",
+      "name": "m14-camp-torch",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://124360132175805",
+          "name": "m14-camp-torch.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://110235880298287",
+          "size": "0.9099999666213989, 2.418304204940796, 0.9099999666213989"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m14-camp-torch.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m14-camp-torch.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m14-camp-torch.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -28.4423866, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "0.9099999666213989, 0.9100003838539124, 2.4182751178741455"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "8a84d298-ee8a-4eb2-8391-05e5c6bf957a"
+      },
+      "path": "Workspace.m03-foam-bonker",
+      "name": "m03-foam-bonker",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://80407469243731",
+          "name": "m03-foam-bonker.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://111959832396114",
+          "size": "0.7680000066757202, 2.607499837875366, 0.7680000066757202"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m03-foam-bonker.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m03-foam-bonker.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m03-foam-bonker.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, 6.00000095, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "0.7680000066757202, 0.7679914236068726, 2.6075000762939453"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "e016dcbb-260e-4583-8e8e-80ee0a9ad8a1"
+      },
+      "path": "Workspace.m04-tumble-barrel",
+      "name": "m04-tumble-barrel",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://138756639549153",
+          "name": "m04-tumble-barrel.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://125804654449253",
+          "size": "1.681999921798706, 1.7400002479553223, 1.6820000410079956"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m04-tumble-barrel.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m04-tumble-barrel.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m04-tumble-barrel.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, 3.00000095, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.681999921798706, 1.6819591522216797, 1.7400004863739014"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "77852d3c-4dd5-4a67-a92d-b60406c0ef43"
+      },
+      "path": "Workspace.m13-cake-toss",
+      "name": "m13-cake-toss",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://76340836984351",
+          "name": "m13-cake-toss.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://114272234567020",
+          "size": "1.5119999647140503, 1.9811409711837769, 1.5759999752044678"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m13-cake-toss.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m13-cake-toss.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m13-cake-toss.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -24.4423866, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.5119999647140503, 1.5760003328323364, 1.9811172485351562"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "c1edc198-71fb-429d-bc10-da084b27081d"
+      },
+      "path": "Workspace.m08-surprise-present",
+      "name": "m08-surprise-present",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://111005546156565",
+          "name": "m08-surprise-present.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://82228921123606",
+          "size": "1.5768868923187256, 1.973760962486267, 1.3800002336502075"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m08-surprise-present.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m08-surprise-present.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m08-surprise-present.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -8.44238567, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.5768868923187256, 1.3800005912780762, 1.9737131595611572"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "1c8badde-7530-4f98-8f40-01d78388532f"
+      },
+      "path": "Workspace.m07-ember-elixir",
+      "name": "m07-ember-elixir",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://117206150581635",
+          "name": "m07-ember-elixir.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://74081339871321",
+          "size": "1.2999999523162842, 2.112499952316284, 1.0175000429153442"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m07-ember-elixir.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m07-ember-elixir.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m07-ember-elixir.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -5.44238567, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.2999999523162842, 1.017486333847046, 2.1125001907348633"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "cae3160c-695b-43a7-a4b3-a3910f2a0fa2"
+      },
+      "path": "Workspace.m11-paint-splash",
+      "name": "m11-paint-splash",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://77523691277614",
+          "name": "m11-paint-splash.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://77246360828411",
+          "size": "1.5235549211502075, 1.334999918937683, 1.4219670295715332"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m11-paint-splash.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m11-paint-splash.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m11-paint-splash.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -18.4423866, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.5235549211502075, 1.4219672679901123, 1.3349676132202148"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "5fa6a48d-d174-4528-b3b0-18afc152144d"
+      },
+      "path": "Workspace.m10-frost-ray",
+      "name": "m10-frost-ray",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://80228313711945",
+          "name": "m10-frost-ray.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://113654622017148",
+          "size": "1.0800000429153442, 2.1411378383636475, 2.2685000896453857"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m10-frost-ray.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m10-frost-ray.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m10-frost-ray.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -15.4423857, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.0800000429153442, 2.268500328063965, 2.1411123275756836"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "78355acb-4635-401b-821a-b8c8d1b36159"
+      },
+      "path": "Workspace.m15-bounce-pad",
+      "name": "m15-bounce-pad",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://99969575973903",
+          "name": "m15-bounce-pad.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://91827615419081",
+          "size": "2.0799999237060547, 1.341052770614624, 2.0799999237060547"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m15-bounce-pad.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m15-bounce-pad.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m15-bounce-pad.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -32.145977, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "2.0799999237060547, 2.080000162124634, 1.3410530090332031"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "716ae734-f84b-42bd-9992-c52ca3fcab24"
+      },
+      "path": "Workspace.m05-zoom-juice",
+      "name": "m05-zoom-juice",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://122033544638433",
+          "name": "m05-zoom-juice.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://110017617331104",
+          "size": "1.7009999752044678, 2.192499876022339, 0.8949999809265137"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m05-zoom-juice.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m05-zoom-juice.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m05-zoom-juice.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, 9.53674316e-07, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.7009427547454834, 0.8950003385543823, 2.192500114440918"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "2bad6050-58b6-43e3-9925-5a196918e6e4"
+      },
+      "path": "Workspace.m09-plunger-popper",
+      "name": "m09-plunger-popper",
+      "parts": [
+        {
+          "color": "0.639216, 0.635294, 0.647059",
+          "class": "MeshPart",
+          "texture": "rbxassetid://126741080436077",
+          "name": "m09-plunger-popper.001",
+          "anchored": true,
+          "collide": true,
+          "material": "Plastic",
+          "mesh": "rbxassetid://80907649101996",
+          "size": "1.1799999475479126, 2.096799850463867, 2.1937777996063232"
+        },
+        {
+          "name": "InitialPoses",
+          "class": "Folder"
+        },
+        {
+          "name": "m09-plunger-popper.001_Composited",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m09-plunger-popper.001_Original",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "m09-plunger-popper.001_Initial",
+          "class": "CFrameValue"
+        },
+        {
+          "name": "AnimationController",
+          "class": "AnimationController"
+        }
+      ],
+      "pivot": "3, 4.52001381, -11.4423857, 1, 0, 3.25059773e-30, -3.25059773e-30, 0, -1, 0, 1, 0",
+      "size": "1.1799999475479126, 2.193751096725464, 2.096799850463867"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "4f64ca1c-0789-42a5-9f62-4b95e15308e0"
+      },
+      "path": "Workspace.MudGun",
+      "name": "MudGun",
+      "parts": [],
+      "pivot": "14, 7.15546417, -11.9540415, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "1.6490005254745483, 3.549072265625, 3.6319494247436523"
+    },
+    {
+      "attrs": {
+        "RBX_ReimportId": "08ce59f1-f644-48c7-a8e9-645308fbc461"
+      },
+      "path": "Workspace.HeatGun",
+      "name": "HeatGun",
+      "parts": [],
+      "pivot": "18, 7.15546417, -11.9540415, 1, 0, 0, 0, 1, 0, 0, 0, 1",
+      "size": "1.6159999370574951, 3.539649486541748, 3.5949487686157227"
+    }
+  ],
+  "gun": [
+    {
+      "surface": false,
+      "name": "SITM_MudGun_BackBumper",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_BadgeDrop-1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_BadgeDrop-1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_BadgeDrop-1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_BadgeDrop1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_BadgeDrop1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_BadgeDrop1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Belly",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Body",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_CapRib0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_CapRib1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_CapRib2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_CapRib3",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_CapRib4",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_CapRib5",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_CapRib6",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_CapRib7",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_FeedHose",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Grip",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripDetail-1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripDetail-1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripDetail-1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripDetail1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripDetail1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripDetail1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripFoot",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripInset-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripInset1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripRib0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripRib1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripRib2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_GripRib3",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_LevelFill",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_LevelTick0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_LevelTick1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_LevelTick2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_MintAccent-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_MintAccent1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_MudDrip0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_MudDrip1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_MudDrip2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_MudDrip3",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_MudDrip4",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Neck",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_PressButton",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SideFrame-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SideFrame1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SidePlaque-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SidePlaque1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SplatBadge-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SplatBadge1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SplatNozzle",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SplatNozzle_Front",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SplatNozzle_Mouth",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_SplatNozzle_Rim",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Tank",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_TankCap",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_TankFoot",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_TankKnob",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_TankWindow",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_ToyBolt-1_-0.82",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_ToyBolt-1_0.18",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_ToyBolt1_-0.82",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_ToyBolt1_0.18",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Vent-1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Vent-1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Vent-1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Vent1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Vent1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_MudGun_Vent1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "MudGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_BackBumper",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Belly",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Body",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_CoilCap",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_CoilEnd",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_CoilFoot",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_CoilStart",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_FeedHose",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Grip",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripDetail-1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripDetail-1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripDetail-1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripDetail1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripDetail1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripDetail1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripFoot",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripInset-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripInset1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripRib0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripRib1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripRib2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_GripRib3",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_LemonAccent-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_LemonAccent1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Neck",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_PressButton",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SideFrame-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SideFrame1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SidePlaque-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SidePlaque1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SplatNozzle",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SplatNozzle_Front",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SplatNozzle_Mouth",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SplatNozzle_Rim",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunBadge-1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunBadge1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay-1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay-1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay-1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay-1_3",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay-1_4",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay-1_5",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay-1_6",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay-1_7",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay1_3",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay1_4",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay1_5",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay1_6",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_SunRay1_7",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_ToyBolt-1_-0.82",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_ToyBolt-1_0.18",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_ToyBolt1_-0.82",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_ToyBolt1_0.18",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Vent-1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Vent-1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Vent-1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Vent1_0",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Vent1_1",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_Vent1_2",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_WarmCoil",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_WarmCore",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    },
+    {
+      "surface": false,
+      "name": "SITM_HeatGun_WarmKnob",
+      "color": "0.639216, 0.635294, 0.647059",
+      "gun": "HeatGun",
+      "texture": ""
+    }
+  ],
+  "world": [
+    {
+      "textures": 0,
+      "studTops": 0,
+      "name": "British Bulldog game",
+      "parts": 698
+    },
+    {
+      "textures": 0,
+      "studTops": 0,
+      "name": "Tag You're It",
+      "parts": 1109
+    },
+    {
+      "textures": 0,
+      "studTops": 27,
+      "name": "Playground Lobby",
+      "parts": 2452
+    },
+    {
+      "textures": 0,
+      "studTops": 942,
+      "name": "Stuck in the Mud",
+      "parts": 2793
+    },
+    {
+      "textures": 0,
+      "studTops": 0,
+      "name": "Toys and misc items",
+      "parts": 2
+    },
+    {
+      "textures": 0,
+      "studTops": 0,
+      "name": "Bats",
+      "parts": 15
+    }
+  ],
+  "templates": [
+    {
+      "class": "BillboardGui",
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate"
+    },
+    {
+      "class": "Frame",
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel"
+    },
+    {
+      "class": "UICorner",
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.Corner"
+    },
+    {
+      "class": "UIStroke",
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.Outline"
+    },
+    {
+      "class": "TextLabel",
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.TaggedLabel"
+    },
+    {
+      "class": "UITextSizeConstraint",
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.TaggedLabel.TextSizeLimit"
+    },
+    {
+      "class": "UIStroke",
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.TaggedLabel.TextOutline"
+    },
+    {
+      "class": "ImageLabel",
+      "path": "ReplicatedStorage.BritishBulldogAssets.TaggedTemplate.Panel.ReusableSkin"
+    },
+    {
+      "class": "Tool",
+      "path": "ReplicatedStorage.MudAssets.MudGun"
+    },
+    {
+      "class": "Folder",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.Body"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.Body.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.Belly"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.Belly.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.BackBumper"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.BackBumper.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.TopRim"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.TopRim.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.BottomRim"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.BottomRim.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.SidePanel"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.SidePanel.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ToyBolt"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ToyBolt.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ToyBolt"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ToyBolt.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.SidePanel"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.SidePanel.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ToyBolt"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ToyBolt.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ToyBolt"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ToyBolt.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripRib"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripRib.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripRib"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripRib.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripRib"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripRib.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripRib"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripRib.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripFoot"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.GripFoot.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ThumbButton"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.ThumbButton.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.NozzleCollar"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.NozzleCollar.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.WideNozzle"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.WideNozzle.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.NozzleRim"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.NozzleRim.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.NozzleFace"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.NozzleFace.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MuddyTank"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MuddyTank.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.TankCap"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.TankCap.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.TankKnob"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.TankKnob.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.TankWindow"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.TankWindow.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudDrip1"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudDrip1.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudDrip2"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudDrip2.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudDrip3"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudDrip3.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudBadge"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudBadge.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudBadgeDot"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudBadgeDot.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudBadge"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudBadge.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudBadgeDot"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Art.MudBadgeDot.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Handle"
+    },
+    {
+      "class": "Attachment",
+      "path": "ReplicatedStorage.MudAssets.MudGun.Handle.MuzzleAttachment"
+    },
+    {
+      "class": "Tool",
+      "path": "ReplicatedStorage.MudAssets.HeatGun"
+    },
+    {
+      "class": "Folder",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.Body"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.Body.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.Belly"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.Belly.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.BackBumper"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.BackBumper.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.TopRim"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.TopRim.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.BottomRim"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.BottomRim.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SidePanel"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SidePanel.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ToyBolt"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ToyBolt.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ToyBolt"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ToyBolt.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SidePanel"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SidePanel.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ToyBolt"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ToyBolt.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ToyBolt"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ToyBolt.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripRib"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripRib.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripRib"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripRib.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripRib"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripRib.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripRib"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripRib.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripFoot"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.GripFoot.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ThumbButton"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.ThumbButton.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.NozzleCollar"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.NozzleCollar.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WideNozzle"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WideNozzle.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.NozzleRim"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.NozzleRim.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.NozzleFace"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.NozzleFace.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCore"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCore.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil1"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil1.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil2"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil2.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil3"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil3.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil4"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil4.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil5"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmCoil5.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.CoilCap"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.CoilCap.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmKnob"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.WarmKnob.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunBadge"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunBadge.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunRay"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunRay.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunRay"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunRay.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunBadge"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunBadge.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunRay"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunRay.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunRay"
+    },
+    {
+      "class": "WeldConstraint",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Art.SunRay.HandleWeld"
+    },
+    {
+      "class": "Part",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Handle"
+    },
+    {
+      "class": "Attachment",
+      "path": "ReplicatedStorage.MudAssets.HeatGun.Handle.MuzzleAttachment"
+    },
+    {
+      "class": "BillboardGui",
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate"
+    },
+    {
+      "class": "Frame",
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card"
+    },
+    {
+      "class": "UICorner",
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.Corner"
+    },
+    {
+      "class": "UIStroke",
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.Outline"
+    },
+    {
+      "class": "TextLabel",
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.Title"
+    },
+    {
+      "class": "UITextSizeConstraint",
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.Title.TextLimit"
+    },
+    {
+      "class": "UIStroke",
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.Title.TextOutline"
+    },
+    {
+      "class": "ImageLabel",
+      "path": "ReplicatedStorage.MudAssets.MuddyTemplate.Card.ReusableSkin"
+    }
+  ]
+}

@@ -1,0 +1,881 @@
+{
+  "name": "Cat In The Hat - recolourable visual base",
+  "meshObjects": 62,
+  "triangles": 57162,
+  "maxMeshTriangles": 16000,
+  "heightBlenderUnits": 8.005364418029785,
+  "units": "1 Blender unit = 1 intended Roblox stud; .blend unit scale = 0.28 m",
+  "rigged": false,
+  "normalMap": "Cat_SurfaceNormal.png",
+  "colorTextures": false,
+  "parts": [
+    {
+      "name": "Body_BlackFur",
+      "collection": "01 Body",
+      "triangles": 16000,
+      "vertices": 8002,
+      "material": "Fur - charcoal black",
+      "colorRGB": [
+        22,
+        25,
+        30
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Body_WhiteBib",
+      "collection": "01 Body",
+      "triangles": 3998,
+      "vertices": 2001,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        236,
+        234,
+        225
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftEar_Inner",
+      "collection": "02 Face",
+      "triangles": 38,
+      "vertices": 21,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightEar_Inner",
+      "collection": "02 Face",
+      "triangles": 38,
+      "vertices": 21,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftEye_Socket",
+      "collection": "02 Face",
+      "triangles": 720,
+      "vertices": 362,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftEye_White",
+      "collection": "02 Face",
+      "triangles": 720,
+      "vertices": 362,
+      "material": "Eyes - whites",
+      "colorRGB": [
+        243,
+        237,
+        223
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftEye_Iris",
+      "collection": "02 Face",
+      "triangles": 440,
+      "vertices": 222,
+      "material": "Eyes - amber hazel",
+      "colorRGB": [
+        118,
+        82,
+        44
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftEye_Pupil",
+      "collection": "02 Face",
+      "triangles": 288,
+      "vertices": 146,
+      "material": "Face - ink",
+      "colorRGB": [
+        20,
+        22,
+        25
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftEye_Catchlight",
+      "collection": "02 Face",
+      "triangles": 168,
+      "vertices": 86,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        247,
+        245,
+        237
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftEye_UpperLid",
+      "collection": "02 Face",
+      "triangles": 156,
+      "vertices": 80,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        236,
+        234,
+        225
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftEye_LowerLid",
+      "collection": "02 Face",
+      "triangles": 140,
+      "vertices": 72,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        236,
+        234,
+        225
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftEyebrow",
+      "collection": "02 Face",
+      "triangles": 256,
+      "vertices": 130,
+      "material": "Fur - charcoal black",
+      "colorRGB": [
+        22,
+        25,
+        30
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightEye_Socket",
+      "collection": "02 Face",
+      "triangles": 720,
+      "vertices": 362,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightEye_White",
+      "collection": "02 Face",
+      "triangles": 720,
+      "vertices": 362,
+      "material": "Eyes - whites",
+      "colorRGB": [
+        243,
+        237,
+        223
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightEye_Iris",
+      "collection": "02 Face",
+      "triangles": 440,
+      "vertices": 222,
+      "material": "Eyes - amber hazel",
+      "colorRGB": [
+        118,
+        82,
+        44
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightEye_Pupil",
+      "collection": "02 Face",
+      "triangles": 288,
+      "vertices": 146,
+      "material": "Face - ink",
+      "colorRGB": [
+        20,
+        22,
+        25
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightEye_Catchlight",
+      "collection": "02 Face",
+      "triangles": 168,
+      "vertices": 86,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        247,
+        245,
+        237
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightEye_UpperLid",
+      "collection": "02 Face",
+      "triangles": 156,
+      "vertices": 80,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        236,
+        234,
+        225
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightEye_LowerLid",
+      "collection": "02 Face",
+      "triangles": 140,
+      "vertices": 72,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        236,
+        234,
+        225
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightEyebrow",
+      "collection": "02 Face",
+      "triangles": 256,
+      "vertices": 130,
+      "material": "Fur - charcoal black",
+      "colorRGB": [
+        22,
+        25,
+        30
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Nose_Rose",
+      "collection": "02 Face",
+      "triangles": 46,
+      "vertices": 25,
+      "material": "Nose - muted rose",
+      "colorRGB": [
+        142,
+        68,
+        69
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftNostril",
+      "collection": "02 Face",
+      "triangles": 168,
+      "vertices": 86,
+      "material": "Mouth - shadow",
+      "colorRGB": [
+        62,
+        20,
+        29
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightNostril",
+      "collection": "02 Face",
+      "triangles": 168,
+      "vertices": 86,
+      "material": "Mouth - shadow",
+      "colorRGB": [
+        62,
+        20,
+        29
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Muzzle_CenterLine",
+      "collection": "02 Face",
+      "triangles": 108,
+      "vertices": 56,
+      "material": "Nose - muted rose",
+      "colorRGB": [
+        142,
+        68,
+        69
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Smile_Opening",
+      "collection": "02 Face",
+      "triangles": 960,
+      "vertices": 482,
+      "material": "Mouth - shadow",
+      "colorRGB": [
+        62,
+        20,
+        29
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Smile_UpperTeeth",
+      "collection": "02 Face",
+      "triangles": 62,
+      "vertices": 33,
+      "material": "Smile - ivory",
+      "colorRGB": [
+        239,
+        235,
+        223
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Smile_LowerLip",
+      "collection": "02 Face",
+      "triangles": 336,
+      "vertices": 170,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        236,
+        234,
+        225
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftWhiskerRoot_0",
+      "collection": "02 Face",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftWhiskers",
+      "collection": "02 Face",
+      "triangles": 240,
+      "vertices": 126,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftWhiskerRoot_1",
+      "collection": "02 Face",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftWhiskerRoot_2",
+      "collection": "02 Face",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightWhiskerRoot_0",
+      "collection": "02 Face",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightWhiskers",
+      "collection": "02 Face",
+      "triangles": 240,
+      "vertices": 126,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightWhiskerRoot_1",
+      "collection": "02 Face",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightWhiskerRoot_2",
+      "collection": "02 Face",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Head_BlackFur",
+      "collection": "02 Face",
+      "triangles": 5000,
+      "vertices": 2502,
+      "material": "Fur - charcoal black",
+      "colorRGB": [
+        22,
+        25,
+        30
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Face_WhiteFur",
+      "collection": "02 Face",
+      "triangles": 6000,
+      "vertices": 3002,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        236,
+        234,
+        225
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Hat_Band_1_Red",
+      "collection": "03 Hat",
+      "triangles": 668,
+      "vertices": 336,
+      "material": "Hat - crimson",
+      "colorRGB": [
+        153,
+        8,
+        22
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Hat_Band_2_White",
+      "collection": "03 Hat",
+      "triangles": 668,
+      "vertices": 336,
+      "material": "Hat - ivory bands",
+      "colorRGB": [
+        247,
+        243,
+        231
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Hat_Band_3_Red",
+      "collection": "03 Hat",
+      "triangles": 668,
+      "vertices": 336,
+      "material": "Hat - crimson",
+      "colorRGB": [
+        153,
+        8,
+        22
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Hat_Band_4_White",
+      "collection": "03 Hat",
+      "triangles": 668,
+      "vertices": 336,
+      "material": "Hat - ivory bands",
+      "colorRGB": [
+        247,
+        243,
+        231
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Hat_Band_5_Red",
+      "collection": "03 Hat",
+      "triangles": 668,
+      "vertices": 336,
+      "material": "Hat - crimson",
+      "colorRGB": [
+        153,
+        8,
+        22
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Hat_Brim_White",
+      "collection": "03 Hat",
+      "triangles": 636,
+      "vertices": 320,
+      "material": "Hat - ivory bands",
+      "colorRGB": [
+        247,
+        243,
+        231
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Hat_Brim_RolledEdge",
+      "collection": "03 Hat",
+      "triangles": 1036,
+      "vertices": 520,
+      "material": "Hat - ivory bands",
+      "colorRGB": [
+        247,
+        243,
+        231
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Bow_LeftLoop",
+      "collection": "04 Bow tie",
+      "triangles": 1432,
+      "vertices": 722,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        164,
+        10,
+        27
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Bow_RightLoop",
+      "collection": "04 Bow tie",
+      "triangles": 1432,
+      "vertices": 722,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        164,
+        10,
+        27
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Bow_CenterKnot",
+      "collection": "04 Bow tie",
+      "triangles": 720,
+      "vertices": 362,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        164,
+        10,
+        27
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Bow_LeftRibbon",
+      "collection": "04 Bow tie",
+      "triangles": 896,
+      "vertices": 450,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        164,
+        10,
+        27
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Bow_RightRibbon",
+      "collection": "04 Bow tie",
+      "triangles": 896,
+      "vertices": 450,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        164,
+        10,
+        27
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftGlove_Cuff",
+      "collection": "05 Gloves",
+      "triangles": 276,
+      "vertices": 140,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        247,
+        245,
+        237
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftGlove_Stitch_-1",
+      "collection": "05 Gloves",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftGlove_Stitch_0",
+      "collection": "05 Gloves",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftGlove_Stitch_1",
+      "collection": "05 Gloves",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightGlove_Cuff",
+      "collection": "05 Gloves",
+      "triangles": 276,
+      "vertices": 140,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        247,
+        245,
+        237
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightGlove_Stitch_-1",
+      "collection": "05 Gloves",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightGlove_Stitch_0",
+      "collection": "05 Gloves",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightGlove_Stitch_1",
+      "collection": "05 Gloves",
+      "triangles": 80,
+      "vertices": 42,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "LeftGlove_White",
+      "collection": "05 Gloves",
+      "triangles": 2000,
+      "vertices": 1002,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        247,
+        245,
+        237
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "RightGlove_White",
+      "collection": "05 Gloves",
+      "triangles": 2000,
+      "vertices": 1002,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        247,
+        245,
+        237
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Tail_Black",
+      "collection": "06 Tail",
+      "triangles": 1292,
+      "vertices": 648,
+      "material": "Fur - charcoal black",
+      "colorRGB": [
+        22,
+        25,
+        30
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Tail_WhiteTip",
+      "collection": "06 Tail",
+      "triangles": 412,
+      "vertices": 208,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        236,
+        234,
+        225
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    },
+    {
+      "name": "Tail_WhiteTufts",
+      "collection": "06 Tail",
+      "triangles": 380,
+      "vertices": 200,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        236,
+        234,
+        225
+      ],
+      "nonmanifoldEdges": 0,
+      "degenerateFaces": 0
+    }
+  ]
+}

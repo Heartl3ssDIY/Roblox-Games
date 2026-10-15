@@ -1,0 +1,32 @@
+{
+  "backup": "ServerStorage.CoinPickupPolishBackup20261004.SourceModelMoves",
+  "runtimeGuns": [
+    "ReplicatedStorage.MudAssets.MudGun",
+    "ReplicatedStorage.MudAssets.HeatGun"
+  ],
+  "changes": [
+    {
+      "modelIdentityPreserved": true,
+      "originalPath": "Workspace.c01-collectible-coin",
+      "storedPath": "ReplicatedStorage.PlaygroundSourceModels.Coins.c01-collectible-coin",
+      "originalParent": "Workspace",
+      "pivotPreserved": true
+    },
+    {
+      "modelIdentityPreserved": true,
+      "originalPath": "Workspace.MudGun",
+      "storedPath": "ReplicatedStorage.PlaygroundSourceModels.Guns.MudGun",
+      "originalParent": "Workspace",
+      "pivotPreserved": true
+    },
+    {
+      "modelIdentityPreserved": true,
+      "originalPath": "Workspace.HeatGun",
+      "storedPath": "ReplicatedStorage.PlaygroundSourceModels.Guns.HeatGun",
+      "originalParent": "Workspace",
+      "pivotPreserved": true
+    }
+  ],
+  "runtimeCoinTemplate": "ReplicatedStorage.PlaygroundCosmeticAssets.C01",
+  "validation": "Source meshes, every part CFrame, size, colour, transparency, material and mesh ID checked unchanged during move. Native runtime templates kept at stable paths. No Economy/GUI source or capabilities changed; no Play."
+}

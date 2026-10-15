@@ -1,0 +1,54 @@
+{
+  "collisionPatch": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"alreadyApplied\":false,\"cornerOutlines\":8,\"wallTops\":100,\"grassRegions\":4,\"changed\":115}"
+      }
+    ],
+    "isError": false
+  },
+  "palette": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"painted\":1864,\"exteriorPanels\":73,\"removedGridTextures\":1466,\"material\":\"PlaygroundRetroStuds\",\"studdedParts\":1075}"
+      }
+    ],
+    "isError": false
+  },
+  "surfaceGuis": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"labels\":51,\"sourcesChanged\":0,\"mirrorsMoved\":2,\"alwaysOnTop\":false,\"surfaceGuis\":35}"
+      }
+    ],
+    "isError": false
+  },
+  "liveMapCheck": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"architecture\":{\"stairRiser\":0.75,\"inspectedJumpOpenings\":8,\"mainStairSteps\":24,\"avatarWidth\":2.2,\"inspectedClassroomEntrances\":8,\"nativeOverlapAndSupportQueries\":true,\"avatarHeight\":6,\"outsideStairSteps\":24},\"checks\":518,\"failures\":[],\"counts\":{\"solid\":1065,\"hiderSpawns\":16,\"classrooms\":8,\"seekerSpawns\":4,\"toilets\":2,\"lockers\":20,\"decorative\":1027,\"parts\":2092},\"passed\":true}"
+      }
+    ],
+    "isError": false
+  },
+  "collisionCheck": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"coplanarPairs\":[],\"failures\":[],\"passed\":true,\"checks\":166}"
+      }
+    ],
+    "isError": false
+  },
+  "notes": [
+    "Studio kept in Edit mode; no multiplayer playtest or publish.",
+    "Native screenshot review performed for exterior, classroom, hallway, classroom sign and bathroom mirror.",
+    "Both mirrors and their eight outline parts aligned.",
+    "HideAndSeekHUD text scaling corrected without moving or resizing frames.",
+    "Matching existing PlaygroundRetroStuds material; removed initial grid texture attempt."
+  ]
+}

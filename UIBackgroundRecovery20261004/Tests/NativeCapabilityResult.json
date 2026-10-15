@@ -1,0 +1,24 @@
+{
+  "cleaned": true,
+  "capabilities": "RunClientScript | AccessOutsideWrite | Basic | UI",
+  "checks": [
+    {
+      "name": "Existing loaded source PNG",
+      "passed": true
+    },
+    {
+      "name": "Existing failed source PNG",
+      "passed": true
+    },
+    {
+      "name": "Exact existing permissions",
+      "passed": true
+    }
+  ],
+  "sandboxed": true,
+  "passed": false,
+  "errors": [
+    "The current thread cannot start 'NativeCapabilityProbe' (lacking capability RunServerScript)\nAssistantCommand:41\nAssistantCommand:13\n"
+  ],
+  "interpretation": "Edit-mode execute_luau runs in server context. Exact production RunClientScript permissions cannot start a required ModuleScript there; the probe stopped before controller execution. Production permissions were not changed. Fixture cleaned; no Play started."
+}

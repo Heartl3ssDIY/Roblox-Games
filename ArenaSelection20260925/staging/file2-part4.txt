@@ -1,0 +1,135 @@
+             if PlayerData.consumePack(packId) then
+                    local result = PackOpening.roll(packId)
+                    PackOpening.apply(result)
+                    dpPopup.Visible = false
+                    arenaGui.Enabled = false
+                    PackReveal.play(playerGui, result, function()
+                        arenaGui.Enabled = true
+                        rebuildDpList()
+                        if PlayerData.totalBankedPacks() > 0 then dpPopup.Visible = true end
+                    end)
+                end
+            end)
+        end
+    end
+    if not any then
+        local empty = Instance.new("TextLabel", dpList)
+        empty.Size = UDim2.new(1, 0, 0, 60)
+        empty.BackgroundTransparency = 1
+        empty.Text = "No packs right now.\nWin matches to earn daily packs!"
+        empty.TextColor3 = C.sub
+        empty.Font = Enum.Font.Gotham
+        empty.TextSize = 13
+        empty.ZIndex = 22
+    end
+end
+
+local function refreshDpBadge()
+    local n = PlayerData.totalBankedPacks()
+    dpBadge.Visible = n > 0
+    dpBadge.Text = tostring(n)
+end
+refreshDpBadge()
+PlayerData.Changed:Connect(refreshDpBadge)
+
+dailyPacksBtn.MouseEnter:Connect(function() dailyPacksBtn.BackgroundColor3 = Color3.fromRGB(80, 52, 145) end)
+dailyPacksBtn.MouseLeave:Connect(function() dailyPacksBtn.BackgroundColor3 = Color3.fromRGB(60, 38, 110) end)
+dailyPacksBtn.Activated:Connect(function()
+    rebuildDpList()
+    dpPopup.Visible = not dpPopup.Visible
+end)
+
+local function reopenModePanel()
+    arenaGui.Enabled = false
+    ModePickerUI.open()
+end
+
+local backBtn = Instance.new("TextButton", aPanel)
+backBtn.Name = "BackBtn"
+backBtn.Size = UDim2.new(0, 110, 0, 38)
+backBtn.Position = UDim2.new(0, 20, 1, -50)
+backBtn.BackgroundColor3 = Color3.fromRGB(48, 30, 88)
+backBtn.BorderSizePixel = 0
+backBtn.Text = "←  Back"
+backBtn.TextColor3 = Color3.fromRGB(220, 205, 255)
+backBtn.Font = Enum.Font.GothamBold
+backBtn.TextSize = 15
+corner(backBtn, 19)
+stroke(backBtn, C.arenaBorder, 2)
+backBtn.MouseEnter:Connect(function()
+    TweenService:Create(backBtn, TweenInfo.new(0.12),
+        { BackgroundColor3 = Color3.fromRGB(66, 42, 120) }):Play()
+end)
+backBtn.MouseLeave:Connect(function()
+    TweenService:Create(backBtn, TweenInfo.new(0.12),
+        { BackgroundColor3 = Color3.fromRGB(48, 30, 88) }):Play()
+end)
+backBtn.Activated:Connect(function()
+    aPanel.Size = UDim2.new(0,700,0,520)
+    aPanel.Position = UDim2.new(0.5,-350,0.5,-260)
+    TweenService:Create(aPanel, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.In),
+        { Size=UDim2.new(0,700,0,10), Position=UDim2.new(0.5,-350,0.5,-5) }):Play()
+    task.delay(0.2, reopenModePanel)
+end)
+
+local ARENAS = {
+    { name = "Tenkaichi" },
+}
+local currentArena = 1
+
+local nextBtn = Instance.new("TextButton", aPanel)
+nextBtn.Name = "NextArenaBtn"
+nextBtn.Size = UDim2.new(0, 48, 0, 48)
+nextBtn.Position = UDim2.new(1, -64, 0.5, -24)
+nextBtn.BackgroundColor3 = Color3.fromRGB(48, 30, 88)
+nextBtn.BorderSizePixel = 0
+nextBtn.Text = "›"
+nextBtn.TextColor3 = Color3.fromRGB(230, 215, 255)
+nextBtn.Font = Enum.Font.GothamBold
+nextBtn.TextSize = 30
+corner(nextBtn, 24)
+stroke(nextBtn, C.arenaBorder, 2)
+
+local function refreshArenaArrow()
+
+    local hasNext = currentArena < #ARENAS
+    nextBtn.AutoButtonColor = hasNext
+    nextBtn.BackgroundTransparency = hasNext and 0 or 0.55
+    nextBtn.TextTransparency = hasNext and 0 or 0.5
+end
+refreshArenaArrow()
+
+nextBtn.MouseEnter:Connect(function()
+    if currentArena < #ARENAS then
+        TweenService:Create(nextBtn, TweenInfo.new(0.12),
+            { BackgroundColor3 = Color3.fromRGB(66, 42, 120) }):Play()
+    end
+end)
+nextBtn.MouseLeave:Connect(function()
+    TweenService:Create(nextBtn, TweenInfo.new(0.12),
+        { BackgroundColor3 = Color3.fromRGB(48, 30, 88) }):Play()
+end)
+nextBtn.Activated:Connect(function()
+    if currentArena < #ARENAS then
+        currentArena += 1
+
+        refreshArenaArrow()
+    end
+end)
+
+if mainBtn then
+    mainBtn.Activated:Connect(function()
+        modeGui.Enabled = false
+        aPanel.Size = UDim2.new(0,700,0,10)
+        aPanel.Position = UDim2.new(0.5,-350,0.5,-5)
+        arenaGui.Enabled = true
+        TweenService:Create(aPanel,
+            TweenInfo.new(0.32, Enum.EasingStyle.Back, Enum.EasingDirection.Out),
+            { Size=UDim2.new(0,700,0,520), Position=UDim2.new(0.5,-350,0.5,-260) }):Play()
+    end)
+end
+
+local onRing = false
+
+RunService.Heartbeat:Connect(function()
+    if player:GetAttribute("Active

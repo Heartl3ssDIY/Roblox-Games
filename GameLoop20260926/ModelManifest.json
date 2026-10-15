@@ -1,0 +1,110 @@
+[
+  {
+    "character": "Gaara",
+    "assetId": "4922836128",
+    "url": "https://create.roblox.com/store/asset/4922836128",
+    "creator": "Moki213221",
+    "notes": "Check age/outfit against Chunin Exams",
+    "rig": true,
+    "issues": "Compatibility/animations still need testing"
+  },
+  {
+    "character": "Hisoka",
+    "assetId": "8179258960",
+    "url": "https://create.roblox.com/store/asset/8179258960",
+    "creator": "Terfora",
+    "notes": "Check outfit against Heavens Arena",
+    "rig": true,
+    "issues": "Shirt failed to load"
+  },
+  {
+    "character": "Gojo",
+    "assetId": "14034779103",
+    "url": "https://create.roblox.com/store/asset/14034779103",
+    "creator": "iamphel",
+    "notes": "Use adult blindfold-era appearance",
+    "rig": true,
+    "issues": "Compatibility/animations still need testing"
+  },
+  {
+    "character": "Tanjiro",
+    "assetId": "17831339948",
+    "url": "https://create.roblox.com/store/asset/17831339948",
+    "creator": "enzoking1e",
+    "notes": "Final Selection needs blue cloud haori, not later checkered uniform",
+    "rig": true,
+    "issues": "Final Selection outfit replacement needed"
+  },
+  {
+    "character": "Kaido",
+    "assetId": "12682824151",
+    "url": "https://create.roblox.com/store/asset/12682824151",
+    "creator": "darkjaninja",
+    "notes": "Base-form Wano candidate",
+    "rig": true,
+    "issues": "Detail decal failed to load"
+  },
+  {
+    "character": "Aokiji",
+    "assetId": "122793858901662",
+    "url": "https://create.roblox.com/store/asset/122793858901662",
+    "creator": "ShadowRed3856",
+    "notes": "Check pre-timeskip admiral outfit",
+    "rig": true,
+    "issues": "Compatibility/animations still need testing"
+  },
+  {
+    "character": "Kanao",
+    "assetId": "9020445437",
+    "url": "https://create.roblox.com/store/asset/9020445437",
+    "creator": "A_xne",
+    "notes": "Early-series version",
+    "rig": true,
+    "issues": "Compatibility/animations still need testing"
+  },
+  {
+    "character": "Orochimaru",
+    "assetId": "4755363648",
+    "url": "https://create.roblox.com/store/asset/4755363648",
+    "creator": "HaxerRakesh",
+    "notes": "Part I candidate",
+    "rig": false,
+    "issues": "Needs rigging"
+  },
+  {
+    "character": "Killua",
+    "assetId": "8249527823",
+    "url": "https://create.roblox.com/store/asset/8249527823",
+    "creator": "patatafriki2021",
+    "notes": "Heavens Arena; remove any later lightning effects",
+    "rig": true,
+    "issues": "Compatibility/animations still need testing"
+  },
+  {
+    "character": "Whitebeard",
+    "assetId": "12039636819",
+    "url": "https://create.roblox.com/store/asset/12039636819",
+    "creator": "Spaarku",
+    "notes": "Marineford old/injured version, not prime",
+    "rig": false,
+    "issues": "Needs rigging; shirt failed to load"
+  },
+  {
+    "character": "Jiraiya",
+    "assetId": "8767539293",
+    "url": "https://create.roblox.com/store/asset/8767539293",
+    "creator": "RanceAAusan",
+    "notes": "Part I version; no later Sage Mode kit",
+    "rig": true,
+    "issues": "Compatibility/animations still need testing"
+  },
+  {
+    "character": "Rock Lee",
+    "assetId": "1439292706",
+    "url": "https://create.roblox.com/store/asset/1439292706",
+    "creator": "Ieevvs",
+    "notes": "Optional student roster alternative",
+    "rig": false,
+    "issues": "Needs rigging"
+  }
+]

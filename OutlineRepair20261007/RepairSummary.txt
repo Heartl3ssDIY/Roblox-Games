@@ -1,0 +1,24 @@
+Outline rendering repaired in Studio Edit mode, 2026-10-07.
+
+Cause
+377 Highlight objects existed across the DataModel: 160 in Workspace, 91 in ReplicatedStorage, 114 in ServerStorage archives/backups and 12 in StarterGui. Roblox supports 255 simultaneous Highlight instances; disabled instances also occupy slots. The new models' Highlight settings were present but their rendering slots were exhausted. The renderer also retained stale handles until those visible outlines were recreated.
+Official reference: https://create.roblox.com/docs/reference/engine/classes/Highlight
+
+Installed repair
+149 exact stored outlines were converted into restorable metadata: 114 in explicitly named ServerStorage backup/archive folders and the 35 new ReplicatedStorage item templates.
+All 56 old ReplicatedStorage Highlight objects were retained, including 51 old cosmetic-library/coin template outlines.
+Full original property records and owner references are stored in ServerStorage.OutlinePropertyBackup20261007. Their restore round-trip passed before conversion. OriginalHighlightProperties.json is an additional local property backup; RestoreStoredOutlines.luau reconstructs the original objects if needed.
+Every new expansion model uses true black outline metadata, with transparent fill and Occluded depth. The 15 currently visible new pet displays were refreshed and their black outlines were verified in an edit-time screenshot. Current new bats/toys remain in their requested storage locations.
+PlaygroundPets now manages visible cosmetic outlines from model metadata. This covers all 86 cosmetic-library models (85 items plus the coin), including old templates which retain existing Highlights. Runtime clones receive outlines after entering Workspace; nearby, on-screen and locally equipped items are prioritized if the budget becomes tight. The manager caps cosmetic allocations and keeps 16 spare Highlight slots for transient game feedback.
+No mesh shell was enlarged. Geometry, palettes, stud coatings, rigs and animation code were unchanged.
+
+Verification
+Current DataModel count: 228 Highlight objects; Workspace 160; ServerStorage 0.
+Sandboxed clone fixtures verified all 86 library models, including true-black outline recreation for every new item (35).
+The allocation ceiling test passed. All temporary clones/modules were removed.
+Modified PlaygroundPets compiles. Script capabilities unchanged. Play stayed stopped.
+VerifiedPetOutlines.png shows the repaired display using the same camera angle as the reported problem.
+
+Audit note
+The first broad conversion attempt was blocked by automatic approval review before deleting anything. The installed version is ApplyReversibleConversion.luau, with verified explicit backups and old ReplicatedStorage templates retained. FixStoredOutlines.luau is the rejected, uninstalled proposal and must not be run.
+ApplyReversibleConversion.luau is a one-time migration record, not an idempotent installer. Do not rerun it against the converted state.

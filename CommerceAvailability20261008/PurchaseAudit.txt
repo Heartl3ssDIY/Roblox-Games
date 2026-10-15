@@ -1,0 +1,12 @@
+Receipt audit verdict: PASS for the reviewed purchase-fulfillment paths.
+
+Blockers found in receipt handling: none.
+Availability blocker found and fixed separately: AssetRead was missing from the commerce and donation controllers, commerce service, and Bootstrap launcher.
+
+Reviewed scripts: PlaygroundCommerceService, PlaygroundEconomyService, PlaygroundShell.CommerceController, PlaygroundDonations.Controller, and PlaygroundBootstrap.
+
+Evidence: one ProcessReceipt assignment routes all configured developer products. Coin purchases are deduplicated by PurchaseId and acknowledged only after the profile save succeeds. Donation receipts use UpdateAsync and verify the saved player/product before acknowledgment. Missing players, unknown products, and failed persistence return NotProcessedYet. Client purchase-finished events do not grant currency.
+
+Verification: native read-only checks resolved all nine developer products and all three game passes using the installed script capabilities. All offers were on sale and all three ownership checks succeeded. User-configured IDs and base prices were unchanged.
+
+Limit: no real purchase, persistence write, Play session, or publication was performed during this check. Publish the updated Studio place and verify checkout in a new live server before considering the live-game issue confirmed resolved.

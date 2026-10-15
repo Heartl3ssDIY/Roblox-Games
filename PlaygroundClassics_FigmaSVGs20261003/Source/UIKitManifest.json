@@ -1,0 +1,130 @@
+{
+  "file": "UI-Kit-Overview.svg",
+  "panels": 30,
+  "textLayers": 235,
+  "width": 3222,
+  "height": 3136,
+  "sha256": "57bf1e35d82b1b9dba754aadb079dacd4b29ccf67d6a666d334a502f8778c68c",
+  "items": [
+    [
+      "British Bulldog timer",
+      "Panels/BritishBulldogHUD/TopCard.svg"
+    ],
+    [
+      "British Bulldog movement",
+      "Panels/BritishBulldogHUD/MovementControls.svg"
+    ],
+    [
+      "Leave safe zone",
+      "Panels/BritishBulldogHUD/Departure.svg"
+    ],
+    [
+      "Tagged notice",
+      "Panels/BritishBulldogHUD/Tagged.svg"
+    ],
+    [
+      "British Bulldog results",
+      "Panels/BritishBulldogHUD/Results.svg"
+    ],
+    [
+      "Tag timer",
+      "Panels/TagHUD/Top.svg"
+    ],
+    [
+      "Tag sprint",
+      "Panels/TagHUD/SprintPanel.svg"
+    ],
+    [
+      "Vault and dodge",
+      "Panels/TagHUD/Controls.svg"
+    ],
+    [
+      "Tag results",
+      "Panels/TagHUD/Results.svg"
+    ],
+    [
+      "Mud timer and teams",
+      "Panels/MudHUD/Top.svg"
+    ],
+    [
+      "Mud guns and sprint",
+      "Panels/MudHUD/Controls.svg"
+    ],
+    [
+      "Stuck and rescue meter",
+      "Panels/MudHUD/Frozen.svg"
+    ],
+    [
+      "Mud results",
+      "Panels/MudHUD/Results.svg"
+    ],
+    [
+      "Team colour picker",
+      "Panels/MudHUD/ColourPicker.svg"
+    ],
+    [
+      "Lobby wallet",
+      "Panels/PlaygroundShell/Wallet.svg"
+    ],
+    [
+      "Shop and action dock",
+      "Panels/PlaygroundShell/Dock.svg"
+    ],
+    [
+      "Level and XP",
+      "Panels/PlaygroundShell/LevelPanel.svg"
+    ],
+    [
+      "Compact level and XP",
+      "Panels/PlaygroundShell/CompactLevelPanel.svg"
+    ],
+    [
+      "Three-game voting",
+      "Panels/PlaygroundShell/VotePanel.svg"
+    ],
+    [
+      "Compact voting",
+      "Panels/PlaygroundShell/CompactVotePanel.svg"
+    ],
+    [
+      "Shop - all 12 cards",
+      "Panels/PlaygroundShell/Shop_CompleteExpanded.svg"
+    ],
+    [
+      "Editable shop item template",
+      "Templates/Shop_ItemCard.svg"
+    ],
+    [
+      "Admin - all three games",
+      "Panels/PlaygroundAdminPanel/Panel_AllGamesExpanded.svg"
+    ],
+    [
+      "Compact admin - all games",
+      "Panels/PlaygroundAdminPanel/CompactPanel_AllGamesExpanded.svg"
+    ],
+    [
+      "Overhead tagged",
+      "WorldUI/Overhead-Tagged.svg"
+    ],
+    [
+      "Overhead tagger",
+      "WorldUI/Overhead-Youre-It.svg"
+    ],
+    [
+      "Overhead stuck",
+      "WorldUI/Overhead-Stuck.svg"
+    ],
+    [
+      "Star emoji bubble",
+      "WorldUI/Emoji-Bubble-Star.svg"
+    ],
+    [
+      "Heart emoji bubble",
+      "WorldUI/Emoji-Bubble-Heart.svg"
+    ],
+    [
+      "Round reward toast",
+      "Panels/PlaygroundShell/RewardToast.svg"
+    ]
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-11",
+  "studioId": "7023997f-0934-4375-96b6-d81cba4ba64b",
+  "placeId": 95034648955135,
+  "published": false,
+  "playStarted": false,
+  "school": {
+    "classrooms": 32,
+    "staircasePreserved": true,
+    "hideSeconds": 30,
+    "seekSeconds": 300,
+    "sprintSeconds": 25,
+    "templates": 37,
+    "morphChoices": 13,
+    "storageHidingSpots": 76,
+    "studs": true,
+    "outlines": true
+  },
+  "ui": {
+    "installed": true,
+    "adminCompactAccess": "Settings > ADMIN PANEL",
+    "editable": "StarterGui",
+    "phoneLandscapeDock": "bottom centre",
+    "phonePortraitDock": "above movement controls",
+    "sprint": "right side above jump"
+  },
+  "validation": {
+    "mapGeometry": 1198,
+    "combinedFurnitureGeometry": 1262,
+    "liveAssetChecks": 1204,
+    "storageExitRays": 76,
+    "morphService": 126,
+    "actualMorphTemplates": 13,
+    "uiGeometry": 792,
+    "uiBehavior": 90,
+    "sprintMovement": 33
+  },
+  "backups": [
+    "ServerStorage.SchoolPropHuntBackup20261011",
+    "ServerStorage.SchoolPropHuntServiceBackup20261011",
+    "ServerStorage.MobilePlacementBackup20261011",
+    "ServerStorage.SprintPartialRechargeBackup20261011",
+    "ServerStorage.CaveInstantTilesBackup20261011"
+  ],
+  "cave": {
+    "installed": true,
+    "wrongTilesDisappear": "immediately on detection, checked every heartbeat",
+    "resetSeconds": 3.5,
+    "dailyRewardUnchanged": true,
+    "checks": 15
+  }
+}

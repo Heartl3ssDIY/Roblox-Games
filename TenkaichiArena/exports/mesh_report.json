@@ -1,0 +1,207 @@
+{
+  "asset": "Tenkaichi tropical arena",
+  "visual_mesh_count": 32,
+  "total_triangles": 160698,
+  "largest_mesh_triangles": 14000,
+  "ring_size_studs": [
+    64,
+    64
+  ],
+  "scene_units": "1 Blender unit intended as 1 Roblox stud; import Scale Unit Stud",
+  "collision_mesh_count": 36,
+  "meshes": [
+    {
+      "name": "01_Ground_Part01",
+      "triangles": 308,
+      "vertices": 168,
+      "uv_layers": 1
+    },
+    {
+      "name": "02_Ring_Part01",
+      "triangles": 11396,
+      "vertices": 6216,
+      "uv_layers": 1
+    },
+    {
+      "name": "02_RingSteps_Part01",
+      "triangles": 352,
+      "vertices": 192,
+      "uv_layers": 1
+    },
+    {
+      "name": "03_TempleShell_Part01",
+      "triangles": 892,
+      "vertices": 488,
+      "uv_layers": 1
+    },
+    {
+      "name": "03_TempleDetails_Part01",
+      "triangles": 3472,
+      "vertices": 1904,
+      "uv_layers": 1
+    },
+    {
+      "name": "04_ThatchRoof_Part01",
+      "triangles": 9644,
+      "vertices": 6444,
+      "uv_layers": 1
+    },
+    {
+      "name": "05_Pavilion_Part01",
+      "triangles": 8132,
+      "vertices": 4616,
+      "uv_layers": 1
+    },
+    {
+      "name": "06_Sign_Part01",
+      "triangles": 5268,
+      "vertices": 2668,
+      "uv_layers": 1
+    },
+    {
+      "name": "10_Stands_West_Part01",
+      "triangles": 9668,
+      "vertices": 5288,
+      "uv_layers": 1
+    },
+    {
+      "name": "10_Stands_East_Part01",
+      "triangles": 9668,
+      "vertices": 5288,
+      "uv_layers": 1
+    },
+    {
+      "name": "11_FrontGallery_Part01",
+      "triangles": 1232,
+      "vertices": 672,
+      "uv_layers": 1
+    },
+    {
+      "name": "12_Perimeter_Part01",
+      "triangles": 968,
+      "vertices": 528,
+      "uv_layers": 1
+    },
+    {
+      "name": "07_CeremonialGate_Part01",
+      "triangles": 4400,
+      "vertices": 2376,
+      "uv_layers": 1
+    },
+    {
+      "name": "08_Guardians_Part01",
+      "triangles": 10528,
+      "vertices": 5448,
+      "uv_layers": 1
+    },
+    {
+      "name": "14_Annexes_Part01",
+      "triangles": 8288,
+      "vertices": 5424,
+      "uv_layers": 1
+    },
+    {
+      "name": "15_Parasols_Part01",
+      "triangles": 3472,
+      "vertices": 1940,
+      "uv_layers": 1
+    },
+    {
+      "name": "16_FestivalBanners_Part01",
+      "triangles": 1136,
+      "vertices": 592,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_01_Part01",
+      "triangles": 3940,
+      "vertices": 2034,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_02_Part01",
+      "triangles": 4046,
+      "vertices": 2089,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_03_Part01",
+      "triangles": 4046,
+      "vertices": 2089,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_04_Part01",
+      "triangles": 3940,
+      "vertices": 2034,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_05_Part01",
+      "triangles": 3940,
+      "vertices": 2034,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_06_Part01",
+      "triangles": 4046,
+      "vertices": 2089,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_07_Part01",
+      "triangles": 4046,
+      "vertices": 2089,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_08_Part01",
+      "triangles": 3834,
+      "vertices": 1979,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_09_Part01",
+      "triangles": 3940,
+      "vertices": 2034,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_10_Part01",
+      "triangles": 4046,
+      "vertices": 2089,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_11_Part01",
+      "triangles": 3940,
+      "vertices": 2034,
+      "uv_layers": 1
+    },
+    {
+      "name": "20_Palm_12_Part01",
+      "triangles": 4046,
+      "vertices": 2089,
+      "uv_layers": 1
+    },
+    {
+      "name": "21_Gardens_Part02",
+      "triangles": 8280,
+      "vertices": 4370,
+      "uv_layers": 1
+    },
+    {
+      "name": "21_Gardens_Part01",
+      "triangles": 14000,
+      "vertices": 7518,
+      "uv_layers": 1
+    },
+    {
+      "name": "22_GroundsDetails_Part01",
+      "triangles": 1784,
+      "vertices": 980,
+      "uv_layers": 1
+    }
+  ],
+  "studio_import_tested": false
+}

@@ -1,0 +1,64 @@
+{
+  "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+  "sandboxed": true,
+  "slots": [
+    {
+      "models": 0,
+      "loaded": true,
+      "name": "Slot1",
+      "label": "EMPTY"
+    },
+    {
+      "models": 0,
+      "loaded": true,
+      "name": "Slot2",
+      "label": "EMPTY"
+    },
+    {
+      "models": 0,
+      "loaded": true,
+      "name": "Slot3",
+      "label": "EMPTY"
+    },
+    {
+      "models": 0,
+      "loaded": true,
+      "name": "Slot4",
+      "label": "EMPTY"
+    }
+  ],
+  "crosshairHidden": true,
+  "barHidden": true,
+  "nativeFixtureAbsent": true,
+  "previewFixtureAbsent": true,
+  "sandboxMatchesBackup": true,
+  "sandboxMatchesReference": true,
+  "capabilitiesMatchBackup": true,
+  "sourceLength": 13413,
+  "capabilitiesMatchReference": true,
+  "exactCandidateSourceMatch": true,
+  "candidateSHA256": "4CBBC3211EA8D6FE4D07D45C288E310A03074DAC15E51FB687F36B031876B850",
+  "candidatePath": "After/PlaygroundToyHotbar.Controller.client.luau",
+  "playStarted": false,
+  "desktopControlled": false,
+  "visualPreview": {
+    "captureId": "ToyHotbarFinalEditPreviewCorrected20261005",
+    "imageFile": null,
+    "items": [
+      "M01",
+      "M05",
+      "M10",
+      "M15"
+    ],
+    "modelsVisible": true,
+    "authoredStateRestored": true
+  },
+  "validation": {
+    "contractChecksPassed": 34,
+    "nativeBindingWrapper": "Module require returned a generic loading error; no pass claimed. Temporary fixture removed. Parent separately confirmed native Selected lookup and final acceptance."
+  },
+  "corrections": [
+    "Use FindFirstChild(\"Selected\") for TextLabel because TextButton.Selected is a boolean property.",
+    "Prevent SelectToy when the ScreenGui is disabled."
+  ]
+}

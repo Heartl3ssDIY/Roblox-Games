@@ -1,0 +1,681 @@
+{
+  "variant": "Horror",
+  "meshObjects": 67,
+  "triangles": 58720,
+  "maxMeshTriangles": 16000,
+  "nonmanifoldEdges": 0,
+  "degenerateFaces": 0,
+  "rigged": false,
+  "parts": [
+    {
+      "name": "Body_BlackFur",
+      "triangles": 16000,
+      "material": "Fur - charcoal black",
+      "colorRGB": [
+        16,
+        18,
+        22
+      ]
+    },
+    {
+      "name": "Body_WhiteBib",
+      "triangles": 3998,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        197,
+        192,
+        175
+      ]
+    },
+    {
+      "name": "LeftEar_Inner",
+      "triangles": 38,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "RightEar_Inner",
+      "triangles": 38,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "LeftEye_Socket",
+      "triangles": 720,
+      "material": "Horror - eye hollows",
+      "colorRGB": [
+        43,
+        35,
+        31
+      ]
+    },
+    {
+      "name": "LeftEye_White",
+      "triangles": 720,
+      "material": "Eyes - whites",
+      "colorRGB": [
+        208,
+        197,
+        168
+      ]
+    },
+    {
+      "name": "LeftEye_Iris",
+      "triangles": 440,
+      "material": "Eyes - amber hazel",
+      "colorRGB": [
+        158,
+        129,
+        62
+      ]
+    },
+    {
+      "name": "LeftEye_Pupil",
+      "triangles": 288,
+      "material": "Face - ink",
+      "colorRGB": [
+        20,
+        22,
+        25
+      ]
+    },
+    {
+      "name": "LeftEye_Catchlight",
+      "triangles": 168,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        209,
+        203,
+        186
+      ]
+    },
+    {
+      "name": "RightEye_Socket",
+      "triangles": 720,
+      "material": "Horror - eye hollows",
+      "colorRGB": [
+        43,
+        35,
+        31
+      ]
+    },
+    {
+      "name": "RightEye_White",
+      "triangles": 720,
+      "material": "Eyes - whites",
+      "colorRGB": [
+        208,
+        197,
+        168
+      ]
+    },
+    {
+      "name": "RightEye_Iris",
+      "triangles": 440,
+      "material": "Eyes - amber hazel",
+      "colorRGB": [
+        158,
+        129,
+        62
+      ]
+    },
+    {
+      "name": "RightEye_Pupil",
+      "triangles": 288,
+      "material": "Face - ink",
+      "colorRGB": [
+        20,
+        22,
+        25
+      ]
+    },
+    {
+      "name": "RightEye_Catchlight",
+      "triangles": 168,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        209,
+        203,
+        186
+      ]
+    },
+    {
+      "name": "Nose_Rose",
+      "triangles": 46,
+      "material": "Nose - muted rose",
+      "colorRGB": [
+        105,
+        39,
+        44
+      ]
+    },
+    {
+      "name": "LeftNostril",
+      "triangles": 168,
+      "material": "Mouth - shadow",
+      "colorRGB": [
+        13,
+        3,
+        7
+      ]
+    },
+    {
+      "name": "RightNostril",
+      "triangles": 168,
+      "material": "Mouth - shadow",
+      "colorRGB": [
+        13,
+        3,
+        7
+      ]
+    },
+    {
+      "name": "Muzzle_CenterLine",
+      "triangles": 108,
+      "material": "Nose - muted rose",
+      "colorRGB": [
+        105,
+        39,
+        44
+      ]
+    },
+    {
+      "name": "Smile_Opening",
+      "triangles": 960,
+      "material": "Mouth - shadow",
+      "colorRGB": [
+        13,
+        3,
+        7
+      ]
+    },
+    {
+      "name": "Smile_LowerLip",
+      "triangles": 336,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        197,
+        192,
+        175
+      ]
+    },
+    {
+      "name": "LeftWhiskerRoot_0",
+      "triangles": 80,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "LeftWhiskers",
+      "triangles": 240,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "LeftWhiskerRoot_1",
+      "triangles": 80,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "LeftWhiskerRoot_2",
+      "triangles": 80,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "RightWhiskerRoot_0",
+      "triangles": 80,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "RightWhiskers",
+      "triangles": 240,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "RightWhiskerRoot_1",
+      "triangles": 80,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "RightWhiskerRoot_2",
+      "triangles": 80,
+      "material": "Ears - warm grey",
+      "colorRGB": [
+        124,
+        115,
+        115
+      ]
+    },
+    {
+      "name": "Head_BlackFur",
+      "triangles": 5000,
+      "material": "Fur - charcoal black",
+      "colorRGB": [
+        16,
+        18,
+        22
+      ]
+    },
+    {
+      "name": "Face_WhiteFur",
+      "triangles": 6000,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        197,
+        192,
+        175
+      ]
+    },
+    {
+      "name": "LeftEye_UpperLid",
+      "triangles": 316,
+      "material": "Fur - warm white - horror detail",
+      "colorRGB": [
+        197,
+        192,
+        175
+      ]
+    },
+    {
+      "name": "LeftEye_LowerLid",
+      "triangles": 216,
+      "material": "Fur - warm white - horror detail",
+      "colorRGB": [
+        197,
+        192,
+        175
+      ]
+    },
+    {
+      "name": "LeftEyebrow",
+      "triangles": 316,
+      "material": "Fur - charcoal black - horror detail",
+      "colorRGB": [
+        16,
+        18,
+        22
+      ]
+    },
+    {
+      "name": "LeftEye_HollowCrease",
+      "triangles": 252,
+      "material": "Horror - eye hollows - horror detail",
+      "colorRGB": [
+        43,
+        35,
+        31
+      ]
+    },
+    {
+      "name": "RightEye_UpperLid",
+      "triangles": 316,
+      "material": "Fur - warm white - horror detail",
+      "colorRGB": [
+        197,
+        192,
+        175
+      ]
+    },
+    {
+      "name": "RightEye_LowerLid",
+      "triangles": 216,
+      "material": "Fur - warm white - horror detail",
+      "colorRGB": [
+        197,
+        192,
+        175
+      ]
+    },
+    {
+      "name": "RightEyebrow",
+      "triangles": 316,
+      "material": "Fur - charcoal black - horror detail",
+      "colorRGB": [
+        16,
+        18,
+        22
+      ]
+    },
+    {
+      "name": "RightEye_HollowCrease",
+      "triangles": 252,
+      "material": "Horror - eye hollows - horror detail",
+      "colorRGB": [
+        43,
+        35,
+        31
+      ]
+    },
+    {
+      "name": "Smile_UpperTeeth",
+      "triangles": 108,
+      "material": "Smile - ivory - horror detail",
+      "colorRGB": [
+        214,
+        205,
+        179
+      ]
+    },
+    {
+      "name": "Smile_LowerTeeth",
+      "triangles": 72,
+      "material": "Smile - ivory - horror detail",
+      "colorRGB": [
+        214,
+        205,
+        179
+      ]
+    },
+    {
+      "name": "LeftGrin_Corner",
+      "triangles": 172,
+      "material": "Horror - eye hollows - horror detail",
+      "colorRGB": [
+        43,
+        35,
+        31
+      ]
+    },
+    {
+      "name": "RightGrin_Corner",
+      "triangles": 172,
+      "material": "Horror - eye hollows - horror detail",
+      "colorRGB": [
+        43,
+        35,
+        31
+      ]
+    },
+    {
+      "name": "Hat_Band_1_Red",
+      "triangles": 668,
+      "material": "Hat - crimson",
+      "colorRGB": [
+        126,
+        7,
+        18
+      ]
+    },
+    {
+      "name": "Hat_Band_2_White",
+      "triangles": 668,
+      "material": "Hat - ivory bands",
+      "colorRGB": [
+        203,
+        197,
+        179
+      ]
+    },
+    {
+      "name": "Hat_Band_3_Red",
+      "triangles": 668,
+      "material": "Hat - crimson",
+      "colorRGB": [
+        126,
+        7,
+        18
+      ]
+    },
+    {
+      "name": "Hat_Band_4_White",
+      "triangles": 668,
+      "material": "Hat - ivory bands",
+      "colorRGB": [
+        203,
+        197,
+        179
+      ]
+    },
+    {
+      "name": "Hat_Band_5_Red",
+      "triangles": 668,
+      "material": "Hat - crimson",
+      "colorRGB": [
+        126,
+        7,
+        18
+      ]
+    },
+    {
+      "name": "Hat_Brim_White",
+      "triangles": 636,
+      "material": "Hat - ivory bands",
+      "colorRGB": [
+        203,
+        197,
+        179
+      ]
+    },
+    {
+      "name": "Hat_Brim_RolledEdge",
+      "triangles": 1036,
+      "material": "Hat - ivory bands",
+      "colorRGB": [
+        203,
+        197,
+        179
+      ]
+    },
+    {
+      "name": "Bow_LeftLoop",
+      "triangles": 1432,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        133,
+        10,
+        24
+      ]
+    },
+    {
+      "name": "Bow_RightLoop",
+      "triangles": 1432,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        133,
+        10,
+        24
+      ]
+    },
+    {
+      "name": "Bow_CenterKnot",
+      "triangles": 720,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        133,
+        10,
+        24
+      ]
+    },
+    {
+      "name": "Bow_LeftRibbon",
+      "triangles": 896,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        133,
+        10,
+        24
+      ]
+    },
+    {
+      "name": "Bow_RightRibbon",
+      "triangles": 896,
+      "material": "Bow - rich red",
+      "colorRGB": [
+        133,
+        10,
+        24
+      ]
+    },
+    {
+      "name": "LeftGlove_Cuff",
+      "triangles": 276,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        209,
+        203,
+        186
+      ]
+    },
+    {
+      "name": "LeftGlove_Stitch_-1",
+      "triangles": 80,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ]
+    },
+    {
+      "name": "LeftGlove_Stitch_0",
+      "triangles": 80,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ]
+    },
+    {
+      "name": "LeftGlove_Stitch_1",
+      "triangles": 80,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ]
+    },
+    {
+      "name": "RightGlove_Cuff",
+      "triangles": 276,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        209,
+        203,
+        186
+      ]
+    },
+    {
+      "name": "RightGlove_Stitch_-1",
+      "triangles": 80,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ]
+    },
+    {
+      "name": "RightGlove_Stitch_0",
+      "triangles": 80,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ]
+    },
+    {
+      "name": "RightGlove_Stitch_1",
+      "triangles": 80,
+      "material": "Gloves - seam ivory",
+      "colorRGB": [
+        214,
+        211,
+        202
+      ]
+    },
+    {
+      "name": "LeftGlove_White",
+      "triangles": 2000,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        209,
+        203,
+        186
+      ]
+    },
+    {
+      "name": "RightGlove_White",
+      "triangles": 2000,
+      "material": "Gloves - soft white",
+      "colorRGB": [
+        209,
+        203,
+        186
+      ]
+    },
+    {
+      "name": "Tail_Black",
+      "triangles": 1292,
+      "material": "Fur - charcoal black",
+      "colorRGB": [
+        16,
+        18,
+        22
+      ]
+    },
+    {
+      "name": "Tail_WhiteTip",
+      "triangles": 412,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        197,
+        192,
+        175
+      ]
+    },
+    {
+      "name": "Tail_WhiteTufts",
+      "triangles": 380,
+      "material": "Fur - warm white",
+      "colorRGB": [
+        197,
+        192,
+        175
+      ]
+    }
+  ]
+}

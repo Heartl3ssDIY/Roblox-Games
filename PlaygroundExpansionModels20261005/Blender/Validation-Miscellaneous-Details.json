@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "count": 10,
+  "assets": [
+    {
+      "id": "M16",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true,
+        "spoutAnchor": true
+      },
+      "passed": true
+    },
+    {
+      "id": "M17",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true,
+        "exactlyThreeSnowballs": true,
+        "muzzleAndHopperAnchors": true,
+        "snowballCradle": true
+      },
+      "passed": true
+    },
+    {
+      "id": "M18",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true,
+        "attachedNozzleFeed": true,
+        "muzzleAndReservoirAnchors": true
+      },
+      "passed": true
+    },
+    {
+      "id": "M19",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true,
+        "exactlyThreePeels": true
+      },
+      "passed": true
+    },
+    {
+      "id": "M20",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true,
+        "exactlyThreeSpringLoops": true
+      },
+      "passed": true
+    },
+    {
+      "id": "M21",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true,
+        "spoutAnchor": true
+      },
+      "passed": true
+    },
+    {
+      "id": "M22",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true
+      },
+      "passed": true
+    },
+    {
+      "id": "M23",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true
+      },
+      "passed": true
+    },
+    {
+      "id": "M24",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true,
+        "exactlyThreeBlades": true
+      },
+      "passed": true
+    },
+    {
+      "id": "M25",
+      "checks": {
+        "gripAnchor": true,
+        "noGameplay": true,
+        "editableVolumes": true,
+        "lidHeadAndCrankAnchors": true,
+        "twoCreamHorns": true
+      },
+      "passed": true
+    }
+  ]
+}

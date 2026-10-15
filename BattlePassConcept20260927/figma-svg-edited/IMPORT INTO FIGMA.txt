@@ -1,0 +1,7 @@
+Battle Pass — based on your edited screen
+
+Drag battle-pass-edited.svg into Figma. Its frame, header, labels, level rail, reward cards, stars and halftone dots are editable SVG objects. The only raster layers are your coin and diamond illustrations inside the first visible reward cards. The rest of the reward spaces remain open.
+
+The surrounding gray editor canvas in your screenshot is not part of the SVG; the exported UI has a transparent exterior. The design is 1095 × 729, with the first six levels visible as a horizontal viewport. It is a visual design file, not the Roblox implementation.
+
+The included PermanentMarker.ttf is the project font. Install it locally if Figma substitutes the lettering on import. Component SVGs let you re-use the background, free lane, paid lane and reward card independently. The component files contain vector artwork; battle-pass-edited.svg is the full composition.

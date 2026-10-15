@@ -1,0 +1,1 @@
+{"capabilities":"RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior","sandboxed":true,"reproduction":"PrepareRound fails on a character containing Accessory, matching published place269 traceback"}

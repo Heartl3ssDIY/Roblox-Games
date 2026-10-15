@@ -1,0 +1,53 @@
+{
+  "id": "SA03",
+  "name": "Student 03 - Technology swivel chair",
+  "bodies": [
+    {
+      "id": "SA03_B01",
+      "asset_id": "SA03",
+      "asset": "Student 03 - Technology swivel chair",
+      "label": "Student 03 - Technology swivel chair",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.02240149676799774,
+            0.0,
+            0.4570000171661377
+          ],
+          "size": [
+            0.615196943283081,
+            0.6468563675880432,
+            0.906000018119812
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.2851969599723816,
+          -0.3234281837940216,
+          0.003999998793005943
+        ],
+        "max": [
+          0.3299999535083771,
+          0.3234281837940216,
+          0.9100000262260437
+        ]
+      }
+    }
+  ],
+  "mesh_count": 4,
+  "triangles": 11972,
+  "file": "SA03_Student_03_Technology_swivel_chair.gltf"
+}

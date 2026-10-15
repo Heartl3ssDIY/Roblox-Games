@@ -1,0 +1,27 @@
+{
+  "fbx": {
+    "meshObjects": 62,
+    "triangles": 57162,
+    "meshNamesMatch": true,
+    "separateMaterials": true,
+    "uvsPresent": true,
+    "sizeMeters": [
+      1.2442736625671387,
+      0.6105326116085052,
+      2.2536812191829085
+    ]
+  },
+  "glb": {
+    "meshObjects": 62,
+    "triangles": 57162,
+    "meshNamesMatch": true,
+    "separateMaterials": true,
+    "uvsPresent": true,
+    "sizeMeters": [
+      1.2442736625671387,
+      0.6105325818061829,
+      2.253681239672005
+    ]
+  },
+  "scaleMatchesBetweenFormats": true
+}

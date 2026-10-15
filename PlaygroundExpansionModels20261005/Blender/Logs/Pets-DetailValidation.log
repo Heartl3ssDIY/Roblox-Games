@@ -1,0 +1,20 @@
+00:00.047  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:01.625  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p21-crystal-drake.blend"
+00:01.657  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p22-ember-wyrmling.blend"
+00:01.688  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p23-cloud-pegasus.blend"
+00:01.719  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p24-suncrest-griffin.blend"
+00:01.750  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p25-halo-cherub.blend"
+00:01.782  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p26-pebble-triceratops.blend"
+00:01.813  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p27-fern-stegosaurus.blend"
+00:01.829  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p28-sky-pterodactyl.blend"
+00:01.860  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p29-tundra-mammoth.blend"
+00:01.891  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p30-crowned-pig.blend"
+00:01.907  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p31-waffle-tortoise.blend"
+00:01.938  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p32-pancake-pal.blend"
+00:01.969  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p33-velvet-jumper-v4.blend"
+00:01.985  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p34-patchwork-zombie.blend"
+00:02.016  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\PlaygroundExpansionModels20261005\Blender\Pets\Blend\p35-sunfeather-phoenix.blend"
+PET_DETAILS {"passed": true, "assets": 15, "checks": 52}
+
+Blender quit

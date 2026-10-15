@@ -1,0 +1,89 @@
+{
+  "file_path": "game.ServerScriptService.RunnerServer",
+  "edits": [
+    {
+      "old_string": "local players = {}\nlocal roundPhase = \"Waiting\"\nlocal countdownVersion = 0",
+      "new_string": "local players = {}\nlocal roundPhase = \"Waiting\"\nlocal spectating=require(game.ServerScriptService:WaitForChild(\"RunnerSpectating\")).new({\n Runners=players,Phase=function() return roundPhase end,RoundKey=function() return courseVersion end,\n})\nlocal countdownVersion = 0"
+    },
+    {
+      "old_string": "\tworkspace:SetAttribute(\"RunnerRoundPhase\", roundPhase)\n\tevent:FireAllClients(\"State\", packet)",
+      "new_string": "\tworkspace:SetAttribute(\"RunnerRoundPhase\", roundPhase)\n spectating:Step()\n\tevent:FireAllClients(\"State\", packet)"
+    },
+    {
+      "old_string": "\tif action==\"LeaveRankings\" then leaveRankings(player,version) return",
+      "new_string": "\tif action==\"Spectate\" then spectating:Select(player,version) return\n\telseif action==\"LeaveRankings\" then leaveRankings(player,version) return"
+    },
+    {
+      "old_string": "\tlocal departing=players[player]\n\tplayers[player] = nil",
+      "new_string": "\tlocal departing=players[player]\n spectating:Remove(player)\n\tplayers[player] = nil"
+    },
+    {
+      "old_string": "local checkpointClock = 0\nlocal spinAngle = 0",
+      "new_string": "local checkpointClock = 0\nlocal spectatorClock = 0\nlocal spinAngle = 0"
+    },
+    {
+      "old_string": "RunService.Heartbeat:Connect(function(deltaTime)\n stepIdleTimeout",
+      "new_string": "RunService.Heartbeat:Connect(function(deltaTime)\n spectatorClock+=deltaTime\n if spectatorClock>=.25 then spectatorClock=0 spectating:Step() end\n stepIdleTimeout"
+    },
+    {
+      "old_string": "local receivedLobbyParty = false",
+      "new_string": "local receivedLobbyParty = false\nlocal arrivalDeadline\nlocal ArrivalRules=require(game.ServerScriptService:WaitForChild(\"RunnerArrivalRules\"))"
+    },
+    {
+      "old_string": "local spikePivots = {}",
+      "new_string": "local spikePivots = {}\nlocal spikeGeometry = {}"
+    },
+    {
+      "old_string": " abilityService.Step()\n for player in players do player:SetAttribute(\"GBloxAbilityRoundKey\",courseVersion) end",
+      "new_string": " abilityService.Step()"
+    },
+    {
+      "old_string": "\ttable.clear(spikePivots)",
+      "new_string": "\ttable.clear(spikePivots)\n table.clear(spikeGeometry)"
+    },
+    {
+      "old_string": "\t\t\tplayer:SetAttribute(\"RunnerNextRoundReady\", false)",
+      "new_string": "\t\t\tplayer:SetAttribute(\"RunnerNextRoundReady\", false)\n   player:SetAttribute(\"GBloxAbilityRoundKey\",courseVersion)"
+    },
+    {
+      "old_string": "\tlocal teleportData = joinData and joinData.TeleportData\n\tif not receivedLobbyParty and typeof(teleportData)==\"table\" then\n\t\tlocal humanCount=tonumber(teleportData.HumanCount)\n\t\tif humanCount and humanCount==humanCount and humanCount<math.huge then\n\t\t\texpectedPlayers=math.max(expectedPlayers,math.clamp(math.floor(humanCount),1,config.MaxPlayers))\n\t\t\treceivedLobbyParty=true\n\t\tend\n\tend",
+      "new_string": " if not receivedLobbyParty and courseNumber==1 and (roundPhase==\"Waiting\" or roundPhase==\"Countdown\") then\n  local humanCount=ArrivalRules.Expected(joinData,74498603638770,game.GameId,config.MaxPlayers)\n  if humanCount then\n   expectedPlayers=math.max(expectedPlayers,humanCount)\n   receivedLobbyParty=true\n   arrivalDeadline=workspace:GetServerTimeNow()+60\n  end\n end"
+    },
+    {
+      "old_string": "\tRankingEmotes.Register(player)\n\tplayer:SetAttribute(\"RunnerStatus\", \"Loading\")",
+      "new_string": "\tRankingEmotes.Register(player)\n player:SetAttribute(\"GBloxAbilityRoundKey\",courseVersion)\n\tplayer:SetAttribute(\"RunnerStatus\", \"Loading\")"
+    },
+    {
+      "old_string": "\t\t\tspikePivots[object] = object:GetPivot()",
+      "new_string": "\t\t\tlocal pivot=object:GetPivot()\n   spikePivots[object] = pivot\n   local teeth=object:FindFirstChild(\"RedWheel_Teeth\",true)\n   spikeGeometry[object]={\n    center=CFrame.new(pivot.Position),rotation=pivot.Rotation,teeth=teeth,\n    radiusSquared=teeth and (teeth.Size.Magnitude*.5+8)^2 or 0,\n   }"
+    },
+    {
+      "old_string": "\tfor _, model in spikeModels do\n\t\tif model.Parent then\n\t\t\tlocal original = spikePivots[model]\n\t\t\tlocal center = original.Position\n\t\t\tlocal rotation = CFrame.fromAxisAngle(Vector3.zAxis, spinAngle)\n\t\t\tmodel:PivotTo(CFrame.new(center) * rotation * (CFrame.new(center):Inverse() * original))\n\t\tend\n\tend",
+      "new_string": " local rotation=CFrame.fromAxisAngle(Vector3.zAxis,spinAngle)\n\tfor _, model in spikeModels do\n\t\tif model.Parent then\n   local geometry=spikeGeometry[model]\n   model:PivotTo(geometry.center*rotation*geometry.rotation)\n\t\tend\n\tend"
+    },
+    {
+      "old_string": "     local teeth=model:FindFirstChild(\"RedWheel_Teeth\",true)\n     if teeth and (teeth.Position-data.root.Position).Magnitude<teeth.Size.Magnitude*.5+8\n      and SpikeContact.HasContact(teeth,data.character,course) then",
+      "new_string": "     local geometry=spikeGeometry[model]\n     local teeth=geometry.teeth\n     local offset=teeth and teeth.Parent and (teeth.Position-data.root.Position)\n     if offset and offset:Dot(offset)<geometry.radiusSquared\n      and SpikeContact.HasContact(teeth,data.character,course) then"
+    },
+    {
+      "old_string": " if spectatorClock>=.25 then spectatorClock=0 spectating:Step() end",
+      "new_string": " if spectatorClock>=.25 then\n  spectatorClock=0\n  spectating:Step()\n  if arrivalDeadline and workspace:GetServerTimeNow()>=arrivalDeadline then\n   arrivalDeadline=nil\n   if courseNumber==1 and (roundPhase==\"Waiting\" or roundPhase==\"Countdown\") then\n    local _,count=allReady()\n    local revised=ArrivalRules.AfterDeadline(expectedPlayers,count)\n    if revised<expectedPlayers then\n     warn(\"[RunnerArrival] Missing party members\",expectedPlayers-count,\"continuing with\",count)\n     expectedPlayers=revised\n     broadcastState()\n     task.defer(beginCountdown)\n    end\n   end\n  end\n end"
+    },
+    {
+      "old_string": "local TeleportService=game:GetService(\"TeleportService\")",
+      "new_string": "local TeleportService=game:GetService(\"TeleportService\")\nlocal returnTravel=require(game.ServerScriptService:WaitForChild(\"GBloxTeleportRetry\")).new({\n AttemptLimit=3,\n NewId=function() return game:GetService(\"HttpService\"):GenerateGUID(false) end,\n IsPresent=function(player) return player.Parent==Players end,\n CopyOptions=function(old,payload)\n  local options=Instance.new(\"TeleportOptions\")\n  if old.ReservedServerAccessCode~=\"\" then options.ReservedServerAccessCode=old.ReservedServerAccessCode\n  elseif old.ServerInstanceId~=\"\" then options.ServerInstanceId=old.ServerInstanceId\n  else options.ShouldReserveServer=old.ShouldReserveServer end\n  options:SetTeleportData(payload)\n  return options\n end,\n Reserve=function(placeId) return TeleportService:ReserveServerAsync(placeId) end,\n Teleport=function(placeId,members,options) return TeleportService:TeleportAsync(placeId,members,options) end,\n Spawn=task.spawn,Delay=task.delay,Wait=task.wait,\n Report=function(kind,player,placeId,attempt,message)\n  if kind~=\"Initiated\" then warn(\"[GBloxReturn]\",kind,player.UserId,placeId,attempt,message) end\n end,\n})"
+    },
+    {
+      "old_string": "  local ok,err=pcall(function() TeleportService:TeleportAsync(74498603638770,{player},options) end)\n  if not ok then\n   warn(\"[Rankings return]\",err)\n   leaveFailure(player,data,RunService:IsStudio() and \"Lobby teleport requires the published game.\" or \"Could not return. Please try again.\")\n  end",
+      "new_string": "  local started=returnTravel:Start(74498603638770,{player},options,{\n   Failed=function(failedPlayer)\n    leaveFailure(failedPlayer,data,RunService:IsStudio() and \"Lobby teleport requires the published game.\" or \"Could not return to the lobby. Please try again.\")\n   end,\n  })\n  if not started then leaveFailure(player,data,\"Travel is already in progress. Please try again shortly.\") end"
+    },
+    {
+      "old_string": "TeleportService.TeleportInitFailed:Connect(function(player,_,message,placeId,options)\n local data=players[player]\n if placeId~=74498603638770 or not data or not data.leavingLobby or not options then return end\n local teleportData=options:GetTeleportData()\n if typeof(teleportData)==\"table\" and teleportData.ReturnRequestId==data.leaveRequestId then\n  warn(\"[Rankings return]\",message)\n  leaveFailure(player,data,\"Could not return. Please try again.\")\n end\nend)",
+      "new_string": "TeleportService.TeleportInitFailed:Connect(function(player,result,message,placeId,options)\n returnTravel:Failed(player,result.Name,message,placeId,options)\nend)"
+    },
+    {
+      "old_string": " spectating:Remove(player)\n\tplayers[player] = nil",
+      "new_string": " spectating:Remove(player)\n returnTravel:Remove(player)\n\tplayers[player] = nil"
+    }
+  ]
+}

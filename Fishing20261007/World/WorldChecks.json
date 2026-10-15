@@ -1,0 +1,177 @@
+{
+  "stations": [
+    {
+      "interaction": [
+        -82,
+        6.599999904632568,
+        58
+      ],
+      "stand": [
+        -82,
+        7,
+        58
+      ],
+      "name": "Rod1",
+      "bobber": [
+        -82,
+        4.449999809265137,
+        70
+      ]
+    },
+    {
+      "interaction": [
+        -42,
+        6.599999904632568,
+        58
+      ],
+      "stand": [
+        -42,
+        7,
+        58
+      ],
+      "name": "Rod2",
+      "bobber": [
+        -42,
+        4.449999809265137,
+        70
+      ]
+    },
+    {
+      "interaction": [
+        -82,
+        6.599999904632568,
+        106
+      ],
+      "stand": [
+        -82,
+        7,
+        106
+      ],
+      "name": "Rod3",
+      "bobber": [
+        -82,
+        4.449999809265137,
+        94
+      ]
+    },
+    {
+      "interaction": [
+        -42,
+        6.599999904632568,
+        106
+      ],
+      "stand": [
+        -42,
+        7,
+        106
+      ],
+      "name": "Rod4",
+      "bobber": [
+        -42,
+        4.449999809265137,
+        94
+      ]
+    }
+  ],
+  "waterSurface": 4.24,
+  "checks": [
+    {
+      "name": "Edit mode preserved",
+      "passed": true
+    },
+    {
+      "name": "Atomic streaming keeps each pond set intact",
+      "passed": true
+    },
+    {
+      "name": "Rod 1 stands on existing dry grass",
+      "passed": true
+    },
+    {
+      "name": "Rod 1 avatar space is clear",
+      "passed": true
+    },
+    {
+      "name": "Rod 1 has accessible keyboard/gamepad/touch prompt",
+      "passed": true
+    },
+    {
+      "name": "Rod 1 line follows bobber",
+      "passed": true
+    },
+    {
+      "name": "Rod 1 bobber lies over the pond",
+      "passed": true
+    },
+    {
+      "name": "Rod 2 stands on existing dry grass",
+      "passed": true
+    },
+    {
+      "name": "Rod 2 avatar space is clear",
+      "passed": true
+    },
+    {
+      "name": "Rod 2 has accessible keyboard/gamepad/touch prompt",
+      "passed": true
+    },
+    {
+      "name": "Rod 2 line follows bobber",
+      "passed": true
+    },
+    {
+      "name": "Rod 2 bobber lies over the pond",
+      "passed": true
+    },
+    {
+      "name": "Rod 3 stands on existing dry grass",
+      "passed": true
+    },
+    {
+      "name": "Rod 3 avatar space is clear",
+      "passed": true
+    },
+    {
+      "name": "Rod 3 has accessible keyboard/gamepad/touch prompt",
+      "passed": true
+    },
+    {
+      "name": "Rod 3 line follows bobber",
+      "passed": true
+    },
+    {
+      "name": "Rod 3 bobber lies over the pond",
+      "passed": true
+    },
+    {
+      "name": "Rod 4 stands on existing dry grass",
+      "passed": true
+    },
+    {
+      "name": "Rod 4 avatar space is clear",
+      "passed": true
+    },
+    {
+      "name": "Rod 4 has accessible keyboard/gamepad/touch prompt",
+      "passed": true
+    },
+    {
+      "name": "Rod 4 line follows bobber",
+      "passed": true
+    },
+    {
+      "name": "Rod 4 bobber lies over the pond",
+      "passed": true
+    },
+    {
+      "name": "All decorative parts are anchored and collision-free",
+      "passed": true
+    },
+    {
+      "name": "No scarce Highlight slots used",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "parts": 92
+}

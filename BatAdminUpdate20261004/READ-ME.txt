@@ -1,0 +1,71 @@
+Applied to Playground Classics in Roblox Studio Edit mode on 4 October 2026.
+Play testing was not started and the place was not published.
+
+Open the admin panel with ADMIN or F6 while playing as an authorized admin.
+Use SELF or the player arrows to choose the reward recipient. Only players in
+the current server with loaded profiles can receive grants.
+
+ITEMS contains every imported catalog item: 15 bats, 20 pets and 15 toys.
+Search by name or ID and filter by Bats, Pets or Toys. GRANT adds ownership;
+GRANT + EQUIP adds ownership and equips the item. Admin grants bypass unlock
+requirements without spending the recipient's coins or fabricating wins.
+Existing owned items can be equipped directly. The normal shop rules remain.
+
+Granting/equipping a bat also shows it in the recipient's hand in the lobby.
+HIDE BAT removes this preview without deleting ownership or equipment selection.
+Lobby preview lasts for the current server session, hides during other game
+roles, and returns after a round. Only Bulldogs carry their selected bat during
+British Bulldog. This preview does not enable attacks in the lobby or other games.
+
+COINS & LEVELS adds the entered amount to the selected player's current amount.
+Coins: 1 to 1,000,000 per grant; maximum balance 1,000,000,000.
+Levels: 1 to 100 per grant; admin grant maximum level 1,000. Current progress
+within the level is retained, and earned level rewards unlock normally.
+Changes use the existing profile save/session lifecycle. Studio sessions keep
+the project's existing session-only behavior. No real player data was changed
+during this implementation or validation.
+
+ROUNDS retains the existing start, solo practice, stop and automatic-round controls.
+
+Every confirmed Bulldog contact tag now produces a 1.35-second joint ragdoll.
+All 15 bats have identical reach, knockdown duration and force, with no damage.
+The existing server tag range, line of sight, safe zones, dodge movement,
+role conversion, win rules and disabled jumping are preserved.
+Both R6 and R15 joints are restored after the effect. Death, respawn, teleport,
+round stop and character removal clean up the temporary joints and constraints.
+This is triggered by the existing confirmed contact tag; no new swing input.
+
+Each bat has its own held VFX theme and a brief extra burst on a confirmed hit.
+See Bat-Effects.csv. Native particle textures avoid an additional asset upload.
+Effects preserve the imported studs, colors and outlines. Held effects use
+3 to 9 particles per second, short lifetimes, and no per-frame server VFX loop.
+In Studio source, tune batEffects near the top of PlaygroundEquipmentService.
+
+The admin UI is authored and editable at StarterGui.PlaygroundAdminPanel.AdminHub.
+Its panels/buttons reuse the imported skins, with centered editable captions
+and contextual UIStroke text outlines. It has eight reusable item rows, native
+text inputs and scrolling containers. The controller binds data and behavior
+without setting authored positions/sizes. The existing skin controller handles
+button colors and hover appearance. No new script capabilities were granted.
+
+Validation used isolated Edit-mode fixtures and fake players, not a Play session:
+- 113 admin/economy checks, including authorization, malformed inputs, limits,
+  all 50 grants, recipient selection, profile readiness and existing game controls.
+- 15 ragdoll scenarios, including all 15 bats, R6/R15 and recovery/cleanup paths.
+- 15 existing equipment regression scenarios covering all bats and toys.
+- All 15 held effects build and clean up; native textures preload successfully.
+- Admin UI native visual checks at desktop and compact width.
+- 25 admin client binding checks against a cloned UI and fake roster/remote,
+  including all item pages, recipients, grants, request guards and admin revocation.
+Actual multiplayer physics and animation timing still need a later Play test.
+
+Before/ contains original source snapshots; After/ contains deployed source.
+Tests/ contains repeatable isolated checks. The JSON reports record results.
+InstallAdminUI.luau recreates the authored admin layout in Edit mode.
+
+Studio backups:
+ServerStorage.BatAdminUpdateBackup20261004 (original changed scripts)
+ServerStorage.BatAdminBackup20261004.PlaygroundAdminPanel (original full admin UI)
+
+Project files remain local at:
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns\BatAdminUpdate20261004

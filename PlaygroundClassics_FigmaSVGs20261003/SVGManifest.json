@@ -1,0 +1,2414 @@
+{
+  "date": "2026-10-03",
+  "viewport": [
+    1366,
+    767
+  ],
+  "screens": 5,
+  "authoredGuiObjects": 327,
+  "coveredGuiObjects": 327,
+  "files": [
+    {
+      "file": "Panels/BritishBulldogHUD/TopCard.svg",
+      "width": 616,
+      "height": 111.875,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard"
+      ],
+      "guiObjects": 12,
+      "textLayers": 7,
+      "vectorPreviewParts": 0,
+      "sha256": "58556e101b94c40cd0c3a684f992472ebe7005b4f59022985b473127443c0131"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Countdown.svg",
+      "width": 767.3,
+      "height": 200.08,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.Countdown"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "47e2bcc7edd5d6748823223d4d074fbeb264351f2a115d9b4f511ef086d6e3dc"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/RolePill.svg",
+      "width": 316.0,
+      "height": 63.554,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.RolePill"
+      ],
+      "guiObjects": 4,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "78e922bb868877d9661d7d963286508a3c21969949a7e24b4b8aac7fa71692c5"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Departure.svg",
+      "width": 480.44,
+      "height": 86.564,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.Departure"
+      ],
+      "guiObjects": 6,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "3b7a4e24235298fed72eef1de686459314276387f6952088c62329d312403616"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Tagged.svg",
+      "width": 412.14,
+      "height": 90,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.Tagged"
+      ],
+      "guiObjects": 5,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "41c6588b05946412b5de30577669e0cf4c0af98323af901249acdd41679404f8"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/Results.svg",
+      "width": 736,
+      "height": 246.1,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.Results"
+      ],
+      "guiObjects": 7,
+      "textLayers": 3,
+      "vectorPreviewParts": 0,
+      "sha256": "6d0427992e17d1c0183ec4eb3a638e78b65548b33bd4804e1636bb3ddf696816"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/MovementControls.svg",
+      "width": 391.0,
+      "height": 126,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 12,
+      "textLayers": 6,
+      "vectorPreviewParts": 0,
+      "sha256": "14547180b933567c25c3adca006179247323eef8c1b6164016aabf19677710d6"
+    },
+    {
+      "file": "Panels/BritishBulldogHUD/CompactDeparture.svg",
+      "width": 131,
+      "height": 68,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.CompactDeparture"
+      ],
+      "guiObjects": 6,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "c070fb553e4fbd67eac1a6af8d0ddc9a51b64692df60bb76cf825220311580b6"
+    },
+    {
+      "file": "Controls/BritishBulldogHUD/MovementControls_Sprint.svg",
+      "width": 211.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls.Sprint"
+      ],
+      "guiObjects": 3,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "0901ac3a894e7800d37337540eb7835adc5def1c8e6426ceb4f0081693f19c92"
+    },
+    {
+      "file": "Controls/BritishBulldogHUD/MovementControls_Dodge.svg",
+      "width": 109.75,
+      "height": 64,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls.Dodge"
+      ],
+      "guiObjects": 3,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "1f70b3b74ef91834e476f0eb6cb70730b62b72ec79ecc5d883fcc5ec6afa2d06"
+    },
+    {
+      "file": "Panels/TagHUD/Top.svg",
+      "width": 617.04,
+      "height": 123.38,
+      "roots": [
+        "StarterGui.TagHUD.Top"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 0,
+      "sha256": "f2b593b64300ab6b81672b0a6d71a890daa453cddb42982c6d2e59607c9a2f19"
+    },
+    {
+      "file": "Panels/TagHUD/Countdown.svg",
+      "width": 699.0,
+      "height": 200.08,
+      "roots": [
+        "StarterGui.TagHUD.Countdown"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "c4702d3fb1f506c279c9a0baf6e322cec5cb3f85f078c0ad55b93cb4eee4c6a5"
+    },
+    {
+      "file": "Panels/TagHUD/Role.svg",
+      "width": 301.0,
+      "height": 81.195,
+      "roots": [
+        "StarterGui.TagHUD.Role"
+      ],
+      "guiObjects": 3,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "11ab8a740fd668ac485b42ca3e89f4adfc533ed7a3178f71fee6ddef827db279"
+    },
+    {
+      "file": "Panels/TagHUD/Protection.svg",
+      "width": 256,
+      "height": 32,
+      "roots": [
+        "StarterGui.TagHUD.Protection"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "62aae0aa2901aded1cbaa93521cb197c4af77186530aae5c515773354299de5c"
+    },
+    {
+      "file": "Panels/TagHUD/Controls.svg",
+      "width": 296,
+      "height": 64,
+      "roots": [
+        "StarterGui.TagHUD.Controls"
+      ],
+      "guiObjects": 3,
+      "textLayers": 4,
+      "vectorPreviewParts": 0,
+      "sha256": "c979f0b09013132b7cfbd348ec760809746ada32b9d38b379281750f18a18d96"
+    },
+    {
+      "file": "Panels/TagHUD/MoveMessage.svg",
+      "width": 296,
+      "height": 32,
+      "roots": [
+        "StarterGui.TagHUD.MoveMessage"
+      ],
+      "guiObjects": 1,
+      "textLayers": 0,
+      "vectorPreviewParts": 0,
+      "sha256": "bc87f87ba176bee0811ee0d56a26f1454fd4fd419ec1eeb15cbbeb230bdc6d6b"
+    },
+    {
+      "file": "Panels/TagHUD/Results.svg",
+      "width": 736,
+      "height": 315.13,
+      "roots": [
+        "StarterGui.TagHUD.Results"
+      ],
+      "guiObjects": 5,
+      "textLayers": 3,
+      "vectorPreviewParts": 0,
+      "sha256": "f839bbab471af79c6ee845276a885baa55396222abbbd8c784d6fdc65666d6de"
+    },
+    {
+      "file": "Panels/TagHUD/SprintPanel.svg",
+      "width": 296,
+      "height": 116,
+      "roots": [
+        "StarterGui.TagHUD.SprintPanel"
+      ],
+      "guiObjects": 8,
+      "textLayers": 5,
+      "vectorPreviewParts": 0,
+      "sha256": "09f13d609fa5aa051bc8eb0a8fda2d2b077f89879c6d4947ff1f634501a41302"
+    },
+    {
+      "file": "Controls/TagHUD/Controls_Vault.svg",
+      "width": 74.8,
+      "height": 64,
+      "roots": [
+        "StarterGui.TagHUD.Controls.Vault"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "225069f6b6e4484604051f4ca00007f9aef309af75b94131d98230d061737f29"
+    },
+    {
+      "file": "Controls/TagHUD/Controls_Dodge.svg",
+      "width": 74.8,
+      "height": 64,
+      "roots": [
+        "StarterGui.TagHUD.Controls.Dodge"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "df50cb9b3bdfcd8e8d069dce03ffe06c887daed6f396e1e6ddfb91900351174b"
+    },
+    {
+      "file": "Controls/TagHUD/SprintPanel_Sprint.svg",
+      "width": 161.6,
+      "height": 64,
+      "roots": [
+        "StarterGui.TagHUD.SprintPanel.Sprint"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "3cacb3c392b99fcbd438b05269917f6c1c4df773974a4c612fc32df2716b3885"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Wallet.svg",
+      "width": 264,
+      "height": 80,
+      "roots": [
+        "StarterGui.PlaygroundShell.Wallet"
+      ],
+      "guiObjects": 5,
+      "textLayers": 3,
+      "vectorPreviewParts": 0,
+      "sha256": "bae72178f28750d03e622490d38efe712c9f409c6caade70ec49a1ae60b07697"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Dock.svg",
+      "width": 284,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundShell.Dock"
+      ],
+      "guiObjects": 4,
+      "textLayers": 3,
+      "vectorPreviewParts": 0,
+      "sha256": "dcbd1c29f01093a723c0f927823e26c781d00b27aed36e2b2b2ee0c77700453e"
+    },
+    {
+      "file": "Panels/PlaygroundShell/RewardToast.svg",
+      "width": 436,
+      "height": 66,
+      "roots": [
+        "StarterGui.PlaygroundShell.RewardToast"
+      ],
+      "guiObjects": 2,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "0d2a4fb776e7e0b1a36e43aa2054a164170ba4ed29b40093ebf8168dcd59d712"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Backdrop.svg",
+      "width": 1382,
+      "height": 783,
+      "roots": [
+        "StarterGui.PlaygroundShell.Backdrop"
+      ],
+      "guiObjects": 1,
+      "textLayers": 0,
+      "vectorPreviewParts": 0,
+      "sha256": "6b397893bc1f1e1f10df041f0f0559926a4023f324190070a8dca1f85426811d"
+    },
+    {
+      "file": "Panels/PlaygroundShell/ShopPanel.svg",
+      "width": 1136,
+      "height": 675.62,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel"
+      ],
+      "guiObjects": 86,
+      "textLayers": 59,
+      "vectorPreviewParts": 185,
+      "sha256": "1f923c4c7272c638800b517592a8bfbce26d873208adee0e8d9f20bbc0e57304"
+    },
+    {
+      "file": "Panels/PlaygroundShell/VotePanel.svg",
+      "width": 676,
+      "height": 238,
+      "roots": [
+        "StarterGui.PlaygroundShell.VotePanel"
+      ],
+      "guiObjects": 10,
+      "textLayers": 12,
+      "vectorPreviewParts": 0,
+      "sha256": "351ec48a2f929848aeee49eedf4495c4ccb1bd71275987e7309f41382428c251"
+    },
+    {
+      "file": "Panels/PlaygroundShell/LevelPanel.svg",
+      "width": 280,
+      "height": 96,
+      "roots": [
+        "StarterGui.PlaygroundShell.LevelPanel"
+      ],
+      "guiObjects": 7,
+      "textLayers": 2,
+      "vectorPreviewParts": 4,
+      "sha256": "1f81d41ad77d9272fea03ce9815ec7621246953d6a5b24042e7940255c079038"
+    },
+    {
+      "file": "Panels/PlaygroundShell/CompactLevelPanel.svg",
+      "width": 131,
+      "height": 68,
+      "roots": [
+        "StarterGui.PlaygroundShell.CompactLevelPanel"
+      ],
+      "guiObjects": 6,
+      "textLayers": 2,
+      "vectorPreviewParts": 4,
+      "sha256": "617b400f8999b362dbfe064d549a65738cbfa73848909e1cce3575dc7bedfb66"
+    },
+    {
+      "file": "Panels/PlaygroundShell/CompactVotePanel.svg",
+      "width": 676,
+      "height": 192,
+      "roots": [
+        "StarterGui.PlaygroundShell.CompactVotePanel"
+      ],
+      "guiObjects": 10,
+      "textLayers": 12,
+      "vectorPreviewParts": 0,
+      "sha256": "bf1c9c1a726adc9162961ad06f10a5ae768ccdf67ce0fd56dd398d68f5ff312a"
+    },
+    {
+      "file": "Templates/Shop_ItemCard.svg",
+      "width": 258,
+      "height": 254,
+      "roots": [
+        "StarterGui.PlaygroundShell.Templates.ItemCard"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 1,
+      "sha256": "b264f9d6c85567314b4b62b62e1aeb75cc79fa9b581acfd578b792b854c32d1b"
+    },
+    {
+      "file": "ShopItems/Slot01.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot01"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 13,
+      "sha256": "e58f008149b35ad1b6d60cd25ba334440cffa3dc18e4b1cd6d982183e6a7e110"
+    },
+    {
+      "file": "ShopItems/Slot02.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot02"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 13,
+      "sha256": "f2ead6c714040561912c63800b071e4b8e7d9e539d57b0262ec745ed0647dd75"
+    },
+    {
+      "file": "ShopItems/Slot03.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot03"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 10,
+      "sha256": "2e8c493ce9e1c825dfcf3eb6ba64e8b9a409b61f66cdd05d42b5b5c039e7dbe7"
+    },
+    {
+      "file": "ShopItems/Slot04.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot04"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 10,
+      "sha256": "ad82c39c87adaf4b9b2e3f36c2ab0c561737557b9e8b39c80abb41c6e6132b4f"
+    },
+    {
+      "file": "ShopItems/Slot05.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot05"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 42,
+      "sha256": "83493de1591788dafec1fa7e2afe52273aa919641f72c5bd28a1cfe8f1cf522c"
+    },
+    {
+      "file": "ShopItems/Slot06.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot06"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 6,
+      "sha256": "e283adfd497518248814ea99ea008c19445d332bee8d35c55f1c25bcc7a10586"
+    },
+    {
+      "file": "ShopItems/Slot07.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot07"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 14,
+      "sha256": "61754133899a853878768d75fa427fb99b035aeea8c8367680393d94c1c5d6ae"
+    },
+    {
+      "file": "ShopItems/Slot08.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot08"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 14,
+      "sha256": "67b006ecd8df523400609d8e34b1136006df202fdbba13b5fd0a75f25e026210"
+    },
+    {
+      "file": "ShopItems/Slot09.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot09"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 16,
+      "sha256": "413997948b39a9ea829d0fadb5b36cb6ad42b49a34fc5e1347b28b317c417267"
+    },
+    {
+      "file": "ShopItems/Slot10.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot10"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 16,
+      "sha256": "d240c761b229c80821e069442c5c56a99c0022828890083133fd99b0dbd65b70"
+    },
+    {
+      "file": "ShopItems/Slot11.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot11"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 8,
+      "sha256": "99dde4282819fd58459115e81af93d3e77bc8001f4a09cf1065c047dfa114a5e"
+    },
+    {
+      "file": "ShopItems/Slot12.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot12"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 23,
+      "sha256": "13ee20d49617ed2027e31b0c20ccf8cf89cdfea62270533a611cb1183a8fba0c"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Shop_All12Items.svg",
+      "width": 1108,
+      "height": 759.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards"
+      ],
+      "guiObjects": 73,
+      "textLayers": 48,
+      "vectorPreviewParts": 185,
+      "sha256": "ab4de160ee065c2c74b2a051ac4d6e64079473d0a8d6de1bbd94af1659bead4e"
+    },
+    {
+      "file": "Panels/PlaygroundShell/Shop_CompleteExpanded.svg",
+      "width": 1136,
+      "height": 946.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel"
+      ],
+      "guiObjects": 86,
+      "textLayers": 59,
+      "vectorPreviewParts": 185,
+      "sha256": "8cf5426b0c54e1e27ddc3147af86d4d956050fe85f2ed15d233670600afe8720"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Dock_Shop.svg",
+      "width": 134,
+      "height": 62,
+      "roots": [
+        "StarterGui.PlaygroundShell.Dock.Shop"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "54b08037a39bf14740b100e33246a2f8ee43e9a6c1903db434efc505e4bbe6ff"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Dock_Emote.svg",
+      "width": 72,
+      "height": 62,
+      "roots": [
+        "StarterGui.PlaygroundShell.Dock.Emote"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "1882f531698d18638d0bbe7abdd6d25eef7d86cdae3ad520fc71d916de70ccc6"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Dock_Emoji.svg",
+      "width": 72,
+      "height": 62,
+      "roots": [
+        "StarterGui.PlaygroundShell.Dock.Emoji"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "f494b15937bb180257c48c9679a037a5b4cf21625fb9720c1de530f46a82d274"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Backdrop.svg",
+      "width": 1382,
+      "height": 783,
+      "roots": [
+        "StarterGui.PlaygroundShell.Backdrop"
+      ],
+      "guiObjects": 1,
+      "textLayers": 0,
+      "vectorPreviewParts": 0,
+      "sha256": "4303dcfb16d46685615bb46dd7a505281ac2de63c5b3f84e2e03f31d06001b19"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Close.svg",
+      "width": 52,
+      "height": 52.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Close"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "d83c311ab534aa74ee47f19ccc61b5db2890d67c9364b3661265ac7f6c811246"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_All.svg",
+      "width": 80,
+      "height": 49.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Categories.All"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "f967fc81560b471895e02231de58f90afdf33898783de8373cd4997c58a178f2"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Pets.svg",
+      "width": 111,
+      "height": 49.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Categories.Pets"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "488dfd22b7a42fba9ae6c52a1d98edb2ad047b2f82fe79d7b008116c5b6f2498"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Emotes.svg",
+      "width": 111,
+      "height": 49.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Categories.Emotes"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "a786a22802be9262d872860e19fa16da70b7b82be36a3f88b9261056e8a33b7c"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Emojis.svg",
+      "width": 111,
+      "height": 49.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Categories.Emojis"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "6998ef09312650fcbb94eaa8b8b233d0460976048e2793e1294a8dbf771bc5d3"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Trails.svg",
+      "width": 111,
+      "height": 49.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Categories.Trails"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "50aacd209820564020794bc9a3cdd19b260f5643d350fbd67c6b0f3a5a8ecd72"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Highlights.svg",
+      "width": 139,
+      "height": 49.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Categories.Highlights"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "0ece58a7552388018deb23f12889ed804ed93211767b1528c43d2182a3836f84"
+    },
+    {
+      "file": "Controls/PlaygroundShell/ShopPanel_Categories_Gear.svg",
+      "width": 111,
+      "height": 49.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Categories.Gear"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "b70283d5039d5e11e7ecfec5872874ae994b20a0d953c23196f7b8bf22774c75"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Templates_ItemCard_Action.svg",
+      "width": 174,
+      "height": 43,
+      "roots": [
+        "StarterGui.PlaygroundShell.Templates.ItemCard.Action"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "817ad353ed2b543b49a42bd515d46f630e83a1d9b2749581cb48544d8d230f11"
+    },
+    {
+      "file": "Controls/PlaygroundShell/Templates_ItemCard_Try.svg",
+      "width": 67,
+      "height": 43,
+      "roots": [
+        "StarterGui.PlaygroundShell.Templates.ItemCard.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "98b68775bbe363387bcb00b9ec509e627a42ce58465b4c0223262a06219cf890"
+    },
+    {
+      "file": "Controls/PlaygroundShell/VotePanel_BritishBulldog.svg",
+      "width": 214.0,
+      "height": 115.9,
+      "roots": [
+        "StarterGui.PlaygroundShell.VotePanel.BritishBulldog"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "b62e42790dfcac02d7283d036abd1801f245e9e38534cc929dbfaa5f71a740ab"
+    },
+    {
+      "file": "Controls/PlaygroundShell/VotePanel_TagYoureIt.svg",
+      "width": 214.0,
+      "height": 115.9,
+      "roots": [
+        "StarterGui.PlaygroundShell.VotePanel.TagYoureIt"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "f2c6bda9cacb1a39ca724c5ac30f82441e502c335f9f28c555510e1c343e350a"
+    },
+    {
+      "file": "Controls/PlaygroundShell/VotePanel_StuckInTheMud.svg",
+      "width": 214.0,
+      "height": 115.9,
+      "roots": [
+        "StarterGui.PlaygroundShell.VotePanel.StuckInTheMud"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "f4b32f6e1aca0eb2c6c8138f378333197612f3d223298a89e5e8386b68b3b60b"
+    },
+    {
+      "file": "Controls/PlaygroundShell/CompactVotePanel_BritishBulldog.svg",
+      "width": 200.8,
+      "height": 89.92,
+      "roots": [
+        "StarterGui.PlaygroundShell.CompactVotePanel.BritishBulldog"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "005045c9a8dc9af1d1046eac95376d4864c96b0226ace57a285a4d73c00ff097"
+    },
+    {
+      "file": "Controls/PlaygroundShell/CompactVotePanel_TagYoureIt.svg",
+      "width": 200.8,
+      "height": 89.92,
+      "roots": [
+        "StarterGui.PlaygroundShell.CompactVotePanel.TagYoureIt"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "74cda0fbe1ddd85b39495df757914007198b6120fc841eb936c5bc4dc4578b01"
+    },
+    {
+      "file": "Controls/PlaygroundShell/CompactVotePanel_StuckInTheMud.svg",
+      "width": 200.8,
+      "height": 89.92,
+      "roots": [
+        "StarterGui.PlaygroundShell.CompactVotePanel.StuckInTheMud"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "f0153dfccaf026e8c1ab0b217331e8028823b1e36a3352ef2020214e9f0d1918"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Toggle.svg",
+      "width": 128.0,
+      "height": 60.0,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Toggle"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "c2de89af5c20e42c066f4ae3d9f18905b1b8f396b1331b7887f75d7b014b3168"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel.svg",
+      "width": 406.0,
+      "height": 666.0,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel"
+      ],
+      "guiObjects": 26,
+      "textLayers": 20,
+      "vectorPreviewParts": 0,
+      "sha256": "61d8fdbd9175bbede4c0c3ac69f7b762b3d7e7299b231fe9afa19638c06d12b8"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel.svg",
+      "width": 406.0,
+      "height": 666,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel"
+      ],
+      "guiObjects": 26,
+      "textLayers": 20,
+      "vectorPreviewParts": 0,
+      "sha256": "b11d8c11d35aca89b25c4fd0b99d5befa06131c27ec4b4ed9aefeccff207e4ae"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactToggle.svg",
+      "width": 128.0,
+      "height": 60,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactToggle"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "3628f3e1e3ef7e2c20ab27d2fc3503bd869852ad6ba14e18cf1c99280371d99d"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_AllGamesExpanded.svg",
+      "width": 406.0,
+      "height": 911.75,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel"
+      ],
+      "guiObjects": 26,
+      "textLayers": 20,
+      "vectorPreviewParts": 0,
+      "sha256": "7639723bd588b6f8b51367ce10cf65a3492f79303960fad83b176d061e53f0a7"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_BritishBulldog.svg",
+      "width": 356.9,
+      "height": 220.0,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog"
+      ],
+      "guiObjects": 6,
+      "textLayers": 5,
+      "vectorPreviewParts": 0,
+      "sha256": "830e074f6200f803941322371354c2c9e4aa88ef3c5dbeeada74a3085401b072"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_TagYoureIt.svg",
+      "width": 356.9,
+      "height": 220.0,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt"
+      ],
+      "guiObjects": 6,
+      "textLayers": 5,
+      "vectorPreviewParts": 0,
+      "sha256": "a099c13910423f709f093d8bc6cdab4998420af4e310f2fa0fab7ad87c5d15e4"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/Panel_StuckInTheMud.svg",
+      "width": 356.9,
+      "height": 220.0,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud"
+      ],
+      "guiObjects": 6,
+      "textLayers": 5,
+      "vectorPreviewParts": 0,
+      "sha256": "8123518b1480a49f32210cdca37a1888ae99f492c50c092b160222f2a3fe22ae"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_AllGamesExpanded.svg",
+      "width": 406.0,
+      "height": 1020,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel"
+      ],
+      "guiObjects": 26,
+      "textLayers": 20,
+      "vectorPreviewParts": 0,
+      "sha256": "e3aa154b61cadf06625ec71c58382f2e4b6fb8726eeaccd7cca931c55350d044"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_BritishBulldog.svg",
+      "width": 374.0,
+      "height": 254,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog"
+      ],
+      "guiObjects": 6,
+      "textLayers": 5,
+      "vectorPreviewParts": 0,
+      "sha256": "cb71964a1e13010a1d5fff6ec824b45dd214f8bd437fbf3cdff5cb7918d7b84f"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_TagYoureIt.svg",
+      "width": 374.0,
+      "height": 254,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt"
+      ],
+      "guiObjects": 6,
+      "textLayers": 5,
+      "vectorPreviewParts": 0,
+      "sha256": "80459dfabbd502e899c06f561065541e22e78d1d5f57c57140e577f160dbc07a"
+    },
+    {
+      "file": "Panels/PlaygroundAdminPanel/CompactPanel_StuckInTheMud.svg",
+      "width": 374.0,
+      "height": 254,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud"
+      ],
+      "guiObjects": 6,
+      "textLayers": 5,
+      "vectorPreviewParts": 0,
+      "sha256": "d46065f311a2ea005672baf55e46dcb6b928d46324b1a04deb84f5806357b9e4"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Toggle.svg",
+      "width": 128.0,
+      "height": 60.0,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Toggle"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "43383006c40c59d57710043495838b1ec44cf999cc241603783357f1a38a23fe"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Close.svg",
+      "width": 51.1,
+      "height": 61.5,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Close"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "6d9408d6a761602b6f4782f1a7104d5265b3005e1c23bce02d4f382e03d344a0"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBStart.svg",
+      "width": 329.628,
+      "height": 53.74,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBStart"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "4c8dfe2b512be1fef9595505741e9051b5e76522a0c9f5dce52a110ecbbf1926"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBRunner.svg",
+      "width": 329.628,
+      "height": 53.74,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBRunner"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "18a53dd4ebd71398071f553f650327d22b6ed7b0fcb299a282448cfffa3399dc"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "width": 329.628,
+      "height": 53.74,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.BritishBulldog.BBBulldog"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "0c73a8b09f4848371ae2ec8cb98ab3b943ef91c388e3b070ea677e8375be174a"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagStart.svg",
+      "width": 329.628,
+      "height": 53.74,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagStart"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "adb6d946ee17cab110681441be33918ab49e687676bba59e735f782cf73d2832"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagRunner.svg",
+      "width": 329.628,
+      "height": 53.74,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagRunner"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "b8c648d5eab8e77091906f9228bc5a3f70236ab17de24ccd1d99123c4ed5c740"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_TagYoureIt_TagTagger.svg",
+      "width": 329.628,
+      "height": 53.74,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.TagYoureIt.TagTagger"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "2474455e515d1c00762aafba27bea598ad3503934cca460dfdb0e144f34e1d16"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudStart.svg",
+      "width": 329.628,
+      "height": 53.74,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudStart"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "8cf1576706f11b4db1a00de3e5c01552d96939b0d5f6af5f4c0f50b916c66f4e"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudShooter.svg",
+      "width": 329.628,
+      "height": 53.74,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudShooter"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "151c3cc8db34a4c1d303681694da5eef421a2ef9f464b92d23ff27ccb771aabf"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_Body_Content_StuckInTheMud_MudMedic.svg",
+      "width": 329.628,
+      "height": 53.74,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.Body.Content.StuckInTheMud.MudMedic"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "dfc412a2a4e61e77f10bd09094b6a52910e70c49d4180a35b8e7c7b180a6e2cb"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_StopRound.svg",
+      "width": 363.1,
+      "height": 64.75,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.StopRound"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "d3c72e5b2c080f9d420b70497c25e2fbdbba61e6df7733de6a5aa2bbcad947e3"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/Panel_ToggleAutomatic.svg",
+      "width": 363.1,
+      "height": 55.0,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.Panel.ToggleAutomatic"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "5ddd7667797a3edead2ed1bb7cc5cf78ff423f3126ee70ead3c71258fb4d2e6e"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Close.svg",
+      "width": 60.0,
+      "height": 60,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Close"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "046e4ccdc60c3047847867915aa173d989c75ec67fc0e139d2ef55d5ffb8e590"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBStart.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBStart"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "58cb8c74b0f34a6d01b822f8e14b11d0e833c225bbf995936971b28498bad711"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBRunner.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBRunner"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "91fbbb43a7e71dc5218df3a8def2af4e8bd59c7e15115acd0d04db65dc59cd70"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog.BBBulldog"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "ba335f1eb653b804eee716208afb59c477da4119dc822332fd350a51650e52d0"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagStart.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagStart"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "fe870e01abe17ee7ea3b0ae1b45b026e1fc453bcca01cb732738d788238c29f6"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagRunner.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagRunner"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "1e012417afa5ea8dae9ab9e14ee39c9d4cc221fa04c10eca7efd245d67967be7"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_TagYoureIt_TagTagger.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.TagYoureIt.TagTagger"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "9611aacd964b927f4d61acfca39d265e79df587f5216e42d25e4c6fb536764bf"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudStart.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudStart"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "e53403064b3d4918bb62480a5bd2e548e8cb0f619600afb2ec82d22069d85ce1"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudShooter.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudShooter"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "daf0cc6655eb4e220e23cade0f64ffeb14a1de90812ff42a3b0b5f314f8995d4"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StuckInTheMud_MudMedic.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StuckInTheMud.MudMedic"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "63e49533932e5145bcb3c110e2648026b2c739e038f7d58ab55b71f926177b95"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_StopRound.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.StopRound"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "25b0660287400863e787bf0d233459f8e1a4a1bfebdb10cfa4e2d198b23126d3"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactPanel_Body_Content_ToggleAutomatic.svg",
+      "width": 354.0,
+      "height": 64,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.ToggleAutomatic"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "1974a9c51089dfbae73ad4566255eb35f2c67371bd4de5a97682b28419493a81"
+    },
+    {
+      "file": "Controls/PlaygroundAdminPanel/CompactToggle.svg",
+      "width": 128.0,
+      "height": 60,
+      "roots": [
+        "StarterGui.PlaygroundAdminPanel.CompactToggle"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "68fe104079940c09cf6c56471724ab6b23ecaaadf595e6087a6471a2fe9a14f7"
+    },
+    {
+      "file": "Panels/MudHUD/Top.svg",
+      "width": 616,
+      "height": 90,
+      "roots": [
+        "StarterGui.MudHUD.Main.Top"
+      ],
+      "guiObjects": 5,
+      "textLayers": 5,
+      "vectorPreviewParts": 0,
+      "sha256": "7d28df925afa62abe6f56c3af578ddbe847b1dcf0c1786f8570f28f544e459a6"
+    },
+    {
+      "file": "Panels/MudHUD/Controls.svg",
+      "width": 296,
+      "height": 162,
+      "roots": [
+        "StarterGui.MudHUD.Main.Controls"
+      ],
+      "guiObjects": 9,
+      "textLayers": 7,
+      "vectorPreviewParts": 0,
+      "sha256": "bced95b44100161deff572f69038303224df4bd16e941ab7dcdaabb715dec200"
+    },
+    {
+      "file": "Panels/MudHUD/Frozen.svg",
+      "width": 296,
+      "height": 112,
+      "roots": [
+        "StarterGui.MudHUD.Main.Frozen"
+      ],
+      "guiObjects": 5,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "bd729f9614deb87686feaa349600c1ee454a5a4e9c577b19df9ce21b0b2993e8"
+    },
+    {
+      "file": "Panels/MudHUD/Countdown.svg",
+      "width": 236,
+      "height": 136.0,
+      "roots": [
+        "StarterGui.MudHUD.Main.Countdown"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "fd0df61b84b00f3ef1ff8a78ded0c2ac96225a08198760a2de881a19ef96151a"
+    },
+    {
+      "file": "Panels/MudHUD/Crosshair.svg",
+      "width": 30,
+      "height": 30.0,
+      "roots": [
+        "StarterGui.MudHUD.Main.Crosshair"
+      ],
+      "guiObjects": 3,
+      "textLayers": 0,
+      "vectorPreviewParts": 0,
+      "sha256": "918d7d571b5d154e76be76c64870929879963732961a0170988ec12b51895195"
+    },
+    {
+      "file": "Panels/MudHUD/Results.svg",
+      "width": 646,
+      "height": 206.0,
+      "roots": [
+        "StarterGui.MudHUD.Main.Results"
+      ],
+      "guiObjects": 4,
+      "textLayers": 3,
+      "vectorPreviewParts": 0,
+      "sha256": "6f983bb1381c85e87b4e55945ac6b18fd5a7eaeb8469cd53f0939a14cebe5b93"
+    },
+    {
+      "file": "Panels/MudHUD/ColourToggle.svg",
+      "width": 60,
+      "height": 60,
+      "roots": [
+        "StarterGui.MudHUD.ColourToggle"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "857c29ec68ff01576fd4b74aac89bcb25b19ff7cf23252425555d8621b912641"
+    },
+    {
+      "file": "Panels/MudHUD/ColourPicker.svg",
+      "width": 296,
+      "height": 154.0,
+      "roots": [
+        "StarterGui.MudHUD.ColourPicker"
+      ],
+      "guiObjects": 8,
+      "textLayers": 7,
+      "vectorPreviewParts": 0,
+      "sha256": "193c1e2dd64c4d3e8858b71b22333b644b2ffc2b6b4fc13bb1f962c2788318ee"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Top_Team.svg",
+      "width": 196,
+      "height": 51.52,
+      "roots": [
+        "StarterGui.MudHUD.Main.Top.Team"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "9c7eb47e4fff2e3434e9dec4e1647ef74b057618a0a3fe9c7dd5f8452974954d"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Mud.svg",
+      "width": 109,
+      "height": 64,
+      "roots": [
+        "StarterGui.MudHUD.Main.Controls.Mud"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "f3cce61d079086714fa33ca729432efce647bbd6a3b8a36ea3f59bd6da77b351"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Heat.svg",
+      "width": 109,
+      "height": 64,
+      "roots": [
+        "StarterGui.MudHUD.Main.Controls.Heat"
+      ],
+      "guiObjects": 1,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "43152ca33184c3e27d936ed32697be46aae188d12dbcf3a0a9321eeef87a48b3"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Fire.svg",
+      "width": 96,
+      "height": 64,
+      "roots": [
+        "StarterGui.MudHUD.Main.Controls.Fire"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "bcc89a38a75baa1d12292f66a65fb1ef73ebf773463f8a5f8dc28500fcf7c2b9"
+    },
+    {
+      "file": "Controls/MudHUD/Main_Controls_Sprint.svg",
+      "width": 296,
+      "height": 64,
+      "roots": [
+        "StarterGui.MudHUD.Main.Controls.Sprint"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "60e5b1bf3595a10d9df070262a00af79da00deba61d6e1210f07bc82b4b1f08e"
+    },
+    {
+      "file": "Controls/MudHUD/ColourToggle.svg",
+      "width": 60,
+      "height": 60,
+      "roots": [
+        "StarterGui.MudHUD.ColourToggle"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "54ae1ec716e5986b0f2c560a28ee21180e47f3482095b04fabefddb410b2cb85"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Close.svg",
+      "width": 56,
+      "height": 56.0,
+      "roots": [
+        "StarterGui.MudHUD.ColourPicker.Close"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "db90e767d5df5ad881b85b1c4ce4f155d2c3d87aa8e1acf2eb3acf050f69144e"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Red.svg",
+      "width": 76,
+      "height": 64.0,
+      "roots": [
+        "StarterGui.MudHUD.ColourPicker.Red"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "f62b4ae4b832445878e8f3d0861d52b1b6f74fb327191560809d2e75e1fbf73c"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Blue.svg",
+      "width": 76,
+      "height": 64.0,
+      "roots": [
+        "StarterGui.MudHUD.ColourPicker.Blue"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "87a01448eae2bb80651672ddff8b2cd3a19136d0dbe48dd9c96bfb895dfb5368"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Green.svg",
+      "width": 76,
+      "height": 64.0,
+      "roots": [
+        "StarterGui.MudHUD.ColourPicker.Green"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "f403fa11c12fa920c013d7a66d297987dc7135b2e7a9ad0cb47b06f243082cdd"
+    },
+    {
+      "file": "Controls/MudHUD/ColourPicker_Black.svg",
+      "width": 76,
+      "height": 64.0,
+      "roots": [
+        "StarterGui.MudHUD.ColourPicker.Black"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "3d7a2be66eb93a4b7ed17b854f98c7b6082690c1ea6d293068af61b863c0f94e"
+    },
+    {
+      "file": "Screens/BritishBulldog_Runner.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 24,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "ca8c91ac1cd8e1b9760fbe371642088f1e172b545a06e0d869ca9a0d51a6ddc7"
+    },
+    {
+      "file": "Screens/BritishBulldog_Bulldog.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 21,
+      "textLayers": 11,
+      "vectorPreviewParts": 0,
+      "sha256": "7f22018e304d32f0184b68a42cf21adc77732c32d619bd45e287b3616bbf6497"
+    },
+    {
+      "file": "Screens/BritishBulldog_Sprinting.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 24,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "993f1822af4273bf1c70d92604647a665268cb9cf6718b0edcf4e3da8ca67ad1"
+    },
+    {
+      "file": "Screens/BritishBulldog_Recharging.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 24,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "f835d56bf456f2b75f21176932d61d9b2edb7b07d3d9c0c9a61be7d280f7271a"
+    },
+    {
+      "file": "Screens/BritishBulldog_DodgeCooldown.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 24,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "1d0703becd1d0327745e143d911f85d9b9c2165c1fdf2075f19a969e8b2d5a84"
+    },
+    {
+      "file": "Screens/BritishBulldog_EscapeBoost.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 26,
+      "textLayers": 15,
+      "vectorPreviewParts": 0,
+      "sha256": "02f6e6b444a9621efe936d7714debc4dc4eb0b51a345365b09152b5aff2aa281"
+    },
+    {
+      "file": "Screens/BritishBulldog_LeaveSafeZone.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.MovementControls",
+        "StarterGui.BritishBulldogHUD.Departure"
+      ],
+      "guiObjects": 30,
+      "textLayers": 15,
+      "vectorPreviewParts": 0,
+      "sha256": "8907c2155d5486905cbd67373befa370e646bd1395183a0961da772c27541077"
+    },
+    {
+      "file": "Screens/BritishBulldog_Countdown.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.MovementControls",
+        "StarterGui.BritishBulldogHUD.Countdown"
+      ],
+      "guiObjects": 25,
+      "textLayers": 14,
+      "vectorPreviewParts": 0,
+      "sha256": "5201fd99dc441d6c19214fbffc000e49e2f0ddd13bc6682b1d7bfd19cf52a0f0"
+    },
+    {
+      "file": "Screens/BritishBulldog_BulldogCall.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.MovementControls",
+        "StarterGui.BritishBulldogHUD.Countdown"
+      ],
+      "guiObjects": 25,
+      "textLayers": 14,
+      "vectorPreviewParts": 0,
+      "sha256": "1d1e35d37272170ce3837720fc7235a12d4eb53820d13abdc20a4953a4ee2fd0"
+    },
+    {
+      "file": "Screens/BritishBulldog_Tagged.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.TopCard",
+        "StarterGui.BritishBulldogHUD.Tagged"
+      ],
+      "guiObjects": 17,
+      "textLayers": 9,
+      "vectorPreviewParts": 0,
+      "sha256": "0721b2965da62ae817922eebd0a0e8eae787d87fa4c79b7361c55f333940c9eb"
+    },
+    {
+      "file": "Screens/BritishBulldog_SurvivorsWin.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.Results"
+      ],
+      "guiObjects": 7,
+      "textLayers": 3,
+      "vectorPreviewParts": 0,
+      "sha256": "88e7ad92e85d73aa41db3df6d3f13ef774d0209295d207e58b9f151ee884fcf0"
+    },
+    {
+      "file": "Screens/BritishBulldog_BulldogsWin.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.Results"
+      ],
+      "guiObjects": 7,
+      "textLayers": 3,
+      "vectorPreviewParts": 0,
+      "sha256": "025759feea1a81ca0347bcac5afae8f42b81aed9169b17c1c7e2fd8d56a116a3"
+    },
+    {
+      "file": "Screens/Tag_Runner.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.TagHUD.Top",
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Controls"
+      ],
+      "guiObjects": 17,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "aefead3eac5bc8e919ecdf0bc1f29fde55cac5b85bd86e4a8bbd94a1447d60b9"
+    },
+    {
+      "file": "Screens/Tag_YoureIt.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.TagHUD.Top",
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Controls"
+      ],
+      "guiObjects": 17,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "3d3613e54ce83dadf3b38177a98d64b16b9cdf4ee3c21ac39102bf715fa15c64"
+    },
+    {
+      "file": "Screens/Tag_TagbackShield.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.TagHUD.Top",
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Controls",
+        "StarterGui.TagHUD.Protection"
+      ],
+      "guiObjects": 18,
+      "textLayers": 14,
+      "vectorPreviewParts": 0,
+      "sha256": "722ce810f7ec11c20b45fa31b04e654290be439fb63a2b23fffcd76f1a5c1757"
+    },
+    {
+      "file": "Screens/Tag_Countdown.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.TagHUD.Top",
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Countdown"
+      ],
+      "guiObjects": 15,
+      "textLayers": 10,
+      "vectorPreviewParts": 0,
+      "sha256": "57276e4ce24a7992c0688c94ef2fad0d39114281c182ee19bc9817700cf2bbfd"
+    },
+    {
+      "file": "Screens/Tag_Sprinting.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.TagHUD.Top",
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Controls"
+      ],
+      "guiObjects": 17,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "86586258da6d65a06dd46df1286c9ac310b7bf20e7c64763bc16231ab488c304"
+    },
+    {
+      "file": "Screens/Tag_Recharging.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.TagHUD.Top",
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Controls"
+      ],
+      "guiObjects": 17,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "35b0c2d8fd91dd8743abb20c81da5cdce4685f3d7bd01afdbda1ee8fce568935"
+    },
+    {
+      "file": "Screens/Tag_MoveCooldowns.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.TagHUD.Top",
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Controls"
+      ],
+      "guiObjects": 17,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "b9946a31339a1e3e5b3e8878de08d4b3fa1ca79ca86a0927064d78f64135f2e6"
+    },
+    {
+      "file": "Screens/Tag_Win.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.TagHUD.Top",
+        "StarterGui.TagHUD.Results"
+      ],
+      "guiObjects": 11,
+      "textLayers": 7,
+      "vectorPreviewParts": 0,
+      "sha256": "58dbef64ef92c4aacc355be3465d8d45c450b8a1c0d8ffd7b4194841dc3e4aad"
+    },
+    {
+      "file": "Screens/Tag_Loss.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.TagHUD.Top",
+        "StarterGui.TagHUD.Results"
+      ],
+      "guiObjects": 11,
+      "textLayers": 7,
+      "vectorPreviewParts": 0,
+      "sha256": "1f7090fb43c4a42fc6a3a9b2340d3f2fa13f1f772dc567c3f60229801b1b3fc0"
+    },
+    {
+      "file": "Screens/Mud_MudGun.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.MudHUD.Main"
+      ],
+      "guiObjects": 18,
+      "textLayers": 13,
+      "vectorPreviewParts": 0,
+      "sha256": "bf75af963c7737303f6ebf88f159416a129cc5074de96c28f061a71a1049290c"
+    },
+    {
+      "file": "Screens/Mud_HeatGun.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.MudHUD.Main"
+      ],
+      "guiObjects": 18,
+      "textLayers": 14,
+      "vectorPreviewParts": 0,
+      "sha256": "c4e1d2d52125dc370ce2cb38ba1dbca3cca5ea9f78a5fc0ab85af52c960f26b4"
+    },
+    {
+      "file": "Screens/Mud_RescuingTeammate.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.MudHUD.Main"
+      ],
+      "guiObjects": 18,
+      "textLayers": 14,
+      "vectorPreviewParts": 0,
+      "sha256": "594ab101c44740be2bd3597d08ec76c582509c42a25d335d5bd68d2eb58bfeef"
+    },
+    {
+      "file": "Screens/Mud_Stuck.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.MudHUD.Main"
+      ],
+      "guiObjects": 11,
+      "textLayers": 8,
+      "vectorPreviewParts": 0,
+      "sha256": "4198810be2b9d088573cb464a3779f736363f402afc94cf3860b49c4abaf8fc0"
+    },
+    {
+      "file": "Screens/Mud_BeingRescued.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.MudHUD.Main"
+      ],
+      "guiObjects": 11,
+      "textLayers": 8,
+      "vectorPreviewParts": 0,
+      "sha256": "247581b278d6b3642617e7997900541f9cfa2fb4bc24570ec2b44be0b472de5f"
+    },
+    {
+      "file": "Screens/Mud_Countdown.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.MudHUD.Main"
+      ],
+      "guiObjects": 16,
+      "textLayers": 14,
+      "vectorPreviewParts": 0,
+      "sha256": "fc1c5e5aa92f0834c8004d9b99b6921926d53aad1c7d4387376c48d2419947c7"
+    },
+    {
+      "file": "Screens/Mud_TeamWin.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.MudHUD.Main"
+      ],
+      "guiObjects": 5,
+      "textLayers": 3,
+      "vectorPreviewParts": 0,
+      "sha256": "96e86eb9e6846342c117c22cb706b6edef629b8f503f6c6c935617ecf3383130"
+    },
+    {
+      "file": "Screens/Mud_TeamLoss.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.MudHUD.Main"
+      ],
+      "guiObjects": 5,
+      "textLayers": 3,
+      "vectorPreviewParts": 0,
+      "sha256": "0364b5797203c2d31e5001b0c0713367215227df32be7a6a7bc8277401ffba9b"
+    },
+    {
+      "file": "Screens/Mud_TeamColourPicker.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.MudHUD.ColourPicker"
+      ],
+      "guiObjects": 8,
+      "textLayers": 7,
+      "vectorPreviewParts": 0,
+      "sha256": "583f0e560e5fe169eb85f1539eb24d38d2db825c232a394e0c7203e245d0e4b8"
+    },
+    {
+      "file": "Screens/Lobby_HUD.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.PlaygroundShell.Wallet",
+        "StarterGui.PlaygroundShell.Dock",
+        "StarterGui.PlaygroundShell.LevelPanel"
+      ],
+      "guiObjects": 16,
+      "textLayers": 8,
+      "vectorPreviewParts": 4,
+      "sha256": "1ba0f23ad480fbcbc61ea9f9d2514edc0b0b637dd49616892eca182cd2c23556"
+    },
+    {
+      "file": "Screens/Lobby_Shop.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.PlaygroundShell.Backdrop",
+        "StarterGui.PlaygroundShell.ShopPanel"
+      ],
+      "guiObjects": 87,
+      "textLayers": 59,
+      "vectorPreviewParts": 185,
+      "sha256": "84798ddeb16e2c2a1e246abf5fb740e8cf99eaf8f6e6b9c3d6fdb9e95511ead8"
+    },
+    {
+      "file": "Screens/Lobby_VotingSelected.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.PlaygroundShell.Wallet",
+        "StarterGui.PlaygroundShell.Dock",
+        "StarterGui.PlaygroundShell.VotePanel"
+      ],
+      "guiObjects": 19,
+      "textLayers": 18,
+      "vectorPreviewParts": 0,
+      "sha256": "1a55deadbf524c67d10eb6a83e987b447320ea255feda5a490fe57354de177f5"
+    },
+    {
+      "file": "Screens/Lobby_VotingUnavailable.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.PlaygroundShell.Wallet",
+        "StarterGui.PlaygroundShell.Dock",
+        "StarterGui.PlaygroundShell.VotePanel"
+      ],
+      "guiObjects": 19,
+      "textLayers": 18,
+      "vectorPreviewParts": 0,
+      "sha256": "0e486422345c6a47d5f44271c38bb9e9c5e8ba563d86c195d2a90fd268de3ac4"
+    },
+    {
+      "file": "Screens/Lobby_RewardToast.svg",
+      "width": 1366,
+      "height": 767,
+      "roots": [
+        "StarterGui.PlaygroundShell.Wallet",
+        "StarterGui.PlaygroundShell.Dock",
+        "StarterGui.PlaygroundShell.LevelPanel",
+        "StarterGui.PlaygroundShell.RewardToast"
+      ],
+      "guiObjects": 18,
+      "textLayers": 9,
+      "vectorPreviewParts": 4,
+      "sha256": "23b7273260c797259a4243f71bae3865bd681ad9d0a40b21841915cbacce79c3"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_Runner.svg",
+      "width": 391.0,
+      "height": 126,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 12,
+      "textLayers": 6,
+      "vectorPreviewParts": 0,
+      "sha256": "c41b15223add64b25ef62e0b34ad43d3653090342aabd54bd1f745a49c2add02"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_Bulldog.svg",
+      "width": 391.0,
+      "height": 126,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 9,
+      "textLayers": 4,
+      "vectorPreviewParts": 0,
+      "sha256": "99b51758746aed9d8d8e73d5c904ace33214687b9b4aa84b1c927bc52be4295c"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_Recharging.svg",
+      "width": 391.0,
+      "height": 126,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 12,
+      "textLayers": 6,
+      "vectorPreviewParts": 0,
+      "sha256": "38fbe4e8abbe09735e1292c44f28c69b224b08b2fd3388cd492f9b7f6fb67f20"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_EscapeBoost.svg",
+      "width": 391.0,
+      "height": 126,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 14,
+      "textLayers": 8,
+      "vectorPreviewParts": 0,
+      "sha256": "8f921479b8e6357e69251ae36312861cfd53f4a05555de28a0f4289ca3018574"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Controls_DodgeCooldown.svg",
+      "width": 391.0,
+      "height": 126,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls"
+      ],
+      "guiObjects": 12,
+      "textLayers": 6,
+      "vectorPreviewParts": 0,
+      "sha256": "c2a1e77203dae281b54da849d74d1b0225a69e8ab44aac4f78cf94d0ece388f5"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Departure_Compact.svg",
+      "width": 131,
+      "height": 68,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.CompactDeparture"
+      ],
+      "guiObjects": 6,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "561caa53187a137df242521c7ba9cf8cc29dc0bb8dda8000de58b387f1c7f61c"
+    },
+    {
+      "file": "Panels/States/BritishBulldog_Tagged_Panel.svg",
+      "width": 412.14,
+      "height": 90,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.Tagged"
+      ],
+      "guiObjects": 5,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "f966b1f3bc78447ffa9800257cfb7ee836738f28f6adc3d4325ea1dbc6b3f9ce"
+    },
+    {
+      "file": "Panels/States/Tag_Controls_Runner.svg",
+      "width": 296,
+      "height": 116,
+      "roots": [
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Controls"
+      ],
+      "guiObjects": 11,
+      "textLayers": 9,
+      "vectorPreviewParts": 0,
+      "sha256": "5590e1cf43ef108c159910668a8983c2510d5da514bdb218bfff77ea7134212e"
+    },
+    {
+      "file": "Panels/States/Tag_Controls_Tagger.svg",
+      "width": 296,
+      "height": 116,
+      "roots": [
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Controls"
+      ],
+      "guiObjects": 11,
+      "textLayers": 9,
+      "vectorPreviewParts": 0,
+      "sha256": "c9dfedcc114d86364236408a200ca8916fda677e276124e3b9f0d5753ea2e651"
+    },
+    {
+      "file": "Panels/States/Tag_Controls_Cooldowns.svg",
+      "width": 296,
+      "height": 116,
+      "roots": [
+        "StarterGui.TagHUD.SprintPanel",
+        "StarterGui.TagHUD.Controls"
+      ],
+      "guiObjects": 11,
+      "textLayers": 9,
+      "vectorPreviewParts": 0,
+      "sha256": "faed723d43a21b2ed545af43a3a1c843a4ac2eccc85ec128c9d7d3927a08ee4f"
+    },
+    {
+      "file": "Panels/States/Tag_TagbackShield_Notice.svg",
+      "width": 256,
+      "height": 32,
+      "roots": [
+        "StarterGui.TagHUD.Protection"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "c546830bbe734cd88bc1ddf19dffb602f9ea1e6ee8eca37e247002d8b00c83e0"
+    },
+    {
+      "file": "Panels/States/Mud_Controls_HeatGun.svg",
+      "width": 296,
+      "height": 162,
+      "roots": [
+        "StarterGui.MudHUD.Main.Controls"
+      ],
+      "guiObjects": 9,
+      "textLayers": 8,
+      "vectorPreviewParts": 0,
+      "sha256": "c80e343424a9f1d14a1eb92abb04efe441796622e7a137e35e60bd37462ff3f9"
+    },
+    {
+      "file": "Panels/States/Mud_Controls_Rescuing.svg",
+      "width": 296,
+      "height": 162,
+      "roots": [
+        "StarterGui.MudHUD.Main.Controls"
+      ],
+      "guiObjects": 9,
+      "textLayers": 8,
+      "vectorPreviewParts": 0,
+      "sha256": "dba6542c5ab8999204bd54546a149ff1fd30febf6201a17c447707c8a9bc1e91"
+    },
+    {
+      "file": "Panels/States/Mud_Frozen_RescueProgress.svg",
+      "width": 296,
+      "height": 112,
+      "roots": [
+        "StarterGui.MudHUD.Main.Frozen"
+      ],
+      "guiObjects": 5,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "4caa7e874b945597b9dc2c6ee4cc7ad727afc97e73c0187838679f99207de535"
+    },
+    {
+      "file": "Panels/States/Mud_Frozen_TeamEliminated.svg",
+      "width": 296,
+      "height": 112,
+      "roots": [
+        "StarterGui.MudHUD.Main.Frozen"
+      ],
+      "guiObjects": 5,
+      "textLayers": 2,
+      "vectorPreviewParts": 0,
+      "sha256": "e1ecec198abcc3bbfae5b766d945841e4402b581577422b7934160805de2309f"
+    },
+    {
+      "file": "Panels/States/Mud_Controls_Recharging.svg",
+      "width": 296,
+      "height": 162,
+      "roots": [
+        "StarterGui.MudHUD.Main.Controls"
+      ],
+      "guiObjects": 9,
+      "textLayers": 7,
+      "vectorPreviewParts": 0,
+      "sha256": "7f979c91517ebfb72db3fbf1c52eb327f252162d44c81f4819e581e5c1237479"
+    },
+    {
+      "file": "Panels/States/ShopItem_Buy.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot01"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 13,
+      "sha256": "5c2e32699ae755ed209eb68923daf011f16802f06ff63277033aa97add541911"
+    },
+    {
+      "file": "Panels/States/ShopItem_Owned.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot01"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 13,
+      "sha256": "6df7097aa2c4882c0bb936c6f41b92d05e3b9ec158b588565faee68d27513cd7"
+    },
+    {
+      "file": "Panels/States/ShopItem_Equipped.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot01"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 13,
+      "sha256": "f661c5f8885bac4f4b19c0dce20ed959459119c0dec0564f7294f48853ac63ff"
+    },
+    {
+      "file": "Panels/States/ShopItem_Loading.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot01"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 13,
+      "sha256": "97e399fad7752733a5a7be11f83ebd40be787476723a26fce3ed9518c13fe469"
+    },
+    {
+      "file": "Panels/States/ShopItem_EmoteUse.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot03"
+      ],
+      "guiObjects": 7,
+      "textLayers": 5,
+      "vectorPreviewParts": 10,
+      "sha256": "9182998e1f47577e2b79effbb3f6c2e758200c013ded1c12fe8a4ad8b281ae27"
+    },
+    {
+      "file": "Panels/States/ShopItem_ComingSoon.svg",
+      "width": 258,
+      "height": 254.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot11"
+      ],
+      "guiObjects": 6,
+      "textLayers": 4,
+      "vectorPreviewParts": 8,
+      "sha256": "0c7b94222b3e10a68a43803e50da826c84b1819fdbad58bdafb7569ed09c7955"
+    },
+    {
+      "file": "Panels/States/Level_Compact_Progress.svg",
+      "width": 131,
+      "height": 68,
+      "roots": [
+        "StarterGui.PlaygroundShell.CompactLevelPanel"
+      ],
+      "guiObjects": 6,
+      "textLayers": 2,
+      "vectorPreviewParts": 4,
+      "sha256": "0481cf629aae4606b166ef34b306fec92a00be00245221974f0815473a539163"
+    },
+    {
+      "file": "Panels/States/Voting_Compact_Selected.svg",
+      "width": 676,
+      "height": 192,
+      "roots": [
+        "StarterGui.PlaygroundShell.CompactVotePanel"
+      ],
+      "guiObjects": 10,
+      "textLayers": 12,
+      "vectorPreviewParts": 0,
+      "sha256": "6a99f5a4ad9c9fb3040f3d648668475f94d01fecbc8ab10e81f570648f09dcbc"
+    },
+    {
+      "file": "HiddenElements/BritishBulldogHUD_MovementControls_Dodge_IconFallback.svg",
+      "width": 44.0,
+      "height": 46,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls.Dodge.IconFallback"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "a91e01582d9828b7006615993984c53fc5f6bf8f2ac4fa68050a6859a74b3768"
+    },
+    {
+      "file": "HiddenElements/BritishBulldogHUD_MovementControls_Sprint_IconFallback.svg",
+      "width": 44.0,
+      "height": 46,
+      "roots": [
+        "StarterGui.BritishBulldogHUD.MovementControls.Sprint.IconFallback"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "6a39d6202a5df4f0017c47e962342165bb48ad1b44370c3e65bbedb9bb0464ee"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_LevelPanel_IconFallback.svg",
+      "width": 37,
+      "height": 39,
+      "roots": [
+        "StarterGui.PlaygroundShell.LevelPanel.IconFallback"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "c8d2d74e493a2216078584fb0e90b9c846b03796f5124495b1a8e450a6eb9e99"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot01_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot01.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "86094cbe8b743acb13895418e79a949398ab65c2a4afd68ae1cce67a1173adf5"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot02_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot02.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "578e523b67fc76faea6b043015e8889bbd2b8325592e623b43250f24b1fc4f85"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot04_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot04.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "e5e569dd634c5f8a9b447bd4c68e0b8f9ceaf576c5dda1a8b89c9327ee39aaf8"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot05_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot05.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "baaceeab64ab4d9b441a940edac10df46f7235cc65ce45e8b1361d1479c4798b"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot06_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot06.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "ec0a72589f62d9c5aaf0ac467352397f9b42e447fd75e97afec358a38c397877"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot07_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot07.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "370836070f7285ddafa2e2e79e0f07c5aa8379eea1cf44ee1b8bd7e5fdb68803"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot08_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot08.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "3e098b55101cc9afdad43ea213a6d82a46a974070a3cd21150cddb5ee88f6f72"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot09_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot09.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "4516841824efc2c0a0cfd77ccc7b7a3fb13e89a167f96acb579e14d3532c07d8"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot10_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot10.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "0d56ab4442afedcddbeeb8019758094649d93097a860fda71f6e68da4868e4a0"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot11_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot11.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "1a4184029e56d4200c2c8ced629894a2d132cd060a900236521455927c8e78e4"
+    },
+    {
+      "file": "HiddenElements/PlaygroundShell_ShopPanel_Cards_Slot12_Try.svg",
+      "width": 67,
+      "height": 43.0,
+      "roots": [
+        "StarterGui.PlaygroundShell.ShopPanel.Cards.Slot12.Try"
+      ],
+      "guiObjects": 1,
+      "textLayers": 1,
+      "vectorPreviewParts": 0,
+      "sha256": "ae3f836524ea5b9a5d54a60c18ede2b2a82a076bb70ceb450d876abcfdc56daf"
+    }
+  ],
+  "icons": [
+    "86080260918857",
+    "99567482512995",
+    "99215209137796"
+  ],
+  "warnings": [],
+  "source": "Source/NativeGuiSnapshot.json",
+  "representativeRuntimeText": {
+    "StarterGui.PlaygroundShell.LevelPanel.XP": "0 / 200 XP",
+    "StarterGui.PlaygroundShell.CompactLevelPanel.XP": "0 / 200",
+    "StarterGui.PlaygroundShell.Wallet.Coins": "150",
+    "StarterGui.PlaygroundShell.Wallet.Wins": "0 wins",
+    "StarterGui.PlaygroundShell.ShopPanel.Coins": "150 coins",
+    "StarterGui.PlaygroundShell.RewardToast.Message": "+150 coins · +50 XP · Round won!"
+  },
+  "textPreserved": true,
+  "rasterImagesEmbedded": false,
+  "functional3DViewports": false,
+  "missing": []
+}

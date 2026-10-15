@@ -1,0 +1,54 @@
+{
+  "id": "P22",
+  "name": "Ember Wyrmling",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p22-ember-wyrmling.png",
+  "brief": "A squat brick-red baby dragon with broad orange folded wings, cream segmented belly, rounded charcoal horns and a short tail with a solid orange flame-shaped fin. A cheeky toothy grin and little golden eyes. Four chunky feet, warm red and gold colour blocking. No actual flames, smoke or external effects.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p22-ember-wyrmling.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p22-ember-wyrmling.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p22-ember-wyrmling-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p22-ember-wyrmling.png",
+  "parts": 86,
+  "triangles": 40960,
+  "meshes": 3,
+  "maxMeshTriangles": 18996,
+  "dimensions": [
+    3.6516377925872803,
+    3.4964866638183594,
+    3.2929177284240723
+  ],
+  "boundsMin": [
+    -1.8258188962936401,
+    -1.5269999504089355,
+    0.13999998569488525
+  ],
+  "boundsMax": [
+    1.8258188962936401,
+    1.9694865942001343,
+    3.432917594909668
+  ],
+  "paletteColors": 14,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "FrontLegL",
+    "FrontLegR",
+    "BackLegL",
+    "BackLegR",
+    "Tail",
+    "WingL",
+    "WingR"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    3.6516380310058594,
+    3.4964864253997803,
+    3.2929177284240723
+  ]
+}

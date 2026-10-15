@@ -1,0 +1,16 @@
+{
+  "nativeParts": 1511,
+  "sourcePropertiesMatched": 1511,
+  "activeScene": "PCMudNativePreview20261003",
+  "renderEngine": "BLENDER_WORKBENCH",
+  "resolution": [
+    2048,
+    1152
+  ],
+  "isolatedVerificationProcess": true,
+  "sha256": {
+    "NativeMudGeometry.json": "c59ec2ef62d482bf18a38f3330ac0bcd24c11bb21c1a49855793936fca8d4d1b",
+    "NativeMudArena_IsolatedPreview.blend": "654fae2d7c1289db70fcb104075ae76bc856ac72693e1269950f4056f6bd4558",
+    "NativeMudArena_IsolatedWide.png": "b7cc78b37d446e8324e8895e37cee8e1935f5a00ddc13279b095d905d4c24df1"
+  }
+}

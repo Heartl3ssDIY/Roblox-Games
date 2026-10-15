@@ -1,0 +1,15 @@
+Fixed 14 Stuck in the Mud scenery trees in the open Studio Edit datamodel.
+
+Cause: an opaque TreeCrownInk sphere (28 x 23 x 28) surrounded the smaller green canopy (25 x 21 x 25). It hid the foliage instead of drawing an outline.
+
+Repair: grouped each tree's five existing parts into an editable Model, hid the outer ink sphere, and added an occluded Highlight with transparent fill and a dark silhouette outline. All 70 original parts retain their sizes, colours and world positions. The green and light foliage remain opaque. Existing trunk borders remain intact.
+
+Confirmed all 14 trees have visible foliage and configured outlines, and visually checked the repaired map in Studio. Play was not started.
+
+Original live parts are backed up in ServerStorage.TreeOutlineFix20261004. LiveRepair.json records their original properties. Before/ contains original copies of the three modified local builder files.
+
+Updated local builder files:
+StuckInTheMud20261003/BuildMudArena.luau
+StuckInTheMud20261003/InstallStuckInTheMud.luau
+StuckInTheMud20261003/InstallPlaygroundAllGames.luau
+All three compile. No active Studio script recreates or rescales these tree shells.

@@ -1,0 +1,20 @@
+{
+  "svgFiles": 219,
+  "authoredGuiObjects": 327,
+  "coveredGuiObjects": 327,
+  "screenGuis": 5,
+  "screenVariants": 35,
+  "stateFragments": 24,
+  "shopItemCards": 12,
+  "worldSvgArtworks": 20,
+  "nativeWorldGuiInstances": 30,
+  "rasterElements": 0,
+  "externalReferences": 0,
+  "liveSvgTextElements": 1342,
+  "vectorElements": 9049,
+  "xmlAndReferencesPassed": true,
+  "renderChecks": 219,
+  "textOverflowChecks": [],
+  "liveFigmaImportTested": false,
+  "issues": []
+}

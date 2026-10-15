@@ -1,0 +1,100 @@
+{
+  "currentR15AnimationJoints": 15,
+  "checks": [
+    {
+      "name": "Contact without click never transfers Tag",
+      "passed": true
+    },
+    {
+      "name": "Click records server timestamp before serial and enforces windup, impact window and cooldown",
+      "passed": true
+    },
+    {
+      "name": "Frontal cone rejects a target behind or to the side",
+      "passed": true
+    },
+    {
+      "name": "Unequip cancellation keeps cooldown and prevents a queued hit",
+      "passed": true
+    },
+    {
+      "name": "Tag transfer preserves roles, timer accounting, score and tag-back protection",
+      "passed": true
+    },
+    {
+      "name": "One impact selects only the nearest eligible target",
+      "passed": true
+    },
+    {
+      "name": "R6 and legacy R15 joints create correct limited sockets and preserve disabled joints",
+      "passed": true
+    },
+    {
+      "name": "Current native R15 AnimationConstraints use authored sockets without duplicate constraints",
+      "passed": true
+    },
+    {
+      "name": "All 15 bats have identical 1.35 second ragdoll with no damage",
+      "passed": true
+    },
+    {
+      "name": "Range, protection, frozen state, death and field boundaries reject impact",
+      "passed": true
+    },
+    {
+      "name": "Solid obstacles block the impact ray",
+      "passed": true
+    },
+    {
+      "name": "Inactive rounds, non-taggers, fake humans, frozen state and wrong games cannot swing",
+      "passed": true
+    },
+    {
+      "name": "Stale character and round swing windows cannot land",
+      "passed": true
+    },
+    {
+      "name": "Bots request the same timed swing instead of contact tagging",
+      "passed": true
+    },
+    {
+      "name": "Ragdoll prevents dodge, vault, new swing and sprint eligibility",
+      "passed": true
+    },
+    {
+      "name": "Results freeze lets the last ragdoll finish and then restores a frozen rig",
+      "passed": true
+    },
+    {
+      "name": "Death and character removal clean ragdoll constraints",
+      "passed": true
+    },
+    {
+      "name": "Respawn restores old rig and rejects stale recovery on the new character",
+      "passed": true
+    },
+    {
+      "name": "Teleport, departure, invalid round and stop restore all transient state",
+      "passed": true
+    },
+    {
+      "name": "No gameplay service was started and Play remains stopped",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "fixtureDestroyed": true,
+  "playStarted": false,
+  "currentR15AuthoredSockets": 14,
+  "batsChecked": 15,
+  "generatedAt": "2026-10-04T19:12:05Z",
+  "mode": "Edit",
+  "liveModuleAudit": {
+    "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "sandboxed": true,
+    "nativeFixturePresent": true,
+    "leftovers": [],
+    "playRunning": false
+  },
+  "capabilityTest": "Candidate source required through a clone of live TagService with its unchanged approved capability set."
+}

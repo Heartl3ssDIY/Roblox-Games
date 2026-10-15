@@ -1,0 +1,53 @@
+{
+  "id": "SA08",
+  "name": "Staff 03 - Low lounge armchair",
+  "bodies": [
+    {
+      "id": "SA08_B01",
+      "asset_id": "SA08",
+      "asset": "Staff 03 - Low lounge armchair",
+      "label": "Staff 03 - Low lounge armchair",
+      "kind": "static",
+      "pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "angle": 0,
+      "collision": [
+        {
+          "center": [
+            0.0,
+            0.029662474989891052,
+            0.4976389706134796
+          ],
+          "size": [
+            0.815015971660614,
+            0.780320405960083,
+            0.9532974362373352
+          ]
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.407507985830307,
+          -0.36049771308898926,
+          0.020990248769521713
+        ],
+        "max": [
+          0.407507985830307,
+          0.41982266306877136,
+          0.9742876887321472
+        ]
+      }
+    }
+  ],
+  "mesh_count": 7,
+  "triangles": 15584,
+  "file": "SA08_Staff_03_Low_lounge_armchair.gltf"
+}

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="362.0" height="247.0" viewBox="0 0 362.0 247.0">
+  <title>PlaygroundAdminPanel-CompactPanel_BritishBulldog</title>
+  <desc>Isolated empty UI artwork. No captions, counters, placeholder images or item contents.</desc>
+  <defs>
+    <linearGradient id="Glossy1-EditableSkin-Fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffae7" stop-opacity="1" />
+      <stop offset="0.48" stop-color="#fff8df" stop-opacity="1" />
+      <stop offset="1" stop-color="#e0dac4" stop-opacity="1" />
+    </linearGradient>
+    <clipPath id="Glossy1-EditableSkin-Clip">
+      <rect x="34.392" y="130.0" width="350.0" height="232.0" rx="9.0" />
+    </clipPath>
+    <linearGradient id="Glossy1-EditableSkin-Shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(-28.392 -124.0)">
+    <g id="StarterGui.PlaygroundAdminPanel.CompactPanel.Body.Content.BritishBulldog_Background-Glossy" data-original-fill="#ffffff" data-skin-theme="panel">
+      <rect id="Glossy1-EditableSkin-OuterKeyline" x="30.392" y="126.0" width="358.0" height="243.0" rx="14.0" fill="#20263d" stroke="#fffcf2" stroke-width="0.96" />
+      <rect id="Glossy1-EditableSkin-Face" x="33.392" y="129.0" width="352.0" height="234.0" rx="11.0" fill="url(#Glossy1-EditableSkin-Fill)" stroke="#fffdf4" stroke-width="2.0" />
+      <g id="Glossy1-EditableSkin-SurfaceDetail" clip-path="url(#Glossy1-EditableSkin-Clip)">
+        <rect id="Glossy1-EditableSkin-TopGloss" x="34.392" y="130.0" width="350.0" height="28.0" fill="url(#Glossy1-EditableSkin-Shine)" />
+        <path d="M 46.392 133.0 H 372.392" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+</svg>

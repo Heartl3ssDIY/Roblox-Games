@@ -1,0 +1,9 @@
+{
+  "cause": "PlaygroundEquipmentService._reconcileToys reads avatar Accessory attributes without AvatarAppearance capability",
+  "reproducedBeforeFix": true,
+  "fix": "Added only AvatarAppearance to PlaygroundEquipmentService; original capabilities and source retained",
+  "backup": "ServerStorage.EquipmentAccessoryPermissionBackup20261011",
+  "passed": ["BBStart", "BBRunner", "BBBulldog", "TagStart", "TagRunner", "TagTagger", "MudStart", "AutomaticRound"],
+  "validation": "Isolated native Studio start paths; Accessory, BodyColors, Shirt and Pants preserved; selected players' toys/effects cleared; async round bodies and bot creation stubbed",
+  "published": false
+}

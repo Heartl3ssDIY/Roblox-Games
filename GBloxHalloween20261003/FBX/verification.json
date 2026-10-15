@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "Haunted_Run_Platform.fbx",
+      "mesh_parts": 18,
+      "max_dimension_error": 1e-06,
+      "materials_present": true
+    },
+    {
+      "file": "Bone_Saw_Platform.fbx",
+      "mesh_parts": 22,
+      "max_dimension_error": 1e-06,
+      "materials_present": true
+    },
+    {
+      "file": "Cursed_Ridged_Block.fbx",
+      "mesh_parts": 1,
+      "max_dimension_error": 1e-06,
+      "materials_present": true
+    },
+    {
+      "file": "Ectoplasm_Speed_Boost.fbx",
+      "mesh_parts": 4,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Haunted_Finish_Gate.fbx",
+      "mesh_parts": 3,
+      "max_dimension_error": 2e-06,
+      "materials_present": true
+    },
+    {
+      "file": "Jack_O_Lantern.fbx",
+      "mesh_parts": 8,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Throwable_Pumpkin.fbx",
+      "mesh_parts": 8,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Gravestone_Trap.fbx",
+      "mesh_parts": 38,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Last_Place_Chaser_Ghost.fbx",
+      "mesh_parts": 10,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Floor_Web_Trap.fbx",
+      "mesh_parts": 16,
+      "max_dimension_error": 1e-06,
+      "materials_present": true
+    },
+    {
+      "file": "Corner_Cobweb.fbx",
+      "mesh_parts": 13,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Ectoplasm_Lantern.fbx",
+      "mesh_parts": 16,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Zombie_Hand_Separate.fbx",
+      "mesh_parts": 16,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Gravestone_Without_Hand.fbx",
+      "mesh_parts": 22,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Bone_Saw_Wheel_Separate.fbx",
+      "mesh_parts": 4,
+      "max_dimension_error": 0.0,
+      "materials_present": true
+    },
+    {
+      "file": "Bone_Saw_Base_Without_Wheel.fbx",
+      "mesh_parts": 18,
+      "max_dimension_error": 1e-06,
+      "materials_present": true
+    }
+  ],
+  "source_scene_unchanged": true
+}

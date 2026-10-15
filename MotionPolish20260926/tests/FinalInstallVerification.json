@@ -1,0 +1,45 @@
+{
+  "recordedAtUtc": "2026-09-26T15:06:24.2541634Z",
+  "evidence": "Summary of final read-only Studio connector verification reported by the parent agent; packaging did not call Studio.",
+  "placeId": 111313211501470,
+  "studioId": "8f254eb9-23d1-49bf-9a7e-f5b4913e96ce",
+  "studioMode": "Edit",
+  "sources": {
+    "matchedLocalFiles": [
+      "AttackAnimator",
+      "CombatController",
+      "PackReveal",
+      "UnitPreviewAnimator",
+      "UnitsUI",
+      "UnitViewport"
+    ],
+    "normalization": "Line endings and trailing whitespace normalized for comparisons.",
+    "comparisonMethods": {
+      "UnitsUI": "Exact comparison",
+      "remainingFiveModules": "Checksums"
+    },
+    "allSixCompile": true,
+    "ancestorAwareReducedMotionInstalled": true
+  },
+  "gui": {
+    "geometryObjectsMatchedBackup": 154,
+    "comparedProperties": [
+      "Position",
+      "Size",
+      "AnchorPoint"
+    ],
+    "textObjectsWithTextOutline": 60,
+    "textObjectsChecked": 60,
+    "PackRevealGuiEnabled": false
+  },
+  "studioBackup": {
+    "path": "ServerStorage.BeforeMotionPolish20260926",
+    "present": true
+  },
+  "temporaryMotionPolishQAFixturePresent": false,
+  "additionalLiveEditsDuringFinalVerification": false,
+  "additionalPlaytestsDuringFinalVerification": false,
+  "nativeCombatVisualTest": "Incomplete: earlier Studio unresponsiveness prevented completion. Deterministic combat regression passed separately.",
+  "wholePlaceSaveConfirmed": false,
+  "publishedConfirmed": false
+}

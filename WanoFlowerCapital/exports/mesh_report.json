@@ -1,0 +1,184 @@
+{
+  "visual_meshes": [
+    {
+      "name": "WA_01_Ground_Part01",
+      "triangles": 28,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_02_Combat_Street_Part01",
+      "triangles": 20,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_03_Paving_Part01",
+      "triangles": 1368,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_10_House_Bodies_Part01",
+      "triangles": 528,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_11_Facades_Part01",
+      "triangles": 5016,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_12_Roofs_Part01",
+      "triangles": 11970,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_12_Roofs_Part02",
+      "triangles": 11970,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_12_Roofs_Part03",
+      "triangles": 11970,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_12_Roofs_Part04",
+      "triangles": 11970,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_12_Roofs_Part05",
+      "triangles": 4788,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_30_Cherry_Trunks_Part01",
+      "triangles": 3500,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_31_Cherry_Crowns_Part01",
+      "triangles": 5600,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_32_Lanterns_Part01",
+      "triangles": 2040,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_20_Red_Gate_Part01",
+      "triangles": 754,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_21_Bridge_Part01",
+      "triangles": 636,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_33_Petals_Part01",
+      "triangles": 260,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_40_Castle_Foundation_Part01",
+      "triangles": 852,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_41_Waterfalls_Part01",
+      "triangles": 172,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_42_Lower_Gatehouse_Part01",
+      "triangles": 5000,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_43_Castle_Part01",
+      "triangles": 660,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_44_Castle_Roofs_Part01",
+      "triangles": 7514,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_45_Castle_Gold_Part01",
+      "triangles": 264,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_46_Giant_Tree_Part01",
+      "triangles": 332,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_47_Giant_Blossoms_Part01",
+      "triangles": 2240,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_48_Mountains_Part01",
+      "triangles": 436,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_49_Cliff_Green_Part01",
+      "triangles": 240,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_50_Distant_Pagoda_Part01",
+      "triangles": 5724,
+      "uv": true,
+      "zero_area_triangles": 0
+    },
+    {
+      "name": "WA_13_Roof_Undersides_Part01",
+      "triangles": 1980,
+      "uv": true,
+      "zero_area_triangles": 0
+    }
+  ],
+  "combat_bounds": [
+    -32,
+    32,
+    -32,
+    32
+  ],
+  "combat_surface_height": 0.035,
+  "collision_meshes": 33,
+  "studio_import_tested": false,
+  "street_width": 76,
+  "triangles": 97832,
+  "combat_area_obstructions": []
+}

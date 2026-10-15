@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "fishingChecks": 63,
+  "commerceRegressionChecks": 46,
+  "compiled": true,
+  "sourceReadbackMatched": true,
+  "realDataStoreUsed": false,
+  "playStarted": false,
+  "schema": ["FishingDay", "FishingUsed", "FishingCoinsExpires", "FishingXPExpires"],
+  "attributes": ["PCFishingCatchesLeft", "PCFishingCoinsExpires", "PCFishingXPExpires"],
+  "dailyReset": "00:00 UTC",
+  "catchesPerDay": 3,
+  "secondsPerCatch": 300,
+  "temporaryBoostMultipliesPermanentBenefits": true,
+  "backup": "ServerStorage.FishingEconomyBackup20261007.PlaygroundEconomyService"
+}

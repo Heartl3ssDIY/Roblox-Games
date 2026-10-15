@@ -1,0 +1,53 @@
+{
+  "visual_meshes": [
+    {
+      "name": "TOP_Arena_Mosaic",
+      "triangles": 5856,
+      "uv": true,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "TOP_Striped_Rim",
+      "triangles": 1728,
+      "uv": true,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "TOP_Tapered_Mosaic",
+      "triangles": 4928,
+      "uv": true,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "TOP_Lower_Spindle",
+      "triangles": 2428,
+      "uv": true,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "TOP_Center_Pillar_NONCOLLIDE",
+      "triangles": 5560,
+      "uv": true,
+      "zero_area_faces": 0
+    },
+    {
+      "name": "TOP_Spectator_Stand",
+      "triangles": 5470,
+      "uv": true,
+      "zero_area_faces": 0
+    }
+  ],
+  "floor_diameter": 116,
+  "stand_diameter": 147,
+  "floor_height": 0.026,
+  "pillar_height": 38.7,
+  "board_bounds": [
+    -32,
+    32,
+    -32,
+    32
+  ],
+  "pillar_collision": false,
+  "studio_import_tested": false,
+  "triangles": 25970
+}

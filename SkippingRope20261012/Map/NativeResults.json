@@ -1,0 +1,63 @@
+{
+  "checks": 2952,
+  "lanes": 3,
+  "jumpSpots": 24,
+  "turners": 6,
+  "ropeSegments": 120,
+  "entrySpawns": 24,
+  "spectatorSpawns": 24,
+  "spawnVolumesChecked": 72,
+  "visibleParts": 423,
+  "solidParts": 112,
+  "totalParts": 554,
+  "origin": [
+    14600,
+    33,
+    4534
+  ],
+  "arenaPath": "Workspace.Skipping Rope",
+  "backups": "ServerStorage.SkippingRopeMapBackup20261012",
+  "geometryContract": {
+    "laneModels": "Gameplay.Lanes.Lane01..Lane03",
+    "laneOffsetsZ": [
+      -34,
+      0,
+      34
+    ],
+    "ropeOrigin": "Ground-level frame, local X axis along rope",
+    "ropeAttributes": {
+      "RopeHalfSpan": 26,
+      "RopeFlatHalfSpan": 16,
+      "RopeRadius": 8,
+      "RopePivotHeight": 8.8
+    },
+    "spotXs": [
+      -14,
+      -10,
+      -6,
+      -2,
+      2,
+      6,
+      10,
+      14
+    ],
+    "spotY": 3,
+    "ropeSegments": "40 Cylinder parts per lane, local X length; RopeStartX/RopeEndX metadata",
+    "armModels": "LeftTurner.TurnArm and RightTurner.TurnArm",
+    "armPivots": "RopeOrigin * CFrame.new(side*26,8.8,0)",
+    "armPose": "TurnBaseCFrame attribute, rest angle pi",
+    "boundsSize": [
+      166,
+      70,
+      162
+    ]
+  },
+  "visualReview": "Native screen capture stalled and was cancelled; no further captures attempted. Placement, physics, floor clearance, rope endpoints, rest curve and authored arm alignment verified natively.",
+  "visualsCodeReview": "UI/Visuals.luau matches map cylinders, indexed segments, Atomic lanes and arm pivots. Suggested authored TurnBaseCFrame preference; root confirmed installed.",
+  "playStarted": false,
+  "published": false,
+  "spectatorSeats": 24,
+  "seatingBackup": "ServerStorage.SkippingRopeMapBackup20261012.SpectatorSeatingBefore",
+  "spectatorMapping": "WestBench01–03: 1–12; EastBench01–03: 13–24; Seat01–04 on every bench; SKSpectatorIndex on Seat and matching SpectatorSpawn",
+  "spectatorFallback": "Standing-safe spawn = seat.CFrame * CFrame.new(0,0.8,-3.2), facing play area; server calls Seat:Sit afterward."
+}

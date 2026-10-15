@@ -1,0 +1,125 @@
+{
+  "pet": "Alien",
+  "mesh_count": 23,
+  "base_meshes": 18,
+  "vfx_meshes": 5,
+  "triangles": 3536,
+  "one_material_each": true,
+  "parts": [
+    {
+      "name": "Head_Pearl_Cube.013",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Face_Purple_Panel.001",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Pearl_Cap.014",
+      "recolour": "Pearl",
+      "triangles": 108
+    },
+    {
+      "name": "Helmet_Cyan_Stripe.013",
+      "recolour": "Cyan",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Top.013",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_Silver_Bottom.013",
+      "recolour": "Silver",
+      "triangles": 108
+    },
+    {
+      "name": "Visor_L_Violet_Temple.013",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_L_Ink.013",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_L_White_Glint.014",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Visor_R_Violet_Temple.013",
+      "recolour": "Purple",
+      "triangles": 108
+    },
+    {
+      "name": "Eye_R_Ink.013",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Eye_R_White_Glint.014",
+      "recolour": "White",
+      "triangles": 224
+    },
+    {
+      "name": "Helmet_Yellow_Bolt.013",
+      "recolour": "Yellow",
+      "triangles": 164
+    },
+    {
+      "name": "Antenna_-1_Silver",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "Ear_-1_Cyan",
+      "recolour": "Cyan",
+      "triangles": 136
+    },
+    {
+      "name": "Antenna_1_Silver",
+      "recolour": "Silver",
+      "triangles": 140
+    },
+    {
+      "name": "Ear_1_Cyan",
+      "recolour": "Cyan",
+      "triangles": 136
+    },
+    {
+      "name": "Mouth_Ink",
+      "recolour": "Ink",
+      "triangles": 224
+    },
+    {
+      "name": "Antenna_-1_Glow",
+      "recolour": "Glow",
+      "triangles": 224
+    },
+    {
+      "name": "Antenna_1_Glow",
+      "recolour": "Glow",
+      "triangles": 224
+    },
+    {
+      "name": "VFX_Cyan_Underlight.014",
+      "recolour": "Glow",
+      "triangles": 108
+    },
+    {
+      "name": "VFX_-1_SpeedRail.013",
+      "recolour": "Glow",
+      "triangles": 140
+    },
+    {
+      "name": "VFX_1_SpeedRail.013",
+      "recolour": "Glow",
+      "triangles": 140
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"markers\":{\"1\":{\"value\":5,\"name\":\"Coin04\",\"respawnSeconds\":45},\"3\":{\"value\":5,\"name\":\"Coin02\",\"respawnSeconds\":45},\"2\":{\"value\":5,\"name\":\"Coin03\",\"respawnSeconds\":45},\"5\":{\"value\":5,\"name\":\"Coin05\",\"respawnSeconds\":45},\"4\":{\"value\":5,\"name\":\"Coin07\",\"respawnSeconds\":45},\"7\":{\"value\":5,\"name\":\"Coin01\",\"respawnSeconds\":45},\"6\":{\"value\":5,\"name\":\"Coin06\",\"respawnSeconds\":45},\"9\":{\"value\":5,\"name\":\"Coin09\",\"respawnSeconds\":45},\"8\":{\"value\":5,\"name\":\"Coin08\",\"respawnSeconds\":45},\"10\":{\"value\":5,\"name\":\"Coin10\",\"respawnSeconds\":45}},\"playStarted\":false,\"scripts\":{\"1\":{\"bytes\":32146,\"path\":\"ServerScriptService.PlaygroundEconomyService\",\"capabilitiesPreserved\":true},\"2\":{\"bytes\":22386,\"path\":\"StarterGui.PlaygroundShell.Controller\",\"capabilitiesPreserved\":true}}}"
+    }
+  ],
+  "isError": false
+}

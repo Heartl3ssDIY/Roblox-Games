@@ -1,0 +1,1 @@
+{"passed":true,"cases":10,"threshold":100,"sameArenaOnly":true,"remainsCompletedAfterLoss":true,"legacyMigration":true,"currenciesAndRewardsUnchanged":true,"dailyPackFlowUnchanged":true,"scope":"Offline isolated local-state regression; session-only progress, no server authority or persistence."}

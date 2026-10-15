@@ -1,0 +1,54 @@
+{
+  "id": "M24",
+  "name": "Ricochet Flyer",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Miscellaneous\\Originals\\m24-ricochet-flyer.png",
+  "brief": "One chunky three-armed rounded toy boomerang with a cream central circular hub, three broad cyan curved blades with orange rubber tip caps and deep navy edge seams. Three arms attached to one hub, smoothly rounded blunt edges. Three-quarter slight tilt to show thickness, no motion trails, no symbols or text.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Blend\\m24-ricochet-flyer.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\FBX\\m24-ricochet-flyer.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Textures\\m24-ricochet-flyer-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Miscellaneous\\Previews\\m24-ricochet-flyer.png",
+  "parts": 6,
+  "triangles": 5768,
+  "meshes": 1,
+  "maxMeshTriangles": 5768,
+  "dimensions": [
+    2.4911885261535645,
+    0.49500003457069397,
+    2.4179277420043945
+  ],
+  "boundsMin": [
+    -1.1364645957946777,
+    -0.26500001549720764,
+    0.3811412751674652
+  ],
+  "boundsMax": [
+    1.3547239303588867,
+    0.23000001907348633,
+    2.7990689277648926
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      1.399999976158142
+    ],
+    "SpinAxis": [
+      0.0,
+      -0.23999999463558197,
+      1.399999976158142
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "rigBones": [],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.4911885261535645,
+    0.49500003457069397,
+    2.4179277420043945
+  ]
+}

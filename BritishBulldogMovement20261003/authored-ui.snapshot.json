@@ -1,0 +1,1116 @@
+{
+  "runtime": {
+    "1": {
+      "sandboxed": true,
+      "path": "StarterGui.BritishBulldogHUD.MovementController",
+      "bytes": 12080,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    "2": {
+      "sandboxed": true,
+      "path": "StarterGui.BritishBulldogHUD.Controller",
+      "bytes": 7385,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+    },
+    "3": {
+      "sandboxed": true,
+      "path": "StarterGui.PlaygroundShell.PlayerLevelController",
+      "bytes": 7190,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+    },
+    "4": {
+      "sandboxed": true,
+      "path": "ServerScriptService.BritishBulldogService",
+      "bytes": 49461,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    "5": {
+      "sandboxed": true,
+      "path": "ServerScriptService.PlaygroundEconomyService",
+      "bytes": 22416,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    "6": {
+      "sandboxed": true,
+      "path": "ServerScriptService.PlaygroundCoordinator",
+      "bytes": 9230,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    "7": {
+      "sandboxed": true,
+      "path": "ServerScriptService.TagService",
+      "bytes": 40639,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    }
+  },
+  "authoring": {
+    "PlaygroundShell": {
+      "enabled": true,
+      "ignoreGuiInset": false,
+      "objects": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel",
+          "position": "{0, 18}, {1, -82}",
+          "anchor": "0, 1",
+          "class": "Frame",
+          "zIndex": 6,
+          "size": "{0, 264}, {0, 80}"
+        },
+        "2": {
+          "class": "UICorner",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.Corner"
+        },
+        "3": {
+          "thickness": 4,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "4": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview",
+          "class": "ViewportFrame",
+          "previewFOV": 32,
+          "position": "{0, 9}, {0, 10}",
+          "anchor": "0, 0",
+          "zIndex": 7,
+          "previewCameraCFrame": "0, 0.150000006, -4.19999981, -1, 0, -0, 0, 1, -0, 0, -0, -1",
+          "size": "{0, 60}, {0, 60}"
+        },
+        "5": {
+          "class": "UICorner",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.Corner"
+        },
+        "6": {
+          "thickness": 2,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "7": {
+          "class": "WorldModel",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World"
+        },
+        "8": {
+          "class": "Model",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview"
+        },
+        "9": {
+          "class": "Part",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview.Head"
+        },
+        "10": {
+          "class": "Part",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview.Eye"
+        },
+        "11": {
+          "class": "Part",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview.Eye"
+        },
+        "12": {
+          "class": "Part",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.World.AvatarPreview.Smile"
+        },
+        "13": {
+          "class": "Camera",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.FacePreview.Camera"
+        },
+        "14": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.LevelIcon",
+          "class": "ImageLabel",
+          "position": "{0, 80}, {0, 10}",
+          "anchor": "0, 0",
+          "zIndex": 7,
+          "image": "rbxassetid://99215209137796",
+          "size": "{0, 21}, {0, 21}"
+        },
+        "15": {
+          "visible": false,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.IconFallback",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0, 80}, {0, 8}",
+          "anchor": "0, 0",
+          "zIndex": 7,
+          "text": "★",
+          "size": "{0, 21}, {0, 23}"
+        },
+        "16": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.IconFallback.TextLimit"
+        },
+        "17": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.Level",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0, 105}, {0, 8}",
+          "anchor": "0, 0",
+          "zIndex": 7,
+          "text": "LEVEL 1",
+          "size": "{0, 147}, {0, 26}"
+        },
+        "18": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.Level.TextLimit"
+        },
+        "19": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XP",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0, 82}, {0, 36}",
+          "anchor": "0, 0",
+          "zIndex": 7,
+          "text": "0 / 100 XP",
+          "size": "{0, 171}, {0, 17}"
+        },
+        "20": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XP.TextLimit"
+        },
+        "21": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack",
+          "position": "{0, 82}, {0, 59}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 7,
+          "size": "{0, 169}, {0, 10}"
+        },
+        "22": {
+          "class": "UICorner",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Corner"
+        },
+        "23": {
+          "thickness": 2,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "24": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 8,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "25": {
+          "class": "UICorner",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill.Corner"
+        },
+        "26": {
+          "class": "UIGradient",
+          "path": "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill.Progress"
+        },
+        "27": {
+          "visible": false,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel",
+          "position": "{0, 16}, {1, -201}",
+          "anchor": "0, 1",
+          "class": "Frame",
+          "zIndex": 6,
+          "size": "{0, 115}, {0, 52}"
+        },
+        "28": {
+          "class": "UICorner",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Corner"
+        },
+        "29": {
+          "thickness": 3,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "30": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview",
+          "class": "ViewportFrame",
+          "previewFOV": 32,
+          "position": "{0, 5}, {0, 5}",
+          "anchor": "0, 0",
+          "zIndex": 7,
+          "previewCameraCFrame": "0, 0.150000006, -4.19999981, -1, 0, -0, 0, 1, -0, 0, -0, -1",
+          "size": "{0, 41}, {0, 41}"
+        },
+        "31": {
+          "class": "UICorner",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.Corner"
+        },
+        "32": {
+          "thickness": 2,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "33": {
+          "class": "WorldModel",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World"
+        },
+        "34": {
+          "class": "Model",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview"
+        },
+        "35": {
+          "class": "Part",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview.Head"
+        },
+        "36": {
+          "class": "Part",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview.Eye"
+        },
+        "37": {
+          "class": "Part",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview.Eye"
+        },
+        "38": {
+          "class": "Part",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.World.AvatarPreview.Smile"
+        },
+        "39": {
+          "class": "Camera",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.FacePreview.Camera"
+        },
+        "40": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Level",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0, 51}, {0, 4}",
+          "anchor": "0, 0",
+          "zIndex": 7,
+          "text": "LV 1",
+          "size": "{0, 60}, {0, 20}"
+        },
+        "41": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.Level.TextLimit"
+        },
+        "42": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XP",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0, 51}, {0, 24}",
+          "anchor": "0, 0",
+          "zIndex": 7,
+          "text": "0 / 100",
+          "size": "{0, 59}, {0, 11}"
+        },
+        "43": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XP.TextLimit"
+        },
+        "44": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack",
+          "position": "{0, 51}, {0, 40}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 7,
+          "size": "{0, 56}, {0, 6}"
+        },
+        "45": {
+          "class": "UICorner",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Corner"
+        },
+        "46": {
+          "thickness": 2,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "47": {
+          "visible": true,
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Fill",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 8,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "48": {
+          "class": "UICorner",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Fill.Corner"
+        },
+        "49": {
+          "class": "UIGradient",
+          "path": "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Fill.Progress"
+        }
+      },
+      "displayOrder": 25
+    },
+    "BritishBulldogHUD": {
+      "enabled": true,
+      "ignoreGuiInset": false,
+      "objects": {
+        "1": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard",
+          "position": "{0.5, 0}, {0.0250000004, 0}",
+          "anchor": "0.5, 0",
+          "class": "Frame",
+          "zIndex": 2,
+          "size": "{0.439999998, 0}, {0.125, 0}"
+        },
+        "2": {
+          "min": "290, 92",
+          "class": "UISizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.SizeLimit",
+          "max": "600, 120"
+        },
+        "3": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Shadow",
+          "position": "{0, 0}, {0, 5}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 2,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "4": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Shadow.Corner"
+        },
+        "5": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 3,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "6": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.Corner"
+        },
+        "7": {
+          "thickness": 4,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "8": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.GameTitle",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0.0350000001, 0}, {0.0599999987, 0}",
+          "anchor": "0, 0",
+          "zIndex": 4,
+          "text": "BRITISH BULLDOG",
+          "size": "{0.930000007, 0}, {0.200000003, 0}"
+        },
+        "9": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.GameTitle.TextSizeLimit"
+        },
+        "10": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.BulldogChip",
+          "position": "{0.0250000004, 0}, {0.349999994, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 4,
+          "size": "{0.300000012, 0}, {0.479999989, 0}"
+        },
+        "11": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.BulldogChip.Corner"
+        },
+        "12": {
+          "thickness": 3,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.BulldogChip.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "13": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.BulldogChip.Count",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0.0350000001, 0}, {0.0700000003, 0}",
+          "anchor": "0, 0",
+          "zIndex": 5,
+          "text": "1",
+          "size": "{0.289999992, 0}, {0.870000005, 0}"
+        },
+        "14": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.BulldogChip.Count.TextSizeLimit"
+        },
+        "15": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.BulldogChip.Caption",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0.324999988, 0}, {0.230000004, 0}",
+          "anchor": "0, 0",
+          "zIndex": 5,
+          "text": "BULLDOG",
+          "size": "{0.63499999, 0}, {0.579999983, 0}"
+        },
+        "16": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.BulldogChip.Caption.TextSizeLimit"
+        },
+        "17": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.RunnerChip",
+          "position": "{0.675000012, 0}, {0.349999994, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 4,
+          "size": "{0.300000012, 0}, {0.479999989, 0}"
+        },
+        "18": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.RunnerChip.Corner"
+        },
+        "19": {
+          "thickness": 3,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.RunnerChip.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "20": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.RunnerChip.Count",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0.0350000001, 0}, {0.0700000003, 0}",
+          "anchor": "0, 0",
+          "zIndex": 5,
+          "text": "23",
+          "size": "{0.289999992, 0}, {0.870000005, 0}"
+        },
+        "21": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.RunnerChip.Count.TextSizeLimit"
+        },
+        "22": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.RunnerChip.Caption",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0.324999988, 0}, {0.230000004, 0}",
+          "anchor": "0, 0",
+          "zIndex": 5,
+          "text": "RUNNERS",
+          "size": "{0.63499999, 0}, {0.579999983, 0}"
+        },
+        "23": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.RunnerChip.Caption.TextSizeLimit"
+        },
+        "24": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.Timer",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0.349999994, 0}, {0.289999992, 0}",
+          "anchor": "0, 0",
+          "zIndex": 4,
+          "text": "3:00",
+          "size": "{0.300000012, 0}, {0.479999989, 0}"
+        },
+        "25": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.Timer.TextSizeLimit"
+        },
+        "26": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.PhaseLabel",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0.340000004, 0}, {0.790000021, 0}",
+          "anchor": "0, 0",
+          "zIndex": 4,
+          "text": "CROSSING 1",
+          "size": "{0.319999993, 0}, {0.159999996, 0}"
+        },
+        "27": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.TopCard.Panel.PhaseLabel.TextSizeLimit"
+        },
+        "28": {
+          "visible": false,
+          "path": "StarterGui.BritishBulldogHUD.Departure",
+          "position": "{0.5, 0}, {1, -146}",
+          "anchor": "0.5, 1",
+          "class": "Frame",
+          "zIndex": 7,
+          "size": "{0.340000004, 0}, {0.0920000002, 0}"
+        },
+        "29": {
+          "min": "250, 62",
+          "class": "UISizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.Departure.SizeLimit",
+          "max": "490, 100"
+        },
+        "30": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.Departure.Shadow",
+          "position": "{0, 0}, {0, 5}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 7,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "31": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.Departure.Shadow.Corner"
+        },
+        "32": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 8,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "33": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel.Corner"
+        },
+        "34": {
+          "thickness": 4,
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "35": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel.Prompt",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0.0399999991, 0}, {0.119999997, 0}",
+          "anchor": "0, 0",
+          "zIndex": 9,
+          "text": "LEAVE SAFE ZONE",
+          "size": "{0.720000029, 0}, {0.779999971, 0}"
+        },
+        "36": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel.Prompt.TextSizeLimit"
+        },
+        "37": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel.SecondsBadge",
+          "position": "{0.795000017, 0}, {0.119999997, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 9,
+          "size": "{0.174999997, 0}, {0.74000001, 0}"
+        },
+        "38": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel.SecondsBadge.Corner"
+        },
+        "39": {
+          "thickness": 3,
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel.SecondsBadge.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "40": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel.SecondsBadge.Seconds",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0.100000001, 0}, {0.0799999982, 0}",
+          "anchor": "0, 0",
+          "zIndex": 10,
+          "text": "5",
+          "size": "{0.800000012, 0}, {0.839999974, 0}"
+        },
+        "41": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.Departure.Panel.SecondsBadge.Seconds.TextSizeLimit"
+        },
+        "42": {
+          "visible": false,
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture",
+          "position": "{0, 16}, {1, -140}",
+          "anchor": "0, 1",
+          "class": "Frame",
+          "zIndex": 7,
+          "size": "{0, 115}, {0, 52}"
+        },
+        "43": {
+          "min": "115, 52",
+          "class": "UISizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.SizeLimit",
+          "max": "115, 52"
+        },
+        "44": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Shadow",
+          "position": "{0, 0}, {0, 5}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 7,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "45": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Shadow.Corner"
+        },
+        "46": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 8,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "47": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel.Corner"
+        },
+        "48": {
+          "thickness": 4,
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "49": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel.Prompt",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0.0399999991, 0}, {0.119999997, 0}",
+          "anchor": "0, 0",
+          "zIndex": 9,
+          "text": "LEAVE!",
+          "size": "{0.720000029, 0}, {0.779999971, 0}"
+        },
+        "50": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel.Prompt.TextSizeLimit"
+        },
+        "51": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel.SecondsBadge",
+          "position": "{0.795000017, 0}, {0.119999997, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 9,
+          "size": "{0.174999997, 0}, {0.74000001, 0}"
+        },
+        "52": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel.SecondsBadge.Corner"
+        },
+        "53": {
+          "thickness": 3,
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel.SecondsBadge.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "54": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel.SecondsBadge.Seconds",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0.100000001, 0}, {0.0799999982, 0}",
+          "anchor": "0, 0",
+          "zIndex": 10,
+          "text": "5",
+          "size": "{0.800000012, 0}, {0.839999974, 0}"
+        },
+        "55": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.CompactDeparture.Panel.SecondsBadge.Seconds.TextSizeLimit"
+        },
+        "56": {
+          "visible": false,
+          "path": "StarterGui.BritishBulldogHUD.Tagged",
+          "position": "{0.5, 0}, {1, -18}",
+          "anchor": "0.5, 1",
+          "class": "Frame",
+          "zIndex": 7,
+          "size": "{0.289999992, 0}, {0, 74}"
+        },
+        "57": {
+          "min": "240, 74",
+          "class": "UISizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.Tagged.SizeLimit",
+          "max": "460, 74"
+        },
+        "58": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.Tagged.Shadow",
+          "position": "{0, 0}, {0, 5}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 7,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "59": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.Tagged.Shadow.Corner"
+        },
+        "60": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.Tagged.Panel",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 8,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "61": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.Tagged.Panel.Corner"
+        },
+        "62": {
+          "thickness": 4,
+          "path": "StarterGui.BritishBulldogHUD.Tagged.Panel.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "63": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.Tagged.Panel.Title",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0.0599999987, 0}, {0.0700000003, 0}",
+          "anchor": "0, 0",
+          "zIndex": 9,
+          "text": "TAGGED",
+          "size": "{0.879999995, 0}, {0.540000021, 0}"
+        },
+        "64": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.Tagged.Panel.Title.TextSizeLimit"
+        },
+        "65": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.Tagged.Panel.Status",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0.0599999987, 0}, {0.649999976, 0}",
+          "anchor": "0, 0",
+          "zIndex": 9,
+          "text": "FROZEN",
+          "size": "{0.879999995, 0}, {0.239999995, 0}"
+        },
+        "66": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.Tagged.Panel.Status.TextSizeLimit"
+        },
+        "67": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls",
+          "position": "{0.5, 0}, {1, -18}",
+          "anchor": "0.5, 1",
+          "class": "Frame",
+          "zIndex": 4,
+          "size": "{0.449999988, 0}, {0, 110}"
+        },
+        "68": {
+          "min": "280, 110",
+          "class": "UISizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.SizeLimit",
+          "max": "375, 110"
+        },
+        "69": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 5,
+          "size": "{1, 0}, {0, 48}"
+        },
+        "70": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Corner"
+        },
+        "71": {
+          "thickness": 4,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "72": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Role",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0, 12}, {0, 4}",
+          "anchor": "0, 0",
+          "zIndex": 6,
+          "text": "RUNNER",
+          "size": "{0.519999981, 0}, {0, 18}"
+        },
+        "73": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Role.TextLimit"
+        },
+        "74": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Charge",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{1, -120}, {0, 5}",
+          "anchor": "0, 0",
+          "zIndex": 6,
+          "text": "10.0s / 10s",
+          "size": "{0, 107}, {0, 17}"
+        },
+        "75": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Charge.TextLimit"
+        },
+        "76": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track",
+          "position": "{0, 12}, {0, 29}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 6,
+          "size": "{1, -24}, {0, 10}"
+        },
+        "77": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track.Corner"
+        },
+        "78": {
+          "thickness": 2,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "79": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track.Fill",
+          "position": "{0, 0}, {0, 0}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 7,
+          "size": "{1, 0}, {1, 0}"
+        },
+        "80": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track.Fill.Corner"
+        },
+        "81": {
+          "class": "UIGradient",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Meter.Track.Fill.Progress"
+        },
+        "82": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint",
+          "class": "TextButton",
+          "fontFamily": "rbxasset://fonts/families/LegacyArial.json",
+          "position": "{0, 0}, {0, 60}",
+          "anchor": "0, 0",
+          "zIndex": 5,
+          "text": "",
+          "size": "{0.519999981, 0}, {0, 48}"
+        },
+        "83": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint.Corner"
+        },
+        "84": {
+          "thickness": 3,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "85": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint.Caption",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0, 33}, {0, 2}",
+          "anchor": "0, 0",
+          "zIndex": 6,
+          "text": "SPRINT\nHOLD SHIFT",
+          "size": "{1, -38}, {1, -4}"
+        },
+        "86": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint.Caption.TextLimit"
+        },
+        "87": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint.Icon",
+          "class": "ImageLabel",
+          "position": "{0, 7}, {0, 8}",
+          "anchor": "0, 0",
+          "zIndex": 6,
+          "image": "rbxassetid://86080260918857",
+          "size": "{0, 25}, {0, 25}"
+        },
+        "88": {
+          "visible": false,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint.IconFallback",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0, 5}, {0, 5}",
+          "anchor": "0, 0",
+          "zIndex": 6,
+          "text": "ϟ",
+          "size": "{0, 28}, {0, 30}"
+        },
+        "89": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Sprint.IconFallback.TextLimit"
+        },
+        "90": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge",
+          "class": "TextButton",
+          "fontFamily": "rbxasset://fonts/families/LegacyArial.json",
+          "position": "{0.560000002, 0}, {0, 60}",
+          "anchor": "0, 0",
+          "zIndex": 5,
+          "text": "",
+          "size": "{0.25, 0}, {0, 48}"
+        },
+        "91": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge.Corner"
+        },
+        "92": {
+          "thickness": 3,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "93": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge.Caption",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0, 33}, {0, 2}",
+          "anchor": "0, 0",
+          "zIndex": 6,
+          "text": "DODGE\n[E]",
+          "size": "{1, -38}, {1, -4}"
+        },
+        "94": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge.Caption.TextLimit"
+        },
+        "95": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge.Icon",
+          "class": "ImageLabel",
+          "position": "{0, 7}, {0, 8}",
+          "anchor": "0, 0",
+          "zIndex": 6,
+          "image": "rbxassetid://99567482512995",
+          "size": "{0, 25}, {0, 25}"
+        },
+        "96": {
+          "visible": false,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge.IconFallback",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/FredokaOne.json",
+          "position": "{0, 5}, {0, 5}",
+          "anchor": "0, 0",
+          "zIndex": 6,
+          "text": "↔",
+          "size": "{0, 28}, {0, 30}"
+        },
+        "97": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.Dodge.IconFallback.TextLimit"
+        },
+        "98": {
+          "visible": false,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.EscapeBoost",
+          "position": "{0.839999974, 0}, {0, 60}",
+          "anchor": "0, 0",
+          "class": "Frame",
+          "zIndex": 5,
+          "size": "{0.159999996, 0}, {0, 48}"
+        },
+        "99": {
+          "class": "UICorner",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.EscapeBoost.Corner"
+        },
+        "100": {
+          "thickness": 3,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.EscapeBoost.Outline",
+          "color": "0.0941176, 0.137255, 0.243137",
+          "class": "UIStroke"
+        },
+        "101": {
+          "visible": true,
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.EscapeBoost.Caption",
+          "class": "TextLabel",
+          "fontFamily": "rbxasset://fonts/families/LuckiestGuy.json",
+          "position": "{0, 3}, {0, 2}",
+          "anchor": "0, 0",
+          "zIndex": 6,
+          "text": "2×\nBOOST",
+          "size": "{1, -6}, {1, -4}"
+        },
+        "102": {
+          "class": "UITextSizeConstraint",
+          "path": "StarterGui.BritishBulldogHUD.MovementControls.EscapeBoost.Caption.TextLimit"
+        }
+      },
+      "displayOrder": 15
+    }
+  },
+  "settings": {
+    "bulldog": {
+      "RunnerSprintSeconds": 10,
+      "CrossingLength": 288,
+      "DodgeBoostMultiplier": 2,
+      "CountdownSeconds": 3,
+      "CourtWidth": 224,
+      "RunnerWalkSpeed": 16,
+      "BuildVersion": "20261003",
+      "InitialBulldogSprintSeconds": 15,
+      "DepartureSeconds": 5,
+      "MinimumPlayers": 2,
+      "CameraZoomDistance": 30,
+      "SprintMultiplier": 2.5,
+      "DodgeBoostSeconds": 1.5,
+      "DodgeCooldownSeconds": 4,
+      "RoundDuration": 180,
+      "CourtLength": 368,
+      "AutoStart": false,
+      "BulldogWalkSpeed": 18,
+      "ResizeVersion": "20261003-1.5",
+      "SprintRefillSeconds": 15,
+      "IntermissionSeconds": 12
+    },
+    "lobby": {
+      "MainPathWidth": 8.8,
+      "BridgeStepHeight": 0.6,
+      "BaseLevelXP": 100,
+      "FloorY": 4,
+      "PlaygroundManaged": true,
+      "LoserXP": 25,
+      "DepthPassVersion": 1,
+      "VoteZoneSize": "74, 12, 60",
+      "NavigationStepHeight": 0.75,
+      "PartCount": 863,
+      "LevelXPStep": 50,
+      "SpawnPlazaDiameter": 61,
+      "WinnerCoins": 150,
+      "WinnerXP": 100,
+      "BuilderVersion": 1,
+      "WaterIsDecorative": true,
+      "BoundsSize": "320, 80, 304",
+      "VoteZoneCenter": "88, 10, -82",
+      "LoserCoins": 50
+    }
+  }
+}

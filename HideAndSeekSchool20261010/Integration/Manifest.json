@@ -1,0 +1,100 @@
+{
+  "groups": [
+    [
+      "ServerScriptService.PlaygroundCoordinator",
+      "ServerScriptService.PlaygroundEquipmentService"
+    ],
+    [
+      "ServerScriptService.PlaygroundToyService",
+      "ServerScriptService.PlaygroundSecretObbyService",
+      "ServerScriptService.PlaygroundLobbySwingService",
+      "ServerScriptService.PlaygroundLobbyBenchService",
+      "ServerScriptService.PlaygroundFishingService",
+      "ServerScriptService.PlaygroundAdminService"
+    ],
+    [
+      "ServerScriptService.PlaygroundEconomyService",
+      "ReplicatedStorage.PlaygroundCatalog"
+    ],
+    [
+      "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+      "StarterPlayer.StarterPlayerScripts.PlaygroundPets",
+      "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere"
+    ],
+    [
+      "StarterGui.PlaygroundShell.Controller",
+      "StarterGui.PlaygroundShell.PlayerLevelController",
+      "StarterGui.PlaygroundShell.CommerceController",
+      "StarterGui.PlaygroundIntermissionHUD.Controller",
+      "StarterGui.PlaygroundFishingHUD.Controller",
+      "StarterGui.PlaygroundDonations.Controller",
+      "StarterGui.PlaygroundBatControls.Controller"
+    ],
+    [
+      "StarterGui.PlaygroundSessionControls.Controller",
+      "StarterGui.PlaygroundEmoteWheel.Controller",
+      "StarterGui.PlaygroundToyHotbar.Controller",
+      "StarterGui.PlaygroundAdminPanel.Controller"
+    ],
+    [
+      "ServerScriptService.PlaygroundBootstrap"
+    ]
+  ],
+  "hashes": {
+    "ServerScriptService.PlaygroundCoordinator": 1325882326,
+    "ServerScriptService.PlaygroundEquipmentService": 849992359,
+    "ServerScriptService.PlaygroundToyService": 510040784,
+    "ServerScriptService.PlaygroundSecretObbyService": 1048583363,
+    "ServerScriptService.PlaygroundLobbySwingService": 1736078440,
+    "ServerScriptService.PlaygroundLobbyBenchService": 1350272645,
+    "ServerScriptService.PlaygroundFishingService": 1692913973,
+    "ServerScriptService.PlaygroundAdminService": 1853255660,
+    "ServerScriptService.PlaygroundEconomyService": 565414992,
+    "ReplicatedStorage.PlaygroundCatalog": 325191128,
+    "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes": 1289487011,
+    "StarterPlayer.StarterPlayerScripts.PlaygroundPets": 976262527,
+    "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera": 971406440,
+    "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere": 136981260,
+    "StarterGui.PlaygroundShell.Controller": 84577260,
+    "StarterGui.PlaygroundShell.PlayerLevelController": 1444665963,
+    "StarterGui.PlaygroundShell.CommerceController": 1510134839,
+    "StarterGui.PlaygroundIntermissionHUD.Controller": 1708710800,
+    "StarterGui.PlaygroundFishingHUD.Controller": 1357591126,
+    "StarterGui.PlaygroundDonations.Controller": 1145023769,
+    "StarterGui.PlaygroundBatControls.Controller": 1262351411,
+    "StarterGui.PlaygroundSessionControls.Controller": 363811733,
+    "StarterGui.PlaygroundEmoteWheel.Controller": 1572849286,
+    "StarterGui.PlaygroundToyHotbar.Controller": 78927462,
+    "StarterGui.PlaygroundAdminPanel.Controller": 1444279992,
+    "ServerScriptService.PlaygroundBootstrap": 407696262
+  },
+  "caps": {
+    "ServerScriptService.PlaygroundBootstrap": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | Animation | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AssetRead | Monetization | PromptExternalPurchase | AvatarBehavior",
+    "ServerScriptService.PlaygroundEquipmentService": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+    "ServerScriptService.PlaygroundCoordinator": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "ServerScriptService.PlaygroundToyService": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+    "ServerScriptService.PlaygroundSecretObbyService": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+    "ServerScriptService.PlaygroundLobbySwingService": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+    "ServerScriptService.PlaygroundLobbyBenchService": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+    "ServerScriptService.PlaygroundFishingService": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior",
+    "ServerScriptService.PlaygroundEconomyService": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | DataStore | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+    "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+    "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera": "RunClientScript | AccessOutsideWrite | Basic | Physics | Players | AvatarBehavior",
+    "StarterGui.PlaygroundShell.Controller": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "StarterGui.PlaygroundShell.PlayerLevelController": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+    "StarterGui.PlaygroundBatControls.Controller": "RunClientScript | AccessOutsideWrite | Basic | Physics | UI | Input | Players | AvatarBehavior",
+    "StarterGui.PlaygroundSessionControls.Controller": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "StarterGui.PlaygroundEmoteWheel.Controller": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "StarterGui.PlaygroundToyHotbar.Controller": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "StarterGui.PlaygroundShell.CommerceController": "RunClientScript | AccessOutsideWrite | Basic | UI | Input | RemoteEvent | Players | AssetRead | Monetization | PromptExternalPurchase",
+    "StarterGui.PlaygroundIntermissionHUD.Controller": "RunClientScript | AccessOutsideWrite | Basic | Physics | UI | Players",
+    "StarterGui.PlaygroundFishingHUD.Controller": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior",
+    "StarterGui.PlaygroundDonations.Controller": "RunClientScript | AccessOutsideWrite | Basic | UI | Input | RemoteEvent | Players | AssetRead | Monetization | PromptExternalPurchase",
+    "ServerScriptService.PlaygroundAdminService": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "ReplicatedStorage.PlaygroundCatalog": "RunClientScript | RunServerScript | Basic",
+    "StarterGui.PlaygroundAdminPanel.Controller": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior",
+    "StarterPlayer.StarterPlayerScripts.PlaygroundPets": "RunClientScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Players | AvatarBehavior"
+  }
+}

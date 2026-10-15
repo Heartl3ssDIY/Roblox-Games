@@ -1,0 +1,45 @@
+{
+  "removed": [
+    "StarterGui.PlaygroundShell.Dock.Shop.Outline",
+    "StarterGui.PlaygroundShell.Dock.Shop.ReusableSkinFallback",
+    "StarterGui.PlaygroundShell.Dock.Emote.Outline",
+    "StarterGui.PlaygroundShell.Dock.Emote.ReusableSkinFallback",
+    "StarterGui.PlaygroundShell.Dock.Emoji.Outline",
+    "StarterGui.PlaygroundShell.Dock.Emoji.ReusableSkinFallback",
+    "StarterGui.PlaygroundShell.Wallet.Outline",
+    "StarterGui.PlaygroundShell.Wallet.Coin.Outline",
+    "StarterGui.PlaygroundShell.Wallet.Coin.ReusableIconFallback",
+    "StarterGui.PlaygroundShell.Wallet.ReusableSkinFallback",
+    "StarterGui.PlaygroundShell.LevelPanel.Outline",
+    "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Outline",
+    "StarterGui.PlaygroundShell.LevelPanel.ReusableSkinFallback",
+    "StarterGui.PlaygroundShell.CompactLevelPanel.Outline",
+    "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Outline",
+    "StarterGui.PlaygroundShell.CompactLevelPanel.ReusableSkinFallback",
+    "StarterGui.PlaygroundShell.Dock.DockLayout"
+  ],
+  "cleanParents": [
+    "StarterGui.PlaygroundShell.Dock.Shop",
+    "StarterGui.PlaygroundShell.Dock.Emote",
+    "StarterGui.PlaygroundShell.Dock.Emoji",
+    "StarterGui.PlaygroundShell.Wallet",
+    "StarterGui.PlaygroundShell.Wallet.Coin",
+    "StarterGui.PlaygroundShell.LevelPanel",
+    "StarterGui.PlaygroundShell.LevelPanel.XPTrack",
+    "StarterGui.PlaygroundShell.LevelPanel.XPTrack.Fill",
+    "StarterGui.PlaygroundShell.CompactLevelPanel",
+    "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack",
+    "StarterGui.PlaygroundShell.CompactLevelPanel.XPTrack.Fill"
+  ],
+  "backup": "ServerStorage.ToyGameplayUIBackup20261005",
+  "textOutlines": 17,
+  "scriptSourcesChanged": false,
+  "dryRun": false,
+  "bordersCleared": [
+    "StarterGui.PlaygroundShell.Dock",
+    "StarterGui.PlaygroundShell.Wallet.Coin.ReusableIconFallback.Edge.Face.Symbol",
+    "StarterGui.PlaygroundShell.Wallet.WinsCaption",
+    "StarterGui.PlaygroundShell.Wallet.LevelCaption",
+    "StarterGui.PlaygroundShell.Wallet.CoinsCaption"
+  ]
+}

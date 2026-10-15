@@ -1,0 +1,645 @@
+{
+  "models": [
+    {
+      "brand": "Dell",
+      "slot": "Laptop1",
+      "file": "Laptop1_Dell.fbx",
+      "parts": [
+        {
+          "name": "Dell_Body",
+          "rgb": [
+            47,
+            51,
+            57
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_Deck",
+          "rgb": [
+            62,
+            66,
+            72
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_Feet",
+          "rgb": [
+            29,
+            30,
+            32
+          ],
+          "triangles": 240
+        },
+        {
+          "name": "Dell_KeyboardWell",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_Keycaps",
+          "rgb": [
+            29,
+            31,
+            35
+          ],
+          "triangles": 912
+        },
+        {
+          "name": "Dell_KeyLegends",
+          "rgb": [
+            204,
+            208,
+            214
+          ],
+          "triangles": 1620
+        },
+        {
+          "name": "Dell_TrackpadSeam",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_Trackpad",
+          "rgb": [
+            62,
+            66,
+            72
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_TrackpadSeam.001",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 24
+        },
+        {
+          "name": "Dell_SpeakerGrilles",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 504
+        },
+        {
+          "name": "Dell_Ports",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 72
+        },
+        {
+          "name": "Dell_PortContacts",
+          "rgb": [
+            186,
+            193,
+            203
+          ],
+          "triangles": 72
+        },
+        {
+          "name": "Dell_CoolingVents",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 168
+        },
+        {
+          "name": "Dell_Hinges",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 120
+        },
+        {
+          "name": "Dell_Lid",
+          "rgb": [
+            47,
+            51,
+            57
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_Bezel",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_Screen",
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 12
+        },
+        {
+          "name": "Dell_Webcam",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_WebcamLens",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_WebcamLens.001",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 28
+        },
+        {
+          "name": "Dell_FrontBrand",
+          "rgb": [
+            186,
+            193,
+            203
+          ],
+          "triangles": 32
+        },
+        {
+          "name": "Dell_LidLogo",
+          "rgb": [
+            186,
+            193,
+            203
+          ],
+          "triangles": 96
+        },
+        {
+          "name": "Dell_Badge",
+          "rgb": [
+            37,
+            125,
+            207
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "Dell_BadgeLegend",
+          "rgb": [
+            204,
+            208,
+            214
+          ],
+          "triangles": 24
+        }
+      ],
+      "triangles": 4524,
+      "runtime_width": 3.2,
+      "export_width": 3.2,
+      "slot_scale": 1.0
+    },
+    {
+      "brand": "HP",
+      "slot": "Laptop2",
+      "file": "Laptop2_HP.fbx",
+      "parts": [
+        {
+          "name": "HP_Body",
+          "rgb": [
+            155,
+            165,
+            175
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "HP_Deck",
+          "rgb": [
+            185,
+            194,
+            201
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "HP_Feet",
+          "rgb": [
+            29,
+            30,
+            32
+          ],
+          "triangles": 240
+        },
+        {
+          "name": "HP_KeyboardWell",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "HP_Keycaps",
+          "rgb": [
+            29,
+            31,
+            35
+          ],
+          "triangles": 912
+        },
+        {
+          "name": "HP_KeyLegends",
+          "rgb": [
+            204,
+            208,
+            214
+          ],
+          "triangles": 1620
+        },
+        {
+          "name": "HP_TrackpadSeam",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "HP_Trackpad",
+          "rgb": [
+            185,
+            194,
+            201
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "HP_SpeakerGrilles",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 504
+        },
+        {
+          "name": "HP_Ports",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 72
+        },
+        {
+          "name": "HP_PortContacts",
+          "rgb": [
+            186,
+            193,
+            203
+          ],
+          "triangles": 72
+        },
+        {
+          "name": "HP_CoolingVents",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 168
+        },
+        {
+          "name": "HP_Hinges",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 120
+        },
+        {
+          "name": "HP_Lid",
+          "rgb": [
+            155,
+            165,
+            175
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "HP_Bezel",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "HP_Screen",
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 12
+        },
+        {
+          "name": "HP_Webcam",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "HP_WebcamLens",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "HP_WebcamLens.001",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 28
+        },
+        {
+          "name": "HP_FrontBrand",
+          "rgb": [
+            186,
+            193,
+            203
+          ],
+          "triangles": 33
+        },
+        {
+          "name": "HP_LidLogo",
+          "rgb": [
+            186,
+            193,
+            203
+          ],
+          "triangles": 97
+        }
+      ],
+      "triangles": 4418,
+      "runtime_width": 3.15,
+      "export_width": 2.25,
+      "slot_scale": 1.4
+    },
+    {
+      "brand": "MacBook",
+      "slot": "Laptop3",
+      "file": "Laptop3_MacBook.fbx",
+      "parts": [
+        {
+          "name": "MacBook_Body",
+          "rgb": [
+            190,
+            194,
+            199
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "MacBook_Deck",
+          "rgb": [
+            211,
+            215,
+            220
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "MacBook_Feet",
+          "rgb": [
+            29,
+            30,
+            32
+          ],
+          "triangles": 240
+        },
+        {
+          "name": "MacBook_KeyboardWell",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "MacBook_Keycaps",
+          "rgb": [
+            29,
+            31,
+            35
+          ],
+          "triangles": 912
+        },
+        {
+          "name": "MacBook_KeyLegends",
+          "rgb": [
+            204,
+            208,
+            214
+          ],
+          "triangles": 1645
+        },
+        {
+          "name": "MacBook_TrackpadSeam",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "MacBook_Trackpad",
+          "rgb": [
+            211,
+            215,
+            220
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "MacBook_SpeakerGrilles",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 600
+        },
+        {
+          "name": "MacBook_Ports",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 48
+        },
+        {
+          "name": "MacBook_PortContacts",
+          "rgb": [
+            186,
+            193,
+            203
+          ],
+          "triangles": 48
+        },
+        {
+          "name": "MacBook_CoolingVents",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 168
+        },
+        {
+          "name": "MacBook_Hinges",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 120
+        },
+        {
+          "name": "MacBook_Lid",
+          "rgb": [
+            190,
+            194,
+            199
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "MacBook_Bezel",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "MacBook_Screen",
+          "rgb": [
+            0,
+            0,
+            0
+          ],
+          "triangles": 12
+        },
+        {
+          "name": "MacBook_CameraHousing",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 12
+        },
+        {
+          "name": "MacBook_Webcam",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "MacBook_WebcamLens",
+          "rgb": [
+            8,
+            10,
+            13
+          ],
+          "triangles": 60
+        },
+        {
+          "name": "MacBook_WebcamLens.001",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 28
+        },
+        {
+          "name": "MacBook_LidLogo",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 88
+        },
+        {
+          "name": "MacBook_OpeningNotch",
+          "rgb": [
+            62,
+            66,
+            73
+          ],
+          "triangles": 12
+        }
+      ],
+      "triangles": 4473,
+      "runtime_width": 3.3,
+      "export_width": 6.6,
+      "slot_scale": 0.5
+    }
+  ],
+  "existing_slot_scales": {
+    "Laptop1": 1,
+    "Laptop2": 1.4,
+    "Laptop3": 0.5
+  }
+}

@@ -1,0 +1,1757 @@
+{
+  "objects": {
+    "1": {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 1,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "2": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": 0,
+        "4": 12
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0
+      },
+      "z": 4,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 420,
+        "3": 0,
+        "4": 86
+      }
+    },
+    "3": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Title",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 12,
+        "3": 0,
+        "4": 5
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -24,
+        "3": 0,
+        "4": 22
+      }
+    },
+    "4": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Team",
+      "active": false,
+      "class": "TextButton",
+      "text": "RED\n0 ALIVE",
+      "position": {
+        "1": 0,
+        "2": 12,
+        "3": 0,
+        "4": 29
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0.3100000023841858,
+        "2": -12,
+        "3": 0,
+        "4": 28
+      }
+    },
+    "5": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Team.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "6": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Team.LiveCaption",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 5,
+        "3": 0,
+        "4": 2
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 7,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -10,
+        "3": 1,
+        "4": -4
+      }
+    },
+    "7": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Timer",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.3400000035762787,
+        "2": 0,
+        "3": 0,
+        "4": 27
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0.3199999928474426,
+        "2": 0,
+        "3": 0,
+        "4": 32
+      }
+    },
+    "8": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Other",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.6899999976158142,
+        "2": 0,
+        "3": 0,
+        "4": 29
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0.3100000023841858,
+        "2": -12,
+        "3": 0,
+        "4": 28
+      }
+    },
+    "9": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 4,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "10": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Lives",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": 1,
+        "4": -25
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0
+      },
+      "z": 1,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 130,
+        "3": 0,
+        "4": 20
+      }
+    },
+    "11": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Lives.Team",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 40,
+        "3": 0,
+        "4": 16
+      }
+    },
+    "12": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Lives.Heart1",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 46,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 24,
+        "3": 0,
+        "4": 21
+      }
+    },
+    "13": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Lives.Heart2",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 72,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 24,
+        "3": 0,
+        "4": 21
+      }
+    },
+    "14": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Top.Lives.Heart3",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 98,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 24,
+        "3": 0,
+        "4": 21
+      }
+    },
+    "15": {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Top.Out",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.10000000149011612,
+        "2": 0,
+        "3": 1,
+        "4": -24
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0.800000011920929,
+        "2": 0,
+        "3": 0,
+        "4": 17
+      }
+    },
+    "16": {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Controls",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 1,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "17": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Fire",
+      "active": true,
+      "class": "TextButton",
+      "text": "FIRE",
+      "position": {
+        "1": 1,
+        "2": -16,
+        "3": 1,
+        "4": -194
+      },
+      "anchor": {
+        "1": 1,
+        "2": 1
+      },
+      "z": 20,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 100,
+        "3": 0,
+        "4": 46
+      }
+    },
+    "18": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Fire.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 20,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "19": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Controls.Fire.LiveCaption",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.164000004529953,
+        "2": 0,
+        "3": 0.15186400711536407,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 21,
+      "clip": false,
+      "size": {
+        "1": 0.671999990940094,
+        "2": 0,
+        "3": 0.631729006767273,
+        "4": 0
+      }
+    },
+    "20": {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Countdown",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": 0.5,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0.5
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 100,
+        "3": 0,
+        "4": 86
+      }
+    },
+    "21": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Crosshair",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": 0.5,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0.5
+      },
+      "z": 1,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 14,
+        "3": 0,
+        "4": 14
+      }
+    },
+    "22": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Crosshair.Horizontal",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 6
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 1,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 14,
+        "3": 0,
+        "4": 2
+      }
+    },
+    "23": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Crosshair.Vertical",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0,
+        "2": 6,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 1,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 14
+      }
+    },
+    "24": {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.Results",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": 0.47999998927116394,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0.5
+      },
+      "z": 10,
+      "clip": false,
+      "size": {
+        "1": 0.7799999713897705,
+        "2": 0,
+        "3": 0,
+        "4": 166
+      }
+    },
+    "25": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Results.Title",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.03999999910593033,
+        "2": 0,
+        "3": 0.07000000029802322,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 11,
+      "clip": false,
+      "size": {
+        "1": 0.9200000166893005,
+        "2": 0,
+        "3": 0.27000001072883606,
+        "4": 0
+      }
+    },
+    "26": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Results.Reason",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.05999999865889549,
+        "2": 0,
+        "3": 0.36000001430511475,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 11,
+      "clip": false,
+      "size": {
+        "1": 0.8799999952316284,
+        "2": 0,
+        "3": 0.2199999988079071,
+        "4": 0
+      }
+    },
+    "27": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Results.Rewards",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.05000000074505806,
+        "2": 0,
+        "3": 0.6399999856948853,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 11,
+      "clip": false,
+      "size": {
+        "1": 0.8999999761581421,
+        "2": 0,
+        "3": 0.23999999463558197,
+        "4": 0
+      }
+    },
+    "28": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.Results.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 10,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "29": {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.DesktopControls",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 1,
+        "2": -24,
+        "3": 1,
+        "4": -24
+      },
+      "anchor": {
+        "1": 1,
+        "2": 1
+      },
+      "z": 1,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 240,
+        "3": 0,
+        "4": 82
+      }
+    },
+    "30": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 4,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 32
+      }
+    },
+    "31": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Charge",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 10,
+        "3": 0,
+        "4": 3
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -20,
+        "3": 0,
+        "4": 19
+      }
+    },
+    "32": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Track",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0,
+        "2": 10,
+        "3": 0,
+        "4": 24
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -20,
+        "3": 0,
+        "4": 6
+      }
+    },
+    "33": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Track.Fill",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 6,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "34": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Track.Fill.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 6,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "35": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.Track.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "36": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Meter.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 4,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "37": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Sprint",
+      "active": true,
+      "class": "TextButton",
+      "text": "SPRINT · HOLD SHIFT",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 38
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 44
+      }
+    },
+    "38": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Sprint.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "39": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.Sprint.LiveCaption",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.12666499614715576,
+        "2": 0,
+        "3": 0.15008200705051422,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 7,
+      "clip": false,
+      "size": {
+        "1": 0.7466700077056885,
+        "2": 0,
+        "3": 0.6351799964904785,
+        "4": 0
+      }
+    },
+    "40": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.DesktopControls.InputHint",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": -22
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 18
+      }
+    },
+    "41": {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.MobileSprint",
+      "active": true,
+      "class": "TextButton",
+      "text": "SPRINT\n10.0/10s",
+      "position": {
+        "1": 1,
+        "2": -16,
+        "3": 1,
+        "4": -142
+      },
+      "anchor": {
+        "1": 1,
+        "2": 1
+      },
+      "z": 20,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 100,
+        "3": 0,
+        "4": 46
+      }
+    },
+    "42": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.MobileSprint.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 20,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "43": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.MobileSprint.LiveCaption",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.07500000298023224,
+        "2": 0,
+        "3": 0.07999999821186066,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 21,
+      "clip": false,
+      "size": {
+        "1": 0.8500000238418579,
+        "2": 0,
+        "3": 0.7799999713897705,
+        "4": 0
+      }
+    },
+    "44": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": 0,
+        "4": 56
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0
+      },
+      "z": 4,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 300,
+        "3": 0,
+        "4": 78
+      }
+    },
+    "45": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Title",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 12,
+        "3": 0,
+        "4": 5
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -24,
+        "3": 0,
+        "4": 18
+      }
+    },
+    "46": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Team",
+      "active": false,
+      "class": "TextButton",
+      "text": "RED\n0 ALIVE",
+      "position": {
+        "1": 0,
+        "2": 9,
+        "3": 0,
+        "4": 26
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0.3100000023841858,
+        "2": -9,
+        "3": 0,
+        "4": 26
+      }
+    },
+    "47": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Team.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "48": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Team.LiveCaption",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 5,
+        "3": 0,
+        "4": 2
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 7,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -10,
+        "3": 1,
+        "4": -4
+      }
+    },
+    "49": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Timer",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.3400000035762787,
+        "2": 0,
+        "3": 0,
+        "4": 24
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0.3199999928474426,
+        "2": 0,
+        "3": 0,
+        "4": 30
+      }
+    },
+    "50": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Other",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.6899999976158142,
+        "2": 0,
+        "3": 0,
+        "4": 26
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0.3100000023841858,
+        "2": -9,
+        "3": 0,
+        "4": 26
+      }
+    },
+    "51": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 4,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "52": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Lives",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": 1,
+        "4": -23
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0
+      },
+      "z": 1,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 130,
+        "3": 0,
+        "4": 20
+      }
+    },
+    "53": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Lives.Team",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 40,
+        "3": 0,
+        "4": 16
+      }
+    },
+    "54": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Lives.Heart1",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 46,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 24,
+        "3": 0,
+        "4": 21
+      }
+    },
+    "55": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Lives.Heart2",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 72,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 24,
+        "3": 0,
+        "4": 21
+      }
+    },
+    "56": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Lives.Heart3",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 98,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 24,
+        "3": 0,
+        "4": 21
+      }
+    },
+    "57": {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.CompactTop.Out",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.10000000149011612,
+        "2": 0,
+        "3": 1,
+        "4": -24
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0.800000011920929,
+        "2": 0,
+        "3": 0,
+        "4": 17
+      }
+    },
+    "58": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": 0,
+        "4": 64
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0
+      },
+      "z": 4,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 280,
+        "3": 0,
+        "4": 78
+      }
+    },
+    "59": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Title",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 12,
+        "3": 0,
+        "4": 5
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -24,
+        "3": 0,
+        "4": 18
+      }
+    },
+    "60": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Team",
+      "active": false,
+      "class": "TextButton",
+      "text": "RED\n0 ALIVE",
+      "position": {
+        "1": 0,
+        "2": 9,
+        "3": 0,
+        "4": 26
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0.3100000023841858,
+        "2": -9,
+        "3": 0,
+        "4": 26
+      }
+    },
+    "61": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Team.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "62": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Team.LiveCaption",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 5,
+        "3": 0,
+        "4": 2
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 7,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": -10,
+        "3": 1,
+        "4": -4
+      }
+    },
+    "63": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Timer",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.3400000035762787,
+        "2": 0,
+        "3": 0,
+        "4": 24
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0.3199999928474426,
+        "2": 0,
+        "3": 0,
+        "4": 30
+      }
+    },
+    "64": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Other",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.6899999976158142,
+        "2": 0,
+        "3": 0,
+        "4": 26
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 5,
+      "clip": false,
+      "size": {
+        "1": 0.3100000023841858,
+        "2": -9,
+        "3": 0,
+        "4": 26
+      }
+    },
+    "65": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.ReusableSkin",
+      "active": false,
+      "class": "ImageLabel",
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 4,
+      "clip": false,
+      "size": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0
+      }
+    },
+    "66": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Lives",
+      "active": false,
+      "class": "Frame",
+      "position": {
+        "1": 0.5,
+        "2": 0,
+        "3": 1,
+        "4": -23
+      },
+      "anchor": {
+        "1": 0.5,
+        "2": 0
+      },
+      "z": 1,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 130,
+        "3": 0,
+        "4": 20
+      }
+    },
+    "67": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Lives.Team",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 40,
+        "3": 0,
+        "4": 16
+      }
+    },
+    "68": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Lives.Heart1",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 46,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 24,
+        "3": 0,
+        "4": 21
+      }
+    },
+    "69": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Lives.Heart2",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 72,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 24,
+        "3": 0,
+        "4": 21
+      }
+    },
+    "70": {
+      "visible": true,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Lives.Heart3",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0,
+        "2": 98,
+        "3": 0,
+        "4": 0
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0,
+        "2": 24,
+        "3": 0,
+        "4": 21
+      }
+    },
+    "71": {
+      "visible": false,
+      "path": "StarterGui.MudHUD.Main.PortraitTop.Out",
+      "active": false,
+      "class": "TextLabel",
+      "text": true,
+      "position": {
+        "1": 0.10000000149011612,
+        "2": 0,
+        "3": 1,
+        "4": -24
+      },
+      "anchor": {
+        "1": 0,
+        "2": 0
+      },
+      "z": 8,
+      "clip": false,
+      "size": {
+        "1": 0.800000011920929,
+        "2": 0,
+        "3": 0,
+        "4": 17
+      }
+    }
+  },
+  "gui": {
+    "enabled": true,
+    "display": 17,
+    "zBehavior": "Enum.ZIndexBehavior.Sibling",
+    "ignoreInset": true,
+    "insets": "Enum.ScreenInsets.DeviceSafeInsets"
+  }
+}

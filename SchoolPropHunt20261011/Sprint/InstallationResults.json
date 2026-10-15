@@ -1,0 +1,28 @@
+{
+  "studioId": "7023997f-0934-4375-96b6-d81cba4ba64b",
+  "mode": "Edit",
+  "installed": true,
+  "changed": [
+    "BritishBulldogService",
+    "StuckInTheMudService",
+    "TagService",
+    "TagSprintService"
+  ],
+  "backup": "ServerStorage.SprintPartialRechargeBackup20261011",
+  "nativeSprintChecks": 33,
+  "nativeSprintPassed": true,
+  "hideSeekNativeChecks": 126,
+  "hideSeekPassed": true,
+  "hideSeekSprintSeconds": 25,
+  "otherDurationsPreserved": true,
+  "clientInputGatesVerified": [
+    "BritishBulldogHUD.MovementController",
+    "TagHUD.SprintController",
+    "MudHUD.Controller",
+    "HideAndSeekHUD.Controller",
+    "DuckDuckGooseHUD.Controller"
+  ],
+  "permissionsPreserved": true,
+  "partialRecharge": "Any positive stamina permits sprinting, including holding sprint through depletion and initial fractional recharge.",
+  "originalResumeSetting": "British Bulldog SprintResumeSeconds attribute remains for backward compatibility but is no longer read."
+}

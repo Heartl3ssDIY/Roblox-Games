@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"livePlayersUnaffected\":true,\"playStarted\":false,\"passed\":true,\"checks\":69}"
+    }
+  ],
+  "isError": false
+}

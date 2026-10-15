@@ -1,0 +1,125 @@
+derSizePixel = 0
+corner(card, 18)
+stroke(card, C.arenaBorder, 2)
+
+local imgFrame = Instance.new("Frame", card)
+imgFrame.Size = UDim2.new(0, 280, 1,-20)
+imgFrame.Position = UDim2.new(0,10,0,10)
+imgFrame.BackgroundColor3 = Color3.fromRGB(14, 8, 30)
+imgFrame.BorderSizePixel = 0
+corner(imgFrame, 14)
+stroke(imgFrame, Color3.fromRGB(200,150,40), 2)
+
+local gokuImg = Instance.new("ImageLabel", imgFrame)
+gokuImg.Size = UDim2.new(1,-4,1,-4)
+gokuImg.Position = UDim2.new(0,2,0,2)
+gokuImg.BackgroundTransparency = 1
+gokuImg.Image = "rbxassetid://7607741448"
+gokuImg.ScaleType = Enum.ScaleType.Fit
+gokuImg.ImageColor3 = Color3.fromRGB(255,255,255)
+corner(gokuImg, 12)
+
+local imgCaption = Instance.new("TextLabel", imgFrame)
+imgCaption.Size = UDim2.new(1,0,0,20)
+imgCaption.Position = UDim2.new(0,0,1,-22)
+imgCaption.BackgroundColor3 = Color3.fromRGB(0,0,0)
+imgCaption.BackgroundTransparency = 0.35
+imgCaption.Text = "Dragon Ball inspired enemies await"
+imgCaption.TextColor3 = Color3.fromRGB(220,200,255)
+imgCaption.Font = Enum.Font.Gotham
+imgCaption.TextSize = 10
+corner(imgCaption, 0)
+
+local infoX = 300
+
+local arenaBadge = Instance.new("Frame", card)
+arenaBadge.Size = UDim2.new(0, 100, 0, 28)
+arenaBadge.Position = UDim2.new(0,infoX,0,18)
+arenaBadge.BackgroundColor3 = C.arenaBorder
+arenaBadge.BorderSizePixel = 0
+corner(arenaBadge, 14)
+local badgeTxt = Instance.new("TextLabel", arenaBadge)
+badgeTxt.Size = UDim2.new(1,0,1,0)
+badgeTxt.BackgroundTransparency = 1
+badgeTxt.Text = "ARENA 1"
+badgeTxt.TextColor3 = Color3.fromRGB(20,10,40)
+badgeTxt.Font = Enum.Font.GothamBold
+badgeTxt.TextSize = 13
+
+local arenaName = Instance.new("TextLabel", card)
+arenaName.Size = UDim2.new(0, 330, 0, 44)
+arenaName.Position = UDim2.new(0,infoX,0,52)
+arenaName.BackgroundTransparency = 1
+arenaName.Text = "Tenkaichi"
+arenaName.TextColor3 = Color3.fromRGB(255, 230, 120)
+arenaName.Font = Enum.Font.GothamBold
+arenaName.TextSize = 32
+arenaName.TextXAlignment = Enum.TextXAlignment.Left
+
+local nameDivider = Instance.new("Frame", card)
+nameDivider.Size = UDim2.new(0,320,0,2)
+nameDivider.Position = UDim2.new(0,infoX,0,100)
+nameDivider.BackgroundColor3 = C.arenaBorder
+nameDivider.BackgroundTransparency = 0.55
+nameDivider.BorderSizePixel = 0
+
+local flavour = Instance.new("TextLabel", card)
+flavour.Size = UDim2.new(0,320,0,70)
+flavour.Position = UDim2.new(0,infoX,0,110)
+flavour.BackgroundTransparency = 1
+flavour.Text = "Fight beneath tropical skies at the\nTenkaichi martial arts tournament.\nDraft your team and take the ring."
+flavour.TextColor3 = C.sub
+flavour.Font = Enum.Font.Gotham
+flavour.TextSize = 13
+flavour.TextWrapped = true
+flavour.TextXAlignment = Enum.TextXAlignment.Left
+flavour.TextYAlignment = Enum.TextYAlignment.Top
+
+local stats = {{"⚔️ Enemies", "5"}, {"⭐ Difficulty", "Easy"}, {"🕐 Est. Time", "15 min"}}
+for si, stat in ipairs(stats) do
+    local pill = Instance.new("Frame", card)
+    pill.Size = UDim2.new(0,96,0,28)
+    pill.Position = UDim2.new(0, infoX + (si-1)*104, 0, 192)
+    pill.BackgroundColor3 = Color3.fromRGB(40, 24, 78)
+    pill.BorderSizePixel = 0
+    corner(pill, 14)
+    stroke(pill, Color3.fromRGB(100,70,180), 1)
+    local pillTxt = Instance.new("TextLabel", pill)
+    pillTxt.Size = UDim2.new(1,0,0,14)
+    pillTxt.Position = UDim2.new(0,0,0,2)
+    pillTxt.BackgroundTransparency = 1
+    pillTxt.Text = stat[1]
+    pillTxt.TextColor3 = C.sub
+    pillTxt.Font = Enum.Font.Gotham
+    pillTxt.TextSize = 9
+    local pillVal = Instance.new("TextLabel", pill)
+    pillVal.Size = UDim2.new(1,0,0,14)
+    pillVal.Position = UDim2.new(0,0,0,13)
+    pillVal.BackgroundTransparency = 1
+    pillVal.Text = stat[2]
+    pillVal.TextColor3 = C.btnTxt
+    pillVal.Font = Enum.Font.GothamBold
+    pillVal.TextSize = 11
+end
+
+local PlayerData = require(game:GetService("ReplicatedStorage"):WaitForChild("PlayerData"))
+local PROG_MAX = 100
+
+local progLabel = Instance.new("TextLabel", card)
+progLabel.Name = "ProgLabel"
+progLabel.Size = UDim2.new(0, 320, 0, 18)
+progLabel.Position = UDim2.new(0, infoX, 0, 232)
+progLabel.BackgroundTransparency = 1
+progLabel.Text = "Arena Progress"
+progLabel.TextColor3 = C.sub
+progLabel.Font = Enum.Font.GothamBold
+progLabel.TextSize = 12
+progLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+local progPoints = Instance.new("TextLabel", card)
+progPoints.Name = "ProgPoints"
+progPoints.Size = UDim2.new(0, 320, 0, 18)
+progPoints.Position = UDim2.new(0, infoX, 0, 232)
+progPoints.BackgroundTransparency = 1
+progPoints.Text = "0 pts"
+progPoints.TextColor3 = C.gold

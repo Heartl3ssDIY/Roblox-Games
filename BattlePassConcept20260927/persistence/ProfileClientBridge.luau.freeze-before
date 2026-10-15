@@ -1,0 +1,259 @@
+-- Install as ReplicatedStorage.ProfileClientBridge. Start it before game UI.
+-- Facade modules contain _profileHydrate/_profileExport hooks.
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local HttpService = game:GetService("HttpService")
+
+local PlayerData = require(ReplicatedStorage:WaitForChild("PlayerData"))
+local SeasonPassData = require(ReplicatedStorage:WaitForChild("SeasonPassData"))
+local Loadout = require(ReplicatedStorage:WaitForChild("Loadout"))
+local ShopConfig = require(ReplicatedStorage:WaitForChild("ShopConfig"))
+local Delta = require(ReplicatedStorage:WaitForChild("ProfileDelta"))
+local UnitData = require(ReplicatedStorage:WaitForChild("UnitData"))
+local function isGated(id)
+    if id == "Beeras" then return true end
+    local unit = UnitData.get(id)
+    return unit and (unit.rarity == "Mythic" or unit.premium == true or unit.serverOnly == true or unit.storeOnly == true)
+end
+local remotes = ReplicatedStorage:WaitForChild("ProfileRemotes")
+local player = Players.LocalPlayer
+
+local Bridge = {}
+local ready = false
+local started = false
+local applying = false
+local dirty = false
+local syncing = false
+local changedSerial = 0
+local syncSequence = 0
+local pendingSync
+local invoking = false
+local baseSnapshot
+local pendingServerSnapshot
+local pendingAction
+local retryWorker = false
+
+local function copy(value)
+    if type(value) ~= "table" then return value end
+    local result = {}
+    for key, child in pairs(value) do result[key] = copy(child) end
+    return result
+end
+
+local function collect()
+    return {
+        playerData = PlayerData._profileExport(),
+        seasonPass = SeasonPassData._profileExport(),
+        loadout = Loadout._profileExport(),
+        shopClaims = ShopConfig._profileExport(),
+    }
+end
+
+local function applyLocal(snapshot, newBase)
+    if type(snapshot) ~= "table" or type(newBase) ~= "table" then return false end
+    applying = true
+    PlayerData._profileHydrate(snapshot.playerData)
+    SeasonPassData._profileHydrate(snapshot.seasonPass)
+    Loadout._profileHydrate(snapshot.loadout)
+    ShopConfig._profileHydrate(snapshot.shopClaims)
+    baseSnapshot = copy(newBase)
+    applying = false
+    return true
+end
+
+local function syncOnce()
+    if not ready or syncing or not dirty then return true end
+    syncing = true
+    dirty = false
+    if not pendingSync then
+        pendingSync = {
+            sequence = syncSequence + 1,
+            serial = changedSerial,
+            current = collect(),
+            base = copy(baseSnapshot),
+        }
+    end
+    local request = pendingSync
+    local response
+    for attempt = 1, 4 do
+        local ok, value = pcall(function()
+            return remotes.SyncPrototype:InvokeServer(request.sequence, {base = request.base, current = request.current})
+        end)
+        if ok and type(value) == "table" and value.ok then response = value; break end
+        if attempt < 4 then task.wait(math.min(4, 0.5 * 2 ^ (attempt - 1))) end
+    end
+    if not response then
+        dirty = true
+        syncing = false
+        return false, "sync failed"
+    end
+    syncSequence = request.sequence
+    pendingSync = nil
+    local authoritative = response.snapshot
+    if pendingServerSnapshot and (pendingServerSnapshot.profileVersion or 0) >= (authoritative.profileVersion or 0) then
+        authoritative = pendingServerSnapshot
+    end
+    pendingServerSnapshot = nil
+    if changedSerial == request.serial then
+        applyLocal(authoritative, authoritative)
+    else
+        local latest = collect()
+        local rebased = Delta.apply(request.current, latest, authoritative, isGated)
+        applyLocal(rebased, authoritative)
+        dirty = true
+    end
+    syncing = false
+    return true
+end
+
+local function scheduleSync()
+    if not ready or syncing then return end
+    task.defer(function()
+        task.wait(0.25)
+        while dirty and ready do
+            local ok = syncOnce()
+            if not ok then task.wait(3) end
+        end
+    end)
+end
+
+local function localChanged()
+    if applying or not ready then return end
+    changedSerial += 1
+    dirty = true
+    scheduleSync()
+end
+
+function Bridge.start()
+    if started then return ready end
+    started = true
+    local ok, response = pcall(function() return remotes.Bootstrap:InvokeServer() end)
+    if not ok or type(response) ~= "table" or not response.ok or not applyLocal(response.snapshot, response.snapshot) then
+        warn("[Profile] player data is unavailable; progression is disabled")
+        return false
+    end
+    ready = true
+    PlayerData.Changed:Connect(localChanged)
+    SeasonPassData.Changed:Connect(localChanged)
+    Loadout.Changed:Connect(localChanged)
+    ShopConfig.Changed:Connect(localChanged)
+    remotes:WaitForChild("Changed").OnClientEvent:Connect(function(snapshot)
+        if syncing or pendingSync then
+            if not pendingServerSnapshot or (snapshot.profileVersion or 0) >= (pendingServerSnapshot.profileVersion or 0) then pendingServerSnapshot = snapshot end
+            return
+        end
+        if type(snapshot) ~= "table" then return end
+        if baseSnapshot and snapshot.profileVersion and baseSnapshot.profileVersion
+            and snapshot.profileVersion < baseSnapshot.profileVersion then return end
+        if dirty then
+            local latest = collect()
+            local rebased = Delta.apply(baseSnapshot, latest, snapshot, isGated)
+            applyLocal(rebased, snapshot)
+            scheduleSync()
+        else
+            applyLocal(snapshot, snapshot)
+        end
+    end)
+    player:SetAttribute("ProfileClientReady", true)
+    return true
+end
+
+function Bridge.isReady() return ready end
+
+function Bridge.flush()
+    if not ready then return false, "profile unavailable" end
+    while syncing or dirty do
+        if syncing then task.wait(0.05)
+        else
+            local ok, reason = syncOnce()
+            if not ok then return false, reason end
+        end
+    end
+    return true
+end
+
+local function invoke(remote, ...)
+    while invoking do task.wait(0.05) end
+    invoking = true
+    local flushed, reason = Bridge.flush()
+    if not flushed then invoking = false; return {ok = false, error = reason, retryable = true} end
+    syncing = true
+    local sentCurrent = collect()
+    local sentSerial = changedSerial
+    local args = {...}
+    local ok, response = pcall(function() return remote:InvokeServer(table.unpack(args)) end)
+    if not ok or type(response) ~= "table" then response = {ok = false, error = "profile request failed", retryable = true} end
+    local authoritative = response.snapshot
+    if pendingServerSnapshot and (not authoritative or (pendingServerSnapshot.profileVersion or 0) >= (authoritative.profileVersion or 0)) then
+        authoritative = pendingServerSnapshot
+    end
+    pendingServerSnapshot = nil
+    if authoritative then
+        if changedSerial == sentSerial then
+            applyLocal(authoritative, authoritative)
+        else
+            local latest = collect()
+            local rebased = Delta.apply(sentCurrent, latest, authoritative, isGated)
+            applyLocal(rebased, authoritative)
+            dirty = true
+        end
+    end
+    syncing = false
+    invoking = false
+    if dirty then scheduleSync() end
+    return response
+end
+
+function Bridge.requestMatchTicket()
+    return invoke(remotes.MatchTicket)
+end
+
+function Bridge.reportMatch(ticket, outcome)
+    return invoke(remotes.MatchOutcome, ticket, outcome)
+end
+
+local function retryPendingAction()
+    if retryWorker then return end
+    retryWorker = true
+    task.spawn(function()
+        for attempt = 1, 10 do
+            task.wait(math.min(10, 0.5 * 2 ^ math.min(attempt - 1, 5)))
+            local request = pendingAction
+            if not request then break end
+            local response = invoke(remotes.Action, request.name, request.payload, request.id)
+            if response.ok or not response.retryable then
+                if pendingAction == request then pendingAction = nil end
+                if not response.ok then warn("[Profile] action failed: " .. tostring(response.error)) end
+                break
+            end
+        end
+        if pendingAction then
+            warn("[Profile] action is still pending; rejoin after your connection recovers")
+            pcall(function()
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                    Title = "Progress still syncing",
+                    Text = "Please rejoin after your connection recovers.",
+                    Duration = 8,
+                })
+            end)
+        end
+        retryWorker = false
+    end)
+end
+
+function Bridge.action(name, payload)
+    local key = tostring(name) .. ":" .. HttpService:JSONEncode(payload or {})
+    if pendingAction and pendingAction.key ~= key then
+        return {ok = false, error = "previous action still pending", retryable = true}
+    end
+    if not pendingAction then
+        pendingAction = {key = key, id = HttpService:GenerateGUID(false), name = name, payload = payload}
+    end
+    local request = pendingAction
+    local response = invoke(remotes.Action, name, payload, request.id)
+    if (response.ok or not response.retryable) and pendingAction == request then pendingAction = nil end
+    if pendingAction then retryPendingAction() end
+    return response
+end
+
+return Bridge

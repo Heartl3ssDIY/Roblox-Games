@@ -1,0 +1,131 @@
+{
+  "ok": true,
+  "version": "Before",
+  "result": {
+    "total": 29,
+    "passed": 24,
+    "checks": {
+      "1": {
+        "name": "Mouse ray uses raw viewport pixels without adding topbar inset",
+        "passed": true
+      },
+      "2": {
+        "name": "Crosshair points to same pixel as mouse ray",
+        "passed": true
+      },
+      "3": {
+        "name": "Authored reticle size and anchor preserved",
+        "passed": true
+      },
+      "4": {
+        "error": "ServerStorage._MudRepairNativeFixture.Checks:28: assertion failed!",
+        "passed": false,
+        "name": "Device safe mouse coordinates do not subtract notch twice"
+      },
+      "5": {
+        "name": "Touch uses camera centre instead of fire-button finger",
+        "passed": true
+      },
+      "6": {
+        "name": "Gamepad uses camera centre instead of stale mouse",
+        "passed": true
+      },
+      "7": {
+        "error": "ServerStorage._MudRepairNativeFixture.Checks:43: assertion failed!",
+        "passed": false,
+        "name": "Mouse on touch-capable device follows current preferred input"
+      },
+      "8": {
+        "name": "Locked-centre mouse follows camera forward",
+        "passed": true
+      },
+      "9": {
+        "name": "Out-of-viewport mouse is clamped",
+        "passed": true
+      },
+      "10": {
+        "name": "Native ray packet converges real muzzle onto camera target",
+        "passed": true
+      },
+      "11": {
+        "name": "Unbounded remote camera origin rejected",
+        "passed": true
+      },
+      "12": {
+        "name": "NaN aim rejected",
+        "passed": true
+      },
+      "13": {
+        "name": "Infinite camera position rejected",
+        "passed": true
+      },
+      "14": {
+        "name": "Zero direction rejected",
+        "passed": true
+      },
+      "15": {
+        "name": "Missing camera fields rejected",
+        "passed": true
+      },
+      "16": {
+        "name": "Managed equipped gun remains mandatory",
+        "passed": true
+      },
+      "17": {
+        "name": "Camera cannot be spoofed through cover behind shooter",
+        "passed": true
+      },
+      "18": {
+        "name": "Camera-visible enemy remains blocked by muzzle-side wall",
+        "passed": true
+      },
+      "19": {
+        "name": "Cooldown still rejects immediate repeat",
+        "passed": true
+      },
+      "20": {
+        "name": "Clear camera-guided shot reaches enemy with unchanged projectile motion",
+        "passed": true
+      },
+      "21": {
+        "name": "Muddy player cannot shoot",
+        "passed": true
+      },
+      "22": {
+        "name": "Bot legacy vector aiming remains supported",
+        "passed": true
+      },
+      "23": {
+        "name": "Heat stores camera-ray aim packet",
+        "passed": true
+      },
+      "24": {
+        "name": "Heat release clears packet and lease",
+        "passed": true
+      },
+      "25": {
+        "name": "Muzzle cannot protrude through close wall",
+        "passed": true
+      },
+      "26": {
+        "error": "ServerStorage._MudRepairNativeFixture.Checks:141: visible mud edge missed the player",
+        "passed": false,
+        "name": "Visible edge of mud ball hits instead of passing through avatar"
+      },
+      "27": {
+        "error": "ServerStorage._MudRepairNativeFixture.Checks:148: assertion failed!",
+        "passed": false,
+        "name": "Sphere-sized shot remains stopped by walls"
+      },
+      "28": {
+        "error": "ServerStorage._MudRepairNativeFixture.Checks:155: assertion failed!",
+        "passed": false,
+        "name": "Heat aims from barrel at camera-selected muddy teammate"
+      },
+      "29": {
+        "name": "Heat cannot reach teammate through wall",
+        "passed": true
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "P26",
+  "name": "Pebble Triceratops",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p26-pebble-triceratops.png",
+  "brief": "A chubby turquoise baby triceratops with a huge rounded head frill edged in chunky cream knobs, two short blunt cream brow horns and one smaller nose horn, four squat legs and a short tail. Navy toe tips and friendly large eyes. Coral-pink inner frill, polished toy-like skin, no scales or scenery.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p26-pebble-triceratops.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p26-pebble-triceratops.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p26-pebble-triceratops-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p26-pebble-triceratops.png",
+  "parts": 72,
+  "triangles": 37912,
+  "meshes": 3,
+  "maxMeshTriangles": 18576,
+  "dimensions": [
+    2.2706098556518555,
+    3.729433298110962,
+    3.5900001525878906
+  ],
+  "boundsMin": [
+    -1.1353049278259277,
+    -1.625,
+    0.1499999761581421
+  ],
+  "boundsMax": [
+    1.1353049278259277,
+    2.104433298110962,
+    3.740000009536743
+  ],
+  "paletteColors": 10,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "FrontLegL",
+    "FrontLegR",
+    "BackLegL",
+    "BackLegR",
+    "Tail"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.2706098556518555,
+    3.729433059692383,
+    3.5900001525878906
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "P29",
+  "name": "Tundra Mammoth",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ExpansionReferences-20261005\\PlaygroundClassics-ExpansionReferences-20261005\\Pets\\Originals\\p29-tundra-mammoth.png",
+  "brief": "A tiny shaggy cinnamon-brown woolly mammoth with a huge round head, short lifted trunk, two short curved ivory tusks, small caramel ears and four stubby feet. Stylised fur as a few broad rounded tufts, turquoise knitted neck scarf fitted tightly, no loose fabric effects. Big kind eyes, toy proportions.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Blend\\p29-tundra-mammoth.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\FBX\\p29-tundra-mammoth.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Textures\\p29-tundra-mammoth-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\PlaygroundExpansionModels20261005\\Blender\\Pets\\Previews\\p29-tundra-mammoth.png",
+  "parts": 108,
+  "triangles": 39364,
+  "meshes": 3,
+  "maxMeshTriangles": 18928,
+  "dimensions": [
+    2.380000114440918,
+    3.8430771827697754,
+    3.164456367492676
+  ],
+  "boundsMin": [
+    -1.190000057220459,
+    -2.1100001335144043,
+    0.13999998569488525
+  ],
+  "boundsMax": [
+    1.190000057220459,
+    1.733077049255371,
+    3.3044564723968506
+  ],
+  "paletteColors": 11,
+  "anchors": {},
+  "editable": true,
+  "rigged": true,
+  "rigBones": [
+    "Root",
+    "Body",
+    "Head",
+    "FrontLegL",
+    "FrontLegR",
+    "BackLegL",
+    "BackLegR",
+    "Tail"
+  ],
+  "collision": "Visual meshes non-colliding; use simple game-owned collision proxy",
+  "outline": "Navy geometry seams; Roblox Highlight with FillTransparency=1 and Occluded depth for silhouette",
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.380000114440918,
+    3.8430771827697754,
+    3.164456367492676
+  ]
+}

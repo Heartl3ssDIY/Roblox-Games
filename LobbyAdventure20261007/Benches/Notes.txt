@@ -1,0 +1,12 @@
+All 12 suitable lobby bench surfaces now have three seated positions each (36 seats): six Furniture benches, three lookout/garden benches, both picnic benches, and the cave bench. Game-map benches were not changed.
+
+Each original seat surface contains SeatingPositions > Sit1/Sit2/Sit3. These transparent anchored Seat overlays preserve the visible models. Slots are spaced at least three studs apart; seating faces away from a backrest, toward the picnic table, or out of the cave. Prompt attachments sit above the solid bench surface to keep them visible. Press E, tap the prompt, or press the controller interact button to sit; jump to stand up.
+
+Runtime: ServerScriptService.PlaygroundLobbyBenchService
+Integration: require(ServerScriptService.PlaygroundLobbyBenchService).Start()
+The returned service supports :Stop(); module also exposes .Stop().
+Server checks distance, health, current seating, anchored character state, game participation, and request timing. Occupied-seat prompts are hidden. Joining any round, dying, or leaving releases the seat.
+
+Backups of the unchanged original surfaces are in ServerStorage.LobbyBenchBackup20261007.
+
+Edit verification passed: 12 original surfaces unchanged, 36 overlays, three-stud minimum spacing, all sitting directions correct, no collidable torso obstruction, prompts above surfaces, unchanged approved capabilities, Start/Stop idempotence, and connection cleanup. All sources compiled. Play remained stopped; live seated-avatar behavior has not been play-tested.

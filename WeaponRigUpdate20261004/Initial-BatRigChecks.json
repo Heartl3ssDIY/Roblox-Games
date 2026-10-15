@@ -1,0 +1,12 @@
+{
+  "note": "Initial geometry/helper tests passed. R15 client sandbox support remains pending Animation capability approval; this is not the final animation validation.",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"grips\":[],\"playStarted\":false,\"checks\":{\"1\":\"R6 all15 bats have native hand grips, matching attachments and retained VFX\",\"3\":\"R6 pose changes upper body and restores exact original joint transforms\",\"2\":\"R6 click delegates once and rejected swings do not animate\",\"5\":\"R6 Tagger gets bat, Runner and Mud never do\",\"4\":\"R6 lobby admin preview cannot equip a bat\",\"7\":\"R15 all15 bats have native hand grips, matching attachments and retained VFX\",\"6\":\"R6 death and cleanup cancel pending hits and destroy tools\",\"9\":\"R15 pose changes upper body and restores exact original joint transforms\",\"8\":\"R15 click delegates once and rejected swings do not animate\",\"12\":\"R15 death and cleanup cancel pending hits and destroy tools\",\"11\":\"R15 Tagger gets bat, Runner and Mud never do\",\"10\":\"R15 lobby admin preview cannot equip a bat\"},\"fixtureDestroyed\":true,\"passed\":true,\"testedBats\":30}"
+      }
+    ],
+    "isError": false
+  }
+}

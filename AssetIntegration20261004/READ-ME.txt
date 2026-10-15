@@ -1,0 +1,59 @@
+Applied to Playground Classics, place 95034648955135, on 2026-10-04.
+
+This integration connects the existing imports in Studio: 15 core bats, 20 pets,
+15 miscellaneous toys, the collectible coin, and the Mud/Heat guns.
+The original imported models remain in their workspace locations. Their backups
+are in ServerStorage.AssetIntegrationBackup20261004.ImportedModels.
+
+The live editable catalogue is ReplicatedStorage.PlaygroundCatalog. The complete
+reward/price list is Unlock-Schedule.csv. Starter Slugger is free. Mudslinger is
+earned at 25 Stuck in the Mud wins. Coin prices never exceed 10,000. Level and win
+rewards are granted automatically; coins cannot bypass their requirements.
+Existing balances, XP, ownership and total wins are retained. Per-game win counts
+start from this update because old profiles stored only total wins.
+
+Players choose a bat skin in the shop; it appears when they become a Bulldog.
+Bat skins do not change tag distance or damage. Toys are permanent collectible
+purchases and equip from the Backpack between rounds. Their gameplay actions
+and potion effects remain undecided, as requested previously.
+
+The shop reuses its 12 editable cards in StarterGui.PlaygroundShell, with All,
+Bats, Pets and Toys filters and five pages. Labels, outlines and pager are editable.
+Runtime binding does not replace authored UI positions or sizes.
+
+Pet motion runs locally for smooth following, bounce/hover and restrained sparkles.
+All imported controllers, Motor6Ds and pose data are preserved. Pocket Bulldog
+has two Motor6Ds; the other imports currently have AnimationControllers without
+joint/bone animation clips. Whole-model motion works with those imports and the
+follower supports future Idle/Walk Animation children.
+
+Textured imports keep their original colour maps, with a welded, slightly expanded
+stud surface layer. It is named PCStudFinish and can be edited or removed per mesh.
+Plain gun meshes use PlaygroundItemStuds directly. CartoonOutline is editable on
+each model. Mud is brown/green; Heat is orange/cream. Playable gun templates now
+use the imported artwork and preserve the existing fire/equip interfaces.
+
+2,452 lobby parts are anchored and locked. Imported display models are also
+anchored and locked, while equipped clones are non-colliding and massless.
+524 targeted surface edits remove detected coplanar colour conflicts in Tag and
+Mud; walkable floor heights and all saved collision flags remain unchanged.
+Voting stands are 75% of their previous dimensions, at X=68,88,108; pads measure
+14.25 by 15.96 studs. Vote triggers and the overall voting zone match the new area.
+These map/stand property backups are in ServerStorage.AssetIntegrationBackups.
+
+The final approved permissions are recorded by ConfigureApprovedPermissions.luau.
+The catalogue has Basic plus client/server execution. Equipment has server
+execution, Basic, model access/creation, Physics, UI, Input, Players and avatar
+behavior. Pet motion has client execution and the same visual/model permissions
+without Input. No new networking or DataStore permissions were granted.
+
+Validation: 95 economy checks, 15 equipment scenarios covering all bats/toys,
+50 item-library checks, preservation of all 20 pet rigs, gun safety checks,
+12 shop previews, map surface and vote footprint checks, and source compilation.
+All checks were performed in Edit mode. No Play session or live datastore test
+was started. No publishing was performed.
+
+Before contains script snapshots. After contains deployed sources. The .luau
+installers and Tests directory make the changes inspectable and repeatable.
+Read the latest *-Final.json reports rather than earlier permission-diagnostic
+*-Result.json files, which intentionally preserve the blocked-check history.

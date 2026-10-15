@@ -1,0 +1,35 @@
+local board = game.StarterGui.ArenaSelectGui.Board
+local backup = Instance.new("Folder")
+backup.Name = "BeforeArenaTypography20260925"
+backup.Parent = game.ServerStorage
+board.Title:Clone().Parent = backup
+board.ArenaNumber:Clone().Parent = backup
+local pillText = board.ArenaNumber.Label
+pillText.TextSize = 34
+pillText.Position = UDim2.fromOffset(10, 0)
+pillText.Size = UDim2.new(1, -20, 0, 54)
+pillText.TextStrokeTransparency = 0
+local title = board.Title
+title.TextSize = 54
+title.TextStrokeTransparency = 1
+local old = board:FindFirstChild("TitleWhiteOutline")
+if old then old:Destroy() end
+local outline = title:Clone()
+outline.Name = "TitleWhiteOutline"
+outline.ZIndex = title.ZIndex - 1
+outline.Parent = board
+local outer = Instance.new("UIStroke")
+outer.Name = "WhiteOuterStroke"
+outer.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
+outer.Color = Color3.new(1, 1, 1)
+outer.Thickness = 5
+outer.LineJoinMode = Enum.LineJoinMode.Round
+outer.Parent = outline
+local inner = title:FindFirstChild("DarkStroke") or Instance.new("UIStroke")
+inner.Name = "DarkStroke"
+inner.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
+inner.Color = Color3.fromRGB(18, 10, 25)
+inner.Thickness = 3
+inner.LineJoinMode = Enum.LineJoinMode.Round
+inner.Parent = title
+return "Larger arena pill label and layered title outlines authored"

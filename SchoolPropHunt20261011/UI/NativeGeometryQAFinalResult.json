@@ -1,0 +1,3945 @@
+{
+  "scenarios": [
+    {
+      "height": 320,
+      "rects": {
+        "Sprint": {
+          "y": 138,
+          "x": 452,
+          "w": 100,
+          "h": 44
+        },
+        "Swing": {
+          "y": 88,
+          "x": 452,
+          "w": 100,
+          "h": 44
+        },
+        "Dock": {
+          "y": 268,
+          "x": 165,
+          "w": 238,
+          "h": 44
+        },
+        "RoundHeader": {
+          "y": 66,
+          "x": 154,
+          "w": 260,
+          "h": 70
+        },
+        "Boosts": {
+          "y": 162,
+          "x": 464,
+          "w": 96,
+          "h": 38
+        },
+        "Spectate": {
+          "y": 114,
+          "x": 60,
+          "w": 44,
+          "h": 44
+        },
+        "Toys": {
+          "y": 207.33999633789062,
+          "x": 162,
+          "w": 244,
+          "h": 58
+        },
+        "RoundBoosts": {
+          "y": 150,
+          "x": 8,
+          "w": 96,
+          "h": 38
+        },
+        "Settings": {
+          "y": 114,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Emotes": {
+          "y": 114,
+          "x": 480,
+          "w": 80,
+          "h": 44
+        },
+        "Timer": {
+          "y": 64,
+          "x": 172,
+          "w": 224,
+          "h": 44
+        },
+        "Level": {
+          "y": 64,
+          "x": 8,
+          "w": 128,
+          "h": 44
+        },
+        "RoundSettings": {
+          "y": 64,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Wallet": {
+          "y": 64,
+          "x": 436.5,
+          "w": 123.49999237060547,
+          "h": 36.39999771118164
+        }
+      },
+      "safe": {
+        "y": 58,
+        "x": 0,
+        "w": 568,
+        "h": 262
+      },
+      "width": 568
+    },
+    {
+      "height": 375,
+      "rects": {
+        "Sprint": {
+          "y": 193,
+          "x": 551,
+          "w": 100,
+          "h": 44
+        },
+        "Swing": {
+          "y": 143,
+          "x": 551,
+          "w": 100,
+          "h": 44
+        },
+        "Dock": {
+          "y": 323,
+          "x": 214.5,
+          "w": 238,
+          "h": 44
+        },
+        "RoundHeader": {
+          "y": 66,
+          "x": 203.5,
+          "w": 260,
+          "h": 70
+        },
+        "Boosts": {
+          "y": 162,
+          "x": 563,
+          "w": 96,
+          "h": 38
+        },
+        "Spectate": {
+          "y": 114,
+          "x": 60,
+          "w": 44,
+          "h": 44
+        },
+        "Toys": {
+          "y": 238.69000244140625,
+          "x": 211.5,
+          "w": 244,
+          "h": 58
+        },
+        "RoundBoosts": {
+          "y": 150,
+          "x": 8,
+          "w": 96,
+          "h": 38
+        },
+        "Settings": {
+          "y": 114,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Emotes": {
+          "y": 114,
+          "x": 579,
+          "w": 80,
+          "h": 44
+        },
+        "Timer": {
+          "y": 64,
+          "x": 221.5,
+          "w": 224,
+          "h": 44
+        },
+        "Level": {
+          "y": 64,
+          "x": 8,
+          "w": 128,
+          "h": 44
+        },
+        "RoundSettings": {
+          "y": 64,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Wallet": {
+          "y": 64,
+          "x": 535.5,
+          "w": 123.49999237060547,
+          "h": 36.39999771118164
+        }
+      },
+      "safe": {
+        "y": 58,
+        "x": 0,
+        "w": 667,
+        "h": 317
+      },
+      "width": 667
+    },
+    {
+      "height": 390,
+      "rects": {
+        "Sprint": {
+          "y": 187,
+          "x": 684,
+          "w": 100,
+          "h": 44
+        },
+        "Swing": {
+          "y": 137,
+          "x": 684,
+          "w": 100,
+          "h": 44
+        },
+        "Dock": {
+          "y": 317,
+          "x": 303,
+          "w": 238,
+          "h": 44
+        },
+        "RoundHeader": {
+          "y": 66,
+          "x": 292,
+          "w": 260,
+          "h": 70
+        },
+        "Boosts": {
+          "y": 162,
+          "x": 696,
+          "w": 96,
+          "h": 38
+        },
+        "Spectate": {
+          "y": 114,
+          "x": 104,
+          "w": 44,
+          "h": 44
+        },
+        "Toys": {
+          "y": 235.27001953125,
+          "x": 300,
+          "w": 244,
+          "h": 58
+        },
+        "RoundBoosts": {
+          "y": 150,
+          "x": 52,
+          "w": 96,
+          "h": 38
+        },
+        "Settings": {
+          "y": 114,
+          "x": 52,
+          "w": 44,
+          "h": 44
+        },
+        "Emotes": {
+          "y": 114,
+          "x": 712,
+          "w": 80,
+          "h": 44
+        },
+        "Timer": {
+          "y": 64,
+          "x": 310,
+          "w": 224,
+          "h": 44
+        },
+        "Level": {
+          "y": 64,
+          "x": 52,
+          "w": 128,
+          "h": 44
+        },
+        "RoundSettings": {
+          "y": 64,
+          "x": 52,
+          "w": 44,
+          "h": 44
+        },
+        "Wallet": {
+          "y": 64,
+          "x": 668.5,
+          "w": 123.49999237060547,
+          "h": 36.39999771118164
+        }
+      },
+      "safe": {
+        "y": 58,
+        "x": 44,
+        "w": 756,
+        "h": 311
+      },
+      "width": 844
+    },
+    {
+      "height": 414,
+      "rects": {
+        "Sprint": {
+          "y": 211,
+          "x": 736,
+          "w": 100,
+          "h": 44
+        },
+        "Swing": {
+          "y": 161,
+          "x": 736,
+          "w": 100,
+          "h": 44
+        },
+        "Dock": {
+          "y": 341,
+          "x": 329,
+          "w": 238,
+          "h": 44
+        },
+        "RoundHeader": {
+          "y": 66,
+          "x": 318,
+          "w": 260,
+          "h": 70
+        },
+        "Boosts": {
+          "y": 162,
+          "x": 748,
+          "w": 96,
+          "h": 38
+        },
+        "Spectate": {
+          "y": 114,
+          "x": 104,
+          "w": 44,
+          "h": 44
+        },
+        "Toys": {
+          "y": 248.95001220703125,
+          "x": 326,
+          "w": 244,
+          "h": 58
+        },
+        "RoundBoosts": {
+          "y": 150,
+          "x": 52,
+          "w": 96,
+          "h": 38
+        },
+        "Settings": {
+          "y": 114,
+          "x": 52,
+          "w": 44,
+          "h": 44
+        },
+        "Emotes": {
+          "y": 114,
+          "x": 764,
+          "w": 80,
+          "h": 44
+        },
+        "Timer": {
+          "y": 64,
+          "x": 336,
+          "w": 224,
+          "h": 44
+        },
+        "Level": {
+          "y": 64,
+          "x": 52,
+          "w": 128,
+          "h": 44
+        },
+        "RoundSettings": {
+          "y": 64,
+          "x": 52,
+          "w": 44,
+          "h": 44
+        },
+        "Wallet": {
+          "y": 64,
+          "x": 720.5,
+          "w": 123.49999237060547,
+          "h": 36.39999771118164
+        }
+      },
+      "safe": {
+        "y": 58,
+        "x": 44,
+        "w": 808,
+        "h": 335
+      },
+      "width": 896
+    },
+    {
+      "height": 768,
+      "rects": {
+        "Sprint": {
+          "y": 566,
+          "x": 908,
+          "w": 100,
+          "h": 44
+        },
+        "Swing": {
+          "y": 516,
+          "x": 908,
+          "w": 100,
+          "h": 44
+        },
+        "Dock": {
+          "y": 696,
+          "x": 393,
+          "w": 238,
+          "h": 44
+        },
+        "RoundHeader": {
+          "y": 66,
+          "x": 382,
+          "w": 260,
+          "h": 70
+        },
+        "Boosts": {
+          "y": 162,
+          "x": 920,
+          "w": 96,
+          "h": 38
+        },
+        "Spectate": {
+          "y": 114,
+          "x": 60,
+          "w": 44,
+          "h": 44
+        },
+        "Toys": {
+          "y": 451.29998779296875,
+          "x": 390,
+          "w": 244,
+          "h": 58
+        },
+        "RoundBoosts": {
+          "y": 150,
+          "x": 8,
+          "w": 96,
+          "h": 38
+        },
+        "Settings": {
+          "y": 114,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Emotes": {
+          "y": 114,
+          "x": 936,
+          "w": 80,
+          "h": 44
+        },
+        "Timer": {
+          "y": 64,
+          "x": 400,
+          "w": 224,
+          "h": 44
+        },
+        "Level": {
+          "y": 64,
+          "x": 8,
+          "w": 128,
+          "h": 44
+        },
+        "RoundSettings": {
+          "y": 64,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Wallet": {
+          "y": 64,
+          "x": 873.5,
+          "w": 142.5,
+          "h": 42
+        }
+      },
+      "safe": {
+        "y": 58,
+        "x": 0,
+        "w": 1024,
+        "h": 690
+      },
+      "width": 1024
+    },
+    {
+      "height": 820,
+      "rects": {
+        "Sprint": {
+          "y": 618,
+          "x": 1064,
+          "w": 100,
+          "h": 44
+        },
+        "Swing": {
+          "y": 568,
+          "x": 1064,
+          "w": 100,
+          "h": 44
+        },
+        "Dock": {
+          "y": 748,
+          "x": 471,
+          "w": 238,
+          "h": 44
+        },
+        "RoundHeader": {
+          "y": 66,
+          "x": 460,
+          "w": 260,
+          "h": 70
+        },
+        "Boosts": {
+          "y": 162,
+          "x": 1076,
+          "w": 96,
+          "h": 38
+        },
+        "Spectate": {
+          "y": 114,
+          "x": 60,
+          "w": 44,
+          "h": 44
+        },
+        "Toys": {
+          "y": 480.94000244140625,
+          "x": 468,
+          "w": 244,
+          "h": 58
+        },
+        "RoundBoosts": {
+          "y": 150,
+          "x": 8,
+          "w": 96,
+          "h": 38
+        },
+        "Settings": {
+          "y": 114,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Emotes": {
+          "y": 114,
+          "x": 1092,
+          "w": 80,
+          "h": 44
+        },
+        "Timer": {
+          "y": 64,
+          "x": 478,
+          "w": 224,
+          "h": 44
+        },
+        "Level": {
+          "y": 64,
+          "x": 8,
+          "w": 128,
+          "h": 44
+        },
+        "RoundSettings": {
+          "y": 64,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Wallet": {
+          "y": 64,
+          "x": 1029.5,
+          "w": 142.5,
+          "h": 42
+        }
+      },
+      "safe": {
+        "y": 58,
+        "x": 0,
+        "w": 1180,
+        "h": 742
+      },
+      "width": 1180
+    },
+    {
+      "height": 1024,
+      "rects": {
+        "Sprint": {
+          "y": 822,
+          "x": 1250,
+          "w": 100,
+          "h": 44
+        },
+        "Swing": {
+          "y": 772,
+          "x": 1250,
+          "w": 100,
+          "h": 44
+        },
+        "Dock": {
+          "y": 952,
+          "x": 564,
+          "w": 238,
+          "h": 44
+        },
+        "RoundHeader": {
+          "y": 66,
+          "x": 553,
+          "w": 260,
+          "h": 70
+        },
+        "Boosts": {
+          "y": 162,
+          "x": 1262,
+          "w": 96,
+          "h": 38
+        },
+        "Spectate": {
+          "y": 114,
+          "x": 60,
+          "w": 44,
+          "h": 44
+        },
+        "Toys": {
+          "y": 597.219970703125,
+          "x": 561,
+          "w": 244,
+          "h": 58
+        },
+        "RoundBoosts": {
+          "y": 150,
+          "x": 8,
+          "w": 96,
+          "h": 38
+        },
+        "Settings": {
+          "y": 114,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Emotes": {
+          "y": 114,
+          "x": 1278,
+          "w": 80,
+          "h": 44
+        },
+        "Timer": {
+          "y": 64,
+          "x": 571,
+          "w": 224,
+          "h": 44
+        },
+        "Level": {
+          "y": 64,
+          "x": 8,
+          "w": 128,
+          "h": 44
+        },
+        "RoundSettings": {
+          "y": 64,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Wallet": {
+          "y": 64,
+          "x": 1215.5,
+          "w": 142.5,
+          "h": 42
+        }
+      },
+      "safe": {
+        "y": 58,
+        "x": 0,
+        "w": 1366,
+        "h": 946
+      },
+      "width": 1366
+    },
+    {
+      "height": 844,
+      "rects": {
+        "Sprint": {
+          "y": 628,
+          "x": 274,
+          "w": 100,
+          "h": 44
+        },
+        "Swing": {
+          "y": 578,
+          "x": 274,
+          "w": 100,
+          "h": 44
+        },
+        "Dock": {
+          "y": 618,
+          "x": 76,
+          "w": 238,
+          "h": 44
+        },
+        "RoundHeader": {
+          "y": 102,
+          "x": 75,
+          "w": 240,
+          "h": 74
+        },
+        "Boosts": {
+          "y": 570,
+          "x": 147,
+          "w": 96,
+          "h": 38
+        },
+        "Spectate": {
+          "y": 150,
+          "x": 60,
+          "w": 44,
+          "h": 44
+        },
+        "Toys": {
+          "y": 502.1199951171875,
+          "x": 73,
+          "w": 244,
+          "h": 58
+        },
+        "RoundBoosts": {
+          "y": 186,
+          "x": 8,
+          "w": 96,
+          "h": 38
+        },
+        "Settings": {
+          "y": 150,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Emotes": {
+          "y": 150,
+          "x": 302,
+          "w": 80,
+          "h": 44
+        },
+        "Timer": {
+          "y": 202,
+          "x": 83,
+          "w": 224,
+          "h": 44
+        },
+        "Level": {
+          "y": 100,
+          "x": 8,
+          "w": 128,
+          "h": 44
+        },
+        "RoundSettings": {
+          "y": 100,
+          "x": 8,
+          "w": 44,
+          "h": 44
+        },
+        "Wallet": {
+          "y": 100,
+          "x": 258.5,
+          "w": 123.49999237060547,
+          "h": 36.39999771118164
+        }
+      },
+      "safe": {
+        "y": 94,
+        "x": 0,
+        "w": 390,
+        "h": 716
+      },
+      "width": 390
+    }
+  ],
+  "checks": [
+    {
+      "passed": true,
+      "name": "568x320: Sprint stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Swing stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: RoundHeader stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Boosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Spectate stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Toys stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: RoundBoosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Settings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Emotes stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: RoundSettings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level does not overlap Wallet"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Settings does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Settings does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Settings does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Settings does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Settings does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Spectate does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Spectate does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Spectate does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Spectate does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Emotes does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Emotes does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Emotes does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Boosts does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock clears jump"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Toys clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Toys clears jump"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Sprint clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Sprint clears jump"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Swing clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Swing clears jump"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Sprint clears Swing"
+    },
+    {
+      "passed": true,
+      "name": "568x320: RoundSettings clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "568x320: RoundBoosts clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "568x320: RoundBoosts clears Sprint"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level label Level fits card"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level label Level scales"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level label XP fits card"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level label XP scales"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level text Level clears XP"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet label Coins fits card"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet label Coins scales"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet label CoinsCaption fits card"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet label CoinsCaption scales"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet text Coins clears CoinsCaption"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer label Title fits card"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer label Title scales"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer label Timer fits card"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer label Timer scales"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer label Detail fits card"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer label Detail scales"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer text Title clears Timer"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer text Title clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer text Timer clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Settings has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Spectate has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Emotes has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Sprint has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Swing has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Level has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Wallet has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Timer has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "568x320: Dock has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Sprint stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Swing stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: RoundHeader stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Boosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Spectate stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Toys stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: RoundBoosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Settings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Emotes stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: RoundSettings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level does not overlap Wallet"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Settings does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Settings does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Settings does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Settings does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Settings does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Spectate does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Spectate does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Spectate does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Spectate does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Emotes does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Emotes does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Emotes does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Boosts does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock clears jump"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Toys clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Toys clears jump"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Sprint clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Sprint clears jump"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Swing clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Swing clears jump"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Sprint clears Swing"
+    },
+    {
+      "passed": true,
+      "name": "667x375: RoundSettings clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "667x375: RoundBoosts clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "667x375: RoundBoosts clears Sprint"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level label Level fits card"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level label Level scales"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level label XP fits card"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level label XP scales"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level text Level clears XP"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet label Coins fits card"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet label Coins scales"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet label CoinsCaption fits card"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet label CoinsCaption scales"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet text Coins clears CoinsCaption"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer label Title fits card"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer label Title scales"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer label Timer fits card"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer label Timer scales"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer label Detail fits card"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer label Detail scales"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer text Title clears Timer"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer text Title clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer text Timer clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Settings has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Spectate has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Emotes has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Sprint has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Swing has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Level has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Wallet has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Timer has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "667x375: Dock has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Sprint stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Swing stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: RoundHeader stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Boosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Spectate stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Toys stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: RoundBoosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Settings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Emotes stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: RoundSettings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level does not overlap Wallet"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Settings does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Settings does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Settings does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Settings does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Settings does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Spectate does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Spectate does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Spectate does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Spectate does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Emotes does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Emotes does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Emotes does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Boosts does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock clears jump"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Toys clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Toys clears jump"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Sprint clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Sprint clears jump"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Swing clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Swing clears jump"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Sprint clears Swing"
+    },
+    {
+      "passed": true,
+      "name": "844x390: RoundSettings clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "844x390: RoundBoosts clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "844x390: RoundBoosts clears Sprint"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level label Level fits card"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level label Level scales"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level label XP fits card"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level label XP scales"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level text Level clears XP"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet label Coins fits card"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet label Coins scales"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet label CoinsCaption fits card"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet label CoinsCaption scales"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet text Coins clears CoinsCaption"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer label Title fits card"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer label Title scales"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer label Timer fits card"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer label Timer scales"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer label Detail fits card"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer label Detail scales"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer text Title clears Timer"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer text Title clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer text Timer clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Settings has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Spectate has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Emotes has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Sprint has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Swing has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Level has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Wallet has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Timer has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "844x390: Dock has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Sprint stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Swing stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: RoundHeader stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Boosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Spectate stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Toys stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: RoundBoosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Settings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Emotes stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: RoundSettings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level does not overlap Wallet"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Settings does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Settings does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Settings does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Settings does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Settings does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Spectate does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Spectate does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Spectate does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Spectate does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Emotes does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Emotes does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Emotes does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Boosts does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock clears jump"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Toys clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Toys clears jump"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Sprint clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Sprint clears jump"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Swing clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Swing clears jump"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Sprint clears Swing"
+    },
+    {
+      "passed": true,
+      "name": "896x414: RoundSettings clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "896x414: RoundBoosts clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "896x414: RoundBoosts clears Sprint"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level label Level fits card"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level label Level scales"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level label XP fits card"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level label XP scales"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level text Level clears XP"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet label Coins fits card"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet label Coins scales"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet label CoinsCaption fits card"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet label CoinsCaption scales"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet text Coins clears CoinsCaption"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer label Title fits card"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer label Title scales"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer label Timer fits card"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer label Timer scales"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer label Detail fits card"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer label Detail scales"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer text Title clears Timer"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer text Title clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer text Timer clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Settings has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Spectate has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Emotes has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Sprint has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Swing has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Level has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Wallet has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Timer has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "896x414: Dock has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Sprint stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Swing stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: RoundHeader stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Boosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Spectate stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Toys stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: RoundBoosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Settings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Emotes stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: RoundSettings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level does not overlap Wallet"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Settings does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Settings does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Settings does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Settings does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Settings does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Spectate does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Spectate does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Spectate does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Spectate does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Emotes does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Emotes does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Emotes does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Boosts does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Toys clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Toys clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Sprint clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Sprint clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Swing clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Swing clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Sprint clears Swing"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: RoundSettings clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: RoundBoosts clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: RoundBoosts clears Sprint"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level label Level fits card"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level label Level scales"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level label XP fits card"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level label XP scales"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level text Level clears XP"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet label Coins fits card"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet label Coins scales"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet label CoinsCaption fits card"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet label CoinsCaption scales"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet text Coins clears CoinsCaption"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer label Title fits card"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer label Title scales"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer label Timer fits card"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer label Timer scales"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer label Detail fits card"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer label Detail scales"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer text Title clears Timer"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer text Title clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer text Timer clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Settings has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Spectate has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Emotes has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Sprint has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Swing has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Level has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Wallet has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Timer has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1024x768: Dock has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Sprint stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Swing stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: RoundHeader stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Boosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Spectate stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Toys stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: RoundBoosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Settings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Emotes stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: RoundSettings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level does not overlap Wallet"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Settings does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Settings does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Settings does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Settings does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Settings does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Spectate does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Spectate does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Spectate does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Spectate does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Emotes does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Emotes does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Emotes does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Boosts does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Toys clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Toys clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Sprint clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Sprint clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Swing clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Swing clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Sprint clears Swing"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: RoundSettings clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: RoundBoosts clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: RoundBoosts clears Sprint"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level label Level fits card"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level label Level scales"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level label XP fits card"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level label XP scales"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level text Level clears XP"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet label Coins fits card"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet label Coins scales"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet label CoinsCaption fits card"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet label CoinsCaption scales"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet text Coins clears CoinsCaption"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer label Title fits card"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer label Title scales"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer label Timer fits card"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer label Timer scales"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer label Detail fits card"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer label Detail scales"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer text Title clears Timer"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer text Title clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer text Timer clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Settings has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Spectate has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Emotes has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Sprint has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Swing has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Level has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Wallet has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Timer has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1180x820: Dock has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Sprint stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Swing stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: RoundHeader stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Boosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Spectate stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Toys stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: RoundBoosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Settings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Emotes stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: RoundSettings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level does not overlap Wallet"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Settings does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Settings does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Settings does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Settings does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Settings does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Spectate does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Spectate does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Spectate does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Spectate does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Emotes does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Emotes does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Emotes does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Boosts does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Toys clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Toys clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Sprint clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Sprint clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Swing clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Swing clears jump"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Sprint clears Swing"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: RoundSettings clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: RoundBoosts clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: RoundBoosts clears Sprint"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level label Level fits card"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level label Level scales"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level label XP fits card"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level label XP scales"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level text Level clears XP"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet label Coins fits card"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet label Coins scales"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet label CoinsCaption fits card"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet label CoinsCaption scales"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet text Coins clears CoinsCaption"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer label Title fits card"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer label Title scales"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer label Timer fits card"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer label Timer scales"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer label Detail fits card"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer label Detail scales"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer text Title clears Timer"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer text Title clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer text Timer clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Settings has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Spectate has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Emotes has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Sprint has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Swing has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Level has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Wallet has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Timer has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "1366x1024: Dock has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Sprint stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Swing stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: RoundHeader stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Boosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Spectate stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Toys stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: RoundBoosts stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Settings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Emotes stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: RoundSettings stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet stays within safe area"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level does not overlap Wallet"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet does not overlap Dock"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock does not overlap Settings"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Settings does not overlap Spectate"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Settings does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Settings does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Settings does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Settings does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Spectate does not overlap Emotes"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Spectate does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Spectate does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Spectate does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Emotes does not overlap Timer"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Emotes does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Emotes does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer does not overlap Boosts"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Boosts does not overlap Toys"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock clears jump"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Toys clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Toys clears jump"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Sprint clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Sprint clears jump"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Swing clears joystick"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Swing clears jump"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Sprint clears Swing"
+    },
+    {
+      "passed": true,
+      "name": "390x844: RoundSettings clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "390x844: RoundBoosts clears RoundHeader"
+    },
+    {
+      "passed": true,
+      "name": "390x844: RoundBoosts clears Sprint"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level label Level fits card"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level label Level scales"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level label XP fits card"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level label XP scales"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level text Level clears XP"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet label Coins fits card"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet label Coins scales"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet label CoinsCaption fits card"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet label CoinsCaption scales"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet text Coins clears CoinsCaption"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer label Title fits card"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer label Title scales"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer label Timer fits card"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer label Timer scales"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer label Detail fits card"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer label Detail scales"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer text Title clears Timer"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer text Title clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer text Timer clears Detail"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Settings has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Spectate has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Emotes has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Sprint has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Swing has usable 44px target"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Level has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Wallet has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Timer has authored artwork"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock artwork has positive geometry"
+    },
+    {
+      "passed": true,
+      "name": "390x844: Dock has authored artwork"
+    }
+  ],
+  "warnings": [],
+  "passed": true,
+  "checkCount": 792
+}

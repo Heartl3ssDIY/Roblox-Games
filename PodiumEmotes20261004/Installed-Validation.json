@@ -1,0 +1,51 @@
+{
+  "backup": "ServerStorage.PodiumEmotesBackup20261004",
+  "playStarted": false,
+  "scripts": {
+    "1": {
+      "bytes": 26292,
+      "path": "ServerScriptService.PlaygroundEquipmentService",
+      "sandboxed": true,
+      "sourceMatches": true,
+      "capabilities": "RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior"
+    },
+    "2": {
+      "bytes": 10623,
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+      "sandboxed": true,
+      "sourceMatches": true,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+    },
+    "3": {
+      "bytes": 11933,
+      "path": "StarterGui.PlaygroundLeaderboards.Controller",
+      "sandboxed": true,
+      "sourceMatches": true,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    "4": {
+      "bytes": 15239,
+      "path": "StarterGui.PlaygroundPodium.Controller",
+      "sandboxed": true,
+      "sourceMatches": true,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | Animation | AvatarAppearance | Environment | LegacySound | Players | AvatarBehavior"
+    },
+    "5": {
+      "bytes": 22660,
+      "path": "StarterGui.PlaygroundShell.Controller",
+      "sandboxed": true,
+      "sourceMatches": true,
+      "capabilities": "RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior"
+    },
+    "6": {
+      "bytes": 7551,
+      "path": "ReplicatedStorage.PlaygroundCatalog",
+      "sandboxed": true,
+      "sourceMatches": true,
+      "capabilities": "RunClientScript | RunServerScript | Basic"
+    }
+  },
+  "temporaryObjects": [],
+  "passed": true,
+  "savedAt": "2026-10-04T21:46:31Z"
+}

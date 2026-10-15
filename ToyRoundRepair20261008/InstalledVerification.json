@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"backup\":\"ServerStorage.ToyRoundRepairBackup20261008\",\"installed\":[{\"characters\":34359,\"path\":\"ServerScriptService.PlaygroundEquipmentService\",\"capabilities\":\"RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior\"},{\"characters\":33621,\"path\":\"ServerScriptService.PlaygroundToyService\",\"capabilities\":\"RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Physics | UI | Input | Players | AvatarBehavior\"},{\"characters\":11870,\"path\":\"StarterGui.PlaygroundToyHotbar.Controller\",\"capabilities\":\"RunClientScript | RunServerScript | AccessOutsideWrite | CreateInstances | Basic | Audio | Physics | UI | AvatarAppearance | Input | Environment | RemoteEvent | LegacySound | Players | AvatarBehavior\"}],\"playStarted\":false,\"published\":false}"
+    }
+  ],
+  "isError": false
+}

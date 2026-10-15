@@ -1,0 +1,61 @@
+{
+  "installer": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\BritishBulldog20261003\\InstallRuntime.luau",
+  "bytes": 77496,
+  "sourceFiles": {
+    "Rules": {
+      "file": "BritishBulldogRules.lua",
+      "sha256": "e35ae1777825b3a3ed3dae23c2a908f9c0a634f656b5e7eb4af62ae672d35601"
+    },
+    "Service": {
+      "file": "BritishBulldogService.lua",
+      "sha256": "e7181dcfc8be919e01d4072bb2f4ca97691c822ba30992bd6590da47fec6839e"
+    },
+    "Bootstrap": {
+      "file": "BritishBulldogBootstrap.server.lua",
+      "sha256": "e756f1e2cb5aefbcc4c1de72ec514f5ffb47bf492f15cee9d1e0f94ab4c1beb5"
+    },
+    "Admin": {
+      "file": "PlaygroundAdminService.lua",
+      "sha256": "ccf7acb80fde4ffc20a4bb66e1f93d59f670b6a598b8ca76acf7569bac99d8b8"
+    },
+    "Camera": {
+      "file": "BritishBulldogCamera.client.luau",
+      "sha256": "49bae984b5ede8749772ec46f5b77817eb387b6b6e96cdc3215d69387f51d122"
+    },
+    "HUDController": {
+      "file": "BritishBulldogHUD.client.luau",
+      "sha256": "99605ab3b978fee891dcb8ea3cab3728d7c7ce847240cc43412a3c85e6682b24"
+    },
+    "AdminController": {
+      "file": "PlaygroundAdminPanel.client.luau",
+      "sha256": "762e213c2d2b00c1d8af71e9d2e99f5f66586554960615eda2ddbc947eccdac1"
+    },
+    "BuildHUD": {
+      "file": "BuildBritishBulldogHUD.luau",
+      "sha256": "3efccf6dcb9264b9e585039cb5d45fa79d52ceb523f34a30d03e4c9b68ea0233"
+    },
+    "BuildAdmin": {
+      "file": "BuildPlaygroundAdminPanel.luau",
+      "sha256": "a7e30ef06b00748f77eff63c4d73b2a40aba126c8c48bb5b77108995c35e4b7f"
+    }
+  },
+  "scriptCount": 7,
+  "newRemoteCapabilities": [
+    "RemoteEvent"
+  ],
+  "extraScriptCapabilities": {
+    "BritishBulldogBootstrap": [
+      "RemoteEvent"
+    ],
+    "PlaygroundAdminService": [
+      "RemoteEvent"
+    ],
+    "PlaygroundAdminPanel.Controller": [
+      "RemoteEvent",
+      "Input"
+    ]
+  },
+  "existingLayoutsPreserved": true,
+  "existingCapabilitiesPreservedWithRequiredAdditionsOnly": true,
+  "studioExecutionPerformed": false
+}

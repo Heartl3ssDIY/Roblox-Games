@@ -1,0 +1,42 @@
+local p=game.Players.LocalPlayer
+local gui=p:WaitForChild("PlayerGui"):WaitForChild("GamelandAdminPanel")
+local remote=game.ReplicatedStorage:WaitForChild("GamelandAdmin"):WaitForChild("Request")
+gui.Panel.Visible=true gui.Shade.Visible=true
+task.wait(2.5)
+local checks={}
+local function check(value,name) assert(value,name) table.insert(checks,name) end
+local function request(action,scope,id)
+ local result=remote:InvokeServer({action=action,scope=scope,gameId=id or "FootballMayhem"})
+ task.wait(.55)
+ return result
+end
+check(gui.Enabled and p:GetAttribute("GamelandAdmin"),"Owner sees admin launcher")
+local card=gui.Panel.GameList:FindFirstChild("FootballMayhem")
+check(card and card.SelectedTag.Visible,"Minigame list renders selected card")
+check(gui.Panel.StartTest.TextFits and gui.Panel.LobbyScope.TextFits,"Main controls fit their bounds")
+gui.Panel.Visible=false gui.Shade.Visible=false
+check(not p:GetAttribute("InMinigame"),"No automatic minigame on joining")
+check(request("Visit").ok,"Visit command accepted")
+check(p:GetAttribute("AdminInspecting")=="FootballMayhem","Inspection mode is marked")
+check((p.Character.HumanoidRootPart.Position-Vector3.new(5000,5,-4868)).Magnitude<15,"Visit reaches arena without starting round")
+check(request("Start","Self").ok,"Self test can start from inspection")
+check(p:GetAttribute("FootballMayhemStatus")=="Preparing","Test enters preparation")
+check(request("Stop").ok,"Stop works during preparation")
+task.wait(3.3)
+check(not p:GetAttribute("InMinigame"),"Cancelled countdown cannot teleport player afterward")
+check(request("Start","Self").ok,"Self test can restart")
+task.wait(3.5)
+check(p:GetAttribute("FootballMayhemStatus")=="Active" and p.Character:FindFirstChild("FootballMayhemBall"),"Self test teleports and gives a football")
+check(request("Stop").ok,"Active test can be stopped")
+check(not p:GetAttribute("InMinigame"),"Stop restores lobby state")
+check((p.Character.HumanoidRootPart.Position-workspace.GamelandLobby:FindFirstChild("LobbySpawn",true).Position).Magnitude<15,"Stop returns to lobby spawn")
+check(not request("Start","Self","UnknownGame").ok,"Unknown minigame rejected")
+check(not request("Start","BadScope").ok,"Invalid scope rejected")
+check(not request("DeleteEverything").ok,"Unknown action rejected")
+check(request("Start","Lobby").ok,"Lobby-wide test starts with explicit scope")
+task.wait(.5)
+check(request("Stop").ok,"Lobby-wide test stops")
+check(request("Visit").ok,"Arena can be revisited")
+check(request("Lobby").ok,"Return button command accepted")
+check(not p:GetAttribute("InMinigame") and p:GetAttribute("AdminInspecting")==nil,"Return clears inspection state")
+return game:GetService("HttpService"):JSONEncode({passed=#checks,checks=checks})

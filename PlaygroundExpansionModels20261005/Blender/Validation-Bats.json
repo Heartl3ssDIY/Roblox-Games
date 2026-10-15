@@ -1,0 +1,256 @@
+{
+  "passed": true,
+  "count": 10,
+  "assets": [
+    {
+      "id": "B16",
+      "name": "Fossil Slugger",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 17,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 8204,
+        "maxMeshTriangles": 8204,
+        "roundtripDimensions": [
+          0.7742580771446228,
+          0.7742586731910706,
+          3.6120001673698425
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "B17",
+      "name": "Dragon Scale",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 21,
+        "packedReference": true,
+        "liveBevels": 3,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 11994,
+        "maxMeshTriangles": 11994,
+        "roundtripDimensions": [
+          0.8819799423217773,
+          0.7923754751682281,
+          3.6020001769065857
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "B18",
+      "name": "Breakfast Bonker",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 31,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 6144,
+        "maxMeshTriangles": 6144,
+        "roundtripDimensions": [
+          0.7484444379806519,
+          0.748017430305481,
+          3.6220001578330994
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "B19",
+      "name": "Cloud Nine",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 28,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 11890,
+        "maxMeshTriangles": 11890,
+        "roundtripDimensions": [
+          0.8045977652072906,
+          0.8014752864837646,
+          3.6270000338554382
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "B20",
+      "name": "Bamboo Bruiser",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 28,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 11853,
+        "maxMeshTriangles": 11853,
+        "roundtripDimensions": [
+          0.7059999704360962,
+          0.706000566482544,
+          3.6020001769065857
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "B21",
+      "name": "Arcade Combo",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 27,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 8922,
+        "maxMeshTriangles": 8922,
+        "roundtripDimensions": [
+          0.7469177544116974,
+          0.8555059432983398,
+          3.6220001578330994
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "B22",
+      "name": "Honeycomb Hitter",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 24,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 9608,
+        "maxMeshTriangles": 9608,
+        "roundtripDimensions": [
+          0.771142840385437,
+          0.7757583856582642,
+          3.6120001673698425
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "B23",
+      "name": "Clockwork Clobber",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 30,
+        "packedReference": true,
+        "liveBevels": 4,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 10150,
+        "maxMeshTriangles": 10150,
+        "roundtripDimensions": [
+          0.988803893327713,
+          0.868392139673233,
+          3.6120001673698425
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "B24",
+      "name": "Patchwork Popper",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 49,
+        "packedReference": true,
+        "liveBevels": 0,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 17076,
+        "maxMeshTriangles": 17076,
+        "roundtripDimensions": [
+          0.6851526200771332,
+          0.8154186904430389,
+          3.6020001769065857
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    },
+    {
+      "id": "B25",
+      "name": "Prism Champion",
+      "checks": {
+        "blendExists": true,
+        "fbxExists": true,
+        "textureExists": true,
+        "previewExists": true,
+        "editableParts": 25,
+        "packedReference": true,
+        "liveBevels": 1,
+        "localPaths": true,
+        "fbxMeshes": 1,
+        "fbxTriangles": 5796,
+        "maxMeshTriangles": 5796,
+        "roundtripDimensions": [
+          0.8320000171661377,
+          0.7328671813011169,
+          3.642000138759613
+        ],
+        "fbxUVAndMaterials": true
+      },
+      "errors": [],
+      "passed": true
+    }
+  ]
+}
