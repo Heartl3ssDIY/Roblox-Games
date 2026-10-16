@@ -16,3 +16,5 @@ optix7cache.db
 /sync-work/
 /GameSync/.test-work/
 /GameSync/.sync-stage-*/
+/graphify-out/cache/
+/graphify-out/.*

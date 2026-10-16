@@ -1,0 +1,35 @@
+{
+  "corpus_tokens": 8948325,
+  "corpus_words": 6711244,
+  "nodes": 33030,
+  "edges": 78110,
+  "avg_query_tokens": 2248,
+  "reduction_ratio": 3980.6,
+  "per_question": [
+    {
+      "question": "Playground Classics",
+      "query_tokens": 1611,
+      "reduction": 5554.5
+    },
+    {
+      "question": "G-Blox",
+      "query_tokens": 1618,
+      "reduction": 5530.5
+    },
+    {
+      "question": "Anime Combat Units",
+      "query_tokens": 1620,
+      "reduction": 5523.7
+    },
+    {
+      "question": "School assets",
+      "query_tokens": 1643,
+      "reduction": 5446.3
+    },
+    {
+      "question": "To Be Rich",
+      "query_tokens": 4752,
+      "reduction": 1883.1
+    }
+  ]
+}

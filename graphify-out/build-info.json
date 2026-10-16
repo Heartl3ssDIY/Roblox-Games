@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-10-16T00:55:08.101424+00:00",
+  "engine": "graphifyy",
+  "version": "0.9.91",
+  "nodes": 33030,
+  "edges": 78110,
+  "communities": 1908,
+  "semantic_notes_cached": 12,
+  "host_token_usage": null,
+  "cloud_index_verified": false
+}

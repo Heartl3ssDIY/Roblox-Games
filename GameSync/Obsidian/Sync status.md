@@ -11,6 +11,6 @@ Prepared 16 October 2026. The sync manifest records file verification; the task'
 - Only Playground Classics is connected in Studio. Its fresh snapshot contains 81 current scripts (including fixtures), verified against a second Studio read; 448 historical backup copies are inventoried separately. It is not a complete place, model, terrain or editable GUI export.
 - Brainrots' original chat folder `C:\Users\sandt\Documents\Codex\2026-08-26\ca` is absent. Its available sibling assets are backed up; a complete source/place backup cannot be confirmed.
 - Current unpublished work in the other games cannot be compared with live Studio here. Their notes preserve reported work and outstanding checks instead of claiming all places are saved or published.
-- Graphify workspace access/indexing remains unverified because its tools are unavailable in this chat.
+- Graphify Cloud workspace access/indexing remains unverified because its tools are unavailable in this chat. The local Graphify engine is installed with the code-and-current-notes scope described in [[Working setup]].
 
 [Sync manifest](https://github.com/Heartl3ssDIY/Roblox-Games/tree/main/GameSync/manifest.json) · [Chat evidence inventory](https://github.com/Heartl3ssDIY/Roblox-Games/tree/main/GameSync/chat-inventory.json) · [Studio snapshot](https://github.com/Heartl3ssDIY/Roblox-Games/tree/main/GameSync/StudioSnapshots/Playground%20Classics)

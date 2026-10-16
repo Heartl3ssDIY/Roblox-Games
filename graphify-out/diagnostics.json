@@ -1,0 +1,214 @@
+{
+  "node_count": 32682,
+  "unverified_node_count": 0,
+  "raw_edge_count": 80942,
+  "non_object_edges": 0,
+  "missing_endpoint_edges": 0,
+  "dangling_endpoint_edges": 5036,
+  "external_reference_edges": 102,
+  "self_loop_edges": 223,
+  "valid_candidate_edges": 75804,
+  "exact_duplicate_edges": 0,
+  "directed_unique_endpoint_pairs": 75281,
+  "directed_same_endpoint_collapsed_edges": 523,
+  "undirected_unique_endpoint_pairs": 75246,
+  "undirected_same_endpoint_collapsed_edges": 558,
+  "same_endpoint_group_count": 515,
+  "relation_variant_groups": 427,
+  "source_file_variant_groups": 0,
+  "source_location_variant_groups": 70,
+  "context_variant_groups": 64,
+  "post_build_graph_type": "Graph",
+  "post_build_node_count": 33030,
+  "post_build_edge_count": 78748,
+  "post_build_error": "",
+  "producer_suppression": {
+    "path": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\Btns\\sync-work\\graphify-venv\\Lib\\site-packages\\graphify\\extract.py",
+    "total_sites": 12,
+    "sites": [
+      {
+        "line": 1785,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2349,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 2351,
+        "name": "seen_doc_refs",
+        "tuple_arity": 0,
+        "sample": "seen_doc_refs: set[str] = set()"
+      },
+      {
+        "line": 3018,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = {n[\"id\"] for n in nodes}"
+      },
+      {
+        "line": 3165,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids = {n.get(\"id\") for n in nodes}"
+      },
+      {
+        "line": 4175,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 4361,
+        "name": "seen_keys",
+        "tuple_arity": 0,
+        "sample": "seen_keys: set[tuple] = set()"
+      },
+      {
+        "line": 7505,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 7613,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 7692,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 8207,
+        "name": "seen_ids",
+        "tuple_arity": 0,
+        "sample": "seen_ids: set[str] = set()"
+      },
+      {
+        "line": 8208,
+        "name": "seen_edges",
+        "tuple_arity": 4,
+        "sample": "seen_edges: set[tuple[str, str, str, str | None]] = set()"
+      }
+    ],
+    "error": ""
+  },
+  "examples": [
+    {
+      "source": "rock_lii_blender_rbxmonkey_addon_animation_serialization_bake_full",
+      "target": "rock_lii_blender_rbxmonkey_addon_animation_ir_keyframepayload",
+      "edge_count": 3,
+      "relations": [
+        "calls",
+        "references",
+        "uses"
+      ],
+      "source_files": [
+        "Rock Lii Blender/rbxmonkey_addon/animation/serialization.py"
+      ],
+      "source_locations": [
+        "L648",
+        "L704"
+      ],
+      "contexts": [
+        "",
+        "call",
+        "generic_arg"
+      ]
+    },
+    {
+      "source": "rock_lii_blender_rbxmonkey_addon_animation_serialization_bake_single_frame",
+      "target": "rock_lii_blender_rbxmonkey_addon_animation_ir_keyframepayload",
+      "edge_count": 3,
+      "relations": [
+        "calls",
+        "references",
+        "uses"
+      ],
+      "source_files": [
+        "Rock Lii Blender/rbxmonkey_addon/animation/serialization.py"
+      ],
+      "source_locations": [
+        "L715",
+        "L738"
+      ],
+      "contexts": [
+        "",
+        "call",
+        "generic_arg"
+      ]
+    },
+    {
+      "source": "rock_lii_blender_rbxmonkey_addon_animation_serialization_bake_hybrid",
+      "target": "rock_lii_blender_rbxmonkey_addon_animation_ir_keyframepayload",
+      "edge_count": 3,
+      "relations": [
+        "calls",
+        "references",
+        "uses"
+      ],
+      "source_files": [
+        "Rock Lii Blender/rbxmonkey_addon/animation/serialization.py"
+      ],
+      "source_locations": [
+        "L1178",
+        "L742"
+      ],
+      "contexts": [
+        "",
+        "call",
+        "generic_arg"
+      ]
+    },
+    {
+      "source": "rock_lii_blender_rbxmonkey_addon_rig_cage_solver_evaluate_rbf",
+      "target": "rock_lii_blender_rbxmonkey_addon_rig_cage_solver_py_vec3",
+      "edge_count": 3,
+      "relations": [
+        "references"
+      ],
+      "source_files": [
+        "Rock Lii Blender/rbxmonkey_addon/rig/cage_solver.py"
+      ],
+      "source_locations": [
+        "L546"
+      ],
+      "contexts": [
+        "generic_arg",
+        "parameter_type",
+        "return_type"
+      ]
+    },
+    {
+      "source": "rock_lii_blender_rbxmonkey_addon_rig_part_matching_find_matching_part",
+      "target": "rock_lii_blender_rbxmonkey_addon_rig_part_matching_find_matching_part_fp_dist",
+      "edge_count": 3,
+      "relations": [
+        "calls",
+        "contains",
+        "indirect_call"
+      ],
+      "source_files": [
+        "Rock Lii Blender/rbxmonkey_addon/rig/part_matching.py"
+      ],
+      "source_locations": [
+        "L318",
+        "L323",
+        "L326"
+      ],
+      "contexts": [
+        "",
+        "argument",
+        "call"
+      ]
+    }
+  ]
+}

@@ -16,6 +16,8 @@ Start with the [game index](GameSync/Obsidian/Roblox%20Games.md) for the seven g
 
 [School assets](GameSync/Obsidian/School%20assets.md) and [shared UI artwork](GameSync/Obsidian/Shared%20assets.md) link the supporting work across games.
 
+The local [Graphify report](graphify-out/GRAPH_REPORT.md), [interactive graph](graphify-out/graph.html) and [graph data](graphify-out/graph.json) connect the game code with the current notes. Open the HTML file locally for the interactive view. The selected scope is saved in `.graphifyignore`: code and configuration files plus `GameSync/Obsidian/*.md`, with media and dependencies excluded. Historical exports remain part of the graph; they do not establish the current published game state. See the report's coverage notes before relying on individual code relationships.
+
 The authoritative working folder is `C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\Btns`. Existing sibling asset folders retain their original local working paths; `GameSync/Assets` contains backup snapshots. The live Obsidian vault is `C:\Users\sandt\Documents\Local Projects\Obsidian_Roblox\Roblox Games`; `GameSync/Obsidian` is its versioned note backup.
 
 See [sync instructions](GameSync/README.md) before refreshing snapshots. Refreshing files does not commit or push automatically. [Working setup](GameSync/Obsidian/Working%20setup.md) records connection limitations, including Graphify access.
