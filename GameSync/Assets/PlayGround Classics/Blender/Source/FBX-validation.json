@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "B01",
+    "meshes": 1,
+    "triangles": 13748,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6190254986286163,
+      0.6195718944072723,
+      3.6630001068115234
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B02",
+    "meshes": 1,
+    "triangles": 5550,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6460000276565552,
+      0.6460005939006805,
+      3.54899999499321
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B03",
+    "meshes": 1,
+    "triangles": 5430,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6634423136711121,
+      0.6833082735538483,
+      3.535999983549118
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B04",
+    "meshes": 1,
+    "triangles": 5298,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.68146151304245,
+      0.6814620792865753,
+      3.535999983549118
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B05",
+    "meshes": 1,
+    "triangles": 6602,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.7179999947547913,
+      0.6532148718833923,
+      3.5409999787807465
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B06",
+    "meshes": 1,
+    "triangles": 12208,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.7260000109672546,
+      0.72600057721138,
+      3.5880000293254852
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B07",
+    "meshes": 1,
+    "triangles": 7454,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.7609999775886536,
+      0.7610005438327789,
+      3.538500040769577
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B08",
+    "meshes": 1,
+    "triangles": 4376,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6957692503929138,
+      0.6957698464393616,
+      3.590000182390213
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B09",
+    "meshes": 1,
+    "triangles": 6514,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6460000276565552,
+      0.6727472841739655,
+      3.535999983549118
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B10",
+    "meshes": 1,
+    "triangles": 5184,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6399999856948853,
+      0.586200624704361,
+      3.5050001740455627
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B11",
+    "meshes": 1,
+    "triangles": 8798,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.7319999933242798,
+      0.7320005595684052,
+      3.535999983549118
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B12",
+    "meshes": 1,
+    "triangles": 9382,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6618250012397766,
+      0.717413067817688,
+      3.5750002562999725
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B13",
+    "meshes": 1,
+    "triangles": 5826,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6714901924133301,
+      0.6629586219787598,
+      3.535999983549118
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B14",
+    "meshes": 1,
+    "triangles": 8090,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6778929829597473,
+      0.6767537295818329,
+      3.549499958753586
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "B15",
+    "meshes": 1,
+    "triangles": 6342,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6617742776870728,
+      0.6694218814373016,
+      3.5529999434947968
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "C01",
+    "meshes": 1,
+    "triangles": 6994,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.0299999713897705,
+      0.47800031304359436,
+      2.0299999713897705
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D01",
+    "meshes": 1,
+    "triangles": 3364,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.191699981689453,
+      1.8007553815841675,
+      2.102474559098482
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D02",
+    "meshes": 1,
+    "triangles": 6468,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.9700000286102295,
+      2.301100254058838,
+      1.9850005190819502
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D03",
+    "meshes": 1,
+    "triangles": 6808,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.440000057220459,
+      1.856600284576416,
+      1.804855016471123
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D04",
+    "meshes": 1,
+    "triangles": 5660,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      3.239999771118164,
+      0.8400005102157593,
+      3.2698219502344728
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D05",
+    "meshes": 1,
+    "triangles": 3656,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.8067288398742676,
+      1.6307045221328735,
+      2.838586926460266
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D06",
+    "meshes": 1,
+    "triangles": 11552,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.059999942779541,
+      1.7400004863739014,
+      2.775000469010166
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D07",
+    "meshes": 1,
+    "triangles": 8876,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.8899999856948853,
+      1.8900004625320435,
+      2.8822332968128137
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D08",
+    "meshes": 1,
+    "triangles": 6464,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.3782248497009277,
+      1.5750004649162292,
+      2.620000292547047
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D09",
+    "meshes": 1,
+    "triangles": 10044,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.8696051836013794,
+      1.8500003814697266,
+      2.0150004364550114
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D10",
+    "meshes": 1,
+    "triangles": 2460,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.340000033378601,
+      1.3400004506111145,
+      2.4137266773788966
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D11",
+    "meshes": 1,
+    "triangles": 2064,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.180000066757202,
+      1.3427117466926575,
+      2.6300004636868834
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "D12",
+    "meshes": 1,
+    "triangles": 11112,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.7799999713897705,
+      1.780000388622284,
+      2.650000240366822
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "E01",
+    "meshes": 1,
+    "triangles": 15226,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6357712745666504,
+      0.655058354139328,
+      3.535999983549118
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "E02",
+    "meshes": 1,
+    "triangles": 8498,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6460000276565552,
+      0.6888785660266876,
+      3.535999983549118
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "E03",
+    "meshes": 1,
+    "triangles": 15374,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.7879999876022339,
+      0.8030779659748077,
+      3.9026012122631073
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "E04",
+    "meshes": 1,
+    "triangles": 6974,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.6816110014915466,
+      0.6747029721736908,
+      3.535999983549118
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "E05",
+    "meshes": 1,
+    "triangles": 7550,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.7386943399906158,
+      0.7387454509735107,
+      3.5589999854564667
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "E06",
+    "meshes": 1,
+    "triangles": 12550,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.725980281829834,
+      0.7259808480739594,
+      3.656000107526779
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M01",
+    "meshes": 1,
+    "triangles": 5472,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.8882895708084106,
+      1.8882898688316345,
+      1.8882898446172476
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M02",
+    "meshes": 1,
+    "triangles": 6496,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.9259714484214783,
+      1.9260002970695496,
+      1.9260003920644522
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M03",
+    "meshes": 1,
+    "triangles": 3120,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.7680000066757202,
+      0.7680004239082336,
+      2.607499897480011
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M04",
+    "meshes": 1,
+    "triangles": 3136,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.6820000410079956,
+      1.6820003390312195,
+      1.740000265762319
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M05",
+    "meshes": 1,
+    "triangles": 5128,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.7010000348091125,
+      0.8950003683567047,
+      2.1924999728798866
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M06",
+    "meshes": 1,
+    "triangles": 3268,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.2980000972747803,
+      1.2980003356933594,
+      2.1725001139566302
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M07",
+    "meshes": 1,
+    "triangles": 4612,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.2999999523162842,
+      1.0175003707408905,
+      2.1125000715255737
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M08",
+    "meshes": 1,
+    "triangles": 3440,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.5768868923187256,
+      1.3800002932548523,
+      1.9737611934542656
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M09",
+    "meshes": 1,
+    "triangles": 6648,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.1799999475479126,
+      2.1937782168388367,
+      2.096800185739994
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M10",
+    "meshes": 1,
+    "triangles": 4772,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.0800000429153442,
+      2.268500328063965,
+      2.141138419508934
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M11",
+    "meshes": 1,
+    "triangles": 4872,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.523555040359497,
+      1.421967089176178,
+      1.335000118240714
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M12",
+    "meshes": 1,
+    "triangles": 1756,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.284000039100647,
+      1.2840003371238708,
+      1.8300002667197077
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M13",
+    "meshes": 1,
+    "triangles": 4340,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.5119999647140503,
+      1.5760003328323364,
+      1.9811414331197739
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M14",
+    "meshes": 1,
+    "triangles": 3180,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      0.9100000262260437,
+      0.9100004136562347,
+      2.418304443359375
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "M15",
+    "meshes": 1,
+    "triangles": 5688,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.0799999237060547,
+      2.080000162124634,
+      1.3410528162494302
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P01",
+    "meshes": 2,
+    "triangles": 36686,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.1500000953674316,
+      2.263209819793701,
+      1.9831089191138744
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P02",
+    "meshes": 1,
+    "triangles": 6420,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.3899999856948853,
+      2.217000126838684,
+      1.7280004518641618
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P03",
+    "meshes": 1,
+    "triangles": 10528,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.6630810499191284,
+      1.364000380039215,
+      2.4650004683062434
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P04",
+    "meshes": 1,
+    "triangles": 9280,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.4107484817504883,
+      2.108221173286438,
+      1.7420707649130804
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P05",
+    "meshes": 1,
+    "triangles": 9968,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.5484259128570557,
+      2.0400314331054688,
+      2.276595308890606
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P06",
+    "meshes": 1,
+    "triangles": 15500,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      3.1323506832122803,
+      1.0170002281665802,
+      1.8424484878778458
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P07",
+    "meshes": 1,
+    "triangles": 10912,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.2340296506881714,
+      1.4160003066062927,
+      1.7280002878978848
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P08",
+    "meshes": 1,
+    "triangles": 9528,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.4700000286102295,
+      1.4350003600120544,
+      2.2351708631031215
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P09",
+    "meshes": 1,
+    "triangles": 11628,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.5988813042640686,
+      1.793000340461731,
+      2.1043342370539904
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P10",
+    "meshes": 1,
+    "triangles": 11092,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.694714069366455,
+      1.5010003447532654,
+      1.7500002542510629
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P11",
+    "meshes": 1,
+    "triangles": 13980,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.7544589042663574,
+      1.7454208731651306,
+      1.9726563999429345
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P12",
+    "meshes": 1,
+    "triangles": 13976,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.7799999713897705,
+      1.7800003290176392,
+      2.1089386716485023
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P13",
+    "meshes": 1,
+    "triangles": 13816,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.2400000095367432,
+      1.6990002989768982,
+      2.08749096468091
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P14",
+    "meshes": 1,
+    "triangles": 9644,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.6200000047683716,
+      1.143520176410675,
+      1.91315358877182
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P15",
+    "meshes": 1,
+    "triangles": 15848,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.4901723861694336,
+      1.9714417457580566,
+      2.1629332777676353
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P16",
+    "meshes": 1,
+    "triangles": 15276,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.3421645164489746,
+      1.2625003457069397,
+      2.3496359130367637
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P17",
+    "meshes": 1,
+    "triangles": 12968,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.464611530303955,
+      2.1178215742111206,
+      2.2100004583558928
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P18",
+    "meshes": 1,
+    "triangles": 6592,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.6624999642372131,
+      1.0860003232955933,
+      1.970000196248293
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P19",
+    "meshes": 1,
+    "triangles": 14820,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      2.3767940998077393,
+      0.7890003323554993,
+      2.064710410311818
+    ],
+    "issues": [],
+    "pass": true
+  },
+  {
+    "id": "P20",
+    "meshes": 1,
+    "triangles": 11952,
+    "boundaryEdges": 0,
+    "nonmanifoldEdges": 0,
+    "degenerateFaces": 0,
+    "badUVs": 0,
+    "dimensions": [
+      1.6318594217300415,
+      1.2140505909919739,
+      2.0260000713169575
+    ],
+    "issues": [],
+    "pass": true
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "id": "P06",
+  "name": "Traffic Crab",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p06-traffic-crab.png",
+  "brief": "A cute squat blue crab with two oversized rounded claws, four visible short sturdy side legs and a small orange traffic-cone hat with one cream stripe. Expressive large eyes emerge at the hat base. All appendages thick enough to model.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p06-traffic-crab.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p06-traffic-crab.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p06-traffic-crab-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p06-traffic-crab.png",
+  "parts": 40,
+  "triangles": 15500,
+  "meshes": 1,
+  "maxMeshTriangles": 15500,
+  "dimensions": [
+    3.1323506832122803,
+    1.0169999599456787,
+    1.8424482345581055
+  ],
+  "boundsMin": [
+    -1.5661753416061401,
+    -0.49699997901916504,
+    0.11129123717546463
+  ],
+  "boundsMax": [
+    1.5661753416061401,
+    0.5199999809265137,
+    1.9537395238876343
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    3.1323506832122803,
+    1.0169999599456787,
+    1.8424482345581055
+  ]
+}

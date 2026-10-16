@@ -1,0 +1,51 @@
+{
+  "id": "P20",
+  "name": "Royal Slime",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p20-royal-slime.png",
+  "brief": "A squat opaque cobalt-blue slime pet with one rounded blob body, two broad tiny hand nubs and a scalloped base, big friendly eyes, and a small chunky gold crown with three blunt points and one pink gem. No transparency, droplets, detached parts or glow.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p20-royal-slime.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p20-royal-slime.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p20-royal-slime-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p20-royal-slime.png",
+  "parts": 24,
+  "triangles": 11952,
+  "meshes": 1,
+  "maxMeshTriangles": 11952,
+  "dimensions": [
+    1.6318594217300415,
+    1.21405029296875,
+    2.0260000228881836
+  ],
+  "boundsMin": [
+    -0.8159288763999939,
+    -0.5730000138282776,
+    0.05999999865889549
+  ],
+  "boundsMax": [
+    0.8159305453300476,
+    0.6410502195358276,
+    2.0859999656677246
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.6318594217300415,
+    1.21405029296875,
+    2.0260000228881836
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "P10",
+  "name": "Cloud Sheep",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p10-cloud-sheep.png",
+  "brief": "A tiny sheep with one puffy opaque pale-blue cloud-shaped wool body made of six large rounded lobes, cream face, two navy curled horns and four short dark feet. Small attached yellow crescent collar charm. No floating cloud wisps.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p10-cloud-sheep.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p10-cloud-sheep.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p10-cloud-sheep-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p10-cloud-sheep.png",
+  "parts": 37,
+  "triangles": 11092,
+  "meshes": 1,
+  "maxMeshTriangles": 11092,
+  "dimensions": [
+    1.694714069366455,
+    1.5010000467300415,
+    1.75
+  ],
+  "boundsMin": [
+    -0.8473570346832275,
+    -0.6710000038146973,
+    -0.009999990463256836
+  ],
+  "boundsMax": [
+    0.8473570346832275,
+    0.8300000429153442,
+    1.7400000095367432
+  ],
+  "paletteColors": 8,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

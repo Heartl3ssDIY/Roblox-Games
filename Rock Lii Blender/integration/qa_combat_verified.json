@@ -1,0 +1,156 @@
+{
+  "finishedAt": 1790695204,
+  "ability": {
+    "initialHealth": 107,
+    "rockDamageEvents": [],
+    "finalHealth": 107,
+    "duration": 7.079299499979243,
+    "firstContactDamage": 50,
+    "events": [
+      {
+        "before": 258,
+        "after": 208,
+        "time": 33642.229832199984,
+        "damage": 50
+      },
+      {
+        "before": 208,
+        "after": 158,
+        "time": 33643.07967170002,
+        "damage": 50
+      }
+    ],
+    "secondContactDamage": 50,
+    "returnDistance": 0,
+    "maxRouteDistance": 43.39183044433594
+  },
+  "healthEvents": [],
+  "checks": [
+    {
+      "passed": true,
+      "name": "Normal attack deals three damage ticks",
+      "detail": [
+        {
+          "before": 258,
+          "after": 238,
+          "time": 33640.779626099975,
+          "damage": 20
+        },
+        {
+          "before": 238,
+          "after": 218,
+          "time": 33641.130472699995,
+          "damage": 20
+        },
+        {
+          "before": 218,
+          "after": 198,
+          "time": 33641.5806327,
+          "damage": 20
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "name": "Normal attack totals3x20 damage",
+      "detail": 60
+    },
+    {
+      "passed": true,
+      "name": "Punch 1 deals20",
+      "detail": 20
+    },
+    {
+      "passed": true,
+      "name": "Punch 2 deals20",
+      "detail": 20
+    },
+    {
+      "passed": true,
+      "name": "Punch 3 deals20",
+      "detail": 20
+    },
+    {
+      "passed": true,
+      "name": "Drunken Fist starts"
+    },
+    {
+      "passed": true,
+      "name": "Ability cannot be reused in same round",
+      "detail": "Already used this round"
+    },
+    {
+      "passed": true,
+      "name": "Combat pause freezes ability route",
+      "detail": 0
+    },
+    {
+      "passed": true,
+      "name": "Combat pause preserves ability clock",
+      "detail": 0
+    },
+    {
+      "passed": true,
+      "name": "Ability lasts seven match seconds",
+      "detail": 7.079299499979243
+    },
+    {
+      "passed": true,
+      "name": "Ability travels through arena",
+      "detail": 43.39183044433594
+    },
+    {
+      "passed": true,
+      "name": "Ability returns to its starting position",
+      "detail": 0
+    },
+    {
+      "passed": true,
+      "name": "Rock remains immune during ability",
+      "detail": []
+    },
+    {
+      "passed": true,
+      "name": "First fist entry deals50 without contact spam",
+      "detail": 50
+    },
+    {
+      "passed": true,
+      "name": "Fist exit and reentry deals another50",
+      "detail": 50
+    },
+    {
+      "passed": true,
+      "name": "Cancel clears ability state",
+      "detail": false
+    },
+    {
+      "passed": true,
+      "name": "No round/reward callback fired",
+      "detail": []
+    }
+  ],
+  "punches": [
+    {
+      "before": 258,
+      "after": 238,
+      "time": 33640.779626099975,
+      "damage": 20
+    },
+    {
+      "before": 238,
+      "after": 218,
+      "time": 33641.130472699995,
+      "damage": 20
+    },
+    {
+      "before": 218,
+      "after": 198,
+      "time": 33641.5806327,
+      "damage": 20
+    }
+  ],
+  "unexpectedRoundCallbacks": [],
+  "passed": true,
+  "startedAt": 1790695195
+}

@@ -1,0 +1,51 @@
+{
+  "id": "B06",
+  "name": "Mudslinger",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b06-mudslinger.png",
+  "brief": "Olive-green baseball bat with a chunky brown mud-coated rounded upper barrel, three large sculpted attached mud drips, cream small inset panel, navy collar and dark rubber grip. Matches a toy mud blaster palette.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b06-mudslinger.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b06-mudslinger.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b06-mudslinger-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b06-mudslinger.png",
+  "parts": 12,
+  "triangles": 12208,
+  "meshes": 1,
+  "maxMeshTriangles": 12208,
+  "dimensions": [
+    0.7260000109672546,
+    0.7260000109672546,
+    3.5880000591278076
+  ],
+  "boundsMin": [
+    -0.3630000054836273,
+    -0.3630000054836273,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3630000054836273,
+    0.3630000054836273,
+    3.131999969482422
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.7260000109672546,
+    0.7260000109672546,
+    3.5880000591278076
+  ]
+}

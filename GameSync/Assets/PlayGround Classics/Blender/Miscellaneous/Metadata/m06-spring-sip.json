@@ -1,0 +1,41 @@
+{
+  "id": "M06",
+  "name": "Spring Sip",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m06-spring-sip.png",
+  "brief": "A pear-shaped squat potion bottle with opaque lime-green liquid, navy thick base and stopper, a large white upward-chevron emblem and a wide yellow spring coil encircling the bottle neck. Single clear silhouette, no floating effects.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m06-spring-sip.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m06-spring-sip.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m06-spring-sip-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m06-spring-sip.png",
+  "parts": 15,
+  "triangles": 3268,
+  "meshes": 1,
+  "maxMeshTriangles": 3268,
+  "dimensions": [
+    1.2980000972747803,
+    1.2979999780654907,
+    2.172499895095825
+  ],
+  "boundsMin": [
+    -0.6490000486373901,
+    -0.6579999923706055,
+    0.004999999888241291
+  ],
+  "boundsMax": [
+    0.6490000486373901,
+    0.6399999856948853,
+    2.177500009536743
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "UseAttachment": [
+      0.0,
+      0.0,
+      1.9800000190734863
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

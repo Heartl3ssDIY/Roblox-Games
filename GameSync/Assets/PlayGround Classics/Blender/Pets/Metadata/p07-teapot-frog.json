@@ -1,0 +1,46 @@
+{
+  "id": "P07",
+  "name": "Teapot Frog",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p07-teapot-frog.png",
+  "brief": "A plump lime-green frog whose squat body is a cream teapot with a short rounded spout on the left and broad handle on the right, green frog head emerging from the top like a lid, two round eyes and four little green feet. One coherent whimsical creature.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p07-teapot-frog.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p07-teapot-frog.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p07-teapot-frog-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p07-teapot-frog.png",
+  "parts": 40,
+  "triangles": 10912,
+  "meshes": 1,
+  "maxMeshTriangles": 10912,
+  "dimensions": [
+    2.234029769897461,
+    1.4160000085830688,
+    1.7280000448226929
+  ],
+  "boundsMin": [
+    -1.097999930381775,
+    -0.656000018119812,
+    0.009999990463256836
+  ],
+  "boundsMax": [
+    1.1360297203063965,
+    0.7599999904632568,
+    1.7380000352859497
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

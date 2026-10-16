@@ -1,0 +1,51 @@
+{
+  "id": "E06",
+  "name": "Birthday Wish",
+  "category": "Event-Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e06-birthday-wish.png",
+  "brief": "A birthday cake-and-candles BASEBALL BAT: long cream-frosted rounded bat barrel with broad attached pink frosting drips and chunky cyan sprinkle inlays; at the blunt upper end three short thick pastel candles sit attached in a neat cluster, each with a tiny solid yellow teardrop flame. Lavender collar, pink wrapped grip and gold knob. The underlying silhouette must remain a full baseball bat, not a cake hammer. No text, logos, numbers or loose confetti.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e06-birthday-wish.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e06-birthday-wish.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e06-birthday-wish-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e06-birthday-wish.png",
+  "parts": 29,
+  "triangles": 12550,
+  "meshes": 1,
+  "maxMeshTriangles": 12550,
+  "dimensions": [
+    0.725980281829834,
+    0.725980281829834,
+    3.6560001373291016
+  ],
+  "boundsMin": [
+    -0.362990140914917,
+    -0.362990140914917,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.362990140914917,
+    0.362990140914917,
+    3.200000047683716
+  ],
+  "paletteColors": 9,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      2.6796000003814697
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.725980281829834,
+    0.725980281829834,
+    3.6560001373291016
+  ]
+}

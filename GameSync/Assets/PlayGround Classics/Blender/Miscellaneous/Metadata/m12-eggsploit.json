@@ -1,0 +1,41 @@
+{
+  "id": "M12",
+  "name": "Eggsploit",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m12-eggsploit.png",
+  "brief": "One oversized intact creamy-white cartoon chicken egg with a warm golden lower cel-shaded edge, a small blue protective sticker shaped like a simple oval patch and a glossy highlight. Rounded pear-like egg shape, no face, no writing, no cracks or loose shell pieces.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m12-eggsploit.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m12-eggsploit.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m12-eggsploit-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m12-eggsploit.png",
+  "parts": 4,
+  "triangles": 1756,
+  "meshes": 1,
+  "maxMeshTriangles": 1756,
+  "dimensions": [
+    1.284000039100647,
+    1.284000039100647,
+    1.8300000429153442
+  ],
+  "boundsMin": [
+    -0.6420000195503235,
+    -0.6420000195503235,
+    0.0
+  ],
+  "boundsMax": [
+    0.6420000195503235,
+    0.6420000195503235,
+    1.8300000429153442
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "ThrowAttachment": [
+      0.0,
+      0.0,
+      0.8299999833106995
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

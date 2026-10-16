@@ -1,0 +1,41 @@
+{
+  "id": "M11",
+  "name": "Paint Splash",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m11-paint-splash.png",
+  "brief": "One squat paint bucket with thick navy rim, a sturdy cream handle attached on both sides, glossy cyan paint filling the top and two thick attached cyan drips over a magenta bucket body. One plain cyan splat emblem, no text, no detached splashes.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m11-paint-splash.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m11-paint-splash.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m11-paint-splash-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m11-paint-splash.png",
+  "parts": 16,
+  "triangles": 4872,
+  "meshes": 1,
+  "maxMeshTriangles": 4872,
+  "dimensions": [
+    1.523555040359497,
+    1.421966791152954,
+    1.334999918937683
+  ],
+  "boundsMin": [
+    -0.7617481350898743,
+    -0.7619668245315552,
+    0.029999999329447746
+  ],
+  "boundsMax": [
+    0.7618069052696228,
+    0.6600000262260437,
+    1.3649998903274536
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "ThrowAttachment": [
+      0.0,
+      0.0,
+      0.6800000071525574
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

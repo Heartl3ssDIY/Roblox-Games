@@ -1,0 +1,41 @@
+{
+  "id": "D09",
+  "name": "Egg Basket",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d09-egg-basket.png",
+  "brief": "One squat cream-and-tan woven Easter basket with one thick arched pink handle and three large painted pastel eggs nestled inside. Egg motifs are simple mint stripes and lavender dots. Solid shapes, no grass strands or detached eggs.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d09-egg-basket.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d09-egg-basket.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d09-egg-basket-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d09-egg-basket.png",
+  "parts": 64,
+  "triangles": 10044,
+  "meshes": 1,
+  "maxMeshTriangles": 10044,
+  "dimensions": [
+    1.8696051836013794,
+    1.850000023841858,
+    2.015000104904175
+  ],
+  "boundsMin": [
+    -0.9348025918006897,
+    -0.925000011920929,
+    0.05999999865889549
+  ],
+  "boundsMax": [
+    0.9348025918006897,
+    0.925000011920929,
+    2.075000047683716
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

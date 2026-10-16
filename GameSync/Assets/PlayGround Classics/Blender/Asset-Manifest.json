@@ -1,0 +1,3161 @@
+[
+  {
+    "id": "B01",
+    "name": "Starter Slugger",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b01-starter-slugger.png",
+    "brief": "Plain warm honey-wood baseball bat with a smooth thick rounded barrel, narrow tapered shaft, short dark navy tape grip and a small rounded knob. Two broad simple wood-grain accents only. No decorations: the default starter everyone receives.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b01-starter-slugger.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b01-starter-slugger.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b01-starter-slugger-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b01-starter-slugger.png",
+    "parts": 5,
+    "triangles": 13748,
+    "meshes": 1,
+    "maxMeshTriangles": 13748,
+    "dimensions": [
+      0.619025468826294,
+      0.619571328163147,
+      3.6630001068115234
+    ],
+    "boundsMin": [
+      -0.30927979946136475,
+      -0.3096020519733429,
+      -0.453000009059906
+    ],
+    "boundsMax": [
+      0.3097456991672516,
+      0.3099692463874817,
+      3.2100000381469727
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.2100000381469727
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.619025468826294,
+      0.619571328163147,
+      3.6630001068115234
+    ]
+  },
+  {
+    "id": "B02",
+    "name": "Schoolyard Alloy",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b02-schoolyard-alloy.png",
+    "brief": "Brushed pale silver aluminium baseball bat, softly chamfered thick barrel, cobalt-blue rubber grip, navy end cap and one blue collar stripe. Clean economical toy sports equipment.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b02-schoolyard-alloy.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b02-schoolyard-alloy.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b02-schoolyard-alloy-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b02-schoolyard-alloy.png",
+    "parts": 10,
+    "triangles": 5550,
+    "meshes": 1,
+    "maxMeshTriangles": 5550,
+    "dimensions": [
+      0.6460000276565552,
+      0.6460000276565552,
+      3.5490000247955322
+    ],
+    "boundsMin": [
+      -0.3230000138282776,
+      -0.3230000138282776,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3230000138282776,
+      0.3230000138282776,
+      3.0929999351501465
+    ],
+    "paletteColors": 3,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6460000276565552,
+      0.6460000276565552,
+      3.5490000247955322
+    ],
+    "exportedFromEditableSource": true
+  },
+  {
+    "id": "B03",
+    "name": "Varsity Victory",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b03-varsity-victory.png",
+    "brief": "Sporty baseball bat with a red barrel, broad ivory diagonal varsity stripe, dark navy collar and ivory-wrapped grip. A tiny simple shield-shaped blue inset on the upper barrel, no letters or numbers.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b03-varsity-victory.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b03-varsity-victory.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b03-varsity-victory-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b03-varsity-victory.png",
+    "parts": 10,
+    "triangles": 5430,
+    "meshes": 1,
+    "maxMeshTriangles": 5430,
+    "dimensions": [
+      0.6634423136711121,
+      0.6833077073097229,
+      3.5360000133514404
+    ],
+    "boundsMin": [
+      -0.3230000138282776,
+      -0.3603076934814453,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3404422998428345,
+      0.3230000138282776,
+      3.0799999237060547
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6634423136711121,
+      0.6833077073097229,
+      3.5360000133514404
+    ]
+  },
+  {
+    "id": "B04",
+    "name": "Street Cone",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b04-street-cone.png",
+    "brief": "Baseball bat with a long rounded orange barrel interrupted by two thick ivory reflective bands, like traffic-cone-inspired sports equipment. Narrow navy shaft and orange rubber knob. Still clearly a baseball bat, not a complete traffic cone.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b04-street-cone.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b04-street-cone.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b04-street-cone-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b04-street-cone.png",
+    "parts": 9,
+    "triangles": 5298,
+    "meshes": 1,
+    "maxMeshTriangles": 5298,
+    "dimensions": [
+      0.68146151304245,
+      0.68146151304245,
+      3.5360000133514404
+    ],
+    "boundsMin": [
+      -0.340730756521225,
+      -0.340730756521225,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.340730756521225,
+      0.340730756521225,
+      3.0799999237060547
+    ],
+    "paletteColors": 3,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.68146151304245,
+      0.68146151304245,
+      3.5360000133514404
+    ]
+  },
+  {
+    "id": "B05",
+    "name": "Bubblegum Bonker",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b05-bubblegum-bonker.png",
+    "brief": "Hot pink glossy baseball bat with a thick rounded candy barrel, two attached small bubblegum globules near the barrel shoulder, lilac spiral-wrapped grip and pale mint collar. Opaque candy material, no detached bubbles.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b05-bubblegum-bonker.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b05-bubblegum-bonker.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b05-bubblegum-bonker-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b05-bubblegum-bonker.png",
+    "parts": 11,
+    "triangles": 6602,
+    "meshes": 1,
+    "maxMeshTriangles": 6602,
+    "dimensions": [
+      0.7179999947547913,
+      0.6532142758369446,
+      3.5409998893737793
+    ],
+    "boundsMin": [
+      -0.3230000138282776,
+      -0.330214262008667,
+      -0.460999995470047
+    ],
+    "boundsMax": [
+      0.39499998092651367,
+      0.3230000138282776,
+      3.0799999237060547
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.7179999947547913,
+      0.6532142758369446,
+      3.5409998893737793
+    ]
+  },
+  {
+    "id": "B06",
+    "name": "Mudslinger",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b06-mudslinger.png",
+    "brief": "Olive-green baseball bat with a chunky brown mud-coated rounded upper barrel, three large sculpted attached mud drips, cream small inset panel, navy collar and dark rubber grip. Matches a toy mud blaster palette.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b06-mudslinger.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b06-mudslinger.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b06-mudslinger-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b06-mudslinger.png",
+    "parts": 12,
+    "triangles": 12208,
+    "meshes": 1,
+    "maxMeshTriangles": 12208,
+    "dimensions": [
+      0.7260000109672546,
+      0.7260000109672546,
+      3.5880000591278076
+    ],
+    "boundsMin": [
+      -0.3630000054836273,
+      -0.3630000054836273,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3630000054836273,
+      0.3630000054836273,
+      3.131999969482422
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.7260000109672546,
+      0.7260000109672546,
+      3.5880000591278076
+    ]
+  },
+  {
+    "id": "B07",
+    "name": "Heat Coil",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b07-heat-coil.png",
+    "brief": "Orange baseball bat with a thick cylindrical barrel surrounded by three broad rigid yellow coil bands, dark navy collar rings, a cream cap on the blunt tip and orange/black rubber grip. Toy heat-tech theme. No flames or glowing particles.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b07-heat-coil.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b07-heat-coil.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b07-heat-coil-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b07-heat-coil.png",
+    "parts": 16,
+    "triangles": 7454,
+    "meshes": 1,
+    "maxMeshTriangles": 7454,
+    "dimensions": [
+      0.7609999775886536,
+      0.7609999775886536,
+      3.5385000705718994
+    ],
+    "boundsMin": [
+      -0.3804999887943268,
+      -0.3804999887943268,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3804999887943268,
+      0.3804999887943268,
+      3.0824999809265137
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.7609999775886536,
+      0.7609999775886536,
+      3.5385000705718994
+    ]
+  },
+  {
+    "id": "B08",
+    "name": "Frostbite",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b08-frostbite.png",
+    "brief": "Icy cyan baseball bat with a long solid faceted ice-crystal barrel, a rounded blunt faceted top, silver collar and deep blue wrapped grip. Broad white-blue facets, no translucent disappearing parts, no loose snowflakes.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b08-frostbite.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b08-frostbite.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b08-frostbite-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b08-frostbite.png",
+    "parts": 8,
+    "triangles": 4376,
+    "meshes": 1,
+    "maxMeshTriangles": 4376,
+    "dimensions": [
+      0.6957692503929138,
+      0.6957692503929138,
+      3.5900001525878906
+    ],
+    "boundsMin": [
+      -0.3478846251964569,
+      -0.3478846251964569,
+      -0.46000000834465027
+    ],
+    "boundsMax": [
+      0.3478846251964569,
+      0.3478846251964569,
+      3.130000114440918
+    ],
+    "paletteColors": 8,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6957692503929138,
+      0.6957692503929138,
+      3.5900001525878906
+    ]
+  },
+  {
+    "id": "B09",
+    "name": "Thunder Circuit",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b09-thunder-circuit.png",
+    "brief": "Electric cobalt-blue baseball bat with a large raised yellow zigzag lightning inset along its thick barrel, two gold collar rings, navy rubber grip and cyan knob. Mechanical toy-sports construction, no detached electricity.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b09-thunder-circuit.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b09-thunder-circuit.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b09-thunder-circuit-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b09-thunder-circuit.png",
+    "parts": 11,
+    "triangles": 6514,
+    "meshes": 1,
+    "maxMeshTriangles": 6514,
+    "dimensions": [
+      0.6460000276565552,
+      0.6727467179298401,
+      3.5360000133514404
+    ],
+    "boundsMin": [
+      -0.3230000138282776,
+      -0.3497467041015625,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3230000138282776,
+      0.3230000138282776,
+      3.0799999237060547
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6460000276565552,
+      0.6727467179298401,
+      3.5360000133514404
+    ]
+  },
+  {
+    "id": "B10",
+    "name": "Pixel Party",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b10-pixel-party.png",
+    "brief": "Arcade-themed baseball bat with a chunky long barrel built from three large stepped rectangular blocks with softened corners, alternating magenta and cyan panels, navy seams and lime-green grip. Must keep the long bat profile, no letters, screens or floating pixels.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b10-pixel-party.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b10-pixel-party.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b10-pixel-party-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b10-pixel-party.png",
+    "parts": 17,
+    "triangles": 5184,
+    "meshes": 1,
+    "maxMeshTriangles": 5184,
+    "dimensions": [
+      0.6399999856948853,
+      0.5861999988555908,
+      3.505000114440918
+    ],
+    "boundsMin": [
+      -0.3199999928474426,
+      -0.31460002064704895,
+      -0.45750001072883606
+    ],
+    "boundsMax": [
+      0.3199999928474426,
+      0.27160000801086426,
+      3.0475001335144043
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6399999856948853,
+      0.5861999988555908,
+      3.505000114440918
+    ]
+  },
+  {
+    "id": "B11",
+    "name": "Cosmic Orbit",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b11-cosmic-orbit.png",
+    "brief": "Deep violet baseball bat with a thick rounded barrel, pale cyan crescent-shaped inset and tiny simple silver dot inlays, a chunky fixed silver equator ring hugging the barrel, navy handle and purple grip. All parts physically attached, no floating stars or glow clouds.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b11-cosmic-orbit.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b11-cosmic-orbit.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b11-cosmic-orbit-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b11-cosmic-orbit.png",
+    "parts": 15,
+    "triangles": 8798,
+    "meshes": 1,
+    "maxMeshTriangles": 8798,
+    "dimensions": [
+      0.7319999933242798,
+      0.7319999933242798,
+      3.5360000133514404
+    ],
+    "boundsMin": [
+      -0.3659999966621399,
+      -0.3659999966621399,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3659999966621399,
+      0.3659999966621399,
+      3.0799999237060547
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.7319999933242798,
+      0.7319999933242798,
+      3.5360000133514404
+    ]
+  },
+  {
+    "id": "B12",
+    "name": "Royal Champion",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b12-royal-champion.png",
+    "brief": "Prestige baseball bat with a cream-and-gold rounded barrel, bold navy centre band, a compact attached rounded crown-shaped cap with three blunt points, ruby-red inset gem and navy quilted-looking grip using only a few broad bands. No words.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b12-royal-champion.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b12-royal-champion.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b12-royal-champion-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b12-royal-champion.png",
+    "parts": 25,
+    "triangles": 9382,
+    "meshes": 1,
+    "maxMeshTriangles": 9382,
+    "dimensions": [
+      0.6618250012397766,
+      0.7174124717712402,
+      3.575000286102295
+    ],
+    "boundsMin": [
+      -0.3309125006198883,
+      -0.3865000009536743,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3309125006198883,
+      0.3309125006198883,
+      3.119000196456909
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        2.802799940109253
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6618250012397766,
+      0.7174124717712402,
+      3.575000286102295
+    ]
+  },
+  {
+    "id": "B13",
+    "name": "Skatepark Stripe",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b13-skatepark-stripe.png",
+    "brief": "A chunky baseball bat with a long cobalt-blue rounded barrel, wide mint and coral diagonal skatepark stripes, navy protective collar, cream rubber grip and coral knob. Rounded toy sports shape, no letters or skateboard attachments.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b13-skatepark-stripe.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b13-skatepark-stripe.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b13-skatepark-stripe-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b13-skatepark-stripe.png",
+    "parts": 9,
+    "triangles": 5826,
+    "meshes": 1,
+    "maxMeshTriangles": 5826,
+    "dimensions": [
+      0.6714901924133301,
+      0.662958025932312,
+      3.5360000133514404
+    ],
+    "boundsMin": [
+      -0.3406638503074646,
+      -0.3230000138282776,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3308263421058655,
+      0.3399580419063568,
+      3.0799999237060547
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6714901924133301,
+      0.662958025932312,
+      3.5360000133514404
+    ]
+  },
+  {
+    "id": "B14",
+    "name": "Deep Sea",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b14-deep-sea.png",
+    "brief": "A navy and turquoise baseball bat with a thick rounded barrel, three broad raised wave-shaped pale-cyan inlays, a chunky cream collar, teal rubber wrap grip and navy knob. Ocean theme made of simple solid attached shapes, no floating water.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b14-deep-sea.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b14-deep-sea.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b14-deep-sea-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b14-deep-sea.png",
+    "parts": 14,
+    "triangles": 8090,
+    "meshes": 1,
+    "maxMeshTriangles": 8090,
+    "dimensions": [
+      0.6778929829597473,
+      0.6767531633377075,
+      3.549499988555908
+    ],
+    "boundsMin": [
+      -0.33894649147987366,
+      -0.33837658166885376,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.33894649147987366,
+      0.33837658166885376,
+      3.0934998989105225
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6778929829597473,
+      0.6767531633377075,
+      3.549499988555908
+    ]
+  },
+  {
+    "id": "B15",
+    "name": "Sunburst",
+    "category": "Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b15-sunburst.png",
+    "brief": "A bright cream-and-orange baseball bat with a long rounded barrel, broad golden sun-ray geometric panels around its blunt tip, navy collar rings, deep orange grip and gold knob. Clean premium summer toy design, no text or detached rays.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b15-sunburst.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b15-sunburst.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b15-sunburst-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b15-sunburst.png",
+    "parts": 16,
+    "triangles": 6342,
+    "meshes": 1,
+    "maxMeshTriangles": 6342,
+    "dimensions": [
+      0.6617742776870728,
+      0.6694213151931763,
+      3.552999973297119
+    ],
+    "boundsMin": [
+      -0.3308871388435364,
+      -0.33471065759658813,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3308871388435364,
+      0.33471065759658813,
+      3.0969998836517334
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6617742776870728,
+      0.6694213151931763,
+      3.552999973297119
+    ]
+  },
+  {
+    "id": "C01",
+    "name": "Collectible Coin",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Downloads\\ChatGPT Image 4 Oct 2026, 10_00_54.png",
+    "brief": "Remodel the gold dollar coin currently used in Studio as a detailed, chunky cartoon 3D pickup. Rounded rim, inset gold faces, raised dollar relief on both faces, warm orange edge, navy outline accents, and centered spin pivot. Preserve editable separate parts.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\c01-collectible-coin.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\c01-collectible-coin.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\c01-collectible-coin-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\c01-collectible-coin.png",
+    "parts": 7,
+    "triangles": 6994,
+    "meshes": 1,
+    "maxMeshTriangles": 6994,
+    "dimensions": [
+      2.0299999713897705,
+      0.4779999852180481,
+      2.0299999713897705
+    ],
+    "boundsMin": [
+      -1.0149999856948853,
+      -0.23899999260902405,
+      -1.0149999856948853
+    ],
+    "boundsMax": [
+      1.0149999856948853,
+      0.23899999260902405,
+      1.0149999856948853
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "SpinPivot": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      2.0299999713897705,
+      0.4779999852180481,
+      2.0299999713897705
+    ]
+  },
+  {
+    "id": "D01",
+    "name": "Pumpkin Lantern",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d01-pumpkin-lantern.png",
+    "brief": "One friendly squat jack-o-lantern prop, six broad orange lobes, thick curved green stem, triangular eyes and cheerful carved mouth with flat warm yellow interior. No light spill, particles, pedestal or floor.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d01-pumpkin-lantern.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d01-pumpkin-lantern.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d01-pumpkin-lantern-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d01-pumpkin-lantern.png",
+    "parts": 9,
+    "triangles": 3364,
+    "meshes": 1,
+    "maxMeshTriangles": 3364,
+    "dimensions": [
+      2.191699981689453,
+      1.8007550239562988,
+      2.1024742126464844
+    ],
+    "boundsMin": [
+      -1.0958499908447266,
+      -0.9003775119781494,
+      0.03999999910593033
+    ],
+    "boundsMax": [
+      1.0958499908447266,
+      0.9003775119781494,
+      2.1424741744995117
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D02",
+    "name": "Haunted Crate",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d02-haunted-crate.png",
+    "brief": "One compact purple wooden decoration crate with chunky navy corner guards, broad crossed plank slats, two tiny lime eyes peeking from a narrow dark slit and a rounded cream padlock hanging on front. No hands or loose ghost.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d02-haunted-crate.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d02-haunted-crate.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d02-haunted-crate-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d02-haunted-crate.png",
+    "parts": 49,
+    "triangles": 6468,
+    "meshes": 1,
+    "maxMeshTriangles": 6468,
+    "dimensions": [
+      1.9700000286102295,
+      2.301100015640259,
+      1.9850001335144043
+    ],
+    "boundsMin": [
+      -0.9850000143051147,
+      -1.3029999732971191,
+      0.019999995827674866
+    ],
+    "boundsMax": [
+      0.9850000143051147,
+      0.9980999827384949,
+      2.005000114440918
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D03",
+    "name": "Lucky Pot",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d03-lucky-pot.png",
+    "brief": "One squat dark emerald pot with thick gold rim, two attached rounded side handles, a mound of large gold coin discs nestled inside and one raised clover emblem on front. No detached coins, rainbow or writing.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d03-lucky-pot.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d03-lucky-pot.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d03-lucky-pot-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d03-lucky-pot.png",
+    "parts": 31,
+    "triangles": 6808,
+    "meshes": 1,
+    "maxMeshTriangles": 6808,
+    "dimensions": [
+      2.440000057220459,
+      1.856600046157837,
+      1.8197107315063477
+    ],
+    "boundsMin": [
+      -1.2200000286102295,
+      -0.95660001039505,
+      0.0
+    ],
+    "boundsMax": [
+      1.2200000286102295,
+      0.8999999761581421,
+      1.8197107315063477
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D04",
+    "name": "Clover Arch",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d04-clover-arch.png",
+    "brief": "One small freestanding chunky emerald festival arch with a thick horseshoe-shaped frame, two broad cream-and-gold weighted feet and three oversized gold clover ornaments attached along the top. No text or surrounding scene, full arch clearly visible.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d04-clover-arch.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d04-clover-arch.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d04-clover-arch-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d04-clover-arch.png",
+    "parts": 31,
+    "triangles": 5660,
+    "meshes": 1,
+    "maxMeshTriangles": 5660,
+    "dimensions": [
+      3.239999771118164,
+      0.8399999737739563,
+      3.269821882247925
+    ],
+    "boundsMin": [
+      -1.619999885559082,
+      -0.41999998688697815,
+      0.009999990463256836
+    ],
+    "boundsMax": [
+      1.619999885559082,
+      0.41999998688697815,
+      3.2798218727111816
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D05",
+    "name": "Festival Lantern",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d05-festival-lantern.png",
+    "brief": "One plump round red Lunar New Year paper lantern decoration with eight broad simple vertical ribs, thick gold top and bottom collars, short attached navy hanging loop and one compact stylized gold tassel ending in three broad strips. No calligraphy or thin strings.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d05-festival-lantern.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d05-festival-lantern.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d05-festival-lantern-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d05-festival-lantern.png",
+    "parts": 18,
+    "triangles": 3656,
+    "meshes": 1,
+    "maxMeshTriangles": 3656,
+    "dimensions": [
+      1.8067288398742676,
+      1.6307040452957153,
+      2.8385865688323975
+    ],
+    "boundsMin": [
+      -0.9033644199371338,
+      -0.8153520226478577,
+      0.04641343653202057
+    ],
+    "boundsMax": [
+      0.9033644199371338,
+      0.8153520226478577,
+      2.884999990463257
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D06",
+    "name": "Lion Mask Stand",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d06-lion-mask-stand.png",
+    "brief": "One cheerful Lunar New Year lion-dance mask decoration mounted on a short wide red pedestal: chunky red and gold round mask, oversized cream circular eyes, rounded green nose, big friendly grin and broad white fluffy cheek shapes. One connected prop, no human, lettering or dangling filaments.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d06-lion-mask-stand.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d06-lion-mask-stand.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d06-lion-mask-stand-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d06-lion-mask-stand.png",
+    "parts": 36,
+    "triangles": 11552,
+    "meshes": 1,
+    "maxMeshTriangles": 11552,
+    "dimensions": [
+      2.059999942779541,
+      1.7400000095367432,
+      2.7750000953674316
+    ],
+    "boundsMin": [
+      -1.0299999713897705,
+      -0.9100000262260437,
+      0.0
+    ],
+    "boundsMax": [
+      1.0299999713897705,
+      0.8299999833106995,
+      2.7750000953674316
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D07",
+    "name": "Festive Tree",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d07-festive-tree.png",
+    "brief": "One compact stylised evergreen Christmas tree in a squat red pot, three tiered chunky green cones with broad cream snow caps, five large attached gold/red round ornaments and a small attached golden star at the tip. No lights string, loose presents or scene.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d07-festive-tree.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d07-festive-tree.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d07-festive-tree-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d07-festive-tree.png",
+    "parts": 23,
+    "triangles": 8876,
+    "meshes": 1,
+    "maxMeshTriangles": 8876,
+    "dimensions": [
+      1.8899999856948853,
+      1.8899999856948853,
+      2.882232904434204
+    ],
+    "boundsMin": [
+      -0.9449999928474426,
+      -0.9449999928474426,
+      0.0
+    ],
+    "boundsMax": [
+      0.9449999928474426,
+      0.9449999928474426,
+      2.882232904434204
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      1.8899999856948853,
+      1.8899999856948853,
+      2.882232904434204
+    ]
+  },
+  {
+    "id": "D08",
+    "name": "Snow Buddy",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d08-snow-buddy.png",
+    "brief": "One cute toy snowman decoration with two broad ivory snowballs, short navy hat, thick red scarf with ends attached to body, orange carrot nose and two short navy mitten arms. Flat stable base, no floor, snowflakes or text.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d08-snow-buddy.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d08-snow-buddy.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d08-snow-buddy-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d08-snow-buddy.png",
+    "parts": 27,
+    "triangles": 6464,
+    "meshes": 1,
+    "maxMeshTriangles": 6464,
+    "dimensions": [
+      2.3782248497009277,
+      1.5750000476837158,
+      2.619999885559082
+    ],
+    "boundsMin": [
+      -1.1891124248504639,
+      -0.9050000309944153,
+      -0.010000050067901611
+    ],
+    "boundsMax": [
+      1.1891124248504639,
+      0.6700000166893005,
+      2.609999895095825
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D09",
+    "name": "Egg Basket",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d09-egg-basket.png",
+    "brief": "One squat cream-and-tan woven Easter basket with one thick arched pink handle and three large painted pastel eggs nestled inside. Egg motifs are simple mint stripes and lavender dots. Solid shapes, no grass strands or detached eggs.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d09-egg-basket.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d09-egg-basket.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d09-egg-basket-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d09-egg-basket.png",
+    "parts": 64,
+    "triangles": 10044,
+    "meshes": 1,
+    "maxMeshTriangles": 10044,
+    "dimensions": [
+      1.8696051836013794,
+      1.850000023841858,
+      2.015000104904175
+    ],
+    "boundsMin": [
+      -0.9348025918006897,
+      -0.925000011920929,
+      0.05999999865889549
+    ],
+    "boundsMax": [
+      0.9348025918006897,
+      0.925000011920929,
+      2.075000047683716
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D10",
+    "name": "Carrot Sign",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d10-carrot-sign.png",
+    "brief": "One playful freestanding Easter garden marker shaped like a giant orange carrot with three thick green leaf blades, supported on a short wide lavender base. A small raised cream rabbit-head silhouette inset on the carrot face, no lettering, no readable sign text.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d10-carrot-sign.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d10-carrot-sign.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d10-carrot-sign-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d10-carrot-sign.png",
+    "parts": 13,
+    "triangles": 2460,
+    "meshes": 1,
+    "maxMeshTriangles": 2460,
+    "dimensions": [
+      1.340000033378601,
+      1.340000033378601,
+      2.413726568222046
+    ],
+    "boundsMin": [
+      -0.6700000166893005,
+      -0.6700000166893005,
+      0.0
+    ],
+    "boundsMax": [
+      0.6700000166893005,
+      0.6700000166893005,
+      2.413726568222046
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D11",
+    "name": "Party Balloon Cluster",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d11-party-balloon-cluster.png",
+    "brief": "One connected birthday balloon decoration: three glossy chunky balloons in pink, cyan and gold attached by thick short curved rigid stems to one squat purple weighted star-shaped base. No fine strings or loose confetti. Entire self-contained prop visible.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d11-party-balloon-cluster.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d11-party-balloon-cluster.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d11-party-balloon-cluster-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d11-party-balloon-cluster.png",
+    "parts": 12,
+    "triangles": 2064,
+    "meshes": 1,
+    "maxMeshTriangles": 2064,
+    "dimensions": [
+      2.180000066757202,
+      1.342711329460144,
+      2.630000114440918
+    ],
+    "boundsMin": [
+      -1.090000033378601,
+      -0.742232620716095,
+      0.009999972768127918
+    ],
+    "boundsMax": [
+      1.090000033378601,
+      0.6004787087440491,
+      2.640000104904175
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "D12",
+    "name": "Birthday Cake Stand",
+    "category": "Event-Decorations",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d12-birthday-cake-stand.png",
+    "brief": "One celebratory birthday decoration consisting of a two-tier pastel pink and cream cake on a chunky cyan pedestal, broad frosting scallops, three thick attached gold candles with tiny solid orange flames. No text, age number, plate utensils or loose confetti.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d12-birthday-cake-stand.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d12-birthday-cake-stand.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d12-birthday-cake-stand-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d12-birthday-cake-stand.png",
+    "parts": 41,
+    "triangles": 11112,
+    "meshes": 1,
+    "maxMeshTriangles": 11112,
+    "dimensions": [
+      1.7799999713897705,
+      1.7799999713897705,
+      2.6499998569488525
+    ],
+    "boundsMin": [
+      -0.8899999856948853,
+      -0.8899999856948853,
+      0.0
+    ],
+    "boundsMax": [
+      0.8899999856948853,
+      0.8899999856948853,
+      2.6499998569488525
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "PlacementOrigin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "E01",
+    "name": "Pumpkin Smacker",
+    "category": "Event-Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e01-pumpkin-smacker.png",
+    "brief": "Halloween baseball bat with a long segmented pumpkin-orange rounded barrel, a simple friendly jack-o-lantern face inset on its side, green collar with two small attached leaves, dark purple grip and orange knob. Keep a recognisable elongated bat, not a pumpkin on a stick.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e01-pumpkin-smacker.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e01-pumpkin-smacker.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e01-pumpkin-smacker-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e01-pumpkin-smacker.png",
+    "parts": 17,
+    "triangles": 15226,
+    "meshes": 1,
+    "maxMeshTriangles": 15226,
+    "dimensions": [
+      0.6357712745666504,
+      0.6550577878952026,
+      3.5360000133514404
+    ],
+    "boundsMin": [
+      -0.3178856372833252,
+      -0.33717215061187744,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3178856372833252,
+      0.3178856372833252,
+      3.0799999237060547
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6357712745666504,
+      0.6550577878952026,
+      3.5360000133514404
+    ]
+  },
+  {
+    "id": "E02",
+    "name": "Lucky Clover",
+    "category": "Event-Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e02-lucky-clover.png",
+    "brief": "Festive emerald-green baseball bat with an elongated rounded barrel, one large raised gold four-leaf-clover inlay, cream collar rings, deep green grip and gold knob. One small gold buckle decoration around the lower barrel. No hat, text or detached coins.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e02-lucky-clover.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e02-lucky-clover.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e02-lucky-clover-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e02-lucky-clover.png",
+    "parts": 21,
+    "triangles": 8498,
+    "meshes": 1,
+    "maxMeshTriangles": 8498,
+    "dimensions": [
+      0.6460000276565552,
+      0.6888779997825623,
+      3.5360000133514404
+    ],
+    "boundsMin": [
+      -0.3230000138282776,
+      -0.36587798595428467,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3230000138282776,
+      0.3230000138282776,
+      3.0799999237060547
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6460000276565552,
+      0.6888779997825623,
+      3.5360000133514404
+    ]
+  },
+  {
+    "id": "E03",
+    "name": "Festival Dragon",
+    "category": "Event-Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e03-festival-dragon.png",
+    "brief": "Lunar New Year-themed baseball bat with a long lacquer-red rounded barrel, broad raised gold cloud-scroll bands, a small rounded friendly dragon-head cap blended into the blunt tip, navy seams and cream grip with red end knob. Model-friendly chunky dragon muzzle, two short horns, no whisker filaments or loose ribbons, no text.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e03-festival-dragon.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e03-festival-dragon.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e03-festival-dragon-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e03-festival-dragon.png",
+    "parts": 42,
+    "triangles": 15374,
+    "meshes": 1,
+    "maxMeshTriangles": 15374,
+    "dimensions": [
+      0.7879999876022339,
+      0.8030773401260376,
+      3.9262428283691406
+    ],
+    "boundsMin": [
+      -0.39399999380111694,
+      -0.4709984064102173,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.39399999380111694,
+      0.3320789337158203,
+      3.470242738723755
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        2.802799940109253
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.7879999876022339,
+      0.8030773401260376,
+      3.9026012420654297
+    ]
+  },
+  {
+    "id": "E04",
+    "name": "Peppermint Slugger",
+    "category": "Event-Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e04-peppermint-slugger.png",
+    "brief": "Christmas baseball bat with a long rounded candy-cane red-and-ivory spiral barrel, a dark green chunky collar with two attached holly leaves and three red round berries, navy grip and red knob. Straight baseball-bat profile rather than a hooked candy cane, no writing.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e04-peppermint-slugger.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e04-peppermint-slugger.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e04-peppermint-slugger-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e04-peppermint-slugger.png",
+    "parts": 15,
+    "triangles": 6974,
+    "meshes": 1,
+    "maxMeshTriangles": 6974,
+    "dimensions": [
+      0.6816110014915466,
+      0.6747024059295654,
+      3.5360000133514404
+    ],
+    "boundsMin": [
+      -0.3409537672996521,
+      -0.3335516154766083,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.34065723419189453,
+      0.34115079045295715,
+      3.0799999237060547
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.6816110014915466,
+      0.6747024059295654,
+      3.5360000133514404
+    ]
+  },
+  {
+    "id": "E05",
+    "name": "Egg Hunt",
+    "category": "Event-Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e05-egg-hunt.png",
+    "brief": "Easter baseball bat with a long pastel-lavender rounded barrel, broad mint and pale-yellow egg-pattern bands, a small raised carrot-shaped orange inlay, cream collar, soft pink grip and mint knob. No detached eggs or rabbit characters, clear bat proportions.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e05-egg-hunt.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e05-egg-hunt.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e05-egg-hunt-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e05-egg-hunt.png",
+    "parts": 24,
+    "triangles": 7550,
+    "meshes": 1,
+    "maxMeshTriangles": 7550,
+    "dimensions": [
+      0.7386943101882935,
+      0.738744854927063,
+      3.559000015258789
+    ],
+    "boundsMin": [
+      -0.3693679869174957,
+      -0.3693305253982544,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.3693263530731201,
+      0.369414359331131,
+      3.1029999256134033
+    ],
+    "paletteColors": 8,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        3.0799999237060547
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.7386943101882935,
+      0.738744854927063,
+      3.559000015258789
+    ]
+  },
+  {
+    "id": "E06",
+    "name": "Birthday Wish",
+    "category": "Event-Bats",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e06-birthday-wish.png",
+    "brief": "A birthday cake-and-candles BASEBALL BAT: long cream-frosted rounded bat barrel with broad attached pink frosting drips and chunky cyan sprinkle inlays; at the blunt upper end three short thick pastel candles sit attached in a neat cluster, each with a tiny solid yellow teardrop flame. Lavender collar, pink wrapped grip and gold knob. The underlying silhouette must remain a full baseball bat, not a cake hammer. No text, logos, numbers or loose confetti.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e06-birthday-wish.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e06-birthday-wish.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e06-birthday-wish-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e06-birthday-wish.png",
+    "parts": 29,
+    "triangles": 12550,
+    "meshes": 1,
+    "maxMeshTriangles": 12550,
+    "dimensions": [
+      0.725980281829834,
+      0.725980281829834,
+      3.6560001373291016
+    ],
+    "boundsMin": [
+      -0.362990140914917,
+      -0.362990140914917,
+      -0.4560000002384186
+    ],
+    "boundsMax": [
+      0.362990140914917,
+      0.362990140914917,
+      3.200000047683716
+    ],
+    "paletteColors": 9,
+    "anchors": {
+      "Grip": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "BarrelTip": [
+        0.0,
+        0.0,
+        2.6796000003814697
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      0.725980281829834,
+      0.725980281829834,
+      3.6560001373291016
+    ]
+  },
+  {
+    "id": "M01",
+    "name": "Playground Football",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m01-playground-football.png",
+    "brief": "One chunky classic association-football soccer ball, bright ivory panels and navy pentagonal panels with thick clean seams, a few broad glossy highlights. Slightly softened inflated toy sphere, no writing or grass.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m01-playground-football.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m01-playground-football.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m01-playground-football-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m01-playground-football.png",
+    "parts": 33,
+    "triangles": 5472,
+    "meshes": 1,
+    "maxMeshTriangles": 5472,
+    "dimensions": [
+      1.8882895708084106,
+      1.8882895708084106,
+      1.8882895708084106
+    ],
+    "boundsMin": [
+      -0.9441447854042053,
+      -0.9441447854042053,
+      0.01585519313812256
+    ],
+    "boundsMax": [
+      0.9441447854042053,
+      0.9441447854042053,
+      1.9041447639465332
+    ],
+    "paletteColors": 3,
+    "anchors": {},
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M02",
+    "name": "Playground Basketball",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m02-playground-basketball.png",
+    "brief": "One bright orange basketball with broad clean dark navy curved seams, slightly softened toy sphere and simple glossy highlights, minimal surface texture and no writing.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m02-playground-basketball.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m02-playground-basketball.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m02-playground-basketball-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m02-playground-basketball.png",
+    "parts": 5,
+    "triangles": 6496,
+    "meshes": 1,
+    "maxMeshTriangles": 6496,
+    "dimensions": [
+      1.925971508026123,
+      1.9259999990463257,
+      1.9260001182556152
+    ],
+    "boundsMin": [
+      -0.9629999995231628,
+      -0.9629999995231628,
+      -0.023000000044703484
+    ],
+    "boundsMax": [
+      0.9629714488983154,
+      0.9629999995231628,
+      1.9030001163482666
+    ],
+    "paletteColors": 2,
+    "anchors": {},
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M03",
+    "name": "Foam Bonker",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m03-foam-bonker.png",
+    "brief": "One small extra-chunky foam TOY baseball bat, short lavender handle with rounded knob and oversized soft-looking hot-pink rounded barrel with one cyan band. Clearly a short harmless foam play bat, diagonal pose, no lettering.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m03-foam-bonker.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m03-foam-bonker.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m03-foam-bonker-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m03-foam-bonker.png",
+    "parts": 10,
+    "triangles": 3120,
+    "meshes": 1,
+    "maxMeshTriangles": 3120,
+    "dimensions": [
+      0.7680000066757202,
+      0.7680000066757202,
+      2.607499837875366
+    ],
+    "boundsMin": [
+      -0.3840000033378601,
+      -0.3840000033378601,
+      -0.4375
+    ],
+    "boundsMax": [
+      0.3840000033378601,
+      0.3840000033378601,
+      2.169999837875366
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "GripAttachment": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M04",
+    "name": "Tumble Barrel",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m04-tumble-barrel.png",
+    "brief": "A compact throwable wooden barrel, squat round body with six broad honey-brown staves, two thick navy metal hoops, chunky rivets, flat circular wood lid with a simple handgrip recess. No hazard labels or spilled contents.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m04-tumble-barrel.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m04-tumble-barrel.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m04-tumble-barrel-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m04-tumble-barrel.png",
+    "parts": 29,
+    "triangles": 3136,
+    "meshes": 1,
+    "maxMeshTriangles": 3136,
+    "dimensions": [
+      1.6820000410079956,
+      1.6820000410079956,
+      1.7400000095367432
+    ],
+    "boundsMin": [
+      -0.8410000205039978,
+      -0.8410000205039978,
+      0.0
+    ],
+    "boundsMax": [
+      0.8410000205039978,
+      0.8410000205039978,
+      1.7400000095367432
+    ],
+    "paletteColors": 10,
+    "anchors": {
+      "ThrowAttachment": [
+        0.0,
+        0.0,
+        0.8600000143051147
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M05",
+    "name": "Zoom Juice",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m05-zoom-juice.png",
+    "brief": "A squat rounded flask with opaque turquoise-blue liquid, cream bevelled frame edges, navy stopper and a large raised yellow lightning-bolt emblem on its front. Tiny solid blue handle loop on one side. Potion shape is readable without any written label.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m05-zoom-juice.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m05-zoom-juice.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m05-zoom-juice-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m05-zoom-juice.png",
+    "parts": 19,
+    "triangles": 5128,
+    "meshes": 1,
+    "maxMeshTriangles": 5128,
+    "dimensions": [
+      1.7009999752044678,
+      0.8949999809265137,
+      2.192499876022339
+    ],
+    "boundsMin": [
+      -0.7570000290870667,
+      -0.4650000035762787,
+      0.0949999988079071
+    ],
+    "boundsMax": [
+      0.9440000057220459,
+      0.4300000071525574,
+      2.2874999046325684
+    ],
+    "paletteColors": 7,
+    "anchors": {},
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M06",
+    "name": "Spring Sip",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m06-spring-sip.png",
+    "brief": "A pear-shaped squat potion bottle with opaque lime-green liquid, navy thick base and stopper, a large white upward-chevron emblem and a wide yellow spring coil encircling the bottle neck. Single clear silhouette, no floating effects.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m06-spring-sip.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m06-spring-sip.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m06-spring-sip-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m06-spring-sip.png",
+    "parts": 15,
+    "triangles": 3268,
+    "meshes": 1,
+    "maxMeshTriangles": 3268,
+    "dimensions": [
+      1.2980000972747803,
+      1.2979999780654907,
+      2.172499895095825
+    ],
+    "boundsMin": [
+      -0.6490000486373901,
+      -0.6579999923706055,
+      0.004999999888241291
+    ],
+    "boundsMax": [
+      0.6490000486373901,
+      0.6399999856948853,
+      2.177500009536743
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "UseAttachment": [
+        0.0,
+        0.0,
+        1.9800000190734863
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M07",
+    "name": "Ember Elixir",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m07-ember-elixir.png",
+    "brief": "A chunky round potion flask with opaque orange-red liquid, cream shoulder rim, dark navy stopper and one simple raised yellow flame emblem on its front. A small red heat-coil band hugs the neck. Friendly fantasy consumable, not realistic incendiary equipment.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m07-ember-elixir.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m07-ember-elixir.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m07-ember-elixir-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m07-ember-elixir.png",
+    "parts": 13,
+    "triangles": 4612,
+    "meshes": 1,
+    "maxMeshTriangles": 4612,
+    "dimensions": [
+      1.2999999523162842,
+      1.0175000429153442,
+      2.112499952316284
+    ],
+    "boundsMin": [
+      -0.6499999761581421,
+      -0.5575000047683716,
+      0.07500000298023224
+    ],
+    "boundsMax": [
+      0.6499999761581421,
+      0.46000000834465027,
+      2.1875
+    ],
+    "paletteColors": 6,
+    "anchors": {},
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M08",
+    "name": "Surprise Present",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m08-surprise-present.png",
+    "brief": "One chunky square turquoise gift box with thick magenta ribbon crossing all sides, oversized simple cream bow made of two broad loops on top. Solid toy-like bevelled corners and navy seam edging. No tag or writing.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m08-surprise-present.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m08-surprise-present.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m08-surprise-present-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m08-surprise-present.png",
+    "parts": 17,
+    "triangles": 3440,
+    "meshes": 1,
+    "maxMeshTriangles": 3440,
+    "dimensions": [
+      1.5768868923187256,
+      1.3799999952316284,
+      1.973760962486267
+    ],
+    "boundsMin": [
+      -0.7884434461593628,
+      -0.6899999976158142,
+      0.02499997615814209
+    ],
+    "boundsMax": [
+      0.7884434461593628,
+      0.6899999976158142,
+      1.9987609386444092
+    ],
+    "paletteColors": 5,
+    "anchors": {},
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M09",
+    "name": "Plunger Popper",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m09-plunger-popper.png",
+    "brief": "A squat chunky cartoon TOY plunger launcher: teal chamfered box body, large orange flared trumpet muzzle with one red rubber suction cup visibly seated at its mouth, cream inset side panel, navy edging, short orange grip and a small rounded pressure tank. Similar toy construction to the provided heat/mud blasters. No realistic weapon mechanics or text.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m09-plunger-popper.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m09-plunger-popper.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m09-plunger-popper-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m09-plunger-popper.png",
+    "parts": 40,
+    "triangles": 6648,
+    "meshes": 1,
+    "maxMeshTriangles": 6648,
+    "dimensions": [
+      1.1799999475479126,
+      2.1937777996063232,
+      2.096799850463867
+    ],
+    "boundsMin": [
+      -0.5899999737739563,
+      -1.4900000095367432,
+      0.07320000231266022
+    ],
+    "boundsMax": [
+      0.5899999737739563,
+      0.7037778496742249,
+      2.169999837875366
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "GripAttachment": [
+        0.0,
+        0.4000000059604645,
+        0.5099999904632568
+      ],
+      "MuzzleAttachment": [
+        0.0,
+        -1.5099999904632568,
+        1.2000000476837158
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M10",
+    "name": "Frost Ray",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m10-frost-ray.png",
+    "brief": "One playful cyan and ivory FREEZE-RAY toy blaster with chamfered box body, large flared pale-blue muzzle, dark navy edge trim, a compact opaque ice-crystal tank on top, short teal rubber grip and one simple snowflake badge on the side. Broad simple shapes like the user's toy mud/heat guns, no realistic weapon details, beam or particles.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m10-frost-ray.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m10-frost-ray.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m10-frost-ray-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m10-frost-ray.png",
+    "parts": 73,
+    "triangles": 4772,
+    "meshes": 1,
+    "maxMeshTriangles": 4772,
+    "dimensions": [
+      1.0800000429153442,
+      2.2684998512268066,
+      2.1411380767822266
+    ],
+    "boundsMin": [
+      -0.5400000214576721,
+      -1.5399999618530273,
+      0.07320000231266022
+    ],
+    "boundsMax": [
+      0.5400000214576721,
+      0.7285000085830688,
+      2.2143380641937256
+    ],
+    "paletteColors": 8,
+    "anchors": {
+      "GripAttachment": [
+        0.0,
+        0.4000000059604645,
+        0.5099999904632568
+      ],
+      "MuzzleAttachment": [
+        0.0,
+        -1.559999942779541,
+        1.2000000476837158
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M11",
+    "name": "Paint Splash",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m11-paint-splash.png",
+    "brief": "One squat paint bucket with thick navy rim, a sturdy cream handle attached on both sides, glossy cyan paint filling the top and two thick attached cyan drips over a magenta bucket body. One plain cyan splat emblem, no text, no detached splashes.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m11-paint-splash.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m11-paint-splash.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m11-paint-splash-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m11-paint-splash.png",
+    "parts": 16,
+    "triangles": 4872,
+    "meshes": 1,
+    "maxMeshTriangles": 4872,
+    "dimensions": [
+      1.523555040359497,
+      1.421966791152954,
+      1.334999918937683
+    ],
+    "boundsMin": [
+      -0.7617481350898743,
+      -0.7619668245315552,
+      0.029999999329447746
+    ],
+    "boundsMax": [
+      0.7618069052696228,
+      0.6600000262260437,
+      1.3649998903274536
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "ThrowAttachment": [
+        0.0,
+        0.0,
+        0.6800000071525574
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M12",
+    "name": "Eggsploit",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m12-eggsploit.png",
+    "brief": "One oversized intact creamy-white cartoon chicken egg with a warm golden lower cel-shaded edge, a small blue protective sticker shaped like a simple oval patch and a glossy highlight. Rounded pear-like egg shape, no face, no writing, no cracks or loose shell pieces.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m12-eggsploit.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m12-eggsploit.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m12-eggsploit-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m12-eggsploit.png",
+    "parts": 4,
+    "triangles": 1756,
+    "meshes": 1,
+    "maxMeshTriangles": 1756,
+    "dimensions": [
+      1.284000039100647,
+      1.284000039100647,
+      1.8300000429153442
+    ],
+    "boundsMin": [
+      -0.6420000195503235,
+      -0.6420000195503235,
+      0.0
+    ],
+    "boundsMax": [
+      0.6420000195503235,
+      0.6420000195503235,
+      1.8300000429153442
+    ],
+    "paletteColors": 4,
+    "anchors": {
+      "ThrowAttachment": [
+        0.0,
+        0.0,
+        0.8299999833106995
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M13",
+    "name": "Cake Toss",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m13-cake-toss.png",
+    "brief": "One small round two-layer chocolate cake with broad ivory frosting, a single fat strawberry firmly attached on top and three sculpted chocolate drips at the edge. No candles, plate, cutlery or scattered crumbs. Stable chunky throwable toy-food silhouette.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m13-cake-toss.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m13-cake-toss.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m13-cake-toss-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m13-cake-toss.png",
+    "parts": 36,
+    "triangles": 4340,
+    "meshes": 1,
+    "maxMeshTriangles": 4340,
+    "dimensions": [
+      1.5119999647140503,
+      1.5759999752044678,
+      1.9883880615234375
+    ],
+    "boundsMin": [
+      -0.7559999823570251,
+      -0.8200000524520874,
+      0.019999999552965164
+    ],
+    "boundsMax": [
+      0.7559999823570251,
+      0.7559999823570251,
+      2.008388042449951
+    ],
+    "paletteColors": 6,
+    "anchors": {},
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M14",
+    "name": "Camp Torch",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m14-camp-torch.png",
+    "brief": "One chunky friendly fantasy hand torch: short dark-brown wooden handle, thick cream wrap bands, navy bowl-shaped collar and a compact sculpted orange-yellow flame sitting directly in that collar. The flame is a solid simple three-lobed cartoon form, no sparks, smoke or detached effects.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m14-camp-torch.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m14-camp-torch.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m14-camp-torch-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m14-camp-torch.png",
+    "parts": 17,
+    "triangles": 3180,
+    "meshes": 1,
+    "maxMeshTriangles": 3180,
+    "dimensions": [
+      0.9100000262260437,
+      0.9100000262260437,
+      2.418304204940796
+    ],
+    "boundsMin": [
+      -0.45500001311302185,
+      -0.45500001311302185,
+      -0.5699999928474426
+    ],
+    "boundsMax": [
+      0.45500001311302185,
+      0.45500001311302185,
+      1.848304271697998
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "GripAttachment": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "M15",
+    "name": "Bounce Pad",
+    "category": "Miscellaneous",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m15-bounce-pad.png",
+    "brief": "A compact low circular spring-loaded bounce pad, yellow raised centre disc, thick cyan octagonal base, navy bumper rim, three broad attached orange compression springs visible under the disc. Three-quarter view from slightly above.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m15-bounce-pad.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m15-bounce-pad.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m15-bounce-pad-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m15-bounce-pad.png",
+    "parts": 31,
+    "triangles": 5688,
+    "meshes": 1,
+    "maxMeshTriangles": 5688,
+    "dimensions": [
+      2.0799999237060547,
+      2.0799999237060547,
+      1.341052532196045
+    ],
+    "boundsMin": [
+      -1.0399999618530273,
+      -1.0399999618530273,
+      0.004999999888241291
+    ],
+    "boundsMax": [
+      1.0399999618530273,
+      1.0399999618530273,
+      1.3460525274276733
+    ],
+    "paletteColors": 5,
+    "anchors": {
+      "PlacementAttachment": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P01",
+    "name": "Pocket Bulldog",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p01-pocket-bulldog.png",
+    "brief": "A chubby cream-and-tan toy bulldog puppy, oversized square-rounded head, folded ears, squat four-legged body, tiny curled tail, wide navy collar and one small gold circular tag. Friendly eyebrows and a determined happy mouth, no written tag.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p01-pocket-bulldog.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p01-pocket-bulldog.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p01-pocket-bulldog-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p01-pocket-bulldog.png",
+    "parts": 36,
+    "triangles": 36686,
+    "meshes": 2,
+    "maxMeshTriangles": 18482,
+    "dimensions": [
+      2.1500000953674316,
+      2.263209342956543,
+      1.9850000143051147
+    ],
+    "boundsMin": [
+      -1.0750000476837158,
+      -1.0449999570846558,
+      0.03500000014901161
+    ],
+    "boundsMax": [
+      1.0750000476837158,
+      1.2182095050811768,
+      2.0199999809265137
+    ],
+    "paletteColors": 13,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      2.1500000953674316,
+      2.263209342956543,
+      1.9831085205078125
+    ]
+  },
+  {
+    "id": "P02",
+    "name": "Toast Capybara",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p02-toast-capybara.png",
+    "brief": "A round caramel capybara pet whose broad body resembles a soft toast loaf with a warm brown crust band, small cream muzzle, two tiny rounded ears and four stubby feet. A square yellow butter pat sits firmly on its back. Cute sleepy face.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p02-toast-capybara.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p02-toast-capybara.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p02-toast-capybara-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p02-toast-capybara.png",
+    "parts": 26,
+    "triangles": 6420,
+    "meshes": 1,
+    "maxMeshTriangles": 6420,
+    "dimensions": [
+      1.3899999856948853,
+      2.2170000076293945,
+      1.7280000448226929
+    ],
+    "boundsMin": [
+      -0.6949999928474426,
+      -1.181999921798706,
+      0.0
+    ],
+    "boundsMax": [
+      0.6949999928474426,
+      1.034999966621399,
+      1.7280000448226929
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P03",
+    "name": "Pancake Penguin",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p03-pancake-penguin.png",
+    "brief": "A chubby navy-and-cream penguin with orange feet, two small flipper wings, an oversized round head, and a neat stack of two pancakes sitting on its head like a hat with one attached butter cube. All syrup is a few solid attached brown drips.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p03-pancake-penguin.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p03-pancake-penguin.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p03-pancake-penguin-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p03-pancake-penguin.png",
+    "parts": 37,
+    "triangles": 10528,
+    "meshes": 1,
+    "maxMeshTriangles": 10528,
+    "dimensions": [
+      1.8573578596115112,
+      1.3639999628067017,
+      2.4650001525878906
+    ],
+    "boundsMin": [
+      -0.9286789298057556,
+      -0.7959999442100525,
+      0.01000000536441803
+    ],
+    "boundsMax": [
+      0.9286789298057556,
+      0.5680000185966492,
+      2.4750001430511475
+    ],
+    "paletteColors": 8,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P04",
+    "name": "Jelly Axolotl",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p04-jelly-axolotl.png",
+    "brief": "A squat opaque aqua jelly axolotl with a rounded capsule body, four short feet, wide curved tail and three chunky pink external gill branches on each side of its broad head. Simple smiling dark face. Shiny solid candy, not transparent glass.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p04-jelly-axolotl.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p04-jelly-axolotl.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p04-jelly-axolotl-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p04-jelly-axolotl.png",
+    "parts": 38,
+    "triangles": 9280,
+    "meshes": 1,
+    "maxMeshTriangles": 9280,
+    "dimensions": [
+      2.5006840229034424,
+      2.1082210540771484,
+      1.792420744895935
+    ],
+    "boundsMin": [
+      -1.2503420114517212,
+      -0.8240000009536743,
+      0.0
+    ],
+    "boundsMax": [
+      1.2503420114517212,
+      1.2842209339141846,
+      1.792420744895935
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P05",
+    "name": "Rocket Snail",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p05-rocket-snail.png",
+    "brief": "A mint-green chubby snail with two thick eye stalks and a compact cream rocket-shaped shell on its back, orange cone at the top and two small cobalt fins physically attached. No exhaust, smoke, floating pieces or realistic rocket details.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p05-rocket-snail.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p05-rocket-snail.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p05-rocket-snail-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p05-rocket-snail.png",
+    "parts": 38,
+    "triangles": 9968,
+    "meshes": 1,
+    "maxMeshTriangles": 9968,
+    "dimensions": [
+      1.5484259128570557,
+      2.1453590393066406,
+      2.378828525543213
+    ],
+    "boundsMin": [
+      -0.7742129564285278,
+      -0.8539999723434448,
+      0.0
+    ],
+    "boundsMax": [
+      0.7742129564285278,
+      1.2913589477539062,
+      2.378828525543213
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P06",
+    "name": "Traffic Crab",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p06-traffic-crab.png",
+    "brief": "A cute squat blue crab with two oversized rounded claws, four visible short sturdy side legs and a small orange traffic-cone hat with one cream stripe. Expressive large eyes emerge at the hat base. All appendages thick enough to model.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p06-traffic-crab.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p06-traffic-crab.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p06-traffic-crab-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p06-traffic-crab.png",
+    "parts": 40,
+    "triangles": 15500,
+    "meshes": 1,
+    "maxMeshTriangles": 15500,
+    "dimensions": [
+      3.1323506832122803,
+      1.0169999599456787,
+      1.8424482345581055
+    ],
+    "boundsMin": [
+      -1.5661753416061401,
+      -0.49699997901916504,
+      0.11129123717546463
+    ],
+    "boundsMax": [
+      1.5661753416061401,
+      0.5199999809265137,
+      1.9537395238876343
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      3.1323506832122803,
+      1.0169999599456787,
+      1.8424482345581055
+    ]
+  },
+  {
+    "id": "P07",
+    "name": "Teapot Frog",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p07-teapot-frog.png",
+    "brief": "A plump lime-green frog whose squat body is a cream teapot with a short rounded spout on the left and broad handle on the right, green frog head emerging from the top like a lid, two round eyes and four little green feet. One coherent whimsical creature.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p07-teapot-frog.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p07-teapot-frog.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p07-teapot-frog-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p07-teapot-frog.png",
+    "parts": 40,
+    "triangles": 10912,
+    "meshes": 1,
+    "maxMeshTriangles": 10912,
+    "dimensions": [
+      2.234029769897461,
+      1.4160000085830688,
+      1.7280000448226929
+    ],
+    "boundsMin": [
+      -1.097999930381775,
+      -0.656000018119812,
+      0.009999990463256836
+    ],
+    "boundsMax": [
+      1.1360297203063965,
+      0.7599999904632568,
+      1.7380000352859497
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P08",
+    "name": "Skater Shark",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p08-skater-shark.png",
+    "brief": "A small chubby upright cyan shark with cream belly, tiny side fins, short blunt tail and friendly open grin showing three rounded teeth, standing on a small attached orange skateboard with four navy wheels. Chunky toy proportions, no detached accessory.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p08-skater-shark.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p08-skater-shark.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p08-skater-shark-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p08-skater-shark.png",
+    "parts": 51,
+    "triangles": 9528,
+    "meshes": 1,
+    "maxMeshTriangles": 9528,
+    "dimensions": [
+      1.4700000286102295,
+      1.434999942779541,
+      2.235170841217041
+    ],
+    "boundsMin": [
+      -0.7350000143051147,
+      -0.5899999737739563,
+      0.004999991971999407
+    ],
+    "boundsMax": [
+      0.7350000143051147,
+      0.8450000286102295,
+      2.24017071723938
+    ],
+    "paletteColors": 9,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P09",
+    "name": "Disco Duck",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p09-disco-duck.png",
+    "brief": "A fat sunny-yellow duck with orange beak and webbed feet, navy over-ear headphones and a small spherical silver disco-ball backpack with just a few large cyan facets. Two stubby wings, happy face, no sparkles or music notes.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p09-disco-duck.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p09-disco-duck.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p09-disco-duck-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p09-disco-duck.png",
+    "parts": 51,
+    "triangles": 11628,
+    "meshes": 1,
+    "maxMeshTriangles": 11628,
+    "dimensions": [
+      1.7884047031402588,
+      1.7929999828338623,
+      2.1430256366729736
+    ],
+    "boundsMin": [
+      -0.8942023515701294,
+      -0.9129999876022339,
+      0.020000003278255463
+    ],
+    "boundsMax": [
+      0.8942023515701294,
+      0.8799999952316284,
+      2.1630256175994873
+    ],
+    "paletteColors": 10,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      1.5988812446594238,
+      1.7929999828338623,
+      2.1043338775634766
+    ]
+  },
+  {
+    "id": "P10",
+    "name": "Cloud Sheep",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p10-cloud-sheep.png",
+    "brief": "A tiny sheep with one puffy opaque pale-blue cloud-shaped wool body made of six large rounded lobes, cream face, two navy curled horns and four short dark feet. Small attached yellow crescent collar charm. No floating cloud wisps.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p10-cloud-sheep.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p10-cloud-sheep.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p10-cloud-sheep-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p10-cloud-sheep.png",
+    "parts": 37,
+    "triangles": 11092,
+    "meshes": 1,
+    "maxMeshTriangles": 11092,
+    "dimensions": [
+      1.694714069366455,
+      1.5010000467300415,
+      1.75
+    ],
+    "boundsMin": [
+      -0.8473570346832275,
+      -0.6710000038146973,
+      -0.009999990463256836
+    ],
+    "boundsMax": [
+      0.8473570346832275,
+      0.8300000429153442,
+      1.7400000095367432
+    ],
+    "paletteColors": 8,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P11",
+    "name": "Cactus Cat",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p11-cactus-cat.png",
+    "brief": "A rounded green cactus kitten with two triangular ears, little cylindrical paws, a thick up-curled tail, cream whisker-pad and a small attached pink cactus flower on one ear. Three broad pale vertical rib markings and only a few blunt stylized nubs, no sharp thorns.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p11-cactus-cat.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p11-cactus-cat.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p11-cactus-cat-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p11-cactus-cat.png",
+    "parts": 59,
+    "triangles": 13980,
+    "meshes": 1,
+    "maxMeshTriangles": 13980,
+    "dimensions": [
+      1.7544589042663574,
+      1.7454204559326172,
+      1.9726561307907104
+    ],
+    "boundsMin": [
+      -0.7577248811721802,
+      -0.7329999804496765,
+      0.01000000536441803
+    ],
+    "boundsMax": [
+      0.9967340230941772,
+      1.0124205350875854,
+      1.9826561212539673
+    ],
+    "paletteColors": 11,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      1.7544589042663574,
+      1.7454204559326172,
+      1.9726561307907104
+    ]
+  },
+  {
+    "id": "P12",
+    "name": "UFO Jelly",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p12-ufo-jelly.png",
+    "brief": "A floating chubby lilac jellyfish pet wearing a teal flying-saucer-shaped cap, a small clear-looking but opaque icy-blue dome on top, four broad short dangling tentacles and a simple cheerful dark face. Saucer and tentacles connected, no beam or floating particles.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p12-ufo-jelly.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p12-ufo-jelly.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p12-ufo-jelly-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p12-ufo-jelly.png",
+    "parts": 30,
+    "triangles": 13976,
+    "meshes": 1,
+    "maxMeshTriangles": 13976,
+    "dimensions": [
+      1.7799999713897705,
+      1.7799999713897705,
+      2.108938217163086
+    ],
+    "boundsMin": [
+      -0.8899999856948853,
+      -0.8899999856948853,
+      0.08106152713298798
+    ],
+    "boundsMax": [
+      0.8899999856948853,
+      0.8899999856948853,
+      2.18999981880188
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      1.7799999713897705,
+      1.7799999713897705,
+      2.108938217163086
+    ]
+  },
+  {
+    "id": "P13",
+    "name": "Pumpkin Bunny",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p13-pumpkin-bunny.png",
+    "brief": "A tiny rabbit with a squat orange pumpkin body, cream face patch, two tall thick green leaf-like ears, four stubby cream paws and a round dark-purple pompom tail. Friendly bright face, pumpkin body uses broad simple segments.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p13-pumpkin-bunny.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p13-pumpkin-bunny.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p13-pumpkin-bunny-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p13-pumpkin-bunny.png",
+    "parts": 58,
+    "triangles": 13816,
+    "meshes": 1,
+    "maxMeshTriangles": 13816,
+    "dimensions": [
+      1.2400000095367432,
+      1.6989998817443848,
+      2.0874907970428467
+    ],
+    "boundsMin": [
+      -0.6200000047683716,
+      -0.668999969959259,
+      0.009999990463256836
+    ],
+    "boundsMax": [
+      0.6200000047683716,
+      1.0299999713897705,
+      2.0974907875061035
+    ],
+    "paletteColors": 11,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P14",
+    "name": "Hoodie Ghost",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p14-hoodie-ghost.png",
+    "brief": "A cute rounded opaque white ghost with a short wavy base instead of legs, wearing a chunky purple hood with tiny rounded cat-ear points and a bright green front pocket. Two little mitten hands are attached to the body, simple black oval eyes and happy mouth, no transparency or floating wisps.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p14-hoodie-ghost.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p14-hoodie-ghost.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p14-hoodie-ghost-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p14-hoodie-ghost.png",
+    "parts": 35,
+    "triangles": 9644,
+    "meshes": 1,
+    "maxMeshTriangles": 9644,
+    "dimensions": [
+      1.6200000047683716,
+      1.1435198783874512,
+      1.9131534099578857
+    ],
+    "boundsMin": [
+      -0.8100000023841858,
+      -0.6039999723434448,
+      0.05212023854255676
+    ],
+    "boundsMax": [
+      0.8100000023841858,
+      0.5395199060440063,
+      1.9652736186981201
+    ],
+    "paletteColors": 8,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      1.6200000047683716,
+      1.1435198783874512,
+      1.9131534099578857
+    ]
+  },
+  {
+    "id": "P15",
+    "name": "Marshmallow Dragon",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p15-marshmallow-dragon.png",
+    "brief": "A chubby ivory marshmallow dragon with a large rounded head, four tiny pink paws, two compact folded pastel-pink wings, small blunt gold horns and a stubby curled tail. A few toasted tan patches, happy eyes. Wing membranes opaque and physically attached.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p15-marshmallow-dragon.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p15-marshmallow-dragon.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p15-marshmallow-dragon-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p15-marshmallow-dragon.png",
+    "parts": 62,
+    "triangles": 15848,
+    "meshes": 1,
+    "maxMeshTriangles": 15848,
+    "dimensions": [
+      2.4901723861694336,
+      1.971441388130188,
+      2.1944525241851807
+    ],
+    "boundsMin": [
+      -1.2450861930847168,
+      -0.9490000009536743,
+      0.0
+    ],
+    "boundsMax": [
+      1.2450861930847168,
+      1.0224413871765137,
+      2.1944525241851807
+    ],
+    "paletteColors": 8,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P16",
+    "name": "Banana Gorilla",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p16-banana-gorilla.png",
+    "brief": "A squat playful toy gorilla with a cream face, brown rounded belly, oversized chunky arms and short feet, wearing a bright yellow banana-peel hood with two curved attached peel flaps behind its shoulders. Friendly silly grin, no human clothing or extra bananas.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p16-banana-gorilla.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p16-banana-gorilla.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p16-banana-gorilla-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p16-banana-gorilla.png",
+    "parts": 61,
+    "triangles": 15276,
+    "meshes": 1,
+    "maxMeshTriangles": 15276,
+    "dimensions": [
+      2.362532377243042,
+      1.2625000476837158,
+      2.3518850803375244
+    ],
+    "boundsMin": [
+      -1.181266188621521,
+      -0.762499988079071,
+      0.009999997913837433
+    ],
+    "boundsMax": [
+      1.181266188621521,
+      0.5,
+      2.3618850708007812
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P17",
+    "name": "Gummy Rex",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p17-gummy-rex.png",
+    "brief": "A plump opaque lime gummy T-rex pet with oversized rounded head, two tiny arms, two sturdy feet, a thick up-curled tail and four broad pink dorsal bumps. Two small rounded teeth and cheerful eyes. Shiny opaque candy, not transparent.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p17-gummy-rex.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p17-gummy-rex.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p17-gummy-rex-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p17-gummy-rex.png",
+    "parts": 44,
+    "triangles": 12968,
+    "meshes": 1,
+    "maxMeshTriangles": 12968,
+    "dimensions": [
+      1.464611530303955,
+      2.117821216583252,
+      2.2100000381469727
+    ],
+    "boundsMin": [
+      -0.6399999856948853,
+      -1.0019999742507935,
+      0.0
+    ],
+    "boundsMax": [
+      0.8246115446090698,
+      1.1158212423324585,
+      2.2100000381469727
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P18",
+    "name": "Lava Toaster",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p18-lava-toaster.png",
+    "brief": "A cute squat orange toaster robot pet with a chamfered box body, cream front face panel with two dark eyes, four short navy rubber feet and two thick red lava-toast slices sticking from the top. A tiny yellow side lever and a few simple magma-colour insets. No molten spills or fire effects.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p18-lava-toaster.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p18-lava-toaster.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p18-lava-toaster-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p18-lava-toaster.png",
+    "parts": 41,
+    "triangles": 6592,
+    "meshes": 1,
+    "maxMeshTriangles": 6592,
+    "dimensions": [
+      1.6624999046325684,
+      1.0859999656677246,
+      1.9700000286102295
+    ],
+    "boundsMin": [
+      -0.9449999928474426,
+      -0.6060000061988831,
+      0.02000001072883606
+    ],
+    "boundsMax": [
+      0.7174999713897705,
+      0.47999998927116394,
+      1.9900000095367432
+    ],
+    "paletteColors": 8,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P19",
+    "name": "Moon Moth",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p19-moon-moth.png",
+    "brief": "A round cream moth pet with two large chunky symmetrical violet wings, pale cyan crescent-shaped inlays, short plush antennae and two tiny navy feet. Friendly oversized dark eyes. Wing shapes are solid and simple, not delicate veined insect wings.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p19-moon-moth.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p19-moon-moth.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p19-moon-moth-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p19-moon-moth.png",
+    "parts": 55,
+    "triangles": 14820,
+    "meshes": 1,
+    "maxMeshTriangles": 14820,
+    "dimensions": [
+      2.3767940998077393,
+      0.7890000343322754,
+      2.1206040382385254
+    ],
+    "boundsMin": [
+      -1.1883970499038696,
+      -0.4989999830722809,
+      0.019999995827674866
+    ],
+    "boundsMax": [
+      1.1883970499038696,
+      0.2900000214576721,
+      2.140604019165039
+    ],
+    "paletteColors": 6,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false
+  },
+  {
+    "id": "P20",
+    "name": "Royal Slime",
+    "category": "Pets",
+    "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p20-royal-slime.png",
+    "brief": "A squat opaque cobalt-blue slime pet with one rounded blob body, two broad tiny hand nubs and a scalloped base, big friendly eyes, and a small chunky gold crown with three blunt points and one pink gem. No transparency, droplets, detached parts or glow.",
+    "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p20-royal-slime.blend",
+    "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p20-royal-slime.fbx",
+    "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p20-royal-slime-palette.png",
+    "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p20-royal-slime.png",
+    "parts": 24,
+    "triangles": 11952,
+    "meshes": 1,
+    "maxMeshTriangles": 11952,
+    "dimensions": [
+      1.6318594217300415,
+      1.21405029296875,
+      2.0260000228881836
+    ],
+    "boundsMin": [
+      -0.8159288763999939,
+      -0.5730000138282776,
+      0.05999999865889549
+    ],
+    "boundsMax": [
+      0.8159305453300476,
+      0.6410502195358276,
+      2.0859999656677246
+    ],
+    "paletteColors": 7,
+    "anchors": {
+      "FollowAttachment": [
+        0.0,
+        0.25,
+        0.6499999761581421
+      ],
+      "DisplayFocus": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "editable": true,
+    "rigged": false,
+    "gameplayImplemented": false,
+    "exportDimensions": [
+      1.6318594217300415,
+      1.21405029296875,
+      2.0260000228881836
+    ]
+  }
+]

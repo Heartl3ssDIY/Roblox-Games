@@ -1,0 +1,35 @@
+{
+  "id": "M07",
+  "name": "Ember Elixir",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m07-ember-elixir.png",
+  "brief": "A chunky round potion flask with opaque orange-red liquid, cream shoulder rim, dark navy stopper and one simple raised yellow flame emblem on its front. A small red heat-coil band hugs the neck. Friendly fantasy consumable, not realistic incendiary equipment.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m07-ember-elixir.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m07-ember-elixir.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m07-ember-elixir-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m07-ember-elixir.png",
+  "parts": 13,
+  "triangles": 4612,
+  "meshes": 1,
+  "maxMeshTriangles": 4612,
+  "dimensions": [
+    1.2999999523162842,
+    1.0175000429153442,
+    2.112499952316284
+  ],
+  "boundsMin": [
+    -0.6499999761581421,
+    -0.5575000047683716,
+    0.07500000298023224
+  ],
+  "boundsMax": [
+    0.6499999761581421,
+    0.46000000834465027,
+    2.1875
+  ],
+  "paletteColors": 6,
+  "anchors": {},
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

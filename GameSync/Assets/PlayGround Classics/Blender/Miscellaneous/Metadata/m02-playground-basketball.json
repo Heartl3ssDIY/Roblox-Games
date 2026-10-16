@@ -1,0 +1,35 @@
+{
+  "id": "M02",
+  "name": "Playground Basketball",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m02-playground-basketball.png",
+  "brief": "One bright orange basketball with broad clean dark navy curved seams, slightly softened toy sphere and simple glossy highlights, minimal surface texture and no writing.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m02-playground-basketball.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m02-playground-basketball.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m02-playground-basketball-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m02-playground-basketball.png",
+  "parts": 5,
+  "triangles": 6496,
+  "meshes": 1,
+  "maxMeshTriangles": 6496,
+  "dimensions": [
+    1.925971508026123,
+    1.9259999990463257,
+    1.9260001182556152
+  ],
+  "boundsMin": [
+    -0.9629999995231628,
+    -0.9629999995231628,
+    -0.023000000044703484
+  ],
+  "boundsMax": [
+    0.9629714488983154,
+    0.9629999995231628,
+    1.9030001163482666
+  ],
+  "paletteColors": 2,
+  "anchors": {},
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

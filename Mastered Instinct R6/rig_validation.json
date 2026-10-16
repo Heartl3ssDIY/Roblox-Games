@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "failures": [],
+  "bones": [
+    "HumanoidRootPart",
+    "Torso",
+    "Head",
+    "Right Arm",
+    "Left Arm",
+    "Right Leg",
+    "Left Leg"
+  ],
+  "rigged_meshes": 216,
+  "base_vertices": 17591,
+  "evaluated_character_triangles": 37712,
+  "meshes_by_body_part": {
+    "Head": 92,
+    "Right Arm": 11,
+    "Left Arm": 14,
+    "Torso": 29,
+    "Right Leg": 35,
+    "Left Leg": 35
+  },
+  "independent_pose_checks": [
+    {
+      "bone": "Head",
+      "moved_meshes": 92
+    },
+    {
+      "bone": "Left Arm",
+      "moved_meshes": 14
+    },
+    {
+      "bone": "Right Arm",
+      "moved_meshes": 11
+    },
+    {
+      "bone": "Left Leg",
+      "moved_meshes": 35
+    },
+    {
+      "bone": "Right Leg",
+      "moved_meshes": 35
+    },
+    {
+      "bone": "Torso",
+      "moved_meshes": 216
+    }
+  ],
+  "max_rigid_binding_error": 7.191257781990561e-07,
+  "aura_children": 50,
+  "aura_independent": true,
+  "aura_follows_root": true,
+  "aura_follow_test_delta": [
+    0.5,
+    0.0,
+    0.0
+  ]
+}

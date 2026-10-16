@@ -1,0 +1,51 @@
+{
+  "id": "E04",
+  "name": "Peppermint Slugger",
+  "category": "Event-Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e04-peppermint-slugger.png",
+  "brief": "Christmas baseball bat with a long rounded candy-cane red-and-ivory spiral barrel, a dark green chunky collar with two attached holly leaves and three red round berries, navy grip and red knob. Straight baseball-bat profile rather than a hooked candy cane, no writing.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e04-peppermint-slugger.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e04-peppermint-slugger.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e04-peppermint-slugger-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e04-peppermint-slugger.png",
+  "parts": 15,
+  "triangles": 6974,
+  "meshes": 1,
+  "maxMeshTriangles": 6974,
+  "dimensions": [
+    0.6816110014915466,
+    0.6747024059295654,
+    3.5360000133514404
+  ],
+  "boundsMin": [
+    -0.3409537672996521,
+    -0.3335516154766083,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.34065723419189453,
+    0.34115079045295715,
+    3.0799999237060547
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6816110014915466,
+    0.6747024059295654,
+    3.5360000133514404
+  ]
+}

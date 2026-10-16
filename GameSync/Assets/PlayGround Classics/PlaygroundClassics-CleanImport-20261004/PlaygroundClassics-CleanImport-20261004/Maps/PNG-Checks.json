@@ -1,0 +1,810 @@
+{
+  "count": 134,
+  "allTransparent": true,
+  "files": [
+    {
+      "file": "PNG/01-Empty-Panels/level-panel-compact.png",
+      "width": 476,
+      "height": 244,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/level-panel.png",
+      "width": 1072,
+      "height": 356,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/wallet-panel.png",
+      "width": 1008,
+      "height": 292,
+      "transparent": true
+    },
+    {
+      "file": "PNG/02-Item-Frame-Parts/item-frame.png",
+      "width": 984,
+      "height": 988,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/shop-background.png",
+      "width": 2048,
+      "height": 1218,
+      "transparent": true
+    },
+    {
+      "file": "PNG/02-Item-Frame-Parts/item-preview-background.png",
+      "width": 888,
+      "height": 524,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.png",
+      "width": 391,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/02-Item-Frame-Parts/item-action-button.png",
+      "width": 653,
+      "height": 149,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/runner-meter-background.png",
+      "width": 1516,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.png",
+      "width": 796,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/TagHUD-Top.png",
+      "width": 2048,
+      "height": 394,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/TagHUD-Role.png",
+      "width": 1156,
+      "height": 297,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Vault.png",
+      "width": 251,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.png",
+      "width": 251,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.png",
+      "width": 598,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/PlaygroundShell-RewardToast.png",
+      "width": 1696,
+      "height": 236,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/TagHUD-Results.png",
+      "width": 2048,
+      "height": 872,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/PlaygroundShell-Backdrop.png",
+      "width": 2048,
+      "height": 1160,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.png",
+      "width": 240,
+      "height": 220,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/PlaygroundShell-CompactVotePanel.png",
+      "width": 2048,
+      "height": 571,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/PlaygroundShell-VotePanel.png",
+      "width": 2048,
+      "height": 712,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.png",
+      "width": 488,
+      "height": 220,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.png",
+      "width": 240,
+      "height": 220,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.png",
+      "width": 2048,
+      "height": 1160,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.png",
+      "width": 163,
+      "height": 183,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png",
+      "width": 399,
+      "height": 171,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.png",
+      "width": 511,
+      "height": 171,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.png",
+      "width": 275,
+      "height": 171,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.png",
+      "width": 225,
+      "height": 149,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.png",
+      "width": 653,
+      "height": 149,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.png",
+      "width": 808,
+      "height": 436,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.png",
+      "width": 808,
+      "height": 436,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.png",
+      "width": 755,
+      "height": 332,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.png",
+      "width": 808,
+      "height": 436,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.png",
+      "width": 755,
+      "height": 332,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.png",
+      "width": 755,
+      "height": 332,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Toggle.png",
+      "width": 465,
+      "height": 213,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "width": 1380,
+      "height": 852,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "width": 1448,
+      "height": 988,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.png",
+      "width": 157,
+      "height": 218,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png",
+      "width": 1224,
+      "height": 2048,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.png",
+      "width": 465,
+      "height": 213,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png",
+      "width": 1273,
+      "height": 189,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png",
+      "width": 1273,
+      "height": 189,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.png",
+      "width": 1404,
+      "height": 231,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png",
+      "width": 1273,
+      "height": 189,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.png",
+      "width": 193,
+      "height": 213,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.png",
+      "width": 1406,
+      "height": 194,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.png",
+      "width": 1368,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png",
+      "width": 1368,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png",
+      "width": 1368,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png",
+      "width": 1368,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/MudHUD-Top.png",
+      "width": 2048,
+      "height": 281,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/MudHUD-Frozen.png",
+      "width": 1136,
+      "height": 420,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/MudHUD-ColourToggle.png",
+      "width": 193,
+      "height": 213,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.png",
+      "width": 388,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/MudHUD-ColourPicker.png",
+      "width": 1136,
+      "height": 588,
+      "transparent": true
+    },
+    {
+      "file": "PNG/01-Empty-Panels/MudHUD-Results.png",
+      "width": 2048,
+      "height": 643,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.png",
+      "width": 388,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.png",
+      "width": 739,
+      "height": 181,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-ColourToggle.png",
+      "width": 193,
+      "height": 213,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.png",
+      "width": 178,
+      "height": 198,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.png",
+      "width": 336,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.png",
+      "width": 256,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.png",
+      "width": 256,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.png",
+      "width": 1136,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/04-Meter-Parts/xp-fill.png",
+      "width": 692,
+      "height": 56,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.png",
+      "width": 256,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/04-Meter-Parts/xp-track.png",
+      "width": 692,
+      "height": 56,
+      "transparent": true
+    },
+    {
+      "file": "PNG/04-Meter-Parts/stamina-track.png",
+      "width": 1420,
+      "height": 56,
+      "transparent": true
+    },
+    {
+      "file": "PNG/04-Meter-Parts/stamina-fill.png",
+      "width": 1420,
+      "height": 56,
+      "transparent": true
+    },
+    {
+      "file": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.png",
+      "width": 256,
+      "height": 228,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "width": 192,
+      "height": 208,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/heat-slot.png",
+      "width": 352,
+      "height": 236,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/dodge.png",
+      "width": 408,
+      "height": 240,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/mud-slot.png",
+      "width": 352,
+      "height": 236,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/splat.png",
+      "width": 352,
+      "height": 236,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/sprint-wide.png",
+      "width": 1152,
+      "height": 244,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/team-black.png",
+      "width": 316,
+      "height": 216,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/team-red.png",
+      "width": 272,
+      "height": 240,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/team-blue.png",
+      "width": 316,
+      "height": 216,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/sprint.png",
+      "width": 812,
+      "height": 240,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/team-green.png",
+      "width": 316,
+      "height": 216,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/team-blue-status.png",
+      "width": 1016,
+      "height": 220,
+      "transparent": true
+    },
+    {
+      "file": "PNG/05-Favourite-Buttons-Blank/team-toggle.png",
+      "width": 240,
+      "height": 212,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/close.png",
+      "width": 192,
+      "height": 208,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/heat-slot.png",
+      "width": 352,
+      "height": 236,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/dodge.png",
+      "width": 408,
+      "height": 240,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/mud-slot.png",
+      "width": 352,
+      "height": 236,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/splat.png",
+      "width": 352,
+      "height": 236,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/team-black.png",
+      "width": 316,
+      "height": 216,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/team-blue.png",
+      "width": 316,
+      "height": 216,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/sprint.png",
+      "width": 812,
+      "height": 240,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/team-blue-status.png",
+      "width": 1016,
+      "height": 220,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/team-green.png",
+      "width": 316,
+      "height": 216,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/sprint-wide.png",
+      "width": 1152,
+      "height": 244,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/team-toggle.png",
+      "width": 240,
+      "height": 212,
+      "transparent": true
+    },
+    {
+      "file": "PNG/Optional-Labelled-Buttons/team-red.png",
+      "width": 272,
+      "height": 240,
+      "transparent": true
+    },
+    {
+      "file": "PNG/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.png",
+      "width": 1280,
+      "height": 624,
+      "transparent": true
+    },
+    {
+      "file": "PNG/06-Smooth-Game-Card-Blanks/british-bulldog.png",
+      "width": 1280,
+      "height": 624,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/black-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/06-Smooth-Game-Card-Blanks/tag-youre-it.png",
+      "width": 1280,
+      "height": 624,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/black-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/black-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/blue-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/blue-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/blue-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/cream-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/cream-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/cream-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/gold-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/gold-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/gold-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/green-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/mud-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/green-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/green-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/mud-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/mud-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/orange-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/orange-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/orange-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/panel-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/panel-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/panel-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/purple-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/purple-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/purple-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/red-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/red-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/silver-disabled.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/red-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/silver-normal.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    },
+    {
+      "file": "PNG/07-Resizable-Skins/silver-pressed.png",
+      "width": 512,
+      "height": 320,
+      "transparent": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "B04",
+  "name": "Street Cone",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b04-street-cone.png",
+  "brief": "Baseball bat with a long rounded orange barrel interrupted by two thick ivory reflective bands, like traffic-cone-inspired sports equipment. Narrow navy shaft and orange rubber knob. Still clearly a baseball bat, not a complete traffic cone.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b04-street-cone.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b04-street-cone.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b04-street-cone-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b04-street-cone.png",
+  "parts": 9,
+  "triangles": 5298,
+  "meshes": 1,
+  "maxMeshTriangles": 5298,
+  "dimensions": [
+    0.68146151304245,
+    0.68146151304245,
+    3.5360000133514404
+  ],
+  "boundsMin": [
+    -0.340730756521225,
+    -0.340730756521225,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.340730756521225,
+    0.340730756521225,
+    3.0799999237060547
+  ],
+  "paletteColors": 3,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.68146151304245,
+    0.68146151304245,
+    3.5360000133514404
+  ]
+}

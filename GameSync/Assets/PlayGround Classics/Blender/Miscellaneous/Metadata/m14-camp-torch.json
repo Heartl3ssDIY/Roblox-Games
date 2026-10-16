@@ -1,0 +1,41 @@
+{
+  "id": "M14",
+  "name": "Camp Torch",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m14-camp-torch.png",
+  "brief": "One chunky friendly fantasy hand torch: short dark-brown wooden handle, thick cream wrap bands, navy bowl-shaped collar and a compact sculpted orange-yellow flame sitting directly in that collar. The flame is a solid simple three-lobed cartoon form, no sparks, smoke or detached effects.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m14-camp-torch.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m14-camp-torch.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m14-camp-torch-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m14-camp-torch.png",
+  "parts": 17,
+  "triangles": 3180,
+  "meshes": 1,
+  "maxMeshTriangles": 3180,
+  "dimensions": [
+    0.9100000262260437,
+    0.9100000262260437,
+    2.418304204940796
+  ],
+  "boundsMin": [
+    -0.45500001311302185,
+    -0.45500001311302185,
+    -0.5699999928474426
+  ],
+  "boundsMax": [
+    0.45500001311302185,
+    0.45500001311302185,
+    1.848304271697998
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

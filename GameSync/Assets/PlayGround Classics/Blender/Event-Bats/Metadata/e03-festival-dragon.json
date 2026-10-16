@@ -1,0 +1,51 @@
+{
+  "id": "E03",
+  "name": "Festival Dragon",
+  "category": "Event-Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e03-festival-dragon.png",
+  "brief": "Lunar New Year-themed baseball bat with a long lacquer-red rounded barrel, broad raised gold cloud-scroll bands, a small rounded friendly dragon-head cap blended into the blunt tip, navy seams and cream grip with red end knob. Model-friendly chunky dragon muzzle, two short horns, no whisker filaments or loose ribbons, no text.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e03-festival-dragon.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e03-festival-dragon.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e03-festival-dragon-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e03-festival-dragon.png",
+  "parts": 42,
+  "triangles": 15374,
+  "meshes": 1,
+  "maxMeshTriangles": 15374,
+  "dimensions": [
+    0.7879999876022339,
+    0.8030773401260376,
+    3.9262428283691406
+  ],
+  "boundsMin": [
+    -0.39399999380111694,
+    -0.4709984064102173,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.39399999380111694,
+    0.3320789337158203,
+    3.470242738723755
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      2.802799940109253
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.7879999876022339,
+    0.8030773401260376,
+    3.9026012420654297
+  ]
+}

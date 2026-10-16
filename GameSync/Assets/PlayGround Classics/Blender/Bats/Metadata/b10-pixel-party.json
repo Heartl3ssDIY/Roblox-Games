@@ -1,0 +1,51 @@
+{
+  "id": "B10",
+  "name": "Pixel Party",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b10-pixel-party.png",
+  "brief": "Arcade-themed baseball bat with a chunky long barrel built from three large stepped rectangular blocks with softened corners, alternating magenta and cyan panels, navy seams and lime-green grip. Must keep the long bat profile, no letters, screens or floating pixels.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b10-pixel-party.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b10-pixel-party.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b10-pixel-party-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b10-pixel-party.png",
+  "parts": 17,
+  "triangles": 5184,
+  "meshes": 1,
+  "maxMeshTriangles": 5184,
+  "dimensions": [
+    0.6399999856948853,
+    0.5861999988555908,
+    3.505000114440918
+  ],
+  "boundsMin": [
+    -0.3199999928474426,
+    -0.31460002064704895,
+    -0.45750001072883606
+  ],
+  "boundsMax": [
+    0.3199999928474426,
+    0.27160000801086426,
+    3.0475001335144043
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6399999856948853,
+    0.5861999988555908,
+    3.505000114440918
+  ]
+}

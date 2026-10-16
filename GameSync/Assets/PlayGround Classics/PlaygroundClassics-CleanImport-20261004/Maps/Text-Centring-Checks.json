@@ -1,0 +1,80 @@
+[
+  {
+    "file": "close.svg",
+    "verticalAdjustment": 1.2835,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "dodge.svg",
+    "verticalAdjustment": 0.0315,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "heat-slot.svg",
+    "verticalAdjustment": 0.221,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "mud-slot.svg",
+    "verticalAdjustment": 0.221,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "splat.svg",
+    "verticalAdjustment": 0.405,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "sprint-wide.svg",
+    "verticalAdjustment": 0.205,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "sprint.svg",
+    "verticalAdjustment": 0.5315,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "team-black.svg",
+    "verticalAdjustment": 0.7135,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "team-blue-status.svg",
+    "verticalAdjustment": 0.982,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "team-blue.svg",
+    "verticalAdjustment": 0.7165,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "team-green.svg",
+    "verticalAdjustment": 0.7135,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "team-red.svg",
+    "verticalAdjustment": 1.0125,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  },
+  {
+    "file": "team-toggle.svg",
+    "verticalAdjustment": 0.561,
+    "eachLineCentredByGlyphBounds": true,
+    "textBlockCentredOnInnerFace": true
+  }
+]

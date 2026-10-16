@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="39.142" height="54.542" viewBox="0 0 39.142 54.542">
+  <title>PlaygroundAdminPanel-Panel_Close</title>
+  <desc>Isolated empty UI artwork. No captions, counters, placeholder images or item contents.</desc>
+  <defs>
+    <linearGradient id="Glossy1-EditableSkin-Fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffae7" stop-opacity="1" />
+      <stop offset="0.48" stop-color="#fff8df" stop-opacity="1" />
+      <stop offset="1" stop-color="#e0dac4" stop-opacity="1" />
+    </linearGradient>
+    <clipPath id="Glossy1-EditableSkin-Clip">
+      <rect x="357.678" y="116.061" width="27.227" height="39.627" rx="9.043" />
+    </clipPath>
+    <linearGradient id="Glossy1-EditableSkin-Shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(-351.721 -110.104)">
+    <g id="StarterGui.PlaygroundAdminPanel.Panel.Close_Background-Glossy" data-original-fill="#ffffff" data-skin-theme="panel">
+      <rect id="Glossy1-EditableSkin-OuterKeyline" x="353.721" y="112.104" width="35.142" height="50.542" rx="14.0" fill="#20263d" stroke="#fffcf2" stroke-width="0.946" />
+      <rect id="Glossy1-EditableSkin-Face" x="356.678" y="115.061" width="29.227" height="41.627" rx="11.043" fill="url(#Glossy1-EditableSkin-Fill)" stroke="#fffdf4" stroke-width="2.0" />
+      <g id="Glossy1-EditableSkin-SurfaceDetail" clip-path="url(#Glossy1-EditableSkin-Clip)">
+        <rect id="Glossy1-EditableSkin-TopGloss" x="357.678" y="116.061" width="27.227" height="19.021" fill="url(#Glossy1-EditableSkin-Shine)" />
+        <path d="M 369.678 119.061 H 372.906" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+</svg>

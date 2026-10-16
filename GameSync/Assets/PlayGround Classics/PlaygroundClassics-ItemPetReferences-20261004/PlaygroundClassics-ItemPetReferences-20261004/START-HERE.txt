@@ -1,0 +1,11 @@
+PLAYGROUND CLASSICS: ITEMS AND PETS
+
+Open Gallery.html or the category Contact-Sheet.png files to browse.
+Give any entire category folder (or its matching ZIP) to your Blender chat. Each folder is self-contained.
+
+Contents: 15 core baseball bats; 6 additional event bats; 15 miscellaneous items; 12 event decorations; 20 pets plus 20 exact matching index silhouettes.
+Originals are the large transparent modelling references. UI-512 and UI-256 are the corresponding square shop icon exports. Names, prices and stats are not baked into the individual art. No 3D models are included.
+
+Birthday bat: player birthday, not game anniversary. Other rarity/theme labels are suggestions, not implemented unlock logic.
+
+All subjects are concepts with a single three-quarter view. Unseen sides and production mesh details are left for the modelling step.

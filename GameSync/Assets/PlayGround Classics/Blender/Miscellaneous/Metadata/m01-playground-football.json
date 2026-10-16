@@ -1,0 +1,35 @@
+{
+  "id": "M01",
+  "name": "Playground Football",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m01-playground-football.png",
+  "brief": "One chunky classic association-football soccer ball, bright ivory panels and navy pentagonal panels with thick clean seams, a few broad glossy highlights. Slightly softened inflated toy sphere, no writing or grass.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m01-playground-football.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m01-playground-football.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m01-playground-football-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m01-playground-football.png",
+  "parts": 33,
+  "triangles": 5472,
+  "meshes": 1,
+  "maxMeshTriangles": 5472,
+  "dimensions": [
+    1.8882895708084106,
+    1.8882895708084106,
+    1.8882895708084106
+  ],
+  "boundsMin": [
+    -0.9441447854042053,
+    -0.9441447854042053,
+    0.01585519313812256
+  ],
+  "boundsMax": [
+    0.9441447854042053,
+    0.9441447854042053,
+    1.9041447639465332
+  ],
+  "paletteColors": 3,
+  "anchors": {},
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

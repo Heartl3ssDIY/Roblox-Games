@@ -1,0 +1,46 @@
+{
+  "id": "P17",
+  "name": "Gummy Rex",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p17-gummy-rex.png",
+  "brief": "A plump opaque lime gummy T-rex pet with oversized rounded head, two tiny arms, two sturdy feet, a thick up-curled tail and four broad pink dorsal bumps. Two small rounded teeth and cheerful eyes. Shiny opaque candy, not transparent.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p17-gummy-rex.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p17-gummy-rex.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p17-gummy-rex-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p17-gummy-rex.png",
+  "parts": 44,
+  "triangles": 12968,
+  "meshes": 1,
+  "maxMeshTriangles": 12968,
+  "dimensions": [
+    1.464611530303955,
+    2.117821216583252,
+    2.2100000381469727
+  ],
+  "boundsMin": [
+    -0.6399999856948853,
+    -1.0019999742507935,
+    0.0
+  ],
+  "boundsMax": [
+    0.8246115446090698,
+    1.1158212423324585,
+    2.2100000381469727
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

@@ -1,0 +1,51 @@
+{
+  "id": "B08",
+  "name": "Frostbite",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b08-frostbite.png",
+  "brief": "Icy cyan baseball bat with a long solid faceted ice-crystal barrel, a rounded blunt faceted top, silver collar and deep blue wrapped grip. Broad white-blue facets, no translucent disappearing parts, no loose snowflakes.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b08-frostbite.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b08-frostbite.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b08-frostbite-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b08-frostbite.png",
+  "parts": 8,
+  "triangles": 4376,
+  "meshes": 1,
+  "maxMeshTriangles": 4376,
+  "dimensions": [
+    0.6957692503929138,
+    0.6957692503929138,
+    3.5900001525878906
+  ],
+  "boundsMin": [
+    -0.3478846251964569,
+    -0.3478846251964569,
+    -0.46000000834465027
+  ],
+  "boundsMax": [
+    0.3478846251964569,
+    0.3478846251964569,
+    3.130000114440918
+  ],
+  "paletteColors": 8,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6957692503929138,
+    0.6957692503929138,
+    3.5900001525878906
+  ]
+}

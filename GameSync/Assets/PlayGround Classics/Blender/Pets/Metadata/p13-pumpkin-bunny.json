@@ -1,0 +1,46 @@
+{
+  "id": "P13",
+  "name": "Pumpkin Bunny",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p13-pumpkin-bunny.png",
+  "brief": "A tiny rabbit with a squat orange pumpkin body, cream face patch, two tall thick green leaf-like ears, four stubby cream paws and a round dark-purple pompom tail. Friendly bright face, pumpkin body uses broad simple segments.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p13-pumpkin-bunny.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p13-pumpkin-bunny.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p13-pumpkin-bunny-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p13-pumpkin-bunny.png",
+  "parts": 58,
+  "triangles": 13816,
+  "meshes": 1,
+  "maxMeshTriangles": 13816,
+  "dimensions": [
+    1.2400000095367432,
+    1.6989998817443848,
+    2.0874907970428467
+  ],
+  "boundsMin": [
+    -0.6200000047683716,
+    -0.668999969959259,
+    0.009999990463256836
+  ],
+  "boundsMax": [
+    0.6200000047683716,
+    1.0299999713897705,
+    2.0974907875061035
+  ],
+  "paletteColors": 11,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

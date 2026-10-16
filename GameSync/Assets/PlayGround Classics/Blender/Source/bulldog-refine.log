@@ -1,0 +1,13 @@
+00:02.421  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_54180_05643ba70e0bdd40824021793a31e33a.png.png"
+00:18.937  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\PlayGround Classics\Blender\Pets\Previews\p01-pocket-bulldog.png'
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p01-pocket-bulldog.fbx'
+export finished in 0.0188 sec.
+Info: Saved as "p01-pocket-bulldog.blend"
+ASSET_COMPLETE {"id": "P01", "name": "Pocket Bulldog", "category": "Pets", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p01-pocket-bulldog.png", "brief": "A chubby cream-and-tan toy bulldog puppy, oversized square-rounded head, folded ears, squat four-legged body, tiny curled tail, wide navy collar and one small gold circular tag. Friendly eyebrows and a determined happy mouth, no written tag.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p01-pocket-bulldog.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p01-pocket-bulldog.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p01-pocket-bulldog-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p01-pocket-bulldog.png", "parts": 32, "triangles": 10084, "meshes": 1, "maxMeshTriangles": 10084, "dimensions": [1.9706060886383057, 2.3295464515686035, 2.0005362033843994], "boundsMin": [-0.9853030443191528, -1.0920000076293945, 0.02800000086426735], "boundsMax": [0.9853029847145081, 1.2375465631484985, 2.028536319732666], "paletteColors": 13, "anchors": {"FollowAttachment": [0.0, 0.25, 0.6499999761581421], "DisplayFocus": [0.0, 0.0, 1.0]}, "editable": true, "rigged": false, "gameplayImplemented": false}
+PACK_COMPLETE {"count": 1, "ids": ["P01"]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+Unable to delete file
+Unable to delete file
+
+Blender quit

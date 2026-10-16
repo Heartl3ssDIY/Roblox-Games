@@ -1,0 +1,46 @@
+{
+  "id": "P05",
+  "name": "Rocket Snail",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p05-rocket-snail.png",
+  "brief": "A mint-green chubby snail with two thick eye stalks and a compact cream rocket-shaped shell on its back, orange cone at the top and two small cobalt fins physically attached. No exhaust, smoke, floating pieces or realistic rocket details.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p05-rocket-snail.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p05-rocket-snail.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p05-rocket-snail-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p05-rocket-snail.png",
+  "parts": 38,
+  "triangles": 9968,
+  "meshes": 1,
+  "maxMeshTriangles": 9968,
+  "dimensions": [
+    1.5484259128570557,
+    2.1453590393066406,
+    2.378828525543213
+  ],
+  "boundsMin": [
+    -0.7742129564285278,
+    -0.8539999723434448,
+    0.0
+  ],
+  "boundsMax": [
+    0.7742129564285278,
+    1.2913589477539062,
+    2.378828525543213
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

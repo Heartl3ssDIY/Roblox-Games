@@ -1,0 +1,46 @@
+{
+  "id": "M09",
+  "name": "Plunger Popper",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m09-plunger-popper.png",
+  "brief": "A squat chunky cartoon TOY plunger launcher: teal chamfered box body, large orange flared trumpet muzzle with one red rubber suction cup visibly seated at its mouth, cream inset side panel, navy edging, short orange grip and a small rounded pressure tank. Similar toy construction to the provided heat/mud blasters. No realistic weapon mechanics or text.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m09-plunger-popper.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m09-plunger-popper.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m09-plunger-popper-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m09-plunger-popper.png",
+  "parts": 40,
+  "triangles": 6648,
+  "meshes": 1,
+  "maxMeshTriangles": 6648,
+  "dimensions": [
+    1.1799999475479126,
+    2.1937777996063232,
+    2.096799850463867
+  ],
+  "boundsMin": [
+    -0.5899999737739563,
+    -1.4900000095367432,
+    0.07320000231266022
+  ],
+  "boundsMax": [
+    0.5899999737739563,
+    0.7037778496742249,
+    2.169999837875366
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.4000000059604645,
+      0.5099999904632568
+    ],
+    "MuzzleAttachment": [
+      0.0,
+      -1.5099999904632568,
+      1.2000000476837158
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

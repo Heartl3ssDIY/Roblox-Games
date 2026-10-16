@@ -1,0 +1,51 @@
+{
+  "id": "P12",
+  "name": "UFO Jelly",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p12-ufo-jelly.png",
+  "brief": "A floating chubby lilac jellyfish pet wearing a teal flying-saucer-shaped cap, a small clear-looking but opaque icy-blue dome on top, four broad short dangling tentacles and a simple cheerful dark face. Saucer and tentacles connected, no beam or floating particles.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p12-ufo-jelly.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p12-ufo-jelly.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p12-ufo-jelly-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p12-ufo-jelly.png",
+  "parts": 30,
+  "triangles": 13976,
+  "meshes": 1,
+  "maxMeshTriangles": 13976,
+  "dimensions": [
+    1.7799999713897705,
+    1.7799999713897705,
+    2.108938217163086
+  ],
+  "boundsMin": [
+    -0.8899999856948853,
+    -0.8899999856948853,
+    0.08106152713298798
+  ],
+  "boundsMax": [
+    0.8899999856948853,
+    0.8899999856948853,
+    2.18999981880188
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.7799999713897705,
+    1.7799999713897705,
+    2.108938217163086
+  ]
+}

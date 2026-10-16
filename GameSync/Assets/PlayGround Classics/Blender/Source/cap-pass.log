@@ -1,0 +1,31 @@
+00:02.532  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_23440_ea7c9349a4df17fc9c3f4ac32cf9bf4b.png.png"
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b06-mudslinger.fbx'
+export finished in 0.0232 sec.
+Info: Saved as "b06-mudslinger.blend"
+ASSET_COMPLETE {"id": "B06", "name": "Mudslinger", "category": "Bats", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b06-mudslinger.png", "brief": "Olive-green baseball bat with a chunky brown mud-coated rounded upper barrel, three large sculpted attached mud drips, cream small inset panel, navy collar and dark rubber grip. Matches a toy mud blaster palette.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b06-mudslinger.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b06-mudslinger.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b06-mudslinger-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b06-mudslinger.png", "parts": 12, "triangles": 12208, "meshes": 1, "maxMeshTriangles": 12208, "dimensions": [0.7260000109672546, 0.7260000109672546, 3.5880000591278076], "boundsMin": [-0.3630000054836273, -0.3630000054836273, -0.4560000002384186], "boundsMax": [0.3630000054836273, 0.3630000054836273, 3.131999969482422], "paletteColors": 6, "anchors": {"Grip": [0.0, 0.0, 0.0], "BarrelTip": [0.0, 0.0, 3.0799999237060547]}, "editable": true, "rigged": false, "gameplayImplemented": false, "exportDimensions": [0.7260000109672546, 0.7260000109672546, 3.5880000591278076]}
+00:03.063  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_23440_74353d6206415f5d01378f2f05a7edab.png.png"
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e06-birthday-wish.fbx'
+export finished in 0.0280 sec.
+Info: Saved as "e06-birthday-wish.blend"
+ASSET_COMPLETE {"id": "E06", "name": "Birthday Wish", "category": "Event-Bats", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e06-birthday-wish.png", "brief": "A birthday cake-and-candles BASEBALL BAT: long cream-frosted rounded bat barrel with broad attached pink frosting drips and chunky cyan sprinkle inlays; at the blunt upper end three short thick pastel candles sit attached in a neat cluster, each with a tiny solid yellow teardrop flame. Lavender collar, pink wrapped grip and gold knob. The underlying silhouette must remain a full baseball bat, not a cake hammer. No text, logos, numbers or loose confetti.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e06-birthday-wish.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e06-birthday-wish.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e06-birthday-wish-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e06-birthday-wish.png", "parts": 29, "triangles": 12550, "meshes": 1, "maxMeshTriangles": 12550, "dimensions": [0.725980281829834, 0.725980281829834, 3.6560001373291016], "boundsMin": [-0.362990140914917, -0.362990140914917, -0.4560000002384186], "boundsMax": [0.362990140914917, 0.362990140914917, 3.200000047683716], "paletteColors": 9, "anchors": {"Grip": [0.0, 0.0, 0.0], "BarrelTip": [0.0, 0.0, 2.6796000003814697]}, "editable": true, "rigged": false, "gameplayImplemented": false, "exportDimensions": [0.725980281829834, 0.725980281829834, 3.6560001373291016]}
+FBX version: 7400
+FBX_AUDIT {"id": "B06", "meshes": 1, "triangles": 12208, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.7260000109672546, 0.72600057721138, 3.5880000293254852], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "E06", "meshes": 1, "triangles": 12550, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.725980281829834, 0.7259808480739594, 3.656000107526779], "issues": [], "pass": true}
+AUDIT_COMPLETE 2 FAILURES 0
+00:06.766  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_23440_c639812d6a13eecd808580beb97bf180.png.png"
+Extensions: writing cache failed ([WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\sandt\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\.cache').
+Info: Saved as "Playground-Classics-Model-Library.blend"
+LIBRARY_COMPLETE 69
+00:06.782  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\PlayGround Classics\Blender\Bats\Blend\b06-mudslinger.blend"
+00:12.000  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\PlayGround Classics\Blender\Bats\Previews\b06-mudslinger.png'
+CLEAN_PREVIEW_COMPLETE B06
+00:12.016  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\PlayGround Classics\Blender\Event-Bats\Blend\e06-birthday-wish.blend"
+00:17.532  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\PlayGround Classics\Blender\Event-Bats\Previews\e06-birthday-wish.png'
+CLEAN_PREVIEW_COMPLETE E06
+CAP_PASS_COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

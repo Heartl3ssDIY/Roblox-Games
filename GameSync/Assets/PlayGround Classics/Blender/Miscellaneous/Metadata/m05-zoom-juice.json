@@ -1,0 +1,35 @@
+{
+  "id": "M05",
+  "name": "Zoom Juice",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m05-zoom-juice.png",
+  "brief": "A squat rounded flask with opaque turquoise-blue liquid, cream bevelled frame edges, navy stopper and a large raised yellow lightning-bolt emblem on its front. Tiny solid blue handle loop on one side. Potion shape is readable without any written label.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m05-zoom-juice.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m05-zoom-juice.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m05-zoom-juice-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m05-zoom-juice.png",
+  "parts": 19,
+  "triangles": 5128,
+  "meshes": 1,
+  "maxMeshTriangles": 5128,
+  "dimensions": [
+    1.7009999752044678,
+    0.8949999809265137,
+    2.192499876022339
+  ],
+  "boundsMin": [
+    -0.7570000290870667,
+    -0.4650000035762787,
+    0.0949999988079071
+  ],
+  "boundsMax": [
+    0.9440000057220459,
+    0.4300000071525574,
+    2.2874999046325684
+  ],
+  "paletteColors": 7,
+  "anchors": {},
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

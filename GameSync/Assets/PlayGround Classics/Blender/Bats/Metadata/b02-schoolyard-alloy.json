@@ -1,0 +1,52 @@
+{
+  "id": "B02",
+  "name": "Schoolyard Alloy",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b02-schoolyard-alloy.png",
+  "brief": "Brushed pale silver aluminium baseball bat, softly chamfered thick barrel, cobalt-blue rubber grip, navy end cap and one blue collar stripe. Clean economical toy sports equipment.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b02-schoolyard-alloy.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b02-schoolyard-alloy.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b02-schoolyard-alloy-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b02-schoolyard-alloy.png",
+  "parts": 10,
+  "triangles": 5550,
+  "meshes": 1,
+  "maxMeshTriangles": 5550,
+  "dimensions": [
+    0.6460000276565552,
+    0.6460000276565552,
+    3.5490000247955322
+  ],
+  "boundsMin": [
+    -0.3230000138282776,
+    -0.3230000138282776,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3230000138282776,
+    0.3230000138282776,
+    3.0929999351501465
+  ],
+  "paletteColors": 3,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6460000276565552,
+    0.6460000276565552,
+    3.5490000247955322
+  ],
+  "exportedFromEditableSource": true
+}

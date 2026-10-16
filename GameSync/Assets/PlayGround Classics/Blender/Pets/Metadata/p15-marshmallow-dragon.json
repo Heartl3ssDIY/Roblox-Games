@@ -1,0 +1,46 @@
+{
+  "id": "P15",
+  "name": "Marshmallow Dragon",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p15-marshmallow-dragon.png",
+  "brief": "A chubby ivory marshmallow dragon with a large rounded head, four tiny pink paws, two compact folded pastel-pink wings, small blunt gold horns and a stubby curled tail. A few toasted tan patches, happy eyes. Wing membranes opaque and physically attached.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p15-marshmallow-dragon.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p15-marshmallow-dragon.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p15-marshmallow-dragon-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p15-marshmallow-dragon.png",
+  "parts": 62,
+  "triangles": 15848,
+  "meshes": 1,
+  "maxMeshTriangles": 15848,
+  "dimensions": [
+    2.4901723861694336,
+    1.971441388130188,
+    2.1944525241851807
+  ],
+  "boundsMin": [
+    -1.2450861930847168,
+    -0.9490000009536743,
+    0.0
+  ],
+  "boundsMax": [
+    1.2450861930847168,
+    1.0224413871765137,
+    2.1944525241851807
+  ],
+  "paletteColors": 8,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

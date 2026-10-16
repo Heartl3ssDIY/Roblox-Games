@@ -1,0 +1,269 @@
+{
+  "checkedAt": "2026-10-16",
+  "source": "Codex read_thread; selected latest turns and session_index title discovery. Chat reports are evidence of prior work, not current Studio/file verification.",
+  "shared": {
+    "authoritativeRoot": "C:/Users/sandt/Documents/Local Projects/Roblox UI Assets/Btns",
+    "repository": "https://github.com/Heartl3ssDIY/Roblox-Games",
+    "obsidianVault": "C:/Users/sandt/Documents/Local Projects/Obsidian_Roblox/Roblox Games",
+    "previousUpload": "Playground Classics turn 01a141e3-ca16-7af2-a057-c71d442ecf27 reported 5.4 GB unique LFS uploaded and remote matching local.",
+    "graphify": "Latest Playground Classics turns report plugin installed but no callable tools; direct OAuth metadata discovery failed (error decoding response body)."
+  },
+  "games": [
+    {
+      "title": "Playground Classics",
+      "threadId": "01a0ff07-1491-7a90-8129-097a94add2e6",
+      "completed": [
+        "Stuck in the Mud converted to Laser Tag: balanced red/blue teams, three overhead hearts, third enemy hit eliminates, rectangular lasers, recoloured existing guns, darkened arena, spectating, updated voting/admin/HUD.",
+        "Latest mobile changes lock crosshair to camera aim and add right-side Shoot button with Sprint below, avoiding Jump; editable StarterGui/MudHUD.",
+        "Gun readiness retry/error reporting and Lazer Tag arena-name/admin initialization fix passed Studio practice tests.",
+        "Skipping Rope: three ropes/eight players each, six turners, first hit halves health/second eliminates, two minutes, +5% speed every ten seconds; Solo Practice awards no coins/XP/wins.",
+        "Hide and Seek: 32 classrooms; 30 seconds hide/5 minutes seek; 25-second sprint; partial recharge sprint in all games; E disguise change or seeker scan (10 seconds/60-second cooldown); Q decoys (max 3, 10-second interval, 5-second owner reveal when hit); F furniture hiding; props and rotations corrected.",
+        "Duck Duck Goose snap-backs removed; clockwise arrows, briefing/rules button, lap-to-chair, moving chasers and OUT exclusion.",
+        "Wrong cave tiles disappear immediately, reset after 3.5 seconds; equipment cleanup limited to toy Tools."
+      ],
+      "pending": [
+        "Recent Studio changes explicitly unpublished.",
+        "Full multiplayer tests for Laser Tag, Skipping Rope, Hide and Seek and Duck Duck Goose remain needed.",
+        "Published-only gun access cause not confirmed; fresh-server test after publishing needed.",
+        "Tutorial was deferred."
+      ],
+      "paths": [
+        "StarterGui/MudHUD"
+      ],
+      "evidenceTurns": [
+        "01a13873-680e-7bd0-9fbd-cc32e9a143ae",
+        "01a13855-7baa-7760-96f8-71a73299a766",
+        "01a1365e-dca2-7910-a85b-b05bdda8b99b",
+        "01a12d7a-fb3c-7a52-a2c5-f7d3cf26f460",
+        "01a12d5b-a27f-79c0-8399-75e3806fd42c"
+      ]
+    },
+    {
+      "title": "G-Blox",
+      "threadId": "01a0679e-4be5-74a0-9a3d-de8a52fa2e46",
+      "placeIds": [
+        "74498603638770",
+        "106769122906103"
+      ],
+      "completed": [
+        "Latest Round 1 theme restored to Normal original colours and lobby blue-cloud sky. Halloween decorations hidden and saved environment preserved in ServerStorage.",
+        "Course corner web traps hold seven seconds including airborne slow fall; decorations/traps extended across courses 2-5; ten loose models moved recoverably to ReplicatedStorage.",
+        "Pumpkin hand presentation then backward racer throw. Existing shop/inventory ability integration: Pumpkin 150,000 cash, 25-second cooldown, four-second splat; Web 350,000 cash, 30-second cooldown, five-second trap.",
+        "Unlimited Halloween use ends November 1; afterwards existing recharge costs 15,000/35,000 for one game use, initial purchases preserve three post-event uses.",
+        "Solo races show Practice Complete and add no wins; matches beginning with >=2 humans count. F2 admin Check 10+ Wins includes saved global/offline totals.",
+        "Gameland chat Halloween model and lobby work actually belongs here: 12 models, 16 FBX, 19 second-life tokens themed; 14 warm lanterns and purple/green/orange duplicate lobby; independent copies, no automatic transfer."
+      ],
+      "decisions": [
+        "Halloween 2026 event dates confirmed 17 October–1 November 2026.",
+        "Ghostify planned only: 500,000 cash, once per round per game; first death becomes faster ghost, later deaths join ghost team, gravity and obstacles retained; second death fully eliminates; ghosts cannot win by finishing.",
+        "Halloween-only purchase ownership permanent; yearly exclusives intended; title name/egg/pets pending.",
+        "Robux resets for all three abilities deferred."
+      ],
+      "pending": [
+        "Latest changes not published or playtested per user instructions.",
+        "Event-only purchase restriction still needs implementation.",
+        "Ghostify remains notes only.",
+        "Pumpkin-splatter artwork can be added when ready.",
+        "Live saved-wins list not tested; community membership checker separate."
+      ],
+      "paths": [
+        "GBloxHalloween20261003/Halloween2026Planning.md",
+        "GBloxHalloween20261003/FBX",
+        "GBloxHalloween20261003/G-Blox_Halloween_Separate_FBX.zip",
+        "GSwitch_All_Assets.blend"
+      ],
+      "evidenceTurns": [
+        "01a10862-92fe-78c1-ba5c-03262c841131",
+        "01a1066f-8e8b-79f1-8261-144ec18048c3",
+        "01a102ad-e6ad-7662-ace2-38bed29020ab",
+        "01a100bd-ce0b-7d03-8838-a96c3a7d58fd",
+        "01a1007d-6a37-7170-a7d3-e1791782babe"
+      ]
+    },
+    {
+      "title": "Gameland",
+      "threadId": "01a0e3e7-fb6c-7330-82dd-bc0e1047dd2e",
+      "completed": [
+        "Football Mayhem/Touchdown fixed: free sideways movement on cleared rows, invisible rear wall replacing jittery lane locking, solid floor/knockout landing, revealed quarterbacks non-obstructing, three-second touchdown-to-lobby return, no emote.",
+        "Solo playtest covered walking, tackles, all ten rows and admin-stop cleanup; Studio returned to Edit mode."
+      ],
+      "warning": "Newest Halloween turns in this chat belong to G-Blox. Cross-chat correction explicitly confirmed by G-Blox turn 01a1007d-6a37-7170-a7d3-e1791782babe.",
+      "pending": [
+        "Current save/publication/Studio state needs independent verification."
+      ],
+      "evidenceTurns": [
+        "01a0fcb6-bfe1-7a72-ae7a-339b04833e81"
+      ]
+    },
+    {
+      "title": "Anime Combat Units",
+      "threadId": "01a0ada0-9a64-7653-8415-099ad41f0ea9",
+      "placeIds": [
+        "111313211501470"
+      ],
+      "completed": [
+        "Latest background artwork preload finished, pack reveals await required assets with timeout, slower shop/pack animations, responsive skip/close; 36 checks/full pack preview passed.",
+        "Canonical working copy was connected Anime Combat Units, not older Rock Lii Animations.rbxl (comparison excluded separate 3D modelling task).",
+        "White unit-selection outline disabled.",
+        "Rock Lii Triple Punch and Drunken Fist animations published and connected to moves; 54 animation/combat checks passed.",
+        "Mastered Instinct R6 model built with muscles/torn clothing/silver hair/battle scratches/R6-style rig/detachable animated aura."
+      ],
+      "pending": [
+        "Latest game code changes applied but unpublished.",
+        "Rock Lii mastery four-punch attack needs its own reviewed animation.",
+        "Mastered Instinct Roblox import/native VFX remain separate."
+      ],
+      "paths": [
+        "Rock Lii Blender/Anime Combat Units - Rock Lii Animations.rbxl",
+        "Rock Lii Blender/previews/Triple Punch Footwork Review.mp4",
+        "Mastered Instinct R6/Mastered Instinct - R6 Battle Form.blend",
+        "Mastered Instinct R6/Mastered Instinct - preview.png",
+        "../Anime Combat Units/ABILITIES imgs"
+      ],
+      "pathNote": "Chat paths under old OneDrive root must map to authoritative local root.",
+      "evidenceTurns": [
+        "01a0f089-419c-71d3-ac4a-e6852be4e538",
+        "01a0f082-9b07-72c3-847d-308bba25ad8e",
+        "01a0ed96-5a7f-7970-88f7-37d9d3927838",
+        "01a0f06e-53e9-7c51-9e63-4ab415421a8d"
+      ]
+    },
+    {
+      "title": "Cat in The Hat",
+      "threadId": "01a07135-f4bc-7c82-bd27-cd356a805e0f",
+      "completed": [
+        "Base and horror variants exported with separate recolourable meshes and geometry/reimport validation.",
+        "Horror variant has sunken eyes/slit pupils/uneven toothy grin/longer fingers/forward head tilt.",
+        "Latest Studio recolour: all 67 pieces matched palette, 23 editable colour groups under CatInTheHat_Horror/ColorPalette and ColorGroup attributes.",
+        "Prior complete upload to private https://github.com/Heartl3ssDIY/Roblox-Avatars- reported original/horror assets, scripts, reference images, archive, import docs, checksums."
+      ],
+      "pending": [
+        "Models are unrigged; rigging, animation and playable morph system remain.",
+        "Latest Studio recolour asked user to save or publish; persistence not independently confirmed."
+      ],
+      "paths": [
+        "CatInTheHat",
+        "CatInTheHat/CatInTheHat_Base.blend",
+        "CatInTheHat/Horror"
+      ],
+      "evidenceTurns": [
+        "01a071db-b5f1-7073-bc67-4dec9423805e",
+        "01a071b9-05f2-72a3-949f-e01255d63498"
+      ]
+    },
+    {
+      "title": "To Be Rich",
+      "threadId": "01a0a6ea-1f37-7e70-a790-46880b780f9e",
+      "completed": [
+        "Three laptop models saved in WarehouseRedesign/To_be_rich_Warehouse.blend, scene To be rich - Laptops.",
+        "45 UI images plus hand matched; 62 mapped image references passed loading checks; original user artwork and authored dimensions preserved, duplicate labels/fallback colours removed.",
+        "Tender detail readability adjusted while preserving title hierarchy.",
+        "HUD button centering fixed in current running session only."
+      ],
+      "pending": [
+        "Permanent HUD button centering remains ready to apply once Play is stopped; no later completion evidence.",
+        "Worker clothing and hats improvement discussed but style choice/work not completed.",
+        "Publication/current Studio state unverified."
+      ],
+      "paths": [
+        "WarehouseRedesign/To_be_rich_Warehouse.blend"
+      ],
+      "extraSourcePath": "C:/Users/sandt/OneDrive/Desktop/ROBLOX UI/To Be Rich UI",
+      "evidenceTurns": [
+        "01a0c06f-f8bb-71e2-b33a-92370cc219c4",
+        "01a0b5a7-6a2f-72b2-8a1a-cb06c82fcc9e"
+      ]
+    },
+    {
+      "title": "Match time for Brainrots!",
+      "threadId": "01a03b4d-262e-7793-a08b-dc29e9471cf4",
+      "cwd": "C:/Users/sandt/Documents/Codex/2026-08-26/ca",
+      "completed": [
+        "Top-left responsive Earnings UI bound to luck, full comma-separated cash, abbreviated income per second; reference values tested, no errors, Edit mode.",
+        "Shared UI hover/click/open/close sounds include dynamic cards and avoid duplicate close sound.",
+        "Index and Collection close button replacement tested; collection card/background/cash artwork replaced and dynamic text retained.",
+        "Collection hides owned zero-income Brainrots while Index retains them."
+      ],
+      "pending": [
+        "Sell artwork visible but inactive until sell system implemented.",
+        "Local project/archive and current Studio/publication state require verification.",
+        "Root inventory verified original chat cwd missing; sibling Local Projects/Roblox UI Assets/Match time for brainrot (17 files) is available for backup. Published place backup completeness not verified."
+      ],
+      "evidenceTurns": [
+        "01a05f3d-b80c-75b3-92db-670edab1d81c",
+        "01a05e25-a19a-7a00-9e65-be99485ee4cc"
+      ]
+    },
+    {
+      "title": "School assets",
+      "threadId": "01a0c562-8a21-7403-87c3-71b69429ed44",
+      "kind": "Asset library and unnamed school-game concept; later reused by Playground Classics",
+      "completed": [
+        "38 detailed textured assets, 45 pickup props and six hinges prepared; export/setup tests passed.",
+        "Wren bird logo chosen as logo only; user explicitly said school name not decided.",
+        "Editable white logo saved; earlier editable logo variants placed in Figma School UI."
+      ],
+      "pending": [
+        "Gameplay needs Studio playtest.",
+        "School name remains undecided; do not call it Wren School or Alder School as a settled name."
+      ],
+      "paths": [
+        "SchoolAssetLibrary/School_Asset_Library_v03.blend",
+        "SchoolAssetLibrary/School_Assets_Studio_Package.zip",
+        "SchoolAssetLibrary/RobloxImport/START-HERE.txt",
+        "School Branding/wren-white-editable.svg"
+      ],
+      "evidenceTurns": [
+        "01a0c5c6-57c2-7d73-8441-aa747e806288",
+        "01a0c59c-372d-7ca1-8541-9e2aa483c63f"
+      ]
+    }
+  ],
+  "support": [
+    {
+      "title": "Cartoon UI creation",
+      "threadId": "01a0a8c1-394b-7da2-afa3-10b15c676c8c",
+      "completed": [
+        "Six Playground Classics hand-drawn thumbnails (1920x1080 PNG/JPG, under 3 MB), preview/originals/prompts.",
+        "VIP dragon with red eyes/gem/wing membranes and glow plus clean reference.",
+        "Eight transparent circular monetization badges: cash +5k/+10k/+20k/+50k/+100k, VIP, permanent 2x coins/XP.",
+        "2x XP/cash potion icons; Spectate/Settings icons in 512/256/128 sizes.",
+        "Expansion: 35 designs (15 pets, 10 bats, 10 miscellaneous) plus 15 matching pet silhouettes and handoff ZIPs; crowned pig explicitly Minecraft reference."
+      ],
+      "paths": [
+        "PlaygroundClassics-HandDrawnThumbnails-20261007",
+        "PlaygroundClassics-VIPDragon-20261007",
+        "PlaygroundClassics-MonetizationBadges-20261007",
+        "PlaygroundClassics-BoostPotions-20261007",
+        "PlaygroundClassics-SpectateSettings-20261007",
+        "PlaygroundClassics-ExpansionReferences-20261005",
+        "PlaygroundClassics-ItemPetReferences-20261004"
+      ]
+    },
+    {
+      "title": "G-blox",
+      "threadId": "01a068e1-cd72-7ad1-a965-f5a10992643d",
+      "note": "Only two connection checks (Blender/Studio) visible; no separate game work."
+    }
+  ],
+  "currentFileChecks": {
+    "checkedDate": "2026-10-16",
+    "recoveredAnimeFiles": 422,
+    "recoveredToBeRichArtworkFiles": 73,
+    "recoveryVerification": "SHA-256 source and destination matches; see recovery manifests",
+    "playgroundCurrentScripts": 81,
+    "playgroundHistoricalBackupsInventoried": 448,
+    "playgroundCurrentRoundCamera": {
+      "min": 0.5,
+      "max": 25
+    },
+    "playgroundCurrentStarterPlayerCamera": {
+      "min": 0.5,
+      "max": 128
+    },
+    "playgroundCrossingStuds": 288,
+    "brainrotsOriginalCwdExists": false,
+    "graphifyToolsAvailable": false,
+    "fullPlaceBackupsVerified": false
+  }
+}

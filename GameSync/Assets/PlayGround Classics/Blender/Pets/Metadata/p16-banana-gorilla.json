@@ -1,0 +1,46 @@
+{
+  "id": "P16",
+  "name": "Banana Gorilla",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p16-banana-gorilla.png",
+  "brief": "A squat playful toy gorilla with a cream face, brown rounded belly, oversized chunky arms and short feet, wearing a bright yellow banana-peel hood with two curved attached peel flaps behind its shoulders. Friendly silly grin, no human clothing or extra bananas.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p16-banana-gorilla.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p16-banana-gorilla.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p16-banana-gorilla-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p16-banana-gorilla.png",
+  "parts": 61,
+  "triangles": 15276,
+  "meshes": 1,
+  "maxMeshTriangles": 15276,
+  "dimensions": [
+    2.362532377243042,
+    1.2625000476837158,
+    2.3518850803375244
+  ],
+  "boundsMin": [
+    -1.181266188621521,
+    -0.762499988079071,
+    0.009999997913837433
+  ],
+  "boundsMax": [
+    1.181266188621521,
+    0.5,
+    2.3618850708007812
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

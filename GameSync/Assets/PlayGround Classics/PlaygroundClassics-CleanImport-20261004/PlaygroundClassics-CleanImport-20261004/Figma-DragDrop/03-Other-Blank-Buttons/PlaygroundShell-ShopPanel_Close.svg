@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="40.66" height="45.66" viewBox="0 0 40.66 45.66">
+  <title>PlaygroundShell-ShopPanel_Close</title>
+  <desc>Isolated empty UI artwork. No captions, counters, placeholder images or item contents.</desc>
+  <defs>
+    <linearGradient id="Glossy1-EditableSkin-Fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffae7" stop-opacity="1" />
+      <stop offset="0.48" stop-color="#fff8df" stop-opacity="1" />
+      <stop offset="1" stop-color="#e0dac4" stop-opacity="1" />
+    </linearGradient>
+    <clipPath id="Glossy1-EditableSkin-Clip">
+      <rect x="1194.82" y="68.51" width="30.36" height="32.912" rx="7.04" />
+    </clipPath>
+    <linearGradient id="Glossy1-EditableSkin-Shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(-1189.67 -63.36)">
+    <g id="StarterGui.PlaygroundShell.ShopPanel.Close_Background-Glossy" data-original-fill="#fffff8" data-skin-theme="panel">
+      <rect id="Glossy1-EditableSkin-OuterKeyline" x="1191.67" y="65.36" width="36.66" height="41.66" rx="11.0" fill="#20263d" stroke="#fffcf2" stroke-width="0.749" />
+      <rect id="Glossy1-EditableSkin-Face" x="1194.01" y="67.7" width="31.98" height="34.532" rx="8.66" fill="url(#Glossy1-EditableSkin-Fill)" stroke="#fffdf4" stroke-width="1.62" />
+      <g id="Glossy1-EditableSkin-SurfaceDetail" clip-path="url(#Glossy1-EditableSkin-Clip)">
+        <rect id="Glossy1-EditableSkin-TopGloss" x="1194.82" y="68.51" width="30.36" height="15.798" fill="url(#Glossy1-EditableSkin-Shine)" />
+        <path d="M 1206.82 71.51 H 1213.18" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+      </g>
+    </g>
+  </g>
+</svg>

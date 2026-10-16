@@ -34,3 +34,9 @@
 *.pyd filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
 *.db filter=lfs diff=lfs merge=lfs -text
+GameSync/Assets/** -text
+GameSync/StudioSnapshots/** -text
+GameSync/Obsidian/** -text
+"Rock Lii Blender/**" -text
+"Mastered Instinct R6/**" -text
+ToBeRichUI20261016/** -text

@@ -1,0 +1,46 @@
+{
+  "id": "P03",
+  "name": "Pancake Penguin",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p03-pancake-penguin.png",
+  "brief": "A chubby navy-and-cream penguin with orange feet, two small flipper wings, an oversized round head, and a neat stack of two pancakes sitting on its head like a hat with one attached butter cube. All syrup is a few solid attached brown drips.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p03-pancake-penguin.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p03-pancake-penguin.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p03-pancake-penguin-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p03-pancake-penguin.png",
+  "parts": 37,
+  "triangles": 10528,
+  "meshes": 1,
+  "maxMeshTriangles": 10528,
+  "dimensions": [
+    1.8573578596115112,
+    1.3639999628067017,
+    2.4650001525878906
+  ],
+  "boundsMin": [
+    -0.9286789298057556,
+    -0.7959999442100525,
+    0.01000000536441803
+  ],
+  "boundsMax": [
+    0.9286789298057556,
+    0.5680000185966492,
+    2.4750001430511475
+  ],
+  "paletteColors": 8,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

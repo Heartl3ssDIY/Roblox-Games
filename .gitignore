@@ -13,3 +13,6 @@ __pycache__/
 Thumbs.db
 Desktop.ini
 optix7cache.db
+/sync-work/
+/GameSync/.test-work/
+/GameSync/.sync-stage-*/

@@ -1,0 +1,41 @@
+{
+  "id": "M15",
+  "name": "Bounce Pad",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m15-bounce-pad.png",
+  "brief": "A compact low circular spring-loaded bounce pad, yellow raised centre disc, thick cyan octagonal base, navy bumper rim, three broad attached orange compression springs visible under the disc. Three-quarter view from slightly above.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m15-bounce-pad.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m15-bounce-pad.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m15-bounce-pad-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m15-bounce-pad.png",
+  "parts": 31,
+  "triangles": 5688,
+  "meshes": 1,
+  "maxMeshTriangles": 5688,
+  "dimensions": [
+    2.0799999237060547,
+    2.0799999237060547,
+    1.341052532196045
+  ],
+  "boundsMin": [
+    -1.0399999618530273,
+    -1.0399999618530273,
+    0.004999999888241291
+  ],
+  "boundsMax": [
+    1.0399999618530273,
+    1.0399999618530273,
+    1.3460525274276733
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "PlacementAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

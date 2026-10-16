@@ -1,0 +1,13 @@
+00:02.281  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_20804_a92f0a8f4034de8479d129f248eb8449.png.png"
+00:17.844  render           | Saved: 'C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\PlayGround Classics\Blender\Bats\Previews\b01-starter-slugger.png'
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b01-starter-slugger.fbx'
+export finished in 0.0211 sec.
+Info: Saved as "b01-starter-slugger.blend"
+ASSET_COMPLETE {"id": "B01", "name": "Starter Slugger", "category": "Bats", "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b01-starter-slugger.png", "brief": "Plain warm honey-wood baseball bat with a smooth thick rounded barrel, narrow tapered shaft, short dark navy tape grip and a small rounded knob. Two broad simple wood-grain accents only. No decorations: the default starter everyone receives.", "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b01-starter-slugger.blend", "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b01-starter-slugger.fbx", "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b01-starter-slugger-palette.png", "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b01-starter-slugger.png", "parts": 5, "triangles": 13746, "meshes": 1, "maxMeshTriangles": 13746, "dimensions": [0.619025468826294, 0.619571328163147, 3.6630001068115234], "boundsMin": [-0.30927979946136475, -0.3096020519733429, -0.453000009059906], "boundsMax": [0.3097456991672516, 0.3099692463874817, 3.2100000381469727], "paletteColors": 5, "anchors": {"Grip": [0.0, 0.0, 0.0], "BarrelTip": [0.0, 0.0, 3.2100000381469727]}, "editable": true, "rigged": false, "gameplayImplemented": false, "exportDimensions": [0.619025468826294, 0.619571328163147, 3.6630001068115234]}
+PACK_COMPLETE {"count": 1, "ids": ["B01"]}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+Unable to delete file
+Unable to delete file
+
+Blender quit

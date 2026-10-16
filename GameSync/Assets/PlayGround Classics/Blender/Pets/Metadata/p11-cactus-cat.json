@@ -1,0 +1,51 @@
+{
+  "id": "P11",
+  "name": "Cactus Cat",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p11-cactus-cat.png",
+  "brief": "A rounded green cactus kitten with two triangular ears, little cylindrical paws, a thick up-curled tail, cream whisker-pad and a small attached pink cactus flower on one ear. Three broad pale vertical rib markings and only a few blunt stylized nubs, no sharp thorns.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p11-cactus-cat.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p11-cactus-cat.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p11-cactus-cat-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p11-cactus-cat.png",
+  "parts": 59,
+  "triangles": 13980,
+  "meshes": 1,
+  "maxMeshTriangles": 13980,
+  "dimensions": [
+    1.7544589042663574,
+    1.7454204559326172,
+    1.9726561307907104
+  ],
+  "boundsMin": [
+    -0.7577248811721802,
+    -0.7329999804496765,
+    0.01000000536441803
+  ],
+  "boundsMax": [
+    0.9967340230941772,
+    1.0124205350875854,
+    1.9826561212539673
+  ],
+  "paletteColors": 11,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.7544589042663574,
+    1.7454204559326172,
+    1.9726561307907104
+  ]
+}

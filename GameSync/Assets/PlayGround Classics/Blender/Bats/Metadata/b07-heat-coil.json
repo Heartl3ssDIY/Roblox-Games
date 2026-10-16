@@ -1,0 +1,51 @@
+{
+  "id": "B07",
+  "name": "Heat Coil",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b07-heat-coil.png",
+  "brief": "Orange baseball bat with a thick cylindrical barrel surrounded by three broad rigid yellow coil bands, dark navy collar rings, a cream cap on the blunt tip and orange/black rubber grip. Toy heat-tech theme. No flames or glowing particles.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b07-heat-coil.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b07-heat-coil.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b07-heat-coil-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b07-heat-coil.png",
+  "parts": 16,
+  "triangles": 7454,
+  "meshes": 1,
+  "maxMeshTriangles": 7454,
+  "dimensions": [
+    0.7609999775886536,
+    0.7609999775886536,
+    3.5385000705718994
+  ],
+  "boundsMin": [
+    -0.3804999887943268,
+    -0.3804999887943268,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3804999887943268,
+    0.3804999887943268,
+    3.0824999809265137
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.7609999775886536,
+    0.7609999775886536,
+    3.5385000705718994
+  ]
+}

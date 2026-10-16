@@ -1,0 +1,1 @@
+Built-in image_gen; one generation per asset. Colour PNGs generated, silhouettes derived from matching alpha.

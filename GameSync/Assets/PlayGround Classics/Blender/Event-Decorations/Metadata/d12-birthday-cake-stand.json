@@ -1,0 +1,41 @@
+{
+  "id": "D12",
+  "name": "Birthday Cake Stand",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d12-birthday-cake-stand.png",
+  "brief": "One celebratory birthday decoration consisting of a two-tier pastel pink and cream cake on a chunky cyan pedestal, broad frosting scallops, three thick attached gold candles with tiny solid orange flames. No text, age number, plate utensils or loose confetti.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d12-birthday-cake-stand.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d12-birthday-cake-stand.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d12-birthday-cake-stand-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d12-birthday-cake-stand.png",
+  "parts": 41,
+  "triangles": 11112,
+  "meshes": 1,
+  "maxMeshTriangles": 11112,
+  "dimensions": [
+    1.7799999713897705,
+    1.7799999713897705,
+    2.6499998569488525
+  ],
+  "boundsMin": [
+    -0.8899999856948853,
+    -0.8899999856948853,
+    0.0
+  ],
+  "boundsMax": [
+    0.8899999856948853,
+    0.8899999856948853,
+    2.6499998569488525
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

@@ -1,0 +1,2617 @@
+{
+  "collisionMatrix": [
+    {
+      "a": "Default",
+      "collidable": true,
+      "b": "Default"
+    },
+    {
+      "a": "Default",
+      "collidable": true,
+      "b": "BBRunner"
+    },
+    {
+      "a": "Default",
+      "collidable": true,
+      "b": "BBBulldog"
+    },
+    {
+      "a": "Default",
+      "collidable": true,
+      "b": "BBTagged"
+    },
+    {
+      "a": "Default",
+      "collidable": false,
+      "b": "BBBarrier"
+    },
+    {
+      "a": "Default",
+      "collidable": true,
+      "b": "TGPlayer"
+    },
+    {
+      "a": "Default",
+      "collidable": true,
+      "b": "MudPlayer"
+    },
+    {
+      "a": "BBRunner",
+      "collidable": true,
+      "b": "Default"
+    },
+    {
+      "a": "BBRunner",
+      "collidable": true,
+      "b": "BBRunner"
+    },
+    {
+      "a": "BBRunner",
+      "collidable": true,
+      "b": "BBBulldog"
+    },
+    {
+      "a": "BBRunner",
+      "collidable": true,
+      "b": "BBTagged"
+    },
+    {
+      "a": "BBRunner",
+      "collidable": false,
+      "b": "BBBarrier"
+    },
+    {
+      "a": "BBRunner",
+      "collidable": true,
+      "b": "TGPlayer"
+    },
+    {
+      "a": "BBRunner",
+      "collidable": true,
+      "b": "MudPlayer"
+    },
+    {
+      "a": "BBBulldog",
+      "collidable": true,
+      "b": "Default"
+    },
+    {
+      "a": "BBBulldog",
+      "collidable": true,
+      "b": "BBRunner"
+    },
+    {
+      "a": "BBBulldog",
+      "collidable": true,
+      "b": "BBBulldog"
+    },
+    {
+      "a": "BBBulldog",
+      "collidable": true,
+      "b": "BBTagged"
+    },
+    {
+      "a": "BBBulldog",
+      "collidable": true,
+      "b": "BBBarrier"
+    },
+    {
+      "a": "BBBulldog",
+      "collidable": true,
+      "b": "TGPlayer"
+    },
+    {
+      "a": "BBBulldog",
+      "collidable": true,
+      "b": "MudPlayer"
+    },
+    {
+      "a": "BBTagged",
+      "collidable": true,
+      "b": "Default"
+    },
+    {
+      "a": "BBTagged",
+      "collidable": true,
+      "b": "BBRunner"
+    },
+    {
+      "a": "BBTagged",
+      "collidable": true,
+      "b": "BBBulldog"
+    },
+    {
+      "a": "BBTagged",
+      "collidable": true,
+      "b": "BBTagged"
+    },
+    {
+      "a": "BBTagged",
+      "collidable": false,
+      "b": "BBBarrier"
+    },
+    {
+      "a": "BBTagged",
+      "collidable": true,
+      "b": "TGPlayer"
+    },
+    {
+      "a": "BBTagged",
+      "collidable": true,
+      "b": "MudPlayer"
+    },
+    {
+      "a": "BBBarrier",
+      "collidable": false,
+      "b": "Default"
+    },
+    {
+      "a": "BBBarrier",
+      "collidable": false,
+      "b": "BBRunner"
+    },
+    {
+      "a": "BBBarrier",
+      "collidable": true,
+      "b": "BBBulldog"
+    },
+    {
+      "a": "BBBarrier",
+      "collidable": false,
+      "b": "BBTagged"
+    },
+    {
+      "a": "BBBarrier",
+      "collidable": true,
+      "b": "BBBarrier"
+    },
+    {
+      "a": "BBBarrier",
+      "collidable": true,
+      "b": "TGPlayer"
+    },
+    {
+      "a": "BBBarrier",
+      "collidable": true,
+      "b": "MudPlayer"
+    },
+    {
+      "a": "TGPlayer",
+      "collidable": true,
+      "b": "Default"
+    },
+    {
+      "a": "TGPlayer",
+      "collidable": true,
+      "b": "BBRunner"
+    },
+    {
+      "a": "TGPlayer",
+      "collidable": true,
+      "b": "BBBulldog"
+    },
+    {
+      "a": "TGPlayer",
+      "collidable": true,
+      "b": "BBTagged"
+    },
+    {
+      "a": "TGPlayer",
+      "collidable": true,
+      "b": "BBBarrier"
+    },
+    {
+      "a": "TGPlayer",
+      "collidable": true,
+      "b": "TGPlayer"
+    },
+    {
+      "a": "TGPlayer",
+      "collidable": true,
+      "b": "MudPlayer"
+    },
+    {
+      "a": "MudPlayer",
+      "collidable": true,
+      "b": "Default"
+    },
+    {
+      "a": "MudPlayer",
+      "collidable": true,
+      "b": "BBRunner"
+    },
+    {
+      "a": "MudPlayer",
+      "collidable": true,
+      "b": "BBBulldog"
+    },
+    {
+      "a": "MudPlayer",
+      "collidable": true,
+      "b": "BBTagged"
+    },
+    {
+      "a": "MudPlayer",
+      "collidable": true,
+      "b": "BBBarrier"
+    },
+    {
+      "a": "MudPlayer",
+      "collidable": true,
+      "b": "TGPlayer"
+    },
+    {
+      "a": "MudPlayer",
+      "collidable": true,
+      "b": "MudPlayer"
+    }
+  ],
+  "capturedAtUtc": "2026-10-16T00:09:19Z",
+  "collisionGroups": [
+    {
+      "name": "Default",
+      "mask": -17
+    },
+    {
+      "name": "BBRunner",
+      "mask": -17
+    },
+    {
+      "name": "BBBulldog",
+      "mask": -1
+    },
+    {
+      "name": "BBTagged",
+      "mask": -17
+    },
+    {
+      "name": "BBBarrier",
+      "mask": -12
+    },
+    {
+      "name": "TGPlayer",
+      "mask": -1
+    },
+    {
+      "name": "MudPlayer",
+      "mask": -1
+    }
+  ],
+  "starterPlayer": {
+    "CameraMinZoomDistance": 0.5,
+    "CameraMaxZoomDistance": 128
+  },
+  "scope": "Selected British Bulldog authoring properties; not a full place backup",
+  "folderAttributes": {
+    "RunnerSprintSeconds": 10,
+    "CrossingLength": 288,
+    "DodgeBoostMultiplier": 2,
+    "CountdownSeconds": 3,
+    "CourtWidth": 224,
+    "RunnerWalkSpeed": 16,
+    "SprintResumeSeconds": 0.5,
+    "BuildVersion": "20261003",
+    "InitialBulldogSprintSeconds": 15,
+    "DepartureSeconds": 10,
+    "DodgeEnabled": false,
+    "MinimumPlayers": 2,
+    "CameraZoomDistance": 30,
+    "DodgeBoostSeconds": 1.5,
+    "SprintMultiplier": 2.5,
+    "DodgeCooldownSeconds": 4,
+    "RoundDuration": 180,
+    "IntermissionSeconds": 35,
+    "AutoStart": false,
+    "BulldogWalkSpeed": 18,
+    "ResizeVersion": "20261003-1.5",
+    "SprintRefillSeconds": 15,
+    "CourtLength": 368
+  },
+  "children": [
+    {
+      "descendants": 244,
+      "name": "CartoonScenery",
+      "className": "Folder"
+    },
+    {
+      "descendants": 152,
+      "name": "ArenaWalls",
+      "className": "Folder"
+    },
+    {
+      "descendants": 79,
+      "name": "CourtArtwork",
+      "className": "Folder"
+    },
+    {
+      "descendants": 83,
+      "name": "Gameplay",
+      "className": "Folder"
+    },
+    {
+      "descendants": 231,
+      "name": "SchoolScenery",
+      "className": "Folder"
+    },
+    {
+      "descendants": 0,
+      "name": "IslandGrass",
+      "className": "Part"
+    },
+    {
+      "descendants": 0,
+      "name": "IslandEarth",
+      "className": "Part"
+    }
+  ],
+  "parts": [
+    {
+      "path": "Workspace.British Bulldog game.IslandGrass",
+      "canQuery": true,
+      "canCollide": true,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": true,
+      "attributes": [],
+      "cframe": [
+        4626,
+        15,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        751.9998779296875,
+        33,
+        722
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.IslandEarth",
+      "canQuery": true,
+      "canCollide": true,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": true,
+      "attributes": [],
+      "cframe": [
+        4626,
+        -25.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        751,
+        48,
+        721
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogBarriers.NorthBulldogBarrier",
+      "canQuery": true,
+      "canCollide": true,
+      "collisionGroup": "BBBarrier",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4626,
+        81.5,
+        4390,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        232,
+        100,
+        1.5
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogBarriers.SouthBulldogBarrier",
+      "canQuery": true,
+      "canCollide": true,
+      "collisionGroup": "BBBarrier",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4626,
+        81.5,
+        4678,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        232,
+        100,
+        1.5
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn06",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4663,
+        36.5,
+        4381,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn11",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4588,
+        36.5,
+        4371,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn15",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4688,
+        36.5,
+        4371,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn14",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4663,
+        36.5,
+        4371,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn12",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4613,
+        36.5,
+        4371,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn20",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4613,
+        36.5,
+        4361,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn23",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4688,
+        36.5,
+        4361,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn18",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4563,
+        36.5,
+        4361,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn19",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4588,
+        36.5,
+        4361,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn21",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4638,
+        36.5,
+        4361,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn01",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4538,
+        36.5,
+        4381,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn02",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4563,
+        36.5,
+        4381,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn10",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4563,
+        36.5,
+        4371,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn05",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4638,
+        36.5,
+        4381,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn09",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4538,
+        36.5,
+        4371,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn13",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4638,
+        36.5,
+        4371,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn08",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4713,
+        36.5,
+        4381,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn16",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4713,
+        36.5,
+        4371,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn17",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4538,
+        36.5,
+        4361,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn07",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4688,
+        36.5,
+        4381,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn04",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4613,
+        36.5,
+        4381,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn03",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4588,
+        36.5,
+        4381,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn22",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4663,
+        36.5,
+        4361,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersNorth.Spawn24",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4713,
+        36.5,
+        4361,
+        -1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn03",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4588,
+        36.5,
+        4687,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn16",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4713,
+        36.5,
+        4697,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn17",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4538,
+        36.5,
+        4707,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn24",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4713,
+        36.5,
+        4707,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn19",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4588,
+        36.5,
+        4707,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn20",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4613,
+        36.5,
+        4707,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn15",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4688,
+        36.5,
+        4697,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn02",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4563,
+        36.5,
+        4687,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn21",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4638,
+        36.5,
+        4707,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn22",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4663,
+        36.5,
+        4707,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn04",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4613,
+        36.5,
+        4687,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn23",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4688,
+        36.5,
+        4707,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn01",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4538,
+        36.5,
+        4687,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn05",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4638,
+        36.5,
+        4687,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn06",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4663,
+        36.5,
+        4687,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn11",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4588,
+        36.5,
+        4697,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn18",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4563,
+        36.5,
+        4707,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn14",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4663,
+        36.5,
+        4697,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn13",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4638,
+        36.5,
+        4697,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn12",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4613,
+        36.5,
+        4697,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn10",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4563,
+        36.5,
+        4697,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn08",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4713,
+        36.5,
+        4687,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn07",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4688,
+        36.5,
+        4687,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.RunnersSouth.Spawn09",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4538,
+        36.5,
+        4697,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn24",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4710,
+        36.5,
+        4570,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn23",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4686,
+        36.5,
+        4570,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn01",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4542,
+        36.5,
+        4498,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn02",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4566,
+        36.5,
+        4498,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn04",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4614,
+        36.5,
+        4498,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn08",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4710,
+        36.5,
+        4498,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn10",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4566,
+        36.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn07",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4686,
+        36.5,
+        4498,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn09",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4542,
+        36.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn15",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4686,
+        36.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn14",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4662,
+        36.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn12",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4614,
+        36.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn11",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4590,
+        36.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn18",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4566,
+        36.5,
+        4570,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn17",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4542,
+        36.5,
+        4570,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn16",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4710,
+        36.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn13",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4638,
+        36.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn19",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4590,
+        36.5,
+        4570,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn20",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4614,
+        36.5,
+        4570,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn21",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4638,
+        36.5,
+        4570,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn22",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4662,
+        36.5,
+        4570,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn05",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4638,
+        36.5,
+        4498,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn03",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4590,
+        36.5,
+        4498,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.BulldogSpawns.Spawn06",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4662,
+        36.5,
+        4498,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.SafeSouth",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4626,
+        81.5,
+        4698,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        224,
+        100,
+        40
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.ArenaBounds",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4626,
+        81.5,
+        4534,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        224,
+        100,
+        368
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.SouthLine",
+      "canQuery": true,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4626,
+        33.27000045776367,
+        4678,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        224,
+        0.07999999821186066,
+        3
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.SafeNorth",
+      "canQuery": false,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4626,
+        81.5,
+        4370,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        224,
+        100,
+        40
+      ]
+    },
+    {
+      "path": "Workspace.British Bulldog game.Gameplay.NorthLine",
+      "canQuery": true,
+      "canCollide": false,
+      "collisionGroup": "Default",
+      "anchored": true,
+      "canTouch": false,
+      "attributes": [],
+      "cframe": [
+        4626,
+        33.27000045776367,
+        4390,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "size": [
+        224,
+        0.07999999821186066,
+        3
+      ]
+    }
+  ]
+}

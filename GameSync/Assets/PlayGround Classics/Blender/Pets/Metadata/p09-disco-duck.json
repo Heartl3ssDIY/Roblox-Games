@@ -1,0 +1,51 @@
+{
+  "id": "P09",
+  "name": "Disco Duck",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p09-disco-duck.png",
+  "brief": "A fat sunny-yellow duck with orange beak and webbed feet, navy over-ear headphones and a small spherical silver disco-ball backpack with just a few large cyan facets. Two stubby wings, happy face, no sparkles or music notes.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p09-disco-duck.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p09-disco-duck.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p09-disco-duck-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p09-disco-duck.png",
+  "parts": 51,
+  "triangles": 11628,
+  "meshes": 1,
+  "maxMeshTriangles": 11628,
+  "dimensions": [
+    1.7884047031402588,
+    1.7929999828338623,
+    2.1430256366729736
+  ],
+  "boundsMin": [
+    -0.8942023515701294,
+    -0.9129999876022339,
+    0.020000003278255463
+  ],
+  "boundsMax": [
+    0.8942023515701294,
+    0.8799999952316284,
+    2.1630256175994873
+  ],
+  "paletteColors": 10,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.5988812446594238,
+    1.7929999828338623,
+    2.1043338775634766
+  ]
+}

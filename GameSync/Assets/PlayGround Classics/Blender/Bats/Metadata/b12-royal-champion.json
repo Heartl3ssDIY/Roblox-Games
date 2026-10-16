@@ -1,0 +1,51 @@
+{
+  "id": "B12",
+  "name": "Royal Champion",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b12-royal-champion.png",
+  "brief": "Prestige baseball bat with a cream-and-gold rounded barrel, bold navy centre band, a compact attached rounded crown-shaped cap with three blunt points, ruby-red inset gem and navy quilted-looking grip using only a few broad bands. No words.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b12-royal-champion.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b12-royal-champion.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b12-royal-champion-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b12-royal-champion.png",
+  "parts": 25,
+  "triangles": 9382,
+  "meshes": 1,
+  "maxMeshTriangles": 9382,
+  "dimensions": [
+    0.6618250012397766,
+    0.7174124717712402,
+    3.575000286102295
+  ],
+  "boundsMin": [
+    -0.3309125006198883,
+    -0.3865000009536743,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3309125006198883,
+    0.3309125006198883,
+    3.119000196456909
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      2.802799940109253
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6618250012397766,
+    0.7174124717712402,
+    3.575000286102295
+  ]
+}

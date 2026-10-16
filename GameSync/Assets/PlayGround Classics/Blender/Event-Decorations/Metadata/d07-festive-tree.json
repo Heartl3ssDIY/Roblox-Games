@@ -1,0 +1,46 @@
+{
+  "id": "D07",
+  "name": "Festive Tree",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d07-festive-tree.png",
+  "brief": "One compact stylised evergreen Christmas tree in a squat red pot, three tiered chunky green cones with broad cream snow caps, five large attached gold/red round ornaments and a small attached golden star at the tip. No lights string, loose presents or scene.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d07-festive-tree.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d07-festive-tree.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d07-festive-tree-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d07-festive-tree.png",
+  "parts": 23,
+  "triangles": 8876,
+  "meshes": 1,
+  "maxMeshTriangles": 8876,
+  "dimensions": [
+    1.8899999856948853,
+    1.8899999856948853,
+    2.882232904434204
+  ],
+  "boundsMin": [
+    -0.9449999928474426,
+    -0.9449999928474426,
+    0.0
+  ],
+  "boundsMax": [
+    0.9449999928474426,
+    0.9449999928474426,
+    2.882232904434204
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.8899999856948853,
+    1.8899999856948853,
+    2.882232904434204
+  ]
+}

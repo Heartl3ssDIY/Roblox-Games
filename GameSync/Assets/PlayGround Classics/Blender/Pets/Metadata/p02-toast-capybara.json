@@ -1,0 +1,46 @@
+{
+  "id": "P02",
+  "name": "Toast Capybara",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p02-toast-capybara.png",
+  "brief": "A round caramel capybara pet whose broad body resembles a soft toast loaf with a warm brown crust band, small cream muzzle, two tiny rounded ears and four stubby feet. A square yellow butter pat sits firmly on its back. Cute sleepy face.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p02-toast-capybara.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p02-toast-capybara.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p02-toast-capybara-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p02-toast-capybara.png",
+  "parts": 26,
+  "triangles": 6420,
+  "meshes": 1,
+  "maxMeshTriangles": 6420,
+  "dimensions": [
+    1.3899999856948853,
+    2.2170000076293945,
+    1.7280000448226929
+  ],
+  "boundsMin": [
+    -0.6949999928474426,
+    -1.181999921798706,
+    0.0
+  ],
+  "boundsMax": [
+    0.6949999928474426,
+    1.034999966621399,
+    1.7280000448226929
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

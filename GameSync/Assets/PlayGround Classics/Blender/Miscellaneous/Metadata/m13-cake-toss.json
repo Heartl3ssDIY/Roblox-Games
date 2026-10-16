@@ -1,0 +1,35 @@
+{
+  "id": "M13",
+  "name": "Cake Toss",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m13-cake-toss.png",
+  "brief": "One small round two-layer chocolate cake with broad ivory frosting, a single fat strawberry firmly attached on top and three sculpted chocolate drips at the edge. No candles, plate, cutlery or scattered crumbs. Stable chunky throwable toy-food silhouette.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m13-cake-toss.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m13-cake-toss.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m13-cake-toss-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m13-cake-toss.png",
+  "parts": 36,
+  "triangles": 4340,
+  "meshes": 1,
+  "maxMeshTriangles": 4340,
+  "dimensions": [
+    1.5119999647140503,
+    1.5759999752044678,
+    1.9883880615234375
+  ],
+  "boundsMin": [
+    -0.7559999823570251,
+    -0.8200000524520874,
+    0.019999999552965164
+  ],
+  "boundsMax": [
+    0.7559999823570251,
+    0.7559999823570251,
+    2.008388042449951
+  ],
+  "paletteColors": 6,
+  "anchors": {},
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

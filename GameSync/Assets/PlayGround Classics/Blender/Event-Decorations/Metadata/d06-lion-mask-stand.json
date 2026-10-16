@@ -1,0 +1,41 @@
+{
+  "id": "D06",
+  "name": "Lion Mask Stand",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d06-lion-mask-stand.png",
+  "brief": "One cheerful Lunar New Year lion-dance mask decoration mounted on a short wide red pedestal: chunky red and gold round mask, oversized cream circular eyes, rounded green nose, big friendly grin and broad white fluffy cheek shapes. One connected prop, no human, lettering or dangling filaments.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d06-lion-mask-stand.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d06-lion-mask-stand.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d06-lion-mask-stand-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d06-lion-mask-stand.png",
+  "parts": 36,
+  "triangles": 11552,
+  "meshes": 1,
+  "maxMeshTriangles": 11552,
+  "dimensions": [
+    2.059999942779541,
+    1.7400000095367432,
+    2.7750000953674316
+  ],
+  "boundsMin": [
+    -1.0299999713897705,
+    -0.9100000262260437,
+    0.0
+  ],
+  "boundsMax": [
+    1.0299999713897705,
+    0.8299999833106995,
+    2.7750000953674316
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

@@ -1,0 +1,51 @@
+{
+  "id": "E02",
+  "name": "Lucky Clover",
+  "category": "Event-Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e02-lucky-clover.png",
+  "brief": "Festive emerald-green baseball bat with an elongated rounded barrel, one large raised gold four-leaf-clover inlay, cream collar rings, deep green grip and gold knob. One small gold buckle decoration around the lower barrel. No hat, text or detached coins.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e02-lucky-clover.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e02-lucky-clover.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e02-lucky-clover-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e02-lucky-clover.png",
+  "parts": 21,
+  "triangles": 8498,
+  "meshes": 1,
+  "maxMeshTriangles": 8498,
+  "dimensions": [
+    0.6460000276565552,
+    0.6888779997825623,
+    3.5360000133514404
+  ],
+  "boundsMin": [
+    -0.3230000138282776,
+    -0.36587798595428467,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3230000138282776,
+    0.3230000138282776,
+    3.0799999237060547
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6460000276565552,
+    0.6888779997825623,
+    3.5360000133514404
+  ]
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "id": "B01",
+    "collection": "B01_Starter_Slugger",
+    "sourceMeshes": 5,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b01-starter-slugger.blend"
+  },
+  {
+    "id": "B02",
+    "collection": "B02_Schoolyard_Alloy",
+    "sourceMeshes": 10,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b02-schoolyard-alloy.blend"
+  },
+  {
+    "id": "B03",
+    "collection": "B03_Varsity_Victory",
+    "sourceMeshes": 10,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b03-varsity-victory.blend"
+  },
+  {
+    "id": "B04",
+    "collection": "B04_Street_Cone",
+    "sourceMeshes": 9,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b04-street-cone.blend"
+  },
+  {
+    "id": "B05",
+    "collection": "B05_Bubblegum_Bonker",
+    "sourceMeshes": 11,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b05-bubblegum-bonker.blend"
+  },
+  {
+    "id": "B06",
+    "collection": "B06_Mudslinger",
+    "sourceMeshes": 12,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b06-mudslinger.blend"
+  },
+  {
+    "id": "B07",
+    "collection": "B07_Heat_Coil",
+    "sourceMeshes": 16,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b07-heat-coil.blend"
+  },
+  {
+    "id": "B08",
+    "collection": "B08_Frostbite",
+    "sourceMeshes": 8,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b08-frostbite.blend"
+  },
+  {
+    "id": "B09",
+    "collection": "B09_Thunder_Circuit",
+    "sourceMeshes": 11,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b09-thunder-circuit.blend"
+  },
+  {
+    "id": "B10",
+    "collection": "B10_Pixel_Party",
+    "sourceMeshes": 17,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b10-pixel-party.blend"
+  },
+  {
+    "id": "B11",
+    "collection": "B11_Cosmic_Orbit",
+    "sourceMeshes": 15,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b11-cosmic-orbit.blend"
+  },
+  {
+    "id": "B12",
+    "collection": "B12_Royal_Champion",
+    "sourceMeshes": 25,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b12-royal-champion.blend"
+  },
+  {
+    "id": "B13",
+    "collection": "B13_Skatepark_Stripe",
+    "sourceMeshes": 9,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b13-skatepark-stripe.blend"
+  },
+  {
+    "id": "B14",
+    "collection": "B14_Deep_Sea",
+    "sourceMeshes": 14,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b14-deep-sea.blend"
+  },
+  {
+    "id": "B15",
+    "collection": "B15_Sunburst",
+    "sourceMeshes": 16,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b15-sunburst.blend"
+  },
+  {
+    "id": "E01",
+    "collection": "E01_Pumpkin_Smacker",
+    "sourceMeshes": 17,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e01-pumpkin-smacker.blend"
+  },
+  {
+    "id": "E02",
+    "collection": "E02_Lucky_Clover",
+    "sourceMeshes": 21,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e02-lucky-clover.blend"
+  },
+  {
+    "id": "E03",
+    "collection": "E03_Festival_Dragon",
+    "sourceMeshes": 42,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e03-festival-dragon.blend"
+  },
+  {
+    "id": "E04",
+    "collection": "E04_Peppermint_Slugger",
+    "sourceMeshes": 15,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e04-peppermint-slugger.blend"
+  },
+  {
+    "id": "E05",
+    "collection": "E05_Egg_Hunt",
+    "sourceMeshes": 24,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e05-egg-hunt.blend"
+  },
+  {
+    "id": "E06",
+    "collection": "E06_Birthday_Wish",
+    "sourceMeshes": 29,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e06-birthday-wish.blend"
+  },
+  {
+    "id": "P01",
+    "collection": "P01_Pocket_Bulldog",
+    "sourceMeshes": 36,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p01-pocket-bulldog.blend"
+  },
+  {
+    "id": "P02",
+    "collection": "P02_Toast_Capybara",
+    "sourceMeshes": 26,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p02-toast-capybara.blend"
+  },
+  {
+    "id": "P03",
+    "collection": "P03_Pancake_Penguin",
+    "sourceMeshes": 37,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p03-pancake-penguin.blend"
+  },
+  {
+    "id": "P04",
+    "collection": "P04_Jelly_Axolotl",
+    "sourceMeshes": 38,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p04-jelly-axolotl.blend"
+  },
+  {
+    "id": "P05",
+    "collection": "P05_Rocket_Snail",
+    "sourceMeshes": 38,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p05-rocket-snail.blend"
+  },
+  {
+    "id": "P06",
+    "collection": "P06_Traffic_Crab",
+    "sourceMeshes": 40,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p06-traffic-crab.blend"
+  },
+  {
+    "id": "P07",
+    "collection": "P07_Teapot_Frog",
+    "sourceMeshes": 40,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p07-teapot-frog.blend"
+  },
+  {
+    "id": "P08",
+    "collection": "P08_Skater_Shark",
+    "sourceMeshes": 51,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p08-skater-shark.blend"
+  },
+  {
+    "id": "P09",
+    "collection": "P09_Disco_Duck",
+    "sourceMeshes": 51,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p09-disco-duck.blend"
+  },
+  {
+    "id": "P10",
+    "collection": "P10_Cloud_Sheep",
+    "sourceMeshes": 37,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p10-cloud-sheep.blend"
+  },
+  {
+    "id": "P11",
+    "collection": "P11_Cactus_Cat",
+    "sourceMeshes": 59,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p11-cactus-cat.blend"
+  },
+  {
+    "id": "P12",
+    "collection": "P12_UFO_Jelly",
+    "sourceMeshes": 30,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p12-ufo-jelly.blend"
+  },
+  {
+    "id": "P13",
+    "collection": "P13_Pumpkin_Bunny",
+    "sourceMeshes": 58,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p13-pumpkin-bunny.blend"
+  },
+  {
+    "id": "P14",
+    "collection": "P14_Hoodie_Ghost",
+    "sourceMeshes": 35,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p14-hoodie-ghost.blend"
+  },
+  {
+    "id": "P15",
+    "collection": "P15_Marshmallow_Dragon",
+    "sourceMeshes": 62,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p15-marshmallow-dragon.blend"
+  },
+  {
+    "id": "P16",
+    "collection": "P16_Banana_Gorilla",
+    "sourceMeshes": 61,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p16-banana-gorilla.blend"
+  },
+  {
+    "id": "P17",
+    "collection": "P17_Gummy_Rex",
+    "sourceMeshes": 44,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p17-gummy-rex.blend"
+  },
+  {
+    "id": "P18",
+    "collection": "P18_Lava_Toaster",
+    "sourceMeshes": 41,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p18-lava-toaster.blend"
+  },
+  {
+    "id": "P19",
+    "collection": "P19_Moon_Moth",
+    "sourceMeshes": 55,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p19-moon-moth.blend"
+  },
+  {
+    "id": "P20",
+    "collection": "P20_Royal_Slime",
+    "sourceMeshes": 24,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p20-royal-slime.blend"
+  },
+  {
+    "id": "C01",
+    "collection": "C01_Collectible_Coin",
+    "sourceMeshes": 7,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\c01-collectible-coin.blend"
+  },
+  {
+    "id": "M01",
+    "collection": "M01_Playground_Football",
+    "sourceMeshes": 33,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m01-playground-football.blend"
+  },
+  {
+    "id": "M02",
+    "collection": "M02_Playground_Basketball",
+    "sourceMeshes": 5,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m02-playground-basketball.blend"
+  },
+  {
+    "id": "M03",
+    "collection": "M03_Foam_Bonker",
+    "sourceMeshes": 10,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m03-foam-bonker.blend"
+  },
+  {
+    "id": "M04",
+    "collection": "M04_Tumble_Barrel",
+    "sourceMeshes": 29,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m04-tumble-barrel.blend"
+  },
+  {
+    "id": "M05",
+    "collection": "M05_Zoom_Juice",
+    "sourceMeshes": 19,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m05-zoom-juice.blend"
+  },
+  {
+    "id": "M06",
+    "collection": "M06_Spring_Sip",
+    "sourceMeshes": 15,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m06-spring-sip.blend"
+  },
+  {
+    "id": "M07",
+    "collection": "M07_Ember_Elixir",
+    "sourceMeshes": 13,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m07-ember-elixir.blend"
+  },
+  {
+    "id": "M08",
+    "collection": "M08_Surprise_Present",
+    "sourceMeshes": 17,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m08-surprise-present.blend"
+  },
+  {
+    "id": "M09",
+    "collection": "M09_Plunger_Popper",
+    "sourceMeshes": 40,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m09-plunger-popper.blend"
+  },
+  {
+    "id": "M10",
+    "collection": "M10_Frost_Ray",
+    "sourceMeshes": 73,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m10-frost-ray.blend"
+  },
+  {
+    "id": "M11",
+    "collection": "M11_Paint_Splash",
+    "sourceMeshes": 16,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m11-paint-splash.blend"
+  },
+  {
+    "id": "M12",
+    "collection": "M12_Eggsploit",
+    "sourceMeshes": 4,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m12-eggsploit.blend"
+  },
+  {
+    "id": "M13",
+    "collection": "M13_Cake_Toss",
+    "sourceMeshes": 36,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m13-cake-toss.blend"
+  },
+  {
+    "id": "M14",
+    "collection": "M14_Camp_Torch",
+    "sourceMeshes": 17,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m14-camp-torch.blend"
+  },
+  {
+    "id": "M15",
+    "collection": "M15_Bounce_Pad",
+    "sourceMeshes": 31,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m15-bounce-pad.blend"
+  },
+  {
+    "id": "D01",
+    "collection": "D01_Pumpkin_Lantern",
+    "sourceMeshes": 9,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d01-pumpkin-lantern.blend"
+  },
+  {
+    "id": "D02",
+    "collection": "D02_Haunted_Crate",
+    "sourceMeshes": 49,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d02-haunted-crate.blend"
+  },
+  {
+    "id": "D03",
+    "collection": "D03_Lucky_Pot",
+    "sourceMeshes": 31,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d03-lucky-pot.blend"
+  },
+  {
+    "id": "D04",
+    "collection": "D04_Clover_Arch",
+    "sourceMeshes": 31,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d04-clover-arch.blend"
+  },
+  {
+    "id": "D05",
+    "collection": "D05_Festival_Lantern",
+    "sourceMeshes": 18,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d05-festival-lantern.blend"
+  },
+  {
+    "id": "D06",
+    "collection": "D06_Lion_Mask_Stand",
+    "sourceMeshes": 36,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d06-lion-mask-stand.blend"
+  },
+  {
+    "id": "D07",
+    "collection": "D07_Festive_Tree",
+    "sourceMeshes": 23,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d07-festive-tree.blend"
+  },
+  {
+    "id": "D08",
+    "collection": "D08_Snow_Buddy",
+    "sourceMeshes": 27,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d08-snow-buddy.blend"
+  },
+  {
+    "id": "D09",
+    "collection": "D09_Egg_Basket",
+    "sourceMeshes": 64,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d09-egg-basket.blend"
+  },
+  {
+    "id": "D10",
+    "collection": "D10_Carrot_Sign",
+    "sourceMeshes": 13,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d10-carrot-sign.blend"
+  },
+  {
+    "id": "D11",
+    "collection": "D11_Party_Balloon_Cluster",
+    "sourceMeshes": 12,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d11-party-balloon-cluster.blend"
+  },
+  {
+    "id": "D12",
+    "collection": "D12_Birthday_Cake_Stand",
+    "sourceMeshes": 41,
+    "sourceFile": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d12-birthday-cake-stand.blend"
+  }
+]

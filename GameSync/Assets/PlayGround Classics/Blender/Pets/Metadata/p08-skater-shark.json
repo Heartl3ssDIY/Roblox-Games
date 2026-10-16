@@ -1,0 +1,46 @@
+{
+  "id": "P08",
+  "name": "Skater Shark",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p08-skater-shark.png",
+  "brief": "A small chubby upright cyan shark with cream belly, tiny side fins, short blunt tail and friendly open grin showing three rounded teeth, standing on a small attached orange skateboard with four navy wheels. Chunky toy proportions, no detached accessory.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p08-skater-shark.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p08-skater-shark.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p08-skater-shark-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p08-skater-shark.png",
+  "parts": 51,
+  "triangles": 9528,
+  "meshes": 1,
+  "maxMeshTriangles": 9528,
+  "dimensions": [
+    1.4700000286102295,
+    1.434999942779541,
+    2.235170841217041
+  ],
+  "boundsMin": [
+    -0.7350000143051147,
+    -0.5899999737739563,
+    0.004999991971999407
+  ],
+  "boundsMax": [
+    0.7350000143051147,
+    0.8450000286102295,
+    2.24017071723938
+  ],
+  "paletteColors": 9,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

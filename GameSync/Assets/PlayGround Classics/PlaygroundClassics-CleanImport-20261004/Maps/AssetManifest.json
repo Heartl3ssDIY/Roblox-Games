@@ -1,0 +1,2014 @@
+{
+  "assets": [
+    {
+      "svg": "Editable/01-Empty-Panels/level-panel.svg",
+      "png": "PNG/01-Empty-Panels/level-panel.png",
+      "logicalSize": [
+        268,
+        89
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1072,
+        356
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/level-panel.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/level-panel-compact.svg",
+      "png": "PNG/01-Empty-Panels/level-panel-compact.png",
+      "logicalSize": [
+        119,
+        61
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        476,
+        244
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/level-panel-compact.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/wallet-panel.svg",
+      "png": "PNG/01-Empty-Panels/wallet-panel.png",
+      "logicalSize": [
+        252,
+        73
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1008,
+        292
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/wallet-panel.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/shop-background.svg",
+      "png": "PNG/01-Empty-Panels/shop-background.png",
+      "logicalSize": [
+        1124,
+        668.62
+      ],
+      "scale": 1.8220640569395017,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        1218
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/shop-background.svg"
+    },
+    {
+      "svg": "Editable/02-Item-Frame-Parts/item-frame.svg",
+      "png": "PNG/02-Item-Frame-Parts/item-frame.png",
+      "logicalSize": [
+        246,
+        247
+      ],
+      "scale": 4,
+      "category": "02-Item-Frame-Parts",
+      "pixelSize": [
+        984,
+        988
+      ],
+      "figma": "Figma-DragDrop/02-Item-Frame-Parts/item-frame.svg"
+    },
+    {
+      "svg": "Editable/02-Item-Frame-Parts/item-preview-background.svg",
+      "png": "PNG/02-Item-Frame-Parts/item-preview-background.png",
+      "logicalSize": [
+        222,
+        131
+      ],
+      "scale": 4,
+      "category": "02-Item-Frame-Parts",
+      "pixelSize": [
+        888,
+        524
+      ],
+      "figma": "Figma-DragDrop/02-Item-Frame-Parts/item-preview-background.svg"
+    },
+    {
+      "svg": "Editable/02-Item-Frame-Parts/item-action-button.svg",
+      "png": "PNG/02-Item-Frame-Parts/item-action-button.png",
+      "logicalSize": [
+        163.2,
+        37.2
+      ],
+      "scale": 4,
+      "category": "02-Item-Frame-Parts",
+      "pixelSize": [
+        653,
+        149
+      ],
+      "figma": "Figma-DragDrop/02-Item-Frame-Parts/item-action-button.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/runner-meter-background.svg",
+      "png": "PNG/01-Empty-Panels/runner-meter-background.png",
+      "logicalSize": [
+        379,
+        57
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1516,
+        228
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/runner-meter-background.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.svg",
+      "png": "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.png",
+      "logicalSize": [
+        199,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        796,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Sprint.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.svg",
+      "png": "PNG/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.png",
+      "logicalSize": [
+        97.75,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        391,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/BritishBulldogHUD-MovementControls_Dodge.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/TagHUD-Top.svg",
+      "png": "PNG/01-Empty-Panels/TagHUD-Top.png",
+      "logicalSize": [
+        605.04,
+        116.38
+      ],
+      "scale": 3.3849001718894622,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        394
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/TagHUD-Top.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/TagHUD-Role.svg",
+      "png": "PNG/01-Empty-Panels/TagHUD-Role.png",
+      "logicalSize": [
+        289,
+        74.195
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1156,
+        297
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/TagHUD-Role.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/TagHUD-Results.svg",
+      "png": "PNG/01-Empty-Panels/TagHUD-Results.png",
+      "logicalSize": [
+        724,
+        308.13
+      ],
+      "scale": 2.8287292817679557,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        872
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/TagHUD-Results.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/TagHUD-Controls_Vault.svg",
+      "png": "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Vault.png",
+      "logicalSize": [
+        62.8,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        251,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/TagHUD-Controls_Vault.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.svg",
+      "png": "PNG/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.png",
+      "logicalSize": [
+        62.8,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        251,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/TagHUD-Controls_Dodge.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.svg",
+      "png": "PNG/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.png",
+      "logicalSize": [
+        149.6,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        598,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/TagHUD-SprintPanel_Sprint.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundShell-RewardToast.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-RewardToast.png",
+      "logicalSize": [
+        424,
+        59
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1696,
+        236
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundShell-RewardToast.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundShell-Backdrop.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-Backdrop.png",
+      "logicalSize": [
+        1370,
+        776
+      ],
+      "scale": 1.494890510948905,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        1160
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundShell-Backdrop.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundShell-VotePanel.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-VotePanel.png",
+      "logicalSize": [
+        664,
+        231
+      ],
+      "scale": 3.0843373493975905,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        712
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundShell-VotePanel.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundShell-CompactVotePanel.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundShell-CompactVotePanel.png",
+      "logicalSize": [
+        664,
+        185
+      ],
+      "scale": 3.0843373493975905,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        571
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundShell-CompactVotePanel.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.png",
+      "logicalSize": [
+        122.01,
+        55.01
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        488,
+        220
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Dock_Shop.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.png",
+      "logicalSize": [
+        60.01,
+        55.01
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        240,
+        220
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emote.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.png",
+      "logicalSize": [
+        60.01,
+        55.01
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        240,
+        220
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Dock_Emoji.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.png",
+      "logicalSize": [
+        1370,
+        776
+      ],
+      "scale": 1.494890510948905,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        2048,
+        1160
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Backdrop.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.png",
+      "logicalSize": [
+        40.66,
+        45.66
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        163,
+        183
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Close.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.png",
+      "logicalSize": [
+        68.855,
+        42.855
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        275,
+        171
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_All.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.png",
+      "logicalSize": [
+        99.855,
+        42.855
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        399,
+        171
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Pets.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.png",
+      "logicalSize": [
+        127.855,
+        42.855
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        511,
+        171
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-ShopPanel_Categories_Highlights.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.png",
+      "logicalSize": [
+        163.2,
+        37.2
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        653,
+        149
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Action.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.png",
+      "logicalSize": [
+        56.2,
+        37.2
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        225,
+        149
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-Templates_ItemCard_Try.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.png",
+      "logicalSize": [
+        202,
+        108.9
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        808,
+        436
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_BritishBulldog.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.png",
+      "logicalSize": [
+        202,
+        108.9
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        808,
+        436
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_TagYoureIt.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.png",
+      "logicalSize": [
+        202,
+        108.9
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        808,
+        436
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-VotePanel_StuckInTheMud.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.png",
+      "logicalSize": [
+        188.8,
+        82.92
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        755,
+        332
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_BritishBulldog.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.png",
+      "logicalSize": [
+        188.8,
+        82.92
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        755,
+        332
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_TagYoureIt.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.png",
+      "logicalSize": [
+        188.8,
+        82.92
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        755,
+        332
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundShell-CompactVotePanel_StuckInTheMud.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundAdminPanel-Toggle.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Toggle.png",
+      "logicalSize": [
+        116.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        465,
+        213
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundAdminPanel-Toggle.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundAdminPanel-Panel.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel.png",
+      "logicalSize": [
+        394,
+        659
+      ],
+      "scale": 3.1077389984825494,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1224,
+        2048
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundAdminPanel-Panel.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.png",
+      "logicalSize": [
+        344.9,
+        213
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1380,
+        852
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundAdminPanel-Panel_BritishBulldog.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.svg",
+      "png": "PNG/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.png",
+      "logicalSize": [
+        362,
+        247
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1448,
+        988
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/PlaygroundAdminPanel-CompactPanel_BritishBulldog.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.png",
+      "logicalSize": [
+        116.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        465,
+        213
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Toggle.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.png",
+      "logicalSize": [
+        39.142,
+        54.542
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        157,
+        218
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Close.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.png",
+      "logicalSize": [
+        318.175,
+        47.287
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1273,
+        189
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBStart.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.png",
+      "logicalSize": [
+        318.175,
+        47.287
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1273,
+        189
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBRunner.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.png",
+      "logicalSize": [
+        318.175,
+        47.287
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1273,
+        189
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_Body_Content_BritishBulldog_BBBulldog.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.png",
+      "logicalSize": [
+        351.1,
+        57.75
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1404,
+        231
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_StopRound.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.png",
+      "logicalSize": [
+        351.565,
+        48.465
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1406,
+        194
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-Panel_ToggleAutomatic.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.png",
+      "logicalSize": [
+        48.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        193,
+        213
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Close.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.png",
+      "logicalSize": [
+        342,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1368,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBStart.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.png",
+      "logicalSize": [
+        342,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1368,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBRunner.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.png",
+      "logicalSize": [
+        342,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1368,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_BritishBulldog_BBBulldog.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.svg",
+      "png": "PNG/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.png",
+      "logicalSize": [
+        342,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1368,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/PlaygroundAdminPanel-CompactPanel_Body_Content_ToggleAutomatic.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-Top.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-Top.png",
+      "logicalSize": [
+        604,
+        83
+      ],
+      "scale": 3.390728476821192,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        281
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-Top.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-Frozen.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-Frozen.png",
+      "logicalSize": [
+        284,
+        105
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1136,
+        420
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-Frozen.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-Results.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-Results.png",
+      "logicalSize": [
+        634,
+        199
+      ],
+      "scale": 3.230283911671924,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        2048,
+        643
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-Results.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-ColourToggle.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-ColourToggle.png",
+      "logicalSize": [
+        48.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        193,
+        213
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-ColourToggle.svg"
+    },
+    {
+      "svg": "Editable/01-Empty-Panels/MudHUD-ColourPicker.svg",
+      "png": "PNG/01-Empty-Panels/MudHUD-ColourPicker.png",
+      "logicalSize": [
+        284,
+        147
+      ],
+      "scale": 4,
+      "category": "01-Empty-Panels",
+      "pixelSize": [
+        1136,
+        588
+      ],
+      "figma": "Figma-DragDrop/01-Empty-Panels/MudHUD-ColourPicker.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.png",
+      "logicalSize": [
+        184.691,
+        45.211
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        739,
+        181
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Top_Team.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.png",
+      "logicalSize": [
+        97,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        388,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Controls_Mud.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.png",
+      "logicalSize": [
+        97,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        388,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Controls_Heat.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.png",
+      "logicalSize": [
+        84,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        336,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Controls_Fire.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.png",
+      "logicalSize": [
+        284,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        1136,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-Main_Controls_Sprint.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourToggle.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourToggle.png",
+      "logicalSize": [
+        48.14,
+        53.14
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        193,
+        213
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourToggle.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.png",
+      "logicalSize": [
+        44.4,
+        49.4
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        178,
+        198
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Close.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.png",
+      "logicalSize": [
+        64,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        256,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Red.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.png",
+      "logicalSize": [
+        64,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        256,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Blue.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.png",
+      "logicalSize": [
+        64,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        256,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Green.svg"
+    },
+    {
+      "svg": "Editable/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.svg",
+      "png": "PNG/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.png",
+      "logicalSize": [
+        64,
+        57
+      ],
+      "scale": 4,
+      "category": "03-Other-Blank-Buttons",
+      "pixelSize": [
+        256,
+        228
+      ],
+      "figma": "Figma-DragDrop/03-Other-Blank-Buttons/MudHUD-ColourPicker_Black.svg"
+    },
+    {
+      "svg": "Editable/04-Meter-Parts/xp-track.svg",
+      "png": "PNG/04-Meter-Parts/xp-track.png",
+      "logicalSize": [
+        173,
+        14
+      ],
+      "scale": 4,
+      "category": "04-Meter-Parts",
+      "pixelSize": [
+        692,
+        56
+      ],
+      "figma": "Figma-DragDrop/04-Meter-Parts/xp-track.svg"
+    },
+    {
+      "svg": "Editable/04-Meter-Parts/xp-fill.svg",
+      "png": "PNG/04-Meter-Parts/xp-fill.png",
+      "logicalSize": [
+        173,
+        14
+      ],
+      "scale": 4,
+      "category": "04-Meter-Parts",
+      "pixelSize": [
+        692,
+        56
+      ],
+      "figma": "Figma-DragDrop/04-Meter-Parts/xp-fill.svg"
+    },
+    {
+      "svg": "Editable/04-Meter-Parts/stamina-track.svg",
+      "png": "PNG/04-Meter-Parts/stamina-track.png",
+      "logicalSize": [
+        355,
+        14
+      ],
+      "scale": 4,
+      "category": "04-Meter-Parts",
+      "pixelSize": [
+        1420,
+        56
+      ],
+      "figma": "Figma-DragDrop/04-Meter-Parts/stamina-track.svg"
+    },
+    {
+      "svg": "Editable/04-Meter-Parts/stamina-fill.svg",
+      "png": "PNG/04-Meter-Parts/stamina-fill.png",
+      "logicalSize": [
+        355,
+        14
+      ],
+      "scale": 4,
+      "category": "04-Meter-Parts",
+      "pixelSize": [
+        1420,
+        56
+      ],
+      "figma": "Figma-DragDrop/04-Meter-Parts/stamina-fill.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/close.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/close.png",
+      "logicalSize": [
+        48,
+        52
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        192,
+        208
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/close.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/dodge.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/dodge.png",
+      "logicalSize": [
+        102,
+        60
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        408,
+        240
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/dodge.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/heat-slot.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/heat-slot.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/heat-slot.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/mud-slot.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/mud-slot.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/mud-slot.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/splat.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/splat.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/splat.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/sprint-wide.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/sprint-wide.png",
+      "logicalSize": [
+        288,
+        61
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        1152,
+        244
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/sprint-wide.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/sprint.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/sprint.png",
+      "logicalSize": [
+        203,
+        60
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        812,
+        240
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/sprint.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-black.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-black.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-black.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-blue-status.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-blue-status.png",
+      "logicalSize": [
+        254,
+        55
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        1016,
+        220
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-blue-status.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-blue.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-blue.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-blue.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-green.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-green.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-green.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-red.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-red.png",
+      "logicalSize": [
+        68,
+        60
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        272,
+        240
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-red.svg"
+    },
+    {
+      "svg": "Editable/05-Favourite-Buttons-Blank/team-toggle.svg",
+      "png": "PNG/05-Favourite-Buttons-Blank/team-toggle.png",
+      "logicalSize": [
+        60,
+        53
+      ],
+      "scale": 4,
+      "category": "BlankFavourites",
+      "pixelSize": [
+        240,
+        212
+      ],
+      "figma": "Figma-DragDrop/05-Favourite-Buttons-Blank/team-toggle.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/close.svg",
+      "png": "PNG/Optional-Labelled-Buttons/close.png",
+      "logicalSize": [
+        48,
+        52
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        192,
+        208
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/close.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/dodge.svg",
+      "png": "PNG/Optional-Labelled-Buttons/dodge.png",
+      "logicalSize": [
+        102,
+        60
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        408,
+        240
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/dodge.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/heat-slot.svg",
+      "png": "PNG/Optional-Labelled-Buttons/heat-slot.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/heat-slot.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/mud-slot.svg",
+      "png": "PNG/Optional-Labelled-Buttons/mud-slot.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/mud-slot.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/splat.svg",
+      "png": "PNG/Optional-Labelled-Buttons/splat.png",
+      "logicalSize": [
+        88,
+        59
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        352,
+        236
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/splat.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/sprint-wide.svg",
+      "png": "PNG/Optional-Labelled-Buttons/sprint-wide.png",
+      "logicalSize": [
+        288,
+        61
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        1152,
+        244
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/sprint-wide.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/sprint.svg",
+      "png": "PNG/Optional-Labelled-Buttons/sprint.png",
+      "logicalSize": [
+        203,
+        60
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        812,
+        240
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/sprint.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-black.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-black.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-black.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-blue-status.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-blue-status.png",
+      "logicalSize": [
+        254,
+        55
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        1016,
+        220
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-blue-status.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-blue.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-blue.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-blue.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-green.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-green.png",
+      "logicalSize": [
+        79,
+        54
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        316,
+        216
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-green.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-red.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-red.png",
+      "logicalSize": [
+        68,
+        60
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        272,
+        240
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-red.svg"
+    },
+    {
+      "svg": "Editable/Optional-Labelled-Buttons/team-toggle.svg",
+      "png": "PNG/Optional-Labelled-Buttons/team-toggle.png",
+      "logicalSize": [
+        60,
+        53
+      ],
+      "scale": 4,
+      "category": "OptionalLabels",
+      "pixelSize": [
+        240,
+        212
+      ],
+      "figma": "Figma-DragDrop/Optional-Labelled-Buttons/team-toggle.svg"
+    },
+    {
+      "svg": "Editable/06-Smooth-Game-Card-Blanks/british-bulldog.svg",
+      "png": "PNG/06-Smooth-Game-Card-Blanks/british-bulldog.png",
+      "logicalSize": [
+        320,
+        156
+      ],
+      "scale": 4,
+      "category": "BlankGameCards",
+      "pixelSize": [
+        1280,
+        624
+      ],
+      "figma": "Figma-DragDrop/06-Smooth-Game-Card-Blanks/british-bulldog.svg"
+    },
+    {
+      "svg": "Editable/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.svg",
+      "png": "PNG/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.png",
+      "logicalSize": [
+        320,
+        156
+      ],
+      "scale": 4,
+      "category": "BlankGameCards",
+      "pixelSize": [
+        1280,
+        624
+      ],
+      "figma": "Figma-DragDrop/06-Smooth-Game-Card-Blanks/stuck-in-the-mud.svg"
+    },
+    {
+      "svg": "Editable/06-Smooth-Game-Card-Blanks/tag-youre-it.svg",
+      "png": "PNG/06-Smooth-Game-Card-Blanks/tag-youre-it.png",
+      "logicalSize": [
+        320,
+        156
+      ],
+      "scale": 4,
+      "category": "BlankGameCards",
+      "pixelSize": [
+        1280,
+        624
+      ],
+      "figma": "Figma-DragDrop/06-Smooth-Game-Card-Blanks/tag-youre-it.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/black-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/black-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/black-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/black-normal.svg",
+      "png": "PNG/07-Resizable-Skins/black-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/black-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/black-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/black-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/black-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/blue-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/blue-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/blue-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/blue-normal.svg",
+      "png": "PNG/07-Resizable-Skins/blue-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/blue-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/blue-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/blue-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/blue-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/cream-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/cream-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/cream-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/cream-normal.svg",
+      "png": "PNG/07-Resizable-Skins/cream-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/cream-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/cream-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/cream-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/cream-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/gold-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/gold-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/gold-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/gold-normal.svg",
+      "png": "PNG/07-Resizable-Skins/gold-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/gold-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/gold-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/gold-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/gold-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/green-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/green-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/green-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/green-normal.svg",
+      "png": "PNG/07-Resizable-Skins/green-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/green-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/green-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/green-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/green-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/mud-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/mud-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/mud-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/mud-normal.svg",
+      "png": "PNG/07-Resizable-Skins/mud-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/mud-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/mud-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/mud-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/mud-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/orange-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/orange-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/orange-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/orange-normal.svg",
+      "png": "PNG/07-Resizable-Skins/orange-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/orange-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/orange-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/orange-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/orange-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/panel-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/panel-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/panel-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/panel-normal.svg",
+      "png": "PNG/07-Resizable-Skins/panel-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/panel-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/panel-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/panel-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/panel-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/purple-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/purple-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/purple-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/purple-normal.svg",
+      "png": "PNG/07-Resizable-Skins/purple-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/purple-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/purple-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/purple-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/purple-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/red-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/red-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/red-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/red-normal.svg",
+      "png": "PNG/07-Resizable-Skins/red-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/red-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/red-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/red-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/red-pressed.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/silver-disabled.svg",
+      "png": "PNG/07-Resizable-Skins/silver-disabled.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/silver-disabled.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/silver-normal.svg",
+      "png": "PNG/07-Resizable-Skins/silver-normal.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/silver-normal.svg"
+    },
+    {
+      "svg": "Editable/07-Resizable-Skins/silver-pressed.svg",
+      "png": "PNG/07-Resizable-Skins/silver-pressed.png",
+      "logicalSize": [
+        128,
+        80
+      ],
+      "scale": 4,
+      "category": "NineSlice",
+      "pixelSize": [
+        512,
+        320
+      ],
+      "figma": "Figma-DragDrop/07-Resizable-Skins/silver-pressed.svg"
+    }
+  ]
+}

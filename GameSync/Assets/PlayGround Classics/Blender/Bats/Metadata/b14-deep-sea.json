@@ -1,0 +1,51 @@
+{
+  "id": "B14",
+  "name": "Deep Sea",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b14-deep-sea.png",
+  "brief": "A navy and turquoise baseball bat with a thick rounded barrel, three broad raised wave-shaped pale-cyan inlays, a chunky cream collar, teal rubber wrap grip and navy knob. Ocean theme made of simple solid attached shapes, no floating water.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b14-deep-sea.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b14-deep-sea.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b14-deep-sea-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b14-deep-sea.png",
+  "parts": 14,
+  "triangles": 8090,
+  "meshes": 1,
+  "maxMeshTriangles": 8090,
+  "dimensions": [
+    0.6778929829597473,
+    0.6767531633377075,
+    3.549499988555908
+  ],
+  "boundsMin": [
+    -0.33894649147987366,
+    -0.33837658166885376,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.33894649147987366,
+    0.33837658166885376,
+    3.0934998989105225
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6778929829597473,
+    0.6767531633377075,
+    3.549499988555908
+  ]
+}

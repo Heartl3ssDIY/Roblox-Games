@@ -1,0 +1,51 @@
+{
+  "id": "B05",
+  "name": "Bubblegum Bonker",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b05-bubblegum-bonker.png",
+  "brief": "Hot pink glossy baseball bat with a thick rounded candy barrel, two attached small bubblegum globules near the barrel shoulder, lilac spiral-wrapped grip and pale mint collar. Opaque candy material, no detached bubbles.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b05-bubblegum-bonker.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b05-bubblegum-bonker.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b05-bubblegum-bonker-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b05-bubblegum-bonker.png",
+  "parts": 11,
+  "triangles": 6602,
+  "meshes": 1,
+  "maxMeshTriangles": 6602,
+  "dimensions": [
+    0.7179999947547913,
+    0.6532142758369446,
+    3.5409998893737793
+  ],
+  "boundsMin": [
+    -0.3230000138282776,
+    -0.330214262008667,
+    -0.460999995470047
+  ],
+  "boundsMax": [
+    0.39499998092651367,
+    0.3230000138282776,
+    3.0799999237060547
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.7179999947547913,
+    0.6532142758369446,
+    3.5409998893737793
+  ]
+}

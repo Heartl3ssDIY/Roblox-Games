@@ -1,0 +1,51 @@
+{
+  "id": "B15",
+  "name": "Sunburst",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b15-sunburst.png",
+  "brief": "A bright cream-and-orange baseball bat with a long rounded barrel, broad golden sun-ray geometric panels around its blunt tip, navy collar rings, deep orange grip and gold knob. Clean premium summer toy design, no text or detached rays.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b15-sunburst.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b15-sunburst.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b15-sunburst-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b15-sunburst.png",
+  "parts": 16,
+  "triangles": 6342,
+  "meshes": 1,
+  "maxMeshTriangles": 6342,
+  "dimensions": [
+    0.6617742776870728,
+    0.6694213151931763,
+    3.552999973297119
+  ],
+  "boundsMin": [
+    -0.3308871388435364,
+    -0.33471065759658813,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3308871388435364,
+    0.33471065759658813,
+    3.0969998836517334
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6617742776870728,
+    0.6694213151931763,
+    3.552999973297119
+  ]
+}

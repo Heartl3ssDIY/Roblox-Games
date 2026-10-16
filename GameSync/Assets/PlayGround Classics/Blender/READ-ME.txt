@@ -1,0 +1,54 @@
+PLAYGROUND CLASSICS — EDITABLE MODEL LIBRARY
+
+69 assets: 15 core bats, 6 event bats, 20 pets, 15 miscellaneous items,
+12 event decorations, and the additional collectible coin (C01).
+
+START HERE
+Open Model-Gallery.html for previews and links to each model.
+Open Playground-Classics-Model-Library.blend to browse all categories.
+Use the scene selector in Blender to switch categories.
+
+EDIT A MODEL
+Open its individual file inside Category/Blend.
+The collection beginning with its asset ID contains named editable meshes.
+Select a part, enter Edit Mode and edit its vertices, edges or faces.
+Materials and retained bevel/subdivision modifiers are editable too.
+The hidden Reference collection contains the packed original reference image.
+The hidden RobloxExport collection holds the prepared combined export mesh.
+
+AFTER MANUAL EDITS
+Save the individual .blend. To regenerate the export from those edits, open
+Source/export_edited_asset.py in Blender's Text Editor and Run Script.
+It reads the edited source geometry, updates the palette texture and FBX,
+then saves the .blend. It does not rebuild the model from the generator.
+Use it on an individual asset file, not the multi-asset overview library.
+Do not run build_pack.py over manually edited files: that generator rebuilds
+the original authored versions and overwrites the generated asset files.
+
+ROBLOX FILES
+Category/FBX contains the import files. Each FBX embeds its colour texture;
+the same PNG is supplied in Category/Textures for manual assignment if needed.
+Export axes are Y up, -Z forward. The source scene uses Z up, -Y forward.
+One authored model unit is intended as one stud; check import scale against
+your game character before final placement.
+Bats have a grip pivot at the handle. The pickup coin spins about its centre.
+Objects with Attachment metadata mark grip, muzzle or display positions.
+Preview cameras, lights, references and construction cutters are not exported.
+
+SCOPE
+These are static editable model assets. No pet armatures, animations,
+gameplay effects, prices, quests or collision rules are installed.
+The existing guns and Roblox place were not replaced. Studio Play testing
+remained stopped. The collectible coin is supplied as a replacement asset;
+it has not been swapped into the Roblox place in this modelling pass.
+
+REFERENCE INTERPRETATION
+The supplied pictures show one angle. Unseen sides were completed to match
+the same cartoon style. Preview lighting is for inspection; the final game
+appearance depends on Roblox lighting and material setup.
+
+FILES
+Source: model generators, edited-asset exporter and local validation results.
+Metadata: individual geometry, paths, attachment and reference records.
+Previews: category contact sheets and extra back/side review views.
+Backups: preserved earlier saves and the pre-modelling gun-session backup.

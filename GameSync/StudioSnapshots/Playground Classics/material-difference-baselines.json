@@ -1,0 +1,35 @@
+[
+  {
+    "path": "ServerScriptService.BritishBulldogService",
+    "file": "scripts/ServerScriptService/BritishBulldogService.luau",
+    "currentBytes": 75723,
+    "baseline": {
+      "file": "BatReach20261008/After/BritishBulldogService.luau",
+      "hash": "0020a4444ea588716d62be27fe2536494cbf6b636512448450c9dc2e46412c62",
+      "bytes": 76039,
+      "mtimeUtc": "2026-10-08T19:56:10.016Z"
+    }
+  },
+  {
+    "path": "ServerScriptService.TagService",
+    "file": "scripts/ServerScriptService/TagService.luau",
+    "currentBytes": 68001,
+    "baseline": {
+      "file": "BatReach20261008/After/TagService.luau",
+      "hash": "4a70ef01cc72ad8377c285e3047acd220bec5723a3a6cb54709fa236c893674e",
+      "bytes": 68116,
+      "mtimeUtc": "2026-10-08T19:57:44.924Z"
+    }
+  },
+  {
+    "path": "ServerScriptService.TagSprintService",
+    "file": "scripts/ServerScriptService/TagSprintService.luau",
+    "currentBytes": 5460,
+    "baseline": {
+      "file": "PriorityPass20261007/After/TagSprintService.luau",
+      "hash": "27b86c8d9a59782efa6a3ef100ee3e4d7a4a3102a125123aa1af3799c8b5c489",
+      "bytes": 5486,
+      "mtimeUtc": "2026-10-07T02:33:49.334Z"
+    }
+  }
+]

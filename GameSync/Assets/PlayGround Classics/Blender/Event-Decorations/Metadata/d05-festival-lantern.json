@@ -1,0 +1,41 @@
+{
+  "id": "D05",
+  "name": "Festival Lantern",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d05-festival-lantern.png",
+  "brief": "One plump round red Lunar New Year paper lantern decoration with eight broad simple vertical ribs, thick gold top and bottom collars, short attached navy hanging loop and one compact stylized gold tassel ending in three broad strips. No calligraphy or thin strings.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d05-festival-lantern.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d05-festival-lantern.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d05-festival-lantern-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d05-festival-lantern.png",
+  "parts": 18,
+  "triangles": 3656,
+  "meshes": 1,
+  "maxMeshTriangles": 3656,
+  "dimensions": [
+    1.8067288398742676,
+    1.6307040452957153,
+    2.8385865688323975
+  ],
+  "boundsMin": [
+    -0.9033644199371338,
+    -0.8153520226478577,
+    0.04641343653202057
+  ],
+  "boundsMax": [
+    0.9033644199371338,
+    0.8153520226478577,
+    2.884999990463257
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

@@ -1,0 +1,51 @@
+{
+  "id": "E05",
+  "name": "Egg Hunt",
+  "category": "Event-Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e05-egg-hunt.png",
+  "brief": "Easter baseball bat with a long pastel-lavender rounded barrel, broad mint and pale-yellow egg-pattern bands, a small raised carrot-shaped orange inlay, cream collar, soft pink grip and mint knob. No detached eggs or rabbit characters, clear bat proportions.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e05-egg-hunt.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e05-egg-hunt.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e05-egg-hunt-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e05-egg-hunt.png",
+  "parts": 24,
+  "triangles": 7550,
+  "meshes": 1,
+  "maxMeshTriangles": 7550,
+  "dimensions": [
+    0.7386943101882935,
+    0.738744854927063,
+    3.559000015258789
+  ],
+  "boundsMin": [
+    -0.3693679869174957,
+    -0.3693305253982544,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3693263530731201,
+    0.369414359331131,
+    3.1029999256134033
+  ],
+  "paletteColors": 8,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.7386943101882935,
+    0.738744854927063,
+    3.559000015258789
+  ]
+}

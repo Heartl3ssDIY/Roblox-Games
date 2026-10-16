@@ -1,0 +1,46 @@
+{
+  "id": "P18",
+  "name": "Lava Toaster",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p18-lava-toaster.png",
+  "brief": "A cute squat orange toaster robot pet with a chamfered box body, cream front face panel with two dark eyes, four short navy rubber feet and two thick red lava-toast slices sticking from the top. A tiny yellow side lever and a few simple magma-colour insets. No molten spills or fire effects.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p18-lava-toaster.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p18-lava-toaster.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p18-lava-toaster-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p18-lava-toaster.png",
+  "parts": 41,
+  "triangles": 6592,
+  "meshes": 1,
+  "maxMeshTriangles": 6592,
+  "dimensions": [
+    1.6624999046325684,
+    1.0859999656677246,
+    1.9700000286102295
+  ],
+  "boundsMin": [
+    -0.9449999928474426,
+    -0.6060000061988831,
+    0.02000001072883606
+  ],
+  "boundsMax": [
+    0.7174999713897705,
+    0.47999998927116394,
+    1.9900000095367432
+  ],
+  "paletteColors": 8,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

@@ -1,0 +1,3141 @@
+{
+  "scope": "Inventory only; historical sources remain in Studio and existing project history",
+  "scripts": [
+    {
+      "bytes": 15435,
+      "path": "ServerStorage.AdminAccessBackup20261008.AdminController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AdminAccessBackup20261008"
+    },
+    {
+      "bytes": 7718,
+      "path": "ServerStorage.AdminAccessBackup20261008.PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AdminAccessBackup20261008"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.AdminCommandRepairBackup20261011.PlaygroundAdminPanel.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AdminCommandRepairBackup20261011"
+    },
+    {
+      "bytes": 16358,
+      "path": "ServerStorage.AdminCommandRepairBackup20261011.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AdminCommandRepairBackup20261011"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.AdminCommandRepairBackup20261011.PlaygroundAdminPanel.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AdminCommandRepairBackup20261011"
+    },
+    {
+      "bytes": 8296,
+      "path": "ServerStorage.AdminCommandRepairBackup20261011.PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AdminCommandRepairBackup20261011"
+    },
+    {
+      "bytes": 7718,
+      "path": "ServerStorage.AdminHUDStartupBackup20261013.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "AdminHUDStartupBackup20261013"
+    },
+    {
+      "bytes": 213,
+      "path": "ServerStorage.AssetIntegrationBackup20261004.ReplicatedStorage.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AssetIntegrationBackup20261004"
+    },
+    {
+      "bytes": 1884,
+      "path": "ServerStorage.AssetIntegrationBackup20261004.ServerScriptService.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "AssetIntegrationBackup20261004"
+    },
+    {
+      "bytes": 12594,
+      "path": "ServerStorage.AssetIntegrationBackup20261004.ServerScriptService.PlaygroundCoordinator",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AssetIntegrationBackup20261004"
+    },
+    {
+      "bytes": 23584,
+      "path": "ServerStorage.AssetIntegrationBackup20261004.ServerScriptService.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AssetIntegrationBackup20261004"
+    },
+    {
+      "bytes": 13988,
+      "path": "ServerStorage.AssetIntegrationBackup20261004.StarterGui.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "AssetIntegrationBackup20261004"
+    },
+    {
+      "bytes": 5501,
+      "path": "ServerStorage.BatAdminBackup20261004.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BatAdminBackup20261004"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.BatAdminBackup20261004.PlaygroundAdminPanel.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BatAdminBackup20261004"
+    },
+    {
+      "bytes": 5501,
+      "path": "ServerStorage.BatAdminUpdateBackup20261004.AdminController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BatAdminUpdateBackup20261004"
+    },
+    {
+      "bytes": 52670,
+      "path": "ServerStorage.BatAdminUpdateBackup20261004.BritishBulldogService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BatAdminUpdateBackup20261004"
+    },
+    {
+      "bytes": 5018,
+      "path": "ServerStorage.BatAdminUpdateBackup20261004.PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BatAdminUpdateBackup20261004"
+    },
+    {
+      "bytes": 27398,
+      "path": "ServerStorage.BatAdminUpdateBackup20261004.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BatAdminUpdateBackup20261004"
+    },
+    {
+      "bytes": 10859,
+      "path": "ServerStorage.BatAdminUpdateBackup20261004.PlaygroundEquipmentService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BatAdminUpdateBackup20261004"
+    },
+    {
+      "bytes": 6864,
+      "path": "ServerStorage.BritishBulldogBeforeMovement20261003.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BritishBulldogBeforeMovement20261003"
+    },
+    {
+      "bytes": 37364,
+      "path": "ServerStorage.BritishBulldogBeforeMovement20261003.BritishBulldogService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BritishBulldogBeforeMovement20261003"
+    },
+    {
+      "bytes": 8825,
+      "path": "ServerStorage.BritishBulldogBeforeMovement20261003.PlaygroundCoordinator",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BritishBulldogBeforeMovement20261003"
+    },
+    {
+      "bytes": 18685,
+      "path": "ServerStorage.BritishBulldogBeforeMovement20261003.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BritishBulldogBeforeMovement20261003"
+    },
+    {
+      "bytes": 40282,
+      "path": "ServerStorage.BritishBulldogBeforeMovement20261003.TagService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BritishBulldogBeforeMovement20261003"
+    },
+    {
+      "bytes": 49461,
+      "path": "ServerStorage.BulldogDodgeBackup20261004.ServerScriptService.BritishBulldogService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BulldogDodgeBackup20261004"
+    },
+    {
+      "bytes": 12080,
+      "path": "ServerStorage.BulldogDodgeBackup20261004.StarterGui.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BulldogDodgeBackup20261004"
+    },
+    {
+      "bytes": 2102,
+      "path": "ServerStorage.BulldogDodgeBackup20261004.StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "BulldogDodgeBackup20261004"
+    },
+    {
+      "bytes": 8566,
+      "path": "ServerStorage.CaveFixBackup20261008.PlaygroundSecretObbyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CaveFixBackup20261008"
+    },
+    {
+      "bytes": 9495,
+      "path": "ServerStorage.CaveInstantTilesBackup20261011.PlaygroundSecretObbyServiceBefore",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CaveInstantTilesBackup20261011"
+    },
+    {
+      "bytes": 30637,
+      "path": "ServerStorage.CoinPickupPolishBackup20261004.ServerScriptService.PlaygroundEconomyService.BeforeSource",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CoinPickupPolishBackup20261004"
+    },
+    {
+      "bytes": 19449,
+      "path": "ServerStorage.CoinPickupPolishBackup20261004.StarterGui.PlaygroundShell.Controller.BeforeSource",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CoinPickupPolishBackup20261004"
+    },
+    {
+      "bytes": 6650,
+      "path": "ServerStorage.CommerceAvailabilityBackup20261008.ServerScriptService_PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "CommerceAvailabilityBackup20261008"
+    },
+    {
+      "bytes": 7829,
+      "path": "ServerStorage.CommerceAvailabilityBackup20261008.ServerScriptService_PlaygroundCommerceService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CommerceAvailabilityBackup20261008"
+    },
+    {
+      "bytes": 5508,
+      "path": "ServerStorage.CommerceAvailabilityBackup20261008.StarterGui_PlaygroundDonations_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CommerceAvailabilityBackup20261008"
+    },
+    {
+      "bytes": 6761,
+      "path": "ServerStorage.CommerceAvailabilityBackup20261008.StarterGui_PlaygroundShell_CommerceController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CommerceAvailabilityBackup20261008"
+    },
+    {
+      "bytes": 5277,
+      "path": "ServerStorage.CommerceBackup20261007.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CommerceBackup20261007"
+    },
+    {
+      "bytes": 6237,
+      "path": "ServerStorage.CommerceBackup20261007.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "CommerceBackup20261007"
+    },
+    {
+      "bytes": 1804,
+      "path": "ServerStorage.CommerceBackup20261007.PlaygroundDonationService",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "CommerceBackup20261007"
+    },
+    {
+      "bytes": 43708,
+      "path": "ServerStorage.CommerceBackup20261007.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CommerceBackup20261007"
+    },
+    {
+      "bytes": 26111,
+      "path": "ServerStorage.CommerceUIBackup20261007.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "CommerceUIBackup20261007"
+    },
+    {
+      "bytes": 6465,
+      "path": "ServerStorage.DonationPermissionsBackup20261008.1_PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "DonationPermissionsBackup20261008"
+    },
+    {
+      "bytes": 7829,
+      "path": "ServerStorage.DonationPermissionsBackup20261008.2_PlaygroundCommerceService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DonationPermissionsBackup20261008"
+    },
+    {
+      "bytes": 6761,
+      "path": "ServerStorage.DonationPermissionsBackup20261008.3_CommerceController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DonationPermissionsBackup20261008"
+    },
+    {
+      "bytes": 5508,
+      "path": "ServerStorage.DonationPermissionsBackup20261008.4_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DonationPermissionsBackup20261008"
+    },
+    {
+      "bytes": 30661,
+      "path": "ServerStorage.DuckDuckGooseFinalUiBackup20261010.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseFinalUiBackup20261010"
+    },
+    {
+      "bytes": 11154,
+      "path": "ServerStorage.DuckDuckGooseGuidanceBackup20261012.DuckDuckGooseHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseGuidanceBackup20261012"
+    },
+    {
+      "bytes": 26010,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ReplicatedStorage.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 8187,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 7003,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 22676,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundCoordinator",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 57624,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 34857,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundEquipmentService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 6064,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundFishingService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 3509,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundLobbyBenchService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 5251,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundLobbySwingService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 6215,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundPushService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 9398,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundSecretObbyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 33675,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.ServerScriptService.PlaygroundToyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 15554,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 4039,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundBatControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 5581,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundDonations.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 16333,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundEmoteWheel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 3389,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundFishingHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 4319,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundIntermissionHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 6113,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundPushControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 21018,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundSessionControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 6834,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundShell.CommerceController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 29560,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 12123,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundShell.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 11943,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterGui.PlaygroundToyHotbar.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 4446,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 40589,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 2662,
+      "path": "ServerStorage.DuckDuckGooseIntegrationBackup20261010.StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseIntegrationBackup20261010"
+    },
+    {
+      "bytes": 54886,
+      "path": "ServerStorage.DuckDuckGooseRepairBackup20261012.DuckDuckGooseService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseRepairBackup20261012"
+    },
+    {
+      "bytes": 52941,
+      "path": "ServerStorage.DuckDuckGooseSafetyBackup20261010.DuckDuckGooseServiceBeforeSafety",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "DuckDuckGooseSafetyBackup20261010"
+    },
+    {
+      "bytes": 8220,
+      "path": "ServerStorage.EmoteCatalogBackup20261005.01_PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteCatalogBackup20261005"
+    },
+    {
+      "bytes": 38364,
+      "path": "ServerStorage.EmoteCatalogBackup20261005.02_PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteCatalogBackup20261005"
+    },
+    {
+      "bytes": 19536,
+      "path": "ServerStorage.EmoteCatalogBackup20261005.03_PlaygroundLeaderboardService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteCatalogBackup20261005"
+    },
+    {
+      "bytes": 5486,
+      "path": "ServerStorage.EmoteCatalogBackup20261005.04_PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteCatalogBackup20261005"
+    },
+    {
+      "bytes": 25853,
+      "path": "ServerStorage.EmoteCatalogBackup20261005.05_PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteCatalogBackup20261005"
+    },
+    {
+      "bytes": 15239,
+      "path": "ServerStorage.EmoteCatalogBackup20261005.06_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteCatalogBackup20261005"
+    },
+    {
+      "bytes": 23058,
+      "path": "ServerStorage.EmoteCatalogBackup20261005.07_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteCatalogBackup20261005"
+    },
+    {
+      "bytes": 15742,
+      "path": "ServerStorage.EmoteCatalogBackup20261005.08_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteCatalogBackup20261005"
+    },
+    {
+      "bytes": 59550,
+      "path": "ServerStorage.EmoteCatalogBackup20261005.09_StuckInTheMudService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteCatalogBackup20261005"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.EmoteWheelBackup20261005.PlaygroundShellUI.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteWheelBackup20261005"
+    },
+    {
+      "bytes": 25790,
+      "path": "ServerStorage.EmoteWheelBackup20261005.PlaygroundShellUI.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteWheelBackup20261005"
+    },
+    {
+      "bytes": 10729,
+      "path": "ServerStorage.EmoteWheelBackup20261005.PlaygroundShellUI.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteWheelBackup20261005"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.EmoteWheelBackup20261005.PlaygroundShellUI.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteWheelBackup20261005"
+    },
+    {
+      "bytes": 13650,
+      "path": "ServerStorage.EmoteWheelBackup20261005.PlaygroundToyHotbarUI.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteWheelBackup20261005"
+    },
+    {
+      "bytes": 12885,
+      "path": "ServerStorage.EmoteWheelBackup20261005.Source1",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteWheelBackup20261005"
+    },
+    {
+      "bytes": 42543,
+      "path": "ServerStorage.EmoteWheelBackup20261005.Source2",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteWheelBackup20261005"
+    },
+    {
+      "bytes": 25790,
+      "path": "ServerStorage.EmoteWheelBackup20261005.Source3",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteWheelBackup20261005"
+    },
+    {
+      "bytes": 13650,
+      "path": "ServerStorage.EmoteWheelBackup20261005.Source4",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EmoteWheelBackup20261005"
+    },
+    {
+      "bytes": 35518,
+      "path": "ServerStorage.EquipmentAccessoryPermissionBackup20261011.PlaygroundEquipmentService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "EquipmentAccessoryPermissionBackup20261011"
+    },
+    {
+      "bytes": 25663,
+      "path": "ServerStorage.ExpansionFinishBackup20261007.CatalogBeforeToyActivation",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ExpansionFinishBackup20261007"
+    },
+    {
+      "bytes": 15329,
+      "path": "ServerStorage.ExpansionFinishBackup20261007.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ExpansionFinishBackup20261007"
+    },
+    {
+      "bytes": 31799,
+      "path": "ServerStorage.ExpansionFinishScriptBackup20261007.PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ExpansionFinishScriptBackup20261007"
+    },
+    {
+      "bytes": 29371,
+      "path": "ServerStorage.ExpansionFinishScriptBackup20261007.PlaygroundEquipmentService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ExpansionFinishScriptBackup20261007"
+    },
+    {
+      "bytes": 13034,
+      "path": "ServerStorage.ExpansionFinishScriptBackup20261007.PlaygroundPets",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ExpansionFinishScriptBackup20261007"
+    },
+    {
+      "bytes": 27375,
+      "path": "ServerStorage.ExpansionFinishScriptBackup20261007.PlaygroundToyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ExpansionFinishScriptBackup20261007"
+    },
+    {
+      "bytes": 47103,
+      "path": "ServerStorage.FishingEconomyBackup20261007.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "FishingEconomyBackup20261007"
+    },
+    {
+      "bytes": 2341,
+      "path": "ServerStorage.FishingHUDGuardBackup20261007.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "FishingHUDGuardBackup20261007"
+    },
+    {
+      "bytes": 6342,
+      "path": "ServerStorage.FishingRuntimeBackup20261007.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "FishingRuntimeBackup20261007"
+    },
+    {
+      "bytes": 8645,
+      "path": "ServerStorage.FishingRuntimeBackup20261007.PlaygroundSecretObbyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "FishingRuntimeBackup20261007"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.BritishBulldogHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 7385,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 17211,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.BritishBulldogHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.MudHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 16387,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.MudHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.MudHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.TagHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 7595,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.TagHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 5295,
+      "path": "ServerStorage.GameplayHUDRepairBackup20261005.TagHUD.SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayHUDRepairBackup20261005"
+    },
+    {
+      "bytes": 22871,
+      "path": "ServerStorage.GameplayRepairCameraPreviewBackup20261005.StarterGui.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairCameraPreviewBackup20261005"
+    },
+    {
+      "bytes": 13413,
+      "path": "ServerStorage.GameplayRepairCameraPreviewBackup20261005.StarterGui.PlaygroundToyHotbar.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairCameraPreviewBackup20261005"
+    },
+    {
+      "bytes": 5000,
+      "path": "ServerStorage.GameplayRepairCameraPreviewBackup20261005.StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairCameraPreviewBackup20261005"
+    },
+    {
+      "bytes": 12885,
+      "path": "ServerStorage.GameplayRepairCameraPreviewBackup20261005.StarterPlayer.StarterPlayerScripts.PlaygroundPets",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairCameraPreviewBackup20261005"
+    },
+    {
+      "bytes": 63774,
+      "path": "ServerStorage.GameplayRepairSourcesBackup20261005.ServerScriptService.BritishBulldogService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairSourcesBackup20261005"
+    },
+    {
+      "bytes": 52661,
+      "path": "ServerStorage.GameplayRepairSourcesBackup20261005.ServerScriptService.TagService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairSourcesBackup20261005"
+    },
+    {
+      "bytes": 17211,
+      "path": "ServerStorage.GameplayRepairSourcesBackup20261005.StarterGui.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairSourcesBackup20261005"
+    },
+    {
+      "bytes": 7595,
+      "path": "ServerStorage.GameplayRepairSourcesBackup20261005.StarterGui.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairSourcesBackup20261005"
+    },
+    {
+      "bytes": 5295,
+      "path": "ServerStorage.GameplayRepairSourcesBackup20261005.StarterGui.TagHUD.SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairSourcesBackup20261005"
+    },
+    {
+      "bytes": 21636,
+      "path": "ServerStorage.GameplayRepairSourcesBackup20261005.StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "GameplayRepairSourcesBackup20261005"
+    },
+    {
+      "bytes": 25985,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ReplicatedStorage.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 8082,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 6650,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 22252,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundCoordinator",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 57235,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 34359,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundEquipmentService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 6010,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundFishingService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 3491,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundLobbyBenchService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 5233,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundLobbySwingService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 9344,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundSecretObbyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 33621,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.ServerScriptService.PlaygroundToyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 15382,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 3730,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundBatControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 5508,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundDonations.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 16260,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundEmoteWheel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 3316,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundFishingHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 4265,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundIntermissionHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 20932,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundSessionControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 6761,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundShell.CommerceController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 29571,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 12048,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundShell.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 11870,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterGui.PlaygroundToyHotbar.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 4371,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 40229,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 1703,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 17721,
+      "path": "ServerStorage.HideAndSeekIntegrationBackup20261010.StarterPlayer.StarterPlayerScripts.PlaygroundPets",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideAndSeekIntegrationBackup20261010"
+    },
+    {
+      "bytes": 55248,
+      "path": "ServerStorage.HideSeekAbilitiesBackup20261012.HideAndSeekService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideSeekAbilitiesBackup20261012"
+    },
+    {
+      "bytes": 8964,
+      "path": "ServerStorage.HideSeekAbilitiesUIBackup20261012.HideAndSeekHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "HideSeekAbilitiesUIBackup20261012"
+    },
+    {
+      "bytes": 32146,
+      "path": "ServerStorage.InventoryLevelUIBackup20261004.ServerScriptService.PlaygroundEconomyService.BeforeSource",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "InventoryLevelUIBackup20261004"
+    },
+    {
+      "bytes": 22386,
+      "path": "ServerStorage.InventoryLevelUIBackup20261004.StarterGui.PlaygroundShell.Controller.BeforeSource",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "InventoryLevelUIBackup20261004"
+    },
+    {
+      "bytes": 7549,
+      "path": "ServerStorage.InventoryLevelUIBackup20261004.StarterGui.PlaygroundShell.PlayerLevelController.BeforeSource",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "InventoryLevelUIBackup20261004"
+    },
+    {
+      "bytes": 7549,
+      "path": "ServerStorage.InventoryLevelUIBackups20261004.LevelUIInitial.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "InventoryLevelUIBackups20261004"
+    },
+    {
+      "bytes": 16892,
+      "path": "ServerStorage.LaserTagAccessBackup20261014.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagAccessBackup20261014"
+    },
+    {
+      "bytes": 53698,
+      "path": "ServerStorage.LaserTagAccessBackup20261014.StuckInTheMudService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagAccessBackup20261014"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.LaserTagHUDBackup20261013.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagHUDBackup20261013"
+    },
+    {
+      "bytes": 18556,
+      "path": "ServerStorage.LaserTagHUDBackup20261013.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagHUDBackup20261013"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.LaserTagHUDBackup20261013.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagHUDBackup20261013"
+    },
+    {
+      "bytes": 26077,
+      "path": "ServerStorage.LaserTagIntegrationBackup20261013.ReplicatedStorage_PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagIntegrationBackup20261013"
+    },
+    {
+      "bytes": 8899,
+      "path": "ServerStorage.LaserTagIntegrationBackup20261013.ServerScriptService_PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagIntegrationBackup20261013"
+    },
+    {
+      "bytes": 24909,
+      "path": "ServerStorage.LaserTagIntegrationBackup20261013.ServerScriptService_PlaygroundCoordinator",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagIntegrationBackup20261013"
+    },
+    {
+      "bytes": 16886,
+      "path": "ServerStorage.LaserTagIntegrationBackup20261013.StarterGui_PlaygroundAdminPanel_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagIntegrationBackup20261013"
+    },
+    {
+      "bytes": 21717,
+      "path": "ServerStorage.LaserTagIntegrationBackup20261013.StarterGui_PlaygroundSessionControls_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagIntegrationBackup20261013"
+    },
+    {
+      "bytes": 31441,
+      "path": "ServerStorage.LaserTagIntegrationBackup20261013.StarterGui_PlaygroundShell_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagIntegrationBackup20261013"
+    },
+    {
+      "bytes": 15725,
+      "path": "ServerStorage.LaserTagMobileControllerBackup20261014.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LaserTagMobileControllerBackup20261014"
+    },
+    {
+      "bytes": 2128,
+      "path": "ServerStorage.LeaderboardScopesBackup20261004.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "LeaderboardScopesBackup20261004"
+    },
+    {
+      "bytes": 10606,
+      "path": "ServerStorage.LeaderboardScopesBackup20261004.PlaygroundLeaderboardService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LeaderboardScopesBackup20261004"
+    },
+    {
+      "bytes": 5445,
+      "path": "ServerStorage.LobbyAdventureBackup20261007.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "LobbyAdventureBackup20261007"
+    },
+    {
+      "bytes": 42671,
+      "path": "ServerStorage.LobbyAdventureBackup20261007.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LobbyAdventureBackup20261007"
+    },
+    {
+      "bytes": 5115,
+      "path": "ServerStorage.LobbyRepairsBackup20261007.SwingServiceBeforeUnanchor",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LobbyRepairsBackup20261007"
+    },
+    {
+      "bytes": 5115,
+      "path": "ServerStorage.LobbySwingRecovery20261007.PlaygroundLobbySwingService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "LobbySwingRecovery20261007"
+    },
+    {
+      "bytes": 14440,
+      "path": "ServerStorage.MobileFinishBackup20261007.BeforeSpectator_Emote",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobileFinishBackup20261007"
+    },
+    {
+      "bytes": 10729,
+      "path": "ServerStorage.MobileFinishBackup20261007.BeforeSpectator_Level",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobileFinishBackup20261007"
+    },
+    {
+      "bytes": 24137,
+      "path": "ServerStorage.MobileFinishBackup20261007.BeforeSpectator_Shell",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobileFinishBackup20261007"
+    },
+    {
+      "bytes": 11448,
+      "path": "ServerStorage.MobileFinishBackup20261007.ToyHotbarController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobileFinishBackup20261007"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.MobilePlacementBackup20261011.BritishBulldogHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 7470,
+      "path": "ServerStorage.MobilePlacementBackup20261011.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 13873,
+      "path": "ServerStorage.MobilePlacementBackup20261011.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.MobilePlacementBackup20261011.BritishBulldogHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 11154,
+      "path": "ServerStorage.MobilePlacementBackup20261011.DuckDuckGooseHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 8636,
+      "path": "ServerStorage.MobilePlacementBackup20261011.HideAndSeekHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.MobilePlacementBackup20261011.MudHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 16764,
+      "path": "ServerStorage.MobilePlacementBackup20261011.MudHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.MobilePlacementBackup20261011.MudHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundAdminPanel.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 15687,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundAdminPanel.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 4400,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundBatControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 5713,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundDonations.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 16465,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundEmoteWheel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 3521,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundFishingHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 4416,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundIntermissionHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundLeaderboards.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 11963,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundLeaderboards.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 18069,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundPodium.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 6262,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundPushControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 3243,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundSessionControls.CodeController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 21110,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundSessionControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundShell.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 6966,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundShell.CommerceController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 30857,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 12255,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundShell.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundShell.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 12075,
+      "path": "ServerStorage.MobilePlacementBackup20261011.PlaygroundToyHotbar.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.MobilePlacementBackup20261011.TagHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 6835,
+      "path": "ServerStorage.MobilePlacementBackup20261011.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.MobilePlacementBackup20261011.TagHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 6495,
+      "path": "ServerStorage.MobilePlacementBackup20261011.TagHUD.SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MobilePlacementBackup20261011"
+    },
+    {
+      "bytes": 16764,
+      "path": "ServerStorage.MudAimFireRepairBackup20261012.MudHUDController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudAimFireRepairBackup20261012"
+    },
+    {
+      "bytes": 60918,
+      "path": "ServerStorage.MudAimFireRepairBackup20261012.StuckInTheMudService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudAimFireRepairBackup20261012"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.MudMobileUiBackup20261008.BritishBulldogHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 7470,
+      "path": "ServerStorage.MudMobileUiBackup20261008.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 13081,
+      "path": "ServerStorage.MudMobileUiBackup20261008.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.MudMobileUiBackup20261008.BritishBulldogHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.MudMobileUiBackup20261008.MudHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 15975,
+      "path": "ServerStorage.MudMobileUiBackup20261008.MudHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.MudMobileUiBackup20261008.MudHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.MudMobileUiBackup20261008.TagHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 6835,
+      "path": "ServerStorage.MudMobileUiBackup20261008.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.MudMobileUiBackup20261008.TagHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 5787,
+      "path": "ServerStorage.MudMobileUiBackup20261008.TagHUD.SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudMobileUiBackup20261008"
+    },
+    {
+      "bytes": 61048,
+      "path": "ServerStorage.MudRepairBackup20261008.StuckInTheMudService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "MudRepairBackup20261008"
+    },
+    {
+      "bytes": 13363,
+      "path": "ServerStorage.OutlineRepairBackup20261007.PlaygroundPets",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "OutlineRepairBackup20261007"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.OwnerAdminBackup20261007.PlaygroundAdminPanel.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "OwnerAdminBackup20261007"
+    },
+    {
+      "bytes": 13895,
+      "path": "ServerStorage.OwnerAdminBackup20261007.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "OwnerAdminBackup20261007"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.OwnerAdminBackup20261007.PlaygroundAdminPanel.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "OwnerAdminBackup20261007"
+    },
+    {
+      "bytes": 7767,
+      "path": "ServerStorage.OwnerAdminBackup20261007.PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "OwnerAdminBackup20261007"
+    },
+    {
+      "bytes": 17405,
+      "path": "ServerStorage.PetAdminFix20261007.PlaygroundPetsBefore",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PetAdminFix20261007"
+    },
+    {
+      "bytes": 13544,
+      "path": "ServerStorage.PhoneGameMeterBackup20261009.BritishBulldogHUD_MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneGameMeterBackup20261009"
+    },
+    {
+      "bytes": 16428,
+      "path": "ServerStorage.PhoneGameMeterBackup20261009.MudHUD_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneGameMeterBackup20261009"
+    },
+    {
+      "bytes": 6160,
+      "path": "ServerStorage.PhoneGameMeterBackup20261009.TagHUD_SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneGameMeterBackup20261009"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.BritishBulldogHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 7470,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 13544,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.BritishBulldogHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.MudHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 16428,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.MudHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.MudHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 3730,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundBatControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 2364,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundFishingHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 3019,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundIntermissionHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 6113,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundPushControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundShell.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 6761,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundShell.CommerceController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 29136,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 11908,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundShell.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundShell.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 11870,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.PlaygroundToyHotbar.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.TagHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 6835,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.TagHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 6160,
+      "path": "ServerStorage.PhoneHudLayoutBackup20261009.TagHUD.SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudLayoutBackup20261009"
+    },
+    {
+      "bytes": 16260,
+      "path": "ServerStorage.PhoneHudModalBackup20261009.PlaygroundEmoteWheel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudModalBackup20261009"
+    },
+    {
+      "bytes": 3243,
+      "path": "ServerStorage.PhoneHudModalBackup20261009.PlaygroundSessionControls.CodeController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudModalBackup20261009"
+    },
+    {
+      "bytes": 20414,
+      "path": "ServerStorage.PhoneHudModalBackup20261009.PlaygroundSessionControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudModalBackup20261009"
+    },
+    {
+      "bytes": 3243,
+      "path": "ServerStorage.PhoneHudRoundSettingsBackup20261009.PlaygroundSessionControls.CodeController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudRoundSettingsBackup20261009"
+    },
+    {
+      "bytes": 20414,
+      "path": "ServerStorage.PhoneHudRoundSettingsBackup20261009.PlaygroundSessionControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudRoundSettingsBackup20261009"
+    },
+    {
+      "bytes": 2364,
+      "path": "ServerStorage.PhoneHudRuntimeBackup20261009.PlaygroundFishingHUD_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudRuntimeBackup20261009"
+    },
+    {
+      "bytes": 3019,
+      "path": "ServerStorage.PhoneHudRuntimeBackup20261009.PlaygroundIntermissionHUD_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudRuntimeBackup20261009"
+    },
+    {
+      "bytes": 29136,
+      "path": "ServerStorage.PhoneHudRuntimeBackup20261009.PlaygroundShell_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudRuntimeBackup20261009"
+    },
+    {
+      "bytes": 11908,
+      "path": "ServerStorage.PhoneHudRuntimeBackup20261009.PlaygroundShell_PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudRuntimeBackup20261009"
+    },
+    {
+      "bytes": 15429,
+      "path": "ServerStorage.PhoneHudSessionBackup20261009.PlaygroundEmoteWheel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudSessionBackup20261009"
+    },
+    {
+      "bytes": 3243,
+      "path": "ServerStorage.PhoneHudSessionBackup20261009.PlaygroundSessionControls.CodeController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudSessionBackup20261009"
+    },
+    {
+      "bytes": 19014,
+      "path": "ServerStorage.PhoneHudSessionBackup20261009.PlaygroundSessionControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PhoneHudSessionBackup20261009"
+    },
+    {
+      "bytes": 73749,
+      "path": "ServerStorage.PlayerCollisionBackup20261008.BritishBulldogService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlayerCollisionBackup20261008"
+    },
+    {
+      "bytes": 61049,
+      "path": "ServerStorage.PlayerCollisionBackup20261008.StuckInTheMudService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlayerCollisionBackup20261008"
+    },
+    {
+      "bytes": 66391,
+      "path": "ServerStorage.PlayerCollisionBackup20261008.TagService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlayerCollisionBackup20261008"
+    },
+    {
+      "bytes": 5713,
+      "path": "ServerStorage.PlaygroundBeforeExpansion20261003.AdminPanelBeforeExpansion.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeExpansion20261003"
+    },
+    {
+      "bytes": 6864,
+      "path": "ServerStorage.PlaygroundBeforeExpansion20261003.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeExpansion20261003"
+    },
+    {
+      "bytes": 5713,
+      "path": "ServerStorage.PlaygroundBeforeExpansion20261003.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeExpansion20261003"
+    },
+    {
+      "bytes": 7385,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 12080,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 49461,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.BritishBulldogService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 3547,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 4776,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 1072,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 9230,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.PlaygroundCoordinator",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 22416,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 11794,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 7190,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.PlaygroundShell.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 7510,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 40639,
+      "path": "ServerStorage.PlaygroundBeforeMud20261003.TagService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundBeforeMud20261003"
+    },
+    {
+      "bytes": 1405,
+      "path": "ServerStorage.PlaygroundLeaderboardsBackup20261004.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundLeaderboardsBackup20261004"
+    },
+    {
+      "bytes": 22694,
+      "path": "ServerStorage.PlaygroundLeaderboardsBackup20261004.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundLeaderboardsBackup20261004"
+    },
+    {
+      "bytes": 7385,
+      "path": "ServerStorage.PlaygroundUIBackups20261004.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIBackups20261004"
+    },
+    {
+      "bytes": 12080,
+      "path": "ServerStorage.PlaygroundUIBackups20261004.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIBackups20261004"
+    },
+    {
+      "bytes": 15019,
+      "path": "ServerStorage.PlaygroundUIBackups20261004.MudHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIBackups20261004"
+    },
+    {
+      "bytes": 7595,
+      "path": "ServerStorage.PlaygroundUIBackups20261004.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIBackups20261004"
+    },
+    {
+      "bytes": 5295,
+      "path": "ServerStorage.PlaygroundUIBackups20261004.TagHUD.SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIBackups20261004"
+    },
+    {
+      "bytes": 7385,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item001.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 17211,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item001.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 2951,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item001.BritishBulldogHUD.UserArtworkController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 7595,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item002.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 5295,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item002.TagHUD.SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 2951,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item002.TagHUD.UserArtworkController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 16387,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item003.MudHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 2951,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item003.MudHUD.UserArtworkController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 13009,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item004.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 7549,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item004.PlaygroundShell.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 5501,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item005.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 2098,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item006.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 23203,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004.Item007.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004"
+    },
+    {
+      "bytes": 7385,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item001.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 17211,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item001.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 2951,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item001.BritishBulldogHUD.UserArtworkController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 7595,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item002.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 5295,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item002.TagHUD.SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 2951,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item002.TagHUD.UserArtworkController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 16387,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item003.MudHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 2951,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item003.MudHUD.UserArtworkController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 13009,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item004.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 7549,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item004.PlaygroundShell.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 5501,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item005.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 2098,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item006.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 23203,
+      "path": "ServerStorage.PlaygroundUIReskinBackup20261004_PreflightRollback.Item007.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PlaygroundUIReskinBackup20261004_PreflightRollback"
+    },
+    {
+      "bytes": 18068,
+      "path": "ServerStorage.PodiumDodgeBackup20261007.PodiumController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PodiumDodgeBackup20261007"
+    },
+    {
+      "bytes": 6798,
+      "path": "ServerStorage.PodiumDodgeBackup20261007.TagController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PodiumDodgeBackup20261007"
+    },
+    {
+      "bytes": 66250,
+      "path": "ServerStorage.PodiumDodgeBackup20261007.TagService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PodiumDodgeBackup20261007"
+    },
+    {
+      "bytes": 6356,
+      "path": "ServerStorage.PodiumEmotesBackup20261004.EmotesBefore",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PodiumEmotesBackup20261004"
+    },
+    {
+      "bytes": 25797,
+      "path": "ServerStorage.PodiumEmotesBackup20261004.EquipmentServiceBefore",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PodiumEmotesBackup20261004"
+    },
+    {
+      "bytes": 10520,
+      "path": "ServerStorage.PodiumEmotesBackup20261004.LeaderboardControllerBefore",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PodiumEmotesBackup20261004"
+    },
+    {
+      "bytes": 7520,
+      "path": "ServerStorage.PodiumEmotesBackup20261004.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PodiumEmotesBackup20261004"
+    },
+    {
+      "bytes": 22501,
+      "path": "ServerStorage.PodiumEmotesBackup20261004.ShellController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PodiumEmotesBackup20261004"
+    },
+    {
+      "bytes": 18068,
+      "path": "ServerStorage.PodiumFacingBackup20261007.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PodiumFacingBackup20261007"
+    },
+    {
+      "bytes": 73748,
+      "path": "ServerStorage.PushActionBackup20261008.BritishBulldogService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PushActionBackup20261008"
+    },
+    {
+      "bytes": 6465,
+      "path": "ServerStorage.PushActionBackup20261008.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "PushActionBackup20261008"
+    },
+    {
+      "bytes": 66390,
+      "path": "ServerStorage.PushActionBackup20261008.TagService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PushActionBackup20261008"
+    },
+    {
+      "bytes": 40227,
+      "path": "ServerStorage.PushAnimationBackup20261008.PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PushAnimationBackup20261008"
+    },
+    {
+      "bytes": 42955,
+      "path": "ServerStorage.PushAnimationRemovedBackup20261008.PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "PushAnimationRemovedBackup20261008"
+    },
+    {
+      "bytes": 19766,
+      "path": "ServerStorage.RoundIntermissionBackup20261008.PlaygroundCoordinator",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "RoundIntermissionBackup20261008"
+    },
+    {
+      "bytes": 8636,
+      "path": "ServerStorage.SchoolBeforePolish20261010.HideAndSeekHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SchoolBeforePolish20261010"
+    },
+    {
+      "bytes": 48429,
+      "path": "ServerStorage.SchoolExpansionBackup20261010.Scripts.HideAndSeekService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SchoolExpansionBackup20261010"
+    },
+    {
+      "bytes": 1799,
+      "path": "ServerStorage.SchoolExpansionBackup20261010.Scripts.PlaygroundLobbyAtmosphere",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SchoolExpansionBackup20261010"
+    },
+    {
+      "bytes": 48817,
+      "path": "ServerStorage.SchoolPropHuntServiceBackup20261011.HideAndSeekServiceBefore",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SchoolPropHuntServiceBackup20261011"
+    },
+    {
+      "bytes": 48429,
+      "path": "ServerStorage.SchoolTimingBellBackup20261010.HideAndSeekServiceBefore",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SchoolTimingBellBackup20261010"
+    },
+    {
+      "bytes": 7470,
+      "path": "ServerStorage.SessionBackup20261007.BB_HUDController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 12929,
+      "path": "ServerStorage.SessionBackup20261007.BB_MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 869,
+      "path": "ServerStorage.SessionBackup20261007.BritishBulldogRules",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 72512,
+      "path": "ServerStorage.SessionBackup20261007.BritishBulldogService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 16041,
+      "path": "ServerStorage.SessionBackup20261007.Mud_HUDController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 15208,
+      "path": "ServerStorage.SessionBackup20261007.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 12678,
+      "path": "ServerStorage.SessionBackup20261007.PlaygroundCoordinator",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 18033,
+      "path": "ServerStorage.SessionBackup20261007.PodiumController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 60784,
+      "path": "ServerStorage.SessionBackup20261007.StuckInTheMudService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 6798,
+      "path": "ServerStorage.SessionBackup20261007.Tag_HUDController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 5853,
+      "path": "ServerStorage.SessionBackup20261007.Tag_SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionBackup20261007"
+    },
+    {
+      "bytes": 12678,
+      "path": "ServerStorage.SessionModesBackup20261007.PlaygroundCoordinatorBefore",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionModesBackup20261007"
+    },
+    {
+      "bytes": 16298,
+      "path": "ServerStorage.SessionModesBackup20261007.PlaygroundCoordinatorBeforeStreaming",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionModesBackup20261007"
+    },
+    {
+      "bytes": 15358,
+      "path": "ServerStorage.SessionModesBackup20261007.SessionControlsBeforeStreaming",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionModesBackup20261007"
+    },
+    {
+      "bytes": 17664,
+      "path": "ServerStorage.SessionSettingsBackup20261007.PreviousAuthoredSessionUI.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionSettingsBackup20261007"
+    },
+    {
+      "bytes": 17664,
+      "path": "ServerStorage.SessionSettingsBackup20261007.SessionControlsBefore.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionSettingsBackup20261007"
+    },
+    {
+      "bytes": 15236,
+      "path": "ServerStorage.SessionSettingsBackup20261007.StarterGui_PlaygroundEmoteWheel_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionSettingsBackup20261007"
+    },
+    {
+      "bytes": 17664,
+      "path": "ServerStorage.SessionSettingsBackup20261007.StarterGui_PlaygroundSessionControls_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionSettingsBackup20261007"
+    },
+    {
+      "bytes": 25602,
+      "path": "ServerStorage.SessionSettingsBackup20261007.StarterGui_PlaygroundShell_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionSettingsBackup20261007"
+    },
+    {
+      "bytes": 11427,
+      "path": "ServerStorage.SessionSettingsBackup20261007.StarterGui_PlaygroundShell_PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionSettingsBackup20261007"
+    },
+    {
+      "bytes": 11748,
+      "path": "ServerStorage.SessionSettingsBackup20261007.StarterGui_PlaygroundToyHotbar_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SessionSettingsBackup20261007"
+    },
+    {
+      "bytes": 26045,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ReplicatedStorage_PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 8731,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 7382,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 23699,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundCoordinator",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 58107,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 35536,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundEquipmentService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 6161,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundFishingService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 3544,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundLobbyBenchService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 5286,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundLobbySwingService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 6383,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundPushService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 9339,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundSecretObbyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 33772,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.ServerScriptService_PlaygroundToyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 16750,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundAdminPanel_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 5713,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundDonations_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 16465,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundEmoteWheel_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 3521,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundFishingHUD_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 4416,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundIntermissionHUD_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 6262,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundPushControls_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 21528,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundSessionControls_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 6966,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundShell_CommerceController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 31041,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundShell_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 12255,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundShell_PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 12075,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterGui_PlaygroundToyHotbar_Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 4515,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterPlayer_StarterPlayerScripts_BritishBulldogCamera",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 41087,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterPlayer_StarterPlayerScripts_PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 2753,
+      "path": "ServerStorage.SkippingRopeIntegrationBackup20261012.StarterPlayer_StarterPlayerScripts_PlaygroundLobbyAtmosphere",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeIntegrationBackup20261012"
+    },
+    {
+      "bytes": 16876,
+      "path": "ServerStorage.SkippingRopeSoloBackup20261012.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeSoloBackup20261012"
+    },
+    {
+      "bytes": 8838,
+      "path": "ServerStorage.SkippingRopeSoloBackup20261012.PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SkippingRopeSoloBackup20261012"
+    },
+    {
+      "bytes": 22847,
+      "path": "ServerStorage.SmallHudBackup20261007.ShellController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SmallHudBackup20261007"
+    },
+    {
+      "bytes": 76038,
+      "path": "ServerStorage.SprintPartialRechargeBackup20261011.BritishBulldogService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SprintPartialRechargeBackup20261011"
+    },
+    {
+      "bytes": 61048,
+      "path": "ServerStorage.SprintPartialRechargeBackup20261011.StuckInTheMudService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SprintPartialRechargeBackup20261011"
+    },
+    {
+      "bytes": 68115,
+      "path": "ServerStorage.SprintPartialRechargeBackup20261011.TagService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SprintPartialRechargeBackup20261011"
+    },
+    {
+      "bytes": 5506,
+      "path": "ServerStorage.SprintPartialRechargeBackup20261011.TagSprintService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "SprintPartialRechargeBackup20261011"
+    },
+    {
+      "bytes": 3694,
+      "path": "ServerStorage.ToyGameplayScriptsBackup20261005.PlaygroundBootstrap",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayScriptsBackup20261005"
+    },
+    {
+      "bytes": 7551,
+      "path": "ServerStorage.ToyGameplayScriptsBackup20261005.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayScriptsBackup20261005"
+    },
+    {
+      "bytes": 32146,
+      "path": "ServerStorage.ToyGameplayScriptsBackup20261005.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayScriptsBackup20261005"
+    },
+    {
+      "bytes": 10623,
+      "path": "ServerStorage.ToyGameplayScriptsBackup20261005.PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayScriptsBackup20261005"
+    },
+    {
+      "bytes": 26292,
+      "path": "ServerStorage.ToyGameplayScriptsBackup20261005.PlaygroundEquipmentService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayScriptsBackup20261005"
+    },
+    {
+      "bytes": 22658,
+      "path": "ServerStorage.ToyGameplayScriptsBackup20261005.ShellController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayScriptsBackup20261005"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.BritishBulldogHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 7385,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.BritishBulldogHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 17211,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.BritishBulldogHUD.MovementController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.BritishBulldogHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.MudHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 16387,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.MudHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.MudHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.PlaygroundAdminPanel.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 13895,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.PlaygroundAdminPanel.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.PlaygroundLeaderboards.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 11963,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.PlaygroundLeaderboards.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.PlaygroundShell.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 22660,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.PlaygroundShell.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 10729,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.PlaygroundShell.PlayerLevelController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.PlaygroundShell.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.TagHUD.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 7595,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.TagHUD.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.TagHUD.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 5295,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.BeforeGlobalFallbackCleanup.TagHUD.SprintController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 22660,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.ControllerBeforeShortcutNames",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 13352,
+      "path": "ServerStorage.ToyGameplayUIBackup20261005.HotbarControllerBeforeSelectionLookup",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyGameplayUIBackup20261005"
+    },
+    {
+      "bytes": 35518,
+      "path": "ServerStorage.ToyOnlyCleanupBackup20261011.PlaygroundEquipmentService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyOnlyCleanupBackup20261011"
+    },
+    {
+      "bytes": 21358,
+      "path": "ServerStorage.ToyPosePolishBackup20261005.PlaygroundEmotesBeforePolish",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyPosePolishBackup20261005"
+    },
+    {
+      "bytes": 31189,
+      "path": "ServerStorage.ToyRoundRepairBackup20261008.PlaygroundEquipmentService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyRoundRepairBackup20261008"
+    },
+    {
+      "bytes": 32498,
+      "path": "ServerStorage.ToyRoundRepairBackup20261008.PlaygroundToyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyRoundRepairBackup20261008"
+    },
+    {
+      "bytes": 11793,
+      "path": "ServerStorage.ToyRoundRepairBackup20261008.ToyHotbarController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "ToyRoundRepairBackup20261008"
+    },
+    {
+      "bytes": 4581,
+      "path": "ServerStorage.VIPAdminSettingsBackup20261007.PlaygroundAdminPanel.BackgroundFallbackController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPAdminSettingsBackup20261007"
+    },
+    {
+      "bytes": 14149,
+      "path": "ServerStorage.VIPAdminSettingsBackup20261007.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPAdminSettingsBackup20261007"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.VIPAdminSettingsBackup20261007.PlaygroundAdminPanel.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPAdminSettingsBackup20261007"
+    },
+    {
+      "bytes": 7487,
+      "path": "ServerStorage.VIPAdminSettingsBackup20261007.PlaygroundAdminService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPAdminSettingsBackup20261007"
+    },
+    {
+      "bytes": 18954,
+      "path": "ServerStorage.VIPAdminSettingsBackup20261007.PlaygroundSessionControls.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPAdminSettingsBackup20261007"
+    },
+    {
+      "bytes": 26328,
+      "path": "ServerStorage.VIPAdminSettingsBackup20261007.ShopController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPAdminSettingsBackup20261007"
+    },
+    {
+      "bytes": 25816,
+      "path": "ServerStorage.VIPDragonBackup20261007.PlaygroundCatalog",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPDragonBackup20261007"
+    },
+    {
+      "bytes": 36548,
+      "path": "ServerStorage.VIPDragonBackup20261007.PlaygroundEmotes",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPDragonBackup20261007"
+    },
+    {
+      "bytes": 17420,
+      "path": "ServerStorage.VIPDragonBackup20261007.PlaygroundPets",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPDragonBackup20261007"
+    },
+    {
+      "bytes": 7303,
+      "path": "ServerStorage.VIPEntitlementsBackup20261007.PlaygroundCommerceService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPEntitlementsBackup20261007"
+    },
+    {
+      "bytes": 51210,
+      "path": "ServerStorage.VIPEntitlementsBackup20261007.PlaygroundEconomyService",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "VIPEntitlementsBackup20261007"
+    },
+    {
+      "bytes": 14224,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.PlaygroundAdminPanel.Controller",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 7065,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.PlaygroundAdminPanel.ReusableSkinController",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 60073,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.ServerScriptService.BritishBulldogService.BeforeSource",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 8340,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.ServerScriptService.PlaygroundAdminService.BeforeSource",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 2081,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.ServerScriptService.PlaygroundBootstrap.BeforeSource",
+      "className": "Script",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 22512,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.ServerScriptService.PlaygroundEquipmentService.BeforeSource",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 57044,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.ServerScriptService.StuckInTheMudService.BeforeSource",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 40742,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.ServerScriptService.TagService.BeforeSource",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 5371,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.ServerScriptService.TagSprintService.BeforeSource",
+      "className": "ModuleScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 14224,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.StarterGui.PlaygroundAdminPanel.Controller.BeforeSource",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    },
+    {
+      "bytes": 3025,
+      "path": "ServerStorage.WeaponRigUpdateBackup20261004.StarterPlayer.StarterPlayerScripts.PlaygroundEmotes.BeforeSource",
+      "className": "LocalScript",
+      "reason": "Historical backup/recovery copy",
+      "container": "WeaponRigUpdateBackup20261004"
+    }
+  ]
+}

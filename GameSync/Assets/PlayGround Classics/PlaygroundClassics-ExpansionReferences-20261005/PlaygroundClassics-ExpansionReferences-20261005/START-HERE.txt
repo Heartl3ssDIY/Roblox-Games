@@ -1,0 +1,11 @@
+PLAYGROUND CLASSICS: EXPANSION PACK
+
+Open Gallery.html or the category Contact-Sheet.png files to browse.
+Give any entire category folder (or its matching ZIP) to your Blender chat. Each folder is self-contained.
+
+Contents: 10 additional baseball bats (B16-B25), 10 additional miscellaneous items (M16-M25), 15 new pets (P21-P35) plus 15 matching index silhouettes. This pack expands the 20261004 pack.
+Originals are the large transparent modelling references. UI-512 and UI-256 are the corresponding square shop icon exports. Names, prices and stats are not baked into the individual art. No 3D models are included.
+
+Crowned Pig includes the requested gold crown. Theme labels are suggestions, not implemented unlock logic.
+
+All subjects are concepts with a single three-quarter view. Unseen sides and production mesh details are left for the modelling step.

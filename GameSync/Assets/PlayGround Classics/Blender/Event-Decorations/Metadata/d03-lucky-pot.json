@@ -1,0 +1,41 @@
+{
+  "id": "D03",
+  "name": "Lucky Pot",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d03-lucky-pot.png",
+  "brief": "One squat dark emerald pot with thick gold rim, two attached rounded side handles, a mound of large gold coin discs nestled inside and one raised clover emblem on front. No detached coins, rainbow or writing.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d03-lucky-pot.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d03-lucky-pot.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d03-lucky-pot-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d03-lucky-pot.png",
+  "parts": 31,
+  "triangles": 6808,
+  "meshes": 1,
+  "maxMeshTriangles": 6808,
+  "dimensions": [
+    2.440000057220459,
+    1.856600046157837,
+    1.8197107315063477
+  ],
+  "boundsMin": [
+    -1.2200000286102295,
+    -0.95660001039505,
+    0.0
+  ],
+  "boundsMax": [
+    1.2200000286102295,
+    0.8999999761581421,
+    1.8197107315063477
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

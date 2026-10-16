@@ -1,0 +1,46 @@
+{
+  "id": "C01",
+  "name": "Collectible Coin",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Downloads\\ChatGPT Image 4 Oct 2026, 10_00_54.png",
+  "brief": "Remodel the gold dollar coin currently used in Studio as a detailed, chunky cartoon 3D pickup. Rounded rim, inset gold faces, raised dollar relief on both faces, warm orange edge, navy outline accents, and centered spin pivot. Preserve editable separate parts.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\c01-collectible-coin.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\c01-collectible-coin.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\c01-collectible-coin-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\c01-collectible-coin.png",
+  "parts": 7,
+  "triangles": 6994,
+  "meshes": 1,
+  "maxMeshTriangles": 6994,
+  "dimensions": [
+    2.0299999713897705,
+    0.4779999852180481,
+    2.0299999713897705
+  ],
+  "boundsMin": [
+    -1.0149999856948853,
+    -0.23899999260902405,
+    -1.0149999856948853
+  ],
+  "boundsMax": [
+    1.0149999856948853,
+    0.23899999260902405,
+    1.0149999856948853
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "SpinPivot": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    2.0299999713897705,
+    0.4779999852180481,
+    2.0299999713897705
+  ]
+}

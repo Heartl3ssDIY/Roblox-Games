@@ -1,0 +1,75 @@
+PLAYGROUND CLASSICS - CLEAN IMPORT PACK
+
+Use this pack for importing the actual reusable artwork.
+
+FIGMA - NO PLUGIN OR DEVELOPER MODE NEEDED
+Drag SVG files from Figma-DragDrop into your Figma canvas.
+The blank assets contain only background shapes. The optional labelled
+buttons have lettering converted into editable vector paths, so Figma does
+not have to substitute a font or recalculate SVG text alignment.
+Those fixed labels are vector shapes, not typeable Text layers.
+For labels you want to type/edit, choose a blank button and add native Figma
+text on top. Centre it on the inner coloured face, not the dark bottom edge.
+The Editable folder retains the source SVGs, including live font-dependent
+text in Optional-Labelled-Buttons; use Figma-DragDrop for direct import.
+
+WHAT TO USE
+01-Empty-Panels: empty level, wallet, runner/stamina and other panel shapes.
+02-Item-Frame-Parts: one empty item frame, its preview background and action
+button, each separate. Add your own item content and prices.
+03-Other-Blank-Buttons: isolated controls from the original UI, without text.
+04-Meter-Parts: separate XP/stamina rails and full-width fill artwork. Your
+script determines the displayed amount; no example progress or numbers.
+05-Favourite-Buttons-Blank: blank versions of the familiar glossy controls.
+06-Smooth-Game-Card-Blanks: three empty coloured game-selection cards.
+07-Resizable-Skins: reusable nine-slice skins in normal/pressed/disabled states.
+Optional-Labelled-Buttons: the 13 static buttons you liked, including X,
+Dodge, Heat, Mud, Sprint and team colours. These are optional.
+
+The PNG folder follows the same organisation. Every PNG has transparency.
+The preview sheets have a grey background and captions for identification;
+those are not part of the individual assets.
+
+REMOVED FROM THIS IMPORT PACK
+No placeholder portrait, star-as-coin, item models, 12-item shop showcase,
+whole-screen exports, sample numbers, timers, balances or runner labels.
+No composed screens or full panel contents to remove by hand.
+Repeated matching background shapes are shared; Maps/ComponentMap.json maps
+source pieces to the corresponding clean artwork.
+
+STUDIO
+Use native TextLabels for variable text. Preserve the PNG's proportions with
+ScaleType = Fit for fixed artwork. Use the supplied nine-slice files for
+backgrounds that must resize to different proportions:
+  ScaleType = Slice
+  SliceCenter = Rect.new(88, 88, 424, 232)
+  SliceScale = 0.25
+These settings are only for the 512x320 PNGs in 07-Resizable-Skins.
+Maps/NineSlice-original-settings.json contains each file's settings.
+Existing gameplay, authored ScreenGui layouts and scripts were not changed.
+
+WHY THE EARLIER FIGMA IMPORT COULD SHIFT TEXT
+The earlier SVGs retained live text and text-anchor positioning. Direct SVG
+import makes Figma resolve the font and its text positioning again. Native
+Figma font/line-box metrics and available fonts can differ from the renderer
+used for the PNGs. The exact imported Figma file was not inspected, so a
+specific Figma parsing or font substitution issue is not confirmed.
+The direct-import labelled SVGs in this pack remove that dependency entirely:
+the outlines and their centred coordinates are already in the SVG artwork.
+The optional labels and PNGs were regenerated from those same vector paths.
+
+CHECKED
+All 121 non-labelled SVGs contain no text or embedded images.
+All 134 Figma-DragDrop SVGs contain no live text or font references.
+All 134 PNGs contain transparent pixels and visible artwork.
+The 13 optional labels are centred by visible glyph bounds on the inner face.
+No live Figma import or Studio test was performed; no developer mode is needed.
+
+Reference on Figma text/font behaviour:
+https://help.figma.com/hc/en-us/articles/360039956434-Guide-to-text-in-Figma-Design
+https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties
+
+Sources in Source/ reproduce this pack on this computer:
+BuildClean.py, CentreLabels.py (bundled Python/Pillow), OutlineForFigma.ps1,
+RenderClean.cjs. Run in that order. Do not run the previous full-UI generator
+into this clean output folder.

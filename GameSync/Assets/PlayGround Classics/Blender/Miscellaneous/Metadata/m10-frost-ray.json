@@ -1,0 +1,46 @@
+{
+  "id": "M10",
+  "name": "Frost Ray",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m10-frost-ray.png",
+  "brief": "One playful cyan and ivory FREEZE-RAY toy blaster with chamfered box body, large flared pale-blue muzzle, dark navy edge trim, a compact opaque ice-crystal tank on top, short teal rubber grip and one simple snowflake badge on the side. Broad simple shapes like the user's toy mud/heat guns, no realistic weapon details, beam or particles.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m10-frost-ray.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m10-frost-ray.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m10-frost-ray-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m10-frost-ray.png",
+  "parts": 73,
+  "triangles": 4772,
+  "meshes": 1,
+  "maxMeshTriangles": 4772,
+  "dimensions": [
+    1.0800000429153442,
+    2.2684998512268066,
+    2.1411380767822266
+  ],
+  "boundsMin": [
+    -0.5400000214576721,
+    -1.5399999618530273,
+    0.07320000231266022
+  ],
+  "boundsMax": [
+    0.5400000214576721,
+    0.7285000085830688,
+    2.2143380641937256
+  ],
+  "paletteColors": 8,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.4000000059604645,
+      0.5099999904632568
+    ],
+    "MuzzleAttachment": [
+      0.0,
+      -1.559999942779541,
+      1.2000000476837158
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

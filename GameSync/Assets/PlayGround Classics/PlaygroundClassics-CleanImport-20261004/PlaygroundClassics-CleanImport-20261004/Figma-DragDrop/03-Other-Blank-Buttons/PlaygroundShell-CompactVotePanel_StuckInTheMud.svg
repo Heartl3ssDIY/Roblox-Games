@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="188.8" height="82.92" viewBox="0 0 188.8 82.92">
+  <title>PlaygroundShell-CompactVotePanel_StuckInTheMud</title>
+  <desc>Isolated empty UI artwork. No captions, counters, placeholder images or item contents.</desc>
+  <defs>
+    <linearGradient id="Glossy1-EditableSkin-Fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#79de98" stop-opacity="1" />
+      <stop offset="0.48" stop-color="#4fd378" stop-opacity="1" />
+      <stop offset="1" stop-color="#46ba6a" stop-opacity="1" />
+    </linearGradient>
+    <clipPath id="Glossy1-EditableSkin-Clip">
+      <rect x="795.9" y="570.28" width="176.8" height="67.92" rx="7.0" />
+    </clipPath>
+    <linearGradient id="Glossy1-EditableSkin-Shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(-789.9 -564.28)">
+    <g id="StarterGui.PlaygroundShell.CompactVotePanel.StuckInTheMud_Background-Glossy" data-original-fill="#6fc497" data-skin-theme="green">
+      <rect id="Glossy1-EditableSkin-OuterKeyline" x="791.9" y="566.28" width="184.8" height="78.92" rx="12.0" fill="#20263d" stroke="#b9edc9" stroke-width="0.96" />
+      <rect id="Glossy1-EditableSkin-Face" x="794.9" y="569.28" width="178.8" height="69.92" rx="9.0" fill="url(#Glossy1-EditableSkin-Fill)" stroke="#c1f0d0" stroke-width="2.0" />
+      <g id="Glossy1-EditableSkin-SurfaceDetail" clip-path="url(#Glossy1-EditableSkin-Clip)">
+        <rect id="Glossy1-EditableSkin-TopGloss" x="795.9" y="570.28" width="176.8" height="28.0" fill="url(#Glossy1-EditableSkin-Shine)" />
+      </g>
+    </g>
+  </g>
+</svg>

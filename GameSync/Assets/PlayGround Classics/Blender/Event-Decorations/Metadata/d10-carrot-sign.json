@@ -1,0 +1,41 @@
+{
+  "id": "D10",
+  "name": "Carrot Sign",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d10-carrot-sign.png",
+  "brief": "One playful freestanding Easter garden marker shaped like a giant orange carrot with three thick green leaf blades, supported on a short wide lavender base. A small raised cream rabbit-head silhouette inset on the carrot face, no lettering, no readable sign text.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d10-carrot-sign.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d10-carrot-sign.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d10-carrot-sign-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d10-carrot-sign.png",
+  "parts": 13,
+  "triangles": 2460,
+  "meshes": 1,
+  "maxMeshTriangles": 2460,
+  "dimensions": [
+    1.340000033378601,
+    1.340000033378601,
+    2.413726568222046
+  ],
+  "boundsMin": [
+    -0.6700000166893005,
+    -0.6700000166893005,
+    0.0
+  ],
+  "boundsMax": [
+    0.6700000166893005,
+    0.6700000166893005,
+    2.413726568222046
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

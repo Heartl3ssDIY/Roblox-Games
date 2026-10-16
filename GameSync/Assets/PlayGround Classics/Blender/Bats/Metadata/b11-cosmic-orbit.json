@@ -1,0 +1,51 @@
+{
+  "id": "B11",
+  "name": "Cosmic Orbit",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b11-cosmic-orbit.png",
+  "brief": "Deep violet baseball bat with a thick rounded barrel, pale cyan crescent-shaped inset and tiny simple silver dot inlays, a chunky fixed silver equator ring hugging the barrel, navy handle and purple grip. All parts physically attached, no floating stars or glow clouds.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b11-cosmic-orbit.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b11-cosmic-orbit.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b11-cosmic-orbit-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b11-cosmic-orbit.png",
+  "parts": 15,
+  "triangles": 8798,
+  "meshes": 1,
+  "maxMeshTriangles": 8798,
+  "dimensions": [
+    0.7319999933242798,
+    0.7319999933242798,
+    3.5360000133514404
+  ],
+  "boundsMin": [
+    -0.3659999966621399,
+    -0.3659999966621399,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3659999966621399,
+    0.3659999966621399,
+    3.0799999237060547
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.7319999933242798,
+    0.7319999933242798,
+    3.5360000133514404
+  ]
+}

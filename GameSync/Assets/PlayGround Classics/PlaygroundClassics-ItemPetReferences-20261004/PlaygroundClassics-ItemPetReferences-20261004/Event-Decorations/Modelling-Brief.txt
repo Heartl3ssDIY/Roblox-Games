@@ -1,0 +1,53 @@
+PLAYGROUND CLASSICS / EVENT-DECORATIONS
+
+HAND THIS WHOLE FOLDER TO THE BLENDER CHAT.
+Create game-ready stylised models using the Originals PNGs as the visual reference. Each PNG is one distinct asset. Contact-Sheet.png is an overview, not a texture atlas. UI-512 and UI-256 are transparent shop icons of the same designs.
+
+VISUAL DIRECTION
+Chunky toy proportions, rounded bevels, broad glossy colour zones, deep navy seams and collars, cream inset panels and bold silhouettes. Build attached decorations as robust forms. Avoid tiny text, thin loose ornaments, photorealistic grunge or detached glow effects. Use the picture as the final visual reference if it differs slightly from the written concept.
+
+MODELLING HANDOFF
+These are single-view concept images, not measured turnarounds or existing 3D models. Infer unseen sides simply and consistently. Match the overall silhouette and visible colour blocking first. Keep materials reusable. Establish scale, pivot, triangle budget, collision and attachments in the Blender/game implementation chat before export. Bats need a handle grip pivot; other item pivots depend on their use. No gameplay or claim rules are implemented in these PNGs.
+
+ROBLOX UI
+Use the square UI exports with ScaleType Fit and a square UIAspectRatioConstraint, or retain the square aspect ratio yourself. Do not stretch them to fill a rectangular slot. Background transparency is already included. Do not bake item names, prices or counts into the artwork.
+
+EVENT SCOPE
+Two props each for Halloween, St Patrick’s Day, Lunar New Year, Christmas, Easter and birthdays. These are additional to the core miscellaneous items.
+
+ASSETS
+D01 / Pumpkin Lantern / Halloween
+One friendly squat jack-o-lantern prop, six broad orange lobes, thick curved green stem, triangular eyes and cheerful carved mouth with flat warm yellow interior. No light spill, particles, pedestal or floor.
+
+D02 / Haunted Crate / Halloween
+One compact purple wooden decoration crate with chunky navy corner guards, broad crossed plank slats, two tiny lime eyes peeking from a narrow dark slit and a rounded cream padlock hanging on front. No hands or loose ghost.
+
+D03 / Lucky Pot / St Patricks Day
+One squat dark emerald pot with thick gold rim, two attached rounded side handles, a mound of large gold coin discs nestled inside and one raised clover emblem on front. No detached coins, rainbow or writing.
+
+D04 / Clover Arch / St Patricks Day
+One small freestanding chunky emerald festival arch with a thick horseshoe-shaped frame, two broad cream-and-gold weighted feet and three oversized gold clover ornaments attached along the top. No text or surrounding scene, full arch clearly visible.
+
+D05 / Festival Lantern / Lunar New Year
+One plump round red Lunar New Year paper lantern decoration with eight broad simple vertical ribs, thick gold top and bottom collars, short attached navy hanging loop and one compact stylized gold tassel ending in three broad strips. No calligraphy or thin strings.
+
+D06 / Lion Mask Stand / Lunar New Year
+One cheerful Lunar New Year lion-dance mask decoration mounted on a short wide red pedestal: chunky red and gold round mask, oversized cream circular eyes, rounded green nose, big friendly grin and broad white fluffy cheek shapes. One connected prop, no human, lettering or dangling filaments.
+
+D07 / Festive Tree / Christmas
+One compact stylised evergreen Christmas tree in a squat red pot, three tiered chunky green cones with broad cream snow caps, five large attached gold/red round ornaments and a small attached golden star at the tip. No lights string, loose presents or scene.
+
+D08 / Snow Buddy / Christmas
+One cute toy snowman decoration with two broad ivory snowballs, short navy hat, thick red scarf with ends attached to body, orange carrot nose and two short navy mitten arms. Flat stable base, no floor, snowflakes or text.
+
+D09 / Egg Basket / Easter
+One squat cream-and-tan woven Easter basket with one thick arched pink handle and three large painted pastel eggs nestled inside. Egg motifs are simple mint stripes and lavender dots. Solid shapes, no grass strands or detached eggs.
+
+D10 / Carrot Sign / Easter
+One playful freestanding Easter garden marker shaped like a giant orange carrot with three thick green leaf blades, supported on a short wide lavender base. A small raised cream rabbit-head silhouette inset on the carrot face, no lettering, no readable sign text.
+
+D11 / Party Balloon Cluster / Birthday
+One connected birthday balloon decoration: three glossy chunky balloons in pink, cyan and gold attached by thick short curved rigid stems to one squat purple weighted star-shaped base. No fine strings or loose confetti. Entire self-contained prop visible.
+
+D12 / Birthday Cake Stand / Birthday
+One celebratory birthday decoration consisting of a two-tier pastel pink and cream cake on a chunky cyan pedestal, broad frosting scallops, three thick attached gold candles with tiny solid orange flames. No text, age number, plate utensils or loose confetti.

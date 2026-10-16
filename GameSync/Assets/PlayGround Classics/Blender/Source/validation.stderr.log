@@ -1,0 +1,2 @@
+C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\PlayGround Classics\Blender\Source\validate_pack.py:28: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  images=[n.image for n in mat.node_tree.nodes if n.type=='TEX_IMAGE' and n.image]if mat and mat.use_nodes else[]

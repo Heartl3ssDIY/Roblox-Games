@@ -1,0 +1,794 @@
+[
+  {
+    "key": "gold-normal",
+    "png": "PNG/07-Resizable-Skins/gold-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "gold-pressed",
+    "png": "PNG/07-Resizable-Skins/gold-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "gold-disabled",
+    "png": "PNG/07-Resizable-Skins/gold-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "blue-normal",
+    "png": "PNG/07-Resizable-Skins/blue-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "blue-pressed",
+    "png": "PNG/07-Resizable-Skins/blue-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "blue-disabled",
+    "png": "PNG/07-Resizable-Skins/blue-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "red-normal",
+    "png": "PNG/07-Resizable-Skins/red-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "red-pressed",
+    "png": "PNG/07-Resizable-Skins/red-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "red-disabled",
+    "png": "PNG/07-Resizable-Skins/red-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "green-normal",
+    "png": "PNG/07-Resizable-Skins/green-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "green-pressed",
+    "png": "PNG/07-Resizable-Skins/green-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "green-disabled",
+    "png": "PNG/07-Resizable-Skins/green-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "orange-normal",
+    "png": "PNG/07-Resizable-Skins/orange-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "orange-pressed",
+    "png": "PNG/07-Resizable-Skins/orange-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "orange-disabled",
+    "png": "PNG/07-Resizable-Skins/orange-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "mud-normal",
+    "png": "PNG/07-Resizable-Skins/mud-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "mud-pressed",
+    "png": "PNG/07-Resizable-Skins/mud-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "mud-disabled",
+    "png": "PNG/07-Resizable-Skins/mud-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "black-normal",
+    "png": "PNG/07-Resizable-Skins/black-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "black-pressed",
+    "png": "PNG/07-Resizable-Skins/black-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "black-disabled",
+    "png": "PNG/07-Resizable-Skins/black-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "silver-normal",
+    "png": "PNG/07-Resizable-Skins/silver-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "silver-pressed",
+    "png": "PNG/07-Resizable-Skins/silver-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "silver-disabled",
+    "png": "PNG/07-Resizable-Skins/silver-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "cream-normal",
+    "png": "PNG/07-Resizable-Skins/cream-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "cream-pressed",
+    "png": "PNG/07-Resizable-Skins/cream-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "cream-disabled",
+    "png": "PNG/07-Resizable-Skins/cream-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "purple-normal",
+    "png": "PNG/07-Resizable-Skins/purple-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "purple-pressed",
+    "png": "PNG/07-Resizable-Skins/purple-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "purple-disabled",
+    "png": "PNG/07-Resizable-Skins/purple-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "panel-normal",
+    "png": "PNG/07-Resizable-Skins/panel-normal.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "panel-pressed",
+    "png": "PNG/07-Resizable-Skins/panel-pressed.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  },
+  {
+    "key": "panel-disabled",
+    "png": "PNG/07-Resizable-Skins/panel-disabled.png",
+    "logicalSize": [
+      128,
+      80
+    ],
+    "pixelSize": [
+      512,
+      320
+    ],
+    "ScaleType": "Slice",
+    "SliceCenter": [
+      88,
+      88,
+      424,
+      232
+    ],
+    "SliceScale": 0.25,
+    "recommendedMinimumSize": [
+      48,
+      48
+    ]
+  }
+]

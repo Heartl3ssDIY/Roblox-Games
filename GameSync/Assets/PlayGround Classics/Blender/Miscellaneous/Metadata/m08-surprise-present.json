@@ -1,0 +1,35 @@
+{
+  "id": "M08",
+  "name": "Surprise Present",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m08-surprise-present.png",
+  "brief": "One chunky square turquoise gift box with thick magenta ribbon crossing all sides, oversized simple cream bow made of two broad loops on top. Solid toy-like bevelled corners and navy seam edging. No tag or writing.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m08-surprise-present.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m08-surprise-present.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m08-surprise-present-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m08-surprise-present.png",
+  "parts": 17,
+  "triangles": 3440,
+  "meshes": 1,
+  "maxMeshTriangles": 3440,
+  "dimensions": [
+    1.5768868923187256,
+    1.3799999952316284,
+    1.973760962486267
+  ],
+  "boundsMin": [
+    -0.7884434461593628,
+    -0.6899999976158142,
+    0.02499997615814209
+  ],
+  "boundsMax": [
+    0.7884434461593628,
+    0.6899999976158142,
+    1.9987609386444092
+  ],
+  "paletteColors": 5,
+  "anchors": {},
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

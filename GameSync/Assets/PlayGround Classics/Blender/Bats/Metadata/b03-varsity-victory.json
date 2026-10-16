@@ -1,0 +1,51 @@
+{
+  "id": "B03",
+  "name": "Varsity Victory",
+  "category": "Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Bats\\Originals\\b03-varsity-victory.png",
+  "brief": "Sporty baseball bat with a red barrel, broad ivory diagonal varsity stripe, dark navy collar and ivory-wrapped grip. A tiny simple shield-shaped blue inset on the upper barrel, no letters or numbers.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Blend\\b03-varsity-victory.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b03-varsity-victory.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Textures\\b03-varsity-victory-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\Previews\\b03-varsity-victory.png",
+  "parts": 10,
+  "triangles": 5430,
+  "meshes": 1,
+  "maxMeshTriangles": 5430,
+  "dimensions": [
+    0.6634423136711121,
+    0.6833077073097229,
+    3.5360000133514404
+  ],
+  "boundsMin": [
+    -0.3230000138282776,
+    -0.3603076934814453,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3404422998428345,
+    0.3230000138282776,
+    3.0799999237060547
+  ],
+  "paletteColors": 4,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6634423136711121,
+    0.6833077073097229,
+    3.5360000133514404
+  ]
+}

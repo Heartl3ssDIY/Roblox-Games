@@ -1,0 +1,41 @@
+{
+  "id": "M03",
+  "name": "Foam Bonker",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m03-foam-bonker.png",
+  "brief": "One small extra-chunky foam TOY baseball bat, short lavender handle with rounded knob and oversized soft-looking hot-pink rounded barrel with one cyan band. Clearly a short harmless foam play bat, diagonal pose, no lettering.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m03-foam-bonker.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m03-foam-bonker.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m03-foam-bonker-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m03-foam-bonker.png",
+  "parts": 10,
+  "triangles": 3120,
+  "meshes": 1,
+  "maxMeshTriangles": 3120,
+  "dimensions": [
+    0.7680000066757202,
+    0.7680000066757202,
+    2.607499837875366
+  ],
+  "boundsMin": [
+    -0.3840000033378601,
+    -0.3840000033378601,
+    -0.4375
+  ],
+  "boundsMax": [
+    0.3840000033378601,
+    0.3840000033378601,
+    2.169999837875366
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "GripAttachment": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

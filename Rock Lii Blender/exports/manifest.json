@@ -1,0 +1,135 @@
+{
+  "schema": "rock-lii-r6-motor6d-export-v1",
+  "source_blend": "Rock Lii Animations Review.blend",
+  "source_sha256": "13cf5c6f89e9ef0ccb73934fbc028880ade240bbf90a88f02521d6146879365f",
+  "format": {
+    "rbxanim": "RBXMonkey native zlib-compressed JSON for provenance only; root retains source world placement and Drunken Fist retains Blender's quaternion sign artifact. Do not publish this file as a Roblox KeyframeSequence.",
+    "keyframes_json": "Complete RBXMonkey Motor6D samples; root motion folded into Torso via imported RootJoint C0; HumanoidRootPart Pose is identity. Drunken Fist frames 91-94 correct Blender quaternion sign interpolation.",
+    "pose_entry": "[12 CFrame floats (xyz then row-major 3x3), easingStyle, easingDirection]",
+    "time_unit": "seconds",
+    "root_hierarchy": {
+      "HumanoidRootPart": null,
+      "Torso": "HumanoidRootPart",
+      "Head": "Torso",
+      "Right Arm": "Torso",
+      "Left Arm": "Torso",
+      "Right Leg": "Torso",
+      "Left Leg": "Torso"
+    }
+  },
+  "animations": [
+    {
+      "name": "Rock Lii | Triple Punch | Review",
+      "stem": "rock_lii_triple_punch",
+      "duration_seconds": 1.5,
+      "fps": 30,
+      "frame_start": 1,
+      "frame_end": 46,
+      "keyframe_count": 46,
+      "hierarchy": {
+        "HumanoidRootPart": null,
+        "Torso": "HumanoidRootPart",
+        "Head": "Torso",
+        "Right Arm": "Torso",
+        "Left Arm": "Torso",
+        "Right Leg": "Torso",
+        "Left Leg": "Torso"
+      },
+      "max_root_shift_studs": 0.11344472418788135,
+      "max_root_turn_degrees": 0.0,
+      "cumulative_root_turn_degrees": 0.0,
+      "max_root_step_degrees": 0.0,
+      "root_motion_folded_into": "Torso",
+      "interpolation_correction": null,
+      "root_joint_c0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "raw_rbxanim": "rock_lii_triple_punch.rbxanim",
+      "keyframe_sequence_input": "rock_lii_triple_punch.keyframes.json",
+      "metadata": {
+        "unit": "Rock Lii",
+        "impact_frames": "9, 20, 33",
+        "status": "Review only: not uploaded to Roblox"
+      }
+    },
+    {
+      "name": "Rock Lii - Drunken Fist (REVIEW)",
+      "stem": "rock_lii_drunken_fist",
+      "duration_seconds": 7.0,
+      "fps": 30,
+      "frame_start": 0,
+      "frame_end": 210,
+      "keyframe_count": 211,
+      "hierarchy": {
+        "HumanoidRootPart": null,
+        "Torso": "HumanoidRootPart",
+        "Head": "Torso",
+        "Right Arm": "Torso",
+        "Left Arm": "Torso",
+        "Right Leg": "Torso",
+        "Left Leg": "Torso"
+      },
+      "max_root_shift_studs": 0.0,
+      "max_root_turn_degrees": 179.27902390054814,
+      "cumulative_root_turn_degrees": 359.8388436475449,
+      "max_root_step_degrees": 3.8562671756680773,
+      "root_motion_folded_into": "Torso",
+      "interpolation_correction": "Drunken Fist export frames 91-94 shortest-path quaternion interpolation between unchanged authored keys 90 and 95",
+      "root_joint_c0": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "raw_rbxanim": "rock_lii_drunken_fist.rbxanim",
+      "keyframe_sequence_input": "rock_lii_drunken_fist.keyframes.json",
+      "metadata": {
+        "review_only": true,
+        "duration_seconds": 7.0,
+        "route_beat_seconds": [
+          0.0,
+          1.85,
+          3.35,
+          4.9,
+          6.25,
+          7.0
+        ],
+        "route_beat_names": [
+          "frontline_start",
+          "midline_outbound",
+          "backline",
+          "midline_return",
+          "frontline_return",
+          "neutral"
+        ],
+        "contact_beats_seconds": [
+          1.45,
+          2.5,
+          3.48,
+          4.58,
+          5.48
+        ],
+        "gameplay_note": "Server controls path, per-contact 50 damage, and immunity."
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "M04",
+  "name": "Tumble Barrel",
+  "category": "Miscellaneous",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Miscellaneous\\Originals\\m04-tumble-barrel.png",
+  "brief": "A compact throwable wooden barrel, squat round body with six broad honey-brown staves, two thick navy metal hoops, chunky rivets, flat circular wood lid with a simple handgrip recess. No hazard labels or spilled contents.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Blend\\m04-tumble-barrel.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\FBX\\m04-tumble-barrel.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Textures\\m04-tumble-barrel-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Miscellaneous\\Previews\\m04-tumble-barrel.png",
+  "parts": 29,
+  "triangles": 3136,
+  "meshes": 1,
+  "maxMeshTriangles": 3136,
+  "dimensions": [
+    1.6820000410079956,
+    1.6820000410079956,
+    1.7400000095367432
+  ],
+  "boundsMin": [
+    -0.8410000205039978,
+    -0.8410000205039978,
+    0.0
+  ],
+  "boundsMax": [
+    0.8410000205039978,
+    0.8410000205039978,
+    1.7400000095367432
+  ],
+  "paletteColors": 10,
+  "anchors": {
+    "ThrowAttachment": [
+      0.0,
+      0.0,
+      0.8600000143051147
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

@@ -1,0 +1,316 @@
+{
+  "clips": {
+    "TriplePunch": {
+      "torsoYawDegrees": -1.2722218725854067e-13,
+      "pause": {
+        "clockDrift": 0,
+        "jointAngle": 0.00048828125,
+        "trackDrift": 0,
+        "speed": 0,
+        "jointTranslation": 0
+      },
+      "samples": 93,
+      "motionRadians": {
+        "Left Leg": 0.4984577000141144,
+        "Right Arm": 1.8462175130844116,
+        "Head": 0.4100152850151062,
+        "Torso": 0.2857704162597656,
+        "Right Leg": 0.5656495094299316,
+        "Left Arm": 1.7827385663986206
+      },
+      "resumedBy": 0.13333329558372498,
+      "completed": true,
+      "assetId": 91381829613134,
+      "maxSoleDelta": 0.00872802734375,
+      "rootDrift": 0,
+      "minSoleDelta": -0.01129150390625,
+      "length": 1.5,
+      "maxJointOffset": 0.11338983476161957,
+      "markers": [
+        {
+          "value": "1",
+          "time": 0.2662358999950811
+        },
+        {
+          "value": "2",
+          "time": 0.6494142999872565
+        },
+        {
+          "value": "3",
+          "time": 1.0823492999770679
+        }
+      ]
+    },
+    "DrunkenFist": {
+      "torsoYawDegrees": 359.9915183873324,
+      "pause": {
+        "clockDrift": 0,
+        "jointAngle": 0.0006905339541845024,
+        "trackDrift": 0,
+        "speed": 0,
+        "jointTranslation": 0
+      },
+      "samples": 423,
+      "motionRadians": {
+        "Left Leg": 0.24073335528373718,
+        "Right Arm": 1.5769587755203247,
+        "Head": 0.13668905198574066,
+        "Torso": 3.132347345352173,
+        "Right Leg": 0.24073335528373718,
+        "Left Arm": 1.370671272277832
+      },
+      "resumedBy": 0.1333332061767578,
+      "completed": true,
+      "assetId": 82528180377250,
+      "maxSoleDelta": 0,
+      "rootDrift": 0,
+      "minSoleDelta": -0.18182373046875,
+      "length": 7,
+      "maxJointOffset": 0.00001828441600082442,
+      "markers": []
+    }
+  },
+  "startedAt": 1790694445,
+  "checks": [
+    {
+      "passed": true,
+      "name": "TriplePunch loaded duration",
+      "detail": 1.5
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch not looped",
+      "detail": false
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch pause freezes joints",
+      "detail": {
+        "clockDrift": 0,
+        "jointAngle": 0.00048828125,
+        "trackDrift": 0,
+        "speed": 0,
+        "jointTranslation": 0
+      }
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch pause freezes time",
+      "detail": {
+        "clockDrift": 0,
+        "jointAngle": 0.00048828125,
+        "trackDrift": 0,
+        "speed": 0,
+        "jointTranslation": 0
+      }
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch resumes",
+      "detail": 0.13333329558372498
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch stopped at end",
+      "detail": 1.5
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch anchored gameplay root",
+      "detail": 0
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch no exported world offset",
+      "detail": 0.11338983476161957
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch animates Right Arm",
+      "detail": 1.8462175130844116
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch animates Left Arm",
+      "detail": 1.7827385663986206
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch animates Right Leg",
+      "detail": 0.5656495094299316
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch animates Left Leg",
+      "detail": 0.4984577000141144
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch three Hit markers",
+      "detail": [
+        {
+          "value": "1",
+          "time": 0.2662358999950811
+        },
+        {
+          "value": "2",
+          "time": 0.6494142999872565
+        },
+        {
+          "value": "3",
+          "time": 1.0823492999770679
+        }
+      ]
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch Hit 1 timing",
+      "detail": {
+        "actual": 0.2662358999950811,
+        "expected": 0.26666666666666666
+      }
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch Hit 2 timing",
+      "detail": {
+        "actual": 0.6494142999872565,
+        "expected": 0.6333333333333333
+      }
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch Hit 3 timing",
+      "detail": {
+        "actual": 1.0823492999770679,
+        "expected": 1.0666666666666667
+      }
+    },
+    {
+      "passed": true,
+      "name": "TriplePunch sole stays planted",
+      "detail": {
+        "min": -0.01129150390625,
+        "max": 0.00872802734375
+      }
+    },
+    {
+      "passed": false,
+      "name": "TriplePunch stop clears playing tracks",
+      "detail": 1
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist loaded duration",
+      "detail": 7
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist not looped",
+      "detail": false
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist pause freezes joints",
+      "detail": {
+        "clockDrift": 0,
+        "jointAngle": 0.0006905339541845024,
+        "trackDrift": 0,
+        "speed": 0,
+        "jointTranslation": 0
+      }
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist pause freezes time",
+      "detail": {
+        "clockDrift": 0,
+        "jointAngle": 0.0006905339541845024,
+        "trackDrift": 0,
+        "speed": 0,
+        "jointTranslation": 0
+      }
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist resumes",
+      "detail": 0.1333332061767578
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist stopped at end",
+      "detail": 6.995861530303955
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist anchored gameplay root",
+      "detail": 0
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist no exported world offset",
+      "detail": 0.00001828441600082442
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist animates Right Arm",
+      "detail": 1.5769587755203247
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist animates Left Arm",
+      "detail": 1.370671272277832
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist animates Right Leg",
+      "detail": 0.24073335528373718
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist animates Left Leg",
+      "detail": 0.24073335528373718
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist completes one torso turn",
+      "detail": 359.9915183873324
+    },
+    {
+      "passed": true,
+      "name": "DrunkenFist stop clears playing tracks",
+      "detail": 0
+    },
+    {
+      "passed": true,
+      "name": "Explicit cancellation stops track",
+      "detail": 0
+    },
+    {
+      "passed": true,
+      "name": "Mastery attack does not substitute triple",
+      "detail": "Dedicated four-hit mastery clip is still required"
+    },
+    {
+      "passed": true,
+      "name": "Mastery rig loads same DrunkenFist",
+      "detail": 7
+    },
+    {
+      "passed": true,
+      "name": "Mastery rig receives animation pose",
+      "detail": 0.5947979688644409
+    },
+    {
+      "passed": true,
+      "name": "Destroyed model cleans up playback",
+      "detail": "false"
+    }
+  ],
+  "finishedAt": 1790694456,
+  "passed": false,
+  "preloadStatuses": {
+    "rbxassetid://82528180377250": "Enum.AssetFetchStatus.Success",
+    "rbxassetid://91381829613134": "Enum.AssetFetchStatus.Success"
+  }
+}

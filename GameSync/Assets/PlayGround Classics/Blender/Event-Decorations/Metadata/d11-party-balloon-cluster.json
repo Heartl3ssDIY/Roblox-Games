@@ -1,0 +1,41 @@
+{
+  "id": "D11",
+  "name": "Party Balloon Cluster",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d11-party-balloon-cluster.png",
+  "brief": "One connected birthday balloon decoration: three glossy chunky balloons in pink, cyan and gold attached by thick short curved rigid stems to one squat purple weighted star-shaped base. No fine strings or loose confetti. Entire self-contained prop visible.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d11-party-balloon-cluster.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d11-party-balloon-cluster.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d11-party-balloon-cluster-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d11-party-balloon-cluster.png",
+  "parts": 12,
+  "triangles": 2064,
+  "meshes": 1,
+  "maxMeshTriangles": 2064,
+  "dimensions": [
+    2.180000066757202,
+    1.342711329460144,
+    2.630000114440918
+  ],
+  "boundsMin": [
+    -1.090000033378601,
+    -0.742232620716095,
+    0.009999972768127918
+  ],
+  "boundsMax": [
+    1.090000033378601,
+    0.6004787087440491,
+    2.640000104904175
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

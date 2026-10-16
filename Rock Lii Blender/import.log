@@ -1,0 +1,75 @@
+[RbxmImport] Reading model: Rock Lii.rbxm
+[RbxmImport] rbxm parse took 0.00s
+[RbxmImport] Parsed 8 supported parts.
+[RbxmImport] clothing detected: shirt=True pants=True face=True hdColors=False
+[RbxAuth] Failed to restore saved login: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\sandt\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\config'
+[RbxTexture] image fetch 'https://assetdelivery.roblox.com/v1/asset/?id=523687231' failed: HTTP Error 401: Unauthorized
+[RbxTexture] image fetch 'https://assetdelivery.roblox.com/v1/asset/?id=762261793' failed: HTTP Error 401: Unauthorized
+[RbxTexture] image fetch 'https://assetdelivery.roblox.com/v1/asset/?id=1152415768' failed: HTTP Error 401: Unauthorized
+[RbxTexture] image fetch 'https://assetdelivery.roblox.com/v1/asset/?id=66055620' failed: HTTP Error 401: Unauthorized
+[RbxTexture] using thumbnail fallback for asset 66055620
+[RbxTexture] using thumbnail fallback for asset 523687231
+[RbxTexture] using thumbnail fallback for asset 762261793
+[RbxTexture] using thumbnail fallback for asset 1152415768
+[RbxmImport] prefetch done in 2.4s
+[RbxmImport] Failed to fetch FileMesh for 'Meshes/ROCK LEE': prefetch failed: failed to fetch filemesh for asset 523687226: https://assetdelivery.roblox.com/v2/assetId/523687226: no delivery location in response (preview='{"errors":[{"code":401,"message":"Authentication required to acc'); https://assetdelivery.roblox.com/v1/asset/?id=523687226 http 401 (preview='{"errors":[{"code":0,"message":"Authentication required to acces'); HTTP Error 404: Not Found
+[RbxmImport] Sync detail: read 0.00s, parse 0.00s, scene scaffold 0.00s, context + asset refs 2.43s, job planning 2.12s
+[RbxmImport] rig='Rock Lii' partAux=8 built=6 skipped=2
+[RbxmImport]   skipped: Meshes/ROCK LEE (prefetch failed: failed to fetch filemesh for asset 523687226: https://assetdelivery.roblox.com/v2/assetId/523687226: no delivery location in response (preview='{"errors":[{"code":401,"message":"Authentication required to acc'); https://assetdelivery.roblox.com/v1/asset/?id=523687226 http 401 (preview='{"errors":[{"code":0,"message":"Authentication required to acces'); HTTP Error 404: Not Found)
+[RbxmImport]   skipped: HumanoidRootPart (hidden primary part)
+[RigCreate] WARNING: No _FingerprintMap found on meta object!
+[RigCreate] meshToBone mapping present (8 entries), pre-constraining...
+[RigCreate] meshToBone WARNING: mesh 'HumanoidRootPart' not found for bone 'HumanoidRootPart'
+[RigCreate] meshToBone resolved 'Torso' by inst_ref #13 -> mesh 'Rock Lii.model/Torso.Part'
+[RigCreate] meshToBone PRE-CONSTRAINED: mesh 'Rock Lii.model/Torso.Part' -> bone 'Torso'
+[RigCreate] meshToBone resolved 'Head' by inst_ref #3 -> mesh 'Rock Lii.model/Head.Part'
+[RigCreate] meshToBone PRE-CONSTRAINED: mesh 'Rock Lii.model/Head.Part' -> bone 'Head'
+[RigCreate] meshToBone WARNING: mesh 'Meshes/ROCK LEE' not found for bone 'Head'
+[RigCreate] meshToBone resolved 'Right Arm' by inst_ref #9 -> mesh 'Rock Lii.model/Right Arm.Part'
+[RigCreate] meshToBone PRE-CONSTRAINED: mesh 'Rock Lii.model/Right Arm.Part' -> bone 'Right Arm'
+[RigCreate] meshToBone resolved 'Left Arm' by inst_ref #10 -> mesh 'Rock Lii.model/Left Arm.Part'
+[RigCreate] meshToBone PRE-CONSTRAINED: mesh 'Rock Lii.model/Left Arm.Part' -> bone 'Left Arm'
+[RigCreate] meshToBone resolved 'Right Leg' by inst_ref #11 -> mesh 'Rock Lii.model/Right Leg.Part'
+[RigCreate] meshToBone PRE-CONSTRAINED: mesh 'Rock Lii.model/Right Leg.Part' -> bone 'Right Leg'
+[RigCreate] meshToBone resolved 'Left Leg' by inst_ref #12 -> mesh 'Rock Lii.model/Left Leg.Part'
+[RigCreate] meshToBone PRE-CONSTRAINED: mesh 'Rock Lii.model/Left Leg.Part' -> bone 'Left Leg'
+[RigCreate] meshToBone pre-constrained 6 meshes
+[RigCreate] Skin bind inspect for 'Rock Lii.model/Head.Part': mesh_id=rbxasset://fonts/head.mesh, has_skinning=False, bone_names=0, weights=517, has_weights=False, bone_overlap=False
+[RigCreate] Skin bind mode for 'Rock Lii.model/Head.Part': rigid follow (Head); mesh_id=rbxasset://fonts/head.mesh, has_skinning=False, bone_names=0, weights=517, mode=rigid
+[RigCreate] Skin bind inspect for 'Rock Lii.model/Right Arm.Part': mesh_id=rbxasset://fonts/rightarm.mesh, has_skinning=False, bone_names=0, weights=42, has_weights=False, bone_overlap=False
+[RigCreate] Skin bind mode for 'Rock Lii.model/Right Arm.Part': rigid follow (Right Arm); mesh_id=rbxasset://fonts/rightarm.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Skin bind inspect for 'Rock Lii.model/Left Arm.Part': mesh_id=rbxasset://fonts/leftarm.mesh, has_skinning=False, bone_names=0, weights=42, has_weights=False, bone_overlap=False
+[RigCreate] Skin bind mode for 'Rock Lii.model/Left Arm.Part': rigid follow (Left Arm); mesh_id=rbxasset://fonts/leftarm.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Skin bind inspect for 'Rock Lii.model/Right Leg.Part': mesh_id=rbxasset://fonts/rightleg.mesh, has_skinning=False, bone_names=0, weights=42, has_weights=False, bone_overlap=False
+[RigCreate] Skin bind mode for 'Rock Lii.model/Right Leg.Part': rigid follow (Right Leg); mesh_id=rbxasset://fonts/rightleg.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Skin bind inspect for 'Rock Lii.model/Left Leg.Part': mesh_id=rbxasset://fonts/leftleg.mesh, has_skinning=False, bone_names=0, weights=42, has_weights=False, bone_overlap=False
+[RigCreate] Skin bind mode for 'Rock Lii.model/Left Leg.Part': rigid follow (Left Leg); mesh_id=rbxasset://fonts/leftleg.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Skin bind inspect for 'Rock Lii.model/Torso.Part': mesh_id=rbxasset://fonts/torso.mesh, has_skinning=False, bone_names=0, weights=42, has_weights=False, bone_overlap=False
+[RigCreate] Skin bind mode for 'Rock Lii.model/Torso.Part': rigid follow (Torso); mesh_id=rbxasset://fonts/torso.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Applying 6 pending constraints...
+[RigCreate] AUTHORITATIVE: mesh 'Rock Lii.model/Torso.Part' -> bone 'Torso'
+[RigCreate] AUTHORITATIVE: mesh 'Rock Lii.model/Head.Part' -> bone 'Head'
+[RigCreate] AUTHORITATIVE: mesh 'Rock Lii.model/Right Arm.Part' -> bone 'Right Arm'
+[RigCreate] AUTHORITATIVE: mesh 'Rock Lii.model/Left Arm.Part' -> bone 'Left Arm'
+[RigCreate] AUTHORITATIVE: mesh 'Rock Lii.model/Right Leg.Part' -> bone 'Right Leg'
+[RigCreate] AUTHORITATIVE: mesh 'Rock Lii.model/Left Leg.Part' -> bone 'Left Leg'
+[RigCreate] Applying skin bind for 'Rock Lii.model/Head.Part': mesh_id=rbxasset://fonts/head.mesh, has_skinning=False, bone_names=0, weights=517, mode=rigid
+[RigCreate] Applying skin bind for 'Rock Lii.model/Right Arm.Part': mesh_id=rbxasset://fonts/rightarm.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Applying skin bind for 'Rock Lii.model/Left Arm.Part': mesh_id=rbxasset://fonts/leftarm.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Applying skin bind for 'Rock Lii.model/Right Leg.Part': mesh_id=rbxasset://fonts/rightleg.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Applying skin bind for 'Rock Lii.model/Left Leg.Part': mesh_id=rbxasset://fonts/leftleg.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Applying skin bind for 'Rock Lii.model/Torso.Part': mesh_id=rbxasset://fonts/torso.mesh, has_skinning=False, bone_names=0, weights=42, mode=rigid
+[RigCreate] Applied skinned mesh weights to 6 mesh object(s)
+[RbxmImport] Imported 'Rock Lii' (6 meshes built).
+Info: Imported 1 model(s).
+IMPORT_RESULT {'FINISHED'} SECONDS 4.56
+ARMATURES [('__Rock Lii_Armature', ['HumanoidRootPart', 'Torso', 'Head', 'Meshes/ROCK LEE', 'Right Arm', 'Left Arm', 'Right Leg', 'Left Leg'])]
+MESHES ['Rock Lii.model/Head.Part', 'Rock Lii.model/Left Arm.Part', 'Rock Lii.model/Left Leg.Part', 'Rock Lii.model/Right Arm.Part', 'Rock Lii.model/Right Leg.Part', 'Rock Lii.model/Torso.Part']
+IMAGES [('rbx_cloth_head', (432, 432)), ('rbx_cloth_r6_left_arm', (1024, 512)), ('rbx_cloth_r6_left_leg', (1024, 512)), ('rbx_cloth_r6_right_arm', (1024, 512)), ('rbx_cloth_r6_right_leg', (1024, 512)), ('rbx_cloth_r6_torso', (1024, 512)), ('rbx_tex_46801a3cbf379c99c2f84451cbdb81ee9659d472.png', (452, 432)), ('rbx_tex_cbee0206b57182df3858e05ecd9c417f88ca280c.png', (452, 432)), ('rbx_tex_e0bcfd828197e781648cd139021c94294648dd00.png', (432, 432)), ('Render Result', (0, 0)), ('Viewer Node', (256, 256))]00:06.234  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_20876_5278e1218d2b0d1399fb6d9f02f5f0de.png.png"
+
+Info: Packed 3 file(s)
+Info: Saved as "Rock Lii R6.blend"
+SAVED C:\Users\sandt\OneDrive\Roblox UI Assets\Btns\Rock Lii Blender\Rock Lii R6.blend BYTES 787233
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

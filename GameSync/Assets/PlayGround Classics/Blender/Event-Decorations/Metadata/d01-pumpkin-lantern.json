@@ -1,0 +1,41 @@
+{
+  "id": "D01",
+  "name": "Pumpkin Lantern",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d01-pumpkin-lantern.png",
+  "brief": "One friendly squat jack-o-lantern prop, six broad orange lobes, thick curved green stem, triangular eyes and cheerful carved mouth with flat warm yellow interior. No light spill, particles, pedestal or floor.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d01-pumpkin-lantern.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d01-pumpkin-lantern.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d01-pumpkin-lantern-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d01-pumpkin-lantern.png",
+  "parts": 9,
+  "triangles": 3364,
+  "meshes": 1,
+  "maxMeshTriangles": 3364,
+  "dimensions": [
+    2.191699981689453,
+    1.8007550239562988,
+    2.1024742126464844
+  ],
+  "boundsMin": [
+    -1.0958499908447266,
+    -0.9003775119781494,
+    0.03999999910593033
+  ],
+  "boundsMax": [
+    1.0958499908447266,
+    0.9003775119781494,
+    2.1424741744995117
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

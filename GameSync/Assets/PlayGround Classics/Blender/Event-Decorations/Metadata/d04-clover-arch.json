@@ -1,0 +1,41 @@
+{
+  "id": "D04",
+  "name": "Clover Arch",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d04-clover-arch.png",
+  "brief": "One small freestanding chunky emerald festival arch with a thick horseshoe-shaped frame, two broad cream-and-gold weighted feet and three oversized gold clover ornaments attached along the top. No text or surrounding scene, full arch clearly visible.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d04-clover-arch.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d04-clover-arch.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d04-clover-arch-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d04-clover-arch.png",
+  "parts": 31,
+  "triangles": 5660,
+  "meshes": 1,
+  "maxMeshTriangles": 5660,
+  "dimensions": [
+    3.239999771118164,
+    0.8399999737739563,
+    3.269821882247925
+  ],
+  "boundsMin": [
+    -1.619999885559082,
+    -0.41999998688697815,
+    0.009999990463256836
+  ],
+  "boundsMax": [
+    1.619999885559082,
+    0.41999998688697815,
+    3.2798218727111816
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

@@ -1,0 +1,11 @@
+{
+  "designs": 35,
+  "categories": {
+    "Pets": 15,
+    "Bats": 10,
+    "Miscellaneous": 10
+  },
+  "uiExports": 70,
+  "silhouetteUiExports": 30,
+  "issues": []
+}

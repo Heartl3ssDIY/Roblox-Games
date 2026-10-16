@@ -1,0 +1,11 @@
+00:00.078  reports          | WARNING Unable to open 'C:\Users\sandt\AppData\Roaming\Blender Foundation\Blender\5.2\config\userpref.blend': Permission denied
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:01.734  blend            | Read blend: "C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\PlayGround Classics\Blender\Bats\Blend\b02-schoolyard-alloy.blend"
+00:02.422  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_43048_1ee9a66f4198784519907631d7009893.png.png"
+
+FBX export starting... 'C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Bats\\FBX\\b02-schoolyard-alloy.fbx'
+export finished in 0.0124 sec.
+Info: Saved as "b02-schoolyard-alloy.blend"
+Updated FBX and saved editable source: C:\Users\sandt\Documents\Local Projects\Roblox UI Assets\PlayGround Classics\Blender\Bats\FBX\b02-schoolyard-alloy.fbx
+
+Blender quit

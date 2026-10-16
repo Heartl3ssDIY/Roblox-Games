@@ -1,0 +1,46 @@
+{
+  "id": "P04",
+  "name": "Jelly Axolotl",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p04-jelly-axolotl.png",
+  "brief": "A squat opaque aqua jelly axolotl with a rounded capsule body, four short feet, wide curved tail and three chunky pink external gill branches on each side of its broad head. Simple smiling dark face. Shiny solid candy, not transparent glass.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p04-jelly-axolotl.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p04-jelly-axolotl.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p04-jelly-axolotl-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p04-jelly-axolotl.png",
+  "parts": 38,
+  "triangles": 9280,
+  "meshes": 1,
+  "maxMeshTriangles": 9280,
+  "dimensions": [
+    2.5006840229034424,
+    2.1082210540771484,
+    1.792420744895935
+  ],
+  "boundsMin": [
+    -1.2503420114517212,
+    -0.8240000009536743,
+    0.0
+  ],
+  "boundsMax": [
+    1.2503420114517212,
+    1.2842209339141846,
+    1.792420744895935
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

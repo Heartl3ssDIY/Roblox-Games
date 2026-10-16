@@ -1,0 +1,1118 @@
+{
+  "comparedAtUtc": "2026-10-16T00:10:08.985Z",
+  "comparison": "Normalized line endings and trailing whitespace; file-name candidates are heuristic, not authoritative chronology.",
+  "localFilesScanned": 2215,
+  "scripts": [
+    {
+      "path": "ReplicatedStorage.PlaygroundCatalog",
+      "currentFile": "scripts/ReplicatedStorage/PlaygroundCatalog.luau",
+      "matchingLocalFiles": [
+        "LaserTag20261013/Integration/After/ReplicatedStorage_PlaygroundCatalog.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "LaserTag20261013/Integration/After/ReplicatedStorage_PlaygroundCatalog.luau",
+        "hash": "2f584d94f4871edee9277966f5b0b9a8d978ed34c759df13926a389db2eca5e9",
+        "bytes": 26043,
+        "mtimeUtc": "2026-10-13T17:51:48.628Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ReplicatedStorage.SkippingRopeMath",
+      "currentFile": "scripts/ReplicatedStorage/SkippingRopeMath.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Server/SkippingRopeMath.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Server/SkippingRopeMath.luau",
+        "hash": "480c6ad0b73a4ca9e370dfe9a327d55eaecc8a91080239df36472df19f0fcbdf",
+        "bytes": 2851,
+        "mtimeUtc": "2026-10-12T00:25:18.386Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.BritishBulldogBootstrap",
+      "currentFile": "scripts/ServerScriptService/BritishBulldogBootstrap.server.luau",
+      "matchingLocalFiles": [
+        "BritishBulldog20261003/BritishBulldogBootstrap.server.lua"
+      ],
+      "latestNamedCandidate": {
+        "file": "BritishBulldog20261003/BritishBulldogBootstrap.server.lua",
+        "hash": "df496c4d20dfbd9df8f02d0d9b2ada0dbc17cc6b6b6e831e0e58992a821ae068",
+        "bytes": 1167,
+        "mtimeUtc": "2026-10-03T00:50:51.776Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.BritishBulldogRules",
+      "currentFile": "scripts/ServerScriptService/BritishBulldogRules.luau",
+      "matchingLocalFiles": [
+        "LobbyRepairs20261007/Gameplay/After/BritishBulldogRules.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "LobbyRepairs20261007/Gameplay/After/BritishBulldogRules.luau",
+        "hash": "34349e4a909c9b1b4ecc158229c9f657aa0cbe1e3ec5b3b362d1fcfe3ee6b5b6",
+        "bytes": 1054,
+        "mtimeUtc": "2026-10-07T19:00:11.301Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.BritishBulldogService",
+      "currentFile": "scripts/ServerScriptService/BritishBulldogService.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": {
+        "file": "SchoolPropHunt20261011/Sprint/After/BritishBulldogService.luau",
+        "hash": "31a8d4f3b85239a55e645768646256502facd8db42e130b42fe3a791ae685784",
+        "bytes": 1348,
+        "mtimeUtc": "2026-10-11T19:27:17.796Z"
+      },
+      "status": "differs-from-local-candidate"
+    },
+    {
+      "path": "ServerScriptService.DuckDuckGooseService",
+      "currentFile": "scripts/ServerScriptService/DuckDuckGooseService.luau",
+      "matchingLocalFiles": [
+        "DuckDuckGooseRepair20261012/Server/Service.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "DuckDuckGoose20261010/Service/DuckDuckGooseService.luau",
+        "hash": "0aa0c84fd3869191e52e0fdd88288225afca3e195f3d609f2e751ee61a015998",
+        "bytes": 55975,
+        "mtimeUtc": "2026-10-10T09:03:36.218Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.HideAndSeekService",
+      "currentFile": "scripts/ServerScriptService/HideAndSeekService.luau",
+      "matchingLocalFiles": [
+        "HideSeekAbilities20261012/Server/HideAndSeekService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "HideSeekAbilities20261012/Server/HideAndSeekService.luau",
+        "hash": "91704f4b672cf9eed18e9e5f255012f81022d7552b686ece321190880a8a3ca4",
+        "bytes": 63673,
+        "mtimeUtc": "2026-10-11T23:52:49.197Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundAdminService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundAdminService.luau",
+      "matchingLocalFiles": [
+        "LaserTag20261013/Integration/After/ServerScriptService_PlaygroundAdminService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "LaserTag20261013/Integration/After/ServerScriptService_PlaygroundAdminService.luau",
+        "hash": "9eb7cba6808065aba68192dfe7316dcd62b841811ca43a47047d0d9ebc892b23",
+        "bytes": 8946,
+        "mtimeUtc": "2026-10-13T17:51:47.891Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundBootstrap",
+      "currentFile": "scripts/ServerScriptService/PlaygroundBootstrap.server.luau",
+      "matchingLocalFiles": [
+        "AdminHUD20261013/PlaygroundBootstrap.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "AdminHUD20261013/PlaygroundBootstrap.luau",
+        "hash": "6e7bddc677371402f2b96e4afc444c2ff468be518d80e10c318e98cc5f7f9513",
+        "bytes": 8049,
+        "mtimeUtc": "2026-10-13T20:37:13.525Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundCommerceService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundCommerceService.luau",
+      "matchingLocalFiles": [
+        "CommerceAvailability20261008/Before/ServerScriptService_PlaygroundCommerceService.luau",
+        "DonationProducts20261007/Before/CommerceService.luau",
+        "CaveFix20261008/DonationAudit/Before/ServerScriptService_PlaygroundCommerceService.luau",
+        "VIPIntegration20261007/Server/After/PlaygroundCommerceService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "VIPIntegration20261007/Server/After/PlaygroundCommerceService.luau",
+        "hash": "3e9414357ec852ab870f401687260bd848908f0a9e2e1957a5614324f9e6b1c9",
+        "bytes": 7997,
+        "mtimeUtc": "2026-10-07T21:47:43.688Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundCoordinator",
+      "currentFile": "scripts/ServerScriptService/PlaygroundCoordinator.luau",
+      "matchingLocalFiles": [
+        "LaserTag20261013/Integration/After/ServerScriptService_PlaygroundCoordinator.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "LaserTag20261013/Integration/After/ServerScriptService_PlaygroundCoordinator.luau",
+        "hash": "fc796889177edd7f08bdde68ff04957a825ad401d97db3d7dcaacddb65e30a9d",
+        "bytes": 25268,
+        "mtimeUtc": "2026-10-13T17:51:48.065Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundEconomyService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundEconomyService.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundEconomyService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundEconomyService.luau",
+        "hash": "8dc0f4d394890e1bec98bc54a46f53ad8a247a20e1fdc9edbb122f1ca12d937f",
+        "bytes": 58589,
+        "mtimeUtc": "2026-10-12T00:27:54.586Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundEquipmentService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundEquipmentService.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundEquipmentService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundEquipmentService.luau",
+        "hash": "a4051eb157ba18dbb70af9e1b21896239096adbc88fe24b9be196f23e94106bd",
+        "bytes": 35669,
+        "mtimeUtc": "2026-10-12T00:27:54.751Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundFishingService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundFishingService.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundFishingService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundFishingService.luau",
+        "hash": "7aded1c647115ebc7e5a4030b8ea7caebc91a8022a150a3fa98c2cfa5c1381b4",
+        "bytes": 6259,
+        "mtimeUtc": "2026-10-12T00:27:55.536Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundLeaderboardService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundLeaderboardService.luau",
+      "matchingLocalFiles": [
+        "EmoteCatalog20261005/After/PlaygroundLeaderboardService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "EmoteCatalog20261005/After/PlaygroundLeaderboardService.luau",
+        "hash": "59b91380d51221d505e2f5814e23ea572a2252bb301aca487612cff5c6d19b13",
+        "bytes": 20357,
+        "mtimeUtc": "2026-10-05T02:55:43.886Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundLobbyBenchService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundLobbyBenchService.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundLobbyBenchService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundLobbyBenchService.luau",
+        "hash": "87fb02f134bf6ae912352f04c12be73a60822bc4b3e1d99e851e3984632fb5b8",
+        "bytes": 3580,
+        "mtimeUtc": "2026-10-12T00:27:55.379Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundLobbySwingService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundLobbySwingService.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundLobbySwingService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundLobbySwingService.luau",
+        "hash": "f856c3fc018b08aa183636d6ebdd6141f1bcd3b735b4f3f05164631dacb311c7",
+        "bytes": 5322,
+        "mtimeUtc": "2026-10-12T00:27:55.065Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundPushService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundPushService.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundPushService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundPushService.luau",
+        "hash": "1ca3277e8419a2fe3905a51795d824b113b3b21a19016db6768063558fea8a3f",
+        "bytes": 6495,
+        "mtimeUtc": "2026-10-12T00:27:55.685Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundRedemptionCodes",
+      "currentFile": "scripts/ServerScriptService/PlaygroundRedemptionCodes.luau",
+      "matchingLocalFiles": [
+        "VIPIntegration20261007/Server/After/PlaygroundRedemptionCodes.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "VIPIntegration20261007/Server/After/PlaygroundRedemptionCodes.luau",
+        "hash": "7df8f0cd9e1cd0b204a760783671c0ccca4a3258dc7c51f59e9e2295c6c25315",
+        "bytes": 11,
+        "mtimeUtc": "2026-10-07T21:47:43.688Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundRegions",
+      "currentFile": "scripts/ServerScriptService/PlaygroundRegions.luau",
+      "matchingLocalFiles": [
+        "LeaderboardScopes20261004/PlaygroundRegions.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "LeaderboardScopes20261004/PlaygroundRegions.luau",
+        "hash": "30b753b552daa236ef5ed90b008b5fe83ad733fb4f5dfcaee55dc7f91700e5fa",
+        "bytes": 2235,
+        "mtimeUtc": "2026-10-04T21:07:38.132Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundSecretObbyService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundSecretObbyService.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundSecretObbyService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundSecretObbyService.luau",
+        "hash": "72eb95c37f3587ec50ebd22469c8b0914594d4ab8a6f3e16d0a83864052f663f",
+        "bytes": 9437,
+        "mtimeUtc": "2026-10-12T00:27:55.219Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.PlaygroundToyService",
+      "currentFile": "scripts/ServerScriptService/PlaygroundToyService.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundToyService.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/ServerScriptService_PlaygroundToyService.luau",
+        "hash": "00b8099b88dc4974405f4acba3af2fa9f0c9b3aa0ddddbd91d3e52dc6948f41b",
+        "bytes": 33870,
+        "mtimeUtc": "2026-10-12T00:27:54.907Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.SkippingRopeService",
+      "currentFile": "scripts/ServerScriptService/SkippingRopeService.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Solo/Service.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Server/SkippingRopeService.luau",
+        "hash": "64c49bffdc7e68e43f8666510d379a97f27e410d626301259ad0192f64e5d339",
+        "bytes": 22972,
+        "mtimeUtc": "2026-10-12T00:40:03.609Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.StuckInTheMudService",
+      "currentFile": "scripts/ServerScriptService/StuckInTheMudService.luau",
+      "matchingLocalFiles": [
+        "LaserTagAccess20261014/Service.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "HideSeekAbilities20261012/Mud/After/StuckInTheMudService.luau",
+        "hash": "d9609f7e15e33415316e8e94d637d56657faaac634a5231461a09860104a75f7",
+        "bytes": 61015,
+        "mtimeUtc": "2026-10-11T23:53:11.648Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "ServerScriptService.TagService",
+      "currentFile": "scripts/ServerScriptService/TagService.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": {
+        "file": "SchoolPropHunt20261011/Sprint/After/TagService.luau",
+        "hash": "d884b71bd8007986ad80a315e7e172f431e7c49a8493e42ccdf31ef0e8309bfe",
+        "bytes": 925,
+        "mtimeUtc": "2026-10-11T19:27:18.159Z"
+      },
+      "status": "differs-from-local-candidate"
+    },
+    {
+      "path": "ServerScriptService.TagSprintService",
+      "currentFile": "scripts/ServerScriptService/TagSprintService.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": {
+        "file": "SchoolPropHunt20261011/Sprint/After/TagSprintService.luau",
+        "hash": "87bc537030920bd7097a2e8e871827ccc8239d59d3b4b4abac12083938d5ffc5",
+        "bytes": 2324,
+        "mtimeUtc": "2026-10-11T19:27:18.339Z"
+      },
+      "status": "differs-from-local-candidate"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R15_HeatGun_Stand.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R15_HeatGun_Stand/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R15_HeatGun_Walk.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R15_HeatGun_Walk/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R15_MudGun_Stand.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R15_MudGun_Stand/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R15_MudGun_Walk.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R15_MudGun_Walk/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R6_HeatGun_Stand.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R6_HeatGun_Stand/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R6_HeatGun_Walk.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R6_HeatGun_Walk/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R6_MudGun_Stand.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R6_MudGun_Stand/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R6_MudGun_Walk.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R6_MudGun_Walk/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.R15.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/R15/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "ServerStorage.WeaponRigFixtures.R6.Animate",
+      "currentFile": "scripts/ServerStorage/WeaponRigFixtures/R6/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "StarterGui.BritishBulldogHUD.BackgroundFallbackController",
+      "currentFile": "scripts/StarterGui/BritishBulldogHUD/BackgroundFallbackController.client.luau",
+      "matchingLocalFiles": [
+        "PhoneHudRepair20261009/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "ToyGameplay20261005/Before/BackgroundFallbackController.client.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundLeaderboards_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_BackgroundFallbackController.luau",
+        "UIBackgroundRecovery20261004/BackgroundFallbackController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.BritishBulldogHUD.Controller",
+      "currentFile": "scripts/StarterGui/BritishBulldogHUD/Controller.client.luau",
+      "matchingLocalFiles": [
+        "GameplayRepair20261005/After/BritishBulldogHUD.Controller.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "GameplayRepair20261005/After/BritishBulldogHUD.Controller.luau",
+        "hash": "b4c8e1f62e0dfe30d310d15cb7d10cbd44247b73d4cc0c1d88051c60cc5d7725",
+        "bytes": 7471,
+        "mtimeUtc": "2026-10-05T02:00:52.537Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.BritishBulldogHUD.MovementController",
+      "currentFile": "scripts/StarterGui/BritishBulldogHUD/MovementController.client.luau",
+      "matchingLocalFiles": [
+        "PhoneHudRepair20261009/GameUI/BritishBulldogHUD_MovementController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_MovementController.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "PhoneHudRepair20261009/GameUI/BritishBulldogHUD_MovementController.luau",
+        "hash": "432ce5d7a0dad57735b72f475f1257c9bbb756134e653639730505a6cbea3041",
+        "bytes": 13874,
+        "mtimeUtc": "2026-10-09T17:08:11.943Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.BritishBulldogHUD.ReusableSkinController",
+      "currentFile": "scripts/StarterGui/BritishBulldogHUD/ReusableSkinController.client.luau",
+      "matchingLocalFiles": [
+        "BatAdminUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "GameplayRepair20261005/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "PhoneHudRepair20261009/Before/PlaygroundShell_ReusableSkinController.luau",
+        "ToyGameplay20261005/Before/ReusableSkinController.client.luau",
+        "MobileSwing20261008/Before/StarterGui.TagHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundShell.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.MudHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/After/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_ReusableSkinController.luau",
+        "UIReskin20261004/ReusableSkinController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.DuckDuckGooseHUD.Controller",
+      "currentFile": "scripts/StarterGui/DuckDuckGooseHUD/Controller.client.luau",
+      "matchingLocalFiles": [
+        "DuckDuckGooseRepair20261012/UI/Controller.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.DuckDuckGooseHUD.Guidance",
+      "currentFile": "scripts/StarterGui/DuckDuckGooseHUD/Guidance.luau",
+      "matchingLocalFiles": [
+        "DuckDuckGooseRepair20261012/UI/Guidance.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "DuckDuckGooseRepair20261012/UI/Guidance.luau",
+        "hash": "77cee09be452054c5b4396b16d86cb8b14cda10da4e18a759a7d223e2b31ce67",
+        "bytes": 7984,
+        "mtimeUtc": "2026-10-12T00:16:43.603Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.HideAndSeekHUD.Abilities",
+      "currentFile": "scripts/StarterGui/HideAndSeekHUD/Abilities.luau",
+      "matchingLocalFiles": [
+        "HideSeekAbilities20261012/UI/Abilities.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "HideSeekAbilities20261012/UI/Abilities.luau",
+        "hash": "c31223ae47d8a7841596269dbbde990076ad67f291da5aa6f47e93117517fa7a",
+        "bytes": 13379,
+        "mtimeUtc": "2026-10-11T23:58:55.774Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.HideAndSeekHUD.Controller",
+      "currentFile": "scripts/StarterGui/HideAndSeekHUD/Controller.client.luau",
+      "matchingLocalFiles": [
+        "HideSeekAbilities20261012/UI/ControllerAfter.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SchoolPropHunt20261011/UI/Install_HideAndSeekHUD_Controller.luau",
+        "hash": "a825eac99c22cc4491cb0aaa752914c8447cc5a41405ec1a8b7ecde1a46ed21e",
+        "bytes": 18257,
+        "mtimeUtc": "2026-10-11T19:26:07.298Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.MudHUD.BackgroundFallbackController",
+      "currentFile": "scripts/StarterGui/MudHUD/BackgroundFallbackController.client.luau",
+      "matchingLocalFiles": [
+        "PhoneHudRepair20261009/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "ToyGameplay20261005/Before/BackgroundFallbackController.client.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundLeaderboards_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_BackgroundFallbackController.luau",
+        "UIBackgroundRecovery20261004/BackgroundFallbackController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.MudHUD.Controller",
+      "currentFile": "scripts/StarterGui/MudHUD/Controller.client.luau",
+      "matchingLocalFiles": [
+        "LaserTagMobile20261014/Controller/Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "PhoneHudRepair20261009/GameUI/MudHUD_Controller.luau",
+        "hash": "ace7dda6337ef36a34fadd926bff34d274ff85749708e22dcffe1fa53c977292",
+        "bytes": 16765,
+        "mtimeUtc": "2026-10-09T17:12:24.237Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.MudHUD.ReusableSkinController",
+      "currentFile": "scripts/StarterGui/MudHUD/ReusableSkinController.client.luau",
+      "matchingLocalFiles": [
+        "BatAdminUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "GameplayRepair20261005/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "PhoneHudRepair20261009/Before/PlaygroundShell_ReusableSkinController.luau",
+        "ToyGameplay20261005/Before/ReusableSkinController.client.luau",
+        "MobileSwing20261008/Before/StarterGui.TagHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundShell.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.MudHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/After/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_ReusableSkinController.luau",
+        "UIReskin20261004/ReusableSkinController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.BackgroundFallbackController",
+      "currentFile": "scripts/StarterGui/PlaygroundAdminPanel/BackgroundFallbackController.client.luau",
+      "matchingLocalFiles": [
+        "PhoneHudRepair20261009/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "ToyGameplay20261005/Before/BackgroundFallbackController.client.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundLeaderboards_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_BackgroundFallbackController.luau",
+        "UIBackgroundRecovery20261004/BackgroundFallbackController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundAdminPanel/Controller.client.luau",
+      "matchingLocalFiles": [
+        "LaserTagAccess20261014/AdminController.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "LaserTag20261013/Integration/After/StarterGui_PlaygroundAdminPanel_Controller.luau",
+        "hash": "df2031be8f538eb7bc2df9244ce2d6e32d927985abaa6e6213f50be74c6fb600",
+        "bytes": 16893,
+        "mtimeUtc": "2026-10-13T17:51:48.239Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundAdminPanel.ReusableSkinController",
+      "currentFile": "scripts/StarterGui/PlaygroundAdminPanel/ReusableSkinController.client.luau",
+      "matchingLocalFiles": [
+        "BatAdminUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "GameplayRepair20261005/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "PhoneHudRepair20261009/Before/PlaygroundShell_ReusableSkinController.luau",
+        "ToyGameplay20261005/Before/ReusableSkinController.client.luau",
+        "MobileSwing20261008/Before/StarterGui.TagHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundShell.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.MudHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/After/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_ReusableSkinController.luau",
+        "UIReskin20261004/ReusableSkinController.client.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "WeaponRigUpdate20261004/After/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "hash": "650aa7cd5c6e0b182e7149e1e563ab72231772f8b4c14bdafd3e88b4b57c79c7",
+        "bytes": 7066,
+        "mtimeUtc": "2026-10-04T18:50:19.794Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundBatControls.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundBatControls/Controller.client.luau",
+      "matchingLocalFiles": [
+        "DuckDuckGoose20261010/Integration/After/StarterGui__PlaygroundBatControls__Controller.luau",
+        "SkippingRope20261012/Integration/Before/StarterGui_PlaygroundBatControls_Controller.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundBatControls_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "HideAndSeekSchool20261010/Integration/After/StarterGui.PlaygroundBatControls.Controller.luau",
+        "hash": "ac39b63fa044cffc94bc1f000632fc90adb2c32c3318aff07fd97382d51e4c2c",
+        "bytes": 4040,
+        "mtimeUtc": "2026-10-10T04:39:51.531Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundDonations.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundDonations/Controller.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterGui_PlaygroundDonations_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterGui_PlaygroundDonations_Controller.luau",
+        "hash": "5d1c3aca44e0394a31590b4333cb277e5f1283c91fe5f6d502df3931f2f82cca",
+        "bytes": 5846,
+        "mtimeUtc": "2026-10-12T00:27:56.940Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundEmoteWheel.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundEmoteWheel/Controller.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterGui_PlaygroundEmoteWheel_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterGui_PlaygroundEmoteWheel_Controller.luau",
+        "hash": "97ebe48a12ad9d6927c2cfde795563de690a55a2a7c0b8d7380b161b734ccc40",
+        "bytes": 16598,
+        "mtimeUtc": "2026-10-12T00:27:56.782Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundFishingHUD.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundFishingHUD/Controller.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterGui_PlaygroundFishingHUD_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterGui_PlaygroundFishingHUD_Controller.luau",
+        "hash": "22d3babdf2c9af840a70c4e4b5cc552677ce942514a5764baead46d2405ac394",
+        "bytes": 3654,
+        "mtimeUtc": "2026-10-12T00:27:57.095Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundIntermissionHUD.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundIntermissionHUD/Controller.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterGui_PlaygroundIntermissionHUD_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterGui_PlaygroundIntermissionHUD_Controller.luau",
+        "hash": "6bb51028457099f07247ada4d68b4484d038c486ea8e2e475f960c0c9e787ebd",
+        "bytes": 4514,
+        "mtimeUtc": "2026-10-12T00:27:57.401Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundLeaderboards.BackgroundFallbackController",
+      "currentFile": "scripts/StarterGui/PlaygroundLeaderboards/BackgroundFallbackController.client.luau",
+      "matchingLocalFiles": [
+        "PhoneHudRepair20261009/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "ToyGameplay20261005/Before/BackgroundFallbackController.client.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundLeaderboards_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_BackgroundFallbackController.luau",
+        "UIBackgroundRecovery20261004/BackgroundFallbackController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundLeaderboards.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundLeaderboards/Controller.client.luau",
+      "matchingLocalFiles": [
+        "EmoteCatalog20261005/Before/PlaygroundLeaderboardController.client.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundLeaderboards_Controller.luau",
+        "UIShellPolish20261004/After/StarterGui.PlaygroundLeaderboards.Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "UIShellPolish20261004/After/StarterGui.PlaygroundLeaderboards.Controller.luau",
+        "hash": "05b32ac6e24390a8d32cbbfef0c1ea9548efa3bf1ee2efd87264f53c0c28ddb8",
+        "bytes": 11959,
+        "mtimeUtc": "2026-10-04T22:38:39.348Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundPodium.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundPodium/Controller.client.luau",
+      "matchingLocalFiles": [
+        "PodiumFacing20261007/Controller.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundPodium_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "PriorityPass20261007/After/PlaygroundPodium.Controller.luau",
+        "hash": "ae9755640a30a92d91666dc4880f554db3e5b07b6fd4ae0504b01f40f8151b50",
+        "bytes": 18181,
+        "mtimeUtc": "2026-10-07T02:33:49.336Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundPushControls.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundPushControls/Controller.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterGui_PlaygroundPushControls_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterGui_PlaygroundPushControls_Controller.luau",
+        "hash": "0aa241263000495877afddd3ee035b76e847caf279774bab6d94ca8f8d1a3dc8",
+        "bytes": 6360,
+        "mtimeUtc": "2026-10-12T00:27:57.248Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundSessionControls.CodeController",
+      "currentFile": "scripts/StarterGui/PlaygroundSessionControls/CodeController.client.luau",
+      "matchingLocalFiles": [
+        "PhoneHudRepair20261009/Before/PlaygroundSessionControls_CodeController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundSessionControls_CodeController.luau",
+        "VIPIntegration20261007/UI/After/CodeController.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundSessionControls.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundSessionControls/Controller.client.luau",
+      "matchingLocalFiles": [
+        "LaserTag20261013/Integration/After/StarterGui_PlaygroundSessionControls_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "LaserTag20261013/Integration/After/StarterGui_PlaygroundSessionControls_Controller.luau",
+        "hash": "b1a1d17c62a59a054d23184da448ec326c513d900c73a8afde84c481d2ff6404",
+        "bytes": 22049,
+        "mtimeUtc": "2026-10-13T17:51:48.804Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.BackgroundFallbackController",
+      "currentFile": "scripts/StarterGui/PlaygroundShell/BackgroundFallbackController.client.luau",
+      "matchingLocalFiles": [
+        "PhoneHudRepair20261009/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "ToyGameplay20261005/Before/BackgroundFallbackController.client.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundLeaderboards_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_BackgroundFallbackController.luau",
+        "UIBackgroundRecovery20261004/BackgroundFallbackController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.CommerceController",
+      "currentFile": "scripts/StarterGui/PlaygroundShell/CommerceController.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterGui_PlaygroundShell_CommerceController.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterGui_PlaygroundShell_CommerceController.luau",
+        "hash": "999cfbbf8b3f0d64850266157228d8618576de4bcb2da30bc09d33484ba0bb0e",
+        "bytes": 7099,
+        "mtimeUtc": "2026-10-12T00:27:56.471Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundShell/Controller.client.luau",
+      "matchingLocalFiles": [
+        "LaserTag20261013/Integration/After/StarterGui_PlaygroundShell_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "LaserTag20261013/Integration/After/StarterGui_PlaygroundShell_Controller.luau",
+        "hash": "1c4468eb65e621a53722bde7ca38577208ac01f5525ceeb699e2bdbc579fd423",
+        "bytes": 31448,
+        "mtimeUtc": "2026-10-13T17:51:48.446Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.PlayerLevelController",
+      "currentFile": "scripts/StarterGui/PlaygroundShell/PlayerLevelController.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterGui_PlaygroundShell_PlayerLevelController.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterGui_PlaygroundShell_PlayerLevelController.luau",
+        "hash": "2cd1a960f33838dcecc0d170b01bcb767a199d7aa8e9577ea67ba05227f155d3",
+        "bytes": 12388,
+        "mtimeUtc": "2026-10-12T00:27:56.316Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundShell.ReusableSkinController",
+      "currentFile": "scripts/StarterGui/PlaygroundShell/ReusableSkinController.client.luau",
+      "matchingLocalFiles": [
+        "BatAdminUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "GameplayRepair20261005/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "PhoneHudRepair20261009/Before/PlaygroundShell_ReusableSkinController.luau",
+        "ToyGameplay20261005/Before/ReusableSkinController.client.luau",
+        "MobileSwing20261008/Before/StarterGui.TagHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundShell.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.MudHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/After/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_ReusableSkinController.luau",
+        "UIReskin20261004/ReusableSkinController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.PlaygroundToyHotbar.Controller",
+      "currentFile": "scripts/StarterGui/PlaygroundToyHotbar/Controller.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterGui_PlaygroundToyHotbar_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterGui_PlaygroundToyHotbar_Controller.luau",
+        "hash": "14946e83b92f7e54235ddf86d0d9ab8d5364b03c1485512259a6b790236d086d",
+        "bytes": 12208,
+        "mtimeUtc": "2026-10-12T00:27:56.627Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.SkippingRopeHUD.Controller",
+      "currentFile": "scripts/StarterGui/SkippingRopeHUD/Controller.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/UI/Controller.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.SkippingRopeHUD.Presentation",
+      "currentFile": "scripts/StarterGui/SkippingRopeHUD/Presentation.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/UI/Presentation.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/UI/Presentation.luau",
+        "hash": "392aab2ef1a393438b2eef339c86c97570a67472fff82c2f3a548c6c518c1a0f",
+        "bytes": 1186,
+        "mtimeUtc": "2026-10-12T00:30:31.558Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.TagHUD.BackgroundFallbackController",
+      "currentFile": "scripts/StarterGui/TagHUD/BackgroundFallbackController.client.luau",
+      "matchingLocalFiles": [
+        "PhoneHudRepair20261009/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "ToyGameplay20261005/Before/BackgroundFallbackController.client.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundLeaderboards_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_BackgroundFallbackController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_BackgroundFallbackController.luau",
+        "UIBackgroundRecovery20261004/BackgroundFallbackController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.TagHUD.Controller",
+      "currentFile": "scripts/StarterGui/TagHUD/Controller.client.luau",
+      "matchingLocalFiles": [
+        "PushAction20261008/UI/Before_StarterGui_TagHUD_Controller.luau",
+        "PodiumDodge20261007/AfterTagController.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_Controller.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "PushAction20261008/UI/Before_StarterGui_TagHUD_Controller.luau",
+        "hash": "edf4d36c7e42dcc826d5723dd163d1d7ac9f48ebdfa79188220da53f62dd4a3e",
+        "bytes": 6836,
+        "mtimeUtc": "2026-10-08T18:13:54.032Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.TagHUD.ReusableSkinController",
+      "currentFile": "scripts/StarterGui/TagHUD/ReusableSkinController.client.luau",
+      "matchingLocalFiles": [
+        "BatAdminUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "GameplayRepair20261005/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "PhoneHudRepair20261009/Before/PlaygroundShell_ReusableSkinController.luau",
+        "ToyGameplay20261005/Before/ReusableSkinController.client.luau",
+        "MobileSwing20261008/Before/StarterGui.TagHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundShell.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.MudHUD.ReusableSkinController.luau",
+        "MobileSwing20261008/Before/StarterGui.BritishBulldogHUD.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/Before/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "WeaponRigUpdate20261004/After/StarterGui.PlaygroundAdminPanel.ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundShell_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/PlaygroundAdminPanel_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/MudHUD_ReusableSkinController.luau",
+        "SchoolPropHunt20261011/UI/Before/BritishBulldogHUD_ReusableSkinController.luau",
+        "UIReskin20261004/ReusableSkinController.client.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterGui.TagHUD.SprintController",
+      "currentFile": "scripts/StarterGui/TagHUD/SprintController.client.luau",
+      "matchingLocalFiles": [
+        "PhoneHudRepair20261009/GameUI/TagHUD_SprintController.luau",
+        "SchoolPropHunt20261011/UI/Before/TagHUD_SprintController.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "PhoneHudRepair20261009/GameUI/TagHUD_SprintController.luau",
+        "hash": "a3539b502e436d33ab8c19a951bb77f9864b4570166913b8e7d0bb471aea49a0",
+        "bytes": 6496,
+        "mtimeUtc": "2026-10-09T17:08:11.770Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterPlayer.StarterPlayerScripts.4 ORBIT REVEAL",
+      "currentFile": "scripts/StarterPlayer/StarterPlayerScripts/4%20ORBIT%20REVEAL.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "currentFile": "scripts/StarterPlayer/StarterPlayerScripts/BritishBulldogCamera.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterPlayer_StarterPlayerScripts_BritishBulldogCamera.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterPlayer_StarterPlayerScripts_BritishBulldogCamera.luau",
+        "hash": "7997ac620a823179d09ee024e49ee270e663034ef0d9b7000ae3a8483b4be0b4",
+        "bytes": 4648,
+        "mtimeUtc": "2026-10-12T00:27:58.485Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+      "currentFile": "scripts/StarterPlayer/StarterPlayerScripts/PlaygroundEmotes.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterPlayer_StarterPlayerScripts_PlaygroundEmotes.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterPlayer_StarterPlayerScripts_PlaygroundEmotes.luau",
+        "hash": "bdc8c457ab9426cc256806b1a46d88ac426b2cd71916807917dc4a31030a4a50",
+        "bytes": 41363,
+        "mtimeUtc": "2026-10-12T00:27:55.998Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere",
+      "currentFile": "scripts/StarterPlayer/StarterPlayerScripts/PlaygroundLobbyAtmosphere.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/Integration/After/StarterPlayer_StarterPlayerScripts_PlaygroundLobbyAtmosphere.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "SkippingRope20261012/Integration/After/StarterPlayer_StarterPlayerScripts_PlaygroundLobbyAtmosphere.luau",
+        "hash": "40e9089c0855511e2ba2f7c58f9331505a3786ca19933b42c7df2e8a7af58f34",
+        "bytes": 2845,
+        "mtimeUtc": "2026-10-12T00:27:55.837Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundPets",
+      "currentFile": "scripts/StarterPlayer/StarterPlayerScripts/PlaygroundPets.client.luau",
+      "matchingLocalFiles": [
+        "DuckDuckGoose20261010/Integration/Before/StarterPlayer__StarterPlayerScripts__PlaygroundPets.luau",
+        "HideAndSeekSchool20261010/Integration/After/StarterPlayer.StarterPlayerScripts.PlaygroundPets.luau"
+      ],
+      "latestNamedCandidate": {
+        "file": "HideAndSeekSchool20261010/Integration/After/StarterPlayer.StarterPlayerScripts.PlaygroundPets.luau",
+        "hash": "39fe7953379dfe3438302ba59999ccb1d74a0c763371be1ba17e3d6dce791cce",
+        "bytes": 17829,
+        "mtimeUtc": "2026-10-10T04:39:53.595Z"
+      },
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "StarterPlayer.StarterPlayerScripts.SkippingRopeVisuals",
+      "currentFile": "scripts/StarterPlayer/StarterPlayerScripts/SkippingRopeVisuals.client.luau",
+      "matchingLocalFiles": [
+        "SkippingRope20261012/UI/Visuals.luau"
+      ],
+      "latestNamedCandidate": null,
+      "status": "exact-content-match-found"
+    },
+    {
+      "path": "Workspace.Owner - Lead Developer.Animate",
+      "currentFile": "scripts/Workspace/Owner%20-%20Lead%20Developer/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    },
+    {
+      "path": "Workspace.Rig.Animate",
+      "currentFile": "scripts/Workspace/Rig/Animate.client.luau",
+      "matchingLocalFiles": [],
+      "latestNamedCandidate": null,
+      "status": "no-matching-local-export-found"
+    }
+  ]
+}

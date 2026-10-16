@@ -1,0 +1,51 @@
+{
+  "id": "P14",
+  "name": "Hoodie Ghost",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p14-hoodie-ghost.png",
+  "brief": "A cute rounded opaque white ghost with a short wavy base instead of legs, wearing a chunky purple hood with tiny rounded cat-ear points and a bright green front pocket. Two little mitten hands are attached to the body, simple black oval eyes and happy mouth, no transparency or floating wisps.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p14-hoodie-ghost.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p14-hoodie-ghost.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p14-hoodie-ghost-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p14-hoodie-ghost.png",
+  "parts": 35,
+  "triangles": 9644,
+  "meshes": 1,
+  "maxMeshTriangles": 9644,
+  "dimensions": [
+    1.6200000047683716,
+    1.1435198783874512,
+    1.9131534099578857
+  ],
+  "boundsMin": [
+    -0.8100000023841858,
+    -0.6039999723434448,
+    0.05212023854255676
+  ],
+  "boundsMax": [
+    0.8100000023841858,
+    0.5395199060440063,
+    1.9652736186981201
+  ],
+  "paletteColors": 8,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    1.6200000047683716,
+    1.1435198783874512,
+    1.9131534099578857
+  ]
+}

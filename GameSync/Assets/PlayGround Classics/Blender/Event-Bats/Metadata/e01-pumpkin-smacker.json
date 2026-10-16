@@ -1,0 +1,51 @@
+{
+  "id": "E01",
+  "name": "Pumpkin Smacker",
+  "category": "Event-Bats",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Bats\\Originals\\e01-pumpkin-smacker.png",
+  "brief": "Halloween baseball bat with a long segmented pumpkin-orange rounded barrel, a simple friendly jack-o-lantern face inset on its side, green collar with two small attached leaves, dark purple grip and orange knob. Keep a recognisable elongated bat, not a pumpkin on a stick.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Blend\\e01-pumpkin-smacker.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\FBX\\e01-pumpkin-smacker.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Textures\\e01-pumpkin-smacker-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Bats\\Previews\\e01-pumpkin-smacker.png",
+  "parts": 17,
+  "triangles": 15226,
+  "meshes": 1,
+  "maxMeshTriangles": 15226,
+  "dimensions": [
+    0.6357712745666504,
+    0.6550577878952026,
+    3.5360000133514404
+  ],
+  "boundsMin": [
+    -0.3178856372833252,
+    -0.33717215061187744,
+    -0.4560000002384186
+  ],
+  "boundsMax": [
+    0.3178856372833252,
+    0.3178856372833252,
+    3.0799999237060547
+  ],
+  "paletteColors": 7,
+  "anchors": {
+    "Grip": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "BarrelTip": [
+      0.0,
+      0.0,
+      3.0799999237060547
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false,
+  "exportDimensions": [
+    0.6357712745666504,
+    0.6550577878952026,
+    3.5360000133514404
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "D08",
+  "name": "Snow Buddy",
+  "category": "Event-Decorations",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Event-Decorations\\Originals\\d08-snow-buddy.png",
+  "brief": "One cute toy snowman decoration with two broad ivory snowballs, short navy hat, thick red scarf with ends attached to body, orange carrot nose and two short navy mitten arms. Flat stable base, no floor, snowflakes or text.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Blend\\d08-snow-buddy.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\FBX\\d08-snow-buddy.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Textures\\d08-snow-buddy-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Event-Decorations\\Previews\\d08-snow-buddy.png",
+  "parts": 27,
+  "triangles": 6464,
+  "meshes": 1,
+  "maxMeshTriangles": 6464,
+  "dimensions": [
+    2.3782248497009277,
+    1.5750000476837158,
+    2.619999885559082
+  ],
+  "boundsMin": [
+    -1.1891124248504639,
+    -0.9050000309944153,
+    -0.010000050067901611
+  ],
+  "boundsMax": [
+    1.1891124248504639,
+    0.6700000166893005,
+    2.609999895095825
+  ],
+  "paletteColors": 5,
+  "anchors": {
+    "PlacementOrigin": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

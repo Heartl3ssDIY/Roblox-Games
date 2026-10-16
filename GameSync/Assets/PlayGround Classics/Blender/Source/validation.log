@@ -1,0 +1,142 @@
+FBX version: 7400
+FBX_AUDIT {"id": "B01", "meshes": 1, "triangles": 3440, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6460000276565552, 0.6717377603054047, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B02", "meshes": 1, "triangles": 3316, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6460000276565552, 0.6460005939006805, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B03", "meshes": 1, "triangles": 3196, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6634423136711121, 0.7100005745887756, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B04", "meshes": 1, "triangles": 3064, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.68146151304245, 0.6814620792865753, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B05", "meshes": 1, "triangles": 4368, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.7179999947547913, 0.6532148718833923, 3.5409999787807465], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B06", "meshes": 1, "triangles": 3792, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.7150223851203918, 0.7062117457389832, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B07", "meshes": 1, "triangles": 5220, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.7609999775886536, 0.7610005438327789, 3.538500040769577], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B08", "meshes": 1, "triangles": 2142, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6957692503929138, 0.6957698464393616, 3.590000182390213], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B09", "meshes": 1, "triangles": 3392, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6460000276565552, 0.7070005834102631, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B10", "meshes": 1, "triangles": 2950, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6949999928474426, 0.6301006078720093, 3.517500251531601], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B11", "meshes": 1, "triangles": 4620, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.7319999933242798, 0.7320005595684052, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B12", "meshes": 1, "triangles": 5892, "boundaryEdges": 28, "nonmanifoldEdges": 28, "degenerateFaces": 3, "badUVs": 0, "dimensions": [0.6944000124931335, 0.717413067817688, 3.6240000426769257], "issues": ["Boundary edges: 28", "Nonmanifold edges: 28", "Zero-area faces: 3"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "B13", "meshes": 1, "triangles": 3592, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.669605016708374, 0.6657627522945404, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B14", "meshes": 1, "triangles": 4836, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.791036456823349, 0.7901993095874786, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "B15", "meshes": 1, "triangles": 4108, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6617742776870728, 0.6694218814373016, 3.5529999434947968], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "E01", "meshes": 1, "triangles": 4744, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6842992305755615, 0.6805496513843536, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "E02", "meshes": 1, "triangles": 5880, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6460000276565552, 0.7200005650520325, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "E03", "meshes": 1, "triangles": 9980, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.7879999876022339, 0.794000655412674, 3.9026012122631073], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "E04", "meshes": 1, "triangles": 5012, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.6816110014915466, 0.6747029721736908, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "E05", "meshes": 1, "triangles": 5548, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.738749235868454, 0.7388463318347931, 3.535999983549118], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "E06", "meshes": 1, "triangles": 5710, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.7154648900032043, 0.7187469005584717, 3.656000107526779], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D01", "meshes": 1, "triangles": 3364, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [2.191699981689453, 1.8007553815841675, 2.102474559098482], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D02", "meshes": 1, "triangles": 6468, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.9700000286102295, 2.301100254058838, 1.9850005190819502], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D03", "meshes": 1, "triangles": 6808, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [2.440000057220459, 1.856600284576416, 1.804855016471123], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D04", "meshes": 1, "triangles": 5556, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [3.239999771118164, 0.8400005102157593, 3.2698219502344728], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D05", "meshes": 1, "triangles": 3656, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.8067288398742676, 1.6307045221328735, 2.838586926460266], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D06", "meshes": 1, "triangles": 11552, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [2.059999942779541, 1.7400004863739014, 2.775000469010166], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D07", "meshes": 1, "triangles": 8588, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.8899999856948853, 1.8900004625320435, 2.8822332968128137], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D08", "meshes": 1, "triangles": 5680, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [2.43999981880188, 1.5750004649162292, 2.620000292547047], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D09", "meshes": 1, "triangles": 10044, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.8696051836013794, 1.8500003814697266, 2.0150004364550114], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D10", "meshes": 1, "triangles": 2460, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.340000033378601, 1.3400004506111145, 2.4137266773788966], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D11", "meshes": 1, "triangles": 2064, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [2.180000066757202, 1.3427117466926575, 2.6300004636868834], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "D12", "meshes": 1, "triangles": 11112, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.7799999713897705, 1.780000388622284, 2.650000240366822], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "C01", "meshes": 1, "triangles": 6994, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [2.0299999713897705, 0.47800031304359436, 2.0299999713897705], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M01", "meshes": 1, "triangles": 5472, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.8882895708084106, 1.8882898688316345, 1.8882898446172476], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M02", "meshes": 1, "triangles": 6496, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.9259714484214783, 1.9260002970695496, 1.9260003920644522], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M03", "meshes": 1, "triangles": 3120, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.7680000066757202, 0.7680004239082336, 2.607499897480011], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M04", "meshes": 1, "triangles": 3136, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.6820000410079956, 1.6820003390312195, 1.740000265762319], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M05", "meshes": 1, "triangles": 5128, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.6920000314712524, 0.8950003683567047, 2.1924999728798866], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M06", "meshes": 1, "triangles": 3268, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.2980000972747803, 1.2980003356933594, 2.1725001139566302], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M07", "meshes": 1, "triangles": 4540, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.2999999523162842, 1.0175003707408905, 2.1125000715255737], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M08", "meshes": 1, "triangles": 3440, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.5768868923187256, 1.3800002932548523, 1.9737611934542656], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M09", "meshes": 1, "triangles": 6048, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.1799999475479126, 2.170928955078125, 2.124261863529682], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M10", "meshes": 1, "triangles": 4172, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.0800000429153442, 2.268500328063965, 2.168600097298622], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M11", "meshes": 1, "triangles": 4320, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.523555040359497, 1.421967089176178, 1.335000118240714], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M12", "meshes": 1, "triangles": 1756, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.284000039100647, 1.2840003371238708, 1.8300002667197077], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M13", "meshes": 1, "triangles": 4340, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.5119999647140503, 1.5760003328323364, 1.9811414331197739], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M14", "meshes": 1, "triangles": 3288, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [0.9100000262260437, 0.9100004136562347, 2.394019842147827], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "M15", "meshes": 1, "triangles": 5688, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [2.0799999237060547, 2.080000162124634, 1.3410528162494302], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P01", "meshes": 1, "triangles": 10084, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.9706060290336609, 2.3295469284057617, 2.000536758452654], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P02", "meshes": 1, "triangles": 5268, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.3899999856948853, 2.217000126838684, 1.7280004518641618], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P03", "meshes": 1, "triangles": 10528, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.6630810499191284, 1.364000380039215, 2.4650004683062434], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P04", "meshes": 1, "triangles": 8104, "boundaryEdges": 28, "nonmanifoldEdges": 28, "degenerateFaces": 0, "badUVs": 0, "dimensions": [2.4107484817504883, 2.1247770190238953, 1.7420707640261242], "issues": ["Boundary edges: 28", "Nonmanifold edges: 28"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "P05", "meshes": 1, "triangles": 10076, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.5484259128570557, 2.0400314331054688, 2.276595308890606], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P06", "meshes": 1, "triangles": 8404, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [2.6499998569488525, 1.0710002779960632, 1.808709479868412], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P07", "meshes": 1, "triangles": 9776, "boundaryEdges": 6, "nonmanifoldEdges": 6, "degenerateFaces": 1, "badUVs": 0, "dimensions": [2.238456964492798, 1.4160003066062927, 1.7280002878978848], "issues": ["Boundary edges: 6", "Nonmanifold edges: 6", "Zero-area faces: 1"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "P08", "meshes": 1, "triangles": 9544, "boundaryEdges": 12, "nonmanifoldEdges": 12, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.4700000286102295, 1.4320003986358643, 2.2351708631031215], "issues": ["Boundary edges: 12", "Nonmanifold edges: 12"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "P09", "meshes": 1, "triangles": 11628, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.5977625846862793, 1.943000316619873, 2.1043342612683773], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P10", "meshes": 1, "triangles": 9368, "boundaryEdges": 8, "nonmanifoldEdges": 8, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.694714069366455, 1.5230003595352173, 1.7500002542510629], "issues": ["Boundary edges: 8", "Nonmanifold edges: 8"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "P11", "meshes": 1, "triangles": 10083, "boundaryEdges": 37, "nonmanifoldEdges": 37, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.7574132680892944, 1.748454749584198, 1.972656400874257], "issues": ["Boundary edges: 37", "Nonmanifold edges: 37"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "P12", "meshes": 1, "triangles": 10892, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.7799999713897705, 1.7800002694129944, 1.890000249903565], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P13", "meshes": 1, "triangles": 12708, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.2400000095367432, 1.7530003190040588, 2.08749096468091], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P14", "meshes": 1, "triangles": 8367, "boundaryEdges": 39, "nonmanifoldEdges": 39, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.6200000047683716, 1.134000301361084, 1.8364154919981956], "issues": ["Boundary edges: 39", "Nonmanifold edges: 39"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "P15", "meshes": 1, "triangles": 14752, "boundaryEdges": 62, "nonmanifoldEdges": 62, "degenerateFaces": 1, "badUVs": 0, "dimensions": [2.4901723861694336, 1.9753001928329468, 2.1629332783962525], "issues": ["Boundary edges: 62", "Nonmanifold edges: 62", "Zero-area faces: 1"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "P16", "meshes": 1, "triangles": 15358, "boundaryEdges": 42, "nonmanifoldEdges": 42, "degenerateFaces": 2, "badUVs": 0, "dimensions": [2.3421645164489746, 1.2575003504753113, 2.3496359130367637], "issues": ["Boundary edges: 42", "Nonmanifold edges: 42", "Zero-area faces: 2"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "P17", "meshes": 1, "triangles": 13020, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.4653756618499756, 2.1146750450134277, 2.2100004578432646], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P18", "meshes": 1, "triangles": 6700, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 0, "badUVs": 0, "dimensions": [1.6624999642372131, 1.106000304222107, 1.970000196248293], "issues": [], "pass": true}
+FBX version: 7400
+FBX_AUDIT {"id": "P19", "meshes": 1, "triangles": 14212, "boundaryEdges": 48, "nonmanifoldEdges": 48, "degenerateFaces": 4, "badUVs": 0, "dimensions": [2.3767940998077393, 0.8110003173351288, 2.064710410311818], "issues": ["Boundary edges: 48", "Nonmanifold edges: 48", "Zero-area faces: 4"], "pass": false}
+FBX version: 7400
+FBX_AUDIT {"id": "P20", "meshes": 1, "triangles": 9340, "boundaryEdges": 0, "nonmanifoldEdges": 0, "degenerateFaces": 5, "badUVs": 0, "dimensions": [1.7400000095367432, 1.2384729385375977, 2.071000066585839], "issues": ["Zero-area faces: 5"], "pass": false}
+AUDIT_COMPLETE 69 FAILURES 11
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,46 @@
+{
+  "id": "P19",
+  "name": "Moon Moth",
+  "category": "Pets",
+  "reference": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\PlaygroundClassics-ItemPetReferences-20261004\\PlaygroundClassics-ItemPetReferences-20261004\\Pets\\Originals\\p19-moon-moth.png",
+  "brief": "A round cream moth pet with two large chunky symmetrical violet wings, pale cyan crescent-shaped inlays, short plush antennae and two tiny navy feet. Friendly oversized dark eyes. Wing shapes are solid and simple, not delicate veined insect wings.",
+  "blend": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Blend\\p19-moon-moth.blend",
+  "fbx": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\FBX\\p19-moon-moth.fbx",
+  "texture": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Textures\\p19-moon-moth-palette.png",
+  "preview": "C:\\Users\\sandt\\Documents\\Local Projects\\Roblox UI Assets\\PlayGround Classics\\Blender\\Pets\\Previews\\p19-moon-moth.png",
+  "parts": 55,
+  "triangles": 14820,
+  "meshes": 1,
+  "maxMeshTriangles": 14820,
+  "dimensions": [
+    2.3767940998077393,
+    0.7890000343322754,
+    2.1206040382385254
+  ],
+  "boundsMin": [
+    -1.1883970499038696,
+    -0.4989999830722809,
+    0.019999995827674866
+  ],
+  "boundsMax": [
+    1.1883970499038696,
+    0.2900000214576721,
+    2.140604019165039
+  ],
+  "paletteColors": 6,
+  "anchors": {
+    "FollowAttachment": [
+      0.0,
+      0.25,
+      0.6499999761581421
+    ],
+    "DisplayFocus": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "editable": true,
+  "rigged": false,
+  "gameplayImplemented": false
+}

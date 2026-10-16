@@ -1,0 +1,1484 @@
+{
+  "excluded": {
+    "historical-backup": 448
+  },
+  "dirtyStatus": "Unavailable",
+  "placeId": 95034648955135,
+  "placeVersion": 307,
+  "name": "Place4",
+  "scripts": [
+    {
+      "bytes": 26042,
+      "path": "ReplicatedStorage.PlaygroundCatalog",
+      "segments": [
+        "ReplicatedStorage",
+        "PlaygroundCatalog"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "e5296f9de1b2b51b0cedb5ca6feba2f27930e890bf7000189938472061853db4",
+      "file": "scripts/ReplicatedStorage/PlaygroundCatalog.luau"
+    },
+    {
+      "bytes": 2850,
+      "path": "ReplicatedStorage.SkippingRopeMath",
+      "segments": [
+        "ReplicatedStorage",
+        "SkippingRopeMath"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "1b92ed6968a22c24f851bd61981fde4421bda14b74c2241f7ca0a07980be60f9",
+      "file": "scripts/ReplicatedStorage/SkippingRopeMath.luau"
+    },
+    {
+      "bytes": 1167,
+      "path": "ServerScriptService.BritishBulldogBootstrap",
+      "segments": [
+        "ServerScriptService",
+        "BritishBulldogBootstrap"
+      ],
+      "className": "Script",
+      "ordinals": [
+        1,
+        1
+      ],
+      "disabled": true,
+      "runContext": "Legacy",
+      "sha256": "e756f1e2cb5aefbcc4c1de72ec514f5ffb47bf492f15cee9d1e0f94ab4c1beb5",
+      "file": "scripts/ServerScriptService/BritishBulldogBootstrap.server.luau"
+    },
+    {
+      "bytes": 1053,
+      "path": "ServerScriptService.BritishBulldogRules",
+      "segments": [
+        "ServerScriptService",
+        "BritishBulldogRules"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "d1499e1b903533ddc5a6efaa04f56b50fb17a60788a2e822822a257cb6f4c0a0",
+      "file": "scripts/ServerScriptService/BritishBulldogRules.luau"
+    },
+    {
+      "bytes": 75723,
+      "path": "ServerScriptService.BritishBulldogService",
+      "segments": [
+        "ServerScriptService",
+        "BritishBulldogService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "58905d948bc3ce9ce8ff8bd2cdf4843b21be1b2ef108d3adf427dca4e12f2f24",
+      "file": "scripts/ServerScriptService/BritishBulldogService.luau"
+    },
+    {
+      "bytes": 57510,
+      "path": "ServerScriptService.DuckDuckGooseService",
+      "segments": [
+        "ServerScriptService",
+        "DuckDuckGooseService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "68a1e34eaa75c56cc650a4e5057dc6fce0d8916212c67cddeac49da18193adeb",
+      "file": "scripts/ServerScriptService/DuckDuckGooseService.luau"
+    },
+    {
+      "bytes": 63672,
+      "path": "ServerScriptService.HideAndSeekService",
+      "segments": [
+        "ServerScriptService",
+        "HideAndSeekService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "efcec2ef6d9944a83e94c61cb15035fddeda3c66cba9e47720b3f0158b33cfd3",
+      "file": "scripts/ServerScriptService/HideAndSeekService.luau"
+    },
+    {
+      "bytes": 8945,
+      "path": "ServerScriptService.PlaygroundAdminService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundAdminService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "9506010cb12a78285818cabd874b40458d67f9c006fa391784b002b467aba5c5",
+      "file": "scripts/ServerScriptService/PlaygroundAdminService.luau"
+    },
+    {
+      "bytes": 8048,
+      "path": "ServerScriptService.PlaygroundBootstrap",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundBootstrap"
+      ],
+      "className": "Script",
+      "ordinals": [
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "6e7bddc677371402f2b96e4afc444c2ff468be518d80e10c318e98cc5f7f9513",
+      "file": "scripts/ServerScriptService/PlaygroundBootstrap.server.luau"
+    },
+    {
+      "bytes": 7829,
+      "path": "ServerScriptService.PlaygroundCommerceService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundCommerceService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "841d1ccfffebb471011f543042b716066ba15e6ff65019503673f05ab79f6e31",
+      "file": "scripts/ServerScriptService/PlaygroundCommerceService.luau"
+    },
+    {
+      "bytes": 25267,
+      "path": "ServerScriptService.PlaygroundCoordinator",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundCoordinator"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "fc796889177edd7f08bdde68ff04957a825ad401d97db3d7dcaacddb65e30a9d",
+      "file": "scripts/ServerScriptService/PlaygroundCoordinator.luau"
+    },
+    {
+      "bytes": 58588,
+      "path": "ServerScriptService.PlaygroundEconomyService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundEconomyService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "73fccbb85119a6ceedd6b3304d7ddf2bae8f73fcb49bfd69cfdc4086ef148fdb",
+      "file": "scripts/ServerScriptService/PlaygroundEconomyService.luau"
+    },
+    {
+      "bytes": 35668,
+      "path": "ServerScriptService.PlaygroundEquipmentService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundEquipmentService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "07f3b3ae6261a63bd0e6dc1664d16f6b00b744d3042ea5d280638bd2cf3ef4b2",
+      "file": "scripts/ServerScriptService/PlaygroundEquipmentService.luau"
+    },
+    {
+      "bytes": 6258,
+      "path": "ServerScriptService.PlaygroundFishingService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundFishingService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "7dab89616aaaecd90d36d904a793cd774ecbbab1c5a10fd50c3225bf4ff7a9eb",
+      "file": "scripts/ServerScriptService/PlaygroundFishingService.luau"
+    },
+    {
+      "bytes": 19918,
+      "path": "ServerScriptService.PlaygroundLeaderboardService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundLeaderboardService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "754aafb1eae1b79eb474c57fa12e0f776af00281a81e7569e25a2ea95aa3e31a",
+      "file": "scripts/ServerScriptService/PlaygroundLeaderboardService.luau"
+    },
+    {
+      "bytes": 3579,
+      "path": "ServerScriptService.PlaygroundLobbyBenchService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundLobbyBenchService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "fe1bcefca98c141e99c889525f3b5b39fb0b098db55977cf20f00bc71e9ae6a6",
+      "file": "scripts/ServerScriptService/PlaygroundLobbyBenchService.luau"
+    },
+    {
+      "bytes": 5321,
+      "path": "ServerScriptService.PlaygroundLobbySwingService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundLobbySwingService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "d2342d2d3e8beffe1cbc660b695a9826bc893f52dd216c3f72128c1aad740490",
+      "file": "scripts/ServerScriptService/PlaygroundLobbySwingService.luau"
+    },
+    {
+      "bytes": 6494,
+      "path": "ServerScriptService.PlaygroundPushService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundPushService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "1786b6c1dd17a16d62c3c69229d4ffe2b46e5c8d16a735fec1303bc74f7aaee1",
+      "file": "scripts/ServerScriptService/PlaygroundPushService.luau"
+    },
+    {
+      "bytes": 10,
+      "path": "ServerScriptService.PlaygroundRedemptionCodes",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundRedemptionCodes"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "1232d8379de77e154ca533689af2e42629dd7574bda5a0a390799849f07607c3",
+      "file": "scripts/ServerScriptService/PlaygroundRedemptionCodes.luau"
+    },
+    {
+      "bytes": 2235,
+      "path": "ServerScriptService.PlaygroundRegions",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundRegions"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "9600da1dc2403cd36ac5e1381f48ac67c091dcbc8471e32fa1db50addfd4d77f",
+      "file": "scripts/ServerScriptService/PlaygroundRegions.luau"
+    },
+    {
+      "bytes": 9436,
+      "path": "ServerScriptService.PlaygroundSecretObbyService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundSecretObbyService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "72eb95c37f3587ec50ebd22469c8b0914594d4ab8a6f3e16d0a83864052f663f",
+      "file": "scripts/ServerScriptService/PlaygroundSecretObbyService.luau"
+    },
+    {
+      "bytes": 33869,
+      "path": "ServerScriptService.PlaygroundToyService",
+      "segments": [
+        "ServerScriptService",
+        "PlaygroundToyService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "9dd5d9ccc5612895ce2f799d4eec35dac3451c0a9eb13bfd449535ff30fc2f68",
+      "file": "scripts/ServerScriptService/PlaygroundToyService.luau"
+    },
+    {
+      "bytes": 23856,
+      "path": "ServerScriptService.SkippingRopeService",
+      "segments": [
+        "ServerScriptService",
+        "SkippingRopeService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "f46859980f1ecdf0cf83c886f50f2e39aa783ebc6979687d9670b94d2fc10447",
+      "file": "scripts/ServerScriptService/SkippingRopeService.luau"
+    },
+    {
+      "bytes": 54410,
+      "path": "ServerScriptService.StuckInTheMudService",
+      "segments": [
+        "ServerScriptService",
+        "StuckInTheMudService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "927f69d1b28c30403ee2692db863071f8fdb73a19f717cc0c387e0161ee457cf",
+      "file": "scripts/ServerScriptService/StuckInTheMudService.luau"
+    },
+    {
+      "bytes": 68001,
+      "path": "ServerScriptService.TagService",
+      "segments": [
+        "ServerScriptService",
+        "TagService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "214a9f2148ad9ad78a50c4563ee2c7c289833a4c6a43c1408a5d32894ed23f5e",
+      "file": "scripts/ServerScriptService/TagService.luau"
+    },
+    {
+      "bytes": 5460,
+      "path": "ServerScriptService.TagSprintService",
+      "segments": [
+        "ServerScriptService",
+        "TagSprintService"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1
+      ],
+      "sha256": "de93214159954e033857612352e81d62f47ca28fdc73ae1a7b78e080bb3474e6",
+      "file": "scripts/ServerScriptService/TagSprintService.luau"
+    },
+    {
+      "bytes": 28802,
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R15_HeatGun_Stand.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "GunGripPosePreview20261004",
+        "R15_HeatGun_Stand",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "49eab7530cfc33b8af13b995ae1fa87f482a489b6d108ec2410d12dd19b720f0",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R15_HeatGun_Stand/Animate.client.luau"
+    },
+    {
+      "bytes": 28802,
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R15_HeatGun_Walk.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "GunGripPosePreview20261004",
+        "R15_HeatGun_Walk",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "49eab7530cfc33b8af13b995ae1fa87f482a489b6d108ec2410d12dd19b720f0",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R15_HeatGun_Walk/Animate.client.luau"
+    },
+    {
+      "bytes": 28802,
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R15_MudGun_Stand.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "GunGripPosePreview20261004",
+        "R15_MudGun_Stand",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "49eab7530cfc33b8af13b995ae1fa87f482a489b6d108ec2410d12dd19b720f0",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R15_MudGun_Stand/Animate.client.luau"
+    },
+    {
+      "bytes": 28802,
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R15_MudGun_Walk.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "GunGripPosePreview20261004",
+        "R15_MudGun_Walk",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "49eab7530cfc33b8af13b995ae1fa87f482a489b6d108ec2410d12dd19b720f0",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R15_MudGun_Walk/Animate.client.luau"
+    },
+    {
+      "bytes": 15630,
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R6_HeatGun_Stand.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "GunGripPosePreview20261004",
+        "R6_HeatGun_Stand",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "f388a285e9660c66289582808536c6b352e0a70301589cf345073e45c0c3c2d7",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R6_HeatGun_Stand/Animate.client.luau"
+    },
+    {
+      "bytes": 15630,
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R6_HeatGun_Walk.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "GunGripPosePreview20261004",
+        "R6_HeatGun_Walk",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "f388a285e9660c66289582808536c6b352e0a70301589cf345073e45c0c3c2d7",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R6_HeatGun_Walk/Animate.client.luau"
+    },
+    {
+      "bytes": 15630,
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R6_MudGun_Stand.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "GunGripPosePreview20261004",
+        "R6_MudGun_Stand",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "f388a285e9660c66289582808536c6b352e0a70301589cf345073e45c0c3c2d7",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R6_MudGun_Stand/Animate.client.luau"
+    },
+    {
+      "bytes": 15630,
+      "path": "ServerStorage.WeaponRigFixtures.GunGripPosePreview20261004.R6_MudGun_Walk.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "GunGripPosePreview20261004",
+        "R6_MudGun_Walk",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "f388a285e9660c66289582808536c6b352e0a70301589cf345073e45c0c3c2d7",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/GunGripPosePreview20261004/R6_MudGun_Walk/Animate.client.luau"
+    },
+    {
+      "bytes": 28802,
+      "path": "ServerStorage.WeaponRigFixtures.R15.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "R15",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "49eab7530cfc33b8af13b995ae1fa87f482a489b6d108ec2410d12dd19b720f0",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/R15/Animate.client.luau"
+    },
+    {
+      "bytes": 15630,
+      "path": "ServerStorage.WeaponRigFixtures.R6.Animate",
+      "segments": [
+        "ServerStorage",
+        "WeaponRigFixtures",
+        "R6",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "f388a285e9660c66289582808536c6b352e0a70301589cf345073e45c0c3c2d7",
+      "file": "scripts/ServerStorage/WeaponRigFixtures/R6/Animate.client.luau"
+    },
+    {
+      "bytes": 4581,
+      "path": "StarterGui.BritishBulldogHUD.BackgroundFallbackController",
+      "segments": [
+        "StarterGui",
+        "BritishBulldogHUD",
+        "BackgroundFallbackController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "43656154894d1920fca8876cb3e38f64cf42b3d36009428776776579adf3e560",
+      "file": "scripts/StarterGui/BritishBulldogHUD/BackgroundFallbackController.client.luau"
+    },
+    {
+      "bytes": 7470,
+      "path": "StarterGui.BritishBulldogHUD.Controller",
+      "segments": [
+        "StarterGui",
+        "BritishBulldogHUD",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "b4c8e1f62e0dfe30d310d15cb7d10cbd44247b73d4cc0c1d88051c60cc5d7725",
+      "file": "scripts/StarterGui/BritishBulldogHUD/Controller.client.luau"
+    },
+    {
+      "bytes": 13873,
+      "path": "StarterGui.BritishBulldogHUD.MovementController",
+      "segments": [
+        "StarterGui",
+        "BritishBulldogHUD",
+        "MovementController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "eaf8ced81c5a641cf62b01621b4e8023f7556673a5637c31dd2e00784acaa437",
+      "file": "scripts/StarterGui/BritishBulldogHUD/MovementController.client.luau"
+    },
+    {
+      "bytes": 7065,
+      "path": "StarterGui.BritishBulldogHUD.ReusableSkinController",
+      "segments": [
+        "StarterGui",
+        "BritishBulldogHUD",
+        "ReusableSkinController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "b8067b56b53370c48fc2c7e5d2489d7361064277d3403f8b18cca2a68cdda5fd",
+      "file": "scripts/StarterGui/BritishBulldogHUD/ReusableSkinController.client.luau"
+    },
+    {
+      "bytes": 11450,
+      "path": "StarterGui.DuckDuckGooseHUD.Controller",
+      "segments": [
+        "StarterGui",
+        "DuckDuckGooseHUD",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "c8e09a05c954e685aa197f87abeccbdcf9923cfa3d2b05b19cd83141946b90f1",
+      "file": "scripts/StarterGui/DuckDuckGooseHUD/Controller.client.luau"
+    },
+    {
+      "bytes": 7983,
+      "path": "StarterGui.DuckDuckGooseHUD.Guidance",
+      "segments": [
+        "StarterGui",
+        "DuckDuckGooseHUD",
+        "Guidance"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "77cee09be452054c5b4396b16d86cb8b14cda10da4e18a759a7d223e2b31ce67",
+      "file": "scripts/StarterGui/DuckDuckGooseHUD/Guidance.luau"
+    },
+    {
+      "bytes": 13378,
+      "path": "StarterGui.HideAndSeekHUD.Abilities",
+      "segments": [
+        "StarterGui",
+        "HideAndSeekHUD",
+        "Abilities"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "7cbe1b88e1283ab1661c17faf6864f891f702bdd127dcf5abaf2d68f424d0425",
+      "file": "scripts/StarterGui/HideAndSeekHUD/Abilities.luau"
+    },
+    {
+      "bytes": 9074,
+      "path": "StarterGui.HideAndSeekHUD.Controller",
+      "segments": [
+        "StarterGui",
+        "HideAndSeekHUD",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "d6a78947b8c72bf80fc3f58738920f5a1075a5f2e3e099976f86b8db0778c7b0",
+      "file": "scripts/StarterGui/HideAndSeekHUD/Controller.client.luau"
+    },
+    {
+      "bytes": 4581,
+      "path": "StarterGui.MudHUD.BackgroundFallbackController",
+      "segments": [
+        "StarterGui",
+        "MudHUD",
+        "BackgroundFallbackController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "43656154894d1920fca8876cb3e38f64cf42b3d36009428776776579adf3e560",
+      "file": "scripts/StarterGui/MudHUD/BackgroundFallbackController.client.luau"
+    },
+    {
+      "bytes": 17191,
+      "path": "StarterGui.MudHUD.Controller",
+      "segments": [
+        "StarterGui",
+        "MudHUD",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "793f26f99599245bcf836b3d0eff998a1619bc557e4f7cc008f4734a2ba67c9a",
+      "file": "scripts/StarterGui/MudHUD/Controller.client.luau"
+    },
+    {
+      "bytes": 7065,
+      "path": "StarterGui.MudHUD.ReusableSkinController",
+      "segments": [
+        "StarterGui",
+        "MudHUD",
+        "ReusableSkinController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "b8067b56b53370c48fc2c7e5d2489d7361064277d3403f8b18cca2a68cdda5fd",
+      "file": "scripts/StarterGui/MudHUD/ReusableSkinController.client.luau"
+    },
+    {
+      "bytes": 4581,
+      "path": "StarterGui.PlaygroundAdminPanel.BackgroundFallbackController",
+      "segments": [
+        "StarterGui",
+        "PlaygroundAdminPanel",
+        "BackgroundFallbackController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "43656154894d1920fca8876cb3e38f64cf42b3d36009428776776579adf3e560",
+      "file": "scripts/StarterGui/PlaygroundAdminPanel/BackgroundFallbackController.client.luau"
+    },
+    {
+      "bytes": 17045,
+      "path": "StarterGui.PlaygroundAdminPanel.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundAdminPanel",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "595dc90a5acba2571bb81d083e7608fdd069db68d6931a41820aec06fa43dded",
+      "file": "scripts/StarterGui/PlaygroundAdminPanel/Controller.client.luau"
+    },
+    {
+      "bytes": 7065,
+      "path": "StarterGui.PlaygroundAdminPanel.ReusableSkinController",
+      "segments": [
+        "StarterGui",
+        "PlaygroundAdminPanel",
+        "ReusableSkinController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "b8067b56b53370c48fc2c7e5d2489d7361064277d3403f8b18cca2a68cdda5fd",
+      "file": "scripts/StarterGui/PlaygroundAdminPanel/ReusableSkinController.client.luau"
+    },
+    {
+      "bytes": 4400,
+      "path": "StarterGui.PlaygroundBatControls.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundBatControls",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "928206d247988c41ee8689159790b71442b630a2fd61b377b905a467e374affb",
+      "file": "scripts/StarterGui/PlaygroundBatControls/Controller.client.luau"
+    },
+    {
+      "bytes": 5845,
+      "path": "StarterGui.PlaygroundDonations.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundDonations",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "3335970f829009a7a40ebb5e5318247eb76b4558f25e88b2f03b71ca75d5bc9e",
+      "file": "scripts/StarterGui/PlaygroundDonations/Controller.client.luau"
+    },
+    {
+      "bytes": 16597,
+      "path": "StarterGui.PlaygroundEmoteWheel.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundEmoteWheel",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "882f4787be947ca7aad6ea70eab588892886d93ad27a638c4e728b94122db4e4",
+      "file": "scripts/StarterGui/PlaygroundEmoteWheel/Controller.client.luau"
+    },
+    {
+      "bytes": 3653,
+      "path": "StarterGui.PlaygroundFishingHUD.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundFishingHUD",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "8ab5d3e3d8ba35ac3bd1313cd94be017a7d51630f3916d06d9c83e6795289ccd",
+      "file": "scripts/StarterGui/PlaygroundFishingHUD/Controller.client.luau"
+    },
+    {
+      "bytes": 4513,
+      "path": "StarterGui.PlaygroundIntermissionHUD.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundIntermissionHUD",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "6bb51028457099f07247ada4d68b4484d038c486ea8e2e475f960c0c9e787ebd",
+      "file": "scripts/StarterGui/PlaygroundIntermissionHUD/Controller.client.luau"
+    },
+    {
+      "bytes": 4581,
+      "path": "StarterGui.PlaygroundLeaderboards.BackgroundFallbackController",
+      "segments": [
+        "StarterGui",
+        "PlaygroundLeaderboards",
+        "BackgroundFallbackController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "43656154894d1920fca8876cb3e38f64cf42b3d36009428776776579adf3e560",
+      "file": "scripts/StarterGui/PlaygroundLeaderboards/BackgroundFallbackController.client.luau"
+    },
+    {
+      "bytes": 11963,
+      "path": "StarterGui.PlaygroundLeaderboards.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundLeaderboards",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "1b5f51bfe64e5dadab3b2f6fe779cb3d2f617bab40f7d0db18233c4547241ac5",
+      "file": "scripts/StarterGui/PlaygroundLeaderboards/Controller.client.luau"
+    },
+    {
+      "bytes": 18069,
+      "path": "StarterGui.PlaygroundPodium.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundPodium",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "658301537e268675538b018186a7d51028e1c7a3e282ff112eeaace50df56f20",
+      "file": "scripts/StarterGui/PlaygroundPodium/Controller.client.luau"
+    },
+    {
+      "bytes": 6359,
+      "path": "StarterGui.PlaygroundPushControls.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundPushControls",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "f4c783b33d9088e485dfafa7062900dcb8b12c114a9f87d5c1fb2088478e9e78",
+      "file": "scripts/StarterGui/PlaygroundPushControls/Controller.client.luau"
+    },
+    {
+      "bytes": 3243,
+      "path": "StarterGui.PlaygroundSessionControls.CodeController",
+      "segments": [
+        "StarterGui",
+        "PlaygroundSessionControls",
+        "CodeController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "9c9915e5670aca7c9b4abd038e4e3d1e99e3d8274caca235d6b4d7af87c8d22c",
+      "file": "scripts/StarterGui/PlaygroundSessionControls/CodeController.client.luau"
+    },
+    {
+      "bytes": 22048,
+      "path": "StarterGui.PlaygroundSessionControls.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundSessionControls",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "b1a1d17c62a59a054d23184da448ec326c513d900c73a8afde84c481d2ff6404",
+      "file": "scripts/StarterGui/PlaygroundSessionControls/Controller.client.luau"
+    },
+    {
+      "bytes": 4581,
+      "path": "StarterGui.PlaygroundShell.BackgroundFallbackController",
+      "segments": [
+        "StarterGui",
+        "PlaygroundShell",
+        "BackgroundFallbackController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "43656154894d1920fca8876cb3e38f64cf42b3d36009428776776579adf3e560",
+      "file": "scripts/StarterGui/PlaygroundShell/BackgroundFallbackController.client.luau"
+    },
+    {
+      "bytes": 7098,
+      "path": "StarterGui.PlaygroundShell.CommerceController",
+      "segments": [
+        "StarterGui",
+        "PlaygroundShell",
+        "CommerceController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "d45fe81f104e270d750a920bd994922127360048a657602cb99bd5c0415e96e3",
+      "file": "scripts/StarterGui/PlaygroundShell/CommerceController.client.luau"
+    },
+    {
+      "bytes": 31447,
+      "path": "StarterGui.PlaygroundShell.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundShell",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "067cd056d86eb51da33267958b43bf697761da2295f753bde27d7f9d7f76738e",
+      "file": "scripts/StarterGui/PlaygroundShell/Controller.client.luau"
+    },
+    {
+      "bytes": 12387,
+      "path": "StarterGui.PlaygroundShell.PlayerLevelController",
+      "segments": [
+        "StarterGui",
+        "PlaygroundShell",
+        "PlayerLevelController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "3528d64dc5a8ab21ae9b4d9598fa05bfb90acd9f83baaf38218014735090bfca",
+      "file": "scripts/StarterGui/PlaygroundShell/PlayerLevelController.client.luau"
+    },
+    {
+      "bytes": 7065,
+      "path": "StarterGui.PlaygroundShell.ReusableSkinController",
+      "segments": [
+        "StarterGui",
+        "PlaygroundShell",
+        "ReusableSkinController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "b8067b56b53370c48fc2c7e5d2489d7361064277d3403f8b18cca2a68cdda5fd",
+      "file": "scripts/StarterGui/PlaygroundShell/ReusableSkinController.client.luau"
+    },
+    {
+      "bytes": 12207,
+      "path": "StarterGui.PlaygroundToyHotbar.Controller",
+      "segments": [
+        "StarterGui",
+        "PlaygroundToyHotbar",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "d7430058a3150390343f638635bfc0eff9de652b9bb54094f5fed35e5aa614b8",
+      "file": "scripts/StarterGui/PlaygroundToyHotbar/Controller.client.luau"
+    },
+    {
+      "bytes": 4829,
+      "path": "StarterGui.SkippingRopeHUD.Controller",
+      "segments": [
+        "StarterGui",
+        "SkippingRopeHUD",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "58095d05972eb721663bdafb0f5a0667dcb6eff34bcb3f3300586021d8748b40",
+      "file": "scripts/StarterGui/SkippingRopeHUD/Controller.client.luau"
+    },
+    {
+      "bytes": 1185,
+      "path": "StarterGui.SkippingRopeHUD.Presentation",
+      "segments": [
+        "StarterGui",
+        "SkippingRopeHUD",
+        "Presentation"
+      ],
+      "className": "ModuleScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "sha256": "392aab2ef1a393438b2eef339c86c97570a67472fff82c2f3a548c6c518c1a0f",
+      "file": "scripts/StarterGui/SkippingRopeHUD/Presentation.luau"
+    },
+    {
+      "bytes": 4581,
+      "path": "StarterGui.TagHUD.BackgroundFallbackController",
+      "segments": [
+        "StarterGui",
+        "TagHUD",
+        "BackgroundFallbackController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "43656154894d1920fca8876cb3e38f64cf42b3d36009428776776579adf3e560",
+      "file": "scripts/StarterGui/TagHUD/BackgroundFallbackController.client.luau"
+    },
+    {
+      "bytes": 6835,
+      "path": "StarterGui.TagHUD.Controller",
+      "segments": [
+        "StarterGui",
+        "TagHUD",
+        "Controller"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "cb36472bd3b96180e7b3bd9a3b1fd8fce862a751387775d25b61ab65390b30d1",
+      "file": "scripts/StarterGui/TagHUD/Controller.client.luau"
+    },
+    {
+      "bytes": 7065,
+      "path": "StarterGui.TagHUD.ReusableSkinController",
+      "segments": [
+        "StarterGui",
+        "TagHUD",
+        "ReusableSkinController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "b8067b56b53370c48fc2c7e5d2489d7361064277d3403f8b18cca2a68cdda5fd",
+      "file": "scripts/StarterGui/TagHUD/ReusableSkinController.client.luau"
+    },
+    {
+      "bytes": 6495,
+      "path": "StarterGui.TagHUD.SprintController",
+      "segments": [
+        "StarterGui",
+        "TagHUD",
+        "SprintController"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "df87ee68834fd80b42edbad9d9387904da5610e8b3fd9fb4dab65712551b742f",
+      "file": "scripts/StarterGui/TagHUD/SprintController.client.luau"
+    },
+    {
+      "bytes": 4903,
+      "path": "StarterPlayer.StarterPlayerScripts.4 ORBIT REVEAL",
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "4 ORBIT REVEAL"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "bf22f5fd2c9391fe3c5dbedf11c95207bd4d975c1c28d3fe1386ca013a735fcc",
+      "file": "scripts/StarterPlayer/StarterPlayerScripts/4%20ORBIT%20REVEAL.client.luau"
+    },
+    {
+      "bytes": 4647,
+      "path": "StarterPlayer.StarterPlayerScripts.BritishBulldogCamera",
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "BritishBulldogCamera"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "6601de121079e26732369491d95c9e404b13ef46d9402592e4417a47924d487e",
+      "file": "scripts/StarterPlayer/StarterPlayerScripts/BritishBulldogCamera.client.luau"
+    },
+    {
+      "bytes": 41362,
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundEmotes",
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "PlaygroundEmotes"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "d6de6001b65fbf664d7996af0b2d9e479d2af239993e63a4cc6e6da101307b11",
+      "file": "scripts/StarterPlayer/StarterPlayerScripts/PlaygroundEmotes.client.luau"
+    },
+    {
+      "bytes": 2844,
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundLobbyAtmosphere",
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "PlaygroundLobbyAtmosphere"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "40e9089c0855511e2ba2f7c58f9331505a3786ca19933b42c7df2e8a7af58f34",
+      "file": "scripts/StarterPlayer/StarterPlayerScripts/PlaygroundLobbyAtmosphere.client.luau"
+    },
+    {
+      "bytes": 17828,
+      "path": "StarterPlayer.StarterPlayerScripts.PlaygroundPets",
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "PlaygroundPets"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "eca1dabe1b473280a39fc6d4d3500746a630c879191c143762d0dddbd5de3986",
+      "file": "scripts/StarterPlayer/StarterPlayerScripts/PlaygroundPets.client.luau"
+    },
+    {
+      "bytes": 4459,
+      "path": "StarterPlayer.StarterPlayerScripts.SkippingRopeVisuals",
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "SkippingRopeVisuals"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "b3847ac89ff55471167e0d3ea722b13360cc6c7b949280dd6315a44fb467c110",
+      "file": "scripts/StarterPlayer/StarterPlayerScripts/SkippingRopeVisuals.client.luau"
+    },
+    {
+      "bytes": 28802,
+      "path": "Workspace.Owner - Lead Developer.Animate",
+      "segments": [
+        "Workspace",
+        "Owner - Lead Developer",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "49eab7530cfc33b8af13b995ae1fa87f482a489b6d108ec2410d12dd19b720f0",
+      "file": "scripts/Workspace/Owner%20-%20Lead%20Developer/Animate.client.luau"
+    },
+    {
+      "bytes": 28802,
+      "path": "Workspace.Rig.Animate",
+      "segments": [
+        "Workspace",
+        "Rig",
+        "Animate"
+      ],
+      "className": "LocalScript",
+      "ordinals": [
+        1,
+        1,
+        1
+      ],
+      "disabled": false,
+      "runContext": "Legacy",
+      "sha256": "49eab7530cfc33b8af13b995ae1fa87f482a489b6d108ec2410d12dd19b720f0",
+      "file": "scripts/Workspace/Rig/Animate.client.luau"
+    }
+  ],
+  "sourceMethod": "ScriptEditorService:GetEditorSource",
+  "capturedAtUtc": "2026-10-16T00:05:07Z",
+  "creatorId": 168026080,
+  "gameId": 10769034155
+}
